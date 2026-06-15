@@ -92,6 +92,30 @@ CONTROLLED_VOCABULARY_SECTIONS = [
     "support_dimensions",
 ]
 
+RELIABILITY_DISAGREEMENT_CATEGORIES = {
+    "lexical_segmentation",
+    "contextual_meaning",
+    "basic_meaning",
+    "metaphor_decision",
+    "confidence",
+    "source_domain_ambiguity",
+}
+
+ADJUDICATION_LOG_REQUIRED = [
+    "adjudication_id",
+    "batch_id",
+    "mipvu_id",
+    "document_id",
+    "sentence_id",
+    "lexical_unit",
+    "coder_a_decision",
+    "coder_b_decision",
+    "disagreement_category",
+    "adjudicated_decision",
+    "adjudication_status",
+    "rationale",
+]
+
 
 class Validator:
     def __init__(self) -> None:
@@ -444,11 +468,113 @@ class Validator:
             if data.get("status") not in {"stub", "complete", "ready", "error", "draft"}:
                 self.error(path, "status has unexpected value")
 
+    def validate_reliability_artifacts(
+        self,
+        case_id: str,
+        sentence_ids: set[str],
+        mipvu_lookup: dict[str, dict[str, Any]],
+    ) -> None:
+        quality_dir = case_dir(case_id) / "quality"
+        sample_path = quality_dir / "reliability-sample.json"
+        if sample_path.exists():
+            sample = read_json(sample_path, {}) or {}
+            if not isinstance(sample, dict):
+                self.error(sample_path, "reliability sample must be an object")
+            elif sample.get("case_id") != case_id:
+                self.error(sample_path, f"case_id must be `{case_id}`")
+            else:
+                required_categories = set(sample.get("disagreement_categories", []))
+                missing_categories = sorted(RELIABILITY_DISAGREEMENT_CATEGORIES - required_categories)
+                if missing_categories:
+                    self.error(sample_path, f"missing disagreement categories: {', '.join(missing_categories)}")
+
+                reliability_sample = sample.get("reliability_sample", {})
+                sentences = reliability_sample.get("sampled_sentences") if isinstance(reliability_sample, dict) else None
+                if not isinstance(sentences, list) or not sentences:
+                    self.error(sample_path, "reliability_sample.sampled_sentences must be a non-empty array")
+                else:
+                    total_units = 0
+                    sentence_counts: dict[str, int] = {}
+                    for unit in mipvu_lookup.values():
+                        sid = str(unit.get("sentence_id") or "")
+                        if sid:
+                            sentence_counts[sid] = sentence_counts.get(sid, 0) + 1
+                    for index, sentence in enumerate(sentences):
+                        if not isinstance(sentence, dict):
+                            self.error(sample_path, f"sampled_sentences[{index}] must be an object")
+                            continue
+                        sentence_id = str(sentence.get("sentence_id") or "")
+                        if not sentence_id:
+                            self.error(sample_path, f"sampled_sentences[{index}] missing sentence_id")
+                            continue
+                        if sentence_id not in sentence_ids:
+                            self.error(sample_path, f"{sentence_id}: not found in segmented docs")
+                        expected_count = sentence_counts.get(sentence_id)
+                        recorded_count = sentence.get("lexical_unit_count")
+                        if not isinstance(recorded_count, int):
+                            self.error(sample_path, f"{sentence_id}: lexical_unit_count must be an integer")
+                        elif expected_count is not None and recorded_count != expected_count:
+                            self.error(
+                                sample_path,
+                                f"{sentence_id}: lexical_unit_count {recorded_count} does not match MIPVU count {expected_count}",
+                            )
+                        if isinstance(recorded_count, int):
+                            total_units += recorded_count
+                    recorded_total = reliability_sample.get("sample_lexical_units")
+                    if isinstance(recorded_total, int) and recorded_total != total_units:
+                        self.error(
+                            sample_path,
+                            f"sample_lexical_units {recorded_total} does not match sampled sentence total {total_units}",
+                        )
+                    sample_rate = reliability_sample.get("sample_rate")
+                    if sample_rate is not None and (
+                        not isinstance(sample_rate, (int, float)) or sample_rate <= 0 or sample_rate > 1
+                    ):
+                        self.error(sample_path, "sample_rate must be in (0, 1]")
+
+            report_path = quality_dir / "reliability-report.md"
+            if not report_path.exists() or not report_path.read_text(encoding="utf-8").strip():
+                self.error(report_path, "reliability report is required when reliability-sample.json exists")
+
+        log_path = quality_dir / "adjudication-log.csv"
+        if log_path.exists():
+            try:
+                with log_path.open(newline="", encoding="utf-8") as handle:
+                    reader = csv.DictReader(handle)
+                    missing_columns = [
+                        field for field in ADJUDICATION_LOG_REQUIRED if field not in (reader.fieldnames or [])
+                    ]
+                    if missing_columns:
+                        self.error(log_path, f"missing column(s): {', '.join(missing_columns)}")
+                        return
+                    for index, row in enumerate(reader, start=2):
+                        mipvu_id = (row.get("mipvu_id") or "").strip()
+                        if not mipvu_id:
+                            self.error(log_path, f"row {index}: missing mipvu_id")
+                            continue
+                        unit = mipvu_lookup.get(mipvu_id)
+                        if not unit:
+                            self.error(log_path, f"row {index}: mipvu_id `{mipvu_id}` not found")
+                            continue
+                        for field in ["document_id", "sentence_id", "lexical_unit"]:
+                            if (row.get(field) or "").strip() != str(unit.get(field, "")).strip():
+                                self.error(log_path, f"row {index}: `{field}` does not match MIPVU unit")
+                        category = (row.get("disagreement_category") or "").strip()
+                        if category and category not in RELIABILITY_DISAGREEMENT_CATEGORIES:
+                            self.error(log_path, f"row {index}: invalid disagreement_category `{category}`")
+                        for field in ["coder_a_decision", "coder_b_decision", "adjudicated_decision"]:
+                            decision = (row.get(field) or "").strip()
+                            if decision and decision not in MIPVU_DECISION_TYPES:
+                                self.error(log_path, f"row {index}: invalid {field} `{decision}`")
+            except csv.Error as exc:
+                self.error(log_path, f"CSV parse error: {exc}")
+
     def validate_case(self, case_id: str, strict: bool = False) -> None:
         self.validate_manifest(case_id)
         self.validate_corpus_register(case_id)
         sentence_ids = self.validate_segmented(case_id)
         mipvu_lookup = self.validate_mipvu(case_id, sentence_ids, strict=strict)
+        self.validate_reliability_artifacts(case_id, sentence_ids, mipvu_lookup)
         self.validate_annotated(case_id, sentence_ids, mipvu_lookup)
         self.validate_concordance_and_analysis(case_id)
 

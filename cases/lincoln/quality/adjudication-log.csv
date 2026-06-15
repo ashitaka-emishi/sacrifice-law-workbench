@@ -1,0 +1,1 @@
+adjudication_id,batch_id,mipvu_id,document_id,sentence_id,lexical_unit,coder_a_decision,coder_b_decision,disagreement_category,adjudicated_decision,adjudication_status,rationale,updated,linked_codebook_change

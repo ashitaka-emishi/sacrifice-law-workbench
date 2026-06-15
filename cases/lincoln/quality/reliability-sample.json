@@ -1,0 +1,120 @@
+{
+  "version": "1.0",
+  "case_id": "lincoln",
+  "batch_id": "lincoln-reliability-v1",
+  "status": "sample-defined",
+  "updated": "2026-06-15",
+  "scope": "MIPVU metaphor-identification reliability for the Lincoln pilot corpus.",
+  "training_sample": {
+    "batch_id": "lincoln-pilot-v1",
+    "source": "cases/lincoln/metadata/mipvu-pilot-sample.json",
+    "use": "Joint training and codebook calibration before independent coding.",
+    "lexical_units": 192
+  },
+  "reliability_sample": {
+    "sampling_unit": "complete segmented sentence",
+    "selection_policy": "Sentence-level stratified sample independent from the training sample, preserving document coverage while keeping all lexical units in sampled sentences.",
+    "total_corpus_lexical_units": 4536,
+    "sample_lexical_units": 467,
+    "sample_rate": 0.103,
+    "sampled_sentences": [
+      {
+        "document_id": "lincoln-lyceum-address",
+        "sentence_id": "lincoln-lyceum-address_s01_p12_s01",
+        "document_date": "1838-01-27",
+        "period": "pre-war-union-republic-language",
+        "register": "public-address",
+        "lexical_unit_count": 95,
+        "rationale": "Tests government-attachment, suffering, endurance, and sacrifice language outside the earlier pilot sample."
+      },
+      {
+        "document_id": "lincoln-lyceum-address",
+        "sentence_id": "lincoln-lyceum-address_s01_p11_s15",
+        "document_date": "1838-01-27",
+        "period": "pre-war-union-republic-language",
+        "register": "public-address",
+        "lexical_unit_count": 90,
+        "rationale": "Includes blood, law, public order, and patriotic duty language for metaphor/non-metaphor boundary testing."
+      },
+      {
+        "document_id": "lincoln-lyceum-address",
+        "sentence_id": "lincoln-lyceum-address_s01_p24_s05",
+        "document_date": "1838-01-27",
+        "period": "pre-war-union-republic-language",
+        "register": "public-address",
+        "lexical_unit_count": 80,
+        "rationale": "Samples family, living history, and revolutionary-memory language."
+      },
+      {
+        "document_id": "lincoln-lyceum-address",
+        "sentence_id": "lincoln-lyceum-address_s01_p04_s06",
+        "document_date": "1838-01-27",
+        "period": "pre-war-union-republic-language",
+        "register": "public-address",
+        "lexical_unit_count": 77,
+        "rationale": "Samples inheritance, land, founding possession, and temple/edifice-adjacent language."
+      },
+      {
+        "document_id": "lincoln-second-inaugural",
+        "sentence_id": "lincoln-second-inaugural_s01_p06_s01",
+        "document_date": "1865-03-04",
+        "period": "final-reconciliation-memorialization",
+        "register": "inaugural-address",
+        "lexical_unit_count": 74,
+        "rationale": "Samples reconciliation, providential right, wounds, labor, and care language after the war."
+      },
+      {
+        "document_id": "lincoln-gettysburg-address",
+        "sentence_id": "lincoln-gettysburg-address_s01_p01_s01",
+        "document_date": "1863-11-19",
+        "period": "peak-war-sacrifice",
+        "register": "ceremonial-address",
+        "lexical_unit_count": 30,
+        "rationale": "Samples founding, conception, dedication, proposition, and equality language."
+      },
+      {
+        "document_id": "lincoln-gettysburg-address",
+        "sentence_id": "lincoln-gettysburg-address_s01_p04_s03",
+        "document_date": "1863-11-19",
+        "period": "peak-war-sacrifice",
+        "register": "ceremonial-address",
+        "lexical_unit_count": 21,
+        "rationale": "Samples memory, speech/action contrast, and rhetorical salience without overlap with the pilot sample."
+      }
+    ]
+  },
+  "procedure": {
+    "coders": 2,
+    "independent_coding": true,
+    "unit_policy": "Both coders code every lexical unit in the sampled sentences from the same generated MIPVU worklist.",
+    "blindness_policy": "Coders work from separate copies of the sample and do not inspect one another's decisions before agreement calculation.",
+    "agreement_measures": [
+      {
+        "id": "cohens_kappa_binary_metaphor_related",
+        "label": "Cohen's kappa on metaphor-related vs. not metaphor-related",
+        "primary": true,
+        "notes": "Treat mipvu_indirect, mipvu_direct, mipvu_implicit, mipvu_personification, and uncertain as metaphor-related for the primary stability check."
+      },
+      {
+        "id": "percent_agreement_decision_type",
+        "label": "Percent agreement on full MIPVU decision_type",
+        "primary": false,
+        "notes": "Reported as a transparent secondary measure because sparse multi-class labels make kappa unstable in early samples."
+      }
+    ],
+    "adjudication_policy": "Every disagreement receives one category, an adjudicated decision, rationale, and optional codebook-change note in cases/lincoln/quality/adjudication-log.csv."
+  },
+  "disagreement_categories": [
+    "lexical_segmentation",
+    "contextual_meaning",
+    "basic_meaning",
+    "metaphor_decision",
+    "confidence",
+    "source_domain_ambiguity"
+  ],
+  "limitations": [
+    "The sample is defined but has not yet been independently double-coded.",
+    "Cohen's kappa is selected for the primary two-coder binary metaphor-related decision; Krippendorff's alpha is deferred unless the project adds three or more coders or missing-code patterns.",
+    "Agreement statistics should not be used as publication evidence until coder files are archived and the adjudication log is complete."
+  ]
+}
