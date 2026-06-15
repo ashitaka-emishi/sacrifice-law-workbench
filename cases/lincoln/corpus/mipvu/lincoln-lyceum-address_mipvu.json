@@ -3,19 +3,15 @@
   "case_id": "lincoln",
   "document_id": "lincoln-lyceum-address",
   "source_language": "en",
-  "generated_at": "2026-06-14T21:24:35",
-  "status": "in_review",
+  "generated_at": "2026-06-15T14:56:18",
+  "status": "worklist",
   "meta": {
     "title": "Address Before the Young Men's Lyceum of Springfield, Illinois",
     "short_title": "Lyceum Address",
     "register": "political-speech",
     "date": "1838-01-27",
     "source_url": "https://www.gutenberg.org/ebooks/3253",
-    "annotation_language_policy": null,
-    "mipvu_review_policy": "pilot-sample-reviewed; remaining lexical units pending",
-    "review_batches": [
-      "lincoln-pilot-v1"
-    ]
+    "annotation_language_policy": "source-language"
   },
   "lexical_units": [
     {
@@ -6531,9 +6527,9 @@
       "review_status": "reviewed",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-pilot-v1",
+      "semantic_shift_risk": "low",
       "annotator": "codex-draft",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "semantic_shift_risk": "low"
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-lyceum-address_s01_p06_s04_lu002",
@@ -6552,9 +6548,9 @@
       "review_status": "reviewed",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-pilot-v1",
+      "semantic_shift_risk": "low",
       "annotator": "codex-draft",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "semantic_shift_risk": "low"
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-lyceum-address_s01_p06_s04_lu003",
@@ -6573,9 +6569,9 @@
       "review_status": "reviewed",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-pilot-v1",
+      "semantic_shift_risk": "low",
       "annotator": "codex-draft",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "semantic_shift_risk": "low"
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-lyceum-address_s01_p06_s04_lu004",
@@ -6594,9 +6590,9 @@
       "review_status": "reviewed",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-pilot-v1",
+      "semantic_shift_risk": "low",
       "annotator": "codex-draft",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "semantic_shift_risk": "low"
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-lyceum-address_s01_p06_s04_lu005",
@@ -6615,9 +6611,9 @@
       "review_status": "reviewed",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-pilot-v1",
+      "semantic_shift_risk": "low",
       "annotator": "codex-draft",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "semantic_shift_risk": "low"
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-lyceum-address_s01_p06_s04_lu006",
@@ -6636,9 +6632,9 @@
       "review_status": "reviewed",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-pilot-v1",
+      "semantic_shift_risk": "low",
       "annotator": "codex-draft",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "semantic_shift_risk": "low"
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-lyceum-address_s01_p06_s04_lu007",
@@ -6657,9 +6653,9 @@
       "review_status": "reviewed",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-pilot-v1",
+      "semantic_shift_risk": "low",
       "annotator": "codex-draft",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "semantic_shift_risk": "low"
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-lyceum-address_s01_p06_s04_lu008",
@@ -6676,19 +6672,19 @@
       "sentence_char_offset_start": 31,
       "sentence_char_offset_end": 35,
       "review_status": "reviewed",
+      "candidate_target_domain": "nation",
+      "basic_meaning": "a living organism remains alive",
+      "confidence": 0.92,
       "decision_type": "mipvu_personification",
       "review_batch": "lincoln-pilot-v1",
-      "annotator": "codex-draft",
-      "review_notes": "Early Lincoln body-politic survival language; compare with Gettysburg nation/live.",
-      "semantic_shift_risk": "low",
-      "contextual_meaning": "the nation continues in political existence",
-      "basic_meaning": "a living organism remains alive",
       "basic_meaning_source": "Webster 1828, 'live'",
-      "contrast_explanation": "A nation is not a biological organism, but it is construed as capable of living.",
       "comparison_basis": "Political existence is understood through bodily or organismic life.",
-      "confidence": 0.92,
+      "contextual_meaning": "the nation continues in political existence",
+      "semantic_shift_risk": "low",
+      "annotator": "codex-draft",
+      "contrast_explanation": "A nation is not a biological organism, but it is construed as capable of living.",
       "candidate_source_domain": "nature_organism",
-      "candidate_target_domain": "nation"
+      "review_notes": "Early Lincoln body-politic survival language; compare with Gettysburg nation/live."
     },
     {
       "mipvu_id": "lincoln-lyceum-address_s01_p06_s04_lu009",
@@ -6707,9 +6703,9 @@
       "review_status": "reviewed",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-pilot-v1",
+      "semantic_shift_risk": "low",
       "annotator": "codex-draft",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "semantic_shift_risk": "low"
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-lyceum-address_s01_p06_s04_lu010",
@@ -6728,9 +6724,9 @@
       "review_status": "reviewed",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-pilot-v1",
+      "semantic_shift_risk": "low",
       "annotator": "codex-draft",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "semantic_shift_risk": "low"
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-lyceum-address_s01_p06_s04_lu011",
@@ -6749,9 +6745,9 @@
       "review_status": "reviewed",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-pilot-v1",
+      "semantic_shift_risk": "low",
       "annotator": "codex-draft",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "semantic_shift_risk": "low"
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-lyceum-address_s01_p06_s04_lu012",
@@ -6770,9 +6766,9 @@
       "review_status": "reviewed",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-pilot-v1",
+      "semantic_shift_risk": "low",
       "annotator": "codex-draft",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "semantic_shift_risk": "low"
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-lyceum-address_s01_p06_s04_lu013",
@@ -6789,19 +6785,19 @@
       "sentence_char_offset_start": 57,
       "sentence_char_offset_end": 60,
       "review_status": "reviewed",
+      "candidate_target_domain": "nation",
+      "basic_meaning": "a living organism dies",
+      "confidence": 0.93,
       "decision_type": "mipvu_personification",
       "review_batch": "lincoln-pilot-v1",
-      "annotator": "codex-draft",
-      "review_notes": "Part of live/die contrast that frames national survival as organismic life.",
-      "semantic_shift_risk": "low",
-      "contextual_meaning": "the nation ceases to exist politically",
-      "basic_meaning": "a living organism dies",
       "basic_meaning_source": "Webster 1828, 'die'",
-      "contrast_explanation": "A nation is not a biological organism, but its political destruction is construed as death.",
       "comparison_basis": "Political destruction is understood through bodily death.",
-      "confidence": 0.93,
+      "contextual_meaning": "the nation ceases to exist politically",
+      "semantic_shift_risk": "low",
+      "annotator": "codex-draft",
+      "contrast_explanation": "A nation is not a biological organism, but its political destruction is construed as death.",
       "candidate_source_domain": "nature_organism",
-      "candidate_target_domain": "nation"
+      "review_notes": "Part of live/die contrast that frames national survival as organismic life."
     },
     {
       "mipvu_id": "lincoln-lyceum-address_s01_p06_s04_lu014",
@@ -6820,9 +6816,9 @@
       "review_status": "reviewed",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-pilot-v1",
+      "semantic_shift_risk": "low",
       "annotator": "codex-draft",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "semantic_shift_risk": "low"
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-lyceum-address_s01_p06_s04_lu015",
@@ -6839,19 +6835,19 @@
       "sentence_char_offset_start": 64,
       "sentence_char_offset_end": 71,
       "review_status": "reviewed",
+      "candidate_target_domain": "nation",
+      "basic_meaning": "a person intentionally kills himself or herself",
+      "confidence": 0.96,
       "decision_type": "mipvu_personification",
       "review_batch": "lincoln-pilot-v1",
-      "annotator": "codex-draft",
-      "review_notes": "High-salience body-politic/personification unit for early Lincoln; candidate support for enemy/internal threat as death-bearing self-destruction.",
-      "semantic_shift_risk": "medium",
-      "contextual_meaning": "self-caused national political destruction",
-      "basic_meaning": "a person intentionally kills himself or herself",
       "basic_meaning_source": "Webster 1828, 'suicide'",
-      "contrast_explanation": "A nation cannot literally commit bodily self-killing, but Lincoln construes national destruction through personal suicide.",
       "comparison_basis": "Collective political collapse is understood through self-inflicted bodily death.",
-      "confidence": 0.96,
+      "contextual_meaning": "self-caused national political destruction",
+      "semantic_shift_risk": "medium",
+      "annotator": "codex-draft",
+      "contrast_explanation": "A nation cannot literally commit bodily self-killing, but Lincoln construes national destruction through personal suicide.",
       "candidate_source_domain": "body",
-      "candidate_target_domain": "nation"
+      "review_notes": "High-salience body-politic/personification unit for early Lincoln; candidate support for enemy/internal threat as death-bearing self-destruction."
     },
     {
       "mipvu_id": "lincoln-lyceum-address_s01_p07_s01_lu001",
@@ -57210,18 +57206,8 @@
     {
       "stage": "generate-mipvu-worklist",
       "script": "scripts/generate-mipvu-worklist.py",
-      "generated_at": "2026-06-14T21:24:35",
+      "generated_at": "2026-06-15T14:56:18",
       "lexical_unit_count": 3568
-    },
-    {
-      "stage": "mipvu-pilot-review",
-      "script": "manual-reviewed-sample",
-      "review_batch": "lincoln-pilot-v1",
-      "reviewed_sentence_ids": [
-        "lincoln-lyceum-address_s01_p06_s04"
-      ],
-      "reviewed_lexical_units": 15,
-      "note": "Pilot sample decisions added for issue #6; remaining lexical units stay pending."
     }
   ]
 }
