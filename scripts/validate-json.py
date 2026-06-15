@@ -482,7 +482,7 @@ class Validator:
                 self.validate_instance(path, case_id, inst, container_sentence_id, sentence_ids, mipvu_lookup)
 
     def validate_concordance_and_analysis(self, case_id: str) -> None:
-        for rel_path in ["analysis/concordance.json", "analysis/analysis.json"]:
+        for rel_path in ["analysis/concordance.json", "analysis/analysis.json", "analysis/corpus-analysis.json"]:
             path = case_dir(case_id) / rel_path
             if not path.exists():
                 continue

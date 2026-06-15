@@ -8,9 +8,11 @@ from typing import Any
 from pipeline_common import (
     case_dir,
     case_ids,
+    cmt_mappings_path_for,
     cluster_config,
     count_by,
     get_nested,
+    iter_cmt_mappings,
     now_iso,
     read_json,
     write_json,
@@ -30,6 +32,11 @@ def existing_cluster(existing: dict[str, Any], cluster_id: str) -> dict[str, Any
     return {}
 
 
+def cmt_mappings(case_id: str) -> list[dict[str, Any]]:
+    data = read_json(cmt_mappings_path_for(case_id), {}) or {}
+    return list(iter_cmt_mappings(data))
+
+
 def run_case_analysis(case_id: str, strict: bool = False) -> dict:
     case_path = case_dir(case_id)
     concordance_path = case_path / "analysis" / "concordance.json"
@@ -44,6 +51,8 @@ def run_case_analysis(case_id: str, strict: bool = False) -> dict:
     else:
         instances = [item for item in concordance.get("instances", []) if isinstance(item, dict)]
     mipvu_profile = concordance.get("mipvu_profile", {}) if isinstance(concordance, dict) else {}
+    cmt_profile = concordance.get("cmt_profile", {}) if isinstance(concordance, dict) else {}
+    mappings = cmt_mappings(case_id)
 
     clusters = cluster_config(case_id)
     cluster_analyses = []
@@ -51,6 +60,9 @@ def run_case_analysis(case_id: str, strict: bool = False) -> dict:
         cluster_id = str(cluster.get("id"))
         cluster_instances = [
             item for item in instances if get_nested(item, "cmt", "cluster_id") == cluster_id
+        ]
+        cluster_mappings = [
+            item for item in mappings if item.get("cluster_id") == cluster_id
         ]
         existing_item = existing_cluster(existing, cluster_id)
         count = len(cluster_instances)
@@ -73,6 +85,13 @@ def run_case_analysis(case_id: str, strict: bool = False) -> dict:
                 "status": cluster.get("status", "unknown"),
                 "instance_count": count,
                 "instance_ids": [item.get("instance_id") for item in cluster_instances],
+                "cmt_mapping_count": len(cluster_mappings),
+                "cmt_mapping_ids": [item.get("mapping_id") for item in cluster_mappings],
+                "cmt_source_domains": count_by(cluster_mappings, lambda item: item.get("source_domain_primary")),
+                "cmt_target_domains": count_by(cluster_mappings, lambda item: item.get("target_domain")),
+                "rhetorical_salience_distribution": count_by(
+                    cluster_mappings, lambda item: item.get("rhetorical_salience")
+                ),
                 "by_document": by_document,
                 "by_register": by_register,
                 "koenigsberg_profile": {
@@ -92,9 +111,10 @@ def run_case_analysis(case_id: str, strict: bool = False) -> dict:
         "version": "1.0",
         "case_id": case_id,
         "generated_at": now_iso(),
-        "status": "error" if errors else ("complete" if instances else "stub"),
+        "status": "error" if errors else ("complete" if instances or mappings else "stub"),
         "total_instances": len(instances),
         "mipvu_profile": mipvu_profile,
+        "cmt_profile": cmt_profile,
         "cluster_analyses": cluster_analyses,
         "corpus_profile": {
             "by_document": count_by(instances, lambda item: item.get("document_id")),
@@ -103,6 +123,14 @@ def run_case_analysis(case_id: str, strict: bool = False) -> dict:
             "by_fantasy_type": count_by(instances, lambda item: get_nested(item, "koenigsberg", "fantasy_type")),
             "by_violence_logic": count_by(instances, lambda item: get_nested(item, "koenigsberg", "violence_logic")),
             "by_absence_flag": count_by(instances, lambda item: get_nested(item, "koenigsberg", "absence_flags")),
+            "cmt_denominator": {
+                "mapping_count": cmt_profile.get("mapping_count"),
+                "by_cluster": cmt_profile.get("by_cluster"),
+                "by_source_domain": cmt_profile.get("by_source_domain"),
+                "by_target_domain": cmt_profile.get("by_target_domain"),
+                "by_conceptual_metaphor": cmt_profile.get("by_conceptual_metaphor"),
+                "by_salience": cmt_profile.get("by_salience"),
+            },
             "mipvu_denominator": {
                 "total_lexical_units": mipvu_profile.get("total_lexical_units"),
                 "reviewed_lexical_units": mipvu_profile.get("reviewed_lexical_units"),

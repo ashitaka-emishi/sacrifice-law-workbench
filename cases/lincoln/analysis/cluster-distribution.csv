@@ -1,0 +1,5 @@
+average_confidence,cluster_id,document_count,high_salience_count,mapping_count,mapping_ids,periods,registers
+0.9,lincoln-01-body-organism,2,2,2,lincoln-cmt-001;lincoln-cmt-006,early-republican-rhetoric;emancipation-and-sacrifice,ceremonial-address;public-address
+0.95,lincoln-04-birth-creation,1,1,1,lincoln-cmt-005,emancipation-and-sacrifice,ceremonial-address
+0.745,lincoln-06-providence-theodicy,2,4,4,lincoln-cmt-003;lincoln-cmt-007;lincoln-cmt-008;lincoln-cmt-009,emancipation-and-sacrifice;providence-and-reconciliation,ceremonial-address;inaugural-address
+0.85,lincoln-08-sacrificial-death-gift,1,2,2,lincoln-cmt-002;lincoln-cmt-004,emancipation-and-sacrifice,ceremonial-address

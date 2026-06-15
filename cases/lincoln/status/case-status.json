@@ -1,7 +1,7 @@
 {
   "case_id": "lincoln",
-  "status": "mipvu-in-review",
-  "current_stage": "pilot-mipvu-reviewed",
+  "status": "cmt-corpus-analysis-draft",
+  "current_stage": "corpus-assisted-analysis-draft",
   "updated": "2026-06-15",
-  "notes": "Manifest documents are acquired, normalized, segmented, and verified. MIPVU lexical-unit worklists have been generated for all three documents; a reviewed Lincoln pilot sample is complete and remaining lexical units are pending."
+  "notes": "Manifest documents are acquired, normalized, segmented, and verified. A reviewed Lincoln MIPVU pilot sample, reliability sample plan, provisional CMT mapping table, and draft corpus-assisted/diachronic analysis outputs are present; remaining lexical units and reliability adjudication are pending."
 }

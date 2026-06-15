@@ -1,0 +1,636 @@
+{
+  "version": "1.0",
+  "case_id": "lincoln",
+  "generated_at": "2026-06-15T08:59:43",
+  "status": "complete",
+  "source": "corpus/cmt/cmt-mappings.json",
+  "mapping_count": 9,
+  "frequency_tables": [
+    {
+      "metric": "source_domain_primary",
+      "value": "debt_accounting",
+      "mapping_count": 2,
+      "document_count": 1,
+      "high_salience_count": 2,
+      "average_confidence": 0.8,
+      "mapping_ids": "lincoln-cmt-007;lincoln-cmt-008"
+    },
+    {
+      "metric": "source_domain_primary",
+      "value": "nature_organism",
+      "mapping_count": 2,
+      "document_count": 2,
+      "high_salience_count": 2,
+      "average_confidence": 0.9,
+      "mapping_ids": "lincoln-cmt-001;lincoln-cmt-006"
+    },
+    {
+      "metric": "source_domain_primary",
+      "value": "sacrifice",
+      "mapping_count": 2,
+      "document_count": 1,
+      "high_salience_count": 2,
+      "average_confidence": 0.85,
+      "mapping_ids": "lincoln-cmt-002;lincoln-cmt-004"
+    },
+    {
+      "metric": "source_domain_primary",
+      "value": "birth_generation",
+      "mapping_count": 1,
+      "document_count": 1,
+      "high_salience_count": 1,
+      "average_confidence": 0.95,
+      "mapping_ids": "lincoln-cmt-005"
+    },
+    {
+      "metric": "source_domain_primary",
+      "value": "law_contract",
+      "mapping_count": 1,
+      "document_count": 1,
+      "high_salience_count": 1,
+      "average_confidence": 0.6,
+      "mapping_ids": "lincoln-cmt-009"
+    },
+    {
+      "metric": "source_domain_primary",
+      "value": "religion_providence",
+      "mapping_count": 1,
+      "document_count": 1,
+      "high_salience_count": 1,
+      "average_confidence": 0.78,
+      "mapping_ids": "lincoln-cmt-003"
+    },
+    {
+      "metric": "target_domain",
+      "value": "civil_war",
+      "mapping_count": 2,
+      "document_count": 2,
+      "high_salience_count": 2,
+      "average_confidence": 0.83,
+      "mapping_ids": "lincoln-cmt-004;lincoln-cmt-008"
+    },
+    {
+      "metric": "target_domain",
+      "value": "nation",
+      "mapping_count": 2,
+      "document_count": 2,
+      "high_salience_count": 2,
+      "average_confidence": 0.88,
+      "mapping_ids": "lincoln-cmt-001;lincoln-cmt-002"
+    },
+    {
+      "metric": "target_domain",
+      "value": "citizenship",
+      "mapping_count": 1,
+      "document_count": 1,
+      "high_salience_count": 1,
+      "average_confidence": 0.78,
+      "mapping_ids": "lincoln-cmt-003"
+    },
+    {
+      "metric": "target_domain",
+      "value": "democracy",
+      "mapping_count": 1,
+      "document_count": 1,
+      "high_salience_count": 1,
+      "average_confidence": 0.9,
+      "mapping_ids": "lincoln-cmt-006"
+    },
+    {
+      "metric": "target_domain",
+      "value": "freedom",
+      "mapping_count": 1,
+      "document_count": 1,
+      "high_salience_count": 1,
+      "average_confidence": 0.95,
+      "mapping_ids": "lincoln-cmt-005"
+    },
+    {
+      "metric": "target_domain",
+      "value": "providence",
+      "mapping_count": 1,
+      "document_count": 1,
+      "high_salience_count": 1,
+      "average_confidence": 0.6,
+      "mapping_ids": "lincoln-cmt-009"
+    },
+    {
+      "metric": "target_domain",
+      "value": "slavery",
+      "mapping_count": 1,
+      "document_count": 1,
+      "high_salience_count": 1,
+      "average_confidence": 0.78,
+      "mapping_ids": "lincoln-cmt-007"
+    },
+    {
+      "metric": "conceptual_metaphor",
+      "value": "BLOODSHED IS MORAL REPAYMENT",
+      "mapping_count": 1,
+      "document_count": 1,
+      "high_salience_count": 1,
+      "average_confidence": 0.82,
+      "mapping_ids": "lincoln-cmt-008"
+    },
+    {
+      "metric": "conceptual_metaphor",
+      "value": "CIVIC DUTY IS SACRED DEDICATION",
+      "mapping_count": 1,
+      "document_count": 1,
+      "high_salience_count": 1,
+      "average_confidence": 0.78,
+      "mapping_ids": "lincoln-cmt-003"
+    },
+    {
+      "metric": "conceptual_metaphor",
+      "value": "DEMOCRATIC GOVERNMENT IS A LIVING ORGANISM",
+      "mapping_count": 1,
+      "document_count": 1,
+      "high_salience_count": 1,
+      "average_confidence": 0.9,
+      "mapping_ids": "lincoln-cmt-006"
+    },
+    {
+      "metric": "conceptual_metaphor",
+      "value": "DIVINE WILL IS RIGHTEOUS JUDGMENT",
+      "mapping_count": 1,
+      "document_count": 1,
+      "high_salience_count": 1,
+      "average_confidence": 0.6,
+      "mapping_ids": "lincoln-cmt-009"
+    },
+    {
+      "metric": "conceptual_metaphor",
+      "value": "MILITARY DEATH IS TOTAL DEVOTIONAL PAYMENT",
+      "mapping_count": 1,
+      "document_count": 1,
+      "high_salience_count": 1,
+      "average_confidence": 0.84,
+      "mapping_ids": "lincoln-cmt-004"
+    },
+    {
+      "metric": "conceptual_metaphor",
+      "value": "POLITICAL RENEWAL IS BIRTH",
+      "mapping_count": 1,
+      "document_count": 1,
+      "high_salience_count": 1,
+      "average_confidence": 0.95,
+      "mapping_ids": "lincoln-cmt-005"
+    },
+    {
+      "metric": "conceptual_metaphor",
+      "value": "SLAVERY'S PROFIT IS MORAL DEBT",
+      "mapping_count": 1,
+      "document_count": 1,
+      "high_salience_count": 1,
+      "average_confidence": 0.78,
+      "mapping_ids": "lincoln-cmt-007"
+    },
+    {
+      "metric": "conceptual_metaphor",
+      "value": "SOLDIER DEATH IS A GIFT THAT PRESERVES NATIONAL LIFE",
+      "mapping_count": 1,
+      "document_count": 1,
+      "high_salience_count": 1,
+      "average_confidence": 0.86,
+      "mapping_ids": "lincoln-cmt-002"
+    },
+    {
+      "metric": "conceptual_metaphor",
+      "value": "THE NATION IS A LIVING BODY",
+      "mapping_count": 1,
+      "document_count": 1,
+      "high_salience_count": 1,
+      "average_confidence": 0.9,
+      "mapping_ids": "lincoln-cmt-001"
+    },
+    {
+      "metric": "cluster_id",
+      "value": "lincoln-06-providence-theodicy",
+      "mapping_count": 4,
+      "document_count": 2,
+      "high_salience_count": 4,
+      "average_confidence": 0.745,
+      "mapping_ids": "lincoln-cmt-003;lincoln-cmt-007;lincoln-cmt-008;lincoln-cmt-009"
+    },
+    {
+      "metric": "cluster_id",
+      "value": "lincoln-01-body-organism",
+      "mapping_count": 2,
+      "document_count": 2,
+      "high_salience_count": 2,
+      "average_confidence": 0.9,
+      "mapping_ids": "lincoln-cmt-001;lincoln-cmt-006"
+    },
+    {
+      "metric": "cluster_id",
+      "value": "lincoln-08-sacrificial-death-gift",
+      "mapping_count": 2,
+      "document_count": 1,
+      "high_salience_count": 2,
+      "average_confidence": 0.85,
+      "mapping_ids": "lincoln-cmt-002;lincoln-cmt-004"
+    },
+    {
+      "metric": "cluster_id",
+      "value": "lincoln-04-birth-creation",
+      "mapping_count": 1,
+      "document_count": 1,
+      "high_salience_count": 1,
+      "average_confidence": 0.95,
+      "mapping_ids": "lincoln-cmt-005"
+    },
+    {
+      "metric": "rhetorical_salience",
+      "value": "high",
+      "mapping_count": 9,
+      "document_count": 3,
+      "high_salience_count": 9,
+      "average_confidence": 0.826,
+      "mapping_ids": "lincoln-cmt-001;lincoln-cmt-002;lincoln-cmt-003;lincoln-cmt-004;lincoln-cmt-005;lincoln-cmt-006;lincoln-cmt-007;lincoln-cmt-008;lincoln-cmt-009"
+    },
+    {
+      "metric": "register",
+      "value": "ceremonial-address",
+      "mapping_count": 5,
+      "document_count": 1,
+      "high_salience_count": 5,
+      "average_confidence": 0.866,
+      "mapping_ids": "lincoln-cmt-002;lincoln-cmt-003;lincoln-cmt-004;lincoln-cmt-005;lincoln-cmt-006"
+    },
+    {
+      "metric": "register",
+      "value": "inaugural-address",
+      "mapping_count": 3,
+      "document_count": 1,
+      "high_salience_count": 3,
+      "average_confidence": 0.733,
+      "mapping_ids": "lincoln-cmt-007;lincoln-cmt-008;lincoln-cmt-009"
+    },
+    {
+      "metric": "register",
+      "value": "public-address",
+      "mapping_count": 1,
+      "document_count": 1,
+      "high_salience_count": 1,
+      "average_confidence": 0.9,
+      "mapping_ids": "lincoln-cmt-001"
+    },
+    {
+      "metric": "period",
+      "value": "emancipation-and-sacrifice",
+      "mapping_count": 5,
+      "document_count": 1,
+      "high_salience_count": 5,
+      "average_confidence": 0.866,
+      "mapping_ids": "lincoln-cmt-002;lincoln-cmt-003;lincoln-cmt-004;lincoln-cmt-005;lincoln-cmt-006"
+    },
+    {
+      "metric": "period",
+      "value": "providence-and-reconciliation",
+      "mapping_count": 3,
+      "document_count": 1,
+      "high_salience_count": 3,
+      "average_confidence": 0.733,
+      "mapping_ids": "lincoln-cmt-007;lincoln-cmt-008;lincoln-cmt-009"
+    },
+    {
+      "metric": "period",
+      "value": "early-republican-rhetoric",
+      "mapping_count": 1,
+      "document_count": 1,
+      "high_salience_count": 1,
+      "average_confidence": 0.9,
+      "mapping_ids": "lincoln-cmt-001"
+    }
+  ],
+  "cluster_distribution": [
+    {
+      "cluster_id": "lincoln-01-body-organism",
+      "mapping_count": 2,
+      "document_count": 2,
+      "registers": "ceremonial-address;public-address",
+      "periods": "early-republican-rhetoric;emancipation-and-sacrifice",
+      "high_salience_count": 2,
+      "average_confidence": 0.9,
+      "mapping_ids": "lincoln-cmt-001;lincoln-cmt-006"
+    },
+    {
+      "cluster_id": "lincoln-04-birth-creation",
+      "mapping_count": 1,
+      "document_count": 1,
+      "registers": "ceremonial-address",
+      "periods": "emancipation-and-sacrifice",
+      "high_salience_count": 1,
+      "average_confidence": 0.95,
+      "mapping_ids": "lincoln-cmt-005"
+    },
+    {
+      "cluster_id": "lincoln-06-providence-theodicy",
+      "mapping_count": 4,
+      "document_count": 2,
+      "registers": "ceremonial-address;inaugural-address",
+      "periods": "emancipation-and-sacrifice;providence-and-reconciliation",
+      "high_salience_count": 4,
+      "average_confidence": 0.745,
+      "mapping_ids": "lincoln-cmt-003;lincoln-cmt-007;lincoln-cmt-008;lincoln-cmt-009"
+    },
+    {
+      "cluster_id": "lincoln-08-sacrificial-death-gift",
+      "mapping_count": 2,
+      "document_count": 1,
+      "registers": "ceremonial-address",
+      "periods": "emancipation-and-sacrifice",
+      "high_salience_count": 2,
+      "average_confidence": 0.85,
+      "mapping_ids": "lincoln-cmt-002;lincoln-cmt-004"
+    }
+  ],
+  "source_domain_cooccurrence": [
+    {
+      "source_domain_a": "body",
+      "source_domain_b": "nature_organism",
+      "mapping_count": 3,
+      "mapping_ids": "lincoln-cmt-001;lincoln-cmt-002;lincoln-cmt-006"
+    },
+    {
+      "source_domain_a": "law_contract",
+      "source_domain_b": "religion_providence",
+      "mapping_count": 2,
+      "mapping_ids": "lincoln-cmt-003;lincoln-cmt-009"
+    },
+    {
+      "source_domain_a": "birth_generation",
+      "source_domain_b": "religion_providence",
+      "mapping_count": 1,
+      "mapping_ids": "lincoln-cmt-005"
+    },
+    {
+      "source_domain_a": "body",
+      "source_domain_b": "sacrifice",
+      "mapping_count": 1,
+      "mapping_ids": "lincoln-cmt-002"
+    },
+    {
+      "source_domain_a": "debt_accounting",
+      "source_domain_b": "religion_providence",
+      "mapping_count": 1,
+      "mapping_ids": "lincoln-cmt-008"
+    },
+    {
+      "source_domain_a": "debt_accounting",
+      "source_domain_b": "sacrifice",
+      "mapping_count": 1,
+      "mapping_ids": "lincoln-cmt-004"
+    },
+    {
+      "source_domain_a": "debt_accounting",
+      "source_domain_b": "slavery_bondage",
+      "mapping_count": 1,
+      "mapping_ids": "lincoln-cmt-007"
+    },
+    {
+      "source_domain_a": "debt_accounting",
+      "source_domain_b": "war_combat",
+      "mapping_count": 1,
+      "mapping_ids": "lincoln-cmt-008"
+    },
+    {
+      "source_domain_a": "nature_organism",
+      "source_domain_b": "sacrifice",
+      "mapping_count": 1,
+      "mapping_ids": "lincoln-cmt-002"
+    },
+    {
+      "source_domain_a": "religion_providence",
+      "source_domain_b": "war_combat",
+      "mapping_count": 1,
+      "mapping_ids": "lincoln-cmt-008"
+    }
+  ],
+  "salience_review": [
+    {
+      "mapping_id": "lincoln-cmt-001",
+      "rhetorical_salience": "high",
+      "frequency_count_for_concept": 1,
+      "cluster_mapping_count": 2,
+      "conceptual_centrality": "high",
+      "ideological_force": "obligation",
+      "claim_caution": "high salience is not the same as high frequency"
+    },
+    {
+      "mapping_id": "lincoln-cmt-002",
+      "rhetorical_salience": "high",
+      "frequency_count_for_concept": 1,
+      "cluster_mapping_count": 2,
+      "conceptual_centrality": "high",
+      "ideological_force": "sacrifice;obligation",
+      "claim_caution": "high salience is not the same as high frequency"
+    },
+    {
+      "mapping_id": "lincoln-cmt-003",
+      "rhetorical_salience": "high",
+      "frequency_count_for_concept": 1,
+      "cluster_mapping_count": 4,
+      "conceptual_centrality": "high",
+      "ideological_force": "sacralization;obligation",
+      "claim_caution": "high salience is not the same as high frequency"
+    },
+    {
+      "mapping_id": "lincoln-cmt-004",
+      "rhetorical_salience": "high",
+      "frequency_count_for_concept": 1,
+      "cluster_mapping_count": 2,
+      "conceptual_centrality": "high",
+      "ideological_force": "sacrifice;obligation",
+      "claim_caution": "high salience is not the same as high frequency"
+    },
+    {
+      "mapping_id": "lincoln-cmt-005",
+      "rhetorical_salience": "high",
+      "frequency_count_for_concept": 1,
+      "cluster_mapping_count": 1,
+      "conceptual_centrality": "local",
+      "ideological_force": "redemption;sacralization",
+      "claim_caution": "high salience is not the same as high frequency"
+    },
+    {
+      "mapping_id": "lincoln-cmt-006",
+      "rhetorical_salience": "high",
+      "frequency_count_for_concept": 1,
+      "cluster_mapping_count": 2,
+      "conceptual_centrality": "high",
+      "ideological_force": "obligation",
+      "claim_caution": "high salience is not the same as high frequency"
+    },
+    {
+      "mapping_id": "lincoln-cmt-007",
+      "rhetorical_salience": "high",
+      "frequency_count_for_concept": 1,
+      "cluster_mapping_count": 4,
+      "conceptual_centrality": "high",
+      "ideological_force": "guilt_distribution",
+      "claim_caution": "high salience is not the same as high frequency"
+    },
+    {
+      "mapping_id": "lincoln-cmt-008",
+      "rhetorical_salience": "high",
+      "frequency_count_for_concept": 1,
+      "cluster_mapping_count": 4,
+      "conceptual_centrality": "high",
+      "ideological_force": "guilt_distribution;redemption",
+      "claim_caution": "high salience is not the same as high frequency"
+    },
+    {
+      "mapping_id": "lincoln-cmt-009",
+      "rhetorical_salience": "high",
+      "frequency_count_for_concept": 1,
+      "cluster_mapping_count": 4,
+      "conceptual_centrality": "high",
+      "ideological_force": "guilt_distribution;sacralization",
+      "claim_caution": "high salience is not the same as high frequency"
+    }
+  ],
+  "timeline": [
+    {
+      "document_date": "1838-01-27",
+      "period": "early-republican-rhetoric",
+      "register": "public-address",
+      "document_id": "lincoln-lyceum-address",
+      "mapping_id": "lincoln-cmt-001",
+      "cluster_id": "lincoln-01-body-organism",
+      "source_domain_primary": "nature_organism",
+      "target_domain": "nation",
+      "conceptual_metaphor": "THE NATION IS A LIVING BODY",
+      "rhetorical_salience": "high",
+      "confidence": 0.9,
+      "mipvu_ids": "lincoln-lyceum-address_s01_p06_s04_lu008;lincoln-lyceum-address_s01_p06_s04_lu013;lincoln-lyceum-address_s01_p06_s04_lu015"
+    },
+    {
+      "document_date": "1863-11-19",
+      "period": "emancipation-and-sacrifice",
+      "register": "ceremonial-address",
+      "document_id": "lincoln-gettysburg-address",
+      "mapping_id": "lincoln-cmt-002",
+      "cluster_id": "lincoln-08-sacrificial-death-gift",
+      "source_domain_primary": "sacrifice",
+      "target_domain": "nation",
+      "conceptual_metaphor": "SOLDIER DEATH IS A GIFT THAT PRESERVES NATIONAL LIFE",
+      "rhetorical_salience": "high",
+      "confidence": 0.86,
+      "mipvu_ids": "lincoln-gettysburg-address_s01_p03_s01_lu014;lincoln-gettysburg-address_s01_p03_s01_lu020;lincoln-gettysburg-address_s01_p03_s01_lu027"
+    },
+    {
+      "document_date": "1863-11-19",
+      "period": "emancipation-and-sacrifice",
+      "register": "ceremonial-address",
+      "document_id": "lincoln-gettysburg-address",
+      "mapping_id": "lincoln-cmt-003",
+      "cluster_id": "lincoln-06-providence-theodicy",
+      "source_domain_primary": "religion_providence",
+      "target_domain": "citizenship",
+      "conceptual_metaphor": "CIVIC DUTY IS SACRED DEDICATION",
+      "rhetorical_salience": "high",
+      "confidence": 0.78,
+      "mipvu_ids": "lincoln-gettysburg-address_s01_p05_s02_lu009"
+    },
+    {
+      "document_date": "1863-11-19",
+      "period": "emancipation-and-sacrifice",
+      "register": "ceremonial-address",
+      "document_id": "lincoln-gettysburg-address",
+      "mapping_id": "lincoln-cmt-004",
+      "cluster_id": "lincoln-08-sacrificial-death-gift",
+      "source_domain_primary": "sacrifice",
+      "target_domain": "civil_war",
+      "conceptual_metaphor": "MILITARY DEATH IS TOTAL DEVOTIONAL PAYMENT",
+      "rhetorical_salience": "high",
+      "confidence": 0.84,
+      "mipvu_ids": "lincoln-gettysburg-address_s01_p05_s02_lu032;lincoln-gettysburg-address_s01_p05_s02_lu036"
+    },
+    {
+      "document_date": "1863-11-19",
+      "period": "emancipation-and-sacrifice",
+      "register": "ceremonial-address",
+      "document_id": "lincoln-gettysburg-address",
+      "mapping_id": "lincoln-cmt-005",
+      "cluster_id": "lincoln-04-birth-creation",
+      "source_domain_primary": "birth_generation",
+      "target_domain": "freedom",
+      "conceptual_metaphor": "POLITICAL RENEWAL IS BIRTH",
+      "rhetorical_salience": "high",
+      "confidence": 0.95,
+      "mipvu_ids": "lincoln-gettysburg-address_s01_p05_s02_lu062"
+    },
+    {
+      "document_date": "1863-11-19",
+      "period": "emancipation-and-sacrifice",
+      "register": "ceremonial-address",
+      "document_id": "lincoln-gettysburg-address",
+      "mapping_id": "lincoln-cmt-006",
+      "cluster_id": "lincoln-01-body-organism",
+      "source_domain_primary": "nature_organism",
+      "target_domain": "democracy",
+      "conceptual_metaphor": "DEMOCRATIC GOVERNMENT IS A LIVING ORGANISM",
+      "rhetorical_salience": "high",
+      "confidence": 0.9,
+      "mipvu_ids": "lincoln-gettysburg-address_s01_p05_s02_lu079"
+    },
+    {
+      "document_date": "1865-03-04",
+      "period": "providence-and-reconciliation",
+      "register": "inaugural-address",
+      "document_id": "lincoln-second-inaugural",
+      "mapping_id": "lincoln-cmt-007",
+      "cluster_id": "lincoln-06-providence-theodicy",
+      "source_domain_primary": "debt_accounting",
+      "target_domain": "slavery",
+      "conceptual_metaphor": "SLAVERY'S PROFIT IS MORAL DEBT",
+      "rhetorical_salience": "high",
+      "confidence": 0.78,
+      "mipvu_ids": "lincoln-second-inaugural_s01_p05_s04_lu026"
+    },
+    {
+      "document_date": "1865-03-04",
+      "period": "providence-and-reconciliation",
+      "register": "inaugural-address",
+      "document_id": "lincoln-second-inaugural",
+      "mapping_id": "lincoln-cmt-008",
+      "cluster_id": "lincoln-06-providence-theodicy",
+      "source_domain_primary": "debt_accounting",
+      "target_domain": "civil_war",
+      "conceptual_metaphor": "BLOODSHED IS MORAL REPAYMENT",
+      "rhetorical_salience": "high",
+      "confidence": 0.82,
+      "mipvu_ids": "lincoln-second-inaugural_s01_p05_s04_lu039;lincoln-second-inaugural_s01_p05_s04_lu045"
+    },
+    {
+      "document_date": "1865-03-04",
+      "period": "providence-and-reconciliation",
+      "register": "inaugural-address",
+      "document_id": "lincoln-second-inaugural",
+      "mapping_id": "lincoln-cmt-009",
+      "cluster_id": "lincoln-06-providence-theodicy",
+      "source_domain_primary": "law_contract",
+      "target_domain": "providence",
+      "conceptual_metaphor": "DIVINE WILL IS RIGHTEOUS JUDGMENT",
+      "rhetorical_salience": "high",
+      "confidence": 0.6,
+      "mipvu_ids": "lincoln-second-inaugural_s01_p05_s04_lu060"
+    }
+  ],
+  "measure_definitions": {
+    "frequency": "Number of CMT mapping records in the reviewed mapping table.",
+    "distribution": "Number of documents, registers, or periods in which a mapping pattern appears.",
+    "concentration": "Whether mappings are concentrated in a few documents or periods.",
+    "rhetorical_salience": "Analyst-coded prominence in the local rhetorical occasion.",
+    "conceptual_centrality": "Whether a cluster organizes multiple mapping records in the current evidence set.",
+    "ideological_force": "Recorded ideological functions attached to the mapping; not reducible to frequency."
+  },
+  "diachronic_classification": {
+    "lincoln-01-body-organism": "stable/reactivated",
+    "lincoln-08-sacrificial-death-gift": "intensifying in peak-war-sacrifice evidence",
+    "lincoln-04-birth-creation": "local high-salience mutation toward renewal",
+    "lincoln-06-providence-theodicy": "reorganizing in final-reconciliation evidence"
+  }
+}
