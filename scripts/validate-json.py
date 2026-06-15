@@ -22,6 +22,7 @@ from pipeline_common import (
     iter_sentence_nodes,
     mipvu_path_for,
     read_json,
+    segmented_path_for,
     valid_cluster_ids,
 )
 
@@ -136,6 +137,25 @@ CMT_MAPPING_REQUIRED = [
 ]
 
 CMT_MAPPING_STATUSES = {"provisional", "reviewed", "accepted", "rejected", "exploratory"}
+
+PUBLICATION_TRACE_REQUIRED = [
+    "trace_id",
+    "case_id",
+    "claim_id",
+    "claim_text",
+    "claim_status",
+    "support_dimension",
+    "support_score_id",
+    "support_score",
+    "support_score_path",
+    "mapping_id",
+    "mipvu_ids",
+    "sentence_id",
+    "document_id",
+    "source_url",
+    "rights_status",
+    "source_text_path",
+]
 
 
 class Validator:
@@ -725,6 +745,158 @@ class Validator:
                         if item.get(field) in (None, ""):
                             self.error(comparison_path, f"items[{index}] missing `{field}`")
 
+    def validate_publication_package(self) -> None:
+        manifest_path = ROOT / "publication" / "audit" / "publication-package.json"
+        trace_path = ROOT / "publication" / "audit" / "claim-traceability.json"
+        readiness_path = ROOT / "publication" / "audit" / "public-site-readiness.json"
+
+        if not manifest_path.exists():
+            self.error(manifest_path, "publication package manifest is required")
+            return
+
+        manifest = read_json(manifest_path, {}) or {}
+        if not isinstance(manifest, dict):
+            self.error(manifest_path, "publication package manifest must be an object")
+            return
+
+        case_id = str(manifest.get("case_id") or "")
+        if not case_id:
+            self.error(manifest_path, "missing case_id")
+            return
+
+        components = manifest.get("components")
+        if not isinstance(components, list) or not components:
+            self.error(manifest_path, "components must be a non-empty array")
+        else:
+            for index, component in enumerate(components):
+                if not isinstance(component, dict):
+                    self.error(manifest_path, f"components[{index}] must be an object")
+                    continue
+                component_id = component.get("component_id") or f"components[{index}]"
+                if component.get("status") != "available":
+                    self.error(manifest_path, f"{component_id}: component is not available")
+                files = component.get("files", [])
+                if not isinstance(files, list) or not files:
+                    self.error(manifest_path, f"{component_id}: files must be a non-empty array")
+                    continue
+                for rel_path in files:
+                    path = ROOT / str(rel_path)
+                    if not path.exists() or path.stat().st_size == 0:
+                        self.error(manifest_path, f"{component_id}: file `{rel_path}` is missing or empty")
+
+        trace = read_json(trace_path, {}) or {}
+        if not isinstance(trace, dict):
+            self.error(trace_path, "claim traceability document must be an object")
+            return
+        if trace.get("case_id") != case_id:
+            self.error(trace_path, f"case_id must be `{case_id}`")
+
+        traces = trace.get("traces")
+        if not isinstance(traces, list) or not traces:
+            self.error(trace_path, "traces must be a non-empty array")
+            return
+
+        doc_ids = {document_id(doc) for doc in documents(case_id)}
+        sentence_ids: set[str] = set()
+        for doc in documents(case_id):
+            segmented = read_json(segmented_path_for(case_id, doc), {}) or {}
+            if isinstance(segmented, dict):
+                sentence_ids.update(
+                    str(sentence.get("sentence_id"))
+                    for sentence in iter_sentence_nodes(segmented)
+                    if sentence.get("sentence_id")
+                )
+
+        mipvu_ids: set[str] = set()
+        for doc in documents(case_id):
+            mipvu_doc = read_json(mipvu_path_for(case_id, doc), {}) or {}
+            if isinstance(mipvu_doc, dict):
+                mipvu_ids.update(
+                    str(unit.get("mipvu_id"))
+                    for unit in iter_mipvu_records(mipvu_doc)
+                    if unit.get("mipvu_id")
+                )
+
+        cmt_data = read_json(cmt_mappings_path_for(case_id), {}) or {}
+        mapping_ids = {
+            str(mapping.get("mapping_id"))
+            for mapping in iter_cmt_mappings(cmt_data)
+            if mapping.get("mapping_id")
+        }
+        claim_status_ids = self.controlled_vocab_ids("claim_statuses")
+        support_dimension_ids = self.controlled_vocab_ids("support_dimensions")
+
+        seen_trace_ids: set[str] = set()
+        for index, item in enumerate(traces):
+            if not isinstance(item, dict):
+                self.error(trace_path, f"traces[{index}] must be an object")
+                continue
+            trace_id = str(item.get("trace_id") or f"traces[{index}]")
+            if trace_id in seen_trace_ids:
+                self.error(trace_path, f"duplicate trace_id `{trace_id}`")
+            seen_trace_ids.add(trace_id)
+
+            for field in PUBLICATION_TRACE_REQUIRED:
+                if item.get(field) in (None, "", []):
+                    self.error(trace_path, f"{trace_id}: missing `{field}`")
+
+            if item.get("case_id") != case_id:
+                self.error(trace_path, f"{trace_id}: case_id must be `{case_id}`")
+            if claim_status_ids and item.get("claim_status") not in claim_status_ids:
+                self.error(trace_path, f"{trace_id}: invalid claim_status `{item.get('claim_status')}`")
+            if support_dimension_ids and item.get("support_dimension") not in support_dimension_ids:
+                self.error(trace_path, f"{trace_id}: invalid support_dimension `{item.get('support_dimension')}`")
+
+            support_score = item.get("support_score")
+            if not isinstance(support_score, (int, float)) or support_score < 0 or support_score > 4:
+                self.error(trace_path, f"{trace_id}: support_score must be in [0, 4]")
+
+            mapping_id = item.get("mapping_id")
+            if mapping_id not in mapping_ids:
+                self.error(trace_path, f"{trace_id}: mapping_id `{mapping_id}` not found")
+
+            values = item.get("mipvu_ids")
+            if not isinstance(values, list) or not values:
+                self.error(trace_path, f"{trace_id}: mipvu_ids must be a non-empty array")
+            else:
+                for mipvu_id in values:
+                    if mipvu_id not in mipvu_ids:
+                        self.error(trace_path, f"{trace_id}: mipvu_id `{mipvu_id}` not found")
+
+            sentence_id = item.get("sentence_id")
+            if sentence_id not in sentence_ids:
+                self.error(trace_path, f"{trace_id}: sentence_id `{sentence_id}` not found")
+            document = item.get("document_id")
+            if document not in doc_ids:
+                self.error(trace_path, f"{trace_id}: document_id `{document}` not found")
+
+            for rel_path in [item.get("support_score_path"), item.get("source_text_path")]:
+                path = ROOT / str(rel_path)
+                if not path.exists() or path.stat().st_size == 0:
+                    self.error(trace_path, f"{trace_id}: referenced file `{rel_path}` is missing or empty")
+
+            upstream = item.get("upstream_artifacts", [])
+            if not isinstance(upstream, list) or not upstream:
+                self.error(trace_path, f"{trace_id}: upstream_artifacts must be a non-empty array")
+            else:
+                for rel_path in upstream:
+                    path = ROOT / str(rel_path)
+                    if not path.exists() or path.stat().st_size == 0:
+                        self.error(trace_path, f"{trace_id}: upstream artifact `{rel_path}` is missing or empty")
+
+            if item.get("support_dimension") == "historical_enactment_alignment" and not item.get(
+                "historical_corroboration"
+            ):
+                self.error(trace_path, f"{trace_id}: historical trace missing historical_corroboration")
+
+        readiness = read_json(readiness_path, {}) or {}
+        if not isinstance(readiness, dict):
+            self.error(readiness_path, "public-site readiness report must be an object")
+        elif readiness.get("status") != "pass":
+            self.error(readiness_path, f"public-site readiness status is `{readiness.get('status')}`")
+        elif readiness.get("blockers"):
+            self.error(readiness_path, "public-site readiness blockers must be resolved")
+
     def validate_reliability_artifacts(
         self,
         case_id: str,
@@ -949,6 +1121,8 @@ def main() -> int:
         validator.validate_case(case_id, strict=args.strict)
     if args.case_id in (None, "x-case"):
         validator.validate_x_case_artifacts()
+    if args.case_id is None:
+        validator.validate_publication_package()
 
     if validator.errors:
         for error in validator.errors:

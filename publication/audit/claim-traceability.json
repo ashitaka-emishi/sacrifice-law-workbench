@@ -1,0 +1,2961 @@
+{
+  "version": "1.0",
+  "case_id": "lincoln",
+  "generated_at": "2026-06-15T10:32:23",
+  "status": "draft-review-audit",
+  "trace_policy": "Every trace row links a draft support claim to a support score, CMT mapping, MIPVU unit list, sentence ID, document metadata, source text path, and historical corroboration where available.",
+  "traces": [
+    {
+      "trace_id": "lincoln-score-doc-lyceum-sacred_object-lincoln-cmt-001",
+      "case_id": "lincoln",
+      "generated_at": "2026-06-15T10:32:23",
+      "claim_id": "lincoln-score-doc-lyceum-sacred_object",
+      "claim_text": "Lyceum Address contributes moderate support evidence for sacred object (score 2.0/4): The address figures the nation as a living collective body but does not yet supply battlefield sacrifice or strong enemy-as-death evidence.",
+      "claim_status": "interpretation",
+      "claim_boundary": "Draft evidentiary-support assessment from reviewed pilot evidence; not proof, diagnosis, or monocausal historical explanation.",
+      "support_dimension": "sacred_object",
+      "support_dimension_label": "sacred object",
+      "support_score_id": "lincoln-score-doc-lyceum",
+      "support_score": 2.0,
+      "support_score_path": "cases/lincoln/analysis/support-ratings.json",
+      "document_weight": 1.0,
+      "weight_rationale": "Standard early public-address benchmark; important for diachronic setup but not war enactment.",
+      "cluster_id": "lincoln-01-body-organism",
+      "mapping_id": "lincoln-cmt-001",
+      "mapping_status": "provisional",
+      "conceptual_metaphor": "THE NATION IS A LIVING BODY",
+      "source_domain_primary": "nature_organism",
+      "target_domain": "nation",
+      "expression": "we must live through all time, or die by suicide",
+      "evidence_span": "As a nation of freemen we must live through all time, or die by suicide.",
+      "mapping_confidence": 0.9,
+      "rival_reading": "Conventional body-politic idiom rather than active metaphor; keep conventionality visible in aggregate claims.",
+      "mipvu_ids": [
+        "lincoln-lyceum-address_s01_p06_s04_lu008",
+        "lincoln-lyceum-address_s01_p06_s04_lu013",
+        "lincoln-lyceum-address_s01_p06_s04_lu015"
+      ],
+      "mipvu_units": [
+        {
+          "mipvu_id": "lincoln-lyceum-address_s01_p06_s04_lu008",
+          "lexical_unit": "live",
+          "decision_type": "mipvu_personification",
+          "review_status": "reviewed",
+          "confidence": 0.92,
+          "path": "cases/lincoln/corpus/mipvu/lincoln-lyceum-address_mipvu.json"
+        },
+        {
+          "mipvu_id": "lincoln-lyceum-address_s01_p06_s04_lu013",
+          "lexical_unit": "die",
+          "decision_type": "mipvu_personification",
+          "review_status": "reviewed",
+          "confidence": 0.93,
+          "path": "cases/lincoln/corpus/mipvu/lincoln-lyceum-address_mipvu.json"
+        },
+        {
+          "mipvu_id": "lincoln-lyceum-address_s01_p06_s04_lu015",
+          "lexical_unit": "suicide",
+          "decision_type": "mipvu_personification",
+          "review_status": "reviewed",
+          "confidence": 0.96,
+          "path": "cases/lincoln/corpus/mipvu/lincoln-lyceum-address_mipvu.json"
+        }
+      ],
+      "sentence_id": "lincoln-lyceum-address_s01_p06_s04",
+      "sentence_text": "As a nation of freemen we must live through all time, or die by suicide.",
+      "segmented_sentence_path": "cases/lincoln/corpus/segmented/lincoln-lyceum-address.json",
+      "document_id": "lincoln-lyceum-address",
+      "document_title": "Address Before the Young Men's Lyceum of Springfield, Illinois",
+      "document_date": "1838-01-27",
+      "document_register": "public-address",
+      "source_url": "https://www.gutenberg.org/ebooks/3253",
+      "source_citation": "Project Gutenberg EBook #3253 — The Papers and Writings of Abraham Lincoln, Complete, ed. Arthur Brooks Lapsley. Date note: Lapsley edition reads '1837'; correct date is 1838-01-27 per Basler, Collected Works vol. 1, p. 108.",
+      "rights_status": "public-domain",
+      "source_text_path": "cases/lincoln/corpus/raw/lincoln-src-01-lyceum-address.txt",
+      "historical_note_ids": [
+        "lincoln-hist-003"
+      ],
+      "historical_corroboration": [
+        {
+          "note_id": "lincoln-hist-003",
+          "topic": "Lyceum republican survival rhetoric before the Civil War",
+          "summary": "The Lyceum Address supplies early body-politic survival language, but its alignment is primarily rhetorical and civic rather than direct war enactment.",
+          "corroboration_status": "limited-contextual alignment",
+          "claim_boundary": "Useful for diachronic setup; does not by itself establish historical enactment."
+        }
+      ],
+      "upstream_artifacts": [
+        "cases/lincoln/analysis/support-ratings.json",
+        "cases/lincoln/corpus/cmt/cmt-mappings.json",
+        "cases/lincoln/analysis/historical-enactment-alignment.json",
+        "cases/lincoln/metadata/document-manifest.json",
+        "cases/lincoln/metadata/corpus-register.csv"
+      ],
+      "review_limitations": [
+        "Trace rows are draft review aids, not final publication claims.",
+        "Publication-grade historical citations remain required where historical notes say so.",
+        "Scores are provisional and based on reviewed Lincoln pilot evidence.",
+        "Full-corpus MIPVU review and reliability adjudication are pending.",
+        "Historical alignment notes require publication-grade citations."
+      ]
+    },
+    {
+      "trace_id": "lincoln-score-doc-lyceum-sacrificial_body-lincoln-cmt-001",
+      "case_id": "lincoln",
+      "generated_at": "2026-06-15T10:32:23",
+      "claim_id": "lincoln-score-doc-lyceum-sacrificial_body",
+      "claim_text": "Lyceum Address contributes unsupported evidence for sacrificial body (score 0.0/4): The address figures the nation as a living collective body but does not yet supply battlefield sacrifice or strong enemy-as-death evidence.",
+      "claim_status": "interpretation",
+      "claim_boundary": "Draft evidentiary-support assessment from reviewed pilot evidence; not proof, diagnosis, or monocausal historical explanation.",
+      "support_dimension": "sacrificial_body",
+      "support_dimension_label": "sacrificial body",
+      "support_score_id": "lincoln-score-doc-lyceum",
+      "support_score": 0.0,
+      "support_score_path": "cases/lincoln/analysis/support-ratings.json",
+      "document_weight": 1.0,
+      "weight_rationale": "Standard early public-address benchmark; important for diachronic setup but not war enactment.",
+      "cluster_id": "lincoln-01-body-organism",
+      "mapping_id": "lincoln-cmt-001",
+      "mapping_status": "provisional",
+      "conceptual_metaphor": "THE NATION IS A LIVING BODY",
+      "source_domain_primary": "nature_organism",
+      "target_domain": "nation",
+      "expression": "we must live through all time, or die by suicide",
+      "evidence_span": "As a nation of freemen we must live through all time, or die by suicide.",
+      "mapping_confidence": 0.9,
+      "rival_reading": "Conventional body-politic idiom rather than active metaphor; keep conventionality visible in aggregate claims.",
+      "mipvu_ids": [
+        "lincoln-lyceum-address_s01_p06_s04_lu008",
+        "lincoln-lyceum-address_s01_p06_s04_lu013",
+        "lincoln-lyceum-address_s01_p06_s04_lu015"
+      ],
+      "mipvu_units": [
+        {
+          "mipvu_id": "lincoln-lyceum-address_s01_p06_s04_lu008",
+          "lexical_unit": "live",
+          "decision_type": "mipvu_personification",
+          "review_status": "reviewed",
+          "confidence": 0.92,
+          "path": "cases/lincoln/corpus/mipvu/lincoln-lyceum-address_mipvu.json"
+        },
+        {
+          "mipvu_id": "lincoln-lyceum-address_s01_p06_s04_lu013",
+          "lexical_unit": "die",
+          "decision_type": "mipvu_personification",
+          "review_status": "reviewed",
+          "confidence": 0.93,
+          "path": "cases/lincoln/corpus/mipvu/lincoln-lyceum-address_mipvu.json"
+        },
+        {
+          "mipvu_id": "lincoln-lyceum-address_s01_p06_s04_lu015",
+          "lexical_unit": "suicide",
+          "decision_type": "mipvu_personification",
+          "review_status": "reviewed",
+          "confidence": 0.96,
+          "path": "cases/lincoln/corpus/mipvu/lincoln-lyceum-address_mipvu.json"
+        }
+      ],
+      "sentence_id": "lincoln-lyceum-address_s01_p06_s04",
+      "sentence_text": "As a nation of freemen we must live through all time, or die by suicide.",
+      "segmented_sentence_path": "cases/lincoln/corpus/segmented/lincoln-lyceum-address.json",
+      "document_id": "lincoln-lyceum-address",
+      "document_title": "Address Before the Young Men's Lyceum of Springfield, Illinois",
+      "document_date": "1838-01-27",
+      "document_register": "public-address",
+      "source_url": "https://www.gutenberg.org/ebooks/3253",
+      "source_citation": "Project Gutenberg EBook #3253 — The Papers and Writings of Abraham Lincoln, Complete, ed. Arthur Brooks Lapsley. Date note: Lapsley edition reads '1837'; correct date is 1838-01-27 per Basler, Collected Works vol. 1, p. 108.",
+      "rights_status": "public-domain",
+      "source_text_path": "cases/lincoln/corpus/raw/lincoln-src-01-lyceum-address.txt",
+      "historical_note_ids": [
+        "lincoln-hist-003"
+      ],
+      "historical_corroboration": [
+        {
+          "note_id": "lincoln-hist-003",
+          "topic": "Lyceum republican survival rhetoric before the Civil War",
+          "summary": "The Lyceum Address supplies early body-politic survival language, but its alignment is primarily rhetorical and civic rather than direct war enactment.",
+          "corroboration_status": "limited-contextual alignment",
+          "claim_boundary": "Useful for diachronic setup; does not by itself establish historical enactment."
+        }
+      ],
+      "upstream_artifacts": [
+        "cases/lincoln/analysis/support-ratings.json",
+        "cases/lincoln/corpus/cmt/cmt-mappings.json",
+        "cases/lincoln/analysis/historical-enactment-alignment.json",
+        "cases/lincoln/metadata/document-manifest.json",
+        "cases/lincoln/metadata/corpus-register.csv"
+      ],
+      "review_limitations": [
+        "Trace rows are draft review aids, not final publication claims.",
+        "Publication-grade historical citations remain required where historical notes say so.",
+        "Scores are provisional and based on reviewed Lincoln pilot evidence.",
+        "Full-corpus MIPVU review and reliability adjudication are pending.",
+        "Historical alignment notes require publication-grade citations."
+      ]
+    },
+    {
+      "trace_id": "lincoln-score-doc-lyceum-enemy_as_death-lincoln-cmt-001",
+      "case_id": "lincoln",
+      "generated_at": "2026-06-15T10:32:23",
+      "claim_id": "lincoln-score-doc-lyceum-enemy_as_death",
+      "claim_text": "Lyceum Address contributes weak support evidence for enemy as death (score 1.0/4): The address figures the nation as a living collective body but does not yet supply battlefield sacrifice or strong enemy-as-death evidence.",
+      "claim_status": "interpretation",
+      "claim_boundary": "Draft evidentiary-support assessment from reviewed pilot evidence; not proof, diagnosis, or monocausal historical explanation.",
+      "support_dimension": "enemy_as_death",
+      "support_dimension_label": "enemy as death",
+      "support_score_id": "lincoln-score-doc-lyceum",
+      "support_score": 1.0,
+      "support_score_path": "cases/lincoln/analysis/support-ratings.json",
+      "document_weight": 1.0,
+      "weight_rationale": "Standard early public-address benchmark; important for diachronic setup but not war enactment.",
+      "cluster_id": "lincoln-01-body-organism",
+      "mapping_id": "lincoln-cmt-001",
+      "mapping_status": "provisional",
+      "conceptual_metaphor": "THE NATION IS A LIVING BODY",
+      "source_domain_primary": "nature_organism",
+      "target_domain": "nation",
+      "expression": "we must live through all time, or die by suicide",
+      "evidence_span": "As a nation of freemen we must live through all time, or die by suicide.",
+      "mapping_confidence": 0.9,
+      "rival_reading": "Conventional body-politic idiom rather than active metaphor; keep conventionality visible in aggregate claims.",
+      "mipvu_ids": [
+        "lincoln-lyceum-address_s01_p06_s04_lu008",
+        "lincoln-lyceum-address_s01_p06_s04_lu013",
+        "lincoln-lyceum-address_s01_p06_s04_lu015"
+      ],
+      "mipvu_units": [
+        {
+          "mipvu_id": "lincoln-lyceum-address_s01_p06_s04_lu008",
+          "lexical_unit": "live",
+          "decision_type": "mipvu_personification",
+          "review_status": "reviewed",
+          "confidence": 0.92,
+          "path": "cases/lincoln/corpus/mipvu/lincoln-lyceum-address_mipvu.json"
+        },
+        {
+          "mipvu_id": "lincoln-lyceum-address_s01_p06_s04_lu013",
+          "lexical_unit": "die",
+          "decision_type": "mipvu_personification",
+          "review_status": "reviewed",
+          "confidence": 0.93,
+          "path": "cases/lincoln/corpus/mipvu/lincoln-lyceum-address_mipvu.json"
+        },
+        {
+          "mipvu_id": "lincoln-lyceum-address_s01_p06_s04_lu015",
+          "lexical_unit": "suicide",
+          "decision_type": "mipvu_personification",
+          "review_status": "reviewed",
+          "confidence": 0.96,
+          "path": "cases/lincoln/corpus/mipvu/lincoln-lyceum-address_mipvu.json"
+        }
+      ],
+      "sentence_id": "lincoln-lyceum-address_s01_p06_s04",
+      "sentence_text": "As a nation of freemen we must live through all time, or die by suicide.",
+      "segmented_sentence_path": "cases/lincoln/corpus/segmented/lincoln-lyceum-address.json",
+      "document_id": "lincoln-lyceum-address",
+      "document_title": "Address Before the Young Men's Lyceum of Springfield, Illinois",
+      "document_date": "1838-01-27",
+      "document_register": "public-address",
+      "source_url": "https://www.gutenberg.org/ebooks/3253",
+      "source_citation": "Project Gutenberg EBook #3253 — The Papers and Writings of Abraham Lincoln, Complete, ed. Arthur Brooks Lapsley. Date note: Lapsley edition reads '1837'; correct date is 1838-01-27 per Basler, Collected Works vol. 1, p. 108.",
+      "rights_status": "public-domain",
+      "source_text_path": "cases/lincoln/corpus/raw/lincoln-src-01-lyceum-address.txt",
+      "historical_note_ids": [
+        "lincoln-hist-003"
+      ],
+      "historical_corroboration": [
+        {
+          "note_id": "lincoln-hist-003",
+          "topic": "Lyceum republican survival rhetoric before the Civil War",
+          "summary": "The Lyceum Address supplies early body-politic survival language, but its alignment is primarily rhetorical and civic rather than direct war enactment.",
+          "corroboration_status": "limited-contextual alignment",
+          "claim_boundary": "Useful for diachronic setup; does not by itself establish historical enactment."
+        }
+      ],
+      "upstream_artifacts": [
+        "cases/lincoln/analysis/support-ratings.json",
+        "cases/lincoln/corpus/cmt/cmt-mappings.json",
+        "cases/lincoln/analysis/historical-enactment-alignment.json",
+        "cases/lincoln/metadata/document-manifest.json",
+        "cases/lincoln/metadata/corpus-register.csv"
+      ],
+      "review_limitations": [
+        "Trace rows are draft review aids, not final publication claims.",
+        "Publication-grade historical citations remain required where historical notes say so.",
+        "Scores are provisional and based on reviewed Lincoln pilot evidence.",
+        "Full-corpus MIPVU review and reliability adjudication are pending.",
+        "Historical alignment notes require publication-grade citations."
+      ]
+    },
+    {
+      "trace_id": "lincoln-score-doc-lyceum-historical_enactment_alignment-lincoln-cmt-001",
+      "case_id": "lincoln",
+      "generated_at": "2026-06-15T10:32:23",
+      "claim_id": "lincoln-score-doc-lyceum-historical_enactment_alignment",
+      "claim_text": "Lyceum Address contributes weak support evidence for historical enactment or alignment (score 1.0/4): The address figures the nation as a living collective body but does not yet supply battlefield sacrifice or strong enemy-as-death evidence.",
+      "claim_status": "inference",
+      "claim_boundary": "Draft evidentiary-support assessment from reviewed pilot evidence; not proof, diagnosis, or monocausal historical explanation.",
+      "support_dimension": "historical_enactment_alignment",
+      "support_dimension_label": "historical enactment or alignment",
+      "support_score_id": "lincoln-score-doc-lyceum",
+      "support_score": 1.0,
+      "support_score_path": "cases/lincoln/analysis/support-ratings.json",
+      "document_weight": 1.0,
+      "weight_rationale": "Standard early public-address benchmark; important for diachronic setup but not war enactment.",
+      "cluster_id": "lincoln-01-body-organism",
+      "mapping_id": "lincoln-cmt-001",
+      "mapping_status": "provisional",
+      "conceptual_metaphor": "THE NATION IS A LIVING BODY",
+      "source_domain_primary": "nature_organism",
+      "target_domain": "nation",
+      "expression": "we must live through all time, or die by suicide",
+      "evidence_span": "As a nation of freemen we must live through all time, or die by suicide.",
+      "mapping_confidence": 0.9,
+      "rival_reading": "Conventional body-politic idiom rather than active metaphor; keep conventionality visible in aggregate claims.",
+      "mipvu_ids": [
+        "lincoln-lyceum-address_s01_p06_s04_lu008",
+        "lincoln-lyceum-address_s01_p06_s04_lu013",
+        "lincoln-lyceum-address_s01_p06_s04_lu015"
+      ],
+      "mipvu_units": [
+        {
+          "mipvu_id": "lincoln-lyceum-address_s01_p06_s04_lu008",
+          "lexical_unit": "live",
+          "decision_type": "mipvu_personification",
+          "review_status": "reviewed",
+          "confidence": 0.92,
+          "path": "cases/lincoln/corpus/mipvu/lincoln-lyceum-address_mipvu.json"
+        },
+        {
+          "mipvu_id": "lincoln-lyceum-address_s01_p06_s04_lu013",
+          "lexical_unit": "die",
+          "decision_type": "mipvu_personification",
+          "review_status": "reviewed",
+          "confidence": 0.93,
+          "path": "cases/lincoln/corpus/mipvu/lincoln-lyceum-address_mipvu.json"
+        },
+        {
+          "mipvu_id": "lincoln-lyceum-address_s01_p06_s04_lu015",
+          "lexical_unit": "suicide",
+          "decision_type": "mipvu_personification",
+          "review_status": "reviewed",
+          "confidence": 0.96,
+          "path": "cases/lincoln/corpus/mipvu/lincoln-lyceum-address_mipvu.json"
+        }
+      ],
+      "sentence_id": "lincoln-lyceum-address_s01_p06_s04",
+      "sentence_text": "As a nation of freemen we must live through all time, or die by suicide.",
+      "segmented_sentence_path": "cases/lincoln/corpus/segmented/lincoln-lyceum-address.json",
+      "document_id": "lincoln-lyceum-address",
+      "document_title": "Address Before the Young Men's Lyceum of Springfield, Illinois",
+      "document_date": "1838-01-27",
+      "document_register": "public-address",
+      "source_url": "https://www.gutenberg.org/ebooks/3253",
+      "source_citation": "Project Gutenberg EBook #3253 — The Papers and Writings of Abraham Lincoln, Complete, ed. Arthur Brooks Lapsley. Date note: Lapsley edition reads '1837'; correct date is 1838-01-27 per Basler, Collected Works vol. 1, p. 108.",
+      "rights_status": "public-domain",
+      "source_text_path": "cases/lincoln/corpus/raw/lincoln-src-01-lyceum-address.txt",
+      "historical_note_ids": [
+        "lincoln-hist-003"
+      ],
+      "historical_corroboration": [
+        {
+          "note_id": "lincoln-hist-003",
+          "topic": "Lyceum republican survival rhetoric before the Civil War",
+          "summary": "The Lyceum Address supplies early body-politic survival language, but its alignment is primarily rhetorical and civic rather than direct war enactment.",
+          "corroboration_status": "limited-contextual alignment",
+          "claim_boundary": "Useful for diachronic setup; does not by itself establish historical enactment."
+        }
+      ],
+      "upstream_artifacts": [
+        "cases/lincoln/analysis/support-ratings.json",
+        "cases/lincoln/corpus/cmt/cmt-mappings.json",
+        "cases/lincoln/analysis/historical-enactment-alignment.json",
+        "cases/lincoln/metadata/document-manifest.json",
+        "cases/lincoln/metadata/corpus-register.csv"
+      ],
+      "review_limitations": [
+        "Trace rows are draft review aids, not final publication claims.",
+        "Publication-grade historical citations remain required where historical notes say so.",
+        "Scores are provisional and based on reviewed Lincoln pilot evidence.",
+        "Full-corpus MIPVU review and reliability adjudication are pending.",
+        "Historical alignment notes require publication-grade citations."
+      ]
+    },
+    {
+      "trace_id": "lincoln-score-doc-gettysburg-sacred_object-lincoln-cmt-002",
+      "case_id": "lincoln",
+      "generated_at": "2026-06-15T10:32:23",
+      "claim_id": "lincoln-score-doc-gettysburg-sacred_object",
+      "claim_text": "Gettysburg Address contributes strong support evidence for sacred object (score 3.0/4): Gettysburg strongly links battlefield death, national survival, civic dedication, and democratic renewal, while the enemy remains mostly unnamed.",
+      "claim_status": "interpretation",
+      "claim_boundary": "Draft evidentiary-support assessment from reviewed pilot evidence; not proof, diagnosis, or monocausal historical explanation.",
+      "support_dimension": "sacred_object",
+      "support_dimension_label": "sacred object",
+      "support_score_id": "lincoln-score-doc-gettysburg",
+      "support_score": 3.0,
+      "support_score_path": "cases/lincoln/analysis/support-ratings.json",
+      "document_weight": 2.0,
+      "weight_rationale": "Canonical, rhetorically central battlefield-dedication text.",
+      "cluster_id": "lincoln-08-sacrificial-death-gift",
+      "mapping_id": "lincoln-cmt-002",
+      "mapping_status": "provisional",
+      "conceptual_metaphor": "SOLDIER DEATH IS A GIFT THAT PRESERVES NATIONAL LIFE",
+      "source_domain_primary": "sacrifice",
+      "target_domain": "nation",
+      "expression": "final resting place ... gave their lives that this nation might live",
+      "evidence_span": "We have come to dedicate a portion of that field as a final resting place for those who here gave their lives that this nation might live.",
+      "mapping_confidence": 0.86,
+      "rival_reading": "The sentence may be read as solemn memorial diction rather than a fully active sacrificial mapping.",
+      "mipvu_ids": [
+        "lincoln-gettysburg-address_s01_p03_s01_lu014",
+        "lincoln-gettysburg-address_s01_p03_s01_lu020",
+        "lincoln-gettysburg-address_s01_p03_s01_lu027"
+      ],
+      "mipvu_units": [
+        {
+          "mipvu_id": "lincoln-gettysburg-address_s01_p03_s01_lu014",
+          "lexical_unit": "resting",
+          "decision_type": "mipvu_indirect",
+          "review_status": "reviewed",
+          "confidence": 0.72,
+          "path": "cases/lincoln/corpus/mipvu/lincoln-gettysburg-address_mipvu.json"
+        },
+        {
+          "mipvu_id": "lincoln-gettysburg-address_s01_p03_s01_lu020",
+          "lexical_unit": "gave",
+          "decision_type": "mipvu_indirect",
+          "review_status": "reviewed",
+          "confidence": 0.86,
+          "path": "cases/lincoln/corpus/mipvu/lincoln-gettysburg-address_mipvu.json"
+        },
+        {
+          "mipvu_id": "lincoln-gettysburg-address_s01_p03_s01_lu027",
+          "lexical_unit": "live",
+          "decision_type": "mipvu_personification",
+          "review_status": "reviewed",
+          "confidence": 0.93,
+          "path": "cases/lincoln/corpus/mipvu/lincoln-gettysburg-address_mipvu.json"
+        }
+      ],
+      "sentence_id": "lincoln-gettysburg-address_s01_p03_s01",
+      "sentence_text": "We have come to dedicate a portion of that field as a final resting place for those who here gave their lives that this nation might live.",
+      "segmented_sentence_path": "cases/lincoln/corpus/segmented/lincoln-gettysburg-address.json",
+      "document_id": "lincoln-gettysburg-address",
+      "document_title": "Address Delivered at the Dedication of the Cemetery at Gettysburg",
+      "document_date": "1863-11-19",
+      "document_register": "ceremonial-address",
+      "source_url": "https://www.gutenberg.org/ebooks/4",
+      "source_citation": "Project Gutenberg EBook #4 — Bliss copy (Lincoln's final corrected manuscript, the only one he signed)",
+      "rights_status": "public-domain",
+      "source_text_path": "cases/lincoln/corpus/raw/lincoln-src-02-gettysburg-address.txt",
+      "historical_note_ids": [
+        "lincoln-hist-001"
+      ],
+      "historical_corroboration": [
+        {
+          "note_id": "lincoln-hist-001",
+          "topic": "Gettysburg battlefield death, cemetery dedication, and public mourning",
+          "summary": "Gettysburg links actual battlefield death, cemetery dedication, and public mourning to Lincoln's symbolic conversion of death into national obligation.",
+          "corroboration_status": "contextually-corroborated; publication citations required",
+          "claim_boundary": "Supports historical alignment for public mourning and battlefield death, not a claim that the address caused the deaths."
+        }
+      ],
+      "upstream_artifacts": [
+        "cases/lincoln/analysis/support-ratings.json",
+        "cases/lincoln/corpus/cmt/cmt-mappings.json",
+        "cases/lincoln/analysis/historical-enactment-alignment.json",
+        "cases/lincoln/metadata/document-manifest.json",
+        "cases/lincoln/metadata/corpus-register.csv"
+      ],
+      "review_limitations": [
+        "Trace rows are draft review aids, not final publication claims.",
+        "Publication-grade historical citations remain required where historical notes say so.",
+        "Scores are provisional and based on reviewed Lincoln pilot evidence.",
+        "Full-corpus MIPVU review and reliability adjudication are pending.",
+        "Historical alignment notes require publication-grade citations."
+      ]
+    },
+    {
+      "trace_id": "lincoln-score-doc-gettysburg-sacred_object-lincoln-cmt-003",
+      "case_id": "lincoln",
+      "generated_at": "2026-06-15T10:32:23",
+      "claim_id": "lincoln-score-doc-gettysburg-sacred_object",
+      "claim_text": "Gettysburg Address contributes strong support evidence for sacred object (score 3.0/4): Gettysburg strongly links battlefield death, national survival, civic dedication, and democratic renewal, while the enemy remains mostly unnamed.",
+      "claim_status": "interpretation",
+      "claim_boundary": "Draft evidentiary-support assessment from reviewed pilot evidence; not proof, diagnosis, or monocausal historical explanation.",
+      "support_dimension": "sacred_object",
+      "support_dimension_label": "sacred object",
+      "support_score_id": "lincoln-score-doc-gettysburg",
+      "support_score": 3.0,
+      "support_score_path": "cases/lincoln/analysis/support-ratings.json",
+      "document_weight": 2.0,
+      "weight_rationale": "Canonical, rhetorically central battlefield-dedication text.",
+      "cluster_id": "lincoln-06-providence-theodicy",
+      "mapping_id": "lincoln-cmt-003",
+      "mapping_status": "provisional",
+      "conceptual_metaphor": "CIVIC DUTY IS SACRED DEDICATION",
+      "source_domain_primary": "religion_providence",
+      "target_domain": "citizenship",
+      "expression": "dedicated to the great task remaining before us",
+      "evidence_span": "It is rather for us to be here dedicated to the great task remaining before us.",
+      "mapping_confidence": 0.78,
+      "rival_reading": "Dedicated may function as conventional ceremonial diction with limited conceptual force.",
+      "mipvu_ids": [
+        "lincoln-gettysburg-address_s01_p05_s02_lu009"
+      ],
+      "mipvu_units": [
+        {
+          "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu009",
+          "lexical_unit": "dedicated",
+          "decision_type": "mipvu_indirect",
+          "review_status": "reviewed",
+          "confidence": 0.8,
+          "path": "cases/lincoln/corpus/mipvu/lincoln-gettysburg-address_mipvu.json"
+        }
+      ],
+      "sentence_id": "lincoln-gettysburg-address_s01_p05_s02",
+      "sentence_text": "It is rather for us to be here dedicated to the great task remaining before us. . .that from these honored dead we take increased devotion to that cause for which they gave the last full measure of devotion. . . that we here highly resolve that these dead shall not have died in vain. . . that this nation, under God, shall have a new birth of freedom. . . and that government of the people. . .by the people. . .for the people. . . shall not perish from this earth.",
+      "segmented_sentence_path": "cases/lincoln/corpus/segmented/lincoln-gettysburg-address.json",
+      "document_id": "lincoln-gettysburg-address",
+      "document_title": "Address Delivered at the Dedication of the Cemetery at Gettysburg",
+      "document_date": "1863-11-19",
+      "document_register": "ceremonial-address",
+      "source_url": "https://www.gutenberg.org/ebooks/4",
+      "source_citation": "Project Gutenberg EBook #4 — Bliss copy (Lincoln's final corrected manuscript, the only one he signed)",
+      "rights_status": "public-domain",
+      "source_text_path": "cases/lincoln/corpus/raw/lincoln-src-02-gettysburg-address.txt",
+      "historical_note_ids": [
+        "lincoln-hist-001"
+      ],
+      "historical_corroboration": [
+        {
+          "note_id": "lincoln-hist-001",
+          "topic": "Gettysburg battlefield death, cemetery dedication, and public mourning",
+          "summary": "Gettysburg links actual battlefield death, cemetery dedication, and public mourning to Lincoln's symbolic conversion of death into national obligation.",
+          "corroboration_status": "contextually-corroborated; publication citations required",
+          "claim_boundary": "Supports historical alignment for public mourning and battlefield death, not a claim that the address caused the deaths."
+        }
+      ],
+      "upstream_artifacts": [
+        "cases/lincoln/analysis/support-ratings.json",
+        "cases/lincoln/corpus/cmt/cmt-mappings.json",
+        "cases/lincoln/analysis/historical-enactment-alignment.json",
+        "cases/lincoln/metadata/document-manifest.json",
+        "cases/lincoln/metadata/corpus-register.csv"
+      ],
+      "review_limitations": [
+        "Trace rows are draft review aids, not final publication claims.",
+        "Publication-grade historical citations remain required where historical notes say so.",
+        "Scores are provisional and based on reviewed Lincoln pilot evidence.",
+        "Full-corpus MIPVU review and reliability adjudication are pending.",
+        "Historical alignment notes require publication-grade citations."
+      ]
+    },
+    {
+      "trace_id": "lincoln-score-doc-gettysburg-sacred_object-lincoln-cmt-004",
+      "case_id": "lincoln",
+      "generated_at": "2026-06-15T10:32:23",
+      "claim_id": "lincoln-score-doc-gettysburg-sacred_object",
+      "claim_text": "Gettysburg Address contributes strong support evidence for sacred object (score 3.0/4): Gettysburg strongly links battlefield death, national survival, civic dedication, and democratic renewal, while the enemy remains mostly unnamed.",
+      "claim_status": "interpretation",
+      "claim_boundary": "Draft evidentiary-support assessment from reviewed pilot evidence; not proof, diagnosis, or monocausal historical explanation.",
+      "support_dimension": "sacred_object",
+      "support_dimension_label": "sacred object",
+      "support_score_id": "lincoln-score-doc-gettysburg",
+      "support_score": 3.0,
+      "support_score_path": "cases/lincoln/analysis/support-ratings.json",
+      "document_weight": 2.0,
+      "weight_rationale": "Canonical, rhetorically central battlefield-dedication text.",
+      "cluster_id": "lincoln-08-sacrificial-death-gift",
+      "mapping_id": "lincoln-cmt-004",
+      "mapping_status": "provisional",
+      "conceptual_metaphor": "MILITARY DEATH IS TOTAL DEVOTIONAL PAYMENT",
+      "source_domain_primary": "sacrifice",
+      "target_domain": "civil_war",
+      "expression": "gave the last full measure of devotion",
+      "evidence_span": "that cause for which they gave the last full measure of devotion",
+      "mapping_confidence": 0.84,
+      "rival_reading": "Measure may be conventional quantifying language rather than a distinct accounting source domain.",
+      "mipvu_ids": [
+        "lincoln-gettysburg-address_s01_p05_s02_lu032",
+        "lincoln-gettysburg-address_s01_p05_s02_lu036"
+      ],
+      "mipvu_units": [
+        {
+          "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu032",
+          "lexical_unit": "gave",
+          "decision_type": "mipvu_indirect",
+          "review_status": "reviewed",
+          "confidence": 0.84,
+          "path": "cases/lincoln/corpus/mipvu/lincoln-gettysburg-address_mipvu.json"
+        },
+        {
+          "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu036",
+          "lexical_unit": "measure",
+          "decision_type": "mipvu_indirect",
+          "review_status": "reviewed",
+          "confidence": 0.76,
+          "path": "cases/lincoln/corpus/mipvu/lincoln-gettysburg-address_mipvu.json"
+        }
+      ],
+      "sentence_id": "lincoln-gettysburg-address_s01_p05_s02",
+      "sentence_text": "It is rather for us to be here dedicated to the great task remaining before us. . .that from these honored dead we take increased devotion to that cause for which they gave the last full measure of devotion. . . that we here highly resolve that these dead shall not have died in vain. . . that this nation, under God, shall have a new birth of freedom. . . and that government of the people. . .by the people. . .for the people. . . shall not perish from this earth.",
+      "segmented_sentence_path": "cases/lincoln/corpus/segmented/lincoln-gettysburg-address.json",
+      "document_id": "lincoln-gettysburg-address",
+      "document_title": "Address Delivered at the Dedication of the Cemetery at Gettysburg",
+      "document_date": "1863-11-19",
+      "document_register": "ceremonial-address",
+      "source_url": "https://www.gutenberg.org/ebooks/4",
+      "source_citation": "Project Gutenberg EBook #4 — Bliss copy (Lincoln's final corrected manuscript, the only one he signed)",
+      "rights_status": "public-domain",
+      "source_text_path": "cases/lincoln/corpus/raw/lincoln-src-02-gettysburg-address.txt",
+      "historical_note_ids": [
+        "lincoln-hist-001"
+      ],
+      "historical_corroboration": [
+        {
+          "note_id": "lincoln-hist-001",
+          "topic": "Gettysburg battlefield death, cemetery dedication, and public mourning",
+          "summary": "Gettysburg links actual battlefield death, cemetery dedication, and public mourning to Lincoln's symbolic conversion of death into national obligation.",
+          "corroboration_status": "contextually-corroborated; publication citations required",
+          "claim_boundary": "Supports historical alignment for public mourning and battlefield death, not a claim that the address caused the deaths."
+        }
+      ],
+      "upstream_artifacts": [
+        "cases/lincoln/analysis/support-ratings.json",
+        "cases/lincoln/corpus/cmt/cmt-mappings.json",
+        "cases/lincoln/analysis/historical-enactment-alignment.json",
+        "cases/lincoln/metadata/document-manifest.json",
+        "cases/lincoln/metadata/corpus-register.csv"
+      ],
+      "review_limitations": [
+        "Trace rows are draft review aids, not final publication claims.",
+        "Publication-grade historical citations remain required where historical notes say so.",
+        "Scores are provisional and based on reviewed Lincoln pilot evidence.",
+        "Full-corpus MIPVU review and reliability adjudication are pending.",
+        "Historical alignment notes require publication-grade citations."
+      ]
+    },
+    {
+      "trace_id": "lincoln-score-doc-gettysburg-sacred_object-lincoln-cmt-005",
+      "case_id": "lincoln",
+      "generated_at": "2026-06-15T10:32:23",
+      "claim_id": "lincoln-score-doc-gettysburg-sacred_object",
+      "claim_text": "Gettysburg Address contributes strong support evidence for sacred object (score 3.0/4): Gettysburg strongly links battlefield death, national survival, civic dedication, and democratic renewal, while the enemy remains mostly unnamed.",
+      "claim_status": "interpretation",
+      "claim_boundary": "Draft evidentiary-support assessment from reviewed pilot evidence; not proof, diagnosis, or monocausal historical explanation.",
+      "support_dimension": "sacred_object",
+      "support_dimension_label": "sacred object",
+      "support_score_id": "lincoln-score-doc-gettysburg",
+      "support_score": 3.0,
+      "support_score_path": "cases/lincoln/analysis/support-ratings.json",
+      "document_weight": 2.0,
+      "weight_rationale": "Canonical, rhetorically central battlefield-dedication text.",
+      "cluster_id": "lincoln-04-birth-creation",
+      "mapping_id": "lincoln-cmt-005",
+      "mapping_status": "provisional",
+      "conceptual_metaphor": "POLITICAL RENEWAL IS BIRTH",
+      "source_domain_primary": "birth_generation",
+      "target_domain": "freedom",
+      "expression": "a new birth of freedom",
+      "evidence_span": "this nation, under God, shall have a new birth of freedom",
+      "mapping_confidence": 0.95,
+      "rival_reading": "Republican renewal formula; historical-semantics controls should prevent overstating biological literalness.",
+      "mipvu_ids": [
+        "lincoln-gettysburg-address_s01_p05_s02_lu062"
+      ],
+      "mipvu_units": [
+        {
+          "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu062",
+          "lexical_unit": "birth",
+          "decision_type": "mipvu_direct",
+          "review_status": "reviewed",
+          "confidence": 0.95,
+          "path": "cases/lincoln/corpus/mipvu/lincoln-gettysburg-address_mipvu.json"
+        }
+      ],
+      "sentence_id": "lincoln-gettysburg-address_s01_p05_s02",
+      "sentence_text": "It is rather for us to be here dedicated to the great task remaining before us. . .that from these honored dead we take increased devotion to that cause for which they gave the last full measure of devotion. . . that we here highly resolve that these dead shall not have died in vain. . . that this nation, under God, shall have a new birth of freedom. . . and that government of the people. . .by the people. . .for the people. . . shall not perish from this earth.",
+      "segmented_sentence_path": "cases/lincoln/corpus/segmented/lincoln-gettysburg-address.json",
+      "document_id": "lincoln-gettysburg-address",
+      "document_title": "Address Delivered at the Dedication of the Cemetery at Gettysburg",
+      "document_date": "1863-11-19",
+      "document_register": "ceremonial-address",
+      "source_url": "https://www.gutenberg.org/ebooks/4",
+      "source_citation": "Project Gutenberg EBook #4 — Bliss copy (Lincoln's final corrected manuscript, the only one he signed)",
+      "rights_status": "public-domain",
+      "source_text_path": "cases/lincoln/corpus/raw/lincoln-src-02-gettysburg-address.txt",
+      "historical_note_ids": [
+        "lincoln-hist-001"
+      ],
+      "historical_corroboration": [
+        {
+          "note_id": "lincoln-hist-001",
+          "topic": "Gettysburg battlefield death, cemetery dedication, and public mourning",
+          "summary": "Gettysburg links actual battlefield death, cemetery dedication, and public mourning to Lincoln's symbolic conversion of death into national obligation.",
+          "corroboration_status": "contextually-corroborated; publication citations required",
+          "claim_boundary": "Supports historical alignment for public mourning and battlefield death, not a claim that the address caused the deaths."
+        }
+      ],
+      "upstream_artifacts": [
+        "cases/lincoln/analysis/support-ratings.json",
+        "cases/lincoln/corpus/cmt/cmt-mappings.json",
+        "cases/lincoln/analysis/historical-enactment-alignment.json",
+        "cases/lincoln/metadata/document-manifest.json",
+        "cases/lincoln/metadata/corpus-register.csv"
+      ],
+      "review_limitations": [
+        "Trace rows are draft review aids, not final publication claims.",
+        "Publication-grade historical citations remain required where historical notes say so.",
+        "Scores are provisional and based on reviewed Lincoln pilot evidence.",
+        "Full-corpus MIPVU review and reliability adjudication are pending.",
+        "Historical alignment notes require publication-grade citations."
+      ]
+    },
+    {
+      "trace_id": "lincoln-score-doc-gettysburg-sacred_object-lincoln-cmt-006",
+      "case_id": "lincoln",
+      "generated_at": "2026-06-15T10:32:23",
+      "claim_id": "lincoln-score-doc-gettysburg-sacred_object",
+      "claim_text": "Gettysburg Address contributes strong support evidence for sacred object (score 3.0/4): Gettysburg strongly links battlefield death, national survival, civic dedication, and democratic renewal, while the enemy remains mostly unnamed.",
+      "claim_status": "interpretation",
+      "claim_boundary": "Draft evidentiary-support assessment from reviewed pilot evidence; not proof, diagnosis, or monocausal historical explanation.",
+      "support_dimension": "sacred_object",
+      "support_dimension_label": "sacred object",
+      "support_score_id": "lincoln-score-doc-gettysburg",
+      "support_score": 3.0,
+      "support_score_path": "cases/lincoln/analysis/support-ratings.json",
+      "document_weight": 2.0,
+      "weight_rationale": "Canonical, rhetorically central battlefield-dedication text.",
+      "cluster_id": "lincoln-01-body-organism",
+      "mapping_id": "lincoln-cmt-006",
+      "mapping_status": "provisional",
+      "conceptual_metaphor": "DEMOCRATIC GOVERNMENT IS A LIVING ORGANISM",
+      "source_domain_primary": "nature_organism",
+      "target_domain": "democracy",
+      "expression": "government ... shall not perish from this earth",
+      "evidence_span": "government of the people...by the people...for the people...shall not perish from this earth",
+      "mapping_confidence": 0.9,
+      "rival_reading": "Perish can be a conventional verb for institutional failure; preserve conventionality in claims.",
+      "mipvu_ids": [
+        "lincoln-gettysburg-address_s01_p05_s02_lu079"
+      ],
+      "mipvu_units": [
+        {
+          "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu079",
+          "lexical_unit": "perish",
+          "decision_type": "mipvu_personification",
+          "review_status": "reviewed",
+          "confidence": 0.9,
+          "path": "cases/lincoln/corpus/mipvu/lincoln-gettysburg-address_mipvu.json"
+        }
+      ],
+      "sentence_id": "lincoln-gettysburg-address_s01_p05_s02",
+      "sentence_text": "It is rather for us to be here dedicated to the great task remaining before us. . .that from these honored dead we take increased devotion to that cause for which they gave the last full measure of devotion. . . that we here highly resolve that these dead shall not have died in vain. . . that this nation, under God, shall have a new birth of freedom. . . and that government of the people. . .by the people. . .for the people. . . shall not perish from this earth.",
+      "segmented_sentence_path": "cases/lincoln/corpus/segmented/lincoln-gettysburg-address.json",
+      "document_id": "lincoln-gettysburg-address",
+      "document_title": "Address Delivered at the Dedication of the Cemetery at Gettysburg",
+      "document_date": "1863-11-19",
+      "document_register": "ceremonial-address",
+      "source_url": "https://www.gutenberg.org/ebooks/4",
+      "source_citation": "Project Gutenberg EBook #4 — Bliss copy (Lincoln's final corrected manuscript, the only one he signed)",
+      "rights_status": "public-domain",
+      "source_text_path": "cases/lincoln/corpus/raw/lincoln-src-02-gettysburg-address.txt",
+      "historical_note_ids": [
+        "lincoln-hist-001"
+      ],
+      "historical_corroboration": [
+        {
+          "note_id": "lincoln-hist-001",
+          "topic": "Gettysburg battlefield death, cemetery dedication, and public mourning",
+          "summary": "Gettysburg links actual battlefield death, cemetery dedication, and public mourning to Lincoln's symbolic conversion of death into national obligation.",
+          "corroboration_status": "contextually-corroborated; publication citations required",
+          "claim_boundary": "Supports historical alignment for public mourning and battlefield death, not a claim that the address caused the deaths."
+        }
+      ],
+      "upstream_artifacts": [
+        "cases/lincoln/analysis/support-ratings.json",
+        "cases/lincoln/corpus/cmt/cmt-mappings.json",
+        "cases/lincoln/analysis/historical-enactment-alignment.json",
+        "cases/lincoln/metadata/document-manifest.json",
+        "cases/lincoln/metadata/corpus-register.csv"
+      ],
+      "review_limitations": [
+        "Trace rows are draft review aids, not final publication claims.",
+        "Publication-grade historical citations remain required where historical notes say so.",
+        "Scores are provisional and based on reviewed Lincoln pilot evidence.",
+        "Full-corpus MIPVU review and reliability adjudication are pending.",
+        "Historical alignment notes require publication-grade citations."
+      ]
+    },
+    {
+      "trace_id": "lincoln-score-doc-gettysburg-sacrificial_body-lincoln-cmt-002",
+      "case_id": "lincoln",
+      "generated_at": "2026-06-15T10:32:23",
+      "claim_id": "lincoln-score-doc-gettysburg-sacrificial_body",
+      "claim_text": "Gettysburg Address contributes strong support evidence for sacrificial body (score 3.0/4): Gettysburg strongly links battlefield death, national survival, civic dedication, and democratic renewal, while the enemy remains mostly unnamed.",
+      "claim_status": "interpretation",
+      "claim_boundary": "Draft evidentiary-support assessment from reviewed pilot evidence; not proof, diagnosis, or monocausal historical explanation.",
+      "support_dimension": "sacrificial_body",
+      "support_dimension_label": "sacrificial body",
+      "support_score_id": "lincoln-score-doc-gettysburg",
+      "support_score": 3.0,
+      "support_score_path": "cases/lincoln/analysis/support-ratings.json",
+      "document_weight": 2.0,
+      "weight_rationale": "Canonical, rhetorically central battlefield-dedication text.",
+      "cluster_id": "lincoln-08-sacrificial-death-gift",
+      "mapping_id": "lincoln-cmt-002",
+      "mapping_status": "provisional",
+      "conceptual_metaphor": "SOLDIER DEATH IS A GIFT THAT PRESERVES NATIONAL LIFE",
+      "source_domain_primary": "sacrifice",
+      "target_domain": "nation",
+      "expression": "final resting place ... gave their lives that this nation might live",
+      "evidence_span": "We have come to dedicate a portion of that field as a final resting place for those who here gave their lives that this nation might live.",
+      "mapping_confidence": 0.86,
+      "rival_reading": "The sentence may be read as solemn memorial diction rather than a fully active sacrificial mapping.",
+      "mipvu_ids": [
+        "lincoln-gettysburg-address_s01_p03_s01_lu014",
+        "lincoln-gettysburg-address_s01_p03_s01_lu020",
+        "lincoln-gettysburg-address_s01_p03_s01_lu027"
+      ],
+      "mipvu_units": [
+        {
+          "mipvu_id": "lincoln-gettysburg-address_s01_p03_s01_lu014",
+          "lexical_unit": "resting",
+          "decision_type": "mipvu_indirect",
+          "review_status": "reviewed",
+          "confidence": 0.72,
+          "path": "cases/lincoln/corpus/mipvu/lincoln-gettysburg-address_mipvu.json"
+        },
+        {
+          "mipvu_id": "lincoln-gettysburg-address_s01_p03_s01_lu020",
+          "lexical_unit": "gave",
+          "decision_type": "mipvu_indirect",
+          "review_status": "reviewed",
+          "confidence": 0.86,
+          "path": "cases/lincoln/corpus/mipvu/lincoln-gettysburg-address_mipvu.json"
+        },
+        {
+          "mipvu_id": "lincoln-gettysburg-address_s01_p03_s01_lu027",
+          "lexical_unit": "live",
+          "decision_type": "mipvu_personification",
+          "review_status": "reviewed",
+          "confidence": 0.93,
+          "path": "cases/lincoln/corpus/mipvu/lincoln-gettysburg-address_mipvu.json"
+        }
+      ],
+      "sentence_id": "lincoln-gettysburg-address_s01_p03_s01",
+      "sentence_text": "We have come to dedicate a portion of that field as a final resting place for those who here gave their lives that this nation might live.",
+      "segmented_sentence_path": "cases/lincoln/corpus/segmented/lincoln-gettysburg-address.json",
+      "document_id": "lincoln-gettysburg-address",
+      "document_title": "Address Delivered at the Dedication of the Cemetery at Gettysburg",
+      "document_date": "1863-11-19",
+      "document_register": "ceremonial-address",
+      "source_url": "https://www.gutenberg.org/ebooks/4",
+      "source_citation": "Project Gutenberg EBook #4 — Bliss copy (Lincoln's final corrected manuscript, the only one he signed)",
+      "rights_status": "public-domain",
+      "source_text_path": "cases/lincoln/corpus/raw/lincoln-src-02-gettysburg-address.txt",
+      "historical_note_ids": [
+        "lincoln-hist-001"
+      ],
+      "historical_corroboration": [
+        {
+          "note_id": "lincoln-hist-001",
+          "topic": "Gettysburg battlefield death, cemetery dedication, and public mourning",
+          "summary": "Gettysburg links actual battlefield death, cemetery dedication, and public mourning to Lincoln's symbolic conversion of death into national obligation.",
+          "corroboration_status": "contextually-corroborated; publication citations required",
+          "claim_boundary": "Supports historical alignment for public mourning and battlefield death, not a claim that the address caused the deaths."
+        }
+      ],
+      "upstream_artifacts": [
+        "cases/lincoln/analysis/support-ratings.json",
+        "cases/lincoln/corpus/cmt/cmt-mappings.json",
+        "cases/lincoln/analysis/historical-enactment-alignment.json",
+        "cases/lincoln/metadata/document-manifest.json",
+        "cases/lincoln/metadata/corpus-register.csv"
+      ],
+      "review_limitations": [
+        "Trace rows are draft review aids, not final publication claims.",
+        "Publication-grade historical citations remain required where historical notes say so.",
+        "Scores are provisional and based on reviewed Lincoln pilot evidence.",
+        "Full-corpus MIPVU review and reliability adjudication are pending.",
+        "Historical alignment notes require publication-grade citations."
+      ]
+    },
+    {
+      "trace_id": "lincoln-score-doc-gettysburg-sacrificial_body-lincoln-cmt-003",
+      "case_id": "lincoln",
+      "generated_at": "2026-06-15T10:32:23",
+      "claim_id": "lincoln-score-doc-gettysburg-sacrificial_body",
+      "claim_text": "Gettysburg Address contributes strong support evidence for sacrificial body (score 3.0/4): Gettysburg strongly links battlefield death, national survival, civic dedication, and democratic renewal, while the enemy remains mostly unnamed.",
+      "claim_status": "interpretation",
+      "claim_boundary": "Draft evidentiary-support assessment from reviewed pilot evidence; not proof, diagnosis, or monocausal historical explanation.",
+      "support_dimension": "sacrificial_body",
+      "support_dimension_label": "sacrificial body",
+      "support_score_id": "lincoln-score-doc-gettysburg",
+      "support_score": 3.0,
+      "support_score_path": "cases/lincoln/analysis/support-ratings.json",
+      "document_weight": 2.0,
+      "weight_rationale": "Canonical, rhetorically central battlefield-dedication text.",
+      "cluster_id": "lincoln-06-providence-theodicy",
+      "mapping_id": "lincoln-cmt-003",
+      "mapping_status": "provisional",
+      "conceptual_metaphor": "CIVIC DUTY IS SACRED DEDICATION",
+      "source_domain_primary": "religion_providence",
+      "target_domain": "citizenship",
+      "expression": "dedicated to the great task remaining before us",
+      "evidence_span": "It is rather for us to be here dedicated to the great task remaining before us.",
+      "mapping_confidence": 0.78,
+      "rival_reading": "Dedicated may function as conventional ceremonial diction with limited conceptual force.",
+      "mipvu_ids": [
+        "lincoln-gettysburg-address_s01_p05_s02_lu009"
+      ],
+      "mipvu_units": [
+        {
+          "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu009",
+          "lexical_unit": "dedicated",
+          "decision_type": "mipvu_indirect",
+          "review_status": "reviewed",
+          "confidence": 0.8,
+          "path": "cases/lincoln/corpus/mipvu/lincoln-gettysburg-address_mipvu.json"
+        }
+      ],
+      "sentence_id": "lincoln-gettysburg-address_s01_p05_s02",
+      "sentence_text": "It is rather for us to be here dedicated to the great task remaining before us. . .that from these honored dead we take increased devotion to that cause for which they gave the last full measure of devotion. . . that we here highly resolve that these dead shall not have died in vain. . . that this nation, under God, shall have a new birth of freedom. . . and that government of the people. . .by the people. . .for the people. . . shall not perish from this earth.",
+      "segmented_sentence_path": "cases/lincoln/corpus/segmented/lincoln-gettysburg-address.json",
+      "document_id": "lincoln-gettysburg-address",
+      "document_title": "Address Delivered at the Dedication of the Cemetery at Gettysburg",
+      "document_date": "1863-11-19",
+      "document_register": "ceremonial-address",
+      "source_url": "https://www.gutenberg.org/ebooks/4",
+      "source_citation": "Project Gutenberg EBook #4 — Bliss copy (Lincoln's final corrected manuscript, the only one he signed)",
+      "rights_status": "public-domain",
+      "source_text_path": "cases/lincoln/corpus/raw/lincoln-src-02-gettysburg-address.txt",
+      "historical_note_ids": [
+        "lincoln-hist-001"
+      ],
+      "historical_corroboration": [
+        {
+          "note_id": "lincoln-hist-001",
+          "topic": "Gettysburg battlefield death, cemetery dedication, and public mourning",
+          "summary": "Gettysburg links actual battlefield death, cemetery dedication, and public mourning to Lincoln's symbolic conversion of death into national obligation.",
+          "corroboration_status": "contextually-corroborated; publication citations required",
+          "claim_boundary": "Supports historical alignment for public mourning and battlefield death, not a claim that the address caused the deaths."
+        }
+      ],
+      "upstream_artifacts": [
+        "cases/lincoln/analysis/support-ratings.json",
+        "cases/lincoln/corpus/cmt/cmt-mappings.json",
+        "cases/lincoln/analysis/historical-enactment-alignment.json",
+        "cases/lincoln/metadata/document-manifest.json",
+        "cases/lincoln/metadata/corpus-register.csv"
+      ],
+      "review_limitations": [
+        "Trace rows are draft review aids, not final publication claims.",
+        "Publication-grade historical citations remain required where historical notes say so.",
+        "Scores are provisional and based on reviewed Lincoln pilot evidence.",
+        "Full-corpus MIPVU review and reliability adjudication are pending.",
+        "Historical alignment notes require publication-grade citations."
+      ]
+    },
+    {
+      "trace_id": "lincoln-score-doc-gettysburg-sacrificial_body-lincoln-cmt-004",
+      "case_id": "lincoln",
+      "generated_at": "2026-06-15T10:32:23",
+      "claim_id": "lincoln-score-doc-gettysburg-sacrificial_body",
+      "claim_text": "Gettysburg Address contributes strong support evidence for sacrificial body (score 3.0/4): Gettysburg strongly links battlefield death, national survival, civic dedication, and democratic renewal, while the enemy remains mostly unnamed.",
+      "claim_status": "interpretation",
+      "claim_boundary": "Draft evidentiary-support assessment from reviewed pilot evidence; not proof, diagnosis, or monocausal historical explanation.",
+      "support_dimension": "sacrificial_body",
+      "support_dimension_label": "sacrificial body",
+      "support_score_id": "lincoln-score-doc-gettysburg",
+      "support_score": 3.0,
+      "support_score_path": "cases/lincoln/analysis/support-ratings.json",
+      "document_weight": 2.0,
+      "weight_rationale": "Canonical, rhetorically central battlefield-dedication text.",
+      "cluster_id": "lincoln-08-sacrificial-death-gift",
+      "mapping_id": "lincoln-cmt-004",
+      "mapping_status": "provisional",
+      "conceptual_metaphor": "MILITARY DEATH IS TOTAL DEVOTIONAL PAYMENT",
+      "source_domain_primary": "sacrifice",
+      "target_domain": "civil_war",
+      "expression": "gave the last full measure of devotion",
+      "evidence_span": "that cause for which they gave the last full measure of devotion",
+      "mapping_confidence": 0.84,
+      "rival_reading": "Measure may be conventional quantifying language rather than a distinct accounting source domain.",
+      "mipvu_ids": [
+        "lincoln-gettysburg-address_s01_p05_s02_lu032",
+        "lincoln-gettysburg-address_s01_p05_s02_lu036"
+      ],
+      "mipvu_units": [
+        {
+          "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu032",
+          "lexical_unit": "gave",
+          "decision_type": "mipvu_indirect",
+          "review_status": "reviewed",
+          "confidence": 0.84,
+          "path": "cases/lincoln/corpus/mipvu/lincoln-gettysburg-address_mipvu.json"
+        },
+        {
+          "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu036",
+          "lexical_unit": "measure",
+          "decision_type": "mipvu_indirect",
+          "review_status": "reviewed",
+          "confidence": 0.76,
+          "path": "cases/lincoln/corpus/mipvu/lincoln-gettysburg-address_mipvu.json"
+        }
+      ],
+      "sentence_id": "lincoln-gettysburg-address_s01_p05_s02",
+      "sentence_text": "It is rather for us to be here dedicated to the great task remaining before us. . .that from these honored dead we take increased devotion to that cause for which they gave the last full measure of devotion. . . that we here highly resolve that these dead shall not have died in vain. . . that this nation, under God, shall have a new birth of freedom. . . and that government of the people. . .by the people. . .for the people. . . shall not perish from this earth.",
+      "segmented_sentence_path": "cases/lincoln/corpus/segmented/lincoln-gettysburg-address.json",
+      "document_id": "lincoln-gettysburg-address",
+      "document_title": "Address Delivered at the Dedication of the Cemetery at Gettysburg",
+      "document_date": "1863-11-19",
+      "document_register": "ceremonial-address",
+      "source_url": "https://www.gutenberg.org/ebooks/4",
+      "source_citation": "Project Gutenberg EBook #4 — Bliss copy (Lincoln's final corrected manuscript, the only one he signed)",
+      "rights_status": "public-domain",
+      "source_text_path": "cases/lincoln/corpus/raw/lincoln-src-02-gettysburg-address.txt",
+      "historical_note_ids": [
+        "lincoln-hist-001"
+      ],
+      "historical_corroboration": [
+        {
+          "note_id": "lincoln-hist-001",
+          "topic": "Gettysburg battlefield death, cemetery dedication, and public mourning",
+          "summary": "Gettysburg links actual battlefield death, cemetery dedication, and public mourning to Lincoln's symbolic conversion of death into national obligation.",
+          "corroboration_status": "contextually-corroborated; publication citations required",
+          "claim_boundary": "Supports historical alignment for public mourning and battlefield death, not a claim that the address caused the deaths."
+        }
+      ],
+      "upstream_artifacts": [
+        "cases/lincoln/analysis/support-ratings.json",
+        "cases/lincoln/corpus/cmt/cmt-mappings.json",
+        "cases/lincoln/analysis/historical-enactment-alignment.json",
+        "cases/lincoln/metadata/document-manifest.json",
+        "cases/lincoln/metadata/corpus-register.csv"
+      ],
+      "review_limitations": [
+        "Trace rows are draft review aids, not final publication claims.",
+        "Publication-grade historical citations remain required where historical notes say so.",
+        "Scores are provisional and based on reviewed Lincoln pilot evidence.",
+        "Full-corpus MIPVU review and reliability adjudication are pending.",
+        "Historical alignment notes require publication-grade citations."
+      ]
+    },
+    {
+      "trace_id": "lincoln-score-doc-gettysburg-sacrificial_body-lincoln-cmt-005",
+      "case_id": "lincoln",
+      "generated_at": "2026-06-15T10:32:23",
+      "claim_id": "lincoln-score-doc-gettysburg-sacrificial_body",
+      "claim_text": "Gettysburg Address contributes strong support evidence for sacrificial body (score 3.0/4): Gettysburg strongly links battlefield death, national survival, civic dedication, and democratic renewal, while the enemy remains mostly unnamed.",
+      "claim_status": "interpretation",
+      "claim_boundary": "Draft evidentiary-support assessment from reviewed pilot evidence; not proof, diagnosis, or monocausal historical explanation.",
+      "support_dimension": "sacrificial_body",
+      "support_dimension_label": "sacrificial body",
+      "support_score_id": "lincoln-score-doc-gettysburg",
+      "support_score": 3.0,
+      "support_score_path": "cases/lincoln/analysis/support-ratings.json",
+      "document_weight": 2.0,
+      "weight_rationale": "Canonical, rhetorically central battlefield-dedication text.",
+      "cluster_id": "lincoln-04-birth-creation",
+      "mapping_id": "lincoln-cmt-005",
+      "mapping_status": "provisional",
+      "conceptual_metaphor": "POLITICAL RENEWAL IS BIRTH",
+      "source_domain_primary": "birth_generation",
+      "target_domain": "freedom",
+      "expression": "a new birth of freedom",
+      "evidence_span": "this nation, under God, shall have a new birth of freedom",
+      "mapping_confidence": 0.95,
+      "rival_reading": "Republican renewal formula; historical-semantics controls should prevent overstating biological literalness.",
+      "mipvu_ids": [
+        "lincoln-gettysburg-address_s01_p05_s02_lu062"
+      ],
+      "mipvu_units": [
+        {
+          "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu062",
+          "lexical_unit": "birth",
+          "decision_type": "mipvu_direct",
+          "review_status": "reviewed",
+          "confidence": 0.95,
+          "path": "cases/lincoln/corpus/mipvu/lincoln-gettysburg-address_mipvu.json"
+        }
+      ],
+      "sentence_id": "lincoln-gettysburg-address_s01_p05_s02",
+      "sentence_text": "It is rather for us to be here dedicated to the great task remaining before us. . .that from these honored dead we take increased devotion to that cause for which they gave the last full measure of devotion. . . that we here highly resolve that these dead shall not have died in vain. . . that this nation, under God, shall have a new birth of freedom. . . and that government of the people. . .by the people. . .for the people. . . shall not perish from this earth.",
+      "segmented_sentence_path": "cases/lincoln/corpus/segmented/lincoln-gettysburg-address.json",
+      "document_id": "lincoln-gettysburg-address",
+      "document_title": "Address Delivered at the Dedication of the Cemetery at Gettysburg",
+      "document_date": "1863-11-19",
+      "document_register": "ceremonial-address",
+      "source_url": "https://www.gutenberg.org/ebooks/4",
+      "source_citation": "Project Gutenberg EBook #4 — Bliss copy (Lincoln's final corrected manuscript, the only one he signed)",
+      "rights_status": "public-domain",
+      "source_text_path": "cases/lincoln/corpus/raw/lincoln-src-02-gettysburg-address.txt",
+      "historical_note_ids": [
+        "lincoln-hist-001"
+      ],
+      "historical_corroboration": [
+        {
+          "note_id": "lincoln-hist-001",
+          "topic": "Gettysburg battlefield death, cemetery dedication, and public mourning",
+          "summary": "Gettysburg links actual battlefield death, cemetery dedication, and public mourning to Lincoln's symbolic conversion of death into national obligation.",
+          "corroboration_status": "contextually-corroborated; publication citations required",
+          "claim_boundary": "Supports historical alignment for public mourning and battlefield death, not a claim that the address caused the deaths."
+        }
+      ],
+      "upstream_artifacts": [
+        "cases/lincoln/analysis/support-ratings.json",
+        "cases/lincoln/corpus/cmt/cmt-mappings.json",
+        "cases/lincoln/analysis/historical-enactment-alignment.json",
+        "cases/lincoln/metadata/document-manifest.json",
+        "cases/lincoln/metadata/corpus-register.csv"
+      ],
+      "review_limitations": [
+        "Trace rows are draft review aids, not final publication claims.",
+        "Publication-grade historical citations remain required where historical notes say so.",
+        "Scores are provisional and based on reviewed Lincoln pilot evidence.",
+        "Full-corpus MIPVU review and reliability adjudication are pending.",
+        "Historical alignment notes require publication-grade citations."
+      ]
+    },
+    {
+      "trace_id": "lincoln-score-doc-gettysburg-sacrificial_body-lincoln-cmt-006",
+      "case_id": "lincoln",
+      "generated_at": "2026-06-15T10:32:23",
+      "claim_id": "lincoln-score-doc-gettysburg-sacrificial_body",
+      "claim_text": "Gettysburg Address contributes strong support evidence for sacrificial body (score 3.0/4): Gettysburg strongly links battlefield death, national survival, civic dedication, and democratic renewal, while the enemy remains mostly unnamed.",
+      "claim_status": "interpretation",
+      "claim_boundary": "Draft evidentiary-support assessment from reviewed pilot evidence; not proof, diagnosis, or monocausal historical explanation.",
+      "support_dimension": "sacrificial_body",
+      "support_dimension_label": "sacrificial body",
+      "support_score_id": "lincoln-score-doc-gettysburg",
+      "support_score": 3.0,
+      "support_score_path": "cases/lincoln/analysis/support-ratings.json",
+      "document_weight": 2.0,
+      "weight_rationale": "Canonical, rhetorically central battlefield-dedication text.",
+      "cluster_id": "lincoln-01-body-organism",
+      "mapping_id": "lincoln-cmt-006",
+      "mapping_status": "provisional",
+      "conceptual_metaphor": "DEMOCRATIC GOVERNMENT IS A LIVING ORGANISM",
+      "source_domain_primary": "nature_organism",
+      "target_domain": "democracy",
+      "expression": "government ... shall not perish from this earth",
+      "evidence_span": "government of the people...by the people...for the people...shall not perish from this earth",
+      "mapping_confidence": 0.9,
+      "rival_reading": "Perish can be a conventional verb for institutional failure; preserve conventionality in claims.",
+      "mipvu_ids": [
+        "lincoln-gettysburg-address_s01_p05_s02_lu079"
+      ],
+      "mipvu_units": [
+        {
+          "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu079",
+          "lexical_unit": "perish",
+          "decision_type": "mipvu_personification",
+          "review_status": "reviewed",
+          "confidence": 0.9,
+          "path": "cases/lincoln/corpus/mipvu/lincoln-gettysburg-address_mipvu.json"
+        }
+      ],
+      "sentence_id": "lincoln-gettysburg-address_s01_p05_s02",
+      "sentence_text": "It is rather for us to be here dedicated to the great task remaining before us. . .that from these honored dead we take increased devotion to that cause for which they gave the last full measure of devotion. . . that we here highly resolve that these dead shall not have died in vain. . . that this nation, under God, shall have a new birth of freedom. . . and that government of the people. . .by the people. . .for the people. . . shall not perish from this earth.",
+      "segmented_sentence_path": "cases/lincoln/corpus/segmented/lincoln-gettysburg-address.json",
+      "document_id": "lincoln-gettysburg-address",
+      "document_title": "Address Delivered at the Dedication of the Cemetery at Gettysburg",
+      "document_date": "1863-11-19",
+      "document_register": "ceremonial-address",
+      "source_url": "https://www.gutenberg.org/ebooks/4",
+      "source_citation": "Project Gutenberg EBook #4 — Bliss copy (Lincoln's final corrected manuscript, the only one he signed)",
+      "rights_status": "public-domain",
+      "source_text_path": "cases/lincoln/corpus/raw/lincoln-src-02-gettysburg-address.txt",
+      "historical_note_ids": [
+        "lincoln-hist-001"
+      ],
+      "historical_corroboration": [
+        {
+          "note_id": "lincoln-hist-001",
+          "topic": "Gettysburg battlefield death, cemetery dedication, and public mourning",
+          "summary": "Gettysburg links actual battlefield death, cemetery dedication, and public mourning to Lincoln's symbolic conversion of death into national obligation.",
+          "corroboration_status": "contextually-corroborated; publication citations required",
+          "claim_boundary": "Supports historical alignment for public mourning and battlefield death, not a claim that the address caused the deaths."
+        }
+      ],
+      "upstream_artifacts": [
+        "cases/lincoln/analysis/support-ratings.json",
+        "cases/lincoln/corpus/cmt/cmt-mappings.json",
+        "cases/lincoln/analysis/historical-enactment-alignment.json",
+        "cases/lincoln/metadata/document-manifest.json",
+        "cases/lincoln/metadata/corpus-register.csv"
+      ],
+      "review_limitations": [
+        "Trace rows are draft review aids, not final publication claims.",
+        "Publication-grade historical citations remain required where historical notes say so.",
+        "Scores are provisional and based on reviewed Lincoln pilot evidence.",
+        "Full-corpus MIPVU review and reliability adjudication are pending.",
+        "Historical alignment notes require publication-grade citations."
+      ]
+    },
+    {
+      "trace_id": "lincoln-score-doc-gettysburg-enemy_as_death-lincoln-cmt-002",
+      "case_id": "lincoln",
+      "generated_at": "2026-06-15T10:32:23",
+      "claim_id": "lincoln-score-doc-gettysburg-enemy_as_death",
+      "claim_text": "Gettysburg Address contributes weak support evidence for enemy as death (score 1.0/4): Gettysburg strongly links battlefield death, national survival, civic dedication, and democratic renewal, while the enemy remains mostly unnamed.",
+      "claim_status": "interpretation",
+      "claim_boundary": "Draft evidentiary-support assessment from reviewed pilot evidence; not proof, diagnosis, or monocausal historical explanation.",
+      "support_dimension": "enemy_as_death",
+      "support_dimension_label": "enemy as death",
+      "support_score_id": "lincoln-score-doc-gettysburg",
+      "support_score": 1.0,
+      "support_score_path": "cases/lincoln/analysis/support-ratings.json",
+      "document_weight": 2.0,
+      "weight_rationale": "Canonical, rhetorically central battlefield-dedication text.",
+      "cluster_id": "lincoln-08-sacrificial-death-gift",
+      "mapping_id": "lincoln-cmt-002",
+      "mapping_status": "provisional",
+      "conceptual_metaphor": "SOLDIER DEATH IS A GIFT THAT PRESERVES NATIONAL LIFE",
+      "source_domain_primary": "sacrifice",
+      "target_domain": "nation",
+      "expression": "final resting place ... gave their lives that this nation might live",
+      "evidence_span": "We have come to dedicate a portion of that field as a final resting place for those who here gave their lives that this nation might live.",
+      "mapping_confidence": 0.86,
+      "rival_reading": "The sentence may be read as solemn memorial diction rather than a fully active sacrificial mapping.",
+      "mipvu_ids": [
+        "lincoln-gettysburg-address_s01_p03_s01_lu014",
+        "lincoln-gettysburg-address_s01_p03_s01_lu020",
+        "lincoln-gettysburg-address_s01_p03_s01_lu027"
+      ],
+      "mipvu_units": [
+        {
+          "mipvu_id": "lincoln-gettysburg-address_s01_p03_s01_lu014",
+          "lexical_unit": "resting",
+          "decision_type": "mipvu_indirect",
+          "review_status": "reviewed",
+          "confidence": 0.72,
+          "path": "cases/lincoln/corpus/mipvu/lincoln-gettysburg-address_mipvu.json"
+        },
+        {
+          "mipvu_id": "lincoln-gettysburg-address_s01_p03_s01_lu020",
+          "lexical_unit": "gave",
+          "decision_type": "mipvu_indirect",
+          "review_status": "reviewed",
+          "confidence": 0.86,
+          "path": "cases/lincoln/corpus/mipvu/lincoln-gettysburg-address_mipvu.json"
+        },
+        {
+          "mipvu_id": "lincoln-gettysburg-address_s01_p03_s01_lu027",
+          "lexical_unit": "live",
+          "decision_type": "mipvu_personification",
+          "review_status": "reviewed",
+          "confidence": 0.93,
+          "path": "cases/lincoln/corpus/mipvu/lincoln-gettysburg-address_mipvu.json"
+        }
+      ],
+      "sentence_id": "lincoln-gettysburg-address_s01_p03_s01",
+      "sentence_text": "We have come to dedicate a portion of that field as a final resting place for those who here gave their lives that this nation might live.",
+      "segmented_sentence_path": "cases/lincoln/corpus/segmented/lincoln-gettysburg-address.json",
+      "document_id": "lincoln-gettysburg-address",
+      "document_title": "Address Delivered at the Dedication of the Cemetery at Gettysburg",
+      "document_date": "1863-11-19",
+      "document_register": "ceremonial-address",
+      "source_url": "https://www.gutenberg.org/ebooks/4",
+      "source_citation": "Project Gutenberg EBook #4 — Bliss copy (Lincoln's final corrected manuscript, the only one he signed)",
+      "rights_status": "public-domain",
+      "source_text_path": "cases/lincoln/corpus/raw/lincoln-src-02-gettysburg-address.txt",
+      "historical_note_ids": [
+        "lincoln-hist-001"
+      ],
+      "historical_corroboration": [
+        {
+          "note_id": "lincoln-hist-001",
+          "topic": "Gettysburg battlefield death, cemetery dedication, and public mourning",
+          "summary": "Gettysburg links actual battlefield death, cemetery dedication, and public mourning to Lincoln's symbolic conversion of death into national obligation.",
+          "corroboration_status": "contextually-corroborated; publication citations required",
+          "claim_boundary": "Supports historical alignment for public mourning and battlefield death, not a claim that the address caused the deaths."
+        }
+      ],
+      "upstream_artifacts": [
+        "cases/lincoln/analysis/support-ratings.json",
+        "cases/lincoln/corpus/cmt/cmt-mappings.json",
+        "cases/lincoln/analysis/historical-enactment-alignment.json",
+        "cases/lincoln/metadata/document-manifest.json",
+        "cases/lincoln/metadata/corpus-register.csv"
+      ],
+      "review_limitations": [
+        "Trace rows are draft review aids, not final publication claims.",
+        "Publication-grade historical citations remain required where historical notes say so.",
+        "Scores are provisional and based on reviewed Lincoln pilot evidence.",
+        "Full-corpus MIPVU review and reliability adjudication are pending.",
+        "Historical alignment notes require publication-grade citations."
+      ]
+    },
+    {
+      "trace_id": "lincoln-score-doc-gettysburg-enemy_as_death-lincoln-cmt-003",
+      "case_id": "lincoln",
+      "generated_at": "2026-06-15T10:32:23",
+      "claim_id": "lincoln-score-doc-gettysburg-enemy_as_death",
+      "claim_text": "Gettysburg Address contributes weak support evidence for enemy as death (score 1.0/4): Gettysburg strongly links battlefield death, national survival, civic dedication, and democratic renewal, while the enemy remains mostly unnamed.",
+      "claim_status": "interpretation",
+      "claim_boundary": "Draft evidentiary-support assessment from reviewed pilot evidence; not proof, diagnosis, or monocausal historical explanation.",
+      "support_dimension": "enemy_as_death",
+      "support_dimension_label": "enemy as death",
+      "support_score_id": "lincoln-score-doc-gettysburg",
+      "support_score": 1.0,
+      "support_score_path": "cases/lincoln/analysis/support-ratings.json",
+      "document_weight": 2.0,
+      "weight_rationale": "Canonical, rhetorically central battlefield-dedication text.",
+      "cluster_id": "lincoln-06-providence-theodicy",
+      "mapping_id": "lincoln-cmt-003",
+      "mapping_status": "provisional",
+      "conceptual_metaphor": "CIVIC DUTY IS SACRED DEDICATION",
+      "source_domain_primary": "religion_providence",
+      "target_domain": "citizenship",
+      "expression": "dedicated to the great task remaining before us",
+      "evidence_span": "It is rather for us to be here dedicated to the great task remaining before us.",
+      "mapping_confidence": 0.78,
+      "rival_reading": "Dedicated may function as conventional ceremonial diction with limited conceptual force.",
+      "mipvu_ids": [
+        "lincoln-gettysburg-address_s01_p05_s02_lu009"
+      ],
+      "mipvu_units": [
+        {
+          "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu009",
+          "lexical_unit": "dedicated",
+          "decision_type": "mipvu_indirect",
+          "review_status": "reviewed",
+          "confidence": 0.8,
+          "path": "cases/lincoln/corpus/mipvu/lincoln-gettysburg-address_mipvu.json"
+        }
+      ],
+      "sentence_id": "lincoln-gettysburg-address_s01_p05_s02",
+      "sentence_text": "It is rather for us to be here dedicated to the great task remaining before us. . .that from these honored dead we take increased devotion to that cause for which they gave the last full measure of devotion. . . that we here highly resolve that these dead shall not have died in vain. . . that this nation, under God, shall have a new birth of freedom. . . and that government of the people. . .by the people. . .for the people. . . shall not perish from this earth.",
+      "segmented_sentence_path": "cases/lincoln/corpus/segmented/lincoln-gettysburg-address.json",
+      "document_id": "lincoln-gettysburg-address",
+      "document_title": "Address Delivered at the Dedication of the Cemetery at Gettysburg",
+      "document_date": "1863-11-19",
+      "document_register": "ceremonial-address",
+      "source_url": "https://www.gutenberg.org/ebooks/4",
+      "source_citation": "Project Gutenberg EBook #4 — Bliss copy (Lincoln's final corrected manuscript, the only one he signed)",
+      "rights_status": "public-domain",
+      "source_text_path": "cases/lincoln/corpus/raw/lincoln-src-02-gettysburg-address.txt",
+      "historical_note_ids": [
+        "lincoln-hist-001"
+      ],
+      "historical_corroboration": [
+        {
+          "note_id": "lincoln-hist-001",
+          "topic": "Gettysburg battlefield death, cemetery dedication, and public mourning",
+          "summary": "Gettysburg links actual battlefield death, cemetery dedication, and public mourning to Lincoln's symbolic conversion of death into national obligation.",
+          "corroboration_status": "contextually-corroborated; publication citations required",
+          "claim_boundary": "Supports historical alignment for public mourning and battlefield death, not a claim that the address caused the deaths."
+        }
+      ],
+      "upstream_artifacts": [
+        "cases/lincoln/analysis/support-ratings.json",
+        "cases/lincoln/corpus/cmt/cmt-mappings.json",
+        "cases/lincoln/analysis/historical-enactment-alignment.json",
+        "cases/lincoln/metadata/document-manifest.json",
+        "cases/lincoln/metadata/corpus-register.csv"
+      ],
+      "review_limitations": [
+        "Trace rows are draft review aids, not final publication claims.",
+        "Publication-grade historical citations remain required where historical notes say so.",
+        "Scores are provisional and based on reviewed Lincoln pilot evidence.",
+        "Full-corpus MIPVU review and reliability adjudication are pending.",
+        "Historical alignment notes require publication-grade citations."
+      ]
+    },
+    {
+      "trace_id": "lincoln-score-doc-gettysburg-enemy_as_death-lincoln-cmt-004",
+      "case_id": "lincoln",
+      "generated_at": "2026-06-15T10:32:23",
+      "claim_id": "lincoln-score-doc-gettysburg-enemy_as_death",
+      "claim_text": "Gettysburg Address contributes weak support evidence for enemy as death (score 1.0/4): Gettysburg strongly links battlefield death, national survival, civic dedication, and democratic renewal, while the enemy remains mostly unnamed.",
+      "claim_status": "interpretation",
+      "claim_boundary": "Draft evidentiary-support assessment from reviewed pilot evidence; not proof, diagnosis, or monocausal historical explanation.",
+      "support_dimension": "enemy_as_death",
+      "support_dimension_label": "enemy as death",
+      "support_score_id": "lincoln-score-doc-gettysburg",
+      "support_score": 1.0,
+      "support_score_path": "cases/lincoln/analysis/support-ratings.json",
+      "document_weight": 2.0,
+      "weight_rationale": "Canonical, rhetorically central battlefield-dedication text.",
+      "cluster_id": "lincoln-08-sacrificial-death-gift",
+      "mapping_id": "lincoln-cmt-004",
+      "mapping_status": "provisional",
+      "conceptual_metaphor": "MILITARY DEATH IS TOTAL DEVOTIONAL PAYMENT",
+      "source_domain_primary": "sacrifice",
+      "target_domain": "civil_war",
+      "expression": "gave the last full measure of devotion",
+      "evidence_span": "that cause for which they gave the last full measure of devotion",
+      "mapping_confidence": 0.84,
+      "rival_reading": "Measure may be conventional quantifying language rather than a distinct accounting source domain.",
+      "mipvu_ids": [
+        "lincoln-gettysburg-address_s01_p05_s02_lu032",
+        "lincoln-gettysburg-address_s01_p05_s02_lu036"
+      ],
+      "mipvu_units": [
+        {
+          "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu032",
+          "lexical_unit": "gave",
+          "decision_type": "mipvu_indirect",
+          "review_status": "reviewed",
+          "confidence": 0.84,
+          "path": "cases/lincoln/corpus/mipvu/lincoln-gettysburg-address_mipvu.json"
+        },
+        {
+          "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu036",
+          "lexical_unit": "measure",
+          "decision_type": "mipvu_indirect",
+          "review_status": "reviewed",
+          "confidence": 0.76,
+          "path": "cases/lincoln/corpus/mipvu/lincoln-gettysburg-address_mipvu.json"
+        }
+      ],
+      "sentence_id": "lincoln-gettysburg-address_s01_p05_s02",
+      "sentence_text": "It is rather for us to be here dedicated to the great task remaining before us. . .that from these honored dead we take increased devotion to that cause for which they gave the last full measure of devotion. . . that we here highly resolve that these dead shall not have died in vain. . . that this nation, under God, shall have a new birth of freedom. . . and that government of the people. . .by the people. . .for the people. . . shall not perish from this earth.",
+      "segmented_sentence_path": "cases/lincoln/corpus/segmented/lincoln-gettysburg-address.json",
+      "document_id": "lincoln-gettysburg-address",
+      "document_title": "Address Delivered at the Dedication of the Cemetery at Gettysburg",
+      "document_date": "1863-11-19",
+      "document_register": "ceremonial-address",
+      "source_url": "https://www.gutenberg.org/ebooks/4",
+      "source_citation": "Project Gutenberg EBook #4 — Bliss copy (Lincoln's final corrected manuscript, the only one he signed)",
+      "rights_status": "public-domain",
+      "source_text_path": "cases/lincoln/corpus/raw/lincoln-src-02-gettysburg-address.txt",
+      "historical_note_ids": [
+        "lincoln-hist-001"
+      ],
+      "historical_corroboration": [
+        {
+          "note_id": "lincoln-hist-001",
+          "topic": "Gettysburg battlefield death, cemetery dedication, and public mourning",
+          "summary": "Gettysburg links actual battlefield death, cemetery dedication, and public mourning to Lincoln's symbolic conversion of death into national obligation.",
+          "corroboration_status": "contextually-corroborated; publication citations required",
+          "claim_boundary": "Supports historical alignment for public mourning and battlefield death, not a claim that the address caused the deaths."
+        }
+      ],
+      "upstream_artifacts": [
+        "cases/lincoln/analysis/support-ratings.json",
+        "cases/lincoln/corpus/cmt/cmt-mappings.json",
+        "cases/lincoln/analysis/historical-enactment-alignment.json",
+        "cases/lincoln/metadata/document-manifest.json",
+        "cases/lincoln/metadata/corpus-register.csv"
+      ],
+      "review_limitations": [
+        "Trace rows are draft review aids, not final publication claims.",
+        "Publication-grade historical citations remain required where historical notes say so.",
+        "Scores are provisional and based on reviewed Lincoln pilot evidence.",
+        "Full-corpus MIPVU review and reliability adjudication are pending.",
+        "Historical alignment notes require publication-grade citations."
+      ]
+    },
+    {
+      "trace_id": "lincoln-score-doc-gettysburg-enemy_as_death-lincoln-cmt-005",
+      "case_id": "lincoln",
+      "generated_at": "2026-06-15T10:32:23",
+      "claim_id": "lincoln-score-doc-gettysburg-enemy_as_death",
+      "claim_text": "Gettysburg Address contributes weak support evidence for enemy as death (score 1.0/4): Gettysburg strongly links battlefield death, national survival, civic dedication, and democratic renewal, while the enemy remains mostly unnamed.",
+      "claim_status": "interpretation",
+      "claim_boundary": "Draft evidentiary-support assessment from reviewed pilot evidence; not proof, diagnosis, or monocausal historical explanation.",
+      "support_dimension": "enemy_as_death",
+      "support_dimension_label": "enemy as death",
+      "support_score_id": "lincoln-score-doc-gettysburg",
+      "support_score": 1.0,
+      "support_score_path": "cases/lincoln/analysis/support-ratings.json",
+      "document_weight": 2.0,
+      "weight_rationale": "Canonical, rhetorically central battlefield-dedication text.",
+      "cluster_id": "lincoln-04-birth-creation",
+      "mapping_id": "lincoln-cmt-005",
+      "mapping_status": "provisional",
+      "conceptual_metaphor": "POLITICAL RENEWAL IS BIRTH",
+      "source_domain_primary": "birth_generation",
+      "target_domain": "freedom",
+      "expression": "a new birth of freedom",
+      "evidence_span": "this nation, under God, shall have a new birth of freedom",
+      "mapping_confidence": 0.95,
+      "rival_reading": "Republican renewal formula; historical-semantics controls should prevent overstating biological literalness.",
+      "mipvu_ids": [
+        "lincoln-gettysburg-address_s01_p05_s02_lu062"
+      ],
+      "mipvu_units": [
+        {
+          "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu062",
+          "lexical_unit": "birth",
+          "decision_type": "mipvu_direct",
+          "review_status": "reviewed",
+          "confidence": 0.95,
+          "path": "cases/lincoln/corpus/mipvu/lincoln-gettysburg-address_mipvu.json"
+        }
+      ],
+      "sentence_id": "lincoln-gettysburg-address_s01_p05_s02",
+      "sentence_text": "It is rather for us to be here dedicated to the great task remaining before us. . .that from these honored dead we take increased devotion to that cause for which they gave the last full measure of devotion. . . that we here highly resolve that these dead shall not have died in vain. . . that this nation, under God, shall have a new birth of freedom. . . and that government of the people. . .by the people. . .for the people. . . shall not perish from this earth.",
+      "segmented_sentence_path": "cases/lincoln/corpus/segmented/lincoln-gettysburg-address.json",
+      "document_id": "lincoln-gettysburg-address",
+      "document_title": "Address Delivered at the Dedication of the Cemetery at Gettysburg",
+      "document_date": "1863-11-19",
+      "document_register": "ceremonial-address",
+      "source_url": "https://www.gutenberg.org/ebooks/4",
+      "source_citation": "Project Gutenberg EBook #4 — Bliss copy (Lincoln's final corrected manuscript, the only one he signed)",
+      "rights_status": "public-domain",
+      "source_text_path": "cases/lincoln/corpus/raw/lincoln-src-02-gettysburg-address.txt",
+      "historical_note_ids": [
+        "lincoln-hist-001"
+      ],
+      "historical_corroboration": [
+        {
+          "note_id": "lincoln-hist-001",
+          "topic": "Gettysburg battlefield death, cemetery dedication, and public mourning",
+          "summary": "Gettysburg links actual battlefield death, cemetery dedication, and public mourning to Lincoln's symbolic conversion of death into national obligation.",
+          "corroboration_status": "contextually-corroborated; publication citations required",
+          "claim_boundary": "Supports historical alignment for public mourning and battlefield death, not a claim that the address caused the deaths."
+        }
+      ],
+      "upstream_artifacts": [
+        "cases/lincoln/analysis/support-ratings.json",
+        "cases/lincoln/corpus/cmt/cmt-mappings.json",
+        "cases/lincoln/analysis/historical-enactment-alignment.json",
+        "cases/lincoln/metadata/document-manifest.json",
+        "cases/lincoln/metadata/corpus-register.csv"
+      ],
+      "review_limitations": [
+        "Trace rows are draft review aids, not final publication claims.",
+        "Publication-grade historical citations remain required where historical notes say so.",
+        "Scores are provisional and based on reviewed Lincoln pilot evidence.",
+        "Full-corpus MIPVU review and reliability adjudication are pending.",
+        "Historical alignment notes require publication-grade citations."
+      ]
+    },
+    {
+      "trace_id": "lincoln-score-doc-gettysburg-enemy_as_death-lincoln-cmt-006",
+      "case_id": "lincoln",
+      "generated_at": "2026-06-15T10:32:23",
+      "claim_id": "lincoln-score-doc-gettysburg-enemy_as_death",
+      "claim_text": "Gettysburg Address contributes weak support evidence for enemy as death (score 1.0/4): Gettysburg strongly links battlefield death, national survival, civic dedication, and democratic renewal, while the enemy remains mostly unnamed.",
+      "claim_status": "interpretation",
+      "claim_boundary": "Draft evidentiary-support assessment from reviewed pilot evidence; not proof, diagnosis, or monocausal historical explanation.",
+      "support_dimension": "enemy_as_death",
+      "support_dimension_label": "enemy as death",
+      "support_score_id": "lincoln-score-doc-gettysburg",
+      "support_score": 1.0,
+      "support_score_path": "cases/lincoln/analysis/support-ratings.json",
+      "document_weight": 2.0,
+      "weight_rationale": "Canonical, rhetorically central battlefield-dedication text.",
+      "cluster_id": "lincoln-01-body-organism",
+      "mapping_id": "lincoln-cmt-006",
+      "mapping_status": "provisional",
+      "conceptual_metaphor": "DEMOCRATIC GOVERNMENT IS A LIVING ORGANISM",
+      "source_domain_primary": "nature_organism",
+      "target_domain": "democracy",
+      "expression": "government ... shall not perish from this earth",
+      "evidence_span": "government of the people...by the people...for the people...shall not perish from this earth",
+      "mapping_confidence": 0.9,
+      "rival_reading": "Perish can be a conventional verb for institutional failure; preserve conventionality in claims.",
+      "mipvu_ids": [
+        "lincoln-gettysburg-address_s01_p05_s02_lu079"
+      ],
+      "mipvu_units": [
+        {
+          "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu079",
+          "lexical_unit": "perish",
+          "decision_type": "mipvu_personification",
+          "review_status": "reviewed",
+          "confidence": 0.9,
+          "path": "cases/lincoln/corpus/mipvu/lincoln-gettysburg-address_mipvu.json"
+        }
+      ],
+      "sentence_id": "lincoln-gettysburg-address_s01_p05_s02",
+      "sentence_text": "It is rather for us to be here dedicated to the great task remaining before us. . .that from these honored dead we take increased devotion to that cause for which they gave the last full measure of devotion. . . that we here highly resolve that these dead shall not have died in vain. . . that this nation, under God, shall have a new birth of freedom. . . and that government of the people. . .by the people. . .for the people. . . shall not perish from this earth.",
+      "segmented_sentence_path": "cases/lincoln/corpus/segmented/lincoln-gettysburg-address.json",
+      "document_id": "lincoln-gettysburg-address",
+      "document_title": "Address Delivered at the Dedication of the Cemetery at Gettysburg",
+      "document_date": "1863-11-19",
+      "document_register": "ceremonial-address",
+      "source_url": "https://www.gutenberg.org/ebooks/4",
+      "source_citation": "Project Gutenberg EBook #4 — Bliss copy (Lincoln's final corrected manuscript, the only one he signed)",
+      "rights_status": "public-domain",
+      "source_text_path": "cases/lincoln/corpus/raw/lincoln-src-02-gettysburg-address.txt",
+      "historical_note_ids": [
+        "lincoln-hist-001"
+      ],
+      "historical_corroboration": [
+        {
+          "note_id": "lincoln-hist-001",
+          "topic": "Gettysburg battlefield death, cemetery dedication, and public mourning",
+          "summary": "Gettysburg links actual battlefield death, cemetery dedication, and public mourning to Lincoln's symbolic conversion of death into national obligation.",
+          "corroboration_status": "contextually-corroborated; publication citations required",
+          "claim_boundary": "Supports historical alignment for public mourning and battlefield death, not a claim that the address caused the deaths."
+        }
+      ],
+      "upstream_artifacts": [
+        "cases/lincoln/analysis/support-ratings.json",
+        "cases/lincoln/corpus/cmt/cmt-mappings.json",
+        "cases/lincoln/analysis/historical-enactment-alignment.json",
+        "cases/lincoln/metadata/document-manifest.json",
+        "cases/lincoln/metadata/corpus-register.csv"
+      ],
+      "review_limitations": [
+        "Trace rows are draft review aids, not final publication claims.",
+        "Publication-grade historical citations remain required where historical notes say so.",
+        "Scores are provisional and based on reviewed Lincoln pilot evidence.",
+        "Full-corpus MIPVU review and reliability adjudication are pending.",
+        "Historical alignment notes require publication-grade citations."
+      ]
+    },
+    {
+      "trace_id": "lincoln-score-doc-gettysburg-historical_enactment_alignment-lincoln-cmt-002",
+      "case_id": "lincoln",
+      "generated_at": "2026-06-15T10:32:23",
+      "claim_id": "lincoln-score-doc-gettysburg-historical_enactment_alignment",
+      "claim_text": "Gettysburg Address contributes strong support evidence for historical enactment or alignment (score 3.0/4): Gettysburg strongly links battlefield death, national survival, civic dedication, and democratic renewal, while the enemy remains mostly unnamed.",
+      "claim_status": "inference",
+      "claim_boundary": "Draft evidentiary-support assessment from reviewed pilot evidence; not proof, diagnosis, or monocausal historical explanation.",
+      "support_dimension": "historical_enactment_alignment",
+      "support_dimension_label": "historical enactment or alignment",
+      "support_score_id": "lincoln-score-doc-gettysburg",
+      "support_score": 3.0,
+      "support_score_path": "cases/lincoln/analysis/support-ratings.json",
+      "document_weight": 2.0,
+      "weight_rationale": "Canonical, rhetorically central battlefield-dedication text.",
+      "cluster_id": "lincoln-08-sacrificial-death-gift",
+      "mapping_id": "lincoln-cmt-002",
+      "mapping_status": "provisional",
+      "conceptual_metaphor": "SOLDIER DEATH IS A GIFT THAT PRESERVES NATIONAL LIFE",
+      "source_domain_primary": "sacrifice",
+      "target_domain": "nation",
+      "expression": "final resting place ... gave their lives that this nation might live",
+      "evidence_span": "We have come to dedicate a portion of that field as a final resting place for those who here gave their lives that this nation might live.",
+      "mapping_confidence": 0.86,
+      "rival_reading": "The sentence may be read as solemn memorial diction rather than a fully active sacrificial mapping.",
+      "mipvu_ids": [
+        "lincoln-gettysburg-address_s01_p03_s01_lu014",
+        "lincoln-gettysburg-address_s01_p03_s01_lu020",
+        "lincoln-gettysburg-address_s01_p03_s01_lu027"
+      ],
+      "mipvu_units": [
+        {
+          "mipvu_id": "lincoln-gettysburg-address_s01_p03_s01_lu014",
+          "lexical_unit": "resting",
+          "decision_type": "mipvu_indirect",
+          "review_status": "reviewed",
+          "confidence": 0.72,
+          "path": "cases/lincoln/corpus/mipvu/lincoln-gettysburg-address_mipvu.json"
+        },
+        {
+          "mipvu_id": "lincoln-gettysburg-address_s01_p03_s01_lu020",
+          "lexical_unit": "gave",
+          "decision_type": "mipvu_indirect",
+          "review_status": "reviewed",
+          "confidence": 0.86,
+          "path": "cases/lincoln/corpus/mipvu/lincoln-gettysburg-address_mipvu.json"
+        },
+        {
+          "mipvu_id": "lincoln-gettysburg-address_s01_p03_s01_lu027",
+          "lexical_unit": "live",
+          "decision_type": "mipvu_personification",
+          "review_status": "reviewed",
+          "confidence": 0.93,
+          "path": "cases/lincoln/corpus/mipvu/lincoln-gettysburg-address_mipvu.json"
+        }
+      ],
+      "sentence_id": "lincoln-gettysburg-address_s01_p03_s01",
+      "sentence_text": "We have come to dedicate a portion of that field as a final resting place for those who here gave their lives that this nation might live.",
+      "segmented_sentence_path": "cases/lincoln/corpus/segmented/lincoln-gettysburg-address.json",
+      "document_id": "lincoln-gettysburg-address",
+      "document_title": "Address Delivered at the Dedication of the Cemetery at Gettysburg",
+      "document_date": "1863-11-19",
+      "document_register": "ceremonial-address",
+      "source_url": "https://www.gutenberg.org/ebooks/4",
+      "source_citation": "Project Gutenberg EBook #4 — Bliss copy (Lincoln's final corrected manuscript, the only one he signed)",
+      "rights_status": "public-domain",
+      "source_text_path": "cases/lincoln/corpus/raw/lincoln-src-02-gettysburg-address.txt",
+      "historical_note_ids": [
+        "lincoln-hist-001"
+      ],
+      "historical_corroboration": [
+        {
+          "note_id": "lincoln-hist-001",
+          "topic": "Gettysburg battlefield death, cemetery dedication, and public mourning",
+          "summary": "Gettysburg links actual battlefield death, cemetery dedication, and public mourning to Lincoln's symbolic conversion of death into national obligation.",
+          "corroboration_status": "contextually-corroborated; publication citations required",
+          "claim_boundary": "Supports historical alignment for public mourning and battlefield death, not a claim that the address caused the deaths."
+        }
+      ],
+      "upstream_artifacts": [
+        "cases/lincoln/analysis/support-ratings.json",
+        "cases/lincoln/corpus/cmt/cmt-mappings.json",
+        "cases/lincoln/analysis/historical-enactment-alignment.json",
+        "cases/lincoln/metadata/document-manifest.json",
+        "cases/lincoln/metadata/corpus-register.csv"
+      ],
+      "review_limitations": [
+        "Trace rows are draft review aids, not final publication claims.",
+        "Publication-grade historical citations remain required where historical notes say so.",
+        "Scores are provisional and based on reviewed Lincoln pilot evidence.",
+        "Full-corpus MIPVU review and reliability adjudication are pending.",
+        "Historical alignment notes require publication-grade citations."
+      ]
+    },
+    {
+      "trace_id": "lincoln-score-doc-gettysburg-historical_enactment_alignment-lincoln-cmt-003",
+      "case_id": "lincoln",
+      "generated_at": "2026-06-15T10:32:23",
+      "claim_id": "lincoln-score-doc-gettysburg-historical_enactment_alignment",
+      "claim_text": "Gettysburg Address contributes strong support evidence for historical enactment or alignment (score 3.0/4): Gettysburg strongly links battlefield death, national survival, civic dedication, and democratic renewal, while the enemy remains mostly unnamed.",
+      "claim_status": "inference",
+      "claim_boundary": "Draft evidentiary-support assessment from reviewed pilot evidence; not proof, diagnosis, or monocausal historical explanation.",
+      "support_dimension": "historical_enactment_alignment",
+      "support_dimension_label": "historical enactment or alignment",
+      "support_score_id": "lincoln-score-doc-gettysburg",
+      "support_score": 3.0,
+      "support_score_path": "cases/lincoln/analysis/support-ratings.json",
+      "document_weight": 2.0,
+      "weight_rationale": "Canonical, rhetorically central battlefield-dedication text.",
+      "cluster_id": "lincoln-06-providence-theodicy",
+      "mapping_id": "lincoln-cmt-003",
+      "mapping_status": "provisional",
+      "conceptual_metaphor": "CIVIC DUTY IS SACRED DEDICATION",
+      "source_domain_primary": "religion_providence",
+      "target_domain": "citizenship",
+      "expression": "dedicated to the great task remaining before us",
+      "evidence_span": "It is rather for us to be here dedicated to the great task remaining before us.",
+      "mapping_confidence": 0.78,
+      "rival_reading": "Dedicated may function as conventional ceremonial diction with limited conceptual force.",
+      "mipvu_ids": [
+        "lincoln-gettysburg-address_s01_p05_s02_lu009"
+      ],
+      "mipvu_units": [
+        {
+          "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu009",
+          "lexical_unit": "dedicated",
+          "decision_type": "mipvu_indirect",
+          "review_status": "reviewed",
+          "confidence": 0.8,
+          "path": "cases/lincoln/corpus/mipvu/lincoln-gettysburg-address_mipvu.json"
+        }
+      ],
+      "sentence_id": "lincoln-gettysburg-address_s01_p05_s02",
+      "sentence_text": "It is rather for us to be here dedicated to the great task remaining before us. . .that from these honored dead we take increased devotion to that cause for which they gave the last full measure of devotion. . . that we here highly resolve that these dead shall not have died in vain. . . that this nation, under God, shall have a new birth of freedom. . . and that government of the people. . .by the people. . .for the people. . . shall not perish from this earth.",
+      "segmented_sentence_path": "cases/lincoln/corpus/segmented/lincoln-gettysburg-address.json",
+      "document_id": "lincoln-gettysburg-address",
+      "document_title": "Address Delivered at the Dedication of the Cemetery at Gettysburg",
+      "document_date": "1863-11-19",
+      "document_register": "ceremonial-address",
+      "source_url": "https://www.gutenberg.org/ebooks/4",
+      "source_citation": "Project Gutenberg EBook #4 — Bliss copy (Lincoln's final corrected manuscript, the only one he signed)",
+      "rights_status": "public-domain",
+      "source_text_path": "cases/lincoln/corpus/raw/lincoln-src-02-gettysburg-address.txt",
+      "historical_note_ids": [
+        "lincoln-hist-001"
+      ],
+      "historical_corroboration": [
+        {
+          "note_id": "lincoln-hist-001",
+          "topic": "Gettysburg battlefield death, cemetery dedication, and public mourning",
+          "summary": "Gettysburg links actual battlefield death, cemetery dedication, and public mourning to Lincoln's symbolic conversion of death into national obligation.",
+          "corroboration_status": "contextually-corroborated; publication citations required",
+          "claim_boundary": "Supports historical alignment for public mourning and battlefield death, not a claim that the address caused the deaths."
+        }
+      ],
+      "upstream_artifacts": [
+        "cases/lincoln/analysis/support-ratings.json",
+        "cases/lincoln/corpus/cmt/cmt-mappings.json",
+        "cases/lincoln/analysis/historical-enactment-alignment.json",
+        "cases/lincoln/metadata/document-manifest.json",
+        "cases/lincoln/metadata/corpus-register.csv"
+      ],
+      "review_limitations": [
+        "Trace rows are draft review aids, not final publication claims.",
+        "Publication-grade historical citations remain required where historical notes say so.",
+        "Scores are provisional and based on reviewed Lincoln pilot evidence.",
+        "Full-corpus MIPVU review and reliability adjudication are pending.",
+        "Historical alignment notes require publication-grade citations."
+      ]
+    },
+    {
+      "trace_id": "lincoln-score-doc-gettysburg-historical_enactment_alignment-lincoln-cmt-004",
+      "case_id": "lincoln",
+      "generated_at": "2026-06-15T10:32:23",
+      "claim_id": "lincoln-score-doc-gettysburg-historical_enactment_alignment",
+      "claim_text": "Gettysburg Address contributes strong support evidence for historical enactment or alignment (score 3.0/4): Gettysburg strongly links battlefield death, national survival, civic dedication, and democratic renewal, while the enemy remains mostly unnamed.",
+      "claim_status": "inference",
+      "claim_boundary": "Draft evidentiary-support assessment from reviewed pilot evidence; not proof, diagnosis, or monocausal historical explanation.",
+      "support_dimension": "historical_enactment_alignment",
+      "support_dimension_label": "historical enactment or alignment",
+      "support_score_id": "lincoln-score-doc-gettysburg",
+      "support_score": 3.0,
+      "support_score_path": "cases/lincoln/analysis/support-ratings.json",
+      "document_weight": 2.0,
+      "weight_rationale": "Canonical, rhetorically central battlefield-dedication text.",
+      "cluster_id": "lincoln-08-sacrificial-death-gift",
+      "mapping_id": "lincoln-cmt-004",
+      "mapping_status": "provisional",
+      "conceptual_metaphor": "MILITARY DEATH IS TOTAL DEVOTIONAL PAYMENT",
+      "source_domain_primary": "sacrifice",
+      "target_domain": "civil_war",
+      "expression": "gave the last full measure of devotion",
+      "evidence_span": "that cause for which they gave the last full measure of devotion",
+      "mapping_confidence": 0.84,
+      "rival_reading": "Measure may be conventional quantifying language rather than a distinct accounting source domain.",
+      "mipvu_ids": [
+        "lincoln-gettysburg-address_s01_p05_s02_lu032",
+        "lincoln-gettysburg-address_s01_p05_s02_lu036"
+      ],
+      "mipvu_units": [
+        {
+          "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu032",
+          "lexical_unit": "gave",
+          "decision_type": "mipvu_indirect",
+          "review_status": "reviewed",
+          "confidence": 0.84,
+          "path": "cases/lincoln/corpus/mipvu/lincoln-gettysburg-address_mipvu.json"
+        },
+        {
+          "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu036",
+          "lexical_unit": "measure",
+          "decision_type": "mipvu_indirect",
+          "review_status": "reviewed",
+          "confidence": 0.76,
+          "path": "cases/lincoln/corpus/mipvu/lincoln-gettysburg-address_mipvu.json"
+        }
+      ],
+      "sentence_id": "lincoln-gettysburg-address_s01_p05_s02",
+      "sentence_text": "It is rather for us to be here dedicated to the great task remaining before us. . .that from these honored dead we take increased devotion to that cause for which they gave the last full measure of devotion. . . that we here highly resolve that these dead shall not have died in vain. . . that this nation, under God, shall have a new birth of freedom. . . and that government of the people. . .by the people. . .for the people. . . shall not perish from this earth.",
+      "segmented_sentence_path": "cases/lincoln/corpus/segmented/lincoln-gettysburg-address.json",
+      "document_id": "lincoln-gettysburg-address",
+      "document_title": "Address Delivered at the Dedication of the Cemetery at Gettysburg",
+      "document_date": "1863-11-19",
+      "document_register": "ceremonial-address",
+      "source_url": "https://www.gutenberg.org/ebooks/4",
+      "source_citation": "Project Gutenberg EBook #4 — Bliss copy (Lincoln's final corrected manuscript, the only one he signed)",
+      "rights_status": "public-domain",
+      "source_text_path": "cases/lincoln/corpus/raw/lincoln-src-02-gettysburg-address.txt",
+      "historical_note_ids": [
+        "lincoln-hist-001"
+      ],
+      "historical_corroboration": [
+        {
+          "note_id": "lincoln-hist-001",
+          "topic": "Gettysburg battlefield death, cemetery dedication, and public mourning",
+          "summary": "Gettysburg links actual battlefield death, cemetery dedication, and public mourning to Lincoln's symbolic conversion of death into national obligation.",
+          "corroboration_status": "contextually-corroborated; publication citations required",
+          "claim_boundary": "Supports historical alignment for public mourning and battlefield death, not a claim that the address caused the deaths."
+        }
+      ],
+      "upstream_artifacts": [
+        "cases/lincoln/analysis/support-ratings.json",
+        "cases/lincoln/corpus/cmt/cmt-mappings.json",
+        "cases/lincoln/analysis/historical-enactment-alignment.json",
+        "cases/lincoln/metadata/document-manifest.json",
+        "cases/lincoln/metadata/corpus-register.csv"
+      ],
+      "review_limitations": [
+        "Trace rows are draft review aids, not final publication claims.",
+        "Publication-grade historical citations remain required where historical notes say so.",
+        "Scores are provisional and based on reviewed Lincoln pilot evidence.",
+        "Full-corpus MIPVU review and reliability adjudication are pending.",
+        "Historical alignment notes require publication-grade citations."
+      ]
+    },
+    {
+      "trace_id": "lincoln-score-doc-gettysburg-historical_enactment_alignment-lincoln-cmt-005",
+      "case_id": "lincoln",
+      "generated_at": "2026-06-15T10:32:23",
+      "claim_id": "lincoln-score-doc-gettysburg-historical_enactment_alignment",
+      "claim_text": "Gettysburg Address contributes strong support evidence for historical enactment or alignment (score 3.0/4): Gettysburg strongly links battlefield death, national survival, civic dedication, and democratic renewal, while the enemy remains mostly unnamed.",
+      "claim_status": "inference",
+      "claim_boundary": "Draft evidentiary-support assessment from reviewed pilot evidence; not proof, diagnosis, or monocausal historical explanation.",
+      "support_dimension": "historical_enactment_alignment",
+      "support_dimension_label": "historical enactment or alignment",
+      "support_score_id": "lincoln-score-doc-gettysburg",
+      "support_score": 3.0,
+      "support_score_path": "cases/lincoln/analysis/support-ratings.json",
+      "document_weight": 2.0,
+      "weight_rationale": "Canonical, rhetorically central battlefield-dedication text.",
+      "cluster_id": "lincoln-04-birth-creation",
+      "mapping_id": "lincoln-cmt-005",
+      "mapping_status": "provisional",
+      "conceptual_metaphor": "POLITICAL RENEWAL IS BIRTH",
+      "source_domain_primary": "birth_generation",
+      "target_domain": "freedom",
+      "expression": "a new birth of freedom",
+      "evidence_span": "this nation, under God, shall have a new birth of freedom",
+      "mapping_confidence": 0.95,
+      "rival_reading": "Republican renewal formula; historical-semantics controls should prevent overstating biological literalness.",
+      "mipvu_ids": [
+        "lincoln-gettysburg-address_s01_p05_s02_lu062"
+      ],
+      "mipvu_units": [
+        {
+          "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu062",
+          "lexical_unit": "birth",
+          "decision_type": "mipvu_direct",
+          "review_status": "reviewed",
+          "confidence": 0.95,
+          "path": "cases/lincoln/corpus/mipvu/lincoln-gettysburg-address_mipvu.json"
+        }
+      ],
+      "sentence_id": "lincoln-gettysburg-address_s01_p05_s02",
+      "sentence_text": "It is rather for us to be here dedicated to the great task remaining before us. . .that from these honored dead we take increased devotion to that cause for which they gave the last full measure of devotion. . . that we here highly resolve that these dead shall not have died in vain. . . that this nation, under God, shall have a new birth of freedom. . . and that government of the people. . .by the people. . .for the people. . . shall not perish from this earth.",
+      "segmented_sentence_path": "cases/lincoln/corpus/segmented/lincoln-gettysburg-address.json",
+      "document_id": "lincoln-gettysburg-address",
+      "document_title": "Address Delivered at the Dedication of the Cemetery at Gettysburg",
+      "document_date": "1863-11-19",
+      "document_register": "ceremonial-address",
+      "source_url": "https://www.gutenberg.org/ebooks/4",
+      "source_citation": "Project Gutenberg EBook #4 — Bliss copy (Lincoln's final corrected manuscript, the only one he signed)",
+      "rights_status": "public-domain",
+      "source_text_path": "cases/lincoln/corpus/raw/lincoln-src-02-gettysburg-address.txt",
+      "historical_note_ids": [
+        "lincoln-hist-001"
+      ],
+      "historical_corroboration": [
+        {
+          "note_id": "lincoln-hist-001",
+          "topic": "Gettysburg battlefield death, cemetery dedication, and public mourning",
+          "summary": "Gettysburg links actual battlefield death, cemetery dedication, and public mourning to Lincoln's symbolic conversion of death into national obligation.",
+          "corroboration_status": "contextually-corroborated; publication citations required",
+          "claim_boundary": "Supports historical alignment for public mourning and battlefield death, not a claim that the address caused the deaths."
+        }
+      ],
+      "upstream_artifacts": [
+        "cases/lincoln/analysis/support-ratings.json",
+        "cases/lincoln/corpus/cmt/cmt-mappings.json",
+        "cases/lincoln/analysis/historical-enactment-alignment.json",
+        "cases/lincoln/metadata/document-manifest.json",
+        "cases/lincoln/metadata/corpus-register.csv"
+      ],
+      "review_limitations": [
+        "Trace rows are draft review aids, not final publication claims.",
+        "Publication-grade historical citations remain required where historical notes say so.",
+        "Scores are provisional and based on reviewed Lincoln pilot evidence.",
+        "Full-corpus MIPVU review and reliability adjudication are pending.",
+        "Historical alignment notes require publication-grade citations."
+      ]
+    },
+    {
+      "trace_id": "lincoln-score-doc-gettysburg-historical_enactment_alignment-lincoln-cmt-006",
+      "case_id": "lincoln",
+      "generated_at": "2026-06-15T10:32:23",
+      "claim_id": "lincoln-score-doc-gettysburg-historical_enactment_alignment",
+      "claim_text": "Gettysburg Address contributes strong support evidence for historical enactment or alignment (score 3.0/4): Gettysburg strongly links battlefield death, national survival, civic dedication, and democratic renewal, while the enemy remains mostly unnamed.",
+      "claim_status": "inference",
+      "claim_boundary": "Draft evidentiary-support assessment from reviewed pilot evidence; not proof, diagnosis, or monocausal historical explanation.",
+      "support_dimension": "historical_enactment_alignment",
+      "support_dimension_label": "historical enactment or alignment",
+      "support_score_id": "lincoln-score-doc-gettysburg",
+      "support_score": 3.0,
+      "support_score_path": "cases/lincoln/analysis/support-ratings.json",
+      "document_weight": 2.0,
+      "weight_rationale": "Canonical, rhetorically central battlefield-dedication text.",
+      "cluster_id": "lincoln-01-body-organism",
+      "mapping_id": "lincoln-cmt-006",
+      "mapping_status": "provisional",
+      "conceptual_metaphor": "DEMOCRATIC GOVERNMENT IS A LIVING ORGANISM",
+      "source_domain_primary": "nature_organism",
+      "target_domain": "democracy",
+      "expression": "government ... shall not perish from this earth",
+      "evidence_span": "government of the people...by the people...for the people...shall not perish from this earth",
+      "mapping_confidence": 0.9,
+      "rival_reading": "Perish can be a conventional verb for institutional failure; preserve conventionality in claims.",
+      "mipvu_ids": [
+        "lincoln-gettysburg-address_s01_p05_s02_lu079"
+      ],
+      "mipvu_units": [
+        {
+          "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu079",
+          "lexical_unit": "perish",
+          "decision_type": "mipvu_personification",
+          "review_status": "reviewed",
+          "confidence": 0.9,
+          "path": "cases/lincoln/corpus/mipvu/lincoln-gettysburg-address_mipvu.json"
+        }
+      ],
+      "sentence_id": "lincoln-gettysburg-address_s01_p05_s02",
+      "sentence_text": "It is rather for us to be here dedicated to the great task remaining before us. . .that from these honored dead we take increased devotion to that cause for which they gave the last full measure of devotion. . . that we here highly resolve that these dead shall not have died in vain. . . that this nation, under God, shall have a new birth of freedom. . . and that government of the people. . .by the people. . .for the people. . . shall not perish from this earth.",
+      "segmented_sentence_path": "cases/lincoln/corpus/segmented/lincoln-gettysburg-address.json",
+      "document_id": "lincoln-gettysburg-address",
+      "document_title": "Address Delivered at the Dedication of the Cemetery at Gettysburg",
+      "document_date": "1863-11-19",
+      "document_register": "ceremonial-address",
+      "source_url": "https://www.gutenberg.org/ebooks/4",
+      "source_citation": "Project Gutenberg EBook #4 — Bliss copy (Lincoln's final corrected manuscript, the only one he signed)",
+      "rights_status": "public-domain",
+      "source_text_path": "cases/lincoln/corpus/raw/lincoln-src-02-gettysburg-address.txt",
+      "historical_note_ids": [
+        "lincoln-hist-001"
+      ],
+      "historical_corroboration": [
+        {
+          "note_id": "lincoln-hist-001",
+          "topic": "Gettysburg battlefield death, cemetery dedication, and public mourning",
+          "summary": "Gettysburg links actual battlefield death, cemetery dedication, and public mourning to Lincoln's symbolic conversion of death into national obligation.",
+          "corroboration_status": "contextually-corroborated; publication citations required",
+          "claim_boundary": "Supports historical alignment for public mourning and battlefield death, not a claim that the address caused the deaths."
+        }
+      ],
+      "upstream_artifacts": [
+        "cases/lincoln/analysis/support-ratings.json",
+        "cases/lincoln/corpus/cmt/cmt-mappings.json",
+        "cases/lincoln/analysis/historical-enactment-alignment.json",
+        "cases/lincoln/metadata/document-manifest.json",
+        "cases/lincoln/metadata/corpus-register.csv"
+      ],
+      "review_limitations": [
+        "Trace rows are draft review aids, not final publication claims.",
+        "Publication-grade historical citations remain required where historical notes say so.",
+        "Scores are provisional and based on reviewed Lincoln pilot evidence.",
+        "Full-corpus MIPVU review and reliability adjudication are pending.",
+        "Historical alignment notes require publication-grade citations."
+      ]
+    },
+    {
+      "trace_id": "lincoln-score-doc-second-inaugural-sacred_object-lincoln-cmt-007",
+      "case_id": "lincoln",
+      "generated_at": "2026-06-15T10:32:23",
+      "claim_id": "lincoln-score-doc-second-inaugural-sacred_object",
+      "claim_text": "Second Inaugural contributes moderate support evidence for sacred object (score 2.0/4): The Second Inaugural strongly aligns blood, slavery, and judgment with historical war and emancipation contexts, but restrains enemy-destruction framing through shared guilt and reconciliation.",
+      "claim_status": "interpretation",
+      "claim_boundary": "Draft evidentiary-support assessment from reviewed pilot evidence; not proof, diagnosis, or monocausal historical explanation.",
+      "support_dimension": "sacred_object",
+      "support_dimension_label": "sacred object",
+      "support_score_id": "lincoln-score-doc-second-inaugural",
+      "support_score": 2.0,
+      "support_score_path": "cases/lincoln/analysis/support-ratings.json",
+      "document_weight": 2.0,
+      "weight_rationale": "Canonical late-war inaugural text for providence, slavery, blood repayment, and reconciliation.",
+      "cluster_id": "lincoln-06-providence-theodicy",
+      "mapping_id": "lincoln-cmt-007",
+      "mapping_status": "provisional",
+      "conceptual_metaphor": "SLAVERY'S PROFIT IS MORAL DEBT",
+      "source_domain_primary": "debt_accounting",
+      "target_domain": "slavery",
+      "expression": "all the wealth ... shall be sunk",
+      "evidence_span": "until all the wealth piled by the bondsman's two hundred and fifty years of unrequited toil shall be sunk",
+      "mapping_confidence": 0.78,
+      "rival_reading": "Sunk may be a financial or material idiom without a full metaphorical debt structure.",
+      "mipvu_ids": [
+        "lincoln-second-inaugural_s01_p05_s04_lu026"
+      ],
+      "mipvu_units": [
+        {
+          "mipvu_id": "lincoln-second-inaugural_s01_p05_s04_lu026",
+          "lexical_unit": "sunk",
+          "decision_type": "mipvu_indirect",
+          "review_status": "reviewed",
+          "confidence": 0.78,
+          "path": "cases/lincoln/corpus/mipvu/lincoln-second-inaugural_mipvu.json"
+        }
+      ],
+      "sentence_id": "lincoln-second-inaugural_s01_p05_s04",
+      "sentence_text": "Yet, if God wills that it continue until all the wealth piled by the bondsman's two hundred and fifty years of unrequited toil shall be sunk, and until every drop of blood drawn by the lash shall be paid by another drawn with the sword, as was said three thousand years ago, so still it must be said, \"The judgments of the Lord are true and righteous altogether.\"",
+      "segmented_sentence_path": "cases/lincoln/corpus/segmented/lincoln-second-inaugural.json",
+      "document_id": "lincoln-second-inaugural",
+      "document_title": "Second Inaugural Address",
+      "document_date": "1865-03-04",
+      "document_register": "inaugural-address",
+      "source_url": "https://www.gutenberg.org/ebooks/8",
+      "source_citation": "Project Gutenberg EBook #8 — Abraham Lincoln's Second Inaugural Address",
+      "rights_status": "public-domain",
+      "source_text_path": "cases/lincoln/corpus/raw/lincoln-src-03-second-inaugural.txt",
+      "historical_note_ids": [
+        "lincoln-hist-002"
+      ],
+      "historical_corroboration": [
+        {
+          "note_id": "lincoln-hist-002",
+          "topic": "Slavery, emancipation, and wartime bloodshed in the Second Inaugural",
+          "summary": "The Second Inaugural's debt, blood, and judgment language aligns with the Civil War's slavery conflict, emancipation policy, and immense wartime death toll.",
+          "corroboration_status": "contextually-corroborated; publication citations required",
+          "claim_boundary": "Separates historical alignment from proof of providential causality or private belief."
+        }
+      ],
+      "upstream_artifacts": [
+        "cases/lincoln/analysis/support-ratings.json",
+        "cases/lincoln/corpus/cmt/cmt-mappings.json",
+        "cases/lincoln/analysis/historical-enactment-alignment.json",
+        "cases/lincoln/metadata/document-manifest.json",
+        "cases/lincoln/metadata/corpus-register.csv"
+      ],
+      "review_limitations": [
+        "Trace rows are draft review aids, not final publication claims.",
+        "Publication-grade historical citations remain required where historical notes say so.",
+        "Scores are provisional and based on reviewed Lincoln pilot evidence.",
+        "Full-corpus MIPVU review and reliability adjudication are pending.",
+        "Historical alignment notes require publication-grade citations."
+      ]
+    },
+    {
+      "trace_id": "lincoln-score-doc-second-inaugural-sacred_object-lincoln-cmt-008",
+      "case_id": "lincoln",
+      "generated_at": "2026-06-15T10:32:23",
+      "claim_id": "lincoln-score-doc-second-inaugural-sacred_object",
+      "claim_text": "Second Inaugural contributes moderate support evidence for sacred object (score 2.0/4): The Second Inaugural strongly aligns blood, slavery, and judgment with historical war and emancipation contexts, but restrains enemy-destruction framing through shared guilt and reconciliation.",
+      "claim_status": "interpretation",
+      "claim_boundary": "Draft evidentiary-support assessment from reviewed pilot evidence; not proof, diagnosis, or monocausal historical explanation.",
+      "support_dimension": "sacred_object",
+      "support_dimension_label": "sacred object",
+      "support_score_id": "lincoln-score-doc-second-inaugural",
+      "support_score": 2.0,
+      "support_score_path": "cases/lincoln/analysis/support-ratings.json",
+      "document_weight": 2.0,
+      "weight_rationale": "Canonical late-war inaugural text for providence, slavery, blood repayment, and reconciliation.",
+      "cluster_id": "lincoln-06-providence-theodicy",
+      "mapping_id": "lincoln-cmt-008",
+      "mapping_status": "provisional",
+      "conceptual_metaphor": "BLOODSHED IS MORAL REPAYMENT",
+      "source_domain_primary": "debt_accounting",
+      "target_domain": "civil_war",
+      "expression": "every drop of blood ... shall be paid by another drawn with the sword",
+      "evidence_span": "until every drop of blood drawn by the lash shall be paid by another drawn with the sword",
+      "mapping_confidence": 0.82,
+      "rival_reading": "Sword remains uncertain: it may be literal weapon, metonym for war, or biblical idiom.",
+      "mipvu_ids": [
+        "lincoln-second-inaugural_s01_p05_s04_lu039",
+        "lincoln-second-inaugural_s01_p05_s04_lu045"
+      ],
+      "mipvu_units": [
+        {
+          "mipvu_id": "lincoln-second-inaugural_s01_p05_s04_lu039",
+          "lexical_unit": "paid",
+          "decision_type": "mipvu_indirect",
+          "review_status": "reviewed",
+          "confidence": 0.94,
+          "path": "cases/lincoln/corpus/mipvu/lincoln-second-inaugural_mipvu.json"
+        },
+        {
+          "mipvu_id": "lincoln-second-inaugural_s01_p05_s04_lu045",
+          "lexical_unit": "sword",
+          "decision_type": "uncertain",
+          "review_status": "reviewed",
+          "confidence": 0.55,
+          "path": "cases/lincoln/corpus/mipvu/lincoln-second-inaugural_mipvu.json"
+        }
+      ],
+      "sentence_id": "lincoln-second-inaugural_s01_p05_s04",
+      "sentence_text": "Yet, if God wills that it continue until all the wealth piled by the bondsman's two hundred and fifty years of unrequited toil shall be sunk, and until every drop of blood drawn by the lash shall be paid by another drawn with the sword, as was said three thousand years ago, so still it must be said, \"The judgments of the Lord are true and righteous altogether.\"",
+      "segmented_sentence_path": "cases/lincoln/corpus/segmented/lincoln-second-inaugural.json",
+      "document_id": "lincoln-second-inaugural",
+      "document_title": "Second Inaugural Address",
+      "document_date": "1865-03-04",
+      "document_register": "inaugural-address",
+      "source_url": "https://www.gutenberg.org/ebooks/8",
+      "source_citation": "Project Gutenberg EBook #8 — Abraham Lincoln's Second Inaugural Address",
+      "rights_status": "public-domain",
+      "source_text_path": "cases/lincoln/corpus/raw/lincoln-src-03-second-inaugural.txt",
+      "historical_note_ids": [
+        "lincoln-hist-002"
+      ],
+      "historical_corroboration": [
+        {
+          "note_id": "lincoln-hist-002",
+          "topic": "Slavery, emancipation, and wartime bloodshed in the Second Inaugural",
+          "summary": "The Second Inaugural's debt, blood, and judgment language aligns with the Civil War's slavery conflict, emancipation policy, and immense wartime death toll.",
+          "corroboration_status": "contextually-corroborated; publication citations required",
+          "claim_boundary": "Separates historical alignment from proof of providential causality or private belief."
+        }
+      ],
+      "upstream_artifacts": [
+        "cases/lincoln/analysis/support-ratings.json",
+        "cases/lincoln/corpus/cmt/cmt-mappings.json",
+        "cases/lincoln/analysis/historical-enactment-alignment.json",
+        "cases/lincoln/metadata/document-manifest.json",
+        "cases/lincoln/metadata/corpus-register.csv"
+      ],
+      "review_limitations": [
+        "Trace rows are draft review aids, not final publication claims.",
+        "Publication-grade historical citations remain required where historical notes say so.",
+        "Scores are provisional and based on reviewed Lincoln pilot evidence.",
+        "Full-corpus MIPVU review and reliability adjudication are pending.",
+        "Historical alignment notes require publication-grade citations."
+      ]
+    },
+    {
+      "trace_id": "lincoln-score-doc-second-inaugural-sacred_object-lincoln-cmt-009",
+      "case_id": "lincoln",
+      "generated_at": "2026-06-15T10:32:23",
+      "claim_id": "lincoln-score-doc-second-inaugural-sacred_object",
+      "claim_text": "Second Inaugural contributes moderate support evidence for sacred object (score 2.0/4): The Second Inaugural strongly aligns blood, slavery, and judgment with historical war and emancipation contexts, but restrains enemy-destruction framing through shared guilt and reconciliation.",
+      "claim_status": "interpretation",
+      "claim_boundary": "Draft evidentiary-support assessment from reviewed pilot evidence; not proof, diagnosis, or monocausal historical explanation.",
+      "support_dimension": "sacred_object",
+      "support_dimension_label": "sacred object",
+      "support_score_id": "lincoln-score-doc-second-inaugural",
+      "support_score": 2.0,
+      "support_score_path": "cases/lincoln/analysis/support-ratings.json",
+      "document_weight": 2.0,
+      "weight_rationale": "Canonical late-war inaugural text for providence, slavery, blood repayment, and reconciliation.",
+      "cluster_id": "lincoln-06-providence-theodicy",
+      "mapping_id": "lincoln-cmt-009",
+      "mapping_status": "provisional",
+      "conceptual_metaphor": "DIVINE WILL IS RIGHTEOUS JUDGMENT",
+      "source_domain_primary": "law_contract",
+      "target_domain": "providence",
+      "expression": "The judgments of the Lord are true and righteous altogether",
+      "evidence_span": "The judgments of the Lord are true and righteous altogether.",
+      "mapping_confidence": 0.6,
+      "rival_reading": "Biblical quotation may function as doctrinal citation rather than independently mapped metaphor.",
+      "mipvu_ids": [
+        "lincoln-second-inaugural_s01_p05_s04_lu060"
+      ],
+      "mipvu_units": [
+        {
+          "mipvu_id": "lincoln-second-inaugural_s01_p05_s04_lu060",
+          "lexical_unit": "judgments",
+          "decision_type": "uncertain",
+          "review_status": "reviewed",
+          "confidence": 0.6,
+          "path": "cases/lincoln/corpus/mipvu/lincoln-second-inaugural_mipvu.json"
+        }
+      ],
+      "sentence_id": "lincoln-second-inaugural_s01_p05_s04",
+      "sentence_text": "Yet, if God wills that it continue until all the wealth piled by the bondsman's two hundred and fifty years of unrequited toil shall be sunk, and until every drop of blood drawn by the lash shall be paid by another drawn with the sword, as was said three thousand years ago, so still it must be said, \"The judgments of the Lord are true and righteous altogether.\"",
+      "segmented_sentence_path": "cases/lincoln/corpus/segmented/lincoln-second-inaugural.json",
+      "document_id": "lincoln-second-inaugural",
+      "document_title": "Second Inaugural Address",
+      "document_date": "1865-03-04",
+      "document_register": "inaugural-address",
+      "source_url": "https://www.gutenberg.org/ebooks/8",
+      "source_citation": "Project Gutenberg EBook #8 — Abraham Lincoln's Second Inaugural Address",
+      "rights_status": "public-domain",
+      "source_text_path": "cases/lincoln/corpus/raw/lincoln-src-03-second-inaugural.txt",
+      "historical_note_ids": [
+        "lincoln-hist-002"
+      ],
+      "historical_corroboration": [
+        {
+          "note_id": "lincoln-hist-002",
+          "topic": "Slavery, emancipation, and wartime bloodshed in the Second Inaugural",
+          "summary": "The Second Inaugural's debt, blood, and judgment language aligns with the Civil War's slavery conflict, emancipation policy, and immense wartime death toll.",
+          "corroboration_status": "contextually-corroborated; publication citations required",
+          "claim_boundary": "Separates historical alignment from proof of providential causality or private belief."
+        }
+      ],
+      "upstream_artifacts": [
+        "cases/lincoln/analysis/support-ratings.json",
+        "cases/lincoln/corpus/cmt/cmt-mappings.json",
+        "cases/lincoln/analysis/historical-enactment-alignment.json",
+        "cases/lincoln/metadata/document-manifest.json",
+        "cases/lincoln/metadata/corpus-register.csv"
+      ],
+      "review_limitations": [
+        "Trace rows are draft review aids, not final publication claims.",
+        "Publication-grade historical citations remain required where historical notes say so.",
+        "Scores are provisional and based on reviewed Lincoln pilot evidence.",
+        "Full-corpus MIPVU review and reliability adjudication are pending.",
+        "Historical alignment notes require publication-grade citations."
+      ]
+    },
+    {
+      "trace_id": "lincoln-score-doc-second-inaugural-sacrificial_body-lincoln-cmt-007",
+      "case_id": "lincoln",
+      "generated_at": "2026-06-15T10:32:23",
+      "claim_id": "lincoln-score-doc-second-inaugural-sacrificial_body",
+      "claim_text": "Second Inaugural contributes strong support evidence for sacrificial body (score 3.0/4): The Second Inaugural strongly aligns blood, slavery, and judgment with historical war and emancipation contexts, but restrains enemy-destruction framing through shared guilt and reconciliation.",
+      "claim_status": "interpretation",
+      "claim_boundary": "Draft evidentiary-support assessment from reviewed pilot evidence; not proof, diagnosis, or monocausal historical explanation.",
+      "support_dimension": "sacrificial_body",
+      "support_dimension_label": "sacrificial body",
+      "support_score_id": "lincoln-score-doc-second-inaugural",
+      "support_score": 3.0,
+      "support_score_path": "cases/lincoln/analysis/support-ratings.json",
+      "document_weight": 2.0,
+      "weight_rationale": "Canonical late-war inaugural text for providence, slavery, blood repayment, and reconciliation.",
+      "cluster_id": "lincoln-06-providence-theodicy",
+      "mapping_id": "lincoln-cmt-007",
+      "mapping_status": "provisional",
+      "conceptual_metaphor": "SLAVERY'S PROFIT IS MORAL DEBT",
+      "source_domain_primary": "debt_accounting",
+      "target_domain": "slavery",
+      "expression": "all the wealth ... shall be sunk",
+      "evidence_span": "until all the wealth piled by the bondsman's two hundred and fifty years of unrequited toil shall be sunk",
+      "mapping_confidence": 0.78,
+      "rival_reading": "Sunk may be a financial or material idiom without a full metaphorical debt structure.",
+      "mipvu_ids": [
+        "lincoln-second-inaugural_s01_p05_s04_lu026"
+      ],
+      "mipvu_units": [
+        {
+          "mipvu_id": "lincoln-second-inaugural_s01_p05_s04_lu026",
+          "lexical_unit": "sunk",
+          "decision_type": "mipvu_indirect",
+          "review_status": "reviewed",
+          "confidence": 0.78,
+          "path": "cases/lincoln/corpus/mipvu/lincoln-second-inaugural_mipvu.json"
+        }
+      ],
+      "sentence_id": "lincoln-second-inaugural_s01_p05_s04",
+      "sentence_text": "Yet, if God wills that it continue until all the wealth piled by the bondsman's two hundred and fifty years of unrequited toil shall be sunk, and until every drop of blood drawn by the lash shall be paid by another drawn with the sword, as was said three thousand years ago, so still it must be said, \"The judgments of the Lord are true and righteous altogether.\"",
+      "segmented_sentence_path": "cases/lincoln/corpus/segmented/lincoln-second-inaugural.json",
+      "document_id": "lincoln-second-inaugural",
+      "document_title": "Second Inaugural Address",
+      "document_date": "1865-03-04",
+      "document_register": "inaugural-address",
+      "source_url": "https://www.gutenberg.org/ebooks/8",
+      "source_citation": "Project Gutenberg EBook #8 — Abraham Lincoln's Second Inaugural Address",
+      "rights_status": "public-domain",
+      "source_text_path": "cases/lincoln/corpus/raw/lincoln-src-03-second-inaugural.txt",
+      "historical_note_ids": [
+        "lincoln-hist-002"
+      ],
+      "historical_corroboration": [
+        {
+          "note_id": "lincoln-hist-002",
+          "topic": "Slavery, emancipation, and wartime bloodshed in the Second Inaugural",
+          "summary": "The Second Inaugural's debt, blood, and judgment language aligns with the Civil War's slavery conflict, emancipation policy, and immense wartime death toll.",
+          "corroboration_status": "contextually-corroborated; publication citations required",
+          "claim_boundary": "Separates historical alignment from proof of providential causality or private belief."
+        }
+      ],
+      "upstream_artifacts": [
+        "cases/lincoln/analysis/support-ratings.json",
+        "cases/lincoln/corpus/cmt/cmt-mappings.json",
+        "cases/lincoln/analysis/historical-enactment-alignment.json",
+        "cases/lincoln/metadata/document-manifest.json",
+        "cases/lincoln/metadata/corpus-register.csv"
+      ],
+      "review_limitations": [
+        "Trace rows are draft review aids, not final publication claims.",
+        "Publication-grade historical citations remain required where historical notes say so.",
+        "Scores are provisional and based on reviewed Lincoln pilot evidence.",
+        "Full-corpus MIPVU review and reliability adjudication are pending.",
+        "Historical alignment notes require publication-grade citations."
+      ]
+    },
+    {
+      "trace_id": "lincoln-score-doc-second-inaugural-sacrificial_body-lincoln-cmt-008",
+      "case_id": "lincoln",
+      "generated_at": "2026-06-15T10:32:23",
+      "claim_id": "lincoln-score-doc-second-inaugural-sacrificial_body",
+      "claim_text": "Second Inaugural contributes strong support evidence for sacrificial body (score 3.0/4): The Second Inaugural strongly aligns blood, slavery, and judgment with historical war and emancipation contexts, but restrains enemy-destruction framing through shared guilt and reconciliation.",
+      "claim_status": "interpretation",
+      "claim_boundary": "Draft evidentiary-support assessment from reviewed pilot evidence; not proof, diagnosis, or monocausal historical explanation.",
+      "support_dimension": "sacrificial_body",
+      "support_dimension_label": "sacrificial body",
+      "support_score_id": "lincoln-score-doc-second-inaugural",
+      "support_score": 3.0,
+      "support_score_path": "cases/lincoln/analysis/support-ratings.json",
+      "document_weight": 2.0,
+      "weight_rationale": "Canonical late-war inaugural text for providence, slavery, blood repayment, and reconciliation.",
+      "cluster_id": "lincoln-06-providence-theodicy",
+      "mapping_id": "lincoln-cmt-008",
+      "mapping_status": "provisional",
+      "conceptual_metaphor": "BLOODSHED IS MORAL REPAYMENT",
+      "source_domain_primary": "debt_accounting",
+      "target_domain": "civil_war",
+      "expression": "every drop of blood ... shall be paid by another drawn with the sword",
+      "evidence_span": "until every drop of blood drawn by the lash shall be paid by another drawn with the sword",
+      "mapping_confidence": 0.82,
+      "rival_reading": "Sword remains uncertain: it may be literal weapon, metonym for war, or biblical idiom.",
+      "mipvu_ids": [
+        "lincoln-second-inaugural_s01_p05_s04_lu039",
+        "lincoln-second-inaugural_s01_p05_s04_lu045"
+      ],
+      "mipvu_units": [
+        {
+          "mipvu_id": "lincoln-second-inaugural_s01_p05_s04_lu039",
+          "lexical_unit": "paid",
+          "decision_type": "mipvu_indirect",
+          "review_status": "reviewed",
+          "confidence": 0.94,
+          "path": "cases/lincoln/corpus/mipvu/lincoln-second-inaugural_mipvu.json"
+        },
+        {
+          "mipvu_id": "lincoln-second-inaugural_s01_p05_s04_lu045",
+          "lexical_unit": "sword",
+          "decision_type": "uncertain",
+          "review_status": "reviewed",
+          "confidence": 0.55,
+          "path": "cases/lincoln/corpus/mipvu/lincoln-second-inaugural_mipvu.json"
+        }
+      ],
+      "sentence_id": "lincoln-second-inaugural_s01_p05_s04",
+      "sentence_text": "Yet, if God wills that it continue until all the wealth piled by the bondsman's two hundred and fifty years of unrequited toil shall be sunk, and until every drop of blood drawn by the lash shall be paid by another drawn with the sword, as was said three thousand years ago, so still it must be said, \"The judgments of the Lord are true and righteous altogether.\"",
+      "segmented_sentence_path": "cases/lincoln/corpus/segmented/lincoln-second-inaugural.json",
+      "document_id": "lincoln-second-inaugural",
+      "document_title": "Second Inaugural Address",
+      "document_date": "1865-03-04",
+      "document_register": "inaugural-address",
+      "source_url": "https://www.gutenberg.org/ebooks/8",
+      "source_citation": "Project Gutenberg EBook #8 — Abraham Lincoln's Second Inaugural Address",
+      "rights_status": "public-domain",
+      "source_text_path": "cases/lincoln/corpus/raw/lincoln-src-03-second-inaugural.txt",
+      "historical_note_ids": [
+        "lincoln-hist-002"
+      ],
+      "historical_corroboration": [
+        {
+          "note_id": "lincoln-hist-002",
+          "topic": "Slavery, emancipation, and wartime bloodshed in the Second Inaugural",
+          "summary": "The Second Inaugural's debt, blood, and judgment language aligns with the Civil War's slavery conflict, emancipation policy, and immense wartime death toll.",
+          "corroboration_status": "contextually-corroborated; publication citations required",
+          "claim_boundary": "Separates historical alignment from proof of providential causality or private belief."
+        }
+      ],
+      "upstream_artifacts": [
+        "cases/lincoln/analysis/support-ratings.json",
+        "cases/lincoln/corpus/cmt/cmt-mappings.json",
+        "cases/lincoln/analysis/historical-enactment-alignment.json",
+        "cases/lincoln/metadata/document-manifest.json",
+        "cases/lincoln/metadata/corpus-register.csv"
+      ],
+      "review_limitations": [
+        "Trace rows are draft review aids, not final publication claims.",
+        "Publication-grade historical citations remain required where historical notes say so.",
+        "Scores are provisional and based on reviewed Lincoln pilot evidence.",
+        "Full-corpus MIPVU review and reliability adjudication are pending.",
+        "Historical alignment notes require publication-grade citations."
+      ]
+    },
+    {
+      "trace_id": "lincoln-score-doc-second-inaugural-sacrificial_body-lincoln-cmt-009",
+      "case_id": "lincoln",
+      "generated_at": "2026-06-15T10:32:23",
+      "claim_id": "lincoln-score-doc-second-inaugural-sacrificial_body",
+      "claim_text": "Second Inaugural contributes strong support evidence for sacrificial body (score 3.0/4): The Second Inaugural strongly aligns blood, slavery, and judgment with historical war and emancipation contexts, but restrains enemy-destruction framing through shared guilt and reconciliation.",
+      "claim_status": "interpretation",
+      "claim_boundary": "Draft evidentiary-support assessment from reviewed pilot evidence; not proof, diagnosis, or monocausal historical explanation.",
+      "support_dimension": "sacrificial_body",
+      "support_dimension_label": "sacrificial body",
+      "support_score_id": "lincoln-score-doc-second-inaugural",
+      "support_score": 3.0,
+      "support_score_path": "cases/lincoln/analysis/support-ratings.json",
+      "document_weight": 2.0,
+      "weight_rationale": "Canonical late-war inaugural text for providence, slavery, blood repayment, and reconciliation.",
+      "cluster_id": "lincoln-06-providence-theodicy",
+      "mapping_id": "lincoln-cmt-009",
+      "mapping_status": "provisional",
+      "conceptual_metaphor": "DIVINE WILL IS RIGHTEOUS JUDGMENT",
+      "source_domain_primary": "law_contract",
+      "target_domain": "providence",
+      "expression": "The judgments of the Lord are true and righteous altogether",
+      "evidence_span": "The judgments of the Lord are true and righteous altogether.",
+      "mapping_confidence": 0.6,
+      "rival_reading": "Biblical quotation may function as doctrinal citation rather than independently mapped metaphor.",
+      "mipvu_ids": [
+        "lincoln-second-inaugural_s01_p05_s04_lu060"
+      ],
+      "mipvu_units": [
+        {
+          "mipvu_id": "lincoln-second-inaugural_s01_p05_s04_lu060",
+          "lexical_unit": "judgments",
+          "decision_type": "uncertain",
+          "review_status": "reviewed",
+          "confidence": 0.6,
+          "path": "cases/lincoln/corpus/mipvu/lincoln-second-inaugural_mipvu.json"
+        }
+      ],
+      "sentence_id": "lincoln-second-inaugural_s01_p05_s04",
+      "sentence_text": "Yet, if God wills that it continue until all the wealth piled by the bondsman's two hundred and fifty years of unrequited toil shall be sunk, and until every drop of blood drawn by the lash shall be paid by another drawn with the sword, as was said three thousand years ago, so still it must be said, \"The judgments of the Lord are true and righteous altogether.\"",
+      "segmented_sentence_path": "cases/lincoln/corpus/segmented/lincoln-second-inaugural.json",
+      "document_id": "lincoln-second-inaugural",
+      "document_title": "Second Inaugural Address",
+      "document_date": "1865-03-04",
+      "document_register": "inaugural-address",
+      "source_url": "https://www.gutenberg.org/ebooks/8",
+      "source_citation": "Project Gutenberg EBook #8 — Abraham Lincoln's Second Inaugural Address",
+      "rights_status": "public-domain",
+      "source_text_path": "cases/lincoln/corpus/raw/lincoln-src-03-second-inaugural.txt",
+      "historical_note_ids": [
+        "lincoln-hist-002"
+      ],
+      "historical_corroboration": [
+        {
+          "note_id": "lincoln-hist-002",
+          "topic": "Slavery, emancipation, and wartime bloodshed in the Second Inaugural",
+          "summary": "The Second Inaugural's debt, blood, and judgment language aligns with the Civil War's slavery conflict, emancipation policy, and immense wartime death toll.",
+          "corroboration_status": "contextually-corroborated; publication citations required",
+          "claim_boundary": "Separates historical alignment from proof of providential causality or private belief."
+        }
+      ],
+      "upstream_artifacts": [
+        "cases/lincoln/analysis/support-ratings.json",
+        "cases/lincoln/corpus/cmt/cmt-mappings.json",
+        "cases/lincoln/analysis/historical-enactment-alignment.json",
+        "cases/lincoln/metadata/document-manifest.json",
+        "cases/lincoln/metadata/corpus-register.csv"
+      ],
+      "review_limitations": [
+        "Trace rows are draft review aids, not final publication claims.",
+        "Publication-grade historical citations remain required where historical notes say so.",
+        "Scores are provisional and based on reviewed Lincoln pilot evidence.",
+        "Full-corpus MIPVU review and reliability adjudication are pending.",
+        "Historical alignment notes require publication-grade citations."
+      ]
+    },
+    {
+      "trace_id": "lincoln-score-doc-second-inaugural-enemy_as_death-lincoln-cmt-007",
+      "case_id": "lincoln",
+      "generated_at": "2026-06-15T10:32:23",
+      "claim_id": "lincoln-score-doc-second-inaugural-enemy_as_death",
+      "claim_text": "Second Inaugural contributes weak support evidence for enemy as death (score 1.0/4): The Second Inaugural strongly aligns blood, slavery, and judgment with historical war and emancipation contexts, but restrains enemy-destruction framing through shared guilt and reconciliation.",
+      "claim_status": "interpretation",
+      "claim_boundary": "Draft evidentiary-support assessment from reviewed pilot evidence; not proof, diagnosis, or monocausal historical explanation.",
+      "support_dimension": "enemy_as_death",
+      "support_dimension_label": "enemy as death",
+      "support_score_id": "lincoln-score-doc-second-inaugural",
+      "support_score": 1.0,
+      "support_score_path": "cases/lincoln/analysis/support-ratings.json",
+      "document_weight": 2.0,
+      "weight_rationale": "Canonical late-war inaugural text for providence, slavery, blood repayment, and reconciliation.",
+      "cluster_id": "lincoln-06-providence-theodicy",
+      "mapping_id": "lincoln-cmt-007",
+      "mapping_status": "provisional",
+      "conceptual_metaphor": "SLAVERY'S PROFIT IS MORAL DEBT",
+      "source_domain_primary": "debt_accounting",
+      "target_domain": "slavery",
+      "expression": "all the wealth ... shall be sunk",
+      "evidence_span": "until all the wealth piled by the bondsman's two hundred and fifty years of unrequited toil shall be sunk",
+      "mapping_confidence": 0.78,
+      "rival_reading": "Sunk may be a financial or material idiom without a full metaphorical debt structure.",
+      "mipvu_ids": [
+        "lincoln-second-inaugural_s01_p05_s04_lu026"
+      ],
+      "mipvu_units": [
+        {
+          "mipvu_id": "lincoln-second-inaugural_s01_p05_s04_lu026",
+          "lexical_unit": "sunk",
+          "decision_type": "mipvu_indirect",
+          "review_status": "reviewed",
+          "confidence": 0.78,
+          "path": "cases/lincoln/corpus/mipvu/lincoln-second-inaugural_mipvu.json"
+        }
+      ],
+      "sentence_id": "lincoln-second-inaugural_s01_p05_s04",
+      "sentence_text": "Yet, if God wills that it continue until all the wealth piled by the bondsman's two hundred and fifty years of unrequited toil shall be sunk, and until every drop of blood drawn by the lash shall be paid by another drawn with the sword, as was said three thousand years ago, so still it must be said, \"The judgments of the Lord are true and righteous altogether.\"",
+      "segmented_sentence_path": "cases/lincoln/corpus/segmented/lincoln-second-inaugural.json",
+      "document_id": "lincoln-second-inaugural",
+      "document_title": "Second Inaugural Address",
+      "document_date": "1865-03-04",
+      "document_register": "inaugural-address",
+      "source_url": "https://www.gutenberg.org/ebooks/8",
+      "source_citation": "Project Gutenberg EBook #8 — Abraham Lincoln's Second Inaugural Address",
+      "rights_status": "public-domain",
+      "source_text_path": "cases/lincoln/corpus/raw/lincoln-src-03-second-inaugural.txt",
+      "historical_note_ids": [
+        "lincoln-hist-002"
+      ],
+      "historical_corroboration": [
+        {
+          "note_id": "lincoln-hist-002",
+          "topic": "Slavery, emancipation, and wartime bloodshed in the Second Inaugural",
+          "summary": "The Second Inaugural's debt, blood, and judgment language aligns with the Civil War's slavery conflict, emancipation policy, and immense wartime death toll.",
+          "corroboration_status": "contextually-corroborated; publication citations required",
+          "claim_boundary": "Separates historical alignment from proof of providential causality or private belief."
+        }
+      ],
+      "upstream_artifacts": [
+        "cases/lincoln/analysis/support-ratings.json",
+        "cases/lincoln/corpus/cmt/cmt-mappings.json",
+        "cases/lincoln/analysis/historical-enactment-alignment.json",
+        "cases/lincoln/metadata/document-manifest.json",
+        "cases/lincoln/metadata/corpus-register.csv"
+      ],
+      "review_limitations": [
+        "Trace rows are draft review aids, not final publication claims.",
+        "Publication-grade historical citations remain required where historical notes say so.",
+        "Scores are provisional and based on reviewed Lincoln pilot evidence.",
+        "Full-corpus MIPVU review and reliability adjudication are pending.",
+        "Historical alignment notes require publication-grade citations."
+      ]
+    },
+    {
+      "trace_id": "lincoln-score-doc-second-inaugural-enemy_as_death-lincoln-cmt-008",
+      "case_id": "lincoln",
+      "generated_at": "2026-06-15T10:32:23",
+      "claim_id": "lincoln-score-doc-second-inaugural-enemy_as_death",
+      "claim_text": "Second Inaugural contributes weak support evidence for enemy as death (score 1.0/4): The Second Inaugural strongly aligns blood, slavery, and judgment with historical war and emancipation contexts, but restrains enemy-destruction framing through shared guilt and reconciliation.",
+      "claim_status": "interpretation",
+      "claim_boundary": "Draft evidentiary-support assessment from reviewed pilot evidence; not proof, diagnosis, or monocausal historical explanation.",
+      "support_dimension": "enemy_as_death",
+      "support_dimension_label": "enemy as death",
+      "support_score_id": "lincoln-score-doc-second-inaugural",
+      "support_score": 1.0,
+      "support_score_path": "cases/lincoln/analysis/support-ratings.json",
+      "document_weight": 2.0,
+      "weight_rationale": "Canonical late-war inaugural text for providence, slavery, blood repayment, and reconciliation.",
+      "cluster_id": "lincoln-06-providence-theodicy",
+      "mapping_id": "lincoln-cmt-008",
+      "mapping_status": "provisional",
+      "conceptual_metaphor": "BLOODSHED IS MORAL REPAYMENT",
+      "source_domain_primary": "debt_accounting",
+      "target_domain": "civil_war",
+      "expression": "every drop of blood ... shall be paid by another drawn with the sword",
+      "evidence_span": "until every drop of blood drawn by the lash shall be paid by another drawn with the sword",
+      "mapping_confidence": 0.82,
+      "rival_reading": "Sword remains uncertain: it may be literal weapon, metonym for war, or biblical idiom.",
+      "mipvu_ids": [
+        "lincoln-second-inaugural_s01_p05_s04_lu039",
+        "lincoln-second-inaugural_s01_p05_s04_lu045"
+      ],
+      "mipvu_units": [
+        {
+          "mipvu_id": "lincoln-second-inaugural_s01_p05_s04_lu039",
+          "lexical_unit": "paid",
+          "decision_type": "mipvu_indirect",
+          "review_status": "reviewed",
+          "confidence": 0.94,
+          "path": "cases/lincoln/corpus/mipvu/lincoln-second-inaugural_mipvu.json"
+        },
+        {
+          "mipvu_id": "lincoln-second-inaugural_s01_p05_s04_lu045",
+          "lexical_unit": "sword",
+          "decision_type": "uncertain",
+          "review_status": "reviewed",
+          "confidence": 0.55,
+          "path": "cases/lincoln/corpus/mipvu/lincoln-second-inaugural_mipvu.json"
+        }
+      ],
+      "sentence_id": "lincoln-second-inaugural_s01_p05_s04",
+      "sentence_text": "Yet, if God wills that it continue until all the wealth piled by the bondsman's two hundred and fifty years of unrequited toil shall be sunk, and until every drop of blood drawn by the lash shall be paid by another drawn with the sword, as was said three thousand years ago, so still it must be said, \"The judgments of the Lord are true and righteous altogether.\"",
+      "segmented_sentence_path": "cases/lincoln/corpus/segmented/lincoln-second-inaugural.json",
+      "document_id": "lincoln-second-inaugural",
+      "document_title": "Second Inaugural Address",
+      "document_date": "1865-03-04",
+      "document_register": "inaugural-address",
+      "source_url": "https://www.gutenberg.org/ebooks/8",
+      "source_citation": "Project Gutenberg EBook #8 — Abraham Lincoln's Second Inaugural Address",
+      "rights_status": "public-domain",
+      "source_text_path": "cases/lincoln/corpus/raw/lincoln-src-03-second-inaugural.txt",
+      "historical_note_ids": [
+        "lincoln-hist-002"
+      ],
+      "historical_corroboration": [
+        {
+          "note_id": "lincoln-hist-002",
+          "topic": "Slavery, emancipation, and wartime bloodshed in the Second Inaugural",
+          "summary": "The Second Inaugural's debt, blood, and judgment language aligns with the Civil War's slavery conflict, emancipation policy, and immense wartime death toll.",
+          "corroboration_status": "contextually-corroborated; publication citations required",
+          "claim_boundary": "Separates historical alignment from proof of providential causality or private belief."
+        }
+      ],
+      "upstream_artifacts": [
+        "cases/lincoln/analysis/support-ratings.json",
+        "cases/lincoln/corpus/cmt/cmt-mappings.json",
+        "cases/lincoln/analysis/historical-enactment-alignment.json",
+        "cases/lincoln/metadata/document-manifest.json",
+        "cases/lincoln/metadata/corpus-register.csv"
+      ],
+      "review_limitations": [
+        "Trace rows are draft review aids, not final publication claims.",
+        "Publication-grade historical citations remain required where historical notes say so.",
+        "Scores are provisional and based on reviewed Lincoln pilot evidence.",
+        "Full-corpus MIPVU review and reliability adjudication are pending.",
+        "Historical alignment notes require publication-grade citations."
+      ]
+    },
+    {
+      "trace_id": "lincoln-score-doc-second-inaugural-enemy_as_death-lincoln-cmt-009",
+      "case_id": "lincoln",
+      "generated_at": "2026-06-15T10:32:23",
+      "claim_id": "lincoln-score-doc-second-inaugural-enemy_as_death",
+      "claim_text": "Second Inaugural contributes weak support evidence for enemy as death (score 1.0/4): The Second Inaugural strongly aligns blood, slavery, and judgment with historical war and emancipation contexts, but restrains enemy-destruction framing through shared guilt and reconciliation.",
+      "claim_status": "interpretation",
+      "claim_boundary": "Draft evidentiary-support assessment from reviewed pilot evidence; not proof, diagnosis, or monocausal historical explanation.",
+      "support_dimension": "enemy_as_death",
+      "support_dimension_label": "enemy as death",
+      "support_score_id": "lincoln-score-doc-second-inaugural",
+      "support_score": 1.0,
+      "support_score_path": "cases/lincoln/analysis/support-ratings.json",
+      "document_weight": 2.0,
+      "weight_rationale": "Canonical late-war inaugural text for providence, slavery, blood repayment, and reconciliation.",
+      "cluster_id": "lincoln-06-providence-theodicy",
+      "mapping_id": "lincoln-cmt-009",
+      "mapping_status": "provisional",
+      "conceptual_metaphor": "DIVINE WILL IS RIGHTEOUS JUDGMENT",
+      "source_domain_primary": "law_contract",
+      "target_domain": "providence",
+      "expression": "The judgments of the Lord are true and righteous altogether",
+      "evidence_span": "The judgments of the Lord are true and righteous altogether.",
+      "mapping_confidence": 0.6,
+      "rival_reading": "Biblical quotation may function as doctrinal citation rather than independently mapped metaphor.",
+      "mipvu_ids": [
+        "lincoln-second-inaugural_s01_p05_s04_lu060"
+      ],
+      "mipvu_units": [
+        {
+          "mipvu_id": "lincoln-second-inaugural_s01_p05_s04_lu060",
+          "lexical_unit": "judgments",
+          "decision_type": "uncertain",
+          "review_status": "reviewed",
+          "confidence": 0.6,
+          "path": "cases/lincoln/corpus/mipvu/lincoln-second-inaugural_mipvu.json"
+        }
+      ],
+      "sentence_id": "lincoln-second-inaugural_s01_p05_s04",
+      "sentence_text": "Yet, if God wills that it continue until all the wealth piled by the bondsman's two hundred and fifty years of unrequited toil shall be sunk, and until every drop of blood drawn by the lash shall be paid by another drawn with the sword, as was said three thousand years ago, so still it must be said, \"The judgments of the Lord are true and righteous altogether.\"",
+      "segmented_sentence_path": "cases/lincoln/corpus/segmented/lincoln-second-inaugural.json",
+      "document_id": "lincoln-second-inaugural",
+      "document_title": "Second Inaugural Address",
+      "document_date": "1865-03-04",
+      "document_register": "inaugural-address",
+      "source_url": "https://www.gutenberg.org/ebooks/8",
+      "source_citation": "Project Gutenberg EBook #8 — Abraham Lincoln's Second Inaugural Address",
+      "rights_status": "public-domain",
+      "source_text_path": "cases/lincoln/corpus/raw/lincoln-src-03-second-inaugural.txt",
+      "historical_note_ids": [
+        "lincoln-hist-002"
+      ],
+      "historical_corroboration": [
+        {
+          "note_id": "lincoln-hist-002",
+          "topic": "Slavery, emancipation, and wartime bloodshed in the Second Inaugural",
+          "summary": "The Second Inaugural's debt, blood, and judgment language aligns with the Civil War's slavery conflict, emancipation policy, and immense wartime death toll.",
+          "corroboration_status": "contextually-corroborated; publication citations required",
+          "claim_boundary": "Separates historical alignment from proof of providential causality or private belief."
+        }
+      ],
+      "upstream_artifacts": [
+        "cases/lincoln/analysis/support-ratings.json",
+        "cases/lincoln/corpus/cmt/cmt-mappings.json",
+        "cases/lincoln/analysis/historical-enactment-alignment.json",
+        "cases/lincoln/metadata/document-manifest.json",
+        "cases/lincoln/metadata/corpus-register.csv"
+      ],
+      "review_limitations": [
+        "Trace rows are draft review aids, not final publication claims.",
+        "Publication-grade historical citations remain required where historical notes say so.",
+        "Scores are provisional and based on reviewed Lincoln pilot evidence.",
+        "Full-corpus MIPVU review and reliability adjudication are pending.",
+        "Historical alignment notes require publication-grade citations."
+      ]
+    },
+    {
+      "trace_id": "lincoln-score-doc-second-inaugural-historical_enactment_alignment-lincoln-cmt-007",
+      "case_id": "lincoln",
+      "generated_at": "2026-06-15T10:32:23",
+      "claim_id": "lincoln-score-doc-second-inaugural-historical_enactment_alignment",
+      "claim_text": "Second Inaugural contributes strong support evidence for historical enactment or alignment (score 3.0/4): The Second Inaugural strongly aligns blood, slavery, and judgment with historical war and emancipation contexts, but restrains enemy-destruction framing through shared guilt and reconciliation.",
+      "claim_status": "inference",
+      "claim_boundary": "Draft evidentiary-support assessment from reviewed pilot evidence; not proof, diagnosis, or monocausal historical explanation.",
+      "support_dimension": "historical_enactment_alignment",
+      "support_dimension_label": "historical enactment or alignment",
+      "support_score_id": "lincoln-score-doc-second-inaugural",
+      "support_score": 3.0,
+      "support_score_path": "cases/lincoln/analysis/support-ratings.json",
+      "document_weight": 2.0,
+      "weight_rationale": "Canonical late-war inaugural text for providence, slavery, blood repayment, and reconciliation.",
+      "cluster_id": "lincoln-06-providence-theodicy",
+      "mapping_id": "lincoln-cmt-007",
+      "mapping_status": "provisional",
+      "conceptual_metaphor": "SLAVERY'S PROFIT IS MORAL DEBT",
+      "source_domain_primary": "debt_accounting",
+      "target_domain": "slavery",
+      "expression": "all the wealth ... shall be sunk",
+      "evidence_span": "until all the wealth piled by the bondsman's two hundred and fifty years of unrequited toil shall be sunk",
+      "mapping_confidence": 0.78,
+      "rival_reading": "Sunk may be a financial or material idiom without a full metaphorical debt structure.",
+      "mipvu_ids": [
+        "lincoln-second-inaugural_s01_p05_s04_lu026"
+      ],
+      "mipvu_units": [
+        {
+          "mipvu_id": "lincoln-second-inaugural_s01_p05_s04_lu026",
+          "lexical_unit": "sunk",
+          "decision_type": "mipvu_indirect",
+          "review_status": "reviewed",
+          "confidence": 0.78,
+          "path": "cases/lincoln/corpus/mipvu/lincoln-second-inaugural_mipvu.json"
+        }
+      ],
+      "sentence_id": "lincoln-second-inaugural_s01_p05_s04",
+      "sentence_text": "Yet, if God wills that it continue until all the wealth piled by the bondsman's two hundred and fifty years of unrequited toil shall be sunk, and until every drop of blood drawn by the lash shall be paid by another drawn with the sword, as was said three thousand years ago, so still it must be said, \"The judgments of the Lord are true and righteous altogether.\"",
+      "segmented_sentence_path": "cases/lincoln/corpus/segmented/lincoln-second-inaugural.json",
+      "document_id": "lincoln-second-inaugural",
+      "document_title": "Second Inaugural Address",
+      "document_date": "1865-03-04",
+      "document_register": "inaugural-address",
+      "source_url": "https://www.gutenberg.org/ebooks/8",
+      "source_citation": "Project Gutenberg EBook #8 — Abraham Lincoln's Second Inaugural Address",
+      "rights_status": "public-domain",
+      "source_text_path": "cases/lincoln/corpus/raw/lincoln-src-03-second-inaugural.txt",
+      "historical_note_ids": [
+        "lincoln-hist-002"
+      ],
+      "historical_corroboration": [
+        {
+          "note_id": "lincoln-hist-002",
+          "topic": "Slavery, emancipation, and wartime bloodshed in the Second Inaugural",
+          "summary": "The Second Inaugural's debt, blood, and judgment language aligns with the Civil War's slavery conflict, emancipation policy, and immense wartime death toll.",
+          "corroboration_status": "contextually-corroborated; publication citations required",
+          "claim_boundary": "Separates historical alignment from proof of providential causality or private belief."
+        }
+      ],
+      "upstream_artifacts": [
+        "cases/lincoln/analysis/support-ratings.json",
+        "cases/lincoln/corpus/cmt/cmt-mappings.json",
+        "cases/lincoln/analysis/historical-enactment-alignment.json",
+        "cases/lincoln/metadata/document-manifest.json",
+        "cases/lincoln/metadata/corpus-register.csv"
+      ],
+      "review_limitations": [
+        "Trace rows are draft review aids, not final publication claims.",
+        "Publication-grade historical citations remain required where historical notes say so.",
+        "Scores are provisional and based on reviewed Lincoln pilot evidence.",
+        "Full-corpus MIPVU review and reliability adjudication are pending.",
+        "Historical alignment notes require publication-grade citations."
+      ]
+    },
+    {
+      "trace_id": "lincoln-score-doc-second-inaugural-historical_enactment_alignment-lincoln-cmt-008",
+      "case_id": "lincoln",
+      "generated_at": "2026-06-15T10:32:23",
+      "claim_id": "lincoln-score-doc-second-inaugural-historical_enactment_alignment",
+      "claim_text": "Second Inaugural contributes strong support evidence for historical enactment or alignment (score 3.0/4): The Second Inaugural strongly aligns blood, slavery, and judgment with historical war and emancipation contexts, but restrains enemy-destruction framing through shared guilt and reconciliation.",
+      "claim_status": "inference",
+      "claim_boundary": "Draft evidentiary-support assessment from reviewed pilot evidence; not proof, diagnosis, or monocausal historical explanation.",
+      "support_dimension": "historical_enactment_alignment",
+      "support_dimension_label": "historical enactment or alignment",
+      "support_score_id": "lincoln-score-doc-second-inaugural",
+      "support_score": 3.0,
+      "support_score_path": "cases/lincoln/analysis/support-ratings.json",
+      "document_weight": 2.0,
+      "weight_rationale": "Canonical late-war inaugural text for providence, slavery, blood repayment, and reconciliation.",
+      "cluster_id": "lincoln-06-providence-theodicy",
+      "mapping_id": "lincoln-cmt-008",
+      "mapping_status": "provisional",
+      "conceptual_metaphor": "BLOODSHED IS MORAL REPAYMENT",
+      "source_domain_primary": "debt_accounting",
+      "target_domain": "civil_war",
+      "expression": "every drop of blood ... shall be paid by another drawn with the sword",
+      "evidence_span": "until every drop of blood drawn by the lash shall be paid by another drawn with the sword",
+      "mapping_confidence": 0.82,
+      "rival_reading": "Sword remains uncertain: it may be literal weapon, metonym for war, or biblical idiom.",
+      "mipvu_ids": [
+        "lincoln-second-inaugural_s01_p05_s04_lu039",
+        "lincoln-second-inaugural_s01_p05_s04_lu045"
+      ],
+      "mipvu_units": [
+        {
+          "mipvu_id": "lincoln-second-inaugural_s01_p05_s04_lu039",
+          "lexical_unit": "paid",
+          "decision_type": "mipvu_indirect",
+          "review_status": "reviewed",
+          "confidence": 0.94,
+          "path": "cases/lincoln/corpus/mipvu/lincoln-second-inaugural_mipvu.json"
+        },
+        {
+          "mipvu_id": "lincoln-second-inaugural_s01_p05_s04_lu045",
+          "lexical_unit": "sword",
+          "decision_type": "uncertain",
+          "review_status": "reviewed",
+          "confidence": 0.55,
+          "path": "cases/lincoln/corpus/mipvu/lincoln-second-inaugural_mipvu.json"
+        }
+      ],
+      "sentence_id": "lincoln-second-inaugural_s01_p05_s04",
+      "sentence_text": "Yet, if God wills that it continue until all the wealth piled by the bondsman's two hundred and fifty years of unrequited toil shall be sunk, and until every drop of blood drawn by the lash shall be paid by another drawn with the sword, as was said three thousand years ago, so still it must be said, \"The judgments of the Lord are true and righteous altogether.\"",
+      "segmented_sentence_path": "cases/lincoln/corpus/segmented/lincoln-second-inaugural.json",
+      "document_id": "lincoln-second-inaugural",
+      "document_title": "Second Inaugural Address",
+      "document_date": "1865-03-04",
+      "document_register": "inaugural-address",
+      "source_url": "https://www.gutenberg.org/ebooks/8",
+      "source_citation": "Project Gutenberg EBook #8 — Abraham Lincoln's Second Inaugural Address",
+      "rights_status": "public-domain",
+      "source_text_path": "cases/lincoln/corpus/raw/lincoln-src-03-second-inaugural.txt",
+      "historical_note_ids": [
+        "lincoln-hist-002"
+      ],
+      "historical_corroboration": [
+        {
+          "note_id": "lincoln-hist-002",
+          "topic": "Slavery, emancipation, and wartime bloodshed in the Second Inaugural",
+          "summary": "The Second Inaugural's debt, blood, and judgment language aligns with the Civil War's slavery conflict, emancipation policy, and immense wartime death toll.",
+          "corroboration_status": "contextually-corroborated; publication citations required",
+          "claim_boundary": "Separates historical alignment from proof of providential causality or private belief."
+        }
+      ],
+      "upstream_artifacts": [
+        "cases/lincoln/analysis/support-ratings.json",
+        "cases/lincoln/corpus/cmt/cmt-mappings.json",
+        "cases/lincoln/analysis/historical-enactment-alignment.json",
+        "cases/lincoln/metadata/document-manifest.json",
+        "cases/lincoln/metadata/corpus-register.csv"
+      ],
+      "review_limitations": [
+        "Trace rows are draft review aids, not final publication claims.",
+        "Publication-grade historical citations remain required where historical notes say so.",
+        "Scores are provisional and based on reviewed Lincoln pilot evidence.",
+        "Full-corpus MIPVU review and reliability adjudication are pending.",
+        "Historical alignment notes require publication-grade citations."
+      ]
+    },
+    {
+      "trace_id": "lincoln-score-doc-second-inaugural-historical_enactment_alignment-lincoln-cmt-009",
+      "case_id": "lincoln",
+      "generated_at": "2026-06-15T10:32:23",
+      "claim_id": "lincoln-score-doc-second-inaugural-historical_enactment_alignment",
+      "claim_text": "Second Inaugural contributes strong support evidence for historical enactment or alignment (score 3.0/4): The Second Inaugural strongly aligns blood, slavery, and judgment with historical war and emancipation contexts, but restrains enemy-destruction framing through shared guilt and reconciliation.",
+      "claim_status": "inference",
+      "claim_boundary": "Draft evidentiary-support assessment from reviewed pilot evidence; not proof, diagnosis, or monocausal historical explanation.",
+      "support_dimension": "historical_enactment_alignment",
+      "support_dimension_label": "historical enactment or alignment",
+      "support_score_id": "lincoln-score-doc-second-inaugural",
+      "support_score": 3.0,
+      "support_score_path": "cases/lincoln/analysis/support-ratings.json",
+      "document_weight": 2.0,
+      "weight_rationale": "Canonical late-war inaugural text for providence, slavery, blood repayment, and reconciliation.",
+      "cluster_id": "lincoln-06-providence-theodicy",
+      "mapping_id": "lincoln-cmt-009",
+      "mapping_status": "provisional",
+      "conceptual_metaphor": "DIVINE WILL IS RIGHTEOUS JUDGMENT",
+      "source_domain_primary": "law_contract",
+      "target_domain": "providence",
+      "expression": "The judgments of the Lord are true and righteous altogether",
+      "evidence_span": "The judgments of the Lord are true and righteous altogether.",
+      "mapping_confidence": 0.6,
+      "rival_reading": "Biblical quotation may function as doctrinal citation rather than independently mapped metaphor.",
+      "mipvu_ids": [
+        "lincoln-second-inaugural_s01_p05_s04_lu060"
+      ],
+      "mipvu_units": [
+        {
+          "mipvu_id": "lincoln-second-inaugural_s01_p05_s04_lu060",
+          "lexical_unit": "judgments",
+          "decision_type": "uncertain",
+          "review_status": "reviewed",
+          "confidence": 0.6,
+          "path": "cases/lincoln/corpus/mipvu/lincoln-second-inaugural_mipvu.json"
+        }
+      ],
+      "sentence_id": "lincoln-second-inaugural_s01_p05_s04",
+      "sentence_text": "Yet, if God wills that it continue until all the wealth piled by the bondsman's two hundred and fifty years of unrequited toil shall be sunk, and until every drop of blood drawn by the lash shall be paid by another drawn with the sword, as was said three thousand years ago, so still it must be said, \"The judgments of the Lord are true and righteous altogether.\"",
+      "segmented_sentence_path": "cases/lincoln/corpus/segmented/lincoln-second-inaugural.json",
+      "document_id": "lincoln-second-inaugural",
+      "document_title": "Second Inaugural Address",
+      "document_date": "1865-03-04",
+      "document_register": "inaugural-address",
+      "source_url": "https://www.gutenberg.org/ebooks/8",
+      "source_citation": "Project Gutenberg EBook #8 — Abraham Lincoln's Second Inaugural Address",
+      "rights_status": "public-domain",
+      "source_text_path": "cases/lincoln/corpus/raw/lincoln-src-03-second-inaugural.txt",
+      "historical_note_ids": [
+        "lincoln-hist-002"
+      ],
+      "historical_corroboration": [
+        {
+          "note_id": "lincoln-hist-002",
+          "topic": "Slavery, emancipation, and wartime bloodshed in the Second Inaugural",
+          "summary": "The Second Inaugural's debt, blood, and judgment language aligns with the Civil War's slavery conflict, emancipation policy, and immense wartime death toll.",
+          "corroboration_status": "contextually-corroborated; publication citations required",
+          "claim_boundary": "Separates historical alignment from proof of providential causality or private belief."
+        }
+      ],
+      "upstream_artifacts": [
+        "cases/lincoln/analysis/support-ratings.json",
+        "cases/lincoln/corpus/cmt/cmt-mappings.json",
+        "cases/lincoln/analysis/historical-enactment-alignment.json",
+        "cases/lincoln/metadata/document-manifest.json",
+        "cases/lincoln/metadata/corpus-register.csv"
+      ],
+      "review_limitations": [
+        "Trace rows are draft review aids, not final publication claims.",
+        "Publication-grade historical citations remain required where historical notes say so.",
+        "Scores are provisional and based on reviewed Lincoln pilot evidence.",
+        "Full-corpus MIPVU review and reliability adjudication are pending.",
+        "Historical alignment notes require publication-grade citations."
+      ]
+    }
+  ]
+}

@@ -2,6 +2,132 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "title": "claim-trace-schema",
   "type": "object",
+  "required": [
+    "version",
+    "case_id",
+    "generated_at",
+    "status",
+    "trace_policy",
+    "traces"
+  ],
   "additionalProperties": true,
-  "description": "Placeholder schema to be expanded during implementation."
+  "properties": {
+    "version": {
+      "type": "string"
+    },
+    "case_id": {
+      "type": "string"
+    },
+    "generated_at": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string"
+    },
+    "trace_policy": {
+      "type": "string"
+    },
+    "traces": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": [
+          "trace_id",
+          "case_id",
+          "claim_id",
+          "claim_text",
+          "claim_status",
+          "claim_boundary",
+          "support_dimension",
+          "support_score_id",
+          "support_score",
+          "support_score_path",
+          "mapping_id",
+          "mipvu_ids",
+          "sentence_id",
+          "document_id",
+          "source_url",
+          "rights_status",
+          "source_text_path",
+          "upstream_artifacts"
+        ],
+        "additionalProperties": true,
+        "properties": {
+          "trace_id": {
+            "type": "string"
+          },
+          "case_id": {
+            "type": "string"
+          },
+          "claim_id": {
+            "type": "string"
+          },
+          "claim_text": {
+            "type": "string"
+          },
+          "claim_status": {
+            "enum": [
+              "evidence",
+              "interpretation",
+              "inference",
+              "speculation",
+              "open_question"
+            ]
+          },
+          "support_dimension": {
+            "enum": [
+              "sacred_object",
+              "sacrificial_body",
+              "enemy_as_death",
+              "historical_enactment_alignment"
+            ]
+          },
+          "support_score": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 4
+          },
+          "mapping_id": {
+            "type": "string"
+          },
+          "mipvu_ids": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "string"
+            }
+          },
+          "sentence_id": {
+            "type": "string"
+          },
+          "document_id": {
+            "type": "string"
+          },
+          "source_url": {
+            "type": "string"
+          },
+          "rights_status": {
+            "type": "string"
+          },
+          "source_text_path": {
+            "type": "string"
+          },
+          "historical_note_ids": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "upstream_artifacts": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    }
+  }
 }

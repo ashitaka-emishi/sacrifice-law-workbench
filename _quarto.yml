@@ -71,6 +71,20 @@ website:
             text: Validation Protocol
           - href: FUTURE_LANGGRAPH_COMPATIBILITY.md
             text: Future LangGraph Compatibility
+      - section: Review Package
+        contents:
+          - href: publication/audit-package.md
+            text: Publication Audit Package
+          - href: publication/claim-traceability.md
+            text: Claim Traceability
+          - href: publication/validation-gate.md
+            text: Validation Gate
+          - href: publication/ai-use-statement.md
+            text: AI Use Statement
+          - href: publication/data-availability.md
+            text: Data Availability
+          - href: publication/public-site-readiness.md
+            text: Public Site Readiness
       - section: Cases
         contents:
           - href: case-selection.qmd
