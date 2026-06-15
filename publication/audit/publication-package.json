@@ -1,0 +1,262 @@
+{
+  "version": "1.0",
+  "case_id": "lincoln",
+  "generated_at": "2026-06-15T10:32:23",
+  "status": "draft-review-package",
+  "source_issue": "#13",
+  "package_policy": "This package exposes the method, evidence, validation gate, AI-use statement, data-availability statement, and claim traceability needed for scholarly review.",
+  "components": [
+    {
+      "component_id": "research-design",
+      "label": "Research design",
+      "purpose": "Defines scope, method sequence, integrity rules, and evidence boundaries.",
+      "publication_status": "draft-review-package",
+      "path": "RESEARCH_DESIGN.md",
+      "status": "available",
+      "file_count": 1,
+      "files": [
+        "RESEARCH_DESIGN.md"
+      ]
+    },
+    {
+      "component_id": "corpus-register",
+      "label": "Corpus register",
+      "purpose": "Documents included texts, provenance, rights status, and inclusion rationale.",
+      "publication_status": "draft-review-package",
+      "path": "cases/lincoln/metadata/corpus-register.csv",
+      "status": "available",
+      "file_count": 1,
+      "files": [
+        "cases/lincoln/metadata/corpus-register.csv"
+      ]
+    },
+    {
+      "component_id": "annotation-codebook",
+      "label": "Annotation codebook",
+      "purpose": "Defines MIPVU coding rules and review expectations.",
+      "publication_status": "draft-review-package",
+      "path": "MIPVU_ANNOTATION_GUIDE.md",
+      "status": "available",
+      "file_count": 1,
+      "files": [
+        "MIPVU_ANNOTATION_GUIDE.md"
+      ]
+    },
+    {
+      "component_id": "historical-semantics-notes",
+      "label": "Historical semantics notes",
+      "purpose": "Records period-meaning controls and semantic-risk notes.",
+      "publication_status": "draft-review-package",
+      "path": "cases/lincoln/references/historical-semantics-notes.md",
+      "status": "available",
+      "file_count": 1,
+      "files": [
+        "cases/lincoln/references/historical-semantics-notes.md"
+      ]
+    },
+    {
+      "component_id": "mipvu-annotations",
+      "label": "MIPVU annotations",
+      "purpose": "Review-table export of lexical-unit metaphor decisions.",
+      "publication_status": "draft-review-package",
+      "path": "publication/audit/mipvu-annotations.csv",
+      "status": "available",
+      "file_count": 1,
+      "files": [
+        "publication/audit/mipvu-annotations.csv"
+      ]
+    },
+    {
+      "component_id": "reliability-report",
+      "label": "Reliability report",
+      "purpose": "Shows the reliability sampling and adjudication workflow.",
+      "publication_status": "draft-review-package",
+      "path": "cases/lincoln/quality/reliability-report.md",
+      "status": "available",
+      "file_count": 1,
+      "files": [
+        "cases/lincoln/quality/reliability-report.md"
+      ]
+    },
+    {
+      "component_id": "cmt-mappings",
+      "label": "CMT mappings",
+      "purpose": "Review-table export linking conceptual mappings to MIPVU evidence.",
+      "publication_status": "draft-review-package",
+      "path": "publication/audit/cmt-mappings.csv",
+      "status": "available",
+      "file_count": 1,
+      "files": [
+        "publication/audit/cmt-mappings.csv"
+      ]
+    },
+    {
+      "component_id": "corpus-analysis",
+      "label": "Corpus analysis",
+      "purpose": "Summarizes frequency, distribution, salience, and chronology.",
+      "publication_status": "draft-review-package",
+      "path": "cases/lincoln/analysis/corpus-analysis.md",
+      "status": "available",
+      "file_count": 1,
+      "files": [
+        "cases/lincoln/analysis/corpus-analysis.md"
+      ]
+    },
+    {
+      "component_id": "critical-metaphor-analysis",
+      "label": "Critical metaphor analysis",
+      "purpose": "Interprets persuasive and ideological functions.",
+      "publication_status": "draft-review-package",
+      "path": "cases/lincoln/analysis/critical-metaphor-analysis.md",
+      "status": "available",
+      "file_count": 1,
+      "files": [
+        "cases/lincoln/analysis/critical-metaphor-analysis.md"
+      ]
+    },
+    {
+      "component_id": "rhetorical-genre-analysis",
+      "label": "Rhetorical/genre analysis",
+      "purpose": "Controls claims by audience, occasion, genre, and agency structure.",
+      "publication_status": "draft-review-package",
+      "path": "cases/lincoln/analysis/rhetorical-genre-analysis.md",
+      "status": "available",
+      "file_count": 1,
+      "files": [
+        "cases/lincoln/analysis/rhetorical-genre-analysis.md"
+      ]
+    },
+    {
+      "component_id": "absence-agency-analysis",
+      "label": "Absence/agency analysis",
+      "purpose": "Records displacement, silence, and agency limits.",
+      "publication_status": "draft-review-package",
+      "path": "cases/lincoln/analysis/absence-agency-analysis.md",
+      "status": "available",
+      "file_count": 1,
+      "files": [
+        "cases/lincoln/analysis/absence-agency-analysis.md"
+      ]
+    },
+    {
+      "component_id": "historical-enactment-alignment",
+      "label": "Historical enactment/alignment",
+      "purpose": "Corroborates symbolic patterns against historical context.",
+      "publication_status": "draft-review-package",
+      "path": "cases/lincoln/analysis/historical-enactment-alignment.md",
+      "status": "available",
+      "file_count": 1,
+      "files": [
+        "cases/lincoln/analysis/historical-enactment-alignment.md"
+      ]
+    },
+    {
+      "component_id": "support-ratings",
+      "label": "Support ratings",
+      "purpose": "Records document-level and case-level support scores.",
+      "publication_status": "draft-review-package",
+      "path": "cases/lincoln/analysis/support-ratings.csv",
+      "status": "available",
+      "file_count": 1,
+      "files": [
+        "cases/lincoln/analysis/support-ratings.csv"
+      ]
+    },
+    {
+      "component_id": "support-synthesis",
+      "label": "Koenigsbergian support synthesis",
+      "purpose": "Presents the draft evidentiary-support assessment.",
+      "publication_status": "draft-review-package",
+      "path": "cases/lincoln/analysis/koenigsbergian-support-synthesis.md",
+      "status": "available",
+      "file_count": 1,
+      "files": [
+        "cases/lincoln/analysis/koenigsbergian-support-synthesis.md"
+      ]
+    },
+    {
+      "component_id": "claim-traceability",
+      "label": "Claim traceability",
+      "purpose": "Links support claims to evidence records and source metadata.",
+      "publication_status": "draft-review-package",
+      "path": "publication/claim-traceability.md",
+      "status": "available",
+      "file_count": 1,
+      "files": [
+        "publication/claim-traceability.md"
+      ]
+    },
+    {
+      "component_id": "ai-use-statement",
+      "label": "AI-use statement",
+      "purpose": "Explains AI assistance and human scholarly responsibility.",
+      "publication_status": "draft-review-package",
+      "path": "publication/ai-use-statement.md",
+      "status": "available",
+      "file_count": 1,
+      "files": [
+        "publication/ai-use-statement.md"
+      ]
+    },
+    {
+      "component_id": "data-availability",
+      "label": "Data availability",
+      "purpose": "Explains shareable data, rights status, and reuse cautions.",
+      "publication_status": "draft-review-package",
+      "path": "publication/data-availability.md",
+      "status": "available",
+      "file_count": 1,
+      "files": [
+        "publication/data-availability.md"
+      ]
+    },
+    {
+      "component_id": "validation-gate",
+      "label": "Validation gate",
+      "purpose": "Documents the milestone-level rebuild, validation, and publication checks.",
+      "publication_status": "draft-review-package",
+      "path": "publication/validation-gate.md",
+      "status": "available",
+      "file_count": 1,
+      "files": [
+        "publication/validation-gate.md"
+      ]
+    },
+    {
+      "component_id": "public-site-readiness",
+      "label": "Public-site readiness",
+      "purpose": "Shows draft/placeholder signals on public pages.",
+      "publication_status": "draft-review-package",
+      "path": "publication/public-site-readiness.md",
+      "status": "available",
+      "file_count": 1,
+      "files": [
+        "publication/public-site-readiness.md"
+      ]
+    }
+  ],
+  "traceability": {
+    "trace_count": 36,
+    "json_path": "publication/audit/claim-traceability.json",
+    "csv_path": "publication/audit/claim-traceability.csv",
+    "public_page": "publication/claim-traceability.md"
+  },
+  "validation_gate": [
+    "npm run status",
+    "npm run pipeline",
+    "npm run validate",
+    "quarto render"
+  ],
+  "public_site_readiness": {
+    "status": "pass",
+    "blockers": [],
+    "report_path": "publication/audit/public-site-readiness.json"
+  },
+  "known_limitations": [
+    "Trace rows are draft review aids, not final publication claims.",
+    "Publication-grade historical citations remain required where historical notes say so.",
+    "Scores are provisional and based on reviewed Lincoln pilot evidence.",
+    "Full-corpus MIPVU review and reliability adjudication are pending.",
+    "Historical alignment notes require publication-grade citations."
+  ]
+}
