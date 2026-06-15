@@ -1,0 +1,246 @@
+{
+  "version": "1.0",
+  "case_id": "lincoln",
+  "generated_at": "2026-06-15T09:49:38",
+  "status": "draft",
+  "source": "corpus/cmt/cmt-mappings.json",
+  "cluster_profiles": [
+    {
+      "cluster_id": "lincoln-01-body-organism",
+      "mapping_ids": [
+        "lincoln-cmt-001",
+        "lincoln-cmt-006"
+      ],
+      "source_domains": [
+        "body",
+        "nature_organism"
+      ],
+      "target_domains": [
+        "democracy",
+        "nation"
+      ],
+      "major_expressions": [
+        "government ... shall not perish from this earth",
+        "we must live through all time, or die by suicide"
+      ],
+      "corpus_distribution": {
+        "mapping_count": 2,
+        "documents": [
+          "lincoln-gettysburg-address",
+          "lincoln-lyceum-address"
+        ],
+        "periods": [
+          "peak-war-sacrifice",
+          "pre-war-union-republic-language"
+        ],
+        "rhetorical_salience": [
+          "high"
+        ]
+      },
+      "rhetorical_contexts": [
+        "exhortation",
+        "national_self_definition",
+        "warning"
+      ],
+      "persuasive_function": "Makes national survival feel like the preservation of a living body rather than an abstract institutional choice.",
+      "moral_emotions_activated": [
+        "fear of collective death",
+        "duty",
+        "reverence for survival"
+      ],
+      "political_actions_authorized": [
+        "civic discipline",
+        "continued preservation of republican government"
+      ],
+      "rival_readings": [
+        "Conventional body-politic idiom rather than active metaphor; keep conventionality visible in aggregate claims.",
+        "Perish can be a conventional verb for institutional failure; preserve conventionality in claims."
+      ],
+      "negative_cases": [
+        "The current reviewed sample does not yet show a fully medicalized disease or purification logic."
+      ],
+      "relation_to_koenigsbergian_analysis": "Supports the body-politic corollary more directly than the sacrificial law itself.",
+      "evidence_status": "provisional-cmt-backed"
+    },
+    {
+      "cluster_id": "lincoln-04-birth-creation",
+      "mapping_ids": [
+        "lincoln-cmt-005"
+      ],
+      "source_domains": [
+        "birth_generation",
+        "religion_providence"
+      ],
+      "target_domains": [
+        "freedom"
+      ],
+      "major_expressions": [
+        "a new birth of freedom"
+      ],
+      "corpus_distribution": {
+        "mapping_count": 1,
+        "documents": [
+          "lincoln-gettysburg-address"
+        ],
+        "periods": [
+          "peak-war-sacrifice"
+        ],
+        "rhetorical_salience": [
+          "high"
+        ]
+      },
+      "rhetorical_contexts": [
+        "exhortation",
+        "national_self_definition"
+      ],
+      "persuasive_function": "Turns war loss into the possibility of renewed political life.",
+      "moral_emotions_activated": [
+        "hope",
+        "obligation",
+        "reverent futurity"
+      ],
+      "political_actions_authorized": [
+        "continuing the war effort",
+        "renewing democratic commitment"
+      ],
+      "rival_readings": [
+        "Republican renewal formula; historical-semantics controls should prevent overstating biological literalness."
+      ],
+      "negative_cases": [
+        "Current evidence is concentrated in the Gettysburg climax and should not be treated as distributed across the full Lincoln corpus yet."
+      ],
+      "relation_to_koenigsbergian_analysis": "Complicates preservation by adding rebirth: sacrifice does not merely keep the sacred object alive, it makes renewal imaginable.",
+      "evidence_status": "provisional-cmt-backed"
+    },
+    {
+      "cluster_id": "lincoln-06-providence-theodicy",
+      "mapping_ids": [
+        "lincoln-cmt-003",
+        "lincoln-cmt-007",
+        "lincoln-cmt-008",
+        "lincoln-cmt-009"
+      ],
+      "source_domains": [
+        "debt_accounting",
+        "law_contract",
+        "religion_providence",
+        "slavery_bondage",
+        "war_combat"
+      ],
+      "target_domains": [
+        "citizenship",
+        "civil_war",
+        "providence",
+        "slavery"
+      ],
+      "major_expressions": [
+        "The judgments of the Lord are true and righteous altogether",
+        "all the wealth ... shall be sunk",
+        "dedicated to the great task remaining before us",
+        "every drop of blood ... shall be paid by another drawn with the sword"
+      ],
+      "corpus_distribution": {
+        "mapping_count": 4,
+        "documents": [
+          "lincoln-gettysburg-address",
+          "lincoln-second-inaugural"
+        ],
+        "periods": [
+          "final-reconciliation-memorialization",
+          "peak-war-sacrifice"
+        ],
+        "rhetorical_salience": [
+          "high"
+        ]
+      },
+      "rhetorical_contexts": [
+        "accusation",
+        "consecration",
+        "exhortation",
+        "prophecy",
+        "reconciliation"
+      ],
+      "persuasive_function": "Places slavery, bloodshed, guilt, and reconciliation under divine judgment rather than partisan triumph.",
+      "moral_emotions_activated": [
+        "guilt",
+        "humility",
+        "reverence",
+        "forbearance"
+      ],
+      "political_actions_authorized": [
+        "accepting war suffering as moral judgment",
+        "reconciliation without denying slavery's offense"
+      ],
+      "rival_readings": [
+        "Biblical quotation may function as doctrinal citation rather than independently mapped metaphor.",
+        "Dedicated may function as conventional ceremonial diction with limited conceptual force.",
+        "Sunk may be a financial or material idiom without a full metaphorical debt structure.",
+        "Sword remains uncertain: it may be literal weapon, metonym for war, or biblical idiom."
+      ],
+      "negative_cases": [
+        "Providence language can be doctrinal quotation or rhetorical convention; it should not be used as evidence of private belief without corroboration."
+      ],
+      "relation_to_koenigsbergian_analysis": "Supports historical-sacral framing and guilt distribution, while limiting enemy-destruction claims through reconciliation.",
+      "evidence_status": "provisional-cmt-backed"
+    },
+    {
+      "cluster_id": "lincoln-08-sacrificial-death-gift",
+      "mapping_ids": [
+        "lincoln-cmt-002",
+        "lincoln-cmt-004"
+      ],
+      "source_domains": [
+        "body",
+        "debt_accounting",
+        "nature_organism",
+        "sacrifice"
+      ],
+      "target_domains": [
+        "civil_war",
+        "nation"
+      ],
+      "major_expressions": [
+        "final resting place ... gave their lives that this nation might live",
+        "gave the last full measure of devotion"
+      ],
+      "corpus_distribution": {
+        "mapping_count": 2,
+        "documents": [
+          "lincoln-gettysburg-address"
+        ],
+        "periods": [
+          "peak-war-sacrifice"
+        ],
+        "rhetorical_salience": [
+          "high"
+        ]
+      },
+      "rhetorical_contexts": [
+        "consecration",
+        "exhortation",
+        "memorialization"
+      ],
+      "persuasive_function": "Converts soldier death into an offering that obligates the living.",
+      "moral_emotions_activated": [
+        "mourning",
+        "gratitude",
+        "debt",
+        "devotion"
+      ],
+      "political_actions_authorized": [
+        "continued dedication",
+        "completion of unfinished work",
+        "preservation of national life"
+      ],
+      "rival_readings": [
+        "Measure may be conventional quantifying language rather than a distinct accounting source domain.",
+        "The sentence may be read as solemn memorial diction rather than a fully active sacrificial mapping."
+      ],
+      "negative_cases": [
+        "The current evidence sacralizes Union death but does not make killing an end in itself."
+      ],
+      "relation_to_koenigsbergian_analysis": "Directly supports the sacrificial-body dimension, especially in Gettysburg's battlefield setting.",
+      "evidence_status": "provisional-cmt-backed"
+    }
+  ]
+}

@@ -482,7 +482,14 @@ class Validator:
                 self.validate_instance(path, case_id, inst, container_sentence_id, sentence_ids, mipvu_lookup)
 
     def validate_concordance_and_analysis(self, case_id: str) -> None:
-        for rel_path in ["analysis/concordance.json", "analysis/analysis.json", "analysis/corpus-analysis.json"]:
+        for rel_path in [
+            "analysis/concordance.json",
+            "analysis/analysis.json",
+            "analysis/corpus-analysis.json",
+            "analysis/critical-metaphor-analysis.json",
+            "analysis/rhetorical-genre-analysis.json",
+            "analysis/absence-agency-analysis.json",
+        ]:
             path = case_dir(case_id) / rel_path
             if not path.exists():
                 continue
@@ -494,6 +501,86 @@ class Validator:
                 self.error(path, f"case_id must be `{case_id}`")
             if data.get("status") not in {"stub", "complete", "ready", "error", "draft"}:
                 self.error(path, "status has unexpected value")
+
+    def validate_mapping_id_list(
+        self,
+        path: Path,
+        owner: str,
+        values: Any,
+        valid_mapping_ids: set[str],
+    ) -> None:
+        if not isinstance(values, list) or not values:
+            self.error(path, f"{owner}: mapping ID list must be non-empty")
+            return
+        for mapping_id in values:
+            if not isinstance(mapping_id, str) or not mapping_id:
+                self.error(path, f"{owner}: mapping ID entries must be strings")
+            elif mapping_id not in valid_mapping_ids:
+                self.error(path, f"{owner}: mapping_id `{mapping_id}` not found")
+
+    def validate_interpretive_artifacts(self, case_id: str, valid_mapping_ids: set[str]) -> None:
+        analysis_dir = case_dir(case_id) / "analysis"
+
+        critical_path = analysis_dir / "critical-metaphor-analysis.json"
+        if critical_path.exists():
+            data = read_json(critical_path, {}) or {}
+            profiles = data.get("cluster_profiles") if isinstance(data, dict) else None
+            if not isinstance(profiles, list) or not profiles:
+                self.error(critical_path, "cluster_profiles must be a non-empty array")
+            else:
+                for index, profile in enumerate(profiles):
+                    if not isinstance(profile, dict):
+                        self.error(critical_path, f"cluster_profiles[{index}] must be an object")
+                        continue
+                    owner = str(profile.get("cluster_id") or f"cluster_profiles[{index}]")
+                    self.validate_mapping_id_list(
+                        critical_path, owner, profile.get("mapping_ids"), valid_mapping_ids
+                    )
+                    for field in [
+                        "persuasive_function",
+                        "rival_readings",
+                        "negative_cases",
+                        "relation_to_koenigsbergian_analysis",
+                    ]:
+                        if profile.get(field) in (None, "", []):
+                            self.error(critical_path, f"{owner}: missing `{field}`")
+
+        rhetorical_path = analysis_dir / "rhetorical-genre-analysis.json"
+        if rhetorical_path.exists():
+            data = read_json(rhetorical_path, {}) or {}
+            contexts = data.get("contexts") if isinstance(data, dict) else None
+            if not isinstance(contexts, list) or not contexts:
+                self.error(rhetorical_path, "contexts must be a non-empty array")
+            else:
+                for index, context in enumerate(contexts):
+                    if not isinstance(context, dict):
+                        self.error(rhetorical_path, f"contexts[{index}] must be an object")
+                        continue
+                    mapping_id = context.get("mapping_id")
+                    if mapping_id not in valid_mapping_ids:
+                        self.error(rhetorical_path, f"contexts[{index}]: mapping_id `{mapping_id}` not found")
+                    for field in ["audience", "occasion", "genre", "rhetorical_action", "agency_structure"]:
+                        if context.get(field) in (None, "", {}):
+                            self.error(rhetorical_path, f"{mapping_id or index}: missing `{field}`")
+
+        absence_path = analysis_dir / "absence-agency-analysis.json"
+        if absence_path.exists():
+            data = read_json(absence_path, {}) or {}
+            matrix = data.get("matrix") if isinstance(data, dict) else None
+            if not isinstance(matrix, list) or not matrix:
+                self.error(absence_path, "matrix must be a non-empty array")
+            else:
+                for index, row in enumerate(matrix):
+                    if not isinstance(row, dict):
+                        self.error(absence_path, f"matrix[{index}] must be an object")
+                        continue
+                    owner = str(row.get("absence_id") or f"matrix[{index}]")
+                    self.validate_mapping_id_list(
+                        absence_path, owner, row.get("evidence_mapping_ids"), valid_mapping_ids
+                    )
+                    for field in ["expected_presence", "possible_absence", "displacement_mechanism", "claim_boundary"]:
+                        if row.get(field) in (None, ""):
+                            self.error(absence_path, f"{owner}: missing `{field}`")
 
     def validate_reliability_artifacts(
         self,
@@ -694,6 +781,13 @@ class Validator:
         mipvu_lookup = self.validate_mipvu(case_id, sentence_ids, strict=strict)
         self.validate_reliability_artifacts(case_id, sentence_ids, mipvu_lookup)
         self.validate_cmt_mappings(case_id, sentence_ids, mipvu_lookup)
+        cmt_data = read_json(cmt_mappings_path_for(case_id), {}) or {}
+        valid_mapping_ids = {
+            str(mapping.get("mapping_id"))
+            for mapping in iter_cmt_mappings(cmt_data)
+            if mapping.get("mapping_id")
+        }
+        self.validate_interpretive_artifacts(case_id, valid_mapping_ids)
         self.validate_annotated(case_id, sentence_ids, mipvu_lookup)
         self.validate_concordance_and_analysis(case_id)
 

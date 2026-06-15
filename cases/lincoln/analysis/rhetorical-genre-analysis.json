@@ -1,0 +1,381 @@
+{
+  "version": "1.0",
+  "case_id": "lincoln",
+  "generated_at": "2026-06-15T09:49:38",
+  "status": "draft",
+  "contexts": [
+    {
+      "mapping_id": "lincoln-cmt-001",
+      "document_id": "lincoln-lyceum-address",
+      "sentence_id": "lincoln-lyceum-address_s01_p06_s04",
+      "date": "1838-01-27",
+      "period": "early-republican-rhetoric",
+      "audience": "Young Men's Lyceum of Springfield and a civic public concerned with republican institutions",
+      "occasion": "Early public address on mob violence, political inheritance, and the perpetuation of American institutions",
+      "genre": "public address",
+      "rhetorical_action": "Warns that republican survival depends on civic discipline and reverence for law.",
+      "emotional_posture": "warning",
+      "agency_structure": {
+        "agents": [
+          "we",
+          "nation of freemen",
+          "citizens"
+        ],
+        "patients": [
+          "nation",
+          "political institutions"
+        ],
+        "beneficiaries": [
+          "future republic",
+          "American people"
+        ],
+        "passive_or_absent": [
+          "enslaved people",
+          "women",
+          "Indigenous people"
+        ],
+        "displacement_mechanism": "National survival is framed as collective self-preservation rather than as conflict among named social groups."
+      },
+      "rhetorical_salience": "high",
+      "rhetorical_functions": [
+        "warning",
+        "national_self_definition"
+      ],
+      "evidence_span": "As a nation of freemen we must live through all time, or die by suicide.",
+      "claim_boundary": "Genre-sensitive interpretation; do not aggregate as frequency without document/register context."
+    },
+    {
+      "mapping_id": "lincoln-cmt-002",
+      "document_id": "lincoln-gettysburg-address",
+      "sentence_id": "lincoln-gettysburg-address_s01_p03_s01",
+      "date": "1863-11-19",
+      "period": "emancipation-and-sacrifice",
+      "audience": "Cemetery dedication audience, Union public, mourners, soldiers, and national readers",
+      "occasion": "Dedication of the national cemetery after the Battle of Gettysburg",
+      "genre": "ceremonial address",
+      "rhetorical_action": "Transforms battlefield death into renewed obligation to preserve democratic government and freedom.",
+      "emotional_posture": "mourning, consecration, exhortation",
+      "agency_structure": {
+        "agents": [
+          "honored dead",
+          "living citizens",
+          "we"
+        ],
+        "patients": [
+          "dead soldiers",
+          "nation",
+          "government of the people"
+        ],
+        "beneficiaries": [
+          "nation",
+          "freedom",
+          "democratic government"
+        ],
+        "passive_or_absent": [
+          "Confederate agency",
+          "enslaved people's own agency",
+          "civilian suffering"
+        ],
+        "displacement_mechanism": "Deaths are generalized as national offering and obligation; specific agents and material bodies recede behind public dedication."
+      },
+      "rhetorical_salience": "high",
+      "rhetorical_functions": [
+        "memorialization",
+        "consecration"
+      ],
+      "evidence_span": "We have come to dedicate a portion of that field as a final resting place for those who here gave their lives that this nation might live.",
+      "claim_boundary": "Genre-sensitive interpretation; do not aggregate as frequency without document/register context."
+    },
+    {
+      "mapping_id": "lincoln-cmt-003",
+      "document_id": "lincoln-gettysburg-address",
+      "sentence_id": "lincoln-gettysburg-address_s01_p05_s02",
+      "date": "1863-11-19",
+      "period": "emancipation-and-sacrifice",
+      "audience": "Cemetery dedication audience, Union public, mourners, soldiers, and national readers",
+      "occasion": "Dedication of the national cemetery after the Battle of Gettysburg",
+      "genre": "ceremonial address",
+      "rhetorical_action": "Transforms battlefield death into renewed obligation to preserve democratic government and freedom.",
+      "emotional_posture": "mourning, consecration, exhortation",
+      "agency_structure": {
+        "agents": [
+          "honored dead",
+          "living citizens",
+          "we"
+        ],
+        "patients": [
+          "dead soldiers",
+          "nation",
+          "government of the people"
+        ],
+        "beneficiaries": [
+          "nation",
+          "freedom",
+          "democratic government"
+        ],
+        "passive_or_absent": [
+          "Confederate agency",
+          "enslaved people's own agency",
+          "civilian suffering"
+        ],
+        "displacement_mechanism": "Deaths are generalized as national offering and obligation; specific agents and material bodies recede behind public dedication."
+      },
+      "rhetorical_salience": "high",
+      "rhetorical_functions": [
+        "exhortation",
+        "consecration"
+      ],
+      "evidence_span": "It is rather for us to be here dedicated to the great task remaining before us.",
+      "claim_boundary": "Genre-sensitive interpretation; do not aggregate as frequency without document/register context."
+    },
+    {
+      "mapping_id": "lincoln-cmt-004",
+      "document_id": "lincoln-gettysburg-address",
+      "sentence_id": "lincoln-gettysburg-address_s01_p05_s02",
+      "date": "1863-11-19",
+      "period": "emancipation-and-sacrifice",
+      "audience": "Cemetery dedication audience, Union public, mourners, soldiers, and national readers",
+      "occasion": "Dedication of the national cemetery after the Battle of Gettysburg",
+      "genre": "ceremonial address",
+      "rhetorical_action": "Transforms battlefield death into renewed obligation to preserve democratic government and freedom.",
+      "emotional_posture": "mourning, consecration, exhortation",
+      "agency_structure": {
+        "agents": [
+          "honored dead",
+          "living citizens",
+          "we"
+        ],
+        "patients": [
+          "dead soldiers",
+          "nation",
+          "government of the people"
+        ],
+        "beneficiaries": [
+          "nation",
+          "freedom",
+          "democratic government"
+        ],
+        "passive_or_absent": [
+          "Confederate agency",
+          "enslaved people's own agency",
+          "civilian suffering"
+        ],
+        "displacement_mechanism": "Deaths are generalized as national offering and obligation; specific agents and material bodies recede behind public dedication."
+      },
+      "rhetorical_salience": "high",
+      "rhetorical_functions": [
+        "memorialization",
+        "exhortation"
+      ],
+      "evidence_span": "that cause for which they gave the last full measure of devotion",
+      "claim_boundary": "Genre-sensitive interpretation; do not aggregate as frequency without document/register context."
+    },
+    {
+      "mapping_id": "lincoln-cmt-005",
+      "document_id": "lincoln-gettysburg-address",
+      "sentence_id": "lincoln-gettysburg-address_s01_p05_s02",
+      "date": "1863-11-19",
+      "period": "emancipation-and-sacrifice",
+      "audience": "Cemetery dedication audience, Union public, mourners, soldiers, and national readers",
+      "occasion": "Dedication of the national cemetery after the Battle of Gettysburg",
+      "genre": "ceremonial address",
+      "rhetorical_action": "Transforms battlefield death into renewed obligation to preserve democratic government and freedom.",
+      "emotional_posture": "mourning, consecration, exhortation",
+      "agency_structure": {
+        "agents": [
+          "honored dead",
+          "living citizens",
+          "we"
+        ],
+        "patients": [
+          "dead soldiers",
+          "nation",
+          "government of the people"
+        ],
+        "beneficiaries": [
+          "nation",
+          "freedom",
+          "democratic government"
+        ],
+        "passive_or_absent": [
+          "Confederate agency",
+          "enslaved people's own agency",
+          "civilian suffering"
+        ],
+        "displacement_mechanism": "Deaths are generalized as national offering and obligation; specific agents and material bodies recede behind public dedication."
+      },
+      "rhetorical_salience": "high",
+      "rhetorical_functions": [
+        "exhortation",
+        "national_self_definition"
+      ],
+      "evidence_span": "this nation, under God, shall have a new birth of freedom",
+      "claim_boundary": "Genre-sensitive interpretation; do not aggregate as frequency without document/register context."
+    },
+    {
+      "mapping_id": "lincoln-cmt-006",
+      "document_id": "lincoln-gettysburg-address",
+      "sentence_id": "lincoln-gettysburg-address_s01_p05_s02",
+      "date": "1863-11-19",
+      "period": "emancipation-and-sacrifice",
+      "audience": "Cemetery dedication audience, Union public, mourners, soldiers, and national readers",
+      "occasion": "Dedication of the national cemetery after the Battle of Gettysburg",
+      "genre": "ceremonial address",
+      "rhetorical_action": "Transforms battlefield death into renewed obligation to preserve democratic government and freedom.",
+      "emotional_posture": "mourning, consecration, exhortation",
+      "agency_structure": {
+        "agents": [
+          "honored dead",
+          "living citizens",
+          "we"
+        ],
+        "patients": [
+          "dead soldiers",
+          "nation",
+          "government of the people"
+        ],
+        "beneficiaries": [
+          "nation",
+          "freedom",
+          "democratic government"
+        ],
+        "passive_or_absent": [
+          "Confederate agency",
+          "enslaved people's own agency",
+          "civilian suffering"
+        ],
+        "displacement_mechanism": "Deaths are generalized as national offering and obligation; specific agents and material bodies recede behind public dedication."
+      },
+      "rhetorical_salience": "high",
+      "rhetorical_functions": [
+        "exhortation",
+        "national_self_definition"
+      ],
+      "evidence_span": "government of the people...by the people...for the people...shall not perish from this earth",
+      "claim_boundary": "Genre-sensitive interpretation; do not aggregate as frequency without document/register context."
+    },
+    {
+      "mapping_id": "lincoln-cmt-007",
+      "document_id": "lincoln-second-inaugural",
+      "sentence_id": "lincoln-second-inaugural_s01_p05_s04",
+      "date": "1865-03-04",
+      "period": "providence-and-reconciliation",
+      "audience": "Second inaugural audience, wartime public, Union and returning Confederate publics",
+      "occasion": "Second presidential inauguration near the end of the Civil War",
+      "genre": "inaugural address",
+      "rhetorical_action": "Reframes the war as providential judgment on slavery and redirects victory toward reconciliation.",
+      "emotional_posture": "humility, judgment, reconciliation",
+      "agency_structure": {
+        "agents": [
+          "God",
+          "both parties",
+          "we"
+        ],
+        "patients": [
+          "bondsman",
+          "nation",
+          "war dead"
+        ],
+        "beneficiaries": [
+          "reunited nation",
+          "emancipation as moral horizon"
+        ],
+        "passive_or_absent": [
+          "Black political agency",
+          "specific enslavers",
+          "military perpetrators"
+        ],
+        "displacement_mechanism": "Human agency is partially displaced into providential judgment and shared national guilt."
+      },
+      "rhetorical_salience": "high",
+      "rhetorical_functions": [
+        "accusation",
+        "prophecy"
+      ],
+      "evidence_span": "until all the wealth piled by the bondsman's two hundred and fifty years of unrequited toil shall be sunk",
+      "claim_boundary": "Genre-sensitive interpretation; do not aggregate as frequency without document/register context."
+    },
+    {
+      "mapping_id": "lincoln-cmt-008",
+      "document_id": "lincoln-second-inaugural",
+      "sentence_id": "lincoln-second-inaugural_s01_p05_s04",
+      "date": "1865-03-04",
+      "period": "providence-and-reconciliation",
+      "audience": "Second inaugural audience, wartime public, Union and returning Confederate publics",
+      "occasion": "Second presidential inauguration near the end of the Civil War",
+      "genre": "inaugural address",
+      "rhetorical_action": "Reframes the war as providential judgment on slavery and redirects victory toward reconciliation.",
+      "emotional_posture": "humility, judgment, reconciliation",
+      "agency_structure": {
+        "agents": [
+          "God",
+          "both parties",
+          "we"
+        ],
+        "patients": [
+          "bondsman",
+          "nation",
+          "war dead"
+        ],
+        "beneficiaries": [
+          "reunited nation",
+          "emancipation as moral horizon"
+        ],
+        "passive_or_absent": [
+          "Black political agency",
+          "specific enslavers",
+          "military perpetrators"
+        ],
+        "displacement_mechanism": "Human agency is partially displaced into providential judgment and shared national guilt."
+      },
+      "rhetorical_salience": "high",
+      "rhetorical_functions": [
+        "accusation",
+        "prophecy"
+      ],
+      "evidence_span": "until every drop of blood drawn by the lash shall be paid by another drawn with the sword",
+      "claim_boundary": "Genre-sensitive interpretation; do not aggregate as frequency without document/register context."
+    },
+    {
+      "mapping_id": "lincoln-cmt-009",
+      "document_id": "lincoln-second-inaugural",
+      "sentence_id": "lincoln-second-inaugural_s01_p05_s04",
+      "date": "1865-03-04",
+      "period": "providence-and-reconciliation",
+      "audience": "Second inaugural audience, wartime public, Union and returning Confederate publics",
+      "occasion": "Second presidential inauguration near the end of the Civil War",
+      "genre": "inaugural address",
+      "rhetorical_action": "Reframes the war as providential judgment on slavery and redirects victory toward reconciliation.",
+      "emotional_posture": "humility, judgment, reconciliation",
+      "agency_structure": {
+        "agents": [
+          "God",
+          "both parties",
+          "we"
+        ],
+        "patients": [
+          "bondsman",
+          "nation",
+          "war dead"
+        ],
+        "beneficiaries": [
+          "reunited nation",
+          "emancipation as moral horizon"
+        ],
+        "passive_or_absent": [
+          "Black political agency",
+          "specific enslavers",
+          "military perpetrators"
+        ],
+        "displacement_mechanism": "Human agency is partially displaced into providential judgment and shared national guilt."
+      },
+      "rhetorical_salience": "high",
+      "rhetorical_functions": [
+        "prophecy",
+        "reconciliation"
+      ],
+      "evidence_span": "The judgments of the Lord are true and righteous altogether.",
+      "claim_boundary": "Genre-sensitive interpretation; do not aggregate as frequency without document/register context."
+    }
+  ]
+}
