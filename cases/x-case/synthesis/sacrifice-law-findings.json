@@ -1,4 +1,36 @@
 {
+  "version": "1.0",
+  "case_id": "x-case",
+  "generated_at": "2026-06-15T09:54:36",
   "status": "draft",
-  "items": []
+  "items": [
+    {
+      "case_id": "lincoln",
+      "support_rating": "moderate support",
+      "support_score": 2.13,
+      "support_rating_path": "cases/lincoln/analysis/support-ratings.json",
+      "claim_boundary": "Lincoln is comparison-ready only as a provisional pilot case; full-corpus review and reliability adjudication remain pending."
+    },
+    {
+      "case_id": "hitler",
+      "support_rating": "pending",
+      "support_score": null,
+      "support_rating_path": null,
+      "claim_boundary": "Do not infer comparison from Lincoln or from starter clusters before Hitler case-level scoring is complete."
+    },
+    {
+      "case_id": "napoleon",
+      "support_rating": "pending",
+      "support_score": null,
+      "support_rating_path": null,
+      "claim_boundary": "Do not infer comparison from Lincoln or from starter clusters before Napoleon case-level scoring is complete."
+    },
+    {
+      "case_id": "am-rev",
+      "support_rating": "pending",
+      "support_score": null,
+      "support_rating_path": null,
+      "claim_boundary": "Do not infer comparison from Lincoln or from starter clusters before American Revolution case-level scoring is complete."
+    }
+  ]
 }

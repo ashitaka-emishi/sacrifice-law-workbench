@@ -1,0 +1,71 @@
+{
+  "version": "1.0",
+  "case_id": "x-case",
+  "generated_at": "2026-06-15T09:54:36",
+  "status": "draft",
+  "purpose": "Define comparative analysis dimensions and guardrails before cross-case claims are promoted.",
+  "dimensions": [
+    {
+      "id": "sacred_collective_object",
+      "label": "Sacred collective object",
+      "question": "What collective object is treated as ultimate, immortal, transcendent, or worth sacrifice?"
+    },
+    {
+      "id": "dominant_body_metaphor",
+      "label": "Dominant body metaphor",
+      "question": "How is the polity or collective imagined as a body, organism, wound, disease, or rebirth?"
+    },
+    {
+      "id": "violence_logic",
+      "label": "Violence logic",
+      "question": "Does violence function as preservation, sacrifice, punishment, purification, extermination, or another logic?"
+    },
+    {
+      "id": "enemy_as_death",
+      "label": "Enemy as death",
+      "question": "Is the enemy represented as death, contamination, dissolution, doubt, unreality, or existential threat?"
+    },
+    {
+      "id": "death_logic",
+      "label": "Death logic",
+      "question": "How are killing, dying, martyrdom, or suffering made meaningful?"
+    },
+    {
+      "id": "historical_alignment",
+      "label": "Historical enactment / alignment",
+      "question": "Which policies, practices, mobilizations, social uptake, or outcomes corroborate the symbolic pattern?"
+    },
+    {
+      "id": "support_rating",
+      "label": "Overall support rating",
+      "question": "Does the case strongly, moderately, weakly, complicatedly, or not at all support the framework?"
+    },
+    {
+      "id": "guilt_structure",
+      "label": "Guilt structure",
+      "question": "How are guilt, innocence, debt, pollution, or responsibility distributed?"
+    },
+    {
+      "id": "endpoint",
+      "label": "Endpoint",
+      "question": "What imagined end state is authorized: reconciliation, preservation, purification, annihilation, coexistence, or something else?"
+    }
+  ],
+  "guardrails": [
+    "Structural comparison is not moral equivalence.",
+    "Similarity in metaphor form is not equivalence in political content, institutional setting, or historical outcome.",
+    "Enemy construction, endpoint, violence logic, and historical enactment matter centrally.",
+    "Each case remains historically contextualized and evidence-bound.",
+    "Comparator cases without support ratings remain pending, not inferred by analogy.",
+    "War, genocide, enslavement, colonial violence, and state terror require separate historical and moral description even when symbolic structures overlap."
+  ],
+  "support_categories": [
+    "unsupported",
+    "weak support",
+    "moderate support",
+    "strong support",
+    "very strong support",
+    "complicated support"
+  ],
+  "comparison_policy": "Cross-case claims must cite case-level support ratings, historical-alignment notes, and case-specific context. Cases without ratings remain pending."
+}

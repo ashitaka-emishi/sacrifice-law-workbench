@@ -1,4 +1,55 @@
 {
+  "version": "1.0",
+  "case_id": "x-case",
+  "generated_at": "2026-06-15T09:54:36",
   "status": "draft",
-  "items": []
+  "items": [
+    {
+      "case_id": "lincoln",
+      "case_type": "civil-war-preservation-and-reunion",
+      "status": "draft-scored",
+      "sacred_collective_object": "Union / republic / democracy / freedom",
+      "dominant_body_metaphor": "Living nation, democratic organism, rebirth",
+      "violence_logic": "Preservation, sacrificial obligation, providential judgment, reconciliation",
+      "enemy_as_death": "Weak in the reviewed pilot evidence; disunion/slavery are threats, but enemy agency is often muted or diffused.",
+      "death_logic": "Soldier death becomes obligation, devotion, and condition for national renewal.",
+      "historical_alignment": "Battlefield death, public mourning, emancipation context, wartime bloodshed, and reunion practice require publication citations before final claims.",
+      "support_rating": "moderate support",
+      "support_score": 2.13,
+      "guilt_structure": "Shared national guilt and providential judgment, especially in the Second Inaugural.",
+      "endpoint": "Reunion, democratic survival, reconciliation, and renewal.",
+      "support_rating_path": "cases/lincoln/analysis/support-ratings.json",
+      "support_synthesis_path": "cases/lincoln/analysis/koenigsbergian-support-synthesis.json",
+      "claim_boundary": "Lincoln is comparison-ready only as a provisional pilot case; full-corpus review and reliability adjudication remain pending."
+    },
+    {
+      "case_id": "hitler",
+      "case_type": "genocidal-racial-state-violence",
+      "status": "pending-case-level-support-rating",
+      "support_rating": "pending",
+      "claim_boundary": "Do not infer comparison from Lincoln or from starter clusters before Hitler case-level scoring is complete."
+    },
+    {
+      "case_id": "napoleon",
+      "case_type": "imperial-war-mobilization",
+      "status": "pending-case-level-support-rating",
+      "support_rating": "pending",
+      "claim_boundary": "Do not infer comparison from Lincoln or from starter clusters before Napoleon case-level scoring is complete."
+    },
+    {
+      "case_id": "am-rev",
+      "case_type": "revolutionary-founding-violence",
+      "status": "pending-case-level-support-rating",
+      "support_rating": "pending",
+      "claim_boundary": "Do not infer comparison from Lincoln or from starter clusters before American Revolution case-level scoring is complete."
+    }
+  ],
+  "guardrails": [
+    "Structural comparison is not moral equivalence.",
+    "Similarity in metaphor form is not equivalence in political content, institutional setting, or historical outcome.",
+    "Enemy construction, endpoint, violence logic, and historical enactment matter centrally.",
+    "Each case remains historically contextualized and evidence-bound.",
+    "Comparator cases without support ratings remain pending, not inferred by analogy.",
+    "War, genocide, enslavement, colonial violence, and state terror require separate historical and moral description even when symbolic structures overlap."
+  ]
 }

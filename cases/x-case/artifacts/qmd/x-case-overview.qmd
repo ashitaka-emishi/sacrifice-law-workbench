@@ -2,4 +2,7 @@
 title: "X Case Overview"
 ---
 
-Draft x-case synthesis page.
+The x-case layer now has a comparative protocol, moral-equivalence guardrails,
+and a draft Lincoln-linked comparison row. Cross-case findings remain draft
+until every included case has case-level support ratings and historical
+alignment notes.

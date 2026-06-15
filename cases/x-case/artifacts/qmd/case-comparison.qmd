@@ -2,4 +2,13 @@
 title: "Case Comparison"
 ---
 
-Draft x-case synthesis page.
+## Draft Comparison Matrix
+
+| case_id | case_type | status | support_rating | endpoint | claim_boundary |
+| --- | --- | --- | --- | --- | --- |
+| lincoln | civil-war-preservation-and-reunion | draft-scored | moderate support | Reunion, democratic survival, reconciliation, and renewal. | Lincoln is comparison-ready only as a provisional pilot case; full-corpus review and reliability adjudication remain pending. |
+| hitler | genocidal-racial-state-violence | pending-case-level-support-rating | pending |  | Do not infer comparison from Lincoln or from starter clusters before Hitler case-level scoring is complete. |
+| napoleon | imperial-war-mobilization | pending-case-level-support-rating | pending |  | Do not infer comparison from Lincoln or from starter clusters before Napoleon case-level scoring is complete. |
+| am-rev | revolutionary-founding-violence | pending-case-level-support-rating | pending |  | Do not infer comparison from Lincoln or from starter clusters before American Revolution case-level scoring is complete. |
+
+Comparisons remain evidence-bound. Pending cases are not interpreted by analogy.

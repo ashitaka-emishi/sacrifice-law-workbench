@@ -691,6 +691,40 @@ class Validator:
                     if data.get(field) in (None, "", {}):
                         self.error(synthesis_path, f"missing `{field}`")
 
+    def validate_x_case_artifacts(self) -> None:
+        x_dir = ROOT / "cases" / "x-case"
+        protocol_path = x_dir / "protocol" / "comparative-analysis-protocol.json"
+        if protocol_path.exists():
+            data = read_json(protocol_path, {}) or {}
+            if not isinstance(data, dict):
+                self.error(protocol_path, "comparative protocol must be an object")
+            else:
+                dimensions = data.get("dimensions")
+                guardrails = data.get("guardrails")
+                if not isinstance(dimensions, list) or len(dimensions) < 4:
+                    self.error(protocol_path, "dimensions must contain comparative dimensions")
+                if not isinstance(guardrails, list) or len(guardrails) < 4:
+                    self.error(protocol_path, "guardrails must contain explicit comparison cautions")
+                guardrail_text = " ".join(str(item).lower() for item in guardrails or [])
+                for phrase in ["moral equivalence", "historically contextualized", "enemy construction"]:
+                    if phrase not in guardrail_text:
+                        self.error(protocol_path, f"guardrails missing `{phrase}` caution")
+
+        comparison_path = x_dir / "synthesis" / "case-comparison.json"
+        if comparison_path.exists():
+            data = read_json(comparison_path, {}) or {}
+            items = data.get("items") if isinstance(data, dict) else None
+            if not isinstance(items, list) or not items:
+                self.error(comparison_path, "items must be a non-empty array")
+            else:
+                for index, item in enumerate(items):
+                    if not isinstance(item, dict):
+                        self.error(comparison_path, f"items[{index}] must be an object")
+                        continue
+                    for field in ["case_id", "status", "support_rating", "claim_boundary"]:
+                        if item.get(field) in (None, ""):
+                            self.error(comparison_path, f"items[{index}] missing `{field}`")
+
     def validate_reliability_artifacts(
         self,
         case_id: str,
@@ -913,6 +947,8 @@ def main() -> int:
     validator.validate_controlled_vocabularies()
     for case_id in case_ids(args.case_id):
         validator.validate_case(case_id, strict=args.strict)
+    if args.case_id in (None, "x-case"):
+        validator.validate_x_case_artifacts()
 
     if validator.errors:
         for error in validator.errors:
