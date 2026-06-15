@@ -82,6 +82,16 @@ MIPVU_REQUIRED_RATIONALE = [
 
 MIPVU_REVIEW_STATUSES = {"pending", "needs_review", "reviewed", "accepted", "rejected"}
 
+CONTROLLED_VOCABULARY_SECTIONS = [
+    "source_domains",
+    "target_domains",
+    "rhetorical_functions",
+    "ideological_functions",
+    "semantic_shift_risk_values",
+    "claim_statuses",
+    "support_dimensions",
+]
+
 
 class Validator:
     def __init__(self) -> None:
@@ -100,6 +110,35 @@ class Validator:
                     json.loads(path.read_text(encoding="utf-8"))
                 except json.JSONDecodeError as exc:
                     self.error(path, f"JSON parse error: {exc}")
+
+    def validate_controlled_vocabularies(self) -> None:
+        path = ROOT / "config" / "controlled-vocabularies.json"
+        if not path.exists():
+            return
+        data = read_json(path, {}) or {}
+        if not isinstance(data, dict):
+            self.error(path, "controlled vocabularies must be an object")
+            return
+        for section in CONTROLLED_VOCABULARY_SECTIONS:
+            items = data.get(section)
+            if not isinstance(items, list) or not items:
+                self.error(path, f"`{section}` must be a non-empty array")
+                continue
+            seen: set[str] = set()
+            for index, item in enumerate(items):
+                if not isinstance(item, dict):
+                    self.error(path, f"{section}[{index}] must be an object")
+                    continue
+                vocab_id = str(item.get("id") or "")
+                label = str(item.get("label") or "")
+                if not vocab_id:
+                    self.error(path, f"{section}[{index}] missing `id`")
+                    continue
+                if vocab_id in seen:
+                    self.error(path, f"{section}: duplicate id `{vocab_id}`")
+                seen.add(vocab_id)
+                if not label:
+                    self.error(path, f"{section}.{vocab_id}: missing `label`")
 
     def validate_manifest(self, case_id: str) -> None:
         path = case_dir(case_id) / "metadata" / "document-manifest.json"
@@ -417,6 +456,7 @@ def main() -> int:
 
     validator = Validator()
     validator.validate_json_parseability()
+    validator.validate_controlled_vocabularies()
     for case_id in case_ids(args.case_id):
         validator.validate_case(case_id, strict=args.strict)
 
