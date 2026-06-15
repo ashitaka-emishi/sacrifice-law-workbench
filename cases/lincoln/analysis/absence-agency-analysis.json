@@ -1,0 +1,110 @@
+{
+  "version": "1.0",
+  "case_id": "lincoln",
+  "generated_at": "2026-06-15T09:49:38",
+  "status": "draft",
+  "method_note": "Absence rows state what would count as presence, what appears muted, and which CMT evidence motivates the review question.",
+  "matrix": [
+    {
+      "absence_id": "lincoln-absence-001",
+      "cluster_id": "lincoln-08-sacrificial-death-gift",
+      "metaphor_system": "Soldier death as sacrifice / gift",
+      "expected_presence": "Actual dead and wounded bodies, families, and material violence implied by battlefield sacrifice.",
+      "possible_absence": "Physical suffering and bodily destruction are compressed into solemn offering and devotion.",
+      "agents": [
+        "honored dead",
+        "living citizens"
+      ],
+      "patients": [
+        "dead soldiers",
+        "bereaved families"
+      ],
+      "beneficiaries": [
+        "nation",
+        "democratic government",
+        "freedom"
+      ],
+      "sacrificial_subjects": [
+        "Union soldiers"
+      ],
+      "excluded_agents": [
+        "Confederate soldiers as subjects",
+        "civilian casualties"
+      ],
+      "displacement_mechanism": "Bodily loss is displaced into national obligation and cemetery consecration.",
+      "evidence_mapping_ids": [
+        "lincoln-cmt-002",
+        "lincoln-cmt-004"
+      ],
+      "claim_boundary": "Systematic absence candidate; requires fuller corpus review before becoming a case-level finding."
+    },
+    {
+      "absence_id": "lincoln-absence-002",
+      "cluster_id": "lincoln-06-providence-theodicy",
+      "metaphor_system": "Providential judgment and moral accounting",
+      "expected_presence": "Named enslaved people, enslavers, policy mechanisms, military actors, and Black political agency.",
+      "possible_absence": "Agency is partly shifted from human institutions into divine judgment and shared national guilt.",
+      "agents": [
+        "God",
+        "both parties",
+        "nation"
+      ],
+      "patients": [
+        "bondsman",
+        "war dead"
+      ],
+      "beneficiaries": [
+        "reconciled nation",
+        "freedom as moral horizon"
+      ],
+      "sacrificial_subjects": [
+        "enslaved people",
+        "soldiers"
+      ],
+      "excluded_agents": [
+        "Black soldiers and activists",
+        "specific enslavers",
+        "military perpetrators"
+      ],
+      "displacement_mechanism": "Providential grammar can widen guilt but also blur differentiated human agency.",
+      "evidence_mapping_ids": [
+        "lincoln-cmt-007",
+        "lincoln-cmt-008",
+        "lincoln-cmt-009"
+      ],
+      "claim_boundary": "Interpretive caution, not a claim that Lincoln intentionally suppressed agency."
+    },
+    {
+      "absence_id": "lincoln-absence-003",
+      "cluster_id": "lincoln-01-body-organism",
+      "metaphor_system": "Nation or government as living organism",
+      "expected_presence": "Specific political antagonists, social conflicts, and institutional choices that threaten national life.",
+      "possible_absence": "The body-politic frame can make political conflict appear as life/death pressure on the collective body.",
+      "agents": [
+        "we",
+        "citizens"
+      ],
+      "patients": [
+        "nation",
+        "government of the people"
+      ],
+      "beneficiaries": [
+        "republic",
+        "democratic government"
+      ],
+      "sacrificial_subjects": [
+        "citizens asked to preserve the polity"
+      ],
+      "excluded_agents": [
+        "named opponents",
+        "excluded populations outside the citizen 'we'"
+      ],
+      "displacement_mechanism": "Conflict is condensed into organism survival rather than social plurality.",
+      "evidence_mapping_ids": [
+        "lincoln-cmt-001",
+        "lincoln-cmt-006"
+      ],
+      "claim_boundary": "Useful for rhetorical analysis; not by itself evidence of coercive policy."
+    }
+  ]
+}

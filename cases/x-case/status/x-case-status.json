@@ -1,7 +1,7 @@
 {
   "case_id": "x-case",
-  "status": "draft",
-  "current_stage": "annotation-dependent-synthesis",
-  "updated": "2026-06-14",
-  "notes": "Cross-case synthesis artifacts and validation scaffolds exist, but evidentiary findings remain draft until case annotations are present."
+  "status": "comparative-protocol-draft",
+  "current_stage": "comparative-guardrails-defined",
+  "updated": "2026-06-15",
+  "notes": "Comparative protocol and moral-equivalence guardrails are defined. Lincoln has a draft support row; other case comparisons remain pending case-level support ratings."
 }

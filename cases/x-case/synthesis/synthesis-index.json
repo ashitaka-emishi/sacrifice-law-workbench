@@ -1,4 +1,17 @@
 {
+  "version": "1.0",
+  "case_id": "x-case",
+  "generated_at": "2026-06-15T09:54:36",
   "status": "draft",
-  "items": []
+  "artifacts": [
+    "protocol/comparative-analysis-protocol.json",
+    "protocol/comparative-analysis-protocol.md",
+    "synthesis/case-comparison.json",
+    "synthesis/war-genocide-distinction.json",
+    "synthesis/sacrifice-law-findings.json"
+  ],
+  "dependencies": [
+    "cases/lincoln/analysis/support-ratings.json",
+    "cases/lincoln/analysis/historical-enactment-alignment.json"
+  ]
 }

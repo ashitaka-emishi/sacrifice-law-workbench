@@ -482,7 +482,17 @@ class Validator:
                 self.validate_instance(path, case_id, inst, container_sentence_id, sentence_ids, mipvu_lookup)
 
     def validate_concordance_and_analysis(self, case_id: str) -> None:
-        for rel_path in ["analysis/concordance.json", "analysis/analysis.json", "analysis/corpus-analysis.json"]:
+        for rel_path in [
+            "analysis/concordance.json",
+            "analysis/analysis.json",
+            "analysis/corpus-analysis.json",
+            "analysis/critical-metaphor-analysis.json",
+            "analysis/rhetorical-genre-analysis.json",
+            "analysis/absence-agency-analysis.json",
+            "analysis/historical-enactment-alignment.json",
+            "analysis/support-ratings.json",
+            "analysis/koenigsbergian-support-synthesis.json",
+        ]:
             path = case_dir(case_id) / rel_path
             if not path.exists():
                 continue
@@ -494,6 +504,226 @@ class Validator:
                 self.error(path, f"case_id must be `{case_id}`")
             if data.get("status") not in {"stub", "complete", "ready", "error", "draft"}:
                 self.error(path, "status has unexpected value")
+
+    def validate_mapping_id_list(
+        self,
+        path: Path,
+        owner: str,
+        values: Any,
+        valid_mapping_ids: set[str],
+    ) -> None:
+        if not isinstance(values, list) or not values:
+            self.error(path, f"{owner}: mapping ID list must be non-empty")
+            return
+        for mapping_id in values:
+            if not isinstance(mapping_id, str) or not mapping_id:
+                self.error(path, f"{owner}: mapping ID entries must be strings")
+            elif mapping_id not in valid_mapping_ids:
+                self.error(path, f"{owner}: mapping_id `{mapping_id}` not found")
+
+    def validate_interpretive_artifacts(self, case_id: str, valid_mapping_ids: set[str]) -> None:
+        analysis_dir = case_dir(case_id) / "analysis"
+
+        critical_path = analysis_dir / "critical-metaphor-analysis.json"
+        if critical_path.exists():
+            data = read_json(critical_path, {}) or {}
+            profiles = data.get("cluster_profiles") if isinstance(data, dict) else None
+            if not isinstance(profiles, list) or not profiles:
+                self.error(critical_path, "cluster_profiles must be a non-empty array")
+            else:
+                for index, profile in enumerate(profiles):
+                    if not isinstance(profile, dict):
+                        self.error(critical_path, f"cluster_profiles[{index}] must be an object")
+                        continue
+                    owner = str(profile.get("cluster_id") or f"cluster_profiles[{index}]")
+                    self.validate_mapping_id_list(
+                        critical_path, owner, profile.get("mapping_ids"), valid_mapping_ids
+                    )
+                    for field in [
+                        "persuasive_function",
+                        "rival_readings",
+                        "negative_cases",
+                        "relation_to_koenigsbergian_analysis",
+                    ]:
+                        if profile.get(field) in (None, "", []):
+                            self.error(critical_path, f"{owner}: missing `{field}`")
+
+        rhetorical_path = analysis_dir / "rhetorical-genre-analysis.json"
+        if rhetorical_path.exists():
+            data = read_json(rhetorical_path, {}) or {}
+            contexts = data.get("contexts") if isinstance(data, dict) else None
+            if not isinstance(contexts, list) or not contexts:
+                self.error(rhetorical_path, "contexts must be a non-empty array")
+            else:
+                for index, context in enumerate(contexts):
+                    if not isinstance(context, dict):
+                        self.error(rhetorical_path, f"contexts[{index}] must be an object")
+                        continue
+                    mapping_id = context.get("mapping_id")
+                    if mapping_id not in valid_mapping_ids:
+                        self.error(rhetorical_path, f"contexts[{index}]: mapping_id `{mapping_id}` not found")
+                    for field in ["audience", "occasion", "genre", "rhetorical_action", "agency_structure"]:
+                        if context.get(field) in (None, "", {}):
+                            self.error(rhetorical_path, f"{mapping_id or index}: missing `{field}`")
+
+        absence_path = analysis_dir / "absence-agency-analysis.json"
+        if absence_path.exists():
+            data = read_json(absence_path, {}) or {}
+            matrix = data.get("matrix") if isinstance(data, dict) else None
+            if not isinstance(matrix, list) or not matrix:
+                self.error(absence_path, "matrix must be a non-empty array")
+            else:
+                for index, row in enumerate(matrix):
+                    if not isinstance(row, dict):
+                        self.error(absence_path, f"matrix[{index}] must be an object")
+                        continue
+                    owner = str(row.get("absence_id") or f"matrix[{index}]")
+                    self.validate_mapping_id_list(
+                        absence_path, owner, row.get("evidence_mapping_ids"), valid_mapping_ids
+                    )
+                    for field in ["expected_presence", "possible_absence", "displacement_mechanism", "claim_boundary"]:
+                        if row.get(field) in (None, ""):
+                            self.error(absence_path, f"{owner}: missing `{field}`")
+
+    def validate_support_artifacts(self, case_id: str, valid_mapping_ids: set[str]) -> None:
+        analysis_dir = case_dir(case_id) / "analysis"
+        historical_note_ids: set[str] = set()
+
+        historical_path = analysis_dir / "historical-enactment-alignment.json"
+        if historical_path.exists():
+            data = read_json(historical_path, {}) or {}
+            notes = data.get("notes") if isinstance(data, dict) else None
+            if not isinstance(notes, list) or not notes:
+                self.error(historical_path, "notes must be a non-empty array")
+            else:
+                for index, note in enumerate(notes):
+                    if not isinstance(note, dict):
+                        self.error(historical_path, f"notes[{index}] must be an object")
+                        continue
+                    note_id = str(note.get("note_id") or "")
+                    if not note_id:
+                        self.error(historical_path, f"notes[{index}] missing note_id")
+                        continue
+                    historical_note_ids.add(note_id)
+                    self.validate_mapping_id_list(
+                        historical_path, note_id, note.get("linked_mapping_ids"), valid_mapping_ids
+                    )
+                    for field in ["topic", "summary", "corroboration_status", "claim_boundary"]:
+                        if note.get(field) in (None, ""):
+                            self.error(historical_path, f"{note_id}: missing `{field}`")
+
+        ratings_path = analysis_dir / "support-ratings.json"
+        if ratings_path.exists():
+            data = read_json(ratings_path, {}) or {}
+            if not isinstance(data, dict):
+                self.error(ratings_path, "support ratings must be an object")
+            else:
+                for container_name in ["document_ratings"]:
+                    ratings = data.get(container_name)
+                    if not isinstance(ratings, list) or not ratings:
+                        self.error(ratings_path, f"{container_name} must be a non-empty array")
+                        continue
+                    for index, rating in enumerate(ratings):
+                        if not isinstance(rating, dict):
+                            self.error(ratings_path, f"{container_name}[{index}] must be an object")
+                            continue
+                        score_id = str(rating.get("score_id") or f"{container_name}[{index}]")
+                        scores = rating.get("scores")
+                        if not isinstance(scores, dict):
+                            self.error(ratings_path, f"{score_id}: missing scores object")
+                        else:
+                            for dimension in [
+                                "sacred_object",
+                                "sacrificial_body",
+                                "enemy_as_death",
+                                "historical_enactment_alignment",
+                            ]:
+                                value = scores.get(dimension)
+                                if not isinstance(value, (int, float)) or value < 0 or value > 4:
+                                    self.error(ratings_path, f"{score_id}: invalid `{dimension}` score")
+                        self.validate_mapping_id_list(
+                            ratings_path, score_id, rating.get("mapping_ids"), valid_mapping_ids
+                        )
+                        note_ids = rating.get("historical_note_ids", [])
+                        if not isinstance(note_ids, list) or not note_ids:
+                            self.error(ratings_path, f"{score_id}: historical_note_ids must be non-empty")
+                        for note_id in note_ids:
+                            if historical_note_ids and note_id not in historical_note_ids:
+                                self.error(ratings_path, f"{score_id}: historical_note_id `{note_id}` not found")
+
+                case_scores = data.get("case_scores")
+                if not isinstance(case_scores, dict):
+                    self.error(ratings_path, "missing case_scores object")
+                else:
+                    for dimension, value in case_scores.items():
+                        if not isinstance(value, (int, float)) or value < 0 or value > 4:
+                            self.error(ratings_path, f"case_scores.{dimension} must be in [0, 4]")
+                overall = data.get("overall_support")
+                if not isinstance(overall, dict) or "score" not in overall or "final_category" not in overall:
+                    self.error(ratings_path, "missing overall_support score/category")
+
+        csv_path = analysis_dir / "support-ratings.csv"
+        if csv_path.exists():
+            try:
+                with csv_path.open(newline="", encoding="utf-8") as handle:
+                    reader = csv.DictReader(handle)
+                    required = {
+                        "score_id",
+                        "level",
+                        "sacred_object",
+                        "sacrificial_body",
+                        "enemy_as_death",
+                        "historical_enactment_alignment",
+                    }
+                    missing = sorted(required - set(reader.fieldnames or []))
+                    if missing:
+                        self.error(csv_path, f"missing column(s): {', '.join(missing)}")
+            except csv.Error as exc:
+                self.error(csv_path, f"CSV parse error: {exc}")
+
+        synthesis_path = analysis_dir / "koenigsbergian-support-synthesis.json"
+        if synthesis_path.exists():
+            data = read_json(synthesis_path, {}) or {}
+            if not isinstance(data, dict):
+                self.error(synthesis_path, "synthesis must be an object")
+            else:
+                for field in ["support_summary", "support_statement", "claim_boundary"]:
+                    if data.get(field) in (None, "", {}):
+                        self.error(synthesis_path, f"missing `{field}`")
+
+    def validate_x_case_artifacts(self) -> None:
+        x_dir = ROOT / "cases" / "x-case"
+        protocol_path = x_dir / "protocol" / "comparative-analysis-protocol.json"
+        if protocol_path.exists():
+            data = read_json(protocol_path, {}) or {}
+            if not isinstance(data, dict):
+                self.error(protocol_path, "comparative protocol must be an object")
+            else:
+                dimensions = data.get("dimensions")
+                guardrails = data.get("guardrails")
+                if not isinstance(dimensions, list) or len(dimensions) < 4:
+                    self.error(protocol_path, "dimensions must contain comparative dimensions")
+                if not isinstance(guardrails, list) or len(guardrails) < 4:
+                    self.error(protocol_path, "guardrails must contain explicit comparison cautions")
+                guardrail_text = " ".join(str(item).lower() for item in guardrails or [])
+                for phrase in ["moral equivalence", "historically contextualized", "enemy construction"]:
+                    if phrase not in guardrail_text:
+                        self.error(protocol_path, f"guardrails missing `{phrase}` caution")
+
+        comparison_path = x_dir / "synthesis" / "case-comparison.json"
+        if comparison_path.exists():
+            data = read_json(comparison_path, {}) or {}
+            items = data.get("items") if isinstance(data, dict) else None
+            if not isinstance(items, list) or not items:
+                self.error(comparison_path, "items must be a non-empty array")
+            else:
+                for index, item in enumerate(items):
+                    if not isinstance(item, dict):
+                        self.error(comparison_path, f"items[{index}] must be an object")
+                        continue
+                    for field in ["case_id", "status", "support_rating", "claim_boundary"]:
+                        if item.get(field) in (None, ""):
+                            self.error(comparison_path, f"items[{index}] missing `{field}`")
 
     def validate_reliability_artifacts(
         self,
@@ -694,6 +924,14 @@ class Validator:
         mipvu_lookup = self.validate_mipvu(case_id, sentence_ids, strict=strict)
         self.validate_reliability_artifacts(case_id, sentence_ids, mipvu_lookup)
         self.validate_cmt_mappings(case_id, sentence_ids, mipvu_lookup)
+        cmt_data = read_json(cmt_mappings_path_for(case_id), {}) or {}
+        valid_mapping_ids = {
+            str(mapping.get("mapping_id"))
+            for mapping in iter_cmt_mappings(cmt_data)
+            if mapping.get("mapping_id")
+        }
+        self.validate_interpretive_artifacts(case_id, valid_mapping_ids)
+        self.validate_support_artifacts(case_id, valid_mapping_ids)
         self.validate_annotated(case_id, sentence_ids, mipvu_lookup)
         self.validate_concordance_and_analysis(case_id)
 
@@ -709,6 +947,8 @@ def main() -> int:
     validator.validate_controlled_vocabularies()
     for case_id in case_ids(args.case_id):
         validator.validate_case(case_id, strict=args.strict)
+    if args.case_id in (None, "x-case"):
+        validator.validate_x_case_artifacts()
 
     if validator.errors:
         for error in validator.errors:

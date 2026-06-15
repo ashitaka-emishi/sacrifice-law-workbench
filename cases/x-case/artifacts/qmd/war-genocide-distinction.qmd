@@ -2,4 +2,16 @@
 title: "War Genocide Distinction"
 ---
 
-Draft x-case synthesis page.
+## Guardrails
+
+- Structural comparison is not moral equivalence.
+- Similarity in metaphor form is not equivalence in political content, institutional setting, or historical outcome.
+- Enemy construction, endpoint, violence logic, and historical enactment matter centrally.
+- Each case remains historically contextualized and evidence-bound.
+- Comparator cases without support ratings remain pending, not inferred by analogy.
+- War, genocide, enslavement, colonial violence, and state terror require separate historical and moral description even when symbolic structures overlap.
+
+The comparison protocol distinguishes war preservation, imperial mobilization,
+revolutionary founding, and genocidal racial state violence by endpoint,
+enemy construction, violence logic, and historical enactment. Similar metaphor
+forms never establish moral equivalence.

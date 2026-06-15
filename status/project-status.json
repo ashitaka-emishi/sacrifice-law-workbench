@@ -10,5 +10,5 @@
     "hitler",
     "x-case"
   ],
-  "notes": "Four case corpora are rights-reviewed, acquired, normalized, segmented, verified, and JSON-valid. Lincoln now has a reviewed MIPVU pilot sample, defined reliability workflow, provisional CMT mappings, and draft corpus-assisted/diachronic analysis outputs. Full-corpus MIPVU review, reliability adjudication, and promotion of public findings remain before v1."
+  "notes": "Four case corpora are rights-reviewed, acquired, normalized, segmented, verified, and JSON-valid. Lincoln now has a reviewed MIPVU pilot sample, defined reliability workflow, provisional CMT mappings, corpus-assisted/diachronic outputs, interpretive analysis layers, historical-alignment notes, and draft support synthesis. The x-case layer has a comparative protocol and moral-equivalence guardrails. Full-corpus MIPVU review, reliability adjudication, comparator case support ratings, and promotion of public findings remain before v1."
 }

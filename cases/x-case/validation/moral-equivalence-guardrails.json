@@ -1,0 +1,19 @@
+{
+  "version": "1.0",
+  "case_id": "x-case",
+  "generated_at": "2026-06-15T09:54:36",
+  "status": "draft",
+  "guardrails": [
+    "Structural comparison is not moral equivalence.",
+    "Similarity in metaphor form is not equivalence in political content, institutional setting, or historical outcome.",
+    "Enemy construction, endpoint, violence logic, and historical enactment matter centrally.",
+    "Each case remains historically contextualized and evidence-bound.",
+    "Comparator cases without support ratings remain pending, not inferred by analogy.",
+    "War, genocide, enslavement, colonial violence, and state terror require separate historical and moral description even when symbolic structures overlap."
+  ],
+  "review_questions": [
+    "Does the comparison distinguish metaphor form from political content?",
+    "Does it distinguish war, genocide, and other violence forms by endpoint and historical enactment?",
+    "Does each case cite its own support ratings rather than borrowing another case's interpretation?"
+  ]
+}
