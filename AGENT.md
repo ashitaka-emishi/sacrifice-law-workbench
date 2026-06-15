@@ -169,3 +169,41 @@ When reporting work back to the user, include:
 - any generated artifacts changed as a result;
 - unresolved rights, source, validation, corroboration, support-scoring, or
   research-integrity risks.
+
+---
+
+## GitHub Issue Tracking
+
+Use the GitHub label `tracking` for issues that coordinate a set of dependent issues.
+
+Before closing any issue that belongs to a milestone, check for an open issue in the same milestone labeled `tracking`. If the closing issue appears in that tracking issue's checklist, dependency list, or status notes, update the tracker in the same pass.
+
+Tracking issues should contain the issue order, dependency notes, and milestone-level completion definition. If work is completed out of order or the dependency sequence changes, leave a short note on the tracking issue explaining the change.
+
+Current tracker: none
+
+---
+
+## SDLC Workflow
+
+Use the repo skill `.agents/skills/sdlc-workflow` for branch, pull request, review, merge, and issue-tracking workflows.
+
+Default branch naming:
+
+- `fix/<issue-number>-<short-slug>` for bug fixes and validation repairs
+- `feature/<issue-number>-<short-slug>` for new behavior or new outputs
+- `docs/<issue-number>-<short-slug>` for documentation-only work
+- `chore/<issue-number>-<short-slug>` for maintenance, cleanup, or repository mechanics
+
+Prefer one issue per branch and one branch per pull request. Keep pull requests draft until validation has run and the description includes issue context, scope, tests, and any known limitations.
+
+Always use squash merge for pull requests in this repository. Do not use merge commits or rebase merge unless the user explicitly overrides this rule for a specific PR.
+
+Before opening or marking a PR ready for review, run the smallest validation set that matches the change. For pipeline or publication work, the expected full gate is:
+
+1. `npm run status`
+2. `npm run pipeline`
+3. `npm run validate`
+4. `quarto render`
+
+When addressing review feedback, keep changes scoped to the requested fix unless the reviewer explicitly asks for broader cleanup. When merge or closure work finishes an issue in a milestone, update any open issue in the same milestone labeled `tracking`.

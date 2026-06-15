@@ -1,0 +1,4 @@
+interface:
+  display_name: "SDLC Workflow"
+  short_description: "Branch, PR, review, and merge workflow."
+  default_prompt: "Use $sdlc-workflow to prepare this issue-driven branch and pull request."
