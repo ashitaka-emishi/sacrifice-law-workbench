@@ -1,0 +1,726 @@
+{
+  "case_id": "am-rev",
+  "document_id": "am-rev-jefferson-declaration",
+  "meta": {
+    "document_id": "am-rev-jefferson-declaration",
+    "title": "Declaration of Independence",
+    "short_title": "Declaration",
+    "date": "1776-07-04",
+    "date_precision": "day",
+    "register": "political-declaration",
+    "authorship": "Thomas Jefferson / Continental Congress",
+    "source_url": "https://www.archives.gov/founding-docs/declaration-transcript",
+    "source_citation": "National Archives, Stone Engraving transcription of the Declaration of Independence",
+    "rights_status": "public-domain",
+    "expected_raw_path": "corpus/raw/am-rev-src-02-jefferson-declaration.txt",
+    "analytical_priority": "primary",
+    "case_id": "am-rev",
+    "raw_path": "corpus/raw/am-rev-src-02-jefferson-declaration.txt",
+    "pipeline_log": [
+      {
+        "stage": "normalize-texts",
+        "script": "scripts/normalize-texts.py",
+        "generated_at": "2026-06-13T20:41:16"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "section_id": "am-rev-jefferson-declaration_s01",
+      "section_label": "body",
+      "section_ordinal": 1,
+      "paragraphs": [
+        {
+          "paragraph_id": "am-rev-jefferson-declaration_s01_p01",
+          "paragraph_ordinal": 1,
+          "sentences": [
+            {
+              "sentence_id": "am-rev-jefferson-declaration_s01_p01_s01",
+              "sentence_ordinal": 1,
+              "text": "In Congress, July 4, 1776",
+              "word_offset_start": 0,
+              "word_offset_end": 5,
+              "char_offset_start": 0,
+              "char_offset_end": 25,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "am-rev-jefferson-declaration_s01_p02",
+          "paragraph_ordinal": 2,
+          "sentences": [
+            {
+              "sentence_id": "am-rev-jefferson-declaration_s01_p02_s01",
+              "sentence_ordinal": 1,
+              "text": "The unanimous Declaration of the thirteen united States of America, When in the Course of human events, it becomes necessary for one people to dissolve the political bands which have connected them with another, and to assume among the powers of the earth, the separate and equal station to which the Laws of Nature and of Nature's God entitle them, a decent respect to the opinions of mankind requires that they should declare the causes which impel them to the separation.",
+              "word_offset_start": 5,
+              "word_offset_end": 86,
+              "char_offset_start": 27,
+              "char_offset_end": 501,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "am-rev-jefferson-declaration_s01_p03",
+          "paragraph_ordinal": 3,
+          "sentences": [
+            {
+              "sentence_id": "am-rev-jefferson-declaration_s01_p03_s01",
+              "sentence_ordinal": 1,
+              "text": "We hold these truths to be self-evident, that all men are created equal, that they are endowed by their Creator with certain unalienable Rights, that among these are Life, Liberty and the pursuit of Happiness.--That to secure these rights, Governments are instituted among Men, deriving their just powers from the consent of the governed, --That whenever any Form of Government becomes destructive of these ends, it is the Right of the People to alter or to abolish it, and to institute new Government, laying its foundation on such principles and organizing its powers in such form, as to them shall seem most likely to effect their Safety and Happiness.",
+              "word_offset_start": 86,
+              "word_offset_end": 195,
+              "char_offset_start": 503,
+              "char_offset_end": 1158,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "am-rev-jefferson-declaration_s01_p03_s02",
+              "sentence_ordinal": 2,
+              "text": "Prudence, indeed, will dictate that Governments long established should not be changed for light and transient causes; and accordingly all experience hath shewn, that mankind are more disposed to suffer, while evils are sufferable, than to right themselves by abolishing the forms to which they are accustomed.",
+              "word_offset_start": 195,
+              "word_offset_end": 242,
+              "char_offset_start": 1159,
+              "char_offset_end": 1469,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "am-rev-jefferson-declaration_s01_p03_s03",
+              "sentence_ordinal": 3,
+              "text": "But when a long train of abuses and usurpations, pursuing invariably the same Object evinces a design to reduce them under absolute Despotism, it is their right, it is their duty, to throw off such Government, and to provide new Guards for their future security.--Such has been the patient sufferance of these Colonies; and such is now the necessity which constrains them to alter their former Systems of Government.",
+              "word_offset_start": 242,
+              "word_offset_end": 311,
+              "char_offset_start": 1470,
+              "char_offset_end": 1886,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "am-rev-jefferson-declaration_s01_p03_s04",
+              "sentence_ordinal": 4,
+              "text": "The history of the present King of Great Britain is a history of repeated injuries and usurpations, all having in direct object the establishment of an absolute Tyranny over these States.",
+              "word_offset_start": 311,
+              "word_offset_end": 342,
+              "char_offset_start": 1887,
+              "char_offset_end": 2074,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "am-rev-jefferson-declaration_s01_p03_s05",
+              "sentence_ordinal": 5,
+              "text": "To prove this, let Facts be submitted to a candid world.",
+              "word_offset_start": 342,
+              "word_offset_end": 353,
+              "char_offset_start": 2075,
+              "char_offset_end": 2131,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "am-rev-jefferson-declaration_s01_p04",
+          "paragraph_ordinal": 4,
+          "sentences": [
+            {
+              "sentence_id": "am-rev-jefferson-declaration_s01_p04_s01",
+              "sentence_ordinal": 1,
+              "text": "He has refused his Assent to Laws, the most wholesome and necessary for the public good.",
+              "word_offset_start": 353,
+              "word_offset_end": 369,
+              "char_offset_start": 2135,
+              "char_offset_end": 2223,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "am-rev-jefferson-declaration_s01_p05",
+          "paragraph_ordinal": 5,
+          "sentences": [
+            {
+              "sentence_id": "am-rev-jefferson-declaration_s01_p05_s01",
+              "sentence_ordinal": 1,
+              "text": "He has forbidden his Governors to pass Laws of immediate and pressing importance, unless suspended in their operation till his Assent should be obtained; and when so suspended, he has utterly neglected to attend to them.",
+              "word_offset_start": 369,
+              "word_offset_end": 405,
+              "char_offset_start": 2227,
+              "char_offset_end": 2447,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "am-rev-jefferson-declaration_s01_p06",
+          "paragraph_ordinal": 6,
+          "sentences": [
+            {
+              "sentence_id": "am-rev-jefferson-declaration_s01_p06_s01",
+              "sentence_ordinal": 1,
+              "text": "He has refused to pass other Laws for the accommodation of large districts of people, unless those people would relinquish the right of Representation in the Legislature, a right inestimable to them and formidable to tyrants only.",
+              "word_offset_start": 405,
+              "word_offset_end": 442,
+              "char_offset_start": 2451,
+              "char_offset_end": 2681,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "am-rev-jefferson-declaration_s01_p07",
+          "paragraph_ordinal": 7,
+          "sentences": [
+            {
+              "sentence_id": "am-rev-jefferson-declaration_s01_p07_s01",
+              "sentence_ordinal": 1,
+              "text": "He has called together legislative bodies at places unusual, uncomfortable, and distant from the depository of their public Records, for the sole purpose of fatiguing them into compliance with his measures.",
+              "word_offset_start": 442,
+              "word_offset_end": 473,
+              "char_offset_start": 2685,
+              "char_offset_end": 2891,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "am-rev-jefferson-declaration_s01_p08",
+          "paragraph_ordinal": 8,
+          "sentences": [
+            {
+              "sentence_id": "am-rev-jefferson-declaration_s01_p08_s01",
+              "sentence_ordinal": 1,
+              "text": "He has dissolved Representative Houses repeatedly, for opposing with manly firmness his invasions on the rights of the people.",
+              "word_offset_start": 473,
+              "word_offset_end": 492,
+              "char_offset_start": 2895,
+              "char_offset_end": 3021,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "am-rev-jefferson-declaration_s01_p09",
+          "paragraph_ordinal": 9,
+          "sentences": [
+            {
+              "sentence_id": "am-rev-jefferson-declaration_s01_p09_s01",
+              "sentence_ordinal": 1,
+              "text": "He has refused for a long time, after such dissolutions, to cause others to be elected; whereby the Legislative powers, incapable of Annihilation, have returned to the People at large for their exercise; the State remaining in the mean time exposed to all the dangers of invasion from without, and convulsions within.",
+              "word_offset_start": 492,
+              "word_offset_end": 544,
+              "char_offset_start": 3025,
+              "char_offset_end": 3342,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "am-rev-jefferson-declaration_s01_p10",
+          "paragraph_ordinal": 10,
+          "sentences": [
+            {
+              "sentence_id": "am-rev-jefferson-declaration_s01_p10_s01",
+              "sentence_ordinal": 1,
+              "text": "He has endeavoured to prevent the population of these States; for that purpose obstructing the Laws for Naturalization of Foreigners; refusing to pass others to encourage their migrations hither, and raising the conditions of new Appropriations of Lands.",
+              "word_offset_start": 544,
+              "word_offset_end": 582,
+              "char_offset_start": 3346,
+              "char_offset_end": 3600,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "am-rev-jefferson-declaration_s01_p11",
+          "paragraph_ordinal": 11,
+          "sentences": [
+            {
+              "sentence_id": "am-rev-jefferson-declaration_s01_p11_s01",
+              "sentence_ordinal": 1,
+              "text": "He has obstructed the Administration of Justice, by refusing his Assent to Laws for establishing Judiciary powers.",
+              "word_offset_start": 582,
+              "word_offset_end": 599,
+              "char_offset_start": 3604,
+              "char_offset_end": 3718,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "am-rev-jefferson-declaration_s01_p12",
+          "paragraph_ordinal": 12,
+          "sentences": [
+            {
+              "sentence_id": "am-rev-jefferson-declaration_s01_p12_s01",
+              "sentence_ordinal": 1,
+              "text": "He has made Judges dependent on his Will alone, for the tenure of their offices, and the amount and payment of their salaries.",
+              "word_offset_start": 599,
+              "word_offset_end": 622,
+              "char_offset_start": 3722,
+              "char_offset_end": 3848,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "am-rev-jefferson-declaration_s01_p13",
+          "paragraph_ordinal": 13,
+          "sentences": [
+            {
+              "sentence_id": "am-rev-jefferson-declaration_s01_p13_s01",
+              "sentence_ordinal": 1,
+              "text": "He has erected a multitude of New Offices, and sent hither swarms of Officers to harrass our people, and eat out their substance.",
+              "word_offset_start": 622,
+              "word_offset_end": 645,
+              "char_offset_start": 3852,
+              "char_offset_end": 3981,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "am-rev-jefferson-declaration_s01_p14",
+          "paragraph_ordinal": 14,
+          "sentences": [
+            {
+              "sentence_id": "am-rev-jefferson-declaration_s01_p14_s01",
+              "sentence_ordinal": 1,
+              "text": "He has kept among us, in times of peace, Standing Armies without the Consent of our legislatures.",
+              "word_offset_start": 645,
+              "word_offset_end": 662,
+              "char_offset_start": 3985,
+              "char_offset_end": 4082,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "am-rev-jefferson-declaration_s01_p15",
+          "paragraph_ordinal": 15,
+          "sentences": [
+            {
+              "sentence_id": "am-rev-jefferson-declaration_s01_p15_s01",
+              "sentence_ordinal": 1,
+              "text": "He has affected to render the Military independent of and superior to the Civil power.",
+              "word_offset_start": 662,
+              "word_offset_end": 677,
+              "char_offset_start": 4086,
+              "char_offset_end": 4172,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "am-rev-jefferson-declaration_s01_p16",
+          "paragraph_ordinal": 16,
+          "sentences": [
+            {
+              "sentence_id": "am-rev-jefferson-declaration_s01_p16_s01",
+              "sentence_ordinal": 1,
+              "text": "He has combined with others to subject us to a jurisdiction foreign to our constitution, and unacknowledged by our laws; giving his Assent to their Acts of pretended Legislation:",
+              "word_offset_start": 677,
+              "word_offset_end": 706,
+              "char_offset_start": 4176,
+              "char_offset_end": 4354,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "am-rev-jefferson-declaration_s01_p17",
+          "paragraph_ordinal": 17,
+          "sentences": [
+            {
+              "sentence_id": "am-rev-jefferson-declaration_s01_p17_s01",
+              "sentence_ordinal": 1,
+              "text": "For Quartering large bodies of armed troops among us:",
+              "word_offset_start": 706,
+              "word_offset_end": 715,
+              "char_offset_start": 4358,
+              "char_offset_end": 4411,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "am-rev-jefferson-declaration_s01_p18",
+          "paragraph_ordinal": 18,
+          "sentences": [
+            {
+              "sentence_id": "am-rev-jefferson-declaration_s01_p18_s01",
+              "sentence_ordinal": 1,
+              "text": "For protecting them, by a mock Trial, from punishment for any Murders which they should commit on the Inhabitants of these States:",
+              "word_offset_start": 715,
+              "word_offset_end": 737,
+              "char_offset_start": 4415,
+              "char_offset_end": 4545,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "am-rev-jefferson-declaration_s01_p19",
+          "paragraph_ordinal": 19,
+          "sentences": [
+            {
+              "sentence_id": "am-rev-jefferson-declaration_s01_p19_s01",
+              "sentence_ordinal": 1,
+              "text": "For cutting off our Trade with all parts of the world:",
+              "word_offset_start": 737,
+              "word_offset_end": 748,
+              "char_offset_start": 4549,
+              "char_offset_end": 4603,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "am-rev-jefferson-declaration_s01_p20",
+          "paragraph_ordinal": 20,
+          "sentences": [
+            {
+              "sentence_id": "am-rev-jefferson-declaration_s01_p20_s01",
+              "sentence_ordinal": 1,
+              "text": "For imposing Taxes on us without our Consent:",
+              "word_offset_start": 748,
+              "word_offset_end": 756,
+              "char_offset_start": 4607,
+              "char_offset_end": 4652,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "am-rev-jefferson-declaration_s01_p21",
+          "paragraph_ordinal": 21,
+          "sentences": [
+            {
+              "sentence_id": "am-rev-jefferson-declaration_s01_p21_s01",
+              "sentence_ordinal": 1,
+              "text": "For depriving us in many cases, of the benefits of Trial by Jury:",
+              "word_offset_start": 756,
+              "word_offset_end": 769,
+              "char_offset_start": 4656,
+              "char_offset_end": 4721,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "am-rev-jefferson-declaration_s01_p22",
+          "paragraph_ordinal": 22,
+          "sentences": [
+            {
+              "sentence_id": "am-rev-jefferson-declaration_s01_p22_s01",
+              "sentence_ordinal": 1,
+              "text": "For transporting us beyond Seas to be tried for pretended offences:",
+              "word_offset_start": 769,
+              "word_offset_end": 780,
+              "char_offset_start": 4725,
+              "char_offset_end": 4792,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "am-rev-jefferson-declaration_s01_p23",
+          "paragraph_ordinal": 23,
+          "sentences": [
+            {
+              "sentence_id": "am-rev-jefferson-declaration_s01_p23_s01",
+              "sentence_ordinal": 1,
+              "text": "For abolishing the free System of English Laws in a neighbouring Province, establishing therein an Arbitrary government, and enlarging its Boundaries so as to render it at once an example and fit instrument for introducing the same absolute rule into these Colonies:",
+              "word_offset_start": 780,
+              "word_offset_end": 822,
+              "char_offset_start": 4796,
+              "char_offset_end": 5062,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "am-rev-jefferson-declaration_s01_p24",
+          "paragraph_ordinal": 24,
+          "sentences": [
+            {
+              "sentence_id": "am-rev-jefferson-declaration_s01_p24_s01",
+              "sentence_ordinal": 1,
+              "text": "For taking away our Charters, abolishing our most valuable Laws, and altering fundamentally the Forms of our Governments:",
+              "word_offset_start": 822,
+              "word_offset_end": 840,
+              "char_offset_start": 5066,
+              "char_offset_end": 5187,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "am-rev-jefferson-declaration_s01_p25",
+          "paragraph_ordinal": 25,
+          "sentences": [
+            {
+              "sentence_id": "am-rev-jefferson-declaration_s01_p25_s01",
+              "sentence_ordinal": 1,
+              "text": "For suspending our own Legislatures, and declaring themselves invested with power to legislate for us in all cases whatsoever.",
+              "word_offset_start": 840,
+              "word_offset_end": 859,
+              "char_offset_start": 5191,
+              "char_offset_end": 5317,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "am-rev-jefferson-declaration_s01_p26",
+          "paragraph_ordinal": 26,
+          "sentences": [
+            {
+              "sentence_id": "am-rev-jefferson-declaration_s01_p26_s01",
+              "sentence_ordinal": 1,
+              "text": "He has abdicated Government here, by declaring us out of his Protection and waging War against us.",
+              "word_offset_start": 859,
+              "word_offset_end": 876,
+              "char_offset_start": 5321,
+              "char_offset_end": 5419,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "am-rev-jefferson-declaration_s01_p27",
+          "paragraph_ordinal": 27,
+          "sentences": [
+            {
+              "sentence_id": "am-rev-jefferson-declaration_s01_p27_s01",
+              "sentence_ordinal": 1,
+              "text": "He has plundered our seas, ravaged our Coasts, burnt our towns, and destroyed the lives of our people.",
+              "word_offset_start": 876,
+              "word_offset_end": 894,
+              "char_offset_start": 5423,
+              "char_offset_end": 5525,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "am-rev-jefferson-declaration_s01_p28",
+          "paragraph_ordinal": 28,
+          "sentences": [
+            {
+              "sentence_id": "am-rev-jefferson-declaration_s01_p28_s01",
+              "sentence_ordinal": 1,
+              "text": "He is at this time transporting large Armies of foreign Mercenaries to compleat the works of death, desolation and tyranny, already begun with circumstances of Cruelty &amp; perfidy scarcely paralleled in the most barbarous ages, and totally unworthy the Head of a civilized nation.",
+              "word_offset_start": 894,
+              "word_offset_end": 938,
+              "char_offset_start": 5529,
+              "char_offset_end": 5811,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "am-rev-jefferson-declaration_s01_p29",
+          "paragraph_ordinal": 29,
+          "sentences": [
+            {
+              "sentence_id": "am-rev-jefferson-declaration_s01_p29_s01",
+              "sentence_ordinal": 1,
+              "text": "He has constrained our fellow Citizens taken Captive on the high Seas to bear Arms against their Country, to become the executioners of their friends and Brethren, or to fall themselves by their Hands.",
+              "word_offset_start": 938,
+              "word_offset_end": 972,
+              "char_offset_start": 5815,
+              "char_offset_end": 6016,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "am-rev-jefferson-declaration_s01_p30",
+          "paragraph_ordinal": 30,
+          "sentences": [
+            {
+              "sentence_id": "am-rev-jefferson-declaration_s01_p30_s01",
+              "sentence_ordinal": 1,
+              "text": "He has excited domestic insurrections amongst us, and has endeavoured to bring on the inhabitants of our frontiers, the merciless Indian Savages, whose known rule of warfare, is an undistinguished destruction of all ages, sexes and conditions.",
+              "word_offset_start": 972,
+              "word_offset_end": 1009,
+              "char_offset_start": 6020,
+              "char_offset_end": 6263,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "am-rev-jefferson-declaration_s01_p31",
+          "paragraph_ordinal": 31,
+          "sentences": [
+            {
+              "sentence_id": "am-rev-jefferson-declaration_s01_p31_s01",
+              "sentence_ordinal": 1,
+              "text": "In every stage of these Oppressions We have Petitioned for Redress in the most humble terms: Our repeated Petitions have been answered only by repeated injury.",
+              "word_offset_start": 1009,
+              "word_offset_end": 1035,
+              "char_offset_start": 6265,
+              "char_offset_end": 6424,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "am-rev-jefferson-declaration_s01_p31_s02",
+              "sentence_ordinal": 2,
+              "text": "A Prince, whose character is thus marked by every act which may define a Tyrant, is unfit to be the ruler of a free people.",
+              "word_offset_start": 1035,
+              "word_offset_end": 1060,
+              "char_offset_start": 6425,
+              "char_offset_end": 6548,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "am-rev-jefferson-declaration_s01_p32",
+          "paragraph_ordinal": 32,
+          "sentences": [
+            {
+              "sentence_id": "am-rev-jefferson-declaration_s01_p32_s01",
+              "sentence_ordinal": 1,
+              "text": "Nor have We been wanting in attentions to our Brittish brethren.",
+              "word_offset_start": 1060,
+              "word_offset_end": 1071,
+              "char_offset_start": 6550,
+              "char_offset_end": 6614,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "am-rev-jefferson-declaration_s01_p32_s02",
+              "sentence_ordinal": 2,
+              "text": "We have warned them from time to time of attempts by their legislature to extend an unwarrantable jurisdiction over us.",
+              "word_offset_start": 1071,
+              "word_offset_end": 1091,
+              "char_offset_start": 6615,
+              "char_offset_end": 6734,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "am-rev-jefferson-declaration_s01_p32_s03",
+              "sentence_ordinal": 3,
+              "text": "We have reminded them of the circumstances of our emigration and settlement here.",
+              "word_offset_start": 1091,
+              "word_offset_end": 1104,
+              "char_offset_start": 6735,
+              "char_offset_end": 6816,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "am-rev-jefferson-declaration_s01_p32_s04",
+              "sentence_ordinal": 4,
+              "text": "We have appealed to their native justice and magnanimity, and we have conjured them by the ties of our common kindred to disavow these usurpations, which, would inevitably interrupt our connections and correspondence.",
+              "word_offset_start": 1104,
+              "word_offset_end": 1137,
+              "char_offset_start": 6817,
+              "char_offset_end": 7034,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "am-rev-jefferson-declaration_s01_p32_s05",
+              "sentence_ordinal": 5,
+              "text": "They too have been deaf to the voice of justice and of consanguinity.",
+              "word_offset_start": 1137,
+              "word_offset_end": 1150,
+              "char_offset_start": 7035,
+              "char_offset_end": 7104,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "am-rev-jefferson-declaration_s01_p32_s06",
+              "sentence_ordinal": 6,
+              "text": "We must, therefore, acquiesce in the necessity, which denounces our Separation, and hold them, as we hold the rest of mankind, Enemies in War, in Peace Friends.",
+              "word_offset_start": 1150,
+              "word_offset_end": 1177,
+              "char_offset_start": 7105,
+              "char_offset_end": 7265,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "am-rev-jefferson-declaration_s01_p33",
+          "paragraph_ordinal": 33,
+          "sentences": [
+            {
+              "sentence_id": "am-rev-jefferson-declaration_s01_p33_s01",
+              "sentence_ordinal": 1,
+              "text": "We, therefore, the Representatives of the united States of America, in General Congress, Assembled, appealing to the Supreme Judge of the world for the rectitude of our intentions, do, in the Name, and by Authority of the good People of these Colonies, solemnly publish and declare, That these United Colonies are, and of Right ought to be Free and Independent States; that they are Absolved from all Allegiance to the British Crown, and that all political connection between them and the State of Great Britain, is and ought to be totally dissolved; and that as Free and Independent States, they have full Power to levy War, conclude Peace, contract Alliances, establish Commerce, and to do all other Acts and Things which Independent States may of right do.",
+              "word_offset_start": 1177,
+              "word_offset_end": 1304,
+              "char_offset_start": 7267,
+              "char_offset_end": 8026,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "am-rev-jefferson-declaration_s01_p33_s02",
+              "sentence_ordinal": 2,
+              "text": "And for the support of this Declaration, with a firm reliance on the protection of divine Providence, we mutually pledge to each other our Lives, our Fortunes and our sacred Honor.",
+              "word_offset_start": 1304,
+              "word_offset_end": 1335,
+              "char_offset_start": 8027,
+              "char_offset_end": 8207,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "pipeline_log": [
+    {
+      "stage": "segment-texts",
+      "script": "scripts/segment-texts.py",
+      "generated_at": "2026-06-13T20:41:16",
+      "sentence_count": 44
+    }
+  ]
+}

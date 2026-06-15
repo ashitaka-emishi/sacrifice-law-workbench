@@ -1,0 +1,191 @@
+{
+  "case_id": "lincoln",
+  "document_id": "lincoln-gettysburg-address",
+  "meta": {
+    "document_id": "lincoln-gettysburg-address",
+    "title": "Address Delivered at the Dedication of the Cemetery at Gettysburg",
+    "short_title": "Gettysburg Address",
+    "date": "1863-11-19",
+    "date_precision": "day",
+    "register": "political-speech",
+    "authorship": "Abraham Lincoln",
+    "source_url": "https://www.gutenberg.org/ebooks/4",
+    "source_citation": "Project Gutenberg EBook #4 — Bliss copy (Lincoln's final corrected manuscript, the only one he signed)",
+    "rights_status": "public-domain",
+    "expected_raw_path": "corpus/raw/lincoln-src-02-gettysburg-address.txt",
+    "analytical_priority": "primary",
+    "verification": {
+      "min_words": 290,
+      "required_phrases": [
+        "Four score and seven years ago",
+        "government of the people"
+      ]
+    },
+    "case_id": "lincoln",
+    "raw_path": "corpus/raw/lincoln-src-02-gettysburg-address.txt",
+    "pipeline_log": [
+      {
+        "stage": "normalize-texts",
+        "script": "scripts/normalize-texts.py",
+        "generated_at": "2026-06-14T21:24:35"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "section_id": "lincoln-gettysburg-address_s01",
+      "section_label": "body",
+      "section_ordinal": 1,
+      "paragraphs": [
+        {
+          "paragraph_id": "lincoln-gettysburg-address_s01_p01",
+          "paragraph_ordinal": 1,
+          "sentences": [
+            {
+              "sentence_id": "lincoln-gettysburg-address_s01_p01_s01",
+              "sentence_ordinal": 1,
+              "text": "Four score and seven years ago, our fathers brought forth upon this continent a new nation: conceived in liberty, and dedicated to the proposition that all men are created equal.",
+              "word_offset_start": 0,
+              "word_offset_end": 30,
+              "char_offset_start": 0,
+              "char_offset_end": 178,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "lincoln-gettysburg-address_s01_p02",
+          "paragraph_ordinal": 2,
+          "sentences": [
+            {
+              "sentence_id": "lincoln-gettysburg-address_s01_p02_s01",
+              "sentence_ordinal": 1,
+              "text": "Now we are engaged in a great civil war. . .testing whether that nation, or any nation so conceived and so dedicated. . . can long endure.",
+              "word_offset_start": 30,
+              "word_offset_end": 57,
+              "char_offset_start": 178,
+              "char_offset_end": 316,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "lincoln-gettysburg-address_s01_p02_s02",
+              "sentence_ordinal": 2,
+              "text": "We are met on a great battlefield of that war.",
+              "word_offset_start": 57,
+              "word_offset_end": 67,
+              "char_offset_start": 321,
+              "char_offset_end": 367,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "lincoln-gettysburg-address_s01_p03",
+          "paragraph_ordinal": 3,
+          "sentences": [
+            {
+              "sentence_id": "lincoln-gettysburg-address_s01_p03_s01",
+              "sentence_ordinal": 1,
+              "text": "We have come to dedicate a portion of that field as a final resting place for those who here gave their lives that this nation might live.",
+              "word_offset_start": 67,
+              "word_offset_end": 94,
+              "char_offset_start": 367,
+              "char_offset_end": 505,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "lincoln-gettysburg-address_s01_p03_s02",
+              "sentence_ordinal": 2,
+              "text": "It is altogether fitting and proper that we should do this.",
+              "word_offset_start": 94,
+              "word_offset_end": 105,
+              "char_offset_start": 508,
+              "char_offset_end": 567,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "lincoln-gettysburg-address_s01_p04",
+          "paragraph_ordinal": 4,
+          "sentences": [
+            {
+              "sentence_id": "lincoln-gettysburg-address_s01_p04_s01",
+              "sentence_ordinal": 1,
+              "text": "But, in a larger sense, we cannot dedicate. . .we cannot consecrate. . . we cannot hallow this ground.",
+              "word_offset_start": 105,
+              "word_offset_end": 124,
+              "char_offset_start": 567,
+              "char_offset_end": 669,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "lincoln-gettysburg-address_s01_p04_s02",
+              "sentence_ordinal": 2,
+              "text": "The brave men, living and dead, who struggled here have consecrated it, far above our poor power to add or detract.",
+              "word_offset_start": 124,
+              "word_offset_end": 145,
+              "char_offset_start": 669,
+              "char_offset_end": 784,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "lincoln-gettysburg-address_s01_p04_s03",
+              "sentence_ordinal": 3,
+              "text": "The world will little note, nor long remember, what we say here, but it can never forget what they did here.",
+              "word_offset_start": 145,
+              "word_offset_end": 166,
+              "char_offset_start": 784,
+              "char_offset_end": 892,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "lincoln-gettysburg-address_s01_p05",
+          "paragraph_ordinal": 5,
+          "sentences": [
+            {
+              "sentence_id": "lincoln-gettysburg-address_s01_p05_s01",
+              "sentence_ordinal": 1,
+              "text": "It is for us the living, rather, to be dedicated here to the unfinished work which they who fought here have thus far so nobly advanced.",
+              "word_offset_start": 166,
+              "word_offset_end": 192,
+              "char_offset_start": 892,
+              "char_offset_end": 1028,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "lincoln-gettysburg-address_s01_p05_s02",
+              "sentence_ordinal": 2,
+              "text": "It is rather for us to be here dedicated to the great task remaining before us. . .that from these honored dead we take increased devotion to that cause for which they gave the last full measure of devotion. . . that we here highly resolve that these dead shall not have died in vain. . . that this nation, under God, shall have a new birth of freedom. . . and that government of the people. . .by the people. . .for the people. . . shall not perish from this earth.",
+              "word_offset_start": 192,
+              "word_offset_end": 285,
+              "char_offset_start": 1028,
+              "char_offset_end": 1494,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "pipeline_log": [
+    {
+      "stage": "segment-texts",
+      "script": "scripts/segment-texts.py",
+      "generated_at": "2026-06-14T21:24:35",
+      "sentence_count": 10
+    }
+  ]
+}

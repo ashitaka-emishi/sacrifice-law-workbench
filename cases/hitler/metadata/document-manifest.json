@@ -1,0 +1,194 @@
+{
+  "status": "ready",
+  "source_language": "de",
+  "annotation_language_policy": "source-with-glosses",
+  "corpus_text_source": "Mein Kampf: 1943 Eher edition OCR via Archive.org (mein-kampf-german_202412). Speeches: BSB stenographic record OCR (Reichstag 1939) / Metapedia transcription of 1941 official pamphlet (Proclamation). Files are gitignored.",
+  "scholarly_reference": "IfZ critical edition (Mein Kampf, 2016) / Domarus German edition (speeches, 1963) — authoritative print sources for cross-checking; not the digital source actually downloaded.",
+  "gloss_reference": "Murphy 1939 translation (MK) / GPA English translations (speeches)",
+  "documents": [
+    {
+      "document_id": "hitler-mein-kampf-vol1-ch2-wien",
+      "title": "Mein Kampf, Band I, Kapitel 2: Wiener Lehr- und Leidensjahre",
+      "short_title": "MK I.2 Wien",
+      "date": "1925",
+      "date_precision": "year",
+      "register": "autobiography-political-polemic",
+      "authorship": "Adolf Hitler",
+      "source_language": "de",
+      "source_url": "https://archive.org/download/mein-kampf-german_202412/Mein_Kampf_German_djvu.txt",
+      "source_citation": "Hitler, Adolf. Mein Kampf. Zentralverlag der NSDAP, Franz Eher Nachf., München, 851.–855. Auflage, 1943. OCR text via Archive.org item mein-kampf-german_202412 (djvu). Chapter extracted by string-marker script. Scholarly cross-reference: IfZ critical edition (Hartmann et al., 2016).",
+      "gloss_reference": "Murphy 1939 ch. 2 ('Years of Study and Suffering in Vienna'), via Project Gutenberg Australia.",
+      "rights_status": "gitignored-local-fair-use",
+      "expected_raw_path": "corpus/raw/hitler-src-01-mein-kampf-selected/vol1-ch2-wien.txt",
+      "analytical_priority": "primary",
+      "verification": {
+        "min_words": 12600,
+        "required_phrases": [
+          "Wiener Lehr",
+          "Akademie"
+        ]
+      }
+    },
+    {
+      "document_id": "hitler-mein-kampf-vol1-ch11-race-and-people",
+      "title": "Mein Kampf, Band I, Kapitel 11: Volk und Rasse",
+      "short_title": "MK I.11 Volk und Rasse",
+      "date": "1925",
+      "date_precision": "year",
+      "register": "autobiography-political-polemic",
+      "authorship": "Adolf Hitler",
+      "source_language": "de",
+      "source_url": "https://archive.org/download/mein-kampf-german_202412/Mein_Kampf_German_djvu.txt",
+      "source_citation": "Hitler, Adolf. Mein Kampf. Zentralverlag der NSDAP, Franz Eher Nachf., München, 851.–855. Auflage, 1943. OCR text via Archive.org item mein-kampf-german_202412 (djvu). Chapter extracted by string-marker script. Scholarly cross-reference: IfZ critical edition (Hartmann et al., 2016).",
+      "gloss_reference": "Murphy 1939 ch. 11 ('Race and People').",
+      "rights_status": "gitignored-local-fair-use",
+      "expected_raw_path": "corpus/raw/hitler-src-01-mein-kampf-selected/vol1-ch11-volk-und-rasse.txt",
+      "analytical_priority": "primary",
+      "verification": {
+        "min_words": 12700,
+        "required_phrases": [
+          "Volk und Rasse",
+          "Arier"
+        ]
+      }
+    },
+    {
+      "document_id": "hitler-mein-kampf-vol1-ch12-nsdap",
+      "title": "Mein Kampf, Band I, Kapitel 12: Die erste Periode der Entwicklung der NSDAP",
+      "short_title": "MK I.12 NSDAP",
+      "date": "1925",
+      "date_precision": "year",
+      "register": "autobiography-political-polemic",
+      "authorship": "Adolf Hitler",
+      "source_language": "de",
+      "source_url": "https://archive.org/download/mein-kampf-german_202412/Mein_Kampf_German_djvu.txt",
+      "source_citation": "Hitler, Adolf. Mein Kampf. Zentralverlag der NSDAP, Franz Eher Nachf., München, 851.–855. Auflage, 1943. OCR text via Archive.org item mein-kampf-german_202412 (djvu). Chapter extracted by string-marker script. Scholarly cross-reference: IfZ critical edition (Hartmann et al., 2016).",
+      "gloss_reference": "Murphy 1939 ch. 12 ('The First Stage of Development of the National Socialist German Workers' Party').",
+      "rights_status": "gitignored-local-fair-use",
+      "expected_raw_path": "corpus/raw/hitler-src-01-mein-kampf-selected/vol1-ch12-erste-periode-nsdap.txt",
+      "analytical_priority": "primary",
+      "verification": {
+        "min_words": 10300,
+        "required_phrases": [
+          "erste Entwicklungszeit der National",
+          "Hofbrauhaus"
+        ]
+      }
+    },
+    {
+      "document_id": "hitler-mein-kampf-vol2-ch1-weltanschauung",
+      "title": "Mein Kampf, Band II, Kapitel 1: Weltanschauung und Partei",
+      "short_title": "MK II.1 Weltanschauung",
+      "date": "1926",
+      "date_precision": "year",
+      "register": "autobiography-political-polemic",
+      "authorship": "Adolf Hitler",
+      "source_language": "de",
+      "source_url": "https://archive.org/download/mein-kampf-german_202412/Mein_Kampf_German_djvu.txt",
+      "source_citation": "Hitler, Adolf. Mein Kampf. Zentralverlag der NSDAP, Franz Eher Nachf., München, 851.–855. Auflage, 1943. OCR text via Archive.org item mein-kampf-german_202412 (djvu). Chapter extracted by string-marker script. Scholarly cross-reference: IfZ critical edition (Hartmann et al., 2016).",
+      "gloss_reference": "Murphy 1939 ch. 1 vol. II ('Weltanschauung and Party').",
+      "rights_status": "gitignored-local-fair-use",
+      "expected_raw_path": "corpus/raw/hitler-src-01-mein-kampf-selected/vol2-ch1-weltanschauung-und-partei.txt",
+      "analytical_priority": "primary",
+      "verification": {
+        "min_words": 3500,
+        "required_phrases": [
+          "24. Februar 1920",
+          "Hofbrauhauses"
+        ]
+      }
+    },
+    {
+      "document_id": "hitler-mein-kampf-vol2-ch2-the-state",
+      "title": "Mein Kampf, Band II, Kapitel 2: Der Staat",
+      "short_title": "MK II.2 Der Staat",
+      "date": "1926",
+      "date_precision": "year",
+      "register": "autobiography-political-polemic",
+      "authorship": "Adolf Hitler",
+      "source_language": "de",
+      "source_url": "https://archive.org/download/mein-kampf-german_202412/Mein_Kampf_German_djvu.txt",
+      "source_citation": "Hitler, Adolf. Mein Kampf. Zentralverlag der NSDAP, Franz Eher Nachf., München, 851.–855. Auflage, 1943. OCR text via Archive.org item mein-kampf-german_202412 (djvu). Chapter extracted by string-marker script. Scholarly cross-reference: IfZ critical edition (Hartmann et al., 2016).",
+      "gloss_reference": "Murphy 1939 ch. 2 vol. II ('The State').",
+      "rights_status": "gitignored-local-fair-use",
+      "expected_raw_path": "corpus/raw/hitler-src-01-mein-kampf-selected/vol2-ch2-der-staat.txt",
+      "analytical_priority": "primary",
+      "verification": {
+        "min_words": 14500,
+        "required_phrases": [
+          "1920/21",
+          "burgerlichen Welt"
+        ]
+      }
+    },
+    {
+      "document_id": "hitler-mein-kampf-vol2-ch14-eastern-europe",
+      "title": "Mein Kampf, Band II, Kapitel 14: Ostorientierung oder Ostpolitik",
+      "short_title": "MK II.14 Ostpolitik",
+      "date": "1926",
+      "date_precision": "year",
+      "register": "autobiography-political-polemic",
+      "authorship": "Adolf Hitler",
+      "source_language": "de",
+      "source_url": "https://archive.org/download/mein-kampf-german_202412/Mein_Kampf_German_djvu.txt",
+      "source_citation": "Hitler, Adolf. Mein Kampf. Zentralverlag der NSDAP, Franz Eher Nachf., München, 851.–855. Auflage, 1943. OCR text via Archive.org item mein-kampf-german_202412 (djvu). Chapter extracted by string-marker script. Scholarly cross-reference: IfZ critical edition (Hartmann et al., 2016).",
+      "gloss_reference": "Murphy 1939 ch. 14 vol. II ('Eastern Orientation or Eastern Policy').",
+      "rights_status": "gitignored-local-fair-use",
+      "expected_raw_path": "corpus/raw/hitler-src-01-mein-kampf-selected/vol2-ch14-ostorientierung.txt",
+      "analytical_priority": "primary",
+      "verification": {
+        "min_words": 7500,
+        "required_phrases": [
+          "Ostorientierung",
+          "Lebensraum"
+        ]
+      }
+    },
+    {
+      "document_id": "hitler-reichstag-1939-01-30",
+      "title": "Rede vor dem Deutschen Reichstag, 30. Januar 1939 (Prophezeiungsrede)",
+      "short_title": "Reichstag-Prophezeiung 1939",
+      "date": "1939-01-30",
+      "date_precision": "day",
+      "register": "political-speech",
+      "authorship": "Adolf Hitler",
+      "source_language": "de",
+      "source_url": "https://www.reichstag-abgeordnetendatenbank.de/volltext.html",
+      "source_citation": "Verhandlungen des Deutschen Reichstags. Stenographische Berichte, 460. Band, 1939. 1. Sitzung, 30. Januar 1939. BSB digitized copy bsb00000613 (pages 2–23). Text extracted via phrase-query OCR search at reichstag-abgeordnetendatenbank.de (2026-06-14); 47 snippets, covering analytically critical passages; some gaps in Roosevelt-response section. Scholarly cross-reference: Domarus, Bd. 2, S. 1047–1067.",
+      "gloss_reference": "German Propaganda Archive (Calvin University) English translation.",
+      "rights_status": "gitignored-local-fair-use",
+      "expected_raw_path": "corpus/raw/hitler-src-02-reichstag-war-speeches/reichstag-prophecy-1939-01-30.txt",
+      "analytical_priority": "primary",
+      "verification": {
+        "min_words": 6300,
+        "required_phrases": [
+          "Vernichtung der jüdischen Rasse",
+          "Prophet gewesen"
+        ]
+      }
+    },
+    {
+      "document_id": "hitler-ussr-proclamation-1941-06-22",
+      "title": "Proklamation an das deutsche Volk, 22. Juni 1941",
+      "short_title": "Proklamation Barbarossa 1941",
+      "date": "1941-06-22",
+      "date_precision": "day",
+      "register": "political-speech",
+      "authorship": "Adolf Hitler",
+      "source_language": "de",
+      "source_url": "https://archive.org/details/ProklamationDesFhrersAnDasDeutscheVolkUndNoteDesAuswrtigenAmtes",
+      "source_citation": "Proklamation des Führers an das Deutsche Volk (official pamphlet, Berlin, 22. Juni 1941). Primary print: Bouhler (Hrsg.), Der großdeutsche Freiheitskampf, Bd. 3, Eher 1942, S. 51–61. Digital transcription: Metapedia DE ('Quelle / Rede vom 22. Juni 1941'), citing the official 1941 pamphlet; Archive.org item ProklamationDesFhrersAnDasDeutscheVolkUndNoteDesAuswrtigenAmtes. Metapedia wiki preamble stripped; closing Tagesbefehl and footnotes excluded. Scholarly cross-reference: Domarus, Bd. 2, S. 1726–1732.",
+      "gloss_reference": "German Propaganda Archive (Calvin University) English translation (Bouhler source: Der großdeutsche Freiheitskampf, vol. 3, 1942, pp. 51–61).",
+      "rights_status": "gitignored-local-fair-use",
+      "expected_raw_path": "corpus/raw/hitler-src-02-reichstag-war-speeches/proclamation-invasion-soviet-union-1941-06-22.txt",
+      "analytical_priority": "primary",
+      "verification": {
+        "min_words": 2500,
+        "required_phrases": [
+          "Seit Wochen finden dauernde Verletzungen",
+          "Berlin, den 22. Juni 1941"
+        ]
+      }
+    }
+  ]
+}

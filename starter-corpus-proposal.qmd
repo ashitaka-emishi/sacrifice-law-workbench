@@ -1,0 +1,86 @@
+---
+title: "Starter Corpus Proposal"
+---
+
+::: {.callout-warning}
+This is a provisional starter corpus proposal. Candidate sources are not
+approved corpus records until they pass source discovery, rights review,
+metadata validation, case-fit review, and support-dimension relevance review.
+:::
+
+Structured starter candidates live in `config/starter-corpus-candidates.json`.
+Those candidates are a discovery queue, not a corpus.
+
+## Promotion Path
+
+A candidate source becomes an approved corpus document through this sequence:
+
+1. Confirm the source edition, archive, URL, or bibliographic citation.
+2. Review rights and decide whether the raw text may be committed, stored
+   locally, referenced metadata-only, or marked unavailable.
+3. Record document metadata in `cases/<case>/metadata/document-manifest.json`.
+4. Record source provenance in `cases/<case>/metadata/source-registry.json`.
+5. Add a `verification` block to the document manifest entry, including a
+   minimum word count and anchor phrases when feasible.
+6. Acquire permitted raw text at the expected path under
+   `cases/<case>/corpus/raw/` using `scripts/fetch-corpus.py`, a source-specific
+   download skill, or documented manual placement.
+7. Run `python3 scripts/verify-corpus.py --case <case-id>` and resolve any
+   failures before normalization.
+8. Run the case pipeline to normalize and segment the document.
+9. Review the document's register, phase, analytical priority, support-dimension
+   relevance, and risk flags before annotation.
+10. Record whether the document may contribute to document-level support scores,
+    historical enactment/alignment, or both.
+
+## Inclusion Criteria
+
+Documents should be included when they contribute to at least one of these
+needs:
+
+- balanced-core coverage for a case phase or register;
+- evidence for one or more support dimensions: sacred object, sacrificial body,
+  enemy as death, or historical enactment/alignment;
+- close reading of a high-priority sacrificial, sacred-object, enemy as death,
+  or historical-alignment pattern;
+- negative evidence or absence analysis;
+- comparison with another case;
+- testing of a starter cluster or rival explanation;
+- historical corroboration of a textual-symbolic pattern through policy,
+  implementation, social uptake, or durable outcome.
+
+Documents should be deferred when provenance, rights, translation, OCR quality,
+or authorship confidence cannot yet be documented well enough for audit.
+
+## Support-Dimension Review
+
+Before promotion, each candidate should receive a brief support-dimension note.
+The note should identify whether the document is expected to contribute to:
+
+| Dimension | Corpus Relevance Question |
+|---|---|
+| Sacred object | Does the document represent a collective object as transcendent, ultimate, sacred, immortal, or worth dying/killing for? |
+| Sacrificial body | Does the document represent bodies, suffering, killing, or dying as meaningful for the collective object? |
+| Enemy as death | Does the document represent an enemy as the agent, carrier, embodiment, or sign of death, doubt, mortality, dissolution, unreality, or collective destruction? |
+| Historical enactment/alignment | Does the document directly document or help corroborate policy, implementation, social uptake, mobilization, killing, exclusion, purification, or historical outcome? |
+
+The note is not a finding. It is a selection rationale that helps explain why a
+document belongs in the balanced core, extended corpus, historical
+corroboration set, or discovery queue.
+
+Documents that directly express policy, orders, decrees, institutional programs,
+or implementation may serve two roles: textual-symbolic evidence and historical
+enactment/alignment evidence. When that happens, the two roles should be marked
+separately to avoid circular reasoning.
+
+## Corpus Status
+
+This page is a discovery and promotion guide, not the live corpus status page.
+Promoted corpus records live in the case manifests and source registries. For
+the current project snapshot, see `CURRENT_STATUS.md`.
+
+The pipeline can still produce stub artifacts when annotation inputs are empty,
+but those outputs are readiness indicators rather than analysis. Completed
+corpus claims require approved document records, traceable annotations,
+support-dimension scores where applicable, and historical corroboration where
+claimed.

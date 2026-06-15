@@ -1,0 +1,68 @@
+{
+  "status": "ready",
+  "documents": [
+    {
+      "document_id": "lincoln-lyceum-address",
+      "title": "Address Before the Young Men's Lyceum of Springfield, Illinois",
+      "short_title": "Lyceum Address",
+      "date": "1838-01-27",
+      "date_precision": "day",
+      "register": "political-speech",
+      "authorship": "Abraham Lincoln",
+      "source_url": "https://www.gutenberg.org/ebooks/3253",
+      "source_citation": "Project Gutenberg EBook #3253 — The Papers and Writings of Abraham Lincoln, Complete, ed. Arthur Brooks Lapsley. Date note: Lapsley edition reads '1837'; correct date is 1838-01-27 per Basler, Collected Works vol. 1, p. 108.",
+      "rights_status": "public-domain",
+      "expected_raw_path": "corpus/raw/lincoln-src-01-lyceum-address.txt",
+      "analytical_priority": "primary",
+      "verification": {
+        "min_words": 2900,
+        "required_phrases": [
+          "mobocratic spirit",
+          "Perpetuation of Our Political Institutions"
+        ]
+      }
+    },
+    {
+      "document_id": "lincoln-gettysburg-address",
+      "title": "Address Delivered at the Dedication of the Cemetery at Gettysburg",
+      "short_title": "Gettysburg Address",
+      "date": "1863-11-19",
+      "date_precision": "day",
+      "register": "political-speech",
+      "authorship": "Abraham Lincoln",
+      "source_url": "https://www.gutenberg.org/ebooks/4",
+      "source_citation": "Project Gutenberg EBook #4 — Bliss copy (Lincoln's final corrected manuscript, the only one he signed)",
+      "rights_status": "public-domain",
+      "expected_raw_path": "corpus/raw/lincoln-src-02-gettysburg-address.txt",
+      "analytical_priority": "primary",
+      "verification": {
+        "min_words": 290,
+        "required_phrases": [
+          "Four score and seven years ago",
+          "government of the people"
+        ]
+      }
+    },
+    {
+      "document_id": "lincoln-second-inaugural",
+      "title": "Second Inaugural Address",
+      "short_title": "Second Inaugural",
+      "date": "1865-03-04",
+      "date_precision": "day",
+      "register": "political-speech",
+      "authorship": "Abraham Lincoln",
+      "source_url": "https://www.gutenberg.org/ebooks/8",
+      "source_citation": "Project Gutenberg EBook #8 — Abraham Lincoln's Second Inaugural Address",
+      "rights_status": "public-domain",
+      "expected_raw_path": "corpus/raw/lincoln-src-03-second-inaugural.txt",
+      "analytical_priority": "primary",
+      "verification": {
+        "min_words": 590,
+        "required_phrases": [
+          "Both parties deprecated war",
+          "malice toward none"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+---
+title: "Napoleon / Napoleonic Wars"
+---
+
+Draft case overview for `napoleon`.

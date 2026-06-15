@@ -1,0 +1,36 @@
+{
+  "version": "1.0",
+  "case_id": "am-rev",
+  "generated_at": "2026-05-05T02:40:26",
+  "status": "stub",
+  "total_documents": 0,
+  "total_sentences": 0,
+  "total_instances": 0,
+  "instances": [],
+  "indexes": {
+    "by_cluster": {
+      "am-rev-01-liberty-tyranny": [],
+      "am-rev-02-people-republic": [],
+      "am-rev-03-founding-sacrifice": [],
+      "am-rev-04-providence-covenant": [],
+      "am-rev-05-virtue-corruption": [],
+      "am-rev-06-union-founding-memory": []
+    },
+    "by_document": {},
+    "by_register": {},
+    "by_fantasy_type": {},
+    "by_violence_logic": {},
+    "by_absence_flag": {},
+    "high_confidence_only": [],
+    "suppression_instances": []
+  },
+  "errors": [],
+  "pipeline_log": [
+    {
+      "stage": "build-concordance",
+      "script": "scripts/build-concordance.py",
+      "annotated_files": 0,
+      "generated_at": "2026-05-05T02:40:26"
+    }
+  ]
+}

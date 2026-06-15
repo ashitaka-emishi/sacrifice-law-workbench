@@ -1,0 +1,1637 @@
+{
+  "case_id": "lincoln",
+  "document_id": "lincoln-lyceum-address",
+  "meta": {
+    "document_id": "lincoln-lyceum-address",
+    "title": "Address Before the Young Men's Lyceum of Springfield, Illinois",
+    "short_title": "Lyceum Address",
+    "date": "1838-01-27",
+    "date_precision": "day",
+    "register": "political-speech",
+    "authorship": "Abraham Lincoln",
+    "source_url": "https://www.gutenberg.org/ebooks/3253",
+    "source_citation": "Project Gutenberg EBook #3253 — The Papers and Writings of Abraham Lincoln, Complete, ed. Arthur Brooks Lapsley. Date note: Lapsley edition reads '1837'; correct date is 1838-01-27 per Basler, Collected Works vol. 1, p. 108.",
+    "rights_status": "public-domain",
+    "expected_raw_path": "corpus/raw/lincoln-src-01-lyceum-address.txt",
+    "analytical_priority": "primary",
+    "verification": {
+      "min_words": 2900,
+      "required_phrases": [
+        "mobocratic spirit",
+        "Perpetuation of Our Political Institutions"
+      ]
+    },
+    "case_id": "lincoln",
+    "raw_path": "corpus/raw/lincoln-src-01-lyceum-address.txt",
+    "pipeline_log": [
+      {
+        "stage": "normalize-texts",
+        "script": "scripts/normalize-texts.py",
+        "generated_at": "2026-06-14T21:24:35"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "section_id": "lincoln-lyceum-address_s01",
+      "section_label": "body",
+      "section_ordinal": 1,
+      "paragraphs": [
+        {
+          "paragraph_id": "lincoln-lyceum-address_s01_p01",
+          "paragraph_ordinal": 1,
+          "sentences": [
+            {
+              "sentence_id": "lincoln-lyceum-address_s01_p01_s01",
+              "sentence_ordinal": 1,
+              "text": "ADDRESS BEFORE THE YOUNG MEN'S LYCEUM OF SPRINGFIELD, ILLINOIS.",
+              "word_offset_start": 0,
+              "word_offset_end": 9,
+              "char_offset_start": 0,
+              "char_offset_end": 63,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "lincoln-lyceum-address_s01_p02",
+          "paragraph_ordinal": 2,
+          "sentences": [
+            {
+              "sentence_id": "lincoln-lyceum-address_s01_p02_s01",
+              "sentence_ordinal": 1,
+              "text": "January 27, 1837.",
+              "word_offset_start": 9,
+              "word_offset_end": 12,
+              "char_offset_start": 65,
+              "char_offset_end": 82,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "lincoln-lyceum-address_s01_p03",
+          "paragraph_ordinal": 3,
+          "sentences": [
+            {
+              "sentence_id": "lincoln-lyceum-address_s01_p03_s01",
+              "sentence_ordinal": 1,
+              "text": "As a subject for the remarks of the evening, \"The Perpetuation of our Political Institutions\" is selected.",
+              "word_offset_start": 12,
+              "word_offset_end": 29,
+              "char_offset_start": 82,
+              "char_offset_end": 188,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "lincoln-lyceum-address_s01_p04",
+          "paragraph_ordinal": 4,
+          "sentences": [
+            {
+              "sentence_id": "lincoln-lyceum-address_s01_p04_s01",
+              "sentence_ordinal": 1,
+              "text": "In the great journal of things happening under the sun, we, the American people, find our account running under date of the nineteenth century of the Christian era.",
+              "word_offset_start": 29,
+              "word_offset_end": 57,
+              "char_offset_start": 188,
+              "char_offset_end": 352,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "lincoln-lyceum-address_s01_p04_s02",
+              "sentence_ordinal": 2,
+              "text": "We find ourselves in the peaceful possession of the fairest portion of the earth as regards extent of territory, fertility of soil, and salubrity of climate.",
+              "word_offset_start": 57,
+              "word_offset_end": 83,
+              "char_offset_start": 352,
+              "char_offset_end": 509,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "lincoln-lyceum-address_s01_p04_s03",
+              "sentence_ordinal": 3,
+              "text": "We find ourselves under the government of a system of political institutions conducing more essentially to the ends of civil and religious liberty than any of which the history of former times tells us.",
+              "word_offset_start": 83,
+              "word_offset_end": 117,
+              "char_offset_start": 509,
+              "char_offset_end": 711,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "lincoln-lyceum-address_s01_p04_s04",
+              "sentence_ordinal": 4,
+              "text": "We, when mounting the stage of existence, found ourselves the legal inheritors of these fundamental blessings.",
+              "word_offset_start": 117,
+              "word_offset_end": 133,
+              "char_offset_start": 711,
+              "char_offset_end": 821,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "lincoln-lyceum-address_s01_p04_s05",
+              "sentence_ordinal": 5,
+              "text": "We toiled not in the acquirement or establishment of them; they are a legacy bequeathed us by a once hardy, brave, and patriotic, but now lamented and departed, race of ancestors.",
+              "word_offset_start": 133,
+              "word_offset_end": 164,
+              "char_offset_start": 821,
+              "char_offset_end": 1000,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "lincoln-lyceum-address_s01_p04_s06",
+              "sentence_ordinal": 6,
+              "text": "Theirs was the task (and nobly they performed it) to possess themselves, and through themselves us, of this goodly land, and to uprear upon its hills and its valleys a political edifice of liberty and equal rights; it is ours only to transmit these--the former unprofaned by the foot of an invader, the latter undecayed by the lapse of time and untorn by usurpation--to the latest generation that fate shall permit the world to know.",
+              "word_offset_start": 164,
+              "word_offset_end": 239,
+              "char_offset_start": 1000,
+              "char_offset_end": 1433,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "lincoln-lyceum-address_s01_p04_s07",
+              "sentence_ordinal": 7,
+              "text": "This task gratitude to our fathers, justice to ourselves, duty to posterity, and love for our species in general, all imperatively require us faithfully to perform.",
+              "word_offset_start": 239,
+              "word_offset_end": 265,
+              "char_offset_start": 1433,
+              "char_offset_end": 1597,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "lincoln-lyceum-address_s01_p05",
+          "paragraph_ordinal": 5,
+          "sentences": [
+            {
+              "sentence_id": "lincoln-lyceum-address_s01_p05_s01",
+              "sentence_ordinal": 1,
+              "text": "How then shall we perform it?",
+              "word_offset_start": 265,
+              "word_offset_end": 271,
+              "char_offset_start": 1609,
+              "char_offset_end": 1638,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "lincoln-lyceum-address_s01_p05_s02",
+              "sentence_ordinal": 2,
+              "text": "At what point shall we expect the approach of danger?",
+              "word_offset_start": 271,
+              "word_offset_end": 281,
+              "char_offset_start": 1638,
+              "char_offset_end": 1691,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "lincoln-lyceum-address_s01_p05_s03",
+              "sentence_ordinal": 3,
+              "text": "By what means shall we fortify against it?",
+              "word_offset_start": 281,
+              "word_offset_end": 289,
+              "char_offset_start": 1693,
+              "char_offset_end": 1735,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "lincoln-lyceum-address_s01_p05_s04",
+              "sentence_ordinal": 4,
+              "text": "Shall we expect some transatlantic military giant to step the ocean and crush us at a blow?",
+              "word_offset_start": 289,
+              "word_offset_end": 306,
+              "char_offset_start": 1735,
+              "char_offset_end": 1826,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "lincoln-lyceum-address_s01_p05_s05",
+              "sentence_ordinal": 5,
+              "text": "Never!",
+              "word_offset_start": 306,
+              "word_offset_end": 307,
+              "char_offset_start": 1828,
+              "char_offset_end": 1834,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "lincoln-lyceum-address_s01_p05_s06",
+              "sentence_ordinal": 6,
+              "text": "All the armies of Europe, Asia, and Africa combined, with all the treasure of the earth (our own excepted) in their military chest, with a Bonaparte for a commander, could not by force take a drink from the Ohio or make a track on the Blue Ridge in a trial of a thousand years.",
+              "word_offset_start": 307,
+              "word_offset_end": 361,
+              "char_offset_start": 1834,
+              "char_offset_end": 2111,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "lincoln-lyceum-address_s01_p06",
+          "paragraph_ordinal": 6,
+          "sentences": [
+            {
+              "sentence_id": "lincoln-lyceum-address_s01_p06_s01",
+              "sentence_ordinal": 1,
+              "text": "At what point then is the approach of danger to be expected?",
+              "word_offset_start": 361,
+              "word_offset_end": 373,
+              "char_offset_start": 2114,
+              "char_offset_end": 2174,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "lincoln-lyceum-address_s01_p06_s02",
+              "sentence_ordinal": 2,
+              "text": "I answer: If it ever reach us it must spring up amongst us; it cannot come from abroad.",
+              "word_offset_start": 373,
+              "word_offset_end": 391,
+              "char_offset_start": 2174,
+              "char_offset_end": 2261,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "lincoln-lyceum-address_s01_p06_s03",
+              "sentence_ordinal": 3,
+              "text": "If destruction be our lot we must ourselves be its author and finisher.",
+              "word_offset_start": 391,
+              "word_offset_end": 404,
+              "char_offset_start": 2261,
+              "char_offset_end": 2332,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "lincoln-lyceum-address_s01_p06_s04",
+              "sentence_ordinal": 4,
+              "text": "As a nation of freemen we must live through all time, or die by suicide.",
+              "word_offset_start": 404,
+              "word_offset_end": 419,
+              "char_offset_start": 2332,
+              "char_offset_end": 2404,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "lincoln-lyceum-address_s01_p07",
+          "paragraph_ordinal": 7,
+          "sentences": [
+            {
+              "sentence_id": "lincoln-lyceum-address_s01_p07_s01",
+              "sentence_ordinal": 1,
+              "text": "I hope I am over-wary; but if I am not, there is even now something of ill omen amongst us.",
+              "word_offset_start": 419,
+              "word_offset_end": 439,
+              "char_offset_start": 2404,
+              "char_offset_end": 2495,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "lincoln-lyceum-address_s01_p07_s02",
+              "sentence_ordinal": 2,
+              "text": "I mean the increasing disregard for law which pervades the country--the growing disposition to substitute the wild and furious passions in lieu of the sober judgment of courts, and the worse than savage mobs for the executive ministers of justice.",
+              "word_offset_start": 439,
+              "word_offset_end": 479,
+              "char_offset_start": 2495,
+              "char_offset_end": 2742,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "lincoln-lyceum-address_s01_p07_s03",
+              "sentence_ordinal": 3,
+              "text": "This disposition is awfully fearful in any community; and that it now exists in ours, though grating to our feelings to admit, it would be a violation of truth and an insult to our intelligence to deny.",
+              "word_offset_start": 479,
+              "word_offset_end": 516,
+              "char_offset_start": 2742,
+              "char_offset_end": 2944,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "lincoln-lyceum-address_s01_p07_s04",
+              "sentence_ordinal": 4,
+              "text": "Accounts of outrages committed by mobs form the everyday news of the times.",
+              "word_offset_start": 516,
+              "word_offset_end": 529,
+              "char_offset_start": 2944,
+              "char_offset_end": 3019,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "lincoln-lyceum-address_s01_p07_s05",
+              "sentence_ordinal": 5,
+              "text": "They have pervaded the country from New England to Louisiana; they are neither peculiar to the eternal snows of the former nor the burning suns of the latter; they are not the creature of climate, neither are they confined to the slave holding or the non-slave holding States.",
+              "word_offset_start": 529,
+              "word_offset_end": 577,
+              "char_offset_start": 3019,
+              "char_offset_end": 3295,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "lincoln-lyceum-address_s01_p07_s06",
+              "sentence_ordinal": 6,
+              "text": "Alike they spring up among the pleasure-hunting masters of Southern slaves, and the order-loving citizens of the land of steady habits.",
+              "word_offset_start": 577,
+              "word_offset_end": 598,
+              "char_offset_start": 3295,
+              "char_offset_end": 3430,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "lincoln-lyceum-address_s01_p07_s07",
+              "sentence_ordinal": 7,
+              "text": "Whatever then their cause may be, it is common to the whole country.",
+              "word_offset_start": 598,
+              "word_offset_end": 611,
+              "char_offset_start": 3430,
+              "char_offset_end": 3498,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "lincoln-lyceum-address_s01_p08",
+          "paragraph_ordinal": 8,
+          "sentences": [
+            {
+              "sentence_id": "lincoln-lyceum-address_s01_p08_s01",
+              "sentence_ordinal": 1,
+              "text": "It would be tedious as well as useless to recount the horrors of all of them.",
+              "word_offset_start": 611,
+              "word_offset_end": 627,
+              "char_offset_start": 3498,
+              "char_offset_end": 3575,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "lincoln-lyceum-address_s01_p08_s02",
+              "sentence_ordinal": 2,
+              "text": "Those happening in the State of Mississippi and at St. Louis are perhaps the most dangerous in example and revolting to humanity.",
+              "word_offset_start": 627,
+              "word_offset_end": 649,
+              "char_offset_start": 3575,
+              "char_offset_end": 3704,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "lincoln-lyceum-address_s01_p08_s03",
+              "sentence_ordinal": 3,
+              "text": "In the Mississippi case they first commenced by hanging the regular gamblers--a set of men certainly not following for a livelihood a very useful or very honest occupation, but one which, so far from being forbidden by the laws, was actually licensed by an act of the Legislature passed but a single year before.",
+              "word_offset_start": 649,
+              "word_offset_end": 703,
+              "char_offset_start": 3704,
+              "char_offset_end": 4016,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "lincoln-lyceum-address_s01_p08_s04",
+              "sentence_ordinal": 4,
+              "text": "Next, negroes suspected of conspiring to raise an insurrection were caught up and hanged in all parts of the State; then, white men supposed to be leagued with the negroes; and finally, strangers from neighboring States, going thither on business, were in many instances subjected to the same fate.",
+              "word_offset_start": 703,
+              "word_offset_end": 752,
+              "char_offset_start": 4016,
+              "char_offset_end": 4314,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "lincoln-lyceum-address_s01_p08_s05",
+              "sentence_ordinal": 5,
+              "text": "Thus went on this process of hanging, from gamblers to negroes, from negroes to white citizens, and from these to strangers, till dead men were seen literally dangling from the boughs of trees upon every roadside, and in numbers almost sufficient to rival the native Spanish moss of the country as a drapery of the forest.",
+              "word_offset_start": 752,
+              "word_offset_end": 808,
+              "char_offset_start": 4314,
+              "char_offset_end": 4636,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "lincoln-lyceum-address_s01_p09",
+          "paragraph_ordinal": 9,
+          "sentences": [
+            {
+              "sentence_id": "lincoln-lyceum-address_s01_p09_s01",
+              "sentence_ordinal": 1,
+              "text": "Turn then to that horror-striking scene at St. Louis.",
+              "word_offset_start": 808,
+              "word_offset_end": 817,
+              "char_offset_start": 4655,
+              "char_offset_end": 4708,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "lincoln-lyceum-address_s01_p09_s02",
+              "sentence_ordinal": 2,
+              "text": "A single victim only was sacrificed there.",
+              "word_offset_start": 817,
+              "word_offset_end": 824,
+              "char_offset_start": 4708,
+              "char_offset_end": 4750,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "lincoln-lyceum-address_s01_p09_s03",
+              "sentence_ordinal": 3,
+              "text": "This story is very short, and is perhaps the most highly tragic of anything of its length that has ever been witnessed in real life.",
+              "word_offset_start": 824,
+              "word_offset_end": 849,
+              "char_offset_start": 4750,
+              "char_offset_end": 4882,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "lincoln-lyceum-address_s01_p09_s04",
+              "sentence_ordinal": 4,
+              "text": "A mulatto man by the name of McIntosh was seized in the street, dragged to the suburbs of the city, chained to a tree, and actually burned to death; and all within a single hour from the time he had been a freeman attending to his own business and at peace with the world.",
+              "word_offset_start": 849,
+              "word_offset_end": 903,
+              "char_offset_start": 4882,
+              "char_offset_end": 5154,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "lincoln-lyceum-address_s01_p10",
+          "paragraph_ordinal": 10,
+          "sentences": [
+            {
+              "sentence_id": "lincoln-lyceum-address_s01_p10_s01",
+              "sentence_ordinal": 1,
+              "text": "Such are the effects of mob law, and such are the scenes becoming more and more frequent in this land so lately famed for love of law and order, and the stories of which have even now grown too familiar to attract anything more than an idle remark.",
+              "word_offset_start": 903,
+              "word_offset_end": 951,
+              "char_offset_start": 5154,
+              "char_offset_end": 5402,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "lincoln-lyceum-address_s01_p11",
+          "paragraph_ordinal": 11,
+          "sentences": [
+            {
+              "sentence_id": "lincoln-lyceum-address_s01_p11_s01",
+              "sentence_ordinal": 1,
+              "text": "But you are perhaps ready to ask, \"What has this to do with the perpetuation of our political institutions?\" I answer, It has much to do with it.",
+              "word_offset_start": 951,
+              "word_offset_end": 979,
+              "char_offset_start": 5402,
+              "char_offset_end": 5547,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "lincoln-lyceum-address_s01_p11_s02",
+              "sentence_ordinal": 2,
+              "text": "Its direct consequences are, comparatively speaking, but a small evil, and much of its danger consists in the proneness of our minds to regard its direct as its only consequences.",
+              "word_offset_start": 979,
+              "word_offset_end": 1009,
+              "char_offset_start": 5547,
+              "char_offset_end": 5726,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "lincoln-lyceum-address_s01_p11_s03",
+              "sentence_ordinal": 3,
+              "text": "Abstractly considered, the hanging of the gamblers at Vicksburg was of but little consequence.",
+              "word_offset_start": 1009,
+              "word_offset_end": 1023,
+              "char_offset_start": 5726,
+              "char_offset_end": 5820,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "lincoln-lyceum-address_s01_p11_s04",
+              "sentence_ordinal": 4,
+              "text": "They constitute a portion of population that is worse than useless in any community; and their death, if no pernicious example be set by it, is never matter of reasonable regret with any one.",
+              "word_offset_start": 1023,
+              "word_offset_end": 1057,
+              "char_offset_start": 5820,
+              "char_offset_end": 6011,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "lincoln-lyceum-address_s01_p11_s05",
+              "sentence_ordinal": 5,
+              "text": "If they were annually swept from the stage of existence by the plague or smallpox, honest men would perhaps be much profited by the operation.",
+              "word_offset_start": 1057,
+              "word_offset_end": 1082,
+              "char_offset_start": 6011,
+              "char_offset_end": 6153,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "lincoln-lyceum-address_s01_p11_s06",
+              "sentence_ordinal": 6,
+              "text": "Similar too is the correct reasoning in regard to the burning of the negro at St. Louis.",
+              "word_offset_start": 1082,
+              "word_offset_end": 1099,
+              "char_offset_start": 6153,
+              "char_offset_end": 6241,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "lincoln-lyceum-address_s01_p11_s07",
+              "sentence_ordinal": 7,
+              "text": "He had forfeited his life by the perpetration of an outrageous murder upon one of the most worthy and respectable citizens of the city, and had he not died as he did, he must have died by the sentence of the law in a very short time afterwards.",
+              "word_offset_start": 1099,
+              "word_offset_end": 1147,
+              "char_offset_start": 6241,
+              "char_offset_end": 6485,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "lincoln-lyceum-address_s01_p11_s08",
+              "sentence_ordinal": 8,
+              "text": "As to him alone, it was as well the way it was as it could otherwise have been.",
+              "word_offset_start": 1147,
+              "word_offset_end": 1165,
+              "char_offset_start": 6485,
+              "char_offset_end": 6564,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "lincoln-lyceum-address_s01_p11_s09",
+              "sentence_ordinal": 9,
+              "text": "But the example in either case was fearful.",
+              "word_offset_start": 1165,
+              "word_offset_end": 1173,
+              "char_offset_start": 6564,
+              "char_offset_end": 6607,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "lincoln-lyceum-address_s01_p11_s10",
+              "sentence_ordinal": 10,
+              "text": "When men take it in their heads to-day to hang gamblers or burn murderers, they should recollect that in the confusion usually attending such transactions they will be as likely to hang or burn some one who is neither a gambler nor a murderer as one who is, and that, acting upon the example they set, the mob of to-morrow may, and probably will, hang or burn some of them by the very same mistake.",
+              "word_offset_start": 1173,
+              "word_offset_end": 1248,
+              "char_offset_start": 6607,
+              "char_offset_end": 7005,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "lincoln-lyceum-address_s01_p11_s11",
+              "sentence_ordinal": 11,
+              "text": "And not only so: the innocent, those who have ever set their faces against violations of law in every shape, alike with the guilty fall victims to the ravages of mob law; and thus it goes on, step by step, till all the walls erected for the defense of the persons and property of individuals are trodden down and disregarded.",
+              "word_offset_start": 1248,
+              "word_offset_end": 1308,
+              "char_offset_start": 7005,
+              "char_offset_end": 7330,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "lincoln-lyceum-address_s01_p11_s12",
+              "sentence_ordinal": 12,
+              "text": "But all this, even, is not the full extent of the evil.",
+              "word_offset_start": 1308,
+              "word_offset_end": 1320,
+              "char_offset_start": 7330,
+              "char_offset_end": 7385,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "lincoln-lyceum-address_s01_p11_s13",
+              "sentence_ordinal": 13,
+              "text": "By such examples, by instances of the perpetrators of such acts going unpunished, the lawless in spirit are encouraged to become lawless in practice; and having been used to no restraint but dread of punishment, they thus become absolutely unrestrained.",
+              "word_offset_start": 1320,
+              "word_offset_end": 1360,
+              "char_offset_start": 7385,
+              "char_offset_end": 7638,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "lincoln-lyceum-address_s01_p11_s14",
+              "sentence_ordinal": 14,
+              "text": "Having ever regarded government as their deadliest bane, they make a jubilee of the suspension of its operations, and pray for nothing so much as its total annihilation.",
+              "word_offset_start": 1360,
+              "word_offset_end": 1388,
+              "char_offset_start": 7638,
+              "char_offset_end": 7807,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "lincoln-lyceum-address_s01_p11_s15",
+              "sentence_ordinal": 15,
+              "text": "While, on the other hand, good men, men who love tranquillity, who desire to abide by the laws and enjoy their benefits, who would gladly spill their blood in the defense of their country, seeing their property destroyed, their families insulted, and their lives endangered, their persons injured, and seeing nothing in prospect that forebodes a change for the better, become tired of and disgusted with a government that offers them no protection, and are not much averse to a change in which they imagine they have nothing to lose.",
+              "word_offset_start": 1388,
+              "word_offset_end": 1478,
+              "char_offset_start": 7807,
+              "char_offset_end": 8340,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "lincoln-lyceum-address_s01_p11_s16",
+              "sentence_ordinal": 16,
+              "text": "Thus, then, by the operation of this mobocratic spirit which all must admit is now abroad in the land, the strongest bulwark of any government, and particularly of those constituted like ours, may effectually be broken down and destroyed--I mean the attachment of the people.",
+              "word_offset_start": 1478,
+              "word_offset_end": 1523,
+              "char_offset_start": 8340,
+              "char_offset_end": 8615,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "lincoln-lyceum-address_s01_p11_s17",
+              "sentence_ordinal": 17,
+              "text": "Whenever this effect shall be produced among us; whenever the vicious portion of population shall be permitted to gather in bands of hundreds and thousands, and burn churches, ravage and rob provision-stores, throw printing presses into rivers, shoot editors, and hang and burn obnoxious persons at pleasure and with impunity, depend on it, this government cannot last.",
+              "word_offset_start": 1523,
+              "word_offset_end": 1580,
+              "char_offset_start": 8615,
+              "char_offset_end": 8984,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "lincoln-lyceum-address_s01_p11_s18",
+              "sentence_ordinal": 18,
+              "text": "By such things the feelings of the best citizens will become more or less alienated from it, and thus it will be left without friends, or with too few, and those few too weak to make their friendship effectual.",
+              "word_offset_start": 1580,
+              "word_offset_end": 1619,
+              "char_offset_start": 8984,
+              "char_offset_end": 9194,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "lincoln-lyceum-address_s01_p11_s19",
+              "sentence_ordinal": 19,
+              "text": "At such a time, and under such circumstances, men of sufficient talent and ambition will not be wanting to seize the opportunity, strike the blow, and overturn that fair fabric which for the last half century has been the fondest hope of the lovers of freedom throughout the world.",
+              "word_offset_start": 1619,
+              "word_offset_end": 1668,
+              "char_offset_start": 9194,
+              "char_offset_end": 9475,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "lincoln-lyceum-address_s01_p12",
+          "paragraph_ordinal": 12,
+          "sentences": [
+            {
+              "sentence_id": "lincoln-lyceum-address_s01_p12_s01",
+              "sentence_ordinal": 1,
+              "text": "I know the American people are much attached to their government; I know they would suffer much for its sake; I know they would endure evils long and patiently before they would ever think of exchanging it for another,--yet, notwithstanding all this, if the laws be continually despised and disregarded, if their rights to be secure in their persons and property are held by no better tenure than the caprice of a mob, the alienation of their affections from the government is the natural consequence; and to that, sooner or later, it must come.",
+              "word_offset_start": 1668,
+              "word_offset_end": 1762,
+              "char_offset_start": 9475,
+              "char_offset_end": 10020,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "lincoln-lyceum-address_s01_p13",
+          "paragraph_ordinal": 13,
+          "sentences": [
+            {
+              "sentence_id": "lincoln-lyceum-address_s01_p13_s01",
+              "sentence_ordinal": 1,
+              "text": "Here, then, is one point at which danger may be expected.",
+              "word_offset_start": 1762,
+              "word_offset_end": 1773,
+              "char_offset_start": 10049,
+              "char_offset_end": 10106,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "lincoln-lyceum-address_s01_p14",
+          "paragraph_ordinal": 14,
+          "sentences": [
+            {
+              "sentence_id": "lincoln-lyceum-address_s01_p14_s01",
+              "sentence_ordinal": 1,
+              "text": "The question recurs, How shall we fortify against it?",
+              "word_offset_start": 1773,
+              "word_offset_end": 1782,
+              "char_offset_start": 10108,
+              "char_offset_end": 10161,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "lincoln-lyceum-address_s01_p14_s02",
+              "sentence_ordinal": 2,
+              "text": "The answer is simple.",
+              "word_offset_start": 1782,
+              "word_offset_end": 1786,
+              "char_offset_start": 10161,
+              "char_offset_end": 10182,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "lincoln-lyceum-address_s01_p14_s03",
+              "sentence_ordinal": 3,
+              "text": "Let every American, every lover of liberty, every well-wisher to his posterity swear by the blood of the Revolution never to violate in the least particular the laws of the country, and never to tolerate their violation by others.",
+              "word_offset_start": 1786,
+              "word_offset_end": 1825,
+              "char_offset_start": 10182,
+              "char_offset_end": 10412,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "lincoln-lyceum-address_s01_p14_s04",
+              "sentence_ordinal": 4,
+              "text": "As the patriots of seventy-six did to the support of the Declaration of Independence, so to the support of the Constitution and laws let every American pledge his life, his property, and his sacred honor.",
+              "word_offset_start": 1825,
+              "word_offset_end": 1860,
+              "char_offset_start": 10412,
+              "char_offset_end": 10616,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "lincoln-lyceum-address_s01_p14_s05",
+              "sentence_ordinal": 5,
+              "text": "Let every man remember that to violate the law is to trample on the blood of his father, and to tear the charter of his own and his children's liberty.",
+              "word_offset_start": 1860,
+              "word_offset_end": 1890,
+              "char_offset_start": 10616,
+              "char_offset_end": 10767,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "lincoln-lyceum-address_s01_p14_s06",
+              "sentence_ordinal": 6,
+              "text": "Let reverence for the laws be breathed by every American mother to the lisping babe that prattles on her lap; let it be taught in schools, in seminaries, and in colleges; let it be written in primers, spelling books, and in almanacs; let it be preached from the pulpit, proclaimed in legislative halls, and enforced in courts of justice.",
+              "word_offset_start": 1890,
+              "word_offset_end": 1949,
+              "char_offset_start": 10767,
+              "char_offset_end": 11104,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "lincoln-lyceum-address_s01_p14_s07",
+              "sentence_ordinal": 7,
+              "text": "And, in short, let it become the political religion of the nation; and let the old and the young, the rich and the poor, the grave and the gay of all sexes and tongues and colors and conditions, sacrifice unceasingly upon its altars.",
+              "word_offset_start": 1949,
+              "word_offset_end": 1992,
+              "char_offset_start": 11104,
+              "char_offset_end": 11337,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "lincoln-lyceum-address_s01_p15",
+          "paragraph_ordinal": 15,
+          "sentences": [
+            {
+              "sentence_id": "lincoln-lyceum-address_s01_p15_s01",
+              "sentence_ordinal": 1,
+              "text": "While ever a state of feeling such as this shall universally or even very generally prevail throughout the nation, vain will be every effort, and fruitless every attempt, to subvert our national freedom.",
+              "word_offset_start": 1992,
+              "word_offset_end": 2025,
+              "char_offset_start": 11337,
+              "char_offset_end": 11540,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "lincoln-lyceum-address_s01_p16",
+          "paragraph_ordinal": 16,
+          "sentences": [
+            {
+              "sentence_id": "lincoln-lyceum-address_s01_p16_s01",
+              "sentence_ordinal": 1,
+              "text": "When, I so pressingly urge a strict observance of all the laws, let me not be understood as saying there are no bad laws, or that grievances may not arise for the redress of which no legal provisions have been made.",
+              "word_offset_start": 2025,
+              "word_offset_end": 2066,
+              "char_offset_start": 11540,
+              "char_offset_end": 11755,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "lincoln-lyceum-address_s01_p16_s02",
+              "sentence_ordinal": 2,
+              "text": "I mean to say no such thing.",
+              "word_offset_start": 2066,
+              "word_offset_end": 2073,
+              "char_offset_start": 11766,
+              "char_offset_end": 11794,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "lincoln-lyceum-address_s01_p16_s03",
+              "sentence_ordinal": 3,
+              "text": "But I do mean to say that although bad laws, if they exist, should be repealed as soon as possible, still, while they continue in force, for the sake of example they should be religiously observed.",
+              "word_offset_start": 2073,
+              "word_offset_end": 2109,
+              "char_offset_start": 11794,
+              "char_offset_end": 11991,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "lincoln-lyceum-address_s01_p16_s04",
+              "sentence_ordinal": 4,
+              "text": "So also in unprovided cases.",
+              "word_offset_start": 2109,
+              "word_offset_end": 2114,
+              "char_offset_start": 11993,
+              "char_offset_end": 12021,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "lincoln-lyceum-address_s01_p16_s05",
+              "sentence_ordinal": 5,
+              "text": "If such arise, let proper legal provisions be made for them with the least possible delay, but till then let them, if not too intolerable, be borne with.",
+              "word_offset_start": 2114,
+              "word_offset_end": 2142,
+              "char_offset_start": 12021,
+              "char_offset_end": 12174,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "lincoln-lyceum-address_s01_p17",
+          "paragraph_ordinal": 17,
+          "sentences": [
+            {
+              "sentence_id": "lincoln-lyceum-address_s01_p17_s01",
+              "sentence_ordinal": 1,
+              "text": "There is no grievance that is a fit object of redress by mob law.",
+              "word_offset_start": 2142,
+              "word_offset_end": 2156,
+              "char_offset_start": 12177,
+              "char_offset_end": 12242,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "lincoln-lyceum-address_s01_p17_s02",
+              "sentence_ordinal": 2,
+              "text": "In any case that may arise, as, for instance, the promulgation of abolitionism, one of two positions is necessarily true--that is, the thing is right within itself, and therefore deserves the protection of all law and all good citizens, or it is wrong, and therefore proper to be prohibited by legal enactments; and in neither case is the interposition of mob law either necessary, justifiable, or excusable.",
+              "word_offset_start": 2156,
+              "word_offset_end": 2223,
+              "char_offset_start": 12242,
+              "char_offset_end": 12650,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "lincoln-lyceum-address_s01_p18",
+          "paragraph_ordinal": 18,
+          "sentences": [
+            {
+              "sentence_id": "lincoln-lyceum-address_s01_p18_s01",
+              "sentence_ordinal": 1,
+              "text": "But it may be asked, Why suppose danger to our political institutions?",
+              "word_offset_start": 2223,
+              "word_offset_end": 2235,
+              "char_offset_start": 12653,
+              "char_offset_end": 12723,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "lincoln-lyceum-address_s01_p18_s02",
+              "sentence_ordinal": 2,
+              "text": "Have we not preserved them for more than fifty years?",
+              "word_offset_start": 2235,
+              "word_offset_end": 2245,
+              "char_offset_start": 12724,
+              "char_offset_end": 12777,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "lincoln-lyceum-address_s01_p18_s03",
+              "sentence_ordinal": 3,
+              "text": "And why may we not for fifty times as long?",
+              "word_offset_start": 2245,
+              "word_offset_end": 2255,
+              "char_offset_start": 12777,
+              "char_offset_end": 12820,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "lincoln-lyceum-address_s01_p19",
+          "paragraph_ordinal": 19,
+          "sentences": [
+            {
+              "sentence_id": "lincoln-lyceum-address_s01_p19_s01",
+              "sentence_ordinal": 1,
+              "text": "We hope there is no sufficient reason.",
+              "word_offset_start": 2255,
+              "word_offset_end": 2262,
+              "char_offset_start": 12823,
+              "char_offset_end": 12861,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "lincoln-lyceum-address_s01_p19_s02",
+              "sentence_ordinal": 2,
+              "text": "We hope all danger may be overcome; but to conclude that no danger may ever arise would itself be extremely dangerous.",
+              "word_offset_start": 2262,
+              "word_offset_end": 2283,
+              "char_offset_start": 12861,
+              "char_offset_end": 12979,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "lincoln-lyceum-address_s01_p19_s03",
+              "sentence_ordinal": 3,
+              "text": "There are now, and will hereafter be, many causes, dangerous in their tendency, which have not existed heretofore, and which are not too insignificant to merit attention.",
+              "word_offset_start": 2283,
+              "word_offset_end": 2310,
+              "char_offset_start": 12979,
+              "char_offset_end": 13149,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "lincoln-lyceum-address_s01_p19_s04",
+              "sentence_ordinal": 4,
+              "text": "That our government should have been maintained in its original form, from its establishment until now, is not much to be wondered at.",
+              "word_offset_start": 2310,
+              "word_offset_end": 2333,
+              "char_offset_start": 13149,
+              "char_offset_end": 13283,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "lincoln-lyceum-address_s01_p19_s05",
+              "sentence_ordinal": 5,
+              "text": "It had many props to support it through that period, which now are decayed and crumbled away.",
+              "word_offset_start": 2333,
+              "word_offset_end": 2350,
+              "char_offset_start": 13283,
+              "char_offset_end": 13376,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "lincoln-lyceum-address_s01_p19_s06",
+              "sentence_ordinal": 6,
+              "text": "Through that period it was felt by all to be an undecided experiment; now it is understood to be a successful one.",
+              "word_offset_start": 2350,
+              "word_offset_end": 2372,
+              "char_offset_start": 13376,
+              "char_offset_end": 13490,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "lincoln-lyceum-address_s01_p19_s07",
+              "sentence_ordinal": 7,
+              "text": "Then, all that sought celebrity and fame and distinction expected to find them in the success of that experiment.",
+              "word_offset_start": 2372,
+              "word_offset_end": 2391,
+              "char_offset_start": 13490,
+              "char_offset_end": 13603,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "lincoln-lyceum-address_s01_p19_s08",
+              "sentence_ordinal": 8,
+              "text": "Their all was staked upon it; their destiny was inseparably linked with it.",
+              "word_offset_start": 2391,
+              "word_offset_end": 2404,
+              "char_offset_start": 13603,
+              "char_offset_end": 13678,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "lincoln-lyceum-address_s01_p19_s09",
+              "sentence_ordinal": 9,
+              "text": "Their ambition aspired to display before an admiring world a practical demonstration of the truth of a proposition which had hitherto been considered at best no better than problematical--namely, the capability of a people to govern themselves.",
+              "word_offset_start": 2404,
+              "word_offset_end": 2441,
+              "char_offset_start": 13678,
+              "char_offset_end": 13922,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "lincoln-lyceum-address_s01_p19_s10",
+              "sentence_ordinal": 10,
+              "text": "If they succeeded they were to be immortalized; their names were to be transferred to counties, and cities, and rivers, and mountains; and to be revered and sung, toasted through all time.",
+              "word_offset_start": 2441,
+              "word_offset_end": 2473,
+              "char_offset_start": 13922,
+              "char_offset_end": 14110,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "lincoln-lyceum-address_s01_p19_s11",
+              "sentence_ordinal": 11,
+              "text": "If they failed, they were to be called knaves and fools, and fanatics for a fleeting hour; then to sink and be forgotten.",
+              "word_offset_start": 2473,
+              "word_offset_end": 2496,
+              "char_offset_start": 14110,
+              "char_offset_end": 14231,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "lincoln-lyceum-address_s01_p19_s12",
+              "sentence_ordinal": 12,
+              "text": "They succeeded.",
+              "word_offset_start": 2496,
+              "word_offset_end": 2498,
+              "char_offset_start": 14242,
+              "char_offset_end": 14257,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "lincoln-lyceum-address_s01_p19_s13",
+              "sentence_ordinal": 13,
+              "text": "The experiment is successful, and thousands have won their deathless names in making it so.",
+              "word_offset_start": 2498,
+              "word_offset_end": 2513,
+              "char_offset_start": 14257,
+              "char_offset_end": 14348,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "lincoln-lyceum-address_s01_p19_s14",
+              "sentence_ordinal": 14,
+              "text": "But the game is caught; and I believe it is true that with the catching end the pleasures of the chase.",
+              "word_offset_start": 2513,
+              "word_offset_end": 2534,
+              "char_offset_start": 14348,
+              "char_offset_end": 14451,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "lincoln-lyceum-address_s01_p19_s15",
+              "sentence_ordinal": 15,
+              "text": "This field of glory is harvested, and the crop is already appropriated.",
+              "word_offset_start": 2534,
+              "word_offset_end": 2546,
+              "char_offset_start": 14451,
+              "char_offset_end": 14522,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "lincoln-lyceum-address_s01_p19_s16",
+              "sentence_ordinal": 16,
+              "text": "But new reapers will arise, and they too will seek a field.",
+              "word_offset_start": 2546,
+              "word_offset_end": 2558,
+              "char_offset_start": 14522,
+              "char_offset_end": 14581,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "lincoln-lyceum-address_s01_p19_s17",
+              "sentence_ordinal": 17,
+              "text": "It is to deny what the history of the world tells us is true, to suppose that men of ambition and talents will not continue to spring up amongst us.",
+              "word_offset_start": 2558,
+              "word_offset_end": 2588,
+              "char_offset_start": 14581,
+              "char_offset_end": 14729,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "lincoln-lyceum-address_s01_p19_s18",
+              "sentence_ordinal": 18,
+              "text": "And when they do, they will as naturally seek the gratification of their ruling passion as others have done before them.",
+              "word_offset_start": 2588,
+              "word_offset_end": 2609,
+              "char_offset_start": 14729,
+              "char_offset_end": 14849,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "lincoln-lyceum-address_s01_p19_s19",
+              "sentence_ordinal": 19,
+              "text": "The question then is, Can that gratification be found in supporting and in maintaining an edifice that has been erected by others?",
+              "word_offset_start": 2609,
+              "word_offset_end": 2631,
+              "char_offset_start": 14849,
+              "char_offset_end": 14979,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "lincoln-lyceum-address_s01_p19_s20",
+              "sentence_ordinal": 20,
+              "text": "Most certainly it cannot.",
+              "word_offset_start": 2631,
+              "word_offset_end": 2635,
+              "char_offset_start": 14979,
+              "char_offset_end": 15004,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "lincoln-lyceum-address_s01_p19_s21",
+              "sentence_ordinal": 21,
+              "text": "Many great and good men, sufficiently qualified for any task they should undertake, may ever be found whose ambition would aspire to nothing beyond a seat in Congress, a Gubernatorial or a Presidential chair; but such belong not to the family of the lion, or the tribe of the eagle.",
+              "word_offset_start": 2635,
+              "word_offset_end": 2685,
+              "char_offset_start": 15004,
+              "char_offset_end": 15286,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "lincoln-lyceum-address_s01_p19_s22",
+              "sentence_ordinal": 22,
+              "text": "What! think you these places would satisfy an Alexander, a Caesar, or a Napoleon?",
+              "word_offset_start": 2685,
+              "word_offset_end": 2699,
+              "char_offset_start": 15286,
+              "char_offset_end": 15367,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "lincoln-lyceum-address_s01_p19_s23",
+              "sentence_ordinal": 23,
+              "text": "Never!",
+              "word_offset_start": 2699,
+              "word_offset_end": 2700,
+              "char_offset_start": 15378,
+              "char_offset_end": 15384,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "lincoln-lyceum-address_s01_p19_s24",
+              "sentence_ordinal": 24,
+              "text": "Towering genius disdains a beaten path.",
+              "word_offset_start": 2700,
+              "word_offset_end": 2706,
+              "char_offset_start": 15384,
+              "char_offset_end": 15423,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "lincoln-lyceum-address_s01_p19_s25",
+              "sentence_ordinal": 25,
+              "text": "It seeks regions hitherto unexplored.",
+              "word_offset_start": 2706,
+              "word_offset_end": 2711,
+              "char_offset_start": 15425,
+              "char_offset_end": 15462,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "lincoln-lyceum-address_s01_p19_s26",
+              "sentence_ordinal": 26,
+              "text": "It sees no distinction in adding story to story upon the monuments of fame erected to the memory of others.",
+              "word_offset_start": 2711,
+              "word_offset_end": 2731,
+              "char_offset_start": 15462,
+              "char_offset_end": 15569,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "lincoln-lyceum-address_s01_p19_s27",
+              "sentence_ordinal": 27,
+              "text": "It denies that it is glory enough to serve under any chief.",
+              "word_offset_start": 2731,
+              "word_offset_end": 2743,
+              "char_offset_start": 15569,
+              "char_offset_end": 15628,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "lincoln-lyceum-address_s01_p19_s28",
+              "sentence_ordinal": 28,
+              "text": "It scorns to tread in the footsteps of any predecessor, however illustrious.",
+              "word_offset_start": 2743,
+              "word_offset_end": 2755,
+              "char_offset_start": 15628,
+              "char_offset_end": 15704,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "lincoln-lyceum-address_s01_p19_s29",
+              "sentence_ordinal": 29,
+              "text": "It thirsts and burns for distinction; and if possible, it will have it, whether at the expense of emancipating slaves or enslaving freemen.",
+              "word_offset_start": 2755,
+              "word_offset_end": 2778,
+              "char_offset_start": 15704,
+              "char_offset_end": 15843,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "lincoln-lyceum-address_s01_p19_s30",
+              "sentence_ordinal": 30,
+              "text": "Is it unreasonable, then, to expect that some man possessed of the loftiest genius, coupled with ambition sufficient to push it to its utmost stretch, will at some time spring up among us?",
+              "word_offset_start": 2778,
+              "word_offset_end": 2811,
+              "char_offset_start": 15843,
+              "char_offset_end": 16031,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "lincoln-lyceum-address_s01_p19_s31",
+              "sentence_ordinal": 31,
+              "text": "And when such an one does it will require the people to be united with each other, attached to the government and laws, and generally intelligent, to successfully frustrate his designs.",
+              "word_offset_start": 2811,
+              "word_offset_end": 2842,
+              "char_offset_start": 16031,
+              "char_offset_end": 16216,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "lincoln-lyceum-address_s01_p20",
+          "paragraph_ordinal": 20,
+          "sentences": [
+            {
+              "sentence_id": "lincoln-lyceum-address_s01_p20_s01",
+              "sentence_ordinal": 1,
+              "text": "Distinction will be his paramount object, and although he would as willingly, perhaps more so, acquire it by doing good as harm, yet, that opportunity being past, and nothing left to be done in the way of building up, he would set boldly to the task of pulling down.",
+              "word_offset_start": 2842,
+              "word_offset_end": 2891,
+              "char_offset_start": 16216,
+              "char_offset_end": 16482,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "lincoln-lyceum-address_s01_p21",
+          "paragraph_ordinal": 21,
+          "sentences": [
+            {
+              "sentence_id": "lincoln-lyceum-address_s01_p21_s01",
+              "sentence_ordinal": 1,
+              "text": "Here then is a probable case, highly dangerous, and such an one as could not have well existed heretofore.",
+              "word_offset_start": 2891,
+              "word_offset_end": 2910,
+              "char_offset_start": 16482,
+              "char_offset_end": 16588,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "lincoln-lyceum-address_s01_p22",
+          "paragraph_ordinal": 22,
+          "sentences": [
+            {
+              "sentence_id": "lincoln-lyceum-address_s01_p22_s01",
+              "sentence_ordinal": 1,
+              "text": "Another reason which once was, but which, to the same extent, is now no more, has done much in maintaining our institutions thus far.",
+              "word_offset_start": 2910,
+              "word_offset_end": 2934,
+              "char_offset_start": 16588,
+              "char_offset_end": 16721,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "lincoln-lyceum-address_s01_p22_s02",
+              "sentence_ordinal": 2,
+              "text": "I mean the powerful influence which the interesting scenes of the Revolution had upon the passions of the people as distinguished from their judgment.",
+              "word_offset_start": 2934,
+              "word_offset_end": 2958,
+              "char_offset_start": 16721,
+              "char_offset_end": 16871,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "lincoln-lyceum-address_s01_p22_s03",
+              "sentence_ordinal": 3,
+              "text": "By this influence, the jealousy, envy, and avarice incident to our nature, and so common to a state of peace, prosperity, and conscious strength, were for the time in a great measure smothered and rendered inactive, while the deep-rooted principles of hate, and the powerful motive of revenge, instead of being turned against each other, were directed exclusively against the British nation.",
+              "word_offset_start": 2958,
+              "word_offset_end": 3020,
+              "char_offset_start": 16871,
+              "char_offset_end": 17262,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "lincoln-lyceum-address_s01_p22_s04",
+              "sentence_ordinal": 4,
+              "text": "And thus, from the force of circumstances, the basest principles of our nature were either made to lie dormant, or to become the active agents in the advancement of the noblest of causes--that of establishing and maintaining civil and religious liberty.",
+              "word_offset_start": 3020,
+              "word_offset_end": 3061,
+              "char_offset_start": 17262,
+              "char_offset_end": 17515,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "lincoln-lyceum-address_s01_p23",
+          "paragraph_ordinal": 23,
+          "sentences": [
+            {
+              "sentence_id": "lincoln-lyceum-address_s01_p23_s01",
+              "sentence_ordinal": 1,
+              "text": "But this state of feeling must fade, is fading, has faded, with the circumstances that produced it.",
+              "word_offset_start": 3061,
+              "word_offset_end": 3078,
+              "char_offset_start": 17515,
+              "char_offset_end": 17614,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "lincoln-lyceum-address_s01_p24",
+          "paragraph_ordinal": 24,
+          "sentences": [
+            {
+              "sentence_id": "lincoln-lyceum-address_s01_p24_s01",
+              "sentence_ordinal": 1,
+              "text": "I do not mean to say that the scenes of the Revolution are now or ever will be entirely forgotten, but that, like everything else, they must fade upon the memory of the world, and grow more and more dim by the lapse of time.",
+              "word_offset_start": 3078,
+              "word_offset_end": 3123,
+              "char_offset_start": 17614,
+              "char_offset_end": 17838,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "lincoln-lyceum-address_s01_p24_s02",
+              "sentence_ordinal": 2,
+              "text": "In history, we hope, they will be read of, and recounted, so long as the Bible shall be read; but even granting that they will, their influence cannot be what it heretofore has been.",
+              "word_offset_start": 3123,
+              "word_offset_end": 3157,
+              "char_offset_start": 17838,
+              "char_offset_end": 18020,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "lincoln-lyceum-address_s01_p24_s03",
+              "sentence_ordinal": 3,
+              "text": "Even then they cannot be so universally known nor so vividly felt as they were by the generation just gone to rest.",
+              "word_offset_start": 3157,
+              "word_offset_end": 3179,
+              "char_offset_start": 18020,
+              "char_offset_end": 18135,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "lincoln-lyceum-address_s01_p24_s04",
+              "sentence_ordinal": 4,
+              "text": "At the close of that struggle, nearly every adult male had been a participator in some of its scenes.",
+              "word_offset_start": 3179,
+              "word_offset_end": 3198,
+              "char_offset_start": 18135,
+              "char_offset_end": 18236,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "lincoln-lyceum-address_s01_p24_s05",
+              "sentence_ordinal": 5,
+              "text": "The consequence was that of those scenes, in the form of a husband, a father, a son, or a brother, a living history was to be found in every family--a history bearing the indubitable testimonies of its own authenticity, in the limbs mangled, in the scars of wounds received, in the midst of the very scenes related--a history, too, that could be read and understood alike by all, the wise and the ignorant, the learned and the unlearned.",
+              "word_offset_start": 3198,
+              "word_offset_end": 3276,
+              "char_offset_start": 18236,
+              "char_offset_end": 18673,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "lincoln-lyceum-address_s01_p24_s06",
+              "sentence_ordinal": 6,
+              "text": "But those histories are gone.",
+              "word_offset_start": 3276,
+              "word_offset_end": 3281,
+              "char_offset_start": 18697,
+              "char_offset_end": 18726,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "lincoln-lyceum-address_s01_p24_s07",
+              "sentence_ordinal": 7,
+              "text": "They can be read no more forever.",
+              "word_offset_start": 3281,
+              "word_offset_end": 3288,
+              "char_offset_start": 18726,
+              "char_offset_end": 18759,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "lincoln-lyceum-address_s01_p24_s08",
+              "sentence_ordinal": 8,
+              "text": "They were a fortress of strength; but what invading foeman could never do the silent artillery of time has done--the leveling of its walls.",
+              "word_offset_start": 3288,
+              "word_offset_end": 3312,
+              "char_offset_start": 18759,
+              "char_offset_end": 18898,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "lincoln-lyceum-address_s01_p24_s09",
+              "sentence_ordinal": 9,
+              "text": "They are gone.",
+              "word_offset_start": 3312,
+              "word_offset_end": 3315,
+              "char_offset_start": 18901,
+              "char_offset_end": 18915,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "lincoln-lyceum-address_s01_p24_s10",
+              "sentence_ordinal": 10,
+              "text": "They were a forest of giant oaks; but the all-restless hurricane has swept over them, and left only here and there a lonely trunk, despoiled of its verdure, shorn of its foliage, unshading and unshaded, to murmur in a few more gentle breezes, and to combat with its mutilated limbs a few more ruder storms, then to sink and be no more.",
+              "word_offset_start": 3315,
+              "word_offset_end": 3377,
+              "char_offset_start": 18915,
+              "char_offset_end": 19250,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "lincoln-lyceum-address_s01_p25",
+          "paragraph_ordinal": 25,
+          "sentences": [
+            {
+              "sentence_id": "lincoln-lyceum-address_s01_p25_s01",
+              "sentence_ordinal": 1,
+              "text": "They were pillars of the temple of liberty; and now that they have crumbled away that temple must fall unless we, their descendants, supply their places with other pillars, hewn from the solid quarry of sober reason.",
+              "word_offset_start": 3377,
+              "word_offset_end": 3414,
+              "char_offset_start": 19250,
+              "char_offset_end": 19466,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "lincoln-lyceum-address_s01_p25_s02",
+              "sentence_ordinal": 2,
+              "text": "Passion has helped us, but can do so no more.",
+              "word_offset_start": 3414,
+              "word_offset_end": 3424,
+              "char_offset_start": 19470,
+              "char_offset_end": 19515,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "lincoln-lyceum-address_s01_p25_s03",
+              "sentence_ordinal": 3,
+              "text": "It will in future be our enemy.",
+              "word_offset_start": 3424,
+              "word_offset_end": 3431,
+              "char_offset_start": 19515,
+              "char_offset_end": 19546,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "lincoln-lyceum-address_s01_p25_s04",
+              "sentence_ordinal": 4,
+              "text": "Reason cold, calculating, unimpassioned reason--must furnish all the materials for our future support and defense.",
+              "word_offset_start": 3431,
+              "word_offset_end": 3446,
+              "char_offset_start": 19546,
+              "char_offset_end": 19660,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "lincoln-lyceum-address_s01_p25_s05",
+              "sentence_ordinal": 5,
+              "text": "Let those materials be moulded into general intelligence, sound morality, and in particular, a reverence for the Constitution and laws; and that we improved to the last, that we remained free to the last, that we revered his name to the last, that during his long sleep we permitted no hostile foot to pass over or desecrate his resting place, shall be that which to learn the last trump shall awaken our Washington.",
+              "word_offset_start": 3446,
+              "word_offset_end": 3519,
+              "char_offset_start": 19660,
+              "char_offset_end": 20076,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "lincoln-lyceum-address_s01_p26",
+          "paragraph_ordinal": 26,
+          "sentences": [
+            {
+              "sentence_id": "lincoln-lyceum-address_s01_p26_s01",
+              "sentence_ordinal": 1,
+              "text": "Upon these let the proud fabric of freedom rest, as the rock of its basis; and as truly as has been said of the only greater institution, \"the gates of hell shall not prevail against it.\"",
+              "word_offset_start": 3519,
+              "word_offset_end": 3555,
+              "char_offset_start": 20076,
+              "char_offset_end": 20263,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "pipeline_log": [
+    {
+      "stage": "segment-texts",
+      "script": "scripts/segment-texts.py",
+      "generated_at": "2026-06-14T21:24:35",
+      "sentence_count": 130
+    }
+  ]
+}

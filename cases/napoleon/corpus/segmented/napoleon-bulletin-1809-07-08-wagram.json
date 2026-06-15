@@ -1,0 +1,2331 @@
+{
+  "case_id": "napoleon",
+  "document_id": "napoleon-bulletin-1809-07-08-wagram",
+  "meta": {
+    "document_id": "napoleon-bulletin-1809-07-08-wagram",
+    "title": "25th Bulletin de l'Armée d'Allemagne (Wagram)",
+    "short_title": "Bulletin 25/1809: Wagram",
+    "date": "1809-07-08",
+    "date_precision": "day",
+    "register": "military-bulletin-proclamation",
+    "authorship": "Napoleon Bonaparte / imperial military voice",
+    "source_url": "https://gallica.bnf.fr/ark:/12148/bpt6k6296216k",
+    "source_citation": "Correspondance de Napoléon Ier, Tome 19, no. 15505. Paris: Plon, 1858–1870. Via Gallica / BnF.",
+    "rights_status": "public-domain",
+    "expected_raw_path": "corpus/raw/napoleon-src-02-grande-armee-bulletins/napoleon-bulletin-1809-07-08-wagram.txt",
+    "analytical_priority": "primary",
+    "phase": "peak-empire",
+    "campaign": "Wagram",
+    "bulletin_number": 25,
+    "bulletin_series": "Armée d'Allemagne 1809 (separate series, different title)",
+    "correspondance_volume": 19,
+    "extraction_tool": ".claude/commands/gallica-download.md",
+    "notes": "Battles of Enzersdorf and Wagram (5–6 July 1809): largest battle of the Napoleonic wars to that date. Published from Wolkersdorf 8 July. Note: titled 'Bulletin de l'Armée d'Allemagne' not 'de la Grande Armée' — the 1809 campaign used a different bulletin series name.",
+    "case_id": "napoleon",
+    "raw_path": "corpus/raw/napoleon-src-02-grande-armee-bulletins/napoleon-bulletin-1809-07-08-wagram.txt",
+    "pipeline_log": [
+      {
+        "stage": "normalize-texts",
+        "script": "scripts/normalize-texts.py",
+        "generated_at": "2026-06-14T15:00:09"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "section_id": "napoleon-bulletin-1809-07-08-wagram_s01",
+      "section_label": "body",
+      "section_ordinal": 1,
+      "paragraphs": [
+        {
+          "paragraph_id": "napoleon-bulletin-1809-07-08-wagram_s01_p01",
+          "paragraph_ordinal": 1,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1809-07-08-wagram_s01_p01_s01",
+              "sentence_ordinal": 1,
+              "text": "15505. — VIXGT-CIXQUIÈMË BULLETIN DE L'ARMÉE D ALLEJIAG.\\E.",
+              "word_offset_start": 0,
+              "word_offset_end": 8,
+              "char_offset_start": 0,
+              "char_offset_end": 59,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1809-07-08-wagram_s01_p02",
+          "paragraph_ordinal": 2,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1809-07-08-wagram_s01_p02_s01",
+              "sentence_ordinal": 1,
+              "text": "Wolkersdorf, 8 juillet 1809.",
+              "word_offset_start": 8,
+              "word_offset_end": 12,
+              "char_offset_start": 61,
+              "char_offset_end": 89,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1809-07-08-wagram_s01_p03",
+          "paragraph_ordinal": 3,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1809-07-08-wagram_s01_p03_s01",
+              "sentence_ordinal": 1,
+              "text": "Les travaux du général comte Bertrand et du corps qu'il commande avaient, dès les premiers jours du mois, dompté entièrement le Da-",
+              "word_offset_start": 12,
+              "word_offset_end": 34,
+              "char_offset_start": 91,
+              "char_offset_end": 222,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1809-07-08-wagram_s01_p04",
+          "paragraph_ordinal": 4,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1809-07-08-wagram_s01_p04_s01",
+              "sentence_ordinal": 1,
+              "text": "1 Voir la note de la page 219.",
+              "word_offset_start": 34,
+              "word_offset_end": 42,
+              "char_offset_start": 224,
+              "char_offset_end": 254,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1809-07-08-wagram_s01_p05",
+          "paragraph_ordinal": 5,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1809-07-08-wagram_s01_p05_s01",
+              "sentence_ordinal": 1,
+              "text": "nube.",
+              "word_offset_start": 42,
+              "word_offset_end": 43,
+              "char_offset_start": 256,
+              "char_offset_end": 261,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1809-07-08-wagram_s01_p05_s02",
+              "sentence_ordinal": 2,
+              "text": "Sa Majesté résolut sur-le-champ de réunir son armée dans l'ile Lobau, de déboucher sur l'armée autrichienne et de lui livrer une bataille générale.",
+              "word_offset_start": 43,
+              "word_offset_end": 66,
+              "char_offset_start": 262,
+              "char_offset_end": 409,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1809-07-08-wagram_s01_p05_s03",
+              "sentence_ordinal": 3,
+              "text": "Ce n'était pas que la position de l'armée française ne fût très-belle à Vienne ; maîtresse de toute la rive droite du Danube, ayant en son pouvoir l'Autriche et une forte partie de la Hongrie, elle se trouvait dans la-plus grande abondance.",
+              "word_offset_start": 66,
+              "word_offset_end": 108,
+              "char_offset_start": 410,
+              "char_offset_end": 650,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1809-07-08-wagram_s01_p05_s04",
+              "sentence_ordinal": 4,
+              "text": "Si l'on éprouvait quelques difficultés pour l'approvisionnement de la population de Vienne, cela tenait à la mauvaise organisation de l'administration, à quelques embarras que chaque jour aurait fait cesser, et aux difficultés qui naissent naturellement de circonstances telles que celles où l'on se trouvait, et dans un pays où le commerce des grains est un privilége exclusif du gouvernement.",
+              "word_offset_start": 108,
+              "word_offset_end": 167,
+              "char_offset_start": 651,
+              "char_offset_end": 1045,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1809-07-08-wagram_s01_p05_s05",
+              "sentence_ordinal": 5,
+              "text": "Mais comment rester ainsi séparé de l'armée ennemie par un canal de trois ou quatre cents toises, lorsque les moyensde passage avaient été préparés et assurés?",
+              "word_offset_start": 167,
+              "word_offset_end": 193,
+              "char_offset_start": 1046,
+              "char_offset_end": 1205,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1809-07-08-wagram_s01_p05_s06",
+              "sentence_ordinal": 6,
+              "text": "C'eût été accréditer les impostures que l'ennemi a débitées et répandues avec tant de profusion dans son pays et dans les pays voisins ; c'était laisser du doute sur les événements d'Essling ; c'était enfin autoriser à supposer qu'il y avait une égalité de consistance entre deux armées si différentes, dont l'une était animée et en quelque sorte renforcée par des succès et des victoires multipliées, et l'autre était découragée par les revers les plus mémorables.",
+              "word_offset_start": 193,
+              "word_offset_end": 269,
+              "char_offset_start": 1206,
+              "char_offset_end": 1671,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1809-07-08-wagram_s01_p06",
+          "paragraph_ordinal": 6,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1809-07-08-wagram_s01_p06_s01",
+              "sentence_ordinal": 1,
+              "text": "Tous les renseignements que l'on avait sur l'armée autrichienne portaient qu'elle était considérable, qu'elle avait été recrutée par de nombreuses réserves, par les levées de Moravie et de Hongrie, par toutes les landwehre des provinces, qu'elle avait remonté sa cavalerie par des réquisitions dans tous les cercles, et triplé ses attelages d'artillerie en faisant d'immenses levées de charrettes et de chevaux en Moravie, en Bohême et en Hongrie.",
+              "word_offset_start": 269,
+              "word_offset_end": 337,
+              "char_offset_start": 1673,
+              "char_offset_end": 2120,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1809-07-08-wagram_s01_p06_s02",
+              "sentence_ordinal": 2,
+              "text": "Pour ajouter de nouvelles chances en leur faveur, les généraux autrichiens avaient établi des ouvrages de campagne, dont la droite était appuyée à Aspern et la gauche à Enzersdorf.",
+              "word_offset_start": 337,
+              "word_offset_end": 366,
+              "char_offset_start": 2121,
+              "char_offset_end": 2301,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1809-07-08-wagram_s01_p06_s03",
+              "sentence_ordinal": 3,
+              "text": "Les villages d'Aspcrn, d'Essling et d'Enzersdorf, et les intervalles qui les séparaient, étaient couverts de redoutes palissadées, fraisées et armées de plus de cent cinquante pièces de canon de position, tirées des places de la Bohême et de la Moravie.",
+              "word_offset_start": 366,
+              "word_offset_end": 406,
+              "char_offset_start": 2302,
+              "char_offset_end": 2555,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1809-07-08-wagram_s01_p06_s04",
+              "sentence_ordinal": 4,
+              "text": "On ne concevait pas comment il était possible qu'avec son expérience de la guerre l'Empereur voulût attaquer des ouvrages si puissamment défendus, soutenus par une armée qu'on évaluait à 200,000 hommes, tant de troupes de ligne que des milices et de l'insurrection, et qui étaient appuyés par une artillerie de huit ou neuf cents pièces de campagne.",
+              "word_offset_start": 406,
+              "word_offset_end": 463,
+              "char_offset_start": 2556,
+              "char_offset_end": 2905,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1809-07-08-wagram_s01_p06_s05",
+              "sentence_ordinal": 5,
+              "text": "Il paraissait plus simple de jeter de nouveaux ponts sur le Danube quelques lieues plus bas et de rendre ainsi inutile le champ",
+              "word_offset_start": 463,
+              "word_offset_end": 486,
+              "char_offset_start": 2906,
+              "char_offset_end": 3033,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1809-07-08-wagram_s01_p07",
+          "paragraph_ordinal": 7,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1809-07-08-wagram_s01_p07_s01",
+              "sentence_ordinal": 1,
+              "text": "de bataille préparé par l'ennemi.",
+              "word_offset_start": 486,
+              "word_offset_end": 491,
+              "char_offset_start": 3035,
+              "char_offset_end": 3068,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1809-07-08-wagram_s01_p07_s02",
+              "sentence_ordinal": 2,
+              "text": "Mais, dans ce dernier cas, on ne voyait pas comment écarter les inconvénients qui avaient déjà failli être funestes à l'armée, et parvenir, en deux ou trois jours, à mettre ces nouveaux ponts à l'abri des machines de l'ennemi.",
+              "word_offset_start": 491,
+              "word_offset_end": 530,
+              "char_offset_start": 3069,
+              "char_offset_end": 3295,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1809-07-08-wagram_s01_p08",
+          "paragraph_ordinal": 8,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1809-07-08-wagram_s01_p08_s01",
+              "sentence_ordinal": 1,
+              "text": "D'un autre côté, l'Empereur était tranquille.",
+              "word_offset_start": 530,
+              "word_offset_end": 536,
+              "char_offset_start": 3297,
+              "char_offset_end": 3342,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1809-07-08-wagram_s01_p08_s02",
+              "sentence_ordinal": 2,
+              "text": "On voyait élever ouvrages sur ouvrages dans l'ile Lobau, et établir sur le même point plusieurs ponts sur pilotis et plusieurs rangs d'estacades.",
+              "word_offset_start": 536,
+              "word_offset_end": 559,
+              "char_offset_start": 3343,
+              "char_offset_end": 3488,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1809-07-08-wagram_s01_p09",
+          "paragraph_ordinal": 9,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1809-07-08-wagram_s01_p09_s01",
+              "sentence_ordinal": 1,
+              "text": "Cette situation de l'armée française placée entre ces deux grandes difficultés n'avait pas échappé à l'ennemi.",
+              "word_offset_start": 559,
+              "word_offset_end": 575,
+              "char_offset_start": 3490,
+              "char_offset_end": 3600,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1809-07-08-wagram_s01_p09_s02",
+              "sentence_ordinal": 2,
+              "text": "Il convenait que son armée, trop nombreuse et pas assez maniable, s'exposerait à une perte certaine si elle prenait l'offensive ; mais en même temps il croyait qu'il était impossible de le déposter de la position centrale où il couvrait la Bohême, la Moravie et une partie de la Hongrie.",
+              "word_offset_start": 575,
+              "word_offset_end": 625,
+              "char_offset_start": 3601,
+              "char_offset_end": 3888,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1809-07-08-wagram_s01_p09_s03",
+              "sentence_ordinal": 3,
+              "text": "Il est vrai que.",
+              "word_offset_start": 625,
+              "word_offset_end": 629,
+              "char_offset_start": 3889,
+              "char_offset_end": 3905,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1809-07-08-wagram_s01_p10",
+          "paragraph_ordinal": 10,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1809-07-08-wagram_s01_p10_s01",
+              "sentence_ordinal": 1,
+              "text": "cette position ne couvrait pas Vienne et que les Français étaient en possession de cette capitale; mais cette possession' était, jusqu'à un certaija point, disputée, puisque les Autrichiens se maintenaient maîtres d'une rive du Danube et empêchaient les arrivages des choses les plus nécessaires à la subsistance d'une si grande cité.",
+              "word_offset_start": 629,
+              "word_offset_end": 680,
+              "char_offset_start": 3907,
+              "char_offset_end": 4241,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1809-07-08-wagram_s01_p10_s02",
+              "sentence_ordinal": 2,
+              "text": "Telles étaient les raisons d'espérance et de crainte, et la matière des conversations des deux armées.",
+              "word_offset_start": 680,
+              "word_offset_end": 696,
+              "char_offset_start": 4242,
+              "char_offset_end": 4344,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1809-07-08-wagram_s01_p11",
+          "paragraph_ordinal": 11,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1809-07-08-wagram_s01_p11_s01",
+              "sentence_ordinal": 1,
+              "text": "Lorsque le 1er juillet, à quatre heures du matin, l'Empereur porta son quartier général à l'ile Lobau, qui avait déjà été nommée par les ingénieurs île Napoléon, une petite île, à laquelle on avait donné le nom du duc de Montebello et qui battait Enzersdorf, avait été armée de dix mortiers et de vingt pièces de 18; une autre île nommée l'-ile Espagne avait été armée de six pièces de position de 12 et de quatre mortiers.",
+              "word_offset_start": 696,
+              "word_offset_end": 773,
+              "char_offset_start": 4346,
+              "char_offset_end": 4769,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1809-07-08-wagram_s01_p11_s02",
+              "sentence_ordinal": 2,
+              "text": "Entre ces deux îles on avait établi une batterie égale en force à celle de Vile Alontebello et battant également Enzersdorf.",
+              "word_offset_start": 773,
+              "word_offset_end": 794,
+              "char_offset_start": 4770,
+              "char_offset_end": 4894,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1809-07-08-wagram_s01_p11_s03",
+              "sentence_ordinal": 3,
+              "text": "Ces soixante-deux pièces de position avaient le même but et devaient en deux heures de temps raser la petite ville d'Enzersdorf, en chasser l'ennemi et en détruire les ouvrages.",
+              "word_offset_start": 794,
+              "word_offset_end": 823,
+              "char_offset_start": 4895,
+              "char_offset_end": 5072,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1809-07-08-wagram_s01_p11_s04",
+              "sentence_ordinal": 4,
+              "text": "Sur la droite, l'île Alexandre était armée de quatre mortiers, de dix pièces de 12 et de douze pièces de 6 de position, qui avaient pour but de battre la plaine et de protéger le ploiement et le déploiement de nos ponts.",
+              "word_offset_start": 823,
+              "word_offset_end": 865,
+              "char_offset_start": 5073,
+              "char_offset_end": 5293,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1809-07-08-wagram_s01_p12",
+          "paragraph_ordinal": 12,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1809-07-08-wagram_s01_p12_s01",
+              "sentence_ordinal": 1,
+              "text": "Le 2, le l, aide de camp du duc de Rivoli, passa avec 500 voltigeurs dans l'île du Moulin, et s'en empara.",
+              "word_offset_start": 865,
+              "word_offset_end": 887,
+              "char_offset_start": 5295,
+              "char_offset_end": 5401,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1809-07-08-wagram_s01_p12_s02",
+              "sentence_ordinal": 2,
+              "text": "On arma cette île; on la joignit au continent par un petit pont qui allait à la rive gauche; en avant, on construisit une petite flèche qpe l'on appela Redoute Petit.",
+              "word_offset_start": 887,
+              "word_offset_end": 918,
+              "char_offset_start": 5402,
+              "char_offset_end": 5568,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1809-07-08-wagram_s01_p12_s03",
+              "sentence_ordinal": 3,
+              "text": "Le soir, les redoutes d'Essling en parurent jalouses; ne doutant pas que ce ne fùt une première batterie que 1 Le chef de bataillon Pelet.",
+              "word_offset_start": 918,
+              "word_offset_end": 943,
+              "char_offset_start": 5569,
+              "char_offset_end": 5707,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1809-07-08-wagram_s01_p13",
+          "paragraph_ordinal": 13,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1809-07-08-wagram_s01_p13_s01",
+              "sentence_ordinal": 1,
+              "text": "l'on voulait faire agir contre elles, elles tirèrent avec la plus grande activité.",
+              "word_offset_start": 943,
+              "word_offset_end": 956,
+              "char_offset_start": 5709,
+              "char_offset_end": 5791,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1809-07-08-wagram_s01_p13_s02",
+              "sentence_ordinal": 2,
+              "text": "C'était précisément l'intention que l'on avait eue en s'emparant de cette île : on voulait y attirer l'attention de l'ennemi pour le détourner du véritable but de l'opération.",
+              "word_offset_start": 956,
+              "word_offset_end": 984,
+              "char_offset_start": 5792,
+              "char_offset_end": 5967,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1809-07-08-wagram_s01_p14",
+          "paragraph_ordinal": 14,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1809-07-08-wagram_s01_p14_s01",
+              "sentence_ordinal": 1,
+              "text": "PASSAGE DU BRAS DU DAKUBE A L'ILE LOBAU.",
+              "word_offset_start": 984,
+              "word_offset_end": 992,
+              "char_offset_start": 5969,
+              "char_offset_end": 6009,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1809-07-08-wagram_s01_p15",
+          "paragraph_ordinal": 15,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1809-07-08-wagram_s01_p15_s01",
+              "sentence_ordinal": 1,
+              "text": "Le 4, à dix heures du soir, le général Oudinot fit embarquer sur le grand bras du Danube 1,500 voltigeurs commandés par le général Conroux.",
+              "word_offset_start": 992,
+              "word_offset_end": 1017,
+              "char_offset_start": 6011,
+              "char_offset_end": 6150,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1809-07-08-wagram_s01_p15_s02",
+              "sentence_ordinal": 2,
+              "text": "Le colonel Baste, avec dix chaloupes canonnières, les convoya et les débarqua au delà du petit bras de l'île Lobau dans le Danube.",
+              "word_offset_start": 1017,
+              "word_offset_end": 1040,
+              "char_offset_start": 6151,
+              "char_offset_end": 6281,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1809-07-08-wagram_s01_p15_s03",
+              "sentence_ordinal": 3,
+              "text": "Les batteries de l'ennemi furent bientôt écrasées, et il fut chassé des bois jusqu'au village de Mühlleuten.",
+              "word_offset_start": 1040,
+              "word_offset_end": 1057,
+              "char_offset_start": 6282,
+              "char_offset_end": 6390,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1809-07-08-wagram_s01_p15_s04",
+              "sentence_ordinal": 4,
+              "text": "A onze heures du soir, les batteries dirigées contre Enzersdorf reçurent l'ordre de commencer leur feu.",
+              "word_offset_start": 1057,
+              "word_offset_end": 1073,
+              "char_offset_start": 6391,
+              "char_offset_end": 6494,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1809-07-08-wagram_s01_p15_s05",
+              "sentence_ordinal": 5,
+              "text": "Les obus brûlèrent cette infortunée petite ville, et en moins d'une demi-heure les batteries ennemies furent éteintes.",
+              "word_offset_start": 1073,
+              "word_offset_end": 1090,
+              "char_offset_start": 6495,
+              "char_offset_end": 6613,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1809-07-08-wagram_s01_p16",
+          "paragraph_ordinal": 16,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1809-07-08-wagram_s01_p16_s01",
+              "sentence_ordinal": 1,
+              "text": "Le chef de bataillon Dessalles, directeur des équipages des ponts, et l'ingénieur de marine avaient préparé, dans le bras de l'île Alexandre, un pont de 80 toises, d'une seule pièce, et cinq gros bacs.",
+              "word_offset_start": 1090,
+              "word_offset_end": 1124,
+              "char_offset_start": 6615,
+              "char_offset_end": 6816,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1809-07-08-wagram_s01_p17",
+          "paragraph_ordinal": 17,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1809-07-08-wagram_s01_p17_s01",
+              "sentence_ordinal": 1,
+              "text": "Le colonel Sainte-Croix, aide de camp du duc de Rivoli, se jeta dans des barques avec 1,500 hommes et débarqua sur la rive gauche.",
+              "word_offset_start": 1124,
+              "word_offset_end": 1148,
+              "char_offset_start": 6818,
+              "char_offset_end": 6948,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1809-07-08-wagram_s01_p18",
+          "paragraph_ordinal": 18,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1809-07-08-wagram_s01_p18_s01",
+              "sentence_ordinal": 1,
+              "text": "Le pont d'une seule pièce, le premier de cette espèce qui jusqu'à ce jour ait été construit, fut placé en moins de cinq minutes, et l'infanterie y passa au pas accéléré.",
+              "word_offset_start": 1148,
+              "word_offset_end": 1179,
+              "char_offset_start": 6950,
+              "char_offset_end": 7119,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1809-07-08-wagram_s01_p19",
+          "paragraph_ordinal": 19,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1809-07-08-wagram_s01_p19_s01",
+              "sentence_ordinal": 1,
+              "text": "Le capitaine Bazelles jeta un pont de bateaux en une heure et demie.",
+              "word_offset_start": 1179,
+              "word_offset_end": 1192,
+              "char_offset_start": 7121,
+              "char_offset_end": 7189,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1809-07-08-wagram_s01_p20",
+          "paragraph_ordinal": 20,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1809-07-08-wagram_s01_p20_s01",
+              "sentence_ordinal": 1,
+              "text": "Le capitaine Peyerimoff jeta un pont de radeaux en deux heures.",
+              "word_offset_start": 1192,
+              "word_offset_end": 1203,
+              "char_offset_start": 7191,
+              "char_offset_end": 7254,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1809-07-08-wagram_s01_p21",
+          "paragraph_ordinal": 21,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1809-07-08-wagram_s01_p21_s01",
+              "sentence_ordinal": 1,
+              "text": "Ainsi, à deux heures après minuit, l'armée avait quatre ponts et avait débouché, la gauche à 1,500 torses au-dessous dtEnzersdorf, protégée par les batteries, et la droite sur Wittau.",
+              "word_offset_start": 1203,
+              "word_offset_end": 1232,
+              "char_offset_start": 7256,
+              "char_offset_end": 7439,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1809-07-08-wagram_s01_p21_s02",
+              "sentence_ordinal": 2,
+              "text": "Le corps du duc de Rivoli forma la gauche, celui du comte Oudinot le centre, et celui du duc d'Auerstaedt la droite.",
+              "word_offset_start": 1232,
+              "word_offset_end": 1254,
+              "char_offset_start": 7440,
+              "char_offset_end": 7556,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1809-07-08-wagram_s01_p21_s03",
+              "sentence_ordinal": 3,
+              "text": "Les corps du prince de PonteCorvo, du vice-roi et du duc de Raguse, la Garde et les cuirassiers, formaient la seconde ligne et les réserves.",
+              "word_offset_start": 1254,
+              "word_offset_end": 1279,
+              "char_offset_start": 7557,
+              "char_offset_end": 7697,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1809-07-08-wagram_s01_p21_s04",
+              "sentence_ordinal": 4,
+              "text": "Une profonde obscurité , un violent orage et une' pluie qui tombait par torrents rendaient cette nuit aussi affreuse qu'elle était propice à l'armée française et qu'elle devait lui être glorieuse.",
+              "word_offset_start": 1279,
+              "word_offset_end": 1310,
+              "char_offset_start": 7698,
+              "char_offset_end": 7894,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1809-07-08-wagram_s01_p22",
+          "paragraph_ordinal": 22,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1809-07-08-wagram_s01_p22_s01",
+              "sentence_ordinal": 1,
+              "text": "Le 5, aux premiers rayons du soleil, tout le monde reconnut quel avait été le projet de l'Empereur, qui se trouvait alors avec son armée en bataille sur l'extrémité de la gauche de l'ennemi, ayant",
+              "word_offset_start": 1310,
+              "word_offset_end": 1345,
+              "char_offset_start": 7896,
+              "char_offset_end": 8092,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1809-07-08-wagram_s01_p23",
+          "paragraph_ordinal": 23,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1809-07-08-wagram_s01_p23_s01",
+              "sentence_ordinal": 1,
+              "text": "tourné tous ses camps retranchés, ayant rendu tous ses ouvrages inutiles, et obligeant ainsi les Autrichiens à sortir de leurs positions et à venir lui livrer bataille dans le terrain qui lui convenait.",
+              "word_offset_start": 1345,
+              "word_offset_end": 1378,
+              "char_offset_start": 8094,
+              "char_offset_end": 8296,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1809-07-08-wagram_s01_p23_s02",
+              "sentence_ordinal": 2,
+              "text": "Ce grand problème était résolu, et, sans passer le Danube ailleurs, sans recevoir aucune protection des ouvrages qu'on avait construits , on forçait l'ennemi à se battre à trois quarts de lieue de ses redoutes.",
+              "word_offset_start": 1378,
+              "word_offset_end": 1413,
+              "char_offset_start": 8297,
+              "char_offset_end": 8507,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1809-07-08-wagram_s01_p24",
+          "paragraph_ordinal": 24,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1809-07-08-wagram_s01_p24_s01",
+              "sentence_ordinal": 1,
+              "text": "On présagea dès lors les plus grands et les plus heureux résultats.",
+              "word_offset_start": 1413,
+              "word_offset_end": 1425,
+              "char_offset_start": 8509,
+              "char_offset_end": 8576,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1809-07-08-wagram_s01_p25",
+          "paragraph_ordinal": 25,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1809-07-08-wagram_s01_p25_s01",
+              "sentence_ordinal": 1,
+              "text": "A huit heures du matin, les batteries qui tiraient sur Enzersdorf avaient produit un tel effet, que l'ennemi s'était borné à laisser occuper cette ville par quatre bataillons.",
+              "word_offset_start": 1425,
+              "word_offset_end": 1453,
+              "char_offset_start": 8578,
+              "char_offset_end": 8753,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1809-07-08-wagram_s01_p25_s02",
+              "sentence_ordinal": 2,
+              "text": "Le duc de Rivoli fit marcher contre elle son premier aide de camp Sainte-Croix, qui n'éprouva pas une grande résistance, s'en empara, et fit prisonnier tout ce qui s'y trouvait.",
+              "word_offset_start": 1453,
+              "word_offset_end": 1483,
+              "char_offset_start": 8754,
+              "char_offset_end": 8931,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1809-07-08-wagram_s01_p26",
+          "paragraph_ordinal": 26,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1809-07-08-wagram_s01_p26_s01",
+              "sentence_ordinal": 1,
+              "text": "Le comte Oudinot cerna le château de Sachsengang, que l'ennemi avait fortifié, fit capituler les 900 hommes qui le défendaient, et prit douze pièces de canon.",
+              "word_offset_start": 1483,
+              "word_offset_end": 1509,
+              "char_offset_start": 8933,
+              "char_offset_end": 9091,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1809-07-08-wagram_s01_p27",
+          "paragraph_ordinal": 27,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1809-07-08-wagram_s01_p27_s01",
+              "sentence_ordinal": 1,
+              "text": "L'Empereur fit alors déployer toute l'armée dans l'immense plaine d'Enzersdorf.",
+              "word_offset_start": 1509,
+              "word_offset_end": 1519,
+              "char_offset_start": 9093,
+              "char_offset_end": 9172,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1809-07-08-wagram_s01_p28",
+          "paragraph_ordinal": 28,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1809-07-08-wagram_s01_p28_s01",
+              "sentence_ordinal": 1,
+              "text": "BATAILLE D'ENZERSDORF.",
+              "word_offset_start": 1519,
+              "word_offset_end": 1521,
+              "char_offset_start": 9174,
+              "char_offset_end": 9196,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1809-07-08-wagram_s01_p29",
+          "paragraph_ordinal": 29,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1809-07-08-wagram_s01_p29_s01",
+              "sentence_ordinal": 1,
+              "text": "Cependant l'ennemi, confondu dans ses projets, revint peu à peu de sa surprise et tenta de ressaisir quelques avantages dans ce nouveau champ de bataille.",
+              "word_offset_start": 1521,
+              "word_offset_end": 1546,
+              "char_offset_start": 9198,
+              "char_offset_end": 9352,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1809-07-08-wagram_s01_p29_s02",
+              "sentence_ordinal": 2,
+              "text": "A cet effet, il détacha plusieurs colonnes d'infanterie, un bon nombre de pièces d'artillerie et toute sa cavalerie, tant de ligne que d'insurgés, pour essayer de déborder la droite de l'armée française.",
+              "word_offset_start": 1546,
+              "word_offset_end": 1578,
+              "char_offset_start": 9353,
+              "char_offset_end": 9556,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1809-07-08-wagram_s01_p29_s03",
+              "sentence_ordinal": 3,
+              "text": "En conséquence il vint occuper le village de Rutzendorf.",
+              "word_offset_start": 1578,
+              "word_offset_end": 1587,
+              "char_offset_start": 9557,
+              "char_offset_end": 9613,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1809-07-08-wagram_s01_p29_s04",
+              "sentence_ordinal": 4,
+              "text": "L'Empereur ordonna au général Oudinot de faire enlever ce village, à la droite duquel il lit passer le duc d'Auerstaedt pour se diriger sur le quartier général du prince Charles, en marchant toujours de la droite à la gauche.",
+              "word_offset_start": 1587,
+              "word_offset_end": 1626,
+              "char_offset_start": 9614,
+              "char_offset_end": 9839,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1809-07-08-wagram_s01_p30",
+          "paragraph_ordinal": 30,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1809-07-08-wagram_s01_p30_s01",
+              "sentence_ordinal": 1,
+              "text": "Depuis midi jusqu'à neuf heures du soir, on manœuvra dans celle immense plaine, on occupa tous les villages; et à mesure qu'on arrivait à la hauteur des camps retranchés de l'ennemi, ils tombaient d'eux-mêmes et comme par enchantement.",
+              "word_offset_start": 1626,
+              "word_offset_end": 1664,
+              "char_offset_start": 9841,
+              "char_offset_end": 10076,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1809-07-08-wagram_s01_p30_s02",
+              "sentence_ordinal": 2,
+              "text": "Le duc de Rivoli les faisait occuper sans résistance.",
+              "word_offset_start": 1664,
+              "word_offset_end": 1673,
+              "char_offset_start": 10077,
+              "char_offset_end": 10130,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1809-07-08-wagram_s01_p30_s03",
+              "sentence_ordinal": 3,
+              "text": "C'est ainsi que nous nous sommes emparés des ouvrages d'Essling et d'Aspern, et que le travail de quarante jours n'a été d'aucune utilité à l'ennemi.",
+              "word_offset_start": 1673,
+              "word_offset_end": 1698,
+              "char_offset_start": 10131,
+              "char_offset_end": 10280,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1809-07-08-wagram_s01_p30_s04",
+              "sentence_ordinal": 4,
+              "text": "Il fit quelque résistance au village de Raasdorf, que le prince de Ponte-Corvo fit attaquer et enlever par les Saxons.",
+              "word_offset_start": 1698,
+              "word_offset_end": 1718,
+              "char_offset_start": 10281,
+              "char_offset_end": 10399,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1809-07-08-wagram_s01_p30_s05",
+              "sentence_ordinal": 5,
+              "text": "L'ennemi fut partout mené battant et écrasé par la supériorité de notre feu.",
+              "word_offset_start": 1718,
+              "word_offset_end": 1731,
+              "char_offset_start": 10400,
+              "char_offset_end": 10476,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1809-07-08-wagram_s01_p30_s06",
+              "sentence_ordinal": 6,
+              "text": "Cet immense champ de bataille resta couvert de ses débris.",
+              "word_offset_start": 1731,
+              "word_offset_end": 1741,
+              "char_offset_start": 10477,
+              "char_offset_end": 10535,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1809-07-08-wagram_s01_p31",
+          "paragraph_ordinal": 31,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1809-07-08-wagram_s01_p31_s01",
+              "sentence_ordinal": 1,
+              "text": "BATAILLE DE WAGRAM.",
+              "word_offset_start": 1741,
+              "word_offset_end": 1744,
+              "char_offset_start": 10537,
+              "char_offset_end": 10556,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1809-07-08-wagram_s01_p32",
+          "paragraph_ordinal": 32,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1809-07-08-wagram_s01_p32_s01",
+              "sentence_ordinal": 1,
+              "text": "Vivement effrayé des progrès de l'armée française et des grands résultats qu'elle obtenait presque sans efforts, l'ennemi fit marcher toutes ses troupes, et à six heures du soir il occupa la position suivante : sa droite , de Stadelau à Gerasdorf; son centre, de Gerasdorf à Wagram, et sa gauche, de Wagram à Neusiedel.",
+              "word_offset_start": 1744,
+              "word_offset_end": 1798,
+              "char_offset_start": 10558,
+              "char_offset_end": 10877,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1809-07-08-wagram_s01_p32_s02",
+              "sentence_ordinal": 2,
+              "text": "L'armée française avait sa gauche à Aspern, son centre à Haasdorf, et sa droite à Glinzendorf.",
+              "word_offset_start": 1798,
+              "word_offset_end": 1814,
+              "char_offset_start": 10878,
+              "char_offset_end": 10972,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1809-07-08-wagram_s01_p32_s03",
+              "sentence_ordinal": 3,
+              "text": "Dans cette position, la journée paraissait presque finie, et il fallait s'altendre à avoir le lendemain une grande bataille; mais on l'évitait, et on coupait la position de l'ennemi en l'empêchant de concevoir aucun système, si dans la nuit on s'emparait du village de Wagram.",
+              "word_offset_start": 1814,
+              "word_offset_end": 1859,
+              "char_offset_start": 10973,
+              "char_offset_end": 11249,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1809-07-08-wagram_s01_p32_s04",
+              "sentence_ordinal": 4,
+              "text": "Alors sa ligne, déjà immense, prise à la hâte et par les chances du combat, laissait errer les différents corps de l'armée sans ordre et sans direction , et on en aurait eu bon marché, sans engagement sérieux.",
+              "word_offset_start": 1859,
+              "word_offset_end": 1897,
+              "char_offset_start": 11250,
+              "char_offset_end": 11459,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1809-07-08-wagram_s01_p32_s05",
+              "sentence_ordinal": 5,
+              "text": "L'allaque de Wagram eut lieu ; nos troupes emportèrent ce village; mais une colonne de Saxons et une colonne de Français se prirent dans l'obscurité pour des troupes ennemies, et cette opération fut manquée.",
+              "word_offset_start": 1897,
+              "word_offset_end": 1931,
+              "char_offset_start": 11460,
+              "char_offset_end": 11667,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1809-07-08-wagram_s01_p33",
+          "paragraph_ordinal": 33,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1809-07-08-wagram_s01_p33_s01",
+              "sentence_ordinal": 1,
+              "text": "On se prépara alors à la bataille de Wagram.",
+              "word_offset_start": 1931,
+              "word_offset_end": 1940,
+              "char_offset_start": 11669,
+              "char_offset_end": 11713,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1809-07-08-wagram_s01_p33_s02",
+              "sentence_ordinal": 2,
+              "text": "Il paraît que les dispositions du général français et du général autrichien furent inverses.",
+              "word_offset_start": 1940,
+              "word_offset_end": 1954,
+              "char_offset_start": 11714,
+              "char_offset_end": 11806,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1809-07-08-wagram_s01_p33_s03",
+              "sentence_ordinal": 3,
+              "text": "L'Empereur passa toute la nuit à rassembler ses forces sur son centre, où il était de sa personne, à une portée de canon de Wagram.",
+              "word_offset_start": 1954,
+              "word_offset_end": 1979,
+              "char_offset_start": 11807,
+              "char_offset_end": 11938,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1809-07-08-wagram_s01_p33_s04",
+              "sentence_ordinal": 4,
+              "text": "A cet effet, le duc de Rivoli se porta sur la gauche d'Aderklaa, en laissant sur Aspern une seule division , qui eut ordre de se replier en cas d'événement sur l'ile Lobau.",
+              "word_offset_start": 1979,
+              "word_offset_end": 2012,
+              "char_offset_start": 11939,
+              "char_offset_end": 12111,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1809-07-08-wagram_s01_p33_s05",
+              "sentence_ordinal": 5,
+              "text": "Le duc d'Auerstaedt recevait l'ordre de dépasser le village de Grosshofen pour s'approcher du centre.",
+              "word_offset_start": 2012,
+              "word_offset_end": 2027,
+              "char_offset_start": 12112,
+              "char_offset_end": 12213,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1809-07-08-wagram_s01_p33_s06",
+              "sentence_ordinal": 6,
+              "text": "Le général autrichien, au contraire, affaiblissait son centre pour garnir et augmenter ses extrémités, auxquelles il donnait une nouvelle étendue.",
+              "word_offset_start": 2027,
+              "word_offset_end": 2047,
+              "char_offset_start": 12214,
+              "char_offset_end": 12360,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1809-07-08-wagram_s01_p34",
+          "paragraph_ordinal": 34,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1809-07-08-wagram_s01_p34_s01",
+              "sentence_ordinal": 1,
+              "text": "Le 6, à la pointe du jour, le prince de Ponte-Corvo occupa la gauche, ayant en seconde ligne le duc de Rivoli.",
+              "word_offset_start": 2047,
+              "word_offset_end": 2069,
+              "char_offset_start": 12362,
+              "char_offset_end": 12472,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1809-07-08-wagram_s01_p34_s02",
+              "sentence_ordinal": 2,
+              "text": "Le vice-roi le liait au centre, où le corps du comte Oudinot, celui du duc de Raguse, ceux de la Garde impériale et les divisions de cuirassiers formaient sept ou huit lignes.",
+              "word_offset_start": 2069,
+              "word_offset_end": 2101,
+              "char_offset_start": 12473,
+              "char_offset_end": 12648,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1809-07-08-wagram_s01_p35",
+          "paragraph_ordinal": 35,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1809-07-08-wagram_s01_p35_s01",
+              "sentence_ordinal": 1,
+              "text": "Le duc d'Auerstaedt marcha de la droite pour arriver au centre.",
+              "word_offset_start": 2101,
+              "word_offset_end": 2112,
+              "char_offset_start": 12650,
+              "char_offset_end": 12713,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1809-07-08-wagram_s01_p36",
+          "paragraph_ordinal": 36,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1809-07-08-wagram_s01_p36_s01",
+              "sentence_ordinal": 1,
+              "text": "L'ennemi, au contraire, mettait le corps de Bellegarde en marche sur Stadelau.",
+              "word_offset_start": 2112,
+              "word_offset_end": 2124,
+              "char_offset_start": 12715,
+              "char_offset_end": 12793,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1809-07-08-wagram_s01_p36_s02",
+              "sentence_ordinal": 2,
+              "text": "Les corps de Kollowrat, de Liechtenstein et de Hiller liaient cette droite à la position de Wagram, où était le prince de Hohenzollern, et à l'extrémité de la gauche à Neusiedel, où débouchait le corps de Rosenberg pour déborder également le duc d'Auer-",
+              "word_offset_start": 2124,
+              "word_offset_end": 2167,
+              "char_offset_start": 12794,
+              "char_offset_end": 13047,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1809-07-08-wagram_s01_p37",
+          "paragraph_ordinal": 37,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1809-07-08-wagram_s01_p37_s01",
+              "sentence_ordinal": 1,
+              "text": "staedt.",
+              "word_offset_start": 2167,
+              "word_offset_end": 2168,
+              "char_offset_start": 13049,
+              "char_offset_end": 13056,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1809-07-08-wagram_s01_p37_s02",
+              "sentence_ordinal": 2,
+              "text": "Le corps de Rosenberg et celui du duc d'Auerstaedt, faisant un mouvement inverse, se rencontrèrent aux premiers rayons du soleil et donnèrent le signal de la bataille.",
+              "word_offset_start": 2168,
+              "word_offset_end": 2195,
+              "char_offset_start": 13057,
+              "char_offset_end": 13224,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1809-07-08-wagram_s01_p37_s03",
+              "sentence_ordinal": 3,
+              "text": "L'Empereur se porta aussitôt sur ce point, fit renforcer le duc d'Auerstaedt par la division de cuirassiers du duc de Padoue, et fit prendre le corps de Rosenberg en flanc par une batterie de douze pièces de la division du général comte de Nansouty.",
+              "word_offset_start": 2195,
+              "word_offset_end": 2239,
+              "char_offset_start": 13225,
+              "char_offset_end": 13474,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1809-07-08-wagram_s01_p37_s04",
+              "sentence_ordinal": 4,
+              "text": "En moins de trois quarts d'heure, Le beau corps du duc d'Auerstaedt eut fait raison du corps de Rosenberg, le culbuta et le rejeta au delà de Neusiedel, après lui avoir fait beaucoup de mal.",
+              "word_offset_start": 2239,
+              "word_offset_end": 2274,
+              "char_offset_start": 13475,
+              "char_offset_end": 13665,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1809-07-08-wagram_s01_p38",
+          "paragraph_ordinal": 38,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1809-07-08-wagram_s01_p38_s01",
+              "sentence_ordinal": 1,
+              "text": "Pendant ce temps la canonnade s'engageait sur toute la ligne, et les dispositions de l'ennemi se développaient de moment en moment.",
+              "word_offset_start": 2274,
+              "word_offset_end": 2295,
+              "char_offset_start": 13667,
+              "char_offset_end": 13798,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1809-07-08-wagram_s01_p39",
+          "paragraph_ordinal": 39,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1809-07-08-wagram_s01_p39_s01",
+              "sentence_ordinal": 1,
+              "text": "Toute sa gauche se garnissait d'artillerie.",
+              "word_offset_start": 2295,
+              "word_offset_end": 2301,
+              "char_offset_start": 13800,
+              "char_offset_end": 13843,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1809-07-08-wagram_s01_p39_s02",
+              "sentence_ordinal": 2,
+              "text": "On eût dit que le général autrichien ne se battait pas pour la victoire, mais qu'il n'avait en vue que le moyen d'en profiter.",
+              "word_offset_start": 2301,
+              "word_offset_end": 2325,
+              "char_offset_start": 13844,
+              "char_offset_end": 13970,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1809-07-08-wagram_s01_p39_s03",
+              "sentence_ordinal": 3,
+              "text": "Cette disposition de l'ennemi paraissait si insensée que l'on craignait quelque piège, et que l'Empereur différa quelque temps avant d'ordonner les faciles dispositions qu'il avait à faire pour annuler celles de l'ennemi et les lui rendre funestes.",
+              "word_offset_start": 2325,
+              "word_offset_end": 2362,
+              "char_offset_start": 13971,
+              "char_offset_end": 14219,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1809-07-08-wagram_s01_p40",
+          "paragraph_ordinal": 40,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1809-07-08-wagram_s01_p40_s01",
+              "sentence_ordinal": 1,
+              "text": "Il ordonna au duc de Rivoli de faire une attaque sur le village qu'occupait l'ennemi, et qui pressait un peu l'extrémité du centre de l'armée.",
+              "word_offset_start": 2362,
+              "word_offset_end": 2387,
+              "char_offset_start": 14221,
+              "char_offset_end": 14363,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1809-07-08-wagram_s01_p40_s02",
+              "sentence_ordinal": 2,
+              "text": "Il ordonna au.duc d'Auerstaedt de tourner la position de Neusiedel et de pousser de là sur Wagram, et il fit former en colonnes le duc de Raguse et le général Macdonald pour enlever Wagram au moment où déboucherait le duc d'Auerstaedt.",
+              "word_offset_start": 2387,
+              "word_offset_end": 2428,
+              "char_offset_start": 14364,
+              "char_offset_end": 14599,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1809-07-08-wagram_s01_p40_s03",
+              "sentence_ordinal": 3,
+              "text": "Sur ces entrefaites, on vint prévenir que l'ennemi attaquait avec fureur le village qu'avait enlevé le duc de Rivoli, que notre gauche était débordée de 3,000 toises, qu'une vive canonnade se faisait déjà entendre à Aspern, et que l'intervalle d'Aspern à Wagram paraissait couvert dune immense ligne d'artillerie.",
+              "word_offset_start": 2428,
+              "word_offset_end": 2476,
+              "char_offset_start": 14600,
+              "char_offset_end": 14913,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1809-07-08-wagram_s01_p40_s04",
+              "sentence_ordinal": 4,
+              "text": "Il n'y eut plus à douter.",
+              "word_offset_start": 2476,
+              "word_offset_end": 2482,
+              "char_offset_start": 14914,
+              "char_offset_end": 14939,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1809-07-08-wagram_s01_p41",
+          "paragraph_ordinal": 41,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1809-07-08-wagram_s01_p41_s01",
+              "sentence_ordinal": 1,
+              "text": "L'ennemi commettait une énorme faute; il ne s'agissait que d'en profiter.",
+              "word_offset_start": 2482,
+              "word_offset_end": 2493,
+              "char_offset_start": 14941,
+              "char_offset_end": 15014,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1809-07-08-wagram_s01_p41_s02",
+              "sentence_ordinal": 2,
+              "text": "L'Empereur ordonna sur-le-champ au général MacdonaLd de disposer les divisions Broussier et Lamarque en colonnes d'attaque.",
+              "word_offset_start": 2493,
+              "word_offset_end": 2509,
+              "char_offset_start": 15015,
+              "char_offset_end": 15138,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1809-07-08-wagram_s01_p42",
+          "paragraph_ordinal": 42,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1809-07-08-wagram_s01_p42_s01",
+              "sentence_ordinal": 1,
+              "text": "Il les fit soutenir par la division du général Nansouty, par la Garde à cheval et par une batterie de soixante pièces de la Garde et de quarante pièces des différents corps.",
+              "word_offset_start": 2509,
+              "word_offset_end": 2541,
+              "char_offset_start": 15140,
+              "char_offset_end": 15313,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1809-07-08-wagram_s01_p42_s02",
+              "sentence_ordinal": 2,
+              "text": "Le général comte de Lauriston, à la tête de cette batterie de cent pièces d'artillerie, marcha au trot à l'ennemi, s'avança sans tirer jusqu'à la demi-portée du canon, et là commença un feu prodigieux qui éteignit celui de l'ennemi et porta la mort dans ses rangs.",
+              "word_offset_start": 2541,
+              "word_offset_end": 2587,
+              "char_offset_start": 15314,
+              "char_offset_end": 15578,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1809-07-08-wagram_s01_p42_s03",
+              "sentence_ordinal": 3,
+              "text": "Le général Macdonald marcha alors au pas de charge.",
+              "word_offset_start": 2587,
+              "word_offset_end": 2596,
+              "char_offset_start": 15579,
+              "char_offset_end": 15630,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1809-07-08-wagram_s01_p42_s04",
+              "sentence_ordinal": 4,
+              "text": "Le général de division Reille, avec la brigade de fusiliers et de tirailleurs de la Garde, soutenait le général Macdonald.",
+              "word_offset_start": 2596,
+              "word_offset_end": 2616,
+              "char_offset_start": 15631,
+              "char_offset_end": 15753,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1809-07-08-wagram_s01_p42_s05",
+              "sentence_ordinal": 5,
+              "text": "La",
+              "word_offset_start": 2616,
+              "word_offset_end": 2617,
+              "char_offset_start": 15754,
+              "char_offset_end": 15756,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1809-07-08-wagram_s01_p43",
+          "paragraph_ordinal": 43,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1809-07-08-wagram_s01_p43_s01",
+              "sentence_ordinal": 1,
+              "text": "-Garde avait fait un changement de front pour rendre cette attaque infaillible.",
+              "word_offset_start": 2617,
+              "word_offset_end": 2629,
+              "char_offset_start": 15758,
+              "char_offset_end": 15837,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1809-07-08-wagram_s01_p43_s02",
+              "sentence_ordinal": 2,
+              "text": "Dans un clin d'œil, le centre de l'ennemi perdit une lieue de terrain, sa droite épouvantée sentit le danger de la position où elle s'était placée et rétrograda en grande hàte.",
+              "word_offset_start": 2629,
+              "word_offset_end": 2660,
+              "char_offset_start": 15838,
+              "char_offset_end": 16014,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1809-07-08-wagram_s01_p43_s03",
+              "sentence_ordinal": 3,
+              "text": "Le duc de Rivoli l'attaqua alors en tête.",
+              "word_offset_start": 2660,
+              "word_offset_end": 2668,
+              "char_offset_start": 16015,
+              "char_offset_end": 16056,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1809-07-08-wagram_s01_p43_s04",
+              "sentence_ordinal": 4,
+              "text": "Pendant que la déroute du centre portait la consternation et forçait les mouvements dé la droi'te de l'ennemi, sa gauche était attaquée et débordée par le duc d'Auerstaedt, qui avait enlevé Neusiedel et 'qui, étant monté sur le plateau , marchait sur Wagram.",
+              "word_offset_start": 2668,
+              "word_offset_end": 2711,
+              "char_offset_start": 16057,
+              "char_offset_end": 16315,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1809-07-08-wagram_s01_p43_s05",
+              "sentence_ordinal": 5,
+              "text": "La division Broussier et la division Gudin se sont couvertes de gloire.",
+              "word_offset_start": 2711,
+              "word_offset_end": 2723,
+              "char_offset_start": 16316,
+              "char_offset_end": 16387,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1809-07-08-wagram_s01_p44",
+          "paragraph_ordinal": 44,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1809-07-08-wagram_s01_p44_s01",
+              "sentence_ordinal": 1,
+              "text": "Il n'était alors que dix heures du matin, et les hommes les moins clairvoyants voyaient que la journée était décidée et que la victoire était à nous.",
+              "word_offset_start": 2723,
+              "word_offset_end": 2750,
+              "char_offset_start": 16389,
+              "char_offset_end": 16538,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1809-07-08-wagram_s01_p45",
+          "paragraph_ordinal": 45,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1809-07-08-wagram_s01_p45_s01",
+              "sentence_ordinal": 1,
+              "text": "A midi, le comte Oudinot marcha sur Wagram pour aider à l'attaque du duc d'Auerstaedt.",
+              "word_offset_start": 2750,
+              "word_offset_end": 2765,
+              "char_offset_start": 16540,
+              "char_offset_end": 16626,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1809-07-08-wagram_s01_p45_s02",
+              "sentence_ordinal": 2,
+              "text": "Il y réussit et enleva cette importante position.",
+              "word_offset_start": 2765,
+              "word_offset_end": 2773,
+              "char_offset_start": 16627,
+              "char_offset_end": 16676,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1809-07-08-wagram_s01_p45_s03",
+              "sentence_ordinal": 3,
+              "text": "Dès dix heures, l'ennemi ne se battait plus que pour sa retraite ; dès midi, elle était prononcée et se faisait en désordre; et, beaucoup avant la nuit, l'ennemi était hors de vue.",
+              "word_offset_start": 2773,
+              "word_offset_end": 2806,
+              "char_offset_start": 16677,
+              "char_offset_end": 16857,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1809-07-08-wagram_s01_p45_s04",
+              "sentence_ordinal": 4,
+              "text": "Notre gauche était placée à ïédlersee et Ebersdorf, notre centre sur Obérsdorf, et la cavalerie de notre droite avait des postes jusqu'à Schœnkirchch.",
+              "word_offset_start": 2806,
+              "word_offset_end": 2829,
+              "char_offset_start": 16858,
+              "char_offset_end": 17008,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1809-07-08-wagram_s01_p46",
+          "paragraph_ordinal": 46,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1809-07-08-wagram_s01_p46_s01",
+              "sentence_ordinal": 1,
+              "text": "Le 7 à la pointe du jour, l'armée était en mouvement et marchait sur Kornrieuburg et Wolkersdorf, et avait des postes sur Nikolsburg.",
+              "word_offset_start": 2829,
+              "word_offset_end": 2852,
+              "char_offset_start": 17010,
+              "char_offset_end": 17143,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1809-07-08-wagram_s01_p47",
+          "paragraph_ordinal": 47,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1809-07-08-wagram_s01_p47_s01",
+              "sentence_ordinal": 1,
+              "text": "L'ennemi, coupé de la Hongrie et de la Moravie, se trouvait acculé du côté de la Bohême.",
+              "word_offset_start": 2852,
+              "word_offset_end": 2869,
+              "char_offset_start": 17145,
+              "char_offset_end": 17233,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1809-07-08-wagram_s01_p48",
+          "paragraph_ordinal": 48,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1809-07-08-wagram_s01_p48_s01",
+              "sentence_ordinal": 1,
+              "text": "Tel est le récit de la bataille de Wagram , bataille décisive et à jamais célèbre, où 3 à 400,000 hommes, douze à quinze cents pièces de canon se battaient pour de grands intérêts sur un champ de bataille étudié, médité., fortifié par l'ennemi depuis plusieurs mois.",
+              "word_offset_start": 2869,
+              "word_offset_end": 2916,
+              "char_offset_start": 17235,
+              "char_offset_end": 17501,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1809-07-08-wagram_s01_p48_s02",
+              "sentence_ordinal": 2,
+              "text": "Dix drapeaux , quarante pièces de canon, 20,000 prisonniers, dont 3 ou 400 officiers et bon nombre de généraux, de colonels et de majors, sont les trophées de cette victoire.",
+              "word_offset_start": 2916,
+              "word_offset_end": 2946,
+              "char_offset_start": 17502,
+              "char_offset_end": 17676,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1809-07-08-wagram_s01_p48_s03",
+              "sentence_ordinal": 3,
+              "text": "Les chafrips dè bataille sont couverts de morts, parmi lesquels oh trouvé les corps de plusieurs généraux, et, entre autres, d'un nommé Nordtnann, Français traître à sa patrie, qui avait prostitué ses talents contre elle.",
+              "word_offset_start": 2946,
+              "word_offset_end": 2981,
+              "char_offset_start": 17677,
+              "char_offset_end": 17898,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1809-07-08-wagram_s01_p49",
+          "paragraph_ordinal": 49,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1809-07-08-wagram_s01_p49_s01",
+              "sentence_ordinal": 1,
+              "text": "Tous les blessés de l'ennemi sont tombés eh notre pouvoir.",
+              "word_offset_start": 2981,
+              "word_offset_end": 2991,
+              "char_offset_start": 17900,
+              "char_offset_end": 17958,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1809-07-08-wagram_s01_p49_s02",
+              "sentence_ordinal": 2,
+              "text": "Ceux qu'il avait évacués au commëncefnent de l'action ont été trouvés dans les Villages environnants.",
+              "word_offset_start": 2991,
+              "word_offset_end": 3006,
+              "char_offset_start": 17959,
+              "char_offset_end": 18060,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1809-07-08-wagram_s01_p49_s03",
+              "sentence_ordinal": 3,
+              "text": "On peut calculer que le résultat de cette bataille sera de réduire l'armée autrichienne à mbins de 00,000 hommes.",
+              "word_offset_start": 3006,
+              "word_offset_end": 3025,
+              "char_offset_start": 18061,
+              "char_offset_end": 18174,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1809-07-08-wagram_s01_p50",
+          "paragraph_ordinal": 50,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1809-07-08-wagram_s01_p50_s01",
+              "sentence_ordinal": 1,
+              "text": "Notre perte a été. considérable; on l'évalue à 1,500 tués et 3 ou 4,000 blessés.",
+              "word_offset_start": 3025,
+              "word_offset_end": 3040,
+              "char_offset_start": 18176,
+              "char_offset_end": 18256,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1809-07-08-wagram_s01_p50_s02",
+              "sentence_ordinal": 2,
+              "text": "Le duc d'Istrie, au moment où il disposait l'attaque",
+              "word_offset_start": 3040,
+              "word_offset_end": 3049,
+              "char_offset_start": 18257,
+              "char_offset_end": 18309,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1809-07-08-wagram_s01_p51",
+          "paragraph_ordinal": 51,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1809-07-08-wagram_s01_p51_s01",
+              "sentence_ordinal": 1,
+              "text": "de la cavalerie, a eu son cheval emporté d'un coup de canon ; le boulet est tombé sur sa selle et lui a fait une légère contusion à la cuisse.",
+              "word_offset_start": 3049,
+              "word_offset_end": 3079,
+              "char_offset_start": 18311,
+              "char_offset_end": 18453,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1809-07-08-wagram_s01_p51_s02",
+              "sentence_ordinal": 2,
+              "text": "Le général de division Lasalle a été tué d'une balle.",
+              "word_offset_start": 3079,
+              "word_offset_end": 3089,
+              "char_offset_start": 18454,
+              "char_offset_end": 18507,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1809-07-08-wagram_s01_p51_s03",
+              "sentence_ordinal": 3,
+              "text": "C'était un officier du plus grand mérite, et l'un de nos meilleurs généraux de cavalerie légère.",
+              "word_offset_start": 3089,
+              "word_offset_end": 3105,
+              "char_offset_start": 18508,
+              "char_offset_end": 18604,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1809-07-08-wagram_s01_p51_s04",
+              "sentence_ordinal": 4,
+              "text": "Le général bavarois de HIrede et les généraux Seras, Grenier, Vignolle, Sahuc, Frère et Defrance ont été blessés.",
+              "word_offset_start": 3105,
+              "word_offset_end": 3123,
+              "char_offset_start": 18605,
+              "char_offset_end": 18718,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1809-07-08-wagram_s01_p52",
+          "paragraph_ordinal": 52,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1809-07-08-wagram_s01_p52_s01",
+              "sentence_ordinal": 1,
+              "text": "Le colonel prince Aldobrandini a été frappé au bras par une balle.",
+              "word_offset_start": 3123,
+              "word_offset_end": 3135,
+              "char_offset_start": 18720,
+              "char_offset_end": 18786,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1809-07-08-wagram_s01_p53",
+          "paragraph_ordinal": 53,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1809-07-08-wagram_s01_p53_s01",
+              "sentence_ordinal": 1,
+              "text": "Les majors de la Garde Daumesnil et Corbineau , et le colonel SainteCroix, ont aussi été blessés.",
+              "word_offset_start": 3135,
+              "word_offset_end": 3152,
+              "char_offset_start": 18788,
+              "char_offset_end": 18885,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1809-07-08-wagram_s01_p53_s02",
+              "sentence_ordinal": 2,
+              "text": "L'adjudant commandant Duprat a été tué.",
+              "word_offset_start": 3152,
+              "word_offset_end": 3158,
+              "char_offset_start": 18886,
+              "char_offset_end": 18925,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1809-07-08-wagram_s01_p53_s03",
+              "sentence_ordinal": 3,
+              "text": "Le colonel du 9e d'infanterie de ligne 1 est resté sur le champ de bataille.",
+              "word_offset_start": 3158,
+              "word_offset_end": 3173,
+              "char_offset_start": 18926,
+              "char_offset_end": 19002,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1809-07-08-wagram_s01_p53_s04",
+              "sentence_ordinal": 4,
+              "text": "Ce régiment s'est couvert dé gloire.",
+              "word_offset_start": 3173,
+              "word_offset_end": 3179,
+              "char_offset_start": 19003,
+              "char_offset_end": 19039,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1809-07-08-wagram_s01_p54",
+          "paragraph_ordinal": 54,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1809-07-08-wagram_s01_p54_s01",
+              "sentence_ordinal": 1,
+              "text": "L'état-major fait dresser l'état de nos pertes.",
+              "word_offset_start": 3179,
+              "word_offset_end": 3186,
+              "char_offset_start": 19041,
+              "char_offset_end": 19088,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1809-07-08-wagram_s01_p55",
+          "paragraph_ordinal": 55,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1809-07-08-wagram_s01_p55_s01",
+              "sentence_ordinal": 1,
+              "text": "Une circonstance particulière de cette grande bataille, c'est que les colonnes les plus rapprochées de Vienne n'en étaient pas à 1,200 toises.",
+              "word_offset_start": 3186,
+              "word_offset_end": 3208,
+              "char_offset_start": 19090,
+              "char_offset_end": 19232,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1809-07-08-wagram_s01_p56",
+          "paragraph_ordinal": 56,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1809-07-08-wagram_s01_p56_s01",
+              "sentence_ordinal": 1,
+              "text": "La nombreuse population de cette capitale couvrait les tours, les clochers, les toits, les monticules, pour être témoin de ce grand spectacle.",
+              "word_offset_start": 3208,
+              "word_offset_end": 3230,
+              "char_offset_start": 19234,
+              "char_offset_end": 19376,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1809-07-08-wagram_s01_p57",
+          "paragraph_ordinal": 57,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1809-07-08-wagram_s01_p57_s01",
+              "sentence_ordinal": 1,
+              "text": "L'empereur d'Autriche avait quitté Wolkersdorf le 6 , à cinq heures du matin, et était monté sur un belvédère d'où il voyait le champ de bataille et où il est resté jusqu'à midi.",
+              "word_offset_start": 3230,
+              "word_offset_end": 3263,
+              "char_offset_start": 19378,
+              "char_offset_end": 19556,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1809-07-08-wagram_s01_p57_s02",
+              "sentence_ordinal": 2,
+              "text": "Il est alors parti en toute hâte.",
+              "word_offset_start": 3263,
+              "word_offset_end": 3270,
+              "char_offset_start": 19557,
+              "char_offset_end": 19590,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1809-07-08-wagram_s01_p58",
+          "paragraph_ordinal": 58,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1809-07-08-wagram_s01_p58_s01",
+              "sentence_ordinal": 1,
+              "text": "Le quartier général français est arrivé à Wolkersdorf dans la matinée du 7.",
+              "word_offset_start": 3270,
+              "word_offset_end": 3283,
+              "char_offset_start": 19592,
+              "char_offset_end": 19667,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1809-07-08-wagram_s01_p59",
+          "paragraph_ordinal": 59,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1809-07-08-wagram_s01_p59_s01",
+              "sentence_ordinal": 1,
+              "text": "Extrait du Moniteur du 15 juillet J809.",
+              "word_offset_start": 3283,
+              "word_offset_end": 3290,
+              "char_offset_start": 19669,
+              "char_offset_end": 19708,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1809-07-08-wagram_s01_p60",
+          "paragraph_ordinal": 60,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1809-07-08-wagram_s01_p60_s01",
+              "sentence_ordinal": 1,
+              "text": "15506. - A EUGÈNE NAPOLÉON, VICE-ROI D'ITALIK, A STAMMERSDORF.",
+              "word_offset_start": 3290,
+              "word_offset_end": 3299,
+              "char_offset_start": 19710,
+              "char_offset_end": 19772,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1809-07-08-wagram_s01_p61",
+          "paragraph_ordinal": 61,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1809-07-08-wagram_s01_p61_s01",
+              "sentence_ordinal": 1,
+              "text": "Wolkersdorf, 9 juillet 1809.",
+              "word_offset_start": 3299,
+              "word_offset_end": 3303,
+              "char_offset_start": 19774,
+              "char_offset_end": 19802,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1809-07-08-wagram_s01_p62",
+          "paragraph_ordinal": 62,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1809-07-08-wagram_s01_p62_s01",
+              "sentence_ordinal": 1,
+              "text": "Monseigneur, l'Empereur ordonne que, demain , à une heure du matin , vous fassiez partir votre cavalerie légère, la division du général Pully et la cavalerie saxonne ; ce qui formera environ 4,000 hommes de cavalerie, que vous ferez appuyer de plusieurs divisions d'artillerie légère et par 3 à 4,000 hommes d'infanterie; et que vous dirigiez ce corps sur la March, afin de jeter sur la rive gauche tous les partis ennemis qui se trouvent encore sur la rive droite de cette rivière, et de vous emparer des ponts.",
+              "word_offset_start": 3303,
+              "word_offset_end": 3392,
+              "char_offset_start": 19804,
+              "char_offset_end": 20316,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1809-07-08-wagram_s01_p62_s02",
+              "sentence_ordinal": 2,
+              "text": "On suppose que l'ennemi peut être à Hof, à Marcbegg, à Anger ou Dürnkrut.",
+              "word_offset_start": 3392,
+              "word_offset_end": 3406,
+              "char_offset_start": 20317,
+              "char_offset_end": 20390,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1809-07-08-wagram_s01_p62_s03",
+              "sentence_ordinal": 3,
+              "text": "Il faut tâcher que, dans la journée de demain, la March soit couverte de vos postes jusqu'à la hauteur de Gœding.",
+              "word_offset_start": 3406,
+              "word_offset_end": 3427,
+              "char_offset_start": 20391,
+              "char_offset_end": 20504,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1809-07-08-wagram_s01_p63",
+          "paragraph_ordinal": 63,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1809-07-08-wagram_s01_p63_s01",
+              "sentence_ordinal": 1,
+              "text": "1 Le colonel Oudet.",
+              "word_offset_start": 3427,
+              "word_offset_end": 3431,
+              "char_offset_start": 20506,
+              "char_offset_end": 20525,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1809-07-08-wagram_s01_p64",
+          "paragraph_ordinal": 64,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1809-07-08-wagram_s01_p64_s01",
+              "sentence_ordinal": 1,
+              "text": "Avec le reste de. votre corps d'armée, Votre Altesse partira dans le jour pour porter son quartier général, soit à Leopoldsdorf, soit à Siebenbrunn, soit même plus à gauche, suivant les circonstances et les renseignements que vous auriez.",
+              "word_offset_start": 3431,
+              "word_offset_end": 3469,
+              "char_offset_start": 20527,
+              "char_offset_end": 20765,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1809-07-08-wagram_s01_p65",
+          "paragraph_ordinal": 65,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1809-07-08-wagram_s01_p65_s01",
+              "sentence_ordinal": 1,
+              "text": "Vous donnerez l'ordre à la flottille aux ordres du capitaine Baste de descendre jusque vis-à-vis Fischament.",
+              "word_offset_start": 3469,
+              "word_offset_end": 3485,
+              "char_offset_start": 20767,
+              "char_offset_end": 20875,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1809-07-08-wagram_s01_p65_s02",
+              "sentence_ordinal": 2,
+              "text": "Vous aurez soin d'envoyer, plusieurs fois chaque jour et par Ebersdorf, des ofuciers au général Baraguey d'Hilliers, afin de savoir ce qui se passe de son côté.",
+              "word_offset_start": 3485,
+              "word_offset_end": 3512,
+              "char_offset_start": 20876,
+              "char_offset_end": 21036,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1809-07-08-wagram_s01_p65_s03",
+              "sentence_ordinal": 3,
+              "text": "Donnez l'ordre au général Vandamme de porter son quartier général à Fischament, d'où il pourra, suivant les événements, se porter soit sur le général Baraguey d'Hilliers , soit sur vous, soit sur Neustadt.",
+              "word_offset_start": 3512,
+              "word_offset_end": 3545,
+              "char_offset_start": 21037,
+              "char_offset_end": 21242,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1809-07-08-wagram_s01_p66",
+          "paragraph_ordinal": 66,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1809-07-08-wagram_s01_p66_s01",
+              "sentence_ordinal": 1,
+              "text": "Hier matin il n'y avait rien de nouveau vis-à-vis Presbourg.",
+              "word_offset_start": 3545,
+              "word_offset_end": 3555,
+              "char_offset_start": 21244,
+              "char_offset_end": 21304,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1809-07-08-wagram_s01_p66_s02",
+              "sentence_ordinal": 2,
+              "text": "Où était donc l'archiduc Jean?",
+              "word_offset_start": 3555,
+              "word_offset_end": 3560,
+              "char_offset_start": 21305,
+              "char_offset_end": 21335,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1809-07-08-wagram_s01_p66_s03",
+              "sentence_ordinal": 3,
+              "text": "Il paraît qu'il voulait se réunir au prince Charles et que l'issue de la bataille l'en a empêché.",
+              "word_offset_start": 3560,
+              "word_offset_end": 3578,
+              "char_offset_start": 21336,
+              "char_offset_end": 21433,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1809-07-08-wagram_s01_p66_s04",
+              "sentence_ordinal": 4,
+              "text": "Ce qu'il y a de plus probable , c'est que l'archiduc Jean aura laissé un corps d'observation sur la basse March et se sera porté, avec le reste de ses forces et l'insurrection hongroise, sur Gœding pour maintenir la communication du prince Charles avec la Hongrie et inquiéter la droite de notre armée qui marcherait sur Brünn.",
+              "word_offset_start": 3578,
+              "word_offset_end": 3635,
+              "char_offset_start": 21434,
+              "char_offset_end": 21761,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1809-07-08-wagram_s01_p66_s05",
+              "sentence_ordinal": 5,
+              "text": "Vous sentez, Monseigneur, que tout ceci n'est que conjectures, et, comme votre objet a pour but d'être opposé à l'insurrection hongroise et au prince Jean, il faut vous tenir partout où il sera.",
+              "word_offset_start": 3635,
+              "word_offset_end": 3668,
+              "char_offset_start": 21762,
+              "char_offset_end": 21956,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1809-07-08-wagram_s01_p66_s06",
+              "sentence_ordinal": 6,
+              "text": "Ainsi, s'il est vrai que ce prince remonte la March, il faut que votre quartier général soit placé de manière à rejoindre l'armée si le prince Jean se rallie à celle du prince Charles.",
+              "word_offset_start": 3668,
+              "word_offset_end": 3702,
+              "char_offset_start": 21957,
+              "char_offset_end": 22141,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1809-07-08-wagram_s01_p66_s07",
+              "sentence_ordinal": 7,
+              "text": "Mais s'il passait le Danube à Presbourg, le général Baraguey d'Hilliers peut rompre son pont, et, réuni au général Vandamme , retarder assez la marche du prince Jean pour que vous puissiez passer le Danube au pont d'Ebersdorf et arriver à temps à sa rencontre.",
+              "word_offset_start": 3702,
+              "word_offset_end": 3747,
+              "char_offset_start": 22142,
+              "char_offset_end": 22402,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1809-07-08-wagram_s01_p67",
+          "paragraph_ordinal": 67,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1809-07-08-wagram_s01_p67_s01",
+              "sentence_ordinal": 1,
+              "text": "Pour remplir ces différents buts, il faut que Votre Altesse place les trois divisions de son corps d'armée (formation que Sa Majesté approuve) et la division saxonne sur quatre points différents, qui puissent permettre de réunir le corps d'armée sur l'une ou l'autre de ces divisions, suivant les circonstances. ,",
+              "word_offset_start": 3747,
+              "word_offset_end": 3797,
+              "char_offset_start": 22404,
+              "char_offset_end": 22717,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1809-07-08-wagram_s01_p68",
+          "paragraph_ordinal": 68,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1809-07-08-wagram_s01_p68_s01",
+              "sentence_ordinal": 1,
+              "text": "L'Empereur espère que, dans la journée de demain, vous aurez balayé toute la rive droite de la March, que vous serez maître des ponts et que cette rivière sera entre vous et l'ennemi.",
+              "word_offset_start": 3797,
+              "word_offset_end": 3830,
+              "char_offset_start": 22719,
+              "char_offset_end": 22902,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1809-07-08-wagram_s01_p68_s02",
+              "sentence_ordinal": 2,
+              "text": "Votre Altesse pourra passer la March, quand elle voudra, par le moyen des bateaux que le colonel Baste pourra envoyer vis-à-vis Theben, au confluent, et par là pouvoir jeter un pont en peu d'heures.",
+              "word_offset_start": 3830,
+              "word_offset_end": 3864,
+              "char_offset_start": 22903,
+              "char_offset_end": 23101,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1809-07-08-wagram_s01_p68_s03",
+              "sentence_ordinal": 3,
+              "text": "Dans les ordres que vous donnerez au général Vandamme, il faut, Monsei-",
+              "word_offset_start": 3864,
+              "word_offset_end": 3876,
+              "char_offset_start": 23102,
+              "char_offset_end": 23173,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1809-07-08-wagram_s01_p69",
+          "paragraph_ordinal": 69,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1809-07-08-wagram_s01_p69_s01",
+              "sentence_ordinal": 1,
+              "text": "gneur, lui laisser beaucoup de latitude, car ce général ne doit pas dégarnir Mœlk tant que l'ennemi n'aura pas dégarni la rive gauche.",
+              "word_offset_start": 3876,
+              "word_offset_end": 3899,
+              "char_offset_start": 23175,
+              "char_offset_end": 23309,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1809-07-08-wagram_s01_p70",
+          "paragraph_ordinal": 70,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1809-07-08-wagram_s01_p70_s01",
+              "sentence_ordinal": 1,
+              "text": "D'ailleurs c'est un officier plein de zèle et de talents.",
+              "word_offset_start": 3899,
+              "word_offset_end": 3909,
+              "char_offset_start": 23311,
+              "char_offset_end": 23368,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1809-07-08-wagram_s01_p70_s02",
+              "sentence_ordinal": 2,
+              "text": "Dans le placement de vos troupes, il ne faut pas que les Saxons fassent la droite; il est plus convenable qu'ils soient à la gauche, car ils ne doivent jamais être destinés à passer sur la rive droite du Danube.",
+              "word_offset_start": 3909,
+              "word_offset_end": 3949,
+              "char_offset_start": 23369,
+              "char_offset_end": 23580,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1809-07-08-wagram_s01_p70_s03",
+              "sentence_ordinal": 3,
+              "text": "Il est probable que l'Empereur portera, cette nuit, son quartier général à Wilfersdorf ; il est donc nécessaire que voire cavalerie couvre son flanc droit et vous donne une communication directe avec nous.",
+              "word_offset_start": 3949,
+              "word_offset_end": 3982,
+              "char_offset_start": 23581,
+              "char_offset_end": 23786,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1809-07-08-wagram_s01_p71",
+          "paragraph_ordinal": 71,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1809-07-08-wagram_s01_p71_s01",
+              "sentence_ordinal": 1,
+              "text": "L'intention de l'Empereur est que vous laissiez quelques bataillons à la tête du pont d'iediersdorfam Spitz.",
+              "word_offset_start": 3982,
+              "word_offset_end": 3998,
+              "char_offset_start": 23788,
+              "char_offset_end": 23896,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1809-07-08-wagram_s01_p71_s02",
+              "sentence_ordinal": 2,
+              "text": "Cela est très-important pour mettre ce point à l'abri des partisans ennemis.",
+              "word_offset_start": 3998,
+              "word_offset_end": 4010,
+              "char_offset_start": 23897,
+              "char_offset_end": 23973,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1809-07-08-wagram_s01_p72",
+          "paragraph_ordinal": 72,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1809-07-08-wagram_s01_p72_s01",
+              "sentence_ordinal": 1,
+              "text": "Le prince de Neuchâtel, major général1 D'après la minute.",
+              "word_offset_start": 4010,
+              "word_offset_end": 4019,
+              "char_offset_start": 23975,
+              "char_offset_end": 24032,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1809-07-08-wagram_s01_p72_s02",
+              "sentence_ordinal": 2,
+              "text": "Archives de l'Empire.",
+              "word_offset_start": 4019,
+              "word_offset_end": 4022,
+              "char_offset_start": 24033,
+              "char_offset_end": 24054,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "pipeline_log": [
+    {
+      "stage": "segment-texts",
+      "script": "scripts/segment-texts.py",
+      "generated_at": "2026-06-14T15:00:25",
+      "sentence_count": 168
+    }
+  ]
+}

@@ -1,0 +1,139 @@
+{
+  "version": "1.0",
+  "case_id": "am-rev",
+  "generated_at": "2026-05-05T02:40:26",
+  "status": "stub",
+  "total_instances": 0,
+  "cluster_analyses": [
+    {
+      "cluster_id": "am-rev-01-liberty-tyranny",
+      "cluster_name": "Liberty versus tyranny",
+      "status": "provisional",
+      "instance_count": 0,
+      "instance_ids": [],
+      "by_document": {},
+      "by_register": {},
+      "koenigsberg_profile": {
+        "fantasy_type_distribution": {},
+        "violence_logic_distribution": {},
+        "obligatory_frame_rate": null,
+        "sacrificial_economy_rate": null,
+        "absence_flags_distribution": {}
+      },
+      "analyst_notes": null,
+      "interpretive_summary": null,
+      "what_metaphor_conceals": null
+    },
+    {
+      "cluster_id": "am-rev-02-people-republic",
+      "cluster_name": "People / republic as sacred political object",
+      "status": "provisional",
+      "instance_count": 0,
+      "instance_ids": [],
+      "by_document": {},
+      "by_register": {},
+      "koenigsberg_profile": {
+        "fantasy_type_distribution": {},
+        "violence_logic_distribution": {},
+        "obligatory_frame_rate": null,
+        "sacrificial_economy_rate": null,
+        "absence_flags_distribution": {}
+      },
+      "analyst_notes": null,
+      "interpretive_summary": null,
+      "what_metaphor_conceals": null
+    },
+    {
+      "cluster_id": "am-rev-03-founding-sacrifice",
+      "cluster_name": "Founding sacrifice / blood of liberty",
+      "status": "provisional",
+      "instance_count": 0,
+      "instance_ids": [],
+      "by_document": {},
+      "by_register": {},
+      "koenigsberg_profile": {
+        "fantasy_type_distribution": {},
+        "violence_logic_distribution": {},
+        "obligatory_frame_rate": null,
+        "sacrificial_economy_rate": null,
+        "absence_flags_distribution": {}
+      },
+      "analyst_notes": null,
+      "interpretive_summary": null,
+      "what_metaphor_conceals": null
+    },
+    {
+      "cluster_id": "am-rev-04-providence-covenant",
+      "cluster_name": "Providence / covenant / sacred duty",
+      "status": "provisional",
+      "instance_count": 0,
+      "instance_ids": [],
+      "by_document": {},
+      "by_register": {},
+      "koenigsberg_profile": {
+        "fantasy_type_distribution": {},
+        "violence_logic_distribution": {},
+        "obligatory_frame_rate": null,
+        "sacrificial_economy_rate": null,
+        "absence_flags_distribution": {}
+      },
+      "analyst_notes": null,
+      "interpretive_summary": null,
+      "what_metaphor_conceals": null
+    },
+    {
+      "cluster_id": "am-rev-05-virtue-corruption",
+      "cluster_name": "Virtue versus corruption",
+      "status": "provisional",
+      "instance_count": 0,
+      "instance_ids": [],
+      "by_document": {},
+      "by_register": {},
+      "koenigsberg_profile": {
+        "fantasy_type_distribution": {},
+        "violence_logic_distribution": {},
+        "obligatory_frame_rate": null,
+        "sacrificial_economy_rate": null,
+        "absence_flags_distribution": {}
+      },
+      "analyst_notes": null,
+      "interpretive_summary": null,
+      "what_metaphor_conceals": null
+    },
+    {
+      "cluster_id": "am-rev-06-union-founding-memory",
+      "cluster_name": "Union / founding memory",
+      "status": "provisional",
+      "instance_count": 0,
+      "instance_ids": [],
+      "by_document": {},
+      "by_register": {},
+      "koenigsberg_profile": {
+        "fantasy_type_distribution": {},
+        "violence_logic_distribution": {},
+        "obligatory_frame_rate": null,
+        "sacrificial_economy_rate": null,
+        "absence_flags_distribution": {}
+      },
+      "analyst_notes": null,
+      "interpretive_summary": null,
+      "what_metaphor_conceals": null
+    }
+  ],
+  "corpus_profile": {
+    "by_document": {},
+    "by_register": {},
+    "by_cluster": {},
+    "by_fantasy_type": {},
+    "by_violence_logic": {},
+    "by_absence_flag": {}
+  },
+  "errors": [],
+  "pipeline_log": [
+    {
+      "stage": "run-case-analysis",
+      "script": "scripts/run-case-analysis.py",
+      "generated_at": "2026-05-05T02:40:26"
+    }
+  ]
+}

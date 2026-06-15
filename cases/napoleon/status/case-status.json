@@ -1,0 +1,7 @@
+{
+  "case_id": "napoleon",
+  "status": "corpus-ready",
+  "current_stage": "annotation-pending",
+  "updated": "2026-06-14",
+  "notes": "Manifest bulletins are acquired, normalized, segmented, and verified from Gallica OCR. No annotated files are present yet."
+}

@@ -1,0 +1,51 @@
+{
+  "case_id": "napoleon",
+  "status": "rights-reviewed",
+  "updated": "2026-06-13",
+  "sources": [
+    {
+      "source_id": "napoleon-src-01-early-correspondence",
+      "title": "Selected early correspondence, 1784–1797",
+      "short_title": "Early correspondence",
+      "voice": "Napoleon Bonaparte",
+      "date": "1784–1797",
+      "phase": "rise",
+      "register": "correspondence",
+      "archive": "Fondation Napoléon / Napoleonica.org",
+      "source_url": "https://www.napoleonica.org/",
+      "citation": "Correspondance de Napoléon Ier, vol. 1. Paris: Plon, 1858–1870. Digitized via Napoleonica / Bibliothèque nationale de France Gallica. https://www.napoleonica.org/",
+      "rights_status": "public-domain",
+      "rights_rationale": "Original French correspondence dates 1784–1797; Napoleon died 1821. All materials are well outside copyright in all jurisdictions. The 1858–1870 Plon edition of the Correspondance is itself in the public domain. Gallica and Napoleonica provide free digital access.",
+      "git_tracking": "gitignored-local",
+      "translation_language": "French",
+      "translation_risk_notes": "Originals are in French. English translation is required for CMT analysis in English. No single authoritative English translation of the early correspondence exists. Translation introduces source-domain vocabulary risk: French sacrifice, gloire, patrie have different entailment profiles than English equivalents. Translation risk must be flagged per annotation and sensitivity-checked in cross-case comparison. Prefer documented scholarly translations over machine translation where feasible.",
+      "acquisition_instructions": "Access Napoleonica at https://www.napoleonica.org/ or Gallica at https://gallica.bnf.fr/. Search Correspondance de Napoléon Ier volumes 1–3 for rise-phase letters (1784–1797). Select letters with explicit sacrifice, glory, fatherland, or army-as-body language. For each selected letter record the volume/letter number, date, recipient, and Gallica/Napoleonica URL in the manifest. Acquire French plain text. Commission or document a scholarly English translation source before annotation.",
+      "expected_local_path": "cases/napoleon/corpus/raw/napoleon-src-01-early-correspondence/",
+      "analytical_priority": "medium",
+      "risk_flags": ["translation-required", "selection-rationale-must-be-documented", "french-original-only"],
+      "notes": "Rise-phase correspondence is important for diachronic analysis of Napoleon's developing sacrificial and imperial-glory rhetoric. Translation risk is the main constraint on annotation confidence for cross-case comparison. Gitignored locally because no committed English translation exists yet."
+    },
+    {
+      "source_id": "napoleon-src-02-grande-armee-bulletins",
+      "title": "Bulletins de la Grande Armée / selected campaign bulletins, 1805–1812",
+      "short_title": "Grande Armée bulletins",
+      "voice": "Napoleon / imperial military voice",
+      "date": "1805–1812",
+      "phase": "peak-empire",
+      "register": "military-bulletin-proclamation",
+      "archive": "Gallica / Bibliothèque nationale de France",
+      "source_url": "https://gallica.bnf.fr/",
+      "citation": "Bulletins de la Grande Armée. In: Correspondance de Napoléon Ier. Paris: Plon, 1858–1870. Gallica, Bibliothèque nationale de France. https://gallica.bnf.fr/",
+      "rights_status": "public-domain",
+      "rights_rationale": "Bulletins were official imperial proclamations, 1805–1812. Napoleon died 1821. All original texts and the Plon Correspondance edition are in the public domain. Gallica provides open access to digitized volumes.",
+      "git_tracking": "gitignored-local",
+      "translation_language": "French",
+      "translation_risk_notes": "Same translation risks apply as for napoleon-src-01. The military-bulletin register is particularly important for cross-case comparison with Washington's general orders and Lincoln's wartime proclamations. Entailments of French gloire and honneur differ meaningfully from English glory and honor; translation notes must flag this per annotation.",
+      "acquisition_instructions": "Search Gallica at https://gallica.bnf.fr/ for Correspondance de Napoléon Ier volumes covering 1805–1812 (approximately vols. 10–24). Identify bulletins by heading 'Bulletin de la Grande Armée'. Select 10–20 bulletins covering Austerlitz, Jena-Auerstedt, Eylau, Wagram, and Russian campaign phases. Record bulletin number, Correspondance volume/page, date, and Gallica ARK identifier in the manifest. Acquire French plain text. Document the English translation source before annotation begins.",
+      "expected_local_path": "cases/napoleon/corpus/raw/napoleon-src-02-grande-armee-bulletins/",
+      "analytical_priority": "high",
+      "risk_flags": ["translation-required", "selection-rationale-must-be-documented", "french-original-only"],
+      "notes": "Military-bulletin register is the highest-priority register for the Napoleon case. Bulletins contain peak sacrificial economy, army-as-body, and glory-as-sacred-object rhetoric. Cross-case register comparison requires these alongside Washington's orders and Lincoln's war messages."
+    }
+  ]
+}

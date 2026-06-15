@@ -1,0 +1,991 @@
+{
+  "case_id": "napoleon",
+  "document_id": "napoleon-bulletin-1805-12-03-austerlitz",
+  "meta": {
+    "document_id": "napoleon-bulletin-1805-12-03-austerlitz",
+    "title": "34th Bulletin of the Grande Armée (Austerlitz)",
+    "short_title": "Bulletin 34: Austerlitz",
+    "date": "1805-12-10",
+    "date_precision": "day",
+    "register": "military-bulletin-proclamation",
+    "authorship": "Napoleon Bonaparte / imperial military voice",
+    "source_url": "https://gallica.bnf.fr/ark:/12148/bpt6k9666763q",
+    "source_citation": "Correspondance de Napoléon Ier, Tome 11, no. 9480. Paris: Plon, 1858–1870. Via Gallica / BnF.",
+    "rights_status": "public-domain",
+    "expected_raw_path": "corpus/raw/napoleon-src-02-grande-armee-bulletins/napoleon-bulletin-1805-12-03-austerlitz.txt",
+    "analytical_priority": "primary",
+    "phase": "peak-empire",
+    "campaign": "Austerlitz",
+    "bulletin_number": 34,
+    "bulletin_series": "Grande Armée 1805–1807",
+    "correspondance_volume": 11,
+    "extraction_script": "scripts/extract-napoleon-bulletins.py",
+    "notes": "Post-Austerlitz victory dispatch. Army as sacred body, glory-death exchange at peak.",
+    "case_id": "napoleon",
+    "raw_path": "corpus/raw/napoleon-src-02-grande-armee-bulletins/napoleon-bulletin-1805-12-03-austerlitz.txt",
+    "pipeline_log": [
+      {
+        "stage": "normalize-texts",
+        "script": "scripts/normalize-texts.py",
+        "generated_at": "2026-06-14T15:00:09"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "section_id": "napoleon-bulletin-1805-12-03-austerlitz_s01",
+      "section_label": "body",
+      "section_ordinal": 1,
+      "paragraphs": [
+        {
+          "paragraph_id": "napoleon-bulletin-1805-12-03-austerlitz_s01_p01",
+          "paragraph_ordinal": 1,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1805-12-03-austerlitz_s01_p01_s01",
+              "sentence_ordinal": 1,
+              "text": "34e BULLETIN DE LA GRANDE ARMÉE.",
+              "word_offset_start": 0,
+              "word_offset_end": 6,
+              "char_offset_start": 0,
+              "char_offset_end": 32,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1805-12-03-austerlitz_s01_p02",
+          "paragraph_ordinal": 2,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1805-12-03-austerlitz_s01_p02_s01",
+              "sentence_ordinal": 1,
+              "text": "Brünn, 19 frimaire an xiv (10 décembre i8o5).",
+              "word_offset_start": 6,
+              "word_offset_end": 14,
+              "char_offset_start": 34,
+              "char_offset_end": 79,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1805-12-03-austerlitz_s01_p03",
+          "paragraph_ordinal": 3,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1805-12-03-austerlitz_s01_p03_s01",
+              "sentence_ordinal": 1,
+              "text": "L'Empereur a reçu aujourd'hui M. le prince Repnine, fait prisonnier à la bataille d'Austerlitz à la tête des chevaliers-gardes dont il était le colonel.",
+              "word_offset_start": 14,
+              "word_offset_end": 38,
+              "char_offset_start": 81,
+              "char_offset_end": 233,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1805-12-03-austerlitz_s01_p03_s02",
+              "sentence_ordinal": 2,
+              "text": "Sa Majesté lui a dit qu'elle ne voulait pas priver l'empereur Alexandre d'aussi braves gens, et qu'il pouvait réunir tous les prisonniers de la garde impériale russe et retourner avec eux en Russie.",
+              "word_offset_start": 38,
+              "word_offset_end": 71,
+              "char_offset_start": 234,
+              "char_offset_end": 432,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1805-12-03-austerlitz_s01_p03_s03",
+              "sentence_ordinal": 3,
+              "text": "Sa Majesté a exprimé le regret que l'empereur de Russie eût voulu livrer bataille, et a dit que ce monarque, s'il l'avait cru la veille, aurait épargné le sang et l'honneur de son armée.",
+              "word_offset_start": 71,
+              "word_offset_end": 105,
+              "char_offset_start": 433,
+              "char_offset_end": 619,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1805-12-03-austerlitz_s01_p04",
+          "paragraph_ordinal": 4,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1805-12-03-austerlitz_s01_p04_s01",
+              "sentence_ordinal": 1,
+              "text": "M. le prince Jean de Liechtenstein est arrivé hier avec de pleins pouvoirs.",
+              "word_offset_start": 105,
+              "word_offset_end": 118,
+              "char_offset_start": 621,
+              "char_offset_end": 696,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1805-12-03-austerlitz_s01_p04_s02",
+              "sentence_ordinal": 2,
+              "text": "Les conférences entre lui et M. de Talleyrand sont en pleine activité.",
+              "word_offset_start": 118,
+              "word_offset_end": 130,
+              "char_offset_start": 697,
+              "char_offset_end": 767,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1805-12-03-austerlitz_s01_p05",
+          "paragraph_ordinal": 5,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1805-12-03-austerlitz_s01_p05_s01",
+              "sentence_ordinal": 1,
+              "text": "Le premier aide de camp Junot, que Sa Majesté avait envoyé auprès des empereurs d'Allemagne et de Russie, a vu à Holics l'empereur d'Allemagne, qui l'a reçu avec beaucoup de grâce et de distinction.",
+              "word_offset_start": 130,
+              "word_offset_end": 164,
+              "char_offset_start": 769,
+              "char_offset_end": 967,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1805-12-03-austerlitz_s01_p05_s02",
+              "sentence_ordinal": 2,
+              "text": "Il n'a pu continuer sa mission, parce que l'empereur Alexandre était parti en poste pour Saint-Pétersbourg, ainsi que le général Koutouzof.",
+              "word_offset_start": 164,
+              "word_offset_end": 185,
+              "char_offset_start": 968,
+              "char_offset_end": 1107,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1805-12-03-austerlitz_s01_p06",
+          "paragraph_ordinal": 6,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1805-12-03-austerlitz_s01_p06_s01",
+              "sentence_ordinal": 1,
+              "text": "Sa Majesté a reçu à BrÜnn M. de Haugwitz et a paru très-satisfaite de tout ce que lui a dit ce plénipotentiaire, qu'elle a accueilli d'une manière",
+              "word_offset_start": 185,
+              "word_offset_end": 212,
+              "char_offset_start": 1109,
+              "char_offset_end": 1255,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1805-12-03-austerlitz_s01_p07",
+          "paragraph_ordinal": 7,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1805-12-03-austerlitz_s01_p07_s01",
+              "sentence_ordinal": 1,
+              "text": "d'autant plus distinguée qu'il s'est toujours défendu de la dépendance de l'Angleterre, et que c'est à ses conseils qu'on doit attribuer la grande considération et la prospérité dont jouit la Prusse.",
+              "word_offset_start": 212,
+              "word_offset_end": 243,
+              "char_offset_start": 1257,
+              "char_offset_end": 1456,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1805-12-03-austerlitz_s01_p07_s02",
+              "sentence_ordinal": 2,
+              "text": "On ne pourrait en dire autant d'un autre ministre qui, né en Hanovre, n'a pas été inaccessible à la pluie d'or.",
+              "word_offset_start": 243,
+              "word_offset_end": 264,
+              "char_offset_start": 1457,
+              "char_offset_end": 1568,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1805-12-03-austerlitz_s01_p07_s03",
+              "sentence_ordinal": 3,
+              "text": "Mais toutes les intrigues ont été et seront impuissantes contre le bon esprit et la haute sagesse du roi de Prusse.",
+              "word_offset_start": 264,
+              "word_offset_end": 285,
+              "char_offset_start": 1569,
+              "char_offset_end": 1684,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1805-12-03-austerlitz_s01_p07_s04",
+              "sentence_ordinal": 4,
+              "text": "Au reste la nation française ne dépend de personne, et i5o,ooo ennemis de plus n'auraient fait autre chose que rendre la guerre plus longue.",
+              "word_offset_start": 285,
+              "word_offset_end": 309,
+              "char_offset_start": 1685,
+              "char_offset_end": 1825,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1805-12-03-austerlitz_s01_p07_s05",
+              "sentence_ordinal": 5,
+              "text": "La France et la Prusse, dans ces circonstances, ont eu à se louer de M. le duc de Brunswick, de MM. de Mollendorf, de Knobelsdorf, Lombard, et surtout du Roi lui-même.",
+              "word_offset_start": 309,
+              "word_offset_end": 340,
+              "char_offset_start": 1826,
+              "char_offset_end": 1993,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1805-12-03-austerlitz_s01_p07_s06",
+              "sentence_ordinal": 6,
+              "text": "Les intrigues anglaises ont souvent paru gagner du terrain; mais, comme en dernière analyse on ne pouvait arriver à aucun parti sans aborder de front la question, toutes les intrigues ont échoué devant la volonté du Roi.",
+              "word_offset_start": 340,
+              "word_offset_end": 377,
+              "char_offset_start": 1994,
+              "char_offset_end": 2214,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1805-12-03-austerlitz_s01_p07_s07",
+              "sentence_ordinal": 7,
+              "text": "En vérité, ceux qui les conduisaient abusaient étrangement de sa confiance.",
+              "word_offset_start": 377,
+              "word_offset_end": 388,
+              "char_offset_start": 2215,
+              "char_offset_end": 2290,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1805-12-03-austerlitz_s01_p07_s08",
+              "sentence_ordinal": 8,
+              "text": "La Prusse peut-elle avoir un ami plus solide et plus désintéressé que la France?",
+              "word_offset_start": 388,
+              "word_offset_end": 402,
+              "char_offset_start": 2291,
+              "char_offset_end": 2371,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1805-12-03-austerlitz_s01_p08",
+          "paragraph_ordinal": 8,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1805-12-03-austerlitz_s01_p08_s01",
+              "sentence_ordinal": 1,
+              "text": "La Russie est la seule puissance en Europe qui puisse faire une guerre de fantaisie.",
+              "word_offset_start": 402,
+              "word_offset_end": 417,
+              "char_offset_start": 2373,
+              "char_offset_end": 2457,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1805-12-03-austerlitz_s01_p08_s02",
+              "sentence_ordinal": 2,
+              "text": "Après une bataille perdue ou gagnée, les Russes s'en vont; la France, l'Autriche, la Prusse, au contraire, doivent méditer longtemps les résultats de la guerre.",
+              "word_offset_start": 417,
+              "word_offset_end": 442,
+              "char_offset_start": 2458,
+              "char_offset_end": 2618,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1805-12-03-austerlitz_s01_p08_s03",
+              "sentence_ordinal": 3,
+              "text": "Une et deux batailles sont insuffisantes pour en épuiser toutes les chances.",
+              "word_offset_start": 442,
+              "word_offset_end": 454,
+              "char_offset_start": 2619,
+              "char_offset_end": 2695,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1805-12-03-austerlitz_s01_p09",
+          "paragraph_ordinal": 9,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1805-12-03-austerlitz_s01_p09_s01",
+              "sentence_ordinal": 1,
+              "text": "Les paysans de Moravie tuent les Russes partout où ils les rencontrent isolés; ils en ont déjà massacré une centaine.",
+              "word_offset_start": 454,
+              "word_offset_end": 474,
+              "char_offset_start": 2697,
+              "char_offset_end": 2814,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1805-12-03-austerlitz_s01_p09_s02",
+              "sentence_ordinal": 2,
+              "text": "L Empereur des Français a donné des ordres pour que des patrouilles de cavalerie parcourent les campagnes et empêchent ces excès.",
+              "word_offset_start": 474,
+              "word_offset_end": 495,
+              "char_offset_start": 2815,
+              "char_offset_end": 2944,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1805-12-03-austerlitz_s01_p09_s03",
+              "sentence_ordinal": 3,
+              "text": "Puisque l'armée ennemie se retire, les Russes qu'elle laisse après elle sont sous la protection du vainqueur.",
+              "word_offset_start": 495,
+              "word_offset_end": 512,
+              "char_offset_start": 2945,
+              "char_offset_end": 3054,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1805-12-03-austerlitz_s01_p09_s04",
+              "sentence_ordinal": 4,
+              "text": "Il est vrai qu'ils ont commis tant de désordres, tant de brigandages, qu'on ne doit pas s'étonner de ces vengeances.",
+              "word_offset_start": 512,
+              "word_offset_end": 532,
+              "char_offset_start": 3055,
+              "char_offset_end": 3171,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1805-12-03-austerlitz_s01_p09_s05",
+              "sentence_ordinal": 5,
+              "text": "Ils maltraitaient les pauvres comme les riches; trois cents coups de bâton leur paraissaient une légère offense; il n'est point d'attentat qu'ils n'aient commis.",
+              "word_offset_start": 532,
+              "word_offset_end": 556,
+              "char_offset_start": 3172,
+              "char_offset_end": 3333,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1805-12-03-austerlitz_s01_p09_s06",
+              "sentence_ordinal": 6,
+              "text": "Le pillage, l'incendie des villages, le massacre, tels étaient leurs jeux; ils ont même tué des prêtres jusque sur les autels!",
+              "word_offset_start": 556,
+              "word_offset_end": 577,
+              "char_offset_start": 3334,
+              "char_offset_end": 3460,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1805-12-03-austerlitz_s01_p09_s07",
+              "sentence_ordinal": 7,
+              "text": "Malheur au souverain qui attirera jamais un tel fléau sur son territoire!",
+              "word_offset_start": 577,
+              "word_offset_end": 589,
+              "char_offset_start": 3461,
+              "char_offset_end": 3534,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1805-12-03-austerlitz_s01_p09_s08",
+              "sentence_ordinal": 8,
+              "text": "La bataille d'Austerlitz a été une",
+              "word_offset_start": 589,
+              "word_offset_end": 595,
+              "char_offset_start": 3535,
+              "char_offset_end": 3569,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1805-12-03-austerlitz_s01_p10",
+          "paragraph_ordinal": 10,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1805-12-03-austerlitz_s01_p10_s01",
+              "sentence_ordinal": 1,
+              "text": "victoire européenne, puisqu'elle a fait tomber le prestige qui semblait s'attacher au nom de ces barbares.",
+              "word_offset_start": 595,
+              "word_offset_end": 611,
+              "char_offset_start": 3571,
+              "char_offset_end": 3677,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1805-12-03-austerlitz_s01_p10_s02",
+              "sentence_ordinal": 2,
+              "text": "Ce mot ne peut s'appliquer cependant ni à la Cour, ni au plus grand nombre des officiers, ni aux habitants des villes, qui sont, au contraire, civilisés jusqu'à la corruption.",
+              "word_offset_start": 611,
+              "word_offset_end": 641,
+              "char_offset_start": 3678,
+              "char_offset_end": 3853,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1805-12-03-austerlitz_s01_p11",
+          "paragraph_ordinal": 11,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1805-12-03-austerlitz_s01_p11_s01",
+              "sentence_ordinal": 1,
+              "text": "Moniteur du 2 nivôse an xiv.",
+              "word_offset_start": 641,
+              "word_offset_end": 647,
+              "char_offset_start": 3855,
+              "char_offset_end": 3883,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1805-12-03-austerlitz_s01_p12",
+          "paragraph_ordinal": 12,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1805-12-03-austerlitz_s01_p12_s01",
+              "sentence_ordinal": 1,
+              "text": "( En minute au Dépôt de la guerre. )",
+              "word_offset_start": 647,
+              "word_offset_end": 656,
+              "char_offset_start": 3885,
+              "char_offset_end": 3921,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1805-12-03-austerlitz_s01_p13",
+          "paragraph_ordinal": 13,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1805-12-03-austerlitz_s01_p13_s01",
+              "sentence_ordinal": 1,
+              "text": "9557.",
+              "word_offset_start": 656,
+              "word_offset_end": 657,
+              "char_offset_start": 3923,
+              "char_offset_end": 3928,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1805-12-03-austerlitz_s01_p14",
+          "paragraph_ordinal": 14,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1805-12-03-austerlitz_s01_p14_s01",
+              "sentence_ordinal": 1,
+              "text": "AU CARDINAL ARCHEVÊQUE DE PARIS.",
+              "word_offset_start": 657,
+              "word_offset_end": 662,
+              "char_offset_start": 3930,
+              "char_offset_end": 3962,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1805-12-03-austerlitz_s01_p15",
+          "paragraph_ordinal": 15,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1805-12-03-austerlitz_s01_p15_s01",
+              "sentence_ordinal": 1,
+              "text": "Brunn, 20 frimaire an xiv ( 11 décembre 1805).",
+              "word_offset_start": 662,
+              "word_offset_end": 671,
+              "char_offset_start": 3964,
+              "char_offset_end": 4010,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1805-12-03-austerlitz_s01_p16",
+          "paragraph_ordinal": 16,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1805-12-03-austerlitz_s01_p16_s01",
+              "sentence_ordinal": 1,
+              "text": "Mon Cousin, nous avons pris quarante-cinq drapeaux sur nos ennemis, le jour de l'anniversaire de notre couronnement, de ce jour où le Saint-Père, ses cardinaux et tout le clergé de France firent des prières dans le sanctuaire de Notre-Dame pour la prospérité de notre règne.",
+              "word_offset_start": 671,
+              "word_offset_end": 716,
+              "char_offset_start": 4012,
+              "char_offset_end": 4286,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1805-12-03-austerlitz_s01_p16_s02",
+              "sentence_ordinal": 2,
+              "text": "Nous avons résolu de déposer lesdits drapeaux dans l'église de Notre- Dame, métropole de notre bonne ville de Paris.",
+              "word_offset_start": 716,
+              "word_offset_end": 735,
+              "char_offset_start": 4287,
+              "char_offset_end": 4403,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1805-12-03-austerlitz_s01_p16_s03",
+              "sentence_ordinal": 3,
+              "text": "Nous avons ordonné, en conséquence, qu'ils vous soient adressés, pour la garde en être confiée à votre chapitre métropolitain.",
+              "word_offset_start": 735,
+              "word_offset_end": 754,
+              "char_offset_start": 4404,
+              "char_offset_end": 4530,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1805-12-03-austerlitz_s01_p16_s04",
+              "sentence_ordinal": 4,
+              "text": "Notre intention est que, tous les ans, audit jour, un office solennel soit chanté dans ladite métropole, en mémoire des braves morts pour la patrie dans cette grande journée; lequel office sera suivi d'actions de grâces pour la victoire qu'il a plu au Dieu des armées de nous accorder.",
+              "word_offset_start": 754,
+              "word_offset_end": 803,
+              "char_offset_start": 4531,
+              "char_offset_end": 4816,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1805-12-03-austerlitz_s01_p17",
+          "paragraph_ordinal": 17,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1805-12-03-austerlitz_s01_p17_s01",
+              "sentence_ordinal": 1,
+              "text": "Cette lettre n'étant pas à une autre fin, nous prions Dieu qu'il vous ait, mon Cousin, en sa sainte et digne garde.",
+              "word_offset_start": 803,
+              "word_offset_end": 825,
+              "char_offset_start": 4818,
+              "char_offset_end": 4933,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1805-12-03-austerlitz_s01_p18",
+          "paragraph_ordinal": 18,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1805-12-03-austerlitz_s01_p18_s01",
+              "sentence_ordinal": 1,
+              "text": "De notre palais de Brünn, le 20 frimaire an xiv.",
+              "word_offset_start": 825,
+              "word_offset_end": 835,
+              "char_offset_start": 4935,
+              "char_offset_end": 4983,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1805-12-03-austerlitz_s01_p19",
+          "paragraph_ordinal": 19,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1805-12-03-austerlitz_s01_p19_s01",
+              "sentence_ordinal": 1,
+              "text": "NAPOLÉON.",
+              "word_offset_start": 835,
+              "word_offset_end": 836,
+              "char_offset_start": 4985,
+              "char_offset_end": 4994,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1805-12-03-austerlitz_s01_p20",
+          "paragraph_ordinal": 20,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1805-12-03-austerlitz_s01_p20_s01",
+              "sentence_ordinal": 1,
+              "text": "Comm. par M. Jeanson.",
+              "word_offset_start": 836,
+              "word_offset_end": 840,
+              "char_offset_start": 4996,
+              "char_offset_end": 5017,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1805-12-03-austerlitz_s01_p21",
+          "paragraph_ordinal": 21,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1805-12-03-austerlitz_s01_p21_s01",
+              "sentence_ordinal": 1,
+              "text": "(En minute aux Arch. de l'Emp.)",
+              "word_offset_start": 840,
+              "word_offset_end": 846,
+              "char_offset_start": 5019,
+              "char_offset_end": 5050,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1805-12-03-austerlitz_s01_p22",
+          "paragraph_ordinal": 22,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1805-12-03-austerlitz_s01_p22_s01",
+              "sentence_ordinal": 1,
+              "text": "9558.",
+              "word_offset_start": 846,
+              "word_offset_end": 847,
+              "char_offset_start": 5052,
+              "char_offset_end": 5057,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1805-12-03-austerlitz_s01_p23",
+          "paragraph_ordinal": 23,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1805-12-03-austerlitz_s01_p23_s01",
+              "sentence_ordinal": 1,
+              "text": "AU MARÉCHAL KELLERMANN,",
+              "word_offset_start": 847,
+              "word_offset_end": 850,
+              "char_offset_start": 5059,
+              "char_offset_end": 5082,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1805-12-03-austerlitz_s01_p24",
+          "paragraph_ordinal": 24,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1805-12-03-austerlitz_s01_p24_s01",
+              "sentence_ordinal": 1,
+              "text": "COMMANDANT LE 3e CORPS DE RESERVE DE LA GRANDE ARMEE, À STRASBOURG.",
+              "word_offset_start": 850,
+              "word_offset_end": 862,
+              "char_offset_start": 5084,
+              "char_offset_end": 5151,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1805-12-03-austerlitz_s01_p25",
+          "paragraph_ordinal": 25,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1805-12-03-austerlitz_s01_p25_s01",
+              "sentence_ordinal": 1,
+              "text": "Brünn, 20 frimaire an xiv ( 11 décembre 1800).",
+              "word_offset_start": 862,
+              "word_offset_end": 871,
+              "char_offset_start": 5153,
+              "char_offset_end": 5199,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1805-12-03-austerlitz_s01_p26",
+          "paragraph_ordinal": 26,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1805-12-03-austerlitz_s01_p26_s01",
+              "sentence_ordinal": 1,
+              "text": "Je reçois votre lettre du 10 frimaire.",
+              "word_offset_start": 871,
+              "word_offset_end": 878,
+              "char_offset_start": 5201,
+              "char_offset_end": 5239,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1805-12-03-austerlitz_s01_p26_s02",
+              "sentence_ordinal": 2,
+              "text": "Le ministre de la guerre a dû",
+              "word_offset_start": 878,
+              "word_offset_end": 885,
+              "char_offset_start": 5240,
+              "char_offset_end": 5269,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1805-12-03-austerlitz_s01_p27",
+          "paragraph_ordinal": 27,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1805-12-03-austerlitz_s01_p27_s01",
+              "sentence_ordinal": 1,
+              "text": "demander par un courrier extraordinaire l'état des conscrits qui sont arrivés.",
+              "word_offset_start": 885,
+              "word_offset_end": 896,
+              "char_offset_start": 5271,
+              "char_offset_end": 5349,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1805-12-03-austerlitz_s01_p27_s02",
+              "sentence_ordinal": 2,
+              "text": "Cet état m'est très-nécessaire.",
+              "word_offset_start": 896,
+              "word_offset_end": 900,
+              "char_offset_start": 5350,
+              "char_offset_end": 5381,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1805-12-03-austerlitz_s01_p27_s03",
+              "sentence_ordinal": 3,
+              "text": "Je ne manque ici ni de sergents, ni de vieux soldats, ni de fusils, ni d'habillement.",
+              "word_offset_start": 900,
+              "word_offset_end": 916,
+              "char_offset_start": 5382,
+              "char_offset_end": 5467,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1805-12-03-austerlitz_s01_p27_s04",
+              "sentence_ordinal": 4,
+              "text": "Si vous pouvez me former un corps de 10 ou ia,ooo conscrits, conduit par un de vos généraux, et les conscrits de chaque corps commandés par un officier, dirigez-le-moi sur Augsbourg.",
+              "word_offset_start": 916,
+              "word_offset_end": 947,
+              "char_offset_start": 5468,
+              "char_offset_end": 5650,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1805-12-03-austerlitz_s01_p27_s05",
+              "sentence_ordinal": 5,
+              "text": "Il est indifférent qu'ils soient en habits de paysans et sans armes.",
+              "word_offset_start": 947,
+              "word_offset_end": 959,
+              "char_offset_start": 5651,
+              "char_offset_end": 5719,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1805-12-03-austerlitz_s01_p27_s06",
+              "sentence_ordinal": 6,
+              "text": "Il est bon cependant qu'il y en ait un certain nombre d'armés pour les escorter, tel que 2 ou 3,000.",
+              "word_offset_start": 959,
+              "word_offset_end": 979,
+              "char_offset_start": 5720,
+              "char_offset_end": 5820,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1805-12-03-austerlitz_s01_p27_s07",
+              "sentence_ordinal": 7,
+              "text": "Je les ferai habiller et armer du moment de leur arrivée à Augsbourg.",
+              "word_offset_start": 979,
+              "word_offset_end": 992,
+              "char_offset_start": 5821,
+              "char_offset_end": 5890,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1805-12-03-austerlitz_s01_p27_s08",
+              "sentence_ordinal": 8,
+              "text": "J'attendais, pour vous faire donner cet ordre, le retour des états de situation.",
+              "word_offset_start": 992,
+              "word_offset_end": 1005,
+              "char_offset_start": 5891,
+              "char_offset_end": 5971,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1805-12-03-austerlitz_s01_p27_s09",
+              "sentence_ordinal": 9,
+              "text": "Ainsi donc ne vous donnez aucune inquiétude, et dirigez le plus tôt possible sur Augsbourg les hommes que vous avez.",
+              "word_offset_start": 1005,
+              "word_offset_end": 1025,
+              "char_offset_start": 5972,
+              "char_offset_end": 6088,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1805-12-03-austerlitz_s01_p27_s10",
+              "sentence_ordinal": 10,
+              "text": "J'ai pris mes quartiers d'hiver, et ces hommes seront bientôt formés.",
+              "word_offset_start": 1025,
+              "word_offset_end": 1036,
+              "char_offset_start": 6089,
+              "char_offset_end": 6158,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1805-12-03-austerlitz_s01_p27_s11",
+              "sentence_ordinal": 11,
+              "text": "Quant aux officiers et sous-officiers en recrutement, il n'est pas au pouvoir du ministre de la guerre de les retirer; cela tient à un système général qu'on ne peut déranger, puisque la conscription ne pourrait marcher, et j'ai encore 100,000 hommes à retirer.",
+              "word_offset_start": 1036,
+              "word_offset_end": 1079,
+              "char_offset_start": 6159,
+              "char_offset_end": 6419,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1805-12-03-austerlitz_s01_p28",
+          "paragraph_ordinal": 28,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1805-12-03-austerlitz_s01_p28_s01",
+              "sentence_ordinal": 1,
+              "text": "Le ministre de la guerre me rend compte que vous avez donné des fusils à la garde nationale; je ne puis approuver cette mesure.",
+              "word_offset_start": 1079,
+              "word_offset_end": 1103,
+              "char_offset_start": 6421,
+              "char_offset_end": 6548,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1805-12-03-austerlitz_s01_p28_s02",
+              "sentence_ordinal": 2,
+              "text": "Je n'ai pas assez de fusils pour cela, et ce ne peut être que dans un cas urgent où l'ennemi se présenterait devant Strasbourg.",
+              "word_offset_start": 1103,
+              "word_offset_end": 1127,
+              "char_offset_start": 6549,
+              "char_offset_end": 6676,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1805-12-03-austerlitz_s01_p29",
+          "paragraph_ordinal": 29,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1805-12-03-austerlitz_s01_p29_s01",
+              "sentence_ordinal": 1,
+              "text": "NAPOLÉON.",
+              "word_offset_start": 1127,
+              "word_offset_end": 1128,
+              "char_offset_start": 6678,
+              "char_offset_end": 6687,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1805-12-03-austerlitz_s01_p30",
+          "paragraph_ordinal": 30,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1805-12-03-austerlitz_s01_p30_s01",
+              "sentence_ordinal": 1,
+              "text": "Archives de l'Empire.",
+              "word_offset_start": 1128,
+              "word_offset_end": 1131,
+              "char_offset_start": 6689,
+              "char_offset_end": 6710,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1805-12-03-austerlitz_s01_p31",
+          "paragraph_ordinal": 31,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1805-12-03-austerlitz_s01_p31_s01",
+              "sentence_ordinal": 1,
+              "text": "\\",
+              "word_offset_start": 1131,
+              "word_offset_end": 1132,
+              "char_offset_start": 6712,
+              "char_offset_end": 6713,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1805-12-03-austerlitz_s01_p32",
+          "paragraph_ordinal": 32,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1805-12-03-austerlitz_s01_p32_s01",
+              "sentence_ordinal": 1,
+              "text": "9559.",
+              "word_offset_start": 1132,
+              "word_offset_end": 1133,
+              "char_offset_start": 6715,
+              "char_offset_end": 6720,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "pipeline_log": [
+    {
+      "stage": "segment-texts",
+      "script": "scripts/segment-texts.py",
+      "generated_at": "2026-06-14T15:00:25",
+      "sentence_count": 68
+    }
+  ]
+}

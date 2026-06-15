@@ -1,0 +1,71 @@
+{
+  "case_id": "hitler",
+  "status": "rights-reviewed",
+  "updated": "2026-06-14",
+  "sources": [
+    {
+      "source_id": "hitler-src-01-mein-kampf-selected",
+      "title": "Mein Kampf, selected chapters and passages",
+      "short_title": "Mein Kampf (selected)",
+      "voice": "Adolf Hitler",
+      "date": "1925–1926",
+      "phase": "ideological-formation",
+      "register": "memoir-manifesto",
+      "archive": "Archive.org OCR of 1943 Franz Eher Nachfolger German edition; IfZ critical edition used as scholarly cross-reference",
+      "source_url": "https://archive.org/download/mein-kampf-german_202412/Mein_Kampf_German_djvu.txt",
+      "citation": "Hitler, Adolf. Mein Kampf. Zentralverlag der NSDAP, Franz Eher Nachf., München, 851.–855. Auflage, 1943. OCR text via Archive.org item mein-kampf-german_202412 (djvu). Scholarly cross-reference: Hitler, Adolf. Mein Kampf: Eine kritische Edition. Ed. Christian Hartmann et al. Munich: Institut für Zeitgeschichte, 2016. Murphy 1939 translation (Project Gutenberg Australia) retained as annotation reference aid only.",
+      "rights_status": "gitignored-local-fair-use",
+      "rights_rationale": "German original PD in U.S. since 2020 (95yr from 1925/1926). Current corpus text is OCR of a 1943 Eher German edition from Archive.org and is kept gitignored for sensitive-content control. IfZ critical edition is an authoritative scholarly cross-reference, not the downloaded corpus text. Murphy 1939 translation (likely U.S. PD, no registration/renewal on record) retained as reference aid. Manheim 1943 translation under U.S. copyright until 2038 — do not use.",
+      "git_tracking": "gitignored-local",
+      "source_language": "de",
+      "annotation_language_policy": "source-with-glosses",
+      "gloss_reference": "Murphy 1939 translation (Project Gutenberg Australia) — working reference only, not corpus text",
+      "translation_risk_notes": "German political vocabulary has no clean English equivalents: Volk (people/nation/race), Opfer (victim/sacrifice), Blut (blood), Rasse (race), Reinheit (purity), Vernichtung (destruction/annihilation/extermination). These entailment differences are analytically significant for CMT source-domain mapping. Record German span_text per instance; add gloss_en and gloss_notes for all contested terms.",
+      "acquisition_instructions": "Run scripts/fetch-corpus.py --case hitler to download the Archive.org djvu OCR text and extract required chapters by markers. Required chapters: Vol I ch 2 (Wien), Vol I ch 11 (Volk und Rasse), Vol I ch 12 (Erste Periode der Entwicklung der NSDAP); Vol II ch 1 (Weltanschauung und Partei), Vol II ch 2 (Der Staat), Vol II ch 14 (Ostorientierung oder Ostpolitik). The fetch process must keep document-manifest source_url values pointed at the actual downloaded Archive.org text URL. These paths are gitignored — files must be placed locally before running normalize/segment.",
+      "expected_local_path": "cases/hitler/corpus/raw/hitler-src-01-mein-kampf-selected/",
+      "expected_files": [
+        "vol1-ch2-wien.txt",
+        "vol1-ch11-volk-und-rasse.txt",
+        "vol1-ch12-erste-periode-nsdap.txt",
+        "vol2-ch1-weltanschauung-und-partei.txt",
+        "vol2-ch2-der-staat.txt",
+        "vol2-ch14-ostorientierung.txt"
+      ],
+      "analytical_priority": "high",
+      "risk_flags": ["gitignored-local-fair-use", "high-sensitivity-content"],
+      "notes": "Core ideological-formation text. Contains the densest expression of body-politic purification fantasy, enemy-as-parasite metaphor, blood/sacrifice as sacred economy, and race-as-sacred-object framework. Corpus text is German OCR from Archive.org; IfZ is used for scholarly cross-checking, and Murphy is used as gloss reference only. Re-run normalize-texts.py and segment-texts.py after placing German files."
+    },
+    {
+      "source_id": "hitler-src-02-reichstag-prophecy-war-speeches",
+      "title": "Reichstag Prophecy Speech (30 Jan 1939) and selected war speeches, 1939–1942",
+      "short_title": "Reichstag prophecy and war speeches",
+      "voice": "Adolf Hitler",
+      "date": "1939–1942",
+      "phase": "genocide-radicalization",
+      "register": "political-speech-proclamation",
+      "archive": "Reichstagsprotokolle full-text database / Archive.org official pamphlet transcription; Domarus used as scholarly cross-reference",
+      "source_url": "https://www.reichstag-abgeordnetendatenbank.de/volltext.html",
+      "source_urls": [
+        "https://www.reichstag-abgeordnetendatenbank.de/volltext.html",
+        "https://archive.org/details/ProklamationDesFhrersAnDasDeutscheVolkUndNoteDesAuswrtigenAmtes"
+      ],
+      "citation": "Rede vor dem Deutschen Reichstag, 30. Januar 1939: Verhandlungen des Deutschen Reichstags. Stenographische Berichte, 460. Band, 1939, BSB digitized copy bsb00000613, extracted via Reichstagsprotokolle full-text database. Proklamation an das deutsche Volk, 22. Juni 1941: official 1941 pamphlet / Bouhler, Der großdeutsche Freiheitskampf, Bd. 3, with digital transcription via Archive.org/Metapedia source. Scholarly cross-reference: Domarus, Max (ed.), Hitler: Reden und Proklamationen 1932–1945, vol. 2. GPA English translations retained as annotation reference aids only.",
+      "rights_status": "gitignored-local-fair-use",
+      "rights_rationale": "German original speeches (pre-1945 Nazi government publications) are public domain in Germany (70yr rule, expired 2015) and effectively PD in U.S. (no registration on record). Current corpus text is drawn from public digital sources and kept gitignored for sensitive-content control. Domarus German edition (Schmidt, 1962–1963) is a scholarly cross-reference, not the downloaded corpus text. Do not use Domarus English edition (Bolchazy-Carducci, 1990–2004), which is under U.S. copyright.",
+      "git_tracking": "gitignored-local",
+      "source_language": "de",
+      "annotation_language_policy": "source-with-glosses",
+      "gloss_reference": "German Propaganda Archive (Calvin University) English translations — working reference only, not corpus text",
+      "translation_risk_notes": "The Reichstag prophecy speech uses Vernichtung (annihilation/extermination) — a term whose translation has been contested in Holocaust historiography (Browning vs. Goldhagen debate). The USSR proclamation uses Bolschewismus, jüdisch-bolschewistisch. Record German span_text per instance; gloss_notes required for Vernichtung, Ausrottung, and related terms.",
+      "acquisition_instructions": "Place German speech text files in expected_local_path with provenance headers naming the actual digital source URL for each file. The Reichstag 1939 file currently uses the Reichstagsprotokolle full-text database; the 1941 proclamation currently uses the Archive.org/Metapedia digital transcription of the official pamphlet. Document-level source_url values in document-manifest.json must be updated to the actual downloaded/transcribed document source before normalize/segment.",
+      "expected_local_path": "cases/hitler/corpus/raw/hitler-src-02-reichstag-war-speeches/",
+      "expected_files": [
+        "reichstag-prophecy-1939-01-30.txt",
+        "proclamation-invasion-soviet-union-1941-06-22.txt"
+      ],
+      "analytical_priority": "high",
+      "risk_flags": ["gitignored-local-fair-use", "high-sensitivity-content"],
+      "notes": "These speeches contain the most explicit statements of genocidal intent and the clearest transition from war-sacrifice to exterminatory body-politic logic. The Reichstag prophecy is analytically central to the war/genocide distinction question. Corpus text is German from the named digital sources; Domarus is used for scholarly cross-checking, and GPA English is used as gloss reference only. Re-run normalize-texts.py and segment-texts.py after placing German files."
+    }
+  ]
+}

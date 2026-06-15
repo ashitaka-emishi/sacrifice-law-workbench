@@ -1,0 +1,362 @@
+{
+  "case_id": "lincoln",
+  "document_id": "lincoln-second-inaugural",
+  "meta": {
+    "document_id": "lincoln-second-inaugural",
+    "title": "Second Inaugural Address",
+    "short_title": "Second Inaugural",
+    "date": "1865-03-04",
+    "date_precision": "day",
+    "register": "political-speech",
+    "authorship": "Abraham Lincoln",
+    "source_url": "https://www.gutenberg.org/ebooks/8",
+    "source_citation": "Project Gutenberg EBook #8 — Abraham Lincoln's Second Inaugural Address",
+    "rights_status": "public-domain",
+    "expected_raw_path": "corpus/raw/lincoln-src-03-second-inaugural.txt",
+    "analytical_priority": "primary",
+    "verification": {
+      "min_words": 590,
+      "required_phrases": [
+        "Both parties deprecated war",
+        "malice toward none"
+      ]
+    },
+    "case_id": "lincoln",
+    "raw_path": "corpus/raw/lincoln-src-03-second-inaugural.txt",
+    "pipeline_log": [
+      {
+        "stage": "normalize-texts",
+        "script": "scripts/normalize-texts.py",
+        "generated_at": "2026-06-14T21:24:35"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "section_id": "lincoln-second-inaugural_s01",
+      "section_label": "body",
+      "section_ordinal": 1,
+      "paragraphs": [
+        {
+          "paragraph_id": "lincoln-second-inaugural_s01_p01",
+          "paragraph_ordinal": 1,
+          "sentences": [
+            {
+              "sentence_id": "lincoln-second-inaugural_s01_p01_s01",
+              "sentence_ordinal": 1,
+              "text": "Fellow countrymen: At this second appearing to take the oath of the presidential office, there is less occasion for an extended address than there was at the first.",
+              "word_offset_start": 0,
+              "word_offset_end": 28,
+              "char_offset_start": 0,
+              "char_offset_end": 164,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "lincoln-second-inaugural_s01_p01_s02",
+              "sentence_ordinal": 2,
+              "text": "Then a statement, somewhat in detail, of a course to be pursued, seemed fitting and proper.",
+              "word_offset_start": 28,
+              "word_offset_end": 44,
+              "char_offset_start": 164,
+              "char_offset_end": 255,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "lincoln-second-inaugural_s01_p01_s03",
+              "sentence_ordinal": 3,
+              "text": "Now, at the expiration of four years, during which public declarations have been constantly called forth on every point and phase of the great contest which still absorbs the attention and engrosses the energies of the nation, little that is new could be presented.",
+              "word_offset_start": 44,
+              "word_offset_end": 88,
+              "char_offset_start": 255,
+              "char_offset_end": 520,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "lincoln-second-inaugural_s01_p01_s04",
+              "sentence_ordinal": 4,
+              "text": "The progress of our arms, upon which all else chiefly depends, is as well known to the public as to myself; and it is, I trust, reasonably satisfactory and encouraging to all.",
+              "word_offset_start": 88,
+              "word_offset_end": 120,
+              "char_offset_start": 520,
+              "char_offset_end": 695,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "lincoln-second-inaugural_s01_p01_s05",
+              "sentence_ordinal": 5,
+              "text": "With high hope for the future, no prediction in regard to it is ventured.",
+              "word_offset_start": 120,
+              "word_offset_end": 134,
+              "char_offset_start": 695,
+              "char_offset_end": 768,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "lincoln-second-inaugural_s01_p02",
+          "paragraph_ordinal": 2,
+          "sentences": [
+            {
+              "sentence_id": "lincoln-second-inaugural_s01_p02_s01",
+              "sentence_ordinal": 1,
+              "text": "On the occasion corresponding to this four years ago, all thoughts were anxiously directed to an impending civil war.",
+              "word_offset_start": 134,
+              "word_offset_end": 153,
+              "char_offset_start": 768,
+              "char_offset_end": 885,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "lincoln-second-inaugural_s01_p02_s02",
+              "sentence_ordinal": 2,
+              "text": "All dreaded it-- all sought to avert it.",
+              "word_offset_start": 153,
+              "word_offset_end": 161,
+              "char_offset_start": 885,
+              "char_offset_end": 925,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "lincoln-second-inaugural_s01_p02_s03",
+              "sentence_ordinal": 3,
+              "text": "While the inaugural address was being delivered from this place, devoted altogether to saving the Union without war, insurgent agents were in the city seeking to destroy it without war-- seeking to dissolve the Union, and divide effects, by negotiation.",
+              "word_offset_start": 161,
+              "word_offset_end": 201,
+              "char_offset_start": 925,
+              "char_offset_end": 1178,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "lincoln-second-inaugural_s01_p02_s04",
+              "sentence_ordinal": 4,
+              "text": "Both parties deprecated war; but one of them would make war rather than let the nation survive; and the other would accept war rather than let it perish.",
+              "word_offset_start": 201,
+              "word_offset_end": 229,
+              "char_offset_start": 1178,
+              "char_offset_end": 1331,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "lincoln-second-inaugural_s01_p02_s05",
+              "sentence_ordinal": 5,
+              "text": "And the war came.",
+              "word_offset_start": 229,
+              "word_offset_end": 233,
+              "char_offset_start": 1348,
+              "char_offset_end": 1365,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "lincoln-second-inaugural_s01_p03",
+          "paragraph_ordinal": 3,
+          "sentences": [
+            {
+              "sentence_id": "lincoln-second-inaugural_s01_p03_s01",
+              "sentence_ordinal": 1,
+              "text": "One-eighth of the whole population were colored slaves, not distributed generally over the Union, but localized in the Southern part of it.",
+              "word_offset_start": 233,
+              "word_offset_end": 255,
+              "char_offset_start": 1365,
+              "char_offset_end": 1504,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "lincoln-second-inaugural_s01_p03_s02",
+              "sentence_ordinal": 2,
+              "text": "These slaves constituted a peculiar and powerful interest.",
+              "word_offset_start": 255,
+              "word_offset_end": 263,
+              "char_offset_start": 1507,
+              "char_offset_end": 1565,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "lincoln-second-inaugural_s01_p03_s03",
+              "sentence_ordinal": 3,
+              "text": "All knew that this interest was, somehow, the cause of the war.",
+              "word_offset_start": 263,
+              "word_offset_end": 275,
+              "char_offset_start": 1565,
+              "char_offset_end": 1628,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "lincoln-second-inaugural_s01_p03_s04",
+              "sentence_ordinal": 4,
+              "text": "To strengthen, perpetuate, and extend this interest was the object for which the insurgents would rend the Union, even by war; while the government claimed no right to do more than to restrict the territorial enlargement of it.",
+              "word_offset_start": 275,
+              "word_offset_end": 313,
+              "char_offset_start": 1628,
+              "char_offset_end": 1855,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "lincoln-second-inaugural_s01_p04",
+          "paragraph_ordinal": 4,
+          "sentences": [
+            {
+              "sentence_id": "lincoln-second-inaugural_s01_p04_s01",
+              "sentence_ordinal": 1,
+              "text": "Neither party expected for the war the magnitude or the duration which it has already attained.",
+              "word_offset_start": 313,
+              "word_offset_end": 329,
+              "char_offset_start": 1855,
+              "char_offset_end": 1950,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "lincoln-second-inaugural_s01_p04_s02",
+              "sentence_ordinal": 2,
+              "text": "Neither anticipated that the cause of the conflict might cease with, or even before, the conflict itself should cease.",
+              "word_offset_start": 329,
+              "word_offset_end": 348,
+              "char_offset_start": 1950,
+              "char_offset_end": 2068,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "lincoln-second-inaugural_s01_p04_s03",
+              "sentence_ordinal": 3,
+              "text": "Each looked for an easier triumph, and a result less fundamental and astounding.",
+              "word_offset_start": 348,
+              "word_offset_end": 361,
+              "char_offset_start": 2068,
+              "char_offset_end": 2148,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "lincoln-second-inaugural_s01_p04_s04",
+              "sentence_ordinal": 4,
+              "text": "Both read the same Bible, and pray to the same God; and each invokes his aid against the other.",
+              "word_offset_start": 361,
+              "word_offset_end": 380,
+              "char_offset_start": 2148,
+              "char_offset_end": 2243,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "lincoln-second-inaugural_s01_p04_s05",
+              "sentence_ordinal": 5,
+              "text": "It may seem strange that any men should dare to ask a just God's assistance in wringing their bread from the sweat of other men's faces; but let us judge not, that we be not judged.",
+              "word_offset_start": 380,
+              "word_offset_end": 416,
+              "char_offset_start": 2243,
+              "char_offset_end": 2424,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "lincoln-second-inaugural_s01_p04_s06",
+              "sentence_ordinal": 6,
+              "text": "The prayers of both could not be answered--that of neither has been answered fully.",
+              "word_offset_start": 416,
+              "word_offset_end": 430,
+              "char_offset_start": 2424,
+              "char_offset_end": 2507,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "lincoln-second-inaugural_s01_p05",
+          "paragraph_ordinal": 5,
+          "sentences": [
+            {
+              "sentence_id": "lincoln-second-inaugural_s01_p05_s01",
+              "sentence_ordinal": 1,
+              "text": "The Almighty has his own purposes.",
+              "word_offset_start": 430,
+              "word_offset_end": 436,
+              "char_offset_start": 2524,
+              "char_offset_end": 2558,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "lincoln-second-inaugural_s01_p05_s02",
+              "sentence_ordinal": 2,
+              "text": "\"Woe unto the world because of offenses! for it must needs be that offenses come; but woe to that man by whom the offense cometh.\" If we shall suppose that American slavery is one of those offenses which, in the providence of God, must needs come, but which, having continued through his appointed time, he now wills to remove, and that he gives to both North and South this terrible war, as the woe due to those by whom the offense came, shall we discern therein any departure from those divine attributes which the believers in a living God always ascribe to him?",
+              "word_offset_start": 436,
+              "word_offset_end": 539,
+              "char_offset_start": 2558,
+              "char_offset_end": 3123,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "lincoln-second-inaugural_s01_p05_s03",
+              "sentence_ordinal": 3,
+              "text": "Fondly do we hope--fervently do we pray--that this mighty scourge of war may speedily pass away.",
+              "word_offset_start": 539,
+              "word_offset_end": 555,
+              "char_offset_start": 3123,
+              "char_offset_end": 3219,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "lincoln-second-inaugural_s01_p05_s04",
+              "sentence_ordinal": 4,
+              "text": "Yet, if God wills that it continue until all the wealth piled by the bondsman's two hundred and fifty years of unrequited toil shall be sunk, and until every drop of blood drawn by the lash shall be paid by another drawn with the sword, as was said three thousand years ago, so still it must be said, \"The judgments of the Lord are true and righteous altogether.\"",
+              "word_offset_start": 555,
+              "word_offset_end": 623,
+              "char_offset_start": 3219,
+              "char_offset_end": 3582,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "lincoln-second-inaugural_s01_p06",
+          "paragraph_ordinal": 6,
+          "sentences": [
+            {
+              "sentence_id": "lincoln-second-inaugural_s01_p06_s01",
+              "sentence_ordinal": 1,
+              "text": "With malice toward none; with charity for all; with firmness in the right, as God gives us to see the right, let us strive on to finish the work we are in; to bind up the nation's wounds; to care for him who shall have borne the battle, and for his widow, and his orphan--to do all which may achieve and cherish a just and lasting peace among ourselves, and with all nations.",
+              "word_offset_start": 623,
+              "word_offset_end": 696,
+              "char_offset_start": 3582,
+              "char_offset_end": 3957,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "pipeline_log": [
+    {
+      "stage": "segment-texts",
+      "script": "scripts/segment-texts.py",
+      "generated_at": "2026-06-14T21:24:35",
+      "sentence_count": 25
+    }
+  ]
+}

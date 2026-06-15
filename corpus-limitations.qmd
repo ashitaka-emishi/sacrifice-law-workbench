@@ -1,0 +1,9 @@
+---
+title: "Corpus Limitations and Future Expansion"
+---
+
+V1 prioritizes public-domain and open-access materials, but may also use
+rights-reviewed gitignored-local texts for scholarly analysis when the rights
+policy permits local storage and public artifacts do not reproduce restricted
+text. Missing, inaccessible, uncertain, or locally restricted corpora should be
+documented here.

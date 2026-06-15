@@ -1,0 +1,1251 @@
+{
+  "case_id": "napoleon",
+  "document_id": "napoleon-bulletin-1812-12-03-russia-29th",
+  "meta": {
+    "document_id": "napoleon-bulletin-1812-12-03-russia-29th",
+    "title": "29th Bulletin of the Grande Armée (Molodetchna — retreat)",
+    "short_title": "29th Bulletin: Russia retreat",
+    "date": "1812-12-03",
+    "date_precision": "day",
+    "register": "military-bulletin-proclamation",
+    "authorship": "Napoleon Bonaparte / imperial military voice",
+    "source_url": "https://gallica.bnf.fr/ark:/12148/bpt6k63342473",
+    "source_citation": "Correspondance de Napoléon Ier, Tome 24, no. 19365. Paris: Plon, 1858–1870. Via Gallica / BnF.",
+    "rights_status": "public-domain",
+    "expected_raw_path": "corpus/raw/napoleon-src-02-grande-armee-bulletins/napoleon-bulletin-1812-12-03-russia-29th.txt",
+    "analytical_priority": "primary",
+    "phase": "peak-empire",
+    "campaign": "Russia 1812 (retreat)",
+    "bulletin_number": 29,
+    "bulletin_series": "Grande Armée 1812",
+    "correspondance_volume": 24,
+    "extraction_script": "scripts/extract-napoleon-bulletins.py",
+    "notes": "ANALYTICALLY CRITICAL. The collapse of the sacrificial economy: army dissolved in retreat, cold, starvation. Napoleon admits catastrophic losses publicly for the first time. Core document for Koenigsberg sacrifice-law analysis — the moment the sacrificial exchange fails.",
+    "case_id": "napoleon",
+    "raw_path": "corpus/raw/napoleon-src-02-grande-armee-bulletins/napoleon-bulletin-1812-12-03-russia-29th.txt",
+    "pipeline_log": [
+      {
+        "stage": "normalize-texts",
+        "script": "scripts/normalize-texts.py",
+        "generated_at": "2026-06-14T15:00:09"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "section_id": "napoleon-bulletin-1812-12-03-russia-29th_s01",
+      "section_label": "body",
+      "section_ordinal": 1,
+      "paragraphs": [
+        {
+          "paragraph_id": "napoleon-bulletin-1812-12-03-russia-29th_s01_p01",
+          "paragraph_ordinal": 1,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1812-12-03-russia-29th_s01_p01_s01",
+              "sentence_ordinal": 1,
+              "text": "t 9365. - 2ge BULLETIN DE LA GRANDE ARMÉE2.",
+              "word_offset_start": 0,
+              "word_offset_end": 9,
+              "char_offset_start": 0,
+              "char_offset_end": 43,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1812-12-03-russia-29th_s01_p02",
+          "paragraph_ordinal": 2,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1812-12-03-russia-29th_s01_p02_s01",
+              "sentence_ordinal": 1,
+              "text": "Molodetchna, 3 décembre 1812.",
+              "word_offset_start": 9,
+              "word_offset_end": 13,
+              "char_offset_start": 45,
+              "char_offset_end": 74,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1812-12-03-russia-29th_s01_p03",
+          "paragraph_ordinal": 3,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1812-12-03-russia-29th_s01_p03_s01",
+              "sentence_ordinal": 1,
+              "text": "Jusqu'au 6 novembre le temps a été parfait, et le mouvement de 1 armée s est exécuté avec le plus grand succès.",
+              "word_offset_start": 13,
+              "word_offset_end": 35,
+              "char_offset_start": 76,
+              "char_offset_end": 187,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1812-12-03-russia-29th_s01_p03_s02",
+              "sentence_ordinal": 2,
+              "text": "Le froid a commencé le 7 ; dès ce moment, chaque nuit nous avons perdu plusieurs centaines de",
+              "word_offset_start": 35,
+              "word_offset_end": 53,
+              "char_offset_start": 188,
+              "char_offset_end": 281,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1812-12-03-russia-29th_s01_p04",
+          "paragraph_ordinal": 4,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1812-12-03-russia-29th_s01_p04_s01",
+              "sentence_ordinal": 1,
+              "text": "1 De l'amiral Tchitchakof et du général Wittgenstein.",
+              "word_offset_start": 53,
+              "word_offset_end": 61,
+              "char_offset_start": 283,
+              "char_offset_end": 336,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1812-12-03-russia-29th_s01_p05",
+          "paragraph_ordinal": 5,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1812-12-03-russia-29th_s01_p05_s01",
+              "sentence_ordinal": 1,
+              "text": "!",
+              "word_offset_start": 61,
+              "word_offset_end": 62,
+              "char_offset_start": 338,
+              "char_offset_end": 339,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1812-12-03-russia-29th_s01_p05_s02",
+              "sentence_ordinal": 2,
+              "text": "Voir, sur les Bulletins de la Grande Armée,",
+              "word_offset_start": 62,
+              "word_offset_end": 70,
+              "char_offset_start": 340,
+              "char_offset_end": 383,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1812-12-03-russia-29th_s01_p06",
+          "paragraph_ordinal": 6,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1812-12-03-russia-29th_s01_p06_s01",
+              "sentence_ordinal": 1,
+              "text": "la note insérée dans le tome XXIII de la Correspondance, page 609.",
+              "word_offset_start": 70,
+              "word_offset_end": 82,
+              "char_offset_start": 385,
+              "char_offset_end": 451,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1812-12-03-russia-29th_s01_p07",
+          "paragraph_ordinal": 7,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1812-12-03-russia-29th_s01_p07_s01",
+              "sentence_ordinal": 1,
+              "text": "chevaux, qui mouraient au bivouac.",
+              "word_offset_start": 82,
+              "word_offset_end": 87,
+              "char_offset_start": 453,
+              "char_offset_end": 487,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1812-12-03-russia-29th_s01_p07_s02",
+              "sentence_ordinal": 2,
+              "text": "Arrivés à Smolensk, nous avions déjà perdu bien des chevaux de cavalerie et d'artillerie.",
+              "word_offset_start": 87,
+              "word_offset_end": 101,
+              "char_offset_start": 488,
+              "char_offset_end": 577,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1812-12-03-russia-29th_s01_p07_s03",
+              "sentence_ordinal": 3,
+              "text": "L'armée russe de Volhynie était opposée à notre droite.",
+              "word_offset_start": 101,
+              "word_offset_end": 110,
+              "char_offset_start": 578,
+              "char_offset_end": 633,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1812-12-03-russia-29th_s01_p07_s04",
+              "sentence_ordinal": 4,
+              "text": "Notre droite quitta la ligne d'opération de Minsk, et prit pour pivot de ses opérations la ligne de Varsovie.",
+              "word_offset_start": 110,
+              "word_offset_end": 129,
+              "char_offset_start": 634,
+              "char_offset_end": 743,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1812-12-03-russia-29th_s01_p08",
+          "paragraph_ordinal": 8,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1812-12-03-russia-29th_s01_p08_s01",
+              "sentence_ordinal": 1,
+              "text": "L'empereur apprit à Smolensk, le 9, ce changement de ligne d'opération, et présuma ce que ferait l'ennemi.",
+              "word_offset_start": 129,
+              "word_offset_end": 146,
+              "char_offset_start": 745,
+              "char_offset_end": 851,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1812-12-03-russia-29th_s01_p08_s02",
+              "sentence_ordinal": 2,
+              "text": "Quelque dur qu'il lui parût de se mettre en mouvement dans une si cruelle saison, le nouvel état des choses le nécessitait.",
+              "word_offset_start": 146,
+              "word_offset_end": 168,
+              "char_offset_start": 852,
+              "char_offset_end": 975,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1812-12-03-russia-29th_s01_p08_s03",
+              "sentence_ordinal": 3,
+              "text": "Il espérait arriver à Minsk, ou du moins sur la Berezina, avant l'ennemi; il partit le 13 de Smolensk; le 16 il coucha à Krasnoï.",
+              "word_offset_start": 168,
+              "word_offset_end": 193,
+              "char_offset_start": 976,
+              "char_offset_end": 1105,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1812-12-03-russia-29th_s01_p08_s04",
+              "sentence_ordinal": 4,
+              "text": "Le froid, qui avait commencé le 7, s'accrut subitement, et du 1 h au 15 et au 16 le thermomètre 'marqua 16 et 18 degrés audessous de glace.",
+              "word_offset_start": 193,
+              "word_offset_end": 221,
+              "char_offset_start": 1106,
+              "char_offset_end": 1245,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1812-12-03-russia-29th_s01_p08_s05",
+              "sentence_ordinal": 5,
+              "text": "Les chemins furent couverts de verglas; les chevaux de cavalerie, d'artillerie, de train, périssaient toutes les nuits, non par centaines, mais par milliers, surtout les chevaux de France et d'Allemagne.",
+              "word_offset_start": 221,
+              "word_offset_end": 251,
+              "char_offset_start": 1246,
+              "char_offset_end": 1449,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1812-12-03-russia-29th_s01_p08_s06",
+              "sentence_ordinal": 6,
+              "text": "Plus de 3o,ooo chevaux périrent en peu de jours; notre cavalerie se trouva toute à pied; notre artillerie et nos transports se trouvaient sans attelages.",
+              "word_offset_start": 251,
+              "word_offset_end": 276,
+              "char_offset_start": 1450,
+              "char_offset_end": 1603,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1812-12-03-russia-29th_s01_p08_s07",
+              "sentence_ordinal": 7,
+              "text": "Il fallut abandonner et détruire une bonne partie de nos pièces et de nos munitions de guerre et de bouche.",
+              "word_offset_start": 276,
+              "word_offset_end": 296,
+              "char_offset_start": 1604,
+              "char_offset_end": 1711,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1812-12-03-russia-29th_s01_p09",
+          "paragraph_ordinal": 9,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1812-12-03-russia-29th_s01_p09_s01",
+              "sentence_ordinal": 1,
+              "text": "Cette armée, si belle le 6, était bien différente dès le îk, presque sans cavalerie, sans artillerie, sans transports.",
+              "word_offset_start": 296,
+              "word_offset_end": 315,
+              "char_offset_start": 1713,
+              "char_offset_end": 1831,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1812-12-03-russia-29th_s01_p09_s02",
+              "sentence_ordinal": 2,
+              "text": "Sans cavalerie, nous ne pouvions pas nous éclairer à un quart de lieue; cependant, sans artillerier, nous ne pouvions pas risquer une bataille et attendre de pied ferme; il fallait marcher pour ne pas être contraints à une bataille, que le défaut de munitions nous empêchait de désirer; il fallait occuper un certain espace pour ne pas être tournés, et cela sans cavalerie qui éclairât et liât les colonnes.",
+              "word_offset_start": 315,
+              "word_offset_end": 384,
+              "char_offset_start": 1832,
+              "char_offset_end": 2239,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1812-12-03-russia-29th_s01_p09_s03",
+              "sentence_ordinal": 3,
+              "text": "Cette difficulté, jointe à un froid excessif subitement venu, rendit notre situation fâcheuse.",
+              "word_offset_start": 384,
+              "word_offset_end": 397,
+              "char_offset_start": 2240,
+              "char_offset_end": 2334,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1812-12-03-russia-29th_s01_p09_s04",
+              "sentence_ordinal": 4,
+              "text": "Des hommes que la nature n'a pas trempés assez fortement pour être au-dessus de toutes les chances du sort et de la fortune parurent ébranlés, perdirent leur gaieté, leur bonne humeur, et ne rêvèrent que malheurs et catastrophes; ceux qu'elle a créés supérieurs à tout conservèrent leur gaieté et leurs manières ordinaires, et virent une nouvelle gloire dans des difficultés différentes à surmonter.",
+              "word_offset_start": 397,
+              "word_offset_end": 460,
+              "char_offset_start": 2335,
+              "char_offset_end": 2734,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1812-12-03-russia-29th_s01_p10",
+          "paragraph_ordinal": 10,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1812-12-03-russia-29th_s01_p10_s01",
+              "sentence_ordinal": 1,
+              "text": "L'ennemi, qui voyait sur les chemins les traces de cette affreuse calamité qui frappait l'armée française, chercha à en profiter.",
+              "word_offset_start": 460,
+              "word_offset_end": 480,
+              "char_offset_start": 2736,
+              "char_offset_end": 2865,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1812-12-03-russia-29th_s01_p10_s02",
+              "sentence_ordinal": 2,
+              "text": "Il enveloppait toutes les colonnes par ses Cosaques, qui enlevaient, comme les Arabes dans les déserts, les trains et les voitures qui s'écartaient.",
+              "word_offset_start": 480,
+              "word_offset_end": 503,
+              "char_offset_start": 2866,
+              "char_offset_end": 3014,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1812-12-03-russia-29th_s01_p10_s03",
+              "sentence_ordinal": 3,
+              "text": "Cette méprisable cavalerie, qui ne fait que du bruit et n'est pas capable d'enfoncer une compagnie de voltigeurs, se rendit redoutable à la faveur des circonstances.",
+              "word_offset_start": 503,
+              "word_offset_end": 529,
+              "char_offset_start": 3015,
+              "char_offset_end": 3180,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1812-12-03-russia-29th_s01_p10_s04",
+              "sentence_ordinal": 4,
+              "text": "Cependant l'ennemi eut à se repentir de toutes les tentatives sérieuses qu'il voulut entreprendre; il fut culbuté par le vice-roi, audevant duquel il s'était placé, et il y perdit beaucoup de monde.",
+              "word_offset_start": 529,
+              "word_offset_end": 561,
+              "char_offset_start": 3181,
+              "char_offset_end": 3379,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1812-12-03-russia-29th_s01_p11",
+          "paragraph_ordinal": 11,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1812-12-03-russia-29th_s01_p11_s01",
+              "sentence_ordinal": 1,
+              "text": "Le duc d'Elchingen, qui avec 3,000 hommes faisait l'arrière-garde, avait fait sauter les remparts de Smolensk.",
+              "word_offset_start": 561,
+              "word_offset_end": 577,
+              "char_offset_start": 3381,
+              "char_offset_end": 3491,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1812-12-03-russia-29th_s01_p11_s02",
+              "sentence_ordinal": 2,
+              "text": "Il fut cerné et se trouva dans une position critique; il s'en tira avec cette intrépidité qui le distingue.",
+              "word_offset_start": 577,
+              "word_offset_end": 596,
+              "char_offset_start": 3492,
+              "char_offset_end": 3599,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1812-12-03-russia-29th_s01_p12",
+          "paragraph_ordinal": 12,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1812-12-03-russia-29th_s01_p12_s01",
+              "sentence_ordinal": 1,
+              "text": "Après avoir tenu l'ennemi éloigné de lui pendant toute la journée du 18 et l'avoir constamment repoussé, à la nuit il fit un mouvement par le flanc droit, passa le Borysthène et déjoua tous les calculs de l'ennemi.",
+              "word_offset_start": 596,
+              "word_offset_end": 634,
+              "char_offset_start": 3601,
+              "char_offset_end": 3815,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1812-12-03-russia-29th_s01_p13",
+          "paragraph_ordinal": 13,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1812-12-03-russia-29th_s01_p13_s01",
+              "sentence_ordinal": 1,
+              "text": "Le 19, l'armée passa le Borysthène à Orcha, et l'armée russe, fatiguée, ayant perdu beaucoup de monde, cessa là ses tentatives.",
+              "word_offset_start": 634,
+              "word_offset_end": 655,
+              "char_offset_start": 3817,
+              "char_offset_end": 3944,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1812-12-03-russia-29th_s01_p14",
+          "paragraph_ordinal": 14,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1812-12-03-russia-29th_s01_p14_s01",
+              "sentence_ordinal": 1,
+              "text": "L'armée de Volhynie s'était portée, dès le 16, sur Minsk et marchait sur Borisof.",
+              "word_offset_start": 655,
+              "word_offset_end": 669,
+              "char_offset_start": 3946,
+              "char_offset_end": 4027,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1812-12-03-russia-29th_s01_p14_s02",
+              "sentence_ordinal": 2,
+              "text": "Le général Dombrowski défendit la tête de pont de Borisof avec 3,o.oo hommes.",
+              "word_offset_start": 669,
+              "word_offset_end": 682,
+              "char_offset_start": 4028,
+              "char_offset_end": 4105,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1812-12-03-russia-29th_s01_p14_s03",
+              "sentence_ordinal": 3,
+              "text": "Le 23, il fut forcé et obligé d'évacuer cette position.",
+              "word_offset_start": 682,
+              "word_offset_end": 692,
+              "char_offset_start": 4106,
+              "char_offset_end": 4161,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1812-12-03-russia-29th_s01_p14_s04",
+              "sentence_ordinal": 4,
+              "text": "L'ennemi passa alors la Berezina, marchant sur Bobr; la division Lambert faisait l'avant-garde.",
+              "word_offset_start": 692,
+              "word_offset_end": 705,
+              "char_offset_start": 4162,
+              "char_offset_end": 4257,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1812-12-03-russia-29th_s01_p14_s05",
+              "sentence_ordinal": 5,
+              "text": "Le 2 e corps, commandé par le duc de Reggio, qui était à Tchareya, avait reçu l'ordre de se porter sur Borisof pour assurer à l'armée le passage de la Berezina.",
+              "word_offset_start": 705,
+              "word_offset_end": 736,
+              "char_offset_start": 4258,
+              "char_offset_end": 4418,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1812-12-03-russia-29th_s01_p14_s06",
+              "sentence_ordinal": 6,
+              "text": "Le 2 h, le duc de Reggio rencontra la division Lambert à quatre lieues de Borisof, l'attaqua, la battit, lui fit 2,000 prisonniers, lui prit six pièces de canon, 500 voitures de bagages de l'armée de Yolhynie, et rejeta l'ennemi sur la rive droite de la Berezina.",
+              "word_offset_start": 736,
+              "word_offset_end": 783,
+              "char_offset_start": 4419,
+              "char_offset_end": 4682,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1812-12-03-russia-29th_s01_p14_s07",
+              "sentence_ordinal": 7,
+              "text": "Le général Berkheim, avec le 4e de cuirassiers, se distingua par une belle charge.",
+              "word_offset_start": 783,
+              "word_offset_end": 797,
+              "char_offset_start": 4683,
+              "char_offset_end": 4765,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1812-12-03-russia-29th_s01_p14_s08",
+              "sentence_ordinal": 8,
+              "text": "L'ennemi ne trouva son salut qu'en brûlant le pont, qui a plus de 300 toises.",
+              "word_offset_start": 797,
+              "word_offset_end": 812,
+              "char_offset_start": 4766,
+              "char_offset_end": 4843,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1812-12-03-russia-29th_s01_p15",
+          "paragraph_ordinal": 15,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1812-12-03-russia-29th_s01_p15_s01",
+              "sentence_ordinal": 1,
+              "text": "Cependant l'ennemi occupait tous les passages de la Berezina : cette rivière est large de 40 toises; elle charriait assez de glaces, et ses bords sont couverts de marais de 300 toises de long, ce qui la rend un",
+              "word_offset_start": 812,
+              "word_offset_end": 851,
+              "char_offset_start": 4845,
+              "char_offset_end": 5055,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1812-12-03-russia-29th_s01_p16",
+          "paragraph_ordinal": 16,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1812-12-03-russia-29th_s01_p16_s01",
+              "sentence_ordinal": 1,
+              "text": "obstacle difficile à franchir.",
+              "word_offset_start": 851,
+              "word_offset_end": 855,
+              "char_offset_start": 5057,
+              "char_offset_end": 5087,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1812-12-03-russia-29th_s01_p16_s02",
+              "sentence_ordinal": 2,
+              "text": "Le général ennemi avait placé ses quatre divisions dans différents débouchés où il présumait que l'armée française voudrait passer.",
+              "word_offset_start": 855,
+              "word_offset_end": 874,
+              "char_offset_start": 5088,
+              "char_offset_end": 5219,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1812-12-03-russia-29th_s01_p17",
+          "paragraph_ordinal": 17,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1812-12-03-russia-29th_s01_p17_s01",
+              "sentence_ordinal": 1,
+              "text": "Le 26, à la pointe du jour, l'Empereur, après avoir trompé l'ennemi par divers mouvements faits dans la journée du 2 5, se porta sur le village de Stoudienka, et fit aussitôt, malgré une division ennemie et en sa présence, jeter deux ponts sur la rivière.",
+              "word_offset_start": 874,
+              "word_offset_end": 920,
+              "char_offset_start": 5221,
+              "char_offset_end": 5476,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1812-12-03-russia-29th_s01_p17_s02",
+              "sentence_ordinal": 2,
+              "text": "Le duc de Reggio passa, attaqua l'ennemi et le mena battant deux heures; l'ennemi se retira sur la tête de pont de Borisof.",
+              "word_offset_start": 920,
+              "word_offset_end": 943,
+              "char_offset_start": 5477,
+              "char_offset_end": 5600,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1812-12-03-russia-29th_s01_p17_s03",
+              "sentence_ordinal": 3,
+              "text": "Le général Legrand, officier du premier mérite, fut blessé grièvement, mais non dangereusement.",
+              "word_offset_start": 943,
+              "word_offset_end": 956,
+              "char_offset_start": 5601,
+              "char_offset_end": 5696,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1812-12-03-russia-29th_s01_p17_s04",
+              "sentence_ordinal": 4,
+              "text": "Toute la journée du 26 et du 27 l'armée passa.",
+              "word_offset_start": 956,
+              "word_offset_end": 966,
+              "char_offset_start": 5697,
+              "char_offset_end": 5743,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1812-12-03-russia-29th_s01_p18",
+          "paragraph_ordinal": 18,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1812-12-03-russia-29th_s01_p18_s01",
+              "sentence_ordinal": 1,
+              "text": "Le duc de Bellune, commandant le ge corps, avait reçu ordre de suivre le mouvement du duc de Reggio, de faire l'arrière-garde et de contenir l'armée russe de la Dvina qui le suivait.",
+              "word_offset_start": 966,
+              "word_offset_end": 999,
+              "char_offset_start": 5745,
+              "char_offset_end": 5927,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1812-12-03-russia-29th_s01_p18_s02",
+              "sentence_ordinal": 2,
+              "text": "La division Partouneaux faisait l'arrière-garde de ce corps.",
+              "word_offset_start": 999,
+              "word_offset_end": 1007,
+              "char_offset_start": 5928,
+              "char_offset_end": 5988,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1812-12-03-russia-29th_s01_p18_s03",
+              "sentence_ordinal": 3,
+              "text": "Le 27, à midi, le duc de Bellune arriva avec deux divisions au pont de Stoudienka.",
+              "word_offset_start": 1007,
+              "word_offset_end": 1023,
+              "char_offset_start": 5989,
+              "char_offset_end": 6071,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1812-12-03-russia-29th_s01_p19",
+          "paragraph_ordinal": 19,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1812-12-03-russia-29th_s01_p19_s01",
+              "sentence_ordinal": 1,
+              "text": "La division Partouneaux partit à la nuit de Borisof.",
+              "word_offset_start": 1023,
+              "word_offset_end": 1032,
+              "char_offset_start": 6073,
+              "char_offset_end": 6125,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1812-12-03-russia-29th_s01_p19_s02",
+              "sentence_ordinal": 2,
+              "text": "Une brigade de cette division, qui formait l'arrière-garde et qui était chargée de brûler les ponts, partit à sept heures du soir; elle arriva entre dix et onze heures; elle chercha sa première brigade et son général de division, qui étaient partis deux heures avant et qu'elle n'avait pas rencontrés en route.",
+              "word_offset_start": 1032,
+              "word_offset_end": 1084,
+              "char_offset_start": 6126,
+              "char_offset_end": 6436,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1812-12-03-russia-29th_s01_p19_s03",
+              "sentence_ordinal": 3,
+              "text": "Ses recherches furent vaines : on conçut alors des inquiétudes.",
+              "word_offset_start": 1084,
+              "word_offset_end": 1094,
+              "char_offset_start": 6437,
+              "char_offset_end": 6500,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1812-12-03-russia-29th_s01_p20",
+          "paragraph_ordinal": 20,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1812-12-03-russia-29th_s01_p20_s01",
+              "sentence_ordinal": 1,
+              "text": "Tout ce qu'on a pu connaître depuis, c'est que cette première brigade, partie à cinq heures, s'est égarée à six; a pris à droite au lieu de prendre à gauche, et a fait deux ou trois lieues dans cette direction; que, dans la nuit et transie de froid, elle s'est ralliée aux feux de l'ennemi, qu'elle a pris pour ceux de l'armée française; entourée ainsi, elle aura été enlevée.",
+              "word_offset_start": 1094,
+              "word_offset_end": 1163,
+              "char_offset_start": 6502,
+              "char_offset_end": 6878,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1812-12-03-russia-29th_s01_p21",
+          "paragraph_ordinal": 21,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1812-12-03-russia-29th_s01_p21_s01",
+              "sentence_ordinal": 1,
+              "text": "Cette cruelle méprise doit nous avoir fait perdre 2,000 hommes d'infanterie, 3oo chevaux et trois pièces d'artillerie.",
+              "word_offset_start": 1163,
+              "word_offset_end": 1180,
+              "char_offset_start": 6880,
+              "char_offset_end": 6998,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1812-12-03-russia-29th_s01_p21_s02",
+              "sentence_ordinal": 2,
+              "text": "Des bruits couraient que le général de division n'était pas avec sa colonne et avait marché isolément.",
+              "word_offset_start": 1180,
+              "word_offset_end": 1197,
+              "char_offset_start": 6999,
+              "char_offset_end": 7101,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1812-12-03-russia-29th_s01_p22",
+          "paragraph_ordinal": 22,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1812-12-03-russia-29th_s01_p22_s01",
+              "sentence_ordinal": 1,
+              "text": "Toute l'armée ayant passé le 28 au matin, le duc de Bellune gardait la tête de pont sur la rive gauche; le duc de Reggio, et derrière lui toute l'armée, était sur la rive droite.",
+              "word_offset_start": 1197,
+              "word_offset_end": 1232,
+              "char_offset_start": 7103,
+              "char_offset_end": 7281,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1812-12-03-russia-29th_s01_p23",
+          "paragraph_ordinal": 23,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1812-12-03-russia-29th_s01_p23_s01",
+              "sentence_ordinal": 1,
+              "text": "Borisof ayant été évacué, les armées de la Dvina et de Volhynie communiquèrent; elles concertèrent une attaque.",
+              "word_offset_start": 1232,
+              "word_offset_end": 1249,
+              "char_offset_start": 7283,
+              "char_offset_end": 7394,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1812-12-03-russia-29th_s01_p23_s02",
+              "sentence_ordinal": 2,
+              "text": "Le 2 8, à la pointe du jour, le duc de Reggio fit prévenir l'Empereur qu'il était attaqué; une demi-heure après, le duc de Bellune le fut sur la rive gauche; l'armée prit les armes.",
+              "word_offset_start": 1249,
+              "word_offset_end": 1284,
+              "char_offset_start": 7395,
+              "char_offset_end": 7576,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1812-12-03-russia-29th_s01_p23_s03",
+              "sentence_ordinal": 3,
+              "text": "Le duc d'Elchingen se porta à la suite du duc de Reggio, et le duc de Trévise derrière le duc d'Elchingen.",
+              "word_offset_start": 1284,
+              "word_offset_end": 1305,
+              "char_offset_start": 7577,
+              "char_offset_end": 7683,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1812-12-03-russia-29th_s01_p23_s04",
+              "sentence_ordinal": 4,
+              "text": "Le combat devint vif : l'ennemi voulut déborder notre droite.",
+              "word_offset_start": 1305,
+              "word_offset_end": 1315,
+              "char_offset_start": 7684,
+              "char_offset_end": 7745,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1812-12-03-russia-29th_s01_p23_s05",
+              "sentence_ordinal": 5,
+              "text": "Le général Doumerc, commandant la 5e division de cuirassiers, et qui faisait partie du 2e corps resté sur la Dvina, ordonna une charge de cavalerie aux h* et 5e,régiments de cuirassiers, au moment où la légion de la Vistule s'engageait dans des bois pour percer le centre de l'ennemi, qui fut culbuté et mis en déroute.",
+              "word_offset_start": 1315,
+              "word_offset_end": 1371,
+              "char_offset_start": 7746,
+              "char_offset_end": 8065,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1812-12-03-russia-29th_s01_p24",
+          "paragraph_ordinal": 24,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1812-12-03-russia-29th_s01_p24_s01",
+              "sentence_ordinal": 1,
+              "text": "Ces braves cuirassiers enfoncèrent successivement six carrés d'infanterie, et mirent en déroute la cavalerie ennemie qui venait au secours de son infanterie : 6,000 prisonniers, deux drapeaux et six pièces de canon tombèrent en notre pouvoir.",
+              "word_offset_start": 1371,
+              "word_offset_end": 1407,
+              "char_offset_start": 8067,
+              "char_offset_end": 8309,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1812-12-03-russia-29th_s01_p25",
+          "paragraph_ordinal": 25,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1812-12-03-russia-29th_s01_p25_s01",
+              "sentence_ordinal": 1,
+              "text": "De son côté, le duc de Bellune fit charger vigoureusement l'ennemi, le battit, lui fit 5 à 600 prisonniers, et le tint hors la portée du canon du pont.",
+              "word_offset_start": 1407,
+              "word_offset_end": 1436,
+              "char_offset_start": 8311,
+              "char_offset_end": 8462,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1812-12-03-russia-29th_s01_p25_s02",
+              "sentence_ordinal": 2,
+              "text": "Le général Fournier fit une belle charge de cavalerie.",
+              "word_offset_start": 1436,
+              "word_offset_end": 1445,
+              "char_offset_start": 8463,
+              "char_offset_end": 8517,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1812-12-03-russia-29th_s01_p26",
+          "paragraph_ordinal": 26,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1812-12-03-russia-29th_s01_p26_s01",
+              "sentence_ordinal": 1,
+              "text": "Dans le combat de la Berezina, l'armée de Volhynie a beaucoup souffert.",
+              "word_offset_start": 1445,
+              "word_offset_end": 1457,
+              "char_offset_start": 8519,
+              "char_offset_end": 8590,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1812-12-03-russia-29th_s01_p26_s02",
+              "sentence_ordinal": 2,
+              "text": "Le duc de Reggio a été blessé; sa blessure n'est pas dangereuse : c'est une balle qu'il a reçue dans le côté.",
+              "word_offset_start": 1457,
+              "word_offset_end": 1479,
+              "char_offset_start": 8591,
+              "char_offset_end": 8700,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1812-12-03-russia-29th_s01_p27",
+          "paragraph_ordinal": 27,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1812-12-03-russia-29th_s01_p27_s01",
+              "sentence_ordinal": 1,
+              "text": "Le lendemain 29, nous restâmes sur le champ de bataille.",
+              "word_offset_start": 1479,
+              "word_offset_end": 1489,
+              "char_offset_start": 8702,
+              "char_offset_end": 8758,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1812-12-03-russia-29th_s01_p27_s02",
+              "sentence_ordinal": 2,
+              "text": "Nous avions à choisir entre deux routes, celle de Minsk et celle de Vilna.",
+              "word_offset_start": 1489,
+              "word_offset_end": 1503,
+              "char_offset_start": 8759,
+              "char_offset_end": 8833,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1812-12-03-russia-29th_s01_p27_s03",
+              "sentence_ordinal": 3,
+              "text": "La route de Minsk passe au milieu d'une forêt et de marais incultes, et il eût été impossible à l'armée de s'y nourrir.",
+              "word_offset_start": 1503,
+              "word_offset_end": 1526,
+              "char_offset_start": 8834,
+              "char_offset_end": 8953,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1812-12-03-russia-29th_s01_p27_s04",
+              "sentence_ordinal": 4,
+              "text": "La route de Vilna, au contraire, passe dans de très-bons pays.",
+              "word_offset_start": 1526,
+              "word_offset_end": 1537,
+              "char_offset_start": 8954,
+              "char_offset_end": 9016,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1812-12-03-russia-29th_s01_p27_s05",
+              "sentence_ordinal": 5,
+              "text": "L'armée, sans cavalerie, faible en munitions, horriblement fatiguée de cinquante jours de marche, traînant à sa suite ses malades et les blessés de tant de combats, avait besoin d'arriver à ses magasins.",
+              "word_offset_start": 1537,
+              "word_offset_end": 1569,
+              "char_offset_start": 9017,
+              "char_offset_end": 9220,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1812-12-03-russia-29th_s01_p27_s06",
+              "sentence_ordinal": 6,
+              "text": "Le 3o, le quartier général fut à Plechtchennitsy ; le 1 er décembre, à Staïki; et le 3, à Molodetchna, où l'armée a reçu ses premiers convois de Vilna.",
+              "word_offset_start": 1569,
+              "word_offset_end": 1598,
+              "char_offset_start": 9221,
+              "char_offset_end": 9372,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1812-12-03-russia-29th_s01_p28",
+          "paragraph_ordinal": 28,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1812-12-03-russia-29th_s01_p28_s01",
+              "sentence_ordinal": 1,
+              "text": "Tous les officiers et soldats blessés, et tout ce qui est embarras, bagages, etc. ont été dirigés sur Vilna.",
+              "word_offset_start": 1598,
+              "word_offset_end": 1617,
+              "char_offset_start": 9374,
+              "char_offset_end": 9482,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1812-12-03-russia-29th_s01_p29",
+          "paragraph_ordinal": 29,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1812-12-03-russia-29th_s01_p29_s01",
+              "sentence_ordinal": 1,
+              "text": "Dire que l'armée a besoin de rétablir sa discipline, de se refaire, de remonter sa cavalerie, son artillerie et son matériel, c'est le résultat de l'exposé qui vient d'être fait.",
+              "word_offset_start": 1617,
+              "word_offset_end": 1647,
+              "char_offset_start": 9484,
+              "char_offset_end": 9662,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1812-12-03-russia-29th_s01_p29_s02",
+              "sentence_ordinal": 2,
+              "text": "Le repos est son premier besoin.",
+              "word_offset_start": 1647,
+              "word_offset_end": 1653,
+              "char_offset_start": 9663,
+              "char_offset_end": 9695,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1812-12-03-russia-29th_s01_p29_s03",
+              "sentence_ordinal": 3,
+              "text": "Le matériel et les chevaux arrivent.",
+              "word_offset_start": 1653,
+              "word_offset_end": 1659,
+              "char_offset_start": 9696,
+              "char_offset_end": 9732,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1812-12-03-russia-29th_s01_p29_s04",
+              "sentence_ordinal": 4,
+              "text": "Le général Bourcier a déjà plus de 20,000 chevaux de remonte dans différents dépôts.",
+              "word_offset_start": 1659,
+              "word_offset_end": 1673,
+              "char_offset_start": 9733,
+              "char_offset_end": 9817,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1812-12-03-russia-29th_s01_p29_s05",
+              "sentence_ordinal": 5,
+              "text": "L'artillerie a déjà réparé ses perles.",
+              "word_offset_start": 1673,
+              "word_offset_end": 1679,
+              "char_offset_start": 9818,
+              "char_offset_end": 9856,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1812-12-03-russia-29th_s01_p29_s06",
+              "sentence_ordinal": 6,
+              "text": "Les généraux, les officiers et les soldats ont beaucoup souffert de la fatigue et de la disette.",
+              "word_offset_start": 1679,
+              "word_offset_end": 1696,
+              "char_offset_start": 9857,
+              "char_offset_end": 9953,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1812-12-03-russia-29th_s01_p29_s07",
+              "sentence_ordinal": 7,
+              "text": "Beaucoup ont perdu leurs bagages par suite de la perte de leurs chevaux; quelques-uns par le fait des embuscades des Cosaques.",
+              "word_offset_start": 1696,
+              "word_offset_end": 1717,
+              "char_offset_start": 9954,
+              "char_offset_end": 10080,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1812-12-03-russia-29th_s01_p29_s08",
+              "sentence_ordinal": 8,
+              "text": "Les Cosaques ont pris nombre d'hommes isolés, d'ingénieurs-géographes qui levaient des positions, et d'officiers blessés qui marchaient sans précaution, préférant courir des risques plutôt que de marcher posément et dans des convois.",
+              "word_offset_start": 1717,
+              "word_offset_end": 1749,
+              "char_offset_start": 10081,
+              "char_offset_end": 10314,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1812-12-03-russia-29th_s01_p30",
+          "paragraph_ordinal": 30,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1812-12-03-russia-29th_s01_p30_s01",
+              "sentence_ordinal": 1,
+              "text": "Les rapports des officiers généraux commandant les corps feront connaître les officiers et soldats qui se sont le plus distingués, et les détails de tous ces mémorables événements.",
+              "word_offset_start": 1749,
+              "word_offset_end": 1777,
+              "char_offset_start": 10316,
+              "char_offset_end": 10496,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1812-12-03-russia-29th_s01_p31",
+          "paragraph_ordinal": 31,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1812-12-03-russia-29th_s01_p31_s01",
+              "sentence_ordinal": 1,
+              "text": "Dans tous ces mouvements, l'Empereur a toujours marché au milieu de sa Garde, la cavalerie commandée par le maréchal duc d'Istrie, et l'infanterie commandée par le duc de Danzig.",
+              "word_offset_start": 1777,
+              "word_offset_end": 1806,
+              "char_offset_start": 10498,
+              "char_offset_end": 10676,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1812-12-03-russia-29th_s01_p31_s02",
+              "sentence_ordinal": 2,
+              "text": "Sa Majesté a été satisfaite du bon esprit que sa Garde a montré : elle a toujours été prête à se porter partout où les circonstances l'auraient exigé ; mais les circonstances ont toujours été telles que sa simple présence a suffi et qu'elle n'a pas été dans le cas de donner.",
+              "word_offset_start": 1806,
+              "word_offset_end": 1858,
+              "char_offset_start": 10677,
+              "char_offset_end": 10952,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1812-12-03-russia-29th_s01_p32",
+          "paragraph_ordinal": 32,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1812-12-03-russia-29th_s01_p32_s01",
+              "sentence_ordinal": 1,
+              "text": "Le prince de Neuchâtel, le grand maréchal, le grand écuyer, et tous les aides de camp et les officiers militaires de la Maison de l'Empereur ont toujours accompagné Sa Majesté.",
+              "word_offset_start": 1858,
+              "word_offset_end": 1888,
+              "char_offset_start": 10954,
+              "char_offset_end": 11130,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1812-12-03-russia-29th_s01_p33",
+          "paragraph_ordinal": 33,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1812-12-03-russia-29th_s01_p33_s01",
+              "sentence_ordinal": 1,
+              "text": "Notre cavalerie était tellement démontée que l'on a dû réunir les officiers auxquels il restait un cheval pour en former quatre compagnies de 150 hommes chacune.",
+              "word_offset_start": 1888,
+              "word_offset_end": 1914,
+              "char_offset_start": 11132,
+              "char_offset_end": 11293,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1812-12-03-russia-29th_s01_p33_s02",
+              "sentence_ordinal": 2,
+              "text": "Les généraux y faisaient les fanctions de capitaines, et les colonels celles de sous-officiers.",
+              "word_offset_start": 1914,
+              "word_offset_end": 1928,
+              "char_offset_start": 11294,
+              "char_offset_end": 11389,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1812-12-03-russia-29th_s01_p33_s03",
+              "sentence_ordinal": 3,
+              "text": "Cet escadron sacré, commandé par le général Grouchy, et sous les ordres du roi de Naples, ne perdait pas de vue l'Empereur dans tous les mouvements.",
+              "word_offset_start": 1928,
+              "word_offset_end": 1954,
+              "char_offset_start": 11390,
+              "char_offset_end": 11538,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1812-12-03-russia-29th_s01_p34",
+          "paragraph_ordinal": 34,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1812-12-03-russia-29th_s01_p34_s01",
+              "sentence_ordinal": 1,
+              "text": "La santé de Sa Majesté n'a jamais été meilleure.",
+              "word_offset_start": 1954,
+              "word_offset_end": 1963,
+              "char_offset_start": 11540,
+              "char_offset_end": 11588,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1812-12-03-russia-29th_s01_p35",
+          "paragraph_ordinal": 35,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1812-12-03-russia-29th_s01_p35_s01",
+              "sentence_ordinal": 1,
+              "text": "Extrait du Moniteur du 16 décembre 1819.",
+              "word_offset_start": 1963,
+              "word_offset_end": 1970,
+              "char_offset_start": 11590,
+              "char_offset_end": 11630,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "pipeline_log": [
+    {
+      "stage": "segment-texts",
+      "script": "scripts/segment-texts.py",
+      "generated_at": "2026-06-14T15:00:25",
+      "sentence_count": 90
+    }
+  ]
+}

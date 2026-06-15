@@ -1,0 +1,27 @@
+---
+title: "The Sacrifice Law Workbench"
+---
+
+This is the Quarto site for The Sacrifice Law Workbench.
+
+A comparative research workbench for assessing evidentiary support for
+Koenigsberg's Law of Sacrifice.
+
+The project assesses the degree to which recurring metaphor systems in
+leader-centered political corpora, when compared with historically documented
+practices of mobilization, killing, dying, purification, and enemy destruction,
+support, complicate, or limit Koenigsberg's Law of Sacrifice, its body-politic
+corollary, and the construction of enemies as death.
+
+The workbench is evidence-led. It preserves Koenigsberg's theory as the object
+of analysis rather than a conclusion assumed in advance.
+
+## Start here
+
+- [Project Status](project-status.qmd)
+- [Current Status](CURRENT_STATUS.md)
+- [Primary Research Question](PRIMARY_RESEARCH_QUESTION.md)
+- [Methodology](methodology.qmd)
+- [Case Selection](case-selection.qmd)
+- [Starter Corpus Proposal](starter-corpus-proposal.qmd)
+- [Starter Cluster Proposal](starter-cluster-proposal.qmd)

@@ -1,0 +1,32 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "MIPVU document",
+  "type": "object",
+  "additionalProperties": true,
+  "required": [
+    "version",
+    "case_id",
+    "document_id",
+    "source_language",
+    "generated_at",
+    "status",
+    "lexical_units"
+  ],
+  "properties": {
+    "version": { "type": "string" },
+    "case_id": { "type": "string", "minLength": 1 },
+    "document_id": { "type": "string", "minLength": 1 },
+    "source_language": { "type": "string", "minLength": 2 },
+    "generated_at": { "type": "string" },
+    "status": {
+      "type": "string",
+      "enum": ["worklist", "in_review", "reviewed", "complete", "error"]
+    },
+    "meta": { "type": "object" },
+    "lexical_units": {
+      "type": "array",
+      "items": { "$ref": "mipvu-lexical-unit-schema.json" }
+    },
+    "pipeline_log": { "type": "array" }
+  }
+}

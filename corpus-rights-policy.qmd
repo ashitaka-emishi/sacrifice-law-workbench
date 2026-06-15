@@ -1,0 +1,5 @@
+---
+title: "Corpus Rights Policy"
+---
+
+See [CORPUS_RIGHTS_POLICY.md](CORPUS_RIGHTS_POLICY.md).

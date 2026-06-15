@@ -1,0 +1,7 @@
+{
+  "case_id": "hitler",
+  "status": "corpus-ready",
+  "current_stage": "annotation-pending",
+  "updated": "2026-06-14",
+  "notes": "Manifest documents are acquired, normalized, segmented, verified, and carry actual document-level source_url values."
+}

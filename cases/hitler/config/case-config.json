@@ -1,0 +1,22 @@
+{
+  "case_id": "hitler",
+  "name": "Hitler / Nazi Germany",
+  "corpus_model": "Hitler-centered corpus with limited Goebbels/Göring support if needed",
+  "voices": [
+    "Adolf Hitler",
+    "Joseph Goebbels (support only)",
+    "Hermann Göring (support only)"
+  ],
+  "phases": [
+    "ideological-formation",
+    "movement-building",
+    "state-consolidation",
+    "war-mobilization",
+    "genocide-radicalization",
+    "late-war-sacrificial-collapse"
+  ],
+  "source_language": "de",
+  "annotation_language_policy": "source-with-glosses",
+  "gloss_terms": ["Volk", "Opfer", "Blut", "Rasse", "Reinheit", "Vernichtung", "Ausrottung", "jüdisch-bolschewistisch"],
+  "status": "draft"
+}

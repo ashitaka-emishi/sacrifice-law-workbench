@@ -1,0 +1,33 @@
+{
+  "case_id": "lincoln",
+  "stage": "segment-texts",
+  "status": "ready",
+  "generated_at": "2026-06-14T21:24:35",
+  "documents_in_manifest": 3,
+  "written": 3,
+  "skipped_missing_text": 0,
+  "errors": [],
+  "records": [
+    {
+      "document_id": "lincoln-lyceum-address",
+      "status": "written",
+      "sentence_count": 130,
+      "input_path": "/Users/andrewhammer/codegarden/koenigsberg-sacrifice-workbench/cases/lincoln/corpus/text/lincoln-lyceum-address.md",
+      "output_path": "/Users/andrewhammer/codegarden/koenigsberg-sacrifice-workbench/cases/lincoln/corpus/segmented/lincoln-lyceum-address.json"
+    },
+    {
+      "document_id": "lincoln-gettysburg-address",
+      "status": "written",
+      "sentence_count": 10,
+      "input_path": "/Users/andrewhammer/codegarden/koenigsberg-sacrifice-workbench/cases/lincoln/corpus/text/lincoln-gettysburg-address.md",
+      "output_path": "/Users/andrewhammer/codegarden/koenigsberg-sacrifice-workbench/cases/lincoln/corpus/segmented/lincoln-gettysburg-address.json"
+    },
+    {
+      "document_id": "lincoln-second-inaugural",
+      "status": "written",
+      "sentence_count": 25,
+      "input_path": "/Users/andrewhammer/codegarden/koenigsberg-sacrifice-workbench/cases/lincoln/corpus/text/lincoln-second-inaugural.md",
+      "output_path": "/Users/andrewhammer/codegarden/koenigsberg-sacrifice-workbench/cases/lincoln/corpus/segmented/lincoln-second-inaugural.json"
+    }
+  ]
+}

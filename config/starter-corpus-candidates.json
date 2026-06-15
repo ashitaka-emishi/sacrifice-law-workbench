@@ -1,0 +1,92 @@
+[
+  {
+    "case": "am-rev",
+    "phase": "revolutionary-break",
+    "title": "Common Sense",
+    "voice": "Thomas Paine",
+    "date": "1776",
+    "source": "https://www.gutenberg.org/",
+    "rights_review_status": "required-before-raw-ingestion"
+  },
+  {
+    "case": "am-rev",
+    "phase": "revolutionary-break",
+    "title": "Declaration of Independence and Jefferson draft materials",
+    "voice": "Thomas Jefferson / Continental Congress",
+    "date": "1776",
+    "source": "https://founders.archives.gov/ ; https://www.archives.gov/founding-docs/declaration",
+    "rights_review_status": "required-before-raw-ingestion"
+  },
+  {
+    "case": "am-rev",
+    "phase": "wartime-sacrifice",
+    "title": "Selected Washington General Orders and Circular Letters",
+    "voice": "George Washington",
+    "date": "1775–1783",
+    "source": "https://founders.archives.gov/",
+    "rights_review_status": "required-before-raw-ingestion"
+  },
+  {
+    "case": "napoleon",
+    "phase": "rise",
+    "title": "Selected early correspondence",
+    "voice": "Napoleon Bonaparte",
+    "date": "1784–1797",
+    "source": "https://fondationnapoleon.org/ ; https://www.napoleonica.org/",
+    "rights_review_status": "required-before-raw-ingestion"
+  },
+  {
+    "case": "napoleon",
+    "phase": "peak-empire",
+    "title": "Bulletins of the Grande Armée / selected campaign bulletins",
+    "voice": "Napoleon / imperial military voice",
+    "date": "1805–1812",
+    "source": "Gallica / Napoleonica to verify",
+    "rights_review_status": "required-before-raw-ingestion"
+  },
+  {
+    "case": "lincoln",
+    "phase": "pre-war",
+    "title": "Lyceum Address",
+    "voice": "Abraham Lincoln",
+    "date": "1838",
+    "source": "https://quod.lib.umich.edu/l/lincoln/ ; https://www.nps.gov/liho/learn/historyculture/speeches.htm",
+    "rights_review_status": "required-before-raw-ingestion"
+  },
+  {
+    "case": "lincoln",
+    "phase": "peak-sacrifice",
+    "title": "Gettysburg Address",
+    "voice": "Abraham Lincoln",
+    "date": "1863",
+    "source": "NPS / Library of Congress / UMich",
+    "rights_review_status": "required-before-raw-ingestion"
+  },
+  {
+    "case": "lincoln",
+    "phase": "final-theodicy",
+    "title": "Second Inaugural Address",
+    "voice": "Abraham Lincoln",
+    "date": "1865",
+    "source": "NPS / Library of Congress / UMich",
+    "rights_review_status": "required-before-raw-ingestion"
+  },
+  {
+    "case": "hitler",
+    "phase": "ideological-formation",
+    "title": "Mein Kampf, selected chapters/passages",
+    "voice": "Adolf Hitler",
+    "date": "1925–1926",
+    "source": "German original and translation sources to verify; https://en.wikisource.org/wiki/Mein_Kampf",
+    "rights_review_status": "required-before-raw-ingestion"
+  },
+  {
+    "case": "hitler",
+    "phase": "genocide-radicalization",
+    "title": "30 Jan 1939 Reichstag prophecy speech and later war speeches",
+    "voice": "Adolf Hitler",
+    "date": "1939–1942",
+    "source": "German original/canonical document collections to verify",
+    "rights_review_status": "required-before-raw-ingestion"
+  }
+]

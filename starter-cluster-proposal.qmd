@@ -1,0 +1,85 @@
+---
+title: "Starter Cluster Proposal"
+---
+
+::: {.callout-warning}
+Starter clusters are provisional hypotheses. They become findings only when
+annotations, concordance outputs, analysis artifacts, support ratings,
+historical corroboration where claimed, and validation checks support them.
+:::
+
+The shared starter vocabulary is stored in
+`cases/x-case/config/shared-clusters.json`. Case-local starter clusters are
+stored in each case's `config/case-clusters.json`.
+
+## How Clusters Are Tested
+
+Each cluster should be tested through annotation rather than assumed from the
+research question. A cluster gains support when repeated source spans show a
+stable pattern that contributes to one or more evidentiary-support dimensions:
+sacred object, sacrificial body, enemy as death, or historical
+enactment/alignment.
+
+For textual-symbolic clusters, record:
+
+- source domain;
+- target domain;
+- entailments;
+- linguistic form;
+- political or moral work;
+- relevant support dimension;
+- Koenigsbergian interpretation, if warranted;
+- register or phase behavior;
+- absence or suppression pattern, where relevant.
+
+For historical enactment/alignment clusters, record:
+
+- policy, order, decree, institutional practice, mobilization, implementation,
+  social uptake, or outcome being linked;
+- whether the alignment is formal enactment, implementation, social uptake, or
+  historical consequence;
+- whether corroboration comes from established secondary scholarship, additional
+  primary evidence, or both.
+
+Scores of `3` or `4` in textual-symbolic dimensions require repeated evidence.
+A single striking passage may be marked as high-salience evidence, but it should
+not by itself establish strong or very strong case-level support.
+
+## Revision Rules
+
+Clusters should remain revisable throughout V1.
+
+A cluster may be retained when it repeatedly explains textual evidence or
+historical alignment better than available alternatives. It may be merged when
+two labels describe the same mapping or support function. It may be split when
+one label hides different violence logics, enemy-as-death functions, historical
+alignments, or register effects. It may be rejected when it does not appear,
+depends on weak prompt effects, lacks corroboration where historical alignment
+is claimed, or fails rival-explanation review.
+
+Cluster revision should preserve the distinction between:
+
+- textual evidence;
+- conceptual mapping;
+- Koenigsbergian interpretation;
+- historical corroboration;
+- support score.
+
+## Cross-Case Mapping
+
+Shared clusters should preserve difference as well as similarity. A body,
+sacrifice, purification, or enemy as death cluster may perform restorative work
+in one case and exterminatory work in another. The cross-case map should
+therefore link cluster evidence without erasing historical and rhetorical
+specificity.
+
+Cross-case mapping should show:
+
+- which support dimension the cluster informs;
+- whether support is textual, historical, or both;
+- whether similar language performs different political or historical work;
+- whether the cluster supports, complicates, limits, or challenges
+  Koenigsberg's Law.
+
+Cluster changes should be reflected in case configuration, concordance indexes,
+analysis artifacts, support-rating artifacts, and synthesis notes.

@@ -1,0 +1,88 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "MIPVU lexical unit",
+  "type": "object",
+  "additionalProperties": true,
+  "required": [
+    "mipvu_id",
+    "case_id",
+    "document_id",
+    "sentence_id",
+    "lexical_unit",
+    "lemma",
+    "language",
+    "char_offset_start",
+    "char_offset_end",
+    "review_status"
+  ],
+  "properties": {
+    "mipvu_id": { "type": "string", "minLength": 1 },
+    "case_id": { "type": "string", "minLength": 1 },
+    "document_id": { "type": "string", "minLength": 1 },
+    "sentence_id": { "type": "string", "minLength": 1 },
+    "lexical_unit": { "type": "string", "minLength": 1 },
+    "lemma": { "type": "string" },
+    "language": { "type": "string", "minLength": 2 },
+    "unit_ordinal": { "type": "integer", "minimum": 1 },
+    "sentence_unit_ordinal": { "type": "integer", "minimum": 1 },
+    "char_offset_start": { "type": "integer", "minimum": 0 },
+    "char_offset_end": { "type": "integer", "minimum": 0 },
+    "sentence_char_offset_start": { "type": "integer", "minimum": 0 },
+    "sentence_char_offset_end": { "type": "integer", "minimum": 0 },
+    "decision_type": {
+      "type": "string",
+      "enum": [
+        "non_metaphor",
+        "mipvu_indirect",
+        "mipvu_direct",
+        "mipvu_implicit",
+        "mipvu_personification",
+        "uncertain",
+        "excluded_nonlexical"
+      ]
+    },
+    "contextual_meaning": { "type": "string", "minLength": 1 },
+    "basic_meaning": { "type": "string", "minLength": 1 },
+    "basic_meaning_source": { "type": "string", "minLength": 1 },
+    "contrast_explanation": { "type": "string", "minLength": 1 },
+    "comparison_basis": { "type": "string", "minLength": 1 },
+    "confidence": { "type": "number", "minimum": 0, "maximum": 1 },
+    "review_notes": { "type": "string", "minLength": 1 },
+    "gloss_en": { "type": "string" },
+    "gloss_notes": { "type": "string" },
+    "compound_unit_id": { "type": "string" },
+    "review_status": {
+      "type": "string",
+      "enum": ["pending", "needs_review", "reviewed", "accepted", "rejected"]
+    }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "decision_type": {
+            "enum": [
+              "mipvu_indirect",
+              "mipvu_direct",
+              "mipvu_implicit",
+              "mipvu_personification",
+              "uncertain"
+            ]
+          }
+        },
+        "required": ["decision_type"]
+      },
+      "then": {
+        "required": [
+          "contextual_meaning",
+          "basic_meaning",
+          "basic_meaning_source",
+          "contrast_explanation",
+          "comparison_basis",
+          "confidence",
+          "review_notes"
+        ]
+      }
+    }
+  ]
+}

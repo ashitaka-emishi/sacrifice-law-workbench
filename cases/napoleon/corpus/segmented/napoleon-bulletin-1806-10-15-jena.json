@@ -1,0 +1,2239 @@
+{
+  "case_id": "napoleon",
+  "document_id": "napoleon-bulletin-1806-10-15-jena",
+  "meta": {
+    "document_id": "napoleon-bulletin-1806-10-15-jena",
+    "title": "5th Bulletin of the Grande Armée, 1806 series (Jena-Auerstedt)",
+    "short_title": "Bulletin 5/1806: Jena",
+    "date": "1806-10-15",
+    "date_precision": "day",
+    "register": "military-bulletin-proclamation",
+    "authorship": "Napoleon Bonaparte / imperial military voice",
+    "source_url": "https://gallica.bnf.fr/ark:/12148/bpt6k96429871",
+    "source_citation": "Correspondance de Napoléon Ier, Tome 13. Paris: Plon, 1858–1870. Via Gallica / BnF.",
+    "rights_status": "public-domain",
+    "expected_raw_path": "corpus/raw/napoleon-src-02-grande-armee-bulletins/napoleon-bulletin-1806-10-15-jena.txt",
+    "analytical_priority": "primary",
+    "phase": "peak-empire",
+    "campaign": "Jena-Auerstedt",
+    "bulletin_number": 5,
+    "bulletin_series": "Grande Armée 1806 (separate series restarting from 1)",
+    "correspondance_volume": 13,
+    "extraction_script": "scripts/extract-napoleon-bulletins.py",
+    "notes": "Battle of Jena-Auerstedt (14 Oct 1806): Prussian army destroyed in a single day. Sacrificial economy at peak: total annihilation of the enemy framed as gloire. Note: originally tracked as bulletin ~52 in a cross-campaign count — actual number is 5 in the 1806 series.",
+    "case_id": "napoleon",
+    "raw_path": "corpus/raw/napoleon-src-02-grande-armee-bulletins/napoleon-bulletin-1806-10-15-jena.txt",
+    "pipeline_log": [
+      {
+        "stage": "normalize-texts",
+        "script": "scripts/normalize-texts.py",
+        "generated_at": "2026-06-14T15:00:09"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "section_id": "napoleon-bulletin-1806-10-15-jena_s01",
+      "section_label": "body",
+      "section_ordinal": 1,
+      "paragraphs": [
+        {
+          "paragraph_id": "napoleon-bulletin-1806-10-15-jena_s01_p01",
+          "paragraph_ordinal": 1,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-15-jena_s01_p01_s01",
+              "sentence_ordinal": 1,
+              "text": "5e BULLETIN DE LA GRANDE ARMÉE.",
+              "word_offset_start": 0,
+              "word_offset_end": 6,
+              "char_offset_start": 0,
+              "char_offset_end": 31,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1806-10-15-jena_s01_p02",
+          "paragraph_ordinal": 2,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-15-jena_s01_p02_s01",
+              "sentence_ordinal": 1,
+              "text": "Iena, i5 octobre 1806.",
+              "word_offset_start": 6,
+              "word_offset_end": 10,
+              "char_offset_start": 33,
+              "char_offset_end": 55,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1806-10-15-jena_s01_p03",
+          "paragraph_ordinal": 3,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-15-jena_s01_p03_s01",
+              "sentence_ordinal": 1,
+              "text": "La bataille d'Iena a lavé l'affront de Rosbach, et décidé, en sept jours, une campagne qui a entièrement calmé cette frénésie guerrière qui s'était emparée des têtes prussiennes.",
+              "word_offset_start": 10,
+              "word_offset_end": 38,
+              "char_offset_start": 57,
+              "char_offset_end": 235,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1806-10-15-jena_s01_p04",
+          "paragraph_ordinal": 4,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-15-jena_s01_p04_s01",
+              "sentence_ordinal": 1,
+              "text": "Voici la position de l'armée au 13 :",
+              "word_offset_start": 38,
+              "word_offset_end": 46,
+              "char_offset_start": 237,
+              "char_offset_end": 273,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1806-10-15-jena_s01_p05",
+          "paragraph_ordinal": 5,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-15-jena_s01_p05_s01",
+              "sentence_ordinal": 1,
+              "text": "Le grand-duc de Berg et le maréchal Davout avec leurs corps d'armée étaient à Naumburg, ayant des partis sur Leipzig et Halle.",
+              "word_offset_start": 46,
+              "word_offset_end": 68,
+              "char_offset_start": 275,
+              "char_offset_end": 401,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1806-10-15-jena_s01_p06",
+          "paragraph_ordinal": 6,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-15-jena_s01_p06_s01",
+              "sentence_ordinal": 1,
+              "text": "Le corps du maréchal prince de Ponte-Corvo était en marche pour se rendre à Dornburg.",
+              "word_offset_start": 68,
+              "word_offset_end": 83,
+              "char_offset_start": 403,
+              "char_offset_end": 488,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1806-10-15-jena_s01_p07",
+          "paragraph_ordinal": 7,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-15-jena_s01_p07_s01",
+              "sentence_ordinal": 1,
+              "text": "Le corps du maréchal Lannes arrivait à Iena.",
+              "word_offset_start": 83,
+              "word_offset_end": 91,
+              "char_offset_start": 490,
+              "char_offset_end": 534,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1806-10-15-jena_s01_p08",
+          "paragraph_ordinal": 8,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-15-jena_s01_p08_s01",
+              "sentence_ordinal": 1,
+              "text": "Le corps du maréchal Augereau était en position à Kahla.",
+              "word_offset_start": 91,
+              "word_offset_end": 101,
+              "char_offset_start": 536,
+              "char_offset_end": 592,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1806-10-15-jena_s01_p09",
+          "paragraph_ordinal": 9,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-15-jena_s01_p09_s01",
+              "sentence_ordinal": 1,
+              "text": "Le corps du maréchal Ney était à Roda.",
+              "word_offset_start": 101,
+              "word_offset_end": 109,
+              "char_offset_start": 594,
+              "char_offset_end": 632,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1806-10-15-jena_s01_p10",
+          "paragraph_ordinal": 10,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-15-jena_s01_p10_s01",
+              "sentence_ordinal": 1,
+              "text": "Le quartier général à Gera.",
+              "word_offset_start": 109,
+              "word_offset_end": 114,
+              "char_offset_start": 634,
+              "char_offset_end": 661,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-15-jena_s01_p10_s02",
+              "sentence_ordinal": 2,
+              "text": "L'Empereur en marche pour se rendre à Iena.",
+              "word_offset_start": 114,
+              "word_offset_end": 122,
+              "char_offset_start": 662,
+              "char_offset_end": 705,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1806-10-15-jena_s01_p11",
+          "paragraph_ordinal": 11,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-15-jena_s01_p11_s01",
+              "sentence_ordinal": 1,
+              "text": "Le corps du maréchal Soult, de Gera, était en marche pour prendre une position plus rapprochée à l'embranchement des routes de Naumburg et d'Iena.",
+              "word_offset_start": 122,
+              "word_offset_end": 146,
+              "char_offset_start": 707,
+              "char_offset_end": 853,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1806-10-15-jena_s01_p12",
+          "paragraph_ordinal": 12,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-15-jena_s01_p12_s01",
+              "sentence_ordinal": 1,
+              "text": "Voici la position de l'ennemi :",
+              "word_offset_start": 146,
+              "word_offset_end": 152,
+              "char_offset_start": 855,
+              "char_offset_end": 886,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1806-10-15-jena_s01_p13",
+          "paragraph_ordinal": 13,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-15-jena_s01_p13_s01",
+              "sentence_ordinal": 1,
+              "text": "Le roi de Prusse voulant commencer les hostilités au 9 octobre, en débouchant sur Francfort par sa droite, sur Würzburg par son centre et sur Bamberg par sa gauche, toutes les divisions de son armée étaient disposées pour exécuter ce plan; mais l'armée française, s'étant avancée sur l'extrémité de sa gauche, se trouva, en peu de jours, à Saalburg, à Lobenstein, à Schleiz, à Gera, à Naumburg.",
+              "word_offset_start": 152,
+              "word_offset_end": 219,
+              "char_offset_start": 888,
+              "char_offset_end": 1282,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-15-jena_s01_p13_s02",
+              "sentence_ordinal": 2,
+              "text": "L'armée prussienne, tournée, employa les journées des 9, 10, 1 1 et 12 à rappeler tous ses détachements; et, le i3, elle se présenta en bataille entre Kapellendorf et Auerstœdt, forte de près de i5o,ooo hommes.",
+              "word_offset_start": 219,
+              "word_offset_end": 255,
+              "char_offset_start": 1283,
+              "char_offset_end": 1493,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1806-10-15-jena_s01_p14",
+          "paragraph_ordinal": 14,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-15-jena_s01_p14_s01",
+              "sentence_ordinal": 1,
+              "text": "Le 13, à deux heures après midi, l'Empereur arriva à Iena, et, sur un petit plateau qu'occupait notre avant-garde, il aperçut les dispositions de l'ennemi, qui paraissait manœuvrer pour attaquer le lendemain, et",
+              "word_offset_start": 255,
+              "word_offset_end": 288,
+              "char_offset_start": 1495,
+              "char_offset_end": 1706,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1806-10-15-jena_s01_p15",
+          "paragraph_ordinal": 15,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-15-jena_s01_p15_s01",
+              "sentence_ordinal": 1,
+              "text": "forcer les divers débouchés de la Saale.",
+              "word_offset_start": 288,
+              "word_offset_end": 295,
+              "char_offset_start": 1708,
+              "char_offset_end": 1748,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-15-jena_s01_p15_s02",
+              "sentence_ordinal": 2,
+              "text": "L'ennemi défendait en force et par une position inexpugnable la chaussée d'Iena à Weimar, et paraissait penser que les Français ne pourraient déboucher dans la plaine sans avoir forcé ce passage.",
+              "word_offset_start": 295,
+              "word_offset_end": 326,
+              "char_offset_start": 1749,
+              "char_offset_end": 1944,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-15-jena_s01_p15_s03",
+              "sentence_ordinal": 3,
+              "text": "Il ne paraissait pas possible, en effet, de faire monter de l'artillerie sur le plateau qui, d'ailleurs, était si petit que quatre bataillons pouvaient à peine s'y déployer.",
+              "word_offset_start": 326,
+              "word_offset_end": 354,
+              "char_offset_start": 1945,
+              "char_offset_end": 2118,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-15-jena_s01_p15_s04",
+              "sentence_ordinal": 4,
+              "text": "On fit travailler toute la nuit à un chemin dans le roc, et l'on parvint à conduire l'artillerie sur la hauteur.",
+              "word_offset_start": 354,
+              "word_offset_end": 375,
+              "char_offset_start": 2119,
+              "char_offset_end": 2231,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1806-10-15-jena_s01_p16",
+          "paragraph_ordinal": 16,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-15-jena_s01_p16_s01",
+              "sentence_ordinal": 1,
+              "text": "Le maréchal Davout reçut l'ordre de déboucher par Naumburg, pour défendre les défilés de Kœsen, si l'ennemi voulait marcher sur Naunlburg, ou pour se rendre à Apolda pour le prendre à dos, s'il restait dans la position où il était.",
+              "word_offset_start": 375,
+              "word_offset_end": 415,
+              "char_offset_start": 2233,
+              "char_offset_end": 2464,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1806-10-15-jena_s01_p17",
+          "paragraph_ordinal": 17,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-15-jena_s01_p17_s01",
+              "sentence_ordinal": 1,
+              "text": "Le corps du maréchal prince de Ponte-Corvo fut destiné à déboucher de Dornburg pour tomber sur les derrières de l'ennemi, soit qu'il se portât en force sur Naumburg, soit qu'il se portât sur lena.",
+              "word_offset_start": 415,
+              "word_offset_end": 449,
+              "char_offset_start": 2466,
+              "char_offset_end": 2662,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1806-10-15-jena_s01_p18",
+          "paragraph_ordinal": 18,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-15-jena_s01_p18_s01",
+              "sentence_ordinal": 1,
+              "text": "La grosse cavalerie, qui n'avait pas encore rejoiut l'armée, ne pouvait la rejoindre qu'à midi; la cavalerie de la Garde impériale était à trente- six heures de distance, quelque fortes marches qu'elle eût faites depuis son départ de Paris.",
+              "word_offset_start": 449,
+              "word_offset_end": 488,
+              "char_offset_start": 2664,
+              "char_offset_end": 2904,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-15-jena_s01_p18_s02",
+              "sentence_ordinal": 2,
+              "text": "Mais il est des moments, à la guerre, où aucune considération ne doit balancer l'avantage de prévenir l'ennemi et de l'attaquer le premier.",
+              "word_offset_start": 488,
+              "word_offset_end": 511,
+              "char_offset_start": 2905,
+              "char_offset_end": 3044,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-15-jena_s01_p18_s03",
+              "sentence_ordinal": 3,
+              "text": "L'Empereur fit ranger, sur le plateau qu'occupait l'avant-garde, que l'ennemi paraissait avoir négligé et vis-à-vis duquel il était en position, tout le corps du maréchal Lannes.",
+              "word_offset_start": 511,
+              "word_offset_end": 537,
+              "char_offset_start": 3045,
+              "char_offset_end": 3223,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-15-jena_s01_p18_s04",
+              "sentence_ordinal": 4,
+              "text": "Ce corps d'armée fut rangé par les soins du général Victor; chaque division formant une aile.",
+              "word_offset_start": 537,
+              "word_offset_end": 553,
+              "char_offset_start": 3224,
+              "char_offset_end": 3317,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-15-jena_s01_p18_s05",
+              "sentence_ordinal": 5,
+              "text": "Le maréchal Lefebvre fit ranger, au sommet, la Garde impériale en bataillons carrés.",
+              "word_offset_start": 553,
+              "word_offset_end": 566,
+              "char_offset_start": 3318,
+              "char_offset_end": 3402,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-15-jena_s01_p18_s06",
+              "sentence_ordinal": 6,
+              "text": "L'Empereur bivouaqua au milieu de ces braves.",
+              "word_offset_start": 566,
+              "word_offset_end": 573,
+              "char_offset_start": 3403,
+              "char_offset_end": 3448,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-15-jena_s01_p18_s07",
+              "sentence_ordinal": 7,
+              "text": "La nuit offrait un spectacle digne d'observation : celui de deux armées dont l'une déployait son front sur six lieues d'étendue et embrasait de ses feux l'atmosphère, l'autre dont les feux apparents étaient concentrés sur un petit point; et dans l'une et l'autre armée de l'activité et du mouvement.",
+              "word_offset_start": 573,
+              "word_offset_end": 622,
+              "char_offset_start": 3449,
+              "char_offset_end": 3748,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-15-jena_s01_p18_s08",
+              "sentence_ordinal": 8,
+              "text": "Les feux des deux armées étaient à une demi-portée de canon; les sentinelles se touchaient presque, et il ne se faisait pas un mouvement qui ne fût entendu.",
+              "word_offset_start": 622,
+              "word_offset_end": 650,
+              "char_offset_start": 3749,
+              "char_offset_end": 3905,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1806-10-15-jena_s01_p19",
+          "paragraph_ordinal": 19,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-15-jena_s01_p19_s01",
+              "sentence_ordinal": 1,
+              "text": "Les corps des maréchaux Ney et Soult passèrent la nuit en marche.",
+              "word_offset_start": 650,
+              "word_offset_end": 662,
+              "char_offset_start": 3907,
+              "char_offset_end": 3972,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-15-jena_s01_p19_s02",
+              "sentence_ordinal": 2,
+              "text": "A la pointe du jour, toute l'armée prit les armes.",
+              "word_offset_start": 662,
+              "word_offset_end": 672,
+              "char_offset_start": 3973,
+              "char_offset_end": 4023,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-15-jena_s01_p19_s03",
+              "sentence_ordinal": 3,
+              "text": "La division Gazan était rangée sur trois lignes, sur la gauche du plateau; la division Suchet formait la droite; la Garde impériale occupait le sommet du monticule, chacun de ces corps ayant ses canons dans les intervalles.",
+              "word_offset_start": 672,
+              "word_offset_end": 709,
+              "char_offset_start": 4024,
+              "char_offset_end": 4247,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-15-jena_s01_p19_s04",
+              "sentence_ordinal": 4,
+              "text": "De la ville et des vallées voisines, on avait pratiqué des débouchés qui permettaient le déploiement le plus facile aux troupes qui n'avaient pu être placées sur le plateau, car c'était peut-être la première fois qu'une armée devait passer par un si petit débouché.",
+              "word_offset_start": 709,
+              "word_offset_end": 753,
+              "char_offset_start": 4248,
+              "char_offset_end": 4513,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1806-10-15-jena_s01_p20",
+          "paragraph_ordinal": 20,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-15-jena_s01_p20_s01",
+              "sentence_ordinal": 1,
+              "text": "Un brouillard épais obscurcissait le jour.",
+              "word_offset_start": 753,
+              "word_offset_end": 759,
+              "char_offset_start": 4515,
+              "char_offset_end": 4557,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-15-jena_s01_p20_s02",
+              "sentence_ordinal": 2,
+              "text": "L'Empereur passa devant plusieurs lignes; il recommanda aux soldats de se tenir en garde contre cette cavalerie prussienne qu'on peignait comme si redoutable.",
+              "word_offset_start": 759,
+              "word_offset_end": 782,
+              "char_offset_start": 4558,
+              "char_offset_end": 4716,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-15-jena_s01_p20_s03",
+              "sentence_ordinal": 3,
+              "text": "Il les fit souvenir qu'il y avait un an, à la même époque, ils avaient pris Ulm; que l'armée prussienne, comme l'armée autrichienne, était aujourd'hui cernée, ayant perdu sa ligne d'opération, ses magasins; qu'elle ne se battait plus dans ce moment pour la gloire, mais pour sa retraite; que, cherchant à faire une trouée sur différents points, les corps d'armée qui la laisseraient passer seraient perdus d'honneur et de réputation.",
+              "word_offset_start": 782,
+              "word_offset_end": 852,
+              "char_offset_start": 4717,
+              "char_offset_end": 5150,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-15-jena_s01_p20_s04",
+              "sentence_ordinal": 4,
+              "text": "A ce discours animé, le soldat répondit par des cris de Marchons!",
+              "word_offset_start": 852,
+              "word_offset_end": 864,
+              "char_offset_start": 5151,
+              "char_offset_end": 5216,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-15-jena_s01_p20_s05",
+              "sentence_ordinal": 5,
+              "text": "Les tirailleurs engagèrent l'action; la fusillade devint vive.",
+              "word_offset_start": 864,
+              "word_offset_end": 872,
+              "char_offset_start": 5217,
+              "char_offset_end": 5279,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-15-jena_s01_p20_s06",
+              "sentence_ordinal": 6,
+              "text": "Quelque bonne que fût la position que l'ennemi occupait, il en fut débusqué, et l'armée française, débouchant dans la plaine, commença à prendre son ordre de bataille.",
+              "word_offset_start": 872,
+              "word_offset_end": 899,
+              "char_offset_start": 5280,
+              "char_offset_end": 5447,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1806-10-15-jena_s01_p21",
+          "paragraph_ordinal": 21,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-15-jena_s01_p21_s01",
+              "sentence_ordinal": 1,
+              "text": "De son côté, le gros de l'armée ennemie, qui n'avait eu le projet d'attaquer que lorsque le brouillard serait dissipé, prit les armes.",
+              "word_offset_start": 899,
+              "word_offset_end": 922,
+              "char_offset_start": 5449,
+              "char_offset_end": 5583,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-15-jena_s01_p21_s02",
+              "sentence_ordinal": 2,
+              "text": "Un corps de 5o,ooo hommes de la gauche se porta pour couvrir les défilés de Naumburg et s'emparer des débouchés de Kœsen; mais il avait déjà été prévenu par le maréchal Davout.",
+              "word_offset_start": 922,
+              "word_offset_end": 954,
+              "char_offset_start": 5584,
+              "char_offset_end": 5760,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-15-jena_s01_p21_s03",
+              "sentence_ordinal": 3,
+              "text": "Les deux autres corps, formant une force de 80,000 hommes, se portèrent en avant de l'armée française, qui débouchait du plateau d'Iena.",
+              "word_offset_start": 954,
+              "word_offset_end": 976,
+              "char_offset_start": 5761,
+              "char_offset_end": 5897,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-15-jena_s01_p21_s04",
+              "sentence_ordinal": 4,
+              "text": "Le brouillard couvrit les deux armées pendant deux heures; mais enfin il fut dissipé par un beau soleil d'automne.",
+              "word_offset_start": 976,
+              "word_offset_end": 995,
+              "char_offset_start": 5898,
+              "char_offset_end": 6012,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-15-jena_s01_p21_s05",
+              "sentence_ordinal": 5,
+              "text": "Les deux armées s'aperçurent à une petite portée de canon.",
+              "word_offset_start": 995,
+              "word_offset_end": 1005,
+              "char_offset_start": 6013,
+              "char_offset_end": 6071,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-15-jena_s01_p21_s06",
+              "sentence_ordinal": 6,
+              "text": "La gauche de l'armée française, appuyée sur un village et des bois, était commandée",
+              "word_offset_start": 1005,
+              "word_offset_end": 1019,
+              "char_offset_start": 6072,
+              "char_offset_end": 6155,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1806-10-15-jena_s01_p22",
+          "paragraph_ordinal": 22,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-15-jena_s01_p22_s01",
+              "sentence_ordinal": 1,
+              "text": "par le maréchal Augereau.",
+              "word_offset_start": 1019,
+              "word_offset_end": 1023,
+              "char_offset_start": 6157,
+              "char_offset_end": 6182,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-15-jena_s01_p22_s02",
+              "sentence_ordinal": 2,
+              "text": "La Garde impériale la séparait du centre, qu'occupait le corps du maréchal Lan nes.",
+              "word_offset_start": 1023,
+              "word_offset_end": 1037,
+              "char_offset_start": 6183,
+              "char_offset_end": 6266,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-15-jena_s01_p22_s03",
+              "sentence_ordinal": 3,
+              "text": "La droite était formée par le corps du maréchal Soult.",
+              "word_offset_start": 1037,
+              "word_offset_end": 1047,
+              "char_offset_start": 6267,
+              "char_offset_end": 6321,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-15-jena_s01_p22_s04",
+              "sentence_ordinal": 4,
+              "text": "Le maréchal Ney n'avait qu'un simple corps de 3,000 hommes, seules troupes qui fussent arrivées de son corps d'armée.",
+              "word_offset_start": 1047,
+              "word_offset_end": 1066,
+              "char_offset_start": 6322,
+              "char_offset_end": 6439,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1806-10-15-jena_s01_p23",
+          "paragraph_ordinal": 23,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-15-jena_s01_p23_s01",
+              "sentence_ordinal": 1,
+              "text": "L'armée ennemie était nombreuse et montrait une belle cavalerie; ses manœuvres étaient exécutées avec précision et rapidité.",
+              "word_offset_start": 1066,
+              "word_offset_end": 1083,
+              "char_offset_start": 6441,
+              "char_offset_end": 6565,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-15-jena_s01_p23_s02",
+              "sentence_ordinal": 2,
+              "text": "L'Empereur eût désiré de retarder de deux heures d'en venir aux mains, afin d'attendre, dans la position qu'il venait de prendre, après l'attaque du matin, les troupes qui devaient le joindre et surtout sa cavalerie; mais. l'ardeur française l'emporta.",
+              "word_offset_start": 1083,
+              "word_offset_end": 1122,
+              "char_offset_start": 6566,
+              "char_offset_end": 6818,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-15-jena_s01_p23_s03",
+              "sentence_ordinal": 3,
+              "text": "Plusieurs bataillons s'étant engagés au village d'Holhstsedt, il vit l'ennemi s'ébranler pour les en déposter; le maréchal Lannes reçut ordre sur-le-champ de marcher en échelons pour soutenir ce village.",
+              "word_offset_start": 1122,
+              "word_offset_end": 1151,
+              "char_offset_start": 6819,
+              "char_offset_end": 7022,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-15-jena_s01_p23_s04",
+              "sentence_ordinal": 4,
+              "text": "Le maréchal Soult attaqua un bois sur la droite.",
+              "word_offset_start": 1151,
+              "word_offset_end": 1160,
+              "char_offset_start": 7023,
+              "char_offset_end": 7071,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-15-jena_s01_p23_s05",
+              "sentence_ordinal": 5,
+              "text": "L'ennemi ayant fait un mouvement de sa droite sur notre gauche, le maréchal Augereau fut chargé de le repousser.",
+              "word_offset_start": 1160,
+              "word_offset_end": 1179,
+              "char_offset_start": 7072,
+              "char_offset_end": 7184,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-15-jena_s01_p23_s06",
+              "sentence_ordinal": 6,
+              "text": "En moins d'une heure, l'action devint générale : 250 ou 3oo,ooo hommes, avec 7 ou 800 pièces de canon, semaient partout la mort et offraient un de ces spectacles rares dans l'histoire.",
+              "word_offset_start": 1179,
+              "word_offset_end": 1211,
+              "char_offset_start": 7185,
+              "char_offset_end": 7369,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-15-jena_s01_p23_s07",
+              "sentence_ordinal": 7,
+              "text": "De part et d'autre on manœuvra constamment comme à une parade; parmi nos troupes, il n'y eut jamais le moindre désordre, la victoire ne fut pas un moment incertaine.",
+              "word_offset_start": 1211,
+              "word_offset_end": 1240,
+              "char_offset_start": 7370,
+              "char_offset_end": 7535,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-15-jena_s01_p23_s08",
+              "sentence_ordinal": 8,
+              "text": "L'Empereur eut toujours auprès de lui, indépendamment de la Garde impériale, un bon nombre de troupes de réserve pour pouvoir parer à tout accident imprévu.",
+              "word_offset_start": 1240,
+              "word_offset_end": 1265,
+              "char_offset_start": 7536,
+              "char_offset_end": 7692,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1806-10-15-jena_s01_p24",
+          "paragraph_ordinal": 24,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-15-jena_s01_p24_s01",
+              "sentence_ordinal": 1,
+              "text": "Le maréchal Soult, ayant enlevé le bois qu'il attaquait depuis deux heures, fit un mouvement en avant : dans cet instant on prévint l'Empereur que les divisions de cavalerie française de réserve commençaient à se placer, et que deux nouvelles divisions du corps du maréchal Ney se plaçaient en arrière, sur le champ de bataille.",
+              "word_offset_start": 1265,
+              "word_offset_end": 1320,
+              "char_offset_start": 7694,
+              "char_offset_end": 8022,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-15-jena_s01_p24_s02",
+              "sentence_ordinal": 2,
+              "text": "On fit alors avancer toutes les troupes qui étaient en réserve, sur la première ligne, qui, se trouvant ainsi appuyée, culbuta l'ennemi en un clin d'œil et le mit en pleine retraite.",
+              "word_offset_start": 1320,
+              "word_offset_end": 1352,
+              "char_offset_start": 8023,
+              "char_offset_end": 8205,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-15-jena_s01_p24_s03",
+              "sentence_ordinal": 3,
+              "text": "Il la fit en ordre pendant la première heure; mais elle devint un affreux désordre, du moment que nos divisions de dragons et nos cuirassiers, ayant le grand-duc de Berg à leur tête, purent prendre part à l'affaire.",
+              "word_offset_start": 1352,
+              "word_offset_end": 1390,
+              "char_offset_start": 8206,
+              "char_offset_end": 8421,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-15-jena_s01_p24_s04",
+              "sentence_ordinal": 4,
+              "text": "Ces braves cavaliers, frémissant de voir la victoire se décider",
+              "word_offset_start": 1390,
+              "word_offset_end": 1400,
+              "char_offset_start": 8422,
+              "char_offset_end": 8485,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1806-10-15-jena_s01_p25",
+          "paragraph_ordinal": 25,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-15-jena_s01_p25_s01",
+              "sentence_ordinal": 1,
+              "text": "sans eux, se précipitèrent partout où ils rencontrèrent des ennemis.",
+              "word_offset_start": 1400,
+              "word_offset_end": 1410,
+              "char_offset_start": 8487,
+              "char_offset_end": 8555,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-15-jena_s01_p25_s02",
+              "sentence_ordinal": 2,
+              "text": "La cavalerie, l'infanterie prussienne ne purent soutenir leur choc; en vain l'infanterie ennemie se forma en bataillons carrés; cinq de ces bataillons furent enfoncés : artillerie, cavalerie, infanterie, tout fut culbuté et pris.",
+              "word_offset_start": 1410,
+              "word_offset_end": 1443,
+              "char_offset_start": 8556,
+              "char_offset_end": 8785,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-15-jena_s01_p25_s03",
+              "sentence_ordinal": 3,
+              "text": "Les Français arrivèrent à Weimar en même temps que l'ennemi, qui fut ainsi poursuivi pendant l'espace de six lieues.",
+              "word_offset_start": 1443,
+              "word_offset_end": 1462,
+              "char_offset_start": 8786,
+              "char_offset_end": 8902,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1806-10-15-jena_s01_p26",
+          "paragraph_ordinal": 26,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-15-jena_s01_p26_s01",
+              "sentence_ordinal": 1,
+              "text": "A notre droite, le corps du maréchal Davout faisait des prodiges; non- seulement il contint, mais mena battant, pendant plus de trois lieues, le gros des troupes ennemies qui devait déboucher du côté de Kœsen.",
+              "word_offset_start": 1462,
+              "word_offset_end": 1497,
+              "char_offset_start": 8904,
+              "char_offset_end": 9113,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-15-jena_s01_p26_s02",
+              "sentence_ordinal": 2,
+              "text": "Ce maréchal a déployé une bravoure distinguée et de la fermeté de caractère, première qualité d'un homme de guerre.",
+              "word_offset_start": 1497,
+              "word_offset_end": 1516,
+              "char_offset_start": 9114,
+              "char_offset_end": 9229,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-15-jena_s01_p26_s03",
+              "sentence_ordinal": 3,
+              "text": "Il a été secondé par les généraux Gudin, Friant, Morand, Daultanne, chef de l'état-major, et par la rare intrépidité de son brave corps d'armée.",
+              "word_offset_start": 1516,
+              "word_offset_end": 1540,
+              "char_offset_start": 9230,
+              "char_offset_end": 9374,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1806-10-15-jena_s01_p27",
+          "paragraph_ordinal": 27,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-15-jena_s01_p27_s01",
+              "sentence_ordinal": 1,
+              "text": "Les résultats de la bataille sont 3 o à 40,000 prisonniers, il en arrive à chaque moment; a 5 à 3o drapeaux, 3oo pièces de canon, des magasins immenses de subsistances.",
+              "word_offset_start": 1540,
+              "word_offset_end": 1571,
+              "char_offset_start": 9376,
+              "char_offset_end": 9544,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-15-jena_s01_p27_s02",
+              "sentence_ordinal": 2,
+              "text": "Parmi les prisonniers se trouvent plus de vingt généraux, dont plusieurs lieutenants généraux, entre autres le lieutenant général Schmettau.",
+              "word_offset_start": 1571,
+              "word_offset_end": 1590,
+              "char_offset_start": 9545,
+              "char_offset_end": 9685,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-15-jena_s01_p27_s03",
+              "sentence_ordinal": 3,
+              "text": "Le nombre des morts est immense dans l'armée prussienne; on compte qu'il y a plus de 20,000 tués ou blessés.",
+              "word_offset_start": 1590,
+              "word_offset_end": 1610,
+              "char_offset_start": 9686,
+              "char_offset_end": 9794,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-15-jena_s01_p27_s04",
+              "sentence_ordinal": 4,
+              "text": "Le feld-maréchal Mœllendorf a été blessé; le duc de Brunswick a été tué; le général Rüchel a été tué; le prince Henri de Prusse, grièvement blessé.",
+              "word_offset_start": 1610,
+              "word_offset_end": 1636,
+              "char_offset_start": 9795,
+              "char_offset_end": 9942,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-15-jena_s01_p27_s05",
+              "sentence_ordinal": 5,
+              "text": "Au dire des déserteurs, des prisonniers et des parlementaires, le désordre et la consternation sont extrêmes dans les débris de l'armée ennemie.",
+              "word_offset_start": 1636,
+              "word_offset_end": 1658,
+              "char_offset_start": 9943,
+              "char_offset_end": 10087,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1806-10-15-jena_s01_p28",
+          "paragraph_ordinal": 28,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-15-jena_s01_p28_s01",
+              "sentence_ordinal": 1,
+              "text": "De notre côté, nous n'avons à regretter, parmi les généraux, que la perte du général de brigade Debilly, excellent soldat.",
+              "word_offset_start": 1658,
+              "word_offset_end": 1678,
+              "char_offset_start": 10089,
+              "char_offset_end": 10211,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-15-jena_s01_p28_s02",
+              "sentence_ordinal": 2,
+              "text": "Parmi les blessés, le général de brigade Conroux; parmi les colonels morts, les colonels Vergez, du 12e régiment d'infanterie de ligne; Lamotte, du 3 6e; Barba- nègre, du 9 c de hussards; Marigny, du goe de chasseurs; Harispe, du 16e d'infanterie légère; Doullembourg, du ier de dragons; Nicolas, du 6te de ligne; Viala, du 85e; Higonet, du 108e.",
+              "word_offset_start": 1678,
+              "word_offset_end": 1736,
+              "char_offset_start": 10212,
+              "char_offset_end": 10558,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1806-10-15-jena_s01_p29",
+          "paragraph_ordinal": 29,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-15-jena_s01_p29_s01",
+              "sentence_ordinal": 1,
+              "text": "Les hussards et les chasseurs ont montré, dans cette journée, une audace digne des plus grands éloges.",
+              "word_offset_start": 1736,
+              "word_offset_end": 1753,
+              "char_offset_start": 10560,
+              "char_offset_end": 10662,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-15-jena_s01_p29_s02",
+              "sentence_ordinal": 2,
+              "text": "La cavalerie prussienne n'a jamais",
+              "word_offset_start": 1753,
+              "word_offset_end": 1758,
+              "char_offset_start": 10663,
+              "char_offset_end": 10697,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1806-10-15-jena_s01_p30",
+          "paragraph_ordinal": 30,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-15-jena_s01_p30_s01",
+              "sentence_ordinal": 1,
+              "text": "tenu devant eux, et toutes les charges qu'ils ont faites devant l'infanterie ont été heureuses.",
+              "word_offset_start": 1758,
+              "word_offset_end": 1773,
+              "char_offset_start": 10699,
+              "char_offset_end": 10794,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1806-10-15-jena_s01_p31",
+          "paragraph_ordinal": 31,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-15-jena_s01_p31_s01",
+              "sentence_ordinal": 1,
+              "text": "Nous ne parlons pas de l'infanterie française : il est reconnu depuis longtemps que c'est la meilleure infanterie du monde.",
+              "word_offset_start": 1773,
+              "word_offset_end": 1793,
+              "char_offset_start": 10796,
+              "char_offset_end": 10919,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-15-jena_s01_p31_s02",
+              "sentence_ordinal": 2,
+              "text": "L'Empereur a déclaré que la cavalerie française, après l'expérience des deux campagnes et de cette dernière bataille, n'avait pas d'égale.",
+              "word_offset_start": 1793,
+              "word_offset_end": 1813,
+              "char_offset_start": 10920,
+              "char_offset_end": 11058,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1806-10-15-jena_s01_p32",
+          "paragraph_ordinal": 32,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-15-jena_s01_p32_s01",
+              "sentence_ordinal": 1,
+              "text": "L'armée prussienne a, dans cette bataille, perdu toute retraite et toute sa ligne d'opération.",
+              "word_offset_start": 1813,
+              "word_offset_end": 1827,
+              "char_offset_start": 11060,
+              "char_offset_end": 11154,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-15-jena_s01_p32_s02",
+              "sentence_ordinal": 2,
+              "text": "Sa gauche, poursuivie par le maréchal Davout, opéra sa retraite sur Weimar, dans le temps que sa droite et son centre se retiraient de Weimar sur Naumburg.",
+              "word_offset_start": 1827,
+              "word_offset_end": 1854,
+              "char_offset_start": 11155,
+              "char_offset_end": 11310,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-15-jena_s01_p32_s03",
+              "sentence_ordinal": 3,
+              "text": "La confusion fut donc extrême.",
+              "word_offset_start": 1854,
+              "word_offset_end": 1859,
+              "char_offset_start": 11311,
+              "char_offset_end": 11341,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-15-jena_s01_p32_s04",
+              "sentence_ordinal": 4,
+              "text": "Le Roi a dû se retirer à travers champs, à la tête de son régiment de cavalerie.",
+              "word_offset_start": 1859,
+              "word_offset_end": 1876,
+              "char_offset_start": 11342,
+              "char_offset_end": 11422,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1806-10-15-jena_s01_p33",
+          "paragraph_ordinal": 33,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-15-jena_s01_p33_s01",
+              "sentence_ordinal": 1,
+              "text": "Notre perte est évaluée à 1,000 ou 1,100 tués et 3,ooo blessés.",
+              "word_offset_start": 1876,
+              "word_offset_end": 1888,
+              "char_offset_start": 11424,
+              "char_offset_end": 11487,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1806-10-15-jena_s01_p34",
+          "paragraph_ordinal": 34,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-15-jena_s01_p34_s01",
+              "sentence_ordinal": 1,
+              "text": "Le grand-duc de Berg investit en ce moment la place d'Erfurt, où se trouve un corps d'ennemis que commandent le maréchal Mœllendorf et le prince d'Orange.",
+              "word_offset_start": 1888,
+              "word_offset_end": 1914,
+              "char_offset_start": 11489,
+              "char_offset_end": 11643,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1806-10-15-jena_s01_p35",
+          "paragraph_ordinal": 35,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-15-jena_s01_p35_s01",
+              "sentence_ordinal": 1,
+              "text": "L'état-major s'occupe d'une relation officielle qui fera connaître dans tous ses détails cette bataille, et les services rendus par les différents corps d'armée et régiments.",
+              "word_offset_start": 1914,
+              "word_offset_end": 1939,
+              "char_offset_start": 11645,
+              "char_offset_end": 11819,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-15-jena_s01_p35_s02",
+              "sentence_ordinal": 2,
+              "text": "Si cela peut ajouter quelque chose aux titres qu'a l'armée à l'estime et à la considération de la nation, rien ne pourra ajouter au sentiment d'attendrissement qu'ont éprouvé ceux qui ont été témoins de l'enthousiasme et de l'amour qu'elle témoignait à l'Empereur, au plus fort du combat.",
+              "word_offset_start": 1939,
+              "word_offset_end": 1986,
+              "char_offset_start": 11820,
+              "char_offset_end": 12108,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-15-jena_s01_p35_s03",
+              "sentence_ordinal": 3,
+              "text": "S'il y avait un moment d'hésitation, le seul cri de Vive l'Empereur! ranimait les courages et retrempait toutes les âmes.",
+              "word_offset_start": 1986,
+              "word_offset_end": 2006,
+              "char_offset_start": 12109,
+              "char_offset_end": 12230,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-15-jena_s01_p35_s04",
+              "sentence_ordinal": 4,
+              "text": "Au fort de la mêlée, l'Empereur, voyant ses ailes menacées par la cavalerie. se portait au galop pour ordonner des manœuvres et des changements de front en carrés.",
+              "word_offset_start": 2006,
+              "word_offset_end": 2034,
+              "char_offset_start": 12231,
+              "char_offset_end": 12394,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-15-jena_s01_p35_s05",
+              "sentence_ordinal": 5,
+              "text": "Il était interrompu à chaque instant par des cris de Vive l'Empereur!",
+              "word_offset_start": 2034,
+              "word_offset_end": 2046,
+              "char_offset_start": 12395,
+              "char_offset_end": 12464,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-15-jena_s01_p35_s06",
+              "sentence_ordinal": 6,
+              "text": "La Garde impériale à pied voyait, avec un dépit qu'elle ne pouvait dissimuler, tout le monde aux mains et elle dans l'inaction.",
+              "word_offset_start": 2046,
+              "word_offset_end": 2068,
+              "char_offset_start": 12465,
+              "char_offset_end": 12592,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-15-jena_s01_p35_s07",
+              "sentence_ordinal": 7,
+              "text": "Plusieurs voix firent entendre les mots : En avant ! « Qu'est-ce? dit l'Empe- «reur.",
+              "word_offset_start": 2068,
+              "word_offset_end": 2083,
+              "char_offset_start": 12593,
+              "char_offset_end": 12677,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-15-jena_s01_p35_s08",
+              "sentence_ordinal": 8,
+              "text": "Ce ne peut être qu'un jeune homme qui n'a pas de barbe qui «peut vouloir préjuger ce que je dois faire; qu'il attende qu'il ait com- zt mandé dans trente batailles rangées, avant de prétendre me donner des",
+              "word_offset_start": 2083,
+              "word_offset_end": 2121,
+              "char_offset_start": 12678,
+              "char_offset_end": 12883,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1806-10-15-jena_s01_p36",
+          "paragraph_ordinal": 36,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-15-jena_s01_p36_s01",
+              "sentence_ordinal": 1,
+              "text": "« avis. * C'étaient effectivement des vélites dont le jeune courage était impatient de se signaler.",
+              "word_offset_start": 2121,
+              "word_offset_end": 2137,
+              "char_offset_start": 12885,
+              "char_offset_end": 12984,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1806-10-15-jena_s01_p37",
+          "paragraph_ordinal": 37,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-15-jena_s01_p37_s01",
+              "sentence_ordinal": 1,
+              "text": "Dans une mêlée aussi chaude, pendant que l'ennemi perdait presque tous ses généraux, on doit remercier cette Providence qui gardait notre armée.",
+              "word_offset_start": 2137,
+              "word_offset_end": 2159,
+              "char_offset_start": 12986,
+              "char_offset_end": 13130,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-15-jena_s01_p37_s02",
+              "sentence_ordinal": 2,
+              "text": "Aucun homme de marque n'a été tué ni blessé.",
+              "word_offset_start": 2159,
+              "word_offset_end": 2168,
+              "char_offset_start": 13131,
+              "char_offset_end": 13175,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-15-jena_s01_p37_s03",
+              "sentence_ordinal": 3,
+              "text": "Le maréchal Lannes a eu un biscaïen qui lui a rasé la poitrine sans le blesser.",
+              "word_offset_start": 2168,
+              "word_offset_end": 2184,
+              "char_offset_start": 13176,
+              "char_offset_end": 13255,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-15-jena_s01_p37_s04",
+              "sentence_ordinal": 4,
+              "text": "Le maréchal Davout a eu son chapeau emporté et un grand nombre de balles dans ses habits.",
+              "word_offset_start": 2184,
+              "word_offset_end": 2201,
+              "char_offset_start": 13256,
+              "char_offset_end": 13345,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-15-jena_s01_p37_s05",
+              "sentence_ordinal": 5,
+              "text": "L'Empereur a toujours été entouré, partout où il a paru, du prince de Neuchâtel, du maréchal Bessières, du grand maréchal du palais Duroc, du grand écuyer Caulaincourt, et de ses aides de camp et écuyers de service.",
+              "word_offset_start": 2201,
+              "word_offset_end": 2238,
+              "char_offset_start": 13346,
+              "char_offset_end": 13561,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-15-jena_s01_p37_s06",
+              "sentence_ordinal": 6,
+              "text": "Une partie de l'armée n'a pas donné, ou est encore sans avoir tiré un coup de fusil.",
+              "word_offset_start": 2238,
+              "word_offset_end": 2255,
+              "char_offset_start": 13562,
+              "char_offset_end": 13646,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1806-10-15-jena_s01_p38",
+          "paragraph_ordinal": 38,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-15-jena_s01_p38_s01",
+              "sentence_ordinal": 1,
+              "text": "Moniteur du 26 octobre 1806.",
+              "word_offset_start": 2255,
+              "word_offset_end": 2260,
+              "char_offset_start": 13648,
+              "char_offset_end": 13676,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1806-10-15-jena_s01_p39",
+          "paragraph_ordinal": 39,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-15-jena_s01_p39_s01",
+              "sentence_ordinal": 1,
+              "text": "(En minute au Dépôt de la guerre.)",
+              "word_offset_start": 2260,
+              "word_offset_end": 2267,
+              "char_offset_start": 13678,
+              "char_offset_end": 13712,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1806-10-15-jena_s01_p40",
+          "paragraph_ordinal": 40,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-15-jena_s01_p40_s01",
+              "sentence_ordinal": 1,
+              "text": "11010.",
+              "word_offset_start": 2267,
+              "word_offset_end": 2268,
+              "char_offset_start": 13714,
+              "char_offset_end": 13720,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1806-10-15-jena_s01_p41",
+          "paragraph_ordinal": 41,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-15-jena_s01_p41_s01",
+              "sentence_ordinal": 1,
+              "text": "DÉCRET.",
+              "word_offset_start": 2268,
+              "word_offset_end": 2269,
+              "char_offset_start": 13722,
+              "char_offset_end": 13729,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1806-10-15-jena_s01_p42",
+          "paragraph_ordinal": 42,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-15-jena_s01_p42_s01",
+              "sentence_ordinal": 1,
+              "text": "Quartier impérial, Iena, i5 octobre 1806.",
+              "word_offset_start": 2269,
+              "word_offset_end": 2275,
+              "char_offset_start": 13731,
+              "char_offset_end": 13772,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1806-10-15-jena_s01_p43",
+          "paragraph_ordinal": 43,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-15-jena_s01_p43_s01",
+              "sentence_ordinal": 1,
+              "text": "NAPOLÉON, Empereur des Français, Roi d'Italie,",
+              "word_offset_start": 2275,
+              "word_offset_end": 2281,
+              "char_offset_start": 13774,
+              "char_offset_end": 13820,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1806-10-15-jena_s01_p44",
+          "paragraph_ordinal": 44,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-15-jena_s01_p44_s01",
+              "sentence_ordinal": 1,
+              "text": "Considérant que le résultat de la bataille d'hier est la conquête de tous les pays appartenant au roi de Prusse en deçà de la Vistule,",
+              "word_offset_start": 2281,
+              "word_offset_end": 2306,
+              "char_offset_start": 13822,
+              "char_offset_end": 13956,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1806-10-15-jena_s01_p45",
+          "paragraph_ordinal": 45,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-15-jena_s01_p45_s01",
+              "sentence_ordinal": 1,
+              "text": "Nous avons décrété et décrétons les dispositions suivantes, pour servir de règle à notre intendant général, à l'administrateur général des finances et à notre receveur général :",
+              "word_offset_start": 2306,
+              "word_offset_end": 2333,
+              "char_offset_start": 13958,
+              "char_offset_end": 14135,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1806-10-15-jena_s01_p46",
+          "paragraph_ordinal": 46,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-15-jena_s01_p46_s01",
+              "sentence_ordinal": 1,
+              "text": "ARTICLE 1er.",
+              "word_offset_start": 2333,
+              "word_offset_end": 2335,
+              "char_offset_start": 14137,
+              "char_offset_end": 14149,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-15-jena_s01_p46_s02",
+              "sentence_ordinal": 2,
+              "text": "Les états de l'électeur de Saxe payeront une contribution",
+              "word_offset_start": 2335,
+              "word_offset_end": 2344,
+              "char_offset_start": 14150,
+              "char_offset_end": 14207,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1806-10-15-jena_s01_p47",
+          "paragraph_ordinal": 47,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-15-jena_s01_p47_s01",
+              "sentence_ordinal": 1,
+              "text": "extraordinaire de guerre de 95,375,000 francs.",
+              "word_offset_start": 2344,
+              "word_offset_end": 2350,
+              "char_offset_start": 14209,
+              "char_offset_end": 14255,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1806-10-15-jena_s01_p48",
+          "paragraph_ordinal": 48,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-15-jena_s01_p48_s01",
+              "sentence_ordinal": 1,
+              "text": "Le duché de Weimar 2,200,000",
+              "word_offset_start": 2350,
+              "word_offset_end": 2355,
+              "char_offset_start": 14257,
+              "char_offset_end": 14285,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1806-10-15-jena_s01_p49",
+          "paragraph_ordinal": 49,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-15-jena_s01_p49_s01",
+              "sentence_ordinal": 1,
+              "text": "Les états du duc de Brunswick et Wolfenbuttel.",
+              "word_offset_start": 2355,
+              "word_offset_end": 2363,
+              "char_offset_start": 14287,
+              "char_offset_end": 14333,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-15-jena_s01_p49_s02",
+              "sentence_ordinal": 2,
+              "text": "5,625,000",
+              "word_offset_start": 2363,
+              "word_offset_end": 2364,
+              "char_offset_start": 14334,
+              "char_offset_end": 14343,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1806-10-15-jena_s01_p50",
+          "paragraph_ordinal": 50,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-15-jena_s01_p50_s01",
+              "sentence_ordinal": 1,
+              "text": "Les états du prince de Nassau, Orange, Fulde.",
+              "word_offset_start": 2364,
+              "word_offset_end": 2372,
+              "char_offset_start": 14345,
+              "char_offset_end": 14390,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-15-jena_s01_p50_s02",
+              "sentence_ordinal": 2,
+              "text": "1,300,000 L'électeur de Hesse-Cassel 6,000,000",
+              "word_offset_start": 2372,
+              "word_offset_end": 2377,
+              "char_offset_start": 14391,
+              "char_offset_end": 14437,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1806-10-15-jena_s01_p51",
+          "paragraph_ordinal": 51,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-15-jena_s01_p51_s01",
+              "sentence_ordinal": 1,
+              "text": "La ville d'Erfurt et le comté de Blankenhayn..",
+              "word_offset_start": 2377,
+              "word_offset_end": 2385,
+              "char_offset_start": 14439,
+              "char_offset_end": 14485,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-15-jena_s01_p51_s02",
+              "sentence_ordinal": 2,
+              "text": "400,000",
+              "word_offset_start": 2385,
+              "word_offset_end": 2386,
+              "char_offset_start": 14486,
+              "char_offset_end": 14493,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1806-10-15-jena_s01_p52",
+          "paragraph_ordinal": 52,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-15-jena_s01_p52_s01",
+              "sentence_ordinal": 1,
+              "text": "A reporter .......",
+              "word_offset_start": 2386,
+              "word_offset_end": 2389,
+              "char_offset_start": 14495,
+              "char_offset_end": 14513,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-15-jena_s01_p52_s02",
+              "sentence_ordinal": 2,
+              "text": "4o,900,000 -",
+              "word_offset_start": 2389,
+              "word_offset_end": 2391,
+              "char_offset_start": 14514,
+              "char_offset_end": 14526,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1806-10-15-jena_s01_p53",
+          "paragraph_ordinal": 53,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-15-jena_s01_p53_s01",
+              "sentence_ordinal": 1,
+              "text": "Report 40,900,000 francs.",
+              "word_offset_start": 2391,
+              "word_offset_end": 2394,
+              "char_offset_start": 14528,
+              "char_offset_end": 14553,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1806-10-15-jena_s01_p54",
+          "paragraph_ordinal": 54,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-15-jena_s01_p54_s01",
+              "sentence_ordinal": 1,
+              "text": "Le comté d'Eichsfeld 675,000 La ville de Goslar .",
+              "word_offset_start": 2394,
+              "word_offset_end": 2403,
+              "char_offset_start": 14555,
+              "char_offset_end": 14604,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-15-jena_s01_p54_s02",
+              "sentence_ordinal": 2,
+              "text": "200,000 La principauté de Halberstadt 5-9 5,0 00 Hildesheim 100,000 Paderborn 225,000 Munster 2 ,500,000 Le pays de Tecklenburg et de Lingen 100,000 Le comté de la Marck 2,000,000 La principauté de Minden et de Ravensberg..",
+              "word_offset_start": 2403,
+              "word_offset_end": 2439,
+              "char_offset_start": 14605,
+              "char_offset_end": 14828,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-15-jena_s01_p54_s03",
+              "sentence_ordinal": 3,
+              "text": "600,000 Le margraviat de Raireuth 2,500,000 Les états du roi de Prusse en deçà de la Vislule..",
+              "word_offset_start": 2439,
+              "word_offset_end": 2456,
+              "char_offset_start": 14829,
+              "char_offset_end": 14923,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-15-jena_s01_p54_s04",
+              "sentence_ordinal": 4,
+              "text": "100,000,000 La ville de Berlin sera comprise dans cette ré(luisi Lion pour une somme de dix millions.",
+              "word_offset_start": 2456,
+              "word_offset_end": 2473,
+              "char_offset_start": 14924,
+              "char_offset_end": 15025,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1806-10-15-jena_s01_p55",
+          "paragraph_ordinal": 55,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-15-jena_s01_p55_s01",
+              "sentence_ordinal": 1,
+              "text": "Le pays de Hanovre 9,100,000",
+              "word_offset_start": 2473,
+              "word_offset_end": 2478,
+              "char_offset_start": 15027,
+              "char_offset_end": 15055,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1806-10-15-jena_s01_p56",
+          "paragraph_ordinal": 56,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-15-jena_s01_p56_s01",
+              "sentence_ordinal": 1,
+              "text": "Total 1 5 9, Ú 2 5,000",
+              "word_offset_start": 2478,
+              "word_offset_end": 2485,
+              "char_offset_start": 15057,
+              "char_offset_end": 15079,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1806-10-15-jena_s01_p57",
+          "paragraph_ordinal": 57,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-15-jena_s01_p57_s01",
+              "sentence_ordinal": 1,
+              "text": "ART.",
+              "word_offset_start": 2485,
+              "word_offset_end": 2486,
+              "char_offset_start": 15081,
+              "char_offset_end": 15085,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-15-jena_s01_p57_s02",
+              "sentence_ordinal": 2,
+              "text": "2.",
+              "word_offset_start": 2486,
+              "word_offset_end": 2487,
+              "char_offset_start": 15086,
+              "char_offset_end": 15088,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-15-jena_s01_p57_s03",
+              "sentence_ordinal": 3,
+              "text": "Il sera pris possession de rOst-Frise par le roi de Hollande.",
+              "word_offset_start": 2487,
+              "word_offset_end": 2498,
+              "char_offset_start": 15089,
+              "char_offset_end": 15150,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-15-jena_s01_p57_s04",
+              "sentence_ordinal": 4,
+              "text": "ART.",
+              "word_offset_start": 2498,
+              "word_offset_end": 2499,
+              "char_offset_start": 15151,
+              "char_offset_end": 15155,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-15-jena_s01_p57_s05",
+              "sentence_ordinal": 5,
+              "text": "3.",
+              "word_offset_start": 2499,
+              "word_offset_end": 2500,
+              "char_offset_start": 15156,
+              "char_offset_end": 15158,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-15-jena_s01_p57_s06",
+              "sentence_ordinal": 6,
+              "text": "Les états des ducs de Saxe-Gotha, des princes d'Anhalt, de Waldeck, de la Lippe et de Reuss, qui n'ont point pris part à la guerre, ne seront inquiétés d'aucune manière et ne payeront point de contributions.",
+              "word_offset_start": 2500,
+              "word_offset_end": 2536,
+              "char_offset_start": 15159,
+              "char_offset_end": 15366,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1806-10-15-jena_s01_p58",
+          "paragraph_ordinal": 58,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-15-jena_s01_p58_s01",
+              "sentence_ordinal": 1,
+              "text": "ART.",
+              "word_offset_start": 2536,
+              "word_offset_end": 2537,
+              "char_offset_start": 15368,
+              "char_offset_end": 15372,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-15-jena_s01_p58_s02",
+              "sentence_ordinal": 2,
+              "text": "4.",
+              "word_offset_start": 2537,
+              "word_offset_end": 2538,
+              "char_offset_start": 15373,
+              "char_offset_end": 15375,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-15-jena_s01_p58_s03",
+              "sentence_ordinal": 3,
+              "text": "L'intendant général est autorisé à engager les domaines du prince pour le payement de la contribution.",
+              "word_offset_start": 2538,
+              "word_offset_end": 2554,
+              "char_offset_start": 15376,
+              "char_offset_end": 15478,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1806-10-15-jena_s01_p59",
+          "paragraph_ordinal": 59,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-15-jena_s01_p59_s01",
+              "sentence_ordinal": 1,
+              "text": "AHT.",
+              "word_offset_start": 2554,
+              "word_offset_end": 2555,
+              "char_offset_start": 15480,
+              "char_offset_end": 15484,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-15-jena_s01_p59_s02",
+              "sentence_ordinal": 2,
+              "text": "5.",
+              "word_offset_start": 2555,
+              "word_offset_end": 2556,
+              "char_offset_start": 15485,
+              "char_offset_end": 15487,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-15-jena_s01_p59_s03",
+              "sentence_ordinal": 3,
+              "text": "Toutes les marchandises anglaises qui se trouveront dans les villes du Nord appartiendront à l'armée.",
+              "word_offset_start": 2556,
+              "word_offset_end": 2571,
+              "char_offset_start": 15488,
+              "char_offset_end": 15589,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1806-10-15-jena_s01_p60",
+          "paragraph_ordinal": 60,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-15-jena_s01_p60_s01",
+              "sentence_ordinal": 1,
+              "text": "NAPOLÉON.",
+              "word_offset_start": 2571,
+              "word_offset_end": 2572,
+              "char_offset_start": 15591,
+              "char_offset_end": 15600,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1806-10-15-jena_s01_p61",
+          "paragraph_ordinal": 61,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-15-jena_s01_p61_s01",
+              "sentence_ordinal": 1,
+              "text": "Archives de l'Empire.",
+              "word_offset_start": 2572,
+              "word_offset_end": 2575,
+              "char_offset_start": 15602,
+              "char_offset_end": 15623,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1806-10-15-jena_s01_p62",
+          "paragraph_ordinal": 62,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-15-jena_s01_p62_s01",
+              "sentence_ordinal": 1,
+              "text": "11011.",
+              "word_offset_start": 2575,
+              "word_offset_end": 2576,
+              "char_offset_start": 15625,
+              "char_offset_end": 15631,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1806-10-15-jena_s01_p63",
+          "paragraph_ordinal": 63,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-15-jena_s01_p63_s01",
+              "sentence_ordinal": 1,
+              "text": "AU GRAND-DUC DE BERG.",
+              "word_offset_start": 2576,
+              "word_offset_end": 2580,
+              "char_offset_start": 15633,
+              "char_offset_end": 15654,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1806-10-15-jena_s01_p64",
+          "paragraph_ordinal": 64,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-15-jena_s01_p64_s01",
+              "sentence_ordinal": 1,
+              "text": "Iena, i5 octobre 1806, 1 heure après midi.",
+              "word_offset_start": 2580,
+              "word_offset_end": 2588,
+              "char_offset_start": 15656,
+              "char_offset_end": 15698,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1806-10-15-jena_s01_p65",
+          "paragraph_ordinal": 65,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-15-jena_s01_p65_s01",
+              "sentence_ordinal": 1,
+              "text": "Il paraît que la réunion de l'armée prussienne se fait sur Franken-",
+              "word_offset_start": 2588,
+              "word_offset_end": 2600,
+              "char_offset_start": 15700,
+              "char_offset_end": 15767,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1806-10-15-jena_s01_p66",
+          "paragraph_ordinal": 66,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-15-jena_s01_p66_s01",
+              "sentence_ordinal": 1,
+              "text": "hausen.",
+              "word_offset_start": 2600,
+              "word_offset_end": 2601,
+              "char_offset_start": 15769,
+              "char_offset_end": 15776,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-15-jena_s01_p66_s02",
+              "sentence_ordinal": 2,
+              "text": "Le maréchal Davout a eu une affaire superbe; il a battu seul 60,000 Prussiens.",
+              "word_offset_start": 2601,
+              "word_offset_end": 2615,
+              "char_offset_start": 15777,
+              "char_offset_end": 15855,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-15-jena_s01_p66_s03",
+              "sentence_ordinal": 3,
+              "text": "Son quartier général était ce matin à Eckartsberga; sa cavalerie légère était à BuLtstædt. et à Neustædt.",
+              "word_offset_start": 2615,
+              "word_offset_end": 2632,
+              "char_offset_start": 15856,
+              "char_offset_end": 15961,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1806-10-15-jena_s01_p67",
+          "paragraph_ordinal": 67,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-15-jena_s01_p67_s01",
+              "sentence_ordinal": 1,
+              "text": "NAPOLÉON.",
+              "word_offset_start": 2632,
+              "word_offset_end": 2633,
+              "char_offset_start": 15963,
+              "char_offset_end": 15972,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1806-10-15-jena_s01_p68",
+          "paragraph_ordinal": 68,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-15-jena_s01_p68_s01",
+              "sentence_ordinal": 1,
+              "text": "Archives de l'Empire.",
+              "word_offset_start": 2633,
+              "word_offset_end": 2636,
+              "char_offset_start": 15974,
+              "char_offset_end": 15995,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1806-10-15-jena_s01_p69",
+          "paragraph_ordinal": 69,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-15-jena_s01_p69_s01",
+              "sentence_ordinal": 1,
+              "text": "11012.",
+              "word_offset_start": 2636,
+              "word_offset_end": 2637,
+              "char_offset_start": 15997,
+              "char_offset_end": 16003,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1806-10-15-jena_s01_p70",
+          "paragraph_ordinal": 70,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-15-jena_s01_p70_s01",
+              "sentence_ordinal": 1,
+              "text": "AU VICE-AMIRAL DECRÈS.",
+              "word_offset_start": 2637,
+              "word_offset_end": 2640,
+              "char_offset_start": 16005,
+              "char_offset_end": 16027,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1806-10-15-jena_s01_p71",
+          "paragraph_ordinal": 71,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-15-jena_s01_p71_s01",
+              "sentence_ordinal": 1,
+              "text": "lena, i5 octobre i 8o6.",
+              "word_offset_start": 2640,
+              "word_offset_end": 2645,
+              "char_offset_start": 16029,
+              "char_offset_end": 16052,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1806-10-15-jena_s01_p72",
+          "paragraph_ordinal": 72,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-15-jena_s01_p72_s01",
+              "sentence_ordinal": 1,
+              "text": "J'imagine que vous avez donné des ordres pour qu'on coure sur les bâtirnents prussiens et pour faire déclarer de bonne prise les bâtiments de cette nation qui sont dans nos ports.",
+              "word_offset_start": 2645,
+              "word_offset_end": 2676,
+              "char_offset_start": 16054,
+              "char_offset_end": 16233,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1806-10-15-jena_s01_p73",
+          "paragraph_ordinal": 73,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-15-jena_s01_p73_s01",
+              "sentence_ordinal": 1,
+              "text": "NAPOLÉON.",
+              "word_offset_start": 2676,
+              "word_offset_end": 2677,
+              "char_offset_start": 16235,
+              "char_offset_end": 16244,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1806-10-15-jena_s01_p74",
+          "paragraph_ordinal": 74,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-15-jena_s01_p74_s01",
+              "sentence_ordinal": 1,
+              "text": "Archives de l'Empire.",
+              "word_offset_start": 2677,
+              "word_offset_end": 2680,
+              "char_offset_start": 16246,
+              "char_offset_end": 16267,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1806-10-15-jena_s01_p75",
+          "paragraph_ordinal": 75,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-15-jena_s01_p75_s01",
+              "sentence_ordinal": 1,
+              "text": "11013.",
+              "word_offset_start": 2680,
+              "word_offset_end": 2681,
+              "char_offset_start": 16269,
+              "char_offset_end": 16275,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "pipeline_log": [
+    {
+      "stage": "segment-texts",
+      "script": "scripts/segment-texts.py",
+      "generated_at": "2026-06-14T15:00:25",
+      "sentence_count": 158
+    }
+  ]
+}

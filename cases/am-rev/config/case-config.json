@@ -1,0 +1,20 @@
+{
+  "case_id": "am-rev",
+  "name": "American Revolution",
+  "corpus_model": "Washington-anchored collective exception",
+  "voices": [
+    "George Washington",
+    "Thomas Jefferson",
+    "Thomas Paine",
+    "John Adams",
+    "Continental Congress"
+  ],
+  "phases": [
+    "pre-war-resistance",
+    "revolutionary-break",
+    "wartime-sacrifice",
+    "independence-victory",
+    "founding-memory"
+  ],
+  "status": "draft"
+}

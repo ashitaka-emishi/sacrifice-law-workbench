@@ -1,0 +1,37 @@
+[
+  {
+    "id": "lincoln-01-body-organism",
+    "name": "Nation as organism / body",
+    "status": "provisional"
+  },
+  {
+    "id": "lincoln-02-covenant-oath",
+    "name": "Union as covenant / oath",
+    "status": "provisional"
+  },
+  {
+    "id": "lincoln-03-experiment-proposition",
+    "name": "Republic as experiment / proposition",
+    "status": "provisional"
+  },
+  {
+    "id": "lincoln-04-birth-creation",
+    "name": "War as birth / new creation",
+    "status": "provisional"
+  },
+  {
+    "id": "lincoln-05-fathers-inheritance",
+    "name": "Founding fathers as inheritance",
+    "status": "provisional"
+  },
+  {
+    "id": "lincoln-06-providence-theodicy",
+    "name": "Providence / divine will",
+    "status": "provisional"
+  },
+  {
+    "id": "lincoln-07-absence-black-agency",
+    "name": "Systematic absence / suppressed agency",
+    "status": "provisional"
+  }
+]

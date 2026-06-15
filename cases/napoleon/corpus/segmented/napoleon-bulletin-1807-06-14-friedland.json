@@ -1,0 +1,1540 @@
+{
+  "case_id": "napoleon",
+  "document_id": "napoleon-bulletin-1807-06-14-friedland",
+  "meta": {
+    "document_id": "napoleon-bulletin-1807-06-14-friedland",
+    "title": "79th Bulletin of the Grande Armée (Friedland/Wehlau)",
+    "short_title": "Bulletin 79: Friedland",
+    "date": "1807-06-17",
+    "date_precision": "day",
+    "register": "military-bulletin-proclamation",
+    "authorship": "Napoleon Bonaparte / imperial military voice",
+    "source_url": "https://gallica.bnf.fr/ark:/12148/bpt6k6294033s",
+    "source_citation": "Correspondance de Napoléon Ier, Tome 15, no. 12767. Paris: Plon, 1858–1870. Via Gallica / BnF.",
+    "rights_status": "public-domain",
+    "expected_raw_path": "corpus/raw/napoleon-src-02-grande-armee-bulletins/napoleon-bulletin-1807-06-14-friedland.txt",
+    "analytical_priority": "primary",
+    "phase": "peak-empire",
+    "campaign": "Friedland",
+    "bulletin_number": 79,
+    "bulletin_series": "Grande Armée 1805–1807",
+    "correspondance_volume": 15,
+    "extraction_script": "scripts/extract-napoleon-bulletins.py",
+    "notes": "Battle of Friedland (14 June 1807): decisive victory ending the Fourth Coalition. Glory-sacrifice-patrie language at height of imperial power.",
+    "case_id": "napoleon",
+    "raw_path": "corpus/raw/napoleon-src-02-grande-armee-bulletins/napoleon-bulletin-1807-06-14-friedland.txt",
+    "pipeline_log": [
+      {
+        "stage": "normalize-texts",
+        "script": "scripts/normalize-texts.py",
+        "generated_at": "2026-06-14T15:00:09"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "section_id": "napoleon-bulletin-1807-06-14-friedland_s01",
+      "section_label": "body",
+      "section_ordinal": 1,
+      "paragraphs": [
+        {
+          "paragraph_id": "napoleon-bulletin-1807-06-14-friedland_s01_p01",
+          "paragraph_ordinal": 1,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1807-06-14-friedland_s01_p01_s01",
+              "sentence_ordinal": 1,
+              "text": "12767. - 79e BULLETIN DE LA GRANDE ARMÉE.",
+              "word_offset_start": 0,
+              "word_offset_end": 8,
+              "char_offset_start": 0,
+              "char_offset_end": 41,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1807-06-14-friedland_s01_p02",
+          "paragraph_ordinal": 2,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1807-06-14-friedland_s01_p02_s01",
+              "sentence_ordinal": 1,
+              "text": "Wehlau, 17 juin 1807.",
+              "word_offset_start": 8,
+              "word_offset_end": 12,
+              "char_offset_start": 43,
+              "char_offset_end": 64,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1807-06-14-friedland_s01_p03",
+          "paragraph_ordinal": 3,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1807-06-14-friedland_s01_p03_s01",
+              "sentence_ordinal": 1,
+              "text": "Les combats de Spanden, de Lomitten, les journées de Guttstadt et de Heilsberg, n'étaient que le prélude de plus grands événements.",
+              "word_offset_start": 12,
+              "word_offset_end": 33,
+              "char_offset_start": 66,
+              "char_offset_end": 197,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1807-06-14-friedland_s01_p04",
+          "paragraph_ordinal": 4,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1807-06-14-friedland_s01_p04_s01",
+              "sentence_ordinal": 1,
+              "text": "Le 12, à quatre heures du matin, l'armée française entra à Heilsberg.",
+              "word_offset_start": 33,
+              "word_offset_end": 45,
+              "char_offset_start": 199,
+              "char_offset_end": 268,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1807-06-14-friedland_s01_p04_s02",
+              "sentence_ordinal": 2,
+              "text": "Le général Latour-Maubourg avec sa division de dragons, et les brigades de cavalerie légère des généraux Durosnel et Watier, poursuivirent l'ennemi sur la rive droite de l'Aile, dans la direction de Bartenstein, pendant que les corps d'armée se mettaient en marche dans différentes directions pour déborder l'ennemi et lui couper sa retraite sur Kœnigsberg, en arrivant avant lui sur ses magasins.",
+              "word_offset_start": 45,
+              "word_offset_end": 106,
+              "char_offset_start": 269,
+              "char_offset_end": 666,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1807-06-14-friedland_s01_p05",
+          "paragraph_ordinal": 5,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1807-06-14-friedland_s01_p05_s01",
+              "sentence_ordinal": 1,
+              "text": "La fortune a souri à ce projet.",
+              "word_offset_start": 106,
+              "word_offset_end": 113,
+              "char_offset_start": 668,
+              "char_offset_end": 699,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1807-06-14-friedland_s01_p06",
+          "paragraph_ordinal": 6,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1807-06-14-friedland_s01_p06_s01",
+              "sentence_ordinal": 1,
+              "text": "Le 12, à cinq heures après midi, l'Empereur porta son quartier général à Eylau.",
+              "word_offset_start": 113,
+              "word_offset_end": 127,
+              "char_offset_start": 701,
+              "char_offset_end": 780,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1807-06-14-friedland_s01_p06_s02",
+              "sentence_ordinal": 2,
+              "text": "Ce n'étaient plus ces champs couverts de glaces et de neige : c'était le plus beau pays de la nature, coupé de beaux bois, de beaux lacs et peuplé de jolis villages.",
+              "word_offset_start": 127,
+              "word_offset_end": 159,
+              "char_offset_start": 781,
+              "char_offset_end": 946,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1807-06-14-friedland_s01_p07",
+          "paragraph_ordinal": 7,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1807-06-14-friedland_s01_p07_s01",
+              "sentence_ordinal": 1,
+              "text": "Le grand-duc de Berg se porta, le 13, sur Kœnigsberg, avec sa cavalerie; le maréchal Davout marcha derrière pour le soutenir; le maréchal Soult se porta sur Kreuzburg; le maréchal Lannes, sur Domnau; les maréchaux Ney et Mortier, sur Lampasch.",
+              "word_offset_start": 159,
+              "word_offset_end": 199,
+              "char_offset_start": 948,
+              "char_offset_end": 1191,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1807-06-14-friedland_s01_p08",
+          "paragraph_ordinal": 8,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1807-06-14-friedland_s01_p08_s01",
+              "sentence_ordinal": 1,
+              "text": "Cependant le général Latour-Maubourg écrivait qu'il avait pour-",
+              "word_offset_start": 199,
+              "word_offset_end": 207,
+              "char_offset_start": 1193,
+              "char_offset_end": 1256,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1807-06-14-friedland_s01_p09",
+          "paragraph_ordinal": 9,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1807-06-14-friedland_s01_p09_s01",
+              "sentence_ordinal": 1,
+              "text": "suivi l'arrière-garde ennemie ; que les Russes abandonnaient beaucoup de blessés; qu'ils avaient évacué Bartenstein et continuaient leur retraite sur Schippenbeil par la rive droite de l'Alle.",
+              "word_offset_start": 207,
+              "word_offset_end": 234,
+              "char_offset_start": 1258,
+              "char_offset_end": 1450,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1807-06-14-friedland_s01_p09_s02",
+              "sentence_ordinal": 2,
+              "text": "L'Empereur se mit sur-le-champ en marche sur Friedland.",
+              "word_offset_start": 234,
+              "word_offset_end": 242,
+              "char_offset_start": 1451,
+              "char_offset_end": 1506,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1807-06-14-friedland_s01_p09_s03",
+              "sentence_ordinal": 3,
+              "text": "Il donna ordre au grandduc de Berg, aux maréchaux Soult et Davout, de manœuvrer sur Kœnigsberg; et avec les corps des maréchaux Ney, Lannes, Mortier,",
+              "word_offset_start": 242,
+              "word_offset_end": 267,
+              "char_offset_start": 1507,
+              "char_offset_end": 1656,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1807-06-14-friedland_s01_p10",
+          "paragraph_ordinal": 10,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1807-06-14-friedland_s01_p10_s01",
+              "sentence_ordinal": 1,
+              "text": "avec la Garde impériale et le premier corps commandé par le général Victor, il marcha en personne sur Friedland.",
+              "word_offset_start": 267,
+              "word_offset_end": 286,
+              "char_offset_start": 1658,
+              "char_offset_end": 1770,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1807-06-14-friedland_s01_p11",
+          "paragraph_ordinal": 11,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1807-06-14-friedland_s01_p11_s01",
+              "sentence_ordinal": 1,
+              "text": "Le 13, le 9e de hussards entra à Friedland; mais il en fut chassé par 3,000 hommes de cavalerie.",
+              "word_offset_start": 286,
+              "word_offset_end": 305,
+              "char_offset_start": 1772,
+              "char_offset_end": 1868,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1807-06-14-friedland_s01_p12",
+          "paragraph_ordinal": 12,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1807-06-14-friedland_s01_p12_s01",
+              "sentence_ordinal": 1,
+              "text": "Le 14, l'ennemi déboucha sur le pont de Friedland.",
+              "word_offset_start": 305,
+              "word_offset_end": 314,
+              "char_offset_start": 1870,
+              "char_offset_end": 1920,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1807-06-14-friedland_s01_p12_s02",
+              "sentence_ordinal": 2,
+              "text": "A trois heures du matin, des -coups, de canon se firent entendre. (c C'est un jour de » bonheur, dit l'Empereur, c'est l'anniversaire de Marengo. »",
+              "word_offset_start": 314,
+              "word_offset_end": 340,
+              "char_offset_start": 1921,
+              "char_offset_end": 2068,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1807-06-14-friedland_s01_p13",
+          "paragraph_ordinal": 13,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1807-06-14-friedland_s01_p13_s01",
+              "sentence_ordinal": 1,
+              "text": "Les maréchaux Lanucs et Mortier furent les premiers engagés; ils étaient soutenus par la division. de dragons du général Grouchy et par les cuirassiers du général Nansouty.",
+              "word_offset_start": 340,
+              "word_offset_end": 367,
+              "char_offset_start": 2070,
+              "char_offset_end": 2242,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1807-06-14-friedland_s01_p13_s02",
+              "sentence_ordinal": 2,
+              "text": "Différents mouvements, différentes actions eurent lieu.",
+              "word_offset_start": 367,
+              "word_offset_end": 373,
+              "char_offset_start": 2243,
+              "char_offset_end": 2298,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1807-06-14-friedland_s01_p13_s03",
+              "sentence_ordinal": 3,
+              "text": "L'ennemi fut contenu et ne put pas dépasser le village de Postbenen.",
+              "word_offset_start": 373,
+              "word_offset_end": 385,
+              "char_offset_start": 2299,
+              "char_offset_end": 2367,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1807-06-14-friedland_s01_p13_s04",
+              "sentence_ordinal": 4,
+              "text": "Croyant qu'il n'avait devant lui qu'un corps de 15,000 hommes, l'ennemi continua son mouvement pour filer sur Kœnigsberg.",
+              "word_offset_start": 385,
+              "word_offset_end": 403,
+              "char_offset_start": 2368,
+              "char_offset_end": 2489,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1807-06-14-friedland_s01_p13_s05",
+              "sentence_ordinal": 5,
+              "text": "Dans cette occasion , les dragons et les cuirassiers français et saxons firent les plus belles 'charges, et prirent quatre pièces de canon à l'ennemi.",
+              "word_offset_start": 403,
+              "word_offset_end": 428,
+              "char_offset_start": 2490,
+              "char_offset_end": 2640,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1807-06-14-friedland_s01_p14",
+          "paragraph_ordinal": 14,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1807-06-14-friedland_s01_p14_s01",
+              "sentence_ordinal": 1,
+              "text": "A cinq heures du soir, les différents corps d'armée étaient à leur place; à la droite, le maréchal Ney; au centre, le maréchal Lannes; à la gauche, le maréchal Mortier; à la réserve, le corps du général Victor et la Garde.",
+              "word_offset_start": 428,
+              "word_offset_end": 469,
+              "char_offset_start": 2642,
+              "char_offset_end": 2864,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1807-06-14-friedland_s01_p15",
+          "paragraph_ordinal": 15,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1807-06-14-friedland_s01_p15_s01",
+              "sentence_ordinal": 1,
+              "text": "La cavalerie, sous les ordres du général Grouchy, soutenait la gauche.",
+              "word_offset_start": 469,
+              "word_offset_end": 480,
+              "char_offset_start": 2866,
+              "char_offset_end": 2936,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1807-06-14-friedland_s01_p15_s02",
+              "sentence_ordinal": 2,
+              "text": "La division de dragons du général Latour-Maubourg était en réserve derrière la droite ; la division de dragons du général Lahoussaye et les cuirassiers saxons étaient en réserve derrière le centre.",
+              "word_offset_start": 480,
+              "word_offset_end": 511,
+              "char_offset_start": 2937,
+              "char_offset_end": 3134,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1807-06-14-friedland_s01_p16",
+          "paragraph_ordinal": 16,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1807-06-14-friedland_s01_p16_s01",
+              "sentence_ordinal": 1,
+              "text": "Cependant l'ennemi avait déployé toute son armée.",
+              "word_offset_start": 511,
+              "word_offset_end": 518,
+              "char_offset_start": 3136,
+              "char_offset_end": 3185,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1807-06-14-friedland_s01_p16_s02",
+              "sentence_ordinal": 2,
+              "text": "Il appuyait sa gauche à la ville de -Friedland, et sa droite se prolongeait à une lieue et demie.",
+              "word_offset_start": 518,
+              "word_offset_end": 537,
+              "char_offset_start": 3186,
+              "char_offset_end": 3283,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1807-06-14-friedland_s01_p17",
+          "paragraph_ordinal": 17,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1807-06-14-friedland_s01_p17_s01",
+              "sentence_ordinal": 1,
+              "text": "L'Empereur, après avoir reconnu la position, décida d'enlever surle-champ la ville de Friedland, en faisant brusquement un changement de front, la droite en avant, et fit commencer l'attaque par ., l'extrémité de sa droite.",
+              "word_offset_start": 537,
+              "word_offset_end": 571,
+              "char_offset_start": 3285,
+              "char_offset_end": 3508,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1807-06-14-friedland_s01_p18",
+          "paragraph_ordinal": 18,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1807-06-14-friedland_s01_p18_s01",
+              "sentence_ordinal": 1,
+              "text": "A cinq heures et demie, le maréchal Ney se mit en mouvement.; quelques salves d'une batterie de vingt pièces de canon furent le signal.",
+              "word_offset_start": 571,
+              "word_offset_end": 595,
+              "char_offset_start": 3510,
+              "char_offset_end": 3645,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1807-06-14-friedland_s01_p18_s02",
+              "sentence_ordinal": 2,
+              "text": "Au même moment, la division du général Marchand avança,",
+              "word_offset_start": 595,
+              "word_offset_end": 604,
+              "char_offset_start": 3646,
+              "char_offset_end": 3701,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1807-06-14-friedland_s01_p19",
+          "paragraph_ordinal": 19,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1807-06-14-friedland_s01_p19_s01",
+              "sentence_ordinal": 1,
+              "text": "l'arme au bras, sur l'ennemi, prenant sa direction sur le clocher de la ville.",
+              "word_offset_start": 604,
+              "word_offset_end": 618,
+              "char_offset_start": 3703,
+              "char_offset_end": 3781,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1807-06-14-friedland_s01_p19_s02",
+              "sentence_ordinal": 2,
+              "text": "La division du général Bisson le soutenait sur la gauche.",
+              "word_offset_start": 618,
+              "word_offset_end": 628,
+              "char_offset_start": 3782,
+              "char_offset_end": 3839,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1807-06-14-friedland_s01_p19_s03",
+              "sentence_ordinal": 3,
+              "text": "Du moment où l'ennemi s'aperçut que le maréchal Ney avait quitté le bois, où sa droite était d'abord en position, il le fit déborder par des régiments de cavalerie, précédés d'une nuée de Cosaques.",
+              "word_offset_start": 628,
+              "word_offset_end": 662,
+              "char_offset_start": 3840,
+              "char_offset_end": 4037,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1807-06-14-friedland_s01_p19_s04",
+              "sentence_ordinal": 4,
+              "text": "La division de dragons du général Latour-Maubourg se forma sur-le-champ, au galop, sur la droite, et repoussa la charge ennemie.",
+              "word_offset_start": 662,
+              "word_offset_end": 682,
+              "char_offset_start": 4038,
+              "char_offset_end": 4166,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1807-06-14-friedland_s01_p19_s05",
+              "sentence_ordinal": 5,
+              "text": "Cependant le général Victor fit-placer une batterie de trente pièces' de canon en avant de son centre; le général Senarmont, qui la commandait, se porta à plus de quatre cents pas en avant et fit éprouver une horrible perte à l'ennemi.",
+              "word_offset_start": 682,
+              "word_offset_end": 723,
+              "char_offset_start": 4167,
+              "char_offset_end": 4402,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1807-06-14-friedland_s01_p19_s06",
+              "sentence_ordinal": 6,
+              "text": "Les différentes démonstrations que les Russes voulurent faire pour opérer une diversion furent inutiles.",
+              "word_offset_start": 723,
+              "word_offset_end": 737,
+              "char_offset_start": 4403,
+              "char_offset_end": 4507,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1807-06-14-friedland_s01_p19_s07",
+              "sentence_ordinal": 7,
+              "text": "Le maréchal Ney, avec ce sang-froid et avec cette intrépidité qui lui est. particulière, était en avant de ses échelons, dirigeait lui-même les plus petits détails, et donnait l'exemple à un corps d'armée qui toujours s'est fait distinguer, même parmi les corps de la Grande Armée.",
+              "word_offset_start": 737,
+              "word_offset_end": 783,
+              "char_offset_start": 4508,
+              "char_offset_end": 4789,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1807-06-14-friedland_s01_p19_s08",
+              "sentence_ordinal": 8,
+              "text": "Plusieurs colonnes d'infanterie ennemie, qui attaquaient la droite du maréchal Ney, furent chargées à la baïonnette et précipitées dans l'Alle.",
+              "word_offset_start": 783,
+              "word_offset_end": 803,
+              "char_offset_start": 4790,
+              "char_offset_end": 4933,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1807-06-14-friedland_s01_p19_s09",
+              "sentence_ordinal": 9,
+              "text": "Plusieurs milliers d'hommes y trouvèrent la mort; quelquesuns échappèrent à la nage.",
+              "word_offset_start": 803,
+              "word_offset_end": 815,
+              "char_offset_start": 4934,
+              "char_offset_end": 5018,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1807-06-14-friedland_s01_p19_s10",
+              "sentence_ordinal": 10,
+              "text": "La gauche du maréchal Ney arriva sur ces entrefaites au ravin qui entoure la ville de Friedland.",
+              "word_offset_start": 815,
+              "word_offset_end": 832,
+              "char_offset_start": 5019,
+              "char_offset_end": 5115,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1807-06-14-friedland_s01_p19_s11",
+              "sentence_ordinal": 11,
+              "text": "L'ennemi, qui y avait embusqué la garde impériale russe à pied et à cheval, déboucha avec intrépidité et fit une charge sur la gauche du maréchal Ney, qui fut un moment ébranlée; mais la division Dupont, qui formait la droite de la réserve, marcha sur la garde impériale, la culbuta et en fit un horrible carnage.",
+              "word_offset_start": 832,
+              "word_offset_end": 888,
+              "char_offset_start": 5116,
+              "char_offset_end": 5429,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1807-06-14-friedland_s01_p20",
+          "paragraph_ordinal": 20,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1807-06-14-friedland_s01_p20_s01",
+              "sentence_ordinal": 1,
+              "text": "L'ennemi tira de ses réserves et de son eentre d'autres corps pour défendre Friedland.",
+              "word_offset_start": 888,
+              "word_offset_end": 902,
+              "char_offset_start": 5431,
+              "char_offset_end": 5517,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1807-06-14-friedland_s01_p20_s02",
+              "sentence_ordinal": 2,
+              "text": "Vains efforts!",
+              "word_offset_start": 902,
+              "word_offset_end": 904,
+              "char_offset_start": 5518,
+              "char_offset_end": 5532,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1807-06-14-friedland_s01_p20_s03",
+              "sentence_ordinal": 3,
+              "text": "Friedland fut forcé et ses rues furent jonchées de morts.",
+              "word_offset_start": 904,
+              "word_offset_end": 914,
+              "char_offset_start": 5533,
+              "char_offset_end": 5590,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1807-06-14-friedland_s01_p21",
+          "paragraph_ordinal": 21,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1807-06-14-friedland_s01_p21_s01",
+              "sentence_ordinal": 1,
+              "text": "Le centre, que commandait le maréchal Lanncs, se trouva dans ce moment engagé.",
+              "word_offset_start": 914,
+              "word_offset_end": 927,
+              "char_offset_start": 5592,
+              "char_offset_end": 5670,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1807-06-14-friedland_s01_p21_s02",
+              "sentence_ordinal": 2,
+              "text": "L'effort que l'ennemi avait fait sur l'extrémité de la droite de l'armée française ayant échoué, il voulut essayer un semblable effort sur le centre : il y fut reçu comme on devait l'attendre des braves divisions Oudinot et Vcrdier, et du maréchal qui les commandait.",
+              "word_offset_start": 927,
+              "word_offset_end": 972,
+              "char_offset_start": 5671,
+              "char_offset_end": 5938,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1807-06-14-friedland_s01_p22",
+          "paragraph_ordinal": 22,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1807-06-14-friedland_s01_p22_s01",
+              "sentence_ordinal": 1,
+              "text": "Des charges d'infanterie et de cavalerie ne purent pas retarder la marche de nos colonnes.",
+              "word_offset_start": 972,
+              "word_offset_end": 987,
+              "char_offset_start": 5940,
+              "char_offset_end": 6030,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1807-06-14-friedland_s01_p22_s02",
+              "sentence_ordinal": 2,
+              "text": "Tous les efforts de la bravoure des Russes furent inutiles.",
+              "word_offset_start": 987,
+              "word_offset_end": 997,
+              "char_offset_start": 6031,
+              "char_offset_end": 6090,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1807-06-14-friedland_s01_p22_s03",
+              "sentence_ordinal": 3,
+              "text": "Ils ne purent rien entamer, et vinrent trouver la mort sur nos baïonnettes.",
+              "word_offset_start": 997,
+              "word_offset_end": 1010,
+              "char_offset_start": 6091,
+              "char_offset_end": 6166,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1807-06-14-friedland_s01_p23",
+          "paragraph_ordinal": 23,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1807-06-14-friedland_s01_p23_s01",
+              "sentence_ordinal": 1,
+              "text": "Le maréchal Mortier, qui, pendant toute la journée, fit grande preuve de sang-froid et d'intrépidité en maintenant la gauche, mar-",
+              "word_offset_start": 1010,
+              "word_offset_end": 1030,
+              "char_offset_start": 6168,
+              "char_offset_end": 6298,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1807-06-14-friedland_s01_p24",
+          "paragraph_ordinal": 24,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1807-06-14-friedland_s01_p24_s01",
+              "sentence_ordinal": 1,
+              "text": "cha alors en avant, et fut soutenu par les fusiliers de la Garde, que commandait le général Savary.",
+              "word_offset_start": 1030,
+              "word_offset_end": 1048,
+              "char_offset_start": 6300,
+              "char_offset_end": 6399,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1807-06-14-friedland_s01_p24_s02",
+              "sentence_ordinal": 2,
+              "text": "Cavalerie, infanterie, artillerie, tout le monde s'est distingué.",
+              "word_offset_start": 1048,
+              "word_offset_end": 1056,
+              "char_offset_start": 6400,
+              "char_offset_end": 6465,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1807-06-14-friedland_s01_p25",
+          "paragraph_ordinal": 25,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1807-06-14-friedland_s01_p25_s01",
+              "sentence_ordinal": 1,
+              "text": "La Garde impériale à pied et à chèval et deux divisions de la réserve du 1er corps n'ont pas été engagées.",
+              "word_offset_start": 1056,
+              "word_offset_end": 1077,
+              "char_offset_start": 6467,
+              "char_offset_end": 6573,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1807-06-14-friedland_s01_p25_s02",
+              "sentence_ordinal": 2,
+              "text": "La victoire n'a pas hésité un seul instant.",
+              "word_offset_start": 1077,
+              "word_offset_end": 1085,
+              "char_offset_start": 6574,
+              "char_offset_end": 6617,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1807-06-14-friedland_s01_p26",
+          "paragraph_ordinal": 26,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1807-06-14-friedland_s01_p26_s01",
+              "sentence_ordinal": 1,
+              "text": "Le champ de bataille est un des plus horribles qu'on puisse voir.",
+              "word_offset_start": 1085,
+              "word_offset_end": 1097,
+              "char_offset_start": 6619,
+              "char_offset_end": 6684,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1807-06-14-friedland_s01_p27",
+          "paragraph_ordinal": 27,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1807-06-14-friedland_s01_p27_s01",
+              "sentence_ordinal": 1,
+              "text": "Ce n'est pas exagérer que de porter le nombre des morts du côté des Russes de 15 à 18,000 hommes.",
+              "word_offset_start": 1097,
+              "word_offset_end": 1117,
+              "char_offset_start": 6686,
+              "char_offset_end": 6783,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1807-06-14-friedland_s01_p27_s02",
+              "sentence_ordinal": 2,
+              "text": "Du côté des Français,, la perte ne semante pas à 500 morts, ni à plus de 3,000 blessés.",
+              "word_offset_start": 1117,
+              "word_offset_end": 1135,
+              "char_offset_start": 6784,
+              "char_offset_end": 6871,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1807-06-14-friedland_s01_p27_s03",
+              "sentence_ordinal": 3,
+              "text": "Nous avons pris quatre-vingts pièces de canon et une grande quantité de caissons.",
+              "word_offset_start": 1135,
+              "word_offset_end": 1148,
+              "char_offset_start": 6872,
+              "char_offset_end": 6953,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1807-06-14-friedland_s01_p28",
+          "paragraph_ordinal": 28,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1807-06-14-friedland_s01_p28_s01",
+              "sentence_ordinal": 1,
+              "text": "Plusieurs drapeaux sont restés en notre pouvoir.",
+              "word_offset_start": 1148,
+              "word_offset_end": 1155,
+              "char_offset_start": 6955,
+              "char_offset_end": 7003,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1807-06-14-friedland_s01_p28_s02",
+              "sentence_ordinal": 2,
+              "text": "Les Russes ont eu vingt-cinq généraux tués, pris ou blessés.",
+              "word_offset_start": 1155,
+              "word_offset_end": 1165,
+              "char_offset_start": 7004,
+              "char_offset_end": 7064,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1807-06-14-friedland_s01_p28_s03",
+              "sentence_ordinal": 3,
+              "text": "Leur cavalerie a fait des pertes immenses.",
+              "word_offset_start": 1165,
+              "word_offset_end": 1172,
+              "char_offset_start": 7065,
+              "char_offset_end": 7107,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1807-06-14-friedland_s01_p29",
+          "paragraph_ordinal": 29,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1807-06-14-friedland_s01_p29_s01",
+              "sentence_ordinal": 1,
+              "text": "Les carabiniers et les cuirassiers, commandés par le général Nansouty, et les différentes divisions de dragons, se sont fait remarquer.",
+              "word_offset_start": 1172,
+              "word_offset_end": 1192,
+              "char_offset_start": 7109,
+              "char_offset_end": 7244,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1807-06-14-friedland_s01_p30",
+          "paragraph_ordinal": 30,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1807-06-14-friedland_s01_p30_s01",
+              "sentence_ordinal": 1,
+              "text": "Le général Grouchy, qui commandait la cavalerie de l'aile gauche, a rendu des services importants.",
+              "word_offset_start": 1192,
+              "word_offset_end": 1207,
+              "char_offset_start": 7246,
+              "char_offset_end": 7344,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1807-06-14-friedland_s01_p31",
+          "paragraph_ordinal": 31,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1807-06-14-friedland_s01_p31_s01",
+              "sentence_ordinal": 1,
+              "text": "Le général Drouet, chef de l'état-major du corps d'armée du maréchal Lannes, le général Coehorn, le colonel Reynaud, du 15e de ligne, le colonel Lajonquière, du 60, de ligne, le colonel Lamotte, du 46 de dragons, et le général de brigade Brun, ont été blessés; le général' de division Latour-Maubourg l'a été à la main.",
+              "word_offset_start": 1207,
+              "word_offset_end": 1262,
+              "char_offset_start": 7346,
+              "char_offset_end": 7665,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1807-06-14-friedland_s01_p31_s02",
+              "sentence_ordinal": 2,
+              "text": "Le colonel d'artillerie de Forno, et le chef d'escadron Hutin, premier aide de camp du général Oudinot, ont été tués.",
+              "word_offset_start": 1262,
+              "word_offset_end": 1282,
+              "char_offset_start": 7666,
+              "char_offset_end": 7783,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1807-06-14-friedland_s01_p31_s03",
+              "sentence_ordinal": 3,
+              "text": "Les aides de camp de l'Empereur, Mouton et Lacoste, ont été légèrement blessés.",
+              "word_offset_start": 1282,
+              "word_offset_end": 1295,
+              "char_offset_start": 7784,
+              "char_offset_end": 7863,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1807-06-14-friedland_s01_p32",
+          "paragraph_ordinal": 32,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1807-06-14-friedland_s01_p32_s01",
+              "sentence_ordinal": 1,
+              "text": "La nuit n'a point empêché de poursuivre l'ennemi ; on l'a suivi jusqu'à onze heures du soir.",
+              "word_offset_start": 1295,
+              "word_offset_end": 1312,
+              "char_offset_start": 7865,
+              "char_offset_end": 7957,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1807-06-14-friedland_s01_p32_s02",
+              "sentence_ordinal": 2,
+              "text": "Le reste de la nuit les colonnes qui avaient été coupées ont essayé de passer l'Alle à plusieurs gués.",
+              "word_offset_start": 1312,
+              "word_offset_end": 1331,
+              "char_offset_start": 7958,
+              "char_offset_end": 8060,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1807-06-14-friedland_s01_p32_s03",
+              "sentence_ordinal": 3,
+              "text": "Partout, le lendemain, et à plusieurs lieues, nous avons trouvé des caissons, des 1 canons et des voitures, perdus dans la rivière.",
+              "word_offset_start": 1331,
+              "word_offset_end": 1353,
+              "char_offset_start": 8061,
+              "char_offset_end": 8192,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1807-06-14-friedland_s01_p33",
+          "paragraph_ordinal": 33,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1807-06-14-friedland_s01_p33_s01",
+              "sentence_ordinal": 1,
+              "text": "Cette bataille de Friedland est digne d'être mise à côté de celles deMarengo, d'Austerlitz et d'Iena.",
+              "word_offset_start": 1353,
+              "word_offset_end": 1369,
+              "char_offset_start": 8194,
+              "char_offset_end": 8295,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1807-06-14-friedland_s01_p33_s02",
+              "sentence_ordinal": 2,
+              "text": "L'ennemi était nombreux, avait une belle et forte cavalerie, et s'est battu avec courage.",
+              "word_offset_start": 1369,
+              "word_offset_end": 1383,
+              "char_offset_start": 8296,
+              "char_offset_end": 8385,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1807-06-14-friedland_s01_p34",
+          "paragraph_ordinal": 34,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1807-06-14-friedland_s01_p34_s01",
+              "sentence_ordinal": 1,
+              "text": "Le lendemain 15, pendant que l'ennemi essayait de se rallier et faisait sa retraite sur la rive droite de l'Alle, l'armée française con- tinuait sur la rive gauche ses manœuvres pour le couper de Kœnigsberg.",
+              "word_offset_start": 1383,
+              "word_offset_end": 1418,
+              "char_offset_start": 8387,
+              "char_offset_end": 8594,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1807-06-14-friedland_s01_p35",
+          "paragraph_ordinal": 35,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1807-06-14-friedland_s01_p35_s01",
+              "sentence_ordinal": 1,
+              "text": "Les têtes de colonnes sont arrivées ensemble à Wehlau, ville située au confluent de l'Alle et de la Pregel.",
+              "word_offset_start": 1418,
+              "word_offset_end": 1437,
+              "char_offset_start": 8596,
+              "char_offset_end": 8703,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1807-06-14-friedland_s01_p36",
+          "paragraph_ordinal": 36,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1807-06-14-friedland_s01_p36_s01",
+              "sentence_ordinal": 1,
+              "text": "L'Empereur avait son quartier général au village de Paterswalde.",
+              "word_offset_start": 1437,
+              "word_offset_end": 1446,
+              "char_offset_start": 8705,
+              "char_offset_end": 8769,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1807-06-14-friedland_s01_p37",
+          "paragraph_ordinal": 37,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1807-06-14-friedland_s01_p37_s01",
+              "sentence_ordinal": 1,
+              "text": "Le 16, à la pointe du jour, l'ennemi, ayant coupé tous les ponts, mit à profit cet obstacle pour continuer son mouvement rétrograde sur la Russie.",
+              "word_offset_start": 1446,
+              "word_offset_end": 1472,
+              "char_offset_start": 8771,
+              "char_offset_end": 8917,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1807-06-14-friedland_s01_p38",
+          "paragraph_ordinal": 38,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1807-06-14-friedland_s01_p38_s01",
+              "sentence_ordinal": 1,
+              "text": "- A huit heures du matin, l'Empereur fit jeter un pont sur laPregel, et l'armée s'y mit en position.",
+              "word_offset_start": 1472,
+              "word_offset_end": 1491,
+              "char_offset_start": 8919,
+              "char_offset_end": 9019,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1807-06-14-friedland_s01_p39",
+          "paragraph_ordinal": 39,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1807-06-14-friedland_s01_p39_s01",
+              "sentence_ordinal": 1,
+              "text": "Presque tous les magasins que l'ennemi avait sur l'Alle ont été par lui jetés à l'eau ou brûlés.",
+              "word_offset_start": 1491,
+              "word_offset_end": 1509,
+              "char_offset_start": 9021,
+              "char_offset_end": 9117,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1807-06-14-friedland_s01_p39_s02",
+              "sentence_ordinal": 2,
+              "text": "Par ce qui nous reste, on peut connaître les pertes immenses qu'il a faites.",
+              "word_offset_start": 1509,
+              "word_offset_end": 1523,
+              "char_offset_start": 9118,
+              "char_offset_end": 9194,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1807-06-14-friedland_s01_p39_s03",
+              "sentence_ordinal": 3,
+              "text": "Partout, dans les villages, les Russes avaient des magasins, et partout, en passant, ils les ont incendiés.",
+              "word_offset_start": 1523,
+              "word_offset_end": 1540,
+              "char_offset_start": 9195,
+              "char_offset_end": 9302,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1807-06-14-friedland_s01_p39_s04",
+              "sentence_ordinal": 4,
+              "text": "Nous avons cependant trouvé à Wehlau plus de 6,000 quintaux de blé.",
+              "word_offset_start": 1540,
+              "word_offset_end": 1552,
+              "char_offset_start": 9303,
+              "char_offset_end": 9370,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1807-06-14-friedland_s01_p40",
+          "paragraph_ordinal": 40,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1807-06-14-friedland_s01_p40_s01",
+              "sentence_ordinal": 1,
+              "text": "A la nouvelle de la victoire de Friedland, Kœnigsberg a été abandonné.",
+              "word_offset_start": 1552,
+              "word_offset_end": 1564,
+              "char_offset_start": 9372,
+              "char_offset_end": 9442,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1807-06-14-friedland_s01_p40_s02",
+              "sentence_ordinal": 2,
+              "text": "Le maréchal Soult est entré dans cette place, où nous avons trouvé des richesses immenses, plusieurs centaines de milliers de quintaux de blé, plus de 20,000 blessés russes et prussiens, tout ce que l'Angleterre a envoyé de munitions de guerre à la Russie, entre autres 160,000 fusils encore embarqués.",
+              "word_offset_start": 1564,
+              "word_offset_end": 1613,
+              "char_offset_start": 9443,
+              "char_offset_end": 9745,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1807-06-14-friedland_s01_p40_s03",
+              "sentence_ordinal": 3,
+              "text": "Ainsi la Providence a puni ceux qui, au lieu de négocier de bonne foi pour arriver à l'œuvre salutaire de la paix, s'en sont fait un jeu, prenant pour faiblesse et pour impuissance la tranquillité du vainqueur.",
+              "word_offset_start": 1613,
+              "word_offset_end": 1650,
+              "char_offset_start": 9746,
+              "char_offset_end": 9956,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1807-06-14-friedland_s01_p41",
+          "paragraph_ordinal": 41,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1807-06-14-friedland_s01_p41_s01",
+              "sentence_ordinal": 1,
+              "text": "L'armçe occupe ici le plus beau pays possible.",
+              "word_offset_start": 1650,
+              "word_offset_end": 1658,
+              "char_offset_start": 9958,
+              "char_offset_end": 10004,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1807-06-14-friedland_s01_p41_s02",
+              "sentence_ordinal": 2,
+              "text": "Les bords de la Pregel sont riches.",
+              "word_offset_start": 1658,
+              "word_offset_end": 1665,
+              "char_offset_start": 10005,
+              "char_offset_end": 10040,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1807-06-14-friedland_s01_p41_s03",
+              "sentence_ordinal": 3,
+              "text": "Dans peu, les magasins et les caves de Danzig et de Kœnigsberg vont nous apporter de nouveaux moyens d'abondance et de santé.",
+              "word_offset_start": 1665,
+              "word_offset_end": 1687,
+              "char_offset_start": 10041,
+              "char_offset_end": 10166,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1807-06-14-friedland_s01_p42",
+          "paragraph_ordinal": 42,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1807-06-14-friedland_s01_p42_s01",
+              "sentence_ordinal": 1,
+              "text": "Les noms des braves qui se sont distingués, les détails de ce que chaque corps a fait, passent les bornes d'un simple bulletin , et l'état- maj or s'occupe de réunir tous ces faits.",
+              "word_offset_start": 1687,
+              "word_offset_end": 1721,
+              "char_offset_start": 10168,
+              "char_offset_end": 10349,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1807-06-14-friedland_s01_p43",
+          "paragraph_ordinal": 43,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1807-06-14-friedland_s01_p43_s01",
+              "sentence_ordinal": 1,
+              "text": "Le prince de Neufchàtel a, dans la bataille de Friedland, donné des preuves particulières de son zèle et de ses talents.",
+              "word_offset_start": 1721,
+              "word_offset_end": 1742,
+              "char_offset_start": 10351,
+              "char_offset_end": 10471,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1807-06-14-friedland_s01_p43_s02",
+              "sentence_ordinal": 2,
+              "text": "Plusieurs fois il s'est trouvé. au fort de la mêlée et y a fait des dispositions utiles.",
+              "word_offset_start": 1742,
+              "word_offset_end": 1759,
+              "char_offset_start": 10472,
+              "char_offset_end": 10560,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1807-06-14-friedland_s01_p44",
+          "paragraph_ordinal": 44,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1807-06-14-friedland_s01_p44_s01",
+              "sentence_ordinal": 1,
+              "text": "L'ennemi avait recommencé les hostilités le 5.",
+              "word_offset_start": 1759,
+              "word_offset_end": 1766,
+              "char_offset_start": 10562,
+              "char_offset_end": 10608,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1807-06-14-friedland_s01_p44_s02",
+              "sentence_ordinal": 2,
+              "text": "On peut évaluer la perte qu'il a éprouvée en dix jours, et par suite de ses-opérations, à 60,000 hommes pris, blessés, tués ou hors de combat.",
+              "word_offset_start": 1766,
+              "word_offset_end": 1792,
+              "char_offset_start": 10609,
+              "char_offset_end": 10751,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1807-06-14-friedland_s01_p44_s03",
+              "sentence_ordinal": 3,
+              "text": "Il a perdu une partie de son artillerie, presque toutes ses munitions, et tous ses magasins, sur une ligne de plus de quarante lieues.",
+              "word_offset_start": 1792,
+              "word_offset_end": 1816,
+              "char_offset_start": 10752,
+              "char_offset_end": 10886,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1807-06-14-friedland_s01_p44_s04",
+              "sentence_ordinal": 4,
+              "text": "Les armées françaises ont rarement obtenu de si grands succès avec moins de perte.",
+              "word_offset_start": 1816,
+              "word_offset_end": 1830,
+              "char_offset_start": 10887,
+              "char_offset_end": 10969,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1807-06-14-friedland_s01_p45",
+          "paragraph_ordinal": 45,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1807-06-14-friedland_s01_p45_s01",
+              "sentence_ordinal": 1,
+              "text": "Monùevr du 30 juin 1807.",
+              "word_offset_start": 1830,
+              "word_offset_end": 1835,
+              "char_offset_start": 10971,
+              "char_offset_end": 10995,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1807-06-14-friedland_s01_p46",
+          "paragraph_ordinal": 46,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1807-06-14-friedland_s01_p46_s01",
+              "sentence_ordinal": 1,
+              "text": "En minute au U.pol de la guerre.)",
+              "word_offset_start": 1835,
+              "word_offset_end": 1842,
+              "char_offset_start": 10997,
+              "char_offset_end": 11030,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1807-06-14-friedland_s01_p47",
+          "paragraph_ordinal": 47,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1807-06-14-friedland_s01_p47_s01",
+              "sentence_ordinal": 1,
+              "text": "12768. - AU GRAND-DUC DE BERG.",
+              "word_offset_start": 1842,
+              "word_offset_end": 1848,
+              "char_offset_start": 11032,
+              "char_offset_end": 11062,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1807-06-14-friedland_s01_p48",
+          "paragraph_ordinal": 48,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1807-06-14-friedland_s01_p48_s01",
+              "sentence_ordinal": 1,
+              "text": "Skaisgirren, 18 juin 1807.",
+              "word_offset_start": 1848,
+              "word_offset_end": 1852,
+              "char_offset_start": 11064,
+              "char_offset_end": 11090,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1807-06-14-friedland_s01_p49",
+          "paragraph_ordinal": 49,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1807-06-14-friedland_s01_p49_s01",
+              "sentence_ordinal": 1,
+              "text": "Mon quartier général est ici, à trois quarts de lieue derrière le vôtre.",
+              "word_offset_start": 1852,
+              "word_offset_end": 1865,
+              "char_offset_start": 11092,
+              "char_offset_end": 11164,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1807-06-14-friedland_s01_p49_s02",
+              "sentence_ordinal": 2,
+              "text": "Les 3,000 hommes de cavalerie commandés par le général Grouchy sont en marche pour vous rejoindre.",
+              "word_offset_start": 1865,
+              "word_offset_end": 1881,
+              "char_offset_start": 11165,
+              "char_offset_end": 11263,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1807-06-14-friedland_s01_p49_s03",
+              "sentence_ordinal": 3,
+              "text": "La Garde à cheval ellemême est ici.",
+              "word_offset_start": 1881,
+              "word_offset_end": 1888,
+              "char_offset_start": 11264,
+              "char_offset_end": 11299,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1807-06-14-friedland_s01_p49_s04",
+              "sentence_ordinal": 4,
+              "text": "Ainsi, demain matin, il faut se tenir prêt à poursuivre l'ennemi avec toute votre cavalerie, et avoir un grand nombre de canons pour être prêt à le mitrailler du moment qu'on apercevra sa cavalerie.",
+              "word_offset_start": 1888,
+              "word_offset_end": 1922,
+              "char_offset_start": 11300,
+              "char_offset_end": 11498,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1807-06-14-friedland_s01_p49_s05",
+              "sentence_ordinal": 5,
+              "text": "Les corps des maréchaux Davout et Lannes se serrent ici, mon intention étant de marcher sur Tilsit et de livrer bataille à l'ennemi, s'il faisait la fanfaronnade d'avoir l'air de nous attendre.",
+              "word_offset_start": 1922,
+              "word_offset_end": 1954,
+              "char_offset_start": 11499,
+              "char_offset_end": 11692,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1807-06-14-friedland_s01_p50",
+          "paragraph_ordinal": 50,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1807-06-14-friedland_s01_p50_s01",
+              "sentence_ordinal": 1,
+              "text": "Envoyez des patrouilles, écrivez au général Victor d'en envoyer dans les bois et sur les chemins pour ramasser les traînards.",
+              "word_offset_start": 1954,
+              "word_offset_end": 1974,
+              "char_offset_start": 11694,
+              "char_offset_end": 11819,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1807-06-14-friedland_s01_p50_s02",
+              "sentence_ordinal": 2,
+              "text": "Tàchez de connaître ce qui se passe dans la ville.",
+              "word_offset_start": 1974,
+              "word_offset_end": 1984,
+              "char_offset_start": 11820,
+              "char_offset_end": 11870,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1807-06-14-friedland_s01_p50_s03",
+              "sentence_ordinal": 3,
+              "text": "Faites-moi connaître combien vous avez de pièces de canon à la réserve, et combien d'approvisionnement.",
+              "word_offset_start": 1984,
+              "word_offset_end": 1999,
+              "char_offset_start": 11871,
+              "char_offset_end": 11974,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1807-06-14-friedland_s01_p51",
+          "paragraph_ordinal": 51,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1807-06-14-friedland_s01_p51_s01",
+              "sentence_ordinal": 1,
+              "text": "NAPOLÉON.",
+              "word_offset_start": 1999,
+              "word_offset_end": 2000,
+              "char_offset_start": 11976,
+              "char_offset_end": 11985,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1807-06-14-friedland_s01_p52",
+          "paragraph_ordinal": 52,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1807-06-14-friedland_s01_p52_s01",
+              "sentence_ordinal": 1,
+              "text": "Ardhitfes de l'Empire.",
+              "word_offset_start": 2000,
+              "word_offset_end": 2003,
+              "char_offset_start": 11987,
+              "char_offset_end": 12009,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "pipeline_log": [
+    {
+      "stage": "segment-texts",
+      "script": "scripts/segment-texts.py",
+      "generated_at": "2026-06-14T15:00:25",
+      "sentence_count": 107
+    }
+  ]
+}

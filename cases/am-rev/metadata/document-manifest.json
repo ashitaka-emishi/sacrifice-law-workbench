@@ -1,0 +1,196 @@
+{
+  "status": "ready",
+  "documents": [
+    {
+      "document_id": "am-rev-paine-common-sense",
+      "title": "Common Sense",
+      "short_title": "Common Sense",
+      "date": "1776-01",
+      "date_precision": "month",
+      "register": "political-pamphlet",
+      "authorship": "Thomas Paine",
+      "source_url": "https://www.gutenberg.org/ebooks/147",
+      "source_citation": "Thomas Paine, Common Sense, Project Gutenberg EBook #147",
+      "rights_status": "public-domain",
+      "expected_raw_path": "corpus/raw/am-rev-src-01-paine-common-sense.txt",
+      "analytical_priority": "primary",
+      "verification": {
+        "min_words": 17000,
+        "required_phrases": [
+          "COMMON SENSE",
+          "Society in every state is a blessing",
+          "Of Monarchy and Hereditary Succession"
+        ]
+      }
+    },
+    {
+      "document_id": "am-rev-jefferson-declaration",
+      "title": "Declaration of Independence",
+      "short_title": "Declaration",
+      "date": "1776-07-04",
+      "date_precision": "day",
+      "register": "political-declaration",
+      "authorship": "Thomas Jefferson / Continental Congress",
+      "source_url": "https://www.archives.gov/founding-docs/declaration-transcript",
+      "source_citation": "National Archives, Stone Engraving transcription of the Declaration of Independence",
+      "rights_status": "public-domain",
+      "expected_raw_path": "corpus/raw/am-rev-src-02-jefferson-declaration.txt",
+      "analytical_priority": "primary",
+      "verification": {
+        "min_words": 1100,
+        "required_phrases": [
+          "We hold these truths to be self-evident",
+          "sacred Honor",
+          "He has refused his Assent"
+        ]
+      }
+    },
+    {
+      "document_id": "am-rev-washington-orders-1775-07-04",
+      "title": "General Orders, 4 July 1775",
+      "short_title": "Orders: First Independence Day",
+      "date": "1775-07-04",
+      "date_precision": "day",
+      "register": "military-general-orders",
+      "authorship": "George Washington",
+      "source_url": "https://founders.archives.gov/documents/Washington/03-01-02-0004",
+      "source_citation": "Founders Online, National Archives, Papers of George Washington, Revolutionary War Series",
+      "rights_status": "public-domain",
+      "expected_raw_path": "corpus/raw/am-rev-src-03-washington-general-orders/washington-orders-1775-07-04-first-independence-day.txt",
+      "analytical_priority": "primary",
+      "verification": {
+        "min_words": 700,
+        "required_phrases": [
+          "The General most earnestly requires",
+          "Cambridge, July 4th 1775"
+        ]
+      }
+    },
+    {
+      "document_id": "am-rev-washington-orders-1776-02-09",
+      "title": "General Orders, 9 February 1776",
+      "short_title": "Orders: Winter Encampment",
+      "date": "1776-02-09",
+      "date_precision": "day",
+      "register": "military-general-orders",
+      "authorship": "George Washington",
+      "source_url": "https://founders.archives.gov/documents/Washington/03-06-02-0138",
+      "source_citation": "Founders Online, National Archives, Papers of George Washington, Revolutionary War Series",
+      "rights_status": "public-domain",
+      "expected_raw_path": "corpus/raw/am-rev-src-03-washington-general-orders/washington-orders-1776-02-09-winter-encampment.txt",
+      "analytical_priority": "primary",
+      "verification": {
+        "min_words": 140,
+        "required_phrases": [
+          "Cambridge, Feby 9th 1776",
+          "Quarter Master General"
+        ]
+      }
+    },
+    {
+      "document_id": "am-rev-washington-orders-1776-07-02",
+      "title": "General Orders, 2 July 1776",
+      "short_title": "Orders: Eve of Declaration",
+      "date": "1776-07-02",
+      "date_precision": "day",
+      "register": "military-general-orders",
+      "authorship": "George Washington",
+      "source_url": "https://founders.archives.gov/documents/Washington/03-07-02-0355",
+      "source_citation": "Founders Online, National Archives, Papers of George Washington, Revolutionary War Series",
+      "rights_status": "public-domain",
+      "expected_raw_path": "corpus/raw/am-rev-src-03-washington-general-orders/washington-orders-1776-07-02-eve-of-declaration.txt",
+      "analytical_priority": "primary",
+      "verification": {
+        "min_words": 590,
+        "required_phrases": [
+          "The time is now near at hand",
+          "fate of unborn Millions"
+        ]
+      }
+    },
+    {
+      "document_id": "am-rev-washington-orders-1776-08-30",
+      "title": "General Orders, 30 August 1776",
+      "short_title": "Orders: After Long Island",
+      "date": "1776-08-30",
+      "date_precision": "day",
+      "register": "military-general-orders",
+      "authorship": "George Washington",
+      "source_url": "https://founders.archives.gov/documents/Washington/03-09-02-0023",
+      "source_citation": "Founders Online, National Archives, Papers of George Washington, Revolutionary War Series",
+      "rights_status": "public-domain",
+      "expected_raw_path": "corpus/raw/am-rev-src-03-washington-general-orders/washington-orders-1776-08-30-after-long-island.txt",
+      "analytical_priority": "primary",
+      "verification": {
+        "min_words": 340,
+        "required_phrases": [
+          "August 30th 1776",
+          "commanding Officers of regiments"
+        ]
+      }
+    },
+    {
+      "document_id": "am-rev-washington-orders-1776-12-25",
+      "title": "General Orders, 25 December 1776",
+      "short_title": "Orders: Trenton Eve",
+      "date": "1776-12-25",
+      "date_precision": "day",
+      "register": "military-general-orders",
+      "authorship": "George Washington",
+      "source_url": "https://founders.archives.gov/documents/Washington/03-13-02-0177",
+      "source_citation": "Founders Online, National Archives, Papers of George Washington, Revolutionary War Series",
+      "rights_status": "public-domain",
+      "expected_raw_path": "corpus/raw/am-rev-src-03-washington-general-orders/washington-orders-1776-12-25-trenton-eve.txt",
+      "analytical_priority": "primary",
+      "verification": {
+        "min_words": 510,
+        "required_phrases": [
+          "25 December 1776",
+          "Each Brigade to be furnish"
+        ]
+      }
+    },
+    {
+      "document_id": "am-rev-washington-orders-1783-06-08",
+      "title": "Circular to the States, 8 June 1783",
+      "short_title": "Farewell Circular",
+      "date": "1783-06-08",
+      "date_precision": "day",
+      "register": "military-circular-letter",
+      "authorship": "George Washington",
+      "source_url": "https://founders.archives.gov/documents/Washington/99-01-02-11404",
+      "source_citation": "Founders Online, National Archives, Papers of George Washington",
+      "rights_status": "public-domain",
+      "expected_raw_path": "corpus/raw/am-rev-src-03-washington-general-orders/washington-orders-1783-06-08-farewell-circular.txt",
+      "analytical_priority": "primary",
+      "verification": {
+        "min_words": 3300,
+        "required_phrases": [
+          "Head Quarters Newburgh June 8",
+          "resign it into the hands of Congress"
+        ]
+      }
+    },
+    {
+      "document_id": "am-rev-washington-orders-1783-06-17",
+      "title": "General Orders, 17 June 1783",
+      "short_title": "Orders: War's End",
+      "date": "1783-06-17",
+      "date_precision": "day",
+      "register": "military-general-orders",
+      "authorship": "George Washington",
+      "source_url": "https://founders.archives.gov/documents/Washington/03-26-02-0001",
+      "source_citation": "Founders Online, National Archives, Papers of George Washington, Revolutionary War Series",
+      "rights_status": "public-domain",
+      "expected_raw_path": "corpus/raw/am-rev-src-03-washington-general-orders/washington-orders-1783-06-17-wars-end.txt",
+      "analytical_priority": "primary",
+      "verification": {
+        "min_words": 1300,
+        "required_phrases": [
+          "Rocky Hill, near Princeton",
+          "Farewell Orders issued to the Armies"
+        ]
+      }
+    }
+  ]
+}

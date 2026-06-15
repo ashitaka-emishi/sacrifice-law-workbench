@@ -1,0 +1,25 @@
+_site/
+.quarto/
+.DS_Store
+__pycache__/
+*.pyc
+.env
+.venv/
+.claude/settings.local.json
+.playwright-mcp/
+.github/workflows/publish.yml
+# Local-only corpora when rights/licensing prevent committing raw texts
+cases/*/corpus/raw/_local/
+cases/*/corpus/raw/*.restricted.txt
+
+# Hitler corpus: German source texts (IfZ critical edition / Domarus)
+# held locally under scholarly fair use — do not commit or publish
+cases/hitler/corpus/raw/hitler-src-01-mein-kampf-selected/*.txt
+cases/hitler/corpus/raw/hitler-src-02-reichstag-war-speeches/*.txt
+# Normalized and segmented files derived from those sources also stay local
+cases/hitler/corpus/text/*.md
+cases/hitler/corpus/segmented/*.json
+reports/tmp/
+
+/.quarto/
+**/*.quarto_ipynb

@@ -1,0 +1,62 @@
+[
+  {
+    "id": "shared-01-sacred-object",
+    "name": "Sacred object construction",
+    "status": "provisional"
+  },
+  {
+    "id": "shared-02-sacrificial-verification",
+    "name": "Sacrificial verification",
+    "status": "provisional"
+  },
+  {
+    "id": "shared-03-body-politic",
+    "name": "Body-politic / collective organism",
+    "status": "provisional"
+  },
+  {
+    "id": "shared-04-leader-embodiment",
+    "name": "Leader embodiment / incarnation",
+    "status": "provisional"
+  },
+  {
+    "id": "shared-05-enemy-threat",
+    "name": "Enemy as threat to sacred object",
+    "status": "provisional"
+  },
+  {
+    "id": "shared-06-enemy-parasite-contaminant",
+    "name": "Enemy as parasite / disease / contaminant",
+    "status": "provisional"
+  },
+  {
+    "id": "shared-07-war-trial-test",
+    "name": "War as trial / test / ordeal",
+    "status": "provisional"
+  },
+  {
+    "id": "shared-08-war-birth-rebirth",
+    "name": "War as birth / rebirth / regeneration",
+    "status": "provisional"
+  },
+  {
+    "id": "shared-09-cleansing-surgery",
+    "name": "Violence as cleansing / surgery / purification",
+    "status": "provisional"
+  },
+  {
+    "id": "shared-10-inheritance-covenant",
+    "name": "Inheritance / covenant / obligation",
+    "status": "provisional"
+  },
+  {
+    "id": "shared-11-providence-destiny-history",
+    "name": "Providence / destiny / history",
+    "status": "provisional"
+  },
+  {
+    "id": "shared-12-absence-suppression",
+    "name": "Systematic absence / suppression",
+    "status": "provisional"
+  }
+]

@@ -1,0 +1,288 @@
+SOURCE: Correspondance de Napoléon Ier, publiée par ordre de l'Empereur Napoléon III
+PUBLISHER: H. Plon, Paris, 1858–1870
+VOLUME: tome-2
+LETTER_NUM: 1117
+GALLICA_ARK: ark:/12148/bpt6k6295821n
+GALLICA_URL: https://gallica.bnf.fr/ark:/12148/bpt6k6295821n
+SELECTION_NOTE: Italian campaign (Vérone); glory and sacrifice economy; army loyalty rhetoric
+LANGUAGE: French (original)
+RIGHTS: Public domain (Napoleon died 1821; Plon 1858 edition PD)
+ACQUISITION_DATE: 2026-06-13
+TRANSLATION_NOTE: French original. English translation required before annotation.
+  Key CMT terms to flag: sacrifice, gloire, patrie, honneur, sang, corps, devoir.
+  See OPEN_DECISIONS.md — Napoleon translation methodology.
+========================================================================
+
+1117 — AU GÉNÉRAL BERTHIER Quartier général, Vérone, 5 brumaire an V (26 octobre 1796).
+
+Je vous préviens que j'ai fait choix des citoyens Muiron, chef de bataillon d'artillerie, Sulkowski, adjoint à l'état-major, Et Duroc, capitaine d'artillerie, pour mes aides de camp.
+
+Vous voudrez bien en prévenir leurs chefs et leur ordonner de se rendre auprès de moi.
+
+BONAPARTE.
+
+Dépôt de la guerre.
+
+1118. — AU CITOYEN SUCY.
+
+Quartier général, Vérone, 5 brumaire an V (26 octobre 1796).
+
+Le général en chef ayant décidé, Citoyen, que les troupes françaises qui sont dans la Rivière de Gênes, depuis Oneille compris jusqu'à Saint-Pierre-d'Arena, évacueraient les lieux qu'elles y occupent, et qu'à dater du 20 courant il ne serait plus fourni aucune solde ni subsistances à aucun individu de l'armée, à moins qu'il ne voyage porteur d'ordres supérieurs et de feuille de route, ordonne que vous vous concerterez avec l'adjudant général Touret, auquel vous donnerez rendez-vous pour ordonner tous les mouvements d'évacuation, en prenant les précautions nécessaires.
+
+La 52e demi-brigade sera dirigée sur Tortone, où elle recevra de nouveaux ordres.
+
+Toutes les autres troupes, soit détachements, dépôts ou artillerie, seront également dirigées sur cette place, où elles recevront de nouveaux ordres. Il sera envoyé, à l'avance, à l'état-major, un état de toutes les troupes dirigées sur Tortone.
+
+Le commissaire ordonnateur Sucy fera évacuer tous lés magasins, et ordonner à tous les employés et agents employés sur la Rivière de Gênes de se rendre au quartier général, en passant par Tortone, où ils sauront le lieu, où à cette époque sera le quartier général.
+
+L'adjudant général Touret donnera le même ordre aux commandants temporaires, et enfin à tous Français, tant militaires que civils.
+
+L'ordonnateur Sucy sentira combien il est important que l'étatmajor général soit prévenu de tout ce qu'il fera ; il résultera de ces dispositions qu'Oneille, Loano, Vado, Saint-Pierre-d'Arena, et tout ce qui peut se trouver entre ces places, seront évacués.
+
+Lorsque des troupes seront dans le cas de voyager, les gouverneurs de la République de Gênes en seront prévenus et feront four-
+
+nir des subsistances dont le remboursement sera ordonné par l'ordonnateur en chef, sur les reçus en règle.
+
+Par ordre du général en chef.
+
+Dépôt de la guerre.
+
+1119. — AU CITOYEN LALLEMENT.
+
+Quartier général, Vérone, 5 brumaire an V (26 octobre 1796).
+
+Vous trouverez ci-joint, Citoyen Ministre, une demande du conseil de Trente; vous jugerez si elle est juste. Je vous prie de vouloir bien la communiquer au Sénat de Venise.
+
+Vous trouverez ci-joint une lettre du ministre Delacroix.
+
+Je vous prie d'envoyer des exprès pour avoir des nouvelles du mouvement des Autrichiens du côté de Trévise et au delà de la Piave. Vous sentez combien nous avons intérêt à être bien instruits des mouvements qu'ils font de ce côté-là. Il est essentiel aussi que je sache s'il est vrai que les Vénitiens continuent toujours à armer.
+
+Envoyez-moi un chiffre dont nous puissions nous servir dans le cas où les chemins viendraient à être interceptés. J'ai été instruit, depuis longtemps, que le citoyen Jacob avait été nommé par le Gouvernement secrétaire d'ambassade à Turin ; est-il toujours à Venise?
+
+Croyez, je vous prie, aux sentiments. d'estime avec lesquels je suis, etc.
+
+BONAPARTE.
+
+Dépôt de la guerre.
+
+1120. -A M. VINTIMILLE, MINISTRE DU ROI DE NAPLES, A BRESCIA.
+
+Quartier général, Vérone, 6 brumaire an V (27 octobre 1796).
+
+Monsieur, des affaires de la plus grande importance me faisant désirer d'avoir une conférence avec vous, je vous prie de vouloir vous transporter à Pcsehiera, à deux heures après midi, où j'aurai soin d'être rendu.
+
+Je vous prie de croire aux sentiments de considération et d'estime, etc.
+
+BONAPARTE.
+
+Dépôt de la guerre.
+
+1121. — AU CITOYEN CACAULT.
+
+Quartier général, Véreac, 7 bvumire an V (28 ociobac 1796).
+
+Vous trouverez ci-joint un paragraphe que je reçois en ce mo- ment du Directoire exécutif. Je vous prie, en conséquence, de com-
+
+mcncer des ouvertures avec le cardinal secrétaire d'État, ou de vous servir du cardinal Mattei, qui pourra parler directement au Pape. Dès l'instant que la cour de Rome sera décidée à ouvrir une nouvelle négociation avec nous, vous m'en ferez part, et vous pourrez venir avec le ministre qu'elle aura nommé dans une ville que je vous indiquerai, comme, par exemple, Crémone.
+
+Vous pouvez donc signifier au Pape que la réponse de Paris m'est arrivée ; que, par une suite des sentiments de modération qu'a adoptés le Gouvernement fiançais, il m'a chargé de terminer avec Rome toute espèce de différend, soit par les armes, soit par une nouvelle négociation.
+
+Désirant donner au Pape une marque du désir que j'ai de voir cette guerre si longue se terminer, et les malheurs qui affligent la nature humaine avoir un terme, je lui offre un manière honorable de sauver encore son honneur et le chef de la religion.
+
+Vous pouvez l'assurer de vive voix que j'ai toujours été contraire au traité qu'on lui a proposé, et surtout à la manière de négocier ; que c'est en conséquence de mes instances particulières et réitérées que le Directoire m'a chargé d'ouvrir la route d'une nouvelle négociation. J'ambitionne bien plus le titre de sauveur que celui de destructeur du Saint-Siège; vous savez vous-même que nous avons toujours eu là - dessus des principes conformes, et, moyennant la faculté illimitée que m'a donnée le Directoire, si l'on veut être sage à Rome, nous en profiterons pour donner la paix à cette belle partie du monde, et tranquilliser les consciences timorées de beaucoup de peuples.
+
+J'attends votre réponse par le retour du courrier.
+
+Rien de nouveau des armées. L'armée de Sambre-ct-Meuse s'avance sur le Mein, et l'armée du Rhin a délivré Kehl et est absolument hors de toute espèce de danger.
+
+BoXArARTE.
+
+Dépôt de la guerre.
+
+1122. — AU CITOYEN POUSSIELGUE.
+
+Quartier général, Vérone, 7 brumaire an V (28 octobre 1796).
+
+Le courrier que je viens de recevoir du Directoire, Citoyen, m'autorisant, d'une manière plus précise encore, à conclure le traité avec le roi de Sardaigne, je vous prie de tenir par écrit la note que le ministre des affaires étrangères doit vous donner, et de vous rendre ensuite ici, afin que nous prenions les dernières mesures. Vous sentez que la France, quelque chose qui soit conclu, ne peut rien ga-
+
+rantir. J'ai donné à la cour de Turin toutes les satisfactions qu'elle peut désirer. Je change le général Rey à sa demande, et j'ai fait arrêter le citoyen Rauza et enfermer dans le chàteau de Milan.
+
+BONAPARTE.
+
+Dépôt de la guerre.
+
+1123. — A M. PRIOCCA, MINISTRE DES AFFAIRES ÉTRANGÈRES DU ROI DE SABDAIGNE.
+
+Quartier général, Vérone, 7 brumaire an V (28 octobre 1796).
+
+J'apprends, Monsieur, par la lettre que vous m'avez fait l'honneur de m'écrire, que vos courriers sont souvent arrêtés dans les pays occupés par l'armée. Il y aurait un moyen bien simple, Monsieur, ce serait de les faire escorter par un de nos dragons. Vous pouvez donc leur donner l'ordre, dès l'instant qu'ils sont arrivés aux postes français, de se présenter chez l'officier commandant, qui leur fournira tous les secours dont ils auront besoin.
+
+Je viens également de donner l'ordre au bureau de police, à Milan, de respecter toutes les lettres qui seraient pour le Piémont. Je vous prie d'être persuadé, Monsieur, que je n'oublierai aucune circonstance qui puisse vous prouver l'estime, la considération et le désir que j'ai de voir une bonne intelligence s'établir entre les deux États.
+
+BONAPARTE.
+
+Comm. par le Gouvernement de Sardaigne.
+
+1124. — AU COMMANDANT DE L'ARTILLERIE A FERRARE.
+
+Quartier général, Vérone, 8 brumaire an V (29 octobre 1796).
+
+Le commandant de l'artillerie à Ferrare fera partir sur-le-champ, pour Porto-Legnago, toute l'artillerie légère qui se trouve en ce moment dans cette première place; elle devra se rendre en deux jours à sa destination, en se rendant, le premier à Trecenta, et le lendemain à Porto-Legnago.
+
+Le général Lespinasse, commandant l'artillerie, le général Kilmaine et le commissaire ordonnateur sont prévenus de ce mouvement.
+
+Par ordre du général en chef.
+
+Dépôt de la guerre.
+
+1125. - INSTHUCTIONS POUR LE GÉNÉRAL JOUBERT.
+
+Quartier général, Vérone, 8 brumaire au V (29 octobre 1796).
+
+La 12e demi-brigade de bataille et l'artillerie légère, qui est à Fer-
+
+rare, ayant ordre de se rendre à Porto-Legnago, le général Joubert est prévenu qu'au moyen de cette augmentation de garnison il devra toujours tenir un détachement de 150 à 200 hommes à Castagnaro, pour défendre le passage du canal, protéger la rupture du pont et la levée des écluses, en supposant que l'ennemi passàt l'Adige plus bas que Castagnaro.
+
+Il devra également tenir un détachement de 100 hommes à Ronco.
+
+Chacun de ces détachements aura avec lui deux pièces de canon. La pièce de 5 qui est à Porto-Legnago, avec ses attelages, sera mise en batterie, et les chevaux seront attelés à un autre obusier de 5 pouces 6 lignes, de sorte qu'il y aura, dépendant de la garnison de PortoLegnago, deux pièces de 11 et deux obusiers attelés.
+
+En cas d'événement, il serait facile de trouver quelques douzaines de chevaux du pays pour pouvoir augmenter le nombre de pièces sur les points où l'ennemi pourrait tenter de passer la rivière. C'est spécialement avec l'artillerie que l'on défend le passage des rivières.
+
+L'on pourra d'ailleurs ne laisser à chaque pièce qu'un seul caisson, et se servir de l'attelage des autres pour traîner quelques autres pièces.
+
+Le général Joubert s'informera si les deux pièces d'artillerie légère qui devaient venir avec le dernier des trois bataillons de la 75e demibrigade sont arrivées à Porto-Legnago.
+
+Par ordre du général en chef.
+
+Dépôt de la guerre.
+
+1126. - AU CHEF DE BRIGADE CHASSELOUP.
+
+Quartier général, Vérone, 9 brumaire an V (30 octobre 1796).
+
+Le citoyen Chasseloup est prévenu que l'intention du général en chef est qu'il se rende sur-le-champ à Vérone, en passant par Goito, et qu'il fasse un sérieux examen du blocus de Mantoue, afin de pouvoir, à son arrivée au quartier général, lui en rendre un compte détaillé.
+
+Par ordre du général en chef.
+
+Dépôt de la guerre.
+
+1127. - AU GÉNÉRAL VAUBOIS.
+
+Quartier général, V érone, 9 brumaire an V (30 octobre 1796).
+
+Le général en chef me charge de vous mander, Général, qu'il paraît que l'ennemi s'est considérablement affaibli vis-à-vis de vous et s'est porté dans le Frioul; vous devez vous être aperçu que les dé-
+
+serteurs qui vous venaient des différents régiments ne vous arrivent plus.
+
+L'intention du général en chef est d'ôter 3,000 hommes à votre division, pour renforœr celles des généraux Masaéna et Aogercan; mais il désiresait, avant tout, que vous puissiez attaquer l'ennemi et le pousser jusqu'à Neumark et Kaltern, de manière à lui faire beaucoup de prisonniers, culbuter les retranchements et rompre enfin son ordre de bataille. Vous pourrez, après cela, faire repasser promptement l'Avisio à la division qui aura été sur le chemin de Kaltern, pour couper la retraite aux troupes que l'ennemi pourrait avoir, soit à Bedol, soit à Piaze, soit enfin dans toute autre position entre l'Avisio et la Brenta. Le général en chef vous laisse le détail de cette opération, qu'il est important de faire avast qu'il retire de votre division les. troupes dont il compte disposer.
+
+Par ordre du générai en chef.
+
+Déj}àt de la guerre.
+
+1128. - A LA MUNICIPALITÉ DE CASTIGLIONEDELLE-STIVIERE.
+
+Quartier général, Vérone, 9 brumaire an V (30 octobre 1796).
+
+Le général en chef, Citoyens, s'est fait rendre compte de tout ce qui concerne l'affaire du citoyen Borée, commandant ci-devant à Castiglione. L'innocence de ce militaire a été pleinement reconnue, et le général Kilmaine a reçu à cet égard des ordres dont vous aurez eu connaissance.
+
+Le citoyen Borée a été mis en liberté et a reçu la justification la plus éclatante; il aurait été replacé dans son poste si le général en chef n'avait pas ordonné ultérieurement que l'on n'employât dans le commandement des places que des officiers dont l'âge et la santé se refusent aux fatigues de la guerre, pour faire rentrer dans l'armée active les officiers employés dans les commandements qui sont plus susceptibles de supporter les mouvements de la campagne.
+
+Par ordre du général en chef.
+
+Dépôt de la guerre.
+
+1129. — AU GÉNÉRAL BERTHIER.
+
+Quartier général, Vérone, 10 brumaire an V (31 octobre 1796).
+
+Il y aura, par bataillon, trois hommes portant des haches ; ils auront la paye de caporal. On choisira des hommes forts r et au moins tle la taille de 5 pieds 6 pouces.
+
+Les haches seront faites conformément au modèle ci-joint; elles seront surmontées d'une aiguille pour servir de défense.
+
+Les généraux de division sont chargés de faire le choix des hommes.
+
+Les commandants d'artillerie des divisions feront faire les haches, qui devront être faites cinq jours après le reçu du présent ordre. Le général d'artillerie fera, à cet effet, passer des fonds.
+
+il y aura, pat escadron de cavalerie, deux hommes porteurs de haches, deux portant des pioches, deux portant des pelles „ coeh formes aux modèles ci-joints.
+
+Les commaaftdants des corps feront faire des outils sur un fonds qui leur sera alloué à cet effet par le général d'artillerie ; ils feront les fourreaux sur les fonds du régiment. »
+
+Tout escadron qui, cinq jours après la publication du présent ordre, n'aurait pas ses outils, le chef en sera responsable.
+
+Les sergents - majors, sergents, caporaux-fourriers, auront des fusils vingt-quatre heures après le présent ordre.
+
+BONAPARTE.
+
+Dépôt de la guerre.
+
+1130. - AU GÉNÉRAL LESPINASSE.
+
+Quartier général, Vérone, 10 brumaire an V (31 .octobre 1796).
+
+Le général Kilmaine m'écrit, Général, que les batteries flottantes que j'ai ordonné d'établir sur le lac Supérieur ne sont point encore en activité. Veuillez donner les ordres les plus précis pour qu'elles y soient mises le plus tôt possible.
+
+Il suffit, Général, que vous laissiez à la citadelle de Ferrare un officier, un sergent d'artillerie et dix canonniers; vous pourrez disposer du surplus pour le blocus de Mantoue, où l'on se plaint du manque de canonniers.
+
+BONAPARTE.
+
+Dépôt de la guerre.
+
+1131. - AU GÉNÉRAL BERTHIER.
+
+Quartier général, Vérone, Il brumaire an V (1er novembre 1796).
+
+Donnez l'ordre au général Robert de se rendre à Brescia, où il passera la revue de la 40e demi-brigade, dont le 1er bataillon arrive le 14.
+
+Ordre au général Augereau d'envoyer une demi-brigade de ligne pour tenir cantonnement aux environs de Porto-Legnago, lorsque le 1er bataillon de la 40e sera arrivé à Vérone.
+
+Ordre au bataillon de la 45 e, qui est attaché au parc , d'en partir demain pour se rendre au quartier général du général Kilmaine.
+
+Ordre au général Macquart de fournir un piquet de cent hommes, pris sur les trois bataillons de la 12e demi-brigade d'infanterie légère, pour être de service au parc d'artillerie, à l'endroit qui lui sera désigné par le directeur du parc.
+
+Ordre au détachement du 1er régiment de cavalerie qui est à Legnago d'en partir demain pour se rendre au quartier général du général Kilmaine.
+
+BONAPARTE.
+
+Dépôt de la guerre.
+
+( 1132. - AU GÉNÉRAL LESPINASSE.
+
+Quartier général, V érone, il brumaire an V (1er novembre 1796).
+
+J'ai reçu: Général, la lettre par laquelle vous me demandez quelles sont mes intentions pour la distribution des fusils dans les dépôts des divisions. Vous devez avoir soin qu'à chacun de ceux de Cassano et de Lodi il y ait toujours 1,000 fusils en réserve, de manière qu'aussitôt qu'il y aura une distribution de faite on procède au remplacement de ceux qui auraient été délivrés du dépôt de Crémone.
+
+Je joins ici, Général, l'état des besoins en armement de la 758 demi-brigade, certifié par le général Robert. Vous voudrez bien donner vos ordres pour que les fusils , cartouches et pierres à feu, que ce corps demande, lui soient délivrés le plus tôt possible à Porto-Legnago.
+
+Outre les 1,200 fusils arrivés à Crémone, je vous ai annoncé qu'il en était parti 8,000 pour Milan, ce qui fait 9,200. Vous aurez soin qu'il y en ait toujours en dépôt 1,000 à Peschiera, et 500 à Porto-Legnago. Je crois aussi vous avoir mandé de faire passer à Bassano 300 fusils et 600 baïonnettes.
+
+L'ordre que je viens de donner pour que les sous-officiers de toutes les demi-brigades de l'armée, ainsi que les lieutenants et souslieutenants d'infanterie légère, soient armés de fusils , en emploiera une grande quantité. Je crois donc qu'il sera bien de faire vos dispositions pour en faire passer 600 à Roveredo, pour la division Vaubois, 300 à Vérone, pour celle d'Augereau, 300 pour celle de Masséna, et 300, enfin, pour chacune de celles des généraux Dallemague et Chabot. Vous ferez passer le reste à mesure que les généraux vous transmettront l'état de répartition prescrit par un ordre général.
+
+BONAPARTE.
+
+Dépôt de la guerre.
+
+1133. — AU COMMANDANT DE PLAISANCE.
+
+Quartier général, Vérone, Il brumaire an V (1er novembre 1796).
+
+L'intention du Gouvernement français, Citoyen, est non-seulement que la neutralité qui existe entre la République et les États de Parme soit respectée, mais encore que le prince soit protégé par l'armée française, toutes les fois qu'il en aurait besoin. Vous voudrez bien vous conduire en conséquence, et punir sévèrement tout Français qui s'écarterait de cette conduite.
+
+BONAPARTE.
+
+Collection Napoléon.
+
+1134. - A S. A. R. LE DUC DE PARME, DE PLAISANCE ET DE GUASTALLA.
+
+Quartier général, Vérone, 11 brumaire an V (1er novembre 1796).
+
+J'ai reçu la lettre de Votre Altesse Royale, du 24 octobre. Je me suis empressé de satisfaire à ce qu'elle désire. L'intention du Gouvernement français est de faire tout ce qui pourra être agréable à Votre Altesse Royale. Elle me trouvera, dans toutes les circonstances , prêt à lui donner les secours et les forces dont elle pourrait avoir besoin.
+
+Si des employés de l'armée se conduisaient mal, j'engage Votre Altesse Royale à les faire arrêter; lorsqu'ils sont dans ses États, ils doivent s'y comporter avec la décence et le respect qui sont dus à l'autorité du prince. Lorsque Votre Altesse Royale voudra m'en tenir instruit, je les ferai sévèrement punir.
+
+La bonne intelligence qui règne entre les deux États, la bonne conduite que Votre Altesse Royale a tenue dans toutes les circonstances, doivent l'assurer de l'amitié et de la protection de la République française contre tous ceux qui voudraient méconnaître son autorité et transgresser les lois établies dans ses États. Je serai toujours charmé de trouver les occasions de témoigner à Votre Altesse Royale les sentiments d'estime et de considération avec lesquels je suis, etc.
+
+-BONAPARTE.
+
+Dépôt de la guerre.

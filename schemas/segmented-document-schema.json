@@ -1,0 +1,65 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Case segmented document",
+  "type": "object",
+  "additionalProperties": true,
+  "required": ["case_id", "document_id", "meta", "sections"],
+  "properties": {
+    "case_id": { "type": "string", "minLength": 1 },
+    "document_id": { "type": "string", "minLength": 1 },
+    "meta": { "type": "object" },
+    "sections": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": true,
+        "required": ["section_id", "section_ordinal", "paragraphs"],
+        "properties": {
+          "section_id": { "type": "string", "minLength": 1 },
+          "section_label": { "type": "string" },
+          "section_ordinal": { "type": "integer", "minimum": 1 },
+          "paragraphs": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": true,
+              "required": ["paragraph_id", "paragraph_ordinal", "sentences"],
+              "properties": {
+                "paragraph_id": { "type": "string", "minLength": 1 },
+                "paragraph_ordinal": { "type": "integer", "minimum": 1 },
+                "sentences": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "additionalProperties": true,
+                    "required": [
+                      "sentence_id",
+                      "sentence_ordinal",
+                      "text",
+                      "word_offset_start",
+                      "word_offset_end",
+                      "metaphor_instances"
+                    ],
+                    "properties": {
+                      "sentence_id": { "type": "string", "minLength": 1 },
+                      "sentence_ordinal": { "type": "integer", "minimum": 1 },
+                      "text": { "type": "string" },
+                      "word_offset_start": { "type": "integer", "minimum": 0 },
+                      "word_offset_end": { "type": "integer", "minimum": 0 },
+                      "char_offset_start": { "type": "integer", "minimum": 0 },
+                      "char_offset_end": { "type": "integer", "minimum": 0 },
+                      "metaphor_instances": {
+                        "type": "array",
+                        "items": { "$ref": "annotation-schema.json" }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

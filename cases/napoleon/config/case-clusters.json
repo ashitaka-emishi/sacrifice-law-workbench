@@ -1,0 +1,32 @@
+[
+  {
+    "id": "napoleon-01-glory-destiny",
+    "name": "Glory / destiny / world-historical mission",
+    "status": "provisional"
+  },
+  {
+    "id": "napoleon-02-army-body",
+    "name": "Army as body / instrument of destiny",
+    "status": "provisional"
+  },
+  {
+    "id": "napoleon-03-emperor-embodiment",
+    "name": "Emperor as embodiment of France/history",
+    "status": "provisional"
+  },
+  {
+    "id": "napoleon-04-empire-order",
+    "name": "Empire as order / civilization / law",
+    "status": "provisional"
+  },
+  {
+    "id": "napoleon-05-soldier-sacrifice",
+    "name": "Soldier sacrifice / honor / immortality",
+    "status": "provisional"
+  },
+  {
+    "id": "napoleon-06-enemy-obstacle",
+    "name": "Enemy as obstacle to order/destiny",
+    "status": "provisional"
+  }
+]

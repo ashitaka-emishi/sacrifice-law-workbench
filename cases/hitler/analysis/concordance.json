@@ -1,0 +1,38 @@
+{
+  "version": "1.0",
+  "case_id": "hitler",
+  "generated_at": "2026-05-05T02:40:26",
+  "status": "stub",
+  "total_documents": 0,
+  "total_sentences": 0,
+  "total_instances": 0,
+  "instances": [],
+  "indexes": {
+    "by_cluster": {
+      "hitler-01-volk-racial-body": [],
+      "hitler-02-fuhrer-embodiment": [],
+      "hitler-03-jew-parasite-disease": [],
+      "hitler-04-purification-surgery": [],
+      "hitler-05-struggle-destiny": [],
+      "hitler-06-sacrifice-martyrdom": [],
+      "hitler-07-rebirth-reich": [],
+      "hitler-08-victim-erasure": []
+    },
+    "by_document": {},
+    "by_register": {},
+    "by_fantasy_type": {},
+    "by_violence_logic": {},
+    "by_absence_flag": {},
+    "high_confidence_only": [],
+    "suppression_instances": []
+  },
+  "errors": [],
+  "pipeline_log": [
+    {
+      "stage": "build-concordance",
+      "script": "scripts/build-concordance.py",
+      "annotated_files": 0,
+      "generated_at": "2026-05-05T02:40:26"
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+SOURCE: Correspondance de Napoléon Ier, publiée par ordre de l'Empereur Napoléon III
+PUBLISHER: H. Plon, Paris, 1858–1870
+VOLUME: tome-1
+LETTER_NUM: 178
+GALLICA_ARK: ark:/12148/bpt6k6296221w
+GALLICA_URL: https://gallica.bnf.fr/ark:/12148/bpt6k6296221w
+SELECTION_NOTE: Transition period; developing sacrificial and honour rhetoric
+LANGUAGE: French (original)
+RIGHTS: Public domain (Napoleon died 1821; Plon 1858 edition PD)
+ACQUISITION_DATE: 2026-06-13
+TRANSLATION_NOTE: French original. English translation required before annotation.
+  Key CMT terms to flag: sacrifice, gloire, patrie, honneur, sang, corps, devoir.
+  See OPEN_DECISIONS.md — Napoleon translation methodology.
+========================================================================
+
+178.—AU GÉNÉRAL LAHARPE.
+
+Quartier général, Carcare, 21 germinal au IV (16 avril 1796).
+
+- Je vous fais connaître, Citoyen Général, le désir que j'aurais de faire, à Sassello, une fouille qui serait utile sous plusieurs points de vue ; je désirerais que d'ici à une heure vous fissiez partir la 14e demibrigade pour Savone, en passant par Sassello. Je vous laisse le maiire de faire tous les mouvements que vous jugerez nécessaires pour le passage de cette demi-brigade. Comme il pourrait y avoir quelques bataillons à-Sassello, il faudrait faire en sorte qu'elle pût être vigoureusement protégée. Il est probable que vous ramasserez un ou deux bataillons dans ce mouvement.
+
+Arrivé à Sassello, je vous autorise à lever une contribution, en forme d'emprunt, en vin, bétail et tout ce qui pourrait être néces-
+
+saire à votre troupe. Vous pourrez mener une partie des chasseurs avec vous. Je pense que les brigades les plus fatiguées doivent se porter, pour protéger ce mouvement, tout au plus à une lieue de Môntenotte inférieur.
+
+La demi-brigade du général Victor, la 14e, quelque infanterie légère, 50 chasseurs, si vous jugez que les chemins le permettent, doivent être suffisants pour ce coup de main, qui fera beaucoup d'honneur à nos armes, embarrassera l'ennemi et finira nos inquiétudes sur Savone.
+
+Si nos troupes trouvaient des forces plus considérables à Sassello, le reste de votre division, celle du général Masséna, se porteraient pour les dégager, et, en cas de retraite, votre point -d'appui serait toujours sur Montenotte inférieur. Je désire que de Sassello vous écriviez à Gènes une lettre un peu gasconne par un exprès que vous enverrez; vous garderez avec vous l'aide de camp que je vous envoie, que vous m'expédierez à Montezemolo, du moment que vous pourriez penser que ma présence pourrait être nécessaire de votre côté.
+
+Dès l'instant que vous aurez commencé votre mouvement pour cette expédition, vous m'enverrez une ordonnance à Montezemolo m'en prévenir. Si de nouveaux accidents vous empèchaient de l'exécuter, vous m'en préviendriez de suite.
+
+BONAPARTE.
+
+Dépôt de la guerre.
+
+1'19. - AU GÉNÉRAL DE BRIGADE PEYRON 1.
+
+Quartier général, Carcare, 27 germinal an IV (16 avril 1796).
+
+Il n'est pas possible, Général, de distraire des troupes de l'armée d'Italie -pour les porter dans les départements des Basses-Alpes. Ses forces actuelles y sont trop nécessaires pour battre l'ennemi, comme nous le faisons avec succès depuis cinq jours. Il faut continuer le cours de nos victoires, et l'armée honorera cette campagne par les coups décisifs qu'elle portera à l'ennemi. Comme il importe aussi d'étouffer l'esprit contre-révolutionnaire qui parait se manifester dans ce département, vous devez-employer les bons citoyens en gardes nationales et les mettre en réquisition pour le maintien de l'ordre public.
+
+BONAPARTE.
+
+Dépôt de la guerre.
+
+1 Le général Peyron était employé, dans le département des Basses-Alpes, à faire rejoindre les jeunes gens de la réquisition. '-
+
+180. — AU GÉNÉRAL DUJARD.
+
+Quartier général, Carcare, 28 germinal an IV (17 avril 1796).
+
+Il est ordonné au général commandant l'artillerie de tenir ses pièces prètes et de désigner des emplacements pour pouvoir battre le camp retranché de Ceva, ainsi que la redoute de Testa-Nera. Par ordre du général en chef.
+
+Dépôt de la guerre.
+
+181. - AU GÉNÉRAL LAHARPE.
+
+Quartier général, Carcare, 28 germinal an IV (17 avril 1796).
+
+Il est ordonné au général Laharpe, qui est à Mioglia, d'en partir sur-le-champ avec les troupes à ses ordres pour se rendre à Dego, où il trouvera la 99e demi-brigade et le pain pour sa troupe, et où il restera jusqu'à nouvel ordre, en prenant toutes les précautions pour bien garder son poste, et poussera de fortes reconnaissances sur sa gauche jusqu'à Sainte-Juliette et à Mombarcaro ; il en poussera également sur le chemin d'Acqui jusqu'à Montaldo et, sur sa droite, jusqu'à la position boisée de Montenotte inférieur.
+
+Par ordre du général en chef.
+
+Dépôt de la guerre.
+
+182. — AU GÉNÉRAL MASSÉNA.
+
+Quartier général, Carcare, 28 germinal an IV (17 avril 1796).
+
+Il est ordonné au général Masséna de partir sur-le-champ avec sa division pour se rendre à Mombarcaro, en passant par Sainte-Juliette ; il y trouvera la 84e demi-brigade, commandée par le général Dommartin, qui rentrera sous ses ordres ; il serait nécessaire qu'il fût arrivé à deux heures après midi.
+
+Par ordre du général en chef.
+
+Dépôt de la guerre.
+
+183. — AU GÉNÉRAL SERURIER.
+
+Quartier général, Carcare, 28 germinal an IV (17 avril 1796).
+
+Il est ordonné au général de division Serurier de faire partir de sa division 3,000 hommes pour se rendre à Priero, où le général en chef lui enverra un aide de camp, de Montezemolo, pour désigner l'emplacement qu'ils devront occuper.
+
+Par ordre du général en chef.
+
+Dépôt de la guerre.
+
+184. — AU GÉNÉRAL SERURIER.
+
+Quartier général, Carcare, 28 germinal an IV (17 avril 1796).
+
+Il est ordonné au général de division Serurier d'envoyer 1,500 hommes de sa division, qui s'approcheront le plus près possible de la ville de Ceva, où ils resteront jusqu'à nouvel ordre.
+
+Par ordre du général en chef.
+
+Dépôt de la guerre.

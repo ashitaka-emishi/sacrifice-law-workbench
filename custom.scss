@@ -1,0 +1,119 @@
+/*-- scss:defaults --*/
+$body-bg:               #f5f5dc;
+$body-color:            #202020;
+$primary:               #800000;
+$link-color:            #800000;
+$link-hover-color:      #5a0000;
+$accent-blue:           #5a6878;
+
+$font-family-base:      "Lato", "Segoe UI", Roboto, sans-serif;
+$headings-font-family:  "Catamaran", "Segoe UI", Roboto, sans-serif;
+$headings-font-weight:  600;
+$font-size-base:        1rem;
+$line-height-base:      1.75;
+
+$navbar-bg:             #202020;
+$navbar-fg:             #f5f5dc;
+
+$sidebar-bg:            #ece8db;
+$sidebar-fg:            #202020;
+$sidebar-hl:            #800000;
+
+$code-bg:               #e8e8c8;
+$code-color:            #202020;
+
+$toc-color:             #800000;
+$toc-active-border:     #800000;
+
+/*-- scss:rules --*/
+.navbar-brand,
+.navbar-title {
+  font-family: Georgia, "Times New Roman", "Book Antiqua", serif;
+  font-weight: bold;
+  font-size: 1.25rem;
+  letter-spacing: 0.015em;
+}
+
+.navbar-nav .nav-link.section-active {
+  color: #f5f5dc !important;
+  text-decoration: underline;
+  text-decoration-color: #800000;
+  text-decoration-thickness: 0.18rem;
+  text-underline-offset: 0.45rem;
+  font-weight: 700;
+}
+
+#quarto-sidebar {
+  padding-top: 0;
+  background-color: #ece8db;
+  box-shadow: 3px 0 8px rgba(32, 32, 32, 0.07);
+}
+
+#quarto-sidebar .sidebar-menu-container::before {
+  content: "Contents";
+  display: block;
+  font-family: "Catamaran", "Segoe UI", Roboto, sans-serif;
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #5a6878;
+  padding: 0.85rem 0.75rem 0.5rem;
+  border-bottom: 1px solid rgba(128, 0, 0, 0.25);
+  margin-bottom: 0.4rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #202020;
+}
+
+h2 {
+  border-bottom: 1px solid #800000;
+  padding-bottom: 0.25rem;
+  margin-bottom: 1rem;
+}
+
+p {
+  margin-bottom: 1.15rem;
+}
+
+hr {
+  border-color: #800000;
+  border-width: 1px;
+  opacity: 1;
+}
+
+.text-muted,
+figcaption,
+.quarto-categories,
+.listing-date,
+nav[role=doc-toc] > h2 {
+  color: #5a6878 !important;
+}
+
+#quarto-margin-sidebar {
+  background-color: #ece8db;
+  box-shadow: -3px 0 8px rgba(32, 32, 32, 0.07);
+  padding-left: 1.25rem;
+}
+
+.sidebar-item-container .active {
+  color: #800000;
+  font-weight: 600;
+  border-left: 3px solid #800000;
+  padding-left: 0.4rem;
+}
+
+nav[role=doc-toc] a.active {
+  color: #800000;
+  font-weight: 600;
+}
+
+thead {
+  background-color: rgba(90, 104, 120, 0.15);
+  color: #202020;
+}
+
+.callout {
+  border-left-color: #800000;
+}

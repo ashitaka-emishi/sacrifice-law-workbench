@@ -1,0 +1,193 @@
+{
+  "version": "1.0",
+  "case_id": "lincoln",
+  "generated_at": "2026-06-14T21:24:35",
+  "status": "stub",
+  "total_instances": 0,
+  "mipvu_profile": {
+    "mipvu_files": 3,
+    "total_lexical_units": 4536,
+    "reviewed_lexical_units": 0,
+    "pending_lexical_units": 4536,
+    "confirmed_metaphor_units": 0,
+    "metaphor_or_uncertain_units": 0,
+    "metaphor_rate_confirmed": 0.0,
+    "metaphor_rate_including_uncertain": 0.0,
+    "by_document": {
+      "lincoln-lyceum-address": 3568,
+      "lincoln-second-inaugural": 700,
+      "lincoln-gettysburg-address": 268
+    },
+    "by_register": {
+      "political-speech": 4536
+    },
+    "by_language": {
+      "en": 4536
+    },
+    "by_decision_type": {
+      "pending": 4536
+    },
+    "by_confidence": {
+      "missing": 4536
+    }
+  },
+  "cluster_analyses": [
+    {
+      "cluster_id": "lincoln-01-body-organism",
+      "cluster_name": "Nation as organism / body",
+      "status": "provisional",
+      "instance_count": 0,
+      "instance_ids": [],
+      "by_document": {},
+      "by_register": {},
+      "koenigsberg_profile": {
+        "fantasy_type_distribution": {},
+        "violence_logic_distribution": {},
+        "obligatory_frame_rate": null,
+        "sacrificial_economy_rate": null,
+        "absence_flags_distribution": {}
+      },
+      "analyst_notes": null,
+      "interpretive_summary": null,
+      "what_metaphor_conceals": null
+    },
+    {
+      "cluster_id": "lincoln-02-covenant-oath",
+      "cluster_name": "Union as covenant / oath",
+      "status": "provisional",
+      "instance_count": 0,
+      "instance_ids": [],
+      "by_document": {},
+      "by_register": {},
+      "koenigsberg_profile": {
+        "fantasy_type_distribution": {},
+        "violence_logic_distribution": {},
+        "obligatory_frame_rate": null,
+        "sacrificial_economy_rate": null,
+        "absence_flags_distribution": {}
+      },
+      "analyst_notes": null,
+      "interpretive_summary": null,
+      "what_metaphor_conceals": null
+    },
+    {
+      "cluster_id": "lincoln-03-experiment-proposition",
+      "cluster_name": "Republic as experiment / proposition",
+      "status": "provisional",
+      "instance_count": 0,
+      "instance_ids": [],
+      "by_document": {},
+      "by_register": {},
+      "koenigsberg_profile": {
+        "fantasy_type_distribution": {},
+        "violence_logic_distribution": {},
+        "obligatory_frame_rate": null,
+        "sacrificial_economy_rate": null,
+        "absence_flags_distribution": {}
+      },
+      "analyst_notes": null,
+      "interpretive_summary": null,
+      "what_metaphor_conceals": null
+    },
+    {
+      "cluster_id": "lincoln-04-birth-creation",
+      "cluster_name": "War as birth / new creation",
+      "status": "provisional",
+      "instance_count": 0,
+      "instance_ids": [],
+      "by_document": {},
+      "by_register": {},
+      "koenigsberg_profile": {
+        "fantasy_type_distribution": {},
+        "violence_logic_distribution": {},
+        "obligatory_frame_rate": null,
+        "sacrificial_economy_rate": null,
+        "absence_flags_distribution": {}
+      },
+      "analyst_notes": null,
+      "interpretive_summary": null,
+      "what_metaphor_conceals": null
+    },
+    {
+      "cluster_id": "lincoln-05-fathers-inheritance",
+      "cluster_name": "Founding fathers as inheritance",
+      "status": "provisional",
+      "instance_count": 0,
+      "instance_ids": [],
+      "by_document": {},
+      "by_register": {},
+      "koenigsberg_profile": {
+        "fantasy_type_distribution": {},
+        "violence_logic_distribution": {},
+        "obligatory_frame_rate": null,
+        "sacrificial_economy_rate": null,
+        "absence_flags_distribution": {}
+      },
+      "analyst_notes": null,
+      "interpretive_summary": null,
+      "what_metaphor_conceals": null
+    },
+    {
+      "cluster_id": "lincoln-06-providence-theodicy",
+      "cluster_name": "Providence / divine will",
+      "status": "provisional",
+      "instance_count": 0,
+      "instance_ids": [],
+      "by_document": {},
+      "by_register": {},
+      "koenigsberg_profile": {
+        "fantasy_type_distribution": {},
+        "violence_logic_distribution": {},
+        "obligatory_frame_rate": null,
+        "sacrificial_economy_rate": null,
+        "absence_flags_distribution": {}
+      },
+      "analyst_notes": null,
+      "interpretive_summary": null,
+      "what_metaphor_conceals": null
+    },
+    {
+      "cluster_id": "lincoln-07-absence-black-agency",
+      "cluster_name": "Systematic absence / suppressed agency",
+      "status": "provisional",
+      "instance_count": 0,
+      "instance_ids": [],
+      "by_document": {},
+      "by_register": {},
+      "koenigsberg_profile": {
+        "fantasy_type_distribution": {},
+        "violence_logic_distribution": {},
+        "obligatory_frame_rate": null,
+        "sacrificial_economy_rate": null,
+        "absence_flags_distribution": {}
+      },
+      "analyst_notes": null,
+      "interpretive_summary": null,
+      "what_metaphor_conceals": null
+    }
+  ],
+  "corpus_profile": {
+    "by_document": {},
+    "by_register": {},
+    "by_cluster": {},
+    "by_fantasy_type": {},
+    "by_violence_logic": {},
+    "by_absence_flag": {},
+    "mipvu_denominator": {
+      "total_lexical_units": 4536,
+      "reviewed_lexical_units": 0,
+      "confirmed_metaphor_units": 0,
+      "metaphor_or_uncertain_units": 0,
+      "metaphor_rate_confirmed": 0.0,
+      "metaphor_rate_including_uncertain": 0.0
+    }
+  },
+  "errors": [],
+  "pipeline_log": [
+    {
+      "stage": "run-case-analysis",
+      "script": "scripts/run-case-analysis.py",
+      "generated_at": "2026-06-14T21:24:35"
+    }
+  ]
+}

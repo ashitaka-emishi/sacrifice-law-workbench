@@ -1,0 +1,202 @@
+---
+title: "Methodology"
+---
+
+::: {.callout-note}
+This page is the canonical V1 method for the workbench. It defines how a source
+may become a corpus record, how a sentence may become an annotation, and how an
+annotation may support a case-level or cross-case claim.
+:::
+
+## Research Design
+
+This project assesses the degree of evidentiary support for Richard A.
+Koenigsberg's Law of Sacrifice through case-centered corpus analysis. The
+working question is how recurring metaphor systems in leader-centered political
+corpora, when compared with historically documented practices of mobilization,
+killing, dying, purification, and enemy destruction, support, complicate, or
+limit Koenigsberg's Law, its body-politic corollary, and the construction of
+enemies as death.
+
+V1 uses a balanced-core plus extended-corpus design.
+
+The balanced core is the basis for cross-case comparison. Each case should move
+toward a comparable core of high-priority documents that covers major phases,
+registers, and rhetorical settings. The initial target is 25,000-50,000 words
+per case, revised after source discovery and rights review.
+
+The extended corpus preserves additional material that is analytically useful
+but not balanced across cases. Extended materials may support case-level close
+reading, source discovery, and hypothesis generation, but cross-case frequency
+claims should identify whether they use the balanced core or the extended
+corpus.
+
+The cases are leader-centered because the project is studying how political
+symbols, sacred objects, enemies as death, and sacrificial obligations are
+organized in public and semi-public language. This does not mean that leaders
+are treated as isolated causes of war or genocide. It means their corpora
+provide an auditable entry point into the symbolic systems through which
+violence was authorized, interpreted, and made morally necessary.
+
+V1 can support claims about textual patterns, metaphor clusters, registers,
+diachronic shifts, absences, historical alignment, and competing
+interpretations. V1 cannot by itself diagnose historical actors, infer private
+mental states, prove monocausal claims about historical violence, or establish
+Koenigsberg's Law as a final explanation.
+
+## Corpus Construction
+
+Corpus construction begins with candidate sources, not with raw text ingestion.
+A candidate becomes an approved corpus record only after it has sufficient
+metadata, a rights review, and an explicit inclusion rationale.
+
+Minimum metadata for an approved document includes:
+
+- stable `document_id`;
+- title and short title;
+- date and date precision;
+- register, genre, phase, and authorship fields;
+- source URL or bibliographic citation;
+- rights status and storage decision;
+- expected raw-text path;
+- verification expectations such as minimum word count and anchor phrases when
+  feasible;
+- analytical priority;
+- risk flags and notes.
+
+Sources are prioritized by relevance, provenance, register value, and rights
+clarity. Public-domain and open-access sources are preferred. Translations are
+permitted when necessary, but translation risk must be recorded and later tested
+through sensitivity checks where feasible.
+
+The rights gate is mandatory. No text should be copied into
+`cases/<case>/corpus/raw/` until the rights policy permits committed storage,
+gitignored local storage, metadata-only reference, or an explicit unavailable
+status. Missing or inaccessible texts should be documented rather than silently
+omitted.
+
+Acquisition is now a controlled local workflow rather than an ad hoc copy step.
+The project uses `scripts/acquire-sources.py` to report source readiness,
+`scripts/fetch-corpus.py` for supported direct-fetch sources, source-specific
+download skills for browser-rendered or human-assisted sources, and
+`scripts/verify-corpus.py` as the required post-acquisition integrity gate.
+
+Register balance matters because metaphor frequency is register-sensitive.
+Formal speeches, legal texts, military orders, manifestos, letters, memoirs,
+and ceremonial addresses do not make identical rhetorical demands. Frequency
+claims should therefore identify the register mix behind the claim and, when
+possible, report register-controlled versions.
+
+Phase coverage matters because sacrificial language may develop under pressure.
+Each case should identify relevant historical phases before final corpus
+selection, then track whether the corpus supports diachronic analysis or only
+case-level close reading.
+
+## Annotation Sequence
+
+Annotation proceeds in four layers. Each layer should preserve sentence IDs,
+source spans, confidence, and uncertainty notes.
+
+First, identify metaphor-related lexical units using MIPVU. The annotator works
+from source-language lexical-unit worklists in
+`cases/<case>/corpus/mipvu/`. Every word-like lexical unit receives a decision.
+Detailed contextual meaning, basic meaning, dictionary/source citation,
+contrast explanation, comparison basis, confidence, and review notes are
+mandatory for metaphor-related or uncertain decisions. German and French are
+annotated in the source language, with English glosses used only as analytical
+aids.
+
+Second, identify the CMT evidence from MIPVU-positive or uncertain lexical
+units. The annotator records the linguistic span, MIPVU IDs, source domain,
+target domain, mappings, entailments, linguistic form, and whether the metaphor
+is conventional, active, novel, extended, or co-activated with another cluster.
+
+Third, add Koenigsbergian interpretation. This layer may classify fantasy type,
+magical object, violence logic, guilt distribution, obligatory frame,
+sacrificial economy, psychic defense, and exit condition. These fields interpret
+the metaphor pattern; they do not license diagnosis or claims about private
+mental states.
+
+Fourth, record absence and suppression. Absence claims require an explicit
+search scope. A sentence, document, register, phase, or case may support an
+absence claim only when the analyst can state what was searched, what would have
+counted as presence, and why the absence is analytically meaningful rather than
+merely missing data.
+
+When evidence is ambiguous, the annotation should preserve the ambiguity rather
+than force a cluster assignment. Low-confidence or contested annotations remain
+usable for exploratory review, but should be filtered out of high-confidence
+aggregate claims unless explicitly discussed.
+
+## Cluster Method
+
+Starter clusters are hypotheses, not findings. They provide a controlled
+vocabulary for first-pass annotation and cross-case comparison, but they must be
+revised in response to corpus evidence.
+
+A cluster may be retained when repeated annotations show stable source domains,
+target domains, entailments, and political-psychological work. A cluster may be
+merged when two labels repeatedly capture the same mapping. A cluster may be
+split when a single label hides distinct source domains, violence logics, or
+register effects. A cluster may be rejected when it does not appear, appears
+only as a weak artifact of the prompt, or fails rival-explanation review.
+
+Case-specific clusters remain case-local until cross-case mapping justifies a
+shared category. Shared clusters should preserve both similarity and difference:
+a body-politic cluster in one case may perform healing, purifying, sacrificing,
+or exterminating work in another. The mapping should not flatten those
+differences into a generic label.
+
+Cluster changes should be reflected in case configuration, concordance outputs,
+analysis artifacts, and the relevant methodology or status notes.
+
+## Analysis Method
+
+The pipeline produces rebuildable case artifacts:
+
+`manifest -> acquisition/verification -> raw -> text -> segmented JSON -> MIPVU JSON -> annotated JSON -> concordance -> analysis`
+
+The concordance is the main evidence index. It records MIPVU lexical-unit
+denominators and flattens interpretive annotations across a case, indexing them
+by document, register, cluster, fantasy type, violence logic, absence flag,
+high-confidence status, and suppression status.
+
+Case analysis recomputes aggregate distributions from the concordance while
+preserving manually written interpretive notes. Aggregate claims should identify
+their denominator, corpus scope, confidence threshold, and whether they are
+balanced-core or extended-corpus claims.
+
+Confidence thresholds should be used conservatively. High-confidence claims
+should generally rely on annotations with strong textual evidence and limited
+ambiguity. Exploratory claims may use broader sets, but must be labeled as
+exploratory.
+
+Diachronic analysis should be attempted only when date coverage supports it.
+Register analysis should be attempted whenever registers vary enough to affect
+metaphor density or interpretive weight. Absence analysis should distinguish
+between a local nonappearance, a register effect, a source limitation, and a
+structurally meaningful suppression.
+
+Cross-case synthesis should proceed from case outputs into `cases/x-case/`, not
+from direct impressionistic comparison. Shared claims should cite the case-level
+concordance, analysis, validation, or synthesis artifacts that support them.
+
+## Claim Discipline
+
+Every public claim should be classified by evidentiary status.
+
+- Evidence: directly observable source text, metadata, annotation, or pipeline
+  output.
+- Interpretation: an argued reading of evidence using CMT, Koenigsbergian
+  theory, corpus analysis, or close reading.
+- Inference: a cautious claim that follows from multiple pieces of evidence but
+  is not directly observed.
+- Speculation: a possibility worth recording but not yet supported enough to
+  function as a finding.
+- Open question: a live uncertainty that requires more sources, annotation,
+  validation, or theoretical work.
+
+The project should prefer qualified, auditable claims over dramatic certainty.
+Claims about war, genocide, sacrifice, sacred objects, body-politic fantasies,
+and psychological mechanisms should remain proportional to the corpus evidence
+and should preserve rival explanations where they remain plausible.

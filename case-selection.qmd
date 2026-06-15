@@ -1,0 +1,43 @@
+---
+title: "Case Selection"
+---
+
+V1 uses leader-centered corpora to compare how sacred objects, enemies,
+obligation, and sacrifice are organized in political language. The cases are not
+treated as identical historical events. They are selected because each can test
+some part of the Law of Sacrifice across war, revolution, empire, civil war, and
+genocide.
+
+The initial pilot cases for the primary research question are defined here
+rather than in the research-question document so that the question can remain
+stable as the workbench expands.
+
+## Selection Criteria
+
+Cases should satisfy most of these criteria:
+
+- enough public-domain or open-access material for a balanced core;
+- clear connection between political violence and sacred collective objects;
+- enough phase coverage to test diachronic development;
+- enough register variation to test rhetorical setting;
+- enough historical difference to make cross-case comparison meaningful;
+- source provenance clear enough for citation and audit.
+
+## V1 Cases
+
+| Case | ID | V1 corpus model | Rationale |
+|---|---:|---|---|
+| American Revolution | `am-rev` | Washington-anchored collective exception | Tests sacrifice, founding, sacred liberty, and collective exception in revolutionary war language. |
+| Napoleon / Napoleonic Wars | `napoleon` | Napoleon-only individual leader corpus | Tests imperial glory, leader-body extension, army/nation fusion, and translation-sensitive sacrifice language. |
+| Lincoln / American Civil War | `lincoln` | newly selected Lincoln corpus | Tests body-politic healing, covenant, experiment, providence, war sacrifice, and systematic absence. |
+| Hitler / Nazi Germany | `hitler` | Hitler-centered corpus with limited Goebbels/Goering support if needed | Tests the war/genocide boundary, purification fantasy, enemy as death, and exterminatory body-politic logic. |
+| Cross-case synthesis | `x-case` | synthetic synthesis workspace | Not a historical case; receives case-level outputs for comparison, validation, and synthesis. |
+
+## Limits
+
+Case selection does not imply moral equivalence, identical causation, or a
+single psychological mechanism. Cross-case comparison should identify both
+shared symbolic operations and historically specific differences.
+
+The case set remains provisional until source discovery confirms that each case
+can support a balanced core and the necessary validation checks.

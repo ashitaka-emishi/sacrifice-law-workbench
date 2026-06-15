@@ -1,0 +1,1344 @@
+{
+  "case_id": "napoleon",
+  "document_id": "napoleon-bulletin-1812-10-23-russia-advance",
+  "meta": {
+    "document_id": "napoleon-bulletin-1812-10-23-russia-advance",
+    "title": "26th Bulletin of the Grande Armée (Borovsk / Moscow occupation)",
+    "short_title": "Bulletin 26: Russia advance",
+    "date": "1812-10-23",
+    "date_precision": "day",
+    "register": "military-bulletin-proclamation",
+    "authorship": "Napoleon Bonaparte / imperial military voice",
+    "source_url": "https://gallica.bnf.fr/ark:/12148/bpt6k63342473",
+    "source_citation": "Correspondance de Napoléon Ier, Tome 24, no. 19304. Paris: Plon, 1858–1870. Via Gallica / BnF.",
+    "rights_status": "public-domain",
+    "expected_raw_path": "corpus/raw/napoleon-src-02-grande-armee-bulletins/napoleon-bulletin-1812-10-23-russia-advance.txt",
+    "analytical_priority": "primary",
+    "phase": "peak-empire",
+    "campaign": "Russia 1812",
+    "bulletin_number": 26,
+    "bulletin_series": "Grande Armée 1812",
+    "correspondance_volume": 24,
+    "extraction_script": "scripts/extract-napoleon-bulletins.py",
+    "notes": "Post-Moskova movements, French occupation of Moscow. Sacrificial economy under strain: victory proclaimed but retreat imminent.",
+    "case_id": "napoleon",
+    "raw_path": "corpus/raw/napoleon-src-02-grande-armee-bulletins/napoleon-bulletin-1812-10-23-russia-advance.txt",
+    "pipeline_log": [
+      {
+        "stage": "normalize-texts",
+        "script": "scripts/normalize-texts.py",
+        "generated_at": "2026-06-14T15:00:09"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "section_id": "napoleon-bulletin-1812-10-23-russia-advance_s01",
+      "section_label": "body",
+      "section_ordinal": 1,
+      "paragraphs": [
+        {
+          "paragraph_id": "napoleon-bulletin-1812-10-23-russia-advance_s01_p01",
+          "paragraph_ordinal": 1,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1812-10-23-russia-advance_s01_p01_s01",
+              "sentence_ordinal": 1,
+              "text": "1930ft. - 26e BULLETIN DE LA GRANDE ARMÉE2.",
+              "word_offset_start": 0,
+              "word_offset_end": 8,
+              "char_offset_start": 0,
+              "char_offset_end": 43,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1812-10-23-russia-advance_s01_p02",
+          "paragraph_ordinal": 2,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1812-10-23-russia-advance_s01_p02_s01",
+              "sentence_ordinal": 1,
+              "text": "Borovsk, a 3 octobre 1812.",
+              "word_offset_start": 8,
+              "word_offset_end": 13,
+              "char_offset_start": 45,
+              "char_offset_end": 71,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1812-10-23-russia-advance_s01_p03",
+          "paragraph_ordinal": 3,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1812-10-23-russia-advance_s01_p03_s01",
+              "sentence_ordinal": 1,
+              "text": "Après la bataille de la Moskova, le général Koutouzof prit position à une lieue en avant de Moscou; il avait établi plusieurs redoutes pour défendre la ville; il s'y tint, espérant sans doute en imposer jusqu'au dernier moment.",
+              "word_offset_start": 13,
+              "word_offset_end": 51,
+              "char_offset_start": 73,
+              "char_offset_end": 300,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1812-10-23-russia-advance_s01_p03_s02",
+              "sentence_ordinal": 2,
+              "text": "Le 14 septembre, ayant vu l'armée française marcher à lui, il prit son parti et évacua la position en passant par Moscou.",
+              "word_offset_start": 51,
+              "word_offset_end": 73,
+              "char_offset_start": 301,
+              "char_offset_end": 422,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1812-10-23-russia-advance_s01_p03_s03",
+              "sentence_ordinal": 3,
+              "text": "Il traversa cette ville avec son quartier général, à neuf heures du matin.",
+              "word_offset_start": 73,
+              "word_offset_end": 86,
+              "char_offset_start": 423,
+              "char_offset_end": 497,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1812-10-23-russia-advance_s01_p04",
+          "paragraph_ordinal": 4,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1812-10-23-russia-advance_s01_p04_s01",
+              "sentence_ordinal": 1,
+              "text": "Notre avant-garde la traversa à une heure après midi.",
+              "word_offset_start": 86,
+              "word_offset_end": 95,
+              "char_offset_start": 499,
+              "char_offset_end": 552,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1812-10-23-russia-advance_s01_p05",
+          "paragraph_ordinal": 5,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1812-10-23-russia-advance_s01_p05_s01",
+              "sentence_ordinal": 1,
+              "text": "Le commandant de l'arrière-garde russe fit demander qu'on le laissât défiler dans la ville sans tirer : on y consentit; mais, au Kremlin, la canaille, armée par le gouverneur, fit résistance et fut sur-le-champ dispersée.",
+              "word_offset_start": 95,
+              "word_offset_end": 130,
+              "char_offset_start": 554,
+              "char_offset_end": 775,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1812-10-23-russia-advance_s01_p05_s02",
+              "sentence_ordinal": 2,
+              "text": "10,000 soldats russes furent le lendemain et les jours suivants ramassés dans la ville , où ils s'étaient éparpillés par l'appât du pillage ; c'étaient d'anciens et bons soldats : ils ont augmenté le nombre des prisonniers.",
+              "word_offset_start": 130,
+              "word_offset_end": 167,
+              "char_offset_start": 776,
+              "char_offset_end": 999,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1812-10-23-russia-advance_s01_p06",
+          "paragraph_ordinal": 6,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1812-10-23-russia-advance_s01_p06_s01",
+              "sentence_ordinal": 1,
+              "text": "1 Sa Majesté, ayant dicté celte lettre en se mettant au lit, a ordonné qu'elle fût envoyée sans sa signature.",
+              "word_offset_start": 167,
+              "word_offset_end": 187,
+              "char_offset_start": 1001,
+              "char_offset_end": 1110,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1812-10-23-russia-advance_s01_p06_s02",
+              "sentence_ordinal": 2,
+              "text": "Signé Baron FAIN. (Note de la copie.)",
+              "word_offset_start": 187,
+              "word_offset_end": 194,
+              "char_offset_start": 1111,
+              "char_offset_end": 1148,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1812-10-23-russia-advance_s01_p07",
+          "paragraph_ordinal": 7,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1812-10-23-russia-advance_s01_p07_s01",
+              "sentence_ordinal": 1,
+              "text": "2 Voir, sur les Bulletins de la Grande Armée, une note insérée dans le tome XXIII, p.",
+              "word_offset_start": 194,
+              "word_offset_end": 211,
+              "char_offset_start": 1150,
+              "char_offset_end": 1235,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1812-10-23-russia-advance_s01_p07_s02",
+              "sentence_ordinal": 2,
+              "text": "609.",
+              "word_offset_start": 211,
+              "word_offset_end": 212,
+              "char_offset_start": 1236,
+              "char_offset_end": 1240,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1812-10-23-russia-advance_s01_p08",
+          "paragraph_ordinal": 8,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1812-10-23-russia-advance_s01_p08_s01",
+              "sentence_ordinal": 1,
+              "text": "de la Correspondance.",
+              "word_offset_start": 212,
+              "word_offset_end": 215,
+              "char_offset_start": 1242,
+              "char_offset_end": 1263,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1812-10-23-russia-advance_s01_p09",
+          "paragraph_ordinal": 9,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1812-10-23-russia-advance_s01_p09_s01",
+              "sentence_ordinal": 1,
+              "text": "Les i 5, 16 et 17 septembre, le général d'arrière-garde russe dit que l'on ne tirerait plus et que'l'on ne devait plus se battre, et parla beaucoup de paix.",
+              "word_offset_start": 215,
+              "word_offset_end": 244,
+              "char_offset_start": 1265,
+              "char_offset_end": 1421,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1812-10-23-russia-advance_s01_p09_s02",
+              "sentence_ordinal": 2,
+              "text": "Il se porta sur la route de Kolomna, et notre avant-garde se plaça à cinq lieues de Moscou, au pont de la Moskova.",
+              "word_offset_start": 244,
+              "word_offset_end": 267,
+              "char_offset_start": 1422,
+              "char_offset_end": 1536,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1812-10-23-russia-advance_s01_p09_s03",
+              "sentence_ordinal": 3,
+              "text": "Pendant ce temps, l'armée russe quitta la route de Kolomna et prit celle de Kalouga par la traverse.",
+              "word_offset_start": 267,
+              "word_offset_end": 285,
+              "char_offset_start": 1537,
+              "char_offset_end": 1637,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1812-10-23-russia-advance_s01_p09_s04",
+              "sentence_ordinal": 4,
+              "text": "Elle Et ainsi la moitié du tour de la ville, à six lieues de distance.",
+              "word_offset_start": 285,
+              "word_offset_end": 300,
+              "char_offset_start": 1638,
+              "char_offset_end": 1708,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1812-10-23-russia-advance_s01_p09_s05",
+              "sentence_ordinal": 5,
+              "text": "Le vent y portait des tourbillons de flammes et de fumée.",
+              "word_offset_start": 300,
+              "word_offset_end": 311,
+              "char_offset_start": 1709,
+              "char_offset_end": 1766,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1812-10-23-russia-advance_s01_p09_s06",
+              "sentence_ordinal": 6,
+              "text": "Cette marche, au dire des officiers russes, était sombre et religieuse.",
+              "word_offset_start": 311,
+              "word_offset_end": 322,
+              "char_offset_start": 1767,
+              "char_offset_end": 1838,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1812-10-23-russia-advance_s01_p09_s07",
+              "sentence_ordinal": 7,
+              "text": "La consternation était dans les âmes : on assure qu'officiers et soldats étaient si pénétrés, que le plus grand silence régnait dans toute l'armée, comme dans la prière.",
+              "word_offset_start": 322,
+              "word_offset_end": 350,
+              "char_offset_start": 1839,
+              "char_offset_end": 2008,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1812-10-23-russia-advance_s01_p10",
+          "paragraph_ordinal": 10,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1812-10-23-russia-advance_s01_p10_s01",
+              "sentence_ordinal": 1,
+              "text": "On s'aperçut bientôt de la marche de l'ennemi.",
+              "word_offset_start": 350,
+              "word_offset_end": 358,
+              "char_offset_start": 2010,
+              "char_offset_end": 2056,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1812-10-23-russia-advance_s01_p11",
+          "paragraph_ordinal": 11,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1812-10-23-russia-advance_s01_p11_s01",
+              "sentence_ordinal": 1,
+              "text": "Le duc d'Istrie se porta à Desna avec un corps d'observation.",
+              "word_offset_start": 358,
+              "word_offset_end": 369,
+              "char_offset_start": 2058,
+              "char_offset_end": 2119,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1812-10-23-russia-advance_s01_p12",
+          "paragraph_ordinal": 12,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1812-10-23-russia-advance_s01_p12_s01",
+              "sentence_ordinal": 1,
+              "text": "Le roi de Naples suivit l'ennemi d'abord sur Podolsk, et ensuite se porta sur ses derrières, menaçant de lui couper la route de Kalouga.",
+              "word_offset_start": 369,
+              "word_offset_end": 393,
+              "char_offset_start": 2121,
+              "char_offset_end": 2257,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1812-10-23-russia-advance_s01_p12_s02",
+              "sentence_ordinal": 2,
+              "text": "Quoique le roi n'eût avec lui que l'avant-garde, l'ennemi ne se donna que le temps d'évacuer les retranchements qu'il avait faits, et se porta six lieues en arrière, après un combat glorieux pour l'avant-garde.",
+              "word_offset_start": 393,
+              "word_offset_end": 427,
+              "char_offset_start": 2258,
+              "char_offset_end": 2468,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1812-10-23-russia-advance_s01_p12_s03",
+              "sentence_ordinal": 3,
+              "text": "Le prince Poniatowski prit position derrière la Nara, au confluent de l'Istia.",
+              "word_offset_start": 427,
+              "word_offset_end": 439,
+              "char_offset_start": 2469,
+              "char_offset_end": 2547,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1812-10-23-russia-advance_s01_p13",
+          "paragraph_ordinal": 13,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1812-10-23-russia-advance_s01_p13_s01",
+              "sentence_ordinal": 1,
+              "text": "Le général Lauriston ayant dû aller au quartier général russe le 5 oc-",
+              "word_offset_start": 439,
+              "word_offset_end": 452,
+              "char_offset_start": 2549,
+              "char_offset_end": 2619,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1812-10-23-russia-advance_s01_p14",
+          "paragraph_ordinal": 14,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1812-10-23-russia-advance_s01_p14_s01",
+              "sentence_ordinal": 1,
+              "text": "tobre, les communications se rétablirent entre nos avant-postes et ceux de l'ennemi, qui convinrent entre eux de ne pas s'attaquer sans se prévenir trois heures d'avance; mais le 18, à sept heures du matin, 4,000 Cosaques sortirent d'un bois situé à demi-portée de canon du général Sebastiani formant l'extrême gauche de l'avant-garde, et qui n'avait été ni occupé ni éclairé ce jour-là.",
+              "word_offset_start": 452,
+              "word_offset_end": 514,
+              "char_offset_start": 2621,
+              "char_offset_end": 3008,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1812-10-23-russia-advance_s01_p14_s02",
+              "sentence_ordinal": 2,
+              "text": "Ils firent un hourra sur cette cavalerie légère dans le temps qu'elle était à pied à la distribution de farine.",
+              "word_offset_start": 514,
+              "word_offset_end": 534,
+              "char_offset_start": 3009,
+              "char_offset_end": 3120,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1812-10-23-russia-advance_s01_p15",
+          "paragraph_ordinal": 15,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1812-10-23-russia-advance_s01_p15_s01",
+              "sentence_ordinal": 1,
+              "text": "Cette cavalerie légère ne put se former qu'à un quart de lieue plus loin.",
+              "word_offset_start": 534,
+              "word_offset_end": 548,
+              "char_offset_start": 3122,
+              "char_offset_end": 3195,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1812-10-23-russia-advance_s01_p16",
+          "paragraph_ordinal": 16,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1812-10-23-russia-advance_s01_p16_s01",
+              "sentence_ordinal": 1,
+              "text": "Cependant, l'ennemi pénétrant par cette trouée, un parc de douze pièces de canon et de vingt caissons du général Sebastiani fut pris dans un ravin, avec des voitures de bagages au nombre de 30, en tout 65 voitures, au lieu de 1 00 que l'on avait portées dans le dernier bulletin.",
+              "word_offset_start": 548,
+              "word_offset_end": 599,
+              "char_offset_start": 3197,
+              "char_offset_end": 3476,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1812-10-23-russia-advance_s01_p17",
+          "paragraph_ordinal": 17,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1812-10-23-russia-advance_s01_p17_s01",
+              "sentence_ordinal": 1,
+              "text": "Dans le même temps, la cavalerie régulière de l'ennemi et deux co-",
+              "word_offset_start": 599,
+              "word_offset_end": 611,
+              "char_offset_start": 3478,
+              "char_offset_end": 3544,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1812-10-23-russia-advance_s01_p18",
+          "paragraph_ordinal": 18,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1812-10-23-russia-advance_s01_p18_s01",
+              "sentence_ordinal": 1,
+              "text": "lonnes d'infanterie pénétraient dans la trouée; elles espéraient gagner le bois et le défilé de Yoronovo avant nous.",
+              "word_offset_start": 611,
+              "word_offset_end": 629,
+              "char_offset_start": 3546,
+              "char_offset_end": 3662,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1812-10-23-russia-advance_s01_p18_s02",
+              "sentence_ordinal": 2,
+              "text": "Mais le roi de Naples était là; il était à cheval, il marcha et enfonça la cavalerie de ligne russe dans dix ou douze charges différentes.",
+              "word_offset_start": 629,
+              "word_offset_end": 655,
+              "char_offset_start": 3663,
+              "char_offset_end": 3801,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1812-10-23-russia-advance_s01_p18_s03",
+              "sentence_ordinal": 3,
+              "text": "Il aperçut la division de six bataillons ennemis commandée par le lieutenant général Mûller, la chargea et l'enfonça.",
+              "word_offset_start": 655,
+              "word_offset_end": 673,
+              "char_offset_start": 3802,
+              "char_offset_end": 3919,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1812-10-23-russia-advance_s01_p18_s04",
+              "sentence_ordinal": 4,
+              "text": "Cette division a été massacrée.",
+              "word_offset_start": 673,
+              "word_offset_end": 678,
+              "char_offset_start": 3920,
+              "char_offset_end": 3951,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1812-10-23-russia-advance_s01_p18_s05",
+              "sentence_ordinal": 5,
+              "text": "Le lieutenant général Muller a été tué.",
+              "word_offset_start": 678,
+              "word_offset_end": 685,
+              "char_offset_start": 3952,
+              "char_offset_end": 3991,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1812-10-23-russia-advance_s01_p19",
+          "paragraph_ordinal": 19,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1812-10-23-russia-advance_s01_p19_s01",
+              "sentence_ordinal": 1,
+              "text": "Pendant que ceci se passait, le prince Poniatowski repoussait une division russe avec succès.",
+              "word_offset_start": 685,
+              "word_offset_end": 699,
+              "char_offset_start": 3993,
+              "char_offset_end": 4086,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1812-10-23-russia-advance_s01_p19_s02",
+              "sentence_ordinal": 2,
+              "text": "Le général polonais Fischer a été tué d'un boulet.",
+              "word_offset_start": 699,
+              "word_offset_end": 708,
+              "char_offset_start": 4087,
+              "char_offset_end": 4137,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1812-10-23-russia-advance_s01_p20",
+          "paragraph_ordinal": 20,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1812-10-23-russia-advance_s01_p20_s01",
+              "sentence_ordinal": 1,
+              "text": "L'ennemi a non-seulement éprouvé une perte supérieure à la nôtre, mais il a la honte d'avoir violé une trêve d'avant-garde, ce qu'on ne vit presque jamais.",
+              "word_offset_start": 708,
+              "word_offset_end": 734,
+              "char_offset_start": 4139,
+              "char_offset_end": 4294,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1812-10-23-russia-advance_s01_p20_s02",
+              "sentence_ordinal": 2,
+              "text": "Notre perte se monte à 800 hommes tués, blessés ou pris; celle de l'ennemi est double.",
+              "word_offset_start": 734,
+              "word_offset_end": 750,
+              "char_offset_start": 4295,
+              "char_offset_end": 4381,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1812-10-23-russia-advance_s01_p20_s03",
+              "sentence_ordinal": 3,
+              "text": "Plusieurs officiers russes ont été pris; deux de leurs généraux ont été tués.",
+              "word_offset_start": 750,
+              "word_offset_end": 763,
+              "char_offset_start": 4382,
+              "char_offset_end": 4459,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1812-10-23-russia-advance_s01_p20_s04",
+              "sentence_ordinal": 4,
+              "text": "Le roi de Naples, dans cette journée, a montré ce que peuvent la présence d'esprit, la valeur et l'habitude de la guerre.",
+              "word_offset_start": 763,
+              "word_offset_end": 785,
+              "char_offset_start": 4460,
+              "char_offset_end": 4581,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1812-10-23-russia-advance_s01_p20_s05",
+              "sentence_ordinal": 5,
+              "text": "En général, dans toute la campagne, ce prince s'est montré digne du rang suprême où il est.",
+              "word_offset_start": 785,
+              "word_offset_end": 802,
+              "char_offset_start": 4582,
+              "char_offset_end": 4673,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1812-10-23-russia-advance_s01_p20_s06",
+              "sentence_ordinal": 6,
+              "text": "Cependant l'Empereur, voulant obliger l'ennemi à évacuer son camp retranché et le rejeter à plusieurs marches en arrière, pour pouvoir tranquillement se porter sur les pays choisis pour ses quartiers d'hiver, et nécessaires à occuper actuellement pour l'exécution de ses projets ultérieurs, avait ordonné, le 1 7, par le général Lauriston à son avant-garde de se placer derrière le défilé de Vinkovo, afin que ses mouvements ne pussent pas être aperçus.",
+              "word_offset_start": 802,
+              "word_offset_end": 873,
+              "char_offset_start": 4674,
+              "char_offset_end": 5127,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1812-10-23-russia-advance_s01_p20_s07",
+              "sentence_ordinal": 7,
+              "text": "Depuis que Moscou avait cessé d'exister, l'Empereur avait projeté ou d'abandonner cet amas de décombres, ou d'occuper seulement le Kremlin avec 3,ooo hommes; mais le Kremlin, après quinze jours de travaux, ne fut pas jugé assez fort pour être abandonné pendant vingt ou trente jours à ses propres forces.",
+              "word_offset_start": 873,
+              "word_offset_end": 922,
+              "char_offset_start": 5128,
+              "char_offset_end": 5432,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1812-10-23-russia-advance_s01_p20_s08",
+              "sentence_ordinal": 8,
+              "text": "Il aurait affaibli et gêné l'armée dans ses mouvements sans donner un grand avantage.",
+              "word_offset_start": 922,
+              "word_offset_end": 936,
+              "char_offset_start": 5433,
+              "char_offset_end": 5518,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1812-10-23-russia-advance_s01_p20_s09",
+              "sentence_ordinal": 9,
+              "text": "Si l'on eût voulu garder Moscou contre les mendiants et les pillards, il fallait 20,000 hommes.",
+              "word_offset_start": 936,
+              "word_offset_end": 952,
+              "char_offset_start": 5519,
+              "char_offset_end": 5614,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1812-10-23-russia-advance_s01_p20_s10",
+              "sentence_ordinal": 10,
+              "text": "Moscou est aujourd\"hui un vrai cloaque malsain et impur.",
+              "word_offset_start": 952,
+              "word_offset_end": 961,
+              "char_offset_start": 5615,
+              "char_offset_end": 5671,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1812-10-23-russia-advance_s01_p20_s11",
+              "sentence_ordinal": 11,
+              "text": "Une population de 200,000 âmes errant dans les bois voisins,",
+              "word_offset_start": 961,
+              "word_offset_end": 971,
+              "char_offset_start": 5672,
+              "char_offset_end": 5732,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1812-10-23-russia-advance_s01_p21",
+          "paragraph_ordinal": 21,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1812-10-23-russia-advance_s01_p21_s01",
+              "sentence_ordinal": 1,
+              "text": "mourant de faim, vient sur ses décombres chercher quelques débris et quelques légumes des jardins pour vivre.",
+              "word_offset_start": 971,
+              "word_offset_end": 988,
+              "char_offset_start": 5734,
+              "char_offset_end": 5843,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1812-10-23-russia-advance_s01_p21_s02",
+              "sentence_ordinal": 2,
+              "text": "Il parut inutile de compromettre quoi que ce soit pour un objet qui n'était d'aucune importance militaire, et qui est aujourd'hui devenu sans importance politique.",
+              "word_offset_start": 988,
+              "word_offset_end": 1013,
+              "char_offset_start": 5844,
+              "char_offset_end": 6007,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1812-10-23-russia-advance_s01_p22",
+          "paragraph_ordinal": 22,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1812-10-23-russia-advance_s01_p22_s01",
+              "sentence_ordinal": 1,
+              "text": "Tous les magasins qui étaient dans la ville ayant été découverts avec soin, les autres évacués, l'Empereur fit miner le Kremlin.",
+              "word_offset_start": 1013,
+              "word_offset_end": 1034,
+              "char_offset_start": 6009,
+              "char_offset_end": 6137,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1812-10-23-russia-advance_s01_p22_s02",
+              "sentence_ordinal": 2,
+              "text": "Le duc de Trévise le fit sauter le 28, à deux heures du matin.",
+              "word_offset_start": 1034,
+              "word_offset_end": 1048,
+              "char_offset_start": 6138,
+              "char_offset_end": 6200,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1812-10-23-russia-advance_s01_p22_s03",
+              "sentence_ordinal": 3,
+              "text": "L'arsenal, les casernes, les magasins, tout a été détruit.",
+              "word_offset_start": 1048,
+              "word_offset_end": 1057,
+              "char_offset_start": 6201,
+              "char_offset_end": 6259,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1812-10-23-russia-advance_s01_p22_s04",
+              "sentence_ordinal": 4,
+              "text": "Cette ancienne citadelle, qui date de la fondation de la monarchie, ce premier palais des czars, ont été!",
+              "word_offset_start": 1057,
+              "word_offset_end": 1075,
+              "char_offset_start": 6260,
+              "char_offset_end": 6365,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1812-10-23-russia-advance_s01_p23",
+          "paragraph_ordinal": 23,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1812-10-23-russia-advance_s01_p23_s01",
+              "sentence_ordinal": 1,
+              "text": "Le duc de Trévise s'est mis en marche pour Vereya.",
+              "word_offset_start": 1075,
+              "word_offset_end": 1085,
+              "char_offset_start": 6367,
+              "char_offset_end": 6417,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1812-10-23-russia-advance_s01_p23_s02",
+              "sentence_ordinal": 2,
+              "text": "L'aide de camp de l'empereur de Russie, Winzingerode, ayant voulu percer, le 22, à la tête de 500 Cosaques, fut repoussé et fait prisonnier avec un jeune officier russe, nommé Nariskine.",
+              "word_offset_start": 1085,
+              "word_offset_end": 1116,
+              "char_offset_start": 6418,
+              "char_offset_end": 6604,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1812-10-23-russia-advance_s01_p24",
+          "paragraph_ordinal": 24,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1812-10-23-russia-advance_s01_p24_s01",
+              "sentence_ordinal": 1,
+              "text": "Le quartier général fut porté le 19 au château de Troïtskoïé; il y séjourna le 20.",
+              "word_offset_start": 1116,
+              "word_offset_end": 1132,
+              "char_offset_start": 6606,
+              "char_offset_end": 6688,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1812-10-23-russia-advance_s01_p24_s02",
+              "sentence_ordinal": 2,
+              "text": "Le 21 il était à Ignatovo; le 22 à Fominskiya, toute l'armée ayant fait deux marches de flanc, et le 23 à Borovsk.",
+              "word_offset_start": 1132,
+              "word_offset_end": 1155,
+              "char_offset_start": 6689,
+              "char_offset_end": 6803,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1812-10-23-russia-advance_s01_p25",
+          "paragraph_ordinal": 25,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1812-10-23-russia-advance_s01_p25_s01",
+              "sentence_ordinal": 1,
+              "text": "L'Em pereur compte se mettre en marche le 2k pour gagner la Dvina, et prendre une position qui le rapproche de quatre-vingts lieues de Pétersbourg et de Vilna, double avantage, c'est-à-dire plus près de vingt marches des moyens et du but.",
+              "word_offset_start": 1155,
+              "word_offset_end": 1196,
+              "char_offset_start": 6805,
+              "char_offset_end": 7043,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1812-10-23-russia-advance_s01_p26",
+          "paragraph_ordinal": 26,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1812-10-23-russia-advance_s01_p26_s01",
+              "sentence_ordinal": 1,
+              "text": "De 4,000 maisons en pierre qui existaient à Moscou, il n'en restait plus que 200; on a dit qu'il en restait le quart, parce qu'on y a compris 800 églises; encore une partie en est endommagée.",
+              "word_offset_start": 1196,
+              "word_offset_end": 1232,
+              "char_offset_start": 7045,
+              "char_offset_end": 7236,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1812-10-23-russia-advance_s01_p26_s02",
+              "sentence_ordinal": 2,
+              "text": "De 8,000 maisons en bois, il en restait à peu près 500.",
+              "word_offset_start": 1232,
+              "word_offset_end": 1244,
+              "char_offset_start": 7237,
+              "char_offset_end": 7292,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1812-10-23-russia-advance_s01_p26_s03",
+              "sentence_ordinal": 3,
+              "text": "On proposa à l'Empereur de faire brûler le reste de la ville pour servir les Russes comme ils le veulent, et d'étendre cette mesure autour de Moscou; il y a 2,000 villages et autant de maisons de campagne ou de châteaux.",
+              "word_offset_start": 1244,
+              "word_offset_end": 1285,
+              "char_offset_start": 7293,
+              "char_offset_end": 7513,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1812-10-23-russia-advance_s01_p26_s04",
+              "sentence_ordinal": 4,
+              "text": "On proposa de former quatre colonnes de 2,000 hommes chacune, et de les charger d'incendier tout à vingt lieues à la ronde.",
+              "word_offset_start": 1285,
+              "word_offset_end": 1307,
+              "char_offset_start": 7514,
+              "char_offset_end": 7637,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1812-10-23-russia-advance_s01_p26_s05",
+              "sentence_ordinal": 5,
+              "text": "Cela apprendra aux Russes, disait-on, à faire la guerre en règle et non en Tartares; s'ils brûlent un village, une maison, il faut leur répondre en leur en brûlant cent.",
+              "word_offset_start": 1307,
+              "word_offset_end": 1337,
+              "char_offset_start": 7638,
+              "char_offset_end": 7807,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1812-10-23-russia-advance_s01_p27",
+          "paragraph_ordinal": 27,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1812-10-23-russia-advance_s01_p27_s01",
+              "sentence_ordinal": 1,
+              "text": "L'Empereur s'est refusé à ces mesures qui auraient tant aggravé les malheurs de cette population.",
+              "word_offset_start": 1337,
+              "word_offset_end": 1352,
+              "char_offset_start": 7809,
+              "char_offset_end": 7906,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1812-10-23-russia-advance_s01_p27_s02",
+              "sentence_ordinal": 2,
+              "text": "Sur 9,000 propriétaires dont on aurait",
+              "word_offset_start": 1352,
+              "word_offset_end": 1358,
+              "char_offset_start": 7907,
+              "char_offset_end": 7945,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1812-10-23-russia-advance_s01_p28",
+          "paragraph_ordinal": 28,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1812-10-23-russia-advance_s01_p28_s01",
+              "sentence_ordinal": 1,
+              "text": "brûlé les châteaux, 100 peut-être sont des sectateurs du Marat de la Russie; mais 8,900 sont de braves gens déjà trop victimes de l'intrigue de quelques misérables.",
+              "word_offset_start": 1358,
+              "word_offset_end": 1385,
+              "char_offset_start": 7947,
+              "char_offset_end": 8111,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1812-10-23-russia-advance_s01_p28_s02",
+              "sentence_ordinal": 2,
+              "text": "Pour punir 100 coupables, on en aurait ruiné 8,900.",
+              "word_offset_start": 1385,
+              "word_offset_end": 1394,
+              "char_offset_start": 8112,
+              "char_offset_end": 8163,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1812-10-23-russia-advance_s01_p28_s03",
+              "sentence_ordinal": 3,
+              "text": "Il faut ajouter que l'on aurait mis absolument sans ressources 200,000 pauvres serfs innocents de tout cela.",
+              "word_offset_start": 1394,
+              "word_offset_end": 1411,
+              "char_offset_start": 8164,
+              "char_offset_end": 8272,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1812-10-23-russia-advance_s01_p28_s04",
+              "sentence_ordinal": 4,
+              "text": "L'Empereur s'est donc contenté d'ordonner la destruction des citadelles et établissements militaires selon les usages de la guerre, sans rien faire perdre aux particuliers, déjà trop malheureux par les suites de cette guerre.",
+              "word_offset_start": 1411,
+              "word_offset_end": 1444,
+              "char_offset_start": 8273,
+              "char_offset_end": 8498,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1812-10-23-russia-advance_s01_p29",
+          "paragraph_ordinal": 29,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1812-10-23-russia-advance_s01_p29_s01",
+              "sentence_ordinal": 1,
+              "text": "Les habitants de la Russie ne reviennent pas du temps qu'il fait depuis vingt jours.",
+              "word_offset_start": 1444,
+              "word_offset_end": 1459,
+              "char_offset_start": 8500,
+              "char_offset_end": 8584,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1812-10-23-russia-advance_s01_p29_s02",
+              "sentence_ordinal": 2,
+              "text": "C'est le soleil et les belles journées du voyage de Fontainebleau.",
+              "word_offset_start": 1459,
+              "word_offset_end": 1470,
+              "char_offset_start": 8585,
+              "char_offset_end": 8651,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1812-10-23-russia-advance_s01_p29_s03",
+              "sentence_ordinal": 3,
+              "text": "L'armée est dans un pays extrêmement riche, et qui peut se comparer aux meilleurs de la France et de l'Allemagne.",
+              "word_offset_start": 1470,
+              "word_offset_end": 1490,
+              "char_offset_start": 8652,
+              "char_offset_end": 8765,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1812-10-23-russia-advance_s01_p30",
+          "paragraph_ordinal": 30,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1812-10-23-russia-advance_s01_p30_s01",
+              "sentence_ordinal": 1,
+              "text": "Extrait du Moniteur du 16 novembre 181a.",
+              "word_offset_start": 1490,
+              "word_offset_end": 1497,
+              "char_offset_start": 8767,
+              "char_offset_end": 8807,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1812-10-23-russia-advance_s01_p31",
+          "paragraph_ordinal": 31,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1812-10-23-russia-advance_s01_p31_s01",
+              "sentence_ordinal": 1,
+              "text": "19305.-AU PRINCE DE NEUCHÂTEL ET DE WAGRAM, MAJOR GÉNÉRAL DE LA GRANDE ARMEE, À BOROVSK.",
+              "word_offset_start": 1497,
+              "word_offset_end": 1512,
+              "char_offset_start": 8809,
+              "char_offset_end": 8897,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1812-10-23-russia-advance_s01_p32",
+          "paragraph_ordinal": 32,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1812-10-23-russia-advance_s01_p32_s01",
+              "sentence_ordinal": 1,
+              "text": "Borovsk, a h octobre 1812.",
+              "word_offset_start": 1512,
+              "word_offset_end": 1517,
+              "char_offset_start": 8899,
+              "char_offset_end": 8925,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1812-10-23-russia-advance_s01_p33",
+          "paragraph_ordinal": 33,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1812-10-23-russia-advance_s01_p33_s01",
+              "sentence_ordinal": 1,
+              "text": "Mon Cousin, écrivez au duc de Bellune en chiffre, puisqu'il ne recevra pas cette lettre avant le 26 et qu'alors il aura vu le général Nansouty.",
+              "word_offset_start": 1517,
+              "word_offset_end": 1543,
+              "char_offset_start": 8927,
+              "char_offset_end": 9070,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1812-10-23-russia-advance_s01_p33_s02",
+              "sentence_ordinal": 2,
+              "text": "Faites-lui connaître qu'étant toujours sans estafette je ne sais pas le dernier état des choses de son côté; que j'ignore si les événements l'ont forcé à quelques mouvements, mais que, dans le cas où il n'en aurait fait aucun et que la division Girard serait encore disponible, ainsi que la brigade de cavalerie légère, je désirerais qu'il se mît sur-le-champ en marche avec ses troupes pour venir à Yelnia et de là pousser sur la route de Kalouga pour se rencontrer avec l'armée, afin de faire notre jonction; s'il peut se mettre en marche le 26, il pourrait être le 3o à cinq marches de Kalouga; que j'établis ma ligne d'opération d'abord par Viazma, Youkhnof et Znamenskoïé jusqu'à ce que notre jonction soit faite avec lui; qu'alors je l'établirai par Smolensk et Yelnia; qu'en parcourant ainsi une quarantaine de lieues il faut qu'il ait soin d'organiser cette partie de la route en plaçant à chaque poste un commandant d'armes, un détachement de i oo hommes et un relais pour l'estafette; que ceci ne doit pour-",
+              "word_offset_start": 1543,
+              "word_offset_end": 1718,
+              "char_offset_start": 9071,
+              "char_offset_end": 10088,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1812-10-23-russia-advance_s01_p34",
+          "paragraph_ordinal": 34,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1812-10-23-russia-advance_s01_p34_s01",
+              "sentence_ordinal": 1,
+              "text": "tant pas influer en rien sur le parti qu'il aurait à prendre s'il survenait quelque chose d'extraordinaire.",
+              "word_offset_start": 1718,
+              "word_offset_end": 1735,
+              "char_offset_start": 10090,
+              "char_offset_end": 10197,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1812-10-23-russia-advance_s01_p35",
+          "paragraph_ordinal": 35,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1812-10-23-russia-advance_s01_p35_s01",
+              "sentence_ordinal": 1,
+              "text": "Ajoutez au duc de Bellune, en clair, que l'armée est réunie à Borovsk; que Moscou a été évacué, après avoir fait sauter le Kremlin, et que l'armée se dirige sur Kalouga; que la province de Kalouga est une des plus abondantes de la Russie, et qu'en effet nous sommes ici dans une grande abondance de tout.",
+              "word_offset_start": 1735,
+              "word_offset_end": 1791,
+              "char_offset_start": 10199,
+              "char_offset_end": 10503,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1812-10-23-russia-advance_s01_p36",
+          "paragraph_ordinal": 36,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1812-10-23-russia-advance_s01_p36_s01",
+              "sentence_ordinal": 1,
+              "text": "NAPOLÉON.",
+              "word_offset_start": 1791,
+              "word_offset_end": 1792,
+              "char_offset_start": 10505,
+              "char_offset_end": 10514,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1812-10-23-russia-advance_s01_p37",
+          "paragraph_ordinal": 37,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1812-10-23-russia-advance_s01_p37_s01",
+              "sentence_ordinal": 1,
+              "text": "D'après l'original.",
+              "word_offset_start": 1792,
+              "word_offset_end": 1794,
+              "char_offset_start": 10516,
+              "char_offset_end": 10535,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1812-10-23-russia-advance_s01_p37_s02",
+              "sentence_ordinal": 2,
+              "text": "Dépôt de la guerre.",
+              "word_offset_start": 1794,
+              "word_offset_end": 1798,
+              "char_offset_start": 10536,
+              "char_offset_end": 10555,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1812-10-23-russia-advance_s01_p38",
+          "paragraph_ordinal": 38,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1812-10-23-russia-advance_s01_p38_s01",
+              "sentence_ordinal": 1,
+              "text": "19306. - AU PRINCE DE NEUCHÂTEL ET DE WAGRAM, MAJOR GENERAL DE LA GRANDE ARMEE, À BOROVSK.",
+              "word_offset_start": 1798,
+              "word_offset_end": 1815,
+              "char_offset_start": 10557,
+              "char_offset_end": 10647,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1812-10-23-russia-advance_s01_p39",
+          "paragraph_ordinal": 39,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1812-10-23-russia-advance_s01_p39_s01",
+              "sentence_ordinal": 1,
+              "text": "Borovsk, 26 octobre 1812.",
+              "word_offset_start": 1815,
+              "word_offset_end": 1819,
+              "char_offset_start": 10649,
+              "char_offset_end": 10674,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1812-10-23-russia-advance_s01_p40",
+          "paragraph_ordinal": 40,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1812-10-23-russia-advance_s01_p40_s01",
+              "sentence_ordinal": 1,
+              "text": "Faites connaître au prince d'Eckmühl que le prince Poniatowski est à Egorevskoïé; qu'il était nécessaire là pour garder le débouché qui vient de Medyne à Vereya; qu'il doit en partir au même moment que le prince d'Eckmuhl partira de Vereya; qu'il se rendra sur Mojaïsk en droite ligne; qu'il faut que sa marche soit calculée de manière à arriver à Mojaïsk avant le prince d'Eckmühl.",
+              "word_offset_start": 1819,
+              "word_offset_end": 1884,
+              "char_offset_start": 10676,
+              "char_offset_end": 11058,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1812-10-23-russia-advance_s01_p41",
+          "paragraph_ordinal": 41,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1812-10-23-russia-advance_s01_p41_s01",
+              "sentence_ordinal": 1,
+              "text": "Donnez ordre au prince Poniatowski d'envoyer un officier au prince d'Eckmühl et de recevoir ses ordres pour son mouvement.",
+              "word_offset_start": 1884,
+              "word_offset_end": 1903,
+              "char_offset_start": 11060,
+              "char_offset_end": 11182,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1812-10-23-russia-advance_s01_p42",
+          "paragraph_ordinal": 42,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1812-10-23-russia-advance_s01_p42_s01",
+              "sentence_ordinal": 1,
+              "text": "Faites connaître au prince Poniatowski qu'il sera convenable qu'il disparaisse de nuit de devant les Cosaques et règle sa marche de manière à arriver à Mojaïsk avant le prince dEckmühl.",
+              "word_offset_start": 1903,
+              "word_offset_end": 1933,
+              "char_offset_start": 11184,
+              "char_offset_end": 11369,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1812-10-23-russia-advance_s01_p43",
+          "paragraph_ordinal": 43,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1812-10-23-russia-advance_s01_p43_s01",
+              "sentence_ordinal": 1,
+              "text": "Instruisez également le vice-roi de la position du prince Poniatowski et de tous les mouvements.",
+              "word_offset_start": 1933,
+              "word_offset_end": 1948,
+              "char_offset_start": 11371,
+              "char_offset_end": 11467,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1812-10-23-russia-advance_s01_p44",
+          "paragraph_ordinal": 44,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1812-10-23-russia-advance_s01_p44_s01",
+              "sentence_ordinal": 1,
+              "text": "D'api-ès la minute.",
+              "word_offset_start": 1948,
+              "word_offset_end": 1951,
+              "char_offset_start": 11469,
+              "char_offset_end": 11488,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1812-10-23-russia-advance_s01_p44_s02",
+              "sentence_ordinal": 2,
+              "text": "Dépôt de la guerre.",
+              "word_offset_start": 1951,
+              "word_offset_end": 1955,
+              "char_offset_start": 11489,
+              "char_offset_end": 11508,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1812-10-23-russia-advance_s01_p45",
+          "paragraph_ordinal": 45,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1812-10-23-russia-advance_s01_p45_s01",
+              "sentence_ordinal": 1,
+              "text": "#",
+              "word_offset_start": 1955,
+              "word_offset_end": 1956,
+              "char_offset_start": 11510,
+              "char_offset_end": 11511,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "pipeline_log": [
+    {
+      "stage": "segment-texts",
+      "script": "scripts/segment-texts.py",
+      "generated_at": "2026-06-14T15:00:25",
+      "sentence_count": 93
+    }
+  ]
+}

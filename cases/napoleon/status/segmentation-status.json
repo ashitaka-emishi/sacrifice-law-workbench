@@ -1,0 +1,82 @@
+{
+  "case_id": "napoleon",
+  "stage": "segment-texts",
+  "status": "ready",
+  "generated_at": "2026-06-14T15:00:25",
+  "documents_in_manifest": 10,
+  "written": 10,
+  "skipped_missing_text": 0,
+  "errors": [],
+  "records": [
+    {
+      "document_id": "napoleon-bulletin-1805-12-03-austerlitz",
+      "status": "written",
+      "sentence_count": 68,
+      "input_path": "/Users/andrewhammer/codegarden/koenigsberg-sacrifice-workbench/cases/napoleon/corpus/text/napoleon-bulletin-1805-12-03-austerlitz.md",
+      "output_path": "/Users/andrewhammer/codegarden/koenigsberg-sacrifice-workbench/cases/napoleon/corpus/segmented/napoleon-bulletin-1805-12-03-austerlitz.json"
+    },
+    {
+      "document_id": "napoleon-bulletin-1805-12-04-austerlitz-aftermath",
+      "status": "written",
+      "sentence_count": 214,
+      "input_path": "/Users/andrewhammer/codegarden/koenigsberg-sacrifice-workbench/cases/napoleon/corpus/text/napoleon-bulletin-1805-12-04-austerlitz-aftermath.md",
+      "output_path": "/Users/andrewhammer/codegarden/koenigsberg-sacrifice-workbench/cases/napoleon/corpus/segmented/napoleon-bulletin-1805-12-04-austerlitz-aftermath.json"
+    },
+    {
+      "document_id": "napoleon-bulletin-1806-10-15-jena",
+      "status": "written",
+      "sentence_count": 158,
+      "input_path": "/Users/andrewhammer/codegarden/koenigsberg-sacrifice-workbench/cases/napoleon/corpus/text/napoleon-bulletin-1806-10-15-jena.md",
+      "output_path": "/Users/andrewhammer/codegarden/koenigsberg-sacrifice-workbench/cases/napoleon/corpus/segmented/napoleon-bulletin-1806-10-15-jena.json"
+    },
+    {
+      "document_id": "napoleon-bulletin-1806-10-26-berlin",
+      "status": "written",
+      "sentence_count": 88,
+      "input_path": "/Users/andrewhammer/codegarden/koenigsberg-sacrifice-workbench/cases/napoleon/corpus/text/napoleon-bulletin-1806-10-26-berlin.md",
+      "output_path": "/Users/andrewhammer/codegarden/koenigsberg-sacrifice-workbench/cases/napoleon/corpus/segmented/napoleon-bulletin-1806-10-26-berlin.json"
+    },
+    {
+      "document_id": "napoleon-bulletin-1807-02-08-eylau",
+      "status": "written",
+      "sentence_count": 76,
+      "input_path": "/Users/andrewhammer/codegarden/koenigsberg-sacrifice-workbench/cases/napoleon/corpus/text/napoleon-bulletin-1807-02-08-eylau.md",
+      "output_path": "/Users/andrewhammer/codegarden/koenigsberg-sacrifice-workbench/cases/napoleon/corpus/segmented/napoleon-bulletin-1807-02-08-eylau.json"
+    },
+    {
+      "document_id": "napoleon-bulletin-1807-06-14-friedland",
+      "status": "written",
+      "sentence_count": 107,
+      "input_path": "/Users/andrewhammer/codegarden/koenigsberg-sacrifice-workbench/cases/napoleon/corpus/text/napoleon-bulletin-1807-06-14-friedland.md",
+      "output_path": "/Users/andrewhammer/codegarden/koenigsberg-sacrifice-workbench/cases/napoleon/corpus/segmented/napoleon-bulletin-1807-06-14-friedland.json"
+    },
+    {
+      "document_id": "napoleon-bulletin-1809-07-08-wagram",
+      "status": "written",
+      "sentence_count": 168,
+      "input_path": "/Users/andrewhammer/codegarden/koenigsberg-sacrifice-workbench/cases/napoleon/corpus/text/napoleon-bulletin-1809-07-08-wagram.md",
+      "output_path": "/Users/andrewhammer/codegarden/koenigsberg-sacrifice-workbench/cases/napoleon/corpus/segmented/napoleon-bulletin-1809-07-08-wagram.json"
+    },
+    {
+      "document_id": "napoleon-bulletin-1812-10-23-russia-advance",
+      "status": "written",
+      "sentence_count": 93,
+      "input_path": "/Users/andrewhammer/codegarden/koenigsberg-sacrifice-workbench/cases/napoleon/corpus/text/napoleon-bulletin-1812-10-23-russia-advance.md",
+      "output_path": "/Users/andrewhammer/codegarden/koenigsberg-sacrifice-workbench/cases/napoleon/corpus/segmented/napoleon-bulletin-1812-10-23-russia-advance.json"
+    },
+    {
+      "document_id": "napoleon-bulletin-1812-12-03-russia-29th",
+      "status": "written",
+      "sentence_count": 90,
+      "input_path": "/Users/andrewhammer/codegarden/koenigsberg-sacrifice-workbench/cases/napoleon/corpus/text/napoleon-bulletin-1812-12-03-russia-29th.md",
+      "output_path": "/Users/andrewhammer/codegarden/koenigsberg-sacrifice-workbench/cases/napoleon/corpus/segmented/napoleon-bulletin-1812-12-03-russia-29th.json"
+    },
+    {
+      "document_id": "napoleon-bulletin-1813-05-24-bautzen",
+      "status": "written",
+      "sentence_count": 137,
+      "input_path": "/Users/andrewhammer/codegarden/koenigsberg-sacrifice-workbench/cases/napoleon/corpus/text/napoleon-bulletin-1813-05-24-bautzen.md",
+      "output_path": "/Users/andrewhammer/codegarden/koenigsberg-sacrifice-workbench/cases/napoleon/corpus/segmented/napoleon-bulletin-1813-05-24-bautzen.json"
+    }
+  ]
+}

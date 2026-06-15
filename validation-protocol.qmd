@@ -1,0 +1,245 @@
+---
+title: "Validation Protocol"
+---
+
+Validation is not a single final check. It is a sequence of gates that protect
+the project from unsupported sources, schema drift, overconfident annotation,
+and claims that outrun the evidence. In this workbench, build/schema validation
+is distinct from historical corroboration and evidentiary support assessment.
+
+## Build And Schema Validation
+
+Every rebuild should confirm that JSON artifacts parse, case manifests are
+well-formed, sentence IDs are stable and unique, annotations point back to known
+sentences and MIPVU lexical-unit decisions, cluster IDs match case
+configuration, and confidence values are in range.
+
+The current local command is:
+
+```bash
+npm run validate
+```
+
+The broader rebuild command is:
+
+```bash
+npm run rebuild:all
+```
+
+Validation failures should block promotion of an artifact from draft to
+reviewed status. Empty scaffold cases may produce stub outputs, but those stubs
+must remain visibly distinct from completed analysis.
+
+## Rights And Source Review
+
+Before raw text is added, each candidate source must pass the rights review gate
+defined in the corpus rights policy. Source records should preserve provenance,
+edition or translation status, acquisition instructions, expected local path,
+rights rationale, and storage decision.
+
+Source review asks:
+
+- Is the source legally usable in this project?
+- Is the edition or transcription identified clearly enough for citation?
+- Are translation, OCR, excerpting, or archive-access risks recorded?
+- Is the document's inclusion rationale explicit?
+- Is the source appropriate for the case phase and register it is meant to
+  represent?
+
+## Post-Acquisition Integrity Check
+
+After a raw file is placed on disk, run the corpus verifier before proceeding
+to normalization. `scripts/fetch-corpus.py` runs this automatically for affected
+cases unless `--no-verify` is passed, but manual downloads and interactive
+skill-assisted downloads should still end with the same verifier:
+
+```bash
+python3 scripts/verify-corpus.py --case <case-id>
+```
+
+The verifier checks three things per document against the `verification` block
+in `document-manifest.json`:
+
+- **File present** — expected path exists and is non-empty.
+- **Word count** — body word count meets the `min_words` floor (set at ~80% of
+  expected length to tolerate normal OCR variation while catching wrong or
+  truncated downloads).
+- **Required phrases** — 2–3 anchor strings that are unique to the correct
+  document are present in the file.
+
+A PASS on all three is required before normalization (`normalize-texts.py`) may
+run. A FAIL means either the wrong file was downloaded, the file was placed at
+the wrong path, the download was truncated, or the manifest verification
+anchors need review. Each download skill (`corpus-download.md`,
+`gallica-download.md`, `founders-download.md`, `ifz-download.md`) includes this
+step explicitly.
+
+## Acquisition Tooling
+
+The current acquisition layer has two entry points:
+
+- `scripts/acquire-sources.py` reports source-readiness from each
+  `source-registry.json` without modifying files.
+- `scripts/fetch-corpus.py` fetches supported curl-accessible documents,
+  writes provenance-headed raw files, and verifies affected cases.
+
+Use `python3 scripts/fetch-corpus.py --dry-run --json` when reviewing a
+planned acquisition before writing files. The fetcher currently handles
+Project Gutenberg, National Archives Declaration text, Gallica `texteBrut` OCR
+when no browser challenge is served, and Archive.org djvu OCR extraction.
+
+Browser-rendered, CAPTCHA-gated, manual, or local-only sources remain
+interactive:
+
+- `/corpus-download` is the master router.
+- `/gallica-download` handles Gallica browser/CAPTCHA fallback, manual
+  full-volume `Texte (TXT)` acquisition, and local extraction details.
+- `/founders-download` handles Founders Online documents.
+- `/ifz-download` handles local German-source extraction workflows.
+
+When adding a new document, add a `verification` block to its manifest entry
+before or immediately after downloading, following the format in existing entries.
+
+## MIPVU Lexical-Unit Audit
+
+MIPVU is the first metaphor-identification gate. After segmentation, generate
+source-language worklists:
+
+```bash
+python3 scripts/generate-mipvu-worklist.py --case <case-id>
+```
+
+Strict validation requires every segmented document to have a matching
+`cases/<case>/corpus/mipvu/<document_id>_mipvu.json` file. Every lexical unit in
+that file must have a `decision_type`. Decisions marked `mipvu_indirect`,
+`mipvu_direct`, `mipvu_implicit`, `mipvu_personification`, or `uncertain` must
+also include contextual meaning, basic meaning, basic-meaning source, contrast
+explanation, comparison basis, confidence, and review notes.
+
+Use source-language lexical units for German and French. English glosses are
+allowed as analytical aids, but they do not replace the source-language MIPVU
+decision.
+
+## Source-To-Claim Audit
+
+A claim is auditable only if a reviewer can trace it back to source records,
+document manifests, sentence IDs, annotations, concordance entries, analysis
+outputs, support ratings, historical corroboration notes, or validation
+artifacts.
+
+The audit should classify each claim as evidence, interpretation, inference,
+speculation, or open question. Claims without traceable support should be
+revised, demoted, or removed.
+
+## Metaphor-Mapping Audit
+
+The metaphor audit reviews whether a proposed CMT annotation is grounded in
+MIPVU evidence before psychological interpretation is added.
+
+Reviewers should check:
+
+- the cited sentence and span are correct;
+- the annotation references one or more MIPVU IDs from the same document and
+  sentence;
+- each referenced MIPVU lexical unit is metaphor-related or uncertain;
+- the source and target domains are identifiable;
+- entailments are stated rather than assumed;
+- the cluster assignment follows from the mapping;
+- co-activated clusters are not being used to inflate evidence;
+- confidence and ambiguity fields match the actual uncertainty.
+
+Weak metaphor evidence may still be useful as an exploratory note, but it
+should not carry high-confidence aggregate claims.
+
+## Koenigsbergian Interpretation Audit
+
+Koenigsbergian fields interpret metaphor patterns in relation to sacred objects,
+magical objects, body-politic fantasies, enemy as death, guilt distribution,
+violence logic, obligation, sacrifice, and exit conditions.
+
+The audit asks whether the interpretation is proportional to the annotation
+evidence. It should reject diagnostic claims, mind-reading, monocausal
+historical explanations, and psychological conclusions drawn from isolated
+phrases.
+
+Interpretation should remain distinct from evidence. If the text shows a nation
+as a wounded body, that is CMT evidence. A claim that the wound metaphor makes
+violence feel like necessary care is an interpretation. A claim about the
+leader's private unconscious state is outside V1's evidentiary scope unless it
+is explicitly framed as theoretical speculation.
+
+## Evidentiary Support Audit
+
+Evidentiary support assessment asks how strongly a case supports, complicates,
+limits, or fails to support Koenigsberg's Law of Sacrifice and its body-politic
+corollary. It should not be treated as proof, diagnosis, or monocausal
+historical explanation.
+
+Every case-level support finding should report four dimension scores:
+
+| Dimension | Audit Question |
+|---|---|
+| Sacred object | Is a collective object represented as transcendent, ultimate, sacred, immortal, or worth dying/killing for? |
+| Sacrificial body | Are bodies represented as meaningful offerings, payments, instruments, victims, martyrs, or material through which the sacred object is preserved or made real? |
+| Enemy as death | Is the enemy represented as the agent, carrier, embodiment, or sign of death, doubt, mortality, dissolution, unreality, or collective destruction? |
+| Historical enactment or alignment | Do textual-symbolic patterns align with documented practices, policies, institutions, mobilizations, implementation, social uptake, or outcomes? |
+
+Reviewers should check:
+
+- each dimension score uses the anchored 0-4 rubric in
+  `PRIMARY_RESEARCH_QUESTION.md`;
+- document-level scores are preserved before case-level aggregation;
+- document weights are metadata-derived, modest, and auditable;
+- high-risk or high-impact weights have manual human review;
+- scores of `3` or `4` in textual-symbolic dimensions are supported by
+  repeated evidence rather than a single striking passage;
+- historical enactment/alignment scores of `3` or `4` have corroboration beyond
+  a single policy, order, decree, or proclamation;
+- the weighted shifted geometric mean and historical-alignment category cap are
+  applied consistently;
+- the prose explains whether support is broadly distributed or concentrated in
+  a few documents;
+- "complicated support" is used when the numeric score hides a theoretically
+  important tension.
+
+Historical enactment/alignment is the historical-anchoring dimension. A case
+may support a strong textual reading while still receiving only moderate or
+weak case-level support if historical alignment is thin, uncorroborated, or
+uncertain.
+
+## Rival-Explanation Review
+
+Every major finding should be tested against plausible alternatives. Rival
+explanations include genre convention, legal formula, religious convention,
+translation artifact, source selection bias, register effect, audience
+adaptation, chronological accident, and annotator prompt bias.
+
+A claim survives review when the project can explain why the preferred
+interpretation fits the corpus better than the rival, or when the claim is
+qualified to preserve the rival.
+
+## Translation And Register Sensitivity
+
+Translation-sensitive cases require special care. When possible, translated
+annotations should record the translation source, original-language risk,
+alternate translation issues, and whether a key metaphor depends on translator
+word choice.
+
+Register-sensitive claims should compare like with like. Legal documents,
+ceremonial speeches, military orders, and propaganda texts should not be
+collapsed into a single frequency claim without noting the register mix.
+
+## Public Artifact Readiness
+
+Artifacts may be treated as:
+
+- draft: scaffolded, incomplete, or exploratory;
+- reviewed: structurally valid and methodologically checked;
+- finding: supported by traceable evidence, appropriate validation, and
+  historical corroboration where claimed;
+- deprecated: superseded or rejected but preserved for audit history.
+
+Public pages should not present draft corpus proposals, starter clusters, or
+stub analysis artifacts as completed findings. When uncertainty remains, the
+page should say what remains unknown and which validation, corroboration, or
+support-assessment step would resolve it.

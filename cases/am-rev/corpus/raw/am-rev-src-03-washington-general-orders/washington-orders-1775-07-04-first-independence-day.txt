@@ -1,0 +1,52 @@
+SOURCE: Founders Online, National Archives
+SERIES: Papers of George Washington, Revolutionary War Series
+DOCUMENT_PATH: /documents/Washington/03-01-02-0027
+SOURCE_URL: https://founders.archives.gov/documents/Washington/03-01-02-0027
+SLUG: washington-orders-1775-07-04-first-independence-day
+DATE: 1775-07-04
+AUTHORSHIP: George Washington
+RIGHTS: Public domain (18th-century document; no copyright on transcription)
+EXTRACTION_TOOL: .claude/commands/founders-download.md
+========================================================================
+
+General Orders, 4 July 1775
+General Orders
+
+Head Quarters, Cambridge, July 4th 1775.
+
+Parole. Abington.
+Countersign, Bedford.
+
+Exact returns to be made by the proper Officers of all the Provisions⟨,⟩ Ordnance, Ordnance stores, Powder, Lead, working Tools of all kinds, Tents, Camp Kettles, and all other Stores under their respective care, belonging to the Armies at Roxbury and Cambridge. The commanding Officer of each Regiment to make a return of the number of blankets wanted to compleat every Man with one at least.
+
+The Hon: Artemus Ward, Charles Lee, Philip Schuyler, and Israel Putnam Esquires, are appointed Major Generals of the American Army and due Obedience is to be paid them as such. The Continental Congress not having compleated the appointments of the other officers in said army, nor had sufficient time to prepare and forward their Commissions; every Officer is to continue to do duty in the Rank and Station he at present holds untill further orders.
+
+Thomas Mifflin Esqr. is appointed by the General one of his Aid-de-Camps. Joseph Reed Esqr. is in like manner appointed Secretary to the General, and they are in future to be consider'd and regarded as such.
+
+The Continental Congress having now taken all the Troops of the several Colonies, which have been raised, or which may be hereafter raised, for the support and defence of the Liberties of America; into their Pay and Service: They are now the Troops of the United Provinces of North America; and it is hoped that all Distinctions of Colonies will be laid aside; so that one and the same spirit may animate the whole, and the only Contest be, who shall render, on this great and trying occasion, the most essential service to the great and common cause in which we are all engaged.
+
+It is required and expected that exact discipline be observed, and due Subordination prevail thro' the whole Army, as a Failure in these most essential points must necessarily produce extreme Hazard, Disorder and Confusion; and end in shameful disappointment and disgrace.
+
+The General most earnestly requires, and expects, a due observance of those articles of war, established for the Government of the army, which forbid profane cursing, swearing & drunkeness; And in like manner requires & expects, of all Officers, and Soldiers, not engaged on actual duty, a punctual attendance on divine service, to implore the blessings of heaven upon the means used for our safety and defence.
+
+All Officers are required and expected to pay diligent Attention, to keep their Men neat and clean—to visit them often at their quarters, and inculcate upon them the necessity of cleanliness, as essential to their health and service. They are particularly to see, that they have Straw to lay on, if to be had, and to make it known if they are destitute of this article. They are also to take care that Necessarys be provided in the Camps and frequently filled up to prevent their being offensive and unhealthy. Proper Notice will be taken of such Officers and Men, as distinguish themselves by their attention to these necessary duties.
+
+The commanding Officer of each Regiment is to take particular care that not more than two Men of a Company be absent on furlough at the same time, unless in very extraordinary cases.
+
+Col. Gardner is to be buried to morrow at 3, OClock, P: M. with the military Honors due to so brave and gallant an Officer, who fought, bled and died in the Cause of his country and mankind. His own Regiment, except the company at Malden, to attend on this mournful occasion. The places of those Companies in the Lines on Prospect Hill, to be supplied by Col. Glovers regiment 'till the funeral is over.
+
+No Person is to be allowed to go to Fresh-water pond a fishing or on any other occasion as there may be danger of introducing the small pox into the army.
+
+It is strictly required and commanded that there be no firing of Cannon or small Arms from any of the Lines, or elsewhere, except in case of necessary, immediate defence, or special order given for that purpose.
+
+All Prisoners taken, Deserters coming in, Persons coming out of Boston, who can give any Intelligence; any Captures of any kind from the Enemy, are to be immediately reported and brought up to Head Quarters in Cambridge. Capt. Griffin is appointed Aid-de-Camp to General Lee and to be regarded as such.
+
+The Guard for the security of the stores at Watertown, is to be increased to thirty men immediately.
+
+A serjeant and six men to be set as a Guard to the Hospital, and are to apply to Doctor Rand.
+
+Complaint having been made against John White Quarter Master of Col. Nixon's Regmt for misdemeanors in drawing out Provisions for more Men than the Regiment consisted of; A Court Martial consisting of one Captain and four Subalterns is ordered to be held on said White, who are to enquire, determine and report.
+
+After Orders. 10 OClock
+
+The General desires that some Carpenters be immediately set to work at Brattle's Stables, to fix up Stalls for eight Horses, and more if the Room will admit, with suitable racks, mangers &c.

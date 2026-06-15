@@ -1,0 +1,7 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "claim-trace-schema",
+  "type": "object",
+  "additionalProperties": true,
+  "description": "Placeholder schema to be expanded during implementation."
+}

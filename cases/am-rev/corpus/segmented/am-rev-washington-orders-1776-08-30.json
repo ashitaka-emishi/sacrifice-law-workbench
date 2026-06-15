@@ -1,0 +1,1161 @@
+{
+  "case_id": "am-rev",
+  "document_id": "am-rev-washington-orders-1776-08-30",
+  "meta": {
+    "document_id": "am-rev-washington-orders-1776-08-30",
+    "title": "General Orders, 30 August 1776",
+    "short_title": "Orders: After Long Island",
+    "date": "1776-08-30",
+    "date_precision": "day",
+    "register": "military-general-orders",
+    "authorship": "George Washington",
+    "source_url": "https://founders.archives.gov/documents/Washington/03-09-02-0023",
+    "source_citation": "Founders Online, National Archives, Papers of George Washington, Revolutionary War Series",
+    "rights_status": "public-domain",
+    "expected_raw_path": "corpus/raw/am-rev-src-03-washington-general-orders/washington-orders-1776-08-30-after-long-island.txt",
+    "analytical_priority": "primary",
+    "risk_flags": [
+      "wrong-document-in-file — re-download needed from Founders Online"
+    ],
+    "case_id": "am-rev",
+    "raw_path": "corpus/raw/am-rev-src-03-washington-general-orders/washington-orders-1776-08-30-after-long-island.txt",
+    "pipeline_log": [
+      {
+        "stage": "normalize-texts",
+        "script": "scripts/normalize-texts.py",
+        "generated_at": "2026-06-13T20:41:16"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "section_id": "am-rev-washington-orders-1776-08-30_s01",
+      "section_label": "body",
+      "section_ordinal": 1,
+      "paragraphs": [
+        {
+          "paragraph_id": "am-rev-washington-orders-1776-08-30_s01_p01",
+          "paragraph_ordinal": 1,
+          "sentences": [
+            {
+              "sentence_id": "am-rev-washington-orders-1776-08-30_s01_p01_s01",
+              "sentence_ordinal": 1,
+              "text": "Skip navigation.",
+              "word_offset_start": 0,
+              "word_offset_end": 2,
+              "char_offset_start": 0,
+              "char_offset_end": 16,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "am-rev-washington-orders-1776-08-30_s01_p01_s02",
+              "sentence_ordinal": 2,
+              "text": "Go to main content.",
+              "word_offset_start": 2,
+              "word_offset_end": 6,
+              "char_offset_start": 17,
+              "char_offset_end": 36,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "am-rev-washington-orders-1776-08-30_s01_p02",
+          "paragraph_ordinal": 2,
+          "sentences": [
+            {
+              "sentence_id": "am-rev-washington-orders-1776-08-30_s01_p02_s01",
+              "sentence_ordinal": 1,
+              "text": "Archives.gov Home",
+              "word_offset_start": 6,
+              "word_offset_end": 8,
+              "char_offset_start": 38,
+              "char_offset_end": 55,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "am-rev-washington-orders-1776-08-30_s01_p03",
+          "paragraph_ordinal": 3,
+          "sentences": [
+            {
+              "sentence_id": "am-rev-washington-orders-1776-08-30_s01_p03_s01",
+              "sentence_ordinal": 1,
+              "text": "About Founders Online",
+              "word_offset_start": 8,
+              "word_offset_end": 11,
+              "char_offset_start": 57,
+              "char_offset_end": 78,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "am-rev-washington-orders-1776-08-30_s01_p04",
+          "paragraph_ordinal": 4,
+          "sentences": [
+            {
+              "sentence_id": "am-rev-washington-orders-1776-08-30_s01_p04_s01",
+              "sentence_ordinal": 1,
+              "text": "Contact Us",
+              "word_offset_start": 11,
+              "word_offset_end": 13,
+              "char_offset_start": 80,
+              "char_offset_end": 90,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "am-rev-washington-orders-1776-08-30_s01_p05",
+          "paragraph_ordinal": 5,
+          "sentences": [
+            {
+              "sentence_id": "am-rev-washington-orders-1776-08-30_s01_p05_s01",
+              "sentence_ordinal": 1,
+              "text": "Founders Online",
+              "word_offset_start": 13,
+              "word_offset_end": 15,
+              "char_offset_start": 92,
+              "char_offset_end": 107,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "am-rev-washington-orders-1776-08-30_s01_p06",
+          "paragraph_ordinal": 6,
+          "sentences": [
+            {
+              "sentence_id": "am-rev-washington-orders-1776-08-30_s01_p06_s01",
+              "sentence_ordinal": 1,
+              "text": "[Back to normal view]",
+              "word_offset_start": 15,
+              "word_offset_end": 19,
+              "char_offset_start": 109,
+              "char_offset_end": 130,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "am-rev-washington-orders-1776-08-30_s01_p07",
+          "paragraph_ordinal": 7,
+          "sentences": [
+            {
+              "sentence_id": "am-rev-washington-orders-1776-08-30_s01_p07_s01",
+              "sentence_ordinal": 1,
+              "text": "George Washington Papers",
+              "word_offset_start": 19,
+              "word_offset_end": 22,
+              "char_offset_start": 132,
+              "char_offset_end": 156,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "am-rev-washington-orders-1776-08-30_s01_p08",
+          "paragraph_ordinal": 8,
+          "sentences": [
+            {
+              "sentence_id": "am-rev-washington-orders-1776-08-30_s01_p08_s01",
+              "sentence_ordinal": 1,
+              "text": "Permanent Link view",
+              "word_offset_start": 22,
+              "word_offset_end": 25,
+              "char_offset_start": 158,
+              "char_offset_end": 177,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "am-rev-washington-orders-1776-08-30_s01_p09",
+          "paragraph_ordinal": 9,
+          "sentences": [
+            {
+              "sentence_id": "am-rev-washington-orders-1776-08-30_s01_p09_s01",
+              "sentence_ordinal": 1,
+              "text": "Start New Search",
+              "word_offset_start": 25,
+              "word_offset_end": 28,
+              "char_offset_start": 179,
+              "char_offset_end": 195,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "am-rev-washington-orders-1776-08-30_s01_p10",
+          "paragraph_ordinal": 10,
+          "sentences": [
+            {
+              "sentence_id": "am-rev-washington-orders-1776-08-30_s01_p10_s01",
+              "sentence_ordinal": 1,
+              "text": "View Previous Searches",
+              "word_offset_start": 28,
+              "word_offset_end": 31,
+              "char_offset_start": 197,
+              "char_offset_end": 219,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "am-rev-washington-orders-1776-08-30_s01_p11",
+          "paragraph_ordinal": 11,
+          "sentences": [
+            {
+              "sentence_id": "am-rev-washington-orders-1776-08-30_s01_p11_s01",
+              "sentence_ordinal": 1,
+              "text": "Print View",
+              "word_offset_start": 31,
+              "word_offset_end": 33,
+              "char_offset_start": 221,
+              "char_offset_end": 231,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "am-rev-washington-orders-1776-08-30_s01_p12",
+          "paragraph_ordinal": 12,
+          "sentences": [
+            {
+              "sentence_id": "am-rev-washington-orders-1776-08-30_s01_p12_s01",
+              "sentence_ordinal": 1,
+              "text": "Max Page View",
+              "word_offset_start": 33,
+              "word_offset_end": 36,
+              "char_offset_start": 233,
+              "char_offset_end": 246,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "am-rev-washington-orders-1776-08-30_s01_p13",
+          "paragraph_ordinal": 13,
+          "sentences": [
+            {
+              "sentence_id": "am-rev-washington-orders-1776-08-30_s01_p13_s01",
+              "sentence_ordinal": 1,
+              "text": "Normal Page View",
+              "word_offset_start": 36,
+              "word_offset_end": 39,
+              "char_offset_start": 248,
+              "char_offset_end": 264,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "am-rev-washington-orders-1776-08-30_s01_p14",
+          "paragraph_ordinal": 14,
+          "sentences": [
+            {
+              "sentence_id": "am-rev-washington-orders-1776-08-30_s01_p14_s01",
+              "sentence_ordinal": 1,
+              "text": "Share",
+              "word_offset_start": 39,
+              "word_offset_end": 40,
+              "char_offset_start": 266,
+              "char_offset_end": 271,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "am-rev-washington-orders-1776-08-30_s01_p15",
+          "paragraph_ordinal": 15,
+          "sentences": [
+            {
+              "sentence_id": "am-rev-washington-orders-1776-08-30_s01_p15_s01",
+              "sentence_ordinal": 1,
+              "text": "Email This",
+              "word_offset_start": 40,
+              "word_offset_end": 42,
+              "char_offset_start": 273,
+              "char_offset_end": 283,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "am-rev-washington-orders-1776-08-30_s01_p16",
+          "paragraph_ordinal": 16,
+          "sentences": [
+            {
+              "sentence_id": "am-rev-washington-orders-1776-08-30_s01_p16_s01",
+              "sentence_ordinal": 1,
+              "text": "Share this on Facebook",
+              "word_offset_start": 42,
+              "word_offset_end": 46,
+              "char_offset_start": 285,
+              "char_offset_end": 307,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "am-rev-washington-orders-1776-08-30_s01_p17",
+          "paragraph_ordinal": 17,
+          "sentences": [
+            {
+              "sentence_id": "am-rev-washington-orders-1776-08-30_s01_p17_s01",
+              "sentence_ordinal": 1,
+              "text": "Tweet",
+              "word_offset_start": 46,
+              "word_offset_end": 47,
+              "char_offset_start": 309,
+              "char_offset_end": 314,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "am-rev-washington-orders-1776-08-30_s01_p18",
+          "paragraph_ordinal": 18,
+          "sentences": [
+            {
+              "sentence_id": "am-rev-washington-orders-1776-08-30_s01_p18_s01",
+              "sentence_ordinal": 1,
+              "text": "General Orders, 30 March 1777",
+              "word_offset_start": 47,
+              "word_offset_end": 52,
+              "char_offset_start": 316,
+              "char_offset_end": 345,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "am-rev-washington-orders-1776-08-30_s01_p19",
+          "paragraph_ordinal": 19,
+          "sentences": [
+            {
+              "sentence_id": "am-rev-washington-orders-1776-08-30_s01_p19_s01",
+              "sentence_ordinal": 1,
+              "text": "General Orders",
+              "word_offset_start": 52,
+              "word_offset_end": 54,
+              "char_offset_start": 347,
+              "char_offset_end": 361,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "am-rev-washington-orders-1776-08-30_s01_p20",
+          "paragraph_ordinal": 20,
+          "sentences": [
+            {
+              "sentence_id": "am-rev-washington-orders-1776-08-30_s01_p20_s01",
+              "sentence_ordinal": 1,
+              "text": "Head-Quarters, Morristown, March 30th 1777.Parole: Hartford.Countersign: Baltimore.",
+              "word_offset_start": 54,
+              "word_offset_end": 61,
+              "char_offset_start": 363,
+              "char_offset_end": 446,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "am-rev-washington-orders-1776-08-30_s01_p21",
+          "paragraph_ordinal": 21,
+          "sentences": [
+            {
+              "sentence_id": "am-rev-washington-orders-1776-08-30_s01_p21_s01",
+              "sentence_ordinal": 1,
+              "text": "Varick transcript, DLC:GW.",
+              "word_offset_start": 61,
+              "word_offset_end": 64,
+              "char_offset_start": 448,
+              "char_offset_end": 474,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "am-rev-washington-orders-1776-08-30_s01_p22",
+          "paragraph_ordinal": 22,
+          "sentences": [
+            {
+              "sentence_id": "am-rev-washington-orders-1776-08-30_s01_p22_s01",
+              "sentence_ordinal": 1,
+              "text": "Index Entries",
+              "word_offset_start": 64,
+              "word_offset_end": 66,
+              "char_offset_start": 476,
+              "char_offset_end": 489,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "am-rev-washington-orders-1776-08-30_s01_p23",
+          "paragraph_ordinal": 23,
+          "sentences": [
+            {
+              "sentence_id": "am-rev-washington-orders-1776-08-30_s01_p23_s01",
+              "sentence_ordinal": 1,
+              "text": "Permanent Link What’s this?",
+              "word_offset_start": 66,
+              "word_offset_end": 70,
+              "char_offset_start": 491,
+              "char_offset_end": 518,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "am-rev-washington-orders-1776-08-30_s01_p24",
+          "paragraph_ordinal": 24,
+          "sentences": [
+            {
+              "sentence_id": "am-rev-washington-orders-1776-08-30_s01_p24_s01",
+              "sentence_ordinal": 1,
+              "text": "https://founders.archives.gov/documents/Washington/03-09-02-0023",
+              "word_offset_start": 70,
+              "word_offset_end": 71,
+              "char_offset_start": 520,
+              "char_offset_end": 584,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "am-rev-washington-orders-1776-08-30_s01_p25",
+          "paragraph_ordinal": 25,
+          "sentences": [
+            {
+              "sentence_id": "am-rev-washington-orders-1776-08-30_s01_p25_s01",
+              "sentence_ordinal": 1,
+              "text": "Note: The annotations to this document, and any other",
+              "word_offset_start": 71,
+              "word_offset_end": 80,
+              "char_offset_start": 586,
+              "char_offset_end": 639,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "am-rev-washington-orders-1776-08-30_s01_p26",
+          "paragraph_ordinal": 26,
+          "sentences": [
+            {
+              "sentence_id": "am-rev-washington-orders-1776-08-30_s01_p26_s01",
+              "sentence_ordinal": 1,
+              "text": "modern editorial content, are copyright © The Rector and Visitors of the University of Virginia.",
+              "word_offset_start": 80,
+              "word_offset_end": 95,
+              "char_offset_start": 641,
+              "char_offset_end": 737,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "am-rev-washington-orders-1776-08-30_s01_p26_s02",
+              "sentence_ordinal": 2,
+              "text": "All rights reserved.Back to topYou Are Looking AtSource ProjectWashington PapersTitleGeneral Orders, 30 March 1777AuthorWashington, GeorgeDate30 March 1777ReferenceCite as“General Orders, 30 March 1777,” Founders Online, National Archives, https://founders.archives.gov/documents/Washington/03-09-02-0023.",
+              "word_offset_start": 95,
+              "word_offset_end": 122,
+              "char_offset_start": 738,
+              "char_offset_end": 1043,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "am-rev-washington-orders-1776-08-30_s01_p26_s03",
+              "sentence_ordinal": 3,
+              "text": "[Original source: The Papers of George Washington, Revolutionary War Series, vol. 9, 28 March 1777 – 10 June 1777, ed.",
+              "word_offset_start": 122,
+              "word_offset_end": 142,
+              "char_offset_start": 1043,
+              "char_offset_end": 1161,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "am-rev-washington-orders-1776-08-30_s01_p26_s04",
+              "sentence_ordinal": 4,
+              "text": "Philander D. Chase.",
+              "word_offset_start": 142,
+              "word_offset_end": 145,
+              "char_offset_start": 1163,
+              "char_offset_end": 1182,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "am-rev-washington-orders-1776-08-30_s01_p26_s05",
+              "sentence_ordinal": 5,
+              "text": "Charlottesville: University Press of Virginia, 1999, p.",
+              "word_offset_start": 145,
+              "word_offset_end": 152,
+              "char_offset_start": 1183,
+              "char_offset_end": 1238,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "am-rev-washington-orders-1776-08-30_s01_p26_s06",
+              "sentence_ordinal": 6,
+              "text": "22.]",
+              "word_offset_start": 152,
+              "word_offset_end": 153,
+              "char_offset_start": 1239,
+              "char_offset_end": 1243,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "am-rev-washington-orders-1776-08-30_s01_p27",
+          "paragraph_ordinal": 27,
+          "sentences": [
+            {
+              "sentence_id": "am-rev-washington-orders-1776-08-30_s01_p27_s01",
+              "sentence_ordinal": 1,
+              "text": "NHPRC",
+              "word_offset_start": 153,
+              "word_offset_end": 154,
+              "char_offset_start": 1245,
+              "char_offset_end": 1250,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "am-rev-washington-orders-1776-08-30_s01_p28",
+          "paragraph_ordinal": 28,
+          "sentences": [
+            {
+              "sentence_id": "am-rev-washington-orders-1776-08-30_s01_p28_s01",
+              "sentence_ordinal": 1,
+              "text": "The National Historical Publications and",
+              "word_offset_start": 154,
+              "word_offset_end": 159,
+              "char_offset_start": 1252,
+              "char_offset_end": 1292,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "am-rev-washington-orders-1776-08-30_s01_p29",
+          "paragraph_ordinal": 29,
+          "sentences": [
+            {
+              "sentence_id": "am-rev-washington-orders-1776-08-30_s01_p29_s01",
+              "sentence_ordinal": 1,
+              "text": "Records Commission (NHPRC) is part of the National",
+              "word_offset_start": 159,
+              "word_offset_end": 167,
+              "char_offset_start": 1294,
+              "char_offset_end": 1344,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "am-rev-washington-orders-1776-08-30_s01_p30",
+          "paragraph_ordinal": 30,
+          "sentences": [
+            {
+              "sentence_id": "am-rev-washington-orders-1776-08-30_s01_p30_s01",
+              "sentence_ordinal": 1,
+              "text": "Archives.",
+              "word_offset_start": 167,
+              "word_offset_end": 168,
+              "char_offset_start": 1346,
+              "char_offset_end": 1355,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "am-rev-washington-orders-1776-08-30_s01_p30_s02",
+              "sentence_ordinal": 2,
+              "text": "Through its grants program, the NHPRC supports a wide range of activities to",
+              "word_offset_start": 168,
+              "word_offset_end": 181,
+              "char_offset_start": 1356,
+              "char_offset_end": 1432,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "am-rev-washington-orders-1776-08-30_s01_p31",
+          "paragraph_ordinal": 31,
+          "sentences": [
+            {
+              "sentence_id": "am-rev-washington-orders-1776-08-30_s01_p31_s01",
+              "sentence_ordinal": 1,
+              "text": "preserve, publish, and encourage the use of documentary sources, relating to the history of",
+              "word_offset_start": 181,
+              "word_offset_end": 195,
+              "char_offset_start": 1434,
+              "char_offset_end": 1525,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "am-rev-washington-orders-1776-08-30_s01_p32",
+          "paragraph_ordinal": 32,
+          "sentences": [
+            {
+              "sentence_id": "am-rev-washington-orders-1776-08-30_s01_p32_s01",
+              "sentence_ordinal": 1,
+              "text": "the United States, and research and development projects to bring historical records to the",
+              "word_offset_start": 195,
+              "word_offset_end": 209,
+              "char_offset_start": 1527,
+              "char_offset_end": 1618,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "am-rev-washington-orders-1776-08-30_s01_p33",
+          "paragraph_ordinal": 33,
+          "sentences": [
+            {
+              "sentence_id": "am-rev-washington-orders-1776-08-30_s01_p33_s01",
+              "sentence_ordinal": 1,
+              "text": "public.",
+              "word_offset_start": 209,
+              "word_offset_end": 210,
+              "char_offset_start": 1620,
+              "char_offset_end": 1627,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "am-rev-washington-orders-1776-08-30_s01_p34",
+          "paragraph_ordinal": 34,
+          "sentences": [
+            {
+              "sentence_id": "am-rev-washington-orders-1776-08-30_s01_p34_s01",
+              "sentence_ordinal": 1,
+              "text": "Founders Online is an official website",
+              "word_offset_start": 210,
+              "word_offset_end": 216,
+              "char_offset_start": 1629,
+              "char_offset_end": 1667,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "am-rev-washington-orders-1776-08-30_s01_p35",
+          "paragraph_ordinal": 35,
+          "sentences": [
+            {
+              "sentence_id": "am-rev-washington-orders-1776-08-30_s01_p35_s01",
+              "sentence_ordinal": 1,
+              "text": "of the U.S. government, administered by the",
+              "word_offset_start": 216,
+              "word_offset_end": 223,
+              "char_offset_start": 1669,
+              "char_offset_end": 1712,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "am-rev-washington-orders-1776-08-30_s01_p36",
+          "paragraph_ordinal": 36,
+          "sentences": [
+            {
+              "sentence_id": "am-rev-washington-orders-1776-08-30_s01_p36_s01",
+              "sentence_ordinal": 1,
+              "text": "National Archives and Records Administration",
+              "word_offset_start": 223,
+              "word_offset_end": 228,
+              "char_offset_start": 1714,
+              "char_offset_end": 1758,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "am-rev-washington-orders-1776-08-30_s01_p37",
+          "paragraph_ordinal": 37,
+          "sentences": [
+            {
+              "sentence_id": "am-rev-washington-orders-1776-08-30_s01_p37_s01",
+              "sentence_ordinal": 1,
+              "text": "through the NHPRC, in partnership with the",
+              "word_offset_start": 228,
+              "word_offset_end": 235,
+              "char_offset_start": 1760,
+              "char_offset_end": 1802,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "am-rev-washington-orders-1776-08-30_s01_p38",
+          "paragraph_ordinal": 38,
+          "sentences": [
+            {
+              "sentence_id": "am-rev-washington-orders-1776-08-30_s01_p38_s01",
+              "sentence_ordinal": 1,
+              "text": "University of Virginia Press,",
+              "word_offset_start": 235,
+              "word_offset_end": 239,
+              "char_offset_start": 1804,
+              "char_offset_end": 1833,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "am-rev-washington-orders-1776-08-30_s01_p39",
+          "paragraph_ordinal": 39,
+          "sentences": [
+            {
+              "sentence_id": "am-rev-washington-orders-1776-08-30_s01_p39_s01",
+              "sentence_ordinal": 1,
+              "text": "which is hosting this website.",
+              "word_offset_start": 239,
+              "word_offset_end": 244,
+              "char_offset_start": 1835,
+              "char_offset_end": 1865,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "am-rev-washington-orders-1776-08-30_s01_p40",
+          "paragraph_ordinal": 40,
+          "sentences": [
+            {
+              "sentence_id": "am-rev-washington-orders-1776-08-30_s01_p40_s01",
+              "sentence_ordinal": 1,
+              "text": "The Adams Papers",
+              "word_offset_start": 244,
+              "word_offset_end": 247,
+              "char_offset_start": 1867,
+              "char_offset_end": 1883,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "am-rev-washington-orders-1776-08-30_s01_p41",
+          "paragraph_ordinal": 41,
+          "sentences": [
+            {
+              "sentence_id": "am-rev-washington-orders-1776-08-30_s01_p41_s01",
+              "sentence_ordinal": 1,
+              "text": "The Papers of Benjamin Franklin",
+              "word_offset_start": 247,
+              "word_offset_end": 252,
+              "char_offset_start": 1885,
+              "char_offset_end": 1916,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "am-rev-washington-orders-1776-08-30_s01_p42",
+          "paragraph_ordinal": 42,
+          "sentences": [
+            {
+              "sentence_id": "am-rev-washington-orders-1776-08-30_s01_p42_s01",
+              "sentence_ordinal": 1,
+              "text": "The Papers of Alexander Hamilton",
+              "word_offset_start": 252,
+              "word_offset_end": 257,
+              "char_offset_start": 1918,
+              "char_offset_end": 1950,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "am-rev-washington-orders-1776-08-30_s01_p43",
+          "paragraph_ordinal": 43,
+          "sentences": [
+            {
+              "sentence_id": "am-rev-washington-orders-1776-08-30_s01_p43_s01",
+              "sentence_ordinal": 1,
+              "text": "The Selected Papers of John Jay",
+              "word_offset_start": 257,
+              "word_offset_end": 263,
+              "char_offset_start": 1952,
+              "char_offset_end": 1983,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "am-rev-washington-orders-1776-08-30_s01_p44",
+          "paragraph_ordinal": 44,
+          "sentences": [
+            {
+              "sentence_id": "am-rev-washington-orders-1776-08-30_s01_p44_s01",
+              "sentence_ordinal": 1,
+              "text": "The Papers of Thomas Jefferson",
+              "word_offset_start": 263,
+              "word_offset_end": 268,
+              "char_offset_start": 1985,
+              "char_offset_end": 2015,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "am-rev-washington-orders-1776-08-30_s01_p45",
+          "paragraph_ordinal": 45,
+          "sentences": [
+            {
+              "sentence_id": "am-rev-washington-orders-1776-08-30_s01_p45_s01",
+              "sentence_ordinal": 1,
+              "text": "The Papers of James Madison",
+              "word_offset_start": 268,
+              "word_offset_end": 273,
+              "char_offset_start": 2017,
+              "char_offset_end": 2044,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "am-rev-washington-orders-1776-08-30_s01_p46",
+          "paragraph_ordinal": 46,
+          "sentences": [
+            {
+              "sentence_id": "am-rev-washington-orders-1776-08-30_s01_p46_s01",
+              "sentence_ordinal": 1,
+              "text": "The Papers of George Washington",
+              "word_offset_start": 273,
+              "word_offset_end": 278,
+              "char_offset_start": 2046,
+              "char_offset_end": 2077,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "am-rev-washington-orders-1776-08-30_s01_p47",
+          "paragraph_ordinal": 47,
+          "sentences": [
+            {
+              "sentence_id": "am-rev-washington-orders-1776-08-30_s01_p47_s01",
+              "sentence_ordinal": 1,
+              "text": "About the National Archives",
+              "word_offset_start": 278,
+              "word_offset_end": 282,
+              "char_offset_start": 2079,
+              "char_offset_end": 2106,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "am-rev-washington-orders-1776-08-30_s01_p48",
+          "paragraph_ordinal": 48,
+          "sentences": [
+            {
+              "sentence_id": "am-rev-washington-orders-1776-08-30_s01_p48_s01",
+              "sentence_ordinal": 1,
+              "text": "National Archives Privacy Policy",
+              "word_offset_start": 282,
+              "word_offset_end": 286,
+              "char_offset_start": 2108,
+              "char_offset_end": 2140,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "am-rev-washington-orders-1776-08-30_s01_p49",
+          "paragraph_ordinal": 49,
+          "sentences": [
+            {
+              "sentence_id": "am-rev-washington-orders-1776-08-30_s01_p49_s01",
+              "sentence_ordinal": 1,
+              "text": "Accessibility",
+              "word_offset_start": 286,
+              "word_offset_end": 287,
+              "char_offset_start": 2142,
+              "char_offset_end": 2155,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "am-rev-washington-orders-1776-08-30_s01_p50",
+          "paragraph_ordinal": 50,
+          "sentences": [
+            {
+              "sentence_id": "am-rev-washington-orders-1776-08-30_s01_p50_s01",
+              "sentence_ordinal": 1,
+              "text": "Freedom of Information Act",
+              "word_offset_start": 287,
+              "word_offset_end": 291,
+              "char_offset_start": 2157,
+              "char_offset_end": 2183,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "am-rev-washington-orders-1776-08-30_s01_p51",
+          "paragraph_ordinal": 51,
+          "sentences": [
+            {
+              "sentence_id": "am-rev-washington-orders-1776-08-30_s01_p51_s01",
+              "sentence_ordinal": 1,
+              "text": "No FEAR Act Data",
+              "word_offset_start": 291,
+              "word_offset_end": 295,
+              "char_offset_start": 2185,
+              "char_offset_end": 2201,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "am-rev-washington-orders-1776-08-30_s01_p52",
+          "paragraph_ordinal": 52,
+          "sentences": [
+            {
+              "sentence_id": "am-rev-washington-orders-1776-08-30_s01_p52_s01",
+              "sentence_ordinal": 1,
+              "text": "window.jQuery || document.write(",
+              "word_offset_start": 295,
+              "word_offset_end": 298,
+              "char_offset_start": 2203,
+              "char_offset_end": 2235,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "am-rev-washington-orders-1776-08-30_s01_p53",
+          "paragraph_ordinal": 53,
+          "sentences": [
+            {
+              "sentence_id": "am-rev-washington-orders-1776-08-30_s01_p53_s01",
+              "sentence_ordinal": 1,
+              "text": "'&lt;script src=\"https://code.jquery.com/jquery-3.7.1.min.js\" type=\"text/javascript\"&gt;&lt;\\/script&gt;'",
+              "word_offset_start": 298,
+              "word_offset_end": 301,
+              "char_offset_start": 2237,
+              "char_offset_end": 2342,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "am-rev-washington-orders-1776-08-30_s01_p54",
+          "paragraph_ordinal": 54,
+          "sentences": [
+            {
+              "sentence_id": "am-rev-washington-orders-1776-08-30_s01_p54_s01",
+              "sentence_ordinal": 1,
+              "text": ")",
+              "word_offset_start": 301,
+              "word_offset_end": 302,
+              "char_offset_start": 2344,
+              "char_offset_end": 2345,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "am-rev-washington-orders-1776-08-30_s01_p55",
+          "paragraph_ordinal": 55,
+          "sentences": [
+            {
+              "sentence_id": "am-rev-washington-orders-1776-08-30_s01_p55_s01",
+              "sentence_ordinal": 1,
+              "text": "label {",
+              "word_offset_start": 302,
+              "word_offset_end": 304,
+              "char_offset_start": 2347,
+              "char_offset_end": 2354,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "am-rev-washington-orders-1776-08-30_s01_p56",
+          "paragraph_ordinal": 56,
+          "sentences": [
+            {
+              "sentence_id": "am-rev-washington-orders-1776-08-30_s01_p56_s01",
+              "sentence_ordinal": 1,
+              "text": "display: inline-block;",
+              "word_offset_start": 304,
+              "word_offset_end": 306,
+              "char_offset_start": 2356,
+              "char_offset_end": 2378,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "am-rev-washington-orders-1776-08-30_s01_p57",
+          "paragraph_ordinal": 57,
+          "sentences": [
+            {
+              "sentence_id": "am-rev-washington-orders-1776-08-30_s01_p57_s01",
+              "sentence_ordinal": 1,
+              "text": "width: 5em;",
+              "word_offset_start": 306,
+              "word_offset_end": 308,
+              "char_offset_start": 2380,
+              "char_offset_end": 2391,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "am-rev-washington-orders-1776-08-30_s01_p58",
+          "paragraph_ordinal": 58,
+          "sentences": [
+            {
+              "sentence_id": "am-rev-washington-orders-1776-08-30_s01_p58_s01",
+              "sentence_ordinal": 1,
+              "text": "}",
+              "word_offset_start": 308,
+              "word_offset_end": 309,
+              "char_offset_start": 2393,
+              "char_offset_end": 2394,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "am-rev-washington-orders-1776-08-30_s01_p59",
+          "paragraph_ordinal": 59,
+          "sentences": [
+            {
+              "sentence_id": "am-rev-washington-orders-1776-08-30_s01_p59_s01",
+              "sentence_ordinal": 1,
+              "text": "$(document).ready(function() {",
+              "word_offset_start": 309,
+              "word_offset_end": 311,
+              "char_offset_start": 2396,
+              "char_offset_end": 2426,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "am-rev-washington-orders-1776-08-30_s01_p60",
+          "paragraph_ordinal": 60,
+          "sentences": [
+            {
+              "sentence_id": "am-rev-washington-orders-1776-08-30_s01_p60_s01",
+              "sentence_ordinal": 1,
+              "text": "$('.tooltip').tooltipster();",
+              "word_offset_start": 311,
+              "word_offset_end": 312,
+              "char_offset_start": 2428,
+              "char_offset_end": 2456,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "am-rev-washington-orders-1776-08-30_s01_p61",
+          "paragraph_ordinal": 61,
+          "sentences": [
+            {
+              "sentence_id": "am-rev-washington-orders-1776-08-30_s01_p61_s01",
+              "sentence_ordinal": 1,
+              "text": "});",
+              "word_offset_start": 312,
+              "word_offset_end": 313,
+              "char_offset_start": 2458,
+              "char_offset_end": 2461,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "pipeline_log": [
+    {
+      "stage": "segment-texts",
+      "script": "scripts/segment-texts.py",
+      "generated_at": "2026-06-13T20:41:16",
+      "sentence_count": 68
+    }
+  ]
+}

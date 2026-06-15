@@ -1,0 +1,348 @@
+{
+  "status": "ready",
+  "documents": [
+    {
+      "document_id": "napoleon-bulletin-1805-12-03-austerlitz",
+      "title": "34th Bulletin of the Grande Armée (Austerlitz)",
+      "short_title": "Bulletin 34: Austerlitz",
+      "date": "1805-12-10",
+      "date_precision": "day",
+      "register": "military-bulletin-proclamation",
+      "authorship": "Napoleon Bonaparte / imperial military voice",
+      "source_url": "https://gallica.bnf.fr/ark:/12148/bpt6k9666763q",
+      "source_citation": "Correspondance de Napoléon Ier, Tome 11, no. 9480. Paris: Plon, 1858–1870. Via Gallica / BnF.",
+      "rights_status": "public-domain",
+      "expected_raw_path": "corpus/raw/napoleon-src-02-grande-armee-bulletins/napoleon-bulletin-1805-12-03-austerlitz.txt",
+      "analytical_priority": "primary",
+      "phase": "peak-empire",
+      "campaign": "Austerlitz",
+      "bulletin_number": 34,
+      "bulletin_series": "Grande Armée 1805–1807",
+      "correspondance_volume": 11,
+      "extraction_script": "scripts/extract-napoleon-bulletins.py",
+      "notes": "Post-Austerlitz victory dispatch. Army as sacred body, glory-death exchange at peak.",
+      "verification": {
+        "min_words": 960,
+        "required_phrases": [
+          "Austerlitz",
+          "prince Repnine",
+          "GRANDE ARM"
+        ]
+      }
+    },
+    {
+      "document_id": "napoleon-bulletin-1805-12-04-austerlitz-aftermath",
+      "title": "35th Bulletin of the Grande Armée (Austerlitz aftermath)",
+      "short_title": "Bulletin 35: Austerlitz aftermath",
+      "date": "1805-12-11",
+      "date_precision": "day",
+      "register": "military-bulletin-proclamation",
+      "authorship": "Napoleon Bonaparte / imperial military voice",
+      "source_url": "https://gallica.bnf.fr/ark:/12148/bpt6k9666763q",
+      "source_citation": "Correspondance de Napoléon Ier, Tome 11. Paris: Plon, 1858–1870. Via Gallica / BnF.",
+      "rights_status": "public-domain",
+      "expected_raw_path": "corpus/raw/napoleon-src-02-grande-armee-bulletins/napoleon-bulletin-1805-12-04-austerlitz-aftermath.txt",
+      "analytical_priority": "primary",
+      "phase": "peak-empire",
+      "campaign": "Austerlitz",
+      "bulletin_number": 35,
+      "bulletin_series": "Grande Armée 1805–1807",
+      "correspondance_volume": 11,
+      "extraction_script": "scripts/extract-napoleon-bulletins.py",
+      "notes": "Aftermath: Russian retreat, prisoner lists, imperial magnanimity. Sacrificial economy at peak — death rendered meaningful by total victory.",
+      "verification": {
+        "min_words": 2500,
+        "required_phrases": [
+          "20 frimaire",
+          "armée russe",
+          "GRANDE ARM"
+        ]
+      }
+    },
+    {
+      "document_id": "napoleon-bulletin-1806-10-15-jena",
+      "title": "5th Bulletin of the Grande Armée, 1806 series (Jena-Auerstedt)",
+      "short_title": "Bulletin 5/1806: Jena",
+      "date": "1806-10-15",
+      "date_precision": "day",
+      "register": "military-bulletin-proclamation",
+      "authorship": "Napoleon Bonaparte / imperial military voice",
+      "source_url": "https://gallica.bnf.fr/ark:/12148/bpt6k96429871",
+      "source_citation": "Correspondance de Napoléon Ier, Tome 13. Paris: Plon, 1858–1870. Via Gallica / BnF.",
+      "rights_status": "public-domain",
+      "expected_raw_path": "corpus/raw/napoleon-src-02-grande-armee-bulletins/napoleon-bulletin-1806-10-15-jena.txt",
+      "analytical_priority": "primary",
+      "phase": "peak-empire",
+      "campaign": "Jena-Auerstedt",
+      "bulletin_number": 5,
+      "bulletin_series": "Grande Armée 1806 (separate series restarting from 1)",
+      "correspondance_volume": 13,
+      "extraction_script": "scripts/extract-napoleon-bulletins.py",
+      "notes": "Battle of Jena-Auerstedt (14 Oct 1806): Prussian army destroyed in a single day. Sacrificial economy at peak: total annihilation of the enemy framed as gloire. Note: originally tracked as bulletin ~52 in a cross-campaign count — actual number is 5 in the 1806 series.",
+      "verification": {
+        "min_words": 2200,
+        "required_phrases": [
+          "Prusse",
+          "bataille",
+          "GRANDE ARM"
+        ]
+      }
+    },
+    {
+      "document_id": "napoleon-bulletin-1806-10-26-berlin",
+      "title": "18th Bulletin of the Grande Armée, 1806 series (entry into Berlin)",
+      "short_title": "Bulletin 18/1806: Berlin",
+      "date": "1806-10-26",
+      "date_precision": "day",
+      "register": "military-bulletin-proclamation",
+      "authorship": "Napoleon Bonaparte / imperial military voice",
+      "source_url": "https://gallica.bnf.fr/ark:/12148/bpt6k96429871",
+      "source_citation": "Correspondance de Napoléon Ier, Tome 13. Paris: Plon, 1858–1870. Via Gallica / BnF.",
+      "rights_status": "public-domain",
+      "expected_raw_path": "corpus/raw/napoleon-src-02-grande-armee-bulletins/napoleon-bulletin-1806-10-26-berlin.txt",
+      "analytical_priority": "primary",
+      "phase": "peak-empire",
+      "campaign": "Jena-Auerstedt",
+      "bulletin_number": 18,
+      "bulletin_series": "Grande Armée 1806 (separate series restarting from 1)",
+      "correspondance_volume": 13,
+      "extraction_script": "scripts/extract-napoleon-bulletins.py",
+      "notes": "Entry into Berlin after Jena. Imperial triumphalism at height — enemy capital occupied, Prussian monarchy humiliated.",
+      "verification": {
+        "min_words": 1380,
+        "required_phrases": [
+          "Berlin",
+          "capitulation",
+          "GRANDE ARM"
+        ]
+      }
+    },
+    {
+      "document_id": "napoleon-bulletin-1807-02-08-eylau",
+      "title": "58th Bulletin of the Grande Armée (Battle of Eylau)",
+      "short_title": "Bulletin 58: Eylau",
+      "date": "1807-02-09",
+      "date_precision": "day",
+      "register": "military-bulletin-proclamation",
+      "authorship": "Napoleon Bonaparte / imperial military voice",
+      "source_url": "https://gallica.bnf.fr/ark:/12148/bpt6k6296790v",
+      "source_citation": "Correspondance de Napoléon Ier, Tome 14, no. 11796. Paris: Plon, 1858–1870. Via Gallica / BnF.",
+      "rights_status": "public-domain",
+      "expected_raw_path": "corpus/raw/napoleon-src-02-grande-armee-bulletins/napoleon-bulletin-1807-02-08-eylau.txt",
+      "analytical_priority": "primary",
+      "phase": "peak-empire",
+      "campaign": "Eylau",
+      "bulletin_number": 58,
+      "bulletin_series": "Grande Armée 1805–1807",
+      "correspondance_volume": 14,
+      "extraction_tool": ".claude/commands/gallica-download.md",
+      "notes": "Battle of Eylau (8 Feb 1807): brutal winter battle, heavy losses on both sides, ambiguous result. Sacrifice language under stress — French losses acknowledged, glory harder to claim than at Austerlitz. Key transition document in the sacrificial economy arc.",
+      "verification": {
+        "min_words": 1100,
+        "required_phrases": [
+          "Eylau",
+          "GRANDE ARM"
+        ]
+      }
+    },
+    {
+      "document_id": "napoleon-bulletin-1807-06-14-friedland",
+      "title": "79th Bulletin of the Grande Armée (Friedland/Wehlau)",
+      "short_title": "Bulletin 79: Friedland",
+      "date": "1807-06-17",
+      "date_precision": "day",
+      "register": "military-bulletin-proclamation",
+      "authorship": "Napoleon Bonaparte / imperial military voice",
+      "source_url": "https://gallica.bnf.fr/ark:/12148/bpt6k6294033s",
+      "source_citation": "Correspondance de Napoléon Ier, Tome 15, no. 12767. Paris: Plon, 1858–1870. Via Gallica / BnF.",
+      "rights_status": "public-domain",
+      "expected_raw_path": "corpus/raw/napoleon-src-02-grande-armee-bulletins/napoleon-bulletin-1807-06-14-friedland.txt",
+      "analytical_priority": "primary",
+      "phase": "peak-empire",
+      "campaign": "Friedland",
+      "bulletin_number": 79,
+      "bulletin_series": "Grande Armée 1805–1807",
+      "correspondance_volume": 15,
+      "extraction_script": "scripts/extract-napoleon-bulletins.py",
+      "notes": "Battle of Friedland (14 June 1807): decisive victory ending the Fourth Coalition. Glory-sacrifice-patrie language at height of imperial power.",
+      "verification": {
+        "min_words": 1660,
+        "required_phrases": [
+          "Friedland",
+          "Alle",
+          "GRANDE ARM"
+        ]
+      }
+    },
+    {
+      "document_id": "napoleon-bulletin-1809-07-08-wagram",
+      "title": "25th Bulletin de l'Armée d'Allemagne (Wagram)",
+      "short_title": "Bulletin 25/1809: Wagram",
+      "date": "1809-07-08",
+      "date_precision": "day",
+      "register": "military-bulletin-proclamation",
+      "authorship": "Napoleon Bonaparte / imperial military voice",
+      "source_url": "https://gallica.bnf.fr/ark:/12148/bpt6k6296216k",
+      "source_citation": "Correspondance de Napoléon Ier, Tome 19, no. 15505. Paris: Plon, 1858–1870. Via Gallica / BnF.",
+      "rights_status": "public-domain",
+      "expected_raw_path": "corpus/raw/napoleon-src-02-grande-armee-bulletins/napoleon-bulletin-1809-07-08-wagram.txt",
+      "analytical_priority": "primary",
+      "phase": "peak-empire",
+      "campaign": "Wagram",
+      "bulletin_number": 25,
+      "bulletin_series": "Armée d'Allemagne 1809 (separate series, different title)",
+      "correspondance_volume": 19,
+      "extraction_tool": ".claude/commands/gallica-download.md",
+      "notes": "Battles of Enzersdorf and Wagram (5–6 July 1809): largest battle of the Napoleonic wars to that date. Published from Wolkersdorf 8 July. Note: titled 'Bulletin de l'Armée d'Allemagne' not 'de la Grande Armée' — the 1809 campaign used a different bulletin series name.",
+      "verification": {
+        "min_words": 3280,
+        "required_phrases": [
+          "Wagram",
+          "Enzersdorf",
+          "Wolkersdorf"
+        ]
+      }
+    },
+    {
+      "document_id": "napoleon-bulletin-1812-10-23-russia-advance",
+      "title": "26th Bulletin of the Grande Armée (Borovsk / Moscow occupation)",
+      "short_title": "Bulletin 26: Russia advance",
+      "date": "1812-10-23",
+      "date_precision": "day",
+      "register": "military-bulletin-proclamation",
+      "authorship": "Napoleon Bonaparte / imperial military voice",
+      "source_url": "https://gallica.bnf.fr/ark:/12148/bpt6k63342473",
+      "source_citation": "Correspondance de Napoléon Ier, Tome 24, no. 19304. Paris: Plon, 1858–1870. Via Gallica / BnF.",
+      "rights_status": "public-domain",
+      "expected_raw_path": "corpus/raw/napoleon-src-02-grande-armee-bulletins/napoleon-bulletin-1812-10-23-russia-advance.txt",
+      "analytical_priority": "primary",
+      "phase": "peak-empire",
+      "campaign": "Russia 1812",
+      "bulletin_number": 26,
+      "bulletin_series": "Grande Armée 1812",
+      "correspondance_volume": 24,
+      "extraction_script": "scripts/extract-napoleon-bulletins.py",
+      "notes": "Post-Moskova movements, French occupation of Moscow. Sacrificial economy under strain: victory proclaimed but retreat imminent.",
+      "verification": {
+        "min_words": 1620,
+        "required_phrases": [
+          "Borovsk",
+          "Moscou",
+          "GRANDE ARM"
+        ]
+      }
+    },
+    {
+      "document_id": "napoleon-bulletin-1812-12-03-russia-29th",
+      "title": "29th Bulletin of the Grande Armée (Molodetchna — retreat)",
+      "short_title": "29th Bulletin: Russia retreat",
+      "date": "1812-12-03",
+      "date_precision": "day",
+      "register": "military-bulletin-proclamation",
+      "authorship": "Napoleon Bonaparte / imperial military voice",
+      "source_url": "https://gallica.bnf.fr/ark:/12148/bpt6k63342473",
+      "source_citation": "Correspondance de Napoléon Ier, Tome 24, no. 19365. Paris: Plon, 1858–1870. Via Gallica / BnF.",
+      "rights_status": "public-domain",
+      "expected_raw_path": "corpus/raw/napoleon-src-02-grande-armee-bulletins/napoleon-bulletin-1812-12-03-russia-29th.txt",
+      "analytical_priority": "primary",
+      "phase": "peak-empire",
+      "campaign": "Russia 1812 (retreat)",
+      "bulletin_number": 29,
+      "bulletin_series": "Grande Armée 1812",
+      "correspondance_volume": 24,
+      "extraction_script": "scripts/extract-napoleon-bulletins.py",
+      "notes": "ANALYTICALLY CRITICAL. The collapse of the sacrificial economy: army dissolved in retreat, cold, starvation. Napoleon admits catastrophic losses publicly for the first time. Core document for Koenigsberg sacrifice-law analysis — the moment the sacrificial exchange fails.",
+      "verification": {
+        "min_words": 1640,
+        "required_phrases": [
+          "Molodetchna",
+          "3 décembre 1812",
+          "GRANDE ARM"
+        ]
+      }
+    },
+    {
+      "document_id": "napoleon-bulletin-1813-05-24-bautzen",
+      "title": "Bulletin of the Grande Armée (Bautzen, 20–21 May 1813)",
+      "short_title": "Bulletin: Bautzen 1813",
+      "date": "1813-05-24",
+      "date_precision": "day",
+      "register": "military-bulletin-proclamation",
+      "authorship": "Napoleon Bonaparte / imperial military voice",
+      "source_url": "https://gallica.bnf.fr/ark:/12148/bpt6k9639050s",
+      "source_citation": "Correspondance de Napoléon Ier, Tome 25, no. 20042. Paris: Plon, 1858–1870. Via Gallica / BnF.",
+      "rights_status": "public-domain",
+      "expected_raw_path": "corpus/raw/napoleon-src-02-grande-armee-bulletins/napoleon-bulletin-1813-05-24-bautzen.txt",
+      "analytical_priority": "primary",
+      "phase": "late-empire",
+      "campaign": "Bautzen 1813",
+      "bulletin_series": "Grande Armée 1813",
+      "correspondance_volume": 25,
+      "extraction_tool": ".claude/commands/gallica-download.md",
+      "notes": "Battle of Bautzen (20–21 May 1813), published from Görlitz 24 May. Allied retreat but inconclusive — Napoleon wins the field but cannot destroy the enemy army. Sacrifice language under late-empire strain: glory claimed but the sacrificial exchange is visibly breaking down. Note: the Lützen bulletin (no. 19951, 2 May 1813) is in the same tome (Tome 25, bpt6k9639050s) and was extracted to napoleon-bulletin-1813-05-02-lutzen.txt but dropped from the primary corpus as out-of-scope — retrieve if needed.",
+      "verification": {
+        "min_words": 2660,
+        "required_phrases": [
+          "Bautzen",
+          "Lutzen",
+          "GRANDE ARM"
+        ]
+      }
+    }
+  ],
+  "_missing_documents": [],
+  "_tome_map": {
+    "note": "Correspondance de Napoléon Ier, Plon 1858–1870 — verified from OCR inspection",
+    "tomes": [
+      {
+        "tome": 11,
+        "ark": "bpt6k9666763q",
+        "bulletins": "1–37",
+        "campaign": "Austerlitz 1805",
+        "downloaded": true
+      },
+      {
+        "tome": 13,
+        "ark": "bpt6k96429871",
+        "bulletins": "1–35 (1806 series)",
+        "campaign": "Jena-Auerstedt 1806",
+        "downloaded": true
+      },
+      {
+        "tome": 14,
+        "ark": "bpt6k6296790v",
+        "bulletins": "36–68",
+        "campaign": "Jena aftermath, Eylau 1807",
+        "downloaded": true
+      },
+      {
+        "tome": 15,
+        "ark": "bpt6k6294033s",
+        "bulletins": "69–87",
+        "campaign": "Friedland, Tilsit 1807",
+        "downloaded": true
+      },
+      {
+        "tome": 19,
+        "ark": "bpt6k6296216k",
+        "bulletins": "Armée d'Allemagne 1–30+",
+        "campaign": "Wagram 1809",
+        "downloaded": true
+      },
+      {
+        "tome": 24,
+        "ark": "bpt6k63342473",
+        "bulletins": "26, 29th",
+        "campaign": "Russia 1812",
+        "downloaded": true
+      },
+      {
+        "tome": 25,
+        "ark": "bpt6k9639050s",
+        "bulletins": "Lützen, Bautzen",
+        "campaign": "Germany 1813",
+        "downloaded": true
+      }
+    ]
+  }
+}

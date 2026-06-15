@@ -1,0 +1,60 @@
+{
+  "case_id": "hitler",
+  "stage": "normalize-texts",
+  "status": "ready",
+  "generated_at": "2026-06-14T20:57:47",
+  "documents_in_manifest": 8,
+  "written": 8,
+  "skipped_missing_raw": 0,
+  "errors": [],
+  "records": [
+    {
+      "document_id": "hitler-mein-kampf-vol1-ch2-wien",
+      "status": "written",
+      "raw_path": "/Users/andrewhammer/codegarden/koenigsberg-sacrifice-workbench/cases/hitler/corpus/raw/hitler-src-01-mein-kampf-selected/vol1-ch2-wien.txt",
+      "output_path": "/Users/andrewhammer/codegarden/koenigsberg-sacrifice-workbench/cases/hitler/corpus/text/hitler-mein-kampf-vol1-ch2-wien.md"
+    },
+    {
+      "document_id": "hitler-mein-kampf-vol1-ch11-race-and-people",
+      "status": "written",
+      "raw_path": "/Users/andrewhammer/codegarden/koenigsberg-sacrifice-workbench/cases/hitler/corpus/raw/hitler-src-01-mein-kampf-selected/vol1-ch11-volk-und-rasse.txt",
+      "output_path": "/Users/andrewhammer/codegarden/koenigsberg-sacrifice-workbench/cases/hitler/corpus/text/hitler-mein-kampf-vol1-ch11-race-and-people.md"
+    },
+    {
+      "document_id": "hitler-mein-kampf-vol1-ch12-nsdap",
+      "status": "written",
+      "raw_path": "/Users/andrewhammer/codegarden/koenigsberg-sacrifice-workbench/cases/hitler/corpus/raw/hitler-src-01-mein-kampf-selected/vol1-ch12-erste-periode-nsdap.txt",
+      "output_path": "/Users/andrewhammer/codegarden/koenigsberg-sacrifice-workbench/cases/hitler/corpus/text/hitler-mein-kampf-vol1-ch12-nsdap.md"
+    },
+    {
+      "document_id": "hitler-mein-kampf-vol2-ch1-weltanschauung",
+      "status": "written",
+      "raw_path": "/Users/andrewhammer/codegarden/koenigsberg-sacrifice-workbench/cases/hitler/corpus/raw/hitler-src-01-mein-kampf-selected/vol2-ch1-weltanschauung-und-partei.txt",
+      "output_path": "/Users/andrewhammer/codegarden/koenigsberg-sacrifice-workbench/cases/hitler/corpus/text/hitler-mein-kampf-vol2-ch1-weltanschauung.md"
+    },
+    {
+      "document_id": "hitler-mein-kampf-vol2-ch2-the-state",
+      "status": "written",
+      "raw_path": "/Users/andrewhammer/codegarden/koenigsberg-sacrifice-workbench/cases/hitler/corpus/raw/hitler-src-01-mein-kampf-selected/vol2-ch2-der-staat.txt",
+      "output_path": "/Users/andrewhammer/codegarden/koenigsberg-sacrifice-workbench/cases/hitler/corpus/text/hitler-mein-kampf-vol2-ch2-the-state.md"
+    },
+    {
+      "document_id": "hitler-mein-kampf-vol2-ch14-eastern-europe",
+      "status": "written",
+      "raw_path": "/Users/andrewhammer/codegarden/koenigsberg-sacrifice-workbench/cases/hitler/corpus/raw/hitler-src-01-mein-kampf-selected/vol2-ch14-ostorientierung.txt",
+      "output_path": "/Users/andrewhammer/codegarden/koenigsberg-sacrifice-workbench/cases/hitler/corpus/text/hitler-mein-kampf-vol2-ch14-eastern-europe.md"
+    },
+    {
+      "document_id": "hitler-reichstag-1939-01-30",
+      "status": "written",
+      "raw_path": "/Users/andrewhammer/codegarden/koenigsberg-sacrifice-workbench/cases/hitler/corpus/raw/hitler-src-02-reichstag-war-speeches/reichstag-prophecy-1939-01-30.txt",
+      "output_path": "/Users/andrewhammer/codegarden/koenigsberg-sacrifice-workbench/cases/hitler/corpus/text/hitler-reichstag-1939-01-30.md"
+    },
+    {
+      "document_id": "hitler-ussr-proclamation-1941-06-22",
+      "status": "written",
+      "raw_path": "/Users/andrewhammer/codegarden/koenigsberg-sacrifice-workbench/cases/hitler/corpus/raw/hitler-src-02-reichstag-war-speeches/proclamation-invasion-soviet-union-1941-06-22.txt",
+      "output_path": "/Users/andrewhammer/codegarden/koenigsberg-sacrifice-workbench/cases/hitler/corpus/text/hitler-ussr-proclamation-1941-06-22.md"
+    }
+  ]
+}

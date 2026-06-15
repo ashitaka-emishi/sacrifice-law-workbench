@@ -1,0 +1,22 @@
+SOURCE: Founders Online, National Archives
+SERIES: Papers of George Washington, Revolutionary War Series
+DOCUMENT_PATH: /documents/Washington/03-03-02-0199
+SOURCE_URL: https://founders.archives.gov/documents/Washington/03-03-02-0199
+SLUG: washington-orders-1776-02-09-winter-encampment
+DATE: 1776-02-09
+AUTHORSHIP: George Washington
+RIGHTS: Public domain (18th-century document; no copyright on transcription)
+EXTRACTION_TOOL: .claude/commands/founders-download.md
+========================================================================
+
+General Orders, 9 February 1776
+General Orders
+
+Head Quarters, Cambridge, Feby 9th 1776
+
+Parole Stirling
+Countersign Jersey.
+
+The Colonel of a Regiment is on no pretence to licence more than one Sutler within the limits of the camp: As the Quarter Master General has his Excellency's possitive Orders to punish with severity any person who is unlicenced, or licenced contrary to the above order.
+
+If any of the Militia, who are ordered into Camp, should incline to enter into the Continental Army; they are immediately to join the Regiment, they inlist into and are from that day to be struck off the Militia-rolls, that their pay may from thenceforward commence in the Regimt they engage in, and cease in the Militia: It is expected that proper attention be paid to this Order, as no plea of Ignorance will be admitted.

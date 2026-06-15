@@ -1,0 +1,7 @@
+{
+  "case_id": "lincoln",
+  "status": "corpus-ready",
+  "current_stage": "mipvu-decision-pending",
+  "updated": "2026-06-14",
+  "notes": "Manifest documents are acquired, normalized, segmented, and verified. MIPVU lexical-unit worklists have been generated for all three documents; lexical decisions and downstream annotations are pending."
+}

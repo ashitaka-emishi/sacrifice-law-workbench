@@ -1,0 +1,1259 @@
+{
+  "case_id": "napoleon",
+  "document_id": "napoleon-bulletin-1806-10-26-berlin",
+  "meta": {
+    "document_id": "napoleon-bulletin-1806-10-26-berlin",
+    "title": "18th Bulletin of the Grande Armée, 1806 series (entry into Berlin)",
+    "short_title": "Bulletin 18/1806: Berlin",
+    "date": "1806-10-26",
+    "date_precision": "day",
+    "register": "military-bulletin-proclamation",
+    "authorship": "Napoleon Bonaparte / imperial military voice",
+    "source_url": "https://gallica.bnf.fr/ark:/12148/bpt6k96429871",
+    "source_citation": "Correspondance de Napoléon Ier, Tome 13. Paris: Plon, 1858–1870. Via Gallica / BnF.",
+    "rights_status": "public-domain",
+    "expected_raw_path": "corpus/raw/napoleon-src-02-grande-armee-bulletins/napoleon-bulletin-1806-10-26-berlin.txt",
+    "analytical_priority": "primary",
+    "phase": "peak-empire",
+    "campaign": "Jena-Auerstedt",
+    "bulletin_number": 18,
+    "bulletin_series": "Grande Armée 1806 (separate series restarting from 1)",
+    "correspondance_volume": 13,
+    "extraction_script": "scripts/extract-napoleon-bulletins.py",
+    "notes": "Entry into Berlin after Jena. Imperial triumphalism at height — enemy capital occupied, Prussian monarchy humiliated.",
+    "case_id": "napoleon",
+    "raw_path": "corpus/raw/napoleon-src-02-grande-armee-bulletins/napoleon-bulletin-1806-10-26-berlin.txt",
+    "pipeline_log": [
+      {
+        "stage": "normalize-texts",
+        "script": "scripts/normalize-texts.py",
+        "generated_at": "2026-06-14T15:00:09"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "section_id": "napoleon-bulletin-1806-10-26-berlin_s01",
+      "section_label": "body",
+      "section_ordinal": 1,
+      "paragraphs": [
+        {
+          "paragraph_id": "napoleon-bulletin-1806-10-26-berlin_s01_p01",
+          "paragraph_ordinal": 1,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-26-berlin_s01_p01_s01",
+              "sentence_ordinal": 1,
+              "text": "18e BULLETIN DE LA GRANDE ARMÉE.",
+              "word_offset_start": 0,
+              "word_offset_end": 6,
+              "char_offset_start": 0,
+              "char_offset_end": 32,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1806-10-26-berlin_s01_p02",
+          "paragraph_ordinal": 2,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-26-berlin_s01_p02_s01",
+              "sentence_ordinal": 1,
+              "text": "Potsdam, 26 octobre 1806.",
+              "word_offset_start": 6,
+              "word_offset_end": 10,
+              "char_offset_start": 34,
+              "char_offset_end": 59,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1806-10-26-berlin_s01_p03",
+          "paragraph_ordinal": 3,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-26-berlin_s01_p03_s01",
+              "sentence_ordinal": 1,
+              "text": "L Empereur a passé à Potsdam la revue de la Garde à pied, composée",
+              "word_offset_start": 10,
+              "word_offset_end": 24,
+              "char_offset_start": 61,
+              "char_offset_end": 127,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1806-10-26-berlin_s01_p04",
+          "paragraph_ordinal": 4,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-26-berlin_s01_p04_s01",
+              "sentence_ordinal": 1,
+              "text": "de dix bataillons et de soixante pièces d'artillerie, servies par l'artillerie à cheval.",
+              "word_offset_start": 24,
+              "word_offset_end": 37,
+              "char_offset_start": 129,
+              "char_offset_end": 217,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-26-berlin_s01_p04_s02",
+              "sentence_ordinal": 2,
+              "text": "Ces troupes, qui ont éprouvé tant de fatigues, avaient la même tenue qu'à la parade de Paris.",
+              "word_offset_start": 37,
+              "word_offset_end": 54,
+              "char_offset_start": 218,
+              "char_offset_end": 311,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1806-10-26-berlin_s01_p05",
+          "paragraph_ordinal": 5,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-26-berlin_s01_p05_s01",
+              "sentence_ordinal": 1,
+              "text": "A la bataille d'Iena, le général de division Victor a reçu un biscaïen qui lui a fait une contusion; il a été obligé de garder le lit pendant quelques jours.",
+              "word_offset_start": 54,
+              "word_offset_end": 84,
+              "char_offset_start": 313,
+              "char_offset_end": 470,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-26-berlin_s01_p05_s02",
+              "sentence_ordinal": 2,
+              "text": "Le général de brigade Gardane, aide de camp de l'Empereur, a eu un cheval tué et a été légèrement blessé.",
+              "word_offset_start": 84,
+              "word_offset_end": 104,
+              "char_offset_start": 471,
+              "char_offset_end": 576,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-26-berlin_s01_p05_s03",
+              "sentence_ordinal": 3,
+              "text": "Quelques officiers supérieurs ont eu des blessures, d'autres des chevaux tués, et tous ont rivalisé de courage et de zèle.",
+              "word_offset_start": 104,
+              "word_offset_end": 124,
+              "char_offset_start": 577,
+              "char_offset_end": 699,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1806-10-26-berlin_s01_p06",
+          "paragraph_ordinal": 6,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-26-berlin_s01_p06_s01",
+              "sentence_ordinal": 1,
+              "text": "L'Empereur a été voir le tombeau du grand Frédéric.",
+              "word_offset_start": 124,
+              "word_offset_end": 133,
+              "char_offset_start": 701,
+              "char_offset_end": 752,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-26-berlin_s01_p06_s02",
+              "sentence_ordinal": 2,
+              "text": "Les restes de ce grand homme sont renfermés dans un cercueil de bois recouvert en cuivre, placé dans un caveau sans ornements, sans trophées, sans aucunes distinctions qui rappellent les grandes actions qu'il a faites.",
+              "word_offset_start": 133,
+              "word_offset_end": 168,
+              "char_offset_start": 753,
+              "char_offset_end": 971,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1806-10-26-berlin_s01_p07",
+          "paragraph_ordinal": 7,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-26-berlin_s01_p07_s01",
+              "sentence_ordinal": 1,
+              "text": "L'Empereur a fait présent à l'hôtel des Invalides de Paris de l'épée de Frédéric, de son cordon de l'Aigle-Noir, de sa ceinture de général, ainsi que des drapeaux que portait sa Garde dans la guerre de Sept Ans.",
+              "word_offset_start": 168,
+              "word_offset_end": 206,
+              "char_offset_start": 973,
+              "char_offset_end": 1184,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-26-berlin_s01_p07_s02",
+              "sentence_ordinal": 2,
+              "text": "Les vieux invalides de l'armée de Hanovre accueilleront avec un respect religieux tout ce qui a appartenu à un des premiers capitaines dont l'histoire conservera le souvenir.",
+              "word_offset_start": 206,
+              "word_offset_end": 233,
+              "char_offset_start": 1185,
+              "char_offset_end": 1359,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1806-10-26-berlin_s01_p08",
+          "paragraph_ordinal": 8,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-26-berlin_s01_p08_s01",
+              "sentence_ordinal": 1,
+              "text": "Lord Morpeth, envoyé d'Angleterre auprès du cabinet prussien, ne se trouvait, pendant la journée d'Iena, qu'à six lieues du champ de bataille; il a entendu le canon.",
+              "word_offset_start": 233,
+              "word_offset_end": 260,
+              "char_offset_start": 1361,
+              "char_offset_end": 1526,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-26-berlin_s01_p08_s02",
+              "sentence_ordinal": 2,
+              "text": "Un courrier vint bientôt lui annoncer que la bataille était perdue, et en un moment il fut entouré de fuyards qui le poussaÍent de tous côtés.",
+              "word_offset_start": 260,
+              "word_offset_end": 286,
+              "char_offset_start": 1527,
+              "char_offset_end": 1669,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-26-berlin_s01_p08_s03",
+              "sentence_ordinal": 3,
+              "text": "Il courait en criant : « Il ne faut pas que je sois pris. -n Il offrit jusqu'à soixante guinées pour obtenir un cheval; il en obtint un et se sauva.",
+              "word_offset_start": 286,
+              "word_offset_end": 317,
+              "char_offset_start": 1670,
+              "char_offset_end": 1818,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1806-10-26-berlin_s01_p09",
+          "paragraph_ordinal": 9,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-26-berlin_s01_p09_s01",
+              "sentence_ordinal": 1,
+              "text": "La citadelle de Spandau, située à trois lieues de Berlin et à quatre lieues de Potsdam, forte par sa situation au milieu des eaux et renfermant 1,200 hommes de garnison et une grande quantité de munitions de guerre et de bouche, a été cernée le 24 dans la nuit.",
+              "word_offset_start": 317,
+              "word_offset_end": 366,
+              "char_offset_start": 1820,
+              "char_offset_end": 2081,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-26-berlin_s01_p09_s02",
+              "sentence_ordinal": 2,
+              "text": "Le général Bertrand, aide de camp de l'Empereur, avait déjà reconnu la place.",
+              "word_offset_start": 366,
+              "word_offset_end": 379,
+              "char_offset_start": 2082,
+              "char_offset_end": 2159,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-26-berlin_s01_p09_s03",
+              "sentence_ordinal": 3,
+              "text": "Les pièces étaient disposées pour jeter des obus et intimider la garnison.",
+              "word_offset_start": 379,
+              "word_offset_end": 391,
+              "char_offset_start": 2160,
+              "char_offset_end": 2234,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-26-berlin_s01_p09_s04",
+              "sentence_ordinal": 4,
+              "text": "Le maréchal Lannes a fait signer parle commandant la capitulation ci-jointe.",
+              "word_offset_start": 391,
+              "word_offset_end": 402,
+              "char_offset_start": 2235,
+              "char_offset_end": 2311,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1806-10-26-berlin_s01_p10",
+          "paragraph_ordinal": 10,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-26-berlin_s01_p10_s01",
+              "sentence_ordinal": 1,
+              "text": "On a trouvé à Berlin des magasins considérables d'effets de campement et d'habillement.",
+              "word_offset_start": 402,
+              "word_offset_end": 415,
+              "char_offset_start": 2313,
+              "char_offset_end": 2400,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-26-berlin_s01_p10_s02",
+              "sentence_ordinal": 2,
+              "text": "On en dresse les inventaires.",
+              "word_offset_start": 415,
+              "word_offset_end": 420,
+              "char_offset_start": 2401,
+              "char_offset_end": 2430,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1806-10-26-berlin_s01_p11",
+          "paragraph_ordinal": 11,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-26-berlin_s01_p11_s01",
+              "sentence_ordinal": 1,
+              "text": "Une colonne commandée par le duc de Weimar est poursuivie par le maréchal Soult; elle s'est présentée le 23 devant Magdeburg; nos troupes étaient là depuis le 20.",
+              "word_offset_start": 420,
+              "word_offset_end": 448,
+              "char_offset_start": 2432,
+              "char_offset_end": 2594,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-26-berlin_s01_p11_s02",
+              "sentence_ordinal": 2,
+              "text": "Il est probable que cette colonne, forte de 1 5,ooo hommes, sera coupée et prise.",
+              "word_offset_start": 448,
+              "word_offset_end": 463,
+              "char_offset_start": 2595,
+              "char_offset_end": 2676,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-26-berlin_s01_p11_s03",
+              "sentence_ordinal": 3,
+              "text": "Magdeburg est le premier point de rendez-vous des troupes prussiennes.",
+              "word_offset_start": 463,
+              "word_offset_end": 473,
+              "char_offset_start": 2677,
+              "char_offset_end": 2747,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-26-berlin_s01_p11_s04",
+              "sentence_ordinal": 4,
+              "text": "Beaucoup de corps s'y rendent.",
+              "word_offset_start": 473,
+              "word_offset_end": 478,
+              "char_offset_start": 2748,
+              "char_offset_end": 2778,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-26-berlin_s01_p11_s05",
+              "sentence_ordinal": 5,
+              "text": "Les Français le bloquent.",
+              "word_offset_start": 478,
+              "word_offset_end": 482,
+              "char_offset_start": 2779,
+              "char_offset_end": 2804,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1806-10-26-berlin_s01_p12",
+          "paragraph_ordinal": 12,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-26-berlin_s01_p12_s01",
+              "sentence_ordinal": 1,
+              "text": "Une lettre de Helmstædt, récemment interceptée, contient des détails curieux.",
+              "word_offset_start": 482,
+              "word_offset_end": 492,
+              "char_offset_start": 2806,
+              "char_offset_end": 2883,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-26-berlin_s01_p12_s02",
+              "sentence_ordinal": 2,
+              "text": "Elle est ci-jointe.",
+              "word_offset_start": 492,
+              "word_offset_end": 495,
+              "char_offset_start": 2884,
+              "char_offset_end": 2903,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1806-10-26-berlin_s01_p13",
+          "paragraph_ordinal": 13,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-26-berlin_s01_p13_s01",
+              "sentence_ordinal": 1,
+              "text": "JVIM. le prince de Hatzfeld, Busching, président de la police, le président de Kircheisen, Formey, conseiller intime, Polzig, conseiller de la municipalité, MM.",
+              "word_offset_start": 495,
+              "word_offset_end": 518,
+              "char_offset_start": 2905,
+              "char_offset_end": 3065,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-26-berlin_s01_p13_s02",
+              "sentence_ordinal": 2,
+              "text": "Buck, Sieger et de Hermensdorf, conseillers députés de la ville de Berlin, ont remis ce matin à l'Empereur, à Potsdam, les clefs de la ville de Berlin.",
+              "word_offset_start": 518,
+              "word_offset_end": 545,
+              "char_offset_start": 3066,
+              "char_offset_end": 3217,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-26-berlin_s01_p13_s03",
+              "sentence_ordinal": 3,
+              "text": "Ils étaient accompagnés de MM.",
+              "word_offset_start": 545,
+              "word_offset_end": 550,
+              "char_offset_start": 3218,
+              "char_offset_end": 3248,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-26-berlin_s01_p13_s04",
+              "sentence_ordinal": 4,
+              "text": "Grote, conseiller intime des finances, le baron de Weilknitz et le baron d'Eckartstein.",
+              "word_offset_start": 550,
+              "word_offset_end": 563,
+              "char_offset_start": 3249,
+              "char_offset_end": 3336,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-26-berlin_s01_p13_s05",
+              "sentence_ordinal": 5,
+              "text": "Ils ont dit que les bruits qu'on avait répandus sur l'esprit de cette ville étaient faux; que les bourgeois et la masse du peuple avaient vu la guerre avec peine; qu'une poignée de femmes et de jeunes officiers avaient fait seuls ce tapage; qu'il n'y avait pas un seul homme sensé qui n'eût vu ce qu'on avait à craindre et qui pût deviner ce qu'on avait à espérer.",
+              "word_offset_start": 563,
+              "word_offset_end": 631,
+              "char_offset_start": 3337,
+              "char_offset_end": 3701,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-26-berlin_s01_p13_s06",
+              "sentence_ordinal": 6,
+              "text": "Comme tous les Prussiens, ils accusent le voyage de l'empereur Alexandre. des malheurs de la Prusse.",
+              "word_offset_start": 631,
+              "word_offset_end": 647,
+              "char_offset_start": 3702,
+              "char_offset_end": 3802,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-26-berlin_s01_p13_s07",
+              "sentence_ordinal": 7,
+              "text": "Le changement qui s'est dès lors opéré dans l'esprit de la Beine, qui, de femme timide et modeste s'occupant de son intérieur, est devenue turbulente et guerrière, a été une révolution subite.",
+              "word_offset_start": 647,
+              "word_offset_end": 679,
+              "char_offset_start": 3803,
+              "char_offset_end": 3995,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-26-berlin_s01_p13_s08",
+              "sentence_ordinal": 8,
+              "text": "Elle a voulu tout à coup avoir un régiment, aller au conseil, et elle a si bien mené la monarchie qu'en peu de jours elle l'a conduite au bord du précipice.",
+              "word_offset_start": 679,
+              "word_offset_end": 710,
+              "char_offset_start": 3996,
+              "char_offset_end": 4152,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1806-10-26-berlin_s01_p14",
+          "paragraph_ordinal": 14,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-26-berlin_s01_p14_s01",
+              "sentence_ordinal": 1,
+              "text": "Le quartier général est à Charlottenburg.",
+              "word_offset_start": 710,
+              "word_offset_end": 716,
+              "char_offset_start": 4154,
+              "char_offset_end": 4195,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1806-10-26-berlin_s01_p15",
+          "paragraph_ordinal": 15,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-26-berlin_s01_p15_s01",
+              "sentence_ordinal": 1,
+              "text": "Moniteur du 4 novembre 1806.",
+              "word_offset_start": 716,
+              "word_offset_end": 721,
+              "char_offset_start": 4197,
+              "char_offset_end": 4225,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1806-10-26-berlin_s01_p16",
+          "paragraph_ordinal": 16,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-26-berlin_s01_p16_s01",
+              "sentence_ordinal": 1,
+              "text": "(En minute au Dépôt de la guerre.)",
+              "word_offset_start": 721,
+              "word_offset_end": 728,
+              "char_offset_start": 4227,
+              "char_offset_end": 4261,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1806-10-26-berlin_s01_p17",
+          "paragraph_ordinal": 17,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-26-berlin_s01_p17_s01",
+              "sentence_ordinal": 1,
+              "text": "11095.",
+              "word_offset_start": 728,
+              "word_offset_end": 729,
+              "char_offset_start": 4263,
+              "char_offset_end": 4269,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1806-10-26-berlin_s01_p18",
+          "paragraph_ordinal": 18,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-26-berlin_s01_p18_s01",
+              "sentence_ordinal": 1,
+              "text": "DÉCRET.",
+              "word_offset_start": 729,
+              "word_offset_end": 730,
+              "char_offset_start": 4271,
+              "char_offset_end": 4278,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1806-10-26-berlin_s01_p19",
+          "paragraph_ordinal": 19,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-26-berlin_s01_p19_s01",
+              "sentence_ordinal": 1,
+              "text": "Berlin, 27 octobre 1806.",
+              "word_offset_start": 730,
+              "word_offset_end": 734,
+              "char_offset_start": 4280,
+              "char_offset_end": 4304,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1806-10-26-berlin_s01_p20",
+          "paragraph_ordinal": 20,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-26-berlin_s01_p20_s01",
+              "sentence_ordinal": 1,
+              "text": "ARTICLE 1er.",
+              "word_offset_start": 734,
+              "word_offset_end": 736,
+              "char_offset_start": 4306,
+              "char_offset_end": 4318,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-26-berlin_s01_p20_s02",
+              "sentence_ordinal": 2,
+              "text": "Les mémoires, cartes, plans et vues relatifs à la partie nautique et géographique de l'expédition de découvertes qui avait été confiée au capitaine de vaisseau Baudin, seront publiés.",
+              "word_offset_start": 736,
+              "word_offset_end": 764,
+              "char_offset_start": 4319,
+              "char_offset_end": 4502,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1806-10-26-berlin_s01_p21",
+          "paragraph_ordinal": 21,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-26-berlin_s01_p21_s01",
+              "sentence_ordinal": 1,
+              "text": "ART.",
+              "word_offset_start": 764,
+              "word_offset_end": 765,
+              "char_offset_start": 4504,
+              "char_offset_end": 4508,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-26-berlin_s01_p21_s02",
+              "sentence_ordinal": 2,
+              "text": "2.",
+              "word_offset_start": 765,
+              "word_offset_end": 766,
+              "char_offset_start": 4509,
+              "char_offset_end": 4511,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-26-berlin_s01_p21_s03",
+              "sentence_ordinal": 3,
+              "text": "Une somme de 39,000 francs sera mise à la disposition de notre ministre de la marine et des colonies, pour subvenir aux frais d'impression et de gravure dudit ouvrage.",
+              "word_offset_start": 766,
+              "word_offset_end": 795,
+              "char_offset_start": 4512,
+              "char_offset_end": 4679,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1806-10-26-berlin_s01_p22",
+          "paragraph_ordinal": 22,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-26-berlin_s01_p22_s01",
+              "sentence_ordinal": 1,
+              "text": "ART.",
+              "word_offset_start": 795,
+              "word_offset_end": 796,
+              "char_offset_start": 4681,
+              "char_offset_end": 4685,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-26-berlin_s01_p22_s02",
+              "sentence_ordinal": 2,
+              "text": "3.",
+              "word_offset_start": 796,
+              "word_offset_end": 797,
+              "char_offset_start": 4686,
+              "char_offset_end": 4688,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-26-berlin_s01_p22_s03",
+              "sentence_ordinal": 3,
+              "text": "Notre ministre de la marine et des colonies et notre ministre du trésor public sont chargés, chacun en ce qui le concerne, de l'exécution du présent décret.",
+              "word_offset_start": 797,
+              "word_offset_end": 824,
+              "char_offset_start": 4689,
+              "char_offset_end": 4845,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1806-10-26-berlin_s01_p23",
+          "paragraph_ordinal": 23,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-26-berlin_s01_p23_s01",
+              "sentence_ordinal": 1,
+              "text": "NAPOLÉON.",
+              "word_offset_start": 824,
+              "word_offset_end": 825,
+              "char_offset_start": 4847,
+              "char_offset_end": 4856,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1806-10-26-berlin_s01_p24",
+          "paragraph_ordinal": 24,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-26-berlin_s01_p24_s01",
+              "sentence_ordinal": 1,
+              "text": "Archives de l'Empire.",
+              "word_offset_start": 825,
+              "word_offset_end": 828,
+              "char_offset_start": 4858,
+              "char_offset_end": 4879,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1806-10-26-berlin_s01_p25",
+          "paragraph_ordinal": 25,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-26-berlin_s01_p25_s01",
+              "sentence_ordinal": 1,
+              "text": "11096.",
+              "word_offset_start": 828,
+              "word_offset_end": 829,
+              "char_offset_start": 4881,
+              "char_offset_end": 4887,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1806-10-26-berlin_s01_p26",
+          "paragraph_ordinal": 26,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-26-berlin_s01_p26_s01",
+              "sentence_ordinal": 1,
+              "text": "AU GÉNÉRAL CHASSELOLP.",
+              "word_offset_start": 829,
+              "word_offset_end": 832,
+              "char_offset_start": 4889,
+              "char_offset_end": 4911,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1806-10-26-berlin_s01_p27",
+          "paragraph_ordinal": 27,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-26-berlin_s01_p27_s01",
+              "sentence_ordinal": 1,
+              "text": "CharlottenlJUrg, 27 octobre 1806.",
+              "word_offset_start": 832,
+              "word_offset_end": 836,
+              "char_offset_start": 4913,
+              "char_offset_end": 4946,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1806-10-26-berlin_s01_p28",
+          "paragraph_ordinal": 28,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-26-berlin_s01_p28_s01",
+              "sentence_ordinal": 1,
+              "text": "Monsieur le Général Chasseloup, Erfurt, Wittenberg et Spandau, voilà les trois places qu'il faut mettre en état.",
+              "word_offset_start": 836,
+              "word_offset_end": 853,
+              "char_offset_start": 4948,
+              "char_offset_end": 5060,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-26-berlin_s01_p28_s02",
+              "sentence_ordinal": 2,
+              "text": "J'ai déjà fait connaître mes intentions sur Wittenberg.",
+              "word_offset_start": 853,
+              "word_offset_end": 861,
+              "char_offset_start": 5061,
+              "char_offset_end": 5116,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-26-berlin_s01_p28_s03",
+              "sentence_ordinal": 3,
+              "text": "Voici ce que j'entends qu'il soit fait pour Spandau.",
+              "word_offset_start": 861,
+              "word_offset_end": 870,
+              "char_offset_start": 5117,
+              "char_offset_end": 5169,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-26-berlin_s01_p28_s04",
+              "sentence_ordinal": 4,
+              "text": "Il faut que, dans trois jours d'ici, il y ait des ponts-levis, ou du moins des ponts sur chevalets, à toutes les portes de la ville; que toutes les maisons qui sont sur la muraille qui ferme la place du côté de la rivière soient abattues; que deux ou trois points soient choisis sur cette rivière pour trois petites flèches palissadées qui flanquent les murs et contiennent du canon pour s'opposer à une surprise par des bateaux; que toutes les demi-lunes soient palissadées, et que l'on travaille à creuser les fossés de manière à donner plus d'escarpe aux talus et rendre l'escalade plus difficile.",
+              "word_offset_start": 870,
+              "word_offset_end": 974,
+              "char_offset_start": 5170,
+              "char_offset_end": 5770,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-26-berlin_s01_p28_s05",
+              "sentence_ordinal": 5,
+              "text": "Le projet général que vous me remettrez me fera connaître s'il convient d'approfondir tous ces fossés ou de chercher leur défense dans les manœuvres d'eaux.",
+              "word_offset_start": 974,
+              "word_offset_end": 999,
+              "char_offset_start": 5771,
+              "char_offset_end": 5927,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-26-berlin_s01_p28_s06",
+              "sentence_ordinal": 6,
+              "text": "Mon intention est qu'on travaille à fraiser toute la",
+              "word_offset_start": 999,
+              "word_offset_end": 1008,
+              "char_offset_start": 5928,
+              "char_offset_end": 5980,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1806-10-26-berlin_s01_p29",
+          "paragraph_ordinal": 29,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-26-berlin_s01_p29_s01",
+              "sentence_ordinal": 1,
+              "text": "place, à palissader tous les chemins couverts, et à établir une grosse palissade au milieu de tous les fossés; car les eaux, dans la saison où nous allons entrer, peuvent disparaître par la gelée, et, comme la Sprée n'est point rapide, la place ne pourra se trouver à l'abri d'un coup de main qu'en mettant en bon état le mur qui ferme la place du côté de la rivière et les trois flèches ci-dessus ordonnées.",
+              "word_offset_start": 1008,
+              "word_offset_end": 1083,
+              "char_offset_start": 5982,
+              "char_offset_end": 6390,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-26-berlin_s01_p29_s02",
+              "sentence_ordinal": 2,
+              "text": "Je donne ordre à l'artillerie de construire sur-le-champ les batteries.",
+              "word_offset_start": 1083,
+              "word_offset_end": 1093,
+              "char_offset_start": 6391,
+              "char_offset_end": 6462,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-26-berlin_s01_p29_s03",
+              "sentence_ordinal": 3,
+              "text": "Les terres que vous retirerez de la cunette ordonnée dans les fossés serviront à relever d'autant les parapets.",
+              "word_offset_start": 1093,
+              "word_offset_end": 1111,
+              "char_offset_start": 6463,
+              "char_offset_end": 6574,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1806-10-26-berlin_s01_p30",
+          "paragraph_ordinal": 30,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-26-berlin_s01_p30_s01",
+              "sentence_ordinal": 1,
+              "text": "Toutes les maisons qui masquent la citadelle seront abattues dans l'espace de trois jours; les moulins seuls resteront, mais se trouveront par là très-isolés.",
+              "word_offset_start": 1111,
+              "word_offset_end": 1135,
+              "char_offset_start": 6576,
+              "char_offset_end": 6734,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1806-10-26-berlin_s01_p31",
+          "paragraph_ordinal": 31,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-26-berlin_s01_p31_s01",
+              "sentence_ordinal": 1,
+              "text": "Il sera aussi établi pour le canon de campagne, ou au moins pour les hommes à pied, une communication entre la citadelle et la place, le long de l'estacade qui existe; il est même nécessaire que le passage qu'on y établira, soit en sacs à terre ou en gros morceaux de bois, soit à l'abri de la mitraille.",
+              "word_offset_start": 1135,
+              "word_offset_end": 1193,
+              "char_offset_start": 6736,
+              "char_offset_end": 7040,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-26-berlin_s01_p31_s02",
+              "sentence_ordinal": 2,
+              "text": "Cette première défense est indispensable, mais ne sera pas suffisante.",
+              "word_offset_start": 1193,
+              "word_offset_end": 1203,
+              "char_offset_start": 7041,
+              "char_offset_end": 7111,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-26-berlin_s01_p31_s03",
+              "sentence_ordinal": 3,
+              "text": "On travaillera donc à palissader sur les démolitions ordonnées, sur lesquelles on fera un tracé qu'on palissadera.",
+              "word_offset_start": 1203,
+              "word_offset_end": 1220,
+              "char_offset_start": 7112,
+              "char_offset_end": 7226,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-26-berlin_s01_p31_s04",
+              "sentence_ordinal": 4,
+              "text": "Ces deux moyens me paraissent suffisants sous le feu de la citadelle, dans le cas où le lac disparaîtrait par une forte gelée; car, sans cette circonstance, la première défense serait suffisante.",
+              "word_offset_start": 1220,
+              "word_offset_end": 1252,
+              "char_offset_start": 7227,
+              "char_offset_end": 7422,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1806-10-26-berlin_s01_p32",
+          "paragraph_ordinal": 32,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-26-berlin_s01_p32_s01",
+              "sentence_ordinal": 1,
+              "text": "Vous désignerez sans délai, dans l'intérieur du fort, l'emplacement pour les fours nécessaires à la confection de 60,000 rations de pain par jour.",
+              "word_offset_start": 1252,
+              "word_offset_end": 1275,
+              "char_offset_start": 7424,
+              "char_offset_end": 7570,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-26-berlin_s01_p32_s02",
+              "sentence_ordinal": 2,
+              "text": "Vous désignerez les souterrains capables de contenir un million de poudre et quatre millions de cartouches, un emplacement où l'on puisse établir un hôpital pour 1,200 blessés.",
+              "word_offset_start": 1275,
+              "word_offset_end": 1302,
+              "char_offset_start": 7571,
+              "char_offset_end": 7747,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-26-berlin_s01_p32_s03",
+              "sentence_ordinal": 3,
+              "text": "Vous désignerez dans la ville sept locaux pour les dépôts de sept corps de la Grande Armée, devant chacun contenir 200 hommes convalescents de chacun des corps d'armée.",
+              "word_offset_start": 1302,
+              "word_offset_end": 1330,
+              "char_offset_start": 7748,
+              "char_offset_end": 7916,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-26-berlin_s01_p32_s04",
+              "sentence_ordinal": 4,
+              "text": "Vous aiderez l'artillerie à relever les parapets des bastions par de bons épau- lements en gabions ou saucissons.",
+              "word_offset_start": 1330,
+              "word_offset_end": 1348,
+              "char_offset_start": 7917,
+              "char_offset_end": 8030,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1806-10-26-berlin_s01_p33",
+          "paragraph_ordinal": 33,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-26-berlin_s01_p33_s01",
+              "sentence_ordinal": 1,
+              "text": "Mon intention est qu'avant huit ou dix jours tout ce que je viens de prescrire soit terminé.",
+              "word_offset_start": 1348,
+              "word_offset_end": 1365,
+              "char_offset_start": 8032,
+              "char_offset_end": 8124,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1806-10-26-berlin_s01_p34",
+          "paragraph_ordinal": 34,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-26-berlin_s01_p34_s01",
+              "sentence_ordinal": 1,
+              "text": "J'attends le rapport que vous me ferez pour adopter un plus grand plan relativement au système des eaux, et à un système de redoutes qui embrasserait le local et qui ferait que 8 à 1 0,000 hommes puissent résister à toute une armée, en supposant les eaux non gelées.",
+              "word_offset_start": 1365,
+              "word_offset_end": 1414,
+              "char_offset_start": 8126,
+              "char_offset_end": 8392,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1806-10-26-berlin_s01_p35",
+          "paragraph_ordinal": 35,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-26-berlin_s01_p35_s01",
+              "sentence_ordinal": 1,
+              "text": "Par toutes ces flèches et redoutes, je n'entends point de simples redoutes de campagne, auxquelles je n'accorde aucune confiance, mais de bonnes redoutes revêtues en bois, ayant aussi des contrescarpes en bois.",
+              "word_offset_start": 1414,
+              "word_offset_end": 1446,
+              "char_offset_start": 8394,
+              "char_offset_end": 8604,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-26-berlin_s01_p35_s02",
+              "sentence_ordinal": 2,
+              "text": "Il est prouvé qu'une pièce de bois de 8 pouces de diamètre n'est point brisée par un obus ni un coup de canon.",
+              "word_offset_start": 1446,
+              "word_offset_end": 1469,
+              "char_offset_start": 8605,
+              "char_offset_end": 8715,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-26-berlin_s01_p35_s03",
+              "sentence_ordinal": 3,
+              "text": "La manière de les placer, en conciliant l'économie du temps avec la plus grande solidité, est absolument du ressort des officiers du génie.",
+              "word_offset_start": 1469,
+              "word_offset_end": 1492,
+              "char_offset_start": 8716,
+              "char_offset_end": 8855,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-26-berlin_s01_p35_s04",
+              "sentence_ordinal": 4,
+              "text": "Si leurs idées ne sont point assises, il sera peut-être convenable que, dans les différentes redoutes, ils essayent de différentes méthodes.",
+              "word_offset_start": 1492,
+              "word_offset_end": 1513,
+              "char_offset_start": 8856,
+              "char_offset_end": 8996,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-26-berlin_s01_p35_s05",
+              "sentence_ordinal": 5,
+              "text": "Vous ne manquerez point de renfermer dans la citadelle une grande quantité de bois, de manière que la garnison, en cas d'attaque, ait le moyen de se blinder rapidement le long des talus intérieurs.",
+              "word_offset_start": 1513,
+              "word_offset_end": 1547,
+              "char_offset_start": 8997,
+              "char_offset_end": 9194,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-26-berlin_s01_p35_s06",
+              "sentence_ordinal": 6,
+              "text": "On pourrait même, sous ces blindages, mettre à couvert la farine et autres objets qui ne seraient plus en sûreté dans le magasin.",
+              "word_offset_start": 1547,
+              "word_offset_end": 1570,
+              "char_offset_start": 9195,
+              "char_offset_end": 9324,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1806-10-26-berlin_s01_p36",
+          "paragraph_ordinal": 36,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-26-berlin_s01_p36_s01",
+              "sentence_ordinal": 1,
+              "text": "Il est convenable qu'il y ait au moins quatre officiers du génie chargés de cette place, dont un chargé du détail, et un commandant le génie, seront destinés à défendre Spandau.",
+              "word_offset_start": 1570,
+              "word_offset_end": 1601,
+              "char_offset_start": 9326,
+              "char_offset_end": 9503,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-26-berlin_s01_p36_s02",
+              "sentence_ordinal": 2,
+              "text": "Vous soumettrez à ma signature l'ordre qui les placera dans Spandau, afin que, sous aucun prétexte. même celui de maladie, ils ne puissent sortir de la place.",
+              "word_offset_start": 1601,
+              "word_offset_end": 1628,
+              "char_offset_start": 9504,
+              "char_offset_end": 9662,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-26-berlin_s01_p36_s03",
+              "sentence_ordinal": 3,
+              "text": "Le commandant doit avoir au moins le grade de colonel.",
+              "word_offset_start": 1628,
+              "word_offset_end": 1638,
+              "char_offset_start": 9663,
+              "char_offset_end": 9717,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1806-10-26-berlin_s01_p37",
+          "paragraph_ordinal": 37,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-26-berlin_s01_p37_s01",
+              "sentence_ordinal": 1,
+              "text": "NAPOLÉON.",
+              "word_offset_start": 1638,
+              "word_offset_end": 1639,
+              "char_offset_start": 9719,
+              "char_offset_end": 9728,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1806-10-26-berlin_s01_p38",
+          "paragraph_ordinal": 38,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-26-berlin_s01_p38_s01",
+              "sentence_ordinal": 1,
+              "text": "Comm. par M. Auguste Prost, de Metz.",
+              "word_offset_start": 1639,
+              "word_offset_end": 1646,
+              "char_offset_start": 9730,
+              "char_offset_end": 9766,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1806-10-26-berlin_s01_p39",
+          "paragraph_ordinal": 39,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-26-berlin_s01_p39_s01",
+              "sentence_ordinal": 1,
+              "text": "( En minute aux Arch. de l'Emp.)",
+              "word_offset_start": 1646,
+              "word_offset_end": 1653,
+              "char_offset_start": 9768,
+              "char_offset_end": 9800,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-bulletin-1806-10-26-berlin_s01_p40",
+          "paragraph_ordinal": 40,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-bulletin-1806-10-26-berlin_s01_p40_s01",
+              "sentence_ordinal": 1,
+              "text": "11097.",
+              "word_offset_start": 1653,
+              "word_offset_end": 1654,
+              "char_offset_start": 9802,
+              "char_offset_end": 9808,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "pipeline_log": [
+    {
+      "stage": "segment-texts",
+      "script": "scripts/segment-texts.py",
+      "generated_at": "2026-06-14T15:00:25",
+      "sentence_count": 88
+    }
+  ]
+}

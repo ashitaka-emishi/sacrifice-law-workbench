@@ -1,0 +1,177 @@
+{
+  "version": "1.0",
+  "case_id": "hitler",
+  "generated_at": "2026-05-05T02:40:26",
+  "status": "stub",
+  "total_instances": 0,
+  "cluster_analyses": [
+    {
+      "cluster_id": "hitler-01-volk-racial-body",
+      "cluster_name": "Volk / racial body",
+      "status": "provisional",
+      "instance_count": 0,
+      "instance_ids": [],
+      "by_document": {},
+      "by_register": {},
+      "koenigsberg_profile": {
+        "fantasy_type_distribution": {},
+        "violence_logic_distribution": {},
+        "obligatory_frame_rate": null,
+        "sacrificial_economy_rate": null,
+        "absence_flags_distribution": {}
+      },
+      "analyst_notes": null,
+      "interpretive_summary": null,
+      "what_metaphor_conceals": null
+    },
+    {
+      "cluster_id": "hitler-02-fuhrer-embodiment",
+      "cluster_name": "Führer embodiment",
+      "status": "provisional",
+      "instance_count": 0,
+      "instance_ids": [],
+      "by_document": {},
+      "by_register": {},
+      "koenigsberg_profile": {
+        "fantasy_type_distribution": {},
+        "violence_logic_distribution": {},
+        "obligatory_frame_rate": null,
+        "sacrificial_economy_rate": null,
+        "absence_flags_distribution": {}
+      },
+      "analyst_notes": null,
+      "interpretive_summary": null,
+      "what_metaphor_conceals": null
+    },
+    {
+      "cluster_id": "hitler-03-jew-parasite-disease",
+      "cluster_name": "Jew/enemy as parasite / disease / poison",
+      "status": "provisional",
+      "instance_count": 0,
+      "instance_ids": [],
+      "by_document": {},
+      "by_register": {},
+      "koenigsberg_profile": {
+        "fantasy_type_distribution": {},
+        "violence_logic_distribution": {},
+        "obligatory_frame_rate": null,
+        "sacrificial_economy_rate": null,
+        "absence_flags_distribution": {}
+      },
+      "analyst_notes": null,
+      "interpretive_summary": null,
+      "what_metaphor_conceals": null
+    },
+    {
+      "cluster_id": "hitler-04-purification-surgery",
+      "cluster_name": "Purification / cleansing / exterminatory surgery",
+      "status": "provisional",
+      "instance_count": 0,
+      "instance_ids": [],
+      "by_document": {},
+      "by_register": {},
+      "koenigsberg_profile": {
+        "fantasy_type_distribution": {},
+        "violence_logic_distribution": {},
+        "obligatory_frame_rate": null,
+        "sacrificial_economy_rate": null,
+        "absence_flags_distribution": {}
+      },
+      "analyst_notes": null,
+      "interpretive_summary": null,
+      "what_metaphor_conceals": null
+    },
+    {
+      "cluster_id": "hitler-05-struggle-destiny",
+      "cluster_name": "Struggle / destiny / thousand-year mission",
+      "status": "provisional",
+      "instance_count": 0,
+      "instance_ids": [],
+      "by_document": {},
+      "by_register": {},
+      "koenigsberg_profile": {
+        "fantasy_type_distribution": {},
+        "violence_logic_distribution": {},
+        "obligatory_frame_rate": null,
+        "sacrificial_economy_rate": null,
+        "absence_flags_distribution": {}
+      },
+      "analyst_notes": null,
+      "interpretive_summary": null,
+      "what_metaphor_conceals": null
+    },
+    {
+      "cluster_id": "hitler-06-sacrifice-martyrdom",
+      "cluster_name": "Sacrifice / martyrdom / blood witness",
+      "status": "provisional",
+      "instance_count": 0,
+      "instance_ids": [],
+      "by_document": {},
+      "by_register": {},
+      "koenigsberg_profile": {
+        "fantasy_type_distribution": {},
+        "violence_logic_distribution": {},
+        "obligatory_frame_rate": null,
+        "sacrificial_economy_rate": null,
+        "absence_flags_distribution": {}
+      },
+      "analyst_notes": null,
+      "interpretive_summary": null,
+      "what_metaphor_conceals": null
+    },
+    {
+      "cluster_id": "hitler-07-rebirth-reich",
+      "cluster_name": "National rebirth / Reich renewal",
+      "status": "provisional",
+      "instance_count": 0,
+      "instance_ids": [],
+      "by_document": {},
+      "by_register": {},
+      "koenigsberg_profile": {
+        "fantasy_type_distribution": {},
+        "violence_logic_distribution": {},
+        "obligatory_frame_rate": null,
+        "sacrificial_economy_rate": null,
+        "absence_flags_distribution": {}
+      },
+      "analyst_notes": null,
+      "interpretive_summary": null,
+      "what_metaphor_conceals": null
+    },
+    {
+      "cluster_id": "hitler-08-victim-erasure",
+      "cluster_name": "Victim erasure / moral inversion",
+      "status": "provisional",
+      "instance_count": 0,
+      "instance_ids": [],
+      "by_document": {},
+      "by_register": {},
+      "koenigsberg_profile": {
+        "fantasy_type_distribution": {},
+        "violence_logic_distribution": {},
+        "obligatory_frame_rate": null,
+        "sacrificial_economy_rate": null,
+        "absence_flags_distribution": {}
+      },
+      "analyst_notes": null,
+      "interpretive_summary": null,
+      "what_metaphor_conceals": null
+    }
+  ],
+  "corpus_profile": {
+    "by_document": {},
+    "by_register": {},
+    "by_cluster": {},
+    "by_fantasy_type": {},
+    "by_violence_logic": {},
+    "by_absence_flag": {}
+  },
+  "errors": [],
+  "pipeline_log": [
+    {
+      "stage": "run-case-analysis",
+      "script": "scripts/run-case-analysis.py",
+      "generated_at": "2026-05-05T02:40:26"
+    }
+  ]
+}

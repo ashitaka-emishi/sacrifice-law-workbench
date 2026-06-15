@@ -1,0 +1,19 @@
+{
+  "case_id": "napoleon",
+  "name": "Napoleon / Napoleonic Wars",
+  "corpus_model": "Napoleon-only individual leader corpus",
+  "voices": [
+    "Napoleon Bonaparte"
+  ],
+  "phases": [
+    "rise",
+    "imperial-consolidation",
+    "peak-empire",
+    "collapse",
+    "exile-self-mythologization"
+  ],
+  "source_language": "fr",
+  "annotation_language_policy": "source-with-glosses",
+  "gloss_terms": ["gloire", "sacrifice", "patrie", "honneur", "victoire", "mort", "mourir", "sang"],
+  "status": "draft"
+}

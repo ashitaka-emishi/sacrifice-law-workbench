@@ -1,0 +1,5 @@
+---
+title: "Lincoln / American Civil War"
+---
+
+Draft case overview for `lincoln`.

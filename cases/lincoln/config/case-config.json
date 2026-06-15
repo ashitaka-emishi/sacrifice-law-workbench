@@ -1,0 +1,17 @@
+{
+  "case_id": "lincoln",
+  "name": "Lincoln / American Civil War",
+  "corpus_model": "Newly selected Lincoln corpus",
+  "voices": [
+    "Abraham Lincoln"
+  ],
+  "phases": [
+    "pre-war-union-republic-language",
+    "secession-crisis",
+    "early-war",
+    "emancipation-rebirth",
+    "peak-war-sacrifice",
+    "final-reconciliation-memorialization"
+  ],
+  "status": "draft"
+}

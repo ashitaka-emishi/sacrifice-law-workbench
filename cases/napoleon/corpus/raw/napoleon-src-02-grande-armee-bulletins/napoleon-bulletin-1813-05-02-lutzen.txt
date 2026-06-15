@@ -1,0 +1,66 @@
+SOURCE: Correspondance de Napoléon Ier, Plon, Paris, 1858–1870
+VOLUME: Tome 25
+ARCHIVE: Bibliothèque nationale de France / Gallica
+TOME_FILE: tome-25.txt
+SLUG: napoleon-bulletin-1813-05-02-lutzen
+DATE: 1813-05-02
+CAMPAIGN: Lützen 1813
+RIGHTS: Public domain (original pre-1821; Plon edition pre-1900; BnF open access)
+EXTRACTION_TOOL: scripts/extract-napoleon-bulletins.py
+SELECTION_NOTE: Bulletin de la Grande Armée. Lützen, 2 May 1813. First major battle of the 1813 German campaign. Context for Bautzen.
+BULLETIN_HEADING: 19951. — BULLETIN DE LA GRANDE ARMÉE'.
+========================================================================
+
+19951. — BULLETIN DE LA GRANDE ARMÉE'.
+
+Lützen. a mai 1813.
+
+Les combats de Weissenfels et de Lützen n'étaient que le prélude
+
+Voir la note sur les Bulletins de In Grande, Armée, t. XXIII. p. (iog.
+
+d'événements de la plus haute importance. L'empereur Alexandre et le roi de Prusse, qui étaient arrivés à Dresde avec toutes leurs forces dans les derniers jours d'avril, apprenant que l'armée française avait débouché de la Thuringe, adoptèrent le plan de lui livrer bataille dans les plaines de Lulzen, et se mirent en marche pour en occuper la position; mais ils furent prévenus par la rapidité des mouvements de l'armée française. Ils persistèrent cependant dans leurs projets, et résolurent d'attaquer l'armée pour la déposter des positions qu'elle avait prises.
+
+La position de l'armée française au 2 mai, à neuf heures du matin, était la suivante :
+
+La gauche de l'armée s'appuyait à l'Elster; elle était formée par le vice-roi, ayant sous ses ordres les 5c et 11e corps. Le centre était commandé par le prince de la Moskova, au village de Kaja. L'Empereur avec la jeune et la vieille Garde était à Lützen.
+
+Le duc de Raguse était au défilé de Posern, et formait la droite avec ses trois divisions. Enfin le général Bertrand, commandant le he corps, marchait pour se rendre à ce défilé. L'ennemi débouchait et passait l'Elster aux ponts de Zwenkau, Pegau et Zeitz. Sa Majesté, ayant l'espérance de le prévenir dans son mouvement et pensant qu'il ne pourrait attaquer que le 3, ordonna au général Lauriston, dont le corps formait l'extrémité de la gauche, de se porter sur Leipzig, afin de déconcerter les projets de l'ennemi et de placer l'armée française, pour la journée du 3, dans une position toute différente de celle où les ennemis avaient compté la trouver, et où elle était effectivement le 2, et de porter ainsi de la confusion et du désordre dans leurs colonnes.
+
+A neuf heures du matin, Sa Majesté, ayant entendu une canonnade du coté de Leipzig, s'y porta au galop. L'ennemi défendait le petit village de Lindenau et les ponts en avant de Leipzig. Sa Majesté n'attendait que le moment où ces dernières positions seraient enlevées pour mettre en mouvement toute son armée dans cette direction, la faire pivoter sur Leipzig, passer sur la droite de l'Elster et prendre l'ennemi à revers ; mais à dix heures l'armée ennemie déboucha vers Kaja, sur plusieurs colonnes dune noire profondeur; l'horizon en était obscurci. L'ennemi présentait
+
+des forces qui paraissaient immenses : l'Empereur fit sur-le-champ ses dispositions. Le vice-roi reçut l'ordre de se porter sur la gauche du prince de la Moskova; mais il lui fallait trois heures pour exécuter ce mouvement. Le prince de la Moskova prit les armes, et avec ses cinq divisions soutint le combat, qui au bout d'une demi-heure devint terrible. Sa Majesté se porta elle-même à la tête de la Garde derrière le centre de l'armée, soutenant la droite du prince de la Moskova. Le duc de Raguse, avec ses trois divisions, occupait l'extrême droite. Le général Bertrand eut ordre de déboucher sur les derrières de l'armée ennemie, au moment où la ligne se trouverait le plus fortement engagée. La fortune se plut à couronner du plus brillant succès toutes ces dispositions. L'ennemi, qui paraissait certain de la réussite de son entreprise, marchait pour déborder notre droite et gagner le chemin de Weissenfels : le général Compans, général de bataille du premier mérite, à la tête de la irc division du duc de Raguse, l'arrêta tout court. Les régiments de marine soutinrent plusieurs charges avec sang-froid, et couvrirent le champ de bataille de l'élite de la cavalerie ennemie. Mais les grands efforts d'infanterie, d'artillerie et de cavalerie étaient sur le centre. Quatre des cinq divisions du prince de la Moskova étaient déjà engagées. Le village de Kaja fut pris et repris plusieurs fois. Ce village était resté au pouvoir de l'ennemi : le comte de Lobau dirigea le général Ricard pour reprendre le village; il fut repris.
+
+La bataille embrassait une ligne de deux lieues, couverte de feu, de fumée et de tourbillons de poussière. Le prince de la Moskova, le général Souham, le général Girard, étaient partout, faisaient face à tout. Blessé de plusieurs balles, le général Girard voulut rester sur le champ de bataille. Il déclara vouloir mourir en commandant et dirigeant ses troupes, puisque le moment était arrivé, pour tous les Français qui avaient du cœur, de vaincre ou de périr.
+
+Cependant on commençait à apercevoir dans le lointain la poussière et les premiers feux du corps du général Bertrand. Au même moment le vice-roi entrait en ligne sur la gauche, et le duc de Tarente attaquait la réserve de l'ennemi et abordait au village où l'ennemi appuyait sa droite.
+
+Dans ce moment, l'ennemi redoubla ses efforts sur le centre; le village de Raja fut emporté d'e nouveau; notre centre fléchit; quelques bataillons se débandèrent; mais cette valeureuse jeunesse, à la vue de l'Empereur, se rallia en criant : Vive l'Empereur / Sa Majesté jugea que le moment de crise qui décide du gain on de la perte des batailles était arrivé: il nly avait plus un moment à perdre. L'Empereur ordonna au ,duc -de Trévise de se porter avec seize bataillons de la jeune Garde au village de Kaja,. dé donner tête baissée, de culbuter l'ennemi, de reprendre le village, et de faire main. basse sur tout ce qui s'y trouvait. Au même moment, Sa Majesté ordonna à son aide de camp le général Drouot, officier d'artillerie de la plus grande distinction, de réunir une batterie de quatrevingts pièces et de la placer en avant deia vieille Garde, -qui iut disposée en échelons comme quatre redoutes, pour soutenir le centre, toute notre cavalerie rangée en bataille derrière. Les généraux Dulauloy, Drouot et Desvaux partirent au galop avec leurs quatre-vingts bouches à feu placées en un même groupe. Le feu devint épouvantable. L'ennemi fléchit de tous côtés. Le duc île Trévise emporta ,sans coup férir le village de Kaja, culbuta l'ennemi et continua à se porter en avant en battant -la charge. Cavalerie, infanterie, artillerie de l'ennemi, tout se mit en retraite.
+
+Le général Bonet., commandant une division du duc de Raguse, reçut ordre de faire un mouvement par sa gauche sur Kaja, pour appuyer les succès du centre. Il soutint plusieurs charges de cavalerie dans lesquelles l'ennemi éprouva de grandes pertes.
+
+Cependant le général comte Bertrand s'avançait et entrait en ligne. C'est en vain que la cavalerie ennemie caracola autour de ses carrés; sa marche n'en fut pas ralentie. Pour le rejoindre plus promptement, l'Empereur ordonna un changement de direction en pivotant sur Kaja. Toute la droite fit un changement de front, la droite en avant.
+
+L'ennemi ne fit plus que fuir, nous le poursuivîmes une lieue et demie. Nous arrivâmes bientôt sur la. hauteur que l'empereur Alexandre, je roi de Prusse et la- famille de Brandebourg y occupaient pendant la bataillè. Un officier prisonnier, qui se trouvait la , nous apprit cette circonstance. - Nous avons fait plusieurs milliers de prisonniers. Le -nombre n'a pu
+
+en être plus considérable, vu l'infériorité de notre cavalerie et le désir que l'Empereur avait montré de l'épargner.
+
+Au commencement de la bataille, l'Empereur avait dit aux troupes : « C'est une bataille d'Egypte. Une bonne infanterie soutenue par de l'artillerie doit savoir se suffire. *
+
+Le général Gouré, chef d'état-major du prince de la Moskova, a été tué, mort digne d'un si bon soldat! Notre, perte se monte à 10,000 tués ou blessés. Celle de l'ennemi peut être évaluée de 25 à 30,000 hommes. La garde royale de Prusse a été détruite. Les gardes de l'empereur de Russie ont considérablement souffert; les deux divisions de dix régiments de cuirassiers russes ont été écrasées. «
+
+Sa Majesté ne saurait trop faire d'éloge de la bonne volonté, du courage et de l'intrépidité de l'armée. Nos jeunes soldats ne considéraient pas le danger. Ils ont dans cette grande circonstance révélé toute la noblesse du sang français.
+
+L'état-major général, dans sa relation , fera connaître les belles actions qui ont illustré cette brillante journée, qui, comme un coup de tonnerre, a pulvérisé les chimériques espérances et tous les calculs de destruction et de démembrement de l'Empire. Les trames ténébreuses ourdies par le cabinet de Saint-James pendant tout un hiver se trouvent en un instant dénouées comme le nœud gordien par l'épée d'Alexandre.
+
+Le prince de Hesse-Homburg a été tué. Les prisonniers disent que le jeune prince royal de Prusse a été blessé, que. le prince de MecklenburgStrelitz a été tué.
+
+L'infanterie de la vieille Garde, dont six bataillons étaient seulement arrivés, a soutenu par sa présence l'affaire avec ce sang-froid qui la caractérise. Elle n'a pas tiré un coup de fusil. La moitié de l'armée n'a pas donné, car les quatre divisions du corps du général Lawriston n'ont fait qu'occuper Leipzig; les trois divisions du duc de Reggio étaient encore à deux journées du champ de bataille. Le comte Bertrand n'a donné qu'avec une de ses divisions, et si légèrement, qu'elle n'a pas perdu 00 hommes; ses 2e et 3e divisions n'ont pas donné. La 2e division de la jeune Garde, commandée par le général Barrois, était encore à cinq
+
+journées; il en est de même de la moitié de la vieille Garde, commandée par le général Decous, qui n'était encore qu'à Erfurt; des batteries de réserve formant plus de 100 bouches à feu n'avaient pas rejoint, et elles sont encore en marche depuis Mayence jusqu'à Erfurt; le corps du duc de Bellune était aussi à trois jours du champ de bataille; le corps de cavalerie du général Sebastiani, avec les trois divisions du prince d'Eckmühl, était du côté du bas Elbe. L'armée alliée, forte de i5o à 200,000 hommes, commandée par les deux souverains, avant un grand nombre de princes de la maison de Prusse à sa tête, a donc été défaite et mise en déroute par moins de la moitié de l'armée française.
+
+Les ambulances et le champ de bataille offraient le spectacle le plus touchant: les jeunes soldats, à la vue de l'Empereur, faisaient trêve à leurs douleurs en criant : Vive 1 Empereur ! r Il y a vingt ans, a dit l'Empereur, que je commande les armées françaises; je n'ai pas encore vu autant de bravoure et de dévouement. r
+
+L'Europe serait enfin tranquille si les souverains et les ministres qui dirigent leurs cabinets pouvaient avoir été présents sur ce champ de bataille. Ils renonceraient à l'espérance de faire rétrograder l'étoile de la France; ils, verraient que les conseillers qui veulent démembrer lEmpire français et humilier l'Empereur préparent la perte de leurs souverains.
+
+Extrait du Moniteur du 9 mai 1813.

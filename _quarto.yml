@@ -1,0 +1,118 @@
+project:
+  type: website
+  output-dir: _site
+  render:
+    - "**/*.qmd"
+    - "**/*.md"
+    - "!README.md"
+    - "!AGENTS.md"
+    - "!cases/**/corpus/**"
+    - "!cases/**/status/**"
+    - "!cases/**/config/**"
+    - "!schemas/**"
+    - "!prompts/**"
+    - "!scripts/**"
+
+website:
+  title: "The Sacrifice Law Workbench"
+  description: "A comparative research workbench for assessing evidentiary support for Koenigsberg's Law of Sacrifice"
+  draft-mode: visible
+
+  navbar:
+    background: primary
+    search: true
+    left:
+      - href: index.qmd
+        text: Home
+      - href: case-selection.qmd
+        text: Cases
+      - href: methodology.qmd
+        text: Methodology
+      - href: starter-corpus-proposal.qmd
+        text: Corpus
+      - href: starter-cluster-proposal.qmd
+        text: Clusters
+      - href: cases/x-case/artifacts/qmd/x-case-overview.qmd
+        text: Synthesis
+    right:
+      - icon: github
+        href: https://github.com/
+        aria-label: View project on GitHub
+
+  sidebar:
+    style: docked
+    search: true
+    contents:
+      - href: index.qmd
+        text: Overview
+      - href: project-status.qmd
+        text: Project Status
+      - href: CURRENT_STATUS.md
+        text: Current Status
+      - href: PROJECT_BRIEF.md
+        text: Project Brief
+      - href: OPEN_DECISIONS.md
+        text: Open Decisions
+      - section: Methodology
+        contents:
+          - href: methodology.qmd
+            text: Methodology
+          - href: PRIMARY_RESEARCH_QUESTION.md
+            text: Primary Research Question
+          - href: MIPVU_ANNOTATION_GUIDE.md
+            text: MIPVU Annotation Guide
+          - href: corpus-rights-policy.qmd
+            text: Corpus Rights Policy
+          - href: corpus-limitations.qmd
+            text: Corpus Limitations
+          - href: validation-protocol.qmd
+            text: Validation Protocol
+          - href: FUTURE_LANGGRAPH_COMPATIBILITY.md
+            text: Future LangGraph Compatibility
+      - section: Cases
+        contents:
+          - href: case-selection.qmd
+            text: Case Selection
+          - href: cases/am-rev/artifacts/qmd/case-overview.qmd
+            text: American Revolution
+          - href: cases/napoleon/artifacts/qmd/case-overview.qmd
+            text: Napoleon
+          - href: cases/lincoln/artifacts/qmd/case-overview.qmd
+            text: Lincoln
+          - href: cases/hitler/artifacts/qmd/case-overview.qmd
+            text: Hitler
+      - section: Corpus
+        contents:
+          - href: starter-corpus-proposal.qmd
+            text: Starter Corpus Proposal
+      - section: Clusters
+        contents:
+          - href: starter-cluster-proposal.qmd
+            text: Starter Cluster Proposal
+      - section: Synthesis
+        contents:
+          - href: cases/x-case/artifacts/qmd/x-case-overview.qmd
+            text: X-Case Overview
+          - href: cases/x-case/artifacts/qmd/shared-clusters.qmd
+            text: Shared Clusters
+          - href: cases/x-case/artifacts/qmd/case-comparison.qmd
+            text: Case Comparison
+          - href: cases/x-case/artifacts/qmd/sacrifice-law-findings.qmd
+            text: Law of Sacrifice Findings
+          - href: cases/x-case/artifacts/qmd/war-genocide-distinction.qmd
+            text: War / Genocide Distinction
+          - href: cases/x-case/artifacts/qmd/rival-explanations.qmd
+            text: Rival Explanations
+          - href: cases/x-case/artifacts/qmd/validation-summary.qmd
+            text: Validation Summary
+
+format:
+  html:
+    theme: [cosmo, custom.scss]
+    toc: true
+    toc-depth: 3
+    include-in-header:
+      text: |
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@400;600;700&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">

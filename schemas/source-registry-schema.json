@@ -1,0 +1,66 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Case source registry",
+  "type": "object",
+  "additionalProperties": true,
+  "required": ["case_id", "sources"],
+  "properties": {
+    "case_id": { "type": "string", "minLength": 1 },
+    "status": { "type": "string" },
+    "updated": { "type": "string" },
+    "sources": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": true,
+        "required": [
+          "source_id",
+          "title",
+          "archive",
+          "source_url",
+          "citation",
+          "rights_status",
+          "rights_rationale",
+          "git_tracking",
+          "acquisition_instructions",
+          "expected_local_path"
+        ],
+        "properties": {
+          "source_id": { "type": "string", "minLength": 1 },
+          "title": { "type": "string", "minLength": 1 },
+          "short_title": { "type": "string" },
+          "voice": { "type": "string" },
+          "date": { "type": "string" },
+          "phase": { "type": "string" },
+          "register": { "type": "string" },
+          "archive": { "type": "string", "minLength": 1 },
+          "source_url": { "type": "string", "minLength": 1 },
+          "citation": { "type": "string", "minLength": 1 },
+          "rights_status": {
+            "type": "string",
+            "enum": ["public-domain", "open-access", "translation-risk", "rights-unclear", "restricted", "unavailable"]
+          },
+          "rights_rationale": { "type": "string", "minLength": 1 },
+          "git_tracking": {
+            "type": "string",
+            "enum": ["committed", "gitignored-local", "metadata-only", "unavailable"]
+          },
+          "acquisition_instructions": { "type": "string", "minLength": 1 },
+          "expected_local_path": { "type": "string", "minLength": 1 },
+          "checksum": { "type": "string" },
+          "translation_language": { "type": "string" },
+          "translation_risk_notes": { "type": "string" },
+          "risk_flags": {
+            "type": "array",
+            "items": { "type": "string" }
+          },
+          "analytical_priority": {
+            "type": "string",
+            "enum": ["high", "medium", "low"]
+          },
+          "notes": { "type": "string" }
+        }
+      }
+    }
+  }
+}
