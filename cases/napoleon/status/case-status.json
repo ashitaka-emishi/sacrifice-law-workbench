@@ -1,7 +1,7 @@
 {
   "case_id": "napoleon",
-  "status": "corpus-ready",
-  "current_stage": "annotation-pending",
-  "updated": "2026-06-14",
-  "notes": "Manifest bulletins are acquired, normalized, segmented, and verified from Gallica OCR. No annotated files are present yet."
+  "status": "mipvu-worklist-ready",
+  "current_stage": "mipvu-review-pending",
+  "updated": "2026-06-15",
+  "notes": "Manifest bulletins are acquired, normalized, segmented, verified from Gallica OCR, and have generated French-language MIPVU lexical-unit worklists for all 10 bulletins. Lexical decisions and annotated files are pending."
 }

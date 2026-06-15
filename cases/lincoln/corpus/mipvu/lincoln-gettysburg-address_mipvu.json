@@ -3,19 +3,15 @@
   "case_id": "lincoln",
   "document_id": "lincoln-gettysburg-address",
   "source_language": "en",
-  "generated_at": "2026-06-14T21:24:35",
-  "status": "in_review",
+  "generated_at": "2026-06-15T14:56:18",
+  "status": "worklist",
   "meta": {
     "title": "Address Delivered at the Dedication of the Cemetery at Gettysburg",
     "short_title": "Gettysburg Address",
     "register": "political-speech",
     "date": "1863-11-19",
     "source_url": "https://www.gutenberg.org/ebooks/4",
-    "annotation_language_policy": null,
-    "mipvu_review_policy": "pilot-sample-reviewed; remaining lexical units pending",
-    "review_batches": [
-      "lincoln-pilot-v1"
-    ]
+    "annotation_language_policy": "source-language"
   },
   "lexical_units": [
     {
@@ -1059,9 +1055,9 @@
       "review_status": "reviewed",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-pilot-v1",
+      "semantic_shift_risk": "low",
       "annotator": "codex-draft",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "semantic_shift_risk": "low"
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p03_s01_lu002",
@@ -1080,9 +1076,9 @@
       "review_status": "reviewed",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-pilot-v1",
+      "semantic_shift_risk": "low",
       "annotator": "codex-draft",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "semantic_shift_risk": "low"
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p03_s01_lu003",
@@ -1101,9 +1097,9 @@
       "review_status": "reviewed",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-pilot-v1",
+      "semantic_shift_risk": "low",
       "annotator": "codex-draft",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "semantic_shift_risk": "low"
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p03_s01_lu004",
@@ -1122,9 +1118,9 @@
       "review_status": "reviewed",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-pilot-v1",
+      "semantic_shift_risk": "low",
       "annotator": "codex-draft",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "semantic_shift_risk": "low"
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p03_s01_lu005",
@@ -1143,9 +1139,9 @@
       "review_status": "reviewed",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-pilot-v1",
+      "semantic_shift_risk": "low",
       "annotator": "codex-draft",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "semantic_shift_risk": "low"
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p03_s01_lu006",
@@ -1164,9 +1160,9 @@
       "review_status": "reviewed",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-pilot-v1",
+      "semantic_shift_risk": "low",
       "annotator": "codex-draft",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "semantic_shift_risk": "low"
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p03_s01_lu007",
@@ -1185,9 +1181,9 @@
       "review_status": "reviewed",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-pilot-v1",
+      "semantic_shift_risk": "low",
       "annotator": "codex-draft",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "semantic_shift_risk": "low"
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p03_s01_lu008",
@@ -1206,9 +1202,9 @@
       "review_status": "reviewed",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-pilot-v1",
+      "semantic_shift_risk": "low",
       "annotator": "codex-draft",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "semantic_shift_risk": "low"
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p03_s01_lu009",
@@ -1227,9 +1223,9 @@
       "review_status": "reviewed",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-pilot-v1",
+      "semantic_shift_risk": "low",
       "annotator": "codex-draft",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "semantic_shift_risk": "low"
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p03_s01_lu010",
@@ -1248,9 +1244,9 @@
       "review_status": "reviewed",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-pilot-v1",
+      "semantic_shift_risk": "low",
       "annotator": "codex-draft",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "semantic_shift_risk": "low"
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p03_s01_lu011",
@@ -1269,9 +1265,9 @@
       "review_status": "reviewed",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-pilot-v1",
+      "semantic_shift_risk": "low",
       "annotator": "codex-draft",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "semantic_shift_risk": "low"
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p03_s01_lu012",
@@ -1290,9 +1286,9 @@
       "review_status": "reviewed",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-pilot-v1",
+      "semantic_shift_risk": "low",
       "annotator": "codex-draft",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "semantic_shift_risk": "low"
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p03_s01_lu013",
@@ -1311,9 +1307,9 @@
       "review_status": "reviewed",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-pilot-v1",
+      "semantic_shift_risk": "low",
       "annotator": "codex-draft",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "semantic_shift_risk": "low"
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p03_s01_lu014",
@@ -1330,19 +1326,19 @@
       "sentence_char_offset_start": 60,
       "sentence_char_offset_end": 67,
       "review_status": "reviewed",
+      "candidate_target_domain": "death",
+      "basic_meaning": "physical rest after activity or sleep-like repose",
+      "confidence": 0.72,
       "decision_type": "mipvu_indirect",
       "review_batch": "lincoln-pilot-v1",
-      "annotator": "codex-draft",
-      "review_notes": "Conventional death-as-rest euphemism in a cemetery dedication setting; retain as metaphor-related but not high-confidence ideological evidence by itself.",
-      "semantic_shift_risk": "medium",
-      "contextual_meaning": "burial or cemetery repose for the war dead",
-      "basic_meaning": "physical rest after activity or sleep-like repose",
       "basic_meaning_source": "Webster 1828, 'rest' / 'resting'",
-      "contrast_explanation": "The contextual meaning concerns burial/death rather than ordinary bodily rest after exertion.",
       "comparison_basis": "Death or burial is understood through bodily rest/repose.",
-      "confidence": 0.72,
+      "contextual_meaning": "burial or cemetery repose for the war dead",
+      "semantic_shift_risk": "medium",
+      "annotator": "codex-draft",
+      "contrast_explanation": "The contextual meaning concerns burial/death rather than ordinary bodily rest after exertion.",
       "candidate_source_domain": "body",
-      "candidate_target_domain": "death"
+      "review_notes": "Conventional death-as-rest euphemism in a cemetery dedication setting; retain as metaphor-related but not high-confidence ideological evidence by itself."
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p03_s01_lu015",
@@ -1361,9 +1357,9 @@
       "review_status": "reviewed",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-pilot-v1",
+      "semantic_shift_risk": "low",
       "annotator": "codex-draft",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "semantic_shift_risk": "low"
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p03_s01_lu016",
@@ -1382,9 +1378,9 @@
       "review_status": "reviewed",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-pilot-v1",
+      "semantic_shift_risk": "low",
       "annotator": "codex-draft",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "semantic_shift_risk": "low"
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p03_s01_lu017",
@@ -1403,9 +1399,9 @@
       "review_status": "reviewed",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-pilot-v1",
+      "semantic_shift_risk": "low",
       "annotator": "codex-draft",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "semantic_shift_risk": "low"
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p03_s01_lu018",
@@ -1424,9 +1420,9 @@
       "review_status": "reviewed",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-pilot-v1",
+      "semantic_shift_risk": "low",
       "annotator": "codex-draft",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "semantic_shift_risk": "low"
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p03_s01_lu019",
@@ -1445,9 +1441,9 @@
       "review_status": "reviewed",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-pilot-v1",
+      "semantic_shift_risk": "low",
       "annotator": "codex-draft",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "semantic_shift_risk": "low"
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p03_s01_lu020",
@@ -1464,19 +1460,19 @@
       "sentence_char_offset_start": 93,
       "sentence_char_offset_end": 97,
       "review_status": "reviewed",
+      "candidate_target_domain": "war_death",
+      "basic_meaning": "transfer possession of something to another",
+      "confidence": 0.86,
       "decision_type": "mipvu_indirect",
       "review_batch": "lincoln-pilot-v1",
-      "annotator": "codex-draft",
-      "review_notes": "Supports later sacrificial-body review when linked with lives/nation/live context; avoid treating the verb alone as sufficient evidence.",
-      "semantic_shift_risk": "medium",
-      "contextual_meaning": "surrendered or offered their lives in battle",
-      "basic_meaning": "transfer possession of something to another",
       "basic_meaning_source": "Webster 1828, 'give'",
-      "contrast_explanation": "Lives are not ordinary transferable objects, but the verb frames death as a gift or offering.",
       "comparison_basis": "Sacrificial death is understood through transfer or offering of a valued possession.",
-      "confidence": 0.86,
+      "contextual_meaning": "surrendered or offered their lives in battle",
+      "semantic_shift_risk": "medium",
+      "annotator": "codex-draft",
+      "contrast_explanation": "Lives are not ordinary transferable objects, but the verb frames death as a gift or offering.",
       "candidate_source_domain": "sacrifice",
-      "candidate_target_domain": "war_death"
+      "review_notes": "Supports later sacrificial-body review when linked with lives/nation/live context; avoid treating the verb alone as sufficient evidence."
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p03_s01_lu021",
@@ -1495,9 +1491,9 @@
       "review_status": "reviewed",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-pilot-v1",
+      "semantic_shift_risk": "low",
       "annotator": "codex-draft",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "semantic_shift_risk": "low"
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p03_s01_lu022",
@@ -1516,9 +1512,9 @@
       "review_status": "reviewed",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-pilot-v1",
+      "semantic_shift_risk": "low",
       "annotator": "codex-draft",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "semantic_shift_risk": "low"
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p03_s01_lu023",
@@ -1537,9 +1533,9 @@
       "review_status": "reviewed",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-pilot-v1",
+      "semantic_shift_risk": "low",
       "annotator": "codex-draft",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "semantic_shift_risk": "low"
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p03_s01_lu024",
@@ -1558,9 +1554,9 @@
       "review_status": "reviewed",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-pilot-v1",
+      "semantic_shift_risk": "low",
       "annotator": "codex-draft",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "semantic_shift_risk": "low"
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p03_s01_lu025",
@@ -1579,9 +1575,9 @@
       "review_status": "reviewed",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-pilot-v1",
+      "semantic_shift_risk": "low",
       "annotator": "codex-draft",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "semantic_shift_risk": "low"
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p03_s01_lu026",
@@ -1600,9 +1596,9 @@
       "review_status": "reviewed",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-pilot-v1",
+      "semantic_shift_risk": "low",
       "annotator": "codex-draft",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "semantic_shift_risk": "low"
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p03_s01_lu027",
@@ -1619,19 +1615,19 @@
       "sentence_char_offset_start": 133,
       "sentence_char_offset_end": 137,
       "review_status": "reviewed",
+      "candidate_target_domain": "nation",
+      "basic_meaning": "a living organism remains alive",
+      "confidence": 0.93,
       "decision_type": "mipvu_personification",
       "review_batch": "lincoln-pilot-v1",
-      "annotator": "codex-draft",
-      "review_notes": "Strong candidate for NATION IS LIVING BODY/ORGANISM mapping in this sentence.",
-      "semantic_shift_risk": "low",
-      "contextual_meaning": "the nation would continue to exist politically",
-      "basic_meaning": "a living organism remains alive",
       "basic_meaning_source": "Webster 1828, 'live'",
-      "contrast_explanation": "A nation is not a biological organism, but its survival is construed as life.",
       "comparison_basis": "Political survival is understood by comparison with organismic life.",
-      "confidence": 0.93,
+      "contextual_meaning": "the nation would continue to exist politically",
+      "semantic_shift_risk": "low",
+      "annotator": "codex-draft",
+      "contrast_explanation": "A nation is not a biological organism, but its survival is construed as life.",
       "candidate_source_domain": "nature_organism",
-      "candidate_target_domain": "nation"
+      "review_notes": "Strong candidate for NATION IS LIVING BODY/ORGANISM mapping in this sentence."
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p03_s02_lu001",
@@ -3170,9 +3166,9 @@
       "review_status": "reviewed",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-pilot-v1",
+      "semantic_shift_risk": "low",
       "annotator": "codex-draft",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "semantic_shift_risk": "low"
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu002",
@@ -3191,9 +3187,9 @@
       "review_status": "reviewed",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-pilot-v1",
+      "semantic_shift_risk": "low",
       "annotator": "codex-draft",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "semantic_shift_risk": "low"
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu003",
@@ -3212,9 +3208,9 @@
       "review_status": "reviewed",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-pilot-v1",
+      "semantic_shift_risk": "low",
       "annotator": "codex-draft",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "semantic_shift_risk": "low"
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu004",
@@ -3233,9 +3229,9 @@
       "review_status": "reviewed",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-pilot-v1",
+      "semantic_shift_risk": "low",
       "annotator": "codex-draft",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "semantic_shift_risk": "low"
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu005",
@@ -3254,9 +3250,9 @@
       "review_status": "reviewed",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-pilot-v1",
+      "semantic_shift_risk": "low",
       "annotator": "codex-draft",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "semantic_shift_risk": "low"
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu006",
@@ -3275,9 +3271,9 @@
       "review_status": "reviewed",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-pilot-v1",
+      "semantic_shift_risk": "low",
       "annotator": "codex-draft",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "semantic_shift_risk": "low"
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu007",
@@ -3296,9 +3292,9 @@
       "review_status": "reviewed",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-pilot-v1",
+      "semantic_shift_risk": "low",
       "annotator": "codex-draft",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "semantic_shift_risk": "low"
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu008",
@@ -3317,9 +3313,9 @@
       "review_status": "reviewed",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-pilot-v1",
+      "semantic_shift_risk": "low",
       "annotator": "codex-draft",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "semantic_shift_risk": "low"
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu009",
@@ -3336,19 +3332,19 @@
       "sentence_char_offset_start": 31,
       "sentence_char_offset_end": 40,
       "review_status": "reviewed",
+      "candidate_target_domain": "citizenship",
+      "basic_meaning": "set apart or devote to a sacred, solemn, or special purpose",
+      "confidence": 0.8,
       "decision_type": "mipvu_indirect",
       "review_batch": "lincoln-pilot-v1",
-      "annotator": "codex-draft",
-      "review_notes": "Ceremonial register may make this conventional; preserve rival reading during CMT mapping.",
-      "semantic_shift_risk": "high",
-      "contextual_meaning": "committed to public work or obligation",
-      "basic_meaning": "set apart or devote to a sacred, solemn, or special purpose",
       "basic_meaning_source": "Webster 1828, 'dedicate'",
-      "contrast_explanation": "The living are not physically set apart like an object or place; they are morally committed to a public task.",
       "comparison_basis": "Political obligation is understood through dedication or consecrated devotion.",
-      "confidence": 0.8,
+      "contextual_meaning": "committed to public work or obligation",
+      "semantic_shift_risk": "high",
+      "annotator": "codex-draft",
+      "contrast_explanation": "The living are not physically set apart like an object or place; they are morally committed to a public task.",
       "candidate_source_domain": "religion_providence",
-      "candidate_target_domain": "citizenship"
+      "review_notes": "Ceremonial register may make this conventional; preserve rival reading during CMT mapping."
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu010",
@@ -3367,9 +3363,9 @@
       "review_status": "reviewed",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-pilot-v1",
+      "semantic_shift_risk": "low",
       "annotator": "codex-draft",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "semantic_shift_risk": "low"
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu011",
@@ -3388,9 +3384,9 @@
       "review_status": "reviewed",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-pilot-v1",
+      "semantic_shift_risk": "low",
       "annotator": "codex-draft",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "semantic_shift_risk": "low"
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu012",
@@ -3409,9 +3405,9 @@
       "review_status": "reviewed",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-pilot-v1",
+      "semantic_shift_risk": "low",
       "annotator": "codex-draft",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "semantic_shift_risk": "low"
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu013",
@@ -3430,9 +3426,9 @@
       "review_status": "reviewed",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-pilot-v1",
+      "semantic_shift_risk": "low",
       "annotator": "codex-draft",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "semantic_shift_risk": "low"
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu014",
@@ -3451,9 +3447,9 @@
       "review_status": "reviewed",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-pilot-v1",
+      "semantic_shift_risk": "low",
       "annotator": "codex-draft",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "semantic_shift_risk": "low"
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu015",
@@ -3472,9 +3468,9 @@
       "review_status": "reviewed",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-pilot-v1",
+      "semantic_shift_risk": "low",
       "annotator": "codex-draft",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "semantic_shift_risk": "low"
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu016",
@@ -3493,9 +3489,9 @@
       "review_status": "reviewed",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-pilot-v1",
+      "semantic_shift_risk": "low",
       "annotator": "codex-draft",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "semantic_shift_risk": "low"
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu017",
@@ -3514,9 +3510,9 @@
       "review_status": "reviewed",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-pilot-v1",
+      "semantic_shift_risk": "low",
       "annotator": "codex-draft",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "semantic_shift_risk": "low"
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu018",
@@ -3535,9 +3531,9 @@
       "review_status": "reviewed",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-pilot-v1",
+      "semantic_shift_risk": "low",
       "annotator": "codex-draft",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "semantic_shift_risk": "low"
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu019",
@@ -3556,9 +3552,9 @@
       "review_status": "reviewed",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-pilot-v1",
+      "semantic_shift_risk": "low",
       "annotator": "codex-draft",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "semantic_shift_risk": "low"
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu020",
@@ -3577,9 +3573,9 @@
       "review_status": "reviewed",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-pilot-v1",
+      "semantic_shift_risk": "low",
       "annotator": "codex-draft",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "semantic_shift_risk": "low"
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu021",
@@ -3598,9 +3594,9 @@
       "review_status": "reviewed",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-pilot-v1",
+      "semantic_shift_risk": "low",
       "annotator": "codex-draft",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "semantic_shift_risk": "low"
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu022",
@@ -3619,9 +3615,9 @@
       "review_status": "reviewed",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-pilot-v1",
+      "semantic_shift_risk": "low",
       "annotator": "codex-draft",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "semantic_shift_risk": "low"
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu023",
@@ -3640,9 +3636,9 @@
       "review_status": "reviewed",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-pilot-v1",
+      "semantic_shift_risk": "low",
       "annotator": "codex-draft",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "semantic_shift_risk": "low"
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu024",
@@ -3661,9 +3657,9 @@
       "review_status": "reviewed",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-pilot-v1",
+      "semantic_shift_risk": "low",
       "annotator": "codex-draft",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "semantic_shift_risk": "low"
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu025",
@@ -3682,9 +3678,9 @@
       "review_status": "reviewed",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-pilot-v1",
+      "semantic_shift_risk": "low",
       "annotator": "codex-draft",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "semantic_shift_risk": "low"
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu026",
@@ -3703,9 +3699,9 @@
       "review_status": "reviewed",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-pilot-v1",
+      "semantic_shift_risk": "low",
       "annotator": "codex-draft",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "semantic_shift_risk": "low"
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu027",
@@ -3724,9 +3720,9 @@
       "review_status": "reviewed",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-pilot-v1",
+      "semantic_shift_risk": "low",
       "annotator": "codex-draft",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "semantic_shift_risk": "low"
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu028",
@@ -3745,9 +3741,9 @@
       "review_status": "reviewed",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-pilot-v1",
+      "semantic_shift_risk": "low",
       "annotator": "codex-draft",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "semantic_shift_risk": "low"
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu029",
@@ -3766,9 +3762,9 @@
       "review_status": "reviewed",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-pilot-v1",
+      "semantic_shift_risk": "low",
       "annotator": "codex-draft",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "semantic_shift_risk": "low"
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu030",
@@ -3787,9 +3783,9 @@
       "review_status": "reviewed",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-pilot-v1",
+      "semantic_shift_risk": "low",
       "annotator": "codex-draft",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "semantic_shift_risk": "low"
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu031",
@@ -3808,9 +3804,9 @@
       "review_status": "reviewed",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-pilot-v1",
+      "semantic_shift_risk": "low",
       "annotator": "codex-draft",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "semantic_shift_risk": "low"
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu032",
@@ -3827,19 +3823,19 @@
       "sentence_char_offset_start": 168,
       "sentence_char_offset_end": 172,
       "review_status": "reviewed",
+      "candidate_target_domain": "war_death",
+      "basic_meaning": "transfer possession of something to another",
+      "confidence": 0.84,
       "decision_type": "mipvu_indirect",
       "review_batch": "lincoln-pilot-v1",
-      "annotator": "codex-draft",
-      "review_notes": "Part of phrase 'gave the last full measure of devotion'; map only with surrounding units.",
-      "semantic_shift_risk": "medium",
-      "contextual_meaning": "sacrificed or expended themselves for the cause",
-      "basic_meaning": "transfer possession of something to another",
       "basic_meaning_source": "Webster 1828, 'give'",
-      "contrast_explanation": "Devotion and death are framed as something given, not as an ordinary transferable object.",
       "comparison_basis": "Sacrificial commitment is understood as an offering or gift.",
-      "confidence": 0.84,
+      "contextual_meaning": "sacrificed or expended themselves for the cause",
+      "semantic_shift_risk": "medium",
+      "annotator": "codex-draft",
+      "contrast_explanation": "Devotion and death are framed as something given, not as an ordinary transferable object.",
       "candidate_source_domain": "sacrifice",
-      "candidate_target_domain": "war_death"
+      "review_notes": "Part of phrase 'gave the last full measure of devotion'; map only with surrounding units."
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu033",
@@ -3858,9 +3854,9 @@
       "review_status": "reviewed",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-pilot-v1",
+      "semantic_shift_risk": "low",
       "annotator": "codex-draft",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "semantic_shift_risk": "low"
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu034",
@@ -3879,9 +3875,9 @@
       "review_status": "reviewed",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-pilot-v1",
+      "semantic_shift_risk": "low",
       "annotator": "codex-draft",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "semantic_shift_risk": "low"
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu035",
@@ -3900,9 +3896,9 @@
       "review_status": "reviewed",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-pilot-v1",
+      "semantic_shift_risk": "low",
       "annotator": "codex-draft",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "semantic_shift_risk": "low"
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu036",
@@ -3919,19 +3915,19 @@
       "sentence_char_offset_start": 187,
       "sentence_char_offset_end": 194,
       "review_status": "reviewed",
+      "candidate_target_domain": "sacrifice",
+      "basic_meaning": "a quantity determined by measuring",
+      "confidence": 0.76,
       "decision_type": "mipvu_indirect",
       "review_batch": "lincoln-pilot-v1",
-      "annotator": "codex-draft",
-      "review_notes": "Works with 'last full measure of devotion' as moral accounting/sacrificial scale.",
-      "semantic_shift_risk": "medium",
-      "contextual_meaning": "complete extent of devotion or sacrifice",
-      "basic_meaning": "a quantity determined by measuring",
       "basic_meaning_source": "Webster 1828, 'measure'",
-      "contrast_explanation": "Devotion is abstract and not literally measured as a physical quantity.",
       "comparison_basis": "Moral commitment is understood through measurable quantity or fullness.",
-      "confidence": 0.76,
+      "contextual_meaning": "complete extent of devotion or sacrifice",
+      "semantic_shift_risk": "medium",
+      "annotator": "codex-draft",
+      "contrast_explanation": "Devotion is abstract and not literally measured as a physical quantity.",
       "candidate_source_domain": "debt_accounting",
-      "candidate_target_domain": "sacrifice"
+      "review_notes": "Works with 'last full measure of devotion' as moral accounting/sacrificial scale."
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu037",
@@ -3950,9 +3946,9 @@
       "review_status": "reviewed",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-pilot-v1",
+      "semantic_shift_risk": "low",
       "annotator": "codex-draft",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "semantic_shift_risk": "low"
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu038",
@@ -3971,9 +3967,9 @@
       "review_status": "reviewed",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-pilot-v1",
+      "semantic_shift_risk": "low",
       "annotator": "codex-draft",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "semantic_shift_risk": "low"
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu039",
@@ -3992,9 +3988,9 @@
       "review_status": "reviewed",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-pilot-v1",
+      "semantic_shift_risk": "low",
       "annotator": "codex-draft",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "semantic_shift_risk": "low"
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu040",
@@ -4013,9 +4009,9 @@
       "review_status": "reviewed",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-pilot-v1",
+      "semantic_shift_risk": "low",
       "annotator": "codex-draft",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "semantic_shift_risk": "low"
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu041",
@@ -4034,9 +4030,9 @@
       "review_status": "reviewed",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-pilot-v1",
+      "semantic_shift_risk": "low",
       "annotator": "codex-draft",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "semantic_shift_risk": "low"
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu042",
@@ -4055,9 +4051,9 @@
       "review_status": "reviewed",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-pilot-v1",
+      "semantic_shift_risk": "low",
       "annotator": "codex-draft",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "semantic_shift_risk": "low"
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu043",
@@ -4076,9 +4072,9 @@
       "review_status": "reviewed",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-pilot-v1",
+      "semantic_shift_risk": "low",
       "annotator": "codex-draft",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "semantic_shift_risk": "low"
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu044",
@@ -4097,9 +4093,9 @@
       "review_status": "reviewed",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-pilot-v1",
+      "semantic_shift_risk": "low",
       "annotator": "codex-draft",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "semantic_shift_risk": "low"
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu045",
@@ -4118,9 +4114,9 @@
       "review_status": "reviewed",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-pilot-v1",
+      "semantic_shift_risk": "low",
       "annotator": "codex-draft",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "semantic_shift_risk": "low"
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu046",
@@ -4139,9 +4135,9 @@
       "review_status": "reviewed",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-pilot-v1",
+      "semantic_shift_risk": "low",
       "annotator": "codex-draft",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "semantic_shift_risk": "low"
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu047",
@@ -4160,9 +4156,9 @@
       "review_status": "reviewed",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-pilot-v1",
+      "semantic_shift_risk": "low",
       "annotator": "codex-draft",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "semantic_shift_risk": "low"
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu048",
@@ -4181,9 +4177,9 @@
       "review_status": "reviewed",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-pilot-v1",
+      "semantic_shift_risk": "low",
       "annotator": "codex-draft",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "semantic_shift_risk": "low"
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu049",
@@ -4202,9 +4198,9 @@
       "review_status": "reviewed",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-pilot-v1",
+      "semantic_shift_risk": "low",
       "annotator": "codex-draft",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "semantic_shift_risk": "low"
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu050",
@@ -4223,9 +4219,9 @@
       "review_status": "reviewed",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-pilot-v1",
+      "semantic_shift_risk": "low",
       "annotator": "codex-draft",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "semantic_shift_risk": "low"
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu051",
@@ -4244,9 +4240,9 @@
       "review_status": "reviewed",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-pilot-v1",
+      "semantic_shift_risk": "low",
       "annotator": "codex-draft",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "semantic_shift_risk": "low"
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu052",
@@ -4265,9 +4261,9 @@
       "review_status": "reviewed",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-pilot-v1",
+      "semantic_shift_risk": "low",
       "annotator": "codex-draft",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "semantic_shift_risk": "low"
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu053",
@@ -4286,9 +4282,9 @@
       "review_status": "reviewed",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-pilot-v1",
+      "semantic_shift_risk": "low",
       "annotator": "codex-draft",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "semantic_shift_risk": "low"
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu054",
@@ -4307,9 +4303,9 @@
       "review_status": "reviewed",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-pilot-v1",
+      "semantic_shift_risk": "low",
       "annotator": "codex-draft",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "semantic_shift_risk": "low"
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu055",
@@ -4328,9 +4324,9 @@
       "review_status": "reviewed",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-pilot-v1",
+      "semantic_shift_risk": "low",
       "annotator": "codex-draft",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "semantic_shift_risk": "low"
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu056",
@@ -4349,9 +4345,9 @@
       "review_status": "reviewed",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-pilot-v1",
+      "semantic_shift_risk": "low",
       "annotator": "codex-draft",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "semantic_shift_risk": "low"
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu057",
@@ -4370,9 +4366,9 @@
       "review_status": "reviewed",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-pilot-v1",
+      "semantic_shift_risk": "low",
       "annotator": "codex-draft",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "semantic_shift_risk": "low"
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu058",
@@ -4391,9 +4387,9 @@
       "review_status": "reviewed",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-pilot-v1",
+      "semantic_shift_risk": "low",
       "annotator": "codex-draft",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "semantic_shift_risk": "low"
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu059",
@@ -4412,9 +4408,9 @@
       "review_status": "reviewed",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-pilot-v1",
+      "semantic_shift_risk": "low",
       "annotator": "codex-draft",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "semantic_shift_risk": "low"
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu060",
@@ -4433,9 +4429,9 @@
       "review_status": "reviewed",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-pilot-v1",
+      "semantic_shift_risk": "low",
       "annotator": "codex-draft",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "semantic_shift_risk": "low"
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu061",
@@ -4454,9 +4450,9 @@
       "review_status": "reviewed",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-pilot-v1",
+      "semantic_shift_risk": "low",
       "annotator": "codex-draft",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "semantic_shift_risk": "low"
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu062",
@@ -4473,19 +4469,19 @@
       "sentence_char_offset_start": 335,
       "sentence_char_offset_end": 340,
       "review_status": "reviewed",
+      "candidate_target_domain": "freedom",
+      "basic_meaning": "emergence of a child or living being from the womb",
+      "confidence": 0.95,
       "decision_type": "mipvu_direct",
       "review_batch": "lincoln-pilot-v1",
-      "annotator": "codex-draft",
-      "review_notes": "High-salience candidate for POLITICAL RENEWAL IS BIRTH; check against historical semantics note on birth/conceived/brought forth.",
-      "semantic_shift_risk": "medium",
-      "contextual_meaning": "political renewal of freedom after war sacrifice",
-      "basic_meaning": "emergence of a child or living being from the womb",
       "basic_meaning_source": "Webster 1828, 'birth'",
-      "contrast_explanation": "Freedom is not biologically born, but political renewal is explicitly described as birth.",
       "comparison_basis": "Political renewal is understood through generation and birth.",
-      "confidence": 0.95,
+      "contextual_meaning": "political renewal of freedom after war sacrifice",
+      "semantic_shift_risk": "medium",
+      "annotator": "codex-draft",
+      "contrast_explanation": "Freedom is not biologically born, but political renewal is explicitly described as birth.",
       "candidate_source_domain": "birth_generation",
-      "candidate_target_domain": "freedom"
+      "review_notes": "High-salience candidate for POLITICAL RENEWAL IS BIRTH; check against historical semantics note on birth/conceived/brought forth."
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu063",
@@ -4504,9 +4500,9 @@
       "review_status": "reviewed",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-pilot-v1",
+      "semantic_shift_risk": "low",
       "annotator": "codex-draft",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "semantic_shift_risk": "low"
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu064",
@@ -4525,9 +4521,9 @@
       "review_status": "reviewed",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-pilot-v1",
+      "semantic_shift_risk": "low",
       "annotator": "codex-draft",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "semantic_shift_risk": "low"
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu065",
@@ -4546,9 +4542,9 @@
       "review_status": "reviewed",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-pilot-v1",
+      "semantic_shift_risk": "low",
       "annotator": "codex-draft",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "semantic_shift_risk": "low"
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu066",
@@ -4567,9 +4563,9 @@
       "review_status": "reviewed",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-pilot-v1",
+      "semantic_shift_risk": "low",
       "annotator": "codex-draft",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "semantic_shift_risk": "low"
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu067",
@@ -4588,9 +4584,9 @@
       "review_status": "reviewed",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-pilot-v1",
+      "semantic_shift_risk": "low",
       "annotator": "codex-draft",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "semantic_shift_risk": "low"
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu068",
@@ -4609,9 +4605,9 @@
       "review_status": "reviewed",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-pilot-v1",
+      "semantic_shift_risk": "low",
       "annotator": "codex-draft",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "semantic_shift_risk": "low"
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu069",
@@ -4630,9 +4626,9 @@
       "review_status": "reviewed",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-pilot-v1",
+      "semantic_shift_risk": "low",
       "annotator": "codex-draft",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "semantic_shift_risk": "low"
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu070",
@@ -4651,9 +4647,9 @@
       "review_status": "reviewed",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-pilot-v1",
+      "semantic_shift_risk": "low",
       "annotator": "codex-draft",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "semantic_shift_risk": "low"
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu071",
@@ -4672,9 +4668,9 @@
       "review_status": "reviewed",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-pilot-v1",
+      "semantic_shift_risk": "low",
       "annotator": "codex-draft",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "semantic_shift_risk": "low"
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu072",
@@ -4693,9 +4689,9 @@
       "review_status": "reviewed",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-pilot-v1",
+      "semantic_shift_risk": "low",
       "annotator": "codex-draft",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "semantic_shift_risk": "low"
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu073",
@@ -4714,9 +4710,9 @@
       "review_status": "reviewed",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-pilot-v1",
+      "semantic_shift_risk": "low",
       "annotator": "codex-draft",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "semantic_shift_risk": "low"
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu074",
@@ -4735,9 +4731,9 @@
       "review_status": "reviewed",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-pilot-v1",
+      "semantic_shift_risk": "low",
       "annotator": "codex-draft",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "semantic_shift_risk": "low"
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu075",
@@ -4756,9 +4752,9 @@
       "review_status": "reviewed",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-pilot-v1",
+      "semantic_shift_risk": "low",
       "annotator": "codex-draft",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "semantic_shift_risk": "low"
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu076",
@@ -4777,9 +4773,9 @@
       "review_status": "reviewed",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-pilot-v1",
+      "semantic_shift_risk": "low",
       "annotator": "codex-draft",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "semantic_shift_risk": "low"
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu077",
@@ -4798,9 +4794,9 @@
       "review_status": "reviewed",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-pilot-v1",
+      "semantic_shift_risk": "low",
       "annotator": "codex-draft",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "semantic_shift_risk": "low"
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu078",
@@ -4819,9 +4815,9 @@
       "review_status": "reviewed",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-pilot-v1",
+      "semantic_shift_risk": "low",
       "annotator": "codex-draft",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "semantic_shift_risk": "low"
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu079",
@@ -4838,19 +4834,19 @@
       "sentence_char_offset_start": 443,
       "sentence_char_offset_end": 449,
       "review_status": "reviewed",
+      "candidate_target_domain": "democracy",
+      "basic_meaning": "a living being dies or is destroyed",
+      "confidence": 0.9,
       "decision_type": "mipvu_personification",
       "review_batch": "lincoln-pilot-v1",
-      "annotator": "codex-draft",
-      "review_notes": "Complements nation/live and nation/birth language in the same address.",
-      "semantic_shift_risk": "low",
-      "contextual_meaning": "government would not disappear or fail politically",
-      "basic_meaning": "a living being dies or is destroyed",
       "basic_meaning_source": "Webster 1828, 'perish'",
-      "contrast_explanation": "Government is not a biological organism, but its failure is construed as death/perishing.",
       "comparison_basis": "Political survival is understood through organismic life and death.",
-      "confidence": 0.9,
+      "contextual_meaning": "government would not disappear or fail politically",
+      "semantic_shift_risk": "low",
+      "annotator": "codex-draft",
+      "contrast_explanation": "Government is not a biological organism, but its failure is construed as death/perishing.",
       "candidate_source_domain": "nature_organism",
-      "candidate_target_domain": "democracy"
+      "review_notes": "Complements nation/live and nation/birth language in the same address."
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu080",
@@ -4869,9 +4865,9 @@
       "review_status": "reviewed",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-pilot-v1",
+      "semantic_shift_risk": "low",
       "annotator": "codex-draft",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "semantic_shift_risk": "low"
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu081",
@@ -4890,9 +4886,9 @@
       "review_status": "reviewed",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-pilot-v1",
+      "semantic_shift_risk": "low",
       "annotator": "codex-draft",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "semantic_shift_risk": "low"
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu082",
@@ -4911,28 +4907,17 @@
       "review_status": "reviewed",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-pilot-v1",
+      "semantic_shift_risk": "low",
       "annotator": "codex-draft",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "semantic_shift_risk": "low"
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     }
   ],
   "pipeline_log": [
     {
       "stage": "generate-mipvu-worklist",
       "script": "scripts/generate-mipvu-worklist.py",
-      "generated_at": "2026-06-14T21:24:35",
+      "generated_at": "2026-06-15T14:56:18",
       "lexical_unit_count": 268
-    },
-    {
-      "stage": "mipvu-pilot-review",
-      "script": "manual-reviewed-sample",
-      "review_batch": "lincoln-pilot-v1",
-      "reviewed_sentence_ids": [
-        "lincoln-gettysburg-address_s01_p03_s01",
-        "lincoln-gettysburg-address_s01_p05_s02"
-      ],
-      "reviewed_lexical_units": 109,
-      "note": "Pilot sample decisions added for issue #6; remaining lexical units stay pending."
     }
   ]
 }

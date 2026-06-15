@@ -19,6 +19,8 @@ cases/hitler/corpus/raw/hitler-src-02-reichstag-war-speeches/*.txt
 # Normalized and segmented files derived from those sources also stay local
 cases/hitler/corpus/text/*.md
 cases/hitler/corpus/segmented/*.json
+# MIPVU worklists tokenize the local source text and must remain local too
+cases/hitler/corpus/mipvu/*.json
 reports/tmp/
 
 /.quarto/

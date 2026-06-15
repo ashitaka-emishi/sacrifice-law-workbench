@@ -41,6 +41,16 @@ PRESERVED_FIELDS = {
 }
 
 
+def metadata_value(key: str, *sources: dict[str, Any], default: str | None = None) -> str | None:
+    for source in sources:
+        if not isinstance(source, dict):
+            continue
+        value = source.get(key)
+        if value not in (None, ""):
+            return str(value)
+    return default
+
+
 def existing_records(path) -> dict[str, dict[str, Any]]:
     data = read_json(path, {}) or {}
     records = data.get("lexical_units", []) if isinstance(data, dict) else []
@@ -51,15 +61,33 @@ def existing_records(path) -> dict[str, dict[str, Any]]:
     }
 
 
-def source_language(meta: dict[str, Any]) -> str:
-    value = meta.get("source_language") or meta.get("language") or "en"
-    return str(value)
+def case_config(case_id: str) -> dict[str, Any]:
+    data = read_json(case_dir(case_id) / "config" / "case-config.json", {}) or {}
+    return data if isinstance(data, dict) else {}
 
 
-def lexical_records(case_id: str, segmented: dict[str, Any], force: bool = False) -> list[dict[str, Any]]:
+def source_language(meta: dict[str, Any], doc: dict[str, Any], config: dict[str, Any]) -> str:
+    return (
+        metadata_value("source_language", meta, doc, config)
+        or metadata_value("language", meta, doc, config)
+        or "en"
+    )
+
+
+def annotation_language_policy(meta: dict[str, Any], doc: dict[str, Any], config: dict[str, Any]) -> str:
+    return metadata_value("annotation_language_policy", meta, doc, config) or "source-language"
+
+
+def lexical_records(
+    case_id: str,
+    segmented: dict[str, Any],
+    doc: dict[str, Any],
+    config: dict[str, Any],
+    force: bool = False,
+) -> list[dict[str, Any]]:
     doc_id = str(segmented.get("document_id") or "")
     meta = segmented.get("meta", {}) if isinstance(segmented.get("meta"), dict) else {}
-    language = source_language(meta)
+    language = source_language(meta, doc, config)
     old = {} if force else existing_records(mipvu_path_for(case_id, doc_id))
     records: list[dict[str, Any]] = []
     unit_ordinal = 1
@@ -109,6 +137,7 @@ def generate_case(case_id: str, doc_filter: Optional[str] = None, force: bool = 
     errors: list[str] = []
     written = 0
     total_units = 0
+    config = case_config(case_id)
 
     for doc in documents(case_id):
         doc_id = document_id(doc)
@@ -136,23 +165,29 @@ def generate_case(case_id: str, doc_filter: Optional[str] = None, force: bool = 
             errors.append(f"{segmented_path}: segmented document must be an object")
             continue
 
-        units = lexical_records(case_id, segmented, force=force)
+        units = lexical_records(case_id, segmented, doc, config, force=force)
         meta = segmented.get("meta", {}) if isinstance(segmented.get("meta"), dict) else {}
+        language = source_language(meta, doc, config)
+        policy = annotation_language_policy(meta, doc, config)
+        output_meta = {
+            "title": meta.get("title"),
+            "short_title": meta.get("short_title"),
+            "register": meta.get("register"),
+            "date": meta.get("date"),
+            "source_url": meta.get("source_url"),
+            "annotation_language_policy": policy,
+        }
+        if config.get("gloss_terms"):
+            output_meta["gloss_terms"] = config["gloss_terms"]
+
         mipvu_doc = {
             "version": "1.0",
             "case_id": case_id,
             "document_id": doc_id,
-            "source_language": source_language(meta),
+            "source_language": language,
             "generated_at": now_iso(),
             "status": "worklist",
-            "meta": {
-                "title": meta.get("title"),
-                "short_title": meta.get("short_title"),
-                "register": meta.get("register"),
-                "date": meta.get("date"),
-                "source_url": meta.get("source_url"),
-                "annotation_language_policy": meta.get("annotation_language_policy"),
-            },
+            "meta": output_meta,
             "lexical_units": units,
             "pipeline_log": [
                 {

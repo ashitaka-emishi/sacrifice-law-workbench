@@ -16,19 +16,22 @@ annotation-forward reprocess unless a specific source defect is discovered.
 The metaphor workflow now has a strict MIPVU identification layer before
 CMT/Koenigsberg interpretation.
 
-The main remaining gap before v1 is annotation: Lincoln now has generated
-MIPVU lexical-unit worklists, but lexical decisions are still pending and no
-`cases/*/corpus/annotated/*_annotated.json` files are present yet. Concordance
-and analysis artifacts remain structural rather than evidence-backed findings.
+The main remaining gap before v1 is annotation: all v1 documents now have
+generated MIPVU lexical-unit worklists. Lincoln, American Revolution, and
+Napoleon worklists are committed; Hitler worklists are generated locally but
+gitignored because they tokenize local fair-use German source text. Lexical
+decisions are still pending and no `cases/*/corpus/annotated/*_annotated.json`
+files are present yet. Concordance and analysis artifacts remain structural
+rather than evidence-backed findings.
 
 ## Case State
 
 | Area | Current state |
 |---|---|
 | Lincoln | 3 manifest documents; corpus verification passes 3/3; normalized, segmented, and MIPVU worklisted. |
-| American Revolution | 9 manifest documents; corpus verification passes 9/9; normalized and segmented. |
-| Napoleon | 10 manifest bulletins; corpus verification passes 10/10; normalized and segmented from Gallica OCR. |
-| Hitler | 8 manifest documents; corpus verification passes 8/8; normalized and segmented; actual source URLs are recorded in manifest and derived corpus metadata. |
+| American Revolution | 9 manifest documents; corpus verification passes 9/9; normalized, segmented, and MIPVU worklisted. |
+| Napoleon | 10 manifest bulletins; corpus verification passes 10/10; normalized, segmented from Gallica OCR, and French MIPVU worklisted. |
+| Hitler | 8 manifest documents; corpus verification passes 8/8; normalized, segmented, and German MIPVU worklisted locally; source-derived corpus artifacts remain gitignored. |
 | Cross-case | Synthesis, mapping, and validation scaffolds exist under `cases/x-case/`; findings remain draft until annotations exist. |
 
 ## V1 Corpus Boundary
@@ -64,10 +67,13 @@ JSON validation passes:
 python3 scripts/validate-json.py
 ```
 
-Lincoln MIPVU worklist generation passes:
+MIPVU worklist generation passes for all four historical cases:
 
 ```bash
 python3 scripts/generate-mipvu-worklist.py --case lincoln
+python3 scripts/generate-mipvu-worklist.py --case am-rev
+python3 scripts/generate-mipvu-worklist.py --case napoleon
+python3 scripts/generate-mipvu-worklist.py --case hitler
 ```
 
 ## Known Blockers

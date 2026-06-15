@@ -1,7 +1,7 @@
 {
   "case_id": "am-rev",
-  "status": "corpus-ready",
-  "current_stage": "annotation-pending",
-  "updated": "2026-06-14",
-  "notes": "Manifest documents are acquired, normalized, segmented, and verified. No annotated files are present yet."
+  "status": "mipvu-worklist-ready",
+  "current_stage": "mipvu-review-pending",
+  "updated": "2026-06-15",
+  "notes": "Manifest documents are acquired, normalized, segmented, verified, and have generated MIPVU lexical-unit worklists for all 9 documents. Lexical decisions and annotated files are pending."
 }
