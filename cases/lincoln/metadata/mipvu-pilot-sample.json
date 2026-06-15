@@ -1,0 +1,51 @@
+{
+  "case_id": "lincoln",
+  "batch_id": "lincoln-pilot-v1",
+  "status": "reviewed-pilot",
+  "created": "2026-06-15",
+  "purpose": "Initial reviewed MIPVU sample for the Lincoln pilot corpus. The sample demonstrates the codebook workflow and provides a future reliability/adjudication target without representing the full corpus as complete.",
+  "selection_rationale": [
+    "Includes at least one high-salience sentence from each current Lincoln pilot document.",
+    "Covers body-politic survival language, sacrificial death language, birth/renewal language, and providential moral-accounting language.",
+    "Reviews full sentences rather than isolated lexical units so non-metaphor decisions are documented beside metaphor-related decisions."
+  ],
+  "review_policy": {
+    "unit_scope": "all lexical units in each selected sentence",
+    "non_metaphor_policy": "Reviewed non-metaphor units receive decision_type=non_metaphor and review_status=reviewed; detailed rationale is required only for metaphor-related or uncertain decisions.",
+    "metaphor_policy": "Metaphor-related and uncertain decisions include contextual_meaning, basic_meaning, basic_meaning_source, contrast_explanation, comparison_basis, confidence, review_notes, semantic_shift_risk, and candidate domain hints.",
+    "downstream_policy": "CMT and Koenigsbergian annotation may cite only MIPVU-positive or uncertain units unless explicitly marked exploratory_without_mipvu."
+  },
+  "sampled_sentences": [
+    {
+      "document_id": "lincoln-gettysburg-address",
+      "sentence_id": "lincoln-gettysburg-address_s01_p03_s01",
+      "rationale": "Battlefield burial, giving lives, and national life."
+    },
+    {
+      "document_id": "lincoln-gettysburg-address",
+      "sentence_id": "lincoln-gettysburg-address_s01_p05_s02",
+      "rationale": "Final dedication sequence, last full measure of devotion, new birth, and democratic survival."
+    },
+    {
+      "document_id": "lincoln-second-inaugural",
+      "sentence_id": "lincoln-second-inaugural_s01_p05_s04",
+      "rationale": "Providential blood repayment, debt/accounting, lash/sword, and divine judgment."
+    },
+    {
+      "document_id": "lincoln-lyceum-address",
+      "sentence_id": "lincoln-lyceum-address_s01_p06_s04",
+      "rationale": "Early national live/die/suicide body-politic formulation."
+    }
+  ],
+  "summary": {
+    "reviewed_lexical_units": 192,
+    "confirmed_metaphor_units": 13,
+    "uncertain_units": 2,
+    "non_metaphor_units": 177
+  },
+  "limitations": [
+    "This is not an inter-annotator reliability sample.",
+    "The remaining Lincoln lexical units are pending.",
+    "Pilot decisions should be adjudicated before publication-facing aggregate claims use them as final evidence."
+  ]
+}

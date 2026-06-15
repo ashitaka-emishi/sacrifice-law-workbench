@@ -4,6 +4,14 @@ This guide defines the first-pass metaphor-identification layer for the
 workbench. MIPVU decisions come before CMT mapping and Koenigsbergian
 interpretation.
 
+MIPVU answers a narrow question:
+
+> Is this lexical unit metaphor-related in this context?
+
+It does not answer whether the passage supports Koenigsberg's Law of Sacrifice,
+what conceptual metaphor is active, or whether a historical practice has been
+enacted. Those are downstream questions.
+
 ## Workflow
 
 1. Generate a source-language worklist:
@@ -19,6 +27,11 @@ interpretation.
 5. Create CMT/Koenigsbergian annotations only from MIPVU-positive or uncertain
    lexical units.
 
+For a pilot, training, or reliability sample, review complete sentences rather
+than isolated exciting words. Every lexical unit in the sampled sentence should
+receive a decision. Non-metaphor decisions may remain brief; metaphor-related
+and uncertain decisions require the full rationale fields below.
+
 ## Decision Types
 
 - `non_metaphor`: contextual meaning does not contrast with a more basic
@@ -32,6 +45,12 @@ interpretation.
 - `uncertain`: evidence is insufficient or contested; preserve the uncertainty.
 - `excluded_nonlexical`: generated item should not have been treated as a
   lexical unit.
+
+Do not use `mipvu_indirect`, `mipvu_direct`, `mipvu_implicit`, or
+`mipvu_personification` merely because a term is theoretically interesting.
+The contextual meaning must contrast with a more basic meaning and be
+understandable by comparison with it. If that contrast is plausible but not
+settled, use `uncertain`.
 
 ## Required Rationale
 
@@ -49,6 +68,46 @@ For `mipvu_indirect`, `mipvu_direct`, `mipvu_implicit`,
 Manual dictionary/source citation is the v1 policy. The citation can name a
 dictionary, critical edition note, scholarly lexicon, or other basic-meaning
 source used by the annotator.
+
+When a term is listed in
+`cases/lincoln/references/historical-semantics-notes.md`, also fill:
+
+- `semantic_shift_risk`
+- a `review_notes` explanation of how the period-control note affected the
+  decision
+
+Candidate source/target domain hints may be recorded for later CMT review, but
+they do not replace the MIPVU decision. CMT mappings should still be made in
+their own layer.
+
+## Review Status
+
+- `pending`: lexical unit has not been reviewed.
+- `needs_review`: annotator has flagged the unit for later review but has not
+  accepted a decision.
+- `reviewed`: annotator has made a first-pass decision.
+- `accepted`: decision has passed adjudication or final human review.
+- `rejected`: prior decision was reviewed and rejected.
+
+Validation treats any non-`pending` unit as intentionally reviewed. Reviewed,
+accepted, rejected, or needs-review units must have a valid `decision_type`.
+Metaphor-related and uncertain decisions must also have all required rationale
+fields.
+
+## Lincoln Pilot Sample
+
+The current Lincoln pilot sample is documented in
+`cases/lincoln/metadata/mipvu-pilot-sample.json`.
+
+It reviews full sentences from:
+
+- the Lyceum Address live/die/suicide national survival formulation;
+- the Gettysburg Address burial/sacrifice/national life sentence;
+- the Gettysburg Address final dedication/new birth sentence;
+- the Second Inaugural blood repayment/divine judgment sentence.
+
+This sample demonstrates the workflow and creates a future reliability target.
+It does not complete MIPVU review for the Lincoln corpus.
 
 ## Language Policy
 

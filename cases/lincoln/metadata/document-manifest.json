@@ -7,7 +7,7 @@
       "short_title": "Lyceum Address",
       "date": "1838-01-27",
       "date_precision": "day",
-      "register": "political-speech",
+      "register": "public-address",
       "authorship": "Abraham Lincoln",
       "source_url": "https://www.gutenberg.org/ebooks/3253",
       "source_citation": "Project Gutenberg EBook #3253 — The Papers and Writings of Abraham Lincoln, Complete, ed. Arthur Brooks Lapsley. Date note: Lapsley edition reads '1837'; correct date is 1838-01-27 per Basler, Collected Works vol. 1, p. 108.",
@@ -20,7 +20,26 @@
           "mobocratic spirit",
           "Perpetuation of Our Political Institutions"
         ]
-      }
+      },
+      "source_registry_id": "lincoln-src-01-lyceum-address",
+      "period": "early-republican-rhetoric",
+      "phase": "pre-war-union-republic-language",
+      "genre": "public address",
+      "source_edition": "Project Gutenberg EBook #3253, extracted from The Papers and Writings of Abraham Lincoln, Complete, Constitutional Edition, ed. Arthur Brooks Lapsley",
+      "source_archive": "Project Gutenberg",
+      "authorship_confidence": 1.0,
+      "editorial_status": "public-domain transcription with Gutenberg header/footer stripped; Lapsley date error retained in body but corrected in metadata",
+      "editorial_notes": "The raw body prints January 27, 1837 following the Lapsley/Gutenberg source. Project metadata uses 1838-01-27, following Basler, Collected Works vol. 1, p. 108.",
+      "inclusion_rationale": "Early benchmark for Lincoln on political institutions, inherited republican obligation, law, mob violence, and the transition from revolutionary memory to civic reverence.",
+      "risk_flags": [
+        "source-date-error-in-body"
+      ],
+      "corpus_layer": "balanced-core",
+      "source_language": "en",
+      "annotation_language_policy": "source-language",
+      "storage_policy": "committed",
+      "structural_encoding": "single body section segmented into stable paragraph, sentence, and lexical-unit identifiers",
+      "known_limitations": "Gutenberg/Lapsley transcription is adequate for pilot annotation but should be cross-checked against Basler before publication-level quotation."
     },
     {
       "document_id": "lincoln-gettysburg-address",
@@ -28,7 +47,7 @@
       "short_title": "Gettysburg Address",
       "date": "1863-11-19",
       "date_precision": "day",
-      "register": "political-speech",
+      "register": "ceremonial-address",
       "authorship": "Abraham Lincoln",
       "source_url": "https://www.gutenberg.org/ebooks/4",
       "source_citation": "Project Gutenberg EBook #4 — Bliss copy (Lincoln's final corrected manuscript, the only one he signed)",
@@ -41,7 +60,27 @@
           "Four score and seven years ago",
           "government of the people"
         ]
-      }
+      },
+      "source_registry_id": "lincoln-src-02-gettysburg-address",
+      "period": "emancipation-and-sacrifice",
+      "phase": "peak-war-sacrifice",
+      "genre": "ceremonial address",
+      "source_edition": "Project Gutenberg EBook #4, Bliss copy transcription",
+      "source_archive": "Project Gutenberg",
+      "authorship_confidence": 1.0,
+      "editorial_status": "public-domain Bliss copy transcription with Gutenberg header/footer stripped",
+      "editorial_notes": "Gutenberg represents pauses with spaced ellipses; the Bliss manuscript does not use ellipses in the same way. Manuscript/version choice is analytically important and should be noted in publication.",
+      "inclusion_rationale": "Canonical sacrificial-economy text for battlefield death, national survival, dedication, consecration, unfinished work, and new birth of freedom.",
+      "risk_flags": [
+        "multiple-manuscript-versions-exist",
+        "gutenberg-ellipsis-style"
+      ],
+      "corpus_layer": "balanced-core",
+      "source_language": "en",
+      "annotation_language_policy": "source-language",
+      "storage_policy": "committed",
+      "structural_encoding": "single body section segmented into stable paragraph, sentence, and lexical-unit identifiers",
+      "known_limitations": "The Bliss copy is used for pilot consistency; variant manuscript wording should be checked before claims depend on exact phrasing."
     },
     {
       "document_id": "lincoln-second-inaugural",
@@ -49,7 +88,7 @@
       "short_title": "Second Inaugural",
       "date": "1865-03-04",
       "date_precision": "day",
-      "register": "political-speech",
+      "register": "inaugural-address",
       "authorship": "Abraham Lincoln",
       "source_url": "https://www.gutenberg.org/ebooks/8",
       "source_citation": "Project Gutenberg EBook #8 — Abraham Lincoln's Second Inaugural Address",
@@ -62,7 +101,24 @@
           "Both parties deprecated war",
           "malice toward none"
         ]
-      }
+      },
+      "source_registry_id": "lincoln-src-03-second-inaugural",
+      "period": "providence-and-reconciliation",
+      "phase": "final-reconciliation-memorialization",
+      "genre": "inaugural address",
+      "source_edition": "Project Gutenberg EBook #8, Abraham Lincoln's Second Inaugural Address",
+      "source_archive": "Project Gutenberg",
+      "authorship_confidence": 1.0,
+      "editorial_status": "public-domain transcription with Gutenberg header/footer stripped",
+      "editorial_notes": "Early Gutenberg transcription uses older formatting conventions. Cross-check against Library of Congress manuscript before publication-level quotation.",
+      "inclusion_rationale": "Central final-war text for Providence, oath, Union, shared guilt, blood repayment, judgment, reconciliation, and healing language.",
+      "risk_flags": [],
+      "corpus_layer": "balanced-core",
+      "source_language": "en",
+      "annotation_language_policy": "source-language",
+      "storage_policy": "committed",
+      "structural_encoding": "single body section segmented into stable paragraph, sentence, and lexical-unit identifiers",
+      "known_limitations": "Reliable for pilot annotation; manuscript cross-check remains required before publication-level quotation."
     }
   ]
 }

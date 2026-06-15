@@ -96,6 +96,10 @@ def build_mipvu_profile(case_id: str) -> dict[str, Any]:
         "metaphor_or_uncertain_units": len(including_uncertain),
         "metaphor_rate_confirmed": round(len(confirmed) / total_units, 4) if total_units else None,
         "metaphor_rate_including_uncertain": round(len(including_uncertain) / total_units, 4) if total_units else None,
+        "reviewed_metaphor_rate_confirmed": round(len(confirmed) / len(reviewed), 4) if reviewed else None,
+        "reviewed_metaphor_rate_including_uncertain": (
+            round(len(including_uncertain) / len(reviewed), 4) if reviewed else None
+        ),
         "by_document": count_simple(units, lambda unit: unit.get("document_id")),
         "by_register": count_simple(units, lambda unit: unit.get("document_register")),
         "by_language": count_simple(units, lambda unit: unit.get("language")),

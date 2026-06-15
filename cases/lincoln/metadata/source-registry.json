@@ -11,8 +11,8 @@
       "date": "1838-01-27",
       "phase": "pre-war-union-republic-language",
       "register": "public-address",
-      "archive": "University of Michigan Lincoln Studies Center / Miller Center",
-      "source_url": "https://quod.lib.umich.edu/l/lincoln/lincoln1/1:2?rgn=div1;view=fulltext",
+      "archive": "Project Gutenberg",
+      "source_url": "https://www.gutenberg.org/ebooks/3253",
       "citation": "Lincoln, Abraham. 'The Perpetuation of Our Political Institutions.' Address to the Young Men's Lyceum of Springfield, Illinois, January 27, 1838. In: Collected Works of Abraham Lincoln, vol. 1. Ed. Roy P. Basler. New Brunswick: Rutgers University Press, 1953. Digital edition: University of Michigan. https://quod.lib.umich.edu/l/lincoln/",
       "rights_status": "public-domain",
       "rights_rationale": "Speech delivered 1838; Lincoln died 1865. Text is in the public domain in all jurisdictions. The Basler Collected Works (1953) editorial apparatus has a separate copyright, but the primary speech text is a pre-copyright U.S. personal paper. University of Michigan digital edition is freely accessible.",
@@ -20,8 +20,15 @@
       "acquisition_instructions": "Download plain text from the University of Michigan Lincoln Studies digital edition at https://quod.lib.umich.edu/l/lincoln/lincoln1/1:2. Cross-reference against Miller Center transcript at https://millercenter.org/the-presidency/presidential-speeches/january-27-1838-lyceum-address. Resolve any transcription variants; note in manifest. Save to expected_local_path.",
       "expected_local_path": "cases/lincoln/corpus/raw/lincoln-src-01-lyceum-address.txt",
       "analytical_priority": "high",
-      "risk_flags": [],
-      "notes": "Pre-war address on the fragility of republican institutions. Key for early union/republic-as-sacred-object language, the founding generation's sacrifice as basis of obligation, and Lincoln's complex relationship to mob violence and law-as-religion. Important for diachronic comparison with later Civil War texts."
+      "risk_flags": [
+        "source-date-error-in-body"
+      ],
+      "notes": "Raw text currently uses Gutenberg/Lapsley transcription with header/footer stripped. Metadata corrects the Lapsley date error to 1838-01-27 using Basler. Cross-check with Basler or University of Michigan before publication-level quotation.",
+      "source_edition": "Project Gutenberg EBook #3253, extracted from The Papers and Writings of Abraham Lincoln, Complete, Constitutional Edition, ed. Arthur Brooks Lapsley",
+      "canonical_reference_url": "https://quod.lib.umich.edu/l/lincoln/lincoln1/1:2?rgn=div1;view=fulltext",
+      "corpus_layer": "balanced-core",
+      "source_language": "en",
+      "annotation_language_policy": "source-language"
     },
     {
       "source_id": "lincoln-src-02-gettysburg-address",
@@ -31,8 +38,8 @@
       "date": "1863-11-19",
       "phase": "peak-war-sacrifice",
       "register": "ceremonial-address",
-      "archive": "Library of Congress / National Park Service",
-      "source_url": "https://www.loc.gov/resource/mal.0773200/?sp=1",
+      "archive": "Project Gutenberg",
+      "source_url": "https://www.gutenberg.org/ebooks/4",
       "citation": "Lincoln, Abraham. 'Address Delivered at the Dedication of the Cemetery at Gettysburg.' November 19, 1863. Library of Congress, Abraham Lincoln Papers. https://www.loc.gov/resource/mal.0773200/. Also: National Park Service, https://www.nps.gov/linc/learn/historyculture/gettysburg-address.htm",
       "rights_status": "public-domain",
       "rights_rationale": "U.S. presidential address, 1863. Lincoln died 1865. No copyright applies in any jurisdiction. Five manuscript copies held at LOC and other institutions are all public-domain primary sources. Clean text widely available from NPS and LOC.",
@@ -40,8 +47,16 @@
       "acquisition_instructions": "Use the Bliss copy as the authoritative text — Lincoln's final corrected version. Text at NPS: https://www.nps.gov/linc/learn/historyculture/gettysburg-address.htm. Cross-reference LOC manuscript scan. Note which manuscript copy is used in the document manifest. Save to expected_local_path.",
       "expected_local_path": "cases/lincoln/corpus/raw/lincoln-src-02-gettysburg-address.txt",
       "analytical_priority": "high",
-      "risk_flags": ["multiple-manuscript-versions-exist"],
-      "notes": "Highest-density sacrificial economy text in the Lincoln corpus. 'Those who gave their lives' as the act that makes the nation real is the clearest single expression of the Law of Sacrifice in any case. Which manuscript version is used must be documented in the manifest."
+      "risk_flags": [
+        "multiple-manuscript-versions-exist",
+        "gutenberg-ellipsis-style"
+      ],
+      "notes": "Raw text currently uses Gutenberg Bliss-copy transcription. The Bliss copy is Lincoln final corrected and signed manuscript, but Gutenberg ellipsis styling should be treated as editorial/transcriptional mediation.",
+      "source_edition": "Project Gutenberg EBook #4, Bliss copy transcription",
+      "canonical_reference_url": "https://www.loc.gov/resource/mal.0773200/?sp=1",
+      "corpus_layer": "balanced-core",
+      "source_language": "en",
+      "annotation_language_policy": "source-language"
     },
     {
       "source_id": "lincoln-src-03-second-inaugural",
@@ -51,8 +66,8 @@
       "date": "1865-03-04",
       "phase": "final-reconciliation-memorialization",
       "register": "inaugural-address",
-      "archive": "Library of Congress / Miller Center",
-      "source_url": "https://www.loc.gov/resource/mal.4361800/?sp=1",
+      "archive": "Project Gutenberg",
+      "source_url": "https://www.gutenberg.org/ebooks/8",
       "citation": "Lincoln, Abraham. 'Second Inaugural Address.' March 4, 1865. Library of Congress, Abraham Lincoln Papers. https://www.loc.gov/resource/mal.4361800/. Also: Miller Center, https://millercenter.org/the-presidency/presidential-speeches/march-4-1865-second-inaugural-address",
       "rights_status": "public-domain",
       "rights_rationale": "U.S. presidential address, 1865. No copyright applies. LOC manuscript and NPS/Miller Center transcriptions are freely available public-domain texts.",
@@ -61,7 +76,12 @@
       "expected_local_path": "cases/lincoln/corpus/raw/lincoln-src-03-second-inaugural.txt",
       "analytical_priority": "high",
       "risk_flags": [],
-      "notes": "Final-theodicy phase text. Providence framing, covenant language, and 'every drop of blood drawn with the lash repaid by the sword' are the clearest expressions of blood-economy sacrifice logic in the Lincoln corpus. Essential for Koenigsbergian guilt-distribution and exit-condition analysis."
+      "notes": "Raw text currently uses Gutenberg transcription with header/footer stripped. Cross-check with Library of Congress manuscript before publication-level quotation.",
+      "source_edition": "Project Gutenberg EBook #8, Abraham Lincoln's Second Inaugural Address",
+      "canonical_reference_url": "https://www.loc.gov/resource/mal.4361800/?sp=1",
+      "corpus_layer": "balanced-core",
+      "source_language": "en",
+      "annotation_language_policy": "source-language"
     }
   ]
 }

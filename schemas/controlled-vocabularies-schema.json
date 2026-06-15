@@ -1,0 +1,45 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Controlled vocabularies",
+  "type": "object",
+  "required": [
+    "version",
+    "status",
+    "source_domains",
+    "target_domains",
+    "rhetorical_functions",
+    "ideological_functions",
+    "semantic_shift_risk_values",
+    "claim_statuses",
+    "support_dimensions"
+  ],
+  "properties": {
+    "version": { "type": "string" },
+    "status": { "type": "string" },
+    "updated": { "type": "string" },
+    "description": { "type": "string" },
+    "source_domains": { "$ref": "#/$defs/vocabulary" },
+    "target_domains": { "$ref": "#/$defs/vocabulary" },
+    "rhetorical_functions": { "$ref": "#/$defs/vocabulary" },
+    "ideological_functions": { "$ref": "#/$defs/vocabulary" },
+    "semantic_shift_risk_values": { "$ref": "#/$defs/vocabulary" },
+    "claim_statuses": { "$ref": "#/$defs/vocabulary" },
+    "support_dimensions": { "$ref": "#/$defs/vocabulary" }
+  },
+  "$defs": {
+    "vocabulary": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["id", "label"],
+        "properties": {
+          "id": { "type": "string", "minLength": 1 },
+          "label": { "type": "string", "minLength": 1 },
+          "scope_note": { "type": "string" }
+        },
+        "additionalProperties": true
+      }
+    }
+  }
+}

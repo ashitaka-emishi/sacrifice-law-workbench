@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import argparse
+import csv
 import json
 from pathlib import Path
 from typing import Any, Optional
@@ -31,6 +32,24 @@ MANIFEST_REQUIRED = [
     "rights_status",
     "expected_raw_path",
     "analytical_priority",
+]
+
+CORPUS_REGISTER_REQUIRED = [
+    "text_id",
+    "title",
+    "date",
+    "period",
+    "genre",
+    "register",
+    "source_edition",
+    "source_url",
+    "authorship_confidence",
+    "editorial_status",
+    "inclusion_rationale",
+    "corpus_layer",
+    "rights_status",
+    "git_tracking",
+    "expected_local_path",
 ]
 
 MIPVU_DECISION_TYPES = {
@@ -63,6 +82,16 @@ MIPVU_REQUIRED_RATIONALE = [
 
 MIPVU_REVIEW_STATUSES = {"pending", "needs_review", "reviewed", "accepted", "rejected"}
 
+CONTROLLED_VOCABULARY_SECTIONS = [
+    "source_domains",
+    "target_domains",
+    "rhetorical_functions",
+    "ideological_functions",
+    "semantic_shift_risk_values",
+    "claim_statuses",
+    "support_dimensions",
+]
+
 
 class Validator:
     def __init__(self) -> None:
@@ -81,6 +110,35 @@ class Validator:
                     json.loads(path.read_text(encoding="utf-8"))
                 except json.JSONDecodeError as exc:
                     self.error(path, f"JSON parse error: {exc}")
+
+    def validate_controlled_vocabularies(self) -> None:
+        path = ROOT / "config" / "controlled-vocabularies.json"
+        if not path.exists():
+            return
+        data = read_json(path, {}) or {}
+        if not isinstance(data, dict):
+            self.error(path, "controlled vocabularies must be an object")
+            return
+        for section in CONTROLLED_VOCABULARY_SECTIONS:
+            items = data.get(section)
+            if not isinstance(items, list) or not items:
+                self.error(path, f"`{section}` must be a non-empty array")
+                continue
+            seen: set[str] = set()
+            for index, item in enumerate(items):
+                if not isinstance(item, dict):
+                    self.error(path, f"{section}[{index}] must be an object")
+                    continue
+                vocab_id = str(item.get("id") or "")
+                label = str(item.get("label") or "")
+                if not vocab_id:
+                    self.error(path, f"{section}[{index}] missing `id`")
+                    continue
+                if vocab_id in seen:
+                    self.error(path, f"{section}: duplicate id `{vocab_id}`")
+                seen.add(vocab_id)
+                if not label:
+                    self.error(path, f"{section}.{vocab_id}: missing `label`")
 
     def validate_manifest(self, case_id: str) -> None:
         path = case_dir(case_id) / "metadata" / "document-manifest.json"
@@ -109,6 +167,53 @@ class Validator:
                 not isinstance(confidence, (int, float)) or confidence < 0 or confidence > 1
             ):
                 self.error(path, f"{doc_id}: authorship_confidence must be in [0, 1]")
+
+    def validate_corpus_register(self, case_id: str) -> None:
+        path = case_dir(case_id) / "metadata" / "corpus-register.csv"
+        if not path.exists():
+            return
+
+        manifest_docs = {document_id(doc): doc for doc in documents(case_id)}
+        rows: list[dict[str, str]] = []
+        try:
+            with path.open(newline="", encoding="utf-8") as handle:
+                reader = csv.DictReader(handle)
+                missing_columns = [
+                    field for field in CORPUS_REGISTER_REQUIRED if field not in (reader.fieldnames or [])
+                ]
+                if missing_columns:
+                    self.error(path, f"missing column(s): {', '.join(missing_columns)}")
+                    return
+                rows = [dict(row) for row in reader]
+        except csv.Error as exc:
+            self.error(path, f"CSV parse error: {exc}")
+            return
+
+        seen: set[str] = set()
+        for index, row in enumerate(rows, start=2):
+            text_id = (row.get("text_id") or "").strip()
+            if not text_id:
+                self.error(path, f"row {index}: missing `text_id`")
+                continue
+            if text_id in seen:
+                self.error(path, f"duplicate text_id `{text_id}`")
+            seen.add(text_id)
+            if text_id not in manifest_docs:
+                self.error(path, f"{text_id}: not found in document manifest")
+                continue
+            for field in CORPUS_REGISTER_REQUIRED:
+                if field == "risk_flags":
+                    continue
+                if not (row.get(field) or "").strip():
+                    self.error(path, f"{text_id}: missing `{field}`")
+            doc = manifest_docs[text_id]
+            for field in ["title", "date", "register", "source_url", "rights_status"]:
+                if str(doc.get(field, "")).strip() != str(row.get(field, "")).strip():
+                    self.error(path, f"{text_id}: `{field}` does not match document manifest")
+
+        missing_from_register = sorted(set(manifest_docs) - seen)
+        for text_id in missing_from_register:
+            self.error(path, f"{text_id}: missing from corpus register")
 
     def validate_segmented(self, case_id: str) -> set[str]:
         sentence_ids: set[str] = set()
@@ -218,6 +323,9 @@ class Validator:
                     self.error(path, f"{mipvu_id}: review_status has unexpected value `{review_status}`")
 
                 decision = unit.get("decision_type")
+                if review_status != "pending" and decision is None:
+                    self.error(path, f"{mipvu_id}: reviewed unit missing `decision_type`")
+                    continue
                 if decision is None:
                     if strict:
                         self.error(path, f"{mipvu_id}: missing `decision_type` in strict mode")
@@ -225,6 +333,8 @@ class Validator:
                 if decision not in MIPVU_DECISION_TYPES:
                     self.error(path, f"{mipvu_id}: invalid decision_type `{decision}`")
                     continue
+                if decision != "non_metaphor" and review_status == "pending":
+                    self.error(path, f"{mipvu_id}: `{decision}` cannot remain pending")
                 if decision in MIPVU_METAPHOR_DECISIONS:
                     for field in MIPVU_REQUIRED_RATIONALE:
                         if unit.get(field) in (None, ""):
@@ -336,6 +446,7 @@ class Validator:
 
     def validate_case(self, case_id: str, strict: bool = False) -> None:
         self.validate_manifest(case_id)
+        self.validate_corpus_register(case_id)
         sentence_ids = self.validate_segmented(case_id)
         mipvu_lookup = self.validate_mipvu(case_id, sentence_ids, strict=strict)
         self.validate_annotated(case_id, sentence_ids, mipvu_lookup)
@@ -350,6 +461,7 @@ def main() -> int:
 
     validator = Validator()
     validator.validate_json_parseability()
+    validator.validate_controlled_vocabularies()
     for case_id in case_ids(args.case_id):
         validator.validate_case(case_id, strict=args.strict)
 
