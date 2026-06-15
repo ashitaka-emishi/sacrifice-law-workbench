@@ -1,17 +1,19 @@
 {
   "version": "1.0",
   "case_id": "lincoln",
-  "generated_at": "2026-06-14T21:24:35",
+  "generated_at": "2026-06-15T08:40:25",
   "status": "stub",
   "mipvu_profile": {
     "mipvu_files": 3,
     "total_lexical_units": 4536,
-    "reviewed_lexical_units": 0,
-    "pending_lexical_units": 4536,
-    "confirmed_metaphor_units": 0,
-    "metaphor_or_uncertain_units": 0,
-    "metaphor_rate_confirmed": 0.0,
-    "metaphor_rate_including_uncertain": 0.0,
+    "reviewed_lexical_units": 192,
+    "pending_lexical_units": 4344,
+    "confirmed_metaphor_units": 13,
+    "metaphor_or_uncertain_units": 15,
+    "metaphor_rate_confirmed": 0.0029,
+    "metaphor_rate_including_uncertain": 0.0033,
+    "reviewed_metaphor_rate_confirmed": 0.0677,
+    "reviewed_metaphor_rate_including_uncertain": 0.0781,
     "by_document": {
       "lincoln-lyceum-address": 3568,
       "lincoln-second-inaugural": 700,
@@ -24,10 +26,18 @@
       "en": 4536
     },
     "by_decision_type": {
-      "pending": 4536
+      "pending": 4344,
+      "non_metaphor": 177,
+      "mipvu_indirect": 7,
+      "mipvu_personification": 5,
+      "uncertain": 2,
+      "mipvu_direct": 1
     },
     "by_confidence": {
-      "missing": 4536
+      "missing": 4521,
+      "high": 7,
+      "medium": 6,
+      "low": 2
     }
   },
   "total_documents": 0,
@@ -58,7 +68,7 @@
       "stage": "build-concordance",
       "script": "scripts/build-concordance.py",
       "annotated_files": 0,
-      "generated_at": "2026-06-14T21:24:35"
+      "generated_at": "2026-06-15T08:40:25"
     }
   ]
 }

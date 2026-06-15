@@ -1,7 +1,7 @@
 {
   "case_id": "lincoln",
   "stage": "generate-mipvu-worklist",
-  "status": "ready",
+  "status": "in_review",
   "generated_at": "2026-06-14T21:24:35",
   "documents_in_manifest": 3,
   "written": 3,
@@ -13,21 +13,44 @@
       "status": "written",
       "lexical_units": 3568,
       "input_path": "/Users/andrewhammer/codegarden/koenigsberg-sacrifice-workbench/cases/lincoln/corpus/segmented/lincoln-lyceum-address.json",
-      "output_path": "/Users/andrewhammer/codegarden/koenigsberg-sacrifice-workbench/cases/lincoln/corpus/mipvu/lincoln-lyceum-address_mipvu.json"
+      "output_path": "/Users/andrewhammer/codegarden/koenigsberg-sacrifice-workbench/cases/lincoln/corpus/mipvu/lincoln-lyceum-address_mipvu.json",
+      "review_status": "pilot_sample_reviewed",
+      "reviewed_lexical_units": 15,
+      "pilot_sample_sentence_ids": [
+        "lincoln-lyceum-address_s01_p06_s04"
+      ]
     },
     {
       "document_id": "lincoln-gettysburg-address",
       "status": "written",
       "lexical_units": 268,
       "input_path": "/Users/andrewhammer/codegarden/koenigsberg-sacrifice-workbench/cases/lincoln/corpus/segmented/lincoln-gettysburg-address.json",
-      "output_path": "/Users/andrewhammer/codegarden/koenigsberg-sacrifice-workbench/cases/lincoln/corpus/mipvu/lincoln-gettysburg-address_mipvu.json"
+      "output_path": "/Users/andrewhammer/codegarden/koenigsberg-sacrifice-workbench/cases/lincoln/corpus/mipvu/lincoln-gettysburg-address_mipvu.json",
+      "review_status": "pilot_sample_reviewed",
+      "reviewed_lexical_units": 109,
+      "pilot_sample_sentence_ids": [
+        "lincoln-gettysburg-address_s01_p03_s01",
+        "lincoln-gettysburg-address_s01_p05_s02"
+      ]
     },
     {
       "document_id": "lincoln-second-inaugural",
       "status": "written",
       "lexical_units": 700,
       "input_path": "/Users/andrewhammer/codegarden/koenigsberg-sacrifice-workbench/cases/lincoln/corpus/segmented/lincoln-second-inaugural.json",
-      "output_path": "/Users/andrewhammer/codegarden/koenigsberg-sacrifice-workbench/cases/lincoln/corpus/mipvu/lincoln-second-inaugural_mipvu.json"
+      "output_path": "/Users/andrewhammer/codegarden/koenigsberg-sacrifice-workbench/cases/lincoln/corpus/mipvu/lincoln-second-inaugural_mipvu.json",
+      "review_status": "pilot_sample_reviewed",
+      "reviewed_lexical_units": 68,
+      "pilot_sample_sentence_ids": [
+        "lincoln-second-inaugural_s01_p05_s04"
+      ]
     }
-  ]
+  ],
+  "review_policy": "pilot-sample-reviewed; remaining lexical units pending",
+  "review_batches": [
+    "lincoln-pilot-v1"
+  ],
+  "reviewed_lexical_units": 192,
+  "confirmed_metaphor_units": 13,
+  "uncertain_metaphor_units": 2
 }

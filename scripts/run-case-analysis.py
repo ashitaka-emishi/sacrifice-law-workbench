@@ -110,6 +110,10 @@ def run_case_analysis(case_id: str, strict: bool = False) -> dict:
                 "metaphor_or_uncertain_units": mipvu_profile.get("metaphor_or_uncertain_units"),
                 "metaphor_rate_confirmed": mipvu_profile.get("metaphor_rate_confirmed"),
                 "metaphor_rate_including_uncertain": mipvu_profile.get("metaphor_rate_including_uncertain"),
+                "reviewed_metaphor_rate_confirmed": mipvu_profile.get("reviewed_metaphor_rate_confirmed"),
+                "reviewed_metaphor_rate_including_uncertain": mipvu_profile.get(
+                    "reviewed_metaphor_rate_including_uncertain"
+                ),
             },
         },
         "errors": errors,

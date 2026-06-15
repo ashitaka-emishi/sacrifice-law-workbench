@@ -32,6 +32,11 @@ PRESERVED_FIELDS = {
     "gloss_en",
     "gloss_notes",
     "compound_unit_id",
+    "semantic_shift_risk",
+    "candidate_source_domain",
+    "candidate_target_domain",
+    "review_batch",
+    "annotator",
     "review_status",
 }
 

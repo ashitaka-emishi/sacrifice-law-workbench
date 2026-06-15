@@ -323,6 +323,9 @@ class Validator:
                     self.error(path, f"{mipvu_id}: review_status has unexpected value `{review_status}`")
 
                 decision = unit.get("decision_type")
+                if review_status != "pending" and decision is None:
+                    self.error(path, f"{mipvu_id}: reviewed unit missing `decision_type`")
+                    continue
                 if decision is None:
                     if strict:
                         self.error(path, f"{mipvu_id}: missing `decision_type` in strict mode")
@@ -330,6 +333,8 @@ class Validator:
                 if decision not in MIPVU_DECISION_TYPES:
                     self.error(path, f"{mipvu_id}: invalid decision_type `{decision}`")
                     continue
+                if decision != "non_metaphor" and review_status == "pending":
+                    self.error(path, f"{mipvu_id}: `{decision}` cannot remain pending")
                 if decision in MIPVU_METAPHOR_DECISIONS:
                     for field in MIPVU_REQUIRED_RATIONALE:
                         if unit.get(field) in (None, ""):

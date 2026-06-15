@@ -51,6 +51,14 @@
     "gloss_en": { "type": "string" },
     "gloss_notes": { "type": "string" },
     "compound_unit_id": { "type": "string" },
+    "semantic_shift_risk": {
+      "type": "string",
+      "enum": ["low", "medium", "high"]
+    },
+    "candidate_source_domain": { "type": "string" },
+    "candidate_target_domain": { "type": "string" },
+    "review_batch": { "type": "string" },
+    "annotator": { "type": "string" },
     "review_status": {
       "type": "string",
       "enum": ["pending", "needs_review", "reviewed", "accepted", "rejected"]

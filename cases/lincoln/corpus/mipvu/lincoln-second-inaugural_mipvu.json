@@ -4,14 +4,18 @@
   "document_id": "lincoln-second-inaugural",
   "source_language": "en",
   "generated_at": "2026-06-14T21:24:35",
-  "status": "worklist",
+  "status": "in_review",
   "meta": {
     "title": "Second Inaugural Address",
     "short_title": "Second Inaugural",
     "register": "political-speech",
     "date": "1865-03-04",
     "source_url": "https://www.gutenberg.org/ebooks/8",
-    "annotation_language_policy": null
+    "annotation_language_policy": null,
+    "mipvu_review_policy": "pilot-sample-reviewed; remaining lexical units pending",
+    "review_batches": [
+      "lincoln-pilot-v1"
+    ]
   },
   "lexical_units": [
     {
@@ -8956,7 +8960,12 @@
       "char_offset_end": 3222,
       "sentence_char_offset_start": 0,
       "sentence_char_offset_end": 3,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "lincoln-pilot-v1",
+      "annotator": "codex-draft",
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
+      "semantic_shift_risk": "low"
     },
     {
       "mipvu_id": "lincoln-second-inaugural_s01_p05_s04_lu002",
@@ -8972,7 +8981,12 @@
       "char_offset_end": 3226,
       "sentence_char_offset_start": 5,
       "sentence_char_offset_end": 7,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "lincoln-pilot-v1",
+      "annotator": "codex-draft",
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
+      "semantic_shift_risk": "low"
     },
     {
       "mipvu_id": "lincoln-second-inaugural_s01_p05_s04_lu003",
@@ -8988,7 +9002,12 @@
       "char_offset_end": 3230,
       "sentence_char_offset_start": 8,
       "sentence_char_offset_end": 11,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "lincoln-pilot-v1",
+      "annotator": "codex-draft",
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
+      "semantic_shift_risk": "low"
     },
     {
       "mipvu_id": "lincoln-second-inaugural_s01_p05_s04_lu004",
@@ -9004,7 +9023,12 @@
       "char_offset_end": 3236,
       "sentence_char_offset_start": 12,
       "sentence_char_offset_end": 17,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "lincoln-pilot-v1",
+      "annotator": "codex-draft",
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
+      "semantic_shift_risk": "low"
     },
     {
       "mipvu_id": "lincoln-second-inaugural_s01_p05_s04_lu005",
@@ -9020,7 +9044,12 @@
       "char_offset_end": 3241,
       "sentence_char_offset_start": 18,
       "sentence_char_offset_end": 22,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "lincoln-pilot-v1",
+      "annotator": "codex-draft",
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
+      "semantic_shift_risk": "low"
     },
     {
       "mipvu_id": "lincoln-second-inaugural_s01_p05_s04_lu006",
@@ -9036,7 +9065,12 @@
       "char_offset_end": 3244,
       "sentence_char_offset_start": 23,
       "sentence_char_offset_end": 25,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "lincoln-pilot-v1",
+      "annotator": "codex-draft",
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
+      "semantic_shift_risk": "low"
     },
     {
       "mipvu_id": "lincoln-second-inaugural_s01_p05_s04_lu007",
@@ -9052,7 +9086,12 @@
       "char_offset_end": 3253,
       "sentence_char_offset_start": 26,
       "sentence_char_offset_end": 34,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "lincoln-pilot-v1",
+      "annotator": "codex-draft",
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
+      "semantic_shift_risk": "low"
     },
     {
       "mipvu_id": "lincoln-second-inaugural_s01_p05_s04_lu008",
@@ -9068,7 +9107,12 @@
       "char_offset_end": 3259,
       "sentence_char_offset_start": 35,
       "sentence_char_offset_end": 40,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "lincoln-pilot-v1",
+      "annotator": "codex-draft",
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
+      "semantic_shift_risk": "low"
     },
     {
       "mipvu_id": "lincoln-second-inaugural_s01_p05_s04_lu009",
@@ -9084,7 +9128,12 @@
       "char_offset_end": 3263,
       "sentence_char_offset_start": 41,
       "sentence_char_offset_end": 44,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "lincoln-pilot-v1",
+      "annotator": "codex-draft",
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
+      "semantic_shift_risk": "low"
     },
     {
       "mipvu_id": "lincoln-second-inaugural_s01_p05_s04_lu010",
@@ -9100,7 +9149,12 @@
       "char_offset_end": 3267,
       "sentence_char_offset_start": 45,
       "sentence_char_offset_end": 48,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "lincoln-pilot-v1",
+      "annotator": "codex-draft",
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
+      "semantic_shift_risk": "low"
     },
     {
       "mipvu_id": "lincoln-second-inaugural_s01_p05_s04_lu011",
@@ -9116,7 +9170,12 @@
       "char_offset_end": 3274,
       "sentence_char_offset_start": 49,
       "sentence_char_offset_end": 55,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "lincoln-pilot-v1",
+      "annotator": "codex-draft",
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
+      "semantic_shift_risk": "low"
     },
     {
       "mipvu_id": "lincoln-second-inaugural_s01_p05_s04_lu012",
@@ -9132,7 +9191,12 @@
       "char_offset_end": 3280,
       "sentence_char_offset_start": 56,
       "sentence_char_offset_end": 61,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "lincoln-pilot-v1",
+      "annotator": "codex-draft",
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
+      "semantic_shift_risk": "low"
     },
     {
       "mipvu_id": "lincoln-second-inaugural_s01_p05_s04_lu013",
@@ -9148,7 +9212,12 @@
       "char_offset_end": 3283,
       "sentence_char_offset_start": 62,
       "sentence_char_offset_end": 64,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "lincoln-pilot-v1",
+      "annotator": "codex-draft",
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
+      "semantic_shift_risk": "low"
     },
     {
       "mipvu_id": "lincoln-second-inaugural_s01_p05_s04_lu014",
@@ -9164,7 +9233,12 @@
       "char_offset_end": 3287,
       "sentence_char_offset_start": 65,
       "sentence_char_offset_end": 68,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "lincoln-pilot-v1",
+      "annotator": "codex-draft",
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
+      "semantic_shift_risk": "low"
     },
     {
       "mipvu_id": "lincoln-second-inaugural_s01_p05_s04_lu015",
@@ -9180,7 +9254,12 @@
       "char_offset_end": 3298,
       "sentence_char_offset_start": 69,
       "sentence_char_offset_end": 79,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "lincoln-pilot-v1",
+      "annotator": "codex-draft",
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
+      "semantic_shift_risk": "low"
     },
     {
       "mipvu_id": "lincoln-second-inaugural_s01_p05_s04_lu016",
@@ -9196,7 +9275,12 @@
       "char_offset_end": 3302,
       "sentence_char_offset_start": 80,
       "sentence_char_offset_end": 83,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "lincoln-pilot-v1",
+      "annotator": "codex-draft",
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
+      "semantic_shift_risk": "low"
     },
     {
       "mipvu_id": "lincoln-second-inaugural_s01_p05_s04_lu017",
@@ -9212,7 +9296,12 @@
       "char_offset_end": 3310,
       "sentence_char_offset_start": 84,
       "sentence_char_offset_end": 91,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "lincoln-pilot-v1",
+      "annotator": "codex-draft",
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
+      "semantic_shift_risk": "low"
     },
     {
       "mipvu_id": "lincoln-second-inaugural_s01_p05_s04_lu018",
@@ -9228,7 +9317,12 @@
       "char_offset_end": 3314,
       "sentence_char_offset_start": 92,
       "sentence_char_offset_end": 95,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "lincoln-pilot-v1",
+      "annotator": "codex-draft",
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
+      "semantic_shift_risk": "low"
     },
     {
       "mipvu_id": "lincoln-second-inaugural_s01_p05_s04_lu019",
@@ -9244,7 +9338,12 @@
       "char_offset_end": 3320,
       "sentence_char_offset_start": 96,
       "sentence_char_offset_end": 101,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "lincoln-pilot-v1",
+      "annotator": "codex-draft",
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
+      "semantic_shift_risk": "low"
     },
     {
       "mipvu_id": "lincoln-second-inaugural_s01_p05_s04_lu020",
@@ -9260,7 +9359,12 @@
       "char_offset_end": 3326,
       "sentence_char_offset_start": 102,
       "sentence_char_offset_end": 107,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "lincoln-pilot-v1",
+      "annotator": "codex-draft",
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
+      "semantic_shift_risk": "low"
     },
     {
       "mipvu_id": "lincoln-second-inaugural_s01_p05_s04_lu021",
@@ -9276,7 +9380,12 @@
       "char_offset_end": 3329,
       "sentence_char_offset_start": 108,
       "sentence_char_offset_end": 110,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "lincoln-pilot-v1",
+      "annotator": "codex-draft",
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
+      "semantic_shift_risk": "low"
     },
     {
       "mipvu_id": "lincoln-second-inaugural_s01_p05_s04_lu022",
@@ -9292,7 +9401,12 @@
       "char_offset_end": 3340,
       "sentence_char_offset_start": 111,
       "sentence_char_offset_end": 121,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "lincoln-pilot-v1",
+      "annotator": "codex-draft",
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
+      "semantic_shift_risk": "low"
     },
     {
       "mipvu_id": "lincoln-second-inaugural_s01_p05_s04_lu023",
@@ -9308,7 +9422,12 @@
       "char_offset_end": 3345,
       "sentence_char_offset_start": 122,
       "sentence_char_offset_end": 126,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "lincoln-pilot-v1",
+      "annotator": "codex-draft",
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
+      "semantic_shift_risk": "low"
     },
     {
       "mipvu_id": "lincoln-second-inaugural_s01_p05_s04_lu024",
@@ -9324,7 +9443,12 @@
       "char_offset_end": 3351,
       "sentence_char_offset_start": 127,
       "sentence_char_offset_end": 132,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "lincoln-pilot-v1",
+      "annotator": "codex-draft",
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
+      "semantic_shift_risk": "low"
     },
     {
       "mipvu_id": "lincoln-second-inaugural_s01_p05_s04_lu025",
@@ -9340,7 +9464,12 @@
       "char_offset_end": 3354,
       "sentence_char_offset_start": 133,
       "sentence_char_offset_end": 135,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "lincoln-pilot-v1",
+      "annotator": "codex-draft",
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
+      "semantic_shift_risk": "low"
     },
     {
       "mipvu_id": "lincoln-second-inaugural_s01_p05_s04_lu026",
@@ -9356,7 +9485,20 @@
       "char_offset_end": 3359,
       "sentence_char_offset_start": 136,
       "sentence_char_offset_end": 140,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "mipvu_indirect",
+      "review_batch": "lincoln-pilot-v1",
+      "annotator": "codex-draft",
+      "review_notes": "Part of moral-accounting sequence; may map with debt/accounting rather than body metaphor.",
+      "semantic_shift_risk": "medium",
+      "contextual_meaning": "wealth produced by enslaved labor is exhausted or consumed",
+      "basic_meaning": "descended below a surface or into water/earth",
+      "basic_meaning_source": "Webster 1828, 'sink'",
+      "contrast_explanation": "Wealth is not literally submerged; it is imagined as disappearing downward or being consumed.",
+      "comparison_basis": "Economic repayment or loss is understood through physical sinking/descent.",
+      "confidence": 0.78,
+      "candidate_source_domain": "debt_accounting",
+      "candidate_target_domain": "slavery"
     },
     {
       "mipvu_id": "lincoln-second-inaugural_s01_p05_s04_lu027",
@@ -9372,7 +9514,12 @@
       "char_offset_end": 3364,
       "sentence_char_offset_start": 142,
       "sentence_char_offset_end": 145,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "lincoln-pilot-v1",
+      "annotator": "codex-draft",
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
+      "semantic_shift_risk": "low"
     },
     {
       "mipvu_id": "lincoln-second-inaugural_s01_p05_s04_lu028",
@@ -9388,7 +9535,12 @@
       "char_offset_end": 3370,
       "sentence_char_offset_start": 146,
       "sentence_char_offset_end": 151,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "lincoln-pilot-v1",
+      "annotator": "codex-draft",
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
+      "semantic_shift_risk": "low"
     },
     {
       "mipvu_id": "lincoln-second-inaugural_s01_p05_s04_lu029",
@@ -9404,7 +9556,12 @@
       "char_offset_end": 3376,
       "sentence_char_offset_start": 152,
       "sentence_char_offset_end": 157,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "lincoln-pilot-v1",
+      "annotator": "codex-draft",
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
+      "semantic_shift_risk": "low"
     },
     {
       "mipvu_id": "lincoln-second-inaugural_s01_p05_s04_lu030",
@@ -9420,7 +9577,12 @@
       "char_offset_end": 3381,
       "sentence_char_offset_start": 158,
       "sentence_char_offset_end": 162,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "lincoln-pilot-v1",
+      "annotator": "codex-draft",
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
+      "semantic_shift_risk": "low"
     },
     {
       "mipvu_id": "lincoln-second-inaugural_s01_p05_s04_lu031",
@@ -9436,7 +9598,12 @@
       "char_offset_end": 3384,
       "sentence_char_offset_start": 163,
       "sentence_char_offset_end": 165,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "lincoln-pilot-v1",
+      "annotator": "codex-draft",
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
+      "semantic_shift_risk": "low"
     },
     {
       "mipvu_id": "lincoln-second-inaugural_s01_p05_s04_lu032",
@@ -9452,7 +9619,12 @@
       "char_offset_end": 3390,
       "sentence_char_offset_start": 166,
       "sentence_char_offset_end": 171,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "lincoln-pilot-v1",
+      "annotator": "codex-draft",
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
+      "semantic_shift_risk": "low"
     },
     {
       "mipvu_id": "lincoln-second-inaugural_s01_p05_s04_lu033",
@@ -9468,7 +9640,12 @@
       "char_offset_end": 3396,
       "sentence_char_offset_start": 172,
       "sentence_char_offset_end": 177,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "lincoln-pilot-v1",
+      "annotator": "codex-draft",
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
+      "semantic_shift_risk": "low"
     },
     {
       "mipvu_id": "lincoln-second-inaugural_s01_p05_s04_lu034",
@@ -9484,7 +9661,12 @@
       "char_offset_end": 3399,
       "sentence_char_offset_start": 178,
       "sentence_char_offset_end": 180,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "lincoln-pilot-v1",
+      "annotator": "codex-draft",
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
+      "semantic_shift_risk": "low"
     },
     {
       "mipvu_id": "lincoln-second-inaugural_s01_p05_s04_lu035",
@@ -9500,7 +9682,12 @@
       "char_offset_end": 3403,
       "sentence_char_offset_start": 181,
       "sentence_char_offset_end": 184,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "lincoln-pilot-v1",
+      "annotator": "codex-draft",
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
+      "semantic_shift_risk": "low"
     },
     {
       "mipvu_id": "lincoln-second-inaugural_s01_p05_s04_lu036",
@@ -9516,7 +9703,12 @@
       "char_offset_end": 3408,
       "sentence_char_offset_start": 185,
       "sentence_char_offset_end": 189,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "lincoln-pilot-v1",
+      "annotator": "codex-draft",
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
+      "semantic_shift_risk": "low"
     },
     {
       "mipvu_id": "lincoln-second-inaugural_s01_p05_s04_lu037",
@@ -9532,7 +9724,12 @@
       "char_offset_end": 3414,
       "sentence_char_offset_start": 190,
       "sentence_char_offset_end": 195,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "lincoln-pilot-v1",
+      "annotator": "codex-draft",
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
+      "semantic_shift_risk": "low"
     },
     {
       "mipvu_id": "lincoln-second-inaugural_s01_p05_s04_lu038",
@@ -9548,7 +9745,12 @@
       "char_offset_end": 3417,
       "sentence_char_offset_start": 196,
       "sentence_char_offset_end": 198,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "lincoln-pilot-v1",
+      "annotator": "codex-draft",
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
+      "semantic_shift_risk": "low"
     },
     {
       "mipvu_id": "lincoln-second-inaugural_s01_p05_s04_lu039",
@@ -9564,7 +9766,20 @@
       "char_offset_end": 3422,
       "sentence_char_offset_start": 199,
       "sentence_char_offset_end": 203,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "mipvu_indirect",
+      "review_batch": "lincoln-pilot-v1",
+      "annotator": "codex-draft",
+      "review_notes": "High-salience moral accounting unit; interpret only with blood/lash/sword and providential judgment context.",
+      "semantic_shift_risk": "high",
+      "contextual_meaning": "bloodshed is morally repaid by further bloodshed in war",
+      "basic_meaning": "settle a debt by giving money or equivalent value",
+      "basic_meaning_source": "Webster 1828, 'pay'",
+      "contrast_explanation": "Blood is not currency, but violence is framed as repayment for prior violence.",
+      "comparison_basis": "Historical judgment is understood through debt repayment and moral accounting.",
+      "confidence": 0.94,
+      "candidate_source_domain": "debt_accounting",
+      "candidate_target_domain": "providence"
     },
     {
       "mipvu_id": "lincoln-second-inaugural_s01_p05_s04_lu040",
@@ -9580,7 +9795,12 @@
       "char_offset_end": 3425,
       "sentence_char_offset_start": 204,
       "sentence_char_offset_end": 206,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "lincoln-pilot-v1",
+      "annotator": "codex-draft",
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
+      "semantic_shift_risk": "low"
     },
     {
       "mipvu_id": "lincoln-second-inaugural_s01_p05_s04_lu041",
@@ -9596,7 +9816,12 @@
       "char_offset_end": 3433,
       "sentence_char_offset_start": 207,
       "sentence_char_offset_end": 214,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "lincoln-pilot-v1",
+      "annotator": "codex-draft",
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
+      "semantic_shift_risk": "low"
     },
     {
       "mipvu_id": "lincoln-second-inaugural_s01_p05_s04_lu042",
@@ -9612,7 +9837,12 @@
       "char_offset_end": 3439,
       "sentence_char_offset_start": 215,
       "sentence_char_offset_end": 220,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "lincoln-pilot-v1",
+      "annotator": "codex-draft",
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
+      "semantic_shift_risk": "low"
     },
     {
       "mipvu_id": "lincoln-second-inaugural_s01_p05_s04_lu043",
@@ -9628,7 +9858,12 @@
       "char_offset_end": 3444,
       "sentence_char_offset_start": 221,
       "sentence_char_offset_end": 225,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "lincoln-pilot-v1",
+      "annotator": "codex-draft",
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
+      "semantic_shift_risk": "low"
     },
     {
       "mipvu_id": "lincoln-second-inaugural_s01_p05_s04_lu044",
@@ -9644,7 +9879,12 @@
       "char_offset_end": 3448,
       "sentence_char_offset_start": 226,
       "sentence_char_offset_end": 229,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "lincoln-pilot-v1",
+      "annotator": "codex-draft",
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
+      "semantic_shift_risk": "low"
     },
     {
       "mipvu_id": "lincoln-second-inaugural_s01_p05_s04_lu045",
@@ -9660,7 +9900,20 @@
       "char_offset_end": 3454,
       "sentence_char_offset_start": 230,
       "sentence_char_offset_end": 235,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "uncertain",
+      "review_batch": "lincoln-pilot-v1",
+      "annotator": "codex-draft",
+      "review_notes": "Preserve uncertainty: could be literal weapon, metonym for war, or biblical idiom. Do not use as high-confidence metaphor evidence without adjudication.",
+      "semantic_shift_risk": "high",
+      "contextual_meaning": "war violence or armed force in the repayment phrase",
+      "basic_meaning": "a bladed weapon",
+      "basic_meaning_source": "Webster 1828, 'sword'",
+      "contrast_explanation": "The local phrase may refer to literal weapons, war by metonymy, or biblical/legal retribution imagery.",
+      "comparison_basis": "War may be represented by its weapon, but this may be metonymic rather than metaphorical.",
+      "confidence": 0.55,
+      "candidate_source_domain": "war_combat",
+      "candidate_target_domain": "civil_war"
     },
     {
       "mipvu_id": "lincoln-second-inaugural_s01_p05_s04_lu046",
@@ -9676,7 +9929,12 @@
       "char_offset_end": 3458,
       "sentence_char_offset_start": 237,
       "sentence_char_offset_end": 239,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "lincoln-pilot-v1",
+      "annotator": "codex-draft",
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
+      "semantic_shift_risk": "low"
     },
     {
       "mipvu_id": "lincoln-second-inaugural_s01_p05_s04_lu047",
@@ -9692,7 +9950,12 @@
       "char_offset_end": 3462,
       "sentence_char_offset_start": 240,
       "sentence_char_offset_end": 243,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "lincoln-pilot-v1",
+      "annotator": "codex-draft",
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
+      "semantic_shift_risk": "low"
     },
     {
       "mipvu_id": "lincoln-second-inaugural_s01_p05_s04_lu048",
@@ -9708,7 +9971,12 @@
       "char_offset_end": 3467,
       "sentence_char_offset_start": 244,
       "sentence_char_offset_end": 248,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "lincoln-pilot-v1",
+      "annotator": "codex-draft",
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
+      "semantic_shift_risk": "low"
     },
     {
       "mipvu_id": "lincoln-second-inaugural_s01_p05_s04_lu049",
@@ -9724,7 +9992,12 @@
       "char_offset_end": 3473,
       "sentence_char_offset_start": 249,
       "sentence_char_offset_end": 254,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "lincoln-pilot-v1",
+      "annotator": "codex-draft",
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
+      "semantic_shift_risk": "low"
     },
     {
       "mipvu_id": "lincoln-second-inaugural_s01_p05_s04_lu050",
@@ -9740,7 +10013,12 @@
       "char_offset_end": 3482,
       "sentence_char_offset_start": 255,
       "sentence_char_offset_end": 263,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "lincoln-pilot-v1",
+      "annotator": "codex-draft",
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
+      "semantic_shift_risk": "low"
     },
     {
       "mipvu_id": "lincoln-second-inaugural_s01_p05_s04_lu051",
@@ -9756,7 +10034,12 @@
       "char_offset_end": 3488,
       "sentence_char_offset_start": 264,
       "sentence_char_offset_end": 269,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "lincoln-pilot-v1",
+      "annotator": "codex-draft",
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
+      "semantic_shift_risk": "low"
     },
     {
       "mipvu_id": "lincoln-second-inaugural_s01_p05_s04_lu052",
@@ -9772,7 +10055,12 @@
       "char_offset_end": 3492,
       "sentence_char_offset_start": 270,
       "sentence_char_offset_end": 273,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "lincoln-pilot-v1",
+      "annotator": "codex-draft",
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
+      "semantic_shift_risk": "low"
     },
     {
       "mipvu_id": "lincoln-second-inaugural_s01_p05_s04_lu053",
@@ -9788,7 +10076,12 @@
       "char_offset_end": 3496,
       "sentence_char_offset_start": 275,
       "sentence_char_offset_end": 277,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "lincoln-pilot-v1",
+      "annotator": "codex-draft",
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
+      "semantic_shift_risk": "low"
     },
     {
       "mipvu_id": "lincoln-second-inaugural_s01_p05_s04_lu054",
@@ -9804,7 +10097,12 @@
       "char_offset_end": 3502,
       "sentence_char_offset_start": 278,
       "sentence_char_offset_end": 283,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "lincoln-pilot-v1",
+      "annotator": "codex-draft",
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
+      "semantic_shift_risk": "low"
     },
     {
       "mipvu_id": "lincoln-second-inaugural_s01_p05_s04_lu055",
@@ -9820,7 +10118,12 @@
       "char_offset_end": 3505,
       "sentence_char_offset_start": 284,
       "sentence_char_offset_end": 286,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "lincoln-pilot-v1",
+      "annotator": "codex-draft",
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
+      "semantic_shift_risk": "low"
     },
     {
       "mipvu_id": "lincoln-second-inaugural_s01_p05_s04_lu056",
@@ -9836,7 +10139,12 @@
       "char_offset_end": 3510,
       "sentence_char_offset_start": 287,
       "sentence_char_offset_end": 291,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "lincoln-pilot-v1",
+      "annotator": "codex-draft",
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
+      "semantic_shift_risk": "low"
     },
     {
       "mipvu_id": "lincoln-second-inaugural_s01_p05_s04_lu057",
@@ -9852,7 +10160,12 @@
       "char_offset_end": 3513,
       "sentence_char_offset_start": 292,
       "sentence_char_offset_end": 294,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "lincoln-pilot-v1",
+      "annotator": "codex-draft",
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
+      "semantic_shift_risk": "low"
     },
     {
       "mipvu_id": "lincoln-second-inaugural_s01_p05_s04_lu058",
@@ -9868,7 +10181,12 @@
       "char_offset_end": 3518,
       "sentence_char_offset_start": 295,
       "sentence_char_offset_end": 299,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "lincoln-pilot-v1",
+      "annotator": "codex-draft",
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
+      "semantic_shift_risk": "low"
     },
     {
       "mipvu_id": "lincoln-second-inaugural_s01_p05_s04_lu059",
@@ -9884,7 +10202,12 @@
       "char_offset_end": 3524,
       "sentence_char_offset_start": 302,
       "sentence_char_offset_end": 305,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "lincoln-pilot-v1",
+      "annotator": "codex-draft",
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
+      "semantic_shift_risk": "low"
     },
     {
       "mipvu_id": "lincoln-second-inaugural_s01_p05_s04_lu060",
@@ -9900,7 +10223,20 @@
       "char_offset_end": 3534,
       "sentence_char_offset_start": 306,
       "sentence_char_offset_end": 315,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "uncertain",
+      "review_batch": "lincoln-pilot-v1",
+      "annotator": "codex-draft",
+      "review_notes": "Requires historical semantics control before CMT mapping; record as uncertain rather than force legal-source mapping.",
+      "semantic_shift_risk": "high",
+      "contextual_meaning": "divine moral determinations concerning the war and slavery",
+      "basic_meaning": "legal decision or sentence by a judge",
+      "basic_meaning_source": "KJV Psalm 19:9 / Webster 1828, 'judgment'",
+      "contrast_explanation": "The term is biblical and theological in context, but legal and divine judgment senses overlap historically.",
+      "comparison_basis": "Providential meaning may be understood through legal judgment, but period biblical idiom may make it conventional rather than metaphorical.",
+      "confidence": 0.6,
+      "candidate_source_domain": "law_contract",
+      "candidate_target_domain": "providence"
     },
     {
       "mipvu_id": "lincoln-second-inaugural_s01_p05_s04_lu061",
@@ -9916,7 +10252,12 @@
       "char_offset_end": 3537,
       "sentence_char_offset_start": 316,
       "sentence_char_offset_end": 318,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "lincoln-pilot-v1",
+      "annotator": "codex-draft",
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
+      "semantic_shift_risk": "low"
     },
     {
       "mipvu_id": "lincoln-second-inaugural_s01_p05_s04_lu062",
@@ -9932,7 +10273,12 @@
       "char_offset_end": 3541,
       "sentence_char_offset_start": 319,
       "sentence_char_offset_end": 322,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "lincoln-pilot-v1",
+      "annotator": "codex-draft",
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
+      "semantic_shift_risk": "low"
     },
     {
       "mipvu_id": "lincoln-second-inaugural_s01_p05_s04_lu063",
@@ -9948,7 +10294,12 @@
       "char_offset_end": 3546,
       "sentence_char_offset_start": 323,
       "sentence_char_offset_end": 327,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "lincoln-pilot-v1",
+      "annotator": "codex-draft",
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
+      "semantic_shift_risk": "low"
     },
     {
       "mipvu_id": "lincoln-second-inaugural_s01_p05_s04_lu064",
@@ -9964,7 +10315,12 @@
       "char_offset_end": 3550,
       "sentence_char_offset_start": 328,
       "sentence_char_offset_end": 331,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "lincoln-pilot-v1",
+      "annotator": "codex-draft",
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
+      "semantic_shift_risk": "low"
     },
     {
       "mipvu_id": "lincoln-second-inaugural_s01_p05_s04_lu065",
@@ -9980,7 +10336,12 @@
       "char_offset_end": 3555,
       "sentence_char_offset_start": 332,
       "sentence_char_offset_end": 336,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "lincoln-pilot-v1",
+      "annotator": "codex-draft",
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
+      "semantic_shift_risk": "low"
     },
     {
       "mipvu_id": "lincoln-second-inaugural_s01_p05_s04_lu066",
@@ -9996,7 +10357,12 @@
       "char_offset_end": 3559,
       "sentence_char_offset_start": 337,
       "sentence_char_offset_end": 340,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "lincoln-pilot-v1",
+      "annotator": "codex-draft",
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
+      "semantic_shift_risk": "low"
     },
     {
       "mipvu_id": "lincoln-second-inaugural_s01_p05_s04_lu067",
@@ -10012,7 +10378,12 @@
       "char_offset_end": 3569,
       "sentence_char_offset_start": 341,
       "sentence_char_offset_end": 350,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "lincoln-pilot-v1",
+      "annotator": "codex-draft",
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
+      "semantic_shift_risk": "low"
     },
     {
       "mipvu_id": "lincoln-second-inaugural_s01_p05_s04_lu068",
@@ -10028,7 +10399,12 @@
       "char_offset_end": 3580,
       "sentence_char_offset_start": 351,
       "sentence_char_offset_end": 361,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "lincoln-pilot-v1",
+      "annotator": "codex-draft",
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
+      "semantic_shift_risk": "low"
     },
     {
       "mipvu_id": "lincoln-second-inaugural_s01_p06_s01_lu001",
@@ -11221,6 +11597,16 @@
       "script": "scripts/generate-mipvu-worklist.py",
       "generated_at": "2026-06-14T21:24:35",
       "lexical_unit_count": 700
+    },
+    {
+      "stage": "mipvu-pilot-review",
+      "script": "manual-reviewed-sample",
+      "review_batch": "lincoln-pilot-v1",
+      "reviewed_sentence_ids": [
+        "lincoln-second-inaugural_s01_p05_s04"
+      ],
+      "reviewed_lexical_units": 68,
+      "note": "Pilot sample decisions added for issue #6; remaining lexical units stay pending."
     }
   ]
 }
