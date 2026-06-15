@@ -1,6 +1,6 @@
 # Lincoln Reliability Report
 
-Status: sample defined; independent double-coding pending.
+Status: review packets generated; independent double-coding pending.
 
 ## Scope
 
@@ -18,12 +18,30 @@ Reliability sample: `lincoln-reliability-v1`, documented in
 complete sentences. The sample is 10.3% of the 4,536 Lincoln lexical-unit
 worklist and does not overlap the training sample.
 
+Review packets are generated under `cases/lincoln/quality/review-packets/`:
+
+- `lincoln-full-corpus-review.csv` supports full-corpus MIPVU review.
+- `lincoln-reliability-v1-coder-a.csv` and
+  `lincoln-reliability-v1-coder-b.csv` are independent coder templates for the
+  reliability sample.
+- `lincoln-reliability-v1-adjudication-template.csv` provides the adjudication
+  schema for disagreements after coder comparison.
+
 ## Procedure
 
 Two coders independently code every lexical unit in the reliability sample from
 the generated MIPVU worklist. Coders use the same codebook and historical
 semantics notes, but do not inspect one another's decisions before agreement is
 calculated.
+
+After both coder packets are completed, calculate agreement with:
+
+```bash
+python3 scripts/calculate-mipvu-reliability.py \
+  --coder-a cases/lincoln/quality/review-packets/lincoln-reliability-v1-coder-a.csv \
+  --coder-b cases/lincoln/quality/review-packets/lincoln-reliability-v1-coder-b.csv \
+  --out cases/lincoln/quality/reliability-results.json
+```
 
 The primary agreement measure is Cohen's kappa for the binary decision
 `metaphor-related` versus `not metaphor-related`. For this measure,
@@ -52,13 +70,13 @@ codebook change.
 
 ## Results
 
-Independent coder files have not yet been produced. Do not cite reliability
+Independent coder decisions have not yet been produced. Do not cite reliability
 statistics until this section records coder agreement, adjudication outcomes,
 and post-adjudication codebook changes.
 
 ## Limitations
 
-The current artifact makes the reliability workflow runnable and auditable, but
-it is not itself a completed reliability study. Publication-facing claims should
-state that reliability is pending until double-coding and adjudication are
-complete.
+The current artifacts make the reliability workflow runnable and auditable, but
+they are not themselves a completed reliability study. Publication-facing claims
+should state that reliability is pending until double-coding and adjudication
+are complete.

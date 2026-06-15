@@ -28,7 +28,7 @@ rather than evidence-backed findings.
 
 | Area | Current state |
 |---|---|
-| Lincoln | 3 manifest documents; corpus verification passes 3/3; normalized, segmented, and MIPVU worklisted. |
+| Lincoln | 3 manifest documents; corpus verification passes 3/3; normalized, segmented, MIPVU worklisted, and review packets generated. |
 | American Revolution | 9 manifest documents; corpus verification passes 9/9; normalized, segmented, and MIPVU worklisted. |
 | Napoleon | 10 manifest bulletins; corpus verification passes 10/10; normalized, segmented from Gallica OCR, and French MIPVU worklisted. |
 | Hitler | 8 manifest documents; corpus verification passes 8/8; normalized, segmented, and German MIPVU worklisted locally; source-derived corpus artifacts remain gitignored. |
@@ -79,6 +79,8 @@ python3 scripts/generate-mipvu-worklist.py --case hitler
 ## Known Blockers
 
 - Complete source-language MIPVU lexical-unit decisions for generated worklists.
+- Complete independent Lincoln reliability double-coding from the generated
+  coder packets and adjudicate disagreements.
 - Produce first-pass CMT/Koenigsberg annotations under `cases/*/corpus/annotated/`.
 - Rebuild concordance and analysis artifacts after annotation.
 - Promote only validated, traceable claims from draft to reviewed or finding

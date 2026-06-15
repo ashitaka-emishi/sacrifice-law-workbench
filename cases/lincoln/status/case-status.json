@@ -1,7 +1,7 @@
 {
   "case_id": "lincoln",
   "status": "support-synthesis-draft",
-  "current_stage": "mipvu-review-pending-with-draft-synthesis",
+  "current_stage": "mipvu-review-packets-generated",
   "updated": "2026-06-15",
-  "notes": "Manifest documents are acquired, normalized, segmented, verified, and have generated MIPVU lexical-unit worklists for all 3 documents. A reviewed Lincoln MIPVU pilot sample, reliability sample plan, provisional CMT mapping table, draft interpretive layers, historical-alignment notes, and support synthesis are present; remaining lexical units and reliability adjudication are pending."
+  "notes": "Manifest documents are acquired, normalized, segmented, verified, and have generated MIPVU lexical-unit worklists for all 3 documents. A reviewed Lincoln MIPVU pilot sample, reliability sample plan, full-corpus review packet, independent reliability coder templates, provisional CMT mapping table, draft interpretive layers, historical-alignment notes, and support synthesis are present; remaining lexical-unit decisions, independent double-coding, and reliability adjudication are pending."
 }
