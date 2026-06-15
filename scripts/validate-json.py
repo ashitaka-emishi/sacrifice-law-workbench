@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import argparse
+import csv
 import json
 from pathlib import Path
 from typing import Any, Optional
@@ -31,6 +32,24 @@ MANIFEST_REQUIRED = [
     "rights_status",
     "expected_raw_path",
     "analytical_priority",
+]
+
+CORPUS_REGISTER_REQUIRED = [
+    "text_id",
+    "title",
+    "date",
+    "period",
+    "genre",
+    "register",
+    "source_edition",
+    "source_url",
+    "authorship_confidence",
+    "editorial_status",
+    "inclusion_rationale",
+    "corpus_layer",
+    "rights_status",
+    "git_tracking",
+    "expected_local_path",
 ]
 
 MIPVU_DECISION_TYPES = {
@@ -109,6 +128,53 @@ class Validator:
                 not isinstance(confidence, (int, float)) or confidence < 0 or confidence > 1
             ):
                 self.error(path, f"{doc_id}: authorship_confidence must be in [0, 1]")
+
+    def validate_corpus_register(self, case_id: str) -> None:
+        path = case_dir(case_id) / "metadata" / "corpus-register.csv"
+        if not path.exists():
+            return
+
+        manifest_docs = {document_id(doc): doc for doc in documents(case_id)}
+        rows: list[dict[str, str]] = []
+        try:
+            with path.open(newline="", encoding="utf-8") as handle:
+                reader = csv.DictReader(handle)
+                missing_columns = [
+                    field for field in CORPUS_REGISTER_REQUIRED if field not in (reader.fieldnames or [])
+                ]
+                if missing_columns:
+                    self.error(path, f"missing column(s): {', '.join(missing_columns)}")
+                    return
+                rows = [dict(row) for row in reader]
+        except csv.Error as exc:
+            self.error(path, f"CSV parse error: {exc}")
+            return
+
+        seen: set[str] = set()
+        for index, row in enumerate(rows, start=2):
+            text_id = (row.get("text_id") or "").strip()
+            if not text_id:
+                self.error(path, f"row {index}: missing `text_id`")
+                continue
+            if text_id in seen:
+                self.error(path, f"duplicate text_id `{text_id}`")
+            seen.add(text_id)
+            if text_id not in manifest_docs:
+                self.error(path, f"{text_id}: not found in document manifest")
+                continue
+            for field in CORPUS_REGISTER_REQUIRED:
+                if field == "risk_flags":
+                    continue
+                if not (row.get(field) or "").strip():
+                    self.error(path, f"{text_id}: missing `{field}`")
+            doc = manifest_docs[text_id]
+            for field in ["title", "date", "register", "source_url", "rights_status"]:
+                if str(doc.get(field, "")).strip() != str(row.get(field, "")).strip():
+                    self.error(path, f"{text_id}: `{field}` does not match document manifest")
+
+        missing_from_register = sorted(set(manifest_docs) - seen)
+        for text_id in missing_from_register:
+            self.error(path, f"{text_id}: missing from corpus register")
 
     def validate_segmented(self, case_id: str) -> set[str]:
         sentence_ids: set[str] = set()
@@ -336,6 +402,7 @@ class Validator:
 
     def validate_case(self, case_id: str, strict: bool = False) -> None:
         self.validate_manifest(case_id)
+        self.validate_corpus_register(case_id)
         sentence_ids = self.validate_segmented(case_id)
         mipvu_lookup = self.validate_mipvu(case_id, sentence_ids, strict=strict)
         self.validate_annotated(case_id, sentence_ids, mipvu_lookup)
