@@ -1,7 +1,7 @@
 {
   "project_id": "koenigsberg-sacrifice-workbench",
   "status": "near-v1",
-  "current_milestone": "mipvu-workflow-implemented-annotation-pending",
+  "current_milestone": "v1-corpus-frozen-annotation-forward-reprocess",
   "updated": "2026-06-15",
   "cases": [
     "am-rev",
@@ -10,5 +10,5 @@
     "hitler",
     "x-case"
   ],
-  "notes": "Four case corpora are rights-reviewed, acquired, normalized, segmented, verified, and JSON-valid. Lincoln now has a reviewed MIPVU pilot sample, defined reliability workflow, provisional CMT mappings, corpus-assisted/diachronic outputs, interpretive analysis layers, historical-alignment notes, and draft support synthesis. The x-case layer has a comparative protocol and moral-equivalence guardrails. Full-corpus MIPVU review, reliability adjudication, comparator case support ratings, and promotion of public findings remain before v1."
+  "notes": "The four historical case corpora are frozen as the v1 working corpus: rights-reviewed, acquired, normalized, segmented, verified, and JSON-valid. Wholesale redownload, starter-corpus replacement, and source expansion are out of scope for the annotation-forward reprocess unless a specific source defect is found. Lincoln has a reviewed MIPVU pilot sample, defined reliability workflow, provisional CMT mappings, corpus-assisted/diachronic outputs, interpretive analysis layers, historical-alignment notes, and draft support synthesis. The x-case layer has a comparative protocol and moral-equivalence guardrails. Full-corpus MIPVU review, reliability adjudication, comparator case support ratings, and promotion of public findings remain before v1."
 }
