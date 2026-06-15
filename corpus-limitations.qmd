@@ -7,3 +7,22 @@ rights-reviewed gitignored-local texts for scholarly analysis when the rights
 policy permits local storage and public artifacts do not reproduce restricted
 text. Missing, inaccessible, uncertain, or locally restricted corpora should be
 documented here.
+
+## V1 Corpus Boundary
+
+The v1 corpus is frozen at the currently verified document set for Lincoln,
+American Revolution, Napoleon, and Hitler. This freeze is methodological rather
+than permanent: it prevents annotation-forward work from drifting while MIPVU,
+CMT mapping, case analysis, cross-case synthesis, validation, and public
+artifacts are regenerated under the current process.
+
+Wholesale redownload, starter-corpus replacement, and source expansion are out
+of scope for the v1 annotation-forward reprocess. Reopening acquisition is
+appropriate only for a document-specific defect, such as failed corpus
+verification, damaged or misleading OCR, missing provenance, a rights-status
+change, or a source-quality problem that would materially affect annotation.
+
+Known source limitations remain part of the v1 record. Napoleon is normalized
+from Gallica OCR and should preserve OCR uncertainty where it affects French
+MIPVU decisions. Hitler source-language review depends on rights-reviewed
+local/fair-use German texts with English glosses used only as analytical aids.
