@@ -1,0 +1,57 @@
+{
+  "version": "1.0",
+  "case_id": "lincoln",
+  "generated_at": "2026-06-15T09:52:01",
+  "status": "draft",
+  "notes": [
+    {
+      "note_id": "lincoln-hist-001",
+      "dimension": "historical_enactment_alignment",
+      "topic": "Gettysburg battlefield death, cemetery dedication, and public mourning",
+      "historical_alignment_level": [
+        "historical_consequence",
+        "social_uptake"
+      ],
+      "summary": "Gettysburg links actual battlefield death, cemetery dedication, and public mourning to Lincoln's symbolic conversion of death into national obligation.",
+      "linked_mapping_ids": [
+        "lincoln-cmt-002",
+        "lincoln-cmt-004",
+        "lincoln-cmt-005",
+        "lincoln-cmt-006"
+      ],
+      "corroboration_status": "contextually-corroborated; publication citations required",
+      "claim_boundary": "Supports historical alignment for public mourning and battlefield death, not a claim that the address caused the deaths."
+    },
+    {
+      "note_id": "lincoln-hist-002",
+      "dimension": "historical_enactment_alignment",
+      "topic": "Slavery, emancipation, and wartime bloodshed in the Second Inaugural",
+      "historical_alignment_level": [
+        "formal_enactment",
+        "historical_consequence"
+      ],
+      "summary": "The Second Inaugural's debt, blood, and judgment language aligns with the Civil War's slavery conflict, emancipation policy, and immense wartime death toll.",
+      "linked_mapping_ids": [
+        "lincoln-cmt-007",
+        "lincoln-cmt-008",
+        "lincoln-cmt-009"
+      ],
+      "corroboration_status": "contextually-corroborated; publication citations required",
+      "claim_boundary": "Separates historical alignment from proof of providential causality or private belief."
+    },
+    {
+      "note_id": "lincoln-hist-003",
+      "dimension": "historical_enactment_alignment",
+      "topic": "Lyceum republican survival rhetoric before the Civil War",
+      "historical_alignment_level": [
+        "social_uptake"
+      ],
+      "summary": "The Lyceum Address supplies early body-politic survival language, but its alignment is primarily rhetorical and civic rather than direct war enactment.",
+      "linked_mapping_ids": [
+        "lincoln-cmt-001"
+      ],
+      "corroboration_status": "limited-contextual alignment",
+      "claim_boundary": "Useful for diachronic setup; does not by itself establish historical enactment."
+    }
+  ]
+}

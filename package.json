@@ -8,6 +8,7 @@
     "rebuild:all": "python3 scripts/rebuild-all.py",
     "xcase": "python3 scripts/run-x-case-synthesis.py",
     "corpus-analysis": "python3 scripts/build-corpus-analysis.py",
-    "interpretive-analysis": "python3 scripts/build-interpretive-analysis.py"
+    "interpretive-analysis": "python3 scripts/build-interpretive-analysis.py",
+    "support-synthesis": "python3 scripts/build-support-synthesis.py"
   }
 }

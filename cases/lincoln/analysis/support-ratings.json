@@ -1,0 +1,90 @@
+{
+  "version": "1.0",
+  "case_id": "lincoln",
+  "generated_at": "2026-06-15T09:52:01",
+  "status": "draft",
+  "scale": "0-4 anchored support scale",
+  "document_ratings": [
+    {
+      "score_id": "lincoln-score-doc-lyceum",
+      "document_id": "lincoln-lyceum-address",
+      "document_weight": 1.0,
+      "weight_rationale": "Standard early public-address benchmark; important for diachronic setup but not war enactment.",
+      "scores": {
+        "sacred_object": 2.0,
+        "sacrificial_body": 0.0,
+        "enemy_as_death": 1.0,
+        "historical_enactment_alignment": 1.0
+      },
+      "mapping_ids": [
+        "lincoln-cmt-001"
+      ],
+      "historical_note_ids": [
+        "lincoln-hist-003"
+      ],
+      "rationale": "The address figures the nation as a living collective body but does not yet supply battlefield sacrifice or strong enemy-as-death evidence."
+    },
+    {
+      "score_id": "lincoln-score-doc-gettysburg",
+      "document_id": "lincoln-gettysburg-address",
+      "document_weight": 2.0,
+      "weight_rationale": "Canonical, rhetorically central battlefield-dedication text.",
+      "scores": {
+        "sacred_object": 3.0,
+        "sacrificial_body": 3.0,
+        "enemy_as_death": 1.0,
+        "historical_enactment_alignment": 3.0
+      },
+      "mapping_ids": [
+        "lincoln-cmt-002",
+        "lincoln-cmt-003",
+        "lincoln-cmt-004",
+        "lincoln-cmt-005",
+        "lincoln-cmt-006"
+      ],
+      "historical_note_ids": [
+        "lincoln-hist-001"
+      ],
+      "rationale": "Gettysburg strongly links battlefield death, national survival, civic dedication, and democratic renewal, while the enemy remains mostly unnamed."
+    },
+    {
+      "score_id": "lincoln-score-doc-second-inaugural",
+      "document_id": "lincoln-second-inaugural",
+      "document_weight": 2.0,
+      "weight_rationale": "Canonical late-war inaugural text for providence, slavery, blood repayment, and reconciliation.",
+      "scores": {
+        "sacred_object": 2.0,
+        "sacrificial_body": 3.0,
+        "enemy_as_death": 1.0,
+        "historical_enactment_alignment": 3.0
+      },
+      "mapping_ids": [
+        "lincoln-cmt-007",
+        "lincoln-cmt-008",
+        "lincoln-cmt-009"
+      ],
+      "historical_note_ids": [
+        "lincoln-hist-002"
+      ],
+      "rationale": "The Second Inaugural strongly aligns blood, slavery, and judgment with historical war and emancipation contexts, but restrains enemy-destruction framing through shared guilt and reconciliation."
+    }
+  ],
+  "case_scores": {
+    "sacred_object": 2.4,
+    "sacrificial_body": 2.4,
+    "enemy_as_death": 1.0,
+    "historical_enactment_alignment": 2.6
+  },
+  "overall_support": {
+    "formula": "((S + 1) * (B + 1) * (E + 1) * (H + 1)^2)^(1/5) - 1",
+    "score": 2.13,
+    "uncapped_category": "moderate support",
+    "historical_alignment_cap": "strong support",
+    "final_category": "moderate support"
+  },
+  "limitations": [
+    "Scores are provisional and based on reviewed Lincoln pilot evidence.",
+    "Full-corpus MIPVU review and reliability adjudication are pending.",
+    "Historical alignment notes require publication-grade citations."
+  ]
+}
