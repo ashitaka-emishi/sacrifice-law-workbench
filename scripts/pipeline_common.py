@@ -98,6 +98,22 @@ def mipvu_path_for(case_id: str, doc_or_id: Union[dict[str, Any], str]) -> Path:
     return case_dir(case_id) / "corpus" / "mipvu" / f"{doc_id}_mipvu.json"
 
 
+def cmt_mappings_path_for(case_id: str) -> Path:
+    return case_dir(case_id) / "corpus" / "cmt" / "cmt-mappings.json"
+
+
+def iter_cmt_mappings(data: Any) -> Iterable[dict[str, Any]]:
+    if isinstance(data, dict):
+        items = data.get("mappings", [])
+    elif isinstance(data, list):
+        items = data
+    else:
+        return
+    for item in items or []:
+        if isinstance(item, dict):
+            yield item
+
+
 def parse_markdown_with_frontmatter(text: str) -> tuple[dict[str, Any], str]:
     if not text.startswith("---"):
         return {}, text
