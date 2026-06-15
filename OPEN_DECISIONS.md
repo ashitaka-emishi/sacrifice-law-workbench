@@ -19,6 +19,16 @@ Use this document as the living record of decisions deferred during project setu
 - Final support-rating implementation details after first scored case,
   including document-weight governance, historical corroboration thresholds,
   and whether any formula adjustments are warranted.
+- Final first-publication shape after the first complete annotated case:
+  cross-case methods article, Lincoln-centered case study, theory-testing
+  chapter, or another form.
+- Final venue-specific AI-use disclosure wording, while preserving the
+  commitment that AI suggestions are provisional and not independent evidence.
+- Final data-availability wording for mixed rights-status corpora, especially
+  where committed metadata and annotations must point to gitignored-local,
+  fair-use-only, metadata-only, or unavailable source text.
+- Exact artifact-readiness rules for promoting draft outputs to
+  publication-facing findings after the first complete annotated case.
 
 ## Rights-review blockers (opened 2026-06-13)
 

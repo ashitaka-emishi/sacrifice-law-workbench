@@ -57,6 +57,8 @@ website:
         contents:
           - href: methodology.qmd
             text: Methodology
+          - href: RESEARCH_DESIGN.md
+            text: Research Design
           - href: PRIMARY_RESEARCH_QUESTION.md
             text: Primary Research Question
           - href: MIPVU_ANNOTATION_GUIDE.md

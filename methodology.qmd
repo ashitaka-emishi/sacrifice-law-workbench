@@ -18,6 +18,12 @@ killing, dying, purification, and enemy destruction, support, complicate, or
 limit Koenigsberg's Law, its body-politic corollary, and the construction of
 enemies as death.
 
+The fuller publication-facing protocol is maintained in
+[`RESEARCH_DESIGN.md`](RESEARCH_DESIGN.md). That document defines the project
+aim, research questions, corpus scope, inclusion and exclusion rules, units of
+analysis, method sequence, validation strategy, AI-use policy, data
+availability policy, and expected outputs for the scholarly upgrade.
+
 V1 uses a balanced-core plus extended-corpus design.
 
 The balanced core is the basis for cross-case comparison. Each case should move
