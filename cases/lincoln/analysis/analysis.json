@@ -1,8 +1,8 @@
 {
   "version": "1.0",
   "case_id": "lincoln",
-  "generated_at": "2026-06-15T08:40:25",
-  "status": "stub",
+  "generated_at": "2026-06-15T08:58:28",
+  "status": "complete",
   "total_instances": 0,
   "mipvu_profile": {
     "mipvu_files": 3,
@@ -41,6 +41,55 @@
       "low": 2
     }
   },
+  "cmt_profile": {
+    "mapping_file": "corpus/cmt/cmt-mappings.json",
+    "mapping_count": 9,
+    "by_cluster": {
+      "lincoln-06-providence-theodicy": 4,
+      "lincoln-01-body-organism": 2,
+      "lincoln-08-sacrificial-death-gift": 2,
+      "lincoln-04-birth-creation": 1
+    },
+    "by_source_domain": {
+      "debt_accounting": 2,
+      "nature_organism": 2,
+      "sacrifice": 2,
+      "birth_generation": 1,
+      "law_contract": 1,
+      "religion_providence": 1
+    },
+    "by_target_domain": {
+      "civil_war": 2,
+      "nation": 2,
+      "citizenship": 1,
+      "democracy": 1,
+      "freedom": 1,
+      "providence": 1,
+      "slavery": 1
+    },
+    "by_conceptual_metaphor": {
+      "BLOODSHED IS MORAL REPAYMENT": 1,
+      "CIVIC DUTY IS SACRED DEDICATION": 1,
+      "DEMOCRATIC GOVERNMENT IS A LIVING ORGANISM": 1,
+      "DIVINE WILL IS RIGHTEOUS JUDGMENT": 1,
+      "MILITARY DEATH IS TOTAL DEVOTIONAL PAYMENT": 1,
+      "POLITICAL RENEWAL IS BIRTH": 1,
+      "SLAVERY'S PROFIT IS MORAL DEBT": 1,
+      "SOLDIER DEATH IS A GIFT THAT PRESERVES NATIONAL LIFE": 1,
+      "THE NATION IS A LIVING BODY": 1
+    },
+    "by_document": {
+      "lincoln-gettysburg-address": 5,
+      "lincoln-second-inaugural": 3,
+      "lincoln-lyceum-address": 1
+    },
+    "by_salience": {
+      "high": 9
+    },
+    "by_status": {
+      "provisional": 9
+    }
+  },
   "cluster_analyses": [
     {
       "cluster_id": "lincoln-01-body-organism",
@@ -48,6 +97,21 @@
       "status": "provisional",
       "instance_count": 0,
       "instance_ids": [],
+      "cmt_mapping_count": 2,
+      "cmt_mapping_ids": [
+        "lincoln-cmt-001",
+        "lincoln-cmt-006"
+      ],
+      "cmt_source_domains": {
+        "nature_organism": 2
+      },
+      "cmt_target_domains": {
+        "democracy": 1,
+        "nation": 1
+      },
+      "rhetorical_salience_distribution": {
+        "high": 2
+      },
       "by_document": {},
       "by_register": {},
       "koenigsberg_profile": {
@@ -67,6 +131,11 @@
       "status": "provisional",
       "instance_count": 0,
       "instance_ids": [],
+      "cmt_mapping_count": 0,
+      "cmt_mapping_ids": [],
+      "cmt_source_domains": {},
+      "cmt_target_domains": {},
+      "rhetorical_salience_distribution": {},
       "by_document": {},
       "by_register": {},
       "koenigsberg_profile": {
@@ -86,6 +155,11 @@
       "status": "provisional",
       "instance_count": 0,
       "instance_ids": [],
+      "cmt_mapping_count": 0,
+      "cmt_mapping_ids": [],
+      "cmt_source_domains": {},
+      "cmt_target_domains": {},
+      "rhetorical_salience_distribution": {},
       "by_document": {},
       "by_register": {},
       "koenigsberg_profile": {
@@ -105,6 +179,19 @@
       "status": "provisional",
       "instance_count": 0,
       "instance_ids": [],
+      "cmt_mapping_count": 1,
+      "cmt_mapping_ids": [
+        "lincoln-cmt-005"
+      ],
+      "cmt_source_domains": {
+        "birth_generation": 1
+      },
+      "cmt_target_domains": {
+        "freedom": 1
+      },
+      "rhetorical_salience_distribution": {
+        "high": 1
+      },
       "by_document": {},
       "by_register": {},
       "koenigsberg_profile": {
@@ -124,6 +211,11 @@
       "status": "provisional",
       "instance_count": 0,
       "instance_ids": [],
+      "cmt_mapping_count": 0,
+      "cmt_mapping_ids": [],
+      "cmt_source_domains": {},
+      "cmt_target_domains": {},
+      "rhetorical_salience_distribution": {},
       "by_document": {},
       "by_register": {},
       "koenigsberg_profile": {
@@ -143,6 +235,27 @@
       "status": "provisional",
       "instance_count": 0,
       "instance_ids": [],
+      "cmt_mapping_count": 4,
+      "cmt_mapping_ids": [
+        "lincoln-cmt-003",
+        "lincoln-cmt-007",
+        "lincoln-cmt-008",
+        "lincoln-cmt-009"
+      ],
+      "cmt_source_domains": {
+        "debt_accounting": 2,
+        "law_contract": 1,
+        "religion_providence": 1
+      },
+      "cmt_target_domains": {
+        "citizenship": 1,
+        "civil_war": 1,
+        "providence": 1,
+        "slavery": 1
+      },
+      "rhetorical_salience_distribution": {
+        "high": 4
+      },
       "by_document": {},
       "by_register": {},
       "koenigsberg_profile": {
@@ -162,6 +275,45 @@
       "status": "provisional",
       "instance_count": 0,
       "instance_ids": [],
+      "cmt_mapping_count": 0,
+      "cmt_mapping_ids": [],
+      "cmt_source_domains": {},
+      "cmt_target_domains": {},
+      "rhetorical_salience_distribution": {},
+      "by_document": {},
+      "by_register": {},
+      "koenigsberg_profile": {
+        "fantasy_type_distribution": {},
+        "violence_logic_distribution": {},
+        "obligatory_frame_rate": null,
+        "sacrificial_economy_rate": null,
+        "absence_flags_distribution": {}
+      },
+      "analyst_notes": null,
+      "interpretive_summary": null,
+      "what_metaphor_conceals": null
+    },
+    {
+      "cluster_id": "lincoln-08-sacrificial-death-gift",
+      "cluster_name": "Soldier death as sacrifice / gift",
+      "status": "provisional",
+      "instance_count": 0,
+      "instance_ids": [],
+      "cmt_mapping_count": 2,
+      "cmt_mapping_ids": [
+        "lincoln-cmt-002",
+        "lincoln-cmt-004"
+      ],
+      "cmt_source_domains": {
+        "sacrifice": 2
+      },
+      "cmt_target_domains": {
+        "civil_war": 1,
+        "nation": 1
+      },
+      "rhetorical_salience_distribution": {
+        "high": 2
+      },
       "by_document": {},
       "by_register": {},
       "koenigsberg_profile": {
@@ -183,6 +335,46 @@
     "by_fantasy_type": {},
     "by_violence_logic": {},
     "by_absence_flag": {},
+    "cmt_denominator": {
+      "mapping_count": 9,
+      "by_cluster": {
+        "lincoln-06-providence-theodicy": 4,
+        "lincoln-01-body-organism": 2,
+        "lincoln-08-sacrificial-death-gift": 2,
+        "lincoln-04-birth-creation": 1
+      },
+      "by_source_domain": {
+        "debt_accounting": 2,
+        "nature_organism": 2,
+        "sacrifice": 2,
+        "birth_generation": 1,
+        "law_contract": 1,
+        "religion_providence": 1
+      },
+      "by_target_domain": {
+        "civil_war": 2,
+        "nation": 2,
+        "citizenship": 1,
+        "democracy": 1,
+        "freedom": 1,
+        "providence": 1,
+        "slavery": 1
+      },
+      "by_conceptual_metaphor": {
+        "BLOODSHED IS MORAL REPAYMENT": 1,
+        "CIVIC DUTY IS SACRED DEDICATION": 1,
+        "DEMOCRATIC GOVERNMENT IS A LIVING ORGANISM": 1,
+        "DIVINE WILL IS RIGHTEOUS JUDGMENT": 1,
+        "MILITARY DEATH IS TOTAL DEVOTIONAL PAYMENT": 1,
+        "POLITICAL RENEWAL IS BIRTH": 1,
+        "SLAVERY'S PROFIT IS MORAL DEBT": 1,
+        "SOLDIER DEATH IS A GIFT THAT PRESERVES NATIONAL LIFE": 1,
+        "THE NATION IS A LIVING BODY": 1
+      },
+      "by_salience": {
+        "high": 9
+      }
+    },
     "mipvu_denominator": {
       "total_lexical_units": 4536,
       "reviewed_lexical_units": 192,
@@ -199,7 +391,7 @@
     {
       "stage": "run-case-analysis",
       "script": "scripts/run-case-analysis.py",
-      "generated_at": "2026-06-15T08:40:25"
+      "generated_at": "2026-06-15T08:58:28"
     }
   ]
 }

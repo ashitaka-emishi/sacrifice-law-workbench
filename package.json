@@ -6,6 +6,7 @@
     "site": "quarto render",
     "mipvu": "python3 scripts/generate-mipvu-worklist.py",
     "rebuild:all": "python3 scripts/rebuild-all.py",
-    "xcase": "python3 scripts/run-x-case-synthesis.py"
+    "xcase": "python3 scripts/run-x-case-synthesis.py",
+    "corpus-analysis": "python3 scripts/build-corpus-analysis.py"
   }
 }

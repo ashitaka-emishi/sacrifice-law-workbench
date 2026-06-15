@@ -32,20 +32,29 @@ Koenigsbergian interpretation is added.
 
 ## Output
 
-Produce the `cmt` portion of an annotation instance:
+Produce a CMT mapping record for
+`cases/<case>/corpus/cmt/cmt-mappings.json`:
 
-- top-level `mipvu_ids`;
-- `cluster_id`;
-- `source_domain`;
+- `mapping_id`;
+- `case_id`;
+- `document_id`;
+- `sentence_id`;
+- `mipvu_ids`;
+- `expression`;
+- `source_domain_primary`;
+- `source_domain_secondary`;
 - `target_domain`;
-- `mapping`;
+- `conceptual_metaphor`;
 - `entailments`;
-- `linguistic_form`;
-- `metaphoricity`;
-- `is_extended_metaphor`;
-- `extension_group_id`;
-- `co_activated_clusters`;
-- CMT-specific uncertainty notes.
+- `cluster_id`;
+- `confidence`;
+- `rival_reading`;
+- `justification`;
+- `mapping_status`;
+- optional rhetorical, ideological, salience, and diachronic fields.
+
+Downstream annotation instances may cite `cmt.mapping_id`, but the mapping
+record itself is the durable source-target evidence table.
 
 ## Quality Criteria
 

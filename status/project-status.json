@@ -2,7 +2,7 @@
   "project_id": "koenigsberg-sacrifice-workbench",
   "status": "near-v1",
   "current_milestone": "mipvu-workflow-implemented-annotation-pending",
-  "updated": "2026-06-14",
+  "updated": "2026-06-15",
   "cases": [
     "am-rev",
     "napoleon",
@@ -10,5 +10,5 @@
     "hitler",
     "x-case"
   ],
-  "notes": "Four case corpora are rights-reviewed, acquired, normalized, segmented, verified, and JSON-valid. Strict MIPVU tooling is implemented; Lincoln worklists have been generated and await lexical-unit decisions. Annotation and promotion of public findings remain before v1."
+  "notes": "Four case corpora are rights-reviewed, acquired, normalized, segmented, verified, and JSON-valid. Lincoln now has a reviewed MIPVU pilot sample, defined reliability workflow, provisional CMT mappings, and draft corpus-assisted/diachronic analysis outputs. Full-corpus MIPVU review, reliability adjudication, and promotion of public findings remain before v1."
 }

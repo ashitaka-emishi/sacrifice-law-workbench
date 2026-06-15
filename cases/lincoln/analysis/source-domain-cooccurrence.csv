@@ -1,0 +1,11 @@
+mapping_count,mapping_ids,source_domain_a,source_domain_b
+3,lincoln-cmt-001;lincoln-cmt-002;lincoln-cmt-006,body,nature_organism
+2,lincoln-cmt-003;lincoln-cmt-009,law_contract,religion_providence
+1,lincoln-cmt-005,birth_generation,religion_providence
+1,lincoln-cmt-002,body,sacrifice
+1,lincoln-cmt-008,debt_accounting,religion_providence
+1,lincoln-cmt-004,debt_accounting,sacrifice
+1,lincoln-cmt-007,debt_accounting,slavery_bondage
+1,lincoln-cmt-008,debt_accounting,war_combat
+1,lincoln-cmt-002,nature_organism,sacrifice
+1,lincoln-cmt-008,religion_providence,war_combat

@@ -109,6 +109,25 @@ It reviews full sentences from:
 This sample demonstrates the workflow and creates a future reliability target.
 It does not complete MIPVU review for the Lincoln corpus.
 
+## Reliability And Adjudication
+
+The Lincoln reliability workflow is documented in
+`cases/lincoln/quality/reliability-sample.json` and
+`cases/lincoln/quality/reliability-report.md`.
+
+Use the pilot sample for joint training and codebook calibration. Use the
+separate reliability sample for independent double-coding. The v1 agreement
+policy is:
+
+- primary measure: Cohen's kappa for metaphor-related vs. not metaphor-related;
+- secondary measure: percent agreement on the full `decision_type`;
+- adjudication log: `cases/lincoln/quality/adjudication-log.csv`.
+
+Disagreements must be categorized as lexical segmentation, contextual meaning,
+basic meaning, metaphor decision, confidence, or source-domain ambiguity.
+Adjudicated decisions should update the MIPVU worklist with `review_status` set
+to `accepted`, unless the unit remains explicitly deferred.
+
 ## Language Policy
 
 German and French documents are annotated in the source language. Add

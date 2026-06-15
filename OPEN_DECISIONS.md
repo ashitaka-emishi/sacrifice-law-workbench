@@ -11,7 +11,6 @@ Use this document as the living record of decisions deferred during project setu
 - Exact limits on Goebbels/Göring support material in the Hitler case.
 - Translation sources and translation-risk thresholds for Hitler and Napoleon (both resolved 2026-06-14).
 - Whether to introduce LangGraph after v1 stabilizes.
-- Exact inter-coder reliability procedure for human review.
 - Which artifacts should be treated as final, draft, or exploratory on the public site.
 - Current publication-level primary research question is defined in
   `PRIMARY_RESEARCH_QUESTION.md`; revisit after scholarly review and the first
@@ -85,3 +84,27 @@ French originals (Correspondance de Napoléon Ier, Bulletins de la Grande Armée
 Rationale: preserves fidelity to the source; avoids committing to an authoritative translation that does not exist; keeps translation risk visible at the instance level rather than baking it into the corpus text. Glosses are analytical aids, not publication translations.
 
 The annotation prompt (`prompts/metaphor-annotation-prompt.md`) and annotation schema (`schemas/annotation-schema.json`) have been updated to reflect this methodology. The napoleon `case-config.json` records `"source_language": "fr"` and `"annotation_language_policy": "source-with-glosses"`.
+
+## Methodology decisions
+
+### Lincoln MIPVU reliability procedure
+
+Status: **resolved 2026-06-15 — two-coder sample with Cohen's kappa primary measure**
+
+The Lincoln MIPVU reliability workflow uses the existing reviewed pilot sample
+as the training/calibration sample and a separate sentence-based reliability
+sample defined in `cases/lincoln/quality/reliability-sample.json`.
+
+**Decision**: Use two independent coders for every lexical unit in the
+reliability sample. Report Cohen's kappa as the primary agreement measure for
+the binary distinction `metaphor-related` vs. `not metaphor-related`. Treat
+`mipvu_indirect`, `mipvu_direct`, `mipvu_implicit`, `mipvu_personification`, and
+`uncertain` as metaphor-related for that primary measure. Also report percent
+agreement on the full MIPVU `decision_type` as a secondary diagnostic.
+
+Disagreements are recorded in
+`cases/lincoln/quality/adjudication-log.csv` and categorized as lexical
+segmentation, contextual meaning, basic meaning, metaphor decision, confidence,
+or source-domain ambiguity. Krippendorff's alpha remains deferred unless the
+project later adds three or more coders or missing-code patterns that make it
+the better measure.

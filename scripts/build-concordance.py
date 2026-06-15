@@ -9,8 +9,10 @@ from typing import Any
 from pipeline_common import (
     case_dir,
     case_ids,
+    cmt_mappings_path_for,
     documents,
     get_nested,
+    iter_cmt_mappings,
     iter_instances_from_annotated,
     iter_mipvu_records,
     mipvu_path_for,
@@ -108,6 +110,23 @@ def build_mipvu_profile(case_id: str) -> dict[str, Any]:
     }
 
 
+def build_cmt_profile(case_id: str) -> dict[str, Any]:
+    path = cmt_mappings_path_for(case_id)
+    data = read_json(path, {}) or {}
+    mappings = list(iter_cmt_mappings(data))
+    return {
+        "mapping_file": str(path.relative_to(case_dir(case_id))) if path.exists() else None,
+        "mapping_count": len(mappings),
+        "by_cluster": count_simple(mappings, lambda item: item.get("cluster_id")),
+        "by_source_domain": count_simple(mappings, lambda item: item.get("source_domain_primary")),
+        "by_target_domain": count_simple(mappings, lambda item: item.get("target_domain")),
+        "by_conceptual_metaphor": count_simple(mappings, lambda item: item.get("conceptual_metaphor")),
+        "by_document": count_simple(mappings, lambda item: item.get("document_id")),
+        "by_salience": count_simple(mappings, lambda item: item.get("rhetorical_salience")),
+        "by_status": count_simple(mappings, lambda item: item.get("mapping_status") or "unspecified"),
+    }
+
+
 def count_simple(items: list[dict[str, Any]], getter) -> dict[str, int]:
     counts: dict[str, int] = {}
     for item in items:
@@ -184,12 +203,15 @@ def build_case_concordance(case_id: str, strict: bool = False) -> dict:
             if get_nested(inst, "meta", "suppression_flag") is True:
                 indexes["suppression_instances"].append(instance_id)  # type: ignore[union-attr]
 
+    cmt_profile = build_cmt_profile(case_id)
+    has_evidence = bool(instances) or cmt_profile.get("mapping_count", 0) > 0
     concordance = {
         "version": "1.0",
         "case_id": case_id,
         "generated_at": now_iso(),
-        "status": "error" if errors else ("complete" if instances else "stub"),
+        "status": "error" if errors else ("complete" if has_evidence else "stub"),
         "mipvu_profile": build_mipvu_profile(case_id),
+        "cmt_profile": cmt_profile,
         "total_documents": len(processed_documents),
         "total_sentences": total_sentences,
         "total_instances": len(instances),

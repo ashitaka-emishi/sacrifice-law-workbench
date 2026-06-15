@@ -1,0 +1,34 @@
+average_confidence,document_count,high_salience_count,mapping_count,mapping_ids,metric,value
+0.8,1,2,2,lincoln-cmt-007;lincoln-cmt-008,source_domain_primary,debt_accounting
+0.9,2,2,2,lincoln-cmt-001;lincoln-cmt-006,source_domain_primary,nature_organism
+0.85,1,2,2,lincoln-cmt-002;lincoln-cmt-004,source_domain_primary,sacrifice
+0.95,1,1,1,lincoln-cmt-005,source_domain_primary,birth_generation
+0.6,1,1,1,lincoln-cmt-009,source_domain_primary,law_contract
+0.78,1,1,1,lincoln-cmt-003,source_domain_primary,religion_providence
+0.83,2,2,2,lincoln-cmt-004;lincoln-cmt-008,target_domain,civil_war
+0.88,2,2,2,lincoln-cmt-001;lincoln-cmt-002,target_domain,nation
+0.78,1,1,1,lincoln-cmt-003,target_domain,citizenship
+0.9,1,1,1,lincoln-cmt-006,target_domain,democracy
+0.95,1,1,1,lincoln-cmt-005,target_domain,freedom
+0.6,1,1,1,lincoln-cmt-009,target_domain,providence
+0.78,1,1,1,lincoln-cmt-007,target_domain,slavery
+0.82,1,1,1,lincoln-cmt-008,conceptual_metaphor,BLOODSHED IS MORAL REPAYMENT
+0.78,1,1,1,lincoln-cmt-003,conceptual_metaphor,CIVIC DUTY IS SACRED DEDICATION
+0.9,1,1,1,lincoln-cmt-006,conceptual_metaphor,DEMOCRATIC GOVERNMENT IS A LIVING ORGANISM
+0.6,1,1,1,lincoln-cmt-009,conceptual_metaphor,DIVINE WILL IS RIGHTEOUS JUDGMENT
+0.84,1,1,1,lincoln-cmt-004,conceptual_metaphor,MILITARY DEATH IS TOTAL DEVOTIONAL PAYMENT
+0.95,1,1,1,lincoln-cmt-005,conceptual_metaphor,POLITICAL RENEWAL IS BIRTH
+0.78,1,1,1,lincoln-cmt-007,conceptual_metaphor,SLAVERY'S PROFIT IS MORAL DEBT
+0.86,1,1,1,lincoln-cmt-002,conceptual_metaphor,SOLDIER DEATH IS A GIFT THAT PRESERVES NATIONAL LIFE
+0.9,1,1,1,lincoln-cmt-001,conceptual_metaphor,THE NATION IS A LIVING BODY
+0.745,2,4,4,lincoln-cmt-003;lincoln-cmt-007;lincoln-cmt-008;lincoln-cmt-009,cluster_id,lincoln-06-providence-theodicy
+0.9,2,2,2,lincoln-cmt-001;lincoln-cmt-006,cluster_id,lincoln-01-body-organism
+0.85,1,2,2,lincoln-cmt-002;lincoln-cmt-004,cluster_id,lincoln-08-sacrificial-death-gift
+0.95,1,1,1,lincoln-cmt-005,cluster_id,lincoln-04-birth-creation
+0.826,3,9,9,lincoln-cmt-001;lincoln-cmt-002;lincoln-cmt-003;lincoln-cmt-004;lincoln-cmt-005;lincoln-cmt-006;lincoln-cmt-007;lincoln-cmt-008;lincoln-cmt-009,rhetorical_salience,high
+0.866,1,5,5,lincoln-cmt-002;lincoln-cmt-003;lincoln-cmt-004;lincoln-cmt-005;lincoln-cmt-006,register,ceremonial-address
+0.733,1,3,3,lincoln-cmt-007;lincoln-cmt-008;lincoln-cmt-009,register,inaugural-address
+0.9,1,1,1,lincoln-cmt-001,register,public-address
+0.866,1,5,5,lincoln-cmt-002;lincoln-cmt-003;lincoln-cmt-004;lincoln-cmt-005;lincoln-cmt-006,period,emancipation-and-sacrifice
+0.733,1,3,3,lincoln-cmt-007;lincoln-cmt-008;lincoln-cmt-009,period,providence-and-reconciliation
+0.9,1,1,1,lincoln-cmt-001,period,early-republican-rhetoric

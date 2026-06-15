@@ -12,9 +12,11 @@ from pipeline_common import (
     ROOT,
     case_dir,
     case_ids,
+    cmt_mappings_path_for,
     document_id,
     documents,
     get_nested,
+    iter_cmt_mappings,
     iter_instances_from_annotated,
     iter_mipvu_records,
     iter_sentence_nodes,
@@ -92,6 +94,49 @@ CONTROLLED_VOCABULARY_SECTIONS = [
     "support_dimensions",
 ]
 
+RELIABILITY_DISAGREEMENT_CATEGORIES = {
+    "lexical_segmentation",
+    "contextual_meaning",
+    "basic_meaning",
+    "metaphor_decision",
+    "confidence",
+    "source_domain_ambiguity",
+}
+
+ADJUDICATION_LOG_REQUIRED = [
+    "adjudication_id",
+    "batch_id",
+    "mipvu_id",
+    "document_id",
+    "sentence_id",
+    "lexical_unit",
+    "coder_a_decision",
+    "coder_b_decision",
+    "disagreement_category",
+    "adjudicated_decision",
+    "adjudication_status",
+    "rationale",
+]
+
+CMT_MAPPING_REQUIRED = [
+    "mapping_id",
+    "case_id",
+    "document_id",
+    "sentence_id",
+    "mipvu_ids",
+    "expression",
+    "source_domain_primary",
+    "target_domain",
+    "conceptual_metaphor",
+    "entailments",
+    "cluster_id",
+    "confidence",
+    "rival_reading",
+    "justification",
+]
+
+CMT_MAPPING_STATUSES = {"provisional", "reviewed", "accepted", "rejected", "exploratory"}
+
 
 class Validator:
     def __init__(self) -> None:
@@ -139,6 +184,12 @@ class Validator:
                 seen.add(vocab_id)
                 if not label:
                     self.error(path, f"{section}.{vocab_id}: missing `label`")
+
+    def controlled_vocab_ids(self, section: str) -> set[str]:
+        path = ROOT / "config" / "controlled-vocabularies.json"
+        data = read_json(path, {}) or {}
+        items = data.get(section, []) if isinstance(data, dict) else []
+        return {str(item.get("id")) for item in items if isinstance(item, dict) and item.get("id")}
 
     def validate_manifest(self, case_id: str) -> None:
         path = case_dir(case_id) / "metadata" / "document-manifest.json"
@@ -431,7 +482,7 @@ class Validator:
                 self.validate_instance(path, case_id, inst, container_sentence_id, sentence_ids, mipvu_lookup)
 
     def validate_concordance_and_analysis(self, case_id: str) -> None:
-        for rel_path in ["analysis/concordance.json", "analysis/analysis.json"]:
+        for rel_path in ["analysis/concordance.json", "analysis/analysis.json", "analysis/corpus-analysis.json"]:
             path = case_dir(case_id) / rel_path
             if not path.exists():
                 continue
@@ -444,11 +495,205 @@ class Validator:
             if data.get("status") not in {"stub", "complete", "ready", "error", "draft"}:
                 self.error(path, "status has unexpected value")
 
+    def validate_reliability_artifacts(
+        self,
+        case_id: str,
+        sentence_ids: set[str],
+        mipvu_lookup: dict[str, dict[str, Any]],
+    ) -> None:
+        quality_dir = case_dir(case_id) / "quality"
+        sample_path = quality_dir / "reliability-sample.json"
+        if sample_path.exists():
+            sample = read_json(sample_path, {}) or {}
+            if not isinstance(sample, dict):
+                self.error(sample_path, "reliability sample must be an object")
+            elif sample.get("case_id") != case_id:
+                self.error(sample_path, f"case_id must be `{case_id}`")
+            else:
+                required_categories = set(sample.get("disagreement_categories", []))
+                missing_categories = sorted(RELIABILITY_DISAGREEMENT_CATEGORIES - required_categories)
+                if missing_categories:
+                    self.error(sample_path, f"missing disagreement categories: {', '.join(missing_categories)}")
+
+                reliability_sample = sample.get("reliability_sample", {})
+                sentences = reliability_sample.get("sampled_sentences") if isinstance(reliability_sample, dict) else None
+                if not isinstance(sentences, list) or not sentences:
+                    self.error(sample_path, "reliability_sample.sampled_sentences must be a non-empty array")
+                else:
+                    total_units = 0
+                    sentence_counts: dict[str, int] = {}
+                    for unit in mipvu_lookup.values():
+                        sid = str(unit.get("sentence_id") or "")
+                        if sid:
+                            sentence_counts[sid] = sentence_counts.get(sid, 0) + 1
+                    for index, sentence in enumerate(sentences):
+                        if not isinstance(sentence, dict):
+                            self.error(sample_path, f"sampled_sentences[{index}] must be an object")
+                            continue
+                        sentence_id = str(sentence.get("sentence_id") or "")
+                        if not sentence_id:
+                            self.error(sample_path, f"sampled_sentences[{index}] missing sentence_id")
+                            continue
+                        if sentence_id not in sentence_ids:
+                            self.error(sample_path, f"{sentence_id}: not found in segmented docs")
+                        expected_count = sentence_counts.get(sentence_id)
+                        recorded_count = sentence.get("lexical_unit_count")
+                        if not isinstance(recorded_count, int):
+                            self.error(sample_path, f"{sentence_id}: lexical_unit_count must be an integer")
+                        elif expected_count is not None and recorded_count != expected_count:
+                            self.error(
+                                sample_path,
+                                f"{sentence_id}: lexical_unit_count {recorded_count} does not match MIPVU count {expected_count}",
+                            )
+                        if isinstance(recorded_count, int):
+                            total_units += recorded_count
+                    recorded_total = reliability_sample.get("sample_lexical_units")
+                    if isinstance(recorded_total, int) and recorded_total != total_units:
+                        self.error(
+                            sample_path,
+                            f"sample_lexical_units {recorded_total} does not match sampled sentence total {total_units}",
+                        )
+                    sample_rate = reliability_sample.get("sample_rate")
+                    if sample_rate is not None and (
+                        not isinstance(sample_rate, (int, float)) or sample_rate <= 0 or sample_rate > 1
+                    ):
+                        self.error(sample_path, "sample_rate must be in (0, 1]")
+
+            report_path = quality_dir / "reliability-report.md"
+            if not report_path.exists() or not report_path.read_text(encoding="utf-8").strip():
+                self.error(report_path, "reliability report is required when reliability-sample.json exists")
+
+        log_path = quality_dir / "adjudication-log.csv"
+        if log_path.exists():
+            try:
+                with log_path.open(newline="", encoding="utf-8") as handle:
+                    reader = csv.DictReader(handle)
+                    missing_columns = [
+                        field for field in ADJUDICATION_LOG_REQUIRED if field not in (reader.fieldnames or [])
+                    ]
+                    if missing_columns:
+                        self.error(log_path, f"missing column(s): {', '.join(missing_columns)}")
+                        return
+                    for index, row in enumerate(reader, start=2):
+                        mipvu_id = (row.get("mipvu_id") or "").strip()
+                        if not mipvu_id:
+                            self.error(log_path, f"row {index}: missing mipvu_id")
+                            continue
+                        unit = mipvu_lookup.get(mipvu_id)
+                        if not unit:
+                            self.error(log_path, f"row {index}: mipvu_id `{mipvu_id}` not found")
+                            continue
+                        for field in ["document_id", "sentence_id", "lexical_unit"]:
+                            if (row.get(field) or "").strip() != str(unit.get(field, "")).strip():
+                                self.error(log_path, f"row {index}: `{field}` does not match MIPVU unit")
+                        category = (row.get("disagreement_category") or "").strip()
+                        if category and category not in RELIABILITY_DISAGREEMENT_CATEGORIES:
+                            self.error(log_path, f"row {index}: invalid disagreement_category `{category}`")
+                        for field in ["coder_a_decision", "coder_b_decision", "adjudicated_decision"]:
+                            decision = (row.get(field) or "").strip()
+                            if decision and decision not in MIPVU_DECISION_TYPES:
+                                self.error(log_path, f"row {index}: invalid {field} `{decision}`")
+            except csv.Error as exc:
+                self.error(log_path, f"CSV parse error: {exc}")
+
+    def validate_cmt_mappings(
+        self,
+        case_id: str,
+        sentence_ids: set[str],
+        mipvu_lookup: dict[str, dict[str, Any]],
+    ) -> None:
+        path = cmt_mappings_path_for(case_id)
+        if not path.exists():
+            return
+
+        source_domain_ids = self.controlled_vocab_ids("source_domains")
+        target_domain_ids = self.controlled_vocab_ids("target_domains")
+        cluster_ids = valid_cluster_ids(case_id)
+        data = read_json(path, {}) or {}
+        if not isinstance(data, dict):
+            self.error(path, "CMT mapping document must be an object")
+            return
+        if data.get("case_id") != case_id:
+            self.error(path, f"case_id must be `{case_id}`")
+        mappings = list(iter_cmt_mappings(data))
+        if not mappings:
+            self.error(path, "`mappings` must contain at least one mapping")
+            return
+
+        seen: set[str] = set()
+        for index, mapping in enumerate(mappings):
+            mapping_id = str(mapping.get("mapping_id") or "")
+            if not mapping_id:
+                self.error(path, f"mappings[{index}] missing `mapping_id`")
+                continue
+            if mapping_id in seen:
+                self.error(path, f"duplicate mapping_id `{mapping_id}`")
+            seen.add(mapping_id)
+
+            for field in CMT_MAPPING_REQUIRED:
+                if field not in mapping or mapping.get(field) in (None, "", []):
+                    self.error(path, f"{mapping_id}: missing `{field}`")
+
+            if mapping.get("case_id") != case_id:
+                self.error(path, f"{mapping_id}: case_id must be `{case_id}`")
+            if str(mapping.get("sentence_id") or "") not in sentence_ids:
+                self.error(path, f"{mapping_id}: sentence_id not found in segmented docs")
+
+            status = mapping.get("mapping_status")
+            if status is not None and status not in CMT_MAPPING_STATUSES:
+                self.error(path, f"{mapping_id}: invalid mapping_status `{status}`")
+
+            cluster_id = mapping.get("cluster_id")
+            if cluster_id and str(cluster_id) not in cluster_ids:
+                self.error(path, f"{mapping_id}: invalid cluster_id `{cluster_id}`")
+
+            source_primary = mapping.get("source_domain_primary")
+            if source_primary and source_domain_ids and str(source_primary) not in source_domain_ids:
+                self.error(path, f"{mapping_id}: invalid source_domain_primary `{source_primary}`")
+            source_secondary = mapping.get("source_domain_secondary", [])
+            secondary_values = source_secondary if isinstance(source_secondary, list) else [source_secondary]
+            for value in secondary_values:
+                if value and source_domain_ids and str(value) not in source_domain_ids:
+                    self.error(path, f"{mapping_id}: invalid source_domain_secondary `{value}`")
+
+            target_domain = mapping.get("target_domain")
+            if target_domain and target_domain_ids and str(target_domain) not in target_domain_ids:
+                self.error(path, f"{mapping_id}: invalid target_domain `{target_domain}`")
+
+            entailments = mapping.get("entailments")
+            if not isinstance(entailments, list) or not all(isinstance(item, str) and item for item in entailments):
+                self.error(path, f"{mapping_id}: entailments must be a non-empty string array")
+
+            confidence = mapping.get("confidence")
+            if not isinstance(confidence, (int, float)) or confidence < 0 or confidence > 1:
+                self.error(path, f"{mapping_id}: confidence must be in [0, 1]")
+
+            mipvu_ids = mapping.get("mipvu_ids")
+            if not isinstance(mipvu_ids, list) or not mipvu_ids:
+                self.error(path, f"{mapping_id}: mipvu_ids must be a non-empty array")
+                continue
+            for mipvu_id in mipvu_ids:
+                if not isinstance(mipvu_id, str) or not mipvu_id:
+                    self.error(path, f"{mapping_id}: mipvu_ids entries must be strings")
+                    continue
+                unit = mipvu_lookup.get(mipvu_id)
+                if not unit:
+                    self.error(path, f"{mapping_id}: mipvu_id `{mipvu_id}` not found")
+                    continue
+                if unit.get("decision_type") not in MIPVU_METAPHOR_DECISIONS:
+                    self.error(path, f"{mapping_id}: mipvu_id `{mipvu_id}` is not metaphor-related or uncertain")
+                if mapping.get("document_id") and unit.get("document_id") != mapping.get("document_id"):
+                    self.error(path, f"{mapping_id}: mipvu_id `{mipvu_id}` belongs to another document")
+                if mapping.get("sentence_id") and unit.get("sentence_id") != mapping.get("sentence_id"):
+                    self.error(path, f"{mapping_id}: mipvu_id `{mipvu_id}` belongs to another sentence")
+
     def validate_case(self, case_id: str, strict: bool = False) -> None:
         self.validate_manifest(case_id)
         self.validate_corpus_register(case_id)
         sentence_ids = self.validate_segmented(case_id)
         mipvu_lookup = self.validate_mipvu(case_id, sentence_ids, strict=strict)
+        self.validate_reliability_artifacts(case_id, sentence_ids, mipvu_lookup)
+        self.validate_cmt_mappings(case_id, sentence_ids, mipvu_lookup)
         self.validate_annotated(case_id, sentence_ids, mipvu_lookup)
         self.validate_concordance_and_analysis(case_id)
 

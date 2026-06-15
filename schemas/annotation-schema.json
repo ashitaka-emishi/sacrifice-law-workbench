@@ -35,13 +35,23 @@
       "additionalProperties": true,
       "required": ["cluster_id"],
       "properties": {
+        "mapping_id": { "type": "string", "minLength": 1 },
         "cluster_id": { "type": "string", "minLength": 1 },
         "source_domain": { "type": "string" },
+        "source_domain_primary": { "type": "string" },
+        "source_domain_secondary": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
         "target_domain": { "type": "string" },
+        "conceptual_metaphor": { "type": "string" },
         "entailments": {
           "type": "array",
           "items": { "type": "string" }
         },
+        "confidence": { "type": "number", "minimum": 0, "maximum": 1 },
+        "rival_reading": { "type": "string" },
+        "justification": { "type": "string" },
         "co_activated_clusters": {
           "type": "array",
           "items": { "type": "string" }

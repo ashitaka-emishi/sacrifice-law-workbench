@@ -1,8 +1,8 @@
 {
   "version": "1.0",
   "case_id": "lincoln",
-  "generated_at": "2026-06-15T08:40:25",
-  "status": "stub",
+  "generated_at": "2026-06-15T08:58:28",
+  "status": "complete",
   "mipvu_profile": {
     "mipvu_files": 3,
     "total_lexical_units": 4536,
@@ -40,6 +40,55 @@
       "low": 2
     }
   },
+  "cmt_profile": {
+    "mapping_file": "corpus/cmt/cmt-mappings.json",
+    "mapping_count": 9,
+    "by_cluster": {
+      "lincoln-06-providence-theodicy": 4,
+      "lincoln-01-body-organism": 2,
+      "lincoln-08-sacrificial-death-gift": 2,
+      "lincoln-04-birth-creation": 1
+    },
+    "by_source_domain": {
+      "debt_accounting": 2,
+      "nature_organism": 2,
+      "sacrifice": 2,
+      "birth_generation": 1,
+      "law_contract": 1,
+      "religion_providence": 1
+    },
+    "by_target_domain": {
+      "civil_war": 2,
+      "nation": 2,
+      "citizenship": 1,
+      "democracy": 1,
+      "freedom": 1,
+      "providence": 1,
+      "slavery": 1
+    },
+    "by_conceptual_metaphor": {
+      "BLOODSHED IS MORAL REPAYMENT": 1,
+      "CIVIC DUTY IS SACRED DEDICATION": 1,
+      "DEMOCRATIC GOVERNMENT IS A LIVING ORGANISM": 1,
+      "DIVINE WILL IS RIGHTEOUS JUDGMENT": 1,
+      "MILITARY DEATH IS TOTAL DEVOTIONAL PAYMENT": 1,
+      "POLITICAL RENEWAL IS BIRTH": 1,
+      "SLAVERY'S PROFIT IS MORAL DEBT": 1,
+      "SOLDIER DEATH IS A GIFT THAT PRESERVES NATIONAL LIFE": 1,
+      "THE NATION IS A LIVING BODY": 1
+    },
+    "by_document": {
+      "lincoln-gettysburg-address": 5,
+      "lincoln-second-inaugural": 3,
+      "lincoln-lyceum-address": 1
+    },
+    "by_salience": {
+      "high": 9
+    },
+    "by_status": {
+      "provisional": 9
+    }
+  },
   "total_documents": 0,
   "total_sentences": 0,
   "total_instances": 0,
@@ -52,7 +101,8 @@
       "lincoln-04-birth-creation": [],
       "lincoln-05-fathers-inheritance": [],
       "lincoln-06-providence-theodicy": [],
-      "lincoln-07-absence-black-agency": []
+      "lincoln-07-absence-black-agency": [],
+      "lincoln-08-sacrificial-death-gift": []
     },
     "by_document": {},
     "by_register": {},
@@ -68,7 +118,7 @@
       "stage": "build-concordance",
       "script": "scripts/build-concordance.py",
       "annotated_files": 0,
-      "generated_at": "2026-06-15T08:40:25"
+      "generated_at": "2026-06-15T08:58:28"
     }
   ]
 }
