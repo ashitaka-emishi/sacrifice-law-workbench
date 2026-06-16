@@ -17,18 +17,19 @@ The metaphor workflow now has a strict MIPVU identification layer before
 CMT/Koenigsberg interpretation.
 
 The main remaining gap before v1 is annotation: all v1 documents now have
-generated MIPVU lexical-unit worklists. Lincoln, American Revolution, and
-Napoleon worklists are committed; Hitler worklists are generated locally but
-gitignored because they tokenize local fair-use German source text. Lexical
-decisions are still pending and no `cases/*/corpus/annotated/*_annotated.json`
-files are present yet. Concordance and analysis artifacts remain structural
-rather than evidence-backed findings.
+generated MIPVU lexical-unit worklists. Lincoln has a complete Codex-assisted
+first-pass MIPVU review and reliability gate; American Revolution and Napoleon
+worklists are committed and still await lexical decisions; Hitler worklists are
+generated locally but gitignored because they tokenize local fair-use German
+source text. No `cases/*/corpus/annotated/*_annotated.json` files are present
+yet. Concordance and analysis artifacts remain structural rather than
+evidence-backed findings until the CMT/Koenigsberg annotation layer is rebuilt.
 
 ## Case State
 
 | Area | Current state |
 |---|---|
-| Lincoln | 3 manifest documents; corpus verification passes 3/3; normalized, segmented, MIPVU worklisted, and review packets generated. |
+| Lincoln | 3 manifest documents; corpus verification passes 3/3; normalized, segmented, MIPVU worklisted, and all 4,536 lexical units have Codex-assisted first-pass MIPVU decisions with reliability results/adjudication artifacts. |
 | American Revolution | 9 manifest documents; corpus verification passes 9/9; normalized, segmented, and MIPVU worklisted. |
 | Napoleon | 10 manifest bulletins; corpus verification passes 10/10; normalized, segmented from Gallica OCR, and French MIPVU worklisted. |
 | Hitler | 8 manifest documents; corpus verification passes 8/8; normalized, segmented, and German MIPVU worklisted locally; source-derived corpus artifacts remain gitignored. |
@@ -78,9 +79,10 @@ python3 scripts/generate-mipvu-worklist.py --case hitler
 
 ## Known Blockers
 
-- Complete source-language MIPVU lexical-unit decisions for generated worklists.
-- Complete independent Lincoln reliability double-coding from the generated
-  coder packets and adjudicate disagreements.
+- Complete source-language MIPVU lexical-unit decisions for American Revolution,
+  Napoleon, and Hitler generated worklists.
+- Human-review Lincoln's Codex-assisted MIPVU decisions before treating
+  reliability statistics as publication-grade inter-annotator evidence.
 - Produce first-pass CMT/Koenigsberg annotations under `cases/*/corpus/annotated/`.
 - Rebuild concordance and analysis artifacts after annotation.
 - Promote only validated, traceable claims from draft to reviewed or finding

@@ -1,43 +1,44 @@
 {
   "version": "1.0",
   "case_id": "lincoln",
-  "generated_at": "2026-06-15T08:58:28",
+  "generated_at": "2026-06-15T21:16:19",
   "status": "complete",
   "mipvu_profile": {
     "mipvu_files": 3,
     "total_lexical_units": 4536,
-    "reviewed_lexical_units": 192,
-    "pending_lexical_units": 4344,
-    "confirmed_metaphor_units": 13,
-    "metaphor_or_uncertain_units": 15,
-    "metaphor_rate_confirmed": 0.0029,
-    "metaphor_rate_including_uncertain": 0.0033,
-    "reviewed_metaphor_rate_confirmed": 0.0677,
-    "reviewed_metaphor_rate_including_uncertain": 0.0781,
+    "reviewed_lexical_units": 4536,
+    "pending_lexical_units": 0,
+    "confirmed_metaphor_units": 190,
+    "metaphor_or_uncertain_units": 202,
+    "metaphor_rate_confirmed": 0.0419,
+    "metaphor_rate_including_uncertain": 0.0445,
+    "reviewed_metaphor_rate_confirmed": 0.0419,
+    "reviewed_metaphor_rate_including_uncertain": 0.0445,
     "by_document": {
       "lincoln-lyceum-address": 3568,
       "lincoln-second-inaugural": 700,
       "lincoln-gettysburg-address": 268
     },
     "by_register": {
-      "political-speech": 4536
+      "public-address": 3568,
+      "inaugural-address": 700,
+      "ceremonial-address": 268
     },
     "by_language": {
       "en": 4536
     },
     "by_decision_type": {
-      "pending": 4344,
-      "non_metaphor": 177,
-      "mipvu_indirect": 7,
-      "mipvu_personification": 5,
-      "uncertain": 2,
-      "mipvu_direct": 1
+      "non_metaphor": 4334,
+      "mipvu_direct": 86,
+      "mipvu_indirect": 78,
+      "mipvu_personification": 26,
+      "uncertain": 12
     },
     "by_confidence": {
-      "missing": 4521,
-      "high": 7,
-      "medium": 6,
-      "low": 2
+      "missing": 4334,
+      "medium": 129,
+      "high": 61,
+      "low": 12
     }
   },
   "cmt_profile": {
@@ -118,7 +119,7 @@
       "stage": "build-concordance",
       "script": "scripts/build-concordance.py",
       "annotated_files": 0,
-      "generated_at": "2026-06-15T08:58:28"
+      "generated_at": "2026-06-15T21:16:19"
     }
   ]
 }

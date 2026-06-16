@@ -2,7 +2,7 @@
   "version": "1.0",
   "case_id": "lincoln",
   "batch_id": "lincoln-reliability-v1",
-  "status": "sample-defined",
+  "status": "coded-codex-assisted",
   "updated": "2026-06-15",
   "scope": "MIPVU metaphor-identification reliability for the Lincoln pilot corpus.",
   "training_sample": {
@@ -113,8 +113,8 @@
     "source_domain_ambiguity"
   ],
   "limitations": [
-    "The sample is defined but has not yet been independently double-coded.",
+    "The sample has Codex-assisted coder packets and adjudication artifacts for the issue #22 gate, but has not yet been independently human double-coded.",
     "Cohen's kappa is selected for the primary two-coder binary metaphor-related decision; Krippendorff's alpha is deferred unless the project adds three or more coders or missing-code patterns.",
-    "Agreement statistics should not be used as publication evidence until coder files are archived and the adjudication log is complete."
+    "Codex-assisted agreement statistics should not be used as publication evidence until independent human coder files are archived and the adjudication log is human-reviewed."
   ]
 }
