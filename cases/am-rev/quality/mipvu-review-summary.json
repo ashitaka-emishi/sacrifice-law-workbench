@@ -1,0 +1,620 @@
+{
+  "case_id": "am-rev",
+  "generated_at": "2026-06-16T12:09:14",
+  "status": "mipvu-review-complete-codex-assisted",
+  "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+  "annotator": "codex-assisted-mipvu-v1",
+  "total_lexical_units": 33025,
+  "pending_units": 0,
+  "by_decision_type": {
+    "mipvu_direct": 31,
+    "mipvu_indirect": 79,
+    "mipvu_personification": 10,
+    "non_metaphor": 32893,
+    "uncertain": 12
+  },
+  "by_rule_id": {
+    "declaration-injury-rights": 4,
+    "declaration-political-bands": 3,
+    "declaration-sacred-pledge": 8,
+    "declaration-tyranny-security": 5,
+    "declaration-works-of-death": 4,
+    "default-reviewed-non-metaphor": 32893,
+    "paine-anti-monarchy-sacred-parody": 9,
+    "paine-blood-sacrifice": 15,
+    "paine-body-government": 16,
+    "paine-bondage-liberty": 6,
+    "paine-disease-death": 5,
+    "paine-fire-sword": 10,
+    "paine-gravity-fortress": 6,
+    "paine-growth-union": 4,
+    "paine-parent-birth": 16,
+    "paine-voice-reason": 11,
+    "washington-honor-register": 6,
+    "washington-military-body-register": 4
+  },
+  "by_document": {
+    "am-rev-jefferson-declaration": {
+      "mipvu_direct": 1,
+      "mipvu_indirect": 21,
+      "non_metaphor": 1313,
+      "uncertain": 2
+    },
+    "am-rev-paine-common-sense": {
+      "mipvu_direct": 30,
+      "mipvu_indirect": 58,
+      "mipvu_personification": 10,
+      "non_metaphor": 21662
+    },
+    "am-rev-washington-orders-1775-07-04": {
+      "non_metaphor": 1121
+    },
+    "am-rev-washington-orders-1776-02-09": {
+      "non_metaphor": 468
+    },
+    "am-rev-washington-orders-1776-07-02": {
+      "non_metaphor": 5532,
+      "uncertain": 6
+    },
+    "am-rev-washington-orders-1776-08-30": {
+      "non_metaphor": 345
+    },
+    "am-rev-washington-orders-1776-12-25": {
+      "non_metaphor": 693
+    },
+    "am-rev-washington-orders-1783-06-08": {
+      "non_metaphor": 1040,
+      "uncertain": 4
+    },
+    "am-rev-washington-orders-1783-06-17": {
+      "non_metaphor": 719
+    }
+  },
+  "sample_metaphor_or_uncertain_units": [
+    {
+      "mipvu_id": "am-rev-paine-common-sense_s01_p20_s03_lu007",
+      "document_id": "am-rev-paine-common-sense",
+      "sentence_id": "am-rev-paine-common-sense_s01_p20_s03",
+      "lexical_unit": "Fire",
+      "decision_type": "mipvu_indirect",
+      "curated_rule_id": "paine-fire-sword",
+      "sentence_text": "The laying a Country desolate with Fire and Sword, declaring War against the natural rights of all Mankind, and extirpating the Defenders thereof from the Face of the Earth, is the Concern of every Man to whom Nature hath given the Power of feeling; of which Class, regardless of Party Censure, is the"
+    },
+    {
+      "mipvu_id": "am-rev-paine-common-sense_s01_p20_s03_lu009",
+      "document_id": "am-rev-paine-common-sense",
+      "sentence_id": "am-rev-paine-common-sense_s01_p20_s03",
+      "lexical_unit": "Sword",
+      "decision_type": "mipvu_indirect",
+      "curated_rule_id": "paine-fire-sword",
+      "sentence_text": "The laying a Country desolate with Fire and Sword, declaring War against the natural rights of all Mankind, and extirpating the Defenders thereof from the Face of the Earth, is the Concern of every Man to whom Nature hath given the Power of feeling; of which Class, regardless of Party Censure, is the"
+    },
+    {
+      "mipvu_id": "am-rev-paine-common-sense_s01_p20_s03_lu026",
+      "document_id": "am-rev-paine-common-sense",
+      "sentence_id": "am-rev-paine-common-sense_s01_p20_s03",
+      "lexical_unit": "Face",
+      "decision_type": "mipvu_indirect",
+      "curated_rule_id": "paine-fire-sword",
+      "sentence_text": "The laying a Country desolate with Fire and Sword, declaring War against the natural rights of all Mankind, and extirpating the Defenders thereof from the Face of the Earth, is the Concern of every Man to whom Nature hath given the Power of feeling; of which Class, regardless of Party Censure, is the"
+    },
+    {
+      "mipvu_id": "am-rev-paine-common-sense_s01_p20_s03_lu029",
+      "document_id": "am-rev-paine-common-sense",
+      "sentence_id": "am-rev-paine-common-sense_s01_p20_s03",
+      "lexical_unit": "Earth",
+      "decision_type": "mipvu_indirect",
+      "curated_rule_id": "paine-fire-sword",
+      "sentence_text": "The laying a Country desolate with Fire and Sword, declaring War against the natural rights of all Mankind, and extirpating the Defenders thereof from the Face of the Earth, is the Concern of every Man to whom Nature hath given the Power of feeling; of which Class, regardless of Party Censure, is the"
+    },
+    {
+      "mipvu_id": "am-rev-paine-common-sense_s01_p20_s03_lu038",
+      "document_id": "am-rev-paine-common-sense",
+      "sentence_id": "am-rev-paine-common-sense_s01_p20_s03",
+      "lexical_unit": "Nature",
+      "decision_type": "mipvu_indirect",
+      "curated_rule_id": "paine-fire-sword",
+      "sentence_text": "The laying a Country desolate with Fire and Sword, declaring War against the natural rights of all Mankind, and extirpating the Defenders thereof from the Face of the Earth, is the Concern of every Man to whom Nature hath given the Power of feeling; of which Class, regardless of Party Censure, is the"
+    },
+    {
+      "mipvu_id": "am-rev-paine-common-sense_s01_p28_s05_lu001",
+      "document_id": "am-rev-paine-common-sense",
+      "sentence_id": "am-rev-paine-common-sense_s01_p28_s05",
+      "lexical_unit": "Disease",
+      "decision_type": "mipvu_direct",
+      "curated_rule_id": "paine-disease-death",
+      "sentence_text": "Disease, nay even misfortune would be death, for though neither might be mortal, yet either would disable him from living, and reduce him to a state in which he might rather be said to perish than to die."
+    },
+    {
+      "mipvu_id": "am-rev-paine-common-sense_s01_p28_s05_lu004",
+      "document_id": "am-rev-paine-common-sense",
+      "sentence_id": "am-rev-paine-common-sense_s01_p28_s05",
+      "lexical_unit": "misfortune",
+      "decision_type": "mipvu_direct",
+      "curated_rule_id": "paine-disease-death",
+      "sentence_text": "Disease, nay even misfortune would be death, for though neither might be mortal, yet either would disable him from living, and reduce him to a state in which he might rather be said to perish than to die."
+    },
+    {
+      "mipvu_id": "am-rev-paine-common-sense_s01_p28_s05_lu007",
+      "document_id": "am-rev-paine-common-sense",
+      "sentence_id": "am-rev-paine-common-sense_s01_p28_s05",
+      "lexical_unit": "death",
+      "decision_type": "mipvu_direct",
+      "curated_rule_id": "paine-disease-death",
+      "sentence_text": "Disease, nay even misfortune would be death, for though neither might be mortal, yet either would disable him from living, and reduce him to a state in which he might rather be said to perish than to die."
+    },
+    {
+      "mipvu_id": "am-rev-paine-common-sense_s01_p28_s05_lu035",
+      "document_id": "am-rev-paine-common-sense",
+      "sentence_id": "am-rev-paine-common-sense_s01_p28_s05",
+      "lexical_unit": "perish",
+      "decision_type": "mipvu_direct",
+      "curated_rule_id": "paine-disease-death",
+      "sentence_text": "Disease, nay even misfortune would be death, for though neither might be mortal, yet either would disable him from living, and reduce him to a state in which he might rather be said to perish than to die."
+    },
+    {
+      "mipvu_id": "am-rev-paine-common-sense_s01_p28_s05_lu038",
+      "document_id": "am-rev-paine-common-sense",
+      "sentence_id": "am-rev-paine-common-sense_s01_p28_s05",
+      "lexical_unit": "die",
+      "decision_type": "mipvu_direct",
+      "curated_rule_id": "paine-disease-death",
+      "sentence_text": "Disease, nay even misfortune would be death, for though neither might be mortal, yet either would disable him from living, and reduce him to a state in which he might rather be said to perish than to die."
+    },
+    {
+      "mipvu_id": "am-rev-paine-common-sense_s01_p29_s01_lu005",
+      "document_id": "am-rev-paine-common-sense",
+      "sentence_id": "am-rev-paine-common-sense_s01_p29_s01",
+      "lexical_unit": "gravitating",
+      "decision_type": "mipvu_direct",
+      "curated_rule_id": "paine-gravity-fortress",
+      "sentence_text": "Thus necessity, like a gravitating power, would soon form our newly arrived emigrants into society, the reciprocal blessings of which, would supersede, and render the obligations of law and government unnecessary while they remained perfectly just to each other; but as nothing but heaven is impregnable to vice, it will unavoidably happen, that in proportion as they surmount the first difficulties of emigration, which bound them together in a common cause, they will begin to relax in their duty and attachment to each other; and this remissness, will point out the necessity, of establishing some form of government to supply the defect of moral virtue."
+    },
+    {
+      "mipvu_id": "am-rev-paine-common-sense_s01_p29_s01_lu006",
+      "document_id": "am-rev-paine-common-sense",
+      "sentence_id": "am-rev-paine-common-sense_s01_p29_s01",
+      "lexical_unit": "power",
+      "decision_type": "mipvu_direct",
+      "curated_rule_id": "paine-gravity-fortress",
+      "sentence_text": "Thus necessity, like a gravitating power, would soon form our newly arrived emigrants into society, the reciprocal blessings of which, would supersede, and render the obligations of law and government unnecessary while they remained perfectly just to each other; but as nothing but heaven is impregnable to vice, it will unavoidably happen, that in proportion as they surmount the first difficulties of emigration, which bound them together in a common cause, they will begin to relax in their duty and attachment to each other; and this remissness, will point out the necessity, of establishing some form of government to supply the defect of moral virtue."
+    },
+    {
+      "mipvu_id": "am-rev-paine-common-sense_s01_p29_s01_lu009",
+      "document_id": "am-rev-paine-common-sense",
+      "sentence_id": "am-rev-paine-common-sense_s01_p29_s01",
+      "lexical_unit": "form",
+      "decision_type": "mipvu_direct",
+      "curated_rule_id": "paine-gravity-fortress",
+      "sentence_text": "Thus necessity, like a gravitating power, would soon form our newly arrived emigrants into society, the reciprocal blessings of which, would supersede, and render the obligations of law and government unnecessary while they remained perfectly just to each other; but as nothing but heaven is impregnable to vice, it will unavoidably happen, that in proportion as they surmount the first difficulties of emigration, which bound them together in a common cause, they will begin to relax in their duty and attachment to each other; and this remissness, will point out the necessity, of establishing some form of government to supply the defect of moral virtue."
+    },
+    {
+      "mipvu_id": "am-rev-paine-common-sense_s01_p29_s01_lu046",
+      "document_id": "am-rev-paine-common-sense",
+      "sentence_id": "am-rev-paine-common-sense_s01_p29_s01",
+      "lexical_unit": "impregnable",
+      "decision_type": "mipvu_direct",
+      "curated_rule_id": "paine-gravity-fortress",
+      "sentence_text": "Thus necessity, like a gravitating power, would soon form our newly arrived emigrants into society, the reciprocal blessings of which, would supersede, and render the obligations of law and government unnecessary while they remained perfectly just to each other; but as nothing but heaven is impregnable to vice, it will unavoidably happen, that in proportion as they surmount the first difficulties of emigration, which bound them together in a common cause, they will begin to relax in their duty and attachment to each other; and this remissness, will point out the necessity, of establishing some form of government to supply the defect of moral virtue."
+    },
+    {
+      "mipvu_id": "am-rev-paine-common-sense_s01_p29_s01_lu048",
+      "document_id": "am-rev-paine-common-sense",
+      "sentence_id": "am-rev-paine-common-sense_s01_p29_s01",
+      "lexical_unit": "vice",
+      "decision_type": "mipvu_direct",
+      "curated_rule_id": "paine-gravity-fortress",
+      "sentence_text": "Thus necessity, like a gravitating power, would soon form our newly arrived emigrants into society, the reciprocal blessings of which, would supersede, and render the obligations of law and government unnecessary while they remained perfectly just to each other; but as nothing but heaven is impregnable to vice, it will unavoidably happen, that in proportion as they surmount the first difficulties of emigration, which bound them together in a common cause, they will begin to relax in their duty and attachment to each other; and this remissness, will point out the necessity, of establishing some form of government to supply the defect of moral virtue."
+    },
+    {
+      "mipvu_id": "am-rev-paine-common-sense_s01_p29_s01_lu096",
+      "document_id": "am-rev-paine-common-sense",
+      "sentence_id": "am-rev-paine-common-sense_s01_p29_s01",
+      "lexical_unit": "form",
+      "decision_type": "mipvu_direct",
+      "curated_rule_id": "paine-gravity-fortress",
+      "sentence_text": "Thus necessity, like a gravitating power, would soon form our newly arrived emigrants into society, the reciprocal blessings of which, would supersede, and render the obligations of law and government unnecessary while they remained perfectly just to each other; but as nothing but heaven is impregnable to vice, it will unavoidably happen, that in proportion as they surmount the first difficulties of emigration, which bound them together in a common cause, they will begin to relax in their duty and attachment to each other; and this remissness, will point out the necessity, of establishing some form of government to supply the defect of moral virtue."
+    },
+    {
+      "mipvu_id": "am-rev-paine-common-sense_s01_p31_s02_lu026",
+      "document_id": "am-rev-paine-common-sense",
+      "sentence_id": "am-rev-paine-common-sense_s01_p31_s02",
+      "lexical_unit": "body",
+      "decision_type": "mipvu_personification",
+      "curated_rule_id": "paine-body-government",
+      "sentence_text": "This will point out the convenience of their consenting to leave the legislative part to be managed by a select number chosen from the whole body, who are supposed to have the same concerns at stake which those who appointed them, and who will act in the same manner as the whole body would act were they present."
+    },
+    {
+      "mipvu_id": "am-rev-paine-common-sense_s01_p31_s02_lu053",
+      "document_id": "am-rev-paine-common-sense",
+      "sentence_id": "am-rev-paine-common-sense_s01_p31_s02",
+      "lexical_unit": "body",
+      "decision_type": "mipvu_personification",
+      "curated_rule_id": "paine-body-government",
+      "sentence_text": "This will point out the convenience of their consenting to leave the legislative part to be managed by a select number chosen from the whole body, who are supposed to have the same concerns at stake which those who appointed them, and who will act in the same manner as the whole body would act were they present."
+    },
+    {
+      "mipvu_id": "am-rev-paine-common-sense_s01_p32_s02_lu004",
+      "document_id": "am-rev-paine-common-sense",
+      "sentence_id": "am-rev-paine-common-sense_s01_p32_s02",
+      "lexical_unit": "eyes",
+      "decision_type": "mipvu_indirect",
+      "curated_rule_id": "paine-voice-reason",
+      "sentence_text": "And however our eyes may be dazzled with show, or our ears deceived by sound; however prejudice may warp our wills, or interest darken our understanding, the simple voice of nature and of reason will say, it is right."
+    },
+    {
+      "mipvu_id": "am-rev-paine-common-sense_s01_p32_s02_lu007",
+      "document_id": "am-rev-paine-common-sense",
+      "sentence_id": "am-rev-paine-common-sense_s01_p32_s02",
+      "lexical_unit": "dazzled",
+      "decision_type": "mipvu_indirect",
+      "curated_rule_id": "paine-voice-reason",
+      "sentence_text": "And however our eyes may be dazzled with show, or our ears deceived by sound; however prejudice may warp our wills, or interest darken our understanding, the simple voice of nature and of reason will say, it is right."
+    },
+    {
+      "mipvu_id": "am-rev-paine-common-sense_s01_p32_s02_lu012",
+      "document_id": "am-rev-paine-common-sense",
+      "sentence_id": "am-rev-paine-common-sense_s01_p32_s02",
+      "lexical_unit": "ears",
+      "decision_type": "mipvu_indirect",
+      "curated_rule_id": "paine-voice-reason",
+      "sentence_text": "And however our eyes may be dazzled with show, or our ears deceived by sound; however prejudice may warp our wills, or interest darken our understanding, the simple voice of nature and of reason will say, it is right."
+    },
+    {
+      "mipvu_id": "am-rev-paine-common-sense_s01_p32_s02_lu013",
+      "document_id": "am-rev-paine-common-sense",
+      "sentence_id": "am-rev-paine-common-sense_s01_p32_s02",
+      "lexical_unit": "deceived",
+      "decision_type": "mipvu_indirect",
+      "curated_rule_id": "paine-voice-reason",
+      "sentence_text": "And however our eyes may be dazzled with show, or our ears deceived by sound; however prejudice may warp our wills, or interest darken our understanding, the simple voice of nature and of reason will say, it is right."
+    },
+    {
+      "mipvu_id": "am-rev-paine-common-sense_s01_p32_s02_lu019",
+      "document_id": "am-rev-paine-common-sense",
+      "sentence_id": "am-rev-paine-common-sense_s01_p32_s02",
+      "lexical_unit": "warp",
+      "decision_type": "mipvu_indirect",
+      "curated_rule_id": "paine-voice-reason",
+      "sentence_text": "And however our eyes may be dazzled with show, or our ears deceived by sound; however prejudice may warp our wills, or interest darken our understanding, the simple voice of nature and of reason will say, it is right."
+    },
+    {
+      "mipvu_id": "am-rev-paine-common-sense_s01_p32_s02_lu024",
+      "document_id": "am-rev-paine-common-sense",
+      "sentence_id": "am-rev-paine-common-sense_s01_p32_s02",
+      "lexical_unit": "darken",
+      "decision_type": "mipvu_indirect",
+      "curated_rule_id": "paine-voice-reason",
+      "sentence_text": "And however our eyes may be dazzled with show, or our ears deceived by sound; however prejudice may warp our wills, or interest darken our understanding, the simple voice of nature and of reason will say, it is right."
+    },
+    {
+      "mipvu_id": "am-rev-paine-common-sense_s01_p32_s02_lu029",
+      "document_id": "am-rev-paine-common-sense",
+      "sentence_id": "am-rev-paine-common-sense_s01_p32_s02",
+      "lexical_unit": "voice",
+      "decision_type": "mipvu_personification",
+      "curated_rule_id": "paine-voice-reason",
+      "sentence_text": "And however our eyes may be dazzled with show, or our ears deceived by sound; however prejudice may warp our wills, or interest darken our understanding, the simple voice of nature and of reason will say, it is right."
+    },
+    {
+      "mipvu_id": "am-rev-paine-common-sense_s01_p32_s02_lu031",
+      "document_id": "am-rev-paine-common-sense",
+      "sentence_id": "am-rev-paine-common-sense_s01_p32_s02",
+      "lexical_unit": "nature",
+      "decision_type": "mipvu_personification",
+      "curated_rule_id": "paine-voice-reason",
+      "sentence_text": "And however our eyes may be dazzled with show, or our ears deceived by sound; however prejudice may warp our wills, or interest darken our understanding, the simple voice of nature and of reason will say, it is right."
+    },
+    {
+      "mipvu_id": "am-rev-paine-common-sense_s01_p32_s02_lu034",
+      "document_id": "am-rev-paine-common-sense",
+      "sentence_id": "am-rev-paine-common-sense_s01_p32_s02",
+      "lexical_unit": "reason",
+      "decision_type": "mipvu_personification",
+      "curated_rule_id": "paine-voice-reason",
+      "sentence_text": "And however our eyes may be dazzled with show, or our ears deceived by sound; however prejudice may warp our wills, or interest darken our understanding, the simple voice of nature and of reason will say, it is right."
+    },
+    {
+      "mipvu_id": "am-rev-paine-common-sense_s01_p33_s01_lu035",
+      "document_id": "am-rev-paine-common-sense",
+      "sentence_id": "am-rev-paine-common-sense_s01_p33_s01",
+      "lexical_unit": "disordered",
+      "decision_type": "mipvu_indirect",
+      "curated_rule_id": "paine-body-government",
+      "sentence_text": "I draw my idea of the form of government from a principle in nature, which no art can overturn, viz. that the more simple any thing is, the less liable it is to be disordered; and the easier repaired when disordered; and with this maxim in view, I offer a few remarks on the so much boasted constitution of England."
+    },
+    {
+      "mipvu_id": "am-rev-paine-common-sense_s01_p33_s01_lu039",
+      "document_id": "am-rev-paine-common-sense",
+      "sentence_id": "am-rev-paine-common-sense_s01_p33_s01",
+      "lexical_unit": "repaired",
+      "decision_type": "mipvu_indirect",
+      "curated_rule_id": "paine-body-government",
+      "sentence_text": "I draw my idea of the form of government from a principle in nature, which no art can overturn, viz. that the more simple any thing is, the less liable it is to be disordered; and the easier repaired when disordered; and with this maxim in view, I offer a few remarks on the so much boasted constitution of England."
+    },
+    {
+      "mipvu_id": "am-rev-paine-common-sense_s01_p33_s01_lu041",
+      "document_id": "am-rev-paine-common-sense",
+      "sentence_id": "am-rev-paine-common-sense_s01_p33_s01",
+      "lexical_unit": "disordered",
+      "decision_type": "mipvu_indirect",
+      "curated_rule_id": "paine-body-government",
+      "sentence_text": "I draw my idea of the form of government from a principle in nature, which no art can overturn, viz. that the more simple any thing is, the less liable it is to be disordered; and the easier repaired when disordered; and with this maxim in view, I offer a few remarks on the so much boasted constitution of England."
+    },
+    {
+      "mipvu_id": "am-rev-paine-common-sense_s01_p33_s02_lu009",
+      "document_id": "am-rev-paine-common-sense",
+      "sentence_id": "am-rev-paine-common-sense_s01_p33_s02",
+      "lexical_unit": "slavish",
+      "decision_type": "mipvu_indirect",
+      "curated_rule_id": "paine-bondage-liberty",
+      "sentence_text": "That it was noble for the dark and slavish times in which it was erected, is granted."
+    },
+    {
+      "mipvu_id": "am-rev-paine-common-sense_s01_p34_s01_lu025",
+      "document_id": "am-rev-paine-common-sense",
+      "sentence_id": "am-rev-paine-common-sense_s01_p34_s01",
+      "lexical_unit": "head",
+      "decision_type": "mipvu_personification",
+      "curated_rule_id": "paine-body-government",
+      "sentence_text": "Absolute governments (tho' the disgrace of human nature) have this advantage with them, that they are simple; if the people suffer, they know the head from which their suffering springs, know likewise the remedy, and are not bewildered by a variety of causes and cures."
+    },
+    {
+      "mipvu_id": "am-rev-paine-common-sense_s01_p34_s01_lu030",
+      "document_id": "am-rev-paine-common-sense",
+      "sentence_id": "am-rev-paine-common-sense_s01_p34_s01",
+      "lexical_unit": "springs",
+      "decision_type": "mipvu_indirect",
+      "curated_rule_id": "paine-body-government",
+      "sentence_text": "Absolute governments (tho' the disgrace of human nature) have this advantage with them, that they are simple; if the people suffer, they know the head from which their suffering springs, know likewise the remedy, and are not bewildered by a variety of causes and cures."
+    },
+    {
+      "mipvu_id": "am-rev-paine-common-sense_s01_p34_s01_lu034",
+      "document_id": "am-rev-paine-common-sense",
+      "sentence_id": "am-rev-paine-common-sense_s01_p34_s01",
+      "lexical_unit": "remedy",
+      "decision_type": "mipvu_indirect",
+      "curated_rule_id": "paine-body-government",
+      "sentence_text": "Absolute governments (tho' the disgrace of human nature) have this advantage with them, that they are simple; if the people suffer, they know the head from which their suffering springs, know likewise the remedy, and are not bewildered by a variety of causes and cures."
+    },
+    {
+      "mipvu_id": "am-rev-paine-common-sense_s01_p35_s01_lu047",
+      "document_id": "am-rev-paine-common-sense",
+      "sentence_id": "am-rev-paine-common-sense_s01_p35_s01",
+      "lexical_unit": "materials",
+      "decision_type": "mipvu_indirect",
+      "curated_rule_id": "paine-body-government",
+      "sentence_text": "I know it is difficult to get over local or long standing prejudices, yet if we will suffer ourselves to examine the component parts of the English constitution, we shall find them to be the base remains of two ancient tyrannies, compounded with some new republican materials."
+    },
+    {
+      "mipvu_id": "am-rev-paine-common-sense_s01_p38_s01_lu005",
+      "document_id": "am-rev-paine-common-sense",
+      "sentence_id": "am-rev-paine-common-sense_s01_p38_s01",
+      "lexical_unit": "materials",
+      "decision_type": "mipvu_indirect",
+      "curated_rule_id": "paine-body-government",
+      "sentence_text": "Thirdly.--The new republican materials, in the persons of the commons, on whose virtue depends the freedom of England."
+    },
+    {
+      "mipvu_id": "am-rev-paine-common-sense_s01_p56_s04_lu007",
+      "document_id": "am-rev-paine-common-sense",
+      "sentence_id": "am-rev-paine-common-sense_s01_p56_s04",
+      "lexical_unit": "sacred",
+      "decision_type": "mipvu_indirect",
+      "curated_rule_id": "paine-anti-monarchy-sacred-parody",
+      "sentence_text": "How impious is the title of sacred majesty applied to a worm, who in the midst of his splendor is crumbling into dust!"
+    },
+    {
+      "mipvu_id": "am-rev-paine-common-sense_s01_p56_s04_lu008",
+      "document_id": "am-rev-paine-common-sense",
+      "sentence_id": "am-rev-paine-common-sense_s01_p56_s04",
+      "lexical_unit": "majesty",
+      "decision_type": "mipvu_indirect",
+      "curated_rule_id": "paine-anti-monarchy-sacred-parody",
+      "sentence_text": "How impious is the title of sacred majesty applied to a worm, who in the midst of his splendor is crumbling into dust!"
+    },
+    {
+      "mipvu_id": "am-rev-paine-common-sense_s01_p56_s04_lu012",
+      "document_id": "am-rev-paine-common-sense",
+      "sentence_id": "am-rev-paine-common-sense_s01_p56_s04",
+      "lexical_unit": "worm",
+      "decision_type": "mipvu_direct",
+      "curated_rule_id": "paine-anti-monarchy-sacred-parody",
+      "sentence_text": "How impious is the title of sacred majesty applied to a worm, who in the midst of his splendor is crumbling into dust!"
+    },
+    {
+      "mipvu_id": "am-rev-paine-common-sense_s01_p56_s04_lu021",
+      "document_id": "am-rev-paine-common-sense",
+      "sentence_id": "am-rev-paine-common-sense_s01_p56_s04",
+      "lexical_unit": "crumbling",
+      "decision_type": "mipvu_direct",
+      "curated_rule_id": "paine-anti-monarchy-sacred-parody",
+      "sentence_text": "How impious is the title of sacred majesty applied to a worm, who in the midst of his splendor is crumbling into dust!"
+    },
+    {
+      "mipvu_id": "am-rev-paine-common-sense_s01_p56_s04_lu023",
+      "document_id": "am-rev-paine-common-sense",
+      "sentence_id": "am-rev-paine-common-sense_s01_p56_s04",
+      "lexical_unit": "dust",
+      "decision_type": "mipvu_direct",
+      "curated_rule_id": "paine-anti-monarchy-sacred-parody",
+      "sentence_text": "How impious is the title of sacred majesty applied to a worm, who in the midst of his splendor is crumbling into dust!"
+    },
+    {
+      "mipvu_id": "am-rev-paine-common-sense_s01_p58_s04_lu009",
+      "document_id": "am-rev-paine-common-sense",
+      "sentence_id": "am-rev-paine-common-sense_s01_p58_s04",
+      "lexical_unit": "idolatrous",
+      "decision_type": "mipvu_indirect",
+      "curated_rule_id": "paine-anti-monarchy-sacred-parody",
+      "sentence_text": "And when a man seriously reflects on the idolatrous homage which is paid to the persons of Kings, he need not wonder, that the Almighty ever jealous of his honor, should disapprove of a form of government which so impiously invades the prerogative of heaven."
+    },
+    {
+      "mipvu_id": "am-rev-paine-common-sense_s01_p58_s04_lu010",
+      "document_id": "am-rev-paine-common-sense",
+      "sentence_id": "am-rev-paine-common-sense_s01_p58_s04",
+      "lexical_unit": "homage",
+      "decision_type": "mipvu_indirect",
+      "curated_rule_id": "paine-anti-monarchy-sacred-parody",
+      "sentence_text": "And when a man seriously reflects on the idolatrous homage which is paid to the persons of Kings, he need not wonder, that the Almighty ever jealous of his honor, should disapprove of a form of government which so impiously invades the prerogative of heaven."
+    },
+    {
+      "mipvu_id": "am-rev-paine-common-sense_s01_p58_s04_lu045",
+      "document_id": "am-rev-paine-common-sense",
+      "sentence_id": "am-rev-paine-common-sense_s01_p58_s04",
+      "lexical_unit": "heaven",
+      "decision_type": "mipvu_indirect",
+      "curated_rule_id": "paine-anti-monarchy-sacred-parody",
+      "sentence_text": "And when a man seriously reflects on the idolatrous homage which is paid to the persons of Kings, he need not wonder, that the Almighty ever jealous of his honor, should disapprove of a form of government which so impiously invades the prerogative of heaven."
+    },
+    {
+      "mipvu_id": "am-rev-paine-common-sense_s01_p60_s05_lu050",
+      "document_id": "am-rev-paine-common-sense",
+      "sentence_id": "am-rev-paine-common-sense_s01_p60_s05",
+      "lexical_unit": "heaven",
+      "decision_type": "mipvu_indirect",
+      "curated_rule_id": "paine-anti-monarchy-sacred-parody",
+      "sentence_text": "Words need not be more explicit; Gideon doth not decline the honor, but denieth their right to give it; neither doth he compliment them with invented declarations of his thanks, but in the positive stile of a prophet charges them with disaffection to their proper Sovereign, the King of heaven."
+    },
+    {
+      "mipvu_id": "am-rev-paine-common-sense_s01_p61_s09_lu076",
+      "document_id": "am-rev-paine-common-sense",
+      "sentence_id": "am-rev-paine-common-sense_s01_p61_s09",
+      "lexical_unit": "harvest",
+      "decision_type": "mipvu_indirect",
+      "curated_rule_id": "paine-growth-union",
+      "sentence_text": "And he said, This shall be the manner of the king that shall reign over you; he will take your sons and appoint them for himself, for his chariots, and to be his horsemen, and some shall run before his chariots (this description agrees with the present mode of impressing men) and he will appoint him captains over thousands and captains over fifties, and will set them to ear his ground and to reap his harvest, and to make his instruments of war, and instruments of his chariots; and he will take your daughters to be confectionaries, and to be cooks and to be bakers (this describes the expence and luxury as well as the oppression of kings) and he will take your fields and your olive yards, even the best of them, and give them to his servants; and he will take the tenth of your feed, and of your vineyards, and give them to his officers and to his servants (by which we see that bribery, corruption and favoritism are the standing vices of kings) and he will take the tenth of your men servants, and your maid servants, and your goodliest young men and your asses, and put them to his work; and he will take the tenth of your sheep, and ye shall be his servants, and ye shall cry out in that day because of your king which ye shall have chosen, and the Lord will not hear you in that day."
+    },
+    {
+      "mipvu_id": "am-rev-paine-common-sense_s01_p61_s12_lu057",
+      "document_id": "am-rev-paine-common-sense",
+      "sentence_id": "am-rev-paine-common-sense_s01_p61_s12",
+      "lexical_unit": "harvest",
+      "decision_type": "mipvu_indirect",
+      "curated_rule_id": "paine-growth-union",
+      "sentence_text": "Samuel continued to reason with them, but to no purpose; he set before them their ingratitude, but all would not avail; and seeing them fully bent on their folly, he cried out, I will call unto the Lord, and he shall send thunder and rain (which then was a punishment, being in the time of wheat harvest) that ye may perceive and see that your wickedness is great which ye have done in the sight of the Lord, in asking you a king."
+    },
+    {
+      "mipvu_id": "am-rev-paine-common-sense_s01_p71_s01_lu020",
+      "document_id": "am-rev-paine-common-sense",
+      "sentence_id": "am-rev-paine-common-sense_s01_p71_s01",
+      "lexical_unit": "blood",
+      "decision_type": "mipvu_indirect",
+      "curated_rule_id": "paine-blood-sacrifice",
+      "sentence_text": "The contest for monarchy and succession, between the houses of York and Lancaster, laid England in a scene of blood for many years."
+    },
+    {
+      "mipvu_id": "am-rev-paine-common-sense_s01_p73_s01_lu018",
+      "document_id": "am-rev-paine-common-sense",
+      "sentence_id": "am-rev-paine-common-sense_s01_p73_s01",
+      "lexical_unit": "blood",
+      "decision_type": "mipvu_indirect",
+      "curated_rule_id": "paine-blood-sacrifice",
+      "sentence_text": "In short, monarchy and succession have laid (not this or that kingdom only) but the world in blood and ashes."
+    },
+    {
+      "mipvu_id": "am-rev-paine-common-sense_s01_p73_s02_lu015",
+      "document_id": "am-rev-paine-common-sense",
+      "sentence_id": "am-rev-paine-common-sense_s01_p73_s02",
+      "lexical_unit": "blood",
+      "decision_type": "mipvu_indirect",
+      "curated_rule_id": "paine-blood-sacrifice",
+      "sentence_text": "'Tis a form of government which the word of God bears testimony against, and blood will attend it."
+    },
+    {
+      "mipvu_id": "am-rev-paine-common-sense_s01_p75_s05_lu046",
+      "document_id": "am-rev-paine-common-sense",
+      "sentence_id": "am-rev-paine-common-sense_s01_p75_s05",
+      "lexical_unit": "slavery",
+      "decision_type": "mipvu_indirect",
+      "curated_rule_id": "paine-bondage-liberty",
+      "sentence_text": "For it is the republican and not the monarchical part of the constitution of England which Englishmen glory in, viz. the liberty of choosing a house of commons from out of their own body--and it is easy to see that when republican virtue fails, slavery ensues."
+    },
+    {
+      "mipvu_id": "am-rev-paine-common-sense_s01_p81_s04_lu004",
+      "document_id": "am-rev-paine-common-sense",
+      "sentence_id": "am-rev-paine-common-sense_s01_p81_s04",
+      "lexical_unit": "seed",
+      "decision_type": "mipvu_indirect",
+      "curated_rule_id": "paine-growth-union",
+      "sentence_text": "Now is the seed time of continental union, faith and honor."
+    },
+    {
+      "mipvu_id": "am-rev-paine-common-sense_s01_p81_s05_lu026",
+      "document_id": "am-rev-paine-common-sense",
+      "sentence_id": "am-rev-paine-common-sense_s01_p81_s05",
+      "lexical_unit": "wound",
+      "decision_type": "mipvu_indirect",
+      "curated_rule_id": "paine-blood-sacrifice",
+      "sentence_text": "The least fracture now will be like a name engraved with the point of a pin on the tender rind of a young oak; the wound will enlarge with the tree, and posterity read it in full grown characters."
+    },
+    {
+      "mipvu_id": "am-rev-paine-common-sense_s01_p86_s01_lu014",
+      "document_id": "am-rev-paine-common-sense",
+      "sentence_id": "am-rev-paine-common-sense_s01_p86_s01",
+      "lexical_unit": "sacrifices",
+      "decision_type": "mipvu_indirect",
+      "curated_rule_id": "paine-blood-sacrifice",
+      "sentence_text": "Alas, we have been long led away by ancient prejudices, and made large sacrifices to superstition."
+    },
+    {
+      "mipvu_id": "am-rev-paine-common-sense_s01_p87_s01_lu020",
+      "document_id": "am-rev-paine-common-sense",
+      "sentence_id": "am-rev-paine-common-sense_s01_p87_s01",
+      "lexical_unit": "parent",
+      "decision_type": "mipvu_direct",
+      "curated_rule_id": "paine-parent-birth",
+      "sentence_text": "It has lately been asserted in parliament, that the colonies have no relation to each other but through the parent country, i.e. that Pennsylvania and the Jerseys, and so on for the rest, are sister colonies by the way of England; this is certainly a very round-about way of proving relationship, but it is the nearest and only true way of proving enemyship, if I may so call it."
+    },
+    {
+      "mipvu_id": "am-rev-paine-common-sense_s01_p88_s01_lu005",
+      "document_id": "am-rev-paine-common-sense",
+      "sentence_id": "am-rev-paine-common-sense_s01_p88_s01",
+      "lexical_unit": "parent",
+      "decision_type": "mipvu_direct",
+      "curated_rule_id": "paine-parent-birth",
+      "sentence_text": "But Britain is the parent country, say some."
+    },
+    {
+      "mipvu_id": "am-rev-paine-common-sense_s01_p88_s03_lu038",
+      "document_id": "am-rev-paine-common-sense",
+      "sentence_id": "am-rev-paine-common-sense_s01_p88_s03",
+      "lexical_unit": "parent",
+      "decision_type": "mipvu_direct",
+      "curated_rule_id": "paine-parent-birth",
+      "sentence_text": "Even brutes do not devour their young, nor savages make war upon their families; wherefore the assertion, if true, turns to her reproach; but it happens not to be true, or only partly so, and the phrase parent or mother country hath been jesuitically adopted by the king and his parasites, with a low papistical design of gaining an unfair bias on the credulous weakness of our minds."
+    },
+    {
+      "mipvu_id": "am-rev-paine-common-sense_s01_p88_s03_lu040",
+      "document_id": "am-rev-paine-common-sense",
+      "sentence_id": "am-rev-paine-common-sense_s01_p88_s03",
+      "lexical_unit": "mother",
+      "decision_type": "mipvu_direct",
+      "curated_rule_id": "paine-parent-birth",
+      "sentence_text": "Even brutes do not devour their young, nor savages make war upon their families; wherefore the assertion, if true, turns to her reproach; but it happens not to be true, or only partly so, and the phrase parent or mother country hath been jesuitically adopted by the king and his parasites, with a low papistical design of gaining an unfair bias on the credulous weakness of our minds."
+    },
+    {
+      "mipvu_id": "am-rev-paine-common-sense_s01_p88_s04_lu007",
+      "document_id": "am-rev-paine-common-sense",
+      "sentence_id": "am-rev-paine-common-sense_s01_p88_s04",
+      "lexical_unit": "parent",
+      "decision_type": "mipvu_direct",
+      "curated_rule_id": "paine-parent-birth",
+      "sentence_text": "Europe, and not England, is the parent country of America."
+    },
+    {
+      "mipvu_id": "am-rev-paine-common-sense_s01_p88_s05_lu003",
+      "document_id": "am-rev-paine-common-sense",
+      "sentence_id": "am-rev-paine-common-sense_s01_p88_s05",
+      "lexical_unit": "world",
+      "decision_type": "mipvu_direct",
+      "curated_rule_id": "paine-parent-birth",
+      "sentence_text": "This new world hath been the asylum for the persecuted lovers of civil and religious liberty from every part of Europe."
+    }
+  ],
+  "limitations": [
+    "Codex-assisted decisions are a first-pass review gate, not independent human double-coding.",
+    "Washington military-register body/honor terms are usually marked uncertain where source-domain contrast may be conventional.",
+    "Downstream CMT and Koenigsbergian annotations should only use metaphor-related or uncertain units after separate interpretive review."
+  ]
+}
