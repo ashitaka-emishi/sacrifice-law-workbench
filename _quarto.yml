@@ -16,6 +16,7 @@ project:
 website:
   title: "The Sacrifice Law Workbench"
   description: "A comparative research workbench for assessing evidentiary support for Koenigsberg's Law of Sacrifice"
+  site-url: "https://ashitaka-emishi.github.io/sacrifice-law-workbench/"
   draft-mode: visible
 
   navbar:
@@ -36,7 +37,7 @@ website:
         text: Synthesis
     right:
       - icon: github
-        href: https://github.com/
+        href: https://github.com/ashitaka-emishi/sacrifice-law-workbench
         aria-label: View project on GitHub
 
   sidebar:
