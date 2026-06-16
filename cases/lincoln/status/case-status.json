@@ -1,7 +1,20 @@
 {
   "case_id": "lincoln",
-  "status": "support-synthesis-draft",
-  "current_stage": "mipvu-review-pending-with-draft-synthesis",
+  "status": "mipvu-review-complete-codex-assisted",
+  "current_stage": "mipvu-review-complete",
   "updated": "2026-06-15",
-  "notes": "Manifest documents are acquired, normalized, segmented, verified, and have generated MIPVU lexical-unit worklists for all 3 documents. A reviewed Lincoln MIPVU pilot sample, reliability sample plan, provisional CMT mapping table, draft interpretive layers, historical-alignment notes, and support synthesis are present; remaining lexical units and reliability adjudication are pending."
+  "notes": "Lincoln corpus is acquired, normalized, segmented, verified, and all 4,536 MIPVU lexical units have first-pass Codex-assisted decisions. Reliability packets, calculated agreement, and adjudication log are present; results remain provisional until independent human review.",
+  "mipvu_review_summary": {
+    "review_batch": "lincoln-full-corpus-mipvu-review-v1",
+    "annotator": "codex-assisted-mipvu-v1",
+    "total_lexical_units": 4536,
+    "by_decision_type": {
+      "mipvu_direct": 86,
+      "mipvu_indirect": 78,
+      "mipvu_personification": 26,
+      "non_metaphor": 4334,
+      "uncertain": 12
+    },
+    "pending_units": 0
+  }
 }

@@ -1,0 +1,182 @@
+{
+  "status": "calculated",
+  "coded_units": 467,
+  "binary_metaphor_related": {
+    "percent_agreement": 0.9700214132762313,
+    "cohens_kappa": 0.7844946931241348
+  },
+  "decision_type": {
+    "percent_agreement": 0.9550321199143469,
+    "disagreement_count": 21
+  },
+  "disagreements": [
+    {
+      "mipvu_id": "lincoln-gettysburg-address_s01_p04_s03_lu002",
+      "document_id": "lincoln-gettysburg-address",
+      "sentence_id": "lincoln-gettysburg-address_s01_p04_s03",
+      "lexical_unit": "world",
+      "coder_a_decision": "mipvu_personification",
+      "coder_b_decision": "uncertain"
+    },
+    {
+      "mipvu_id": "lincoln-gettysburg-address_s01_p04_s03_lu005",
+      "document_id": "lincoln-gettysburg-address",
+      "sentence_id": "lincoln-gettysburg-address_s01_p04_s03",
+      "lexical_unit": "note",
+      "coder_a_decision": "mipvu_personification",
+      "coder_b_decision": "uncertain"
+    },
+    {
+      "mipvu_id": "lincoln-lyceum-address_s01_p04_s06_lu043",
+      "document_id": "lincoln-lyceum-address",
+      "sentence_id": "lincoln-lyceum-address_s01_p04_s06",
+      "lexical_unit": "transmit",
+      "coder_a_decision": "mipvu_indirect",
+      "coder_b_decision": "uncertain"
+    },
+    {
+      "mipvu_id": "lincoln-lyceum-address_s01_p04_s06_lu047",
+      "document_id": "lincoln-lyceum-address",
+      "sentence_id": "lincoln-lyceum-address_s01_p04_s06",
+      "lexical_unit": "unprofaned",
+      "coder_a_decision": "mipvu_indirect",
+      "coder_b_decision": "uncertain"
+    },
+    {
+      "mipvu_id": "lincoln-lyceum-address_s01_p04_s06_lu056",
+      "document_id": "lincoln-lyceum-address",
+      "sentence_id": "lincoln-lyceum-address_s01_p04_s06",
+      "lexical_unit": "undecayed",
+      "coder_a_decision": "mipvu_indirect",
+      "coder_b_decision": "uncertain"
+    },
+    {
+      "mipvu_id": "lincoln-lyceum-address_s01_p04_s06_lu063",
+      "document_id": "lincoln-lyceum-address",
+      "sentence_id": "lincoln-lyceum-address_s01_p04_s06",
+      "lexical_unit": "untorn",
+      "coder_a_decision": "mipvu_indirect",
+      "coder_b_decision": "uncertain"
+    },
+    {
+      "mipvu_id": "lincoln-lyceum-address_s01_p11_s15_lu055",
+      "document_id": "lincoln-lyceum-address",
+      "sentence_id": "lincoln-lyceum-address_s01_p11_s15",
+      "lexical_unit": "forebodes",
+      "coder_a_decision": "non_metaphor",
+      "coder_b_decision": "uncertain"
+    },
+    {
+      "mipvu_id": "lincoln-lyceum-address_s01_p12_s01_lu008",
+      "document_id": "lincoln-lyceum-address",
+      "sentence_id": "lincoln-lyceum-address_s01_p12_s01",
+      "lexical_unit": "attached",
+      "coder_a_decision": "non_metaphor",
+      "coder_b_decision": "uncertain"
+    },
+    {
+      "mipvu_id": "lincoln-lyceum-address_s01_p12_s01_lu068",
+      "document_id": "lincoln-lyceum-address",
+      "sentence_id": "lincoln-lyceum-address_s01_p12_s01",
+      "lexical_unit": "tenure",
+      "coder_a_decision": "non_metaphor",
+      "coder_b_decision": "uncertain"
+    },
+    {
+      "mipvu_id": "lincoln-lyceum-address_s01_p12_s01_lu071",
+      "document_id": "lincoln-lyceum-address",
+      "sentence_id": "lincoln-lyceum-address_s01_p12_s01",
+      "lexical_unit": "caprice",
+      "coder_a_decision": "non_metaphor",
+      "coder_b_decision": "uncertain"
+    },
+    {
+      "mipvu_id": "lincoln-lyceum-address_s01_p12_s01_lu076",
+      "document_id": "lincoln-lyceum-address",
+      "sentence_id": "lincoln-lyceum-address_s01_p12_s01",
+      "lexical_unit": "alienation",
+      "coder_a_decision": "non_metaphor",
+      "coder_b_decision": "uncertain"
+    },
+    {
+      "mipvu_id": "lincoln-lyceum-address_s01_p12_s01_lu079",
+      "document_id": "lincoln-lyceum-address",
+      "sentence_id": "lincoln-lyceum-address_s01_p12_s01",
+      "lexical_unit": "affections",
+      "coder_a_decision": "non_metaphor",
+      "coder_b_decision": "uncertain"
+    },
+    {
+      "mipvu_id": "lincoln-lyceum-address_s01_p12_s01_lu086",
+      "document_id": "lincoln-lyceum-address",
+      "sentence_id": "lincoln-lyceum-address_s01_p12_s01",
+      "lexical_unit": "consequence",
+      "coder_a_decision": "non_metaphor",
+      "coder_b_decision": "uncertain"
+    },
+    {
+      "mipvu_id": "lincoln-lyceum-address_s01_p24_s05_lu002",
+      "document_id": "lincoln-lyceum-address",
+      "sentence_id": "lincoln-lyceum-address_s01_p24_s05",
+      "lexical_unit": "consequence",
+      "coder_a_decision": "non_metaphor",
+      "coder_b_decision": "uncertain"
+    },
+    {
+      "mipvu_id": "lincoln-lyceum-address_s01_p24_s05_lu010",
+      "document_id": "lincoln-lyceum-address",
+      "sentence_id": "lincoln-lyceum-address_s01_p24_s05",
+      "lexical_unit": "form",
+      "coder_a_decision": "non_metaphor",
+      "coder_b_decision": "uncertain"
+    },
+    {
+      "mipvu_id": "lincoln-lyceum-address_s01_p24_s05_lu015",
+      "document_id": "lincoln-lyceum-address",
+      "sentence_id": "lincoln-lyceum-address_s01_p24_s05",
+      "lexical_unit": "father",
+      "coder_a_decision": "non_metaphor",
+      "coder_b_decision": "uncertain"
+    },
+    {
+      "mipvu_id": "lincoln-lyceum-address_s01_p24_s05_lu017",
+      "document_id": "lincoln-lyceum-address",
+      "sentence_id": "lincoln-lyceum-address_s01_p24_s05",
+      "lexical_unit": "son",
+      "coder_a_decision": "non_metaphor",
+      "coder_b_decision": "uncertain"
+    },
+    {
+      "mipvu_id": "lincoln-lyceum-address_s01_p24_s05_lu020",
+      "document_id": "lincoln-lyceum-address",
+      "sentence_id": "lincoln-lyceum-address_s01_p24_s05",
+      "lexical_unit": "brother",
+      "coder_a_decision": "non_metaphor",
+      "coder_b_decision": "uncertain"
+    },
+    {
+      "mipvu_id": "lincoln-lyceum-address_s01_p24_s05_lu047",
+      "document_id": "lincoln-lyceum-address",
+      "sentence_id": "lincoln-lyceum-address_s01_p24_s05",
+      "lexical_unit": "scars",
+      "coder_a_decision": "non_metaphor",
+      "coder_b_decision": "uncertain"
+    },
+    {
+      "mipvu_id": "lincoln-lyceum-address_s01_p24_s05_lu049",
+      "document_id": "lincoln-lyceum-address",
+      "sentence_id": "lincoln-lyceum-address_s01_p24_s05",
+      "lexical_unit": "wounds",
+      "coder_a_decision": "non_metaphor",
+      "coder_b_decision": "uncertain"
+    },
+    {
+      "mipvu_id": "lincoln-second-inaugural_s01_p06_s01_lu063",
+      "document_id": "lincoln-second-inaugural",
+      "sentence_id": "lincoln-second-inaugural_s01_p06_s01",
+      "lexical_unit": "cherish",
+      "coder_a_decision": "mipvu_indirect",
+      "coder_b_decision": "uncertain"
+    }
+  ]
+}
