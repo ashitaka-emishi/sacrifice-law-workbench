@@ -31,7 +31,7 @@ AUDIT_DIR = PACKAGE_DIR / "audit"
 SUPPORT_DIMENSION_LABELS = {
     "sacred_object": "sacred object",
     "sacrificial_body": "sacrificial body",
-    "enemy_as_death": "enemy as death",
+    "enemy_as_bringer_of_death": "enemy as bringer of death",
     "historical_enactment_alignment": "historical enactment or alignment",
 }
 

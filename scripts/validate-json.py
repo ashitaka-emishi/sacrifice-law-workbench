@@ -655,7 +655,7 @@ class Validator:
                             for dimension in [
                                 "sacred_object",
                                 "sacrificial_body",
-                                "enemy_as_death",
+                                "enemy_as_bringer_of_death",
                                 "historical_enactment_alignment",
                             ]:
                                 value = scores.get(dimension)
@@ -692,7 +692,7 @@ class Validator:
                         "level",
                         "sacred_object",
                         "sacrificial_body",
-                        "enemy_as_death",
+                        "enemy_as_bringer_of_death",
                         "historical_enactment_alignment",
                     }
                     missing = sorted(required - set(reader.fieldnames or []))

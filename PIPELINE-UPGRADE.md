@@ -31,9 +31,9 @@ The pipeline must distinguish between:
 | Rhetorical criticism | Interprets occasion, audience, genre, and action |
 | Historical semantics | Controls for nineteenth-century meaning |
 | Systematic absence analysis | Studies agency, silence, displacement, and exclusion |
-| Koenigsbergian ideological-fantasy analysis | Interprets sacrifice, sacred collective objects, enemy as death, national fantasy, violence, guilt, redemption, and reconciliation |
+| Koenigsbergian ideological-fantasy analysis | Interprets sacrifice, sacred collective objects, enemy as bringer of death, national fantasy, violence, guilt, redemption, and reconciliation |
 | Historical enactment / alignment | Corroborates whether textual-symbolic patterns align with established historical practices or outcomes |
-| Evidentiary support scoring | Rates degree of support across sacred object, sacrificial body, enemy as death, and historical enactment/alignment |
+| Evidentiary support scoring | Rates degree of support across sacred object, sacrificial body, enemy as bringer of death, and historical enactment/alignment |
 
 MIPVU does not identify conceptual metaphors. It identifies metaphor-related words. CMT then interprets the mappings in which those words participate. Koenigsbergian analysis should come later, after the linguistic and conceptual layers have been established.
 
@@ -162,7 +162,7 @@ The project should define:
 
 The project should state clearly:
 
-> This study uses MIPVU to identify metaphor-related lexical units, Conceptual Metaphor Theory to interpret source-target mappings, corpus-assisted discourse methods to examine distribution and patterning, historical corroboration to assess enactment or alignment, and Koenigsbergian ideological-fantasy analysis to evaluate the degree to which recurring metaphor systems support, complicate, or limit Koenigsberg’s Law of Sacrifice, its body-politic corollary, and the construction of enemies as death.
+> This study uses MIPVU to identify metaphor-related lexical units, Conceptual Metaphor Theory to interpret source-target mappings, corpus-assisted discourse methods to examine distribution and patterning, historical corroboration to assess enactment or alignment, and Koenigsbergian ideological-fantasy analysis to evaluate the degree to which recurring metaphor systems support, complicate, or limit Koenigsberg’s Law of Sacrifice, its body-politic corollary, and the construction of enemies as bringers of death.
 
 ---
 
@@ -740,7 +740,7 @@ The synthesis rates support across four dimensions:
 |---|---|
 | Sacred object | Is a collective object represented as transcendent, ultimate, sacred, immortal, or worth dying/killing for? |
 | Sacrificial body | Are bodies represented as meaningful offerings, payments, instruments, victims, martyrs, or material through which the sacred object is preserved or made real? |
-| Enemy as death | Is the enemy represented as the agent, carrier, embodiment, or sign of death, doubt, mortality, dissolution, unreality, or collective destruction? |
+| Enemy as bringer of death | Is the enemy represented as the agent, carrier, embodiment, or sign of death, doubt, mortality, dissolution, unreality, or collective destruction? |
 | Historical enactment or alignment | Do textual-symbolic patterns align with historically documented practices, policies, institutions, mobilizations, or outcomes? |
 
 ## Core questions
@@ -751,7 +751,7 @@ The synthesis rates support across four dimensions:
 | What kind of body is imagined? | Wounded, divided, reborn, healing |
 | What sacrifice becomes obligatory? | Soldiers dying so the republic may live |
 | How is death made meaningful? | Unfinished work, new birth, divine judgment |
-| How is the enemy represented as death? | Rebel, slave power, secession, or disunion as death-bearing threat to the republic |
+| How is the enemy represented as a bringer of death? | Rebel, slave power, secession, or disunion as death-bearing threat to the republic |
 | What historical enactment or alignment exists? | War mobilization, battlefield death, emancipation policy, reunion practice, public mourning, or other corroborated historical outcomes |
 | How is guilt distributed? | Slavery, South, North, nation, Providence |
 | What violence becomes legitimate? | War to preserve Union or redeem founding promise |
@@ -780,7 +780,7 @@ Where:
 
 - `S` = sacred object score
 - `B` = sacrificial body score
-- `E` = enemy as death score
+- `E` = enemy as bringer of death score
 - `H` = historical enactment or alignment score
 
 Historical enactment or alignment receives double weight because it is the historical-anchoring dimension. Without historical alignment, the project can claim a strong textual reading but not strong case-level support for the Law.
@@ -832,7 +832,7 @@ The comparison should examine rhetorical and ideological structures, not imply m
 | Sacred collective object | Union / republic / democracy | Volk / racial body / nation |
 | Dominant body metaphor | Wounded, divided, healing, reborn | Diseased, contaminated, purified |
 | Violence logic | Preservation, sacrifice, judgment | Purification, extermination, annihilation |
-| Enemy as death | Rebel, slave power, secessionist, disunion as death-bearing threat | Parasite, contaminant, racial enemy, Jew as death-bearing threat to racial body |
+| Enemy as bringer of death | Rebel, slave power, secessionist, disunion as death-bearing threat | Parasite, contaminant, racial enemy, Jew as death-bearing threat to racial body |
 | Death logic | Sacrifice for republic | Death as fuel for immortal collective body |
 | Historical enactment / alignment | Mobilization, battlefield death, emancipation, reunion practice | Policy, implementation, social uptake, exterminatory outcomes |
 | Overall support rating | To be scored after annotation and corroboration | To be scored after annotation and corroboration |
@@ -1105,4 +1105,4 @@ lincoln-metaphor-analysis/
 
 A credible scholarly version of the pipeline would proceed as follows:
 
-> A historically controlled, TEI-documented Lincoln corpus is segmented into stable textual units. Lexical units are identified and coded using MIPVU, with historical semantics controls to prevent anachronistic readings. A reliability sample is double-coded and adjudicated using a formal annotation codebook. Metaphor-related expressions are then mapped through Conceptual Metaphor Theory into source and target domains, with entailments, confidence levels, and rival readings recorded. Corpus-Assisted Discourse Studies methods examine frequency, distribution, collocation, genre variation, rhetorical salience, and diachronic change. Critical Metaphor Analysis and rhetorical criticism interpret how metaphor clusters persuade, authorize, console, accuse, sacralize, or reconcile. Systematic absence and agency analysis records who acts, who suffers, who is displaced, and who is excluded. Historical enactment/alignment analysis then asks whether textual-symbolic patterns align with documented policies, practices, implementation, social uptake, or outcomes. Only after these stages does Koenigsbergian evidentiary-support synthesis assess the degree to which the case supports, complicates, or limits Koenigsberg’s Law of Sacrifice across sacred object, sacrificial body, enemy as death, and historical enactment/alignment dimensions. All major claims are supported by an audit trail linking interpretation back to support scores, coded lexical units, sentence IDs, document metadata, source text, and historical corroboration where claimed.
+> A historically controlled, TEI-documented Lincoln corpus is segmented into stable textual units. Lexical units are identified and coded using MIPVU, with historical semantics controls to prevent anachronistic readings. A reliability sample is double-coded and adjudicated using a formal annotation codebook. Metaphor-related expressions are then mapped through Conceptual Metaphor Theory into source and target domains, with entailments, confidence levels, and rival readings recorded. Corpus-Assisted Discourse Studies methods examine frequency, distribution, collocation, genre variation, rhetorical salience, and diachronic change. Critical Metaphor Analysis and rhetorical criticism interpret how metaphor clusters persuade, authorize, console, accuse, sacralize, or reconcile. Systematic absence and agency analysis records who acts, who suffers, who is displaced, and who is excluded. Historical enactment/alignment analysis then asks whether textual-symbolic patterns align with documented policies, practices, implementation, social uptake, or outcomes. Only after these stages does Koenigsbergian evidentiary-support synthesis assess the degree to which the case supports, complicates, or limits Koenigsberg’s Law of Sacrifice across sacred object, sacrificial body, enemy as bringer of death, and historical enactment/alignment dimensions. All major claims are supported by an audit trail linking interpretation back to support scores, coded lexical units, sentence IDs, document metadata, source text, and historical corroboration where claimed.

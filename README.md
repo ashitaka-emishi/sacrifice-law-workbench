@@ -22,7 +22,7 @@ public Quarto artifacts.
 > corpora, when compared with historically documented practices of mobilization,
 > killing, dying, purification, and enemy destruction, support, complicate, or
 > limit Koenigsberg's Law of Sacrifice, the body-politic corollary, and the
-> construction of enemies as death across the initial pilot cases defined in the
+> construction of enemies as bringers of death across the initial pilot cases defined in the
 > case-selection protocol?
 
 The project assesses evidentiary support rather than claiming proof. Case-level

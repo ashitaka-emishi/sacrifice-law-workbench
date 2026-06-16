@@ -13,7 +13,7 @@ from pipeline_common import case_dir, case_ids, now_iso, write_json
 DIMENSIONS = [
     "sacred_object",
     "sacrificial_body",
-    "enemy_as_death",
+    "enemy_as_bringer_of_death",
     "historical_enactment_alignment",
 ]
 
@@ -59,12 +59,12 @@ LINCOLN_DOCUMENT_RATINGS = [
         "scores": {
             "sacred_object": 2.0,
             "sacrificial_body": 0.0,
-            "enemy_as_death": 1.0,
+            "enemy_as_bringer_of_death": 1.0,
             "historical_enactment_alignment": 1.0,
         },
         "mapping_ids": ["lincoln-cmt-001"],
         "historical_note_ids": ["lincoln-hist-003"],
-        "rationale": "The address figures the nation as a living collective body but does not yet supply battlefield sacrifice or strong enemy-as-death evidence.",
+        "rationale": "The address figures the nation as a living collective body but does not yet supply battlefield sacrifice or strong enemy-as-bringer-of-death evidence.",
     },
     {
         "score_id": "lincoln-score-doc-gettysburg",
@@ -74,7 +74,7 @@ LINCOLN_DOCUMENT_RATINGS = [
         "scores": {
             "sacred_object": 3.0,
             "sacrificial_body": 3.0,
-            "enemy_as_death": 1.0,
+            "enemy_as_bringer_of_death": 1.0,
             "historical_enactment_alignment": 3.0,
         },
         "mapping_ids": [
@@ -95,7 +95,7 @@ LINCOLN_DOCUMENT_RATINGS = [
         "scores": {
             "sacred_object": 2.0,
             "sacrificial_body": 3.0,
-            "enemy_as_death": 1.0,
+            "enemy_as_bringer_of_death": 1.0,
             "historical_enactment_alignment": 3.0,
         },
         "mapping_ids": ["lincoln-cmt-007", "lincoln-cmt-008", "lincoln-cmt-009"],
@@ -144,7 +144,7 @@ def weighted_dimension_scores(ratings: list[dict[str, Any]]) -> dict[str, float]
 def shifted_geometric(scores: dict[str, float]) -> float:
     s = scores["sacred_object"]
     b = scores["sacrificial_body"]
-    e = scores["enemy_as_death"]
+    e = scores["enemy_as_bringer_of_death"]
     h = scores["historical_enactment_alignment"]
     return round((prod([s + 1, b + 1, e + 1, h + 1, h + 1]) ** (1 / 5)) - 1, 2)
 
@@ -255,9 +255,9 @@ The current Lincoln pilot evidence gives moderate, complicated support for the
 Law of Sacrifice framework. Sacred-object and sacrificial-body evidence is
 strongest around Gettysburg's national survival, dedication, and new-birth
 language. Providence and blood-repayment evidence in the Second Inaugural
-strengthens historical alignment and guilt distribution, but enemy-as-death
+strengthens historical alignment and guilt distribution, but enemy-as-bringer-of-death
 evidence remains weak because the key passages often suppress or diffuse enemy
-agency rather than constructing an enemy as death-bearing object.
+agency rather than constructing an enemy as a death-bearing agent, carrier, or sign.
 
 ## Boundaries
 
@@ -317,7 +317,7 @@ def build_case(case_id: str) -> dict[str, Any]:
         "support_statement": "moderate, complicated support",
         "supporting_dimensions": case_scores,
         "complications": [
-            "Enemy-as-death evidence is weak in the reviewed Lincoln pilot sample.",
+            "Enemy-as-bringer-of-death evidence is weak in the reviewed Lincoln pilot sample.",
             "Reconciliation and shared guilt complicate a simple enemy-destruction reading.",
             "The strongest sacrificial evidence is concentrated in Gettysburg.",
         ],

@@ -24,11 +24,13 @@ rather than as a conclusion assumed in advance:
 
 Koenigsberg's body-politic corollary is also treated as a claim to be assessed.
 The workbench expands the narrow enemy-as-parasite formulation into the broader
-analytic label **enemy as death**:
+analytic label **enemy as bringer of death**:
 
 > The sacred object is unconsciously experienced as the leader’s own body extended into the world. The enemy is felt as a parasite within that body, and as the embodiment of the doubt that the sacred object is real. Genocide is the surgical face of the same Law of Sacrifice: rather than feeding the immortal body, it cleanses it — destroying the knowledge that no body is immortal.
 
-In this workbench, enemy as death means an enemy represented not merely as an
-opponent, but as the agent, carrier, embodiment, or sign of death for the sacred
-object: doubt, mortality, dissolution, unreality, contamination, enslavement,
-desecration, or collective destruction.
+In this workbench, enemy as bringer of death means an enemy represented not
+merely as an opponent, but as the agent, carrier, embodiment, or sign of death
+for the sacred object: doubt, mortality, dissolution, unreality, contamination,
+enslavement, desecration, or collective destruction. The phrase is deliberately
+more precise than the older shorthand enemy-as-death: the analytic target is
+death-bearing agency, not literal identity with death itself.

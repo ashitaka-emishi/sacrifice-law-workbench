@@ -1,7 +1,7 @@
 {
   "version": "1.0",
   "case_id": "x-case",
-  "generated_at": "2026-06-15T09:54:36",
+  "generated_at": "2026-06-16T07:53:30",
   "status": "draft",
   "purpose": "Define comparative analysis dimensions and guardrails before cross-case claims are promoted.",
   "dimensions": [
@@ -21,9 +21,9 @@
       "question": "Does violence function as preservation, sacrifice, punishment, purification, extermination, or another logic?"
     },
     {
-      "id": "enemy_as_death",
-      "label": "Enemy as death",
-      "question": "Is the enemy represented as death, contamination, dissolution, doubt, unreality, or existential threat?"
+      "id": "enemy_as_bringer_of_death",
+      "label": "Enemy as bringer of death",
+      "question": "Is the enemy represented as a death-bearing agent, carrier, embodiment, sign, contamination, dissolution, doubt, unreality, or existential threat?"
     },
     {
       "id": "death_logic",

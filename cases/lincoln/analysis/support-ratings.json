@@ -1,7 +1,7 @@
 {
   "version": "1.0",
   "case_id": "lincoln",
-  "generated_at": "2026-06-15T09:52:01",
+  "generated_at": "2026-06-16T07:53:30",
   "status": "draft",
   "scale": "0-4 anchored support scale",
   "document_ratings": [
@@ -13,7 +13,7 @@
       "scores": {
         "sacred_object": 2.0,
         "sacrificial_body": 0.0,
-        "enemy_as_death": 1.0,
+        "enemy_as_bringer_of_death": 1.0,
         "historical_enactment_alignment": 1.0
       },
       "mapping_ids": [
@@ -22,7 +22,7 @@
       "historical_note_ids": [
         "lincoln-hist-003"
       ],
-      "rationale": "The address figures the nation as a living collective body but does not yet supply battlefield sacrifice or strong enemy-as-death evidence."
+      "rationale": "The address figures the nation as a living collective body but does not yet supply battlefield sacrifice or strong enemy-as-bringer-of-death evidence."
     },
     {
       "score_id": "lincoln-score-doc-gettysburg",
@@ -32,7 +32,7 @@
       "scores": {
         "sacred_object": 3.0,
         "sacrificial_body": 3.0,
-        "enemy_as_death": 1.0,
+        "enemy_as_bringer_of_death": 1.0,
         "historical_enactment_alignment": 3.0
       },
       "mapping_ids": [
@@ -55,7 +55,7 @@
       "scores": {
         "sacred_object": 2.0,
         "sacrificial_body": 3.0,
-        "enemy_as_death": 1.0,
+        "enemy_as_bringer_of_death": 1.0,
         "historical_enactment_alignment": 3.0
       },
       "mapping_ids": [
@@ -72,7 +72,7 @@
   "case_scores": {
     "sacred_object": 2.4,
     "sacrificial_body": 2.4,
-    "enemy_as_death": 1.0,
+    "enemy_as_bringer_of_death": 1.0,
     "historical_enactment_alignment": 2.6
   },
   "overall_support": {

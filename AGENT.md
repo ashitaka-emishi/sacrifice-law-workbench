@@ -145,7 +145,7 @@ Choose validation proportional to the change.
 - For research-question, methodology, synthesis, or support-scoring changes,
   check consistency with `PRIMARY_RESEARCH_QUESTION.md`,
   `validation-protocol.qmd`, and `PIPELINE-UPGRADE.md`; preserve the four
-  support dimensions: sacred object, sacrificial body, enemy as death, and
+  support dimensions: sacred object, sacrificial body, enemy as bringer of death, and
   historical enactment/alignment.
 - If a command cannot be run locally, state that clearly in the final response
   and explain the remaining risk.

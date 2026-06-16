@@ -16,7 +16,7 @@ working question is how recurring metaphor systems in leader-centered political
 corpora, when compared with historically documented practices of mobilization,
 killing, dying, purification, and enemy destruction, support, complicate, or
 limit Koenigsberg's Law, its body-politic corollary, and the construction of
-enemies as death.
+enemies as bringers of death.
 
 The fuller publication-facing protocol is maintained in
 [`RESEARCH_DESIGN.md`](RESEARCH_DESIGN.md). That document defines the project
@@ -38,7 +38,7 @@ claims should identify whether they use the balanced core or the extended
 corpus.
 
 The cases are leader-centered because the project is studying how political
-symbols, sacred objects, enemies as death, and sacrificial obligations are
+symbols, sacred objects, enemies as bringers of death, and sacrificial obligations are
 organized in public and semi-public language. This does not mean that leaders
 are treated as isolated causes of war or genocide. It means their corpora
 provide an auditable entry point into the symbolic systems through which
