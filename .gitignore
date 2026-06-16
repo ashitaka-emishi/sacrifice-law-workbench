@@ -7,7 +7,6 @@ __pycache__/
 .venv/
 .claude/settings.local.json
 .playwright-mcp/
-.github/workflows/publish.yml
 # Local-only corpora when rights/licensing prevent committing raw texts
 cases/*/corpus/raw/_local/
 cases/*/corpus/raw/*.restricted.txt

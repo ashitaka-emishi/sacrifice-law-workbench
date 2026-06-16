@@ -3,6 +3,10 @@
 A comparative research workbench for assessing evidentiary support for
 Koenigsberg's Law of Sacrifice.
 
+**[View the research site ->](https://ashitaka-emishi.github.io/sacrifice-law-workbench/)** - a browsable HTML version of the workbench, including methodology
+documentation, corpus and case materials, validation artifacts, and cross-case
+synthesis. The site is rebuilt automatically when changes land on `master`.
+
 A reproducible VSCode/Codex-ready research workbench for studying Richard A.
 Koenigsberg's Law of Sacrifice through case-based corpus work, Conceptual
 Metaphor Theory, LCC-style metaphor analysis, and cross-case synthesis.
@@ -149,5 +153,6 @@ The public site is rendered with Quarto:
 quarto render
 ```
 
-GitHub Actions is intended to render and deploy the site. The research pipeline
-itself is local and file-based.
+GitHub Actions renders and deploys the site to
+<https://ashitaka-emishi.github.io/sacrifice-law-workbench/>. The research
+pipeline itself is local and file-based.
