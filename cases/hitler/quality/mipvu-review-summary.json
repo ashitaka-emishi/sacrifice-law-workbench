@@ -1,0 +1,782 @@
+{
+  "case_id": "hitler",
+  "generated_at": "2026-06-16T18:47:33",
+  "status": "mipvu-review-complete-codex-assisted",
+  "review_batch": "hitler-source-language-mipvu-review-v1",
+  "annotator": "codex-assisted-mipvu-v1",
+  "source_language": "de",
+  "decision_basis": "source-language span_text",
+  "total_lexical_units": 86752,
+  "pending_units": 0,
+  "by_decision_type": {
+    "mipvu_indirect": 63,
+    "mipvu_personification": 3,
+    "non_metaphor": 86682,
+    "uncertain": 4
+  },
+  "by_rule_id": {
+    "default-reviewed-non-metaphor": 86682,
+    "hitler-ausrottung-rooting-out": 2,
+    "hitler-blut-military-sacrifice": 1,
+    "hitler-blut-racial-essence": 15,
+    "hitler-boden-lebensraum": 4,
+    "hitler-ehre-national-honor": 3,
+    "hitler-geist-civilizational": 5,
+    "hitler-held-heroic-sacrifice": 3,
+    "hitler-opfer-self-sacrifice": 3,
+    "hitler-opfer-victim-parasite": 1,
+    "hitler-schicksal-conventional": 4,
+    "hitler-schicksal-personified": 3,
+    "hitler-seele-collective-psyche": 3,
+    "hitler-sieg-evolutionary-struggle": 6,
+    "hitler-vernichtung-elimination": 17
+  },
+  "by_document": {
+    "hitler-mein-kampf-vol1-ch11-race-and-people": {
+      "mipvu_indirect": 29,
+      "mipvu_personification": 1,
+      "non_metaphor": 15832
+    },
+    "hitler-mein-kampf-vol1-ch12-nsdap": {
+      "mipvu_indirect": 9,
+      "non_metaphor": 12824
+    },
+    "hitler-mein-kampf-vol1-ch2-wien": {
+      "mipvu_indirect": 1,
+      "mipvu_personification": 2,
+      "non_metaphor": 15682,
+      "uncertain": 3
+    },
+    "hitler-mein-kampf-vol2-ch1-weltanschauung": {
+      "mipvu_indirect": 3,
+      "non_metaphor": 4303
+    },
+    "hitler-mein-kampf-vol2-ch14-eastern-europe": {
+      "mipvu_indirect": 7,
+      "non_metaphor": 9325,
+      "uncertain": 1
+    },
+    "hitler-mein-kampf-vol2-ch2-the-state": {
+      "mipvu_indirect": 9,
+      "non_metaphor": 17998
+    },
+    "hitler-reichstag-1939-01-30": {
+      "mipvu_indirect": 2,
+      "non_metaphor": 7703
+    },
+    "hitler-ussr-proclamation-1941-06-22": {
+      "mipvu_indirect": 3,
+      "non_metaphor": 3015
+    }
+  },
+  "sample_metaphor_or_uncertain_units": [
+    {
+      "mipvu_id": "hitler-mein-kampf-vol1-ch2-wien_s01_p56_s01_lu003",
+      "document_id": "hitler-mein-kampf-vol1-ch2-wien",
+      "sentence_id": "hitler-mein-kampf-vol1-ch2-wien_s01_p56_s01",
+      "span_text": "Schicksal",
+      "gloss_en": "fate / destiny",
+      "decision_type": "uncertain",
+      "curated_rule_id": "hitler-schicksal-conventional",
+      "sentence_text": "26 Das Schicksal des Arbeiters"
+    },
+    {
+      "mipvu_id": "hitler-mein-kampf-vol1-ch2-wien_s01_p60_s01_lu002",
+      "document_id": "hitler-mein-kampf-vol1-ch2-wien",
+      "sentence_id": "hitler-mein-kampf-vol1-ch2-wien_s01_p60_s01",
+      "span_text": "Schicksal",
+      "gloss_en": "fate / destiny",
+      "decision_type": "uncertain",
+      "curated_rule_id": "hitler-schicksal-conventional",
+      "sentence_text": "Das Schicksal des Arbeiters 27"
+    },
+    {
+      "mipvu_id": "hitler-mein-kampf-vol1-ch2-wien_s01_p65_s01_lu003",
+      "document_id": "hitler-mein-kampf-vol1-ch2-wien",
+      "sentence_id": "hitler-mein-kampf-vol1-ch2-wien_s01_p65_s01",
+      "span_text": "Schicksal",
+      "gloss_en": "fate / destiny",
+      "decision_type": "uncertain",
+      "curated_rule_id": "hitler-schicksal-conventional",
+      "sentence_text": "28 Das Schicksal des Arbeiters"
+    },
+    {
+      "mipvu_id": "hitler-mein-kampf-vol1-ch2-wien_s01_p344_s01_lu016",
+      "document_id": "hitler-mein-kampf-vol1-ch2-wien",
+      "sentence_id": "hitler-mein-kampf-vol1-ch2-wien_s01_p344_s01",
+      "span_text": "Schicksal",
+      "gloss_en": "fate / destiny",
+      "decision_type": "mipvu_personification",
+      "curated_rule_id": "hitler-schicksal-personified",
+      "sentence_text": "Alles vermochte ich dabei noch zu begreifen: dali} sie mit ihrem Lose unzufrieden waren, das Schicksal verdammten, welches sie oft so herbe schlug; die Unternehmer haften, die ihnen als herzlose Zwangsvollstrecker dieses Schicksals erschienen; auf die Behdérden schimpften, die in ihren Augen kein Gefithl fiir die Lage besaBen; daB sie gegen Lebens-"
+    },
+    {
+      "mipvu_id": "hitler-mein-kampf-vol1-ch2-wien_s01_p344_s01_lu033",
+      "document_id": "hitler-mein-kampf-vol1-ch2-wien",
+      "sentence_id": "hitler-mein-kampf-vol1-ch2-wien_s01_p344_s01",
+      "span_text": "Schicksals",
+      "gloss_en": "fate / destiny",
+      "decision_type": "mipvu_personification",
+      "curated_rule_id": "hitler-schicksal-personified",
+      "sentence_text": "Alles vermochte ich dabei noch zu begreifen: dali} sie mit ihrem Lose unzufrieden waren, das Schicksal verdammten, welches sie oft so herbe schlug; die Unternehmer haften, die ihnen als herzlose Zwangsvollstrecker dieses Schicksals erschienen; auf die Behdérden schimpften, die in ihren Augen kein Gefithl fiir die Lage besaBen; daB sie gegen Lebens-"
+    },
+    {
+      "mipvu_id": "hitler-mein-kampf-vol1-ch2-wien_s01_p377_s01_lu018",
+      "document_id": "hitler-mein-kampf-vol1-ch2-wien",
+      "sentence_id": "hitler-mein-kampf-vol1-ch2-wien_s01_p377_s01",
+      "span_text": "Geist",
+      "gloss_en": "spirit / mind / intellect",
+      "decision_type": "mipvu_indirect",
+      "curated_rule_id": "hitler-geist-civilizational",
+      "sentence_text": "In diesem Falle blieb als letzte Rettung noch der Kampf, der Kampf mit allen Waffen, die menschlicher Geist, Ver- stand und Wille zu erfassen vermédgen, ganz gleich, wem das Schicksal dann seinen Segen in die Waagschale senkt."
+    },
+    {
+      "mipvu_id": "hitler-mein-kampf-vol1-ch11-race-and-people_s01_p09_s05_lu016",
+      "document_id": "hitler-mein-kampf-vol1-ch11-race-and-people",
+      "sentence_id": "hitler-mein-kampf-vol1-ch11-race-and-people_s01_p09_s05",
+      "span_text": "Siege",
+      "gloss_en": "victory",
+      "decision_type": "mipvu_indirect",
+      "curated_rule_id": "hitler-sieg-evolutionary-struggle",
+      "sentence_text": "Die Voraussetzung hierzu liegt nicht im Verbinden von Hoher- und Minderwertigem, son- dern im restlosen Siege des ersteren."
+    },
+    {
+      "mipvu_id": "hitler-mein-kampf-vol1-ch11-race-and-people_s01_p09_s06_lu021",
+      "document_id": "hitler-mein-kampf-vol1-ch11-race-and-people",
+      "sentence_id": "hitler-mein-kampf-vol1-ch11-race-and-people_s01_p09_s06",
+      "span_text": "opfern",
+      "gloss_en": "sacrifice",
+      "decision_type": "mipvu_indirect",
+      "curated_rule_id": "hitler-opfer-self-sacrifice",
+      "sentence_text": "Der Starkere hat zu herrschen und sich nicht mit dem Schwacheren zu verschmel- zen, um so die eigene GroBe zu opfern."
+    },
+    {
+      "mipvu_id": "hitler-mein-kampf-vol1-ch11-race-and-people_s01_p30_s07_lu003",
+      "document_id": "hitler-mein-kampf-vol1-ch11-race-and-people",
+      "sentence_id": "hitler-mein-kampf-vol1-ch11-race-and-people_s01_p30_s07",
+      "span_text": "Sieg",
+      "gloss_en": "victory",
+      "decision_type": "mipvu_indirect",
+      "curated_rule_id": "hitler-sieg-evolutionary-struggle",
+      "sentence_text": "B. den Sieg des pazifistischen Gedankens in dieser Welt wirklich von Herzen wunschen wollte, mtiBte sich mit allen Mitteln fiir die Eroberung der Welt durch die Deutschen einsetzen; denn wenn es umgekehrt kommen sollte, wurde sehr leicht mit dem letzten Deutschen auch der letzte Pazifist aussterben, da die andere Welt auf diesen natur- und vernunftwidrigen Unsinn kaum je so tief hereingefallen ist als leider unser eigenes Volk."
+    },
+    {
+      "mipvu_id": "hitler-mein-kampf-vol1-ch11-race-and-people_s01_p47_s04_lu022",
+      "document_id": "hitler-mein-kampf-vol1-ch11-race-and-people",
+      "sentence_id": "hitler-mein-kampf-vol1-ch11-race-and-people_s01_p47_s04",
+      "span_text": "Geist",
+      "gloss_en": "spirit / mind / intellect",
+      "decision_type": "mipvu_indirect",
+      "curated_rule_id": "hitler-geist-civilizational",
+      "sentence_text": "In wenigen Jahrzehnten wird zum Beispiel der ganze Osten Asiens eine Kultur sein eigen nennen, deren letzte Grund- lage ebenso hellenischer Geist und germanische Technik sein wird wie dies bei uns der Fall ist."
+    },
+    {
+      "mipvu_id": "hitler-mein-kampf-vol1-ch11-race-and-people_s01_p53_s03_lu017",
+      "document_id": "hitler-mein-kampf-vol1-ch11-race-and-people",
+      "sentence_id": "hitler-mein-kampf-vol1-ch11-race-and-people_s01_p53_s03",
+      "span_text": "Blutes",
+      "gloss_en": "blood (racial lineage)",
+      "decision_type": "mipvu_indirect",
+      "curated_rule_id": "hitler-blut-racial-essence",
+      "sentence_text": "Endlich aber vergehen sich die Eroberer gegen das im Anfang eingehaltene Prin- zip der Reinhaltung ihres Blutes, beginnen sich mit den unterjochten Einwohnern zu vermischen und beenden da-"
+    },
+    {
+      "mipvu_id": "hitler-mein-kampf-vol1-ch11-race-and-people_s01_p56_s01_lu022",
+      "document_id": "hitler-mein-kampf-vol1-ch11-race-and-people",
+      "sentence_id": "hitler-mein-kampf-vol1-ch11-race-and-people_s01_p56_s01",
+      "span_text": "Blut",
+      "gloss_en": "blood (racial lineage)",
+      "decision_type": "mipvu_indirect",
+      "curated_rule_id": "hitler-blut-racial-essence",
+      "sentence_text": "Nach tausend Jahren und mehr zeigt sich dann oft die letzte sichtbare Spur des einstigen Herrenvolkes 1m helleren Hautton, den sein Blut der unterjochten Rasse_ hinter- lieB, und in einer erstarrten Kultur, die es als ursprung- liche Schopferin einst begrindet hatte."
+    },
+    {
+      "mipvu_id": "hitler-mein-kampf-vol1-ch11-race-and-people_s01_p56_s02_lu010",
+      "document_id": "hitler-mein-kampf-vol1-ch11-race-and-people",
+      "sentence_id": "hitler-mein-kampf-vol1-ch11-race-and-people_s01_p56_s02",
+      "span_text": "Blut",
+      "gloss_en": "blood (racial lineage)",
+      "decision_type": "mipvu_indirect",
+      "curated_rule_id": "hitler-blut-racial-essence",
+      "sentence_text": "Denn so wie der tatsachliche und geistige Eroberer im Blut der Unterwor- fenen verlorenging, verlor sich auch der Brennstoff fir die Fackel des menschlichen Kulturfortschrittes!"
+    },
+    {
+      "mipvu_id": "hitler-mein-kampf-vol1-ch11-race-and-people_s01_p56_s03_lu006",
+      "document_id": "hitler-mein-kampf-vol1-ch11-race-and-people",
+      "sentence_id": "hitler-mein-kampf-vol1-ch11-race-and-people_s01_p56_s03",
+      "span_text": "Blut",
+      "gloss_en": "blood (racial lineage)",
+      "decision_type": "mipvu_indirect",
+      "curated_rule_id": "hitler-blut-racial-essence",
+      "sentence_text": "Wie die Farbe durch das Blut der ehemaligen Herren einen leisen Schimmer als Erinnerung an diese beibehielt, so ist auch die Nacht des kulturellen Lebens milde aufgehellt durch die gebliebenen Schopfungen der einstigen Lichtbringer."
+    },
+    {
+      "mipvu_id": "hitler-mein-kampf-vol1-ch11-race-and-people_s01_p57_s03_lu018",
+      "document_id": "hitler-mein-kampf-vol1-ch11-race-and-people",
+      "sentence_id": "hitler-mein-kampf-vol1-ch11-race-and-people_s01_p57_s03",
+      "span_text": "Blute",
+      "gloss_en": "blood (racial lineage)",
+      "decision_type": "mipvu_indirect",
+      "curated_rule_id": "hitler-blut-racial-essence",
+      "sentence_text": "Eine neve Kulturwelle halt ihren Einzug und dauert so lange an, bis ihre Trager wie- der im Blute fremder Volker untergehen."
+    },
+    {
+      "mipvu_id": "hitler-mein-kampf-vol1-ch11-race-and-people_s01_p61_s04_lu015",
+      "document_id": "hitler-mein-kampf-vol1-ch11-race-and-people",
+      "sentence_id": "hitler-mein-kampf-vol1-ch11-race-and-people_s01_p61_s04",
+      "span_text": "Helden",
+      "gloss_en": "hero / heroism",
+      "decision_type": "mipvu_indirect",
+      "curated_rule_id": "hitler-held-heroic-sacrifice",
+      "sentence_text": "Aus schein- bar harmlosen Kindern schiefen plotzlich in Stunden der Not, da andere verzagen, Helden empor von todesmutiger Entschlossenheit und eisiger Kiihle der Uberlegung."
+    },
+    {
+      "mipvu_id": "hitler-mein-kampf-vol1-ch11-race-and-people_s01_p67_s02_lu004",
+      "document_id": "hitler-mein-kampf-vol1-ch11-race-and-people",
+      "sentence_id": "hitler-mein-kampf-vol1-ch11-race-and-people_s01_p67_s02",
+      "span_text": "Schicksal",
+      "gloss_en": "fate / destiny",
+      "decision_type": "mipvu_personification",
+      "curated_rule_id": "hitler-schicksal-personified",
+      "sentence_text": "Sobald sie das Schicksal besonderen Verhalt- nissen entgegenfuhrt, beginnen sich ihre vorhandenen Fahig- keiten in immer schnellerer Folge zu entwickeln und in greifbare Formen zu gieBen."
+    },
+    {
+      "mipvu_id": "hitler-mein-kampf-vol1-ch11-race-and-people_s01_p76_s07_lu007",
+      "document_id": "hitler-mein-kampf-vol1-ch11-race-and-people",
+      "sentence_id": "hitler-mein-kampf-vol1-ch11-race-and-people_s01_p76_s07",
+      "span_text": "Blutes",
+      "gloss_en": "blood (racial lineage)",
+      "decision_type": "mipvu_indirect",
+      "curated_rule_id": "hitler-blut-racial-essence",
+      "sentence_text": "Der Arier gab die Reinheit seines Blutes auf und verlor daftir den Aufenthalt 1m Paradiese, das er sich selbst geschaffen hatte."
+    },
+    {
+      "mipvu_id": "hitler-mein-kampf-vol1-ch11-race-and-people_s01_p78_s01_lu038",
+      "document_id": "hitler-mein-kampf-vol1-ch11-race-and-people",
+      "sentence_id": "hitler-mein-kampf-vol1-ch11-race-and-people_s01_p78_s01",
+      "span_text": "Blute",
+      "gloss_en": "blood (racial lineage)",
+      "decision_type": "mipvu_indirect",
+      "curated_rule_id": "hitler-blut-racial-essence",
+      "sentence_text": "Die Blutsvermischung und das dadurch bedingte Senken des Rassenniveaus ist die alleinige Ursache des Absterbens aller Kulturen; denn die Menschen gehen nicht an ver- lorenen Kriegen zugrunde, sondern am Verlust jener Wider- standskraft, die nur dem reinen Blute zu eigen ist."
+    },
+    {
+      "mipvu_id": "hitler-mein-kampf-vol1-ch11-race-and-people_s01_p88_s03_lu030",
+      "document_id": "hitler-mein-kampf-vol1-ch11-race-and-people",
+      "sentence_id": "hitler-mein-kampf-vol1-ch11-race-and-people_s01_p88_s03",
+      "span_text": "Opfer",
+      "gloss_en": "sacrifice",
+      "decision_type": "mipvu_indirect",
+      "curated_rule_id": "hitler-opfer-self-sacrifice",
+      "sentence_text": "Der Selbst- erhaltungstrieb hat bei ihm die edelste Form erreicht, indem er das eigene Ich dem Leben der Gesamtheit willig unterordnet und, wenn die Stunde es erfordert, auch zum Opfer bringt."
+    },
+    {
+      "mipvu_id": "hitler-mein-kampf-vol1-ch11-race-and-people_s01_p93_s02_lu016",
+      "document_id": "hitler-mein-kampf-vol1-ch11-race-and-people",
+      "sentence_id": "hitler-mein-kampf-vol1-ch11-race-and-people_s01_p93_s02",
+      "span_text": "Opfer",
+      "gloss_en": "sacrifice",
+      "decision_type": "mipvu_indirect",
+      "curated_rule_id": "hitler-opfer-self-sacrifice",
+      "sentence_text": "In der Hingabe des eigenen Lebens fir die Existenz der Gemeinschaft lhegt die Kroénung alles Opfer- sinnes."
+    },
+    {
+      "mipvu_id": "hitler-mein-kampf-vol1-ch11-race-and-people_s01_p97_s01_lu014",
+      "document_id": "hitler-mein-kampf-vol1-ch11-race-and-people",
+      "sentence_id": "hitler-mein-kampf-vol1-ch11-race-and-people_s01_p97_s01",
+      "span_text": "Geist",
+      "gloss_en": "spirit / mind / intellect",
+      "decision_type": "mipvu_indirect",
+      "curated_rule_id": "hitler-geist-civilizational",
+      "sentence_text": "Ohne seine ideale Gesinnung waren alle, auch die blendendsten Fahigkeiten des Geistes nur Geist an sich, auBerer Schein ohne inneren Wert, jedoch niemals schopferische Kraft."
+    },
+    {
+      "mipvu_id": "hitler-mein-kampf-vol1-ch11-race-and-people_s01_p109_s04_lu004",
+      "document_id": "hitler-mein-kampf-vol1-ch11-race-and-people",
+      "sentence_id": "hitler-mein-kampf-vol1-ch11-race-and-people_s01_p109_s04",
+      "span_text": "Geist",
+      "gloss_en": "spirit / mind / intellect",
+      "decision_type": "mipvu_indirect",
+      "curated_rule_id": "hitler-geist-civilizational",
+      "sentence_text": "Auch der menschliche Geist vermag nicht ohne Stufen zur Hohe emporzuklimmen; er braucht zu jedem Schritt nach aufwarts das Fundament der Vergangenheit, und zwar in jenem umfassenden Sinne, in dem es sich nur in der allgemeinen Kultur zu offenbaren vermag."
+    },
+    {
+      "mipvu_id": "hitler-mein-kampf-vol1-ch11-race-and-people_s01_p130_s03_lu010",
+      "document_id": "hitler-mein-kampf-vol1-ch11-race-and-people",
+      "sentence_id": "hitler-mein-kampf-vol1-ch11-race-and-people_s01_p130_s03",
+      "span_text": "Lebensraum",
+      "gloss_en": "soil / living-space",
+      "decision_type": "mipvu_indirect",
+      "curated_rule_id": "hitler-boden-lebensraum",
+      "sentence_text": "Der Nomade besitzt sehr wohl einen bestimmt um- grenzten Lebensraum, nur bebaut er ihn nicht als sebhafter Bauer, sondern lebt vom Ertrage seiner Herden, mit denen er in seinem Gebiete wandert."
+    },
+    {
+      "mipvu_id": "hitler-mein-kampf-vol1-ch11-race-and-people_s01_p133_s03_lu008",
+      "document_id": "hitler-mein-kampf-vol1-ch11-race-and-people",
+      "sentence_id": "hitler-mein-kampf-vol1-ch11-race-and-people_s01_p133_s03",
+      "span_text": "Lebensraum",
+      "gloss_en": "soil / living-space",
+      "decision_type": "mipvu_indirect",
+      "curated_rule_id": "hitler-boden-lebensraum",
+      "sentence_text": "DafX§ er dabei manchmal seinen bis- herigen Lebensraum verlaBt, hangt nicht mit seiner Absicht zusammen, sondern ist das Ergebnis des Hinauswurfes, den er von Zeit zu Zeit durch die miBbrauchten Gastvolker erfahrt."
+    },
+    {
+      "mipvu_id": "hitler-mein-kampf-vol1-ch11-race-and-people_s01_p145_s01_lu014",
+      "document_id": "hitler-mein-kampf-vol1-ch11-race-and-people",
+      "sentence_id": "hitler-mein-kampf-vol1-ch11-race-and-people_s01_p145_s01",
+      "span_text": "Blutes",
+      "gloss_en": "blood (racial lineage)",
+      "decision_type": "mipvu_indirect",
+      "curated_rule_id": "hitler-blut-racial-essence",
+      "sentence_text": "Die jiidische Religionslehre ist in erster Linie eine An- weisung zur Reinhaltung des Blutes des Judentums sowie zur Regelung des Verkehrs der Juden untereinander, mehr aber noch mit der ubrigen Welt, mit den Nichtjuden also."
+    },
+    {
+      "mipvu_id": "hitler-mein-kampf-vol1-ch11-race-and-people_s01_p175_s04_lu024",
+      "document_id": "hitler-mein-kampf-vol1-ch11-race-and-people",
+      "sentence_id": "hitler-mein-kampf-vol1-ch11-race-and-people_s01_p175_s04",
+      "span_text": "Blutes",
+      "gloss_en": "blood (racial lineage)",
+      "decision_type": "mipvu_indirect",
+      "curated_rule_id": "hitler-blut-racial-essence",
+      "sentence_text": "Goethe aber war denn doch, wahrhaftiger Gott, kein Ruckschrittler oder gar Zelot; was aus ihm sprach, war nichts anderes als die Stimme des Blutes und der Vernunft."
+    },
+    {
+      "mipvu_id": "hitler-mein-kampf-vol1-ch11-race-and-people_s01_p178_s05_lu012",
+      "document_id": "hitler-mein-kampf-vol1-ch11-race-and-people",
+      "sentence_id": "hitler-mein-kampf-vol1-ch11-race-and-people_s01_p178_s05",
+      "span_text": "Blute",
+      "gloss_en": "blood (racial lineage)",
+      "decision_type": "mipvu_indirect",
+      "curated_rule_id": "hitler-blut-racial-essence",
+      "sentence_text": "Die Rasse aber liegt nicht in der Sprache, sondern ausschlieBlich im Blute, etwas, das niemand besser wei als der Jude, der gerade auf die Erhaltung seiner Sprache nur sehr wenig Wert legt, hingegen allen Wert auf die Reinhaltung seines Blutes."
+    },
+    {
+      "mipvu_id": "hitler-mein-kampf-vol1-ch11-race-and-people_s01_p178_s05_lu040",
+      "document_id": "hitler-mein-kampf-vol1-ch11-race-and-people",
+      "sentence_id": "hitler-mein-kampf-vol1-ch11-race-and-people_s01_p178_s05",
+      "span_text": "Blutes",
+      "gloss_en": "blood (racial lineage)",
+      "decision_type": "mipvu_indirect",
+      "curated_rule_id": "hitler-blut-racial-essence",
+      "sentence_text": "Die Rasse aber liegt nicht in der Sprache, sondern ausschlieBlich im Blute, etwas, das niemand besser wei als der Jude, der gerade auf die Erhaltung seiner Sprache nur sehr wenig Wert legt, hingegen allen Wert auf die Reinhaltung seines Blutes."
+    },
+    {
+      "mipvu_id": "hitler-mein-kampf-vol1-ch11-race-and-people_s01_p199_s05_lu004",
+      "document_id": "hitler-mein-kampf-vol1-ch11-race-and-people",
+      "sentence_id": "hitler-mein-kampf-vol1-ch11-race-and-people_s01_p199_s05",
+      "span_text": "Blut",
+      "gloss_en": "blood (racial lineage)",
+      "decision_type": "mipvu_indirect",
+      "curated_rule_id": "hitler-blut-racial-essence",
+      "sentence_text": "Er vergiftet das Blut der anderen, wahrt aber sein eigenes."
+    },
+    {
+      "mipvu_id": "hitler-mein-kampf-vol1-ch11-race-and-people_s01_p203_s01_lu009",
+      "document_id": "hitler-mein-kampf-vol1-ch11-race-and-people",
+      "sentence_id": "hitler-mein-kampf-vol1-ch11-race-and-people_s01_p203_s01",
+      "span_text": "Sieg",
+      "gloss_en": "victory",
+      "decision_type": "mipvu_indirect",
+      "curated_rule_id": "hitler-sieg-evolutionary-struggle",
+      "sentence_text": "Sein Endziel in diesem Stadium aber ist der Sieg der Demokratie oder, wie er es versteht: die Herrschaft des Parlamentarismus."
+    },
+    {
+      "mipvu_id": "hitler-mein-kampf-vol1-ch11-race-and-people_s01_p228_s01_lu027",
+      "document_id": "hitler-mein-kampf-vol1-ch11-race-and-people",
+      "sentence_id": "hitler-mein-kampf-vol1-ch11-race-and-people_s01_p228_s01",
+      "span_text": "Vernichtung",
+      "gloss_en": "annihilation / destruction",
+      "decision_type": "mipvu_indirect",
+      "curated_rule_id": "hitler-vernichtung-elimination",
+      "sentence_text": "So entsteht eine reine Handarbeiterbewegung unter judi- scher Fuhrung, scheinbar darauf ausgehend, die Lage des Arbeiters zu verbessern, in Wahrheit aber die Versklavung und damit die Vernichtung aller nichtjudischen Volker be- absichtigend."
+    },
+    {
+      "mipvu_id": "hitler-mein-kampf-vol1-ch11-race-and-people_s01_p238_s04_lu013",
+      "document_id": "hitler-mein-kampf-vol1-ch11-race-and-people",
+      "sentence_id": "hitler-mein-kampf-vol1-ch11-race-and-people_s01_p238_s04",
+      "span_text": "Vernichtung",
+      "gloss_en": "annihilation / destruction",
+      "decision_type": "mipvu_indirect",
+      "curated_rule_id": "hitler-vernichtung-elimination",
+      "sentence_text": "Er winscht nicht die Erhaltung einer unabhan- gigen nationalen Wirtschaft, sondern deren Vernichtung."
+    },
+    {
+      "mipvu_id": "hitler-mein-kampf-vol1-ch11-race-and-people_s01_p258_s01_lu018",
+      "document_id": "hitler-mein-kampf-vol1-ch11-race-and-people",
+      "sentence_id": "hitler-mein-kampf-vol1-ch11-race-and-people_s01_p258_s01",
+      "span_text": "Seele",
+      "gloss_en": "soul / psyche",
+      "decision_type": "mipvu_indirect",
+      "curated_rule_id": "hitler-seele-collective-psyche",
+      "sentence_text": "Langsam legt sich die Furcht vor der marxistischen Waffe des Judentums wie ein Alpdruck auf Hirn und Seele der anstandigen Menschen."
+    },
+    {
+      "mipvu_id": "hitler-mein-kampf-vol1-ch11-race-and-people_s01_p264_s01_lu006",
+      "document_id": "hitler-mein-kampf-vol1-ch11-race-and-people",
+      "sentence_id": "hitler-mein-kampf-vol1-ch11-race-and-people_s01_p264_s01",
+      "span_text": "Sieg",
+      "gloss_en": "victory",
+      "decision_type": "mipvu_indirect",
+      "curated_rule_id": "hitler-sieg-evolutionary-struggle",
+      "sentence_text": "Wie sehr sie den nahenden Sieg schon vor Augen sehen, geht aus der furchtbaren Art hervor, die ihr Verkehr mit den Angehorigen der anderen Volker annimmt."
+    },
+    {
+      "mipvu_id": "hitler-mein-kampf-vol1-ch11-race-and-people_s01_p279_s02_lu005",
+      "document_id": "hitler-mein-kampf-vol1-ch11-race-and-people",
+      "sentence_id": "hitler-mein-kampf-vol1-ch11-race-and-people_s01_p279_s02",
+      "span_text": "Opfers",
+      "gloss_en": "victim / sacrifice",
+      "decision_type": "mipvu_indirect",
+      "curated_rule_id": "hitler-opfer-victim-parasite",
+      "sentence_text": "Nach dem Tode des Opfers stirbt auch friiher oder spater der Vampir."
+    },
+    {
+      "mipvu_id": "hitler-mein-kampf-vol1-ch12-nsdap_s01_p48_s02_lu004",
+      "document_id": "hitler-mein-kampf-vol1-ch12-nsdap",
+      "sentence_id": "hitler-mein-kampf-vol1-ch12-nsdap_s01_p48_s02",
+      "span_text": "Seele",
+      "gloss_en": "soul / psyche",
+      "decision_type": "mipvu_indirect",
+      "curated_rule_id": "hitler-seele-collective-psyche",
+      "sentence_text": "Die Gewinnung der Seele des Volkes kann nur ge- lingen, wenn man neben der Futhrung des positiven Kampfes fur die eigenen Ziele den Gegner dieser Ziele vernichtet."
+    },
+    {
+      "mipvu_id": "hitler-mein-kampf-vol1-ch12-nsdap_s01_p49_s01_lu025",
+      "document_id": "hitler-mein-kampf-vol1-ch12-nsdap",
+      "sentence_id": "hitler-mein-kampf-vol1-ch12-nsdap_s01_p49_s01",
+      "span_text": "Vernichtung",
+      "gloss_en": "annihilation / destruction",
+      "decision_type": "mipvu_indirect",
+      "curated_rule_id": "hitler-vernichtung-elimination",
+      "sentence_text": "Das Volk sieht zu allen Zeiten im riicksichtslosen Angriff auf einen Widersacher den Beweis des eigenen Rechtes, und es empfindet den Verzicht auf die Vernichtung des anderen als Unsicherheit in bezug auf das eigene Recht, wenn nicht als Zeichen des eigenen Unrechtes."
+    },
+    {
+      "mipvu_id": "hitler-mein-kampf-vol1-ch12-nsdap_s01_p52_s02_lu006",
+      "document_id": "hitler-mein-kampf-vol1-ch12-nsdap",
+      "sentence_id": "hitler-mein-kampf-vol1-ch12-nsdap_s01_p52_s02",
+      "span_text": "Sieg",
+      "gloss_en": "victory",
+      "decision_type": "mipvu_indirect",
+      "curated_rule_id": "hitler-sieg-evolutionary-struggle",
+      "sentence_text": "Was sie wunscht, ist der Sieg des Starkeren und die Vernichtung des Schwachen oder seine bedingungslose Unterwerfung."
+    },
+    {
+      "mipvu_id": "hitler-mein-kampf-vol1-ch12-nsdap_s01_p52_s02_lu011",
+      "document_id": "hitler-mein-kampf-vol1-ch12-nsdap",
+      "sentence_id": "hitler-mein-kampf-vol1-ch12-nsdap_s01_p52_s02",
+      "span_text": "Vernichtung",
+      "gloss_en": "annihilation / destruction",
+      "decision_type": "mipvu_indirect",
+      "curated_rule_id": "hitler-vernichtung-elimination",
+      "sentence_text": "Was sie wunscht, ist der Sieg des Starkeren und die Vernichtung des Schwachen oder seine bedingungslose Unterwerfung."
+    },
+    {
+      "mipvu_id": "hitler-mein-kampf-vol1-ch12-nsdap_s01_p53_s01_lu015",
+      "document_id": "hitler-mein-kampf-vol1-ch12-nsdap",
+      "sentence_id": "hitler-mein-kampf-vol1-ch12-nsdap_s01_p53_s01",
+      "span_text": "Seele",
+      "gloss_en": "soul / psyche",
+      "decision_type": "mipvu_indirect",
+      "curated_rule_id": "hitler-seele-collective-psyche",
+      "sentence_text": "Die Nationalisierung unserer Masse wird nur gelingen, wenn bei allem positiven Kampf um die Seele unseres Volkes ihre internationalen Vergifter ausgerottet werden."
+    },
+    {
+      "mipvu_id": "hitler-mein-kampf-vol1-ch12-nsdap_s01_p54_s04_lu002",
+      "document_id": "hitler-mein-kampf-vol1-ch12-nsdap",
+      "sentence_id": "hitler-mein-kampf-vol1-ch12-nsdap_s01_p54_s04",
+      "span_text": "Blute",
+      "gloss_en": "blood (racial lineage)",
+      "decision_type": "mipvu_indirect",
+      "curated_rule_id": "hitler-blut-racial-essence",
+      "sentence_text": "Im Blute allein liegt sowohl die Kraft als auch die Schwache des Menschen begriindet."
+    },
+    {
+      "mipvu_id": "hitler-mein-kampf-vol1-ch12-nsdap_s01_p147_s04_lu017",
+      "document_id": "hitler-mein-kampf-vol1-ch12-nsdap",
+      "sentence_id": "hitler-mein-kampf-vol1-ch12-nsdap_s01_p147_s04",
+      "span_text": "Sieg",
+      "gloss_en": "victory",
+      "decision_type": "mipvu_indirect",
+      "curated_rule_id": "hitler-sieg-evolutionary-struggle",
+      "sentence_text": "Dem Naturgesetz aller Entwicklung aber entspricht nicht das Verkuppeln zweier eben nicht gleicher Gebilde, sondern der Sieg des starkeren und die durch den dadurch bedingten Kampf allein ermodglichte Hoherztchtung der Kraft und Starke des Siegers."
+    },
+    {
+      "mipvu_id": "hitler-mein-kampf-vol1-ch12-nsdap_s01_p232_s01_lu011",
+      "document_id": "hitler-mein-kampf-vol1-ch12-nsdap",
+      "sentence_id": "hitler-mein-kampf-vol1-ch12-nsdap_s01_p232_s01",
+      "span_text": "Heldentum",
+      "gloss_en": "hero / heroism",
+      "decision_type": "mipvu_indirect",
+      "curated_rule_id": "hitler-held-heroic-sacrifice",
+      "sentence_text": "Es ist das Charakteristische dieser Naturen, da sie von altgermanischem Heldentum, von grauer Vorzeit, Stein- axten, Ger und Schild schwarmen, in Wirklichkeit aber die groBten Feiglinge sind, die man sich vorstellen kann."
+    },
+    {
+      "mipvu_id": "hitler-mein-kampf-vol1-ch12-nsdap_s01_p247_s03_lu014",
+      "document_id": "hitler-mein-kampf-vol1-ch12-nsdap",
+      "sentence_id": "hitler-mein-kampf-vol1-ch12-nsdap_s01_p247_s03",
+      "span_text": "Geist",
+      "gloss_en": "spirit / mind / intellect",
+      "decision_type": "mipvu_indirect",
+      "curated_rule_id": "hitler-geist-civilizational",
+      "sentence_text": "Sie warfen uns nicht nur die rohe Anbetung des Gummiknippels, sondern den mangelnden Geist an sich auf das eindringlichste vor."
+    },
+    {
+      "mipvu_id": "hitler-mein-kampf-vol2-ch1-weltanschauung_s01_p23_s01_lu030",
+      "document_id": "hitler-mein-kampf-vol2-ch1-weltanschauung",
+      "sentence_id": "hitler-mein-kampf-vol2-ch1-weltanschauung_s01_p23_s01",
+      "span_text": "Ausrottung",
+      "gloss_en": "eradication / extermination",
+      "decision_type": "mipvu_indirect",
+      "curated_rule_id": "hitler-ausrottung-rooting-out",
+      "sentence_text": "Der Marxismus wird so lange mit der Demokratie mar- schieren, bis es ihm gelingt, auf indirektem Wege fur seine verbrecherischen Ziele sogar noch die Untersttitzung der von ihm zur Ausrottung bestimmten nationalen geistigen Welt zu erhalten."
+    },
+    {
+      "mipvu_id": "hitler-mein-kampf-vol2-ch1-weltanschauung_s01_p57_s05_lu065",
+      "document_id": "hitler-mein-kampf-vol2-ch1-weltanschauung",
+      "sentence_id": "hitler-mein-kampf-vol2-ch1-weltanschauung_s01_p57_s05",
+      "span_text": "Vernichtung",
+      "gloss_en": "annihilation / destruction",
+      "decision_type": "mipvu_indirect",
+      "curated_rule_id": "hitler-vernichtung-elimination",
+      "sentence_text": "Ohne den Untergrund einer derartigen, allgemein bereits vorhandenen Vergiftung ware der staunenswerte politische Erfolg dieser Lehre auch niemals mdéglich gewe- sen. Karl Marx war wirklich nur der eine unter den Millionen, der in dem Sumpfe einer langsam verkommen- den Welt mit dem sicheren Blick des Propheten die wesent- lichsten Giftstoffe erkannte, sie herausgriff, um sie, einem Schwarzkunstler gleich, in eine konzentrierte Losung zur schnelleren Vernichtung des unabhangigen Daseins freier Nationen auf dieser Erde zu bringen."
+    },
+    {
+      "mipvu_id": "hitler-mein-kampf-vol2-ch1-weltanschauung_s01_p63_s01_lu010",
+      "document_id": "hitler-mein-kampf-vol2-ch1-weltanschauung",
+      "sentence_id": "hitler-mein-kampf-vol2-ch1-weltanschauung_s01_p63_s01",
+      "span_text": "Vernichtung",
+      "gloss_en": "annihilation / destruction",
+      "decision_type": "mipvu_indirect",
+      "curated_rule_id": "hitler-vernichtung-elimination",
+      "sentence_text": "Das Untergraben des Bestandes der menschlichen Kultur durch die Vernichtung ihres Tragers aber erscheint in den Augen einer volkischen Weltanschauung als das fluchwur- digste Verbrechen."
+    },
+    {
+      "mipvu_id": "hitler-mein-kampf-vol2-ch2-the-state_s01_p16_s01_lu015",
+      "document_id": "hitler-mein-kampf-vol2-ch2-the-state",
+      "sentence_id": "hitler-mein-kampf-vol2-ch2-the-state_s01_p16_s01",
+      "span_text": "Blute",
+      "gloss_en": "blood (racial lineage)",
+      "decision_type": "mipvu_indirect",
+      "curated_rule_id": "hitler-blut-racial-essence",
+      "sentence_text": "Da das Volkstum, besser die Rasse, eben nicht in der Sprache liegt, sondern im Blute, wurde man von einer Germanisation erst dann sprechen durfen, wenn es gelange, durch einen solchen ProzeB das Blut der Unterlegenen um- zuwandeln."
+    },
+    {
+      "mipvu_id": "hitler-mein-kampf-vol2-ch2-the-state_s01_p16_s01_lu033",
+      "document_id": "hitler-mein-kampf-vol2-ch2-the-state",
+      "sentence_id": "hitler-mein-kampf-vol2-ch2-the-state_s01_p16_s01",
+      "span_text": "Blut",
+      "gloss_en": "blood (racial lineage)",
+      "decision_type": "mipvu_indirect",
+      "curated_rule_id": "hitler-blut-racial-essence",
+      "sentence_text": "Da das Volkstum, besser die Rasse, eben nicht in der Sprache liegt, sondern im Blute, wurde man von einer Germanisation erst dann sprechen durfen, wenn es gelange, durch einen solchen ProzeB das Blut der Unterlegenen um- zuwandeln."
+    },
+    {
+      "mipvu_id": "hitler-mein-kampf-vol2-ch2-the-state_s01_p18_s02_lu009",
+      "document_id": "hitler-mein-kampf-vol2-ch2-the-state",
+      "sentence_id": "hitler-mein-kampf-vol2-ch2-the-state_s01_p18_s02",
+      "span_text": "Vernichtung",
+      "gloss_en": "annihilation / destruction",
+      "decision_type": "mipvu_indirect",
+      "curated_rule_id": "hitler-vernichtung-elimination",
+      "sentence_text": "Das Endergebnis eines solchen Vorganges ware also die Vernichtung gerade der Eigenschaften, welche das Eroberervolk einst zum Siege befahigt hatten."
+    },
+    {
+      "mipvu_id": "hitler-mein-kampf-vol2-ch2-the-state_s01_p32_s05_lu018",
+      "document_id": "hitler-mein-kampf-vol2-ch2-the-state",
+      "sentence_id": "hitler-mein-kampf-vol2-ch2-the-state_s01_p32_s05",
+      "span_text": "Vernichtung",
+      "gloss_en": "annihilation / destruction",
+      "decision_type": "mipvu_indirect",
+      "curated_rule_id": "hitler-vernichtung-elimination",
+      "sentence_text": "Man kann noch weitergehen und sagen, daB die Tatsache menschlicher Staatenbildung nicht im geringsten die Moglichkeit der Vernichtung des mensch- lichen Geschlechtes ausschlieBen witrde, sofern tberlegene geistige Fahigkeit und Elastizitat, infolge des Fehlens des rassischen Tragers derselben, verlorengingen."
+    },
+    {
+      "mipvu_id": "hitler-mein-kampf-vol2-ch2-the-state_s01_p34_s04_lu003",
+      "document_id": "hitler-mein-kampf-vol2-ch2-the-state",
+      "sentence_id": "hitler-mein-kampf-vol2-ch2-the-state_s01_p34_s04",
+      "span_text": "Vernichtung",
+      "gloss_en": "annihilation / destruction",
+      "decision_type": "mipvu_indirect",
+      "curated_rule_id": "hitler-vernichtung-elimination",
+      "sentence_text": "Nur die Vernichtung der letzten kulturfahigen Rasse und ihrer einzelnen Trager wurde die Erde endgiltig verdden."
+    },
+    {
+      "mipvu_id": "hitler-mein-kampf-vol2-ch2-the-state_s01_p56_s05_lu045",
+      "document_id": "hitler-mein-kampf-vol2-ch2-the-state",
+      "sentence_id": "hitler-mein-kampf-vol2-ch2-the-state_s01_p56_s05",
+      "span_text": "Vernichtung",
+      "gloss_en": "annihilation / destruction",
+      "decision_type": "mipvu_indirect",
+      "curated_rule_id": "hitler-vernichtung-elimination",
+      "sentence_text": "Wenngleich der beste Staat und die beste Staatsform nicht in der Lage sind, aus einem Volke Fahig- keiten herauszuholen, die einfach fehlen und nie vorhan- den waren, so ist ein schlechter Staat sicherlich in der Lage, durch eine von ihm zugelassene oder gar geforderte Vernichtung des rassischen Kulturtragers urspringlich vor- handene Fahigkeiten in der Folgezeit zum Absterben zu bringen."
+    },
+    {
+      "mipvu_id": "hitler-mein-kampf-vol2-ch2-the-state_s01_p271_s03_lu017",
+      "document_id": "hitler-mein-kampf-vol2-ch2-the-state",
+      "sentence_id": "hitler-mein-kampf-vol2-ch2-the-state_s01_p271_s03",
+      "span_text": "Helden",
+      "gloss_en": "hero / heroism",
+      "decision_type": "mipvu_indirect",
+      "curated_rule_id": "hitler-held-heroic-sacrifice",
+      "sentence_text": "Hatten wir an Stelle eines Bethmann Hollweg einen robu- steren Volksmann als Ftithrer besessen, wtirde das Helden- blut des gemeinen Grenadiers nicht umsonst geflossen sein."
+    },
+    {
+      "mipvu_id": "hitler-mein-kampf-vol2-ch2-the-state_s01_p271_s03_lu018",
+      "document_id": "hitler-mein-kampf-vol2-ch2-the-state",
+      "sentence_id": "hitler-mein-kampf-vol2-ch2-the-state_s01_p271_s03",
+      "span_text": "blut",
+      "gloss_en": "blood (sacrificial cost)",
+      "decision_type": "mipvu_indirect",
+      "curated_rule_id": "hitler-blut-military-sacrifice",
+      "sentence_text": "Hatten wir an Stelle eines Bethmann Hollweg einen robu- steren Volksmann als Ftithrer besessen, wtirde das Helden- blut des gemeinen Grenadiers nicht umsonst geflossen sein."
+    },
+    {
+      "mipvu_id": "hitler-mein-kampf-vol2-ch2-the-state_s01_p301_s03_lu034",
+      "document_id": "hitler-mein-kampf-vol2-ch2-the-state",
+      "sentence_id": "hitler-mein-kampf-vol2-ch2-the-state_s01_p301_s03",
+      "span_text": "Ehre",
+      "gloss_en": "honor / dignity",
+      "decision_type": "mipvu_indirect",
+      "curated_rule_id": "hitler-ehre-national-honor",
+      "sentence_text": "Denn, was die Men- schen damals sterben lieB, war nicht die Sorge um das tag- liche Brot, sondern die Liebe zum Vaterland, der Glaube an die Grobe desselben, das allgemeine Geftihl fiir die Ehre der Nation."
+    },
+    {
+      "mipvu_id": "hitler-mein-kampf-vol2-ch14-eastern-europe_s01_p14_s02_lu027",
+      "document_id": "hitler-mein-kampf-vol2-ch14-eastern-europe",
+      "sentence_id": "hitler-mein-kampf-vol2-ch14-eastern-europe_s01_p14_s02",
+      "span_text": "Vernichtung",
+      "gloss_en": "annihilation / destruction",
+      "decision_type": "mipvu_indirect",
+      "curated_rule_id": "hitler-vernichtung-elimination",
+      "sentence_text": "Jeder andere Zustand, mag er auch Jahrhunderte, ja selbst Jahrtausende andauern, ist nichtsdestoweniger ein ungesunder und wird friuher oder spater zu einer Schadigung, wenn nicht zur Vernichtung des betreffenden Volkes fthren."
+    },
+    {
+      "mipvu_id": "hitler-mein-kampf-vol2-ch14-eastern-europe_s01_p34_s02_lu040",
+      "document_id": "hitler-mein-kampf-vol2-ch14-eastern-europe",
+      "sentence_id": "hitler-mein-kampf-vol2-ch14-eastern-europe_s01_p34_s02",
+      "span_text": "Boden",
+      "gloss_en": "soil / living-space",
+      "decision_type": "mipvu_indirect",
+      "curated_rule_id": "hitler-boden-lebensraum",
+      "sentence_text": "Sie muh dann, ohne Rtcksicht auf ,Tra- ditionen“ und Vorurteile, den Mut finden, unser Volk und seine Kraft zu sammeln zum Vormarsch auf jener Strakhe, die aus der heutigen Beengtheit des Lebensraumes dieses Volk hinausftthrt zu neuem Grund und Boden und damit auch fiir immer von der Gefahr befreit, auf dieser Erde zu vergehen oder als Sklavenvolk die Dienste anderer besorgen zu miulssen."
+    },
+    {
+      "mipvu_id": "hitler-mein-kampf-vol2-ch14-eastern-europe_s01_p77_s02_lu023",
+      "document_id": "hitler-mein-kampf-vol2-ch14-eastern-europe",
+      "sentence_id": "hitler-mein-kampf-vol2-ch14-eastern-europe_s01_p77_s02",
+      "span_text": "Ehre",
+      "gloss_en": "honor / dignity",
+      "decision_type": "mipvu_indirect",
+      "curated_rule_id": "hitler-ehre-national-honor",
+      "sentence_text": "Im Gegenteil, im Rausche eines solchen seichten Er- folges wurde man auf jede weitere Zielsetzung um so lieber verzichten, als die ,nationale Ehre“ ja repariert und der kommerziellen Entwicklung, wenigstens bis auf weiteres, wieder einige Tore gedffnet waren."
+    },
+    {
+      "mipvu_id": "hitler-mein-kampf-vol2-ch14-eastern-europe_s01_p84_s04_lu022",
+      "document_id": "hitler-mein-kampf-vol2-ch14-eastern-europe",
+      "sentence_id": "hitler-mein-kampf-vol2-ch14-eastern-europe_s01_p84_s04",
+      "span_text": "Schicksals",
+      "gloss_en": "fate / destiny",
+      "decision_type": "uncertain",
+      "curated_rule_id": "hitler-schicksal-conventional",
+      "sentence_text": "Wenn das deutsche Volk heute, auf unmoglicher Grundflache zusam- mengepfercht, einer jammerlichen Zukunft entgegengeht, so ist dies ebensowenig ein Gebot des Schicksals, wie ein Auflehnen dagegen eine Bruskierung desselben darstellt."
+    },
+    {
+      "mipvu_id": "hitler-mein-kampf-vol2-ch14-eastern-europe_s01_p86_s02_lu030",
+      "document_id": "hitler-mein-kampf-vol2-ch14-eastern-europe",
+      "sentence_id": "hitler-mein-kampf-vol2-ch14-eastern-europe_s01_p86_s02",
+      "span_text": "Boden",
+      "gloss_en": "soil / living-space",
+      "decision_type": "mipvu_indirect",
+      "curated_rule_id": "hitler-boden-lebensraum",
+      "sentence_text": "So wie unsere Vorfahren den Bo- den, auf dem wir heute leben, nicht vom Himmel geschenkt erhielten, sondern durch Lebenseinsatz erkampfen muften, so wird auch uns in Zukunft den Boden und damit das Le- ben fur unser Volk keine gottliche Gnade zuweisen, son- dern nur die Gewalt eines siegreichen Schwertes."
+    },
+    {
+      "mipvu_id": "hitler-mein-kampf-vol2-ch14-eastern-europe_s01_p127_s04_lu013",
+      "document_id": "hitler-mein-kampf-vol2-ch14-eastern-europe",
+      "sentence_id": "hitler-mein-kampf-vol2-ch14-eastern-europe_s01_p127_s04",
+      "span_text": "Vernichtung",
+      "gloss_en": "annihilation / destruction",
+      "decision_type": "mipvu_indirect",
+      "curated_rule_id": "hitler-vernichtung-elimination",
+      "sentence_text": "Man schlieBt aber keinen Vertrag mit einem Partner, dessen einziges Interesse die Vernichtung des anderen ist."
+    },
+    {
+      "mipvu_id": "hitler-mein-kampf-vol2-ch14-eastern-europe_s01_p127_s05_lu021",
+      "document_id": "hitler-mein-kampf-vol2-ch14-eastern-europe",
+      "sentence_id": "hitler-mein-kampf-vol2-ch14-eastern-europe_s01_p127_s05",
+      "span_text": "Ehre",
+      "gloss_en": "honor / dignity",
+      "decision_type": "mipvu_indirect",
+      "curated_rule_id": "hitler-ehre-national-honor",
+      "sentence_text": "Man schlieBt thn vor allem nicht mit Subjekten, denen kein Vertrag heilig sein witrde, da sie nicht als Vertreter von Ehre und Wahrhaftigkeit auf dieser Welt leben, sondern als Reprasentanten der Luge, des Be- truges, des Diebstahls, der Pliinderung, des Raubes."
+    },
+    {
+      "mipvu_id": "hitler-mein-kampf-vol2-ch14-eastern-europe_s01_p163_s01_lu014",
+      "document_id": "hitler-mein-kampf-vol2-ch14-eastern-europe",
+      "sentence_id": "hitler-mein-kampf-vol2-ch14-eastern-europe_s01_p163_s01",
+      "span_text": "Vernichtung",
+      "gloss_en": "annihilation / destruction",
+      "decision_type": "mipvu_indirect",
+      "curated_rule_id": "hitler-vernichtung-elimination",
+      "sentence_text": "Opfer auf uns zu nehmen, das in seinen Folgen geeignet ist, zu einer Vernichtung der franzodsischen Hegemoniebestrebung in Europa beizutragen."
+    },
+    {
+      "mipvu_id": "hitler-reichstag-1939-01-30_s01_p12_s02_lu076",
+      "document_id": "hitler-reichstag-1939-01-30",
+      "sentence_id": "hitler-reichstag-1939-01-30_s01_p12_s02",
+      "span_text": "Vernichtung",
+      "gloss_en": "annihilation / destruction",
+      "decision_type": "mipvu_indirect",
+      "curated_rule_id": "hitler-vernichtung-elimination",
+      "sentence_text": "Wenn nun aus diesen Anlässen in den letzten Wochen eine neue Unruhe über Europa hereingebrochen ist, dann ist verantwortlich dafür ausschließlich jene uns bekannte im Dienst internationaler Kriegshetzer stehende Propaganda, die, von zahlreichen Organen in den demokratischen Staaten betrieben, versucht, durch eine fortgesetzte Steigerung der Nervosität, durch das Fabrizieren andauernder Gerüchte Europa reif für eine Katastrophe zu machen, jene Katastrophe, von der man dann erhofft, was auf anderem Weg bisher nicht gelungen ist: die bolschewistische Vernichtung der europäischen Kultur!"
+    },
+    {
+      "mipvu_id": "hitler-reichstag-1939-01-30_s01_p27_s01_lu048",
+      "document_id": "hitler-reichstag-1939-01-30",
+      "sentence_id": "hitler-reichstag-1939-01-30_s01_p27_s01",
+      "span_text": "Vernichtung",
+      "gloss_en": "annihilation / destruction",
+      "decision_type": "mipvu_indirect",
+      "curated_rule_id": "hitler-vernichtung-elimination",
+      "sentence_text": "Ich will heute wieder ein Prophet sein:1 Wenn es dem internationalen Finanzjudentum inner- und (8 außerhalb Europas gelingen sollte, die Völker noch einmal in einen Weltkrieg zu stürzen, dann wird das Ergebnis nicht die Bolschewisierung der Erde und damit der Sieg des Judentums sein, sondern die Vernichtung der jüdischen Rasse in Europa! (Anhaltender stürmischer Beifall.) Denn die Zeit der propagandistischen Wehrlosigkeit der nichtjüdischen Völker ist zu Ende!"
+    },
+    {
+      "mipvu_id": "hitler-ussr-proclamation-1941-06-22_s01_p08_s03_lu027",
+      "document_id": "hitler-ussr-proclamation-1941-06-22",
+      "sentence_id": "hitler-ussr-proclamation-1941-06-22_s01_p08_s03",
+      "span_text": "Vernichtung",
+      "gloss_en": "annihilation / destruction",
+      "decision_type": "mipvu_indirect",
+      "curated_rule_id": "hitler-vernichtung-elimination",
+      "sentence_text": "Nachdem man erst heuchlerisch erklärte, allein gegen den Kaiser und sein Regime gekämpft zu haben, begann man nach der Waffenniederlegung des deutschen Heeres mit der planmäßigen Vernichtung des Deutschen Reiches."
+    },
+    {
+      "mipvu_id": "hitler-ussr-proclamation-1941-06-22_s01_p12_s01_lu012",
+      "document_id": "hitler-ussr-proclamation-1941-06-22",
+      "sentence_id": "hitler-ussr-proclamation-1941-06-22_s01_p12_s01",
+      "span_text": "Vernichtung",
+      "gloss_en": "annihilation / destruction",
+      "decision_type": "mipvu_indirect",
+      "curated_rule_id": "hitler-vernichtung-elimination",
+      "sentence_text": "Im Sommer 1939 schien England der Zeitpunkt gekommen, die erneut beabsichtigte Vernichtung mit der Wiederholung einer umfassenden Einkreisungspolitik gegen Deutschland beginnen zu können."
+    },
+    {
+      "mipvu_id": "hitler-ussr-proclamation-1941-06-22_s01_p24_s01_lu043",
+      "document_id": "hitler-ussr-proclamation-1941-06-22",
+      "sentence_id": "hitler-ussr-proclamation-1941-06-22_s01_p24_s01",
+      "span_text": "Ausrottung",
+      "gloss_en": "eradication / extermination",
+      "decision_type": "mipvu_indirect",
+      "curated_rule_id": "hitler-ausrottung-rooting-out",
+      "sentence_text": "Weit mehr als eine halbe Million deutscher Volksgenossen – alles Kleinbauern, Handwerker und Arbeiter – wurden fast über Nacht gezwungen, ihre frühere Heimat zu verlassen, um einem neuen Regime zu entgehen, das ihnen zunächst mit grenzenlosem Elend, früher oder später aber mit der völligen Ausrottung drohte."
+    }
+  ],
+  "limitations": [
+    "Codex-assisted decisions are a first-pass review gate, not independent human double-coding.",
+    "German source-language span_text is authoritative; English glosses are only analytical aids.",
+    "Mein Kampf source text is gitignored under fair-use/educational exclusion; only annotation metadata is committed.",
+    "Politically loaded terms (Opfer, Blut, Volk, Rasse, Vernichtung, Ausrottung) carry Nazi ideological entailments that require separate historiographical review before CMT and Koenigsbergian annotations are finalized.",
+    "Ordinary discourse-function words and proper names are marked non-metaphor without full rationale fields.",
+    "Downstream CMT and Koenigsbergian annotations should only use metaphor-related or uncertain units after separate interpretive review."
+  ]
+}

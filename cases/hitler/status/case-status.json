@@ -1,7 +1,60 @@
 {
   "case_id": "hitler",
-  "status": "local-mipvu-worklist-ready",
-  "current_stage": "mipvu-review-pending",
-  "updated": "2026-06-15",
-  "notes": "Manifest documents are acquired, normalized, segmented, verified, and carry actual document-level source_url values. Local MIPVU lexical-unit worklists have been generated for all 8 documents, but remain gitignored because they tokenize local fair-use German source text. Lexical decisions and annotated files are pending."
+  "status": "mipvu-review-complete-codex-assisted",
+  "current_stage": "mipvu-review-complete",
+  "updated": "2026-06-16",
+  "notes": "Hitler German worklists exist for all 8 documents and 86,752 lexical units have first-pass Codex-assisted source-language decisions. Each unit records source-language span_text; English glosses are retained only as aids for translation-sensitive and politically loaded terms including Opfer, Blut, Volk, Rasse, Vernichtung, and Ausrottung. Results remain provisional until independent human review. Mein Kampf source text is gitignored under fair-use constraints.",
+  "mipvu_review_summary": {
+    "review_batch": "hitler-source-language-mipvu-review-v1",
+    "annotator": "codex-assisted-mipvu-v1",
+    "source_language": "de",
+    "decision_basis": "source-language span_text",
+    "total_lexical_units": 86752,
+    "by_decision_type": {
+      "mipvu_indirect": 63,
+      "mipvu_personification": 3,
+      "non_metaphor": 86682,
+      "uncertain": 4
+    },
+    "by_document": {
+      "hitler-mein-kampf-vol1-ch11-race-and-people": {
+        "mipvu_indirect": 29,
+        "mipvu_personification": 1,
+        "non_metaphor": 15832
+      },
+      "hitler-mein-kampf-vol1-ch12-nsdap": {
+        "mipvu_indirect": 9,
+        "non_metaphor": 12824
+      },
+      "hitler-mein-kampf-vol1-ch2-wien": {
+        "mipvu_indirect": 1,
+        "mipvu_personification": 2,
+        "non_metaphor": 15682,
+        "uncertain": 3
+      },
+      "hitler-mein-kampf-vol2-ch1-weltanschauung": {
+        "mipvu_indirect": 3,
+        "non_metaphor": 4303
+      },
+      "hitler-mein-kampf-vol2-ch14-eastern-europe": {
+        "mipvu_indirect": 7,
+        "non_metaphor": 9325,
+        "uncertain": 1
+      },
+      "hitler-mein-kampf-vol2-ch2-the-state": {
+        "mipvu_indirect": 9,
+        "non_metaphor": 17998
+      },
+      "hitler-reichstag-1939-01-30": {
+        "mipvu_indirect": 2,
+        "non_metaphor": 7703
+      },
+      "hitler-ussr-proclamation-1941-06-22": {
+        "mipvu_indirect": 3,
+        "non_metaphor": 3015
+      }
+    },
+    "pending_units": 0,
+    "quality_summary_path": "quality/mipvu-review-summary.json"
+  }
 }
