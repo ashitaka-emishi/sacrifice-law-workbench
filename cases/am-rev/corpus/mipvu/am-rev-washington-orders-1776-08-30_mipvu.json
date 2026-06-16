@@ -4,14 +4,17 @@
   "document_id": "am-rev-washington-orders-1776-08-30",
   "source_language": "en",
   "generated_at": "2026-06-15T14:56:18",
-  "status": "worklist",
+  "status": "reviewed",
   "meta": {
     "title": "General Orders, 30 August 1776",
     "short_title": "Orders: After Long Island",
     "register": "military-general-orders",
     "date": "1776-08-30",
     "source_url": "https://founders.archives.gov/documents/Washington/03-09-02-0023",
-    "annotation_language_policy": "source-language"
+    "annotation_language_policy": "source-language",
+    "review_completed_at": "2026-06-16T12:09:13",
+    "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+    "annotator": "codex-assisted-mipvu-v1"
   },
   "lexical_units": [
     {
@@ -28,7 +31,12 @@
       "char_offset_end": 4,
       "sentence_char_offset_start": 0,
       "sentence_char_offset_end": 4,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p01_s01_lu002",
@@ -44,7 +52,12 @@
       "char_offset_end": 15,
       "sentence_char_offset_start": 5,
       "sentence_char_offset_end": 15,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p01_s02_lu001",
@@ -60,7 +73,12 @@
       "char_offset_end": 19,
       "sentence_char_offset_start": 0,
       "sentence_char_offset_end": 2,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p01_s02_lu002",
@@ -76,7 +94,12 @@
       "char_offset_end": 22,
       "sentence_char_offset_start": 3,
       "sentence_char_offset_end": 5,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p01_s02_lu003",
@@ -92,7 +115,12 @@
       "char_offset_end": 27,
       "sentence_char_offset_start": 6,
       "sentence_char_offset_end": 10,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p01_s02_lu004",
@@ -108,7 +136,12 @@
       "char_offset_end": 35,
       "sentence_char_offset_start": 11,
       "sentence_char_offset_end": 18,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p02_s01_lu001",
@@ -124,7 +157,12 @@
       "char_offset_end": 46,
       "sentence_char_offset_start": 0,
       "sentence_char_offset_end": 8,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p02_s01_lu002",
@@ -140,7 +178,12 @@
       "char_offset_end": 50,
       "sentence_char_offset_start": 9,
       "sentence_char_offset_end": 12,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p02_s01_lu003",
@@ -156,7 +199,12 @@
       "char_offset_end": 55,
       "sentence_char_offset_start": 13,
       "sentence_char_offset_end": 17,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p03_s01_lu001",
@@ -172,7 +220,12 @@
       "char_offset_end": 62,
       "sentence_char_offset_start": 0,
       "sentence_char_offset_end": 5,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p03_s01_lu002",
@@ -188,7 +241,12 @@
       "char_offset_end": 71,
       "sentence_char_offset_start": 6,
       "sentence_char_offset_end": 14,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p03_s01_lu003",
@@ -204,7 +262,12 @@
       "char_offset_end": 78,
       "sentence_char_offset_start": 15,
       "sentence_char_offset_end": 21,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p04_s01_lu001",
@@ -220,7 +283,12 @@
       "char_offset_end": 87,
       "sentence_char_offset_start": 0,
       "sentence_char_offset_end": 7,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p04_s01_lu002",
@@ -236,7 +304,12 @@
       "char_offset_end": 90,
       "sentence_char_offset_start": 8,
       "sentence_char_offset_end": 10,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p05_s01_lu001",
@@ -252,7 +325,12 @@
       "char_offset_end": 100,
       "sentence_char_offset_start": 0,
       "sentence_char_offset_end": 8,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p05_s01_lu002",
@@ -268,7 +346,12 @@
       "char_offset_end": 107,
       "sentence_char_offset_start": 9,
       "sentence_char_offset_end": 15,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p06_s01_lu001",
@@ -284,7 +367,12 @@
       "char_offset_end": 114,
       "sentence_char_offset_start": 1,
       "sentence_char_offset_end": 5,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p06_s01_lu002",
@@ -300,7 +388,12 @@
       "char_offset_end": 117,
       "sentence_char_offset_start": 6,
       "sentence_char_offset_end": 8,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p06_s01_lu003",
@@ -316,7 +409,12 @@
       "char_offset_end": 124,
       "sentence_char_offset_start": 9,
       "sentence_char_offset_end": 15,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p06_s01_lu004",
@@ -332,7 +430,12 @@
       "char_offset_end": 129,
       "sentence_char_offset_start": 16,
       "sentence_char_offset_end": 20,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p07_s01_lu001",
@@ -348,7 +451,12 @@
       "char_offset_end": 138,
       "sentence_char_offset_start": 0,
       "sentence_char_offset_end": 6,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p07_s01_lu002",
@@ -364,7 +472,12 @@
       "char_offset_end": 149,
       "sentence_char_offset_start": 7,
       "sentence_char_offset_end": 17,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p07_s01_lu003",
@@ -380,7 +493,12 @@
       "char_offset_end": 156,
       "sentence_char_offset_start": 18,
       "sentence_char_offset_end": 24,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p08_s01_lu001",
@@ -396,7 +514,12 @@
       "char_offset_end": 167,
       "sentence_char_offset_start": 0,
       "sentence_char_offset_end": 9,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p08_s01_lu002",
@@ -412,7 +535,12 @@
       "char_offset_end": 172,
       "sentence_char_offset_start": 10,
       "sentence_char_offset_end": 14,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p08_s01_lu003",
@@ -428,7 +556,12 @@
       "char_offset_end": 177,
       "sentence_char_offset_start": 15,
       "sentence_char_offset_end": 19,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p09_s01_lu001",
@@ -444,7 +577,12 @@
       "char_offset_end": 184,
       "sentence_char_offset_start": 0,
       "sentence_char_offset_end": 5,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p09_s01_lu002",
@@ -460,7 +598,12 @@
       "char_offset_end": 188,
       "sentence_char_offset_start": 6,
       "sentence_char_offset_end": 9,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p09_s01_lu003",
@@ -476,7 +619,12 @@
       "char_offset_end": 195,
       "sentence_char_offset_start": 10,
       "sentence_char_offset_end": 16,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p10_s01_lu001",
@@ -492,7 +640,12 @@
       "char_offset_end": 201,
       "sentence_char_offset_start": 0,
       "sentence_char_offset_end": 4,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p10_s01_lu002",
@@ -508,7 +661,12 @@
       "char_offset_end": 210,
       "sentence_char_offset_start": 5,
       "sentence_char_offset_end": 13,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p10_s01_lu003",
@@ -524,7 +682,12 @@
       "char_offset_end": 219,
       "sentence_char_offset_start": 14,
       "sentence_char_offset_end": 22,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p11_s01_lu001",
@@ -540,7 +703,12 @@
       "char_offset_end": 226,
       "sentence_char_offset_start": 0,
       "sentence_char_offset_end": 5,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p11_s01_lu002",
@@ -556,7 +724,12 @@
       "char_offset_end": 231,
       "sentence_char_offset_start": 6,
       "sentence_char_offset_end": 10,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p12_s01_lu001",
@@ -572,7 +745,12 @@
       "char_offset_end": 236,
       "sentence_char_offset_start": 0,
       "sentence_char_offset_end": 3,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p12_s01_lu002",
@@ -588,7 +766,12 @@
       "char_offset_end": 241,
       "sentence_char_offset_start": 4,
       "sentence_char_offset_end": 8,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p12_s01_lu003",
@@ -604,7 +787,12 @@
       "char_offset_end": 246,
       "sentence_char_offset_start": 9,
       "sentence_char_offset_end": 13,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p13_s01_lu001",
@@ -620,7 +808,12 @@
       "char_offset_end": 254,
       "sentence_char_offset_start": 0,
       "sentence_char_offset_end": 6,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p13_s01_lu002",
@@ -636,7 +829,12 @@
       "char_offset_end": 259,
       "sentence_char_offset_start": 7,
       "sentence_char_offset_end": 11,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p13_s01_lu003",
@@ -652,7 +850,12 @@
       "char_offset_end": 264,
       "sentence_char_offset_start": 12,
       "sentence_char_offset_end": 16,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p14_s01_lu001",
@@ -668,7 +871,12 @@
       "char_offset_end": 271,
       "sentence_char_offset_start": 0,
       "sentence_char_offset_end": 5,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p15_s01_lu001",
@@ -684,7 +892,12 @@
       "char_offset_end": 278,
       "sentence_char_offset_start": 0,
       "sentence_char_offset_end": 5,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p15_s01_lu002",
@@ -700,7 +913,12 @@
       "char_offset_end": 283,
       "sentence_char_offset_start": 6,
       "sentence_char_offset_end": 10,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p16_s01_lu001",
@@ -716,7 +934,12 @@
       "char_offset_end": 290,
       "sentence_char_offset_start": 0,
       "sentence_char_offset_end": 5,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p16_s01_lu002",
@@ -732,7 +955,12 @@
       "char_offset_end": 295,
       "sentence_char_offset_start": 6,
       "sentence_char_offset_end": 10,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p16_s01_lu003",
@@ -748,7 +976,12 @@
       "char_offset_end": 298,
       "sentence_char_offset_start": 11,
       "sentence_char_offset_end": 13,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p16_s01_lu004",
@@ -764,7 +997,12 @@
       "char_offset_end": 307,
       "sentence_char_offset_start": 14,
       "sentence_char_offset_end": 22,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p17_s01_lu001",
@@ -780,7 +1018,12 @@
       "char_offset_end": 314,
       "sentence_char_offset_start": 0,
       "sentence_char_offset_end": 5,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p18_s01_lu001",
@@ -796,7 +1039,12 @@
       "char_offset_end": 323,
       "sentence_char_offset_start": 0,
       "sentence_char_offset_end": 7,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p18_s01_lu002",
@@ -812,7 +1060,12 @@
       "char_offset_end": 330,
       "sentence_char_offset_start": 8,
       "sentence_char_offset_end": 14,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p18_s01_lu003",
@@ -828,7 +1081,12 @@
       "char_offset_end": 334,
       "sentence_char_offset_start": 16,
       "sentence_char_offset_end": 18,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p18_s01_lu004",
@@ -844,7 +1102,12 @@
       "char_offset_end": 340,
       "sentence_char_offset_start": 19,
       "sentence_char_offset_end": 24,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p18_s01_lu005",
@@ -860,7 +1123,12 @@
       "char_offset_end": 345,
       "sentence_char_offset_start": 25,
       "sentence_char_offset_end": 29,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p19_s01_lu001",
@@ -876,7 +1144,12 @@
       "char_offset_end": 354,
       "sentence_char_offset_start": 0,
       "sentence_char_offset_end": 7,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p19_s01_lu002",
@@ -892,7 +1165,12 @@
       "char_offset_end": 361,
       "sentence_char_offset_start": 8,
       "sentence_char_offset_end": 14,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p20_s01_lu001",
@@ -908,7 +1186,12 @@
       "char_offset_end": 376,
       "sentence_char_offset_start": 0,
       "sentence_char_offset_end": 13,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p20_s01_lu002",
@@ -924,7 +1207,12 @@
       "char_offset_end": 388,
       "sentence_char_offset_start": 15,
       "sentence_char_offset_end": 25,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p20_s01_lu003",
@@ -940,7 +1228,12 @@
       "char_offset_end": 395,
       "sentence_char_offset_start": 27,
       "sentence_char_offset_end": 32,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p20_s01_lu004",
@@ -956,7 +1249,12 @@
       "char_offset_end": 400,
       "sentence_char_offset_start": 33,
       "sentence_char_offset_end": 37,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p20_s01_lu005",
@@ -972,7 +1270,12 @@
       "char_offset_end": 405,
       "sentence_char_offset_start": 38,
       "sentence_char_offset_end": 42,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p20_s01_lu006",
@@ -988,7 +1291,12 @@
       "char_offset_end": 412,
       "sentence_char_offset_start": 43,
       "sentence_char_offset_end": 49,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p20_s01_lu007",
@@ -1004,7 +1312,12 @@
       "char_offset_end": 422,
       "sentence_char_offset_start": 51,
       "sentence_char_offset_end": 59,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p20_s01_lu008",
@@ -1020,7 +1333,12 @@
       "char_offset_end": 434,
       "sentence_char_offset_start": 60,
       "sentence_char_offset_end": 71,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p20_s01_lu009",
@@ -1036,7 +1354,12 @@
       "char_offset_end": 445,
       "sentence_char_offset_start": 73,
       "sentence_char_offset_end": 82,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p21_s01_lu001",
@@ -1052,7 +1375,12 @@
       "char_offset_end": 454,
       "sentence_char_offset_start": 0,
       "sentence_char_offset_end": 6,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p21_s01_lu002",
@@ -1068,7 +1396,12 @@
       "char_offset_end": 465,
       "sentence_char_offset_start": 7,
       "sentence_char_offset_end": 17,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p21_s01_lu003",
@@ -1084,7 +1417,12 @@
       "char_offset_end": 470,
       "sentence_char_offset_start": 19,
       "sentence_char_offset_end": 22,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p21_s01_lu004",
@@ -1100,7 +1438,12 @@
       "char_offset_end": 473,
       "sentence_char_offset_start": 23,
       "sentence_char_offset_end": 25,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p22_s01_lu001",
@@ -1116,7 +1459,12 @@
       "char_offset_end": 481,
       "sentence_char_offset_start": 0,
       "sentence_char_offset_end": 5,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p22_s01_lu002",
@@ -1132,7 +1480,12 @@
       "char_offset_end": 489,
       "sentence_char_offset_start": 6,
       "sentence_char_offset_end": 13,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p23_s01_lu001",
@@ -1148,7 +1501,12 @@
       "char_offset_end": 500,
       "sentence_char_offset_start": 0,
       "sentence_char_offset_end": 9,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p23_s01_lu002",
@@ -1164,7 +1522,12 @@
       "char_offset_end": 505,
       "sentence_char_offset_start": 10,
       "sentence_char_offset_end": 14,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p23_s01_lu003",
@@ -1180,7 +1543,12 @@
       "char_offset_end": 512,
       "sentence_char_offset_start": 15,
       "sentence_char_offset_end": 21,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p23_s01_lu004",
@@ -1196,7 +1564,12 @@
       "char_offset_end": 517,
       "sentence_char_offset_start": 22,
       "sentence_char_offset_end": 26,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p24_s01_lu001",
@@ -1212,7 +1585,12 @@
       "char_offset_end": 525,
       "sentence_char_offset_start": 0,
       "sentence_char_offset_end": 5,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p24_s01_lu002",
@@ -1228,7 +1606,12 @@
       "char_offset_end": 536,
       "sentence_char_offset_start": 8,
       "sentence_char_offset_end": 16,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p24_s01_lu003",
@@ -1244,7 +1627,12 @@
       "char_offset_end": 545,
       "sentence_char_offset_start": 17,
       "sentence_char_offset_end": 25,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p24_s01_lu004",
@@ -1260,7 +1648,12 @@
       "char_offset_end": 549,
       "sentence_char_offset_start": 26,
       "sentence_char_offset_end": 29,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p24_s01_lu005",
@@ -1276,7 +1669,12 @@
       "char_offset_end": 559,
       "sentence_char_offset_start": 30,
       "sentence_char_offset_end": 39,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p24_s01_lu006",
@@ -1292,7 +1690,12 @@
       "char_offset_end": 570,
       "sentence_char_offset_start": 40,
       "sentence_char_offset_end": 50,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p24_s01_lu007",
@@ -1308,7 +1711,12 @@
       "char_offset_end": 584,
       "sentence_char_offset_start": 51,
       "sentence_char_offset_end": 64,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p25_s01_lu001",
@@ -1324,7 +1732,12 @@
       "char_offset_end": 590,
       "sentence_char_offset_start": 0,
       "sentence_char_offset_end": 4,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p25_s01_lu002",
@@ -1340,7 +1753,12 @@
       "char_offset_end": 595,
       "sentence_char_offset_start": 6,
       "sentence_char_offset_end": 9,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p25_s01_lu003",
@@ -1356,7 +1774,12 @@
       "char_offset_end": 607,
       "sentence_char_offset_start": 10,
       "sentence_char_offset_end": 21,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p25_s01_lu004",
@@ -1372,7 +1795,12 @@
       "char_offset_end": 610,
       "sentence_char_offset_start": 22,
       "sentence_char_offset_end": 24,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p25_s01_lu005",
@@ -1388,7 +1816,12 @@
       "char_offset_end": 615,
       "sentence_char_offset_start": 25,
       "sentence_char_offset_end": 29,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p25_s01_lu006",
@@ -1404,7 +1837,12 @@
       "char_offset_end": 624,
       "sentence_char_offset_start": 30,
       "sentence_char_offset_end": 38,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p25_s01_lu007",
@@ -1420,7 +1858,12 @@
       "char_offset_end": 629,
       "sentence_char_offset_start": 40,
       "sentence_char_offset_end": 43,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p25_s01_lu008",
@@ -1436,7 +1879,12 @@
       "char_offset_end": 633,
       "sentence_char_offset_start": 44,
       "sentence_char_offset_end": 47,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p25_s01_lu009",
@@ -1452,7 +1900,12 @@
       "char_offset_end": 639,
       "sentence_char_offset_start": 48,
       "sentence_char_offset_end": 53,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p26_s01_lu001",
@@ -1468,7 +1921,12 @@
       "char_offset_end": 647,
       "sentence_char_offset_start": 0,
       "sentence_char_offset_end": 6,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p26_s01_lu002",
@@ -1484,7 +1942,12 @@
       "char_offset_end": 657,
       "sentence_char_offset_start": 7,
       "sentence_char_offset_end": 16,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p26_s01_lu003",
@@ -1500,7 +1963,12 @@
       "char_offset_end": 665,
       "sentence_char_offset_start": 17,
       "sentence_char_offset_end": 24,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p26_s01_lu004",
@@ -1516,7 +1984,12 @@
       "char_offset_end": 670,
       "sentence_char_offset_start": 26,
       "sentence_char_offset_end": 29,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p26_s01_lu005",
@@ -1532,7 +2005,12 @@
       "char_offset_end": 680,
       "sentence_char_offset_start": 30,
       "sentence_char_offset_end": 39,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p26_s01_lu006",
@@ -1548,7 +2026,12 @@
       "char_offset_end": 686,
       "sentence_char_offset_start": 42,
       "sentence_char_offset_end": 45,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p26_s01_lu007",
@@ -1564,7 +2047,12 @@
       "char_offset_end": 693,
       "sentence_char_offset_start": 46,
       "sentence_char_offset_end": 52,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p26_s01_lu008",
@@ -1580,7 +2068,12 @@
       "char_offset_end": 697,
       "sentence_char_offset_start": 53,
       "sentence_char_offset_end": 56,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p26_s01_lu009",
@@ -1596,7 +2089,12 @@
       "char_offset_end": 706,
       "sentence_char_offset_start": 57,
       "sentence_char_offset_end": 65,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p26_s01_lu010",
@@ -1612,7 +2110,12 @@
       "char_offset_end": 709,
       "sentence_char_offset_start": 66,
       "sentence_char_offset_end": 68,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p26_s01_lu011",
@@ -1628,7 +2131,12 @@
       "char_offset_end": 713,
       "sentence_char_offset_start": 69,
       "sentence_char_offset_end": 72,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p26_s01_lu012",
@@ -1644,7 +2152,12 @@
       "char_offset_end": 724,
       "sentence_char_offset_start": 73,
       "sentence_char_offset_end": 83,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p26_s01_lu013",
@@ -1660,7 +2173,12 @@
       "char_offset_end": 727,
       "sentence_char_offset_start": 84,
       "sentence_char_offset_end": 86,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p26_s01_lu014",
@@ -1676,7 +2194,12 @@
       "char_offset_end": 736,
       "sentence_char_offset_start": 87,
       "sentence_char_offset_end": 95,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p26_s02_lu001",
@@ -1692,7 +2215,12 @@
       "char_offset_end": 741,
       "sentence_char_offset_start": 0,
       "sentence_char_offset_end": 3,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p26_s02_lu002",
@@ -1708,7 +2236,12 @@
       "char_offset_end": 748,
       "sentence_char_offset_start": 4,
       "sentence_char_offset_end": 10,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p26_s02_lu003",
@@ -1724,7 +2257,12 @@
       "char_offset_end": 757,
       "sentence_char_offset_start": 11,
       "sentence_char_offset_end": 19,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p26_s02_lu004",
@@ -1740,7 +2278,12 @@
       "char_offset_end": 762,
       "sentence_char_offset_start": 20,
       "sentence_char_offset_end": 24,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p26_s02_lu005",
@@ -1756,7 +2299,12 @@
       "char_offset_end": 765,
       "sentence_char_offset_start": 25,
       "sentence_char_offset_end": 27,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p26_s02_lu006",
@@ -1772,7 +2320,12 @@
       "char_offset_end": 772,
       "sentence_char_offset_start": 28,
       "sentence_char_offset_end": 34,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p26_s02_lu007",
@@ -1788,7 +2341,12 @@
       "char_offset_end": 776,
       "sentence_char_offset_start": 35,
       "sentence_char_offset_end": 38,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p26_s02_lu008",
@@ -1804,7 +2362,12 @@
       "char_offset_end": 784,
       "sentence_char_offset_start": 39,
       "sentence_char_offset_end": 46,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p26_s02_lu009",
@@ -1820,7 +2383,12 @@
       "char_offset_end": 793,
       "sentence_char_offset_start": 47,
       "sentence_char_offset_end": 55,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p26_s02_lu010",
@@ -1836,7 +2404,12 @@
       "char_offset_end": 811,
       "sentence_char_offset_start": 56,
       "sentence_char_offset_end": 73,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p26_s02_lu011",
@@ -1852,7 +2425,12 @@
       "char_offset_end": 830,
       "sentence_char_offset_start": 74,
       "sentence_char_offset_end": 92,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p26_s02_lu012",
@@ -1868,7 +2446,12 @@
       "char_offset_end": 837,
       "sentence_char_offset_start": 93,
       "sentence_char_offset_end": 99,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p26_s02_lu013",
@@ -1884,7 +2467,12 @@
       "char_offset_end": 841,
       "sentence_char_offset_start": 101,
       "sentence_char_offset_end": 103,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p26_s02_lu014",
@@ -1900,7 +2488,12 @@
       "char_offset_end": 847,
       "sentence_char_offset_start": 104,
       "sentence_char_offset_end": 109,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p26_s02_lu015",
@@ -1916,7 +2509,12 @@
       "char_offset_end": 868,
       "sentence_char_offset_start": 110,
       "sentence_char_offset_end": 130,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p26_s02_lu016",
@@ -1932,7 +2530,12 @@
       "char_offset_end": 882,
       "sentence_char_offset_start": 132,
       "sentence_char_offset_end": 144,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p26_s02_lu017",
@@ -1948,7 +2551,12 @@
       "char_offset_end": 888,
       "sentence_char_offset_start": 145,
       "sentence_char_offset_end": 150,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p26_s02_lu018",
@@ -1964,7 +2572,12 @@
       "char_offset_end": 906,
       "sentence_char_offset_start": 151,
       "sentence_char_offset_end": 168,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p26_s02_lu019",
@@ -1980,7 +2593,12 @@
       "char_offset_end": 909,
       "sentence_char_offset_start": 169,
       "sentence_char_offset_end": 171,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p26_s02_lu020",
@@ -1996,7 +2614,12 @@
       "char_offset_end": 917,
       "sentence_char_offset_start": 172,
       "sentence_char_offset_end": 179,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p26_s02_lu021",
@@ -2012,7 +2635,12 @@
       "char_offset_end": 924,
       "sentence_char_offset_start": 180,
       "sentence_char_offset_end": 186,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p26_s02_lu022",
@@ -2028,7 +2656,12 @@
       "char_offset_end": 928,
       "sentence_char_offset_start": 188,
       "sentence_char_offset_end": 190,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p26_s02_lu023",
@@ -2044,7 +2677,12 @@
       "char_offset_end": 934,
       "sentence_char_offset_start": 191,
       "sentence_char_offset_end": 196,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p26_s02_lu024",
@@ -2060,7 +2698,12 @@
       "char_offset_end": 939,
       "sentence_char_offset_start": 197,
       "sentence_char_offset_end": 201,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p26_s02_lu025",
@@ -2076,7 +2719,12 @@
       "char_offset_end": 950,
       "sentence_char_offset_start": 204,
       "sentence_char_offset_end": 212,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p26_s02_lu026",
@@ -2092,7 +2740,12 @@
       "char_offset_end": 957,
       "sentence_char_offset_start": 213,
       "sentence_char_offset_end": 219,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p26_s02_lu027",
@@ -2108,7 +2761,12 @@
       "char_offset_end": 967,
       "sentence_char_offset_start": 221,
       "sentence_char_offset_end": 229,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p26_s02_lu028",
@@ -2124,7 +2782,12 @@
       "char_offset_end": 976,
       "sentence_char_offset_start": 230,
       "sentence_char_offset_end": 238,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p26_s02_lu029",
@@ -2140,7 +2803,12 @@
       "char_offset_end": 983,
       "sentence_char_offset_start": 240,
       "sentence_char_offset_end": 245,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p26_s02_lu030",
@@ -2156,7 +2824,12 @@
       "char_offset_end": 994,
       "sentence_char_offset_start": 248,
       "sentence_char_offset_end": 256,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p26_s02_lu031",
@@ -2172,7 +2845,12 @@
       "char_offset_end": 1003,
       "sentence_char_offset_start": 257,
       "sentence_char_offset_end": 265,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p26_s02_lu032",
@@ -2188,7 +2866,12 @@
       "char_offset_end": 1007,
       "sentence_char_offset_start": 266,
       "sentence_char_offset_end": 269,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p26_s02_lu033",
@@ -2204,7 +2887,12 @@
       "char_offset_end": 1017,
       "sentence_char_offset_start": 270,
       "sentence_char_offset_end": 279,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p26_s02_lu034",
@@ -2220,7 +2908,12 @@
       "char_offset_end": 1028,
       "sentence_char_offset_start": 280,
       "sentence_char_offset_end": 290,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p26_s02_lu035",
@@ -2236,7 +2929,12 @@
       "char_offset_end": 1042,
       "sentence_char_offset_start": 291,
       "sentence_char_offset_end": 304,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p26_s03_lu001",
@@ -2252,7 +2950,12 @@
       "char_offset_end": 1052,
       "sentence_char_offset_start": 1,
       "sentence_char_offset_end": 9,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p26_s03_lu002",
@@ -2268,7 +2971,12 @@
       "char_offset_end": 1059,
       "sentence_char_offset_start": 10,
       "sentence_char_offset_end": 16,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p26_s03_lu003",
@@ -2284,7 +2992,12 @@
       "char_offset_end": 1064,
       "sentence_char_offset_start": 18,
       "sentence_char_offset_end": 21,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p26_s03_lu004",
@@ -2300,7 +3013,12 @@
       "char_offset_end": 1071,
       "sentence_char_offset_start": 22,
       "sentence_char_offset_end": 28,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p26_s03_lu005",
@@ -2316,7 +3034,12 @@
       "char_offset_end": 1074,
       "sentence_char_offset_start": 29,
       "sentence_char_offset_end": 31,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p26_s03_lu006",
@@ -2332,7 +3055,12 @@
       "char_offset_end": 1081,
       "sentence_char_offset_start": 32,
       "sentence_char_offset_end": 38,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p26_s03_lu007",
@@ -2348,7 +3076,12 @@
       "char_offset_end": 1092,
       "sentence_char_offset_start": 39,
       "sentence_char_offset_end": 49,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p26_s03_lu008",
@@ -2364,7 +3097,12 @@
       "char_offset_end": 1107,
       "sentence_char_offset_start": 51,
       "sentence_char_offset_end": 64,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p26_s03_lu009",
@@ -2380,7 +3118,12 @@
       "char_offset_end": 1111,
       "sentence_char_offset_start": 65,
       "sentence_char_offset_end": 68,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p26_s03_lu010",
@@ -2396,7 +3139,12 @@
       "char_offset_end": 1118,
       "sentence_char_offset_start": 69,
       "sentence_char_offset_end": 75,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p26_s03_lu011",
@@ -2412,7 +3160,12 @@
       "char_offset_end": 1123,
       "sentence_char_offset_start": 77,
       "sentence_char_offset_end": 80,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p26_s03_lu012",
@@ -2428,7 +3181,12 @@
       "char_offset_end": 1126,
       "sentence_char_offset_start": 82,
       "sentence_char_offset_end": 83,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p26_s03_lu013",
@@ -2444,7 +3202,12 @@
       "char_offset_end": 1130,
       "sentence_char_offset_start": 85,
       "sentence_char_offset_end": 87,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p26_s03_lu014",
@@ -2460,7 +3223,12 @@
       "char_offset_end": 1136,
       "sentence_char_offset_start": 88,
       "sentence_char_offset_end": 93,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p26_s03_lu015",
@@ -2476,7 +3244,12 @@
       "char_offset_end": 1141,
       "sentence_char_offset_start": 94,
       "sentence_char_offset_end": 98,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p26_s03_lu016",
@@ -2492,7 +3265,12 @@
       "char_offset_end": 1146,
       "sentence_char_offset_start": 101,
       "sentence_char_offset_end": 103,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p26_s03_lu017",
@@ -2508,7 +3286,12 @@
       "char_offset_end": 1151,
       "sentence_char_offset_start": 104,
       "sentence_char_offset_end": 108,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p26_s03_lu018",
@@ -2524,7 +3307,12 @@
       "char_offset_end": 1156,
       "sentence_char_offset_start": 109,
       "sentence_char_offset_end": 113,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p26_s03_lu019",
@@ -2540,7 +3328,12 @@
       "char_offset_end": 1160,
       "sentence_char_offset_start": 115,
       "sentence_char_offset_end": 117,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p26_s04_lu001",
@@ -2556,7 +3349,12 @@
       "char_offset_end": 1172,
       "sentence_char_offset_start": 0,
       "sentence_char_offset_end": 9,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p26_s04_lu002",
@@ -2572,7 +3370,12 @@
       "char_offset_end": 1174,
       "sentence_char_offset_start": 10,
       "sentence_char_offset_end": 11,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p26_s04_lu003",
@@ -2588,7 +3391,12 @@
       "char_offset_end": 1181,
       "sentence_char_offset_start": 13,
       "sentence_char_offset_end": 18,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p26_s05_lu001",
@@ -2604,7 +3412,12 @@
       "char_offset_end": 1198,
       "sentence_char_offset_start": 0,
       "sentence_char_offset_end": 15,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p26_s05_lu002",
@@ -2620,7 +3433,12 @@
       "char_offset_end": 1210,
       "sentence_char_offset_start": 17,
       "sentence_char_offset_end": 27,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p26_s05_lu003",
@@ -2636,7 +3454,12 @@
       "char_offset_end": 1216,
       "sentence_char_offset_start": 28,
       "sentence_char_offset_end": 33,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p26_s05_lu004",
@@ -2652,7 +3475,12 @@
       "char_offset_end": 1219,
       "sentence_char_offset_start": 34,
       "sentence_char_offset_end": 36,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p26_s05_lu005",
@@ -2668,7 +3496,12 @@
       "char_offset_end": 1228,
       "sentence_char_offset_start": 37,
       "sentence_char_offset_end": 45,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p26_s05_lu006",
@@ -2684,7 +3517,12 @@
       "char_offset_end": 1234,
       "sentence_char_offset_start": 47,
       "sentence_char_offset_end": 51,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p26_s05_lu007",
@@ -2700,7 +3538,12 @@
       "char_offset_end": 1237,
       "sentence_char_offset_start": 53,
       "sentence_char_offset_end": 54,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p26_s06_lu001",
@@ -2716,7 +3559,12 @@
       "char_offset_end": 1241,
       "sentence_char_offset_start": 0,
       "sentence_char_offset_end": 2,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p27_s01_lu001",
@@ -2732,7 +3580,12 @@
       "char_offset_end": 1250,
       "sentence_char_offset_start": 0,
       "sentence_char_offset_end": 5,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p28_s01_lu001",
@@ -2748,7 +3601,12 @@
       "char_offset_end": 1255,
       "sentence_char_offset_start": 0,
       "sentence_char_offset_end": 3,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p28_s01_lu002",
@@ -2764,7 +3622,12 @@
       "char_offset_end": 1264,
       "sentence_char_offset_start": 4,
       "sentence_char_offset_end": 12,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p28_s01_lu003",
@@ -2780,7 +3643,12 @@
       "char_offset_end": 1275,
       "sentence_char_offset_start": 13,
       "sentence_char_offset_end": 23,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p28_s01_lu004",
@@ -2796,7 +3664,12 @@
       "char_offset_end": 1288,
       "sentence_char_offset_start": 24,
       "sentence_char_offset_end": 36,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p28_s01_lu005",
@@ -2812,7 +3685,12 @@
       "char_offset_end": 1292,
       "sentence_char_offset_start": 37,
       "sentence_char_offset_end": 40,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p29_s01_lu001",
@@ -2828,7 +3706,12 @@
       "char_offset_end": 1301,
       "sentence_char_offset_start": 0,
       "sentence_char_offset_end": 7,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p29_s01_lu002",
@@ -2844,7 +3727,12 @@
       "char_offset_end": 1312,
       "sentence_char_offset_start": 8,
       "sentence_char_offset_end": 18,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p29_s01_lu003",
@@ -2860,7 +3748,12 @@
       "char_offset_end": 1319,
       "sentence_char_offset_start": 20,
       "sentence_char_offset_end": 25,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p29_s01_lu004",
@@ -2876,7 +3769,12 @@
       "char_offset_end": 1323,
       "sentence_char_offset_start": 27,
       "sentence_char_offset_end": 29,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p29_s01_lu005",
@@ -2892,7 +3790,12 @@
       "char_offset_end": 1328,
       "sentence_char_offset_start": 30,
       "sentence_char_offset_end": 34,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p29_s01_lu006",
@@ -2908,7 +3811,12 @@
       "char_offset_end": 1331,
       "sentence_char_offset_start": 35,
       "sentence_char_offset_end": 37,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p29_s01_lu007",
@@ -2924,7 +3832,12 @@
       "char_offset_end": 1335,
       "sentence_char_offset_start": 38,
       "sentence_char_offset_end": 41,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p29_s01_lu008",
@@ -2940,7 +3853,12 @@
       "char_offset_end": 1344,
       "sentence_char_offset_start": 42,
       "sentence_char_offset_end": 50,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p30_s01_lu001",
@@ -2956,7 +3874,12 @@
       "char_offset_end": 1354,
       "sentence_char_offset_start": 0,
       "sentence_char_offset_end": 8,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p30_s02_lu001",
@@ -2972,7 +3895,12 @@
       "char_offset_end": 1363,
       "sentence_char_offset_start": 0,
       "sentence_char_offset_end": 7,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p30_s02_lu002",
@@ -2988,7 +3916,12 @@
       "char_offset_end": 1367,
       "sentence_char_offset_start": 8,
       "sentence_char_offset_end": 11,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p30_s02_lu003",
@@ -3004,7 +3937,12 @@
       "char_offset_end": 1374,
       "sentence_char_offset_start": 12,
       "sentence_char_offset_end": 18,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p30_s02_lu004",
@@ -3020,7 +3958,12 @@
       "char_offset_end": 1382,
       "sentence_char_offset_start": 19,
       "sentence_char_offset_end": 26,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p30_s02_lu005",
@@ -3036,7 +3979,12 @@
       "char_offset_end": 1387,
       "sentence_char_offset_start": 28,
       "sentence_char_offset_end": 31,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p30_s02_lu006",
@@ -3052,7 +4000,12 @@
       "char_offset_end": 1393,
       "sentence_char_offset_start": 32,
       "sentence_char_offset_end": 37,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p30_s02_lu007",
@@ -3068,7 +4021,12 @@
       "char_offset_end": 1402,
       "sentence_char_offset_start": 38,
       "sentence_char_offset_end": 46,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p30_s02_lu008",
@@ -3084,7 +4042,12 @@
       "char_offset_end": 1404,
       "sentence_char_offset_start": 47,
       "sentence_char_offset_end": 48,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p30_s02_lu009",
@@ -3100,7 +4063,12 @@
       "char_offset_end": 1409,
       "sentence_char_offset_start": 49,
       "sentence_char_offset_end": 53,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p30_s02_lu010",
@@ -3116,7 +4084,12 @@
       "char_offset_end": 1415,
       "sentence_char_offset_start": 54,
       "sentence_char_offset_end": 59,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p30_s02_lu011",
@@ -3132,7 +4105,12 @@
       "char_offset_end": 1418,
       "sentence_char_offset_start": 60,
       "sentence_char_offset_end": 62,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p30_s02_lu012",
@@ -3148,7 +4126,12 @@
       "char_offset_end": 1429,
       "sentence_char_offset_start": 63,
       "sentence_char_offset_end": 73,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p30_s02_lu013",
@@ -3164,7 +4147,12 @@
       "char_offset_end": 1432,
       "sentence_char_offset_start": 74,
       "sentence_char_offset_end": 76,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p31_s01_lu001",
@@ -3180,7 +4168,12 @@
       "char_offset_end": 1442,
       "sentence_char_offset_start": 0,
       "sentence_char_offset_end": 8,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p31_s01_lu002",
@@ -3196,7 +4189,12 @@
       "char_offset_end": 1451,
       "sentence_char_offset_start": 10,
       "sentence_char_offset_end": 17,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p31_s01_lu003",
@@ -3212,7 +4210,12 @@
       "char_offset_end": 1456,
       "sentence_char_offset_start": 19,
       "sentence_char_offset_end": 22,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p31_s01_lu004",
@@ -3228,7 +4231,12 @@
       "char_offset_end": 1466,
       "sentence_char_offset_start": 23,
       "sentence_char_offset_end": 32,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p31_s01_lu005",
@@ -3244,7 +4252,12 @@
       "char_offset_end": 1470,
       "sentence_char_offset_start": 33,
       "sentence_char_offset_end": 36,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p31_s01_lu006",
@@ -3260,7 +4273,12 @@
       "char_offset_end": 1474,
       "sentence_char_offset_start": 37,
       "sentence_char_offset_end": 40,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p31_s01_lu007",
@@ -3276,7 +4294,12 @@
       "char_offset_end": 1477,
       "sentence_char_offset_start": 41,
       "sentence_char_offset_end": 43,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p31_s01_lu008",
@@ -3292,7 +4315,12 @@
       "char_offset_end": 1489,
       "sentence_char_offset_start": 44,
       "sentence_char_offset_end": 55,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p31_s01_lu009",
@@ -3308,7 +4336,12 @@
       "char_offset_end": 1497,
       "sentence_char_offset_start": 56,
       "sentence_char_offset_end": 63,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p31_s01_lu010",
@@ -3324,7 +4357,12 @@
       "char_offset_end": 1507,
       "sentence_char_offset_start": 65,
       "sentence_char_offset_end": 73,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p31_s01_lu011",
@@ -3340,7 +4378,12 @@
       "char_offset_end": 1510,
       "sentence_char_offset_start": 74,
       "sentence_char_offset_end": 76,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p31_s01_lu012",
@@ -3356,7 +4399,12 @@
       "char_offset_end": 1514,
       "sentence_char_offset_start": 77,
       "sentence_char_offset_end": 80,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p31_s01_lu013",
@@ -3372,7 +4420,12 @@
       "char_offset_end": 1522,
       "sentence_char_offset_start": 81,
       "sentence_char_offset_end": 88,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p31_s01_lu014",
@@ -3388,7 +4441,12 @@
       "char_offset_end": 1525,
       "sentence_char_offset_start": 89,
       "sentence_char_offset_end": 91,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p32_s01_lu001",
@@ -3404,7 +4462,12 @@
       "char_offset_end": 1530,
       "sentence_char_offset_start": 0,
       "sentence_char_offset_end": 3,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p32_s01_lu002",
@@ -3420,7 +4483,12 @@
       "char_offset_end": 1537,
       "sentence_char_offset_start": 4,
       "sentence_char_offset_end": 10,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p32_s01_lu003",
@@ -3436,7 +4504,12 @@
       "char_offset_end": 1544,
       "sentence_char_offset_start": 11,
       "sentence_char_offset_end": 17,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p32_s01_lu004",
@@ -3452,7 +4525,12 @@
       "char_offset_end": 1549,
       "sentence_char_offset_start": 19,
       "sentence_char_offset_end": 22,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p32_s01_lu005",
@@ -3468,7 +4546,12 @@
       "char_offset_end": 1558,
       "sentence_char_offset_start": 23,
       "sentence_char_offset_end": 31,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p32_s01_lu006",
@@ -3484,7 +4567,12 @@
       "char_offset_end": 1562,
       "sentence_char_offset_start": 32,
       "sentence_char_offset_end": 35,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p32_s01_lu007",
@@ -3500,7 +4588,12 @@
       "char_offset_end": 1574,
       "sentence_char_offset_start": 36,
       "sentence_char_offset_end": 47,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p32_s01_lu008",
@@ -3516,7 +4609,12 @@
       "char_offset_end": 1583,
       "sentence_char_offset_start": 48,
       "sentence_char_offset_end": 56,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p32_s01_lu009",
@@ -3532,7 +4630,12 @@
       "char_offset_end": 1586,
       "sentence_char_offset_start": 57,
       "sentence_char_offset_end": 59,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p32_s01_lu010",
@@ -3548,7 +4651,12 @@
       "char_offset_end": 1592,
       "sentence_char_offset_start": 60,
       "sentence_char_offset_end": 65,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p32_s01_lu011",
@@ -3564,7 +4672,12 @@
       "char_offset_end": 1603,
       "sentence_char_offset_start": 66,
       "sentence_char_offset_end": 76,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p32_s01_lu012",
@@ -3580,7 +4693,12 @@
       "char_offset_end": 1611,
       "sentence_char_offset_start": 77,
       "sentence_char_offset_end": 84,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p32_s01_lu013",
@@ -3596,7 +4714,12 @@
       "char_offset_end": 1614,
       "sentence_char_offset_start": 85,
       "sentence_char_offset_end": 87,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p32_s01_lu014",
@@ -3612,7 +4735,12 @@
       "char_offset_end": 1618,
       "sentence_char_offset_start": 88,
       "sentence_char_offset_end": 91,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p33_s01_lu001",
@@ -3628,7 +4756,12 @@
       "char_offset_end": 1626,
       "sentence_char_offset_start": 0,
       "sentence_char_offset_end": 6,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p34_s01_lu001",
@@ -3644,7 +4777,12 @@
       "char_offset_end": 1637,
       "sentence_char_offset_start": 0,
       "sentence_char_offset_end": 8,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p34_s01_lu002",
@@ -3660,7 +4798,12 @@
       "char_offset_end": 1644,
       "sentence_char_offset_start": 9,
       "sentence_char_offset_end": 15,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p34_s01_lu003",
@@ -3676,7 +4819,12 @@
       "char_offset_end": 1647,
       "sentence_char_offset_start": 16,
       "sentence_char_offset_end": 18,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p34_s01_lu004",
@@ -3692,7 +4840,12 @@
       "char_offset_end": 1650,
       "sentence_char_offset_start": 19,
       "sentence_char_offset_end": 21,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p34_s01_lu005",
@@ -3708,7 +4861,12 @@
       "char_offset_end": 1659,
       "sentence_char_offset_start": 22,
       "sentence_char_offset_end": 30,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p34_s01_lu006",
@@ -3724,7 +4882,12 @@
       "char_offset_end": 1667,
       "sentence_char_offset_start": 31,
       "sentence_char_offset_end": 38,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p35_s01_lu001",
@@ -3740,7 +4903,12 @@
       "char_offset_end": 1671,
       "sentence_char_offset_start": 0,
       "sentence_char_offset_end": 2,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p35_s01_lu002",
@@ -3756,7 +4924,12 @@
       "char_offset_end": 1675,
       "sentence_char_offset_start": 3,
       "sentence_char_offset_end": 6,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p35_s01_lu003",
@@ -3772,7 +4945,12 @@
       "char_offset_end": 1677,
       "sentence_char_offset_start": 7,
       "sentence_char_offset_end": 8,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p35_s01_lu004",
@@ -3788,7 +4966,12 @@
       "char_offset_end": 1679,
       "sentence_char_offset_start": 9,
       "sentence_char_offset_end": 10,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p35_s01_lu005",
@@ -3804,7 +4987,12 @@
       "char_offset_end": 1691,
       "sentence_char_offset_start": 12,
       "sentence_char_offset_end": 22,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p35_s01_lu006",
@@ -3820,7 +5008,12 @@
       "char_offset_end": 1705,
       "sentence_char_offset_start": 24,
       "sentence_char_offset_end": 36,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p35_s01_lu007",
@@ -3836,7 +5029,12 @@
       "char_offset_end": 1708,
       "sentence_char_offset_start": 37,
       "sentence_char_offset_end": 39,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p35_s01_lu008",
@@ -3852,7 +5050,12 @@
       "char_offset_end": 1712,
       "sentence_char_offset_start": 40,
       "sentence_char_offset_end": 43,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p36_s01_lu001",
@@ -3868,7 +5071,12 @@
       "char_offset_end": 1722,
       "sentence_char_offset_start": 0,
       "sentence_char_offset_end": 8,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p36_s01_lu002",
@@ -3884,7 +5092,12 @@
       "char_offset_end": 1731,
       "sentence_char_offset_start": 9,
       "sentence_char_offset_end": 17,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p36_s01_lu003",
@@ -3900,7 +5113,12 @@
       "char_offset_end": 1735,
       "sentence_char_offset_start": 18,
       "sentence_char_offset_end": 21,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p36_s01_lu004",
@@ -3916,7 +5134,12 @@
       "char_offset_end": 1743,
       "sentence_char_offset_start": 22,
       "sentence_char_offset_end": 29,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p36_s01_lu005",
@@ -3932,7 +5155,12 @@
       "char_offset_end": 1758,
       "sentence_char_offset_start": 30,
       "sentence_char_offset_end": 44,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p37_s01_lu001",
@@ -3948,7 +5176,12 @@
       "char_offset_end": 1767,
       "sentence_char_offset_start": 0,
       "sentence_char_offset_end": 7,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p37_s01_lu002",
@@ -3964,7 +5197,12 @@
       "char_offset_end": 1771,
       "sentence_char_offset_start": 8,
       "sentence_char_offset_end": 11,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p37_s01_lu003",
@@ -3980,7 +5218,12 @@
       "char_offset_end": 1777,
       "sentence_char_offset_start": 12,
       "sentence_char_offset_end": 17,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p37_s01_lu004",
@@ -3996,7 +5239,12 @@
       "char_offset_end": 1781,
       "sentence_char_offset_start": 19,
       "sentence_char_offset_end": 21,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p37_s01_lu005",
@@ -4012,7 +5260,12 @@
       "char_offset_end": 1793,
       "sentence_char_offset_start": 22,
       "sentence_char_offset_end": 33,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p37_s01_lu006",
@@ -4028,7 +5281,12 @@
       "char_offset_end": 1798,
       "sentence_char_offset_start": 34,
       "sentence_char_offset_end": 38,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p37_s01_lu007",
@@ -4044,7 +5302,12 @@
       "char_offset_end": 1802,
       "sentence_char_offset_start": 39,
       "sentence_char_offset_end": 42,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p38_s01_lu001",
@@ -4060,7 +5323,12 @@
       "char_offset_end": 1814,
       "sentence_char_offset_start": 0,
       "sentence_char_offset_end": 10,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p38_s01_lu002",
@@ -4076,7 +5344,12 @@
       "char_offset_end": 1817,
       "sentence_char_offset_start": 11,
       "sentence_char_offset_end": 13,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p38_s01_lu003",
@@ -4092,7 +5365,12 @@
       "char_offset_end": 1826,
       "sentence_char_offset_start": 14,
       "sentence_char_offset_end": 22,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p38_s01_lu004",
@@ -4108,7 +5386,12 @@
       "char_offset_end": 1832,
       "sentence_char_offset_start": 23,
       "sentence_char_offset_end": 28,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p39_s01_lu001",
@@ -4124,7 +5407,12 @@
       "char_offset_end": 1840,
       "sentence_char_offset_start": 0,
       "sentence_char_offset_end": 5,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p39_s01_lu002",
@@ -4140,7 +5428,12 @@
       "char_offset_end": 1843,
       "sentence_char_offset_start": 6,
       "sentence_char_offset_end": 8,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p39_s01_lu003",
@@ -4156,7 +5449,12 @@
       "char_offset_end": 1851,
       "sentence_char_offset_start": 9,
       "sentence_char_offset_end": 16,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p39_s01_lu004",
@@ -4172,7 +5470,12 @@
       "char_offset_end": 1856,
       "sentence_char_offset_start": 17,
       "sentence_char_offset_end": 21,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p39_s01_lu005",
@@ -4188,7 +5491,12 @@
       "char_offset_end": 1864,
       "sentence_char_offset_start": 22,
       "sentence_char_offset_end": 29,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p40_s01_lu001",
@@ -4204,7 +5512,12 @@
       "char_offset_end": 1870,
       "sentence_char_offset_start": 0,
       "sentence_char_offset_end": 3,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p40_s01_lu002",
@@ -4220,7 +5533,12 @@
       "char_offset_end": 1876,
       "sentence_char_offset_start": 4,
       "sentence_char_offset_end": 9,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p40_s01_lu003",
@@ -4236,7 +5554,12 @@
       "char_offset_end": 1883,
       "sentence_char_offset_start": 10,
       "sentence_char_offset_end": 16,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p41_s01_lu001",
@@ -4252,7 +5575,12 @@
       "char_offset_end": 1888,
       "sentence_char_offset_start": 0,
       "sentence_char_offset_end": 3,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p41_s01_lu002",
@@ -4268,7 +5596,12 @@
       "char_offset_end": 1895,
       "sentence_char_offset_start": 4,
       "sentence_char_offset_end": 10,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p41_s01_lu003",
@@ -4284,7 +5617,12 @@
       "char_offset_end": 1898,
       "sentence_char_offset_start": 11,
       "sentence_char_offset_end": 13,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p41_s01_lu004",
@@ -4300,7 +5638,12 @@
       "char_offset_end": 1907,
       "sentence_char_offset_start": 14,
       "sentence_char_offset_end": 22,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p41_s01_lu005",
@@ -4316,7 +5659,12 @@
       "char_offset_end": 1916,
       "sentence_char_offset_start": 23,
       "sentence_char_offset_end": 31,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p42_s01_lu001",
@@ -4332,7 +5680,12 @@
       "char_offset_end": 1921,
       "sentence_char_offset_start": 0,
       "sentence_char_offset_end": 3,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p42_s01_lu002",
@@ -4348,7 +5701,12 @@
       "char_offset_end": 1928,
       "sentence_char_offset_start": 4,
       "sentence_char_offset_end": 10,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p42_s01_lu003",
@@ -4364,7 +5722,12 @@
       "char_offset_end": 1931,
       "sentence_char_offset_start": 11,
       "sentence_char_offset_end": 13,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p42_s01_lu004",
@@ -4380,7 +5743,12 @@
       "char_offset_end": 1941,
       "sentence_char_offset_start": 14,
       "sentence_char_offset_end": 23,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p42_s01_lu005",
@@ -4396,7 +5764,12 @@
       "char_offset_end": 1950,
       "sentence_char_offset_start": 24,
       "sentence_char_offset_end": 32,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p43_s01_lu001",
@@ -4412,7 +5785,12 @@
       "char_offset_end": 1955,
       "sentence_char_offset_start": 0,
       "sentence_char_offset_end": 3,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p43_s01_lu002",
@@ -4428,7 +5806,12 @@
       "char_offset_end": 1964,
       "sentence_char_offset_start": 4,
       "sentence_char_offset_end": 12,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p43_s01_lu003",
@@ -4444,7 +5827,12 @@
       "char_offset_end": 1971,
       "sentence_char_offset_start": 13,
       "sentence_char_offset_end": 19,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p43_s01_lu004",
@@ -4460,7 +5848,12 @@
       "char_offset_end": 1974,
       "sentence_char_offset_start": 20,
       "sentence_char_offset_end": 22,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p43_s01_lu005",
@@ -4476,7 +5869,12 @@
       "char_offset_end": 1979,
       "sentence_char_offset_start": 23,
       "sentence_char_offset_end": 27,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p43_s01_lu006",
@@ -4492,7 +5890,12 @@
       "char_offset_end": 1983,
       "sentence_char_offset_start": 28,
       "sentence_char_offset_end": 31,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p44_s01_lu001",
@@ -4508,7 +5911,12 @@
       "char_offset_end": 1988,
       "sentence_char_offset_start": 0,
       "sentence_char_offset_end": 3,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p44_s01_lu002",
@@ -4524,7 +5932,12 @@
       "char_offset_end": 1995,
       "sentence_char_offset_start": 4,
       "sentence_char_offset_end": 10,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p44_s01_lu003",
@@ -4540,7 +5953,12 @@
       "char_offset_end": 1998,
       "sentence_char_offset_start": 11,
       "sentence_char_offset_end": 13,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p44_s01_lu004",
@@ -4556,7 +5974,12 @@
       "char_offset_end": 2005,
       "sentence_char_offset_start": 14,
       "sentence_char_offset_end": 20,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p44_s01_lu005",
@@ -4572,7 +5995,12 @@
       "char_offset_end": 2015,
       "sentence_char_offset_start": 21,
       "sentence_char_offset_end": 30,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p45_s01_lu001",
@@ -4588,7 +6016,12 @@
       "char_offset_end": 2020,
       "sentence_char_offset_start": 0,
       "sentence_char_offset_end": 3,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p45_s01_lu002",
@@ -4604,7 +6037,12 @@
       "char_offset_end": 2027,
       "sentence_char_offset_start": 4,
       "sentence_char_offset_end": 10,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p45_s01_lu003",
@@ -4620,7 +6058,12 @@
       "char_offset_end": 2030,
       "sentence_char_offset_start": 11,
       "sentence_char_offset_end": 13,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p45_s01_lu004",
@@ -4636,7 +6079,12 @@
       "char_offset_end": 2036,
       "sentence_char_offset_start": 14,
       "sentence_char_offset_end": 19,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p45_s01_lu005",
@@ -4652,7 +6100,12 @@
       "char_offset_end": 2044,
       "sentence_char_offset_start": 20,
       "sentence_char_offset_end": 27,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p46_s01_lu001",
@@ -4668,7 +6121,12 @@
       "char_offset_end": 2049,
       "sentence_char_offset_start": 0,
       "sentence_char_offset_end": 3,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p46_s01_lu002",
@@ -4684,7 +6142,12 @@
       "char_offset_end": 2056,
       "sentence_char_offset_start": 4,
       "sentence_char_offset_end": 10,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p46_s01_lu003",
@@ -4700,7 +6163,12 @@
       "char_offset_end": 2059,
       "sentence_char_offset_start": 11,
       "sentence_char_offset_end": 13,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p46_s01_lu004",
@@ -4716,7 +6184,12 @@
       "char_offset_end": 2066,
       "sentence_char_offset_start": 14,
       "sentence_char_offset_end": 20,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p46_s01_lu005",
@@ -4732,7 +6205,12 @@
       "char_offset_end": 2077,
       "sentence_char_offset_start": 21,
       "sentence_char_offset_end": 31,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p47_s01_lu001",
@@ -4748,7 +6226,12 @@
       "char_offset_end": 2084,
       "sentence_char_offset_start": 0,
       "sentence_char_offset_end": 5,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p47_s01_lu002",
@@ -4764,7 +6247,12 @@
       "char_offset_end": 2088,
       "sentence_char_offset_start": 6,
       "sentence_char_offset_end": 9,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p47_s01_lu003",
@@ -4780,7 +6268,12 @@
       "char_offset_end": 2097,
       "sentence_char_offset_start": 10,
       "sentence_char_offset_end": 18,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p47_s01_lu004",
@@ -4796,7 +6289,12 @@
       "char_offset_end": 2106,
       "sentence_char_offset_start": 19,
       "sentence_char_offset_end": 27,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p48_s01_lu001",
@@ -4812,7 +6310,12 @@
       "char_offset_end": 2116,
       "sentence_char_offset_start": 0,
       "sentence_char_offset_end": 8,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p48_s01_lu002",
@@ -4828,7 +6331,12 @@
       "char_offset_end": 2125,
       "sentence_char_offset_start": 9,
       "sentence_char_offset_end": 17,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p48_s01_lu003",
@@ -4844,7 +6352,12 @@
       "char_offset_end": 2133,
       "sentence_char_offset_start": 18,
       "sentence_char_offset_end": 25,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p48_s01_lu004",
@@ -4860,7 +6373,12 @@
       "char_offset_end": 2140,
       "sentence_char_offset_start": 26,
       "sentence_char_offset_end": 32,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p49_s01_lu001",
@@ -4876,7 +6394,12 @@
       "char_offset_end": 2155,
       "sentence_char_offset_start": 0,
       "sentence_char_offset_end": 13,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p50_s01_lu001",
@@ -4892,7 +6415,12 @@
       "char_offset_end": 2164,
       "sentence_char_offset_start": 0,
       "sentence_char_offset_end": 7,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p50_s01_lu002",
@@ -4908,7 +6436,12 @@
       "char_offset_end": 2167,
       "sentence_char_offset_start": 8,
       "sentence_char_offset_end": 10,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p50_s01_lu003",
@@ -4924,7 +6457,12 @@
       "char_offset_end": 2179,
       "sentence_char_offset_start": 11,
       "sentence_char_offset_end": 22,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p50_s01_lu004",
@@ -4940,7 +6478,12 @@
       "char_offset_end": 2183,
       "sentence_char_offset_start": 23,
       "sentence_char_offset_end": 26,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p51_s01_lu001",
@@ -4956,7 +6499,12 @@
       "char_offset_end": 2187,
       "sentence_char_offset_start": 0,
       "sentence_char_offset_end": 2,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p51_s01_lu002",
@@ -4972,7 +6520,12 @@
       "char_offset_end": 2192,
       "sentence_char_offset_start": 3,
       "sentence_char_offset_end": 7,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p51_s01_lu003",
@@ -4988,7 +6541,12 @@
       "char_offset_end": 2196,
       "sentence_char_offset_start": 8,
       "sentence_char_offset_end": 11,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p51_s01_lu004",
@@ -5004,7 +6562,12 @@
       "char_offset_end": 2201,
       "sentence_char_offset_start": 12,
       "sentence_char_offset_end": 16,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p52_s01_lu001",
@@ -5020,7 +6583,12 @@
       "char_offset_end": 2209,
       "sentence_char_offset_start": 0,
       "sentence_char_offset_end": 6,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p52_s01_lu002",
@@ -5036,7 +6604,12 @@
       "char_offset_end": 2216,
       "sentence_char_offset_start": 7,
       "sentence_char_offset_end": 13,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p52_s01_lu003",
@@ -5052,7 +6625,12 @@
       "char_offset_end": 2228,
       "sentence_char_offset_start": 17,
       "sentence_char_offset_end": 25,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p52_s01_lu004",
@@ -5068,7 +6646,12 @@
       "char_offset_end": 2234,
       "sentence_char_offset_start": 26,
       "sentence_char_offset_end": 31,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p53_s01_lu001",
@@ -5084,7 +6667,12 @@
       "char_offset_end": 2241,
       "sentence_char_offset_start": 2,
       "sentence_char_offset_end": 4,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p53_s01_lu002",
@@ -5100,7 +6688,12 @@
       "char_offset_end": 2248,
       "sentence_char_offset_start": 5,
       "sentence_char_offset_end": 11,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p53_s01_lu003",
@@ -5116,7 +6709,12 @@
       "char_offset_end": 2252,
       "sentence_char_offset_start": 12,
       "sentence_char_offset_end": 15,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p53_s01_lu004",
@@ -5132,7 +6730,12 @@
       "char_offset_end": 2259,
       "sentence_char_offset_start": 17,
       "sentence_char_offset_end": 22,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p53_s01_lu005",
@@ -5148,7 +6751,12 @@
       "char_offset_end": 2266,
       "sentence_char_offset_start": 25,
       "sentence_char_offset_end": 29,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p53_s01_lu006",
@@ -5164,7 +6772,12 @@
       "char_offset_end": 2273,
       "sentence_char_offset_start": 30,
       "sentence_char_offset_end": 36,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p53_s01_lu007",
@@ -5180,7 +6793,12 @@
       "char_offset_end": 2277,
       "sentence_char_offset_start": 37,
       "sentence_char_offset_end": 40,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p53_s01_lu008",
@@ -5196,7 +6814,12 @@
       "char_offset_end": 2286,
       "sentence_char_offset_start": 41,
       "sentence_char_offset_end": 49,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p53_s01_lu009",
@@ -5212,7 +6835,12 @@
       "char_offset_end": 2288,
       "sentence_char_offset_start": 50,
       "sentence_char_offset_end": 51,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p53_s01_lu010",
@@ -5228,7 +6856,12 @@
       "char_offset_end": 2290,
       "sentence_char_offset_start": 52,
       "sentence_char_offset_end": 53,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p53_s01_lu011",
@@ -5244,7 +6877,12 @@
       "char_offset_end": 2294,
       "sentence_char_offset_start": 54,
       "sentence_char_offset_end": 57,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p53_s01_lu012",
@@ -5260,7 +6898,12 @@
       "char_offset_end": 2297,
       "sentence_char_offset_start": 58,
       "sentence_char_offset_end": 60,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p53_s01_lu013",
@@ -5276,7 +6919,12 @@
       "char_offset_end": 2303,
       "sentence_char_offset_start": 62,
       "sentence_char_offset_end": 66,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p53_s01_lu014",
@@ -5292,7 +6940,12 @@
       "char_offset_end": 2309,
       "sentence_char_offset_start": 68,
       "sentence_char_offset_end": 72,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p53_s01_lu015",
@@ -5308,7 +6961,12 @@
       "char_offset_end": 2320,
       "sentence_char_offset_start": 73,
       "sentence_char_offset_end": 83,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p53_s01_lu016",
@@ -5324,7 +6982,12 @@
       "char_offset_end": 2324,
       "sentence_char_offset_start": 85,
       "sentence_char_offset_end": 87,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p53_s01_lu017",
@@ -5340,7 +7003,12 @@
       "char_offset_end": 2328,
       "sentence_char_offset_start": 89,
       "sentence_char_offset_end": 91,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p53_s01_lu018",
@@ -5356,7 +7024,12 @@
       "char_offset_end": 2337,
       "sentence_char_offset_start": 94,
       "sentence_char_offset_end": 100,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p53_s01_lu019",
@@ -5372,7 +7045,12 @@
       "char_offset_end": 2340,
       "sentence_char_offset_start": 101,
       "sentence_char_offset_end": 103,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p55_s01_lu001",
@@ -5388,7 +7066,12 @@
       "char_offset_end": 2352,
       "sentence_char_offset_start": 0,
       "sentence_char_offset_end": 5,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p56_s01_lu001",
@@ -5404,7 +7087,12 @@
       "char_offset_end": 2363,
       "sentence_char_offset_start": 0,
       "sentence_char_offset_end": 7,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p56_s01_lu002",
@@ -5420,7 +7108,12 @@
       "char_offset_end": 2377,
       "sentence_char_offset_start": 9,
       "sentence_char_offset_end": 21,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p57_s01_lu001",
@@ -5436,7 +7129,12 @@
       "char_offset_end": 2385,
       "sentence_char_offset_start": 0,
       "sentence_char_offset_end": 5,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p57_s01_lu002",
@@ -5452,7 +7150,12 @@
       "char_offset_end": 2390,
       "sentence_char_offset_start": 7,
       "sentence_char_offset_end": 10,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p59_s01_lu001",
@@ -5468,7 +7171,12 @@
       "char_offset_end": 2406,
       "sentence_char_offset_start": 2,
       "sentence_char_offset_end": 10,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p59_s01_lu002",
@@ -5484,7 +7192,12 @@
       "char_offset_end": 2413,
       "sentence_char_offset_start": 12,
       "sentence_char_offset_end": 17,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p59_s01_lu003",
@@ -5500,7 +7213,12 @@
       "char_offset_end": 2422,
       "sentence_char_offset_start": 18,
       "sentence_char_offset_end": 26,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p60_s01_lu001",
@@ -5516,7 +7234,12 @@
       "char_offset_end": 2439,
       "sentence_char_offset_start": 4,
       "sentence_char_offset_end": 11,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1776-08-30_s01_p60_s01_lu002",
@@ -5532,7 +7255,12 @@
       "char_offset_end": 2453,
       "sentence_char_offset_start": 14,
       "sentence_char_offset_end": 25,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "decision_type": "non_metaphor",
+      "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-16T12:09:13",
+      "curated_rule_id": "default-reviewed-non-metaphor"
     }
   ],
   "pipeline_log": [
@@ -5541,6 +7269,11 @@
       "script": "scripts/generate-mipvu-worklist.py",
       "generated_at": "2026-06-15T14:56:18",
       "lexical_unit_count": 345
+    },
+    {
+      "stage": "complete-am-rev-mipvu-review",
+      "script": "scripts/complete-am-rev-mipvu-review.py",
+      "generated_at": "2026-06-16T12:09:13"
     }
   ]
 }

@@ -1,7 +1,58 @@
 {
   "case_id": "am-rev",
-  "status": "mipvu-worklist-ready",
-  "current_stage": "mipvu-review-pending",
-  "updated": "2026-06-15",
-  "notes": "Manifest documents are acquired, normalized, segmented, verified, and have generated MIPVU lexical-unit worklists for all 9 documents. Lexical decisions and annotated files are pending."
+  "status": "mipvu-review-complete-codex-assisted",
+  "current_stage": "mipvu-review-complete",
+  "updated": "2026-06-16",
+  "notes": "American Revolution corpus has generated MIPVU worklists for all 9 documents and 33,025 lexical units have first-pass Codex-assisted decisions. Genre/register differences are preserved through conservative uncertain decisions for contested Washington military-register body and honor language. Results remain provisional until independent human review.",
+  "mipvu_review_summary": {
+    "review_batch": "am-rev-full-corpus-mipvu-review-v1",
+    "annotator": "codex-assisted-mipvu-v1",
+    "total_lexical_units": 33025,
+    "by_decision_type": {
+      "mipvu_direct": 31,
+      "mipvu_indirect": 79,
+      "mipvu_personification": 10,
+      "non_metaphor": 32893,
+      "uncertain": 12
+    },
+    "by_document": {
+      "am-rev-jefferson-declaration": {
+        "mipvu_direct": 1,
+        "mipvu_indirect": 21,
+        "non_metaphor": 1313,
+        "uncertain": 2
+      },
+      "am-rev-paine-common-sense": {
+        "mipvu_direct": 30,
+        "mipvu_indirect": 58,
+        "mipvu_personification": 10,
+        "non_metaphor": 21662
+      },
+      "am-rev-washington-orders-1775-07-04": {
+        "non_metaphor": 1121
+      },
+      "am-rev-washington-orders-1776-02-09": {
+        "non_metaphor": 468
+      },
+      "am-rev-washington-orders-1776-07-02": {
+        "non_metaphor": 5532,
+        "uncertain": 6
+      },
+      "am-rev-washington-orders-1776-08-30": {
+        "non_metaphor": 345
+      },
+      "am-rev-washington-orders-1776-12-25": {
+        "non_metaphor": 693
+      },
+      "am-rev-washington-orders-1783-06-08": {
+        "non_metaphor": 1040,
+        "uncertain": 4
+      },
+      "am-rev-washington-orders-1783-06-17": {
+        "non_metaphor": 719
+      }
+    },
+    "pending_units": 0,
+    "quality_summary_path": "quality/mipvu-review-summary.json"
+  }
 }
