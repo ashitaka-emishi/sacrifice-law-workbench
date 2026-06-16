@@ -1,0 +1,334 @@
+{
+  "case_id": "napoleon",
+  "generated_at": "2026-06-16T13:03:00",
+  "status": "mipvu-review-complete-codex-assisted",
+  "review_batch": "napoleon-source-language-mipvu-review-v1",
+  "annotator": "codex-assisted-mipvu-v1",
+  "source_language": "fr",
+  "decision_basis": "source-language span_text",
+  "total_lexical_units": 23005,
+  "pending_units": 0,
+  "by_decision_type": {
+    "mipvu_direct": 2,
+    "mipvu_indirect": 14,
+    "mipvu_personification": 6,
+    "non_metaphor": 22980,
+    "uncertain": 3
+  },
+  "by_rule_id": {
+    "default-reviewed-non-metaphor": 22980,
+    "napoleon-blood-honor-army": 1,
+    "napoleon-bouches-a-feu": 2,
+    "napoleon-braves-morts-patrie": 4,
+    "napoleon-death-blood-glory": 4,
+    "napoleon-destin-battle": 1,
+    "napoleon-fortune-personified": 2,
+    "napoleon-gloire-covering-death": 4,
+    "napoleon-symbolic-objects": 3,
+    "napoleon-victoire-personified": 4
+  },
+  "by_document": {
+    "napoleon-bulletin-1805-12-03-austerlitz": {
+      "mipvu_indirect": 5,
+      "non_metaphor": 1127
+    },
+    "napoleon-bulletin-1805-12-04-austerlitz-aftermath": {
+      "non_metaphor": 3038,
+      "uncertain": 1
+    },
+    "napoleon-bulletin-1806-10-15-jena": {
+      "mipvu_indirect": 1,
+      "mipvu_personification": 1,
+      "non_metaphor": 2707
+    },
+    "napoleon-bulletin-1806-10-26-berlin": {
+      "non_metaphor": 1655,
+      "uncertain": 2
+    },
+    "napoleon-bulletin-1807-02-08-eylau": {
+      "mipvu_direct": 2,
+      "mipvu_indirect": 5,
+      "mipvu_personification": 1,
+      "non_metaphor": 1278
+    },
+    "napoleon-bulletin-1807-06-14-friedland": {
+      "mipvu_personification": 2,
+      "non_metaphor": 1998
+    },
+    "napoleon-bulletin-1809-07-08-wagram": {
+      "mipvu_indirect": 2,
+      "mipvu_personification": 1,
+      "non_metaphor": 4006
+    },
+    "napoleon-bulletin-1812-10-23-russia-advance": {
+      "non_metaphor": 1963
+    },
+    "napoleon-bulletin-1812-12-03-russia-29th": {
+      "mipvu_personification": 1,
+      "non_metaphor": 1967
+    },
+    "napoleon-bulletin-1813-05-24-bautzen": {
+      "mipvu_indirect": 1,
+      "non_metaphor": 3241
+    }
+  },
+  "sample_metaphor_or_uncertain_units": [
+    {
+      "mipvu_id": "napoleon-bulletin-1805-12-03-austerlitz_s01_p03_s03_lu029",
+      "document_id": "napoleon-bulletin-1805-12-03-austerlitz",
+      "sentence_id": "napoleon-bulletin-1805-12-03-austerlitz_s01_p03_s03",
+      "span_text": "sang",
+      "gloss_en": "blood / honor",
+      "decision_type": "mipvu_indirect",
+      "curated_rule_id": "napoleon-blood-honor-army",
+      "sentence_text": "Sa Majesté a exprimé le regret que l'empereur de Russie eût voulu livrer bataille, et a dit que ce monarque, s'il l'avait cru la veille, aurait épargné le sang et l'honneur de son armée."
+    },
+    {
+      "mipvu_id": "napoleon-bulletin-1805-12-03-austerlitz_s01_p16_s04_lu021",
+      "document_id": "napoleon-bulletin-1805-12-03-austerlitz",
+      "sentence_id": "napoleon-bulletin-1805-12-03-austerlitz_s01_p16_s04",
+      "span_text": "braves",
+      "gloss_en": "brave dead / fatherland / victory",
+      "decision_type": "mipvu_indirect",
+      "curated_rule_id": "napoleon-braves-morts-patrie",
+      "sentence_text": "Notre intention est que, tous les ans, audit jour, un office solennel soit chanté dans ladite métropole, en mémoire des braves morts pour la patrie dans cette grande journée; lequel office sera suivi d'actions de grâces pour la victoire qu'il a plu au Dieu des armées de nous accorder."
+    },
+    {
+      "mipvu_id": "napoleon-bulletin-1805-12-03-austerlitz_s01_p16_s04_lu022",
+      "document_id": "napoleon-bulletin-1805-12-03-austerlitz",
+      "sentence_id": "napoleon-bulletin-1805-12-03-austerlitz_s01_p16_s04",
+      "span_text": "morts",
+      "gloss_en": "brave dead / fatherland / victory",
+      "decision_type": "mipvu_indirect",
+      "curated_rule_id": "napoleon-braves-morts-patrie",
+      "sentence_text": "Notre intention est que, tous les ans, audit jour, un office solennel soit chanté dans ladite métropole, en mémoire des braves morts pour la patrie dans cette grande journée; lequel office sera suivi d'actions de grâces pour la victoire qu'il a plu au Dieu des armées de nous accorder."
+    },
+    {
+      "mipvu_id": "napoleon-bulletin-1805-12-03-austerlitz_s01_p16_s04_lu025",
+      "document_id": "napoleon-bulletin-1805-12-03-austerlitz",
+      "sentence_id": "napoleon-bulletin-1805-12-03-austerlitz_s01_p16_s04",
+      "span_text": "patrie",
+      "gloss_en": "brave dead / fatherland / victory",
+      "decision_type": "mipvu_indirect",
+      "curated_rule_id": "napoleon-braves-morts-patrie",
+      "sentence_text": "Notre intention est que, tous les ans, audit jour, un office solennel soit chanté dans ladite métropole, en mémoire des braves morts pour la patrie dans cette grande journée; lequel office sera suivi d'actions de grâces pour la victoire qu'il a plu au Dieu des armées de nous accorder."
+    },
+    {
+      "mipvu_id": "napoleon-bulletin-1805-12-03-austerlitz_s01_p16_s04_lu039",
+      "document_id": "napoleon-bulletin-1805-12-03-austerlitz",
+      "sentence_id": "napoleon-bulletin-1805-12-03-austerlitz_s01_p16_s04",
+      "span_text": "victoire",
+      "gloss_en": "brave dead / fatherland / victory",
+      "decision_type": "mipvu_indirect",
+      "curated_rule_id": "napoleon-braves-morts-patrie",
+      "sentence_text": "Notre intention est que, tous les ans, audit jour, un office solennel soit chanté dans ladite métropole, en mémoire des braves morts pour la patrie dans cette grande journée; lequel office sera suivi d'actions de grâces pour la victoire qu'il a plu au Dieu des armées de nous accorder."
+    },
+    {
+      "mipvu_id": "napoleon-bulletin-1805-12-04-austerlitz-aftermath_s01_p21_s02_lu009",
+      "document_id": "napoleon-bulletin-1805-12-04-austerlitz-aftermath",
+      "sentence_id": "napoleon-bulletin-1805-12-04-austerlitz-aftermath_s01_p21_s02",
+      "span_text": "couronne",
+      "gloss_en": "tomb / trophies / crown",
+      "decision_type": "uncertain",
+      "curated_rule_id": "napoleon-symbolic-objects",
+      "sentence_text": "Parlez aussi vaguement de ma renonciation à la couronne d'Italie; faites remarquer que ces mots \\\\ à la paix générales m'empêchent de faire ma paix avec l'Angleterre; mais en disant, lorsque l'Angleterre rétablira l'équilibre des mers,?? ou \\\\ que les conditions dont j'ai parlé pour ma renonciation seront remplies,?? cela me donne du vague et des facilités pour faire ma paix avec l'Angleterre."
+    },
+    {
+      "mipvu_id": "napoleon-bulletin-1806-10-15-jena_s01_p23_s06_lu023",
+      "document_id": "napoleon-bulletin-1806-10-15-jena",
+      "sentence_id": "napoleon-bulletin-1806-10-15-jena_s01_p23_s06",
+      "span_text": "mort",
+      "gloss_en": "death / blood",
+      "decision_type": "mipvu_indirect",
+      "curated_rule_id": "napoleon-death-blood-glory",
+      "sentence_text": "En moins d'une heure, l'action devint générale : 250 ou 3oo,ooo hommes, avec 7 ou 800 pièces de canon, semaient partout la mort et offraient un de ces spectacles rares dans l'histoire."
+    },
+    {
+      "mipvu_id": "napoleon-bulletin-1806-10-15-jena_s01_p24_s04_lu008",
+      "document_id": "napoleon-bulletin-1806-10-15-jena",
+      "sentence_id": "napoleon-bulletin-1806-10-15-jena_s01_p24_s04",
+      "span_text": "victoire",
+      "gloss_en": "victory",
+      "decision_type": "mipvu_personification",
+      "curated_rule_id": "napoleon-victoire-personified",
+      "sentence_text": "Ces braves cavaliers, frémissant de voir la victoire se décider"
+    },
+    {
+      "mipvu_id": "napoleon-bulletin-1806-10-26-berlin_s01_p06_s01_lu006",
+      "document_id": "napoleon-bulletin-1806-10-26-berlin",
+      "sentence_id": "napoleon-bulletin-1806-10-26-berlin_s01_p06_s01",
+      "span_text": "tombeau",
+      "gloss_en": "tomb / trophies / crown",
+      "decision_type": "uncertain",
+      "curated_rule_id": "napoleon-symbolic-objects",
+      "sentence_text": "L'Empereur a été voir le tombeau du grand Frédéric."
+    },
+    {
+      "mipvu_id": "napoleon-bulletin-1806-10-26-berlin_s01_p06_s02_lu024",
+      "document_id": "napoleon-bulletin-1806-10-26-berlin",
+      "sentence_id": "napoleon-bulletin-1806-10-26-berlin_s01_p06_s02",
+      "span_text": "trophées",
+      "gloss_en": "tomb / trophies / crown",
+      "decision_type": "uncertain",
+      "curated_rule_id": "napoleon-symbolic-objects",
+      "sentence_text": "Les restes de ce grand homme sont renfermés dans un cercueil de bois recouvert en cuivre, placé dans un caveau sans ornements, sans trophées, sans aucunes distinctions qui rappellent les grandes actions qu'il a faites."
+    },
+    {
+      "mipvu_id": "napoleon-bulletin-1807-02-08-eylau_s01_p12_s03_lu020",
+      "document_id": "napoleon-bulletin-1807-02-08-eylau",
+      "sentence_id": "napoleon-bulletin-1807-02-08-eylau_s01_p12_s03",
+      "span_text": "gloire",
+      "gloss_en": "glory",
+      "decision_type": "mipvu_indirect",
+      "curated_rule_id": "napoleon-gloire-covering-death",
+      "sentence_text": "Le général Dahlmann, commandant les chasseurs de la Garde, et un bon nombre de ses intrépides soldats, moururent avec gloire."
+    },
+    {
+      "mipvu_id": "napoleon-bulletin-1807-02-08-eylau_s01_p15_s02_lu003",
+      "document_id": "napoleon-bulletin-1807-02-08-eylau",
+      "sentence_id": "napoleon-bulletin-1807-02-08-eylau_s01_p15_s02",
+      "span_text": "bouches",
+      "gloss_en": "mouths of fire",
+      "decision_type": "mipvu_direct",
+      "curated_rule_id": "napoleon-bouches-a-feu",
+      "sentence_text": "Trois cents bouches à feu ont produit la mort de part et d'autre pendant douze heures."
+    },
+    {
+      "mipvu_id": "napoleon-bulletin-1807-02-08-eylau_s01_p15_s02_lu005",
+      "document_id": "napoleon-bulletin-1807-02-08-eylau",
+      "sentence_id": "napoleon-bulletin-1807-02-08-eylau_s01_p15_s02",
+      "span_text": "feu",
+      "gloss_en": "mouths of fire",
+      "decision_type": "mipvu_direct",
+      "curated_rule_id": "napoleon-bouches-a-feu",
+      "sentence_text": "Trois cents bouches à feu ont produit la mort de part et d'autre pendant douze heures."
+    },
+    {
+      "mipvu_id": "napoleon-bulletin-1807-02-08-eylau_s01_p15_s02_lu009",
+      "document_id": "napoleon-bulletin-1807-02-08-eylau",
+      "sentence_id": "napoleon-bulletin-1807-02-08-eylau_s01_p15_s02",
+      "span_text": "mort",
+      "gloss_en": "death / blood",
+      "decision_type": "mipvu_indirect",
+      "curated_rule_id": "napoleon-death-blood-glory",
+      "sentence_text": "Trois cents bouches à feu ont produit la mort de part et d'autre pendant douze heures."
+    },
+    {
+      "mipvu_id": "napoleon-bulletin-1807-02-08-eylau_s01_p15_s03_lu002",
+      "document_id": "napoleon-bulletin-1807-02-08-eylau",
+      "sentence_id": "napoleon-bulletin-1807-02-08-eylau_s01_p15_s03",
+      "span_text": "victoire",
+      "gloss_en": "victory",
+      "decision_type": "mipvu_personification",
+      "curated_rule_id": "napoleon-victoire-personified",
+      "sentence_text": "La victoire, longtemps incertaine, fut décidée et gagnée lorsque le maréchal Davout déboucha sur le plateau et déborda l'ennemi, qui, après avoir fait de vains efforts pour le reprendre, battit en retraite."
+    },
+    {
+      "mipvu_id": "napoleon-bulletin-1807-02-08-eylau_s01_p16_s06_lu003",
+      "document_id": "napoleon-bulletin-1807-02-08-eylau",
+      "sentence_id": "napoleon-bulletin-1807-02-08-eylau_s01_p16_s06",
+      "span_text": "morts",
+      "gloss_en": "death / blood",
+      "decision_type": "mipvu_indirect",
+      "curated_rule_id": "napoleon-death-blood-glory",
+      "sentence_text": "Tous sont morts avec gloire."
+    },
+    {
+      "mipvu_id": "napoleon-bulletin-1807-02-08-eylau_s01_p16_s06_lu005",
+      "document_id": "napoleon-bulletin-1807-02-08-eylau",
+      "sentence_id": "napoleon-bulletin-1807-02-08-eylau_s01_p16_s06",
+      "span_text": "gloire",
+      "gloss_en": "glory",
+      "decision_type": "mipvu_indirect",
+      "curated_rule_id": "napoleon-gloire-covering-death",
+      "sentence_text": "Tous sont morts avec gloire."
+    },
+    {
+      "mipvu_id": "napoleon-bulletin-1807-02-08-eylau_s01_p17_s01_lu053",
+      "document_id": "napoleon-bulletin-1807-02-08-eylau",
+      "sentence_id": "napoleon-bulletin-1807-02-08-eylau_s01_p17_s01",
+      "span_text": "sang",
+      "gloss_en": "death / blood",
+      "decision_type": "mipvu_indirect",
+      "curated_rule_id": "napoleon-death-blood-glory",
+      "sentence_text": "Ainsi l'expédition offensive de l'ennemi, qui avait pour but de se porter sur Thorn en débordant la gauche de la Grande Armée, lui a été funeste : 12 à 15,000 prisonniers, autant d'hommes hors de combat, 18 drapeaux, 45 pièces de canon, sont les trophées trop chèrement payés sans doute par le sang de tant de braves."
+    },
+    {
+      "mipvu_id": "napoleon-bulletin-1807-06-14-friedland_s01_p05_s01_lu002",
+      "document_id": "napoleon-bulletin-1807-06-14-friedland",
+      "sentence_id": "napoleon-bulletin-1807-06-14-friedland_s01_p05_s01",
+      "span_text": "fortune",
+      "gloss_en": "fortune",
+      "decision_type": "mipvu_personification",
+      "curated_rule_id": "napoleon-fortune-personified",
+      "sentence_text": "La fortune a souri à ce projet."
+    },
+    {
+      "mipvu_id": "napoleon-bulletin-1807-06-14-friedland_s01_p25_s02_lu002",
+      "document_id": "napoleon-bulletin-1807-06-14-friedland",
+      "sentence_id": "napoleon-bulletin-1807-06-14-friedland_s01_p25_s02",
+      "span_text": "victoire",
+      "gloss_en": "victory",
+      "decision_type": "mipvu_personification",
+      "curated_rule_id": "napoleon-victoire-personified",
+      "sentence_text": "La victoire n'a pas hésité un seul instant."
+    },
+    {
+      "mipvu_id": "napoleon-bulletin-1809-07-08-wagram_s01_p43_s05_lu012",
+      "document_id": "napoleon-bulletin-1809-07-08-wagram",
+      "sentence_id": "napoleon-bulletin-1809-07-08-wagram_s01_p43_s05",
+      "span_text": "gloire",
+      "gloss_en": "glory",
+      "decision_type": "mipvu_indirect",
+      "curated_rule_id": "napoleon-gloire-covering-death",
+      "sentence_text": "La division Broussier et la division Gudin se sont couvertes de gloire."
+    },
+    {
+      "mipvu_id": "napoleon-bulletin-1809-07-08-wagram_s01_p44_s01_lu024",
+      "document_id": "napoleon-bulletin-1809-07-08-wagram",
+      "sentence_id": "napoleon-bulletin-1809-07-08-wagram_s01_p44_s01",
+      "span_text": "victoire",
+      "gloss_en": "victory",
+      "decision_type": "mipvu_personification",
+      "curated_rule_id": "napoleon-victoire-personified",
+      "sentence_text": "Il n'était alors que dix heures du matin, et les hommes les moins clairvoyants voyaient que la journée était décidée et que la victoire était à nous."
+    },
+    {
+      "mipvu_id": "napoleon-bulletin-1809-07-08-wagram_s01_p53_s04_lu006",
+      "document_id": "napoleon-bulletin-1809-07-08-wagram",
+      "sentence_id": "napoleon-bulletin-1809-07-08-wagram_s01_p53_s04",
+      "span_text": "gloire",
+      "gloss_en": "glory",
+      "decision_type": "mipvu_indirect",
+      "curated_rule_id": "napoleon-gloire-covering-death",
+      "sentence_text": "Ce régiment s'est couvert dé gloire."
+    },
+    {
+      "mipvu_id": "napoleon-bulletin-1812-12-03-russia-29th_s01_p09_s04_lu023",
+      "document_id": "napoleon-bulletin-1812-12-03-russia-29th",
+      "sentence_id": "napoleon-bulletin-1812-12-03-russia-29th_s01_p09_s04",
+      "span_text": "fortune",
+      "gloss_en": "fortune",
+      "decision_type": "mipvu_personification",
+      "curated_rule_id": "napoleon-fortune-personified",
+      "sentence_text": "Des hommes que la nature n'a pas trempés assez fortement pour être au-dessus de toutes les chances du sort et de la fortune parurent ébranlés, perdirent leur gaieté, leur bonne humeur, et ne rêvèrent que malheurs et catastrophes; ceux qu'elle a créés supérieurs à tout conservèrent leur gaieté et leurs manières ordinaires, et virent une nouvelle gloire dans des difficultés différentes à surmonter."
+    },
+    {
+      "mipvu_id": "napoleon-bulletin-1813-05-24-bautzen_s01_p25_s03_lu008",
+      "document_id": "napoleon-bulletin-1813-05-24-bautzen",
+      "sentence_id": "napoleon-bulletin-1813-05-24-bautzen_s01_p25_s03",
+      "span_text": "destin",
+      "gloss_en": "destiny / fate",
+      "decision_type": "mipvu_indirect",
+      "curated_rule_id": "napoleon-destin-battle",
+      "sentence_text": "Déjà toutes ses dispositions étaient changées : le destin de la bataille ne devait plus se décider derrière ses retranchements; ses immenses travaux et 3oo redoutes devenaient inutiles; la droite de sa position, qui était opposée au 4e corps, devenait son centre, et il était obligé de jeter sa droite, qui formait une bonne partie de son armée, pour l'opposer au prince de la Moskova, dans un lieu qu'il n'avait pas étudié et qu'il croyait hors de sa position."
+    }
+  ],
+  "limitations": [
+    "Codex-assisted decisions are a first-pass review gate, not independent human double-coding.",
+    "French source-language span_text is authoritative; English glosses are only analytical aids.",
+    "Gallica OCR noise is visible in some source sentences and should be checked before quotation.",
+    "Ordinary military-register corps d'armee usage is generally left non-metaphor unless the local phrase supplies separate body imagery.",
+    "Downstream CMT and Koenigsbergian annotations should only use metaphor-related or uncertain units after separate interpretive review."
+  ]
+}
