@@ -27,9 +27,9 @@ COMPARATIVE_DIMENSIONS = [
         "question": "Does violence function as preservation, sacrifice, punishment, purification, extermination, or another logic?",
     },
     {
-        "id": "enemy_as_death",
-        "label": "Enemy as death",
-        "question": "Is the enemy represented as death, contamination, dissolution, doubt, unreality, or existential threat?",
+        "id": "enemy_as_bringer_of_death",
+        "label": "Enemy as bringer of death",
+        "question": "Is the enemy represented as a death-bearing agent, carrier, embodiment, sign, contamination, dissolution, doubt, unreality, or existential threat?",
     },
     {
         "id": "death_logic",
@@ -124,7 +124,7 @@ def comparison_items() -> list[dict[str, Any]]:
             "sacred_collective_object": "Union / republic / democracy / freedom",
             "dominant_body_metaphor": "Living nation, democratic organism, rebirth",
             "violence_logic": "Preservation, sacrificial obligation, providential judgment, reconciliation",
-            "enemy_as_death": "Weak in the reviewed pilot evidence; disunion/slavery are threats, but enemy agency is often muted or diffused.",
+            "enemy_as_bringer_of_death": "Weak in the reviewed pilot evidence; disunion/slavery are threats, but enemy agency is often muted or diffused.",
             "death_logic": "Soldier death becomes obligation, devotion, and condition for national renewal.",
             "historical_alignment": "Battlefield death, public mourning, emancipation context, wartime bloodshed, and reunion practice require publication citations before final claims.",
             "support_rating": lincoln.get("overall_support", {}).get("final_category", "pending"),

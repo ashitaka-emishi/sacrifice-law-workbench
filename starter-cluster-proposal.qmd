@@ -17,7 +17,7 @@ stored in each case's `config/case-clusters.json`.
 Each cluster should be tested through annotation rather than assumed from the
 research question. A cluster gains support when repeated source spans show a
 stable pattern that contributes to one or more evidentiary-support dimensions:
-sacred object, sacrificial body, enemy as death, or historical
+sacred object, sacrificial body, enemy as bringer of death, or historical
 enactment/alignment.
 
 For textual-symbolic clusters, record:
@@ -52,7 +52,7 @@ Clusters should remain revisable throughout V1.
 A cluster may be retained when it repeatedly explains textual evidence or
 historical alignment better than available alternatives. It may be merged when
 two labels describe the same mapping or support function. It may be split when
-one label hides different violence logics, enemy-as-death functions, historical
+one label hides different violence logics, enemy-as-bringer-of-death functions, historical
 alignments, or register effects. It may be rejected when it does not appear,
 depends on weak prompt effects, lacks corroboration where historical alignment
 is claimed, or fails rival-explanation review.
@@ -68,7 +68,7 @@ Cluster revision should preserve the distinction between:
 ## Cross-Case Mapping
 
 Shared clusters should preserve difference as well as similarity. A body,
-sacrifice, purification, or enemy as death cluster may perform restorative work
+sacrifice, purification, or enemy as bringer of death cluster may perform restorative work
 in one case and exterminatory work in another. The cross-case map should
 therefore link cluster evidence without erasing historical and rhetorical
 specificity.

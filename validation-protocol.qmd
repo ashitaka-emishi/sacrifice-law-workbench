@@ -154,7 +154,7 @@ should not carry high-confidence aggregate claims.
 ## Koenigsbergian Interpretation Audit
 
 Koenigsbergian fields interpret metaphor patterns in relation to sacred objects,
-magical objects, body-politic fantasies, enemy as death, guilt distribution,
+magical objects, body-politic fantasies, enemy as bringer of death, guilt distribution,
 violence logic, obligation, sacrifice, and exit conditions.
 
 The audit asks whether the interpretation is proportional to the annotation
@@ -181,7 +181,7 @@ Every case-level support finding should report four dimension scores:
 |---|---|
 | Sacred object | Is a collective object represented as transcendent, ultimate, sacred, immortal, or worth dying/killing for? |
 | Sacrificial body | Are bodies represented as meaningful offerings, payments, instruments, victims, martyrs, or material through which the sacred object is preserved or made real? |
-| Enemy as death | Is the enemy represented as the agent, carrier, embodiment, or sign of death, doubt, mortality, dissolution, unreality, or collective destruction? |
+| Enemy as bringer of death | Is the enemy represented as the agent, carrier, embodiment, or sign of death, doubt, mortality, dissolution, unreality, or collective destruction? |
 | Historical enactment or alignment | Do textual-symbolic patterns align with documented practices, policies, institutions, mobilizations, implementation, social uptake, or outcomes? |
 
 Reviewers should check:

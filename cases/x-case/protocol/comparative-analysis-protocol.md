@@ -9,7 +9,7 @@ Status: draft.
 | sacred_collective_object | Sacred collective object | What collective object is treated as ultimate, immortal, transcendent, or worth sacrifice? |
 | dominant_body_metaphor | Dominant body metaphor | How is the polity or collective imagined as a body, organism, wound, disease, or rebirth? |
 | violence_logic | Violence logic | Does violence function as preservation, sacrifice, punishment, purification, extermination, or another logic? |
-| enemy_as_death | Enemy as death | Is the enemy represented as death, contamination, dissolution, doubt, unreality, or existential threat? |
+| enemy_as_bringer_of_death | Enemy as bringer of death | Is the enemy represented as a death-bearing agent, carrier, embodiment, sign, contamination, dissolution, doubt, unreality, or existential threat? |
 | death_logic | Death logic | How are killing, dying, martyrdom, or suffering made meaningful? |
 | historical_alignment | Historical enactment / alignment | Which policies, practices, mobilizations, social uptake, or outcomes corroborate the symbolic pattern? |
 | support_rating | Overall support rating | Does the case strongly, moderately, weakly, complicatedly, or not at all support the framework? |

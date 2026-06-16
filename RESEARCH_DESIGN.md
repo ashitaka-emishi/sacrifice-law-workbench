@@ -44,7 +44,7 @@ The working publication-level question is:
 > corpora, when compared with historically documented practices of mobilization,
 > killing, dying, purification, and enemy destruction, support, complicate, or
 > limit Koenigsberg's Law of Sacrifice, the body-politic corollary, and the
-> construction of enemies as death across the initial pilot cases defined in the
+> construction of enemies as bringers of death across the initial pilot cases defined in the
 > case-selection protocol?
 
 This question is deliberately framed as an assessment of evidentiary support.
@@ -116,7 +116,7 @@ A source may enter the analytical corpus when it has:
   anchor phrases;
 - risk flags for translation, OCR, authorship, excerpting, editorial
   mediation, or source uncertainty;
-- case relevance for sacred object, sacrificial body, enemy as death,
+- case relevance for sacred object, sacrificial body, enemy as bringer of death,
   historical enactment or alignment, rhetorical setting, or negative evidence.
 
 ## Exclusion Criteria
@@ -191,7 +191,7 @@ The project uses each method for a specific task:
 | Rhetorical criticism | Interprets occasion, audience, genre, posture, and action |
 | Systematic absence and agency analysis | Records who acts, who suffers, who is displaced, and who is excluded |
 | Historical enactment or alignment review | Tests whether textual-symbolic patterns align with documented policies, practices, implementation, social uptake, or outcomes |
-| Koenigsbergian analysis | Assesses support for sacred object, sacrificial body, enemy as death, and body-politic claims |
+| Koenigsbergian analysis | Assesses support for sacred object, sacrificial body, enemy as bringer of death, and body-politic claims |
 | Comparative analysis | Compares cases while preserving historical specificity and moral-equivalence cautions |
 
 MIPVU identifies metaphor-related words. It does not identify conceptual
@@ -224,7 +224,7 @@ Annotation proceeds in staged layers:
 9. **Historical enactment or alignment**: document whether textual-symbolic
    patterns align with established practices or outcomes.
 10. **Support scoring and synthesis**: rate sacred object, sacrificial body,
-    enemy as death, and historical enactment/alignment before writing
+    enemy as bringer of death, and historical enactment/alignment before writing
     Koenigsbergian synthesis.
 
 Interpretive layers should not be used to backfill the identification layer.
@@ -239,7 +239,7 @@ The project uses four support dimensions:
 |---|---|
 | Sacred object | Is a collective object represented as transcendent, ultimate, sacred, immortal, or worth dying/killing for? |
 | Sacrificial body | Are bodies represented as meaningful offerings, payments, instruments, victims, martyrs, or material through which the sacred object is preserved or made real? |
-| Enemy as death | Is the enemy represented as the agent, carrier, embodiment, or sign of death, doubt, mortality, dissolution, unreality, or collective destruction? |
+| Enemy as bringer of death | Is the enemy represented as the agent, carrier, embodiment, or sign of death, doubt, mortality, dissolution, unreality, or collective destruction? |
 | Historical enactment or alignment | Do textual-symbolic patterns align with historically documented practices, policies, institutions, mobilizations, implementation, social uptake, or outcomes? |
 
 Each dimension uses the anchored 0-4 support scale defined in

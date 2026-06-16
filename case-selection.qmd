@@ -30,7 +30,7 @@ Cases should satisfy most of these criteria:
 | American Revolution | `am-rev` | Washington-anchored collective exception | Tests sacrifice, founding, sacred liberty, and collective exception in revolutionary war language. |
 | Napoleon / Napoleonic Wars | `napoleon` | Napoleon-only individual leader corpus | Tests imperial glory, leader-body extension, army/nation fusion, and translation-sensitive sacrifice language. |
 | Lincoln / American Civil War | `lincoln` | newly selected Lincoln corpus | Tests body-politic healing, covenant, experiment, providence, war sacrifice, and systematic absence. |
-| Hitler / Nazi Germany | `hitler` | Hitler-centered corpus with limited Goebbels/Goering support if needed | Tests the war/genocide boundary, purification fantasy, enemy as death, and exterminatory body-politic logic. |
+| Hitler / Nazi Germany | `hitler` | Hitler-centered corpus with limited Goebbels/Goering support if needed | Tests the war/genocide boundary, purification fantasy, enemy as bringer of death, and exterminatory body-politic logic. |
 | Cross-case synthesis | `x-case` | synthetic synthesis workspace | Not a historical case; receives case-level outputs for comparison, validation, and synthesis. |
 
 ## Limits

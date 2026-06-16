@@ -91,7 +91,7 @@
   "support_dimensions": [
     { "id": "sacred_object", "label": "sacred object" },
     { "id": "sacrificial_body", "label": "sacrificial body" },
-    { "id": "enemy_as_death", "label": "enemy as death" },
+    { "id": "enemy_as_bringer_of_death", "label": "enemy as bringer of death" },
     { "id": "historical_enactment_alignment", "label": "historical enactment or alignment" }
   ]
 }

@@ -40,8 +40,8 @@ needs:
 
 - balanced-core coverage for a case phase or register;
 - evidence for one or more support dimensions: sacred object, sacrificial body,
-  enemy as death, or historical enactment/alignment;
-- close reading of a high-priority sacrificial, sacred-object, enemy as death,
+  enemy as bringer of death, or historical enactment/alignment;
+- close reading of a high-priority sacrificial, sacred-object, enemy as bringer of death,
   or historical-alignment pattern;
 - negative evidence or absence analysis;
 - comparison with another case;
@@ -61,7 +61,7 @@ The note should identify whether the document is expected to contribute to:
 |---|---|
 | Sacred object | Does the document represent a collective object as transcendent, ultimate, sacred, immortal, or worth dying/killing for? |
 | Sacrificial body | Does the document represent bodies, suffering, killing, or dying as meaningful for the collective object? |
-| Enemy as death | Does the document represent an enemy as the agent, carrier, embodiment, or sign of death, doubt, mortality, dissolution, unreality, or collective destruction? |
+| Enemy as bringer of death | Does the document represent an enemy as the agent, carrier, embodiment, or sign of death, doubt, mortality, dissolution, unreality, or collective destruction? |
 | Historical enactment/alignment | Does the document directly document or help corroborate policy, implementation, social uptake, mobilization, killing, exclusion, purification, or historical outcome? |
 
 The note is not a finding. It is a selection rationale that helps explain why a

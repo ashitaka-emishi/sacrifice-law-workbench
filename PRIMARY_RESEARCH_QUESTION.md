@@ -30,7 +30,7 @@ criticism, and Koenigsbergian ideological-fantasy analysis.
 > corpora, when compared with historically documented practices of mobilization,
 > killing, dying, purification, and enemy destruction, support, complicate, or
 > limit Koenigsberg's Law of Sacrifice, the body-politic corollary, and the
-> construction of enemies as death across the initial pilot cases defined in the
+> construction of enemies as bringers of death across the initial pilot cases defined in the
 > case-selection protocol?
 
 This version has several advantages:
@@ -42,7 +42,7 @@ This version has several advantages:
   bodies, enemies, and political violence.
 - It defines the project as an assessment of evidentiary support rather than a
   claim of proof.
-- It treats enemy as death construction as a first-class analytical dimension
+- It treats enemy as bringer of death construction as a first-class analytical dimension
   rather than as a narrow parasite/disease subtype.
 - It keeps the primary question reusable as the workbench expands beyond the
   initial pilot set.
@@ -80,7 +80,7 @@ Support is assessed across four core dimensions:
 
 1. sacred object;
 2. sacrificial body;
-3. enemy as death;
+3. enemy as bringer of death;
 4. historical enactment or alignment.
 
 Support is strongest when several forms of evidence converge:
@@ -90,7 +90,7 @@ Support is strongest when several forms of evidence converge:
    expendable, or necessary to the object's survival;
 3. killing and dying are represented as acts that preserve, rescue, confirm, or
    make real the sacred object;
-4. the enemy is represented as death for the sacred object: the agent, carrier,
+4. the enemy is represented as death-bearing for the sacred object: an agent, carrier,
    embodiment, or sign of doubt, mortality, dissolution, unreality, or
    collective destruction that must be expelled, defeated, sacrificed, or
    destroyed;
@@ -127,7 +127,7 @@ Rate each case on four dimensions:
 |---|---|
 | Sacred object | Is a collective object represented as transcendent, ultimate, sacred, immortal, or worth dying/killing for? |
 | Sacrificial body | Are bodies represented as meaningful offerings, payments, instruments, victims, martyrs, or material through which the sacred object is preserved or made real? |
-| Enemy as death | Is the enemy represented as the agent, carrier, embodiment, or sign of death, doubt, mortality, dissolution, unreality, or collective destruction? |
+| Enemy as bringer of death | Is the enemy represented as the agent, carrier, embodiment, or sign of death, doubt, mortality, dissolution, unreality, or collective destruction? |
 | Historical enactment or alignment | Do the textual-symbolic patterns align with historically documented practices, policies, institutions, mobilizations, or outcomes? |
 
 Suggested interpretation for the sacred object score:
@@ -150,15 +150,15 @@ Suggested interpretation for the sacrificial body score:
 | 3 | Bodies are clearly represented as offerings, payments, instruments, martyrs, victims, or material through which the sacred object is preserved or made real |
 | 4 | Sacrificial bodies are central, repeated, cross-textual, and explicitly tied to the reality, survival, renewal, purification, or immortality of the sacred object |
 
-Suggested interpretation for the enemy as death score:
+Suggested interpretation for the enemy as bringer of death score:
 
-| Score | Enemy As Death |
+| Score | Enemy as Bringer of Death |
 |---:|---|
-| 0 | The enemy is not represented as death, dissolution, unreality, mortality, contamination, or existential danger |
+| 0 | The enemy is not represented as death-bearing, dissolving, unrealizing, contaminating, or existentially dangerous |
 | 1 | Isolated or ambiguous enemy-threat imagery appears, but the enemy remains mostly an ordinary opponent |
 | 2 | The enemy is repeatedly represented as dangerous to the sacred object or collective body, but the death-bearing function is limited, conventional, or weakly developed |
 | 3 | The enemy is clearly represented as an agent, carrier, embodiment, or sign of collective death, doubt, dissolution, contamination, enslavement, desecration, or mortality |
-| 4 | Enemy as death is dense, repeated, cross-textual, and central to the justification of sacrifice, purification, exclusion, or destruction |
+| 4 | Enemy-as-bringer-of-death evidence is dense, repeated, cross-textual, and central to the justification of sacrifice, purification, exclusion, or destruction |
 
 Scores of `3` or `4` in the three textual-symbolic dimensions require repeated
 evidence. A single rhetorically central passage may be marked as
@@ -272,7 +272,7 @@ Where:
 
 - `S` = sacred object score;
 - `B` = sacrificial body score;
-- `E` = enemy as death score;
+- `E` = enemy as bringer of death score;
 - `H` = historical enactment or alignment score.
 
 The result remains on the same 0-4 scale. This formula is preferable to a
@@ -336,7 +336,7 @@ case-study frame.
 ### Corpus-First Version
 
 > What recurring metaphor systems organize sacred collective objects,
-> sacrificial bodies, enemies as death, and violence in selected
+> sacrificial bodies, enemies as bringers of death, and violence in selected
 > leader-centered political corpora, and how do those systems align with
 > historically documented practices across case, historical phase, genre, and
 > war/genocide context?
@@ -358,7 +358,7 @@ revision, or qualification of Koenigsberg's Law of Sacrifice.
 ### War/Genocide Distinction Version
 
 > How do metaphor systems of sacrifice, sacred collectivity, body-politic
-> threat, enemy as death construction, and enemy destruction differ
+> threat, enemy as bringer of death construction, and enemy destruction differ
 > between war-oriented and genocidal political rhetoric in the selected corpora?
 
 This is the best version if the project's central contribution is the
@@ -381,7 +381,7 @@ case within a cross-case study.
    liberty, empire, race, revolution, army, law, providence, or another object?
 3. How are bodies represented: as offerings, wounds, instruments, extensions of
    the collective, contaminants, parasites, martyrs, debts, or redeemed matter?
-4. How are enemies represented as death for the sacred object: as external
+4. How are enemies represented as bringers of death for the sacred object: as external
    opponents, internal enemies, parasites, diseases, poisons, contaminants,
    criminals, traitors, lawbreakers, desecrators, tyrants, enslavers,
    aggressors, demonic forces, obstacles to destiny, embodiments of doubt, or
@@ -419,7 +419,7 @@ A provisional thesis might be:
 > and enemy destruction. War-oriented rhetoric tends to emphasize obligation,
 > endurance, redemption, and collective renewal, while genocidal rhetoric more
 > strongly emphasizes contamination, purification, enemy embodiment, impossible
-> coexistence, and enemy as death construction. These distinctions are not
+> coexistence, and enemy as bringer of death construction. These distinctions are not
 > absolute, but they provide a testable framework for comparing how political
 > language gives violence moral necessity.
 
@@ -432,11 +432,11 @@ complete.
 |---|---|---|
 | Sacred collective object | A political object treated as transcendent, ultimate, holy, immortal, providential, or worth dying/killing for | Metaphor clusters, evaluative language, appeals to duty, covenant, destiny, purity, immortality, or sacred obligation |
 | Sacrificial body | A body whose injury, death, suffering, or exposure to violence is represented as meaningful for the collective object | Lexical units and mappings involving blood, death, offering, martyrdom, debt, payment, birth, renewal, purification, or redemption |
-| Enemy as death | A Koenigsbergian label for an enemy represented not merely as an opponent, but as the agent, carrier, embodiment, or sign of death for the sacred object. The enemy may embody doubt that the sacred object is real, knowledge that the collective body is mortal, or a force imagined to bring dissolution, contamination, enslavement, desecration, or collective destruction. | Metaphors or frames of disease, parasite, poison, contamination, criminality, treason, lawbreaking, desecration, enslavement, tyranny, aggression, demonic threat, internal subversion, existential danger, doubt, mortality, unreality, or collective death |
+| Enemy as bringer of death | A Koenigsbergian label for an enemy represented not merely as an opponent, but as the agent, carrier, embodiment, or sign of death for the sacred object. The enemy may embody doubt that the sacred object is real, knowledge that the collective body is mortal, or a force imagined to bring dissolution, contamination, enslavement, desecration, or collective destruction. | Metaphors or frames of disease, parasite, poison, contamination, criminality, treason, lawbreaking, desecration, enslavement, tyranny, aggression, demonic threat, internal subversion, existential danger, doubt, mortality, unreality, or collective death |
 | Metaphor system | A repeated and internally related pattern of source-target mappings, entailments, and rhetorical functions | MIPVU-coded lexical units, CMT mappings, cluster profiles, concordance patterns, and close readings |
 | Morally necessary violence | Violence represented as duty, defense, purification, sacrifice, justice, providence, destiny, or unavoidable historical action | Rhetorical action codes, modal language, obligation terms, enemy construction, and justification sequences |
 | War-making context | Rhetoric oriented toward armed conflict, military sacrifice, enemy defeat, survival, honor, law, or collective preservation | Case metadata, genre, phase, military or political register, and explicit references to war |
-| Genocidal context | Rhetoric oriented toward group destruction, elimination, purification, racial threat, permanent enemy embodiment, or impossible coexistence | Enemy as death mappings, purification logic, exterminatory language, and historical case context |
+| Genocidal context | Rhetoric oriented toward group destruction, elimination, purification, racial threat, permanent enemy embodiment, or impossible coexistence | Enemy as bringer of death mappings, purification logic, exterminatory language, and historical case context |
 | Historical enactment or alignment | Contextual historical evidence used to test whether textual-symbolic patterns align with documented practices or outcomes | Policies, institutions, mobilization practices, military or bureaucratic records, killings, exclusions, exterminatory measures, and established historical scholarship |
 
 ## Role Of Historical Evidence

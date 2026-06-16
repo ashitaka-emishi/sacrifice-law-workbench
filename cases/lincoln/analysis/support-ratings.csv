@@ -1,4 +1,4 @@
-score_id,level,document_id,document_weight,sacred_object,sacrificial_body,enemy_as_death,historical_enactment_alignment,mapping_ids,historical_note_ids
+score_id,level,document_id,document_weight,sacred_object,sacrificial_body,enemy_as_bringer_of_death,historical_enactment_alignment,mapping_ids,historical_note_ids
 lincoln-score-doc-lyceum,document,lincoln-lyceum-address,1.0,2.0,0.0,1.0,1.0,lincoln-cmt-001,lincoln-hist-003
 lincoln-score-doc-gettysburg,document,lincoln-gettysburg-address,2.0,3.0,3.0,1.0,3.0,lincoln-cmt-002;lincoln-cmt-003;lincoln-cmt-004;lincoln-cmt-005;lincoln-cmt-006,lincoln-hist-001
 lincoln-score-doc-second-inaugural,document,lincoln-second-inaugural,2.0,2.0,3.0,1.0,3.0,lincoln-cmt-007;lincoln-cmt-008;lincoln-cmt-009,lincoln-hist-002

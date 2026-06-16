@@ -1,7 +1,7 @@
 {
   "version": "1.0",
   "case_id": "lincoln",
-  "generated_at": "2026-06-15T10:32:23",
+  "generated_at": "2026-06-16T07:53:30",
   "status": "draft-review-package",
   "source_issue": "#13",
   "package_policy": "This package exposes the method, evidence, validation gate, AI-use statement, data-availability statement, and claim traceability needed for scholarly review.",
