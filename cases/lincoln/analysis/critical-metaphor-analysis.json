@@ -1,46 +1,137 @@
 {
   "version": "1.0",
   "case_id": "lincoln",
-  "generated_at": "2026-06-15T09:49:38",
+  "generated_at": "2026-06-17T15:09:55",
   "status": "draft",
   "source": "corpus/cmt/cmt-mappings.json",
   "cluster_profiles": [
     {
       "cluster_id": "lincoln-01-body-organism",
       "mapping_ids": [
-        "lincoln-cmt-001",
-        "lincoln-cmt-006"
+        "lincoln-cmt-003",
+        "lincoln-cmt-004",
+        "lincoln-cmt-005",
+        "lincoln-cmt-006",
+        "lincoln-cmt-007",
+        "lincoln-cmt-008",
+        "lincoln-cmt-009",
+        "lincoln-cmt-010",
+        "lincoln-cmt-011",
+        "lincoln-cmt-014",
+        "lincoln-cmt-015",
+        "lincoln-cmt-017",
+        "lincoln-cmt-022",
+        "lincoln-cmt-025",
+        "lincoln-cmt-029",
+        "lincoln-cmt-030",
+        "lincoln-cmt-031",
+        "lincoln-cmt-032",
+        "lincoln-cmt-033",
+        "lincoln-cmt-034",
+        "lincoln-cmt-035",
+        "lincoln-cmt-036",
+        "lincoln-cmt-037",
+        "lincoln-cmt-038",
+        "lincoln-cmt-039",
+        "lincoln-cmt-040",
+        "lincoln-cmt-041",
+        "lincoln-cmt-043",
+        "lincoln-cmt-045",
+        "lincoln-cmt-046",
+        "lincoln-cmt-047",
+        "lincoln-cmt-048",
+        "lincoln-cmt-049",
+        "lincoln-cmt-050",
+        "lincoln-cmt-051",
+        "lincoln-cmt-052",
+        "lincoln-cmt-053",
+        "lincoln-cmt-054",
+        "lincoln-cmt-056",
+        "lincoln-cmt-058",
+        "lincoln-cmt-060",
+        "lincoln-cmt-062",
+        "lincoln-cmt-064"
       ],
       "source_domains": [
+        "architecture_building",
+        "birth_generation",
         "body",
-        "nature_organism"
+        "nature_organism",
+        "object_material",
+        "war_combat"
       ],
       "target_domains": [
-        "democracy",
-        "nation"
+        "citizenship",
+        "civil_war",
+        "enemy",
+        "freedom",
+        "government",
+        "history",
+        "nation",
+        "political_identity",
+        "political_order",
+        "slavery",
+        "war_death"
       ],
       "major_expressions": [
-        "government ... shall not perish from this earth",
-        "we must live through all time, or die by suicide"
+        "Towering / path",
+        "author / finisher",
+        "bane / annihilation",
+        "bind / wounds / cherish",
+        "brought / forth / conceived / dedicated",
+        "building / pulling",
+        "contest / absorbs / engrosses",
+        "creature",
+        "edifice / erected",
+        "endure",
+        "enemy",
+        "fabric / freedom / rest / rock / basis / gates / hell / prevail",
+        "faces / fall / victims / ravages / walls / erected / defense / trodden",
+        "fade",
+        "family / lion / tribe / eagle",
+        "field / glory / harvested / crop",
+        "footsteps",
+        "forest / oaks / hurricane / trunk / verdure / foliage / murmur / breezes / limbs / storms / sink",
+        "game / caught / chase",
+        "giant / step / crush / blow",
+        "live / die / suicide",
+        "living / history / family / history / bearing / testimonies / history / read",
+        "materials / moulded / sleep / trump / awaken",
+        "materials / support / defense",
+        "pillars / temple / liberty / crumbled / temple / fall / supply / pillars / hewn / quarry / reason",
+        "props / support / decayed / crumbled",
+        "reapers / field",
+        "regions",
+        "resting / gave / live",
+        "rival / drapery",
+        "scourge / pass",
+        "spring",
+        "staked / linked",
+        "stretch / spring",
+        "survive / perish",
+        "thirsts / burns",
+        "uprear / edifice / transmit / unprofaned / undecayed / untorn",
+        "wild / furious / sober",
+        "world / note / remember / forget",
+        "wringing / bread / sweat / faces"
       ],
       "corpus_distribution": {
-        "mapping_count": 2,
+        "mapping_count": 43,
         "documents": [
           "lincoln-gettysburg-address",
-          "lincoln-lyceum-address"
+          "lincoln-lyceum-address",
+          "lincoln-second-inaugural"
         ],
-        "periods": [
-          "peak-war-sacrifice",
-          "pre-war-union-republic-language"
-        ],
+        "periods": [],
         "rhetorical_salience": [
-          "high"
+          "high",
+          "medium"
         ]
       },
       "rhetorical_contexts": [
-        "exhortation",
-        "national_self_definition",
-        "warning"
+        "argument",
+        "glorification",
+        "national_self_definition"
       ],
       "persuasive_function": "Makes national survival feel like the preservation of a living body rather than an abstract institutional choice.",
       "moral_emotions_activated": [
@@ -53,8 +144,35 @@
         "continued preservation of republican government"
       ],
       "rival_readings": [
-        "Conventional body-politic idiom rather than active metaphor; keep conventionality visible in aggregate claims.",
-        "Perish can be a conventional verb for institutional failure; preserve conventionality in claims."
+        "A nation is not a biological organism, but it is construed as capable of living.",
+        "A polity is not a biological organism, but its political existence is construed as bodily life or death.",
+        "A social phenomenon is treated as a creature with an origin.",
+        "Abstract ambition is repeatedly construed through embodied motion, animal rank, appetite, and fire.",
+        "Abstract civic faculties and memorial expectation are treated through bodily and material processes.",
+        "Abstract danger or political actors are represented as emerging upward like growth.",
+        "Abstract destiny and ambition are represented as attached to an undertaking.",
+        "Abstract freedom is construed as a physical structure with a foundation and biblical fortification imagery.",
+        "Abstract passions and memories are treated as bodies, agents, or lights.",
+        "Ambition and fame are not literal game or crops, but are framed through hunting and agriculture.",
+        "An overseas army is personified as a giant capable of bodily attack.",
+        "Government is abstract-institutional but construed as an entity that can be bane or be annihilated.",
+        "Historical memory is embodied in persons and wounds as if it were a living readable document.",
+        "Human generations and memory are explicitly construed as trees weathered by storms.",
+        "Institutional maintenance is framed through structural support and material decay.",
+        "Passions and judgment are abstract faculties but are treated as agents with temperaments.",
+        "Political destruction is framed through authorship and completion.",
+        "Political institutions are explicitly construed as a built edifice.",
+        "Political liberty and rational support are explicitly construed as architectural materials.",
+        "Political work is construed as construction or demolition of a building.",
+        "Political-legal harm is represented through bodily orientation, falling, and ravaging.",
+        "Public affairs and attention are construed through combat and physical absorption.",
+        "The contextual meaning concerns burial/death rather than ordinary bodily rest after exertion.",
+        "The expression frames exploitation through bodily extraction and biblical labor idiom.",
+        "The nation is not literally born, yet its founding is framed through birth-generation language.",
+        "The nation is treated as an injured body capable of wounds and care.",
+        "The sentence explicitly compares corpses on trees with moss or drapery.",
+        "The world is treated as a remembering person.",
+        "War is not literally a whip, but it is explicitly called a scourge."
       ],
       "negative_cases": [
         "The current reviewed sample does not yet show a fully medicalized disease or purification logic."
@@ -63,102 +181,210 @@
       "evidence_status": "provisional-cmt-backed"
     },
     {
-      "cluster_id": "lincoln-04-birth-creation",
+      "cluster_id": "lincoln-02-covenant-oath",
       "mapping_ids": [
-        "lincoln-cmt-005"
+        "lincoln-cmt-020",
+        "lincoln-cmt-021",
+        "lincoln-cmt-057",
+        "lincoln-cmt-059"
       ],
       "source_domains": [
-        "birth_generation",
+        "object_material",
         "religion_providence"
       ],
       "target_domains": [
-        "freedom"
+        "law",
+        "union"
       ],
       "major_expressions": [
-        "a new birth of freedom"
+        "breathed",
+        "dissolve / divide",
+        "political / religion / sacrifice / altars",
+        "rend"
       ],
       "corpus_distribution": {
-        "mapping_count": 1,
+        "mapping_count": 4,
         "documents": [
-          "lincoln-gettysburg-address"
+          "lincoln-lyceum-address",
+          "lincoln-second-inaugural"
         ],
-        "periods": [
-          "peak-war-sacrifice"
-        ],
+        "periods": [],
         "rhetorical_salience": [
-          "high"
+          "high",
+          "medium"
         ]
       },
       "rhetorical_contexts": [
-        "exhortation",
-        "national_self_definition"
+        "argument",
+        "sacralization"
       ],
-      "persuasive_function": "Turns war loss into the possibility of renewed political life.",
+      "persuasive_function": "Frames the civic relationship as a binding oath, converting political affiliation into solemn obligation.",
       "moral_emotions_activated": [
-        "hope",
-        "obligation",
-        "reverent futurity"
+        "duty",
+        "shame at oath-breaking",
+        "reverence for the civic bond"
       ],
       "political_actions_authorized": [
-        "continuing the war effort",
-        "renewing democratic commitment"
+        "loyalty to the republic",
+        "fulfilling constitutional obligations",
+        "enduring war costs to honor the founding compact"
       ],
       "rival_readings": [
-        "Republican renewal formula; historical-semantics controls should prevent overstating biological literalness."
+        "Legal-political reverence is explicitly understood through religious ritual vocabulary.",
+        "The constitutional Union is abstract-political but construed as a separable material entity."
       ],
       "negative_cases": [
-        "Current evidence is concentrated in the Gettysburg climax and should not be treated as distributed across the full Lincoln corpus yet."
+        "Covenant language in Lincoln is often implicit; direct invocations of oath are concentrated in the constitutional oath of office rather than the full corpus."
       ],
-      "relation_to_koenigsbergian_analysis": "Complicates preservation by adding rebirth: sacrifice does not merely keep the sacred object alive, it makes renewal imaginable.",
+      "relation_to_koenigsbergian_analysis": "Supports the obligatory-frame dimension: citizens are bound by covenant to preserve the sacred object regardless of personal cost.",
+      "evidence_status": "provisional-cmt-backed"
+    },
+    {
+      "cluster_id": "lincoln-03-experiment-proposition",
+      "mapping_ids": [
+        "lincoln-cmt-023",
+        "lincoln-cmt-024",
+        "lincoln-cmt-028"
+      ],
+      "source_domains": [
+        "experiment_science"
+      ],
+      "target_domains": [
+        "republic"
+      ],
+      "major_expressions": [
+        "experiment",
+        "experiment / successful",
+        "experiment / successful / deathless"
+      ],
+      "corpus_distribution": {
+        "mapping_count": 3,
+        "documents": [
+          "lincoln-lyceum-address"
+        ],
+        "periods": [],
+        "rhetorical_salience": [
+          "medium"
+        ]
+      },
+      "rhetorical_contexts": [
+        "national_self_definition"
+      ],
+      "persuasive_function": "Makes the republic's survival feel like an empirical test of democratic self-governance before the world.",
+      "moral_emotions_activated": [
+        "national pride",
+        "anxiety about failure",
+        "determination to prove the experiment"
+      ],
+      "political_actions_authorized": [
+        "completing the war to validate the republican proposition",
+        "preserving government of the people"
+      ],
+      "rival_readings": [
+        "A political order is not a laboratory object, but its success is framed as a trial or proof."
+      ],
+      "negative_cases": [
+        "The experiment frame appears most clearly at Gettysburg; it is less developed in the Second Inaugural, which shifts to providential framing."
+      ],
+      "relation_to_koenigsbergian_analysis": "Raises the stakes of sacrifice by making soldier death proof that the democratic proposition is viable rather than merely honorable.",
+      "evidence_status": "provisional-cmt-backed"
+    },
+    {
+      "cluster_id": "lincoln-05-fathers-inheritance",
+      "mapping_ids": [
+        "lincoln-cmt-001",
+        "lincoln-cmt-002",
+        "lincoln-cmt-026",
+        "lincoln-cmt-027",
+        "lincoln-cmt-042",
+        "lincoln-cmt-044"
+      ],
+      "source_domains": [
+        "debt_accounting",
+        "life_death",
+        "theater_stage",
+        "war_combat"
+      ],
+      "target_domains": [
+        "history"
+      ],
+      "major_expressions": [
+        "forgotten / fade / dim",
+        "fortress / strength / artillery / time / leveling / walls",
+        "immortalized",
+        "journal / account / running",
+        "mounting / stage / existence",
+        "sink / forgotten"
+      ],
+      "corpus_distribution": {
+        "mapping_count": 6,
+        "documents": [
+          "lincoln-lyceum-address"
+        ],
+        "periods": [],
+        "rhetorical_salience": [
+          "high",
+          "medium"
+        ]
+      },
+      "rhetorical_contexts": [
+        "argument",
+        "glorification"
+      ],
+      "persuasive_function": "Constructs political obligation as inherited from founding fathers, making the republic a bequest that the current generation must not squander.",
+      "moral_emotions_activated": [
+        "filial duty",
+        "gratitude for inheritance",
+        "shame at betraying founders"
+      ],
+      "political_actions_authorized": [
+        "preservation of the founding order",
+        "sacrifice to honor inherited obligation",
+        "constitutional fidelity"
+      ],
+      "rival_readings": [
+        "Collective historical existence is explicitly framed as appearing on a stage.",
+        "Events under the sun are not literally a ledger, but the sentence frames history through accounting.",
+        "Memory is not a fortification, and time does not literally fire artillery.",
+        "Reputation and memory are treated through bodily life/death or physical descent."
+      ],
+      "negative_cases": [
+        "The fathers/inheritance frame in Lincoln typically constructs an all-male genealogy that excludes women and the enslaved from founding agency."
+      ],
+      "relation_to_koenigsbergian_analysis": "Supports the sacred-object and obligatory-frame dimensions: the republic is a patrimony whose preservation obligates the heirs.",
       "evidence_status": "provisional-cmt-backed"
     },
     {
       "cluster_id": "lincoln-06-providence-theodicy",
       "mapping_ids": [
-        "lincoln-cmt-003",
-        "lincoln-cmt-007",
-        "lincoln-cmt-008",
-        "lincoln-cmt-009"
+        "lincoln-cmt-055",
+        "lincoln-cmt-061"
       ],
       "source_domains": [
-        "debt_accounting",
-        "law_contract",
-        "religion_providence",
-        "slavery_bondage",
-        "war_combat"
+        "religion_providence"
       ],
       "target_domains": [
         "citizenship",
-        "civil_war",
-        "providence",
         "slavery"
       ],
       "major_expressions": [
-        "The judgments of the Lord are true and righteous altogether",
-        "all the wealth ... shall be sunk",
-        "dedicated to the great task remaining before us",
-        "every drop of blood ... shall be paid by another drawn with the sword"
+        "Woe / offenses / offenses / woe / offense / offenses / providence / gives / woe / offense",
+        "dedicated / gave / measure / birth / perish"
       ],
       "corpus_distribution": {
-        "mapping_count": 4,
+        "mapping_count": 2,
         "documents": [
           "lincoln-gettysburg-address",
           "lincoln-second-inaugural"
         ],
-        "periods": [
-          "final-reconciliation-memorialization",
-          "peak-war-sacrifice"
-        ],
+        "periods": [],
         "rhetorical_salience": [
-          "high"
+          "high",
+          "medium"
         ]
       },
       "rhetorical_contexts": [
-        "accusation",
-        "consecration",
-        "exhortation",
-        "prophecy",
-        "reconciliation"
+        "sacralization"
       ],
       "persuasive_function": "Places slavery, bloodshed, guilt, and reconciliation under divine judgment rather than partisan triumph.",
       "moral_emotions_activated": [
@@ -172,10 +398,8 @@
         "reconciliation without denying slavery's offense"
       ],
       "rival_readings": [
-        "Biblical quotation may function as doctrinal citation rather than independently mapped metaphor.",
-        "Dedicated may function as conventional ceremonial diction with limited conceptual force.",
-        "Sunk may be a financial or material idiom without a full metaphorical debt structure.",
-        "Sword remains uncertain: it may be literal weapon, metonym for war, or biblical idiom."
+        "Biblical usage may be conventional theological idiom rather than a separable metaphor.",
+        "The living are not physically set apart like an object or place; they are morally committed to a public task."
       ],
       "negative_cases": [
         "Providence language can be doctrinal quotation or rhetorical convention; it should not be used as evidence of private belief without corroboration."
@@ -184,41 +408,88 @@
       "evidence_status": "provisional-cmt-backed"
     },
     {
-      "cluster_id": "lincoln-08-sacrificial-death-gift",
+      "cluster_id": "lincoln-07-absence-black-agency",
       "mapping_ids": [
-        "lincoln-cmt-002",
-        "lincoln-cmt-004"
+        "lincoln-cmt-063"
       ],
       "source_domains": [
-        "body",
-        "debt_accounting",
-        "nature_organism",
-        "sacrifice"
+        "debt_accounting"
       ],
       "target_domains": [
-        "civil_war",
-        "nation"
+        "slavery"
       ],
       "major_expressions": [
-        "final resting place ... gave their lives that this nation might live",
-        "gave the last full measure of devotion"
+        "sunk / paid / sword / judgments"
       ],
       "corpus_distribution": {
-        "mapping_count": 2,
+        "mapping_count": 1,
         "documents": [
-          "lincoln-gettysburg-address"
+          "lincoln-second-inaugural"
         ],
-        "periods": [
-          "peak-war-sacrifice"
-        ],
+        "periods": [],
         "rhetorical_salience": [
-          "high"
+          "medium"
         ]
       },
       "rhetorical_contexts": [
-        "consecration",
-        "exhortation",
-        "memorialization"
+        "argument"
+      ],
+      "persuasive_function": "Marks a structural gap: the metaphorical systems reviewed raise the question of where Black political and military agency is represented or suppressed.",
+      "moral_emotions_activated": [
+        "critical attention to what is missing",
+        "awareness of whose sacrifice is named versus whose is erased"
+      ],
+      "political_actions_authorized": [
+        "recognition of Black political agency as analytically required by the evidence"
+      ],
+      "rival_readings": [
+        "Wealth is not literally submerged; it is imagined as disappearing downward or being consumed."
+      ],
+      "negative_cases": [
+        "This cluster is currently under-evidenced in the MIPVU review; it marks a review question rather than a confirmed finding."
+      ],
+      "relation_to_koenigsbergian_analysis": "Supports the absence-and-agency dimension: the Koenigsbergian framework requires attention to whose agency is suppressed by the dominant metaphor systems.",
+      "evidence_status": "provisional-cmt-backed"
+    },
+    {
+      "cluster_id": "lincoln-08-sacrificial-death-gift",
+      "mapping_ids": [
+        "lincoln-cmt-012",
+        "lincoln-cmt-013",
+        "lincoln-cmt-016",
+        "lincoln-cmt-018",
+        "lincoln-cmt-019"
+      ],
+      "source_domains": [
+        "sacrifice",
+        "theater_stage"
+      ],
+      "target_domains": [
+        "citizenship",
+        "political_order",
+        "war_death"
+      ],
+      "major_expressions": [
+        "blood",
+        "sacrificed",
+        "spill / blood",
+        "swept / stage / existence",
+        "trample / blood / tear / charter"
+      ],
+      "corpus_distribution": {
+        "mapping_count": 5,
+        "documents": [
+          "lincoln-lyceum-address"
+        ],
+        "periods": [],
+        "rhetorical_salience": [
+          "high",
+          "medium"
+        ]
+      },
+      "rhetorical_contexts": [
+        "argument",
+        "commemoration"
       ],
       "persuasive_function": "Converts soldier death into an offering that obligates the living.",
       "moral_emotions_activated": [
@@ -233,8 +504,9 @@
         "preservation of national life"
       ],
       "rival_readings": [
-        "Measure may be conventional quantifying language rather than a distinct accounting source domain.",
-        "The sentence may be read as solemn memorial diction rather than a fully active sacrificial mapping."
+        "Human death or removal is framed through theatrical stage imagery.",
+        "Revolutionary inheritance and legal liberty are treated as bodily/material things that can be spilled, trampled, or torn.",
+        "The killing is historical violence, not a ritual offering, but is named through sacrificial vocabulary."
       ],
       "negative_cases": [
         "The current evidence sacralizes Union death but does not make killing an end in itself."

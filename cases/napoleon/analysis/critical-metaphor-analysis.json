@@ -1,0 +1,249 @@
+{
+  "version": "1.0",
+  "case_id": "napoleon",
+  "generated_at": "2026-06-17T15:09:55",
+  "status": "draft",
+  "source": "corpus/cmt/cmt-mappings.json",
+  "cluster_profiles": [
+    {
+      "cluster_id": "napoleon-01-glory-destiny",
+      "mapping_ids": [
+        "napoleon-cmt-003",
+        "napoleon-cmt-006",
+        "napoleon-cmt-007",
+        "napoleon-cmt-008",
+        "napoleon-cmt-015",
+        "napoleon-cmt-017"
+      ],
+      "source_domains": [
+        "light_darkness",
+        "object_material"
+      ],
+      "target_domains": [
+        "history",
+        "military_virtue"
+      ],
+      "major_expressions": [
+        "couronne",
+        "gloire",
+        "tombeau",
+        "trophées"
+      ],
+      "corpus_distribution": {
+        "mapping_count": 6,
+        "documents": [
+          "napoleon-bulletin-1805-12-04-austerlitz-aftermath",
+          "napoleon-bulletin-1806-10-26-berlin",
+          "napoleon-bulletin-1807-02-08-eylau",
+          "napoleon-bulletin-1809-07-08-wagram"
+        ],
+        "periods": [],
+        "rhetorical_salience": [
+          "high",
+          "medium"
+        ]
+      },
+      "rhetorical_contexts": [
+        "argument"
+      ],
+      "persuasive_function": "Makes military victory feel like historical destiny, converting contingent battle outcomes into inevitable providential unfolding.",
+      "moral_emotions_activated": [
+        "awe",
+        "pride",
+        "reverence for greatness",
+        "excitement at historical participation"
+      ],
+      "political_actions_authorized": [
+        "continued military campaign",
+        "obedience to Napoleon as destiny's instrument",
+        "acceptance of sacrifice"
+      ],
+      "rival_readings": [
+        "Glory is not a physical covering or companion, but the French phrasing treats it as something one is covered with or dies with.",
+        "The objects may be literal, but they also condense monarchy, victory, and imperial memory."
+      ],
+      "negative_cases": [
+        "Glory/destiny framing is most intense in the early victories (Austerlitz, Jena); after Eylau and especially after 1812 it becomes strained."
+      ],
+      "relation_to_koenigsbergian_analysis": "Naturalizes the Emperor as the sacred object's embodiment; destiny suppresses the contingency and human agency behind the wars.",
+      "evidence_status": "provisional-cmt-backed"
+    },
+    {
+      "cluster_id": "napoleon-02-army-body",
+      "mapping_ids": [
+        "napoleon-cmt-001",
+        "napoleon-cmt-005",
+        "napoleon-cmt-009",
+        "napoleon-cmt-010",
+        "napoleon-cmt-013",
+        "napoleon-cmt-014",
+        "napoleon-cmt-016",
+        "napoleon-cmt-018"
+      ],
+      "source_domains": [
+        "body",
+        "sacrifice"
+      ],
+      "target_domains": [
+        "army",
+        "military_virtue",
+        "war_death"
+      ],
+      "major_expressions": [
+        "bouches / feu / mort",
+        "fortune",
+        "sang",
+        "victoire"
+      ],
+      "corpus_distribution": {
+        "mapping_count": 8,
+        "documents": [
+          "napoleon-bulletin-1805-12-03-austerlitz",
+          "napoleon-bulletin-1806-10-15-jena",
+          "napoleon-bulletin-1807-02-08-eylau",
+          "napoleon-bulletin-1807-06-14-friedland",
+          "napoleon-bulletin-1809-07-08-wagram",
+          "napoleon-bulletin-1812-12-03-russia-29th"
+        ],
+        "periods": [],
+        "rhetorical_salience": [
+          "high",
+          "medium"
+        ]
+      },
+      "rhetorical_contexts": [
+        "argument",
+        "commemoration"
+      ],
+      "persuasive_function": "Constructs the Grande Armée as a collective organism whose health and discipline embody the Empire's vitality.",
+      "moral_emotions_activated": [
+        "solidarity",
+        "martial pride",
+        "duty to the collective body"
+      ],
+      "political_actions_authorized": [
+        "military discipline",
+        "collective sacrifice",
+        "continued campaigns"
+      ],
+      "rival_readings": [
+        "Cannons are not literal mouths; the French military term preserves body/fire imagery.",
+        "Fortune does not literally smile or act like a human force.",
+        "The army's honor is abstract while blood is bodily; the pair turns battle into bodily and reputational expenditure.",
+        "Victory is abstract but is described as hesitating, deciding, or belonging to an army."
+      ],
+      "negative_cases": [
+        "Army-as-body language is more prominent in bulletins with high casualty counts (Eylau); it functions to absorb individual loss into collective identity."
+      ],
+      "relation_to_koenigsbergian_analysis": "Supports the sacrificial-body dimension: the army's suffering is the body whose sacrifice sustains the imperial order.",
+      "evidence_status": "provisional-cmt-backed"
+    },
+    {
+      "cluster_id": "napoleon-03-emperor-embodiment",
+      "mapping_ids": [
+        "napoleon-cmt-002"
+      ],
+      "source_domains": [
+        "sacrifice"
+      ],
+      "target_domains": [
+        "nation"
+      ],
+      "major_expressions": [
+        "braves / morts / patrie / victoire"
+      ],
+      "corpus_distribution": {
+        "mapping_count": 1,
+        "documents": [
+          "napoleon-bulletin-1805-12-03-austerlitz"
+        ],
+        "periods": [],
+        "rhetorical_salience": [
+          "high"
+        ]
+      },
+      "rhetorical_contexts": [
+        "commemoration",
+        "national_self_definition"
+      ],
+      "persuasive_function": "Consolidates authority by making Napoleon the personal embodiment of France, history, and destiny.",
+      "moral_emotions_activated": [
+        "devotion",
+        "awe",
+        "identification with Napoleon as historical agent"
+      ],
+      "political_actions_authorized": [
+        "personal loyalty",
+        "obedience to imperial command",
+        "sacrifice on behalf of the Emperor"
+      ],
+      "rival_readings": [
+        "The deaths are literal, but the office and thanksgiving frame them as meaningful patriotic-sacred sacrifice."
+      ],
+      "negative_cases": [
+        "Emperor-embodiment is an imperial construction; the bulletins do not record dissent, desertion, or the limits of the soldiers' actual devotion."
+      ],
+      "relation_to_koenigsbergian_analysis": "The Emperor is the sacred object and its guardian simultaneously; sacrifice for Napoleon is sacrifice for the nation made flesh.",
+      "evidence_status": "provisional-cmt-backed"
+    },
+    {
+      "cluster_id": "napoleon-05-soldier-sacrifice",
+      "mapping_ids": [
+        "napoleon-cmt-004",
+        "napoleon-cmt-011",
+        "napoleon-cmt-012",
+        "napoleon-cmt-019"
+      ],
+      "source_domains": [
+        "journey_motion",
+        "sacrifice"
+      ],
+      "target_domains": [
+        "war_death"
+      ],
+      "major_expressions": [
+        "destin",
+        "mort",
+        "morts / gloire",
+        "sang"
+      ],
+      "corpus_distribution": {
+        "mapping_count": 4,
+        "documents": [
+          "napoleon-bulletin-1806-10-15-jena",
+          "napoleon-bulletin-1807-02-08-eylau",
+          "napoleon-bulletin-1813-05-24-bautzen"
+        ],
+        "periods": [],
+        "rhetorical_salience": [
+          "high",
+          "medium"
+        ]
+      },
+      "rhetorical_contexts": [
+        "argument",
+        "commemoration"
+      ],
+      "persuasive_function": "Converts soldier death into honor, glory, and immortality, making mass casualties rhetorically sustainable.",
+      "moral_emotions_activated": [
+        "mourning tempered by pride",
+        "honor",
+        "debt to the fallen"
+      ],
+      "political_actions_authorized": [
+        "continued military service",
+        "acceptance of death as glorious",
+        "solidarity with fallen comrades"
+      ],
+      "rival_readings": [
+        "A battle does not literally possess destiny, but the outcome is construed as fate-like.",
+        "Some death is literal, but the phrasing treats death as an output, seed, or glory-bearing sacrificial cost."
+      ],
+      "negative_cases": [
+        "The Eylau bulletin is the clearest case; after the Russian disaster the same framing strains credibility and disappears from the 29th Bulletin."
+      ],
+      "relation_to_koenigsbergian_analysis": "Directly activates the sacrificial-body dimension: soldier death as meaningful offering sustaining the imperial sacred object.",
+      "evidence_status": "provisional-cmt-backed"
+    }
+  ]
+}

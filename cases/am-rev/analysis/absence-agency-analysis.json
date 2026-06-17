@@ -1,0 +1,114 @@
+{
+  "version": "1.0",
+  "case_id": "am-rev",
+  "generated_at": "2026-06-17T15:09:55",
+  "status": "draft",
+  "method_note": "Absence rows state what would count as presence, what appears muted, and which CMT evidence motivates the review question.",
+  "matrix": [
+    {
+      "absence_id": "am-rev-absence-001",
+      "cluster_id": "am-rev-01-liberty-tyranny",
+      "metaphor_system": "Liberty versus tyranny / slavery",
+      "expected_presence": "Enslaved people for whom the rhetoric of freedom and bondage was literally applicable.",
+      "possible_absence": "The liberty/slavery binary is applied to colonial political status while actual chattel slavery is not addressed.",
+      "agents": [
+        "the people",
+        "colonists",
+        "Americans"
+      ],
+      "patients": [
+        "tyranny",
+        "oppression"
+      ],
+      "beneficiaries": [
+        "free citizens",
+        "the republic"
+      ],
+      "sacrificial_subjects": [
+        "colonists resisting tyranny"
+      ],
+      "excluded_agents": [
+        "enslaved people",
+        "Indigenous peoples",
+        "women"
+      ],
+      "displacement_mechanism": "Political slavery is foregrounded as metaphor while chattel slavery is structurally absent from the rights claim.",
+      "evidence_mapping_ids": [
+        "amrev-cmt-001",
+        "amrev-cmt-005",
+        "amrev-cmt-010"
+      ],
+      "claim_boundary": "A structural absence in the founding documents; not a peripheral oversight."
+    },
+    {
+      "absence_id": "am-rev-absence-002",
+      "cluster_id": "am-rev-03-founding-sacrifice",
+      "metaphor_system": "Founding sacrifice / blood of liberty",
+      "expected_presence": "Non-white and non-propertied soldiers, women, and camp followers whose contributions to the war are absent from the founding narrative.",
+      "possible_absence": "Sacrifice is attributed to 'the people' and 'brave soldiers' in ways that exclude those who fought but are not included in the republic's beneficiaries.",
+      "agents": [
+        "the army",
+        "brave soldiers",
+        "we"
+      ],
+      "patients": [
+        "the cause",
+        "liberty"
+      ],
+      "beneficiaries": [
+        "the republic",
+        "posterity",
+        "free citizens"
+      ],
+      "sacrificial_subjects": [
+        "Continental Army soldiers — implicitly white and male"
+      ],
+      "excluded_agents": [
+        "Black soldiers (free and enslaved)",
+        "Indigenous allies and opponents",
+        "women in the war effort"
+      ],
+      "displacement_mechanism": "Universal founding-sacrifice language naturalizes an exclusive beneficiary class.",
+      "evidence_mapping_ids": [
+        "amrev-cmt-059",
+        "amrev-cmt-061"
+      ],
+      "claim_boundary": "Review question for fuller historical corroboration."
+    },
+    {
+      "absence_id": "am-rev-absence-003",
+      "cluster_id": "am-rev-02-people-republic",
+      "metaphor_system": "The people / republic as sacred political object",
+      "expected_presence": "Named social constituencies — enslaved people, women, propertyless men, Indigenous peoples — who are excluded from the sovereign 'people'.",
+      "possible_absence": "The 'people' is invoked as universal but constituted as particular; the gap between the claim and its referent is structurally suppressed.",
+      "agents": [
+        "the people",
+        "we",
+        "free citizens"
+      ],
+      "patients": [
+        "tyranny",
+        "government without consent"
+      ],
+      "beneficiaries": [
+        "the republic",
+        "posterity"
+      ],
+      "sacrificial_subjects": [
+        "those who sacrifice to preserve republican government"
+      ],
+      "excluded_agents": [
+        "enslaved people",
+        "Indigenous peoples",
+        "non-propertied men",
+        "women"
+      ],
+      "displacement_mechanism": "Universal-people rhetoric suppresses the particularity of its exclusions.",
+      "evidence_mapping_ids": [
+        "amrev-cmt-002",
+        "amrev-cmt-003"
+      ],
+      "claim_boundary": "Structural absence at the founding; well-documented in historical scholarship."
+    }
+  ]
+}

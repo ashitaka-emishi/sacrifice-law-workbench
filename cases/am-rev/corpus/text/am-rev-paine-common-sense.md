@@ -22,7 +22,7 @@ raw_path: corpus/raw/am-rev-src-01-paine-common-sense.txt
 pipeline_log:
 - stage: normalize-texts
   script: scripts/normalize-texts.py
-  generated_at: '2026-06-17T01:08:21'
+  generated_at: '2026-06-17T06:50:02'
 ---
 
 COMMON SENSE;

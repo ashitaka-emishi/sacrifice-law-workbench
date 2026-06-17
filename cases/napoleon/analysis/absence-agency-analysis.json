@@ -1,0 +1,108 @@
+{
+  "version": "1.0",
+  "case_id": "napoleon",
+  "generated_at": "2026-06-17T15:09:55",
+  "status": "draft",
+  "method_note": "Absence rows state what would count as presence, what appears muted, and which CMT evidence motivates the review question.",
+  "matrix": [
+    {
+      "absence_id": "napoleon-absence-001",
+      "cluster_id": "napoleon-05-soldier-sacrifice",
+      "metaphor_system": "Soldier sacrifice / honor / immortality",
+      "expected_presence": "The scale of death and suffering at Eylau and other engagements; the bodies of the dead and wounded.",
+      "possible_absence": "Mass casualties are converted into glory and honor; the material reality of industrial-scale violence is suppressed.",
+      "agents": [
+        "l'Empereur",
+        "les braves",
+        "la Grande Armée"
+      ],
+      "patients": [
+        "les morts",
+        "les blessés"
+      ],
+      "beneficiaries": [
+        "la gloire",
+        "la France",
+        "l'Empire"
+      ],
+      "sacrificial_subjects": [
+        "French soldiers killed and wounded in battle"
+      ],
+      "excluded_agents": [
+        "enemy dead and wounded as subjects",
+        "families of the fallen",
+        "civilians in war zones"
+      ],
+      "displacement_mechanism": "Glory and destiny convert individual deaths into abstract historical capital.",
+      "evidence_mapping_ids": [
+        "napoleon-cmt-004",
+        "napoleon-cmt-011"
+      ],
+      "claim_boundary": "Most clearly evidenced at Eylau; requires corroboration from non-bulletin sources."
+    },
+    {
+      "absence_id": "napoleon-absence-002",
+      "cluster_id": "napoleon-06-enemy-obstacle",
+      "metaphor_system": "Enemy as obstacle to order / destiny",
+      "expected_presence": "Enemy populations as subjects — Prussian, Russian, Austrian civilians and soldiers — with their own perspectives and suffering.",
+      "possible_absence": "Enemy is constructed as an obstacle to French destiny rather than as a people with their own historical agency.",
+      "agents": [
+        "l'ennemi",
+        "les coalisés"
+      ],
+      "patients": [
+        "l'ordre impérial",
+        "la paix"
+      ],
+      "beneficiaries": [
+        "la France",
+        "la civilisation"
+      ],
+      "sacrificial_subjects": [
+        "populations of occupied territories"
+      ],
+      "excluded_agents": [
+        "enemy civilian populations",
+        "resistance fighters",
+        "populations under French occupation"
+      ],
+      "displacement_mechanism": "Obstacle framing suppresses enemy agency and civilian experience of conquest.",
+      "evidence_mapping_ids": [
+        "napoleon-cmt-019"
+      ],
+      "claim_boundary": "A structural feature of the bulletin genre; requires non-French sources for the other side."
+    },
+    {
+      "absence_id": "napoleon-absence-003",
+      "cluster_id": "napoleon-03-emperor-embodiment",
+      "metaphor_system": "Emperor as embodiment of France / history",
+      "expected_presence": "The coercive conditions under which soldiers served; desertion, dissent, and the limits of Napoleonic devotion.",
+      "possible_absence": "The bulletins record only devotion and glory; dissent, coercion, and the social costs of perpetual war are absent.",
+      "agents": [
+        "l'Empereur",
+        "la Grande Armée"
+      ],
+      "patients": [
+        "la France",
+        "l'Empire"
+      ],
+      "beneficiaries": [
+        "la gloire",
+        "l'histoire"
+      ],
+      "sacrificial_subjects": [
+        "soldiers who died for the imperial cause"
+      ],
+      "excluded_agents": [
+        "deserters",
+        "conscripts under coercion",
+        "subject peoples of the Empire"
+      ],
+      "displacement_mechanism": "Embodiment rhetoric naturalizes coercive military service as voluntary devotion.",
+      "evidence_mapping_ids": [
+        "napoleon-cmt-002"
+      ],
+      "claim_boundary": "Requires corroboration from non-official sources (memoirs, administrative records)."
+    }
+  ]
+}

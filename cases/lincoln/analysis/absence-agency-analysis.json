@@ -1,7 +1,7 @@
 {
   "version": "1.0",
   "case_id": "lincoln",
-  "generated_at": "2026-06-15T09:49:38",
+  "generated_at": "2026-06-17T15:09:55",
   "status": "draft",
   "method_note": "Absence rows state what would count as presence, what appears muted, and which CMT evidence motivates the review question.",
   "matrix": [
@@ -33,8 +33,8 @@
       ],
       "displacement_mechanism": "Bodily loss is displaced into national obligation and cemetery consecration.",
       "evidence_mapping_ids": [
-        "lincoln-cmt-002",
-        "lincoln-cmt-004"
+        "lincoln-cmt-012",
+        "lincoln-cmt-013"
       ],
       "claim_boundary": "Systematic absence candidate; requires fuller corpus review before becoming a case-level finding."
     },
@@ -68,9 +68,8 @@
       ],
       "displacement_mechanism": "Providential grammar can widen guilt but also blur differentiated human agency.",
       "evidence_mapping_ids": [
-        "lincoln-cmt-007",
-        "lincoln-cmt-008",
-        "lincoln-cmt-009"
+        "lincoln-cmt-055",
+        "lincoln-cmt-061"
       ],
       "claim_boundary": "Interpretive caution, not a claim that Lincoln intentionally suppressed agency."
     },
@@ -101,8 +100,8 @@
       ],
       "displacement_mechanism": "Conflict is condensed into organism survival rather than social plurality.",
       "evidence_mapping_ids": [
-        "lincoln-cmt-001",
-        "lincoln-cmt-006"
+        "lincoln-cmt-003",
+        "lincoln-cmt-004"
       ],
       "claim_boundary": "Useful for rhetorical analysis; not by itself evidence of coercive policy."
     }

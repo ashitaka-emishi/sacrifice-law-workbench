@@ -1,6 +1,6 @@
 # Koenigsbergian Support Synthesis: lincoln
 
-Generated: 2026-06-16T07:53:30
+Generated: 2026-06-17T01:24:46
 
 Status: draft support assessment from reviewed pilot evidence.
 

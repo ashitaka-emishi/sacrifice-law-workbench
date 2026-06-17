@@ -149,7 +149,6 @@ TARGET_DOMAIN_MAP: dict[str, str] = {
     "society": "social_body",
     "reason": "social_body",
     "mob_violence": "political_order",
-    "monarchy": "government",
     "civilizational_agency": "racial_order",
     "collective_psychology": "social_body",
     "national_standing": "nation",
@@ -222,10 +221,10 @@ def _best_cluster(
     if not clusters:
         return "unknown-cluster"
     hints = _CLUSTER_HINTS.get(case_id, [])
-    # Check source and target tokens against hints
-    tokens = set((source + "_" + target + "_" + conceptual_metaphor).lower().split("_"))
+    combined = (source + "_" + target + "_" + conceptual_metaphor).lower()
+    tokens = set(combined.split("_"))
     for keyword_group, cluster_id in hints:
-        if any(kw in tokens for kw in keyword_group):
+        if any(kw in tokens or kw in combined for kw in keyword_group):
             return cluster_id
     # Fallback: first cluster in the list
     return str(clusters[0].get("id", "unknown-cluster"))
@@ -335,7 +334,7 @@ def _cmt_for_group(
         source = SOURCE_DOMAIN_MAP.get(first.get("candidate_source_domain") or "", first.get("candidate_source_domain") or "")
     if not target:
         target = TARGET_DOMAIN_MAP.get(first.get("candidate_target_domain") or "", first.get("candidate_target_domain") or "")
-    confidence_vals = [lu.get("confidence", 0.7) for lu in group_lus if lu.get("confidence") is not None]
+    confidence_vals = [lu.get("confidence") for lu in group_lus if lu.get("confidence") is not None]
     confidence = round(sum(confidence_vals) / len(confidence_vals), 3) if confidence_vals else 0.7
 
     # Build expression from LU tokens

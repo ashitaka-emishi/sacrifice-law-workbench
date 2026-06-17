@@ -1,0 +1,107 @@
+{
+  "version": "1.0",
+  "case_id": "hitler",
+  "generated_at": "2026-06-17T15:09:55",
+  "status": "draft",
+  "method_note": "Absence rows state what would count as presence, what appears muted, and which CMT evidence motivates the review question.",
+  "matrix": [
+    {
+      "absence_id": "hitler-absence-001",
+      "cluster_id": "hitler-03-jew-parasite-disease",
+      "metaphor_system": "Jew / enemy as parasite / disease / poison",
+      "expected_presence": "Jewish people as subjects — their actual lives, agency, communities, and perspectives — not as objects of ideology.",
+      "possible_absence": "The dehumanization logic renders Jewish people as categorical threat rather than as persons with agency; their perspective is structurally absent.",
+      "agents": [
+        "der Jude",
+        "internationales Judentum"
+      ],
+      "patients": [
+        "das Volk",
+        "die Kultur",
+        "der arische Träger der Zivilisation"
+      ],
+      "beneficiaries": [
+        "das gereinigte Reich",
+        "die arische Zivilisation"
+      ],
+      "sacrificial_subjects": [
+        "Jewish people targeted for elimination"
+      ],
+      "excluded_agents": [
+        "Jewish political, cultural, and social actors",
+        "targets of Nazi persecution with no counter-voice in this corpus"
+      ],
+      "displacement_mechanism": "Pathogen framing suppresses Jewish subjectivity entirely; the ideology constructs its own victims as its agents.",
+      "evidence_mapping_ids": [
+        "hitler-cmt-016",
+        "hitler-cmt-017"
+      ],
+      "claim_boundary": "Not an absence in the usual sense — an active erasure that is the ideological goal of the texts under analysis."
+    },
+    {
+      "absence_id": "hitler-absence-002",
+      "cluster_id": "hitler-06-sacrifice-martyrdom",
+      "metaphor_system": "Sacrifice / martyrdom / blood witness",
+      "expected_presence": "The victims of Nazi violence — Jewish people, political opponents, disabled people — whose deaths are suppressed under the movement's own martyrology.",
+      "possible_absence": "Nazi sacrifice rhetoric foregrounds the movement's own dead while the much larger number of victims of Nazi violence are absent from the frame.",
+      "agents": [
+        "die Bewegung",
+        "die Märtyrer des Kampfes"
+      ],
+      "patients": [
+        "die Feinde des Volkes"
+      ],
+      "beneficiaries": [
+        "das Reich",
+        "das Volk"
+      ],
+      "sacrificial_subjects": [
+        "Nazi movement dead — Beer Hall Putsch, Horst Wessel, etc."
+      ],
+      "excluded_agents": [
+        "victims of Nazi political violence",
+        "populations killed by the state the movement created"
+      ],
+      "displacement_mechanism": "Martyrology concentrates sacrificial meaning on perpetrators while suppressing the deaths it caused.",
+      "evidence_mapping_ids": [
+        "hitler-cmt-007",
+        "hitler-cmt-032"
+      ],
+      "claim_boundary": "Requires historical corroboration for the full scope of victim suppression."
+    },
+    {
+      "absence_id": "hitler-absence-003",
+      "cluster_id": "hitler-01-volk-racial-body",
+      "metaphor_system": "Volk / racial body",
+      "expected_presence": "The social and political heterogeneity of the German population; dissent, class conflict, religious diversity, and non-Aryan communities.",
+      "possible_absence": "The racial-body metaphor constructs the Volk as homogeneous, suppressing internal difference and naturalizing exclusion as hygiene.",
+      "agents": [
+        "das Volk",
+        "die Rasse",
+        "der Arier"
+      ],
+      "patients": [
+        "Verunreinigung",
+        "Entartung",
+        "Zersetzung"
+      ],
+      "beneficiaries": [
+        "das reine Volk",
+        "die arische Zivilisation"
+      ],
+      "sacrificial_subjects": [
+        "excluded and eliminated groups whose removal is framed as maintenance of the body"
+      ],
+      "excluded_agents": [
+        "Jewish, Roma, disabled, homosexual, and other excluded populations",
+        "political opponents within the Volk"
+      ],
+      "displacement_mechanism": "Racial-body rhetoric naturalizes exclusion and murder as organic necessity.",
+      "evidence_mapping_ids": [
+        "hitler-cmt-001",
+        "hitler-cmt-002"
+      ],
+      "claim_boundary": "The logic of racial-body rhetoric directly authorized genocide; this is not a hypothesis but a historical fact."
+    }
+  ]
+}

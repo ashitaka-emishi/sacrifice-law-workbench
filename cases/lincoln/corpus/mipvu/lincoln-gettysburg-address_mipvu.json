@@ -3,7 +3,7 @@
   "case_id": "lincoln",
   "document_id": "lincoln-gettysburg-address",
   "source_language": "en",
-  "generated_at": "2026-06-17T01:08:25",
+  "generated_at": "2026-06-17T06:50:08",
   "status": "worklist",
   "meta": {
     "title": "Address Delivered at the Dedication of the Cemetery at Gettysburg",
@@ -182,18 +182,18 @@
       "sentence_char_offset_end": 51,
       "review_status": "accepted",
       "semantic_shift_risk": "medium",
-      "basic_meaning": "bringing a child or living being into existence",
-      "basic_meaning_source": "Webster 1828, \"conceive\" / \"bring forth\"",
-      "decision_type": "mipvu_direct",
-      "contextual_meaning": "political founding of a nation is represented through generation or birth",
-      "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "confidence": 0.82,
       "candidate_target_domain": "nation",
-      "review_notes": "Gettysburg opening uses birth-generation language; preserve the period-control note on conceived/brought forth.",
-      "annotator": "codex-assisted-mipvu-v1",
+      "decision_type": "mipvu_direct",
+      "basic_meaning": "bringing a child or living being into existence",
       "comparison_basis": "Political founding is understood through human generation.",
+      "review_batch": "lincoln-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
       "contrast_explanation": "The nation is not literally born, yet its founding is framed through birth-generation language.",
-      "candidate_source_domain": "birth_generation"
+      "contextual_meaning": "political founding of a nation is represented through generation or birth",
+      "confidence": 0.82,
+      "candidate_source_domain": "birth_generation",
+      "basic_meaning_source": "Webster 1828, \"conceive\" / \"bring forth\"",
+      "review_notes": "Gettysburg opening uses birth-generation language; preserve the period-control note on conceived/brought forth."
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p01_s01_lu010",
@@ -211,18 +211,18 @@
       "sentence_char_offset_end": 57,
       "review_status": "accepted",
       "semantic_shift_risk": "medium",
-      "basic_meaning": "bringing a child or living being into existence",
-      "basic_meaning_source": "Webster 1828, \"conceive\" / \"bring forth\"",
-      "decision_type": "mipvu_direct",
-      "contextual_meaning": "political founding of a nation is represented through generation or birth",
-      "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "confidence": 0.82,
       "candidate_target_domain": "nation",
-      "review_notes": "Gettysburg opening uses birth-generation language; preserve the period-control note on conceived/brought forth.",
-      "annotator": "codex-assisted-mipvu-v1",
+      "decision_type": "mipvu_direct",
+      "basic_meaning": "bringing a child or living being into existence",
       "comparison_basis": "Political founding is understood through human generation.",
+      "review_batch": "lincoln-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
       "contrast_explanation": "The nation is not literally born, yet its founding is framed through birth-generation language.",
-      "candidate_source_domain": "birth_generation"
+      "contextual_meaning": "political founding of a nation is represented through generation or birth",
+      "confidence": 0.82,
+      "candidate_source_domain": "birth_generation",
+      "basic_meaning_source": "Webster 1828, \"conceive\" / \"bring forth\"",
+      "review_notes": "Gettysburg opening uses birth-generation language; preserve the period-control note on conceived/brought forth."
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p01_s01_lu011",
@@ -354,18 +354,18 @@
       "sentence_char_offset_end": 101,
       "review_status": "accepted",
       "semantic_shift_risk": "medium",
-      "basic_meaning": "bringing a child or living being into existence",
-      "basic_meaning_source": "Webster 1828, \"conceive\" / \"bring forth\"",
-      "decision_type": "mipvu_direct",
-      "contextual_meaning": "political founding of a nation is represented through generation or birth",
-      "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "confidence": 0.9,
       "candidate_target_domain": "nation",
-      "review_notes": "Gettysburg opening uses birth-generation language; preserve the period-control note on conceived/brought forth.",
-      "annotator": "codex-assisted-mipvu-v1",
+      "decision_type": "mipvu_direct",
+      "basic_meaning": "bringing a child or living being into existence",
       "comparison_basis": "Political founding is understood through human generation.",
+      "review_batch": "lincoln-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
       "contrast_explanation": "The nation is not literally born, yet its founding is framed through birth-generation language.",
-      "candidate_source_domain": "birth_generation"
+      "contextual_meaning": "political founding of a nation is represented through generation or birth",
+      "confidence": 0.9,
+      "candidate_source_domain": "birth_generation",
+      "basic_meaning_source": "Webster 1828, \"conceive\" / \"bring forth\"",
+      "review_notes": "Gettysburg opening uses birth-generation language; preserve the period-control note on conceived/brought forth."
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p01_s01_lu018",
@@ -440,18 +440,18 @@
       "sentence_char_offset_end": 127,
       "review_status": "accepted",
       "semantic_shift_risk": "high",
-      "basic_meaning": "set apart or devote to a sacred, solemn, or special purpose",
-      "basic_meaning_source": "Webster 1828, \"dedicate\"",
-      "decision_type": "mipvu_indirect",
-      "contextual_meaning": "committed the nation or people to a political principle",
-      "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "confidence": 0.78,
       "candidate_target_domain": "citizenship",
-      "review_notes": "Ceremonial and religious-register force is plausible; keep distinct from later CMT mapping.",
-      "annotator": "codex-assisted-mipvu-v1",
+      "decision_type": "mipvu_indirect",
+      "basic_meaning": "set apart or devote to a sacred, solemn, or special purpose",
       "comparison_basis": "Political commitment is understood through dedication or consecration.",
+      "review_batch": "lincoln-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
       "contrast_explanation": "A political community or task is not physically set apart, but is framed as solemnly devoted.",
-      "candidate_source_domain": "religion_providence"
+      "contextual_meaning": "committed the nation or people to a political principle",
+      "confidence": 0.78,
+      "candidate_source_domain": "religion_providence",
+      "basic_meaning_source": "Webster 1828, \"dedicate\"",
+      "review_notes": "Ceremonial and religious-register force is plausible; keep distinct from later CMT mapping."
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p01_s01_lu022",
@@ -1077,18 +1077,18 @@
       "sentence_char_offset_end": 137,
       "review_status": "reviewed",
       "semantic_shift_risk": "low",
-      "basic_meaning": "a living organism continues alive, dies, perishes, survives, or endures bodily strain",
-      "basic_meaning_source": "Webster 1828, \"endure\"",
-      "decision_type": "mipvu_personification",
-      "contextual_meaning": "the nation or government continues or ceases political existence",
-      "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "confidence": 0.72,
       "candidate_target_domain": "nation",
-      "review_notes": "Body-politic survival language; use as MIPVU evidence only with its local national subject.",
-      "annotator": "codex-assisted-mipvu-v1",
+      "decision_type": "mipvu_personification",
+      "basic_meaning": "a living organism continues alive, dies, perishes, survives, or endures bodily strain",
       "comparison_basis": "Political survival is understood through organismic life and death.",
+      "review_batch": "lincoln-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
       "contrast_explanation": "A polity is not a biological organism, but its political existence is construed as bodily life or death.",
-      "candidate_source_domain": "nature_organism"
+      "contextual_meaning": "the nation or government continues or ceases political existence",
+      "confidence": 0.72,
+      "candidate_source_domain": "nature_organism",
+      "basic_meaning_source": "Webster 1828, \"endure\"",
+      "review_notes": "Body-politic survival language; use as MIPVU evidence only with its local national subject."
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p02_s02_lu001",
@@ -1298,8 +1298,8 @@
       "semantic_shift_risk": "low",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "annotator": "codex-draft"
+      "annotator": "codex-draft",
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p03_s01_lu002",
@@ -1319,8 +1319,8 @@
       "semantic_shift_risk": "low",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "annotator": "codex-draft"
+      "annotator": "codex-draft",
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p03_s01_lu003",
@@ -1340,8 +1340,8 @@
       "semantic_shift_risk": "low",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "annotator": "codex-draft"
+      "annotator": "codex-draft",
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p03_s01_lu004",
@@ -1361,8 +1361,8 @@
       "semantic_shift_risk": "low",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "annotator": "codex-draft"
+      "annotator": "codex-draft",
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p03_s01_lu005",
@@ -1382,8 +1382,8 @@
       "semantic_shift_risk": "low",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "annotator": "codex-draft"
+      "annotator": "codex-draft",
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p03_s01_lu006",
@@ -1403,8 +1403,8 @@
       "semantic_shift_risk": "low",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "annotator": "codex-draft"
+      "annotator": "codex-draft",
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p03_s01_lu007",
@@ -1424,8 +1424,8 @@
       "semantic_shift_risk": "low",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "annotator": "codex-draft"
+      "annotator": "codex-draft",
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p03_s01_lu008",
@@ -1445,8 +1445,8 @@
       "semantic_shift_risk": "low",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "annotator": "codex-draft"
+      "annotator": "codex-draft",
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p03_s01_lu009",
@@ -1466,8 +1466,8 @@
       "semantic_shift_risk": "low",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "annotator": "codex-draft"
+      "annotator": "codex-draft",
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p03_s01_lu010",
@@ -1487,8 +1487,8 @@
       "semantic_shift_risk": "low",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "annotator": "codex-draft"
+      "annotator": "codex-draft",
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p03_s01_lu011",
@@ -1508,8 +1508,8 @@
       "semantic_shift_risk": "low",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "annotator": "codex-draft"
+      "annotator": "codex-draft",
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p03_s01_lu012",
@@ -1529,8 +1529,8 @@
       "semantic_shift_risk": "low",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "annotator": "codex-draft"
+      "annotator": "codex-draft",
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p03_s01_lu013",
@@ -1550,8 +1550,8 @@
       "semantic_shift_risk": "low",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "annotator": "codex-draft"
+      "annotator": "codex-draft",
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p03_s01_lu014",
@@ -1569,18 +1569,18 @@
       "sentence_char_offset_end": 67,
       "review_status": "reviewed",
       "semantic_shift_risk": "medium",
-      "basic_meaning": "physical rest after activity or sleep-like repose",
-      "basic_meaning_source": "Webster 1828, 'rest' / 'resting'",
-      "decision_type": "mipvu_indirect",
-      "contextual_meaning": "burial or cemetery repose for the war dead",
-      "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "confidence": 0.72,
       "candidate_target_domain": "death",
-      "review_notes": "Conventional death-as-rest euphemism in a cemetery dedication setting; retain as metaphor-related but not high-confidence ideological evidence by itself.",
-      "annotator": "codex-draft",
+      "decision_type": "mipvu_indirect",
+      "basic_meaning": "physical rest after activity or sleep-like repose",
       "comparison_basis": "Death or burial is understood through bodily rest/repose.",
+      "review_batch": "lincoln-full-corpus-mipvu-review-v1",
+      "annotator": "codex-draft",
       "contrast_explanation": "The contextual meaning concerns burial/death rather than ordinary bodily rest after exertion.",
-      "candidate_source_domain": "body"
+      "contextual_meaning": "burial or cemetery repose for the war dead",
+      "confidence": 0.72,
+      "candidate_source_domain": "body",
+      "basic_meaning_source": "Webster 1828, 'rest' / 'resting'",
+      "review_notes": "Conventional death-as-rest euphemism in a cemetery dedication setting; retain as metaphor-related but not high-confidence ideological evidence by itself."
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p03_s01_lu015",
@@ -1600,8 +1600,8 @@
       "semantic_shift_risk": "low",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "annotator": "codex-draft"
+      "annotator": "codex-draft",
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p03_s01_lu016",
@@ -1621,8 +1621,8 @@
       "semantic_shift_risk": "low",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "annotator": "codex-draft"
+      "annotator": "codex-draft",
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p03_s01_lu017",
@@ -1642,8 +1642,8 @@
       "semantic_shift_risk": "low",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "annotator": "codex-draft"
+      "annotator": "codex-draft",
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p03_s01_lu018",
@@ -1663,8 +1663,8 @@
       "semantic_shift_risk": "low",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "annotator": "codex-draft"
+      "annotator": "codex-draft",
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p03_s01_lu019",
@@ -1684,8 +1684,8 @@
       "semantic_shift_risk": "low",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "annotator": "codex-draft"
+      "annotator": "codex-draft",
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p03_s01_lu020",
@@ -1703,18 +1703,18 @@
       "sentence_char_offset_end": 97,
       "review_status": "reviewed",
       "semantic_shift_risk": "medium",
-      "basic_meaning": "transfer possession of something to another",
-      "basic_meaning_source": "Webster 1828, 'give'",
-      "decision_type": "mipvu_indirect",
-      "contextual_meaning": "surrendered or offered their lives in battle",
-      "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "confidence": 0.86,
       "candidate_target_domain": "war_death",
-      "review_notes": "Supports later sacrificial-body review when linked with lives/nation/live context; avoid treating the verb alone as sufficient evidence.",
-      "annotator": "codex-draft",
+      "decision_type": "mipvu_indirect",
+      "basic_meaning": "transfer possession of something to another",
       "comparison_basis": "Sacrificial death is understood through transfer or offering of a valued possession.",
+      "review_batch": "lincoln-full-corpus-mipvu-review-v1",
+      "annotator": "codex-draft",
       "contrast_explanation": "Lives are not ordinary transferable objects, but the verb frames death as a gift or offering.",
-      "candidate_source_domain": "sacrifice"
+      "contextual_meaning": "surrendered or offered their lives in battle",
+      "confidence": 0.86,
+      "candidate_source_domain": "sacrifice",
+      "basic_meaning_source": "Webster 1828, 'give'",
+      "review_notes": "Supports later sacrificial-body review when linked with lives/nation/live context; avoid treating the verb alone as sufficient evidence."
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p03_s01_lu021",
@@ -1734,8 +1734,8 @@
       "semantic_shift_risk": "low",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "annotator": "codex-draft"
+      "annotator": "codex-draft",
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p03_s01_lu022",
@@ -1755,8 +1755,8 @@
       "semantic_shift_risk": "low",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "annotator": "codex-draft"
+      "annotator": "codex-draft",
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p03_s01_lu023",
@@ -1776,8 +1776,8 @@
       "semantic_shift_risk": "low",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "annotator": "codex-draft"
+      "annotator": "codex-draft",
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p03_s01_lu024",
@@ -1797,8 +1797,8 @@
       "semantic_shift_risk": "low",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "annotator": "codex-draft"
+      "annotator": "codex-draft",
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p03_s01_lu025",
@@ -1818,8 +1818,8 @@
       "semantic_shift_risk": "low",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "annotator": "codex-draft"
+      "annotator": "codex-draft",
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p03_s01_lu026",
@@ -1839,8 +1839,8 @@
       "semantic_shift_risk": "low",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "annotator": "codex-draft"
+      "annotator": "codex-draft",
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p03_s01_lu027",
@@ -1858,18 +1858,18 @@
       "sentence_char_offset_end": 137,
       "review_status": "reviewed",
       "semantic_shift_risk": "low",
-      "basic_meaning": "a living organism remains alive",
-      "basic_meaning_source": "Webster 1828, 'live'",
-      "decision_type": "mipvu_personification",
-      "contextual_meaning": "the nation would continue to exist politically",
-      "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "confidence": 0.93,
       "candidate_target_domain": "nation",
-      "review_notes": "Strong candidate for NATION IS LIVING BODY/ORGANISM mapping in this sentence.",
-      "annotator": "codex-draft",
+      "decision_type": "mipvu_personification",
+      "basic_meaning": "a living organism remains alive",
       "comparison_basis": "Political survival is understood by comparison with organismic life.",
+      "review_batch": "lincoln-full-corpus-mipvu-review-v1",
+      "annotator": "codex-draft",
       "contrast_explanation": "A nation is not a biological organism, but its survival is construed as life.",
-      "candidate_source_domain": "nature_organism"
+      "contextual_meaning": "the nation would continue to exist politically",
+      "confidence": 0.93,
+      "candidate_source_domain": "nature_organism",
+      "basic_meaning_source": "Webster 1828, 'live'",
+      "review_notes": "Strong candidate for NATION IS LIVING BODY/ORGANISM mapping in this sentence."
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p03_s02_lu001",
@@ -2818,18 +2818,18 @@
       "sentence_char_offset_end": 9,
       "review_status": "accepted",
       "semantic_shift_risk": "low",
-      "basic_meaning": "a person noting, remembering, or forgetting",
-      "basic_meaning_source": "Webster 1828, \"remember\" / \"forget\"",
-      "decision_type": "mipvu_personification",
-      "contextual_meaning": "public memory is attributed to the world as an agent",
-      "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "confidence": 0.84,
       "candidate_target_domain": "historical_memory",
-      "review_notes": "Reliability-sample sentence; likely personification rather than merely literal global public.",
-      "annotator": "codex-assisted-mipvu-v1",
+      "decision_type": "mipvu_personification",
+      "basic_meaning": "a person noting, remembering, or forgetting",
       "comparison_basis": "Collective historical memory is understood through human cognition.",
+      "review_batch": "lincoln-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
       "contrast_explanation": "The world is treated as a remembering person.",
-      "candidate_source_domain": "body"
+      "contextual_meaning": "public memory is attributed to the world as an agent",
+      "confidence": 0.84,
+      "candidate_source_domain": "body",
+      "basic_meaning_source": "Webster 1828, \"remember\" / \"forget\"",
+      "review_notes": "Reliability-sample sentence; likely personification rather than merely literal global public."
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p04_s03_lu003",
@@ -2885,18 +2885,18 @@
       "sentence_char_offset_end": 26,
       "review_status": "accepted",
       "semantic_shift_risk": "low",
-      "basic_meaning": "a person noting, remembering, or forgetting",
-      "basic_meaning_source": "Webster 1828, \"remember\" / \"forget\"",
-      "decision_type": "mipvu_personification",
-      "contextual_meaning": "public memory is attributed to the world as an agent",
-      "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "confidence": 0.84,
       "candidate_target_domain": "historical_memory",
-      "review_notes": "Reliability-sample sentence; likely personification rather than merely literal global public.",
-      "annotator": "codex-assisted-mipvu-v1",
+      "decision_type": "mipvu_personification",
+      "basic_meaning": "a person noting, remembering, or forgetting",
       "comparison_basis": "Collective historical memory is understood through human cognition.",
+      "review_batch": "lincoln-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
       "contrast_explanation": "The world is treated as a remembering person.",
-      "candidate_source_domain": "body"
+      "contextual_meaning": "public memory is attributed to the world as an agent",
+      "confidence": 0.84,
+      "candidate_source_domain": "body",
+      "basic_meaning_source": "Webster 1828, \"remember\" / \"forget\"",
+      "review_notes": "Reliability-sample sentence; likely personification rather than merely literal global public."
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p04_s03_lu006",
@@ -2952,18 +2952,18 @@
       "sentence_char_offset_end": 45,
       "review_status": "accepted",
       "semantic_shift_risk": "low",
-      "basic_meaning": "a person noting, remembering, or forgetting",
-      "basic_meaning_source": "Webster 1828, \"remember\" / \"forget\"",
-      "decision_type": "mipvu_personification",
-      "contextual_meaning": "public memory is attributed to the world as an agent",
-      "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "confidence": 0.84,
       "candidate_target_domain": "historical_memory",
-      "review_notes": "Reliability-sample sentence; likely personification rather than merely literal global public.",
-      "annotator": "codex-assisted-mipvu-v1",
+      "decision_type": "mipvu_personification",
+      "basic_meaning": "a person noting, remembering, or forgetting",
       "comparison_basis": "Collective historical memory is understood through human cognition.",
+      "review_batch": "lincoln-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
       "contrast_explanation": "The world is treated as a remembering person.",
-      "candidate_source_domain": "body"
+      "contextual_meaning": "public memory is attributed to the world as an agent",
+      "confidence": 0.84,
+      "candidate_source_domain": "body",
+      "basic_meaning_source": "Webster 1828, \"remember\" / \"forget\"",
+      "review_notes": "Reliability-sample sentence; likely personification rather than merely literal global public."
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p04_s03_lu009",
@@ -3133,18 +3133,18 @@
       "sentence_char_offset_end": 88,
       "review_status": "accepted",
       "semantic_shift_risk": "low",
-      "basic_meaning": "a person noting, remembering, or forgetting",
-      "basic_meaning_source": "Webster 1828, \"remember\" / \"forget\"",
-      "decision_type": "mipvu_personification",
-      "contextual_meaning": "public memory is attributed to the world as an agent",
-      "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "confidence": 0.84,
       "candidate_target_domain": "historical_memory",
-      "review_notes": "Reliability-sample sentence; likely personification rather than merely literal global public.",
-      "annotator": "codex-assisted-mipvu-v1",
+      "decision_type": "mipvu_personification",
+      "basic_meaning": "a person noting, remembering, or forgetting",
       "comparison_basis": "Collective historical memory is understood through human cognition.",
+      "review_batch": "lincoln-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
       "contrast_explanation": "The world is treated as a remembering person.",
-      "candidate_source_domain": "body"
+      "contextual_meaning": "public memory is attributed to the world as an agent",
+      "confidence": 0.84,
+      "candidate_source_domain": "body",
+      "basic_meaning_source": "Webster 1828, \"remember\" / \"forget\"",
+      "review_notes": "Reliability-sample sentence; likely personification rather than merely literal global public."
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p04_s03_lu018",
@@ -3734,8 +3734,8 @@
       "semantic_shift_risk": "low",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "annotator": "codex-draft"
+      "annotator": "codex-draft",
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu002",
@@ -3755,8 +3755,8 @@
       "semantic_shift_risk": "low",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "annotator": "codex-draft"
+      "annotator": "codex-draft",
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu003",
@@ -3776,8 +3776,8 @@
       "semantic_shift_risk": "low",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "annotator": "codex-draft"
+      "annotator": "codex-draft",
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu004",
@@ -3797,8 +3797,8 @@
       "semantic_shift_risk": "low",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "annotator": "codex-draft"
+      "annotator": "codex-draft",
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu005",
@@ -3818,8 +3818,8 @@
       "semantic_shift_risk": "low",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "annotator": "codex-draft"
+      "annotator": "codex-draft",
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu006",
@@ -3839,8 +3839,8 @@
       "semantic_shift_risk": "low",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "annotator": "codex-draft"
+      "annotator": "codex-draft",
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu007",
@@ -3860,8 +3860,8 @@
       "semantic_shift_risk": "low",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "annotator": "codex-draft"
+      "annotator": "codex-draft",
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu008",
@@ -3881,8 +3881,8 @@
       "semantic_shift_risk": "low",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "annotator": "codex-draft"
+      "annotator": "codex-draft",
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu009",
@@ -3900,18 +3900,18 @@
       "sentence_char_offset_end": 40,
       "review_status": "reviewed",
       "semantic_shift_risk": "high",
-      "basic_meaning": "set apart or devote to a sacred, solemn, or special purpose",
-      "basic_meaning_source": "Webster 1828, 'dedicate'",
-      "decision_type": "mipvu_indirect",
-      "contextual_meaning": "committed to public work or obligation",
-      "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "confidence": 0.8,
       "candidate_target_domain": "citizenship",
-      "review_notes": "Ceremonial register may make this conventional; preserve rival reading during CMT mapping.",
-      "annotator": "codex-draft",
+      "decision_type": "mipvu_indirect",
+      "basic_meaning": "set apart or devote to a sacred, solemn, or special purpose",
       "comparison_basis": "Political obligation is understood through dedication or consecrated devotion.",
+      "review_batch": "lincoln-full-corpus-mipvu-review-v1",
+      "annotator": "codex-draft",
       "contrast_explanation": "The living are not physically set apart like an object or place; they are morally committed to a public task.",
-      "candidate_source_domain": "religion_providence"
+      "contextual_meaning": "committed to public work or obligation",
+      "confidence": 0.8,
+      "candidate_source_domain": "religion_providence",
+      "basic_meaning_source": "Webster 1828, 'dedicate'",
+      "review_notes": "Ceremonial register may make this conventional; preserve rival reading during CMT mapping."
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu010",
@@ -3931,8 +3931,8 @@
       "semantic_shift_risk": "low",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "annotator": "codex-draft"
+      "annotator": "codex-draft",
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu011",
@@ -3952,8 +3952,8 @@
       "semantic_shift_risk": "low",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "annotator": "codex-draft"
+      "annotator": "codex-draft",
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu012",
@@ -3973,8 +3973,8 @@
       "semantic_shift_risk": "low",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "annotator": "codex-draft"
+      "annotator": "codex-draft",
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu013",
@@ -3994,8 +3994,8 @@
       "semantic_shift_risk": "low",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "annotator": "codex-draft"
+      "annotator": "codex-draft",
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu014",
@@ -4015,8 +4015,8 @@
       "semantic_shift_risk": "low",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "annotator": "codex-draft"
+      "annotator": "codex-draft",
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu015",
@@ -4036,8 +4036,8 @@
       "semantic_shift_risk": "low",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "annotator": "codex-draft"
+      "annotator": "codex-draft",
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu016",
@@ -4057,8 +4057,8 @@
       "semantic_shift_risk": "low",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "annotator": "codex-draft"
+      "annotator": "codex-draft",
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu017",
@@ -4078,8 +4078,8 @@
       "semantic_shift_risk": "low",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "annotator": "codex-draft"
+      "annotator": "codex-draft",
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu018",
@@ -4099,8 +4099,8 @@
       "semantic_shift_risk": "low",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "annotator": "codex-draft"
+      "annotator": "codex-draft",
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu019",
@@ -4120,8 +4120,8 @@
       "semantic_shift_risk": "low",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "annotator": "codex-draft"
+      "annotator": "codex-draft",
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu020",
@@ -4141,8 +4141,8 @@
       "semantic_shift_risk": "low",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "annotator": "codex-draft"
+      "annotator": "codex-draft",
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu021",
@@ -4162,8 +4162,8 @@
       "semantic_shift_risk": "low",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "annotator": "codex-draft"
+      "annotator": "codex-draft",
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu022",
@@ -4183,8 +4183,8 @@
       "semantic_shift_risk": "low",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "annotator": "codex-draft"
+      "annotator": "codex-draft",
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu023",
@@ -4204,8 +4204,8 @@
       "semantic_shift_risk": "low",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "annotator": "codex-draft"
+      "annotator": "codex-draft",
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu024",
@@ -4225,8 +4225,8 @@
       "semantic_shift_risk": "low",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "annotator": "codex-draft"
+      "annotator": "codex-draft",
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu025",
@@ -4246,8 +4246,8 @@
       "semantic_shift_risk": "low",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "annotator": "codex-draft"
+      "annotator": "codex-draft",
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu026",
@@ -4267,8 +4267,8 @@
       "semantic_shift_risk": "low",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "annotator": "codex-draft"
+      "annotator": "codex-draft",
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu027",
@@ -4288,8 +4288,8 @@
       "semantic_shift_risk": "low",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "annotator": "codex-draft"
+      "annotator": "codex-draft",
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu028",
@@ -4309,8 +4309,8 @@
       "semantic_shift_risk": "low",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "annotator": "codex-draft"
+      "annotator": "codex-draft",
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu029",
@@ -4330,8 +4330,8 @@
       "semantic_shift_risk": "low",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "annotator": "codex-draft"
+      "annotator": "codex-draft",
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu030",
@@ -4351,8 +4351,8 @@
       "semantic_shift_risk": "low",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "annotator": "codex-draft"
+      "annotator": "codex-draft",
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu031",
@@ -4372,8 +4372,8 @@
       "semantic_shift_risk": "low",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "annotator": "codex-draft"
+      "annotator": "codex-draft",
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu032",
@@ -4391,18 +4391,18 @@
       "sentence_char_offset_end": 172,
       "review_status": "reviewed",
       "semantic_shift_risk": "medium",
-      "basic_meaning": "transfer possession of something to another",
-      "basic_meaning_source": "Webster 1828, 'give'",
-      "decision_type": "mipvu_indirect",
-      "contextual_meaning": "sacrificed or expended themselves for the cause",
-      "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "confidence": 0.84,
       "candidate_target_domain": "war_death",
-      "review_notes": "Part of phrase 'gave the last full measure of devotion'; map only with surrounding units.",
-      "annotator": "codex-draft",
+      "decision_type": "mipvu_indirect",
+      "basic_meaning": "transfer possession of something to another",
       "comparison_basis": "Sacrificial commitment is understood as an offering or gift.",
+      "review_batch": "lincoln-full-corpus-mipvu-review-v1",
+      "annotator": "codex-draft",
       "contrast_explanation": "Devotion and death are framed as something given, not as an ordinary transferable object.",
-      "candidate_source_domain": "sacrifice"
+      "contextual_meaning": "sacrificed or expended themselves for the cause",
+      "confidence": 0.84,
+      "candidate_source_domain": "sacrifice",
+      "basic_meaning_source": "Webster 1828, 'give'",
+      "review_notes": "Part of phrase 'gave the last full measure of devotion'; map only with surrounding units."
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu033",
@@ -4422,8 +4422,8 @@
       "semantic_shift_risk": "low",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "annotator": "codex-draft"
+      "annotator": "codex-draft",
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu034",
@@ -4443,8 +4443,8 @@
       "semantic_shift_risk": "low",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "annotator": "codex-draft"
+      "annotator": "codex-draft",
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu035",
@@ -4464,8 +4464,8 @@
       "semantic_shift_risk": "low",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "annotator": "codex-draft"
+      "annotator": "codex-draft",
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu036",
@@ -4483,18 +4483,18 @@
       "sentence_char_offset_end": 194,
       "review_status": "reviewed",
       "semantic_shift_risk": "medium",
-      "basic_meaning": "a quantity determined by measuring",
-      "basic_meaning_source": "Webster 1828, 'measure'",
-      "decision_type": "mipvu_indirect",
-      "contextual_meaning": "complete extent of devotion or sacrifice",
-      "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "confidence": 0.76,
       "candidate_target_domain": "sacrifice",
-      "review_notes": "Works with 'last full measure of devotion' as moral accounting/sacrificial scale.",
-      "annotator": "codex-draft",
+      "decision_type": "mipvu_indirect",
+      "basic_meaning": "a quantity determined by measuring",
       "comparison_basis": "Moral commitment is understood through measurable quantity or fullness.",
+      "review_batch": "lincoln-full-corpus-mipvu-review-v1",
+      "annotator": "codex-draft",
       "contrast_explanation": "Devotion is abstract and not literally measured as a physical quantity.",
-      "candidate_source_domain": "debt_accounting"
+      "contextual_meaning": "complete extent of devotion or sacrifice",
+      "confidence": 0.76,
+      "candidate_source_domain": "debt_accounting",
+      "basic_meaning_source": "Webster 1828, 'measure'",
+      "review_notes": "Works with 'last full measure of devotion' as moral accounting/sacrificial scale."
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu037",
@@ -4514,8 +4514,8 @@
       "semantic_shift_risk": "low",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "annotator": "codex-draft"
+      "annotator": "codex-draft",
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu038",
@@ -4535,8 +4535,8 @@
       "semantic_shift_risk": "low",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "annotator": "codex-draft"
+      "annotator": "codex-draft",
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu039",
@@ -4556,8 +4556,8 @@
       "semantic_shift_risk": "low",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "annotator": "codex-draft"
+      "annotator": "codex-draft",
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu040",
@@ -4577,8 +4577,8 @@
       "semantic_shift_risk": "low",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "annotator": "codex-draft"
+      "annotator": "codex-draft",
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu041",
@@ -4598,8 +4598,8 @@
       "semantic_shift_risk": "low",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "annotator": "codex-draft"
+      "annotator": "codex-draft",
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu042",
@@ -4619,8 +4619,8 @@
       "semantic_shift_risk": "low",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "annotator": "codex-draft"
+      "annotator": "codex-draft",
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu043",
@@ -4640,8 +4640,8 @@
       "semantic_shift_risk": "low",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "annotator": "codex-draft"
+      "annotator": "codex-draft",
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu044",
@@ -4661,8 +4661,8 @@
       "semantic_shift_risk": "low",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "annotator": "codex-draft"
+      "annotator": "codex-draft",
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu045",
@@ -4682,8 +4682,8 @@
       "semantic_shift_risk": "low",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "annotator": "codex-draft"
+      "annotator": "codex-draft",
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu046",
@@ -4703,8 +4703,8 @@
       "semantic_shift_risk": "low",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "annotator": "codex-draft"
+      "annotator": "codex-draft",
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu047",
@@ -4724,8 +4724,8 @@
       "semantic_shift_risk": "low",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "annotator": "codex-draft"
+      "annotator": "codex-draft",
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu048",
@@ -4745,8 +4745,8 @@
       "semantic_shift_risk": "low",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "annotator": "codex-draft"
+      "annotator": "codex-draft",
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu049",
@@ -4766,8 +4766,8 @@
       "semantic_shift_risk": "low",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "annotator": "codex-draft"
+      "annotator": "codex-draft",
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu050",
@@ -4787,8 +4787,8 @@
       "semantic_shift_risk": "low",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "annotator": "codex-draft"
+      "annotator": "codex-draft",
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu051",
@@ -4808,8 +4808,8 @@
       "semantic_shift_risk": "low",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "annotator": "codex-draft"
+      "annotator": "codex-draft",
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu052",
@@ -4829,8 +4829,8 @@
       "semantic_shift_risk": "low",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "annotator": "codex-draft"
+      "annotator": "codex-draft",
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu053",
@@ -4850,8 +4850,8 @@
       "semantic_shift_risk": "low",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "annotator": "codex-draft"
+      "annotator": "codex-draft",
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu054",
@@ -4871,8 +4871,8 @@
       "semantic_shift_risk": "low",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "annotator": "codex-draft"
+      "annotator": "codex-draft",
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu055",
@@ -4892,8 +4892,8 @@
       "semantic_shift_risk": "low",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "annotator": "codex-draft"
+      "annotator": "codex-draft",
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu056",
@@ -4913,8 +4913,8 @@
       "semantic_shift_risk": "low",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "annotator": "codex-draft"
+      "annotator": "codex-draft",
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu057",
@@ -4934,8 +4934,8 @@
       "semantic_shift_risk": "low",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "annotator": "codex-draft"
+      "annotator": "codex-draft",
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu058",
@@ -4955,8 +4955,8 @@
       "semantic_shift_risk": "low",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "annotator": "codex-draft"
+      "annotator": "codex-draft",
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu059",
@@ -4976,8 +4976,8 @@
       "semantic_shift_risk": "low",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "annotator": "codex-draft"
+      "annotator": "codex-draft",
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu060",
@@ -4997,8 +4997,8 @@
       "semantic_shift_risk": "low",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "annotator": "codex-draft"
+      "annotator": "codex-draft",
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu061",
@@ -5018,8 +5018,8 @@
       "semantic_shift_risk": "low",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "annotator": "codex-draft"
+      "annotator": "codex-draft",
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu062",
@@ -5037,18 +5037,18 @@
       "sentence_char_offset_end": 340,
       "review_status": "reviewed",
       "semantic_shift_risk": "medium",
-      "basic_meaning": "emergence of a child or living being from the womb",
-      "basic_meaning_source": "Webster 1828, 'birth'",
-      "decision_type": "mipvu_direct",
-      "contextual_meaning": "political renewal of freedom after war sacrifice",
-      "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "confidence": 0.95,
       "candidate_target_domain": "freedom",
-      "review_notes": "High-salience candidate for POLITICAL RENEWAL IS BIRTH; check against historical semantics note on birth/conceived/brought forth.",
-      "annotator": "codex-draft",
+      "decision_type": "mipvu_direct",
+      "basic_meaning": "emergence of a child or living being from the womb",
       "comparison_basis": "Political renewal is understood through generation and birth.",
+      "review_batch": "lincoln-full-corpus-mipvu-review-v1",
+      "annotator": "codex-draft",
       "contrast_explanation": "Freedom is not biologically born, but political renewal is explicitly described as birth.",
-      "candidate_source_domain": "birth_generation"
+      "contextual_meaning": "political renewal of freedom after war sacrifice",
+      "confidence": 0.95,
+      "candidate_source_domain": "birth_generation",
+      "basic_meaning_source": "Webster 1828, 'birth'",
+      "review_notes": "High-salience candidate for POLITICAL RENEWAL IS BIRTH; check against historical semantics note on birth/conceived/brought forth."
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu063",
@@ -5068,8 +5068,8 @@
       "semantic_shift_risk": "low",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "annotator": "codex-draft"
+      "annotator": "codex-draft",
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu064",
@@ -5089,8 +5089,8 @@
       "semantic_shift_risk": "low",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "annotator": "codex-draft"
+      "annotator": "codex-draft",
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu065",
@@ -5110,8 +5110,8 @@
       "semantic_shift_risk": "low",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "annotator": "codex-draft"
+      "annotator": "codex-draft",
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu066",
@@ -5131,8 +5131,8 @@
       "semantic_shift_risk": "low",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "annotator": "codex-draft"
+      "annotator": "codex-draft",
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu067",
@@ -5152,8 +5152,8 @@
       "semantic_shift_risk": "low",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "annotator": "codex-draft"
+      "annotator": "codex-draft",
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu068",
@@ -5173,8 +5173,8 @@
       "semantic_shift_risk": "low",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "annotator": "codex-draft"
+      "annotator": "codex-draft",
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu069",
@@ -5194,8 +5194,8 @@
       "semantic_shift_risk": "low",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "annotator": "codex-draft"
+      "annotator": "codex-draft",
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu070",
@@ -5215,8 +5215,8 @@
       "semantic_shift_risk": "low",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "annotator": "codex-draft"
+      "annotator": "codex-draft",
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu071",
@@ -5236,8 +5236,8 @@
       "semantic_shift_risk": "low",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "annotator": "codex-draft"
+      "annotator": "codex-draft",
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu072",
@@ -5257,8 +5257,8 @@
       "semantic_shift_risk": "low",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "annotator": "codex-draft"
+      "annotator": "codex-draft",
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu073",
@@ -5278,8 +5278,8 @@
       "semantic_shift_risk": "low",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "annotator": "codex-draft"
+      "annotator": "codex-draft",
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu074",
@@ -5299,8 +5299,8 @@
       "semantic_shift_risk": "low",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "annotator": "codex-draft"
+      "annotator": "codex-draft",
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu075",
@@ -5320,8 +5320,8 @@
       "semantic_shift_risk": "low",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "annotator": "codex-draft"
+      "annotator": "codex-draft",
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu076",
@@ -5341,8 +5341,8 @@
       "semantic_shift_risk": "low",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "annotator": "codex-draft"
+      "annotator": "codex-draft",
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu077",
@@ -5362,8 +5362,8 @@
       "semantic_shift_risk": "low",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "annotator": "codex-draft"
+      "annotator": "codex-draft",
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu078",
@@ -5383,8 +5383,8 @@
       "semantic_shift_risk": "low",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "annotator": "codex-draft"
+      "annotator": "codex-draft",
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu079",
@@ -5402,18 +5402,18 @@
       "sentence_char_offset_end": 449,
       "review_status": "reviewed",
       "semantic_shift_risk": "low",
-      "basic_meaning": "a living being dies or is destroyed",
-      "basic_meaning_source": "Webster 1828, 'perish'",
-      "decision_type": "mipvu_personification",
-      "contextual_meaning": "government would not disappear or fail politically",
-      "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "confidence": 0.9,
       "candidate_target_domain": "democracy",
-      "review_notes": "Complements nation/live and nation/birth language in the same address.",
-      "annotator": "codex-draft",
+      "decision_type": "mipvu_personification",
+      "basic_meaning": "a living being dies or is destroyed",
       "comparison_basis": "Political survival is understood through organismic life and death.",
+      "review_batch": "lincoln-full-corpus-mipvu-review-v1",
+      "annotator": "codex-draft",
       "contrast_explanation": "Government is not a biological organism, but its failure is construed as death/perishing.",
-      "candidate_source_domain": "nature_organism"
+      "contextual_meaning": "government would not disappear or fail politically",
+      "confidence": 0.9,
+      "candidate_source_domain": "nature_organism",
+      "basic_meaning_source": "Webster 1828, 'perish'",
+      "review_notes": "Complements nation/live and nation/birth language in the same address."
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu080",
@@ -5433,8 +5433,8 @@
       "semantic_shift_risk": "low",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "annotator": "codex-draft"
+      "annotator": "codex-draft",
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu081",
@@ -5454,8 +5454,8 @@
       "semantic_shift_risk": "low",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "annotator": "codex-draft"
+      "annotator": "codex-draft",
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu082",
@@ -5475,15 +5475,15 @@
       "semantic_shift_risk": "low",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "annotator": "codex-draft"
+      "annotator": "codex-draft",
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     }
   ],
   "pipeline_log": [
     {
       "stage": "generate-mipvu-worklist",
       "script": "scripts/generate-mipvu-worklist.py",
-      "generated_at": "2026-06-17T01:08:25",
+      "generated_at": "2026-06-17T06:50:08",
       "lexical_unit_count": 268
     }
   ]

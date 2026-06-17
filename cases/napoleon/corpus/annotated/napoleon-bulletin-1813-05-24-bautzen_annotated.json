@@ -2,7 +2,7 @@
   "version": "1.0",
   "case_id": "napoleon",
   "document_id": "napoleon-bulletin-1813-05-24-bautzen",
-  "generated_at": "2026-06-17T01:07:47",
+  "generated_at": "2026-06-17T15:09:55",
   "generator": "scripts/generate-annotation-layer.py",
   "annotation_policy": "CMT and Koenigsbergian annotations derived from MIPVU-reviewed metaphorical and uncertain lexical units. Each instance cites at least one MIPVU ID with decision_type in METAPHOR_DECISIONS.",
   "instances": [
@@ -17,7 +17,7 @@
       ],
       "cmt": {
         "mapping_id": "napoleon-cmt-019",
-        "cluster_id": "napoleon-06-enemy-obstacle",
+        "cluster_id": "napoleon-05-soldier-sacrifice",
         "source_domain_primary": "journey_motion",
         "source_domain_secondary": [],
         "target_domain": "war_death",

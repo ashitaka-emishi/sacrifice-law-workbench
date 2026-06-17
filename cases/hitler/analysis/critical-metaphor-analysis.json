@@ -1,0 +1,314 @@
+{
+  "version": "1.0",
+  "case_id": "hitler",
+  "generated_at": "2026-06-17T15:09:55",
+  "status": "draft",
+  "source": "corpus/cmt/cmt-mappings.json",
+  "cluster_profiles": [
+    {
+      "cluster_id": "hitler-01-volk-racial-body",
+      "mapping_ids": [
+        "hitler-cmt-001",
+        "hitler-cmt-002",
+        "hitler-cmt-003",
+        "hitler-cmt-004",
+        "hitler-cmt-005",
+        "hitler-cmt-006",
+        "hitler-cmt-008",
+        "hitler-cmt-009",
+        "hitler-cmt-010",
+        "hitler-cmt-011",
+        "hitler-cmt-012",
+        "hitler-cmt-013",
+        "hitler-cmt-014",
+        "hitler-cmt-015",
+        "hitler-cmt-018",
+        "hitler-cmt-019",
+        "hitler-cmt-020",
+        "hitler-cmt-021",
+        "hitler-cmt-022",
+        "hitler-cmt-023",
+        "hitler-cmt-024",
+        "hitler-cmt-025",
+        "hitler-cmt-026",
+        "hitler-cmt-027",
+        "hitler-cmt-029",
+        "hitler-cmt-030",
+        "hitler-cmt-031",
+        "hitler-cmt-034",
+        "hitler-cmt-035",
+        "hitler-cmt-037",
+        "hitler-cmt-038",
+        "hitler-cmt-040",
+        "hitler-cmt-041",
+        "hitler-cmt-042",
+        "hitler-cmt-043",
+        "hitler-cmt-046",
+        "hitler-cmt-057",
+        "hitler-cmt-059",
+        "hitler-cmt-060",
+        "hitler-cmt-065"
+      ],
+      "source_domains": [
+        "body",
+        "nature_organism",
+        "person_agency",
+        "ritual_religion",
+        "war_combat"
+      ],
+      "target_domains": [
+        "political_order",
+        "purification",
+        "racial_identity",
+        "racial_order",
+        "social_body"
+      ],
+      "major_expressions": [
+        "Ausrottung",
+        "Blut",
+        "Blute",
+        "Blute / Blut",
+        "Blute / Blutes",
+        "Blutes",
+        "Boden",
+        "Geist",
+        "Lebensraum",
+        "Opfers",
+        "Schicksal",
+        "Schicksal / Schicksals",
+        "Schicksals",
+        "Seele",
+        "Sieg",
+        "Sieg / Vernichtung",
+        "Siege"
+      ],
+      "corpus_distribution": {
+        "mapping_count": 40,
+        "documents": [
+          "hitler-mein-kampf-vol1-ch11-race-and-people",
+          "hitler-mein-kampf-vol1-ch12-nsdap",
+          "hitler-mein-kampf-vol1-ch2-wien",
+          "hitler-mein-kampf-vol2-ch1-weltanschauung",
+          "hitler-mein-kampf-vol2-ch14-eastern-europe",
+          "hitler-mein-kampf-vol2-ch2-the-state",
+          "hitler-ussr-proclamation-1941-06-22"
+        ],
+        "periods": [],
+        "rhetorical_salience": [
+          "high",
+          "medium"
+        ]
+      },
+      "rhetorical_contexts": [
+        "argument",
+        "glorification"
+      ],
+      "persuasive_function": "Constructs the German people as a racial organism whose purity must be preserved against contamination and dissolution.",
+      "moral_emotions_activated": [
+        "racial pride",
+        "fear of contamination",
+        "obligation to the Volk"
+      ],
+      "political_actions_authorized": [
+        "racial legislation",
+        "exclusion of racial minorities",
+        "reproductive policy"
+      ],
+      "rival_readings": [
+        "Battle-victory is extended to denote the triumph of races, ideologies, or laws of nature; the competitive combat source domain is applied to politics and biology.",
+        "Biological blood is extended to denote racial descent and inherited essence; the physical source domain underwrites racial-purity claims.",
+        "Fate does not literally strike with a hammer, make decisions, or lead people; it is cast as an intentional agent.",
+        "German `Schicksal` here may be a conventional expression for life-lot rather than a live personification.",
+        "Individual mind is extended to collective cultural/civilizational agency; abstract spirit becomes a force that builds or degrades civilizations.",
+        "Individual soul is extended to collective psychological disposition; the collective soul becomes something that political actors can capture or poison.",
+        "Physical soil is extended to denote an organic territorial right; space becomes a biological necessity for the Volk.",
+        "The botanical act of rooting out is extended to human elimination; the physical source domain is preserved in the compound.",
+        "The exploited population is cast as a sacrificial victim consumed by a predatory agent."
+      ],
+      "negative_cases": [
+        "Volk/racial-body language naturalizes what are political constructions; the biological framing should not be accepted as description."
+      ],
+      "relation_to_koenigsbergian_analysis": "The Volk is the sacred object; its preservation against contamination is the law that legitimizes sacrifice and elimination.",
+      "evidence_status": "provisional-cmt-backed"
+    },
+    {
+      "cluster_id": "hitler-02-fuhrer-embodiment",
+      "mapping_ids": [
+        "hitler-cmt-028",
+        "hitler-cmt-036",
+        "hitler-cmt-048",
+        "hitler-cmt-049",
+        "hitler-cmt-054",
+        "hitler-cmt-058"
+      ],
+      "source_domains": [
+        "person_agency"
+      ],
+      "target_domains": [
+        "nation",
+        "sacrifice"
+      ],
+      "major_expressions": [
+        "Ehre",
+        "Helden",
+        "Helden / blut",
+        "Heldentum"
+      ],
+      "corpus_distribution": {
+        "mapping_count": 6,
+        "documents": [
+          "hitler-mein-kampf-vol1-ch11-race-and-people",
+          "hitler-mein-kampf-vol1-ch12-nsdap",
+          "hitler-mein-kampf-vol2-ch14-eastern-europe",
+          "hitler-mein-kampf-vol2-ch2-the-state"
+        ],
+        "periods": [],
+        "rhetorical_salience": [
+          "medium"
+        ]
+      },
+      "rhetorical_contexts": [
+        "argument",
+        "national_self_definition"
+      ],
+      "persuasive_function": "Makes Hitler the personal embodiment of the Volk's destiny, concentrating all agency and authority in his person.",
+      "moral_emotions_activated": [
+        "devotion",
+        "surrender of individual will",
+        "awe at historical greatness"
+      ],
+      "political_actions_authorized": [
+        "absolute obedience",
+        "personal sacrifice for Hitler/the movement",
+        "suppression of dissent"
+      ],
+      "rival_readings": [
+        "Individual honor is extended to national-collective honor as a possessable, transferable property; the Reich's honor can be restored like a physical object.",
+        "Individual soldiers or citizens are idealized through the hero category; heroism becomes the organizing concept for military self-sacrifice."
+      ],
+      "negative_cases": [
+        "Führer-embodiment is an ideological construction; the corpus does not record resistance, dissent, or the coercive apparatus sustaining it."
+      ],
+      "relation_to_koenigsbergian_analysis": "The Führer is both the sacred object's guardian and its expression; sacrifice for him is sacrifice for the Volk.",
+      "evidence_status": "provisional-cmt-backed"
+    },
+    {
+      "cluster_id": "hitler-03-jew-parasite-disease",
+      "mapping_ids": [
+        "hitler-cmt-016",
+        "hitler-cmt-017",
+        "hitler-cmt-039",
+        "hitler-cmt-044",
+        "hitler-cmt-045",
+        "hitler-cmt-047",
+        "hitler-cmt-050",
+        "hitler-cmt-051",
+        "hitler-cmt-052",
+        "hitler-cmt-053",
+        "hitler-cmt-055",
+        "hitler-cmt-056",
+        "hitler-cmt-061",
+        "hitler-cmt-062",
+        "hitler-cmt-063",
+        "hitler-cmt-064"
+      ],
+      "source_domains": [
+        "physical_destruction"
+      ],
+      "target_domains": [
+        "purification"
+      ],
+      "major_expressions": [
+        "Vernichtung"
+      ],
+      "corpus_distribution": {
+        "mapping_count": 16,
+        "documents": [
+          "hitler-mein-kampf-vol1-ch11-race-and-people",
+          "hitler-mein-kampf-vol1-ch12-nsdap",
+          "hitler-mein-kampf-vol2-ch1-weltanschauung",
+          "hitler-mein-kampf-vol2-ch14-eastern-europe",
+          "hitler-mein-kampf-vol2-ch2-the-state",
+          "hitler-reichstag-1939-01-30",
+          "hitler-ussr-proclamation-1941-06-22"
+        ],
+        "periods": [],
+        "rhetorical_salience": [
+          "medium"
+        ]
+      },
+      "rhetorical_contexts": [
+        "argument"
+      ],
+      "persuasive_function": "Dehumanizes Jewish people as a pathological threat requiring removal, making genocide imaginable as hygiene.",
+      "moral_emotions_activated": [
+        "disgust",
+        "fear of contamination",
+        "righteous hatred"
+      ],
+      "political_actions_authorized": [
+        "exclusion",
+        "persecution",
+        "ultimately extermination"
+      ],
+      "rival_readings": [
+        "Physical destruction is extended to social/economic/racial elimination; the basic physical sense underwrites the metaphorical application to groups."
+      ],
+      "negative_cases": [
+        "This cluster is not an analytic category but a record of genocidal ideology; its 'function' is the construction of the conditions for mass murder."
+      ],
+      "relation_to_koenigsbergian_analysis": "Activates the enemy-as-bringer-of-death dimension at its most extreme: the enemy is not a rival people but a pathogen requiring elimination.",
+      "evidence_status": "provisional-cmt-backed"
+    },
+    {
+      "cluster_id": "hitler-06-sacrifice-martyrdom",
+      "mapping_ids": [
+        "hitler-cmt-007",
+        "hitler-cmt-032",
+        "hitler-cmt-033"
+      ],
+      "source_domains": [
+        "ritual_religion"
+      ],
+      "target_domains": [
+        "sacrifice"
+      ],
+      "major_expressions": [
+        "Opfer",
+        "opfern"
+      ],
+      "corpus_distribution": {
+        "mapping_count": 3,
+        "documents": [
+          "hitler-mein-kampf-vol1-ch11-race-and-people"
+        ],
+        "periods": [],
+        "rhetorical_salience": [
+          "high"
+        ]
+      },
+      "rhetorical_contexts": [
+        "commemoration"
+      ],
+      "persuasive_function": "Converts political violence and death in the Nazi cause into sacred martyrdom, creating a cult of sacrificial obligation.",
+      "moral_emotions_activated": [
+        "honor",
+        "debt to the fallen",
+        "obligation to complete their sacrifice"
+      ],
+      "political_actions_authorized": [
+        "continued violence in the movement's name",
+        "sacrifice of self and others",
+        "elimination of enemies who caused the martyrs' deaths"
+      ],
+      "rival_readings": [
+        "The individual gives up their ego/advantage to the community; this is not a religious ritual but is structured as one."
+      ],
+      "negative_cases": [
+        "Martyrdom framing in this corpus is most developed in the Mein Kampf chapters; the public proclamations are more functional and less hagiographic."
+      ],
+      "relation_to_koenigsbergian_analysis": "Directly activates the sacrificial-body dimension: movement dead become the sacred debt that authorizes further violence.",
+      "evidence_status": "provisional-cmt-backed"
+    }
+  ]
+}

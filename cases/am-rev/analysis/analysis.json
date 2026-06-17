@@ -1,7 +1,7 @@
 {
   "version": "1.0",
   "case_id": "am-rev",
-  "generated_at": "2026-06-17T01:08:22",
+  "generated_at": "2026-06-17T06:50:04",
   "status": "complete",
   "total_instances": 61,
   "mipvu_profile": {
@@ -553,7 +553,7 @@
     {
       "stage": "run-case-analysis",
       "script": "scripts/run-case-analysis.py",
-      "generated_at": "2026-06-17T01:08:22"
+      "generated_at": "2026-06-17T06:50:04"
     }
   ]
 }

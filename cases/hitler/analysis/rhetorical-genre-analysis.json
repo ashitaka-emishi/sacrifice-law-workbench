@@ -1,0 +1,2533 @@
+{
+  "version": "1.0",
+  "case_id": "hitler",
+  "generated_at": "2026-06-17T15:09:55",
+  "status": "draft",
+  "contexts": [
+    {
+      "mapping_id": "hitler-cmt-001",
+      "document_id": "hitler-mein-kampf-vol1-ch2-wien",
+      "sentence_id": "hitler-mein-kampf-vol1-ch2-wien_s01_p344_s01",
+      "date": "1925",
+      "period": null,
+      "audience": "German nationalist readers; retrospective autobiography framed as political education",
+      "occasion": "Autobiographical chapter on Vienna, the city Hitler constructs as his political and racial awakening",
+      "genre": "political autobiography / ideological treatise",
+      "rhetorical_action": "Constructs Vienna as the site of racial contamination and ideological discovery, naturalizing antisemitism as self-evident observation.",
+      "emotional_posture": "retrospective grievance, awakening, horror",
+      "agency_structure": {
+        "agents": [
+          "I/Hitler",
+          "the German people",
+          "Aryan race"
+        ],
+        "patients": [
+          "the Jew",
+          "the German Volk threatened by contamination"
+        ],
+        "beneficiaries": [
+          "the purified nation",
+          "Aryan civilization"
+        ],
+        "passive_or_absent": [
+          "Jewish victims of the ideology being constructed",
+          "non-German urban workers"
+        ],
+        "displacement_mechanism": "Personal resentment is projected outward as objective racial observation; the Jewish population is constructed as agent of harm with no counter-voice."
+      },
+      "rhetorical_salience": "medium",
+      "rhetorical_functions": [
+        "argument"
+      ],
+      "evidence_span": "Alles vermochte ich dabei noch zu begreifen: dali} sie mit ihrem Lose unzufrieden waren, das Schicksal verdammten, welches sie oft so herbe schlug; die Unternehmer haften, die ihnen als herzlose Zwangsvollstrecker dieses Schicksals erschienen; auf die Behdérden schimpften, die in ihren Augen kein Gefithl fiir die Lage besaBen; daB sie gegen Lebens-",
+      "claim_boundary": "Genre-sensitive interpretation; do not aggregate as frequency without document/register context."
+    },
+    {
+      "mapping_id": "hitler-cmt-002",
+      "document_id": "hitler-mein-kampf-vol1-ch2-wien",
+      "sentence_id": "hitler-mein-kampf-vol1-ch2-wien_s01_p377_s01",
+      "date": "1925",
+      "period": null,
+      "audience": "German nationalist readers; retrospective autobiography framed as political education",
+      "occasion": "Autobiographical chapter on Vienna, the city Hitler constructs as his political and racial awakening",
+      "genre": "political autobiography / ideological treatise",
+      "rhetorical_action": "Constructs Vienna as the site of racial contamination and ideological discovery, naturalizing antisemitism as self-evident observation.",
+      "emotional_posture": "retrospective grievance, awakening, horror",
+      "agency_structure": {
+        "agents": [
+          "I/Hitler",
+          "the German people",
+          "Aryan race"
+        ],
+        "patients": [
+          "the Jew",
+          "the German Volk threatened by contamination"
+        ],
+        "beneficiaries": [
+          "the purified nation",
+          "Aryan civilization"
+        ],
+        "passive_or_absent": [
+          "Jewish victims of the ideology being constructed",
+          "non-German urban workers"
+        ],
+        "displacement_mechanism": "Personal resentment is projected outward as objective racial observation; the Jewish population is constructed as agent of harm with no counter-voice."
+      },
+      "rhetorical_salience": "medium",
+      "rhetorical_functions": [
+        "argument"
+      ],
+      "evidence_span": "In diesem Falle blieb als letzte Rettung noch der Kampf, der Kampf mit allen Waffen, die menschlicher Geist, Ver- stand und Wille zu erfassen vermédgen, ganz gleich, wem das Schicksal dann seinen Segen in die Waagschale senkt.",
+      "claim_boundary": "Genre-sensitive interpretation; do not aggregate as frequency without document/register context."
+    },
+    {
+      "mapping_id": "hitler-cmt-003",
+      "document_id": "hitler-mein-kampf-vol1-ch2-wien",
+      "sentence_id": "hitler-mein-kampf-vol1-ch2-wien_s01_p56_s01",
+      "date": "1925",
+      "period": null,
+      "audience": "German nationalist readers; retrospective autobiography framed as political education",
+      "occasion": "Autobiographical chapter on Vienna, the city Hitler constructs as his political and racial awakening",
+      "genre": "political autobiography / ideological treatise",
+      "rhetorical_action": "Constructs Vienna as the site of racial contamination and ideological discovery, naturalizing antisemitism as self-evident observation.",
+      "emotional_posture": "retrospective grievance, awakening, horror",
+      "agency_structure": {
+        "agents": [
+          "I/Hitler",
+          "the German people",
+          "Aryan race"
+        ],
+        "patients": [
+          "the Jew",
+          "the German Volk threatened by contamination"
+        ],
+        "beneficiaries": [
+          "the purified nation",
+          "Aryan civilization"
+        ],
+        "passive_or_absent": [
+          "Jewish victims of the ideology being constructed",
+          "non-German urban workers"
+        ],
+        "displacement_mechanism": "Personal resentment is projected outward as objective racial observation; the Jewish population is constructed as agent of harm with no counter-voice."
+      },
+      "rhetorical_salience": "medium",
+      "rhetorical_functions": [
+        "argument"
+      ],
+      "evidence_span": "26 Das Schicksal des Arbeiters",
+      "claim_boundary": "Genre-sensitive interpretation; do not aggregate as frequency without document/register context."
+    },
+    {
+      "mapping_id": "hitler-cmt-004",
+      "document_id": "hitler-mein-kampf-vol1-ch2-wien",
+      "sentence_id": "hitler-mein-kampf-vol1-ch2-wien_s01_p60_s01",
+      "date": "1925",
+      "period": null,
+      "audience": "German nationalist readers; retrospective autobiography framed as political education",
+      "occasion": "Autobiographical chapter on Vienna, the city Hitler constructs as his political and racial awakening",
+      "genre": "political autobiography / ideological treatise",
+      "rhetorical_action": "Constructs Vienna as the site of racial contamination and ideological discovery, naturalizing antisemitism as self-evident observation.",
+      "emotional_posture": "retrospective grievance, awakening, horror",
+      "agency_structure": {
+        "agents": [
+          "I/Hitler",
+          "the German people",
+          "Aryan race"
+        ],
+        "patients": [
+          "the Jew",
+          "the German Volk threatened by contamination"
+        ],
+        "beneficiaries": [
+          "the purified nation",
+          "Aryan civilization"
+        ],
+        "passive_or_absent": [
+          "Jewish victims of the ideology being constructed",
+          "non-German urban workers"
+        ],
+        "displacement_mechanism": "Personal resentment is projected outward as objective racial observation; the Jewish population is constructed as agent of harm with no counter-voice."
+      },
+      "rhetorical_salience": "medium",
+      "rhetorical_functions": [
+        "argument"
+      ],
+      "evidence_span": "Das Schicksal des Arbeiters 27",
+      "claim_boundary": "Genre-sensitive interpretation; do not aggregate as frequency without document/register context."
+    },
+    {
+      "mapping_id": "hitler-cmt-005",
+      "document_id": "hitler-mein-kampf-vol1-ch2-wien",
+      "sentence_id": "hitler-mein-kampf-vol1-ch2-wien_s01_p65_s01",
+      "date": "1925",
+      "period": null,
+      "audience": "German nationalist readers; retrospective autobiography framed as political education",
+      "occasion": "Autobiographical chapter on Vienna, the city Hitler constructs as his political and racial awakening",
+      "genre": "political autobiography / ideological treatise",
+      "rhetorical_action": "Constructs Vienna as the site of racial contamination and ideological discovery, naturalizing antisemitism as self-evident observation.",
+      "emotional_posture": "retrospective grievance, awakening, horror",
+      "agency_structure": {
+        "agents": [
+          "I/Hitler",
+          "the German people",
+          "Aryan race"
+        ],
+        "patients": [
+          "the Jew",
+          "the German Volk threatened by contamination"
+        ],
+        "beneficiaries": [
+          "the purified nation",
+          "Aryan civilization"
+        ],
+        "passive_or_absent": [
+          "Jewish victims of the ideology being constructed",
+          "non-German urban workers"
+        ],
+        "displacement_mechanism": "Personal resentment is projected outward as objective racial observation; the Jewish population is constructed as agent of harm with no counter-voice."
+      },
+      "rhetorical_salience": "medium",
+      "rhetorical_functions": [
+        "argument"
+      ],
+      "evidence_span": "28 Das Schicksal des Arbeiters",
+      "claim_boundary": "Genre-sensitive interpretation; do not aggregate as frequency without document/register context."
+    },
+    {
+      "mapping_id": "hitler-cmt-006",
+      "document_id": "hitler-mein-kampf-vol1-ch11-race-and-people",
+      "sentence_id": "hitler-mein-kampf-vol1-ch11-race-and-people_s01_p09_s05",
+      "date": "1925",
+      "period": null,
+      "audience": "German nationalist readers seeking ideological foundation",
+      "occasion": "Core theoretical chapter on race, national character, and culture in Mein Kampf Vol. 1",
+      "genre": "political autobiography / ideological treatise",
+      "rhetorical_action": "Establishes racial hierarchy as natural law and designates the Aryan race as the sole creator of civilization.",
+      "emotional_posture": "pseudo-scientific, authoritative, prophetic",
+      "agency_structure": {
+        "agents": [
+          "Nature",
+          "the Aryan race",
+          "Hitler as interpreter of natural law"
+        ],
+        "patients": [
+          "inferior races",
+          "cultural parasites",
+          "the German Volk threatened by mixing"
+        ],
+        "beneficiaries": [
+          "Aryan civilization",
+          "the thousand-year Reich"
+        ],
+        "passive_or_absent": [
+          "Jewish, Roma, Black, and other racialized populations constructed as threats",
+          "women",
+          "disabled people"
+        ],
+        "displacement_mechanism": "Genocide logic is naturalized as law; its victims are constructed as aggressors requiring removal."
+      },
+      "rhetorical_salience": "medium",
+      "rhetorical_functions": [
+        "glorification"
+      ],
+      "evidence_span": "Die Voraussetzung hierzu liegt nicht im Verbinden von Hoher- und Minderwertigem, son- dern im restlosen Siege des ersteren.",
+      "claim_boundary": "Genre-sensitive interpretation; do not aggregate as frequency without document/register context."
+    },
+    {
+      "mapping_id": "hitler-cmt-007",
+      "document_id": "hitler-mein-kampf-vol1-ch11-race-and-people",
+      "sentence_id": "hitler-mein-kampf-vol1-ch11-race-and-people_s01_p09_s06",
+      "date": "1925",
+      "period": null,
+      "audience": "German nationalist readers seeking ideological foundation",
+      "occasion": "Core theoretical chapter on race, national character, and culture in Mein Kampf Vol. 1",
+      "genre": "political autobiography / ideological treatise",
+      "rhetorical_action": "Establishes racial hierarchy as natural law and designates the Aryan race as the sole creator of civilization.",
+      "emotional_posture": "pseudo-scientific, authoritative, prophetic",
+      "agency_structure": {
+        "agents": [
+          "Nature",
+          "the Aryan race",
+          "Hitler as interpreter of natural law"
+        ],
+        "patients": [
+          "inferior races",
+          "cultural parasites",
+          "the German Volk threatened by mixing"
+        ],
+        "beneficiaries": [
+          "Aryan civilization",
+          "the thousand-year Reich"
+        ],
+        "passive_or_absent": [
+          "Jewish, Roma, Black, and other racialized populations constructed as threats",
+          "women",
+          "disabled people"
+        ],
+        "displacement_mechanism": "Genocide logic is naturalized as law; its victims are constructed as aggressors requiring removal."
+      },
+      "rhetorical_salience": "high",
+      "rhetorical_functions": [
+        "commemoration"
+      ],
+      "evidence_span": "Der Starkere hat zu herrschen und sich nicht mit dem Schwacheren zu verschmel- zen, um so die eigene GroBe zu opfern.",
+      "claim_boundary": "Genre-sensitive interpretation; do not aggregate as frequency without document/register context."
+    },
+    {
+      "mapping_id": "hitler-cmt-008",
+      "document_id": "hitler-mein-kampf-vol1-ch11-race-and-people",
+      "sentence_id": "hitler-mein-kampf-vol1-ch11-race-and-people_s01_p109_s04",
+      "date": "1925",
+      "period": null,
+      "audience": "German nationalist readers seeking ideological foundation",
+      "occasion": "Core theoretical chapter on race, national character, and culture in Mein Kampf Vol. 1",
+      "genre": "political autobiography / ideological treatise",
+      "rhetorical_action": "Establishes racial hierarchy as natural law and designates the Aryan race as the sole creator of civilization.",
+      "emotional_posture": "pseudo-scientific, authoritative, prophetic",
+      "agency_structure": {
+        "agents": [
+          "Nature",
+          "the Aryan race",
+          "Hitler as interpreter of natural law"
+        ],
+        "patients": [
+          "inferior races",
+          "cultural parasites",
+          "the German Volk threatened by mixing"
+        ],
+        "beneficiaries": [
+          "Aryan civilization",
+          "the thousand-year Reich"
+        ],
+        "passive_or_absent": [
+          "Jewish, Roma, Black, and other racialized populations constructed as threats",
+          "women",
+          "disabled people"
+        ],
+        "displacement_mechanism": "Genocide logic is naturalized as law; its victims are constructed as aggressors requiring removal."
+      },
+      "rhetorical_salience": "medium",
+      "rhetorical_functions": [
+        "argument"
+      ],
+      "evidence_span": "Auch der menschliche Geist vermag nicht ohne Stufen zur Hohe emporzuklimmen; er braucht zu jedem Schritt nach aufwarts das Fundament der Vergangenheit, und zwar in jenem umfassenden Sinne, in dem es sich nur in der allgemeinen Kultur zu offenbaren vermag.",
+      "claim_boundary": "Genre-sensitive interpretation; do not aggregate as frequency without document/register context."
+    },
+    {
+      "mapping_id": "hitler-cmt-009",
+      "document_id": "hitler-mein-kampf-vol1-ch11-race-and-people",
+      "sentence_id": "hitler-mein-kampf-vol1-ch11-race-and-people_s01_p130_s03",
+      "date": "1925",
+      "period": null,
+      "audience": "German nationalist readers seeking ideological foundation",
+      "occasion": "Core theoretical chapter on race, national character, and culture in Mein Kampf Vol. 1",
+      "genre": "political autobiography / ideological treatise",
+      "rhetorical_action": "Establishes racial hierarchy as natural law and designates the Aryan race as the sole creator of civilization.",
+      "emotional_posture": "pseudo-scientific, authoritative, prophetic",
+      "agency_structure": {
+        "agents": [
+          "Nature",
+          "the Aryan race",
+          "Hitler as interpreter of natural law"
+        ],
+        "patients": [
+          "inferior races",
+          "cultural parasites",
+          "the German Volk threatened by mixing"
+        ],
+        "beneficiaries": [
+          "Aryan civilization",
+          "the thousand-year Reich"
+        ],
+        "passive_or_absent": [
+          "Jewish, Roma, Black, and other racialized populations constructed as threats",
+          "women",
+          "disabled people"
+        ],
+        "displacement_mechanism": "Genocide logic is naturalized as law; its victims are constructed as aggressors requiring removal."
+      },
+      "rhetorical_salience": "high",
+      "rhetorical_functions": [
+        "argument"
+      ],
+      "evidence_span": "Der Nomade besitzt sehr wohl einen bestimmt um- grenzten Lebensraum, nur bebaut er ihn nicht als sebhafter Bauer, sondern lebt vom Ertrage seiner Herden, mit denen er in seinem Gebiete wandert.",
+      "claim_boundary": "Genre-sensitive interpretation; do not aggregate as frequency without document/register context."
+    },
+    {
+      "mapping_id": "hitler-cmt-010",
+      "document_id": "hitler-mein-kampf-vol1-ch11-race-and-people",
+      "sentence_id": "hitler-mein-kampf-vol1-ch11-race-and-people_s01_p133_s03",
+      "date": "1925",
+      "period": null,
+      "audience": "German nationalist readers seeking ideological foundation",
+      "occasion": "Core theoretical chapter on race, national character, and culture in Mein Kampf Vol. 1",
+      "genre": "political autobiography / ideological treatise",
+      "rhetorical_action": "Establishes racial hierarchy as natural law and designates the Aryan race as the sole creator of civilization.",
+      "emotional_posture": "pseudo-scientific, authoritative, prophetic",
+      "agency_structure": {
+        "agents": [
+          "Nature",
+          "the Aryan race",
+          "Hitler as interpreter of natural law"
+        ],
+        "patients": [
+          "inferior races",
+          "cultural parasites",
+          "the German Volk threatened by mixing"
+        ],
+        "beneficiaries": [
+          "Aryan civilization",
+          "the thousand-year Reich"
+        ],
+        "passive_or_absent": [
+          "Jewish, Roma, Black, and other racialized populations constructed as threats",
+          "women",
+          "disabled people"
+        ],
+        "displacement_mechanism": "Genocide logic is naturalized as law; its victims are constructed as aggressors requiring removal."
+      },
+      "rhetorical_salience": "high",
+      "rhetorical_functions": [
+        "argument"
+      ],
+      "evidence_span": "DafX§ er dabei manchmal seinen bis- herigen Lebensraum verlaBt, hangt nicht mit seiner Absicht zusammen, sondern ist das Ergebnis des Hinauswurfes, den er von Zeit zu Zeit durch die miBbrauchten Gastvolker erfahrt.",
+      "claim_boundary": "Genre-sensitive interpretation; do not aggregate as frequency without document/register context."
+    },
+    {
+      "mapping_id": "hitler-cmt-011",
+      "document_id": "hitler-mein-kampf-vol1-ch11-race-and-people",
+      "sentence_id": "hitler-mein-kampf-vol1-ch11-race-and-people_s01_p145_s01",
+      "date": "1925",
+      "period": null,
+      "audience": "German nationalist readers seeking ideological foundation",
+      "occasion": "Core theoretical chapter on race, national character, and culture in Mein Kampf Vol. 1",
+      "genre": "political autobiography / ideological treatise",
+      "rhetorical_action": "Establishes racial hierarchy as natural law and designates the Aryan race as the sole creator of civilization.",
+      "emotional_posture": "pseudo-scientific, authoritative, prophetic",
+      "agency_structure": {
+        "agents": [
+          "Nature",
+          "the Aryan race",
+          "Hitler as interpreter of natural law"
+        ],
+        "patients": [
+          "inferior races",
+          "cultural parasites",
+          "the German Volk threatened by mixing"
+        ],
+        "beneficiaries": [
+          "Aryan civilization",
+          "the thousand-year Reich"
+        ],
+        "passive_or_absent": [
+          "Jewish, Roma, Black, and other racialized populations constructed as threats",
+          "women",
+          "disabled people"
+        ],
+        "displacement_mechanism": "Genocide logic is naturalized as law; its victims are constructed as aggressors requiring removal."
+      },
+      "rhetorical_salience": "high",
+      "rhetorical_functions": [
+        "argument"
+      ],
+      "evidence_span": "Die jiidische Religionslehre ist in erster Linie eine An- weisung zur Reinhaltung des Blutes des Judentums sowie zur Regelung des Verkehrs der Juden untereinander, mehr aber noch mit der ubrigen Welt, mit den Nichtjuden also.",
+      "claim_boundary": "Genre-sensitive interpretation; do not aggregate as frequency without document/register context."
+    },
+    {
+      "mapping_id": "hitler-cmt-012",
+      "document_id": "hitler-mein-kampf-vol1-ch11-race-and-people",
+      "sentence_id": "hitler-mein-kampf-vol1-ch11-race-and-people_s01_p175_s04",
+      "date": "1925",
+      "period": null,
+      "audience": "German nationalist readers seeking ideological foundation",
+      "occasion": "Core theoretical chapter on race, national character, and culture in Mein Kampf Vol. 1",
+      "genre": "political autobiography / ideological treatise",
+      "rhetorical_action": "Establishes racial hierarchy as natural law and designates the Aryan race as the sole creator of civilization.",
+      "emotional_posture": "pseudo-scientific, authoritative, prophetic",
+      "agency_structure": {
+        "agents": [
+          "Nature",
+          "the Aryan race",
+          "Hitler as interpreter of natural law"
+        ],
+        "patients": [
+          "inferior races",
+          "cultural parasites",
+          "the German Volk threatened by mixing"
+        ],
+        "beneficiaries": [
+          "Aryan civilization",
+          "the thousand-year Reich"
+        ],
+        "passive_or_absent": [
+          "Jewish, Roma, Black, and other racialized populations constructed as threats",
+          "women",
+          "disabled people"
+        ],
+        "displacement_mechanism": "Genocide logic is naturalized as law; its victims are constructed as aggressors requiring removal."
+      },
+      "rhetorical_salience": "high",
+      "rhetorical_functions": [
+        "argument"
+      ],
+      "evidence_span": "Goethe aber war denn doch, wahrhaftiger Gott, kein Ruckschrittler oder gar Zelot; was aus ihm sprach, war nichts anderes als die Stimme des Blutes und der Vernunft.",
+      "claim_boundary": "Genre-sensitive interpretation; do not aggregate as frequency without document/register context."
+    },
+    {
+      "mapping_id": "hitler-cmt-013",
+      "document_id": "hitler-mein-kampf-vol1-ch11-race-and-people",
+      "sentence_id": "hitler-mein-kampf-vol1-ch11-race-and-people_s01_p178_s05",
+      "date": "1925",
+      "period": null,
+      "audience": "German nationalist readers seeking ideological foundation",
+      "occasion": "Core theoretical chapter on race, national character, and culture in Mein Kampf Vol. 1",
+      "genre": "political autobiography / ideological treatise",
+      "rhetorical_action": "Establishes racial hierarchy as natural law and designates the Aryan race as the sole creator of civilization.",
+      "emotional_posture": "pseudo-scientific, authoritative, prophetic",
+      "agency_structure": {
+        "agents": [
+          "Nature",
+          "the Aryan race",
+          "Hitler as interpreter of natural law"
+        ],
+        "patients": [
+          "inferior races",
+          "cultural parasites",
+          "the German Volk threatened by mixing"
+        ],
+        "beneficiaries": [
+          "Aryan civilization",
+          "the thousand-year Reich"
+        ],
+        "passive_or_absent": [
+          "Jewish, Roma, Black, and other racialized populations constructed as threats",
+          "women",
+          "disabled people"
+        ],
+        "displacement_mechanism": "Genocide logic is naturalized as law; its victims are constructed as aggressors requiring removal."
+      },
+      "rhetorical_salience": "high",
+      "rhetorical_functions": [
+        "argument"
+      ],
+      "evidence_span": "Die Rasse aber liegt nicht in der Sprache, sondern ausschlieBlich im Blute, etwas, das niemand besser wei als der Jude, der gerade auf die Erhaltung seiner Sprache nur sehr wenig Wert legt, hingegen allen Wert auf die Reinhaltung seines Blutes.",
+      "claim_boundary": "Genre-sensitive interpretation; do not aggregate as frequency without document/register context."
+    },
+    {
+      "mapping_id": "hitler-cmt-014",
+      "document_id": "hitler-mein-kampf-vol1-ch11-race-and-people",
+      "sentence_id": "hitler-mein-kampf-vol1-ch11-race-and-people_s01_p199_s05",
+      "date": "1925",
+      "period": null,
+      "audience": "German nationalist readers seeking ideological foundation",
+      "occasion": "Core theoretical chapter on race, national character, and culture in Mein Kampf Vol. 1",
+      "genre": "political autobiography / ideological treatise",
+      "rhetorical_action": "Establishes racial hierarchy as natural law and designates the Aryan race as the sole creator of civilization.",
+      "emotional_posture": "pseudo-scientific, authoritative, prophetic",
+      "agency_structure": {
+        "agents": [
+          "Nature",
+          "the Aryan race",
+          "Hitler as interpreter of natural law"
+        ],
+        "patients": [
+          "inferior races",
+          "cultural parasites",
+          "the German Volk threatened by mixing"
+        ],
+        "beneficiaries": [
+          "Aryan civilization",
+          "the thousand-year Reich"
+        ],
+        "passive_or_absent": [
+          "Jewish, Roma, Black, and other racialized populations constructed as threats",
+          "women",
+          "disabled people"
+        ],
+        "displacement_mechanism": "Genocide logic is naturalized as law; its victims are constructed as aggressors requiring removal."
+      },
+      "rhetorical_salience": "high",
+      "rhetorical_functions": [
+        "argument"
+      ],
+      "evidence_span": "Er vergiftet das Blut der anderen, wahrt aber sein eigenes.",
+      "claim_boundary": "Genre-sensitive interpretation; do not aggregate as frequency without document/register context."
+    },
+    {
+      "mapping_id": "hitler-cmt-015",
+      "document_id": "hitler-mein-kampf-vol1-ch11-race-and-people",
+      "sentence_id": "hitler-mein-kampf-vol1-ch11-race-and-people_s01_p203_s01",
+      "date": "1925",
+      "period": null,
+      "audience": "German nationalist readers seeking ideological foundation",
+      "occasion": "Core theoretical chapter on race, national character, and culture in Mein Kampf Vol. 1",
+      "genre": "political autobiography / ideological treatise",
+      "rhetorical_action": "Establishes racial hierarchy as natural law and designates the Aryan race as the sole creator of civilization.",
+      "emotional_posture": "pseudo-scientific, authoritative, prophetic",
+      "agency_structure": {
+        "agents": [
+          "Nature",
+          "the Aryan race",
+          "Hitler as interpreter of natural law"
+        ],
+        "patients": [
+          "inferior races",
+          "cultural parasites",
+          "the German Volk threatened by mixing"
+        ],
+        "beneficiaries": [
+          "Aryan civilization",
+          "the thousand-year Reich"
+        ],
+        "passive_or_absent": [
+          "Jewish, Roma, Black, and other racialized populations constructed as threats",
+          "women",
+          "disabled people"
+        ],
+        "displacement_mechanism": "Genocide logic is naturalized as law; its victims are constructed as aggressors requiring removal."
+      },
+      "rhetorical_salience": "medium",
+      "rhetorical_functions": [
+        "glorification"
+      ],
+      "evidence_span": "Sein Endziel in diesem Stadium aber ist der Sieg der Demokratie oder, wie er es versteht: die Herrschaft des Parlamentarismus.",
+      "claim_boundary": "Genre-sensitive interpretation; do not aggregate as frequency without document/register context."
+    },
+    {
+      "mapping_id": "hitler-cmt-016",
+      "document_id": "hitler-mein-kampf-vol1-ch11-race-and-people",
+      "sentence_id": "hitler-mein-kampf-vol1-ch11-race-and-people_s01_p228_s01",
+      "date": "1925",
+      "period": null,
+      "audience": "German nationalist readers seeking ideological foundation",
+      "occasion": "Core theoretical chapter on race, national character, and culture in Mein Kampf Vol. 1",
+      "genre": "political autobiography / ideological treatise",
+      "rhetorical_action": "Establishes racial hierarchy as natural law and designates the Aryan race as the sole creator of civilization.",
+      "emotional_posture": "pseudo-scientific, authoritative, prophetic",
+      "agency_structure": {
+        "agents": [
+          "Nature",
+          "the Aryan race",
+          "Hitler as interpreter of natural law"
+        ],
+        "patients": [
+          "inferior races",
+          "cultural parasites",
+          "the German Volk threatened by mixing"
+        ],
+        "beneficiaries": [
+          "Aryan civilization",
+          "the thousand-year Reich"
+        ],
+        "passive_or_absent": [
+          "Jewish, Roma, Black, and other racialized populations constructed as threats",
+          "women",
+          "disabled people"
+        ],
+        "displacement_mechanism": "Genocide logic is naturalized as law; its victims are constructed as aggressors requiring removal."
+      },
+      "rhetorical_salience": "medium",
+      "rhetorical_functions": [
+        "argument"
+      ],
+      "evidence_span": "So entsteht eine reine Handarbeiterbewegung unter judi- scher Fuhrung, scheinbar darauf ausgehend, die Lage des Arbeiters zu verbessern, in Wahrheit aber die Versklavung und damit die Vernichtung aller nichtjudischen Volker be- absichtigend.",
+      "claim_boundary": "Genre-sensitive interpretation; do not aggregate as frequency without document/register context."
+    },
+    {
+      "mapping_id": "hitler-cmt-017",
+      "document_id": "hitler-mein-kampf-vol1-ch11-race-and-people",
+      "sentence_id": "hitler-mein-kampf-vol1-ch11-race-and-people_s01_p238_s04",
+      "date": "1925",
+      "period": null,
+      "audience": "German nationalist readers seeking ideological foundation",
+      "occasion": "Core theoretical chapter on race, national character, and culture in Mein Kampf Vol. 1",
+      "genre": "political autobiography / ideological treatise",
+      "rhetorical_action": "Establishes racial hierarchy as natural law and designates the Aryan race as the sole creator of civilization.",
+      "emotional_posture": "pseudo-scientific, authoritative, prophetic",
+      "agency_structure": {
+        "agents": [
+          "Nature",
+          "the Aryan race",
+          "Hitler as interpreter of natural law"
+        ],
+        "patients": [
+          "inferior races",
+          "cultural parasites",
+          "the German Volk threatened by mixing"
+        ],
+        "beneficiaries": [
+          "Aryan civilization",
+          "the thousand-year Reich"
+        ],
+        "passive_or_absent": [
+          "Jewish, Roma, Black, and other racialized populations constructed as threats",
+          "women",
+          "disabled people"
+        ],
+        "displacement_mechanism": "Genocide logic is naturalized as law; its victims are constructed as aggressors requiring removal."
+      },
+      "rhetorical_salience": "medium",
+      "rhetorical_functions": [
+        "argument"
+      ],
+      "evidence_span": "Er winscht nicht die Erhaltung einer unabhan- gigen nationalen Wirtschaft, sondern deren Vernichtung.",
+      "claim_boundary": "Genre-sensitive interpretation; do not aggregate as frequency without document/register context."
+    },
+    {
+      "mapping_id": "hitler-cmt-018",
+      "document_id": "hitler-mein-kampf-vol1-ch11-race-and-people",
+      "sentence_id": "hitler-mein-kampf-vol1-ch11-race-and-people_s01_p258_s01",
+      "date": "1925",
+      "period": null,
+      "audience": "German nationalist readers seeking ideological foundation",
+      "occasion": "Core theoretical chapter on race, national character, and culture in Mein Kampf Vol. 1",
+      "genre": "political autobiography / ideological treatise",
+      "rhetorical_action": "Establishes racial hierarchy as natural law and designates the Aryan race as the sole creator of civilization.",
+      "emotional_posture": "pseudo-scientific, authoritative, prophetic",
+      "agency_structure": {
+        "agents": [
+          "Nature",
+          "the Aryan race",
+          "Hitler as interpreter of natural law"
+        ],
+        "patients": [
+          "inferior races",
+          "cultural parasites",
+          "the German Volk threatened by mixing"
+        ],
+        "beneficiaries": [
+          "Aryan civilization",
+          "the thousand-year Reich"
+        ],
+        "passive_or_absent": [
+          "Jewish, Roma, Black, and other racialized populations constructed as threats",
+          "women",
+          "disabled people"
+        ],
+        "displacement_mechanism": "Genocide logic is naturalized as law; its victims are constructed as aggressors requiring removal."
+      },
+      "rhetorical_salience": "medium",
+      "rhetorical_functions": [
+        "argument"
+      ],
+      "evidence_span": "Langsam legt sich die Furcht vor der marxistischen Waffe des Judentums wie ein Alpdruck auf Hirn und Seele der anstandigen Menschen.",
+      "claim_boundary": "Genre-sensitive interpretation; do not aggregate as frequency without document/register context."
+    },
+    {
+      "mapping_id": "hitler-cmt-019",
+      "document_id": "hitler-mein-kampf-vol1-ch11-race-and-people",
+      "sentence_id": "hitler-mein-kampf-vol1-ch11-race-and-people_s01_p264_s01",
+      "date": "1925",
+      "period": null,
+      "audience": "German nationalist readers seeking ideological foundation",
+      "occasion": "Core theoretical chapter on race, national character, and culture in Mein Kampf Vol. 1",
+      "genre": "political autobiography / ideological treatise",
+      "rhetorical_action": "Establishes racial hierarchy as natural law and designates the Aryan race as the sole creator of civilization.",
+      "emotional_posture": "pseudo-scientific, authoritative, prophetic",
+      "agency_structure": {
+        "agents": [
+          "Nature",
+          "the Aryan race",
+          "Hitler as interpreter of natural law"
+        ],
+        "patients": [
+          "inferior races",
+          "cultural parasites",
+          "the German Volk threatened by mixing"
+        ],
+        "beneficiaries": [
+          "Aryan civilization",
+          "the thousand-year Reich"
+        ],
+        "passive_or_absent": [
+          "Jewish, Roma, Black, and other racialized populations constructed as threats",
+          "women",
+          "disabled people"
+        ],
+        "displacement_mechanism": "Genocide logic is naturalized as law; its victims are constructed as aggressors requiring removal."
+      },
+      "rhetorical_salience": "medium",
+      "rhetorical_functions": [
+        "glorification"
+      ],
+      "evidence_span": "Wie sehr sie den nahenden Sieg schon vor Augen sehen, geht aus der furchtbaren Art hervor, die ihr Verkehr mit den Angehorigen der anderen Volker annimmt.",
+      "claim_boundary": "Genre-sensitive interpretation; do not aggregate as frequency without document/register context."
+    },
+    {
+      "mapping_id": "hitler-cmt-020",
+      "document_id": "hitler-mein-kampf-vol1-ch11-race-and-people",
+      "sentence_id": "hitler-mein-kampf-vol1-ch11-race-and-people_s01_p279_s02",
+      "date": "1925",
+      "period": null,
+      "audience": "German nationalist readers seeking ideological foundation",
+      "occasion": "Core theoretical chapter on race, national character, and culture in Mein Kampf Vol. 1",
+      "genre": "political autobiography / ideological treatise",
+      "rhetorical_action": "Establishes racial hierarchy as natural law and designates the Aryan race as the sole creator of civilization.",
+      "emotional_posture": "pseudo-scientific, authoritative, prophetic",
+      "agency_structure": {
+        "agents": [
+          "Nature",
+          "the Aryan race",
+          "Hitler as interpreter of natural law"
+        ],
+        "patients": [
+          "inferior races",
+          "cultural parasites",
+          "the German Volk threatened by mixing"
+        ],
+        "beneficiaries": [
+          "Aryan civilization",
+          "the thousand-year Reich"
+        ],
+        "passive_or_absent": [
+          "Jewish, Roma, Black, and other racialized populations constructed as threats",
+          "women",
+          "disabled people"
+        ],
+        "displacement_mechanism": "Genocide logic is naturalized as law; its victims are constructed as aggressors requiring removal."
+      },
+      "rhetorical_salience": "high",
+      "rhetorical_functions": [
+        "argument"
+      ],
+      "evidence_span": "Nach dem Tode des Opfers stirbt auch friiher oder spater der Vampir.",
+      "claim_boundary": "Genre-sensitive interpretation; do not aggregate as frequency without document/register context."
+    },
+    {
+      "mapping_id": "hitler-cmt-021",
+      "document_id": "hitler-mein-kampf-vol1-ch11-race-and-people",
+      "sentence_id": "hitler-mein-kampf-vol1-ch11-race-and-people_s01_p30_s07",
+      "date": "1925",
+      "period": null,
+      "audience": "German nationalist readers seeking ideological foundation",
+      "occasion": "Core theoretical chapter on race, national character, and culture in Mein Kampf Vol. 1",
+      "genre": "political autobiography / ideological treatise",
+      "rhetorical_action": "Establishes racial hierarchy as natural law and designates the Aryan race as the sole creator of civilization.",
+      "emotional_posture": "pseudo-scientific, authoritative, prophetic",
+      "agency_structure": {
+        "agents": [
+          "Nature",
+          "the Aryan race",
+          "Hitler as interpreter of natural law"
+        ],
+        "patients": [
+          "inferior races",
+          "cultural parasites",
+          "the German Volk threatened by mixing"
+        ],
+        "beneficiaries": [
+          "Aryan civilization",
+          "the thousand-year Reich"
+        ],
+        "passive_or_absent": [
+          "Jewish, Roma, Black, and other racialized populations constructed as threats",
+          "women",
+          "disabled people"
+        ],
+        "displacement_mechanism": "Genocide logic is naturalized as law; its victims are constructed as aggressors requiring removal."
+      },
+      "rhetorical_salience": "medium",
+      "rhetorical_functions": [
+        "glorification"
+      ],
+      "evidence_span": "B. den Sieg des pazifistischen Gedankens in dieser Welt wirklich von Herzen wunschen wollte, mtiBte sich mit allen Mitteln fiir die Eroberung der Welt durch die Deutschen einsetzen; denn wenn es umgekehrt kommen sollte, wurde sehr leicht mit dem letzten Deutschen auch der letzte Pazifist aussterben, da die andere Welt auf diesen natur- und vernunftwidrigen Unsinn kaum je so tief hereingefallen ist als leider unser eigenes Volk.",
+      "claim_boundary": "Genre-sensitive interpretation; do not aggregate as frequency without document/register context."
+    },
+    {
+      "mapping_id": "hitler-cmt-022",
+      "document_id": "hitler-mein-kampf-vol1-ch11-race-and-people",
+      "sentence_id": "hitler-mein-kampf-vol1-ch11-race-and-people_s01_p47_s04",
+      "date": "1925",
+      "period": null,
+      "audience": "German nationalist readers seeking ideological foundation",
+      "occasion": "Core theoretical chapter on race, national character, and culture in Mein Kampf Vol. 1",
+      "genre": "political autobiography / ideological treatise",
+      "rhetorical_action": "Establishes racial hierarchy as natural law and designates the Aryan race as the sole creator of civilization.",
+      "emotional_posture": "pseudo-scientific, authoritative, prophetic",
+      "agency_structure": {
+        "agents": [
+          "Nature",
+          "the Aryan race",
+          "Hitler as interpreter of natural law"
+        ],
+        "patients": [
+          "inferior races",
+          "cultural parasites",
+          "the German Volk threatened by mixing"
+        ],
+        "beneficiaries": [
+          "Aryan civilization",
+          "the thousand-year Reich"
+        ],
+        "passive_or_absent": [
+          "Jewish, Roma, Black, and other racialized populations constructed as threats",
+          "women",
+          "disabled people"
+        ],
+        "displacement_mechanism": "Genocide logic is naturalized as law; its victims are constructed as aggressors requiring removal."
+      },
+      "rhetorical_salience": "medium",
+      "rhetorical_functions": [
+        "argument"
+      ],
+      "evidence_span": "In wenigen Jahrzehnten wird zum Beispiel der ganze Osten Asiens eine Kultur sein eigen nennen, deren letzte Grund- lage ebenso hellenischer Geist und germanische Technik sein wird wie dies bei uns der Fall ist.",
+      "claim_boundary": "Genre-sensitive interpretation; do not aggregate as frequency without document/register context."
+    },
+    {
+      "mapping_id": "hitler-cmt-023",
+      "document_id": "hitler-mein-kampf-vol1-ch11-race-and-people",
+      "sentence_id": "hitler-mein-kampf-vol1-ch11-race-and-people_s01_p53_s03",
+      "date": "1925",
+      "period": null,
+      "audience": "German nationalist readers seeking ideological foundation",
+      "occasion": "Core theoretical chapter on race, national character, and culture in Mein Kampf Vol. 1",
+      "genre": "political autobiography / ideological treatise",
+      "rhetorical_action": "Establishes racial hierarchy as natural law and designates the Aryan race as the sole creator of civilization.",
+      "emotional_posture": "pseudo-scientific, authoritative, prophetic",
+      "agency_structure": {
+        "agents": [
+          "Nature",
+          "the Aryan race",
+          "Hitler as interpreter of natural law"
+        ],
+        "patients": [
+          "inferior races",
+          "cultural parasites",
+          "the German Volk threatened by mixing"
+        ],
+        "beneficiaries": [
+          "Aryan civilization",
+          "the thousand-year Reich"
+        ],
+        "passive_or_absent": [
+          "Jewish, Roma, Black, and other racialized populations constructed as threats",
+          "women",
+          "disabled people"
+        ],
+        "displacement_mechanism": "Genocide logic is naturalized as law; its victims are constructed as aggressors requiring removal."
+      },
+      "rhetorical_salience": "high",
+      "rhetorical_functions": [
+        "argument"
+      ],
+      "evidence_span": "Endlich aber vergehen sich die Eroberer gegen das im Anfang eingehaltene Prin- zip der Reinhaltung ihres Blutes, beginnen sich mit den unterjochten Einwohnern zu vermischen und beenden da-",
+      "claim_boundary": "Genre-sensitive interpretation; do not aggregate as frequency without document/register context."
+    },
+    {
+      "mapping_id": "hitler-cmt-024",
+      "document_id": "hitler-mein-kampf-vol1-ch11-race-and-people",
+      "sentence_id": "hitler-mein-kampf-vol1-ch11-race-and-people_s01_p56_s01",
+      "date": "1925",
+      "period": null,
+      "audience": "German nationalist readers seeking ideological foundation",
+      "occasion": "Core theoretical chapter on race, national character, and culture in Mein Kampf Vol. 1",
+      "genre": "political autobiography / ideological treatise",
+      "rhetorical_action": "Establishes racial hierarchy as natural law and designates the Aryan race as the sole creator of civilization.",
+      "emotional_posture": "pseudo-scientific, authoritative, prophetic",
+      "agency_structure": {
+        "agents": [
+          "Nature",
+          "the Aryan race",
+          "Hitler as interpreter of natural law"
+        ],
+        "patients": [
+          "inferior races",
+          "cultural parasites",
+          "the German Volk threatened by mixing"
+        ],
+        "beneficiaries": [
+          "Aryan civilization",
+          "the thousand-year Reich"
+        ],
+        "passive_or_absent": [
+          "Jewish, Roma, Black, and other racialized populations constructed as threats",
+          "women",
+          "disabled people"
+        ],
+        "displacement_mechanism": "Genocide logic is naturalized as law; its victims are constructed as aggressors requiring removal."
+      },
+      "rhetorical_salience": "high",
+      "rhetorical_functions": [
+        "argument"
+      ],
+      "evidence_span": "Nach tausend Jahren und mehr zeigt sich dann oft die letzte sichtbare Spur des einstigen Herrenvolkes 1m helleren Hautton, den sein Blut der unterjochten Rasse_ hinter- lieB, und in einer erstarrten Kultur, die es als ursprung- liche Schopferin einst begrindet hatte.",
+      "claim_boundary": "Genre-sensitive interpretation; do not aggregate as frequency without document/register context."
+    },
+    {
+      "mapping_id": "hitler-cmt-025",
+      "document_id": "hitler-mein-kampf-vol1-ch11-race-and-people",
+      "sentence_id": "hitler-mein-kampf-vol1-ch11-race-and-people_s01_p56_s02",
+      "date": "1925",
+      "period": null,
+      "audience": "German nationalist readers seeking ideological foundation",
+      "occasion": "Core theoretical chapter on race, national character, and culture in Mein Kampf Vol. 1",
+      "genre": "political autobiography / ideological treatise",
+      "rhetorical_action": "Establishes racial hierarchy as natural law and designates the Aryan race as the sole creator of civilization.",
+      "emotional_posture": "pseudo-scientific, authoritative, prophetic",
+      "agency_structure": {
+        "agents": [
+          "Nature",
+          "the Aryan race",
+          "Hitler as interpreter of natural law"
+        ],
+        "patients": [
+          "inferior races",
+          "cultural parasites",
+          "the German Volk threatened by mixing"
+        ],
+        "beneficiaries": [
+          "Aryan civilization",
+          "the thousand-year Reich"
+        ],
+        "passive_or_absent": [
+          "Jewish, Roma, Black, and other racialized populations constructed as threats",
+          "women",
+          "disabled people"
+        ],
+        "displacement_mechanism": "Genocide logic is naturalized as law; its victims are constructed as aggressors requiring removal."
+      },
+      "rhetorical_salience": "high",
+      "rhetorical_functions": [
+        "argument"
+      ],
+      "evidence_span": "Denn so wie der tatsachliche und geistige Eroberer im Blut der Unterwor- fenen verlorenging, verlor sich auch der Brennstoff fir die Fackel des menschlichen Kulturfortschrittes!",
+      "claim_boundary": "Genre-sensitive interpretation; do not aggregate as frequency without document/register context."
+    },
+    {
+      "mapping_id": "hitler-cmt-026",
+      "document_id": "hitler-mein-kampf-vol1-ch11-race-and-people",
+      "sentence_id": "hitler-mein-kampf-vol1-ch11-race-and-people_s01_p56_s03",
+      "date": "1925",
+      "period": null,
+      "audience": "German nationalist readers seeking ideological foundation",
+      "occasion": "Core theoretical chapter on race, national character, and culture in Mein Kampf Vol. 1",
+      "genre": "political autobiography / ideological treatise",
+      "rhetorical_action": "Establishes racial hierarchy as natural law and designates the Aryan race as the sole creator of civilization.",
+      "emotional_posture": "pseudo-scientific, authoritative, prophetic",
+      "agency_structure": {
+        "agents": [
+          "Nature",
+          "the Aryan race",
+          "Hitler as interpreter of natural law"
+        ],
+        "patients": [
+          "inferior races",
+          "cultural parasites",
+          "the German Volk threatened by mixing"
+        ],
+        "beneficiaries": [
+          "Aryan civilization",
+          "the thousand-year Reich"
+        ],
+        "passive_or_absent": [
+          "Jewish, Roma, Black, and other racialized populations constructed as threats",
+          "women",
+          "disabled people"
+        ],
+        "displacement_mechanism": "Genocide logic is naturalized as law; its victims are constructed as aggressors requiring removal."
+      },
+      "rhetorical_salience": "high",
+      "rhetorical_functions": [
+        "argument"
+      ],
+      "evidence_span": "Wie die Farbe durch das Blut der ehemaligen Herren einen leisen Schimmer als Erinnerung an diese beibehielt, so ist auch die Nacht des kulturellen Lebens milde aufgehellt durch die gebliebenen Schopfungen der einstigen Lichtbringer.",
+      "claim_boundary": "Genre-sensitive interpretation; do not aggregate as frequency without document/register context."
+    },
+    {
+      "mapping_id": "hitler-cmt-027",
+      "document_id": "hitler-mein-kampf-vol1-ch11-race-and-people",
+      "sentence_id": "hitler-mein-kampf-vol1-ch11-race-and-people_s01_p57_s03",
+      "date": "1925",
+      "period": null,
+      "audience": "German nationalist readers seeking ideological foundation",
+      "occasion": "Core theoretical chapter on race, national character, and culture in Mein Kampf Vol. 1",
+      "genre": "political autobiography / ideological treatise",
+      "rhetorical_action": "Establishes racial hierarchy as natural law and designates the Aryan race as the sole creator of civilization.",
+      "emotional_posture": "pseudo-scientific, authoritative, prophetic",
+      "agency_structure": {
+        "agents": [
+          "Nature",
+          "the Aryan race",
+          "Hitler as interpreter of natural law"
+        ],
+        "patients": [
+          "inferior races",
+          "cultural parasites",
+          "the German Volk threatened by mixing"
+        ],
+        "beneficiaries": [
+          "Aryan civilization",
+          "the thousand-year Reich"
+        ],
+        "passive_or_absent": [
+          "Jewish, Roma, Black, and other racialized populations constructed as threats",
+          "women",
+          "disabled people"
+        ],
+        "displacement_mechanism": "Genocide logic is naturalized as law; its victims are constructed as aggressors requiring removal."
+      },
+      "rhetorical_salience": "high",
+      "rhetorical_functions": [
+        "argument"
+      ],
+      "evidence_span": "Eine neve Kulturwelle halt ihren Einzug und dauert so lange an, bis ihre Trager wie- der im Blute fremder Volker untergehen.",
+      "claim_boundary": "Genre-sensitive interpretation; do not aggregate as frequency without document/register context."
+    },
+    {
+      "mapping_id": "hitler-cmt-028",
+      "document_id": "hitler-mein-kampf-vol1-ch11-race-and-people",
+      "sentence_id": "hitler-mein-kampf-vol1-ch11-race-and-people_s01_p61_s04",
+      "date": "1925",
+      "period": null,
+      "audience": "German nationalist readers seeking ideological foundation",
+      "occasion": "Core theoretical chapter on race, national character, and culture in Mein Kampf Vol. 1",
+      "genre": "political autobiography / ideological treatise",
+      "rhetorical_action": "Establishes racial hierarchy as natural law and designates the Aryan race as the sole creator of civilization.",
+      "emotional_posture": "pseudo-scientific, authoritative, prophetic",
+      "agency_structure": {
+        "agents": [
+          "Nature",
+          "the Aryan race",
+          "Hitler as interpreter of natural law"
+        ],
+        "patients": [
+          "inferior races",
+          "cultural parasites",
+          "the German Volk threatened by mixing"
+        ],
+        "beneficiaries": [
+          "Aryan civilization",
+          "the thousand-year Reich"
+        ],
+        "passive_or_absent": [
+          "Jewish, Roma, Black, and other racialized populations constructed as threats",
+          "women",
+          "disabled people"
+        ],
+        "displacement_mechanism": "Genocide logic is naturalized as law; its victims are constructed as aggressors requiring removal."
+      },
+      "rhetorical_salience": "medium",
+      "rhetorical_functions": [
+        "argument"
+      ],
+      "evidence_span": "Aus schein- bar harmlosen Kindern schiefen plotzlich in Stunden der Not, da andere verzagen, Helden empor von todesmutiger Entschlossenheit und eisiger Kiihle der Uberlegung.",
+      "claim_boundary": "Genre-sensitive interpretation; do not aggregate as frequency without document/register context."
+    },
+    {
+      "mapping_id": "hitler-cmt-029",
+      "document_id": "hitler-mein-kampf-vol1-ch11-race-and-people",
+      "sentence_id": "hitler-mein-kampf-vol1-ch11-race-and-people_s01_p67_s02",
+      "date": "1925",
+      "period": null,
+      "audience": "German nationalist readers seeking ideological foundation",
+      "occasion": "Core theoretical chapter on race, national character, and culture in Mein Kampf Vol. 1",
+      "genre": "political autobiography / ideological treatise",
+      "rhetorical_action": "Establishes racial hierarchy as natural law and designates the Aryan race as the sole creator of civilization.",
+      "emotional_posture": "pseudo-scientific, authoritative, prophetic",
+      "agency_structure": {
+        "agents": [
+          "Nature",
+          "the Aryan race",
+          "Hitler as interpreter of natural law"
+        ],
+        "patients": [
+          "inferior races",
+          "cultural parasites",
+          "the German Volk threatened by mixing"
+        ],
+        "beneficiaries": [
+          "Aryan civilization",
+          "the thousand-year Reich"
+        ],
+        "passive_or_absent": [
+          "Jewish, Roma, Black, and other racialized populations constructed as threats",
+          "women",
+          "disabled people"
+        ],
+        "displacement_mechanism": "Genocide logic is naturalized as law; its victims are constructed as aggressors requiring removal."
+      },
+      "rhetorical_salience": "medium",
+      "rhetorical_functions": [
+        "argument"
+      ],
+      "evidence_span": "Sobald sie das Schicksal besonderen Verhalt- nissen entgegenfuhrt, beginnen sich ihre vorhandenen Fahig- keiten in immer schnellerer Folge zu entwickeln und in greifbare Formen zu gieBen.",
+      "claim_boundary": "Genre-sensitive interpretation; do not aggregate as frequency without document/register context."
+    },
+    {
+      "mapping_id": "hitler-cmt-030",
+      "document_id": "hitler-mein-kampf-vol1-ch11-race-and-people",
+      "sentence_id": "hitler-mein-kampf-vol1-ch11-race-and-people_s01_p76_s07",
+      "date": "1925",
+      "period": null,
+      "audience": "German nationalist readers seeking ideological foundation",
+      "occasion": "Core theoretical chapter on race, national character, and culture in Mein Kampf Vol. 1",
+      "genre": "political autobiography / ideological treatise",
+      "rhetorical_action": "Establishes racial hierarchy as natural law and designates the Aryan race as the sole creator of civilization.",
+      "emotional_posture": "pseudo-scientific, authoritative, prophetic",
+      "agency_structure": {
+        "agents": [
+          "Nature",
+          "the Aryan race",
+          "Hitler as interpreter of natural law"
+        ],
+        "patients": [
+          "inferior races",
+          "cultural parasites",
+          "the German Volk threatened by mixing"
+        ],
+        "beneficiaries": [
+          "Aryan civilization",
+          "the thousand-year Reich"
+        ],
+        "passive_or_absent": [
+          "Jewish, Roma, Black, and other racialized populations constructed as threats",
+          "women",
+          "disabled people"
+        ],
+        "displacement_mechanism": "Genocide logic is naturalized as law; its victims are constructed as aggressors requiring removal."
+      },
+      "rhetorical_salience": "high",
+      "rhetorical_functions": [
+        "argument"
+      ],
+      "evidence_span": "Der Arier gab die Reinheit seines Blutes auf und verlor daftir den Aufenthalt 1m Paradiese, das er sich selbst geschaffen hatte.",
+      "claim_boundary": "Genre-sensitive interpretation; do not aggregate as frequency without document/register context."
+    },
+    {
+      "mapping_id": "hitler-cmt-031",
+      "document_id": "hitler-mein-kampf-vol1-ch11-race-and-people",
+      "sentence_id": "hitler-mein-kampf-vol1-ch11-race-and-people_s01_p78_s01",
+      "date": "1925",
+      "period": null,
+      "audience": "German nationalist readers seeking ideological foundation",
+      "occasion": "Core theoretical chapter on race, national character, and culture in Mein Kampf Vol. 1",
+      "genre": "political autobiography / ideological treatise",
+      "rhetorical_action": "Establishes racial hierarchy as natural law and designates the Aryan race as the sole creator of civilization.",
+      "emotional_posture": "pseudo-scientific, authoritative, prophetic",
+      "agency_structure": {
+        "agents": [
+          "Nature",
+          "the Aryan race",
+          "Hitler as interpreter of natural law"
+        ],
+        "patients": [
+          "inferior races",
+          "cultural parasites",
+          "the German Volk threatened by mixing"
+        ],
+        "beneficiaries": [
+          "Aryan civilization",
+          "the thousand-year Reich"
+        ],
+        "passive_or_absent": [
+          "Jewish, Roma, Black, and other racialized populations constructed as threats",
+          "women",
+          "disabled people"
+        ],
+        "displacement_mechanism": "Genocide logic is naturalized as law; its victims are constructed as aggressors requiring removal."
+      },
+      "rhetorical_salience": "high",
+      "rhetorical_functions": [
+        "argument"
+      ],
+      "evidence_span": "Die Blutsvermischung und das dadurch bedingte Senken des Rassenniveaus ist die alleinige Ursache des Absterbens aller Kulturen; denn die Menschen gehen nicht an ver- lorenen Kriegen zugrunde, sondern am Verlust jener Wider- standskraft, die nur dem reinen Blute zu eigen ist.",
+      "claim_boundary": "Genre-sensitive interpretation; do not aggregate as frequency without document/register context."
+    },
+    {
+      "mapping_id": "hitler-cmt-032",
+      "document_id": "hitler-mein-kampf-vol1-ch11-race-and-people",
+      "sentence_id": "hitler-mein-kampf-vol1-ch11-race-and-people_s01_p88_s03",
+      "date": "1925",
+      "period": null,
+      "audience": "German nationalist readers seeking ideological foundation",
+      "occasion": "Core theoretical chapter on race, national character, and culture in Mein Kampf Vol. 1",
+      "genre": "political autobiography / ideological treatise",
+      "rhetorical_action": "Establishes racial hierarchy as natural law and designates the Aryan race as the sole creator of civilization.",
+      "emotional_posture": "pseudo-scientific, authoritative, prophetic",
+      "agency_structure": {
+        "agents": [
+          "Nature",
+          "the Aryan race",
+          "Hitler as interpreter of natural law"
+        ],
+        "patients": [
+          "inferior races",
+          "cultural parasites",
+          "the German Volk threatened by mixing"
+        ],
+        "beneficiaries": [
+          "Aryan civilization",
+          "the thousand-year Reich"
+        ],
+        "passive_or_absent": [
+          "Jewish, Roma, Black, and other racialized populations constructed as threats",
+          "women",
+          "disabled people"
+        ],
+        "displacement_mechanism": "Genocide logic is naturalized as law; its victims are constructed as aggressors requiring removal."
+      },
+      "rhetorical_salience": "high",
+      "rhetorical_functions": [
+        "commemoration"
+      ],
+      "evidence_span": "Der Selbst- erhaltungstrieb hat bei ihm die edelste Form erreicht, indem er das eigene Ich dem Leben der Gesamtheit willig unterordnet und, wenn die Stunde es erfordert, auch zum Opfer bringt.",
+      "claim_boundary": "Genre-sensitive interpretation; do not aggregate as frequency without document/register context."
+    },
+    {
+      "mapping_id": "hitler-cmt-033",
+      "document_id": "hitler-mein-kampf-vol1-ch11-race-and-people",
+      "sentence_id": "hitler-mein-kampf-vol1-ch11-race-and-people_s01_p93_s02",
+      "date": "1925",
+      "period": null,
+      "audience": "German nationalist readers seeking ideological foundation",
+      "occasion": "Core theoretical chapter on race, national character, and culture in Mein Kampf Vol. 1",
+      "genre": "political autobiography / ideological treatise",
+      "rhetorical_action": "Establishes racial hierarchy as natural law and designates the Aryan race as the sole creator of civilization.",
+      "emotional_posture": "pseudo-scientific, authoritative, prophetic",
+      "agency_structure": {
+        "agents": [
+          "Nature",
+          "the Aryan race",
+          "Hitler as interpreter of natural law"
+        ],
+        "patients": [
+          "inferior races",
+          "cultural parasites",
+          "the German Volk threatened by mixing"
+        ],
+        "beneficiaries": [
+          "Aryan civilization",
+          "the thousand-year Reich"
+        ],
+        "passive_or_absent": [
+          "Jewish, Roma, Black, and other racialized populations constructed as threats",
+          "women",
+          "disabled people"
+        ],
+        "displacement_mechanism": "Genocide logic is naturalized as law; its victims are constructed as aggressors requiring removal."
+      },
+      "rhetorical_salience": "high",
+      "rhetorical_functions": [
+        "commemoration"
+      ],
+      "evidence_span": "In der Hingabe des eigenen Lebens fir die Existenz der Gemeinschaft lhegt die Kroénung alles Opfer- sinnes.",
+      "claim_boundary": "Genre-sensitive interpretation; do not aggregate as frequency without document/register context."
+    },
+    {
+      "mapping_id": "hitler-cmt-034",
+      "document_id": "hitler-mein-kampf-vol1-ch11-race-and-people",
+      "sentence_id": "hitler-mein-kampf-vol1-ch11-race-and-people_s01_p97_s01",
+      "date": "1925",
+      "period": null,
+      "audience": "German nationalist readers seeking ideological foundation",
+      "occasion": "Core theoretical chapter on race, national character, and culture in Mein Kampf Vol. 1",
+      "genre": "political autobiography / ideological treatise",
+      "rhetorical_action": "Establishes racial hierarchy as natural law and designates the Aryan race as the sole creator of civilization.",
+      "emotional_posture": "pseudo-scientific, authoritative, prophetic",
+      "agency_structure": {
+        "agents": [
+          "Nature",
+          "the Aryan race",
+          "Hitler as interpreter of natural law"
+        ],
+        "patients": [
+          "inferior races",
+          "cultural parasites",
+          "the German Volk threatened by mixing"
+        ],
+        "beneficiaries": [
+          "Aryan civilization",
+          "the thousand-year Reich"
+        ],
+        "passive_or_absent": [
+          "Jewish, Roma, Black, and other racialized populations constructed as threats",
+          "women",
+          "disabled people"
+        ],
+        "displacement_mechanism": "Genocide logic is naturalized as law; its victims are constructed as aggressors requiring removal."
+      },
+      "rhetorical_salience": "medium",
+      "rhetorical_functions": [
+        "argument"
+      ],
+      "evidence_span": "Ohne seine ideale Gesinnung waren alle, auch die blendendsten Fahigkeiten des Geistes nur Geist an sich, auBerer Schein ohne inneren Wert, jedoch niemals schopferische Kraft.",
+      "claim_boundary": "Genre-sensitive interpretation; do not aggregate as frequency without document/register context."
+    },
+    {
+      "mapping_id": "hitler-cmt-035",
+      "document_id": "hitler-mein-kampf-vol1-ch12-nsdap",
+      "sentence_id": "hitler-mein-kampf-vol1-ch12-nsdap_s01_p147_s04",
+      "date": "1925",
+      "period": null,
+      "audience": "German nationalist readers and potential NSDAP recruits",
+      "occasion": "Chapter on the early NSDAP and the requirements of political organization",
+      "genre": "political autobiography / ideological treatise",
+      "rhetorical_action": "Frames the NSDAP as the necessary vehicle for racial salvation and positions Hitler as indispensable leader.",
+      "emotional_posture": "prescriptive, visionary, organizational",
+      "agency_structure": {
+        "agents": [
+          "the movement",
+          "Hitler",
+          "the Volk"
+        ],
+        "patients": [
+          "Jewish Marxism",
+          "the corrupt state",
+          "enemies of the nation"
+        ],
+        "beneficiaries": [
+          "the German nation",
+          "Aryan civilization"
+        ],
+        "passive_or_absent": [
+          "political opponents who will be eliminated",
+          "non-Aryan minorities"
+        ],
+        "displacement_mechanism": "Organizational necessity suppresses the eliminationist consequences of the movement's program."
+      },
+      "rhetorical_salience": "medium",
+      "rhetorical_functions": [
+        "glorification"
+      ],
+      "evidence_span": "Dem Naturgesetz aller Entwicklung aber entspricht nicht das Verkuppeln zweier eben nicht gleicher Gebilde, sondern der Sieg des starkeren und die durch den dadurch bedingten Kampf allein ermodglichte Hoherztchtung der Kraft und Starke des Siegers.",
+      "claim_boundary": "Genre-sensitive interpretation; do not aggregate as frequency without document/register context."
+    },
+    {
+      "mapping_id": "hitler-cmt-036",
+      "document_id": "hitler-mein-kampf-vol1-ch12-nsdap",
+      "sentence_id": "hitler-mein-kampf-vol1-ch12-nsdap_s01_p232_s01",
+      "date": "1925",
+      "period": null,
+      "audience": "German nationalist readers and potential NSDAP recruits",
+      "occasion": "Chapter on the early NSDAP and the requirements of political organization",
+      "genre": "political autobiography / ideological treatise",
+      "rhetorical_action": "Frames the NSDAP as the necessary vehicle for racial salvation and positions Hitler as indispensable leader.",
+      "emotional_posture": "prescriptive, visionary, organizational",
+      "agency_structure": {
+        "agents": [
+          "the movement",
+          "Hitler",
+          "the Volk"
+        ],
+        "patients": [
+          "Jewish Marxism",
+          "the corrupt state",
+          "enemies of the nation"
+        ],
+        "beneficiaries": [
+          "the German nation",
+          "Aryan civilization"
+        ],
+        "passive_or_absent": [
+          "political opponents who will be eliminated",
+          "non-Aryan minorities"
+        ],
+        "displacement_mechanism": "Organizational necessity suppresses the eliminationist consequences of the movement's program."
+      },
+      "rhetorical_salience": "medium",
+      "rhetorical_functions": [
+        "argument"
+      ],
+      "evidence_span": "Es ist das Charakteristische dieser Naturen, da sie von altgermanischem Heldentum, von grauer Vorzeit, Stein- axten, Ger und Schild schwarmen, in Wirklichkeit aber die groBten Feiglinge sind, die man sich vorstellen kann.",
+      "claim_boundary": "Genre-sensitive interpretation; do not aggregate as frequency without document/register context."
+    },
+    {
+      "mapping_id": "hitler-cmt-037",
+      "document_id": "hitler-mein-kampf-vol1-ch12-nsdap",
+      "sentence_id": "hitler-mein-kampf-vol1-ch12-nsdap_s01_p247_s03",
+      "date": "1925",
+      "period": null,
+      "audience": "German nationalist readers and potential NSDAP recruits",
+      "occasion": "Chapter on the early NSDAP and the requirements of political organization",
+      "genre": "political autobiography / ideological treatise",
+      "rhetorical_action": "Frames the NSDAP as the necessary vehicle for racial salvation and positions Hitler as indispensable leader.",
+      "emotional_posture": "prescriptive, visionary, organizational",
+      "agency_structure": {
+        "agents": [
+          "the movement",
+          "Hitler",
+          "the Volk"
+        ],
+        "patients": [
+          "Jewish Marxism",
+          "the corrupt state",
+          "enemies of the nation"
+        ],
+        "beneficiaries": [
+          "the German nation",
+          "Aryan civilization"
+        ],
+        "passive_or_absent": [
+          "political opponents who will be eliminated",
+          "non-Aryan minorities"
+        ],
+        "displacement_mechanism": "Organizational necessity suppresses the eliminationist consequences of the movement's program."
+      },
+      "rhetorical_salience": "medium",
+      "rhetorical_functions": [
+        "argument"
+      ],
+      "evidence_span": "Sie warfen uns nicht nur die rohe Anbetung des Gummiknippels, sondern den mangelnden Geist an sich auf das eindringlichste vor.",
+      "claim_boundary": "Genre-sensitive interpretation; do not aggregate as frequency without document/register context."
+    },
+    {
+      "mapping_id": "hitler-cmt-038",
+      "document_id": "hitler-mein-kampf-vol1-ch12-nsdap",
+      "sentence_id": "hitler-mein-kampf-vol1-ch12-nsdap_s01_p48_s02",
+      "date": "1925",
+      "period": null,
+      "audience": "German nationalist readers and potential NSDAP recruits",
+      "occasion": "Chapter on the early NSDAP and the requirements of political organization",
+      "genre": "political autobiography / ideological treatise",
+      "rhetorical_action": "Frames the NSDAP as the necessary vehicle for racial salvation and positions Hitler as indispensable leader.",
+      "emotional_posture": "prescriptive, visionary, organizational",
+      "agency_structure": {
+        "agents": [
+          "the movement",
+          "Hitler",
+          "the Volk"
+        ],
+        "patients": [
+          "Jewish Marxism",
+          "the corrupt state",
+          "enemies of the nation"
+        ],
+        "beneficiaries": [
+          "the German nation",
+          "Aryan civilization"
+        ],
+        "passive_or_absent": [
+          "political opponents who will be eliminated",
+          "non-Aryan minorities"
+        ],
+        "displacement_mechanism": "Organizational necessity suppresses the eliminationist consequences of the movement's program."
+      },
+      "rhetorical_salience": "medium",
+      "rhetorical_functions": [
+        "argument"
+      ],
+      "evidence_span": "Die Gewinnung der Seele des Volkes kann nur ge- lingen, wenn man neben der Futhrung des positiven Kampfes fur die eigenen Ziele den Gegner dieser Ziele vernichtet.",
+      "claim_boundary": "Genre-sensitive interpretation; do not aggregate as frequency without document/register context."
+    },
+    {
+      "mapping_id": "hitler-cmt-039",
+      "document_id": "hitler-mein-kampf-vol1-ch12-nsdap",
+      "sentence_id": "hitler-mein-kampf-vol1-ch12-nsdap_s01_p49_s01",
+      "date": "1925",
+      "period": null,
+      "audience": "German nationalist readers and potential NSDAP recruits",
+      "occasion": "Chapter on the early NSDAP and the requirements of political organization",
+      "genre": "political autobiography / ideological treatise",
+      "rhetorical_action": "Frames the NSDAP as the necessary vehicle for racial salvation and positions Hitler as indispensable leader.",
+      "emotional_posture": "prescriptive, visionary, organizational",
+      "agency_structure": {
+        "agents": [
+          "the movement",
+          "Hitler",
+          "the Volk"
+        ],
+        "patients": [
+          "Jewish Marxism",
+          "the corrupt state",
+          "enemies of the nation"
+        ],
+        "beneficiaries": [
+          "the German nation",
+          "Aryan civilization"
+        ],
+        "passive_or_absent": [
+          "political opponents who will be eliminated",
+          "non-Aryan minorities"
+        ],
+        "displacement_mechanism": "Organizational necessity suppresses the eliminationist consequences of the movement's program."
+      },
+      "rhetorical_salience": "medium",
+      "rhetorical_functions": [
+        "argument"
+      ],
+      "evidence_span": "Das Volk sieht zu allen Zeiten im riicksichtslosen Angriff auf einen Widersacher den Beweis des eigenen Rechtes, und es empfindet den Verzicht auf die Vernichtung des anderen als Unsicherheit in bezug auf das eigene Recht, wenn nicht als Zeichen des eigenen Unrechtes.",
+      "claim_boundary": "Genre-sensitive interpretation; do not aggregate as frequency without document/register context."
+    },
+    {
+      "mapping_id": "hitler-cmt-040",
+      "document_id": "hitler-mein-kampf-vol1-ch12-nsdap",
+      "sentence_id": "hitler-mein-kampf-vol1-ch12-nsdap_s01_p52_s02",
+      "date": "1925",
+      "period": null,
+      "audience": "German nationalist readers and potential NSDAP recruits",
+      "occasion": "Chapter on the early NSDAP and the requirements of political organization",
+      "genre": "political autobiography / ideological treatise",
+      "rhetorical_action": "Frames the NSDAP as the necessary vehicle for racial salvation and positions Hitler as indispensable leader.",
+      "emotional_posture": "prescriptive, visionary, organizational",
+      "agency_structure": {
+        "agents": [
+          "the movement",
+          "Hitler",
+          "the Volk"
+        ],
+        "patients": [
+          "Jewish Marxism",
+          "the corrupt state",
+          "enemies of the nation"
+        ],
+        "beneficiaries": [
+          "the German nation",
+          "Aryan civilization"
+        ],
+        "passive_or_absent": [
+          "political opponents who will be eliminated",
+          "non-Aryan minorities"
+        ],
+        "displacement_mechanism": "Organizational necessity suppresses the eliminationist consequences of the movement's program."
+      },
+      "rhetorical_salience": "medium",
+      "rhetorical_functions": [
+        "glorification"
+      ],
+      "evidence_span": "Was sie wunscht, ist der Sieg des Starkeren und die Vernichtung des Schwachen oder seine bedingungslose Unterwerfung.",
+      "claim_boundary": "Genre-sensitive interpretation; do not aggregate as frequency without document/register context."
+    },
+    {
+      "mapping_id": "hitler-cmt-041",
+      "document_id": "hitler-mein-kampf-vol1-ch12-nsdap",
+      "sentence_id": "hitler-mein-kampf-vol1-ch12-nsdap_s01_p53_s01",
+      "date": "1925",
+      "period": null,
+      "audience": "German nationalist readers and potential NSDAP recruits",
+      "occasion": "Chapter on the early NSDAP and the requirements of political organization",
+      "genre": "political autobiography / ideological treatise",
+      "rhetorical_action": "Frames the NSDAP as the necessary vehicle for racial salvation and positions Hitler as indispensable leader.",
+      "emotional_posture": "prescriptive, visionary, organizational",
+      "agency_structure": {
+        "agents": [
+          "the movement",
+          "Hitler",
+          "the Volk"
+        ],
+        "patients": [
+          "Jewish Marxism",
+          "the corrupt state",
+          "enemies of the nation"
+        ],
+        "beneficiaries": [
+          "the German nation",
+          "Aryan civilization"
+        ],
+        "passive_or_absent": [
+          "political opponents who will be eliminated",
+          "non-Aryan minorities"
+        ],
+        "displacement_mechanism": "Organizational necessity suppresses the eliminationist consequences of the movement's program."
+      },
+      "rhetorical_salience": "medium",
+      "rhetorical_functions": [
+        "argument"
+      ],
+      "evidence_span": "Die Nationalisierung unserer Masse wird nur gelingen, wenn bei allem positiven Kampf um die Seele unseres Volkes ihre internationalen Vergifter ausgerottet werden.",
+      "claim_boundary": "Genre-sensitive interpretation; do not aggregate as frequency without document/register context."
+    },
+    {
+      "mapping_id": "hitler-cmt-042",
+      "document_id": "hitler-mein-kampf-vol1-ch12-nsdap",
+      "sentence_id": "hitler-mein-kampf-vol1-ch12-nsdap_s01_p54_s04",
+      "date": "1925",
+      "period": null,
+      "audience": "German nationalist readers and potential NSDAP recruits",
+      "occasion": "Chapter on the early NSDAP and the requirements of political organization",
+      "genre": "political autobiography / ideological treatise",
+      "rhetorical_action": "Frames the NSDAP as the necessary vehicle for racial salvation and positions Hitler as indispensable leader.",
+      "emotional_posture": "prescriptive, visionary, organizational",
+      "agency_structure": {
+        "agents": [
+          "the movement",
+          "Hitler",
+          "the Volk"
+        ],
+        "patients": [
+          "Jewish Marxism",
+          "the corrupt state",
+          "enemies of the nation"
+        ],
+        "beneficiaries": [
+          "the German nation",
+          "Aryan civilization"
+        ],
+        "passive_or_absent": [
+          "political opponents who will be eliminated",
+          "non-Aryan minorities"
+        ],
+        "displacement_mechanism": "Organizational necessity suppresses the eliminationist consequences of the movement's program."
+      },
+      "rhetorical_salience": "high",
+      "rhetorical_functions": [
+        "argument"
+      ],
+      "evidence_span": "Im Blute allein liegt sowohl die Kraft als auch die Schwache des Menschen begriindet.",
+      "claim_boundary": "Genre-sensitive interpretation; do not aggregate as frequency without document/register context."
+    },
+    {
+      "mapping_id": "hitler-cmt-043",
+      "document_id": "hitler-mein-kampf-vol2-ch1-weltanschauung",
+      "sentence_id": "hitler-mein-kampf-vol2-ch1-weltanschauung_s01_p23_s01",
+      "date": "1926",
+      "period": null,
+      "audience": "NSDAP members and nationalist readers",
+      "occasion": "Opening chapter of Vol. 2, on worldview and political doctrine",
+      "genre": "political autobiography / ideological treatise",
+      "rhetorical_action": "Establishes racial worldview as scientific truth and the basis for all political action.",
+      "emotional_posture": "doctrinal, authoritative",
+      "agency_structure": {
+        "agents": [
+          "the movement",
+          "Nature",
+          "the Aryan"
+        ],
+        "patients": [
+          "the Jewish worldview",
+          "Marxism",
+          "international capital"
+        ],
+        "beneficiaries": [
+          "the national community",
+          "the German state"
+        ],
+        "passive_or_absent": [
+          "populations targeted by the racial doctrine"
+        ],
+        "displacement_mechanism": "Ideological framing neutralizes the violence inherent in the program by presenting it as natural and inevitable."
+      },
+      "rhetorical_salience": "high",
+      "rhetorical_functions": [
+        "argument"
+      ],
+      "evidence_span": "Der Marxismus wird so lange mit der Demokratie mar- schieren, bis es ihm gelingt, auf indirektem Wege fur seine verbrecherischen Ziele sogar noch die Untersttitzung der von ihm zur Ausrottung bestimmten nationalen geistigen Welt zu erhalten.",
+      "claim_boundary": "Genre-sensitive interpretation; do not aggregate as frequency without document/register context."
+    },
+    {
+      "mapping_id": "hitler-cmt-044",
+      "document_id": "hitler-mein-kampf-vol2-ch1-weltanschauung",
+      "sentence_id": "hitler-mein-kampf-vol2-ch1-weltanschauung_s01_p57_s05",
+      "date": "1926",
+      "period": null,
+      "audience": "NSDAP members and nationalist readers",
+      "occasion": "Opening chapter of Vol. 2, on worldview and political doctrine",
+      "genre": "political autobiography / ideological treatise",
+      "rhetorical_action": "Establishes racial worldview as scientific truth and the basis for all political action.",
+      "emotional_posture": "doctrinal, authoritative",
+      "agency_structure": {
+        "agents": [
+          "the movement",
+          "Nature",
+          "the Aryan"
+        ],
+        "patients": [
+          "the Jewish worldview",
+          "Marxism",
+          "international capital"
+        ],
+        "beneficiaries": [
+          "the national community",
+          "the German state"
+        ],
+        "passive_or_absent": [
+          "populations targeted by the racial doctrine"
+        ],
+        "displacement_mechanism": "Ideological framing neutralizes the violence inherent in the program by presenting it as natural and inevitable."
+      },
+      "rhetorical_salience": "medium",
+      "rhetorical_functions": [
+        "argument"
+      ],
+      "evidence_span": "Ohne den Untergrund einer derartigen, allgemein bereits vorhandenen Vergiftung ware der staunenswerte politische Erfolg dieser Lehre auch niemals mdéglich gewe- sen. Karl Marx war wirklich nur der eine unter den Millionen, der in dem Sumpfe einer langsam verkommen- den Welt mit dem sicheren Blick des Propheten die wesent- lichsten Giftstoffe erkannte, sie herausgriff, um sie, einem Schwarzkunstler gleich, in eine konzentrierte Losung zur schnelleren Vernichtung des unabhangigen Daseins freier Nationen auf dieser Erde zu bringen.",
+      "claim_boundary": "Genre-sensitive interpretation; do not aggregate as frequency without document/register context."
+    },
+    {
+      "mapping_id": "hitler-cmt-045",
+      "document_id": "hitler-mein-kampf-vol2-ch1-weltanschauung",
+      "sentence_id": "hitler-mein-kampf-vol2-ch1-weltanschauung_s01_p63_s01",
+      "date": "1926",
+      "period": null,
+      "audience": "NSDAP members and nationalist readers",
+      "occasion": "Opening chapter of Vol. 2, on worldview and political doctrine",
+      "genre": "political autobiography / ideological treatise",
+      "rhetorical_action": "Establishes racial worldview as scientific truth and the basis for all political action.",
+      "emotional_posture": "doctrinal, authoritative",
+      "agency_structure": {
+        "agents": [
+          "the movement",
+          "Nature",
+          "the Aryan"
+        ],
+        "patients": [
+          "the Jewish worldview",
+          "Marxism",
+          "international capital"
+        ],
+        "beneficiaries": [
+          "the national community",
+          "the German state"
+        ],
+        "passive_or_absent": [
+          "populations targeted by the racial doctrine"
+        ],
+        "displacement_mechanism": "Ideological framing neutralizes the violence inherent in the program by presenting it as natural and inevitable."
+      },
+      "rhetorical_salience": "medium",
+      "rhetorical_functions": [
+        "argument"
+      ],
+      "evidence_span": "Das Untergraben des Bestandes der menschlichen Kultur durch die Vernichtung ihres Tragers aber erscheint in den Augen einer volkischen Weltanschauung als das fluchwur- digste Verbrechen.",
+      "claim_boundary": "Genre-sensitive interpretation; do not aggregate as frequency without document/register context."
+    },
+    {
+      "mapping_id": "hitler-cmt-046",
+      "document_id": "hitler-mein-kampf-vol2-ch2-the-state",
+      "sentence_id": "hitler-mein-kampf-vol2-ch2-the-state_s01_p16_s01",
+      "date": "1926",
+      "period": null,
+      "audience": "NSDAP members and nationalist readers",
+      "occasion": "Chapter on the racial state as the highest political form",
+      "genre": "political autobiography / ideological treatise",
+      "rhetorical_action": "Subordinates the state to racial preservation and delegitimizes non-racial political forms.",
+      "emotional_posture": "prescriptive, systematic",
+      "agency_structure": {
+        "agents": [
+          "the racial state",
+          "the movement",
+          "Nature"
+        ],
+        "patients": [
+          "the Jewish-Marxist state",
+          "degenerate political forms"
+        ],
+        "beneficiaries": [
+          "the Volk",
+          "Aryan posterity"
+        ],
+        "passive_or_absent": [
+          "ethnic and political minorities in the state being constructed"
+        ],
+        "displacement_mechanism": "State theory presents elimination of minorities as maintenance of natural order."
+      },
+      "rhetorical_salience": "high",
+      "rhetorical_functions": [
+        "argument"
+      ],
+      "evidence_span": "Da das Volkstum, besser die Rasse, eben nicht in der Sprache liegt, sondern im Blute, wurde man von einer Germanisation erst dann sprechen durfen, wenn es gelange, durch einen solchen ProzeB das Blut der Unterlegenen um- zuwandeln.",
+      "claim_boundary": "Genre-sensitive interpretation; do not aggregate as frequency without document/register context."
+    },
+    {
+      "mapping_id": "hitler-cmt-047",
+      "document_id": "hitler-mein-kampf-vol2-ch2-the-state",
+      "sentence_id": "hitler-mein-kampf-vol2-ch2-the-state_s01_p18_s02",
+      "date": "1926",
+      "period": null,
+      "audience": "NSDAP members and nationalist readers",
+      "occasion": "Chapter on the racial state as the highest political form",
+      "genre": "political autobiography / ideological treatise",
+      "rhetorical_action": "Subordinates the state to racial preservation and delegitimizes non-racial political forms.",
+      "emotional_posture": "prescriptive, systematic",
+      "agency_structure": {
+        "agents": [
+          "the racial state",
+          "the movement",
+          "Nature"
+        ],
+        "patients": [
+          "the Jewish-Marxist state",
+          "degenerate political forms"
+        ],
+        "beneficiaries": [
+          "the Volk",
+          "Aryan posterity"
+        ],
+        "passive_or_absent": [
+          "ethnic and political minorities in the state being constructed"
+        ],
+        "displacement_mechanism": "State theory presents elimination of minorities as maintenance of natural order."
+      },
+      "rhetorical_salience": "medium",
+      "rhetorical_functions": [
+        "argument"
+      ],
+      "evidence_span": "Das Endergebnis eines solchen Vorganges ware also die Vernichtung gerade der Eigenschaften, welche das Eroberervolk einst zum Siege befahigt hatten.",
+      "claim_boundary": "Genre-sensitive interpretation; do not aggregate as frequency without document/register context."
+    },
+    {
+      "mapping_id": "hitler-cmt-048",
+      "document_id": "hitler-mein-kampf-vol2-ch2-the-state",
+      "sentence_id": "hitler-mein-kampf-vol2-ch2-the-state_s01_p271_s03",
+      "date": "1926",
+      "period": null,
+      "audience": "NSDAP members and nationalist readers",
+      "occasion": "Chapter on the racial state as the highest political form",
+      "genre": "political autobiography / ideological treatise",
+      "rhetorical_action": "Subordinates the state to racial preservation and delegitimizes non-racial political forms.",
+      "emotional_posture": "prescriptive, systematic",
+      "agency_structure": {
+        "agents": [
+          "the racial state",
+          "the movement",
+          "Nature"
+        ],
+        "patients": [
+          "the Jewish-Marxist state",
+          "degenerate political forms"
+        ],
+        "beneficiaries": [
+          "the Volk",
+          "Aryan posterity"
+        ],
+        "passive_or_absent": [
+          "ethnic and political minorities in the state being constructed"
+        ],
+        "displacement_mechanism": "State theory presents elimination of minorities as maintenance of natural order."
+      },
+      "rhetorical_salience": "medium",
+      "rhetorical_functions": [
+        "argument"
+      ],
+      "evidence_span": "Hatten wir an Stelle eines Bethmann Hollweg einen robu- steren Volksmann als Ftithrer besessen, wtirde das Helden- blut des gemeinen Grenadiers nicht umsonst geflossen sein.",
+      "claim_boundary": "Genre-sensitive interpretation; do not aggregate as frequency without document/register context."
+    },
+    {
+      "mapping_id": "hitler-cmt-049",
+      "document_id": "hitler-mein-kampf-vol2-ch2-the-state",
+      "sentence_id": "hitler-mein-kampf-vol2-ch2-the-state_s01_p301_s03",
+      "date": "1926",
+      "period": null,
+      "audience": "NSDAP members and nationalist readers",
+      "occasion": "Chapter on the racial state as the highest political form",
+      "genre": "political autobiography / ideological treatise",
+      "rhetorical_action": "Subordinates the state to racial preservation and delegitimizes non-racial political forms.",
+      "emotional_posture": "prescriptive, systematic",
+      "agency_structure": {
+        "agents": [
+          "the racial state",
+          "the movement",
+          "Nature"
+        ],
+        "patients": [
+          "the Jewish-Marxist state",
+          "degenerate political forms"
+        ],
+        "beneficiaries": [
+          "the Volk",
+          "Aryan posterity"
+        ],
+        "passive_or_absent": [
+          "ethnic and political minorities in the state being constructed"
+        ],
+        "displacement_mechanism": "State theory presents elimination of minorities as maintenance of natural order."
+      },
+      "rhetorical_salience": "medium",
+      "rhetorical_functions": [
+        "national_self_definition"
+      ],
+      "evidence_span": "Denn, was die Men- schen damals sterben lieB, war nicht die Sorge um das tag- liche Brot, sondern die Liebe zum Vaterland, der Glaube an die Grobe desselben, das allgemeine Geftihl fiir die Ehre der Nation.",
+      "claim_boundary": "Genre-sensitive interpretation; do not aggregate as frequency without document/register context."
+    },
+    {
+      "mapping_id": "hitler-cmt-050",
+      "document_id": "hitler-mein-kampf-vol2-ch2-the-state",
+      "sentence_id": "hitler-mein-kampf-vol2-ch2-the-state_s01_p32_s05",
+      "date": "1926",
+      "period": null,
+      "audience": "NSDAP members and nationalist readers",
+      "occasion": "Chapter on the racial state as the highest political form",
+      "genre": "political autobiography / ideological treatise",
+      "rhetorical_action": "Subordinates the state to racial preservation and delegitimizes non-racial political forms.",
+      "emotional_posture": "prescriptive, systematic",
+      "agency_structure": {
+        "agents": [
+          "the racial state",
+          "the movement",
+          "Nature"
+        ],
+        "patients": [
+          "the Jewish-Marxist state",
+          "degenerate political forms"
+        ],
+        "beneficiaries": [
+          "the Volk",
+          "Aryan posterity"
+        ],
+        "passive_or_absent": [
+          "ethnic and political minorities in the state being constructed"
+        ],
+        "displacement_mechanism": "State theory presents elimination of minorities as maintenance of natural order."
+      },
+      "rhetorical_salience": "medium",
+      "rhetorical_functions": [
+        "argument"
+      ],
+      "evidence_span": "Man kann noch weitergehen und sagen, daB die Tatsache menschlicher Staatenbildung nicht im geringsten die Moglichkeit der Vernichtung des mensch- lichen Geschlechtes ausschlieBen witrde, sofern tberlegene geistige Fahigkeit und Elastizitat, infolge des Fehlens des rassischen Tragers derselben, verlorengingen.",
+      "claim_boundary": "Genre-sensitive interpretation; do not aggregate as frequency without document/register context."
+    },
+    {
+      "mapping_id": "hitler-cmt-051",
+      "document_id": "hitler-mein-kampf-vol2-ch2-the-state",
+      "sentence_id": "hitler-mein-kampf-vol2-ch2-the-state_s01_p34_s04",
+      "date": "1926",
+      "period": null,
+      "audience": "NSDAP members and nationalist readers",
+      "occasion": "Chapter on the racial state as the highest political form",
+      "genre": "political autobiography / ideological treatise",
+      "rhetorical_action": "Subordinates the state to racial preservation and delegitimizes non-racial political forms.",
+      "emotional_posture": "prescriptive, systematic",
+      "agency_structure": {
+        "agents": [
+          "the racial state",
+          "the movement",
+          "Nature"
+        ],
+        "patients": [
+          "the Jewish-Marxist state",
+          "degenerate political forms"
+        ],
+        "beneficiaries": [
+          "the Volk",
+          "Aryan posterity"
+        ],
+        "passive_or_absent": [
+          "ethnic and political minorities in the state being constructed"
+        ],
+        "displacement_mechanism": "State theory presents elimination of minorities as maintenance of natural order."
+      },
+      "rhetorical_salience": "medium",
+      "rhetorical_functions": [
+        "argument"
+      ],
+      "evidence_span": "Nur die Vernichtung der letzten kulturfahigen Rasse und ihrer einzelnen Trager wurde die Erde endgiltig verdden.",
+      "claim_boundary": "Genre-sensitive interpretation; do not aggregate as frequency without document/register context."
+    },
+    {
+      "mapping_id": "hitler-cmt-052",
+      "document_id": "hitler-mein-kampf-vol2-ch2-the-state",
+      "sentence_id": "hitler-mein-kampf-vol2-ch2-the-state_s01_p56_s05",
+      "date": "1926",
+      "period": null,
+      "audience": "NSDAP members and nationalist readers",
+      "occasion": "Chapter on the racial state as the highest political form",
+      "genre": "political autobiography / ideological treatise",
+      "rhetorical_action": "Subordinates the state to racial preservation and delegitimizes non-racial political forms.",
+      "emotional_posture": "prescriptive, systematic",
+      "agency_structure": {
+        "agents": [
+          "the racial state",
+          "the movement",
+          "Nature"
+        ],
+        "patients": [
+          "the Jewish-Marxist state",
+          "degenerate political forms"
+        ],
+        "beneficiaries": [
+          "the Volk",
+          "Aryan posterity"
+        ],
+        "passive_or_absent": [
+          "ethnic and political minorities in the state being constructed"
+        ],
+        "displacement_mechanism": "State theory presents elimination of minorities as maintenance of natural order."
+      },
+      "rhetorical_salience": "medium",
+      "rhetorical_functions": [
+        "argument"
+      ],
+      "evidence_span": "Wenngleich der beste Staat und die beste Staatsform nicht in der Lage sind, aus einem Volke Fahig- keiten herauszuholen, die einfach fehlen und nie vorhan- den waren, so ist ein schlechter Staat sicherlich in der Lage, durch eine von ihm zugelassene oder gar geforderte Vernichtung des rassischen Kulturtragers urspringlich vor- handene Fahigkeiten in der Folgezeit zum Absterben zu bringen.",
+      "claim_boundary": "Genre-sensitive interpretation; do not aggregate as frequency without document/register context."
+    },
+    {
+      "mapping_id": "hitler-cmt-053",
+      "document_id": "hitler-mein-kampf-vol2-ch14-eastern-europe",
+      "sentence_id": "hitler-mein-kampf-vol2-ch14-eastern-europe_s01_p127_s04",
+      "date": "1926",
+      "period": null,
+      "audience": "NSDAP members and nationalist readers",
+      "occasion": "Chapter on eastern expansion (Lebensraum) and racial settlement policy",
+      "genre": "political autobiography / ideological treatise",
+      "rhetorical_action": "Legitimizes eastward territorial conquest as racial destiny and frames Slavic populations as obstacles to Aryan settlement.",
+      "emotional_posture": "geopolitical, prophetic, eliminationist",
+      "agency_structure": {
+        "agents": [
+          "the German nation",
+          "the Aryan settler",
+          "the movement"
+        ],
+        "patients": [
+          "Slavic populations",
+          "Eastern European peoples designated for displacement"
+        ],
+        "beneficiaries": [
+          "the Aryan nation",
+          "German Lebensraum"
+        ],
+        "passive_or_absent": [
+          "Slavic, Jewish, and other populations facing displacement and extermination"
+        ],
+        "displacement_mechanism": "Territorial destiny naturalizes mass displacement and murder as spatial necessity."
+      },
+      "rhetorical_salience": "medium",
+      "rhetorical_functions": [
+        "argument"
+      ],
+      "evidence_span": "Man schlieBt aber keinen Vertrag mit einem Partner, dessen einziges Interesse die Vernichtung des anderen ist.",
+      "claim_boundary": "Genre-sensitive interpretation; do not aggregate as frequency without document/register context."
+    },
+    {
+      "mapping_id": "hitler-cmt-054",
+      "document_id": "hitler-mein-kampf-vol2-ch14-eastern-europe",
+      "sentence_id": "hitler-mein-kampf-vol2-ch14-eastern-europe_s01_p127_s05",
+      "date": "1926",
+      "period": null,
+      "audience": "NSDAP members and nationalist readers",
+      "occasion": "Chapter on eastern expansion (Lebensraum) and racial settlement policy",
+      "genre": "political autobiography / ideological treatise",
+      "rhetorical_action": "Legitimizes eastward territorial conquest as racial destiny and frames Slavic populations as obstacles to Aryan settlement.",
+      "emotional_posture": "geopolitical, prophetic, eliminationist",
+      "agency_structure": {
+        "agents": [
+          "the German nation",
+          "the Aryan settler",
+          "the movement"
+        ],
+        "patients": [
+          "Slavic populations",
+          "Eastern European peoples designated for displacement"
+        ],
+        "beneficiaries": [
+          "the Aryan nation",
+          "German Lebensraum"
+        ],
+        "passive_or_absent": [
+          "Slavic, Jewish, and other populations facing displacement and extermination"
+        ],
+        "displacement_mechanism": "Territorial destiny naturalizes mass displacement and murder as spatial necessity."
+      },
+      "rhetorical_salience": "medium",
+      "rhetorical_functions": [
+        "national_self_definition"
+      ],
+      "evidence_span": "Man schlieBt thn vor allem nicht mit Subjekten, denen kein Vertrag heilig sein witrde, da sie nicht als Vertreter von Ehre und Wahrhaftigkeit auf dieser Welt leben, sondern als Reprasentanten der Luge, des Be- truges, des Diebstahls, der Pliinderung, des Raubes.",
+      "claim_boundary": "Genre-sensitive interpretation; do not aggregate as frequency without document/register context."
+    },
+    {
+      "mapping_id": "hitler-cmt-055",
+      "document_id": "hitler-mein-kampf-vol2-ch14-eastern-europe",
+      "sentence_id": "hitler-mein-kampf-vol2-ch14-eastern-europe_s01_p14_s02",
+      "date": "1926",
+      "period": null,
+      "audience": "NSDAP members and nationalist readers",
+      "occasion": "Chapter on eastern expansion (Lebensraum) and racial settlement policy",
+      "genre": "political autobiography / ideological treatise",
+      "rhetorical_action": "Legitimizes eastward territorial conquest as racial destiny and frames Slavic populations as obstacles to Aryan settlement.",
+      "emotional_posture": "geopolitical, prophetic, eliminationist",
+      "agency_structure": {
+        "agents": [
+          "the German nation",
+          "the Aryan settler",
+          "the movement"
+        ],
+        "patients": [
+          "Slavic populations",
+          "Eastern European peoples designated for displacement"
+        ],
+        "beneficiaries": [
+          "the Aryan nation",
+          "German Lebensraum"
+        ],
+        "passive_or_absent": [
+          "Slavic, Jewish, and other populations facing displacement and extermination"
+        ],
+        "displacement_mechanism": "Territorial destiny naturalizes mass displacement and murder as spatial necessity."
+      },
+      "rhetorical_salience": "medium",
+      "rhetorical_functions": [
+        "argument"
+      ],
+      "evidence_span": "Jeder andere Zustand, mag er auch Jahrhunderte, ja selbst Jahrtausende andauern, ist nichtsdestoweniger ein ungesunder und wird friuher oder spater zu einer Schadigung, wenn nicht zur Vernichtung des betreffenden Volkes fthren.",
+      "claim_boundary": "Genre-sensitive interpretation; do not aggregate as frequency without document/register context."
+    },
+    {
+      "mapping_id": "hitler-cmt-056",
+      "document_id": "hitler-mein-kampf-vol2-ch14-eastern-europe",
+      "sentence_id": "hitler-mein-kampf-vol2-ch14-eastern-europe_s01_p163_s01",
+      "date": "1926",
+      "period": null,
+      "audience": "NSDAP members and nationalist readers",
+      "occasion": "Chapter on eastern expansion (Lebensraum) and racial settlement policy",
+      "genre": "political autobiography / ideological treatise",
+      "rhetorical_action": "Legitimizes eastward territorial conquest as racial destiny and frames Slavic populations as obstacles to Aryan settlement.",
+      "emotional_posture": "geopolitical, prophetic, eliminationist",
+      "agency_structure": {
+        "agents": [
+          "the German nation",
+          "the Aryan settler",
+          "the movement"
+        ],
+        "patients": [
+          "Slavic populations",
+          "Eastern European peoples designated for displacement"
+        ],
+        "beneficiaries": [
+          "the Aryan nation",
+          "German Lebensraum"
+        ],
+        "passive_or_absent": [
+          "Slavic, Jewish, and other populations facing displacement and extermination"
+        ],
+        "displacement_mechanism": "Territorial destiny naturalizes mass displacement and murder as spatial necessity."
+      },
+      "rhetorical_salience": "medium",
+      "rhetorical_functions": [
+        "argument"
+      ],
+      "evidence_span": "Opfer auf uns zu nehmen, das in seinen Folgen geeignet ist, zu einer Vernichtung der franzodsischen Hegemoniebestrebung in Europa beizutragen.",
+      "claim_boundary": "Genre-sensitive interpretation; do not aggregate as frequency without document/register context."
+    },
+    {
+      "mapping_id": "hitler-cmt-057",
+      "document_id": "hitler-mein-kampf-vol2-ch14-eastern-europe",
+      "sentence_id": "hitler-mein-kampf-vol2-ch14-eastern-europe_s01_p34_s02",
+      "date": "1926",
+      "period": null,
+      "audience": "NSDAP members and nationalist readers",
+      "occasion": "Chapter on eastern expansion (Lebensraum) and racial settlement policy",
+      "genre": "political autobiography / ideological treatise",
+      "rhetorical_action": "Legitimizes eastward territorial conquest as racial destiny and frames Slavic populations as obstacles to Aryan settlement.",
+      "emotional_posture": "geopolitical, prophetic, eliminationist",
+      "agency_structure": {
+        "agents": [
+          "the German nation",
+          "the Aryan settler",
+          "the movement"
+        ],
+        "patients": [
+          "Slavic populations",
+          "Eastern European peoples designated for displacement"
+        ],
+        "beneficiaries": [
+          "the Aryan nation",
+          "German Lebensraum"
+        ],
+        "passive_or_absent": [
+          "Slavic, Jewish, and other populations facing displacement and extermination"
+        ],
+        "displacement_mechanism": "Territorial destiny naturalizes mass displacement and murder as spatial necessity."
+      },
+      "rhetorical_salience": "high",
+      "rhetorical_functions": [
+        "argument"
+      ],
+      "evidence_span": "Sie muh dann, ohne Rtcksicht auf ,Tra- ditionen“ und Vorurteile, den Mut finden, unser Volk und seine Kraft zu sammeln zum Vormarsch auf jener Strakhe, die aus der heutigen Beengtheit des Lebensraumes dieses Volk hinausftthrt zu neuem Grund und Boden und damit auch fiir immer von der Gefahr befreit, auf dieser Erde zu vergehen oder als Sklavenvolk die Dienste anderer besorgen zu miulssen.",
+      "claim_boundary": "Genre-sensitive interpretation; do not aggregate as frequency without document/register context."
+    },
+    {
+      "mapping_id": "hitler-cmt-058",
+      "document_id": "hitler-mein-kampf-vol2-ch14-eastern-europe",
+      "sentence_id": "hitler-mein-kampf-vol2-ch14-eastern-europe_s01_p77_s02",
+      "date": "1926",
+      "period": null,
+      "audience": "NSDAP members and nationalist readers",
+      "occasion": "Chapter on eastern expansion (Lebensraum) and racial settlement policy",
+      "genre": "political autobiography / ideological treatise",
+      "rhetorical_action": "Legitimizes eastward territorial conquest as racial destiny and frames Slavic populations as obstacles to Aryan settlement.",
+      "emotional_posture": "geopolitical, prophetic, eliminationist",
+      "agency_structure": {
+        "agents": [
+          "the German nation",
+          "the Aryan settler",
+          "the movement"
+        ],
+        "patients": [
+          "Slavic populations",
+          "Eastern European peoples designated for displacement"
+        ],
+        "beneficiaries": [
+          "the Aryan nation",
+          "German Lebensraum"
+        ],
+        "passive_or_absent": [
+          "Slavic, Jewish, and other populations facing displacement and extermination"
+        ],
+        "displacement_mechanism": "Territorial destiny naturalizes mass displacement and murder as spatial necessity."
+      },
+      "rhetorical_salience": "medium",
+      "rhetorical_functions": [
+        "national_self_definition"
+      ],
+      "evidence_span": "Im Gegenteil, im Rausche eines solchen seichten Er- folges wurde man auf jede weitere Zielsetzung um so lieber verzichten, als die ,nationale Ehre“ ja repariert und der kommerziellen Entwicklung, wenigstens bis auf weiteres, wieder einige Tore gedffnet waren.",
+      "claim_boundary": "Genre-sensitive interpretation; do not aggregate as frequency without document/register context."
+    },
+    {
+      "mapping_id": "hitler-cmt-059",
+      "document_id": "hitler-mein-kampf-vol2-ch14-eastern-europe",
+      "sentence_id": "hitler-mein-kampf-vol2-ch14-eastern-europe_s01_p84_s04",
+      "date": "1926",
+      "period": null,
+      "audience": "NSDAP members and nationalist readers",
+      "occasion": "Chapter on eastern expansion (Lebensraum) and racial settlement policy",
+      "genre": "political autobiography / ideological treatise",
+      "rhetorical_action": "Legitimizes eastward territorial conquest as racial destiny and frames Slavic populations as obstacles to Aryan settlement.",
+      "emotional_posture": "geopolitical, prophetic, eliminationist",
+      "agency_structure": {
+        "agents": [
+          "the German nation",
+          "the Aryan settler",
+          "the movement"
+        ],
+        "patients": [
+          "Slavic populations",
+          "Eastern European peoples designated for displacement"
+        ],
+        "beneficiaries": [
+          "the Aryan nation",
+          "German Lebensraum"
+        ],
+        "passive_or_absent": [
+          "Slavic, Jewish, and other populations facing displacement and extermination"
+        ],
+        "displacement_mechanism": "Territorial destiny naturalizes mass displacement and murder as spatial necessity."
+      },
+      "rhetorical_salience": "medium",
+      "rhetorical_functions": [
+        "argument"
+      ],
+      "evidence_span": "Wenn das deutsche Volk heute, auf unmoglicher Grundflache zusam- mengepfercht, einer jammerlichen Zukunft entgegengeht, so ist dies ebensowenig ein Gebot des Schicksals, wie ein Auflehnen dagegen eine Bruskierung desselben darstellt.",
+      "claim_boundary": "Genre-sensitive interpretation; do not aggregate as frequency without document/register context."
+    },
+    {
+      "mapping_id": "hitler-cmt-060",
+      "document_id": "hitler-mein-kampf-vol2-ch14-eastern-europe",
+      "sentence_id": "hitler-mein-kampf-vol2-ch14-eastern-europe_s01_p86_s02",
+      "date": "1926",
+      "period": null,
+      "audience": "NSDAP members and nationalist readers",
+      "occasion": "Chapter on eastern expansion (Lebensraum) and racial settlement policy",
+      "genre": "political autobiography / ideological treatise",
+      "rhetorical_action": "Legitimizes eastward territorial conquest as racial destiny and frames Slavic populations as obstacles to Aryan settlement.",
+      "emotional_posture": "geopolitical, prophetic, eliminationist",
+      "agency_structure": {
+        "agents": [
+          "the German nation",
+          "the Aryan settler",
+          "the movement"
+        ],
+        "patients": [
+          "Slavic populations",
+          "Eastern European peoples designated for displacement"
+        ],
+        "beneficiaries": [
+          "the Aryan nation",
+          "German Lebensraum"
+        ],
+        "passive_or_absent": [
+          "Slavic, Jewish, and other populations facing displacement and extermination"
+        ],
+        "displacement_mechanism": "Territorial destiny naturalizes mass displacement and murder as spatial necessity."
+      },
+      "rhetorical_salience": "high",
+      "rhetorical_functions": [
+        "argument"
+      ],
+      "evidence_span": "So wie unsere Vorfahren den Bo- den, auf dem wir heute leben, nicht vom Himmel geschenkt erhielten, sondern durch Lebenseinsatz erkampfen muften, so wird auch uns in Zukunft den Boden und damit das Le- ben fur unser Volk keine gottliche Gnade zuweisen, son- dern nur die Gewalt eines siegreichen Schwertes.",
+      "claim_boundary": "Genre-sensitive interpretation; do not aggregate as frequency without document/register context."
+    },
+    {
+      "mapping_id": "hitler-cmt-061",
+      "document_id": "hitler-reichstag-1939-01-30",
+      "sentence_id": "hitler-reichstag-1939-01-30_s01_p12_s02",
+      "date": "1939-01-30",
+      "period": null,
+      "audience": "Reichstag deputies, German public, and European audience via radio broadcast",
+      "occasion": "Sixth anniversary of the Nazi seizure of power — Hitler's infamous 'prophecy' speech",
+      "genre": "parliamentary address / public speech",
+      "rhetorical_action": "Issues an explicit threat of annihilation against European Jews if war is provoked, framed as prophetic warning.",
+      "emotional_posture": "threatening, prophetic, self-victimizing",
+      "agency_structure": {
+        "agents": [
+          "Hitler",
+          "the German nation",
+          "international Jewry constructed as aggressor"
+        ],
+        "patients": [
+          "the Jewish race in Europe"
+        ],
+        "beneficiaries": [
+          "the German nation",
+          "European civilization"
+        ],
+        "passive_or_absent": [
+          "Jewish populations whose extermination is being announced",
+          "potential victims of the coming war"
+        ],
+        "displacement_mechanism": "The annihilation threat is framed as defensive prophecy; victims are constructed as aggressors who force the outcome."
+      },
+      "rhetorical_salience": "medium",
+      "rhetorical_functions": [
+        "argument"
+      ],
+      "evidence_span": "Wenn nun aus diesen Anlässen in den letzten Wochen eine neue Unruhe über Europa hereingebrochen ist, dann ist verantwortlich dafür ausschließlich jene uns bekannte im Dienst internationaler Kriegshetzer stehende Propaganda, die, von zahlreichen Organen in den demokratischen Staaten betrieben, versucht, durch eine fortgesetzte Steigerung der Nervosität, durch das Fabrizieren andauernder Gerüchte Europa reif für eine Katastrophe zu machen, jene Katastrophe, von der man dann erhofft, was auf anderem Weg bisher nicht gelungen ist: die bolschewistische Vernichtung der europäischen Kultur!",
+      "claim_boundary": "Genre-sensitive interpretation; do not aggregate as frequency without document/register context."
+    },
+    {
+      "mapping_id": "hitler-cmt-062",
+      "document_id": "hitler-reichstag-1939-01-30",
+      "sentence_id": "hitler-reichstag-1939-01-30_s01_p27_s01",
+      "date": "1939-01-30",
+      "period": null,
+      "audience": "Reichstag deputies, German public, and European audience via radio broadcast",
+      "occasion": "Sixth anniversary of the Nazi seizure of power — Hitler's infamous 'prophecy' speech",
+      "genre": "parliamentary address / public speech",
+      "rhetorical_action": "Issues an explicit threat of annihilation against European Jews if war is provoked, framed as prophetic warning.",
+      "emotional_posture": "threatening, prophetic, self-victimizing",
+      "agency_structure": {
+        "agents": [
+          "Hitler",
+          "the German nation",
+          "international Jewry constructed as aggressor"
+        ],
+        "patients": [
+          "the Jewish race in Europe"
+        ],
+        "beneficiaries": [
+          "the German nation",
+          "European civilization"
+        ],
+        "passive_or_absent": [
+          "Jewish populations whose extermination is being announced",
+          "potential victims of the coming war"
+        ],
+        "displacement_mechanism": "The annihilation threat is framed as defensive prophecy; victims are constructed as aggressors who force the outcome."
+      },
+      "rhetorical_salience": "medium",
+      "rhetorical_functions": [
+        "argument"
+      ],
+      "evidence_span": "Ich will heute wieder ein Prophet sein:1 Wenn es dem internationalen Finanzjudentum inner- und (8 außerhalb Europas gelingen sollte, die Völker noch einmal in einen Weltkrieg zu stürzen, dann wird das Ergebnis nicht die Bolschewisierung der Erde und damit der Sieg des Judentums sein, sondern die Vernichtung der jüdischen Rasse in Europa! (Anhaltender stürmischer Beifall.) Denn die Zeit der propagandistischen Wehrlosigkeit der nichtjüdischen Völker ist zu Ende!",
+      "claim_boundary": "Genre-sensitive interpretation; do not aggregate as frequency without document/register context."
+    },
+    {
+      "mapping_id": "hitler-cmt-063",
+      "document_id": "hitler-ussr-proclamation-1941-06-22",
+      "sentence_id": "hitler-ussr-proclamation-1941-06-22_s01_p08_s03",
+      "date": "1941-06-22",
+      "period": null,
+      "audience": "German public, soldiers, and allies",
+      "occasion": "Hitler's proclamation announcing the invasion of the Soviet Union, June 22, 1941",
+      "genre": "wartime proclamation",
+      "rhetorical_action": "Frames Operation Barbarossa as a preemptive defensive war against Jewish Bolshevism threatening European civilization.",
+      "emotional_posture": "martial, prophetic, self-righteous",
+      "agency_structure": {
+        "agents": [
+          "the German people",
+          "the Axis powers",
+          "Nature"
+        ],
+        "patients": [
+          "Jewish Bolshevism",
+          "the Soviet threat"
+        ],
+        "beneficiaries": [
+          "European civilization",
+          "the German nation",
+          "Aryan posterity"
+        ],
+        "passive_or_absent": [
+          "Soviet civilian populations",
+          "Jewish populations targeted in the invasion",
+          "POWs subject to systematic murder"
+        ],
+        "displacement_mechanism": "Invasion is framed as defense; the genocide carried out under its cover is absent from the proclamation."
+      },
+      "rhetorical_salience": "medium",
+      "rhetorical_functions": [
+        "argument"
+      ],
+      "evidence_span": "Nachdem man erst heuchlerisch erklärte, allein gegen den Kaiser und sein Regime gekämpft zu haben, begann man nach der Waffenniederlegung des deutschen Heeres mit der planmäßigen Vernichtung des Deutschen Reiches.",
+      "claim_boundary": "Genre-sensitive interpretation; do not aggregate as frequency without document/register context."
+    },
+    {
+      "mapping_id": "hitler-cmt-064",
+      "document_id": "hitler-ussr-proclamation-1941-06-22",
+      "sentence_id": "hitler-ussr-proclamation-1941-06-22_s01_p12_s01",
+      "date": "1941-06-22",
+      "period": null,
+      "audience": "German public, soldiers, and allies",
+      "occasion": "Hitler's proclamation announcing the invasion of the Soviet Union, June 22, 1941",
+      "genre": "wartime proclamation",
+      "rhetorical_action": "Frames Operation Barbarossa as a preemptive defensive war against Jewish Bolshevism threatening European civilization.",
+      "emotional_posture": "martial, prophetic, self-righteous",
+      "agency_structure": {
+        "agents": [
+          "the German people",
+          "the Axis powers",
+          "Nature"
+        ],
+        "patients": [
+          "Jewish Bolshevism",
+          "the Soviet threat"
+        ],
+        "beneficiaries": [
+          "European civilization",
+          "the German nation",
+          "Aryan posterity"
+        ],
+        "passive_or_absent": [
+          "Soviet civilian populations",
+          "Jewish populations targeted in the invasion",
+          "POWs subject to systematic murder"
+        ],
+        "displacement_mechanism": "Invasion is framed as defense; the genocide carried out under its cover is absent from the proclamation."
+      },
+      "rhetorical_salience": "medium",
+      "rhetorical_functions": [
+        "argument"
+      ],
+      "evidence_span": "Im Sommer 1939 schien England der Zeitpunkt gekommen, die erneut beabsichtigte Vernichtung mit der Wiederholung einer umfassenden Einkreisungspolitik gegen Deutschland beginnen zu können.",
+      "claim_boundary": "Genre-sensitive interpretation; do not aggregate as frequency without document/register context."
+    },
+    {
+      "mapping_id": "hitler-cmt-065",
+      "document_id": "hitler-ussr-proclamation-1941-06-22",
+      "sentence_id": "hitler-ussr-proclamation-1941-06-22_s01_p24_s01",
+      "date": "1941-06-22",
+      "period": null,
+      "audience": "German public, soldiers, and allies",
+      "occasion": "Hitler's proclamation announcing the invasion of the Soviet Union, June 22, 1941",
+      "genre": "wartime proclamation",
+      "rhetorical_action": "Frames Operation Barbarossa as a preemptive defensive war against Jewish Bolshevism threatening European civilization.",
+      "emotional_posture": "martial, prophetic, self-righteous",
+      "agency_structure": {
+        "agents": [
+          "the German people",
+          "the Axis powers",
+          "Nature"
+        ],
+        "patients": [
+          "Jewish Bolshevism",
+          "the Soviet threat"
+        ],
+        "beneficiaries": [
+          "European civilization",
+          "the German nation",
+          "Aryan posterity"
+        ],
+        "passive_or_absent": [
+          "Soviet civilian populations",
+          "Jewish populations targeted in the invasion",
+          "POWs subject to systematic murder"
+        ],
+        "displacement_mechanism": "Invasion is framed as defense; the genocide carried out under its cover is absent from the proclamation."
+      },
+      "rhetorical_salience": "high",
+      "rhetorical_functions": [
+        "argument"
+      ],
+      "evidence_span": "Weit mehr als eine halbe Million deutscher Volksgenossen – alles Kleinbauern, Handwerker und Arbeiter – wurden fast über Nacht gezwungen, ihre frühere Heimat zu verlassen, um einem neuen Regime zu entgehen, das ihnen zunächst mit grenzenlosem Elend, früher oder später aber mit der völligen Ausrottung drohte.",
+      "claim_boundary": "Genre-sensitive interpretation; do not aggregate as frequency without document/register context."
+    }
+  ]
+}

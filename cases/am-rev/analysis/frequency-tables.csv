@@ -1,0 +1,42 @@
+average_confidence,document_count,high_salience_count,mapping_count,mapping_ids,metric,value
+0.777,2,3,18,amrev-cmt-007;amrev-cmt-008;amrev-cmt-009;amrev-cmt-016;amrev-cmt-021;amrev-cmt-024;amrev-cmt-026;amrev-cmt-028;amrev-cmt-029;amrev-cmt-030;amrev-cmt-032;amrev-cmt-033;amrev-cmt-034;amrev-cmt-055;amrev-cmt-056;amrev-cmt-057;amrev-cmt-058;amrev-cmt-060,source_domain_primary,body
+0.838,1,13,13,amrev-cmt-002;amrev-cmt-003;amrev-cmt-004;amrev-cmt-006;amrev-cmt-015;amrev-cmt-020;amrev-cmt-022;amrev-cmt-040;amrev-cmt-041;amrev-cmt-042;amrev-cmt-045;amrev-cmt-046;amrev-cmt-053,source_domain_primary,sacrifice
+0.88,1,10,10,amrev-cmt-011;amrev-cmt-014;amrev-cmt-019;amrev-cmt-023;amrev-cmt-047;amrev-cmt-048;amrev-cmt-049;amrev-cmt-050;amrev-cmt-051;amrev-cmt-052,source_domain_primary,birth_generation
+0.84,1,6,6,amrev-cmt-005;amrev-cmt-010;amrev-cmt-012;amrev-cmt-018;amrev-cmt-031;amrev-cmt-043,source_domain_primary,slavery_bondage
+0.836,2,4,5,amrev-cmt-035;amrev-cmt-036;amrev-cmt-037;amrev-cmt-059;amrev-cmt-061,source_domain_primary,religion_providence
+0.82,1,4,4,amrev-cmt-013;amrev-cmt-038;amrev-cmt-039;amrev-cmt-044,source_domain_primary,agriculture
+0.76,1,0,3,amrev-cmt-001;amrev-cmt-017;amrev-cmt-025,source_domain_primary,war_combat
+0.84,1,1,1,amrev-cmt-027,source_domain_primary,mechanics
+0.88,1,1,1,amrev-cmt-054,source_domain_primary,object_material
+0.857,1,23,23,amrev-cmt-002;amrev-cmt-003;amrev-cmt-004;amrev-cmt-006;amrev-cmt-011;amrev-cmt-014;amrev-cmt-015;amrev-cmt-019;amrev-cmt-020;amrev-cmt-022;amrev-cmt-023;amrev-cmt-040;amrev-cmt-041;amrev-cmt-042;amrev-cmt-045;amrev-cmt-046;amrev-cmt-047;amrev-cmt-048;amrev-cmt-049;amrev-cmt-050;amrev-cmt-051;amrev-cmt-052;amrev-cmt-053,target_domain,independence
+0.797,1,3,14,amrev-cmt-007;amrev-cmt-008;amrev-cmt-009;amrev-cmt-016;amrev-cmt-021;amrev-cmt-024;amrev-cmt-028;amrev-cmt-030;amrev-cmt-032;amrev-cmt-033;amrev-cmt-034;amrev-cmt-035;amrev-cmt-036;amrev-cmt-037,target_domain,government
+0.8,2,6,9,amrev-cmt-005;amrev-cmt-010;amrev-cmt-012;amrev-cmt-018;amrev-cmt-031;amrev-cmt-043;amrev-cmt-056;amrev-cmt-057;amrev-cmt-058,target_domain,freedom
+0.77,2,1,4,amrev-cmt-001;amrev-cmt-017;amrev-cmt-025;amrev-cmt-060,target_domain,enemy
+0.82,1,4,4,amrev-cmt-013;amrev-cmt-038;amrev-cmt-039;amrev-cmt-044,target_domain,union
+0.84,1,3,3,amrev-cmt-026;amrev-cmt-027;amrev-cmt-029,target_domain,social_body
+0.82,1,1,2,amrev-cmt-054;amrev-cmt-055,target_domain,political_order
+0.8,1,1,2,amrev-cmt-059;amrev-cmt-061,target_domain,sacrifice
+0.838,1,13,13,amrev-cmt-002;amrev-cmt-003;amrev-cmt-004;amrev-cmt-006;amrev-cmt-015;amrev-cmt-020;amrev-cmt-022;amrev-cmt-040;amrev-cmt-041;amrev-cmt-042;amrev-cmt-045;amrev-cmt-046;amrev-cmt-053,conceptual_metaphor,INDEPENDENCE IS SACRIFICE
+0.78,1,0,11,amrev-cmt-007;amrev-cmt-008;amrev-cmt-009;amrev-cmt-016;amrev-cmt-021;amrev-cmt-024;amrev-cmt-028;amrev-cmt-030;amrev-cmt-032;amrev-cmt-033;amrev-cmt-034,conceptual_metaphor,GOVERNMENT IS BODY
+0.88,1,10,10,amrev-cmt-011;amrev-cmt-014;amrev-cmt-019;amrev-cmt-023;amrev-cmt-047;amrev-cmt-048;amrev-cmt-049;amrev-cmt-050;amrev-cmt-051;amrev-cmt-052,conceptual_metaphor,INDEPENDENCE IS BIRTH GENERATION
+0.84,1,6,6,amrev-cmt-005;amrev-cmt-010;amrev-cmt-012;amrev-cmt-018;amrev-cmt-031;amrev-cmt-043,conceptual_metaphor,FREEDOM IS SLAVERY BONDAGE
+0.82,1,4,4,amrev-cmt-013;amrev-cmt-038;amrev-cmt-039;amrev-cmt-044,conceptual_metaphor,UNION IS AGRICULTURE
+0.76,1,0,3,amrev-cmt-001;amrev-cmt-017;amrev-cmt-025,conceptual_metaphor,ENEMY IS WAR COMBAT
+0.72,1,0,3,amrev-cmt-056;amrev-cmt-057;amrev-cmt-058,conceptual_metaphor,FREEDOM IS BODY
+0.86,1,3,3,amrev-cmt-035;amrev-cmt-036;amrev-cmt-037,conceptual_metaphor,GOVERNMENT IS RELIGION PROVIDENCE
+0.8,1,1,2,amrev-cmt-059;amrev-cmt-061,conceptual_metaphor,SACRIFICE IS RELIGION PROVIDENCE
+0.84,1,2,2,amrev-cmt-026;amrev-cmt-029,conceptual_metaphor,SOCIAL BODY IS BODY
+0.8,1,1,1,amrev-cmt-060,conceptual_metaphor,ENEMY IS BODY
+0.76,1,0,1,amrev-cmt-055,conceptual_metaphor,POLITICAL ORDER IS BODY
+0.88,1,1,1,amrev-cmt-054,conceptual_metaphor,POLITICAL ORDER IS OBJECT MATERIAL
+0.84,1,1,1,amrev-cmt-027,conceptual_metaphor,SOCIAL BODY IS MECHANICS
+0.841,2,23,26,amrev-cmt-002;amrev-cmt-003;amrev-cmt-004;amrev-cmt-006;amrev-cmt-011;amrev-cmt-014;amrev-cmt-015;amrev-cmt-019;amrev-cmt-020;amrev-cmt-022;amrev-cmt-023;amrev-cmt-040;amrev-cmt-041;amrev-cmt-042;amrev-cmt-045;amrev-cmt-046;amrev-cmt-047;amrev-cmt-048;amrev-cmt-049;amrev-cmt-050;amrev-cmt-051;amrev-cmt-052;amrev-cmt-053;amrev-cmt-056;amrev-cmt-057;amrev-cmt-058,cluster_id,am-rev-02-people-republic
+0.794,2,5,17,amrev-cmt-007;amrev-cmt-008;amrev-cmt-009;amrev-cmt-013;amrev-cmt-016;amrev-cmt-021;amrev-cmt-024;amrev-cmt-028;amrev-cmt-030;amrev-cmt-032;amrev-cmt-033;amrev-cmt-034;amrev-cmt-038;amrev-cmt-039;amrev-cmt-044;amrev-cmt-054;amrev-cmt-055,cluster_id,am-rev-06-union-founding-memory
+0.817,2,9,12,amrev-cmt-001;amrev-cmt-005;amrev-cmt-010;amrev-cmt-012;amrev-cmt-017;amrev-cmt-018;amrev-cmt-025;amrev-cmt-026;amrev-cmt-029;amrev-cmt-031;amrev-cmt-043;amrev-cmt-060,cluster_id,am-rev-01-liberty-tyranny
+0.86,1,3,3,amrev-cmt-035;amrev-cmt-036;amrev-cmt-037,cluster_id,am-rev-04-providence-covenant
+0.8,1,1,2,amrev-cmt-059;amrev-cmt-061,cluster_id,am-rev-03-founding-sacrifice
+0.84,1,1,1,amrev-cmt-027,cluster_id,am-rev-05-virtue-corruption
+0.848,2,42,42,amrev-cmt-002;amrev-cmt-003;amrev-cmt-004;amrev-cmt-005;amrev-cmt-006;amrev-cmt-010;amrev-cmt-011;amrev-cmt-012;amrev-cmt-013;amrev-cmt-014;amrev-cmt-015;amrev-cmt-018;amrev-cmt-019;amrev-cmt-020;amrev-cmt-022;amrev-cmt-023;amrev-cmt-026;amrev-cmt-027;amrev-cmt-029;amrev-cmt-031;amrev-cmt-035;amrev-cmt-036;amrev-cmt-037;amrev-cmt-038;amrev-cmt-039;amrev-cmt-040;amrev-cmt-041;amrev-cmt-042;amrev-cmt-043;amrev-cmt-044;amrev-cmt-045;amrev-cmt-046;amrev-cmt-047;amrev-cmt-048;amrev-cmt-049;amrev-cmt-050;amrev-cmt-051;amrev-cmt-052;amrev-cmt-053;amrev-cmt-054;amrev-cmt-059;amrev-cmt-060,rhetorical_salience,high
+0.766,2,0,19,amrev-cmt-001;amrev-cmt-007;amrev-cmt-008;amrev-cmt-009;amrev-cmt-016;amrev-cmt-017;amrev-cmt-021;amrev-cmt-024;amrev-cmt-025;amrev-cmt-028;amrev-cmt-030;amrev-cmt-032;amrev-cmt-033;amrev-cmt-034;amrev-cmt-055;amrev-cmt-056;amrev-cmt-057;amrev-cmt-058;amrev-cmt-061,rhetorical_salience,medium
+0.83,1,39,53,amrev-cmt-001;amrev-cmt-002;amrev-cmt-003;amrev-cmt-004;amrev-cmt-005;amrev-cmt-006;amrev-cmt-007;amrev-cmt-008;amrev-cmt-009;amrev-cmt-010;amrev-cmt-011;amrev-cmt-012;amrev-cmt-013;amrev-cmt-014;amrev-cmt-015;amrev-cmt-016;amrev-cmt-017;amrev-cmt-018;amrev-cmt-019;amrev-cmt-020;amrev-cmt-021;amrev-cmt-022;amrev-cmt-023;amrev-cmt-024;amrev-cmt-025;amrev-cmt-026;amrev-cmt-027;amrev-cmt-028;amrev-cmt-029;amrev-cmt-030;amrev-cmt-031;amrev-cmt-032;amrev-cmt-033;amrev-cmt-034;amrev-cmt-035;amrev-cmt-036;amrev-cmt-037;amrev-cmt-038;amrev-cmt-039;amrev-cmt-040;amrev-cmt-041;amrev-cmt-042;amrev-cmt-043;amrev-cmt-044;amrev-cmt-045;amrev-cmt-046;amrev-cmt-047;amrev-cmt-048;amrev-cmt-049;amrev-cmt-050;amrev-cmt-051;amrev-cmt-052;amrev-cmt-053,register,political-pamphlet
+0.775,1,3,8,amrev-cmt-054;amrev-cmt-055;amrev-cmt-056;amrev-cmt-057;amrev-cmt-058;amrev-cmt-059;amrev-cmt-060;amrev-cmt-061,register,political-declaration
