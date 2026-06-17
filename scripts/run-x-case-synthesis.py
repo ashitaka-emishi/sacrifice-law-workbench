@@ -264,18 +264,23 @@ def build_open_questions(items: list[dict[str, Any]]) -> list[dict[str, Any]]:
     return questions
 
 
-def lincoln_support() -> dict[str, Any]:
-    path = ROOT / "cases" / "lincoln" / "analysis" / "support-ratings.json"
+def read_support(case_id: str) -> dict[str, Any]:
+    path = ROOT / "cases" / case_id / "analysis" / "support-ratings.json"
     data = read_json(path, {}) or {}
+    has_support = bool(data.get("overall_support"))
     return {
-        "case_id": "lincoln",
-        "status": data.get("status", "missing"),
-        "support_rating_path": "cases/lincoln/analysis/support-ratings.json",
-        "support_synthesis_path": "cases/lincoln/analysis/koenigsbergian-support-synthesis.json",
+        "case_id": case_id,
+        "status": data.get("status", "missing") if has_support else "pending-case-level-support-rating",
+        "support_rating_path": f"cases/{case_id}/analysis/support-ratings.json",
+        "support_synthesis_path": f"cases/{case_id}/analysis/koenigsbergian-support-synthesis.json",
         "overall_support": data.get("overall_support", {}),
         "case_scores": data.get("case_scores", {}),
-        "comparison_ready": bool(data.get("overall_support")),
+        "comparison_ready": has_support,
     }
+
+
+def lincoln_support() -> dict[str, Any]:
+    return read_support("lincoln")
 
 
 def pending_case(case_id: str) -> dict[str, Any]:
@@ -312,6 +317,9 @@ def protocol(generated_at: str) -> dict[str, Any]:
 
 def comparison_items() -> list[dict[str, Any]]:
     lincoln = lincoln_support()
+    napoleon = read_support("napoleon")
+    am_rev = read_support("am-rev")
+    hitler = read_support("hitler")
     return [
         {
             "case_id": "lincoln",
@@ -334,23 +342,56 @@ def comparison_items() -> list[dict[str, Any]]:
         {
             "case_id": "hitler",
             "case_type": "genocidal-racial-state-violence",
-            "status": "pending-case-level-support-rating",
-            "support_rating": "pending",
-            "claim_boundary": "Do not infer comparison from Lincoln or from starter clusters before Hitler case-level scoring is complete.",
+            "status": "draft-scored" if hitler["comparison_ready"] else "pending-case-level-support-rating",
+            "sacred_collective_object": "Aryan Volk, blood-and-soil nation, racial purity",
+            "dominant_body_metaphor": "Racial body, Volk as organic collective, parasite/pathogen (enemy)",
+            "violence_logic": "Racial purification, extermination of contaminating enemy, national rebirth through blood",
+            "enemy_as_bringer_of_death": "Strong — Jewish/Bolshevik enemy is explicit death-bearer and existential contamination threat.",
+            "death_logic": "Death of enemies required for collective survival; German soldier deaths are sacrifice for racial Volk.",
+            "historical_alignment": "Nuremberg Laws 1935, Operation Barbarossa 1941, Wannsee 1942 industrial genocide, documented social uptake in Nazi state machinery.",
+            "support_rating": hitler.get("overall_support", {}).get("final_category", "pending"),
+            "support_score": hitler.get("overall_support", {}).get("score"),
+            "guilt_structure": "External guilt projected onto racial enemy; no internal moral accounting. Contamination logic inverts guilt.",
+            "endpoint": "Racial state, Lebensraum, extermination of designated enemies, Thousand-Year Reich.",
+            "support_rating_path": hitler["support_rating_path"],
+            "support_synthesis_path": hitler["support_synthesis_path"],
+            "claim_boundary": "Hitler case is draft-scored; full-corpus German source review and reliability adjudication remain pending.",
         },
         {
             "case_id": "napoleon",
             "case_type": "imperial-war-mobilization",
-            "status": "pending-case-level-support-rating",
-            "support_rating": "pending",
-            "claim_boundary": "Do not infer comparison from Lincoln or from starter clusters before Napoleon case-level scoring is complete.",
+            "status": "draft-scored" if napoleon["comparison_ready"] else "pending-case-level-support-rating",
+            "sacred_collective_object": "La Gloire, l'Empire, la France — imperial glory as sacred collective object",
+            "dominant_body_metaphor": "Army-as-body, Emperor as embodiment of the nation",
+            "violence_logic": "Military glory, conquest as historical destiny, soldier sacrifice for the Emperor and Empire",
+            "enemy_as_bringer_of_death": "Weak to moderate — enemies are obstacles to order; death-bearer framing clearest in 29th Bulletin.",
+            "death_logic": "Soldier death converted to honor and sacrifice for glory; Eylau is the clearest expression.",
+            "historical_alignment": "Austerlitz mobilization, Eylau mass casualties, 29th Bulletin catastrophe acknowledgment corroborated historically.",
+            "support_rating": napoleon.get("overall_support", {}).get("final_category", "pending"),
+            "support_score": napoleon.get("overall_support", {}).get("score"),
+            "guilt_structure": "Minimal — bulletins externalize loss onto weather, terrain, or enemy resistance; no shared-guilt logic.",
+            "endpoint": "Imperial consolidation, Napoleonic peace, historical glory; not extermination or republican founding.",
+            "support_rating_path": napoleon["support_rating_path"],
+            "support_synthesis_path": napoleon["support_synthesis_path"],
+            "claim_boundary": "Napoleon case is draft-scored from bulletin corpus; thin evidence base (19 instances) and genre constraints limit generalization.",
         },
         {
             "case_id": "am-rev",
             "case_type": "revolutionary-founding-violence",
-            "status": "pending-case-level-support-rating",
-            "support_rating": "pending",
-            "claim_boundary": "Do not infer comparison from Lincoln or from starter clusters before American Revolution case-level scoring is complete.",
+            "status": "draft-scored" if am_rev["comparison_ready"] else "pending-case-level-support-rating",
+            "sacred_collective_object": "Liberty, republican self-governance, natural rights, Providence-backed founding",
+            "dominant_body_metaphor": "Body politic, patriot sacrifice, civic organism",
+            "violence_logic": "Defensive founding violence, tyranny-resistance as sacred obligation, providential justification",
+            "enemy_as_bringer_of_death": "Moderate — British tyranny and Hessian mercenaries as death-bearers; tyranny as slavery-and-death frame.",
+            "death_logic": "Patriot death as founding sacrifice; blood of martyrs consecrates the republic.",
+            "historical_alignment": "Continental Army mobilization, Battle of Trenton, Valley Forge sacrifice, documented pamphlet reception corroborated.",
+            "support_rating": am_rev.get("overall_support", {}).get("final_category", "pending"),
+            "support_score": am_rev.get("overall_support", {}).get("score"),
+            "guilt_structure": "External guilt projected onto Crown and loyalists; colonists positioned as innocent victims of tyranny.",
+            "endpoint": "Republican founding, constitutional self-governance, permanent severance from monarchical authority.",
+            "support_rating_path": am_rev["support_rating_path"],
+            "support_synthesis_path": am_rev["support_synthesis_path"],
+            "claim_boundary": "Am-Rev case is draft-scored; tech debt #42 means am-rev MIPVU pipeline may have overwritten reviewed annotations for Washington Orders documents.",
         },
     ]
 

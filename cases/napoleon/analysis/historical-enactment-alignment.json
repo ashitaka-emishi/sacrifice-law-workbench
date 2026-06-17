@@ -1,0 +1,48 @@
+{
+  "version": "1.0",
+  "case_id": "napoleon",
+  "generated_at": "2026-06-17",
+  "status": "draft",
+  "notes": [
+    {
+      "note_id": "napoleon-hist-001",
+      "dimension": "historical_enactment_alignment",
+      "topic": "Grande Armée mobilization and Austerlitz battle outcome",
+      "historical_alignment_level": ["formal_enactment", "historical_consequence"],
+      "summary": "The Austerlitz bulletin's glory-destiny logic accompanied one of the most decisive military victories in European history, dissolving the Third Coalition. The bulletin was read aloud to troops and published widely — its performative function as mobilization text is corroborated by its documented reception and the actual scale of the battle (approx. 73,000 French vs. 85,000 allied forces).",
+      "linked_mapping_ids": ["napoleon-cmt-003", "napoleon-cmt-006", "napoleon-cmt-007"],
+      "corroboration_status": "contextually-corroborated; publication citations required",
+      "claim_boundary": "Supports alignment between glory-destiny metaphor and documented military mobilization. Does not claim the metaphor caused the victory."
+    },
+    {
+      "note_id": "napoleon-hist-002",
+      "dimension": "historical_enactment_alignment",
+      "topic": "Eylau mass casualties and sacrifice rhetoric",
+      "historical_alignment_level": ["historical_consequence", "social_uptake"],
+      "summary": "The Eylau bulletin (1807-02-08) was written after a battle with approximately 25,000 French casualties — the bloodiest French engagement to that date. The bulletin's conversion of mass death into sacrifice for glory and the Emperor aligns directly with a historically documented catastrophe. Napoleon's visit to the battlefield and subsequent commissioning of Gros's 'Napoleon on the Battlefield of Eylau' corroborate the social-uptake function of the sacrifice-honor rhetoric.",
+      "linked_mapping_ids": ["napoleon-cmt-004", "napoleon-cmt-011", "napoleon-cmt-012"],
+      "corroboration_status": "contextually-corroborated; publication citations required (Chandler, Campaigns of Napoleon; Gros painting commission 1807)",
+      "claim_boundary": "The sacrifice rhetoric converts documented mass death into honor; the bulletin does not deny the casualties but reframes them."
+    },
+    {
+      "note_id": "napoleon-hist-003",
+      "dimension": "historical_enactment_alignment",
+      "topic": "Russian campaign catastrophe and the 29th Bulletin",
+      "historical_alignment_level": ["historical_consequence"],
+      "summary": "The 29th Bulletin (1812-12-03) is the one instance where Napoleon publicly acknowledged catastrophic loss — approximately 400,000 men lost in the Russian campaign. The bulletin reframes the catastrophe through destiny logic and blames weather rather than strategic failure. Its historical alignment is strong as a limit case: the sacrificial-economy framework reaches its breaking point when loss is too great to suppress, and the metaphor of destiny is deployed to absorb rather than deny the disaster.",
+      "linked_mapping_ids": ["napoleon-cmt-018", "napoleon-cmt-019"],
+      "corroboration_status": "contextually-corroborated; publication citations required (Esdaile, Napoleon's Wars; 29th Bulletin contemporary reception)",
+      "claim_boundary": "The 29th Bulletin is a limit-case test of the framework, not a typical bulletin. Its rhetorical strategy under catastrophe is historically significant but should not be generalized to the full corpus."
+    },
+    {
+      "note_id": "napoleon-hist-004",
+      "dimension": "historical_enactment_alignment",
+      "topic": "Remaining Grande Armée bulletins (Jena, Berlin, Friedland, Wagram, Bautzen, Austerlitz-aftermath)",
+      "historical_alignment_level": ["formal_enactment"],
+      "summary": "The remaining bulletins collectively document the major campaigns of 1806–1813. Glory-destiny and army-body framing appear across these texts, aligning with documented military mobilization and battlefield outcomes. No single bulletin in this group rivals Austerlitz or Eylau in rhetorical density, but collectively they corroborate the pattern of imperial glory discourse accompanying military action.",
+      "linked_mapping_ids": ["napoleon-cmt-001", "napoleon-cmt-002", "napoleon-cmt-005", "napoleon-cmt-008", "napoleon-cmt-009", "napoleon-cmt-010", "napoleon-cmt-013", "napoleon-cmt-014", "napoleon-cmt-015", "napoleon-cmt-016", "napoleon-cmt-017"],
+      "corroboration_status": "contextually-corroborated; publication citations required",
+      "claim_boundary": "Assessment of the combined remaining bulletins as an aggregate group; individual document variation is not captured here."
+    }
+  ]
+}
