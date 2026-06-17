@@ -1,0 +1,109 @@
+{
+  "version": "1.0",
+  "case_id": "napoleon",
+  "document_id": "napoleon-bulletin-1809-07-08-wagram",
+  "generated_at": "2026-06-17T01:07:47",
+  "generator": "scripts/generate-annotation-layer.py",
+  "annotation_policy": "CMT and Koenigsbergian annotations derived from MIPVU-reviewed metaphorical and uncertain lexical units. Each instance cites at least one MIPVU ID with decision_type in METAPHOR_DECISIONS.",
+  "instances": [
+    {
+      "instance_id": "napoleon-ann-015",
+      "case_id": "napoleon",
+      "document_id": "napoleon-bulletin-1809-07-08-wagram",
+      "sentence_id": "napoleon-bulletin-1809-07-08-wagram_s01_p43_s05",
+      "span_text": "gloire",
+      "mipvu_ids": [
+        "napoleon-bulletin-1809-07-08-wagram_s01_p43_s05_lu012"
+      ],
+      "cmt": {
+        "mapping_id": "napoleon-cmt-015",
+        "cluster_id": "napoleon-01-glory-destiny",
+        "source_domain_primary": "light_darkness",
+        "source_domain_secondary": [],
+        "target_domain": "military_virtue",
+        "conceptual_metaphor": "MILITARY VIRTUE IS LIGHT DARKNESS",
+        "entailments": [
+          "`gloire` frames military conduct or death as publicly radiant renown attached to soldiers or units",
+          "Military action and death are understood through fame as covering, radiance, or honor-bearing accompaniment."
+        ],
+        "confidence": 0.86,
+        "rival_reading": "Glory is not a physical covering or companion, but the French phrasing treats it as something one is covered with or dies with.",
+        "justification": "MIPVU review rule '' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
+      },
+      "koenigsberg": {},
+      "meta": {
+        "confidence": 0.86,
+        "ambiguity_flag": false,
+        "suppression_flag": false
+      },
+      "gloss_en": "glory",
+      "gloss_notes": "French `gloire` carries military fame, radiance, public renown, and honor; do not flatten it into generic English glory."
+    },
+    {
+      "instance_id": "napoleon-ann-016",
+      "case_id": "napoleon",
+      "document_id": "napoleon-bulletin-1809-07-08-wagram",
+      "sentence_id": "napoleon-bulletin-1809-07-08-wagram_s01_p44_s01",
+      "span_text": "victoire",
+      "mipvu_ids": [
+        "napoleon-bulletin-1809-07-08-wagram_s01_p44_s01_lu024"
+      ],
+      "cmt": {
+        "mapping_id": "napoleon-cmt-016",
+        "cluster_id": "napoleon-02-army-body",
+        "source_domain_primary": "body",
+        "source_domain_secondary": [],
+        "target_domain": "military_virtue",
+        "conceptual_metaphor": "MILITARY VIRTUE IS BODY",
+        "entailments": [
+          "`victoire` is treated as an agent, possession, or hesitant outcome in battle narrative",
+          "Battle outcome is understood through personification and possession."
+        ],
+        "confidence": 0.76,
+        "rival_reading": "Victory is abstract but is described as hesitating, deciding, or belonging to an army.",
+        "justification": "MIPVU review rule '' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
+      },
+      "koenigsberg": {},
+      "meta": {
+        "confidence": 0.76,
+        "ambiguity_flag": false,
+        "suppression_flag": false
+      },
+      "gloss_en": "victory",
+      "gloss_notes": "French `victoire` may name an event, a result, or a quasi-agent in personified phrasing."
+    },
+    {
+      "instance_id": "napoleon-ann-017",
+      "case_id": "napoleon",
+      "document_id": "napoleon-bulletin-1809-07-08-wagram",
+      "sentence_id": "napoleon-bulletin-1809-07-08-wagram_s01_p53_s04",
+      "span_text": "gloire",
+      "mipvu_ids": [
+        "napoleon-bulletin-1809-07-08-wagram_s01_p53_s04_lu006"
+      ],
+      "cmt": {
+        "mapping_id": "napoleon-cmt-017",
+        "cluster_id": "napoleon-01-glory-destiny",
+        "source_domain_primary": "light_darkness",
+        "source_domain_secondary": [],
+        "target_domain": "military_virtue",
+        "conceptual_metaphor": "MILITARY VIRTUE IS LIGHT DARKNESS",
+        "entailments": [
+          "`gloire` frames military conduct or death as publicly radiant renown attached to soldiers or units",
+          "Military action and death are understood through fame as covering, radiance, or honor-bearing accompaniment."
+        ],
+        "confidence": 0.86,
+        "rival_reading": "Glory is not a physical covering or companion, but the French phrasing treats it as something one is covered with or dies with.",
+        "justification": "MIPVU review rule '' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
+      },
+      "koenigsberg": {},
+      "meta": {
+        "confidence": 0.86,
+        "ambiguity_flag": false,
+        "suppression_flag": false
+      },
+      "gloss_en": "glory",
+      "gloss_notes": "French `gloire` carries military fame, radiance, public renown, and honor; do not flatten it into generic English glory."
+    }
+  ]
+}

@@ -2,7 +2,7 @@
   "case_id": "am-rev",
   "stage": "segment-texts",
   "status": "ready",
-  "generated_at": "2026-06-13T20:41:16",
+  "generated_at": "2026-06-17T01:08:21",
   "documents_in_manifest": 9,
   "written": 9,
   "skipped_missing_text": 0,
@@ -25,49 +25,49 @@
     {
       "document_id": "am-rev-washington-orders-1775-07-04",
       "status": "written",
-      "sentence_count": 105,
+      "sentence_count": 32,
       "input_path": "/Users/andrewhammer/codegarden/koenigsberg-sacrifice-workbench/cases/am-rev/corpus/text/am-rev-washington-orders-1775-07-04.md",
       "output_path": "/Users/andrewhammer/codegarden/koenigsberg-sacrifice-workbench/cases/am-rev/corpus/segmented/am-rev-washington-orders-1775-07-04.json"
     },
     {
       "document_id": "am-rev-washington-orders-1776-02-09",
       "status": "written",
-      "sentence_count": 70,
+      "sentence_count": 5,
       "input_path": "/Users/andrewhammer/codegarden/koenigsberg-sacrifice-workbench/cases/am-rev/corpus/text/am-rev-washington-orders-1776-02-09.md",
       "output_path": "/Users/andrewhammer/codegarden/koenigsberg-sacrifice-workbench/cases/am-rev/corpus/segmented/am-rev-washington-orders-1776-02-09.json"
     },
     {
       "document_id": "am-rev-washington-orders-1776-07-02",
       "status": "written",
-      "sentence_count": 308,
+      "sentence_count": 21,
       "input_path": "/Users/andrewhammer/codegarden/koenigsberg-sacrifice-workbench/cases/am-rev/corpus/text/am-rev-washington-orders-1776-07-02.md",
       "output_path": "/Users/andrewhammer/codegarden/koenigsberg-sacrifice-workbench/cases/am-rev/corpus/segmented/am-rev-washington-orders-1776-07-02.json"
     },
     {
       "document_id": "am-rev-washington-orders-1776-08-30",
       "status": "written",
-      "sentence_count": 68,
+      "sentence_count": 13,
       "input_path": "/Users/andrewhammer/codegarden/koenigsberg-sacrifice-workbench/cases/am-rev/corpus/text/am-rev-washington-orders-1776-08-30.md",
       "output_path": "/Users/andrewhammer/codegarden/koenigsberg-sacrifice-workbench/cases/am-rev/corpus/segmented/am-rev-washington-orders-1776-08-30.json"
     },
     {
       "document_id": "am-rev-washington-orders-1776-12-25",
       "status": "written",
-      "sentence_count": 81,
+      "sentence_count": 17,
       "input_path": "/Users/andrewhammer/codegarden/koenigsberg-sacrifice-workbench/cases/am-rev/corpus/text/am-rev-washington-orders-1776-12-25.md",
       "output_path": "/Users/andrewhammer/codegarden/koenigsberg-sacrifice-workbench/cases/am-rev/corpus/segmented/am-rev-washington-orders-1776-12-25.json"
     },
     {
       "document_id": "am-rev-washington-orders-1783-06-08",
       "status": "written",
-      "sentence_count": 88,
+      "sentence_count": 46,
       "input_path": "/Users/andrewhammer/codegarden/koenigsberg-sacrifice-workbench/cases/am-rev/corpus/text/am-rev-washington-orders-1783-06-08.md",
       "output_path": "/Users/andrewhammer/codegarden/koenigsberg-sacrifice-workbench/cases/am-rev/corpus/segmented/am-rev-washington-orders-1783-06-08.json"
     },
     {
       "document_id": "am-rev-washington-orders-1783-06-17",
       "status": "written",
-      "sentence_count": 81,
+      "sentence_count": 25,
       "input_path": "/Users/andrewhammer/codegarden/koenigsberg-sacrifice-workbench/cases/am-rev/corpus/text/am-rev-washington-orders-1783-06-17.md",
       "output_path": "/Users/andrewhammer/codegarden/koenigsberg-sacrifice-workbench/cases/am-rev/corpus/segmented/am-rev-washington-orders-1783-06-17.json"
     }

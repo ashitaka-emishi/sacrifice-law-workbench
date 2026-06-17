@@ -1,23 +1,152 @@
 {
   "version": "1.0",
   "case_id": "napoleon",
-  "generated_at": "2026-05-05T02:40:26",
-  "status": "stub",
-  "total_instances": 0,
+  "generated_at": "2026-06-17T01:08:26",
+  "status": "complete",
+  "total_instances": 19,
+  "mipvu_profile": {
+    "mipvu_files": 10,
+    "total_lexical_units": 23005,
+    "reviewed_lexical_units": 23005,
+    "pending_lexical_units": 0,
+    "confirmed_metaphor_units": 22,
+    "metaphor_or_uncertain_units": 25,
+    "metaphor_rate_confirmed": 0.001,
+    "metaphor_rate_including_uncertain": 0.0011,
+    "reviewed_metaphor_rate_confirmed": 0.001,
+    "reviewed_metaphor_rate_including_uncertain": 0.0011,
+    "by_document": {
+      "napoleon-bulletin-1809-07-08-wagram": 4009,
+      "napoleon-bulletin-1813-05-24-bautzen": 3242,
+      "napoleon-bulletin-1805-12-04-austerlitz-aftermath": 3039,
+      "napoleon-bulletin-1806-10-15-jena": 2709,
+      "napoleon-bulletin-1807-06-14-friedland": 2000,
+      "napoleon-bulletin-1812-12-03-russia-29th": 1968,
+      "napoleon-bulletin-1812-10-23-russia-advance": 1963,
+      "napoleon-bulletin-1806-10-26-berlin": 1657,
+      "napoleon-bulletin-1807-02-08-eylau": 1286,
+      "napoleon-bulletin-1805-12-03-austerlitz": 1132
+    },
+    "by_register": {
+      "military-bulletin-proclamation": 23005
+    },
+    "by_language": {
+      "fr": 23005
+    },
+    "by_decision_type": {
+      "non_metaphor": 22980,
+      "mipvu_indirect": 14,
+      "mipvu_personification": 6,
+      "uncertain": 3,
+      "mipvu_direct": 2
+    },
+    "by_confidence": {
+      "missing": 22980,
+      "medium": 22,
+      "low": 3
+    }
+  },
+  "cmt_profile": {
+    "mapping_file": "corpus/cmt/cmt-mappings.json",
+    "mapping_count": 19,
+    "by_cluster": {
+      "napoleon-02-army-body": 8,
+      "napoleon-01-glory-destiny": 6,
+      "napoleon-05-soldier-sacrifice": 3,
+      "napoleon-03-emperor-embodiment": 1,
+      "napoleon-06-enemy-obstacle": 1
+    },
+    "by_source_domain": {
+      "body": 7,
+      "sacrifice": 5,
+      "light_darkness": 3,
+      "object_material": 3,
+      "journey_motion": 1
+    },
+    "by_target_domain": {
+      "military_virtue": 7,
+      "war_death": 6,
+      "history": 3,
+      "army": 2,
+      "nation": 1
+    },
+    "by_conceptual_metaphor": {
+      "MILITARY VIRTUE IS BODY": 4,
+      "HISTORY IS OBJECT MATERIAL": 3,
+      "MILITARY VIRTUE IS LIGHT DARKNESS": 3,
+      "WAR DEATH IS SACRIFICE": 3,
+      "WAR DEATH IS BODY": 2,
+      "ARMY IS BODY": 1,
+      "ARMY IS SACRIFICE": 1,
+      "NATION IS SACRIFICE": 1,
+      "WAR DEATH IS JOURNEY MOTION": 1
+    },
+    "by_document": {
+      "napoleon-bulletin-1807-02-08-eylau": 5,
+      "napoleon-bulletin-1809-07-08-wagram": 3,
+      "napoleon-bulletin-1805-12-03-austerlitz": 2,
+      "napoleon-bulletin-1806-10-15-jena": 2,
+      "napoleon-bulletin-1806-10-26-berlin": 2,
+      "napoleon-bulletin-1807-06-14-friedland": 2,
+      "napoleon-bulletin-1805-12-04-austerlitz-aftermath": 1,
+      "napoleon-bulletin-1812-12-03-russia-29th": 1,
+      "napoleon-bulletin-1813-05-24-bautzen": 1
+    },
+    "by_salience": {
+      "medium": 11,
+      "high": 8
+    },
+    "by_status": {
+      "provisional": 19
+    }
+  },
   "cluster_analyses": [
     {
       "cluster_id": "napoleon-01-glory-destiny",
       "cluster_name": "Glory / destiny / world-historical mission",
       "status": "provisional",
-      "instance_count": 0,
-      "instance_ids": [],
-      "by_document": {},
+      "instance_count": 6,
+      "instance_ids": [
+        "napoleon-ann-003",
+        "napoleon-ann-006",
+        "napoleon-ann-007",
+        "napoleon-ann-008",
+        "napoleon-ann-015",
+        "napoleon-ann-017"
+      ],
+      "cmt_mapping_count": 6,
+      "cmt_mapping_ids": [
+        "napoleon-cmt-003",
+        "napoleon-cmt-006",
+        "napoleon-cmt-007",
+        "napoleon-cmt-008",
+        "napoleon-cmt-015",
+        "napoleon-cmt-017"
+      ],
+      "cmt_source_domains": {
+        "light_darkness": 3,
+        "object_material": 3
+      },
+      "cmt_target_domains": {
+        "history": 3,
+        "military_virtue": 3
+      },
+      "rhetorical_salience_distribution": {
+        "high": 3,
+        "medium": 3
+      },
+      "by_document": {
+        "napoleon-bulletin-1806-10-26-berlin": 2,
+        "napoleon-bulletin-1809-07-08-wagram": 2,
+        "napoleon-bulletin-1805-12-04-austerlitz-aftermath": 1,
+        "napoleon-bulletin-1807-02-08-eylau": 1
+      },
       "by_register": {},
       "koenigsberg_profile": {
         "fantasy_type_distribution": {},
         "violence_logic_distribution": {},
-        "obligatory_frame_rate": null,
-        "sacrificial_economy_rate": null,
+        "obligatory_frame_rate": 0.0,
+        "sacrificial_economy_rate": 0.0,
         "absence_flags_distribution": {}
       },
       "analyst_notes": null,
@@ -28,15 +157,59 @@
       "cluster_id": "napoleon-02-army-body",
       "cluster_name": "Army as body / instrument of destiny",
       "status": "provisional",
-      "instance_count": 0,
-      "instance_ids": [],
-      "by_document": {},
+      "instance_count": 8,
+      "instance_ids": [
+        "napoleon-ann-001",
+        "napoleon-ann-005",
+        "napoleon-ann-009",
+        "napoleon-ann-010",
+        "napoleon-ann-013",
+        "napoleon-ann-014",
+        "napoleon-ann-016",
+        "napoleon-ann-018"
+      ],
+      "cmt_mapping_count": 8,
+      "cmt_mapping_ids": [
+        "napoleon-cmt-001",
+        "napoleon-cmt-005",
+        "napoleon-cmt-009",
+        "napoleon-cmt-010",
+        "napoleon-cmt-013",
+        "napoleon-cmt-014",
+        "napoleon-cmt-016",
+        "napoleon-cmt-018"
+      ],
+      "cmt_source_domains": {
+        "body": 7,
+        "sacrifice": 1
+      },
+      "cmt_target_domains": {
+        "military_virtue": 4,
+        "army": 2,
+        "war_death": 2
+      },
+      "rhetorical_salience_distribution": {
+        "medium": 7,
+        "high": 1
+      },
+      "by_document": {
+        "napoleon-bulletin-1807-02-08-eylau": 2,
+        "napoleon-bulletin-1807-06-14-friedland": 2,
+        "napoleon-bulletin-1805-12-03-austerlitz": 1,
+        "napoleon-bulletin-1806-10-15-jena": 1,
+        "napoleon-bulletin-1809-07-08-wagram": 1,
+        "napoleon-bulletin-1812-12-03-russia-29th": 1
+      },
       "by_register": {},
       "koenigsberg_profile": {
-        "fantasy_type_distribution": {},
-        "violence_logic_distribution": {},
-        "obligatory_frame_rate": null,
-        "sacrificial_economy_rate": null,
+        "fantasy_type_distribution": {
+          "redemptive_sacrifice": 1
+        },
+        "violence_logic_distribution": {
+          "True": 2
+        },
+        "obligatory_frame_rate": 0.0,
+        "sacrificial_economy_rate": 0.375,
         "absence_flags_distribution": {}
       },
       "analyst_notes": null,
@@ -47,15 +220,34 @@
       "cluster_id": "napoleon-03-emperor-embodiment",
       "cluster_name": "Emperor as embodiment of France/history",
       "status": "provisional",
-      "instance_count": 0,
-      "instance_ids": [],
-      "by_document": {},
+      "instance_count": 1,
+      "instance_ids": [
+        "napoleon-ann-002"
+      ],
+      "cmt_mapping_count": 1,
+      "cmt_mapping_ids": [
+        "napoleon-cmt-002"
+      ],
+      "cmt_source_domains": {
+        "sacrifice": 1
+      },
+      "cmt_target_domains": {
+        "nation": 1
+      },
+      "rhetorical_salience_distribution": {
+        "high": 1
+      },
+      "by_document": {
+        "napoleon-bulletin-1805-12-03-austerlitz": 1
+      },
       "by_register": {},
       "koenigsberg_profile": {
-        "fantasy_type_distribution": {},
+        "fantasy_type_distribution": {
+          "redemptive_sacrifice": 1
+        },
         "violence_logic_distribution": {},
-        "obligatory_frame_rate": null,
-        "sacrificial_economy_rate": null,
+        "obligatory_frame_rate": 0.0,
+        "sacrificial_economy_rate": 1.0,
         "absence_flags_distribution": {}
       },
       "analyst_notes": null,
@@ -68,6 +260,11 @@
       "status": "provisional",
       "instance_count": 0,
       "instance_ids": [],
+      "cmt_mapping_count": 0,
+      "cmt_mapping_ids": [],
+      "cmt_source_domains": {},
+      "cmt_target_domains": {},
+      "rhetorical_salience_distribution": {},
       "by_document": {},
       "by_register": {},
       "koenigsberg_profile": {
@@ -85,15 +282,41 @@
       "cluster_id": "napoleon-05-soldier-sacrifice",
       "cluster_name": "Soldier sacrifice / honor / immortality",
       "status": "provisional",
-      "instance_count": 0,
-      "instance_ids": [],
-      "by_document": {},
+      "instance_count": 3,
+      "instance_ids": [
+        "napoleon-ann-004",
+        "napoleon-ann-011",
+        "napoleon-ann-012"
+      ],
+      "cmt_mapping_count": 3,
+      "cmt_mapping_ids": [
+        "napoleon-cmt-004",
+        "napoleon-cmt-011",
+        "napoleon-cmt-012"
+      ],
+      "cmt_source_domains": {
+        "sacrifice": 3
+      },
+      "cmt_target_domains": {
+        "war_death": 3
+      },
+      "rhetorical_salience_distribution": {
+        "high": 3
+      },
+      "by_document": {
+        "napoleon-bulletin-1807-02-08-eylau": 2,
+        "napoleon-bulletin-1806-10-15-jena": 1
+      },
       "by_register": {},
       "koenigsberg_profile": {
-        "fantasy_type_distribution": {},
-        "violence_logic_distribution": {},
-        "obligatory_frame_rate": null,
-        "sacrificial_economy_rate": null,
+        "fantasy_type_distribution": {
+          "redemptive_sacrifice": 3
+        },
+        "violence_logic_distribution": {
+          "True": 3
+        },
+        "obligatory_frame_rate": 0.0,
+        "sacrificial_economy_rate": 1.0,
         "absence_flags_distribution": {}
       },
       "analyst_notes": null,
@@ -104,15 +327,34 @@
       "cluster_id": "napoleon-06-enemy-obstacle",
       "cluster_name": "Enemy as obstacle to order/destiny",
       "status": "provisional",
-      "instance_count": 0,
-      "instance_ids": [],
-      "by_document": {},
+      "instance_count": 1,
+      "instance_ids": [
+        "napoleon-ann-019"
+      ],
+      "cmt_mapping_count": 1,
+      "cmt_mapping_ids": [
+        "napoleon-cmt-019"
+      ],
+      "cmt_source_domains": {
+        "journey_motion": 1
+      },
+      "cmt_target_domains": {
+        "war_death": 1
+      },
+      "rhetorical_salience_distribution": {
+        "medium": 1
+      },
+      "by_document": {
+        "napoleon-bulletin-1813-05-24-bautzen": 1
+      },
       "by_register": {},
       "koenigsberg_profile": {
         "fantasy_type_distribution": {},
-        "violence_logic_distribution": {},
-        "obligatory_frame_rate": null,
-        "sacrificial_economy_rate": null,
+        "violence_logic_distribution": {
+          "True": 1
+        },
+        "obligatory_frame_rate": 0.0,
+        "sacrificial_economy_rate": 1.0,
         "absence_flags_distribution": {}
       },
       "analyst_notes": null,
@@ -121,19 +363,88 @@
     }
   ],
   "corpus_profile": {
-    "by_document": {},
+    "by_document": {
+      "napoleon-bulletin-1807-02-08-eylau": 5,
+      "napoleon-bulletin-1809-07-08-wagram": 3,
+      "napoleon-bulletin-1805-12-03-austerlitz": 2,
+      "napoleon-bulletin-1806-10-15-jena": 2,
+      "napoleon-bulletin-1806-10-26-berlin": 2,
+      "napoleon-bulletin-1807-06-14-friedland": 2,
+      "napoleon-bulletin-1805-12-04-austerlitz-aftermath": 1,
+      "napoleon-bulletin-1812-12-03-russia-29th": 1,
+      "napoleon-bulletin-1813-05-24-bautzen": 1
+    },
     "by_register": {},
-    "by_cluster": {},
-    "by_fantasy_type": {},
-    "by_violence_logic": {},
-    "by_absence_flag": {}
+    "by_cluster": {
+      "napoleon-02-army-body": 8,
+      "napoleon-01-glory-destiny": 6,
+      "napoleon-05-soldier-sacrifice": 3,
+      "napoleon-03-emperor-embodiment": 1,
+      "napoleon-06-enemy-obstacle": 1
+    },
+    "by_fantasy_type": {
+      "redemptive_sacrifice": 5
+    },
+    "by_violence_logic": {
+      "True": 6
+    },
+    "by_absence_flag": {},
+    "cmt_denominator": {
+      "mapping_count": 19,
+      "by_cluster": {
+        "napoleon-02-army-body": 8,
+        "napoleon-01-glory-destiny": 6,
+        "napoleon-05-soldier-sacrifice": 3,
+        "napoleon-03-emperor-embodiment": 1,
+        "napoleon-06-enemy-obstacle": 1
+      },
+      "by_source_domain": {
+        "body": 7,
+        "sacrifice": 5,
+        "light_darkness": 3,
+        "object_material": 3,
+        "journey_motion": 1
+      },
+      "by_target_domain": {
+        "military_virtue": 7,
+        "war_death": 6,
+        "history": 3,
+        "army": 2,
+        "nation": 1
+      },
+      "by_conceptual_metaphor": {
+        "MILITARY VIRTUE IS BODY": 4,
+        "HISTORY IS OBJECT MATERIAL": 3,
+        "MILITARY VIRTUE IS LIGHT DARKNESS": 3,
+        "WAR DEATH IS SACRIFICE": 3,
+        "WAR DEATH IS BODY": 2,
+        "ARMY IS BODY": 1,
+        "ARMY IS SACRIFICE": 1,
+        "NATION IS SACRIFICE": 1,
+        "WAR DEATH IS JOURNEY MOTION": 1
+      },
+      "by_salience": {
+        "medium": 11,
+        "high": 8
+      }
+    },
+    "mipvu_denominator": {
+      "total_lexical_units": 23005,
+      "reviewed_lexical_units": 23005,
+      "confirmed_metaphor_units": 22,
+      "metaphor_or_uncertain_units": 25,
+      "metaphor_rate_confirmed": 0.001,
+      "metaphor_rate_including_uncertain": 0.0011,
+      "reviewed_metaphor_rate_confirmed": 0.001,
+      "reviewed_metaphor_rate_including_uncertain": 0.0011
+    }
   },
   "errors": [],
   "pipeline_log": [
     {
       "stage": "run-case-analysis",
       "script": "scripts/run-case-analysis.py",
-      "generated_at": "2026-05-05T02:40:26"
+      "generated_at": "2026-06-17T01:08:26"
     }
   ]
 }

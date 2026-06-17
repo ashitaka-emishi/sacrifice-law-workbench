@@ -1,0 +1,115 @@
+{
+  "version": "1.0",
+  "case_id": "hitler",
+  "document_id": "hitler-ussr-proclamation-1941-06-22",
+  "generated_at": "2026-06-17T01:07:47",
+  "generator": "scripts/generate-annotation-layer.py",
+  "annotation_policy": "CMT and Koenigsbergian annotations derived from MIPVU-reviewed metaphorical and uncertain lexical units. Each instance cites at least one MIPVU ID with decision_type in METAPHOR_DECISIONS.",
+  "instances": [
+    {
+      "instance_id": "hitler-ann-063",
+      "case_id": "hitler",
+      "document_id": "hitler-ussr-proclamation-1941-06-22",
+      "sentence_id": "hitler-ussr-proclamation-1941-06-22_s01_p08_s03",
+      "span_text": "Vernichtung",
+      "mipvu_ids": [
+        "hitler-ussr-proclamation-1941-06-22_s01_p08_s03_lu027"
+      ],
+      "cmt": {
+        "mapping_id": "hitler-cmt-063",
+        "cluster_id": "hitler-03-jew-parasite-disease",
+        "source_domain_primary": "physical_destruction",
+        "source_domain_secondary": [],
+        "target_domain": "purification",
+        "conceptual_metaphor": "PURIFICATION IS PHYSICAL DESTRUCTION",
+        "entailments": [
+          "`Vernichtung` extends physical destruction/annihilation to economic, political, or racial elimination of groups",
+          "Social or racial elimination is understood through total physical annihilation."
+        ],
+        "confidence": 0.78,
+        "rival_reading": "Physical destruction is extended to social/economic/racial elimination; the basic physical sense underwrites the metaphorical application to groups.",
+        "justification": "MIPVU review rule '' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
+      },
+      "koenigsberg": {
+        "violence_logic": true
+      },
+      "meta": {
+        "confidence": 0.78,
+        "ambiguity_flag": false,
+        "suppression_flag": false
+      },
+      "gloss_en": "annihilation / destruction",
+      "gloss_notes": "German `Vernichtung` denotes total destruction; in Nazi text often applied to enemies or states — may be literal or figurative depending on target."
+    },
+    {
+      "instance_id": "hitler-ann-064",
+      "case_id": "hitler",
+      "document_id": "hitler-ussr-proclamation-1941-06-22",
+      "sentence_id": "hitler-ussr-proclamation-1941-06-22_s01_p12_s01",
+      "span_text": "Vernichtung",
+      "mipvu_ids": [
+        "hitler-ussr-proclamation-1941-06-22_s01_p12_s01_lu012"
+      ],
+      "cmt": {
+        "mapping_id": "hitler-cmt-064",
+        "cluster_id": "hitler-03-jew-parasite-disease",
+        "source_domain_primary": "physical_destruction",
+        "source_domain_secondary": [],
+        "target_domain": "purification",
+        "conceptual_metaphor": "PURIFICATION IS PHYSICAL DESTRUCTION",
+        "entailments": [
+          "`Vernichtung` extends physical destruction/annihilation to economic, political, or racial elimination of groups",
+          "Social or racial elimination is understood through total physical annihilation."
+        ],
+        "confidence": 0.78,
+        "rival_reading": "Physical destruction is extended to social/economic/racial elimination; the basic physical sense underwrites the metaphorical application to groups.",
+        "justification": "MIPVU review rule '' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
+      },
+      "koenigsberg": {
+        "violence_logic": true
+      },
+      "meta": {
+        "confidence": 0.78,
+        "ambiguity_flag": false,
+        "suppression_flag": false
+      },
+      "gloss_en": "annihilation / destruction",
+      "gloss_notes": "German `Vernichtung` denotes total destruction; in Nazi text often applied to enemies or states — may be literal or figurative depending on target."
+    },
+    {
+      "instance_id": "hitler-ann-065",
+      "case_id": "hitler",
+      "document_id": "hitler-ussr-proclamation-1941-06-22",
+      "sentence_id": "hitler-ussr-proclamation-1941-06-22_s01_p24_s01",
+      "span_text": "Ausrottung",
+      "mipvu_ids": [
+        "hitler-ussr-proclamation-1941-06-22_s01_p24_s01_lu043"
+      ],
+      "cmt": {
+        "mapping_id": "hitler-cmt-065",
+        "cluster_id": "hitler-01-volk-racial-body",
+        "source_domain_primary": "nature_organism",
+        "source_domain_secondary": [],
+        "target_domain": "purification",
+        "conceptual_metaphor": "PURIFICATION IS NATURE ORGANISM",
+        "entailments": [
+          "`Ausrottung` extends botanical uprooting to the eradication of groups or movements",
+          "Group eradication is understood through botanical uprooting."
+        ],
+        "confidence": 0.82,
+        "rival_reading": "The botanical act of rooting out is extended to human elimination; the physical source domain is preserved in the compound.",
+        "justification": "MIPVU review rule '' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
+      },
+      "koenigsberg": {
+        "violence_logic": true
+      },
+      "meta": {
+        "confidence": 0.82,
+        "ambiguity_flag": false,
+        "suppression_flag": false
+      },
+      "gloss_en": "eradication / extermination",
+      "gloss_notes": "German `Ausrottung` (from `rotten` = to root out) carries literal uprooting extended to extermination; the botanical source domain remains active."
+    }
+  ]
+}

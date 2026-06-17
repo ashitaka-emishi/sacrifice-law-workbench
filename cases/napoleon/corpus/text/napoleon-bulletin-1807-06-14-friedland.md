@@ -20,12 +20,18 @@ correspondance_volume: 15
 extraction_script: scripts/extract-napoleon-bulletins.py
 notes: 'Battle of Friedland (14 June 1807): decisive victory ending the Fourth Coalition.
   Glory-sacrifice-patrie language at height of imperial power.'
+verification:
+  min_words: 1660
+  required_phrases:
+  - Friedland
+  - Alle
+  - GRANDE ARM
 case_id: napoleon
 raw_path: corpus/raw/napoleon-src-02-grande-armee-bulletins/napoleon-bulletin-1807-06-14-friedland.txt
 pipeline_log:
 - stage: normalize-texts
   script: scripts/normalize-texts.py
-  generated_at: '2026-06-14T15:00:09'
+  generated_at: '2026-06-17T01:08:25'
 ---
 
 12767. - 79e BULLETIN DE LA GRANDE ARMÉE.

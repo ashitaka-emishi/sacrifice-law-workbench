@@ -22,12 +22,18 @@ notes: 'ANALYTICALLY CRITICAL. The collapse of the sacrificial economy: army dis
   in retreat, cold, starvation. Napoleon admits catastrophic losses publicly for the
   first time. Core document for Koenigsberg sacrifice-law analysis — the moment the
   sacrificial exchange fails.'
+verification:
+  min_words: 1640
+  required_phrases:
+  - Molodetchna
+  - 3 décembre 1812
+  - GRANDE ARM
 case_id: napoleon
 raw_path: corpus/raw/napoleon-src-02-grande-armee-bulletins/napoleon-bulletin-1812-12-03-russia-29th.txt
 pipeline_log:
 - stage: normalize-texts
   script: scripts/normalize-texts.py
-  generated_at: '2026-06-14T15:00:09'
+  generated_at: '2026-06-17T01:08:25'
 ---
 
 t 9365. - 2ge BULLETIN DE LA GRANDE ARMÉE2.

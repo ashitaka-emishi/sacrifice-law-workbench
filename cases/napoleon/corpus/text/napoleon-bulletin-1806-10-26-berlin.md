@@ -20,12 +20,18 @@ correspondance_volume: 13
 extraction_script: scripts/extract-napoleon-bulletins.py
 notes: Entry into Berlin after Jena. Imperial triumphalism at height — enemy capital
   occupied, Prussian monarchy humiliated.
+verification:
+  min_words: 1380
+  required_phrases:
+  - Berlin
+  - capitulation
+  - GRANDE ARM
 case_id: napoleon
 raw_path: corpus/raw/napoleon-src-02-grande-armee-bulletins/napoleon-bulletin-1806-10-26-berlin.txt
 pipeline_log:
 - stage: normalize-texts
   script: scripts/normalize-texts.py
-  generated_at: '2026-06-14T15:00:09'
+  generated_at: '2026-06-17T01:08:25'
 ---
 
 18e BULLETIN DE LA GRANDE ARMÉE.

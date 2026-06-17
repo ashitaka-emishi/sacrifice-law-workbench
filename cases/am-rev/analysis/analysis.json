@@ -1,23 +1,175 @@
 {
   "version": "1.0",
   "case_id": "am-rev",
-  "generated_at": "2026-05-05T02:40:26",
-  "status": "stub",
-  "total_instances": 0,
+  "generated_at": "2026-06-17T01:08:22",
+  "status": "complete",
+  "total_instances": 61,
+  "mipvu_profile": {
+    "mipvu_files": 9,
+    "total_lexical_units": 31594,
+    "reviewed_lexical_units": 23099,
+    "pending_lexical_units": 8495,
+    "confirmed_metaphor_units": 120,
+    "metaphor_or_uncertain_units": 122,
+    "metaphor_rate_confirmed": 0.0038,
+    "metaphor_rate_including_uncertain": 0.0039,
+    "reviewed_metaphor_rate_confirmed": 0.0052,
+    "reviewed_metaphor_rate_including_uncertain": 0.0053,
+    "by_document": {
+      "am-rev-paine-common-sense": 21760,
+      "am-rev-washington-orders-1783-06-08": 4143,
+      "am-rev-washington-orders-1783-06-17": 1615,
+      "am-rev-jefferson-declaration": 1337,
+      "am-rev-washington-orders-1775-07-04": 870,
+      "am-rev-washington-orders-1776-07-02": 722,
+      "am-rev-washington-orders-1776-12-25": 602,
+      "am-rev-washington-orders-1776-08-30": 405,
+      "am-rev-washington-orders-1776-02-09": 140
+    },
+    "by_register": {
+      "political-pamphlet": 21760,
+      "military-general-orders": 4354,
+      "military-circular-letter": 4143,
+      "political-declaration": 1337
+    },
+    "by_language": {
+      "en": 31594
+    },
+    "by_decision_type": {
+      "non_metaphor": 22977,
+      "pending": 8495,
+      "mipvu_indirect": 79,
+      "mipvu_direct": 31,
+      "mipvu_personification": 10,
+      "uncertain": 2
+    },
+    "by_confidence": {
+      "missing": 31472,
+      "medium": 120,
+      "low": 2
+    }
+  },
+  "cmt_profile": {
+    "mapping_file": "corpus/cmt/cmt-mappings.json",
+    "mapping_count": 61,
+    "by_cluster": {
+      "am-rev-02-people-republic": 26,
+      "am-rev-06-union-founding-memory": 17,
+      "am-rev-01-liberty-tyranny": 12,
+      "am-rev-04-providence-covenant": 3,
+      "am-rev-03-founding-sacrifice": 2,
+      "am-rev-05-virtue-corruption": 1
+    },
+    "by_source_domain": {
+      "body": 18,
+      "sacrifice": 13,
+      "birth_generation": 10,
+      "slavery_bondage": 6,
+      "religion_providence": 5,
+      "agriculture": 4,
+      "war_combat": 3,
+      "mechanics": 1,
+      "object_material": 1
+    },
+    "by_target_domain": {
+      "independence": 23,
+      "government": 14,
+      "freedom": 9,
+      "enemy": 4,
+      "union": 4,
+      "social_body": 3,
+      "political_order": 2,
+      "sacrifice": 2
+    },
+    "by_conceptual_metaphor": {
+      "INDEPENDENCE IS SACRIFICE": 13,
+      "GOVERNMENT IS BODY": 11,
+      "INDEPENDENCE IS BIRTH GENERATION": 10,
+      "FREEDOM IS SLAVERY BONDAGE": 6,
+      "UNION IS AGRICULTURE": 4,
+      "ENEMY IS WAR COMBAT": 3,
+      "FREEDOM IS BODY": 3,
+      "GOVERNMENT IS RELIGION PROVIDENCE": 3,
+      "SACRIFICE IS RELIGION PROVIDENCE": 2,
+      "SOCIAL BODY IS BODY": 2,
+      "ENEMY IS BODY": 1,
+      "POLITICAL ORDER IS BODY": 1,
+      "POLITICAL ORDER IS OBJECT MATERIAL": 1,
+      "SOCIAL BODY IS MECHANICS": 1
+    },
+    "by_document": {
+      "am-rev-paine-common-sense": 53,
+      "am-rev-jefferson-declaration": 8
+    },
+    "by_salience": {
+      "high": 42,
+      "medium": 19
+    },
+    "by_status": {
+      "provisional": 61
+    }
+  },
   "cluster_analyses": [
     {
       "cluster_id": "am-rev-01-liberty-tyranny",
       "cluster_name": "Liberty versus tyranny",
       "status": "provisional",
-      "instance_count": 0,
-      "instance_ids": [],
-      "by_document": {},
+      "instance_count": 12,
+      "instance_ids": [
+        "amrev-ann-060",
+        "amrev-ann-001",
+        "amrev-ann-005",
+        "amrev-ann-010",
+        "amrev-ann-012",
+        "amrev-ann-017",
+        "amrev-ann-018",
+        "amrev-ann-025",
+        "amrev-ann-026",
+        "amrev-ann-029",
+        "amrev-ann-031",
+        "amrev-ann-043"
+      ],
+      "cmt_mapping_count": 12,
+      "cmt_mapping_ids": [
+        "amrev-cmt-001",
+        "amrev-cmt-005",
+        "amrev-cmt-010",
+        "amrev-cmt-012",
+        "amrev-cmt-017",
+        "amrev-cmt-018",
+        "amrev-cmt-025",
+        "amrev-cmt-026",
+        "amrev-cmt-029",
+        "amrev-cmt-031",
+        "amrev-cmt-043",
+        "amrev-cmt-060"
+      ],
+      "cmt_source_domains": {
+        "slavery_bondage": 6,
+        "body": 3,
+        "war_combat": 3
+      },
+      "cmt_target_domains": {
+        "freedom": 6,
+        "enemy": 4,
+        "social_body": 2
+      },
+      "rhetorical_salience_distribution": {
+        "high": 9,
+        "medium": 3
+      },
+      "by_document": {
+        "am-rev-paine-common-sense": 11,
+        "am-rev-jefferson-declaration": 1
+      },
       "by_register": {},
       "koenigsberg_profile": {
         "fantasy_type_distribution": {},
-        "violence_logic_distribution": {},
-        "obligatory_frame_rate": null,
-        "sacrificial_economy_rate": null,
+        "violence_logic_distribution": {
+          "True": 4
+        },
+        "obligatory_frame_rate": 0.0,
+        "sacrificial_economy_rate": 0.0,
         "absence_flags_distribution": {}
       },
       "analyst_notes": null,
@@ -28,15 +180,89 @@
       "cluster_id": "am-rev-02-people-republic",
       "cluster_name": "People / republic as sacred political object",
       "status": "provisional",
-      "instance_count": 0,
-      "instance_ids": [],
-      "by_document": {},
+      "instance_count": 26,
+      "instance_ids": [
+        "amrev-ann-056",
+        "amrev-ann-057",
+        "amrev-ann-058",
+        "amrev-ann-002",
+        "amrev-ann-003",
+        "amrev-ann-004",
+        "amrev-ann-006",
+        "amrev-ann-011",
+        "amrev-ann-014",
+        "amrev-ann-015",
+        "amrev-ann-019",
+        "amrev-ann-020",
+        "amrev-ann-022",
+        "amrev-ann-023",
+        "amrev-ann-040",
+        "amrev-ann-041",
+        "amrev-ann-042",
+        "amrev-ann-045",
+        "amrev-ann-046",
+        "amrev-ann-047",
+        "amrev-ann-048",
+        "amrev-ann-049",
+        "amrev-ann-050",
+        "amrev-ann-051",
+        "amrev-ann-052",
+        "amrev-ann-053"
+      ],
+      "cmt_mapping_count": 26,
+      "cmt_mapping_ids": [
+        "amrev-cmt-002",
+        "amrev-cmt-003",
+        "amrev-cmt-004",
+        "amrev-cmt-006",
+        "amrev-cmt-011",
+        "amrev-cmt-014",
+        "amrev-cmt-015",
+        "amrev-cmt-019",
+        "amrev-cmt-020",
+        "amrev-cmt-022",
+        "amrev-cmt-023",
+        "amrev-cmt-040",
+        "amrev-cmt-041",
+        "amrev-cmt-042",
+        "amrev-cmt-045",
+        "amrev-cmt-046",
+        "amrev-cmt-047",
+        "amrev-cmt-048",
+        "amrev-cmt-049",
+        "amrev-cmt-050",
+        "amrev-cmt-051",
+        "amrev-cmt-052",
+        "amrev-cmt-053",
+        "amrev-cmt-056",
+        "amrev-cmt-057",
+        "amrev-cmt-058"
+      ],
+      "cmt_source_domains": {
+        "sacrifice": 13,
+        "birth_generation": 10,
+        "body": 3
+      },
+      "cmt_target_domains": {
+        "independence": 23,
+        "freedom": 3
+      },
+      "rhetorical_salience_distribution": {
+        "high": 23,
+        "medium": 3
+      },
+      "by_document": {
+        "am-rev-paine-common-sense": 23,
+        "am-rev-jefferson-declaration": 3
+      },
       "by_register": {},
       "koenigsberg_profile": {
-        "fantasy_type_distribution": {},
+        "fantasy_type_distribution": {
+          "redemptive_sacrifice": 13
+        },
         "violence_logic_distribution": {},
-        "obligatory_frame_rate": null,
-        "sacrificial_economy_rate": null,
+        "obligatory_frame_rate": 0.0,
+        "sacrificial_economy_rate": 0.5,
         "absence_flags_distribution": {}
       },
       "analyst_notes": null,
@@ -47,15 +273,37 @@
       "cluster_id": "am-rev-03-founding-sacrifice",
       "cluster_name": "Founding sacrifice / blood of liberty",
       "status": "provisional",
-      "instance_count": 0,
-      "instance_ids": [],
-      "by_document": {},
+      "instance_count": 2,
+      "instance_ids": [
+        "amrev-ann-059",
+        "amrev-ann-061"
+      ],
+      "cmt_mapping_count": 2,
+      "cmt_mapping_ids": [
+        "amrev-cmt-059",
+        "amrev-cmt-061"
+      ],
+      "cmt_source_domains": {
+        "religion_providence": 2
+      },
+      "cmt_target_domains": {
+        "sacrifice": 2
+      },
+      "rhetorical_salience_distribution": {
+        "high": 1,
+        "medium": 1
+      },
+      "by_document": {
+        "am-rev-jefferson-declaration": 2
+      },
       "by_register": {},
       "koenigsberg_profile": {
-        "fantasy_type_distribution": {},
+        "fantasy_type_distribution": {
+          "redemptive_sacrifice": 2
+        },
         "violence_logic_distribution": {},
-        "obligatory_frame_rate": null,
-        "sacrificial_economy_rate": null,
+        "obligatory_frame_rate": 0.0,
+        "sacrificial_economy_rate": 1.0,
         "absence_flags_distribution": {}
       },
       "analyst_notes": null,
@@ -66,15 +314,38 @@
       "cluster_id": "am-rev-04-providence-covenant",
       "cluster_name": "Providence / covenant / sacred duty",
       "status": "provisional",
-      "instance_count": 0,
-      "instance_ids": [],
-      "by_document": {},
+      "instance_count": 3,
+      "instance_ids": [
+        "amrev-ann-035",
+        "amrev-ann-036",
+        "amrev-ann-037"
+      ],
+      "cmt_mapping_count": 3,
+      "cmt_mapping_ids": [
+        "amrev-cmt-035",
+        "amrev-cmt-036",
+        "amrev-cmt-037"
+      ],
+      "cmt_source_domains": {
+        "religion_providence": 3
+      },
+      "cmt_target_domains": {
+        "government": 3
+      },
+      "rhetorical_salience_distribution": {
+        "high": 3
+      },
+      "by_document": {
+        "am-rev-paine-common-sense": 3
+      },
       "by_register": {},
       "koenigsberg_profile": {
-        "fantasy_type_distribution": {},
+        "fantasy_type_distribution": {
+          "providential_covenant": 3
+        },
         "violence_logic_distribution": {},
-        "obligatory_frame_rate": null,
-        "sacrificial_economy_rate": null,
+        "obligatory_frame_rate": 0.0,
+        "sacrificial_economy_rate": 0.0,
         "absence_flags_distribution": {}
       },
       "analyst_notes": null,
@@ -85,15 +356,32 @@
       "cluster_id": "am-rev-05-virtue-corruption",
       "cluster_name": "Virtue versus corruption",
       "status": "provisional",
-      "instance_count": 0,
-      "instance_ids": [],
-      "by_document": {},
+      "instance_count": 1,
+      "instance_ids": [
+        "amrev-ann-027"
+      ],
+      "cmt_mapping_count": 1,
+      "cmt_mapping_ids": [
+        "amrev-cmt-027"
+      ],
+      "cmt_source_domains": {
+        "mechanics": 1
+      },
+      "cmt_target_domains": {
+        "social_body": 1
+      },
+      "rhetorical_salience_distribution": {
+        "high": 1
+      },
+      "by_document": {
+        "am-rev-paine-common-sense": 1
+      },
       "by_register": {},
       "koenigsberg_profile": {
         "fantasy_type_distribution": {},
         "violence_logic_distribution": {},
-        "obligatory_frame_rate": null,
-        "sacrificial_economy_rate": null,
+        "obligatory_frame_rate": 0.0,
+        "sacrificial_economy_rate": 0.0,
         "absence_flags_distribution": {}
       },
       "analyst_notes": null,
@@ -104,15 +392,70 @@
       "cluster_id": "am-rev-06-union-founding-memory",
       "cluster_name": "Union / founding memory",
       "status": "provisional",
-      "instance_count": 0,
-      "instance_ids": [],
-      "by_document": {},
+      "instance_count": 17,
+      "instance_ids": [
+        "amrev-ann-054",
+        "amrev-ann-055",
+        "amrev-ann-007",
+        "amrev-ann-008",
+        "amrev-ann-009",
+        "amrev-ann-013",
+        "amrev-ann-016",
+        "amrev-ann-021",
+        "amrev-ann-024",
+        "amrev-ann-028",
+        "amrev-ann-030",
+        "amrev-ann-032",
+        "amrev-ann-033",
+        "amrev-ann-034",
+        "amrev-ann-038",
+        "amrev-ann-039",
+        "amrev-ann-044"
+      ],
+      "cmt_mapping_count": 17,
+      "cmt_mapping_ids": [
+        "amrev-cmt-007",
+        "amrev-cmt-008",
+        "amrev-cmt-009",
+        "amrev-cmt-013",
+        "amrev-cmt-016",
+        "amrev-cmt-021",
+        "amrev-cmt-024",
+        "amrev-cmt-028",
+        "amrev-cmt-030",
+        "amrev-cmt-032",
+        "amrev-cmt-033",
+        "amrev-cmt-034",
+        "amrev-cmt-038",
+        "amrev-cmt-039",
+        "amrev-cmt-044",
+        "amrev-cmt-054",
+        "amrev-cmt-055"
+      ],
+      "cmt_source_domains": {
+        "body": 12,
+        "agriculture": 4,
+        "object_material": 1
+      },
+      "cmt_target_domains": {
+        "government": 11,
+        "union": 4,
+        "political_order": 2
+      },
+      "rhetorical_salience_distribution": {
+        "medium": 12,
+        "high": 5
+      },
+      "by_document": {
+        "am-rev-paine-common-sense": 15,
+        "am-rev-jefferson-declaration": 2
+      },
       "by_register": {},
       "koenigsberg_profile": {
         "fantasy_type_distribution": {},
         "violence_logic_distribution": {},
-        "obligatory_frame_rate": null,
-        "sacrificial_economy_rate": null,
+        "obligatory_frame_rate": 0.0,
+        "sacrificial_economy_rate": 0.0,
         "absence_flags_distribution": {}
       },
       "analyst_notes": null,
@@ -121,19 +464,96 @@
     }
   ],
   "corpus_profile": {
-    "by_document": {},
+    "by_document": {
+      "am-rev-paine-common-sense": 53,
+      "am-rev-jefferson-declaration": 8
+    },
     "by_register": {},
-    "by_cluster": {},
-    "by_fantasy_type": {},
-    "by_violence_logic": {},
-    "by_absence_flag": {}
+    "by_cluster": {
+      "am-rev-02-people-republic": 26,
+      "am-rev-06-union-founding-memory": 17,
+      "am-rev-01-liberty-tyranny": 12,
+      "am-rev-04-providence-covenant": 3,
+      "am-rev-03-founding-sacrifice": 2,
+      "am-rev-05-virtue-corruption": 1
+    },
+    "by_fantasy_type": {
+      "redemptive_sacrifice": 15,
+      "providential_covenant": 3
+    },
+    "by_violence_logic": {
+      "True": 4
+    },
+    "by_absence_flag": {},
+    "cmt_denominator": {
+      "mapping_count": 61,
+      "by_cluster": {
+        "am-rev-02-people-republic": 26,
+        "am-rev-06-union-founding-memory": 17,
+        "am-rev-01-liberty-tyranny": 12,
+        "am-rev-04-providence-covenant": 3,
+        "am-rev-03-founding-sacrifice": 2,
+        "am-rev-05-virtue-corruption": 1
+      },
+      "by_source_domain": {
+        "body": 18,
+        "sacrifice": 13,
+        "birth_generation": 10,
+        "slavery_bondage": 6,
+        "religion_providence": 5,
+        "agriculture": 4,
+        "war_combat": 3,
+        "mechanics": 1,
+        "object_material": 1
+      },
+      "by_target_domain": {
+        "independence": 23,
+        "government": 14,
+        "freedom": 9,
+        "enemy": 4,
+        "union": 4,
+        "social_body": 3,
+        "political_order": 2,
+        "sacrifice": 2
+      },
+      "by_conceptual_metaphor": {
+        "INDEPENDENCE IS SACRIFICE": 13,
+        "GOVERNMENT IS BODY": 11,
+        "INDEPENDENCE IS BIRTH GENERATION": 10,
+        "FREEDOM IS SLAVERY BONDAGE": 6,
+        "UNION IS AGRICULTURE": 4,
+        "ENEMY IS WAR COMBAT": 3,
+        "FREEDOM IS BODY": 3,
+        "GOVERNMENT IS RELIGION PROVIDENCE": 3,
+        "SACRIFICE IS RELIGION PROVIDENCE": 2,
+        "SOCIAL BODY IS BODY": 2,
+        "ENEMY IS BODY": 1,
+        "POLITICAL ORDER IS BODY": 1,
+        "POLITICAL ORDER IS OBJECT MATERIAL": 1,
+        "SOCIAL BODY IS MECHANICS": 1
+      },
+      "by_salience": {
+        "high": 42,
+        "medium": 19
+      }
+    },
+    "mipvu_denominator": {
+      "total_lexical_units": 31594,
+      "reviewed_lexical_units": 23099,
+      "confirmed_metaphor_units": 120,
+      "metaphor_or_uncertain_units": 122,
+      "metaphor_rate_confirmed": 0.0038,
+      "metaphor_rate_including_uncertain": 0.0039,
+      "reviewed_metaphor_rate_confirmed": 0.0052,
+      "reviewed_metaphor_rate_including_uncertain": 0.0053
+    }
   },
   "errors": [],
   "pipeline_log": [
     {
       "stage": "run-case-analysis",
       "script": "scripts/run-case-analysis.py",
-      "generated_at": "2026-05-05T02:40:26"
+      "generated_at": "2026-06-17T01:08:22"
     }
   ]
 }

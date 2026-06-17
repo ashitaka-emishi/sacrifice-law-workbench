@@ -1,8 +1,8 @@
 {
   "case_id": "hitler",
-  "stage": "complete-mipvu-review",
-  "status": "reviewed",
-  "generated_at": "2026-06-15T14:56:19",
+  "stage": "generate-mipvu-worklist",
+  "status": "ready",
+  "generated_at": "2026-06-17T01:08:24",
   "documents_in_manifest": 8,
   "written": 8,
   "lexical_units": 86752,
@@ -13,120 +13,56 @@
       "status": "written",
       "lexical_units": 15688,
       "input_path": "/Users/andrewhammer/codegarden/koenigsberg-sacrifice-workbench/cases/hitler/corpus/segmented/hitler-mein-kampf-vol1-ch2-wien.json",
-      "output_path": "/Users/andrewhammer/codegarden/koenigsberg-sacrifice-workbench/cases/hitler/corpus/mipvu/hitler-mein-kampf-vol1-ch2-wien_mipvu.json",
-      "review_status": "reviewed",
-      "pending_units": 0,
-      "by_decision_type": {
-        "mipvu_indirect": 1,
-        "mipvu_personification": 2,
-        "non_metaphor": 15682,
-        "uncertain": 3
-      }
+      "output_path": "/Users/andrewhammer/codegarden/koenigsberg-sacrifice-workbench/cases/hitler/corpus/mipvu/hitler-mein-kampf-vol1-ch2-wien_mipvu.json"
     },
     {
       "document_id": "hitler-mein-kampf-vol1-ch11-race-and-people",
       "status": "written",
       "lexical_units": 15862,
       "input_path": "/Users/andrewhammer/codegarden/koenigsberg-sacrifice-workbench/cases/hitler/corpus/segmented/hitler-mein-kampf-vol1-ch11-race-and-people.json",
-      "output_path": "/Users/andrewhammer/codegarden/koenigsberg-sacrifice-workbench/cases/hitler/corpus/mipvu/hitler-mein-kampf-vol1-ch11-race-and-people_mipvu.json",
-      "review_status": "reviewed",
-      "pending_units": 0,
-      "by_decision_type": {
-        "mipvu_indirect": 29,
-        "mipvu_personification": 1,
-        "non_metaphor": 15832
-      }
+      "output_path": "/Users/andrewhammer/codegarden/koenigsberg-sacrifice-workbench/cases/hitler/corpus/mipvu/hitler-mein-kampf-vol1-ch11-race-and-people_mipvu.json"
     },
     {
       "document_id": "hitler-mein-kampf-vol1-ch12-nsdap",
       "status": "written",
       "lexical_units": 12833,
       "input_path": "/Users/andrewhammer/codegarden/koenigsberg-sacrifice-workbench/cases/hitler/corpus/segmented/hitler-mein-kampf-vol1-ch12-nsdap.json",
-      "output_path": "/Users/andrewhammer/codegarden/koenigsberg-sacrifice-workbench/cases/hitler/corpus/mipvu/hitler-mein-kampf-vol1-ch12-nsdap_mipvu.json",
-      "review_status": "reviewed",
-      "pending_units": 0,
-      "by_decision_type": {
-        "mipvu_indirect": 9,
-        "non_metaphor": 12824
-      }
+      "output_path": "/Users/andrewhammer/codegarden/koenigsberg-sacrifice-workbench/cases/hitler/corpus/mipvu/hitler-mein-kampf-vol1-ch12-nsdap_mipvu.json"
     },
     {
       "document_id": "hitler-mein-kampf-vol2-ch1-weltanschauung",
       "status": "written",
       "lexical_units": 4306,
       "input_path": "/Users/andrewhammer/codegarden/koenigsberg-sacrifice-workbench/cases/hitler/corpus/segmented/hitler-mein-kampf-vol2-ch1-weltanschauung.json",
-      "output_path": "/Users/andrewhammer/codegarden/koenigsberg-sacrifice-workbench/cases/hitler/corpus/mipvu/hitler-mein-kampf-vol2-ch1-weltanschauung_mipvu.json",
-      "review_status": "reviewed",
-      "pending_units": 0,
-      "by_decision_type": {
-        "mipvu_indirect": 3,
-        "non_metaphor": 4303
-      }
+      "output_path": "/Users/andrewhammer/codegarden/koenigsberg-sacrifice-workbench/cases/hitler/corpus/mipvu/hitler-mein-kampf-vol2-ch1-weltanschauung_mipvu.json"
     },
     {
       "document_id": "hitler-mein-kampf-vol2-ch2-the-state",
       "status": "written",
       "lexical_units": 18007,
       "input_path": "/Users/andrewhammer/codegarden/koenigsberg-sacrifice-workbench/cases/hitler/corpus/segmented/hitler-mein-kampf-vol2-ch2-the-state.json",
-      "output_path": "/Users/andrewhammer/codegarden/koenigsberg-sacrifice-workbench/cases/hitler/corpus/mipvu/hitler-mein-kampf-vol2-ch2-the-state_mipvu.json",
-      "review_status": "reviewed",
-      "pending_units": 0,
-      "by_decision_type": {
-        "mipvu_indirect": 9,
-        "non_metaphor": 17998
-      }
+      "output_path": "/Users/andrewhammer/codegarden/koenigsberg-sacrifice-workbench/cases/hitler/corpus/mipvu/hitler-mein-kampf-vol2-ch2-the-state_mipvu.json"
     },
     {
       "document_id": "hitler-mein-kampf-vol2-ch14-eastern-europe",
       "status": "written",
       "lexical_units": 9333,
       "input_path": "/Users/andrewhammer/codegarden/koenigsberg-sacrifice-workbench/cases/hitler/corpus/segmented/hitler-mein-kampf-vol2-ch14-eastern-europe.json",
-      "output_path": "/Users/andrewhammer/codegarden/koenigsberg-sacrifice-workbench/cases/hitler/corpus/mipvu/hitler-mein-kampf-vol2-ch14-eastern-europe_mipvu.json",
-      "review_status": "reviewed",
-      "pending_units": 0,
-      "by_decision_type": {
-        "mipvu_indirect": 7,
-        "non_metaphor": 9325,
-        "uncertain": 1
-      }
+      "output_path": "/Users/andrewhammer/codegarden/koenigsberg-sacrifice-workbench/cases/hitler/corpus/mipvu/hitler-mein-kampf-vol2-ch14-eastern-europe_mipvu.json"
     },
     {
       "document_id": "hitler-reichstag-1939-01-30",
       "status": "written",
       "lexical_units": 7705,
       "input_path": "/Users/andrewhammer/codegarden/koenigsberg-sacrifice-workbench/cases/hitler/corpus/segmented/hitler-reichstag-1939-01-30.json",
-      "output_path": "/Users/andrewhammer/codegarden/koenigsberg-sacrifice-workbench/cases/hitler/corpus/mipvu/hitler-reichstag-1939-01-30_mipvu.json",
-      "review_status": "reviewed",
-      "pending_units": 0,
-      "by_decision_type": {
-        "mipvu_indirect": 2,
-        "non_metaphor": 7703
-      }
+      "output_path": "/Users/andrewhammer/codegarden/koenigsberg-sacrifice-workbench/cases/hitler/corpus/mipvu/hitler-reichstag-1939-01-30_mipvu.json"
     },
     {
       "document_id": "hitler-ussr-proclamation-1941-06-22",
       "status": "written",
       "lexical_units": 3018,
       "input_path": "/Users/andrewhammer/codegarden/koenigsberg-sacrifice-workbench/cases/hitler/corpus/segmented/hitler-ussr-proclamation-1941-06-22.json",
-      "output_path": "/Users/andrewhammer/codegarden/koenigsberg-sacrifice-workbench/cases/hitler/corpus/mipvu/hitler-ussr-proclamation-1941-06-22_mipvu.json",
-      "review_status": "reviewed",
-      "pending_units": 0,
-      "by_decision_type": {
-        "mipvu_indirect": 3,
-        "non_metaphor": 3015
-      }
+      "output_path": "/Users/andrewhammer/codegarden/koenigsberg-sacrifice-workbench/cases/hitler/corpus/mipvu/hitler-ussr-proclamation-1941-06-22_mipvu.json"
     }
-  ],
-  "reviewed_at": "2026-06-16",
-  "review_batch": "hitler-source-language-mipvu-review-v1",
-  "annotator": "codex-assisted-mipvu-v1",
-  "source_language": "de",
-  "decision_basis": "source-language span_text",
-  "pending_units": 0,
-  "by_decision_type": {
-    "mipvu_indirect": 63,
-    "mipvu_personification": 3,
-    "non_metaphor": 86682,
-    "uncertain": 4
-  }
+  ]
 }

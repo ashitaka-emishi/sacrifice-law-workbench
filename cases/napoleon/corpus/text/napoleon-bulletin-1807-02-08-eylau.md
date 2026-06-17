@@ -22,12 +22,17 @@ notes: 'Battle of Eylau (8 Feb 1807): brutal winter battle, heavy losses on both
   ambiguous result. Sacrifice language under stress — French losses acknowledged,
   glory harder to claim than at Austerlitz. Key transition document in the sacrificial
   economy arc.'
+verification:
+  min_words: 1100
+  required_phrases:
+  - Eylau
+  - GRANDE ARM
 case_id: napoleon
 raw_path: corpus/raw/napoleon-src-02-grande-armee-bulletins/napoleon-bulletin-1807-02-08-eylau.txt
 pipeline_log:
 - stage: normalize-texts
   script: scripts/normalize-texts.py
-  generated_at: '2026-06-14T15:00:09'
+  generated_at: '2026-06-17T01:08:25'
 ---
 
 11796. — 58e BULLETIN DE LA GRANDE ARMÉE.

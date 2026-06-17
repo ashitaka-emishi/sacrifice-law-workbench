@@ -14,16 +14,20 @@
     "rights_status": "public-domain",
     "expected_raw_path": "corpus/raw/am-rev-src-03-washington-general-orders/washington-orders-1775-07-04-first-independence-day.txt",
     "analytical_priority": "primary",
-    "risk_flags": [
-      "wrong-document-in-file — re-download needed from Founders Online"
-    ],
+    "verification": {
+      "min_words": 700,
+      "required_phrases": [
+        "The General most earnestly requires",
+        "Cambridge, July 4th 1775"
+      ]
+    },
     "case_id": "am-rev",
     "raw_path": "corpus/raw/am-rev-src-03-washington-general-orders/washington-orders-1775-07-04-first-independence-day.txt",
     "pipeline_log": [
       {
         "stage": "normalize-texts",
         "script": "scripts/normalize-texts.py",
-        "generated_at": "2026-06-13T20:41:16"
+        "generated_at": "2026-06-17T01:08:21"
       }
     ]
   },
@@ -40,22 +44,11 @@
             {
               "sentence_id": "am-rev-washington-orders-1775-07-04_s01_p01_s01",
               "sentence_ordinal": 1,
-              "text": "Skip navigation.",
+              "text": "General Orders, 4 July 1775 General Orders",
               "word_offset_start": 0,
-              "word_offset_end": 2,
+              "word_offset_end": 7,
               "char_offset_start": 0,
-              "char_offset_end": 16,
-              "authorship_note": null,
-              "metaphor_instances": []
-            },
-            {
-              "sentence_id": "am-rev-washington-orders-1775-07-04_s01_p01_s02",
-              "sentence_ordinal": 2,
-              "text": "Go to main content.",
-              "word_offset_start": 2,
-              "word_offset_end": 6,
-              "char_offset_start": 17,
-              "char_offset_end": 36,
+              "char_offset_end": 42,
               "authorship_note": null,
               "metaphor_instances": []
             }
@@ -68,11 +61,11 @@
             {
               "sentence_id": "am-rev-washington-orders-1775-07-04_s01_p02_s01",
               "sentence_ordinal": 1,
-              "text": "Archives.gov Home",
-              "word_offset_start": 6,
-              "word_offset_end": 8,
-              "char_offset_start": 38,
-              "char_offset_end": 55,
+              "text": "Head Quarters, Cambridge, July 4th 1775.",
+              "word_offset_start": 7,
+              "word_offset_end": 13,
+              "char_offset_start": 44,
+              "char_offset_end": 84,
               "authorship_note": null,
               "metaphor_instances": []
             }
@@ -85,11 +78,33 @@
             {
               "sentence_id": "am-rev-washington-orders-1775-07-04_s01_p03_s01",
               "sentence_ordinal": 1,
-              "text": "About Founders Online",
-              "word_offset_start": 8,
-              "word_offset_end": 11,
-              "char_offset_start": 57,
-              "char_offset_end": 78,
+              "text": "Parole.",
+              "word_offset_start": 13,
+              "word_offset_end": 14,
+              "char_offset_start": 86,
+              "char_offset_end": 93,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "am-rev-washington-orders-1775-07-04_s01_p03_s02",
+              "sentence_ordinal": 2,
+              "text": "Abington.",
+              "word_offset_start": 14,
+              "word_offset_end": 15,
+              "char_offset_start": 94,
+              "char_offset_end": 103,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "am-rev-washington-orders-1775-07-04_s01_p03_s03",
+              "sentence_ordinal": 3,
+              "text": "Countersign, Bedford.",
+              "word_offset_start": 15,
+              "word_offset_end": 17,
+              "char_offset_start": 104,
+              "char_offset_end": 125,
               "authorship_note": null,
               "metaphor_instances": []
             }
@@ -102,11 +117,22 @@
             {
               "sentence_id": "am-rev-washington-orders-1775-07-04_s01_p04_s01",
               "sentence_ordinal": 1,
-              "text": "Contact Us",
-              "word_offset_start": 11,
-              "word_offset_end": 13,
-              "char_offset_start": 80,
-              "char_offset_end": 90,
+              "text": "Exact returns to be made by the proper Officers of all the Provisions⟨,⟩ Ordnance, Ordnance stores, Powder, Lead, working Tools of all kinds, Tents, Camp Kettles, and all other Stores under their respective care, belonging to the Armies at Roxbury and Cambridge.",
+              "word_offset_start": 17,
+              "word_offset_end": 59,
+              "char_offset_start": 127,
+              "char_offset_end": 389,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "am-rev-washington-orders-1775-07-04_s01_p04_s02",
+              "sentence_ordinal": 2,
+              "text": "The commanding Officer of each Regiment to make a return of the number of blankets wanted to compleat every Man with one at least.",
+              "word_offset_start": 59,
+              "word_offset_end": 83,
+              "char_offset_start": 390,
+              "char_offset_end": 520,
               "authorship_note": null,
               "metaphor_instances": []
             }
@@ -119,11 +145,22 @@
             {
               "sentence_id": "am-rev-washington-orders-1775-07-04_s01_p05_s01",
               "sentence_ordinal": 1,
-              "text": "Founders Online",
-              "word_offset_start": 13,
-              "word_offset_end": 15,
-              "char_offset_start": 92,
-              "char_offset_end": 107,
+              "text": "The Hon: Artemus Ward, Charles Lee, Philip Schuyler, and Israel Putnam Esquires, are appointed Major Generals of the American Army and due Obedience is to be paid them as such.",
+              "word_offset_start": 83,
+              "word_offset_end": 113,
+              "char_offset_start": 522,
+              "char_offset_end": 698,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "am-rev-washington-orders-1775-07-04_s01_p05_s02",
+              "sentence_ordinal": 2,
+              "text": "The Continental Congress not having compleated the appointments of the other officers in said army, nor had sufficient time to prepare and forward their Commissions; every Officer is to continue to do duty in the Rank and Station he at present holds untill further orders.",
+              "word_offset_start": 113,
+              "word_offset_end": 158,
+              "char_offset_start": 699,
+              "char_offset_end": 971,
               "authorship_note": null,
               "metaphor_instances": []
             }
@@ -136,11 +173,22 @@
             {
               "sentence_id": "am-rev-washington-orders-1775-07-04_s01_p06_s01",
               "sentence_ordinal": 1,
-              "text": "[Back to normal view]",
-              "word_offset_start": 15,
-              "word_offset_end": 19,
-              "char_offset_start": 109,
-              "char_offset_end": 130,
+              "text": "Thomas Mifflin Esqr. is appointed by the General one of his Aid-de-Camps.",
+              "word_offset_start": 158,
+              "word_offset_end": 170,
+              "char_offset_start": 973,
+              "char_offset_end": 1046,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "am-rev-washington-orders-1775-07-04_s01_p06_s02",
+              "sentence_ordinal": 2,
+              "text": "Joseph Reed Esqr. is in like manner appointed Secretary to the General, and they are in future to be consider'd and regarded as such.",
+              "word_offset_start": 170,
+              "word_offset_end": 194,
+              "char_offset_start": 1047,
+              "char_offset_end": 1180,
               "authorship_note": null,
               "metaphor_instances": []
             }
@@ -153,11 +201,11 @@
             {
               "sentence_id": "am-rev-washington-orders-1775-07-04_s01_p07_s01",
               "sentence_ordinal": 1,
-              "text": "George Washington Papers",
-              "word_offset_start": 19,
-              "word_offset_end": 22,
-              "char_offset_start": 132,
-              "char_offset_end": 156,
+              "text": "The Continental Congress having now taken all the Troops of the several Colonies, which have been raised, or which may be hereafter raised, for the support and defence of the Liberties of America; into their Pay and Service: They are now the Troops of the United Provinces of North America; and it is hoped that all Distinctions of Colonies will be laid aside; so that one and the same spirit may animate the whole, and the only Contest be, who shall render, on this great and trying occasion, the most essential service to the great and common cause in which we are all engaged.",
+              "word_offset_start": 194,
+              "word_offset_end": 298,
+              "char_offset_start": 1182,
+              "char_offset_end": 1761,
               "authorship_note": null,
               "metaphor_instances": []
             }
@@ -170,11 +218,11 @@
             {
               "sentence_id": "am-rev-washington-orders-1775-07-04_s01_p08_s01",
               "sentence_ordinal": 1,
-              "text": "Permanent Link view",
-              "word_offset_start": 22,
-              "word_offset_end": 25,
-              "char_offset_start": 158,
-              "char_offset_end": 177,
+              "text": "It is required and expected that exact discipline be observed, and due Subordination prevail thro' the whole Army, as a Failure in these most essential points must necessarily produce extreme Hazard, Disorder and Confusion; and end in shameful disappointment and disgrace.",
+              "word_offset_start": 298,
+              "word_offset_end": 339,
+              "char_offset_start": 1763,
+              "char_offset_end": 2035,
               "authorship_note": null,
               "metaphor_instances": []
             }
@@ -187,11 +235,11 @@
             {
               "sentence_id": "am-rev-washington-orders-1775-07-04_s01_p09_s01",
               "sentence_ordinal": 1,
-              "text": "Start New Search",
-              "word_offset_start": 25,
-              "word_offset_end": 28,
-              "char_offset_start": 179,
-              "char_offset_end": 195,
+              "text": "The General most earnestly requires, and expects, a due observance of those articles of war, established for the Government of the army, which forbid profane cursing, swearing & drunkeness; And in like manner requires & expects, of all Officers, and Soldiers, not engaged on actual duty, a punctual attendance on divine service, to implore the blessings of heaven upon the means used for our safety and defence.",
+              "word_offset_start": 339,
+              "word_offset_end": 406,
+              "char_offset_start": 2037,
+              "char_offset_end": 2448,
               "authorship_note": null,
               "metaphor_instances": []
             }
@@ -204,11 +252,44 @@
             {
               "sentence_id": "am-rev-washington-orders-1775-07-04_s01_p10_s01",
               "sentence_ordinal": 1,
-              "text": "View Previous Searches",
-              "word_offset_start": 28,
-              "word_offset_end": 31,
-              "char_offset_start": 197,
-              "char_offset_end": 219,
+              "text": "All Officers are required and expected to pay diligent Attention, to keep their Men neat and clean—to visit them often at their quarters, and inculcate upon them the necessity of cleanliness, as essential to their health and service.",
+              "word_offset_start": 406,
+              "word_offset_end": 444,
+              "char_offset_start": 2450,
+              "char_offset_end": 2683,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "am-rev-washington-orders-1775-07-04_s01_p10_s02",
+              "sentence_ordinal": 2,
+              "text": "They are particularly to see, that they have Straw to lay on, if to be had, and to make it known if they are destitute of this article.",
+              "word_offset_start": 444,
+              "word_offset_end": 472,
+              "char_offset_start": 2684,
+              "char_offset_end": 2819,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "am-rev-washington-orders-1775-07-04_s01_p10_s03",
+              "sentence_ordinal": 3,
+              "text": "They are also to take care that Necessarys be provided in the Camps and frequently filled up to prevent their being offensive and unhealthy.",
+              "word_offset_start": 472,
+              "word_offset_end": 496,
+              "char_offset_start": 2820,
+              "char_offset_end": 2960,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "am-rev-washington-orders-1775-07-04_s01_p10_s04",
+              "sentence_ordinal": 4,
+              "text": "Proper Notice will be taken of such Officers and Men, as distinguish themselves by their attention to these necessary duties.",
+              "word_offset_start": 496,
+              "word_offset_end": 516,
+              "char_offset_start": 2961,
+              "char_offset_end": 3086,
               "authorship_note": null,
               "metaphor_instances": []
             }
@@ -221,11 +302,11 @@
             {
               "sentence_id": "am-rev-washington-orders-1775-07-04_s01_p11_s01",
               "sentence_ordinal": 1,
-              "text": "Print View",
-              "word_offset_start": 31,
-              "word_offset_end": 33,
-              "char_offset_start": 221,
-              "char_offset_end": 231,
+              "text": "The commanding Officer of each Regiment is to take particular care that not more than two Men of a Company be absent on furlough at the same time, unless in very extraordinary cases.",
+              "word_offset_start": 516,
+              "word_offset_end": 549,
+              "char_offset_start": 3088,
+              "char_offset_end": 3270,
               "authorship_note": null,
               "metaphor_instances": []
             }
@@ -238,11 +319,33 @@
             {
               "sentence_id": "am-rev-washington-orders-1775-07-04_s01_p12_s01",
               "sentence_ordinal": 1,
-              "text": "Max Page View",
-              "word_offset_start": 33,
-              "word_offset_end": 36,
-              "char_offset_start": 233,
-              "char_offset_end": 246,
+              "text": "Col. Gardner is to be buried to morrow at 3, OClock, P: M. with the military Honors due to so brave and gallant an Officer, who fought, bled and died in the Cause of his country and mankind.",
+              "word_offset_start": 549,
+              "word_offset_end": 587,
+              "char_offset_start": 3272,
+              "char_offset_end": 3462,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "am-rev-washington-orders-1775-07-04_s01_p12_s02",
+              "sentence_ordinal": 2,
+              "text": "His own Regiment, except the company at Malden, to attend on this mournful occasion.",
+              "word_offset_start": 587,
+              "word_offset_end": 601,
+              "char_offset_start": 3463,
+              "char_offset_end": 3547,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "am-rev-washington-orders-1775-07-04_s01_p12_s03",
+              "sentence_ordinal": 3,
+              "text": "The places of those Companies in the Lines on Prospect Hill, to be supplied by Col. Glovers regiment 'till the funeral is over.",
+              "word_offset_start": 601,
+              "word_offset_end": 624,
+              "char_offset_start": 3548,
+              "char_offset_end": 3675,
               "authorship_note": null,
               "metaphor_instances": []
             }
@@ -255,11 +358,11 @@
             {
               "sentence_id": "am-rev-washington-orders-1775-07-04_s01_p13_s01",
               "sentence_ordinal": 1,
-              "text": "Normal Page View",
-              "word_offset_start": 36,
-              "word_offset_end": 39,
-              "char_offset_start": 248,
-              "char_offset_end": 264,
+              "text": "No Person is to be allowed to go to Fresh-water pond a fishing or on any other occasion as there may be danger of introducing the small pox into the army.",
+              "word_offset_start": 624,
+              "word_offset_end": 655,
+              "char_offset_start": 3677,
+              "char_offset_end": 3831,
               "authorship_note": null,
               "metaphor_instances": []
             }
@@ -272,11 +375,11 @@
             {
               "sentence_id": "am-rev-washington-orders-1775-07-04_s01_p14_s01",
               "sentence_ordinal": 1,
-              "text": "Share",
-              "word_offset_start": 39,
-              "word_offset_end": 40,
-              "char_offset_start": 266,
-              "char_offset_end": 271,
+              "text": "It is strictly required and commanded that there be no firing of Cannon or small Arms from any of the Lines, or elsewhere, except in case of necessary, immediate defence, or special order given for that purpose.",
+              "word_offset_start": 655,
+              "word_offset_end": 692,
+              "char_offset_start": 3833,
+              "char_offset_end": 4044,
               "authorship_note": null,
               "metaphor_instances": []
             }
@@ -289,11 +392,22 @@
             {
               "sentence_id": "am-rev-washington-orders-1775-07-04_s01_p15_s01",
               "sentence_ordinal": 1,
-              "text": "Email This",
-              "word_offset_start": 40,
-              "word_offset_end": 42,
-              "char_offset_start": 273,
-              "char_offset_end": 283,
+              "text": "All Prisoners taken, Deserters coming in, Persons coming out of Boston, who can give any Intelligence; any Captures of any kind from the Enemy, are to be immediately reported and brought up to Head Quarters in Cambridge.",
+              "word_offset_start": 692,
+              "word_offset_end": 729,
+              "char_offset_start": 4046,
+              "char_offset_end": 4266,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "am-rev-washington-orders-1775-07-04_s01_p15_s02",
+              "sentence_ordinal": 2,
+              "text": "Capt. Griffin is appointed Aid-de-Camp to General Lee and to be regarded as such.",
+              "word_offset_start": 729,
+              "word_offset_end": 743,
+              "char_offset_start": 4267,
+              "char_offset_end": 4348,
               "authorship_note": null,
               "metaphor_instances": []
             }
@@ -306,11 +420,11 @@
             {
               "sentence_id": "am-rev-washington-orders-1775-07-04_s01_p16_s01",
               "sentence_ordinal": 1,
-              "text": "Share this on Facebook",
-              "word_offset_start": 42,
-              "word_offset_end": 46,
-              "char_offset_start": 285,
-              "char_offset_end": 307,
+              "text": "The Guard for the security of the stores at Watertown, is to be increased to thirty men immediately.",
+              "word_offset_start": 743,
+              "word_offset_end": 761,
+              "char_offset_start": 4350,
+              "char_offset_end": 4450,
               "authorship_note": null,
               "metaphor_instances": []
             }
@@ -323,11 +437,11 @@
             {
               "sentence_id": "am-rev-washington-orders-1775-07-04_s01_p17_s01",
               "sentence_ordinal": 1,
-              "text": "Tweet",
-              "word_offset_start": 46,
-              "word_offset_end": 47,
-              "char_offset_start": 309,
-              "char_offset_end": 314,
+              "text": "A serjeant and six men to be set as a Guard to the Hospital, and are to apply to Doctor Rand.",
+              "word_offset_start": 761,
+              "word_offset_end": 782,
+              "char_offset_start": 4452,
+              "char_offset_end": 4545,
               "authorship_note": null,
               "metaphor_instances": []
             }
@@ -340,11 +454,11 @@
             {
               "sentence_id": "am-rev-washington-orders-1775-07-04_s01_p18_s01",
               "sentence_ordinal": 1,
-              "text": "Commission from the Continental Congress, 19 June 1775",
-              "word_offset_start": 47,
-              "word_offset_end": 55,
-              "char_offset_start": 316,
-              "char_offset_end": 370,
+              "text": "Complaint having been made against John White Quarter Master of Col. Nixon's Regmt for misdemeanors in drawing out Provisions for more Men than the Regiment consisted of; A Court Martial consisting of one Captain and four Subalterns is ordered to be held on said White, who are to enquire, determine and report.",
+              "word_offset_start": 782,
+              "word_offset_end": 834,
+              "char_offset_start": 4547,
+              "char_offset_end": 4858,
               "authorship_note": null,
               "metaphor_instances": []
             }
@@ -357,11 +471,22 @@
             {
               "sentence_id": "am-rev-washington-orders-1775-07-04_s01_p19_s01",
               "sentence_ordinal": 1,
-              "text": "Commission from the Continental Congress",
-              "word_offset_start": 55,
-              "word_offset_end": 60,
-              "char_offset_start": 372,
-              "char_offset_end": 412,
+              "text": "After Orders.",
+              "word_offset_start": 834,
+              "word_offset_end": 836,
+              "char_offset_start": 4860,
+              "char_offset_end": 4873,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "am-rev-washington-orders-1775-07-04_s01_p19_s02",
+              "sentence_ordinal": 2,
+              "text": "10 OClock",
+              "word_offset_start": 836,
+              "word_offset_end": 838,
+              "char_offset_start": 4874,
+              "char_offset_end": 4883,
               "authorship_note": null,
               "metaphor_instances": []
             }
@@ -374,1241 +499,11 @@
             {
               "sentence_id": "am-rev-washington-orders-1775-07-04_s01_p20_s01",
               "sentence_ordinal": 1,
-              "text": "[Philadelphia, 19 June 1775] In Congress The delegates of the United Colonies of New-hampshire, Massachusetts bay, Rhode-island, Connecticut, New-York, New-Jersey,",
-              "word_offset_start": 60,
-              "word_offset_end": 80,
-              "char_offset_start": 412,
-              "char_offset_end": 575,
-              "authorship_note": null,
-              "metaphor_instances": []
-            }
-          ]
-        },
-        {
-          "paragraph_id": "am-rev-washington-orders-1775-07-04_s01_p21",
-          "paragraph_ordinal": 21,
-          "sentences": [
-            {
-              "sentence_id": "am-rev-washington-orders-1775-07-04_s01_p21_s01",
-              "sentence_ordinal": 1,
-              "text": "Pennsylvania, New Castle Kent & Sussex on Delaware, Maryland, Virginia, North Carolina & South Carolina1 To George Washington Esquire We reposing especial trust and confidence in your patriotism, conduct and fidelity2 Do by these presents constitute and appoint you to be General and Commander in chief of the army of the United Colonies and of all the forces raised3 or to be raised by them and of all others who shall voluntarily offer their service and join the said army for the defence of American Liberty and for repelling every hostile invasion thereof And you are hereby vested with full power and authority to act as you shall think for the good and Welfare of the service.",
-              "word_offset_start": 80,
-              "word_offset_end": 197,
-              "char_offset_start": 575,
-              "char_offset_end": 1257,
-              "authorship_note": null,
-              "metaphor_instances": []
-            },
-            {
-              "sentence_id": "am-rev-washington-orders-1775-07-04_s01_p21_s02",
-              "sentence_ordinal": 2,
-              "text": "And we do hereby strictly charge and require all officers and soldiers under your command to be obedient to your orders & diligent in the exercise of their several dut⟨ies.⟩ And we do also enjoin and require you to be careful in executing the great trust reposed in you, by causing strict discipline and order to be observed in th⟨e⟩ army and that the soldiers are duly exercised an⟨d⟩ provided with all convenient necessaries.",
-              "word_offset_start": 197,
-              "word_offset_end": 271,
-              "char_offset_start": 1262,
-              "char_offset_end": 1689,
-              "authorship_note": null,
-              "metaphor_instances": []
-            },
-            {
-              "sentence_id": "am-rev-washington-orders-1775-07-04_s01_p21_s03",
-              "sentence_ordinal": 3,
-              "text": "And you are to regulate your conduct in every respect by the rules and discipline of war (as herewith given you) and punctually to observe and foll⟨ow⟩ such orders and directions from time to time as you shall receive from this or a future Congress of the said United Colonies or a committee of Congress for that purpose appointed.4 This Commission to continue inforce until revoked by this or a future Congress.",
-              "word_offset_start": 271,
-              "word_offset_end": 343,
-              "char_offset_start": 1689,
-              "char_offset_end": 2101,
-              "authorship_note": null,
-              "metaphor_instances": []
-            }
-          ]
-        },
-        {
-          "paragraph_id": "am-rev-washington-orders-1775-07-04_s01_p22",
-          "paragraph_ordinal": 22,
-          "sentences": [
-            {
-              "sentence_id": "am-rev-washington-orders-1775-07-04_s01_p22_s01",
-              "sentence_ordinal": 1,
-              "text": "By order of the Congress John Hancock President Dated Philadelphia June 19th 1775.",
-              "word_offset_start": 343,
-              "word_offset_end": 356,
-              "char_offset_start": 2101,
-              "char_offset_end": 2183,
-              "authorship_note": null,
-              "metaphor_instances": []
-            },
-            {
-              "sentence_id": "am-rev-washington-orders-1775-07-04_s01_p22_s02",
-              "sentence_ordinal": 2,
-              "text": "Attest Chas Thomson secy5",
-              "word_offset_start": 356,
-              "word_offset_end": 360,
-              "char_offset_start": 2188,
-              "char_offset_end": 2213,
-              "authorship_note": null,
-              "metaphor_instances": []
-            }
-          ]
-        },
-        {
-          "paragraph_id": "am-rev-washington-orders-1775-07-04_s01_p23",
-          "paragraph_ordinal": 23,
-          "sentences": [
-            {
-              "sentence_id": "am-rev-washington-orders-1775-07-04_s01_p23_s01",
-              "sentence_ordinal": 1,
-              "text": "DS, DLC:GW;",
-              "word_offset_start": 360,
-              "word_offset_end": 362,
-              "char_offset_start": 2215,
-              "char_offset_end": 2226,
-              "authorship_note": null,
-              "metaphor_instances": []
-            }
-          ]
-        },
-        {
-          "paragraph_id": "am-rev-washington-orders-1775-07-04_s01_p24",
-          "paragraph_ordinal": 24,
-          "sentences": [
-            {
-              "sentence_id": "am-rev-washington-orders-1775-07-04_s01_p24_s01",
-              "sentence_ordinal": 1,
-              "text": "copy, DNA:PCC, item 1.",
-              "word_offset_start": 362,
-              "word_offset_end": 366,
-              "char_offset_start": 2228,
-              "char_offset_end": 2250,
-              "authorship_note": null,
-              "metaphor_instances": []
-            }
-          ]
-        },
-        {
-          "paragraph_id": "am-rev-washington-orders-1775-07-04_s01_p25",
-          "paragraph_ordinal": 25,
-          "sentences": [
-            {
-              "sentence_id": "am-rev-washington-orders-1775-07-04_s01_p25_s01",
-              "sentence_ordinal": 1,
-              "text": "The text of the commission in DLC:GW is in the writing of Timothy Matlack, clerk to the secretary of Congress, Charles Thomson.",
-              "word_offset_start": 366,
-              "word_offset_end": 388,
-              "char_offset_start": 2252,
-              "char_offset_end": 2379,
-              "authorship_note": null,
-              "metaphor_instances": []
-            },
-            {
-              "sentence_id": "am-rev-washington-orders-1775-07-04_s01_p25_s02",
-              "sentence_ordinal": 2,
-              "text": "It is signed by Hancock and Thomson.",
-              "word_offset_start": 388,
-              "word_offset_end": 395,
-              "char_offset_start": 2380,
-              "char_offset_end": 2416,
-              "authorship_note": null,
-              "metaphor_instances": []
-            },
-            {
-              "sentence_id": "am-rev-washington-orders-1775-07-04_s01_p25_s03",
-              "sentence_ordinal": 3,
-              "text": "The PCC copy is in the rough journal of the Continental Congress in Thomson’s writing.",
-              "word_offset_start": 395,
-              "word_offset_end": 410,
-              "char_offset_start": 2417,
-              "char_offset_end": 2503,
-              "authorship_note": null,
-              "metaphor_instances": []
-            },
-            {
-              "sentence_id": "am-rev-washington-orders-1775-07-04_s01_p25_s04",
-              "sentence_ordinal": 4,
-              "text": "It is dated 17 June 1775, the day that Congress approved the commission.",
-              "word_offset_start": 410,
-              "word_offset_end": 423,
-              "char_offset_start": 2504,
-              "char_offset_end": 2576,
-              "authorship_note": null,
-              "metaphor_instances": []
-            },
-            {
-              "sentence_id": "am-rev-washington-orders-1775-07-04_s01_p25_s05",
-              "sentence_ordinal": 5,
-              "text": "Significant variations in this copy are noted below.",
-              "word_offset_start": 423,
-              "word_offset_end": 431,
-              "char_offset_start": 2577,
-              "char_offset_end": 2629,
-              "authorship_note": null,
-              "metaphor_instances": []
-            },
-            {
-              "sentence_id": "am-rev-washington-orders-1775-07-04_s01_p25_s06",
-              "sentence_ordinal": 6,
-              "text": "The journal version was printed in Dunlap’s Pennsylvania Packet, or, the General Advertiser (Philadelphia), 11 Dec. 1775.",
-              "word_offset_start": 431,
-              "word_offset_end": 448,
-              "char_offset_start": 2630,
-              "char_offset_end": 2751,
-              "authorship_note": null,
-              "metaphor_instances": []
-            }
-          ]
-        },
-        {
-          "paragraph_id": "am-rev-washington-orders-1775-07-04_s01_p26",
-          "paragraph_ordinal": 26,
-          "sentences": [
-            {
-              "sentence_id": "am-rev-washington-orders-1775-07-04_s01_p26_s01",
-              "sentence_ordinal": 1,
-              "text": "GW’s commission was drafted by a committee of three delegates, Richard Henry Lee, Edward Rutledge, and John Adams, who were appointed for that purpose on 16 June immediately after GW’s speech accepting the command of the Continental forces.",
-              "word_offset_start": 448,
-              "word_offset_end": 486,
-              "char_offset_start": 2753,
-              "char_offset_end": 2993,
-              "authorship_note": null,
-              "metaphor_instances": []
-            },
-            {
-              "sentence_id": "am-rev-washington-orders-1775-07-04_s01_p26_s02",
-              "sentence_ordinal": 2,
-              "text": "They reported to Congress the next day, at which time the commission, “being read by paragraphs and debated, was agreed to.” Congress then ordered it to “be fairly transcribed, to be signed by the president, and attested by the secretary, and delivered to the General” (JCC description begins Worthington Chauncey Ford et al., eds.",
-              "word_offset_start": 486,
-              "word_offset_end": 540,
-              "char_offset_start": 2994,
-              "char_offset_end": 3325,
-              "authorship_note": null,
-              "metaphor_instances": []
-            },
-            {
-              "sentence_id": "am-rev-washington-orders-1775-07-04_s01_p26_s03",
-              "sentence_ordinal": 3,
-              "text": "Journals of the Continental Congress, 1774-1789.",
-              "word_offset_start": 540,
-              "word_offset_end": 546,
-              "char_offset_start": 3326,
-              "char_offset_end": 3374,
-              "authorship_note": null,
-              "metaphor_instances": []
-            },
-            {
-              "sentence_id": "am-rev-washington-orders-1775-07-04_s01_p26_s04",
-              "sentence_ordinal": 4,
-              "text": "34 vols.",
-              "word_offset_start": 546,
-              "word_offset_end": 548,
-              "char_offset_start": 3375,
-              "char_offset_end": 3383,
-              "authorship_note": null,
-              "metaphor_instances": []
-            },
-            {
-              "sentence_id": "am-rev-washington-orders-1775-07-04_s01_p26_s05",
-              "sentence_ordinal": 5,
-              "text": "Washington, D.C., 1904–37. description ends , 2:93, 96–97).",
-              "word_offset_start": 548,
-              "word_offset_end": 556,
-              "char_offset_start": 3384,
-              "char_offset_end": 3443,
-              "authorship_note": null,
-              "metaphor_instances": []
-            },
-            {
-              "sentence_id": "am-rev-washington-orders-1775-07-04_s01_p26_s06",
-              "sentence_ordinal": 6,
-              "text": "On 18 June, Hancock wrote to Joseph Warren: “The Congress have Appointed George Washington Esqr.",
-              "word_offset_start": 556,
-              "word_offset_end": 571,
-              "char_offset_start": 3444,
-              "char_offset_end": 3540,
-              "authorship_note": null,
-              "metaphor_instances": []
-            },
-            {
-              "sentence_id": "am-rev-washington-orders-1775-07-04_s01_p26_s07",
-              "sentence_ordinal": 7,
-              "text": "General & Commander in Chief of the Continental Army, his Commission is made out, & I shall Sign it tomorrow” (Smith, Letters of Delegates description begins Paul H. Smith et al., eds.",
-              "word_offset_start": 571,
-              "word_offset_end": 603,
-              "char_offset_start": 3541,
-              "char_offset_end": 3725,
-              "authorship_note": null,
-              "metaphor_instances": []
-            },
-            {
-              "sentence_id": "am-rev-washington-orders-1775-07-04_s01_p26_s08",
-              "sentence_ordinal": 8,
-              "text": "Letters of Delegates to Congress, 1774–1789.",
-              "word_offset_start": 603,
-              "word_offset_end": 609,
-              "char_offset_start": 3726,
-              "char_offset_end": 3770,
-              "authorship_note": null,
-              "metaphor_instances": []
-            },
-            {
-              "sentence_id": "am-rev-washington-orders-1775-07-04_s01_p26_s09",
-              "sentence_ordinal": 9,
-              "text": "26 vols.",
-              "word_offset_start": 609,
-              "word_offset_end": 611,
-              "char_offset_start": 3771,
-              "char_offset_end": 3779,
-              "authorship_note": null,
-              "metaphor_instances": []
-            },
-            {
-              "sentence_id": "am-rev-washington-orders-1775-07-04_s01_p26_s10",
-              "sentence_ordinal": 10,
-              "text": "Washington, D.C., 1976–2000. description ends , 1:507–8).",
-              "word_offset_start": 611,
-              "word_offset_end": 618,
-              "char_offset_start": 3780,
-              "char_offset_end": 3837,
-              "authorship_note": null,
-              "metaphor_instances": []
-            },
-            {
-              "sentence_id": "am-rev-washington-orders-1775-07-04_s01_p26_s11",
-              "sentence_ordinal": 11,
-              "text": "When Hancock signed the commission, he apparently changed the date by writing “19” over the “17” written by Matlack.",
-              "word_offset_start": 618,
-              "word_offset_end": 637,
-              "char_offset_start": 3838,
-              "char_offset_end": 3954,
-              "authorship_note": null,
-              "metaphor_instances": []
-            }
-          ]
-        },
-        {
-          "paragraph_id": "am-rev-washington-orders-1775-07-04_s01_p27",
-          "paragraph_ordinal": 27,
-          "sentences": [
-            {
-              "sentence_id": "am-rev-washington-orders-1775-07-04_s01_p27_s01",
-              "sentence_ordinal": 1,
-              "text": "1.",
-              "word_offset_start": 637,
-              "word_offset_end": 638,
-              "char_offset_start": 3956,
-              "char_offset_end": 3958,
-              "authorship_note": null,
-              "metaphor_instances": []
-            },
-            {
-              "sentence_id": "am-rev-washington-orders-1775-07-04_s01_p27_s02",
-              "sentence_ordinal": 2,
-              "text": "The copy in the rough journal of the Continental Congress reads “The Counties of Newcastle, Kent & Sussex on Delaware.” The words “in congress assembled” appear after “South Carolina.”",
-              "word_offset_start": 638,
-              "word_offset_end": 667,
-              "char_offset_start": 3959,
-              "char_offset_end": 4143,
-              "authorship_note": null,
-              "metaphor_instances": []
-            }
-          ]
-        },
-        {
-          "paragraph_id": "am-rev-washington-orders-1775-07-04_s01_p28",
-          "paragraph_ordinal": 28,
-          "sentences": [
-            {
-              "sentence_id": "am-rev-washington-orders-1775-07-04_s01_p28_s01",
-              "sentence_ordinal": 1,
-              "text": "2.",
-              "word_offset_start": 667,
-              "word_offset_end": 668,
-              "char_offset_start": 4145,
-              "char_offset_end": 4147,
-              "authorship_note": null,
-              "metaphor_instances": []
-            },
-            {
-              "sentence_id": "am-rev-washington-orders-1775-07-04_s01_p28_s02",
-              "sentence_ordinal": 2,
-              "text": "In the rough journal this phrase reads “your patriotism, valour, conduct & fidelity.”",
-              "word_offset_start": 668,
-              "word_offset_end": 681,
-              "char_offset_start": 4148,
-              "char_offset_end": 4233,
-              "authorship_note": null,
-              "metaphor_instances": []
-            }
-          ]
-        },
-        {
-          "paragraph_id": "am-rev-washington-orders-1775-07-04_s01_p29",
-          "paragraph_ordinal": 29,
-          "sentences": [
-            {
-              "sentence_id": "am-rev-washington-orders-1775-07-04_s01_p29_s01",
-              "sentence_ordinal": 1,
-              "text": "3.",
-              "word_offset_start": 681,
-              "word_offset_end": 682,
-              "char_offset_start": 4235,
-              "char_offset_end": 4237,
-              "authorship_note": null,
-              "metaphor_instances": []
-            },
-            {
-              "sentence_id": "am-rev-washington-orders-1775-07-04_s01_p29_s02",
-              "sentence_ordinal": 2,
-              "text": "The rough journal reads “now raised.”",
-              "word_offset_start": 682,
-              "word_offset_end": 688,
-              "char_offset_start": 4238,
-              "char_offset_end": 4275,
-              "authorship_note": null,
-              "metaphor_instances": []
-            }
-          ]
-        },
-        {
-          "paragraph_id": "am-rev-washington-orders-1775-07-04_s01_p30",
-          "paragraph_ordinal": 30,
-          "sentences": [
-            {
-              "sentence_id": "am-rev-washington-orders-1775-07-04_s01_p30_s01",
-              "sentence_ordinal": 1,
-              "text": "4.",
-              "word_offset_start": 688,
-              "word_offset_end": 689,
-              "char_offset_start": 4277,
-              "char_offset_end": 4279,
-              "authorship_note": null,
-              "metaphor_instances": []
-            },
-            {
-              "sentence_id": "am-rev-washington-orders-1775-07-04_s01_p30_s02",
-              "sentence_ordinal": 2,
-              "text": "The articles of war were adopted by Congress on 30 June, a week after GW left Philadelphia, and on 5 July Hancock forwarded them to Cambridge.",
-              "word_offset_start": 689,
-              "word_offset_end": 715,
-              "char_offset_start": 4280,
-              "char_offset_end": 4422,
-              "authorship_note": null,
-              "metaphor_instances": []
-            },
-            {
-              "sentence_id": "am-rev-washington-orders-1775-07-04_s01_p30_s03",
-              "sentence_ordinal": 3,
-              "text": "See Richard Henry Lee to GW, 29 June 1775, n.3, and Hancock to GW, 5 July 1775.",
-              "word_offset_start": 715,
-              "word_offset_end": 732,
-              "char_offset_start": 4423,
-              "char_offset_end": 4502,
-              "authorship_note": null,
-              "metaphor_instances": []
-            },
-            {
-              "sentence_id": "am-rev-washington-orders-1775-07-04_s01_p30_s04",
-              "sentence_ordinal": 4,
-              "text": "GW received a set of instructions from Congress on 22 June, which he carried with him.",
-              "word_offset_start": 732,
-              "word_offset_end": 748,
-              "char_offset_start": 4503,
-              "char_offset_end": 4589,
-              "authorship_note": null,
-              "metaphor_instances": []
-            }
-          ]
-        },
-        {
-          "paragraph_id": "am-rev-washington-orders-1775-07-04_s01_p31",
-          "paragraph_ordinal": 31,
-          "sentences": [
-            {
-              "sentence_id": "am-rev-washington-orders-1775-07-04_s01_p31_s01",
-              "sentence_ordinal": 1,
-              "text": "5.",
-              "word_offset_start": 748,
-              "word_offset_end": 749,
-              "char_offset_start": 4591,
-              "char_offset_end": 4593,
-              "authorship_note": null,
-              "metaphor_instances": []
-            },
-            {
-              "sentence_id": "am-rev-washington-orders-1775-07-04_s01_p31_s02",
-              "sentence_ordinal": 2,
-              "text": "Charles Thomson (1729–1824) of Philadelphia was elected secretary of the First Continental Congress on 5 Sept.",
-              "word_offset_start": 749,
-              "word_offset_end": 765,
-              "char_offset_start": 4594,
-              "char_offset_end": 4704,
-              "authorship_note": null,
-              "metaphor_instances": []
-            },
-            {
-              "sentence_id": "am-rev-washington-orders-1775-07-04_s01_p31_s03",
-              "sentence_ordinal": 3,
-              "text": "1774 and the Second Continental Congress on 10 May 1775.",
-              "word_offset_start": 765,
-              "word_offset_end": 775,
-              "char_offset_start": 4705,
-              "char_offset_end": 4761,
-              "authorship_note": null,
-              "metaphor_instances": []
-            },
-            {
-              "sentence_id": "am-rev-washington-orders-1775-07-04_s01_p31_s04",
-              "sentence_ordinal": 4,
-              "text": "He held the latter position until Congress ceased to exist in 1789.",
-              "word_offset_start": 775,
-              "word_offset_end": 787,
-              "char_offset_start": 4762,
-              "char_offset_end": 4829,
-              "authorship_note": null,
-              "metaphor_instances": []
-            },
-            {
-              "sentence_id": "am-rev-washington-orders-1775-07-04_s01_p31_s05",
-              "sentence_ordinal": 5,
-              "text": "Thomson officially notified GW of his election as president in April 1789.",
-              "word_offset_start": 787,
-              "word_offset_end": 799,
-              "char_offset_start": 4830,
-              "char_offset_end": 4904,
-              "authorship_note": null,
-              "metaphor_instances": []
-            }
-          ]
-        },
-        {
-          "paragraph_id": "am-rev-washington-orders-1775-07-04_s01_p32",
-          "paragraph_ordinal": 32,
-          "sentences": [
-            {
-              "sentence_id": "am-rev-washington-orders-1775-07-04_s01_p32_s01",
-              "sentence_ordinal": 1,
-              "text": "Index Entries",
-              "word_offset_start": 799,
-              "word_offset_end": 801,
-              "char_offset_start": 4906,
-              "char_offset_end": 4919,
-              "authorship_note": null,
-              "metaphor_instances": []
-            }
-          ]
-        },
-        {
-          "paragraph_id": "am-rev-washington-orders-1775-07-04_s01_p33",
-          "paragraph_ordinal": 33,
-          "sentences": [
-            {
-              "sentence_id": "am-rev-washington-orders-1775-07-04_s01_p33_s01",
-              "sentence_ordinal": 1,
-              "text": "Permanent Link What’s this?",
-              "word_offset_start": 801,
-              "word_offset_end": 805,
-              "char_offset_start": 4921,
-              "char_offset_end": 4948,
-              "authorship_note": null,
-              "metaphor_instances": []
-            }
-          ]
-        },
-        {
-          "paragraph_id": "am-rev-washington-orders-1775-07-04_s01_p34",
-          "paragraph_ordinal": 34,
-          "sentences": [
-            {
-              "sentence_id": "am-rev-washington-orders-1775-07-04_s01_p34_s01",
-              "sentence_ordinal": 1,
-              "text": "https://founders.archives.gov/documents/Washington/03-01-02-0004",
-              "word_offset_start": 805,
-              "word_offset_end": 806,
-              "char_offset_start": 4950,
-              "char_offset_end": 5014,
-              "authorship_note": null,
-              "metaphor_instances": []
-            }
-          ]
-        },
-        {
-          "paragraph_id": "am-rev-washington-orders-1775-07-04_s01_p35",
-          "paragraph_ordinal": 35,
-          "sentences": [
-            {
-              "sentence_id": "am-rev-washington-orders-1775-07-04_s01_p35_s01",
-              "sentence_ordinal": 1,
-              "text": "Note: The annotations to this document, and any other",
-              "word_offset_start": 806,
-              "word_offset_end": 815,
-              "char_offset_start": 5016,
-              "char_offset_end": 5069,
-              "authorship_note": null,
-              "metaphor_instances": []
-            }
-          ]
-        },
-        {
-          "paragraph_id": "am-rev-washington-orders-1775-07-04_s01_p36",
-          "paragraph_ordinal": 36,
-          "sentences": [
-            {
-              "sentence_id": "am-rev-washington-orders-1775-07-04_s01_p36_s01",
-              "sentence_ordinal": 1,
-              "text": "modern editorial content, are copyright © The Rector and Visitors of the University of Virginia.",
-              "word_offset_start": 815,
-              "word_offset_end": 830,
-              "char_offset_start": 5071,
-              "char_offset_end": 5167,
-              "authorship_note": null,
-              "metaphor_instances": []
-            },
-            {
-              "sentence_id": "am-rev-washington-orders-1775-07-04_s01_p36_s02",
-              "sentence_ordinal": 2,
-              "text": "All rights reserved.Back to topYou Are Looking AtSource ProjectWashington PapersTitleCommission from the Continental Congress, 19 June 1775AuthorContinental CongressRecipientWashington, GeorgeDate19 June 1775ReferenceCite as“Commission from the Continental Congress, 19 June 1775,” Founders Online, National Archives, https://founders.archives.gov/documents/Washington/03-01-02-0004.",
-              "word_offset_start": 830,
-              "word_offset_end": 864,
-              "char_offset_start": 5168,
-              "char_offset_end": 5551,
-              "authorship_note": null,
-              "metaphor_instances": []
-            },
-            {
-              "sentence_id": "am-rev-washington-orders-1775-07-04_s01_p36_s03",
-              "sentence_ordinal": 3,
-              "text": "[Original source: The Papers of George Washington, Revolutionary War Series, vol. 1, 16 June 1775 – 15 September 1775, ed.",
-              "word_offset_start": 864,
-              "word_offset_end": 884,
-              "char_offset_start": 5551,
-              "char_offset_end": 5673,
-              "authorship_note": null,
-              "metaphor_instances": []
-            },
-            {
-              "sentence_id": "am-rev-washington-orders-1775-07-04_s01_p36_s04",
-              "sentence_ordinal": 4,
-              "text": "Philander D. Chase.",
-              "word_offset_start": 884,
-              "word_offset_end": 887,
-              "char_offset_start": 5675,
-              "char_offset_end": 5694,
-              "authorship_note": null,
-              "metaphor_instances": []
-            },
-            {
-              "sentence_id": "am-rev-washington-orders-1775-07-04_s01_p36_s05",
-              "sentence_ordinal": 5,
-              "text": "Charlottesville: University Press of Virginia, 1985, pp. 6–8.]More between these correspondentsPrecedingFrom Washington to Continental Congress [16 June 1775]NextFrom Continental Congress to Washington [22 June 1775]AllAll correspondence between Washington and Continental Congress",
-              "word_offset_start": 887,
-              "word_offset_end": 918,
-              "char_offset_start": 5695,
-              "char_offset_end": 5976,
-              "authorship_note": null,
-              "metaphor_instances": []
-            }
-          ]
-        },
-        {
-          "paragraph_id": "am-rev-washington-orders-1775-07-04_s01_p37",
-          "paragraph_ordinal": 37,
-          "sentences": [
-            {
-              "sentence_id": "am-rev-washington-orders-1775-07-04_s01_p37_s01",
-              "sentence_ordinal": 1,
-              "text": "NHPRC",
-              "word_offset_start": 918,
-              "word_offset_end": 919,
-              "char_offset_start": 5978,
-              "char_offset_end": 5983,
-              "authorship_note": null,
-              "metaphor_instances": []
-            }
-          ]
-        },
-        {
-          "paragraph_id": "am-rev-washington-orders-1775-07-04_s01_p38",
-          "paragraph_ordinal": 38,
-          "sentences": [
-            {
-              "sentence_id": "am-rev-washington-orders-1775-07-04_s01_p38_s01",
-              "sentence_ordinal": 1,
-              "text": "The National Historical Publications and",
-              "word_offset_start": 919,
-              "word_offset_end": 924,
-              "char_offset_start": 5985,
-              "char_offset_end": 6025,
-              "authorship_note": null,
-              "metaphor_instances": []
-            }
-          ]
-        },
-        {
-          "paragraph_id": "am-rev-washington-orders-1775-07-04_s01_p39",
-          "paragraph_ordinal": 39,
-          "sentences": [
-            {
-              "sentence_id": "am-rev-washington-orders-1775-07-04_s01_p39_s01",
-              "sentence_ordinal": 1,
-              "text": "Records Commission (NHPRC) is part of the National",
-              "word_offset_start": 924,
-              "word_offset_end": 932,
-              "char_offset_start": 6027,
-              "char_offset_end": 6077,
-              "authorship_note": null,
-              "metaphor_instances": []
-            }
-          ]
-        },
-        {
-          "paragraph_id": "am-rev-washington-orders-1775-07-04_s01_p40",
-          "paragraph_ordinal": 40,
-          "sentences": [
-            {
-              "sentence_id": "am-rev-washington-orders-1775-07-04_s01_p40_s01",
-              "sentence_ordinal": 1,
-              "text": "Archives.",
-              "word_offset_start": 932,
-              "word_offset_end": 933,
-              "char_offset_start": 6079,
-              "char_offset_end": 6088,
-              "authorship_note": null,
-              "metaphor_instances": []
-            },
-            {
-              "sentence_id": "am-rev-washington-orders-1775-07-04_s01_p40_s02",
-              "sentence_ordinal": 2,
-              "text": "Through its grants program, the NHPRC supports a wide range of activities to",
-              "word_offset_start": 933,
-              "word_offset_end": 946,
-              "char_offset_start": 6089,
-              "char_offset_end": 6165,
-              "authorship_note": null,
-              "metaphor_instances": []
-            }
-          ]
-        },
-        {
-          "paragraph_id": "am-rev-washington-orders-1775-07-04_s01_p41",
-          "paragraph_ordinal": 41,
-          "sentences": [
-            {
-              "sentence_id": "am-rev-washington-orders-1775-07-04_s01_p41_s01",
-              "sentence_ordinal": 1,
-              "text": "preserve, publish, and encourage the use of documentary sources, relating to the history of",
-              "word_offset_start": 946,
-              "word_offset_end": 960,
-              "char_offset_start": 6167,
-              "char_offset_end": 6258,
-              "authorship_note": null,
-              "metaphor_instances": []
-            }
-          ]
-        },
-        {
-          "paragraph_id": "am-rev-washington-orders-1775-07-04_s01_p42",
-          "paragraph_ordinal": 42,
-          "sentences": [
-            {
-              "sentence_id": "am-rev-washington-orders-1775-07-04_s01_p42_s01",
-              "sentence_ordinal": 1,
-              "text": "the United States, and research and development projects to bring historical records to the",
-              "word_offset_start": 960,
-              "word_offset_end": 974,
-              "char_offset_start": 6260,
-              "char_offset_end": 6351,
-              "authorship_note": null,
-              "metaphor_instances": []
-            }
-          ]
-        },
-        {
-          "paragraph_id": "am-rev-washington-orders-1775-07-04_s01_p43",
-          "paragraph_ordinal": 43,
-          "sentences": [
-            {
-              "sentence_id": "am-rev-washington-orders-1775-07-04_s01_p43_s01",
-              "sentence_ordinal": 1,
-              "text": "public.",
-              "word_offset_start": 974,
-              "word_offset_end": 975,
-              "char_offset_start": 6353,
-              "char_offset_end": 6360,
-              "authorship_note": null,
-              "metaphor_instances": []
-            }
-          ]
-        },
-        {
-          "paragraph_id": "am-rev-washington-orders-1775-07-04_s01_p44",
-          "paragraph_ordinal": 44,
-          "sentences": [
-            {
-              "sentence_id": "am-rev-washington-orders-1775-07-04_s01_p44_s01",
-              "sentence_ordinal": 1,
-              "text": "Founders Online is an official website",
-              "word_offset_start": 975,
-              "word_offset_end": 981,
-              "char_offset_start": 6362,
-              "char_offset_end": 6400,
-              "authorship_note": null,
-              "metaphor_instances": []
-            }
-          ]
-        },
-        {
-          "paragraph_id": "am-rev-washington-orders-1775-07-04_s01_p45",
-          "paragraph_ordinal": 45,
-          "sentences": [
-            {
-              "sentence_id": "am-rev-washington-orders-1775-07-04_s01_p45_s01",
-              "sentence_ordinal": 1,
-              "text": "of the U.S. government, administered by the",
-              "word_offset_start": 981,
-              "word_offset_end": 988,
-              "char_offset_start": 6402,
-              "char_offset_end": 6445,
-              "authorship_note": null,
-              "metaphor_instances": []
-            }
-          ]
-        },
-        {
-          "paragraph_id": "am-rev-washington-orders-1775-07-04_s01_p46",
-          "paragraph_ordinal": 46,
-          "sentences": [
-            {
-              "sentence_id": "am-rev-washington-orders-1775-07-04_s01_p46_s01",
-              "sentence_ordinal": 1,
-              "text": "National Archives and Records Administration",
-              "word_offset_start": 988,
-              "word_offset_end": 993,
-              "char_offset_start": 6447,
-              "char_offset_end": 6491,
-              "authorship_note": null,
-              "metaphor_instances": []
-            }
-          ]
-        },
-        {
-          "paragraph_id": "am-rev-washington-orders-1775-07-04_s01_p47",
-          "paragraph_ordinal": 47,
-          "sentences": [
-            {
-              "sentence_id": "am-rev-washington-orders-1775-07-04_s01_p47_s01",
-              "sentence_ordinal": 1,
-              "text": "through the NHPRC, in partnership with the",
-              "word_offset_start": 993,
-              "word_offset_end": 1000,
-              "char_offset_start": 6493,
-              "char_offset_end": 6535,
-              "authorship_note": null,
-              "metaphor_instances": []
-            }
-          ]
-        },
-        {
-          "paragraph_id": "am-rev-washington-orders-1775-07-04_s01_p48",
-          "paragraph_ordinal": 48,
-          "sentences": [
-            {
-              "sentence_id": "am-rev-washington-orders-1775-07-04_s01_p48_s01",
-              "sentence_ordinal": 1,
-              "text": "University of Virginia Press,",
-              "word_offset_start": 1000,
-              "word_offset_end": 1004,
-              "char_offset_start": 6537,
-              "char_offset_end": 6566,
-              "authorship_note": null,
-              "metaphor_instances": []
-            }
-          ]
-        },
-        {
-          "paragraph_id": "am-rev-washington-orders-1775-07-04_s01_p49",
-          "paragraph_ordinal": 49,
-          "sentences": [
-            {
-              "sentence_id": "am-rev-washington-orders-1775-07-04_s01_p49_s01",
-              "sentence_ordinal": 1,
-              "text": "which is hosting this website.",
-              "word_offset_start": 1004,
-              "word_offset_end": 1009,
-              "char_offset_start": 6568,
-              "char_offset_end": 6598,
-              "authorship_note": null,
-              "metaphor_instances": []
-            }
-          ]
-        },
-        {
-          "paragraph_id": "am-rev-washington-orders-1775-07-04_s01_p50",
-          "paragraph_ordinal": 50,
-          "sentences": [
-            {
-              "sentence_id": "am-rev-washington-orders-1775-07-04_s01_p50_s01",
-              "sentence_ordinal": 1,
-              "text": "The Adams Papers",
-              "word_offset_start": 1009,
-              "word_offset_end": 1012,
-              "char_offset_start": 6600,
-              "char_offset_end": 6616,
-              "authorship_note": null,
-              "metaphor_instances": []
-            }
-          ]
-        },
-        {
-          "paragraph_id": "am-rev-washington-orders-1775-07-04_s01_p51",
-          "paragraph_ordinal": 51,
-          "sentences": [
-            {
-              "sentence_id": "am-rev-washington-orders-1775-07-04_s01_p51_s01",
-              "sentence_ordinal": 1,
-              "text": "The Papers of Benjamin Franklin",
-              "word_offset_start": 1012,
-              "word_offset_end": 1017,
-              "char_offset_start": 6618,
-              "char_offset_end": 6649,
-              "authorship_note": null,
-              "metaphor_instances": []
-            }
-          ]
-        },
-        {
-          "paragraph_id": "am-rev-washington-orders-1775-07-04_s01_p52",
-          "paragraph_ordinal": 52,
-          "sentences": [
-            {
-              "sentence_id": "am-rev-washington-orders-1775-07-04_s01_p52_s01",
-              "sentence_ordinal": 1,
-              "text": "The Papers of Alexander Hamilton",
-              "word_offset_start": 1017,
-              "word_offset_end": 1022,
-              "char_offset_start": 6651,
-              "char_offset_end": 6683,
-              "authorship_note": null,
-              "metaphor_instances": []
-            }
-          ]
-        },
-        {
-          "paragraph_id": "am-rev-washington-orders-1775-07-04_s01_p53",
-          "paragraph_ordinal": 53,
-          "sentences": [
-            {
-              "sentence_id": "am-rev-washington-orders-1775-07-04_s01_p53_s01",
-              "sentence_ordinal": 1,
-              "text": "The Selected Papers of John Jay",
-              "word_offset_start": 1022,
-              "word_offset_end": 1028,
-              "char_offset_start": 6685,
-              "char_offset_end": 6716,
-              "authorship_note": null,
-              "metaphor_instances": []
-            }
-          ]
-        },
-        {
-          "paragraph_id": "am-rev-washington-orders-1775-07-04_s01_p54",
-          "paragraph_ordinal": 54,
-          "sentences": [
-            {
-              "sentence_id": "am-rev-washington-orders-1775-07-04_s01_p54_s01",
-              "sentence_ordinal": 1,
-              "text": "The Papers of Thomas Jefferson",
-              "word_offset_start": 1028,
-              "word_offset_end": 1033,
-              "char_offset_start": 6718,
-              "char_offset_end": 6748,
-              "authorship_note": null,
-              "metaphor_instances": []
-            }
-          ]
-        },
-        {
-          "paragraph_id": "am-rev-washington-orders-1775-07-04_s01_p55",
-          "paragraph_ordinal": 55,
-          "sentences": [
-            {
-              "sentence_id": "am-rev-washington-orders-1775-07-04_s01_p55_s01",
-              "sentence_ordinal": 1,
-              "text": "The Papers of James Madison",
-              "word_offset_start": 1033,
-              "word_offset_end": 1038,
-              "char_offset_start": 6750,
-              "char_offset_end": 6777,
-              "authorship_note": null,
-              "metaphor_instances": []
-            }
-          ]
-        },
-        {
-          "paragraph_id": "am-rev-washington-orders-1775-07-04_s01_p56",
-          "paragraph_ordinal": 56,
-          "sentences": [
-            {
-              "sentence_id": "am-rev-washington-orders-1775-07-04_s01_p56_s01",
-              "sentence_ordinal": 1,
-              "text": "The Papers of George Washington",
-              "word_offset_start": 1038,
-              "word_offset_end": 1043,
-              "char_offset_start": 6779,
-              "char_offset_end": 6810,
-              "authorship_note": null,
-              "metaphor_instances": []
-            }
-          ]
-        },
-        {
-          "paragraph_id": "am-rev-washington-orders-1775-07-04_s01_p57",
-          "paragraph_ordinal": 57,
-          "sentences": [
-            {
-              "sentence_id": "am-rev-washington-orders-1775-07-04_s01_p57_s01",
-              "sentence_ordinal": 1,
-              "text": "About the National Archives",
-              "word_offset_start": 1043,
-              "word_offset_end": 1047,
-              "char_offset_start": 6812,
-              "char_offset_end": 6839,
-              "authorship_note": null,
-              "metaphor_instances": []
-            }
-          ]
-        },
-        {
-          "paragraph_id": "am-rev-washington-orders-1775-07-04_s01_p58",
-          "paragraph_ordinal": 58,
-          "sentences": [
-            {
-              "sentence_id": "am-rev-washington-orders-1775-07-04_s01_p58_s01",
-              "sentence_ordinal": 1,
-              "text": "National Archives Privacy Policy",
-              "word_offset_start": 1047,
-              "word_offset_end": 1051,
-              "char_offset_start": 6841,
-              "char_offset_end": 6873,
-              "authorship_note": null,
-              "metaphor_instances": []
-            }
-          ]
-        },
-        {
-          "paragraph_id": "am-rev-washington-orders-1775-07-04_s01_p59",
-          "paragraph_ordinal": 59,
-          "sentences": [
-            {
-              "sentence_id": "am-rev-washington-orders-1775-07-04_s01_p59_s01",
-              "sentence_ordinal": 1,
-              "text": "Accessibility",
-              "word_offset_start": 1051,
-              "word_offset_end": 1052,
-              "char_offset_start": 6875,
-              "char_offset_end": 6888,
-              "authorship_note": null,
-              "metaphor_instances": []
-            }
-          ]
-        },
-        {
-          "paragraph_id": "am-rev-washington-orders-1775-07-04_s01_p60",
-          "paragraph_ordinal": 60,
-          "sentences": [
-            {
-              "sentence_id": "am-rev-washington-orders-1775-07-04_s01_p60_s01",
-              "sentence_ordinal": 1,
-              "text": "Freedom of Information Act",
-              "word_offset_start": 1052,
-              "word_offset_end": 1056,
-              "char_offset_start": 6890,
-              "char_offset_end": 6916,
-              "authorship_note": null,
-              "metaphor_instances": []
-            }
-          ]
-        },
-        {
-          "paragraph_id": "am-rev-washington-orders-1775-07-04_s01_p61",
-          "paragraph_ordinal": 61,
-          "sentences": [
-            {
-              "sentence_id": "am-rev-washington-orders-1775-07-04_s01_p61_s01",
-              "sentence_ordinal": 1,
-              "text": "No FEAR Act Data",
-              "word_offset_start": 1056,
-              "word_offset_end": 1060,
-              "char_offset_start": 6918,
-              "char_offset_end": 6934,
-              "authorship_note": null,
-              "metaphor_instances": []
-            }
-          ]
-        },
-        {
-          "paragraph_id": "am-rev-washington-orders-1775-07-04_s01_p62",
-          "paragraph_ordinal": 62,
-          "sentences": [
-            {
-              "sentence_id": "am-rev-washington-orders-1775-07-04_s01_p62_s01",
-              "sentence_ordinal": 1,
-              "text": "window.jQuery || document.write(",
-              "word_offset_start": 1060,
-              "word_offset_end": 1063,
-              "char_offset_start": 6936,
-              "char_offset_end": 6968,
-              "authorship_note": null,
-              "metaphor_instances": []
-            }
-          ]
-        },
-        {
-          "paragraph_id": "am-rev-washington-orders-1775-07-04_s01_p63",
-          "paragraph_ordinal": 63,
-          "sentences": [
-            {
-              "sentence_id": "am-rev-washington-orders-1775-07-04_s01_p63_s01",
-              "sentence_ordinal": 1,
-              "text": "'&lt;script src=\"https://code.jquery.com/jquery-3.7.1.min.js\" type=\"text/javascript\"&gt;&lt;\\/script&gt;'",
-              "word_offset_start": 1063,
-              "word_offset_end": 1066,
-              "char_offset_start": 6970,
-              "char_offset_end": 7075,
-              "authorship_note": null,
-              "metaphor_instances": []
-            }
-          ]
-        },
-        {
-          "paragraph_id": "am-rev-washington-orders-1775-07-04_s01_p64",
-          "paragraph_ordinal": 64,
-          "sentences": [
-            {
-              "sentence_id": "am-rev-washington-orders-1775-07-04_s01_p64_s01",
-              "sentence_ordinal": 1,
-              "text": ")",
-              "word_offset_start": 1066,
-              "word_offset_end": 1067,
-              "char_offset_start": 7077,
-              "char_offset_end": 7078,
-              "authorship_note": null,
-              "metaphor_instances": []
-            }
-          ]
-        },
-        {
-          "paragraph_id": "am-rev-washington-orders-1775-07-04_s01_p65",
-          "paragraph_ordinal": 65,
-          "sentences": [
-            {
-              "sentence_id": "am-rev-washington-orders-1775-07-04_s01_p65_s01",
-              "sentence_ordinal": 1,
-              "text": "label {",
-              "word_offset_start": 1067,
-              "word_offset_end": 1069,
-              "char_offset_start": 7080,
-              "char_offset_end": 7087,
-              "authorship_note": null,
-              "metaphor_instances": []
-            }
-          ]
-        },
-        {
-          "paragraph_id": "am-rev-washington-orders-1775-07-04_s01_p66",
-          "paragraph_ordinal": 66,
-          "sentences": [
-            {
-              "sentence_id": "am-rev-washington-orders-1775-07-04_s01_p66_s01",
-              "sentence_ordinal": 1,
-              "text": "display: inline-block;",
-              "word_offset_start": 1069,
-              "word_offset_end": 1071,
-              "char_offset_start": 7089,
-              "char_offset_end": 7111,
-              "authorship_note": null,
-              "metaphor_instances": []
-            }
-          ]
-        },
-        {
-          "paragraph_id": "am-rev-washington-orders-1775-07-04_s01_p67",
-          "paragraph_ordinal": 67,
-          "sentences": [
-            {
-              "sentence_id": "am-rev-washington-orders-1775-07-04_s01_p67_s01",
-              "sentence_ordinal": 1,
-              "text": "width: 5em;",
-              "word_offset_start": 1071,
-              "word_offset_end": 1073,
-              "char_offset_start": 7113,
-              "char_offset_end": 7124,
-              "authorship_note": null,
-              "metaphor_instances": []
-            }
-          ]
-        },
-        {
-          "paragraph_id": "am-rev-washington-orders-1775-07-04_s01_p68",
-          "paragraph_ordinal": 68,
-          "sentences": [
-            {
-              "sentence_id": "am-rev-washington-orders-1775-07-04_s01_p68_s01",
-              "sentence_ordinal": 1,
-              "text": "}",
-              "word_offset_start": 1073,
-              "word_offset_end": 1074,
-              "char_offset_start": 7126,
-              "char_offset_end": 7127,
-              "authorship_note": null,
-              "metaphor_instances": []
-            }
-          ]
-        },
-        {
-          "paragraph_id": "am-rev-washington-orders-1775-07-04_s01_p69",
-          "paragraph_ordinal": 69,
-          "sentences": [
-            {
-              "sentence_id": "am-rev-washington-orders-1775-07-04_s01_p69_s01",
-              "sentence_ordinal": 1,
-              "text": "$(document).ready(function() {",
-              "word_offset_start": 1074,
-              "word_offset_end": 1076,
-              "char_offset_start": 7129,
-              "char_offset_end": 7159,
-              "authorship_note": null,
-              "metaphor_instances": []
-            }
-          ]
-        },
-        {
-          "paragraph_id": "am-rev-washington-orders-1775-07-04_s01_p70",
-          "paragraph_ordinal": 70,
-          "sentences": [
-            {
-              "sentence_id": "am-rev-washington-orders-1775-07-04_s01_p70_s01",
-              "sentence_ordinal": 1,
-              "text": "$('.tooltip').tooltipster();",
-              "word_offset_start": 1076,
-              "word_offset_end": 1077,
-              "char_offset_start": 7161,
-              "char_offset_end": 7189,
-              "authorship_note": null,
-              "metaphor_instances": []
-            }
-          ]
-        },
-        {
-          "paragraph_id": "am-rev-washington-orders-1775-07-04_s01_p71",
-          "paragraph_ordinal": 71,
-          "sentences": [
-            {
-              "sentence_id": "am-rev-washington-orders-1775-07-04_s01_p71_s01",
-              "sentence_ordinal": 1,
-              "text": "});",
-              "word_offset_start": 1077,
-              "word_offset_end": 1078,
-              "char_offset_start": 7191,
-              "char_offset_end": 7194,
+              "text": "The General desires that some Carpenters be immediately set to work at Brattle's Stables, to fix up Stalls for eight Horses, and more if the Room will admit, with suitable racks, mangers &c.",
+              "word_offset_start": 838,
+              "word_offset_end": 871,
+              "char_offset_start": 4885,
+              "char_offset_end": 5075,
               "authorship_note": null,
               "metaphor_instances": []
             }
@@ -1621,8 +516,8 @@
     {
       "stage": "segment-texts",
       "script": "scripts/segment-texts.py",
-      "generated_at": "2026-06-13T20:41:16",
-      "sentence_count": 105
+      "generated_at": "2026-06-17T01:08:21",
+      "sentence_count": 32
     }
   ]
 }

@@ -23,12 +23,18 @@ notes: 'Battle of Bautzen (20–21 May 1813), published from Görlitz 24 May. Al
   exchange is visibly breaking down. Note: the Lützen bulletin (no. 19951, 2 May 1813)
   is in the same tome (Tome 25, bpt6k9639050s) and was extracted to napoleon-bulletin-1813-05-02-lutzen.txt
   but dropped from the primary corpus as out-of-scope — retrieve if needed.'
+verification:
+  min_words: 2660
+  required_phrases:
+  - Bautzen
+  - Lutzen
+  - GRANDE ARM
 case_id: napoleon
 raw_path: corpus/raw/napoleon-src-02-grande-armee-bulletins/napoleon-bulletin-1813-05-24-bautzen.txt
 pipeline_log:
 - stage: normalize-texts
   script: scripts/normalize-texts.py
-  generated_at: '2026-06-14T15:00:09'
+  generated_at: '2026-06-17T01:08:25'
 ---
 
 20042. —BULLETIN DE LA GRANDE ARMÉE.

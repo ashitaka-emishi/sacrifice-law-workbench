@@ -11,12 +11,18 @@ source_citation: 'Thomas Paine, Common Sense, Project Gutenberg EBook #147'
 rights_status: public-domain
 expected_raw_path: corpus/raw/am-rev-src-01-paine-common-sense.txt
 analytical_priority: primary
+verification:
+  min_words: 17000
+  required_phrases:
+  - COMMON SENSE
+  - Society in every state is a blessing
+  - Of Monarchy and Hereditary Succession
 case_id: am-rev
 raw_path: corpus/raw/am-rev-src-01-paine-common-sense.txt
 pipeline_log:
 - stage: normalize-texts
   script: scripts/normalize-texts.py
-  generated_at: '2026-06-13T20:41:16'
+  generated_at: '2026-06-17T01:08:21'
 ---
 
 COMMON SENSE;

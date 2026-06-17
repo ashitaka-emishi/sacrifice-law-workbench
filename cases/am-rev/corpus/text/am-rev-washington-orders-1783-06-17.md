@@ -12,142 +12,35 @@ source_citation: Founders Online, National Archives, Papers of George Washington
 rights_status: public-domain
 expected_raw_path: corpus/raw/am-rev-src-03-washington-general-orders/washington-orders-1783-06-17-wars-end.txt
 analytical_priority: primary
-risk_flags:
-- wrong-document-in-file — re-download needed from Founders Online
+verification:
+  min_words: 1300
+  required_phrases:
+  - Rocky Hill, near Princeton
+  - Farewell Orders issued to the Armies
 case_id: am-rev
 raw_path: corpus/raw/am-rev-src-03-washington-general-orders/washington-orders-1783-06-17-wars-end.txt
 pipeline_log:
 - stage: normalize-texts
   script: scripts/normalize-texts.py
-  generated_at: '2026-06-13T20:41:16'
+  generated_at: '2026-06-17T01:08:21'
 ---
 
-Skip navigation. Go to main content.
+Washington's Farewell Address to the Army, 2 November 1783
 
-Archives.gov Home
+2 November 1783
 
-About Founders Online
+Genll Washington's Farewell Orders issued to the Armies of the United States of America the 2d day of Novr 1783 Rocky Hill, near Princeton
 
-Contact Us
+The United States in Congress assembled, after giving the most honorable testimony to the Merits of the Federal Armies, and presenting them with the thanks of their Country for their long, eminent and faithful Services, having thought proper, by their Proclamation bearing date the 18th day of October last, to discharge such part of the Troops as were engaged for the War, and to permit the Officers on Furlough to retire from Service from and after tomorrow, which Proclamation having been communicated in the public papers for the information and government of all concerned. it only remains for the Commander in Chief to address himself once more, and that for the last time, to the Armies of the United States (however widely dispersed the Individuals who composed them may be) and to bid them an affectionate—a long farewell.
 
-Founders Online
+But before the Commander in Chief takes his final leave of those he holds most dear, he wishes to indulge himself a few moments in calling to mind a slight review of the past—He will then take the liberty of exploring with his Military friends their future prospects, of advising the general line of conduct which in his opinion ought to be persued, and he will conclude the Address, by expressing the obligations he feels himself under for the spirited and able assistance he has experienced from them, in the performance of an arduous office.
 
-[Back to normal view]
+A contemplation of the compleat attainment (at a period earlier than could have been expected) of the object for which we contended, against so formidable a power, cannot but inspire us with astonishment and gratitude—The disadvantageous circumstances on our part, under which the War was undertaken, can never be forgotten—The singular interpositions of Providence in our feeble condition were such, as could scarcely escape the attention of the most unobserving, while the unparalleled perseverence of the Armies of the United States, through almost every possible suffering and discouragement, for the space of eight long years, was little short of a standing Miracle.
 
-George Washington Papers
+It is not the meaning nor within the compass of this Address, to detail the hardships peculiarly incident to our Service, or to discribe the distresses which in several instances have resulted from the extremes of hunger and nakedness, combined with the rigors of an inclement season. Nor is it necessary to dwell on the dark side of our past affairs. Every American Officer and Soldier must now console himself for any unpleasant circumstances which may have occurred, by a recollection of the uncommon scenes in which he has been called to act, no inglorious part; and the astonishing Events of which he has been a witness—Events which have seldom, if ever before, taken place on the stage of human action, nor can they probably ever happen again. For who has before seen a disciplined Army formed at once from such raw materials? Who that was not a witness could imagine, that the most violent local prejudices would cease so soon, and that Men who came from the different parts of the Continent, strongly disposed by the habits of education, to despise and quarrel with each other, would instantly become but one patriotic band of Brothers? Or who that was not on the spot can trace the steps by which such a wonderful Revolution has been effected, and such a glorious period put to all our Warlike toils?
 
-Permanent Link view
+It is universally acknowledged that the enlarged prospect of happiness, opened by the confirmation of our Independence and Sovereignty, almost exceeds the power of description. And shall not the brave Men who have contributed so essentially to these inestimable acquisitions, retiring victorious from the Field of War, to the Field of Agriculture, participate in all the blessings which have been obtained? In such a Republic, who will exclude them from the rights of Citizens and the fruits of their labours? In such a Country so happily circumstanced, the persuits of Commerce and the cultivation of the Soil, will unfold to industry the certain road to competence. To those hardy Soldiers, who are actuated by the spirit of adventure, the Fisheries will afford ample and profitable employment, and the extensive and fertile Regions of the West, will yield a most happy Asylum to those, who fond of domestic enjoyment, are seeking for personal independence. Nor is it possible to conceive that any one of the United States will prefer a National Bankrupcy and a dissolution of the Union, to a compliance with the requisitions of Congress and the payment of its just debts—so that the Officers and Soldiers may expect considerable assistance in recommending their civil occupations, from the sums due to these from the Public, which must and will most inevitably be paid.
 
-Start New Search
+In order to effect this desirable purpose, and to remove the prejudices which may have taken possession of the Minds of any of the good People of the States, it is earnestly recommended to all the Troops that with strong attachments to the Union, they should carry with them into civil Society the most conciliating dispositions; and that they should prove themselves not less virtuous and usefull as Citizens, than they have been persevering and victorious as Soldiers. What tho' there should be some envious Individuals who are unwilling to pay the Debt the public has contracted, or to yield the tribute due to Merit, yet let such unworthy treatment produce no invective, or any instance of intemperate conduct, let it be remembered that the unbiased voice of the Free Citizens of the United States has promised the just reward, and given the merited applause; let it be known and remembered that the reputation of the Federal Armies is established beyond the reach of Malevolence, and let a conciousness of their atchievements and fame, still incite the Men who composed them to honorable Actions; under the persuasion that the private virtues of economy, prudence and industry, will not be less amiable in civil life, than the more splendid qualities of valour, perseverence and enterprise, were in the Field: Every one may rest assured that much, very much of the future happiness of the Officers and Men, will depend upon the wise and manly conduct which shall be adopted by these, when they are mingled with the great body of the Community. And altho', the General has so frequently given it as his opinion in the most public and explicit manner, that unless the principles of the Federal Government were properly supported, and the Powers of the Union encreased, the honor, dignity, and justice of the Nation would be lost for ever; yet he cannot help repeating on this occasion, so interesting a sentiment, and leaving it as his last injunction to every Officer and every Soldier, who may view the subject in the same serious point of light, to add his best endeavours to those of his worthy fellow Citizens towards effecting their great and valuable purposes, on which our very existence as a Nation so materially depends.
 
-View Previous Searches
-
-Print View
-
-Max Page View
-
-Normal Page View
-
-Share
-
-Email This
-
-Share this on Facebook
-
-Tweet
-
-General Orders, 13 May 1780
-
-General Orders
-
-Head Quarters Morristown Saturday May 13th 1780Parole Saxe  Countersigns R. P.——
-[Officers] Of the Day Tomorrow[:] Colonel Angell[,] Major Thayer[,] Brigade Major 2d pennsylvania brigade
-A man acquainted with the management of hides from the pennsylvania Line, also one from Stark’s brigade to be sent to the Deputy commissary of hides at Morristown tomorrow they are to remain with him ’till the Brigade to which they belong move from this place.
-
-Varick transcript, DLC:GW.
-
-GW’s main army had been in winter camp at Jockey Hollow, near Morristown, since December 1779. GW kept a brigade-sized corps deployed in the vicinity of Springfield and Elizabeth, N.J., to protect the approaches to Morristown from the east and monitor British activities on Staten Island and in the New York City area. In May, four Massachusetts brigades and the New Hampshire troops remained positioned near West Point, N.Y., and Danbury, Conn., respectively, to protect communications with New England. The 2d and 4th Continental Dragoons were still in their winter camps in Connecticut. Other regiments held posts on the frontier at Fort Pitt in Pennsylvania and at Fort Schuyler in New York.
-
-Assistance with GW’s correspondence during this period came from his aides-de-camp Alexander Hamilton, Richard Kidder Meade, and Tench Tilghman, as well as his secretary Robert Hanson Harrison and assistant secretary James McHenry. In late June, David Humphreys joined GW’s headquarters as an aide-de-camp (see General Orders, 23 June). GW and his correspondents typically referred to these men as his family (see below and GW to James Duane, 13 May and 5 June; Duane to GW, 26 May; and GW to Lafayette, 20 May). Maj. Caleb Gibbs, who commanded GW’s guard, also helped with correspondence and managed the money to pay GW’s expenses (see below and the source note to the general orders for 30 May).
-
-Gibbs wrote a receipt at Morristown on this date: “Received of the Dy Pay Master General four thousand eight hundred dollars for the use of defraying the expence of His Excellency General Washington’s family which I am to account for” (Revolutionary War Receipt Book, 1776–1780, DLC:GW, ser. 5). GW’s warrant book for 12 May indicates that Gibbs received $4,800 “for the use of the Commander in chief” (Revolutionary War Warrant Book 5, 1780–1783, DLC:GW, ser. 5).
-
-Index Entries
-
-Permanent Link What’s this?
-
-https://founders.archives.gov/documents/Washington/03-26-02-0001
-
-Note: The annotations to this document, and any other
-
-modern editorial content, are copyright © The Rector and Visitors of the University of Virginia. All rights reserved.Back to topYou Are Looking AtSource ProjectWashington PapersTitleGeneral Orders, 13 May 1780AuthorWashington, GeorgeDate13 May 1780ReferenceCite as“General Orders, 13 May 1780,” Founders Online, National Archives, https://founders.archives.gov/documents/Washington/03-26-02-0001. [Original source: The Papers of George Washington, Revolutionary War Series, vol. 26, 13 May–4 July 1780, ed. Benjamin L. Huggins and Adrina Garbooshian-Huggins. Charlottesville: University of Virginia Press, 2018, p. 1.]
-
-NHPRC
-
-The National Historical Publications and
-
-Records Commission (NHPRC) is part of the National
-
-Archives. Through its grants program, the NHPRC supports a wide range of activities to
-
-preserve, publish, and encourage the use of documentary sources, relating to the history of
-
-the United States, and research and development projects to bring historical records to the
-
-public.
-
-Founders Online is an official website
-
-of the U.S. government, administered by the
-
-National Archives and Records Administration
-
-through the NHPRC, in partnership with the
-
-University of Virginia Press,
-
-which is hosting this website.
-
-The Adams Papers
-
-The Papers of Benjamin Franklin
-
-The Papers of Alexander Hamilton
-
-The Selected Papers of John Jay
-
-The Papers of Thomas Jefferson
-
-The Papers of James Madison
-
-The Papers of George Washington
-
-About the National Archives
-
-National Archives Privacy Policy
-
-Accessibility
-
-Freedom of Information Act
-
-No FEAR Act Data
-
-window.jQuery || document.write(
-
-'&lt;script src="https://code.jquery.com/jquery-3.7.1.min.js" type="text/javascript"&gt;&lt;\/script&gt;'
-
-)
-
-label {
-
-display: inline-block;
-
-width: 5em;
-
-}
-
-$(document).ready(function() {
-
-$('.tooltip').tooltipster();
-
-});
+The Commander in Chief conceives little is now wanting to enable the Soldier to change the Military character into that of the Citizen, but that steady and decent tenor of behaivour which has generally distinguished, not only the Army under his immediate Command, but the different Detachments and seperate Armies, through the course of the War; from their good sense and prudence he anticipates the happiest consequences; And while he congratulates them on the glorious occasion which renders their Services in the Field no longer necessary, he wishes to express the strong obligations he feels himself under, for the assistance he has received from every Class—and in every instance. He presents his thanks in the most serious and affectionate manner to the General Officers, as well for their Counsel on many interesting occasions, as for their ardor in promoting the success of the plans he had adopted—To the Commandants of Regiments and Corps, and to the other Officers for their great Zeal and attention in carrying his orders promptly into execution—To the Staff for their alacrity and exactness in performing the duties of their several Departments—And to the Non-commissioned Officers and private Soldiers, for their extraordinary patience in suffering, as well as their invincible fortitude in Action—To the various branches of the Army, the General takes this last and solemn oppertunity of professing his inviolable attachment & friendship—He wishes more than bare professions were in his power, that he was really able to be usefull to them all in future life; He flatters himself however, they will do him the justice to believe, that whatever could with propriety be attempted by him, has been done. And being now to conclude these his last public Orders, to take his ultimate leave, in a short time, of the Military Character, and to bid a final adieu to the Armies he has so long had the honor to Command—he can only again offer in their behalf his recommendations to their grateful Country, and his prayers to the God of Armies. May ample justice be done them here; and may the choicest of Heaven's favors both here and hereafter attend those, who under the divine auspices have secured innumerable blessings for others: With these Wishes, and this benediction, the Commander in Chief is about to retire from service—The Curtain of seperation will soon be drawn—and the Military Scene to him will be closed for ever.

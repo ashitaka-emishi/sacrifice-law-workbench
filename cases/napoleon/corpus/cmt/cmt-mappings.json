@@ -1,0 +1,608 @@
+{
+  "version": "1.0",
+  "case_id": "napoleon",
+  "status": "draft",
+  "updated": "2026-06-17",
+  "mapping_policy": "CMT mappings are downstream of MIPVU. Every non-exploratory mapping must cite metaphor-related or uncertain MIPVU lexical units from the same sentence.",
+  "mappings": [
+    {
+      "mapping_id": "napoleon-cmt-001",
+      "case_id": "napoleon",
+      "document_id": "napoleon-bulletin-1805-12-03-austerlitz",
+      "sentence_id": "napoleon-bulletin-1805-12-03-austerlitz_s01_p03_s03",
+      "mipvu_ids": [
+        "napoleon-bulletin-1805-12-03-austerlitz_s01_p03_s03_lu029"
+      ],
+      "expression": "sang",
+      "evidence_span": "Sa Majesté a exprimé le regret que l'empereur de Russie eût voulu livrer bataille, et a dit que ce monarque, s'il l'avait cru la veille, aurait épargné le sang et l'honneur de son armée.",
+      "source_domain_primary": "sacrifice",
+      "source_domain_secondary": [],
+      "target_domain": "army",
+      "conceptual_metaphor": "ARMY IS SACRIFICE",
+      "entailments": [
+        "Russian battle choice is represented as risking the army's blood and honor together",
+        "Military loss is understood through bodily blood and public honor."
+      ],
+      "cluster_id": "napoleon-02-army-body",
+      "confidence": 0.82,
+      "rival_reading": "The army's honor is abstract while blood is bodily; the pair turns battle into bodily and reputational expenditure.",
+      "justification": "MIPVU review rule '' marked 1 unit(s) as metaphor-related or uncertain in this sentence.",
+      "mapping_status": "provisional",
+      "rhetorical_salience": "high",
+      "rhetorical_functions": [
+        "commemoration"
+      ],
+      "ideological_functions": [
+        "sacrifice"
+      ]
+    },
+    {
+      "mapping_id": "napoleon-cmt-002",
+      "case_id": "napoleon",
+      "document_id": "napoleon-bulletin-1805-12-03-austerlitz",
+      "sentence_id": "napoleon-bulletin-1805-12-03-austerlitz_s01_p16_s04",
+      "mipvu_ids": [
+        "napoleon-bulletin-1805-12-03-austerlitz_s01_p16_s04_lu021",
+        "napoleon-bulletin-1805-12-03-austerlitz_s01_p16_s04_lu022",
+        "napoleon-bulletin-1805-12-03-austerlitz_s01_p16_s04_lu025",
+        "napoleon-bulletin-1805-12-03-austerlitz_s01_p16_s04_lu039"
+      ],
+      "expression": "braves / morts / patrie / victoire",
+      "evidence_span": "Notre intention est que, tous les ans, audit jour, un office solennel soit chanté dans ladite métropole, en mémoire des braves morts pour la patrie dans cette grande journée; lequel office sera suivi d'actions de grâces pour la victoire qu'il a plu au Dieu des armées de nous accorder.",
+      "source_domain_primary": "sacrifice",
+      "source_domain_secondary": [],
+      "target_domain": "nation",
+      "conceptual_metaphor": "NATION IS SACRIFICE",
+      "entailments": [
+        "battlefield dead are memorialized as brave dead for the fatherland within providential victory ritual",
+        "Soldier death is understood through patriotic sacrifice and providential victory."
+      ],
+      "cluster_id": "napoleon-03-emperor-embodiment",
+      "confidence": 0.88,
+      "rival_reading": "The deaths are literal, but the office and thanksgiving frame them as meaningful patriotic-sacred sacrifice.",
+      "justification": "MIPVU review rule '' marked 4 unit(s) as metaphor-related or uncertain in this sentence.",
+      "mapping_status": "provisional",
+      "rhetorical_salience": "high",
+      "rhetorical_functions": [
+        "commemoration",
+        "national_self_definition"
+      ],
+      "ideological_functions": [
+        "sacrifice",
+        "obligation"
+      ]
+    },
+    {
+      "mapping_id": "napoleon-cmt-003",
+      "case_id": "napoleon",
+      "document_id": "napoleon-bulletin-1805-12-04-austerlitz-aftermath",
+      "sentence_id": "napoleon-bulletin-1805-12-04-austerlitz-aftermath_s01_p21_s02",
+      "mipvu_ids": [
+        "napoleon-bulletin-1805-12-04-austerlitz-aftermath_s01_p21_s02_lu009"
+      ],
+      "expression": "couronne",
+      "evidence_span": "Parlez aussi vaguement de ma renonciation à la couronne d'Italie; faites remarquer que ces mots \\\\ à la paix générales m'empêchent de faire ma paix avec l'Angleterre; mais en disant, lorsque l'Angleterre rétablira l'équilibre des mers,?? ou \\\\ que les conditions dont j'ai parlé pour ma renonciation seront remplies,?? cela me donne du vague et des facilités pour faire ma paix avec l'Angleterre.",
+      "source_domain_primary": "object_material",
+      "source_domain_secondary": [],
+      "target_domain": "history",
+      "conceptual_metaphor": "HISTORY IS OBJECT MATERIAL",
+      "entailments": [
+        "monarchical or military memory is mediated through tomb, trophies, or crown objects",
+        "Political-military legitimacy may be understood through symbolic objects."
+      ],
+      "cluster_id": "napoleon-01-glory-destiny",
+      "confidence": 0.55,
+      "rival_reading": "The objects may be literal, but they also condense monarchy, victory, and imperial memory.",
+      "justification": "MIPVU review rule '' marked 1 unit(s) as metaphor-related or uncertain in this sentence.",
+      "mapping_status": "provisional",
+      "rhetorical_salience": "medium",
+      "rhetorical_functions": [
+        "argument"
+      ],
+      "ideological_functions": [
+        "legitimation"
+      ]
+    },
+    {
+      "mapping_id": "napoleon-cmt-004",
+      "case_id": "napoleon",
+      "document_id": "napoleon-bulletin-1806-10-15-jena",
+      "sentence_id": "napoleon-bulletin-1806-10-15-jena_s01_p23_s06",
+      "mipvu_ids": [
+        "napoleon-bulletin-1806-10-15-jena_s01_p23_s06_lu023"
+      ],
+      "expression": "mort",
+      "evidence_span": "En moins d'une heure, l'action devint générale : 250 ou 3oo,ooo hommes, avec 7 ou 800 pièces de canon, semaient partout la mort et offraient un de ces spectacles rares dans l'histoire.",
+      "source_domain_primary": "sacrifice",
+      "source_domain_secondary": [],
+      "target_domain": "war_death",
+      "conceptual_metaphor": "WAR DEATH IS SACRIFICE",
+      "entailments": [
+        "battle death and bloodshed are framed as produced, sown, or converted into glory-bearing cost",
+        "Battlefield violence is understood through production, sowing, and sacrificial blood cost."
+      ],
+      "cluster_id": "napoleon-05-soldier-sacrifice",
+      "confidence": 0.8,
+      "rival_reading": "Some death is literal, but the phrasing treats death as an output, seed, or glory-bearing sacrificial cost.",
+      "justification": "MIPVU review rule '' marked 1 unit(s) as metaphor-related or uncertain in this sentence.",
+      "mapping_status": "provisional",
+      "rhetorical_salience": "high",
+      "rhetorical_functions": [
+        "commemoration"
+      ],
+      "ideological_functions": [
+        "sacrifice"
+      ]
+    },
+    {
+      "mapping_id": "napoleon-cmt-005",
+      "case_id": "napoleon",
+      "document_id": "napoleon-bulletin-1806-10-15-jena",
+      "sentence_id": "napoleon-bulletin-1806-10-15-jena_s01_p24_s04",
+      "mipvu_ids": [
+        "napoleon-bulletin-1806-10-15-jena_s01_p24_s04_lu008"
+      ],
+      "expression": "victoire",
+      "evidence_span": "Ces braves cavaliers, frémissant de voir la victoire se décider",
+      "source_domain_primary": "body",
+      "source_domain_secondary": [],
+      "target_domain": "military_virtue",
+      "conceptual_metaphor": "MILITARY VIRTUE IS BODY",
+      "entailments": [
+        "`victoire` is treated as an agent, possession, or hesitant outcome in battle narrative",
+        "Battle outcome is understood through personification and possession."
+      ],
+      "cluster_id": "napoleon-02-army-body",
+      "confidence": 0.76,
+      "rival_reading": "Victory is abstract but is described as hesitating, deciding, or belonging to an army.",
+      "justification": "MIPVU review rule '' marked 1 unit(s) as metaphor-related or uncertain in this sentence.",
+      "mapping_status": "provisional",
+      "rhetorical_salience": "medium",
+      "rhetorical_functions": [
+        "argument"
+      ],
+      "ideological_functions": [
+        "legitimation"
+      ]
+    },
+    {
+      "mapping_id": "napoleon-cmt-006",
+      "case_id": "napoleon",
+      "document_id": "napoleon-bulletin-1806-10-26-berlin",
+      "sentence_id": "napoleon-bulletin-1806-10-26-berlin_s01_p06_s01",
+      "mipvu_ids": [
+        "napoleon-bulletin-1806-10-26-berlin_s01_p06_s01_lu006"
+      ],
+      "expression": "tombeau",
+      "evidence_span": "L'Empereur a été voir le tombeau du grand Frédéric.",
+      "source_domain_primary": "object_material",
+      "source_domain_secondary": [],
+      "target_domain": "history",
+      "conceptual_metaphor": "HISTORY IS OBJECT MATERIAL",
+      "entailments": [
+        "monarchical or military memory is mediated through tomb, trophies, or crown objects",
+        "Political-military legitimacy may be understood through symbolic objects."
+      ],
+      "cluster_id": "napoleon-01-glory-destiny",
+      "confidence": 0.55,
+      "rival_reading": "The objects may be literal, but they also condense monarchy, victory, and imperial memory.",
+      "justification": "MIPVU review rule '' marked 1 unit(s) as metaphor-related or uncertain in this sentence.",
+      "mapping_status": "provisional",
+      "rhetorical_salience": "medium",
+      "rhetorical_functions": [
+        "argument"
+      ],
+      "ideological_functions": [
+        "legitimation"
+      ]
+    },
+    {
+      "mapping_id": "napoleon-cmt-007",
+      "case_id": "napoleon",
+      "document_id": "napoleon-bulletin-1806-10-26-berlin",
+      "sentence_id": "napoleon-bulletin-1806-10-26-berlin_s01_p06_s02",
+      "mipvu_ids": [
+        "napoleon-bulletin-1806-10-26-berlin_s01_p06_s02_lu024"
+      ],
+      "expression": "trophées",
+      "evidence_span": "Les restes de ce grand homme sont renfermés dans un cercueil de bois recouvert en cuivre, placé dans un caveau sans ornements, sans trophées, sans aucunes distinctions qui rappellent les grandes actions qu'il a faites.",
+      "source_domain_primary": "object_material",
+      "source_domain_secondary": [],
+      "target_domain": "history",
+      "conceptual_metaphor": "HISTORY IS OBJECT MATERIAL",
+      "entailments": [
+        "monarchical or military memory is mediated through tomb, trophies, or crown objects",
+        "Political-military legitimacy may be understood through symbolic objects."
+      ],
+      "cluster_id": "napoleon-01-glory-destiny",
+      "confidence": 0.55,
+      "rival_reading": "The objects may be literal, but they also condense monarchy, victory, and imperial memory.",
+      "justification": "MIPVU review rule '' marked 1 unit(s) as metaphor-related or uncertain in this sentence.",
+      "mapping_status": "provisional",
+      "rhetorical_salience": "medium",
+      "rhetorical_functions": [
+        "argument"
+      ],
+      "ideological_functions": [
+        "legitimation"
+      ]
+    },
+    {
+      "mapping_id": "napoleon-cmt-008",
+      "case_id": "napoleon",
+      "document_id": "napoleon-bulletin-1807-02-08-eylau",
+      "sentence_id": "napoleon-bulletin-1807-02-08-eylau_s01_p12_s03",
+      "mipvu_ids": [
+        "napoleon-bulletin-1807-02-08-eylau_s01_p12_s03_lu020"
+      ],
+      "expression": "gloire",
+      "evidence_span": "Le général Dahlmann, commandant les chasseurs de la Garde, et un bon nombre de ses intrépides soldats, moururent avec gloire.",
+      "source_domain_primary": "light_darkness",
+      "source_domain_secondary": [],
+      "target_domain": "military_virtue",
+      "conceptual_metaphor": "MILITARY VIRTUE IS LIGHT DARKNESS",
+      "entailments": [
+        "`gloire` frames military conduct or death as publicly radiant renown attached to soldiers or units",
+        "Military action and death are understood through fame as covering, radiance, or honor-bearing accompaniment."
+      ],
+      "cluster_id": "napoleon-01-glory-destiny",
+      "confidence": 0.86,
+      "rival_reading": "Glory is not a physical covering or companion, but the French phrasing treats it as something one is covered with or dies with.",
+      "justification": "MIPVU review rule '' marked 1 unit(s) as metaphor-related or uncertain in this sentence.",
+      "mapping_status": "provisional",
+      "rhetorical_salience": "high",
+      "rhetorical_functions": [
+        "argument"
+      ],
+      "ideological_functions": [
+        "legitimation"
+      ]
+    },
+    {
+      "mapping_id": "napoleon-cmt-009",
+      "case_id": "napoleon",
+      "document_id": "napoleon-bulletin-1807-02-08-eylau",
+      "sentence_id": "napoleon-bulletin-1807-02-08-eylau_s01_p15_s02",
+      "mipvu_ids": [
+        "napoleon-bulletin-1807-02-08-eylau_s01_p15_s02_lu003",
+        "napoleon-bulletin-1807-02-08-eylau_s01_p15_s02_lu005",
+        "napoleon-bulletin-1807-02-08-eylau_s01_p15_s02_lu009"
+      ],
+      "expression": "bouches / feu / mort",
+      "evidence_span": "Trois cents bouches à feu ont produit la mort de part et d'autre pendant douze heures.",
+      "source_domain_primary": "body",
+      "source_domain_secondary": [],
+      "target_domain": "army",
+      "conceptual_metaphor": "ARMY IS BODY",
+      "entailments": [
+        "artillery pieces are named as mouths of fire producing death",
+        "battle death and bloodshed are framed as produced, sown, or converted into glory-bearing cost",
+        "Artillery is understood through bodily mouth and fire imagery."
+      ],
+      "cluster_id": "napoleon-02-army-body",
+      "confidence": 0.787,
+      "rival_reading": "Cannons are not literal mouths; the French military term preserves body/fire imagery.",
+      "justification": "MIPVU review rule '' marked 3 unit(s) as metaphor-related or uncertain in this sentence.",
+      "mapping_status": "provisional",
+      "rhetorical_salience": "medium",
+      "rhetorical_functions": [
+        "argument"
+      ],
+      "ideological_functions": [
+        "legitimation"
+      ]
+    },
+    {
+      "mapping_id": "napoleon-cmt-010",
+      "case_id": "napoleon",
+      "document_id": "napoleon-bulletin-1807-02-08-eylau",
+      "sentence_id": "napoleon-bulletin-1807-02-08-eylau_s01_p15_s03",
+      "mipvu_ids": [
+        "napoleon-bulletin-1807-02-08-eylau_s01_p15_s03_lu002"
+      ],
+      "expression": "victoire",
+      "evidence_span": "La victoire, longtemps incertaine, fut décidée et gagnée lorsque le maréchal Davout déboucha sur le plateau et déborda l'ennemi, qui, après avoir fait de vains efforts pour le reprendre, battit en retraite.",
+      "source_domain_primary": "body",
+      "source_domain_secondary": [],
+      "target_domain": "military_virtue",
+      "conceptual_metaphor": "MILITARY VIRTUE IS BODY",
+      "entailments": [
+        "`victoire` is treated as an agent, possession, or hesitant outcome in battle narrative",
+        "Battle outcome is understood through personification and possession."
+      ],
+      "cluster_id": "napoleon-02-army-body",
+      "confidence": 0.76,
+      "rival_reading": "Victory is abstract but is described as hesitating, deciding, or belonging to an army.",
+      "justification": "MIPVU review rule '' marked 1 unit(s) as metaphor-related or uncertain in this sentence.",
+      "mapping_status": "provisional",
+      "rhetorical_salience": "medium",
+      "rhetorical_functions": [
+        "argument"
+      ],
+      "ideological_functions": [
+        "legitimation"
+      ]
+    },
+    {
+      "mapping_id": "napoleon-cmt-011",
+      "case_id": "napoleon",
+      "document_id": "napoleon-bulletin-1807-02-08-eylau",
+      "sentence_id": "napoleon-bulletin-1807-02-08-eylau_s01_p16_s06",
+      "mipvu_ids": [
+        "napoleon-bulletin-1807-02-08-eylau_s01_p16_s06_lu003",
+        "napoleon-bulletin-1807-02-08-eylau_s01_p16_s06_lu005"
+      ],
+      "expression": "morts / gloire",
+      "evidence_span": "Tous sont morts avec gloire.",
+      "source_domain_primary": "sacrifice",
+      "source_domain_secondary": [],
+      "target_domain": "war_death",
+      "conceptual_metaphor": "WAR DEATH IS SACRIFICE",
+      "entailments": [
+        "battle death and bloodshed are framed as produced, sown, or converted into glory-bearing cost",
+        "`gloire` frames military conduct or death as publicly radiant renown attached to soldiers or units",
+        "Battlefield violence is understood through production, sowing, and sacrificial blood cost."
+      ],
+      "cluster_id": "napoleon-05-soldier-sacrifice",
+      "confidence": 0.83,
+      "rival_reading": "Some death is literal, but the phrasing treats death as an output, seed, or glory-bearing sacrificial cost.",
+      "justification": "MIPVU review rule '' marked 2 unit(s) as metaphor-related or uncertain in this sentence.",
+      "mapping_status": "provisional",
+      "rhetorical_salience": "high",
+      "rhetorical_functions": [
+        "commemoration"
+      ],
+      "ideological_functions": [
+        "sacrifice"
+      ]
+    },
+    {
+      "mapping_id": "napoleon-cmt-012",
+      "case_id": "napoleon",
+      "document_id": "napoleon-bulletin-1807-02-08-eylau",
+      "sentence_id": "napoleon-bulletin-1807-02-08-eylau_s01_p17_s01",
+      "mipvu_ids": [
+        "napoleon-bulletin-1807-02-08-eylau_s01_p17_s01_lu053"
+      ],
+      "expression": "sang",
+      "evidence_span": "Ainsi l'expédition offensive de l'ennemi, qui avait pour but de se porter sur Thorn en débordant la gauche de la Grande Armée, lui a été funeste : 12 à 15,000 prisonniers, autant d'hommes hors de combat, 18 drapeaux, 45 pièces de canon, sont les trophées trop chèrement payés sans doute par le sang de tant de braves.",
+      "source_domain_primary": "sacrifice",
+      "source_domain_secondary": [],
+      "target_domain": "war_death",
+      "conceptual_metaphor": "WAR DEATH IS SACRIFICE",
+      "entailments": [
+        "battle death and bloodshed are framed as produced, sown, or converted into glory-bearing cost",
+        "Battlefield violence is understood through production, sowing, and sacrificial blood cost."
+      ],
+      "cluster_id": "napoleon-05-soldier-sacrifice",
+      "confidence": 0.8,
+      "rival_reading": "Some death is literal, but the phrasing treats death as an output, seed, or glory-bearing sacrificial cost.",
+      "justification": "MIPVU review rule '' marked 1 unit(s) as metaphor-related or uncertain in this sentence.",
+      "mapping_status": "provisional",
+      "rhetorical_salience": "high",
+      "rhetorical_functions": [
+        "commemoration"
+      ],
+      "ideological_functions": [
+        "sacrifice"
+      ]
+    },
+    {
+      "mapping_id": "napoleon-cmt-013",
+      "case_id": "napoleon",
+      "document_id": "napoleon-bulletin-1807-06-14-friedland",
+      "sentence_id": "napoleon-bulletin-1807-06-14-friedland_s01_p05_s01",
+      "mipvu_ids": [
+        "napoleon-bulletin-1807-06-14-friedland_s01_p05_s01_lu002"
+      ],
+      "expression": "fortune",
+      "evidence_span": "La fortune a souri à ce projet.",
+      "source_domain_primary": "body",
+      "source_domain_secondary": [],
+      "target_domain": "war_death",
+      "conceptual_metaphor": "WAR DEATH IS BODY",
+      "entailments": [
+        "fortune is treated as smiling or as a force whose chances test soldiers",
+        "Campaign outcome is understood through personified fortune."
+      ],
+      "cluster_id": "napoleon-02-army-body",
+      "confidence": 0.74,
+      "rival_reading": "Fortune does not literally smile or act like a human force.",
+      "justification": "MIPVU review rule '' marked 1 unit(s) as metaphor-related or uncertain in this sentence.",
+      "mapping_status": "provisional",
+      "rhetorical_salience": "medium",
+      "rhetorical_functions": [
+        "argument"
+      ],
+      "ideological_functions": [
+        "legitimation"
+      ]
+    },
+    {
+      "mapping_id": "napoleon-cmt-014",
+      "case_id": "napoleon",
+      "document_id": "napoleon-bulletin-1807-06-14-friedland",
+      "sentence_id": "napoleon-bulletin-1807-06-14-friedland_s01_p25_s02",
+      "mipvu_ids": [
+        "napoleon-bulletin-1807-06-14-friedland_s01_p25_s02_lu002"
+      ],
+      "expression": "victoire",
+      "evidence_span": "La victoire n'a pas hésité un seul instant.",
+      "source_domain_primary": "body",
+      "source_domain_secondary": [],
+      "target_domain": "military_virtue",
+      "conceptual_metaphor": "MILITARY VIRTUE IS BODY",
+      "entailments": [
+        "`victoire` is treated as an agent, possession, or hesitant outcome in battle narrative",
+        "Battle outcome is understood through personification and possession."
+      ],
+      "cluster_id": "napoleon-02-army-body",
+      "confidence": 0.76,
+      "rival_reading": "Victory is abstract but is described as hesitating, deciding, or belonging to an army.",
+      "justification": "MIPVU review rule '' marked 1 unit(s) as metaphor-related or uncertain in this sentence.",
+      "mapping_status": "provisional",
+      "rhetorical_salience": "medium",
+      "rhetorical_functions": [
+        "argument"
+      ],
+      "ideological_functions": [
+        "legitimation"
+      ]
+    },
+    {
+      "mapping_id": "napoleon-cmt-015",
+      "case_id": "napoleon",
+      "document_id": "napoleon-bulletin-1809-07-08-wagram",
+      "sentence_id": "napoleon-bulletin-1809-07-08-wagram_s01_p43_s05",
+      "mipvu_ids": [
+        "napoleon-bulletin-1809-07-08-wagram_s01_p43_s05_lu012"
+      ],
+      "expression": "gloire",
+      "evidence_span": "La division Broussier et la division Gudin se sont couvertes de gloire.",
+      "source_domain_primary": "light_darkness",
+      "source_domain_secondary": [],
+      "target_domain": "military_virtue",
+      "conceptual_metaphor": "MILITARY VIRTUE IS LIGHT DARKNESS",
+      "entailments": [
+        "`gloire` frames military conduct or death as publicly radiant renown attached to soldiers or units",
+        "Military action and death are understood through fame as covering, radiance, or honor-bearing accompaniment."
+      ],
+      "cluster_id": "napoleon-01-glory-destiny",
+      "confidence": 0.86,
+      "rival_reading": "Glory is not a physical covering or companion, but the French phrasing treats it as something one is covered with or dies with.",
+      "justification": "MIPVU review rule '' marked 1 unit(s) as metaphor-related or uncertain in this sentence.",
+      "mapping_status": "provisional",
+      "rhetorical_salience": "high",
+      "rhetorical_functions": [
+        "argument"
+      ],
+      "ideological_functions": [
+        "legitimation"
+      ]
+    },
+    {
+      "mapping_id": "napoleon-cmt-016",
+      "case_id": "napoleon",
+      "document_id": "napoleon-bulletin-1809-07-08-wagram",
+      "sentence_id": "napoleon-bulletin-1809-07-08-wagram_s01_p44_s01",
+      "mipvu_ids": [
+        "napoleon-bulletin-1809-07-08-wagram_s01_p44_s01_lu024"
+      ],
+      "expression": "victoire",
+      "evidence_span": "Il n'était alors que dix heures du matin, et les hommes les moins clairvoyants voyaient que la journée était décidée et que la victoire était à nous.",
+      "source_domain_primary": "body",
+      "source_domain_secondary": [],
+      "target_domain": "military_virtue",
+      "conceptual_metaphor": "MILITARY VIRTUE IS BODY",
+      "entailments": [
+        "`victoire` is treated as an agent, possession, or hesitant outcome in battle narrative",
+        "Battle outcome is understood through personification and possession."
+      ],
+      "cluster_id": "napoleon-02-army-body",
+      "confidence": 0.76,
+      "rival_reading": "Victory is abstract but is described as hesitating, deciding, or belonging to an army.",
+      "justification": "MIPVU review rule '' marked 1 unit(s) as metaphor-related or uncertain in this sentence.",
+      "mapping_status": "provisional",
+      "rhetorical_salience": "medium",
+      "rhetorical_functions": [
+        "argument"
+      ],
+      "ideological_functions": [
+        "legitimation"
+      ]
+    },
+    {
+      "mapping_id": "napoleon-cmt-017",
+      "case_id": "napoleon",
+      "document_id": "napoleon-bulletin-1809-07-08-wagram",
+      "sentence_id": "napoleon-bulletin-1809-07-08-wagram_s01_p53_s04",
+      "mipvu_ids": [
+        "napoleon-bulletin-1809-07-08-wagram_s01_p53_s04_lu006"
+      ],
+      "expression": "gloire",
+      "evidence_span": "Ce régiment s'est couvert dé gloire.",
+      "source_domain_primary": "light_darkness",
+      "source_domain_secondary": [],
+      "target_domain": "military_virtue",
+      "conceptual_metaphor": "MILITARY VIRTUE IS LIGHT DARKNESS",
+      "entailments": [
+        "`gloire` frames military conduct or death as publicly radiant renown attached to soldiers or units",
+        "Military action and death are understood through fame as covering, radiance, or honor-bearing accompaniment."
+      ],
+      "cluster_id": "napoleon-01-glory-destiny",
+      "confidence": 0.86,
+      "rival_reading": "Glory is not a physical covering or companion, but the French phrasing treats it as something one is covered with or dies with.",
+      "justification": "MIPVU review rule '' marked 1 unit(s) as metaphor-related or uncertain in this sentence.",
+      "mapping_status": "provisional",
+      "rhetorical_salience": "high",
+      "rhetorical_functions": [
+        "argument"
+      ],
+      "ideological_functions": [
+        "legitimation"
+      ]
+    },
+    {
+      "mapping_id": "napoleon-cmt-018",
+      "case_id": "napoleon",
+      "document_id": "napoleon-bulletin-1812-12-03-russia-29th",
+      "sentence_id": "napoleon-bulletin-1812-12-03-russia-29th_s01_p09_s04",
+      "mipvu_ids": [
+        "napoleon-bulletin-1812-12-03-russia-29th_s01_p09_s04_lu023"
+      ],
+      "expression": "fortune",
+      "evidence_span": "Des hommes que la nature n'a pas trempés assez fortement pour être au-dessus de toutes les chances du sort et de la fortune parurent ébranlés, perdirent leur gaieté, leur bonne humeur, et ne rêvèrent que malheurs et catastrophes; ceux qu'elle a créés supérieurs à tout conservèrent leur gaieté et leurs manières ordinaires, et virent une nouvelle gloire dans des difficultés différentes à surmonter.",
+      "source_domain_primary": "body",
+      "source_domain_secondary": [],
+      "target_domain": "war_death",
+      "conceptual_metaphor": "WAR DEATH IS BODY",
+      "entailments": [
+        "fortune is treated as smiling or as a force whose chances test soldiers",
+        "Campaign outcome is understood through personified fortune."
+      ],
+      "cluster_id": "napoleon-02-army-body",
+      "confidence": 0.74,
+      "rival_reading": "Fortune does not literally smile or act like a human force.",
+      "justification": "MIPVU review rule '' marked 1 unit(s) as metaphor-related or uncertain in this sentence.",
+      "mapping_status": "provisional",
+      "rhetorical_salience": "medium",
+      "rhetorical_functions": [
+        "argument"
+      ],
+      "ideological_functions": [
+        "legitimation"
+      ]
+    },
+    {
+      "mapping_id": "napoleon-cmt-019",
+      "case_id": "napoleon",
+      "document_id": "napoleon-bulletin-1813-05-24-bautzen",
+      "sentence_id": "napoleon-bulletin-1813-05-24-bautzen_s01_p25_s03",
+      "mipvu_ids": [
+        "napoleon-bulletin-1813-05-24-bautzen_s01_p25_s03_lu008"
+      ],
+      "expression": "destin",
+      "evidence_span": "Déjà toutes ses dispositions étaient changées : le destin de la bataille ne devait plus se décider derrière ses retranchements; ses immenses travaux et 3oo redoutes devenaient inutiles; la droite de sa position, qui était opposée au 4e corps, devenait son centre, et il était obligé de jeter sa droite, qui formait une bonne partie de son armée, pour l'opposer au prince de la Moskova, dans un lieu qu'il n'avait pas étudié et qu'il croyait hors de sa position.",
+      "source_domain_primary": "journey_motion",
+      "source_domain_secondary": [],
+      "target_domain": "war_death",
+      "conceptual_metaphor": "WAR DEATH IS JOURNEY MOTION",
+      "entailments": [
+        "the battle's outcome is framed as a destiny to be decided",
+        "Battle outcome is understood through destiny/fate."
+      ],
+      "cluster_id": "napoleon-06-enemy-obstacle",
+      "confidence": 0.7,
+      "rival_reading": "A battle does not literally possess destiny, but the outcome is construed as fate-like.",
+      "justification": "MIPVU review rule '' marked 1 unit(s) as metaphor-related or uncertain in this sentence.",
+      "mapping_status": "provisional",
+      "rhetorical_salience": "medium",
+      "rhetorical_functions": [
+        "argument"
+      ],
+      "ideological_functions": [
+        "legitimation"
+      ]
+    }
+  ]
+}

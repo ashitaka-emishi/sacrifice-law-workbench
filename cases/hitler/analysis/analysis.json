@@ -1,23 +1,232 @@
 {
   "version": "1.0",
   "case_id": "hitler",
-  "generated_at": "2026-05-05T02:40:26",
-  "status": "stub",
-  "total_instances": 0,
+  "generated_at": "2026-06-17T01:08:24",
+  "status": "complete",
+  "total_instances": 65,
+  "mipvu_profile": {
+    "mipvu_files": 8,
+    "total_lexical_units": 86752,
+    "reviewed_lexical_units": 86752,
+    "pending_lexical_units": 0,
+    "confirmed_metaphor_units": 66,
+    "metaphor_or_uncertain_units": 70,
+    "metaphor_rate_confirmed": 0.0008,
+    "metaphor_rate_including_uncertain": 0.0008,
+    "reviewed_metaphor_rate_confirmed": 0.0008,
+    "reviewed_metaphor_rate_including_uncertain": 0.0008,
+    "by_document": {
+      "hitler-mein-kampf-vol2-ch2-the-state": 18007,
+      "hitler-mein-kampf-vol1-ch11-race-and-people": 15862,
+      "hitler-mein-kampf-vol1-ch2-wien": 15688,
+      "hitler-mein-kampf-vol1-ch12-nsdap": 12833,
+      "hitler-mein-kampf-vol2-ch14-eastern-europe": 9333,
+      "hitler-reichstag-1939-01-30": 7705,
+      "hitler-mein-kampf-vol2-ch1-weltanschauung": 4306,
+      "hitler-ussr-proclamation-1941-06-22": 3018
+    },
+    "by_register": {
+      "autobiography-political-polemic": 76029,
+      "political-speech": 10723
+    },
+    "by_language": {
+      "de": 86752
+    },
+    "by_decision_type": {
+      "non_metaphor": 86682,
+      "mipvu_indirect": 63,
+      "uncertain": 4,
+      "mipvu_personification": 3
+    },
+    "by_confidence": {
+      "missing": 86682,
+      "medium": 66,
+      "low": 4
+    }
+  },
+  "cmt_profile": {
+    "mapping_file": "corpus/cmt/cmt-mappings.json",
+    "mapping_count": 65,
+    "by_cluster": {
+      "hitler-01-volk-racial-body": 40,
+      "hitler-03-jew-parasite-disease": 16,
+      "hitler-02-fuhrer-embodiment": 6,
+      "hitler-06-sacrifice-martyrdom": 3
+    },
+    "by_source_domain": {
+      "person_agency": 20,
+      "physical_destruction": 16,
+      "body": 13,
+      "nature_organism": 6,
+      "war_combat": 6,
+      "ritual_religion": 4
+    },
+    "by_target_domain": {
+      "purification": 18,
+      "racial_order": 15,
+      "racial_identity": 13,
+      "social_body": 9,
+      "sacrifice": 6,
+      "nation": 3,
+      "political_order": 1
+    },
+    "by_conceptual_metaphor": {
+      "PURIFICATION IS PHYSICAL DESTRUCTION": 16,
+      "RACIAL IDENTITY IS BODY": 13,
+      "SOCIAL BODY IS PERSON AGENCY": 9,
+      "RACIAL ORDER IS WAR COMBAT": 6,
+      "RACIAL ORDER IS PERSON AGENCY": 5,
+      "RACIAL ORDER IS NATURE ORGANISM": 4,
+      "NATION IS PERSON AGENCY": 3,
+      "SACRIFICE IS PERSON AGENCY": 3,
+      "SACRIFICE IS RITUAL RELIGION": 3,
+      "PURIFICATION IS NATURE ORGANISM": 2,
+      "POLITICAL ORDER IS RITUAL RELIGION": 1
+    },
+    "by_document": {
+      "hitler-mein-kampf-vol1-ch11-race-and-people": 29,
+      "hitler-mein-kampf-vol1-ch12-nsdap": 8,
+      "hitler-mein-kampf-vol2-ch14-eastern-europe": 8,
+      "hitler-mein-kampf-vol2-ch2-the-state": 7,
+      "hitler-mein-kampf-vol1-ch2-wien": 5,
+      "hitler-mein-kampf-vol2-ch1-weltanschauung": 3,
+      "hitler-ussr-proclamation-1941-06-22": 3,
+      "hitler-reichstag-1939-01-30": 2
+    },
+    "by_salience": {
+      "medium": 42,
+      "high": 23
+    },
+    "by_status": {
+      "provisional": 65
+    }
+  },
   "cluster_analyses": [
     {
       "cluster_id": "hitler-01-volk-racial-body",
       "cluster_name": "Volk / racial body",
       "status": "provisional",
-      "instance_count": 0,
-      "instance_ids": [],
-      "by_document": {},
+      "instance_count": 40,
+      "instance_ids": [
+        "hitler-ann-006",
+        "hitler-ann-008",
+        "hitler-ann-009",
+        "hitler-ann-010",
+        "hitler-ann-011",
+        "hitler-ann-012",
+        "hitler-ann-013",
+        "hitler-ann-014",
+        "hitler-ann-015",
+        "hitler-ann-018",
+        "hitler-ann-019",
+        "hitler-ann-020",
+        "hitler-ann-021",
+        "hitler-ann-022",
+        "hitler-ann-023",
+        "hitler-ann-024",
+        "hitler-ann-025",
+        "hitler-ann-026",
+        "hitler-ann-027",
+        "hitler-ann-029",
+        "hitler-ann-030",
+        "hitler-ann-031",
+        "hitler-ann-034",
+        "hitler-ann-035",
+        "hitler-ann-037",
+        "hitler-ann-038",
+        "hitler-ann-040",
+        "hitler-ann-041",
+        "hitler-ann-042",
+        "hitler-ann-001",
+        "hitler-ann-002",
+        "hitler-ann-003",
+        "hitler-ann-004",
+        "hitler-ann-005",
+        "hitler-ann-043",
+        "hitler-ann-057",
+        "hitler-ann-059",
+        "hitler-ann-060",
+        "hitler-ann-046",
+        "hitler-ann-065"
+      ],
+      "cmt_mapping_count": 40,
+      "cmt_mapping_ids": [
+        "hitler-cmt-001",
+        "hitler-cmt-002",
+        "hitler-cmt-003",
+        "hitler-cmt-004",
+        "hitler-cmt-005",
+        "hitler-cmt-006",
+        "hitler-cmt-008",
+        "hitler-cmt-009",
+        "hitler-cmt-010",
+        "hitler-cmt-011",
+        "hitler-cmt-012",
+        "hitler-cmt-013",
+        "hitler-cmt-014",
+        "hitler-cmt-015",
+        "hitler-cmt-018",
+        "hitler-cmt-019",
+        "hitler-cmt-020",
+        "hitler-cmt-021",
+        "hitler-cmt-022",
+        "hitler-cmt-023",
+        "hitler-cmt-024",
+        "hitler-cmt-025",
+        "hitler-cmt-026",
+        "hitler-cmt-027",
+        "hitler-cmt-029",
+        "hitler-cmt-030",
+        "hitler-cmt-031",
+        "hitler-cmt-034",
+        "hitler-cmt-035",
+        "hitler-cmt-037",
+        "hitler-cmt-038",
+        "hitler-cmt-040",
+        "hitler-cmt-041",
+        "hitler-cmt-042",
+        "hitler-cmt-043",
+        "hitler-cmt-046",
+        "hitler-cmt-057",
+        "hitler-cmt-059",
+        "hitler-cmt-060",
+        "hitler-cmt-065"
+      ],
+      "cmt_source_domains": {
+        "person_agency": 14,
+        "body": 13,
+        "nature_organism": 6,
+        "war_combat": 6,
+        "ritual_religion": 1
+      },
+      "cmt_target_domains": {
+        "racial_order": 15,
+        "racial_identity": 13,
+        "social_body": 9,
+        "purification": 2,
+        "political_order": 1
+      },
+      "rhetorical_salience_distribution": {
+        "high": 20,
+        "medium": 20
+      },
+      "by_document": {
+        "hitler-mein-kampf-vol1-ch11-race-and-people": 23,
+        "hitler-mein-kampf-vol1-ch12-nsdap": 6,
+        "hitler-mein-kampf-vol1-ch2-wien": 5,
+        "hitler-mein-kampf-vol2-ch14-eastern-europe": 3,
+        "hitler-mein-kampf-vol2-ch1-weltanschauung": 1,
+        "hitler-mein-kampf-vol2-ch2-the-state": 1,
+        "hitler-ussr-proclamation-1941-06-22": 1
+      },
       "by_register": {},
       "koenigsberg_profile": {
         "fantasy_type_distribution": {},
-        "violence_logic_distribution": {},
-        "obligatory_frame_rate": null,
-        "sacrificial_economy_rate": null,
+        "violence_logic_distribution": {
+          "True": 8
+        },
+        "obligatory_frame_rate": 0.0,
+        "sacrificial_economy_rate": 0.0,
         "absence_flags_distribution": {}
       },
       "analyst_notes": null,
@@ -28,15 +237,48 @@
       "cluster_id": "hitler-02-fuhrer-embodiment",
       "cluster_name": "Führer embodiment",
       "status": "provisional",
-      "instance_count": 0,
-      "instance_ids": [],
-      "by_document": {},
+      "instance_count": 6,
+      "instance_ids": [
+        "hitler-ann-028",
+        "hitler-ann-036",
+        "hitler-ann-054",
+        "hitler-ann-058",
+        "hitler-ann-048",
+        "hitler-ann-049"
+      ],
+      "cmt_mapping_count": 6,
+      "cmt_mapping_ids": [
+        "hitler-cmt-028",
+        "hitler-cmt-036",
+        "hitler-cmt-048",
+        "hitler-cmt-049",
+        "hitler-cmt-054",
+        "hitler-cmt-058"
+      ],
+      "cmt_source_domains": {
+        "person_agency": 6
+      },
+      "cmt_target_domains": {
+        "nation": 3,
+        "sacrifice": 3
+      },
+      "rhetorical_salience_distribution": {
+        "medium": 6
+      },
+      "by_document": {
+        "hitler-mein-kampf-vol2-ch14-eastern-europe": 2,
+        "hitler-mein-kampf-vol2-ch2-the-state": 2,
+        "hitler-mein-kampf-vol1-ch11-race-and-people": 1,
+        "hitler-mein-kampf-vol1-ch12-nsdap": 1
+      },
       "by_register": {},
       "koenigsberg_profile": {
-        "fantasy_type_distribution": {},
+        "fantasy_type_distribution": {
+          "redemptive_sacrifice": 3
+        },
         "violence_logic_distribution": {},
-        "obligatory_frame_rate": null,
-        "sacrificial_economy_rate": null,
+        "obligatory_frame_rate": 0.0,
+        "sacrificial_economy_rate": 0.5,
         "absence_flags_distribution": {}
       },
       "analyst_notes": null,
@@ -47,15 +289,70 @@
       "cluster_id": "hitler-03-jew-parasite-disease",
       "cluster_name": "Jew/enemy as parasite / disease / poison",
       "status": "provisional",
-      "instance_count": 0,
-      "instance_ids": [],
-      "by_document": {},
+      "instance_count": 16,
+      "instance_ids": [
+        "hitler-ann-016",
+        "hitler-ann-017",
+        "hitler-ann-039",
+        "hitler-ann-044",
+        "hitler-ann-045",
+        "hitler-ann-053",
+        "hitler-ann-055",
+        "hitler-ann-056",
+        "hitler-ann-047",
+        "hitler-ann-050",
+        "hitler-ann-051",
+        "hitler-ann-052",
+        "hitler-ann-061",
+        "hitler-ann-062",
+        "hitler-ann-063",
+        "hitler-ann-064"
+      ],
+      "cmt_mapping_count": 16,
+      "cmt_mapping_ids": [
+        "hitler-cmt-016",
+        "hitler-cmt-017",
+        "hitler-cmt-039",
+        "hitler-cmt-044",
+        "hitler-cmt-045",
+        "hitler-cmt-047",
+        "hitler-cmt-050",
+        "hitler-cmt-051",
+        "hitler-cmt-052",
+        "hitler-cmt-053",
+        "hitler-cmt-055",
+        "hitler-cmt-056",
+        "hitler-cmt-061",
+        "hitler-cmt-062",
+        "hitler-cmt-063",
+        "hitler-cmt-064"
+      ],
+      "cmt_source_domains": {
+        "physical_destruction": 16
+      },
+      "cmt_target_domains": {
+        "purification": 16
+      },
+      "rhetorical_salience_distribution": {
+        "medium": 16
+      },
+      "by_document": {
+        "hitler-mein-kampf-vol2-ch2-the-state": 4,
+        "hitler-mein-kampf-vol2-ch14-eastern-europe": 3,
+        "hitler-mein-kampf-vol1-ch11-race-and-people": 2,
+        "hitler-mein-kampf-vol2-ch1-weltanschauung": 2,
+        "hitler-reichstag-1939-01-30": 2,
+        "hitler-ussr-proclamation-1941-06-22": 2,
+        "hitler-mein-kampf-vol1-ch12-nsdap": 1
+      },
       "by_register": {},
       "koenigsberg_profile": {
         "fantasy_type_distribution": {},
-        "violence_logic_distribution": {},
-        "obligatory_frame_rate": null,
-        "sacrificial_economy_rate": null,
+        "violence_logic_distribution": {
+          "True": 16
+        },
+        "obligatory_frame_rate": 0.0,
+        "sacrificial_economy_rate": 0.0,
         "absence_flags_distribution": {}
       },
       "analyst_notes": null,
@@ -68,6 +365,11 @@
       "status": "provisional",
       "instance_count": 0,
       "instance_ids": [],
+      "cmt_mapping_count": 0,
+      "cmt_mapping_ids": [],
+      "cmt_source_domains": {},
+      "cmt_target_domains": {},
+      "rhetorical_salience_distribution": {},
       "by_document": {},
       "by_register": {},
       "koenigsberg_profile": {
@@ -87,6 +389,11 @@
       "status": "provisional",
       "instance_count": 0,
       "instance_ids": [],
+      "cmt_mapping_count": 0,
+      "cmt_mapping_ids": [],
+      "cmt_source_domains": {},
+      "cmt_target_domains": {},
+      "rhetorical_salience_distribution": {},
       "by_document": {},
       "by_register": {},
       "koenigsberg_profile": {
@@ -104,15 +411,38 @@
       "cluster_id": "hitler-06-sacrifice-martyrdom",
       "cluster_name": "Sacrifice / martyrdom / blood witness",
       "status": "provisional",
-      "instance_count": 0,
-      "instance_ids": [],
-      "by_document": {},
+      "instance_count": 3,
+      "instance_ids": [
+        "hitler-ann-007",
+        "hitler-ann-032",
+        "hitler-ann-033"
+      ],
+      "cmt_mapping_count": 3,
+      "cmt_mapping_ids": [
+        "hitler-cmt-007",
+        "hitler-cmt-032",
+        "hitler-cmt-033"
+      ],
+      "cmt_source_domains": {
+        "ritual_religion": 3
+      },
+      "cmt_target_domains": {
+        "sacrifice": 3
+      },
+      "rhetorical_salience_distribution": {
+        "high": 3
+      },
+      "by_document": {
+        "hitler-mein-kampf-vol1-ch11-race-and-people": 3
+      },
       "by_register": {},
       "koenigsberg_profile": {
-        "fantasy_type_distribution": {},
+        "fantasy_type_distribution": {
+          "redemptive_sacrifice": 3
+        },
         "violence_logic_distribution": {},
-        "obligatory_frame_rate": null,
-        "sacrificial_economy_rate": null,
+        "obligatory_frame_rate": 0.0,
+        "sacrificial_economy_rate": 1.0,
         "absence_flags_distribution": {}
       },
       "analyst_notes": null,
@@ -125,6 +455,11 @@
       "status": "provisional",
       "instance_count": 0,
       "instance_ids": [],
+      "cmt_mapping_count": 0,
+      "cmt_mapping_ids": [],
+      "cmt_source_domains": {},
+      "cmt_target_domains": {},
+      "rhetorical_salience_distribution": {},
       "by_document": {},
       "by_register": {},
       "koenigsberg_profile": {
@@ -144,6 +479,11 @@
       "status": "provisional",
       "instance_count": 0,
       "instance_ids": [],
+      "cmt_mapping_count": 0,
+      "cmt_mapping_ids": [],
+      "cmt_source_domains": {},
+      "cmt_target_domains": {},
+      "rhetorical_salience_distribution": {},
       "by_document": {},
       "by_register": {},
       "koenigsberg_profile": {
@@ -159,19 +499,90 @@
     }
   ],
   "corpus_profile": {
-    "by_document": {},
+    "by_document": {
+      "hitler-mein-kampf-vol1-ch11-race-and-people": 29,
+      "hitler-mein-kampf-vol1-ch12-nsdap": 8,
+      "hitler-mein-kampf-vol2-ch14-eastern-europe": 8,
+      "hitler-mein-kampf-vol2-ch2-the-state": 7,
+      "hitler-mein-kampf-vol1-ch2-wien": 5,
+      "hitler-mein-kampf-vol2-ch1-weltanschauung": 3,
+      "hitler-ussr-proclamation-1941-06-22": 3,
+      "hitler-reichstag-1939-01-30": 2
+    },
     "by_register": {},
-    "by_cluster": {},
-    "by_fantasy_type": {},
-    "by_violence_logic": {},
-    "by_absence_flag": {}
+    "by_cluster": {
+      "hitler-01-volk-racial-body": 40,
+      "hitler-03-jew-parasite-disease": 16,
+      "hitler-02-fuhrer-embodiment": 6,
+      "hitler-06-sacrifice-martyrdom": 3
+    },
+    "by_fantasy_type": {
+      "redemptive_sacrifice": 6
+    },
+    "by_violence_logic": {
+      "True": 24
+    },
+    "by_absence_flag": {},
+    "cmt_denominator": {
+      "mapping_count": 65,
+      "by_cluster": {
+        "hitler-01-volk-racial-body": 40,
+        "hitler-03-jew-parasite-disease": 16,
+        "hitler-02-fuhrer-embodiment": 6,
+        "hitler-06-sacrifice-martyrdom": 3
+      },
+      "by_source_domain": {
+        "person_agency": 20,
+        "physical_destruction": 16,
+        "body": 13,
+        "nature_organism": 6,
+        "war_combat": 6,
+        "ritual_religion": 4
+      },
+      "by_target_domain": {
+        "purification": 18,
+        "racial_order": 15,
+        "racial_identity": 13,
+        "social_body": 9,
+        "sacrifice": 6,
+        "nation": 3,
+        "political_order": 1
+      },
+      "by_conceptual_metaphor": {
+        "PURIFICATION IS PHYSICAL DESTRUCTION": 16,
+        "RACIAL IDENTITY IS BODY": 13,
+        "SOCIAL BODY IS PERSON AGENCY": 9,
+        "RACIAL ORDER IS WAR COMBAT": 6,
+        "RACIAL ORDER IS PERSON AGENCY": 5,
+        "RACIAL ORDER IS NATURE ORGANISM": 4,
+        "NATION IS PERSON AGENCY": 3,
+        "SACRIFICE IS PERSON AGENCY": 3,
+        "SACRIFICE IS RITUAL RELIGION": 3,
+        "PURIFICATION IS NATURE ORGANISM": 2,
+        "POLITICAL ORDER IS RITUAL RELIGION": 1
+      },
+      "by_salience": {
+        "medium": 42,
+        "high": 23
+      }
+    },
+    "mipvu_denominator": {
+      "total_lexical_units": 86752,
+      "reviewed_lexical_units": 86752,
+      "confirmed_metaphor_units": 66,
+      "metaphor_or_uncertain_units": 70,
+      "metaphor_rate_confirmed": 0.0008,
+      "metaphor_rate_including_uncertain": 0.0008,
+      "reviewed_metaphor_rate_confirmed": 0.0008,
+      "reviewed_metaphor_rate_including_uncertain": 0.0008
+    }
   },
   "errors": [],
   "pipeline_log": [
     {
       "stage": "run-case-analysis",
       "script": "scripts/run-case-analysis.py",
-      "generated_at": "2026-05-05T02:40:26"
+      "generated_at": "2026-06-17T01:08:24"
     }
   ]
 }

@@ -1,0 +1,46 @@
+{
+  "version": "1.0",
+  "case_id": "napoleon",
+  "document_id": "napoleon-bulletin-1812-12-03-russia-29th",
+  "generated_at": "2026-06-17T01:07:47",
+  "generator": "scripts/generate-annotation-layer.py",
+  "annotation_policy": "CMT and Koenigsbergian annotations derived from MIPVU-reviewed metaphorical and uncertain lexical units. Each instance cites at least one MIPVU ID with decision_type in METAPHOR_DECISIONS.",
+  "instances": [
+    {
+      "instance_id": "napoleon-ann-018",
+      "case_id": "napoleon",
+      "document_id": "napoleon-bulletin-1812-12-03-russia-29th",
+      "sentence_id": "napoleon-bulletin-1812-12-03-russia-29th_s01_p09_s04",
+      "span_text": "fortune",
+      "mipvu_ids": [
+        "napoleon-bulletin-1812-12-03-russia-29th_s01_p09_s04_lu023"
+      ],
+      "cmt": {
+        "mapping_id": "napoleon-cmt-018",
+        "cluster_id": "napoleon-02-army-body",
+        "source_domain_primary": "body",
+        "source_domain_secondary": [],
+        "target_domain": "war_death",
+        "conceptual_metaphor": "WAR DEATH IS BODY",
+        "entailments": [
+          "fortune is treated as smiling or as a force whose chances test soldiers",
+          "Campaign outcome is understood through personified fortune."
+        ],
+        "confidence": 0.74,
+        "rival_reading": "Fortune does not literally smile or act like a human force.",
+        "justification": "MIPVU review rule '' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
+      },
+      "koenigsberg": {
+        "violence_logic": true,
+        "sacrificial_economy": true
+      },
+      "meta": {
+        "confidence": 0.74,
+        "ambiguity_flag": false,
+        "suppression_flag": false
+      },
+      "gloss_en": "fortune",
+      "gloss_notes": "French `fortune` can mean luck, fate, or fortune; mapping should preserve the range."
+    }
+  ]
+}

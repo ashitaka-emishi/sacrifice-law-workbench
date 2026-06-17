@@ -4,7 +4,7 @@ title: Address Before the Young Men's Lyceum of Springfield, Illinois
 short_title: Lyceum Address
 date: '1838-01-27'
 date_precision: day
-register: political-speech
+register: public-address
 authorship: Abraham Lincoln
 source_url: https://www.gutenberg.org/ebooks/3253
 source_citation: 'Project Gutenberg EBook #3253 — The Papers and Writings of Abraham
@@ -18,12 +18,38 @@ verification:
   required_phrases:
   - mobocratic spirit
   - Perpetuation of Our Political Institutions
+source_registry_id: lincoln-src-01-lyceum-address
+period: early-republican-rhetoric
+phase: pre-war-union-republic-language
+genre: public address
+source_edition: 'Project Gutenberg EBook #3253, extracted from The Papers and Writings
+  of Abraham Lincoln, Complete, Constitutional Edition, ed. Arthur Brooks Lapsley'
+source_archive: Project Gutenberg
+authorship_confidence: 1.0
+editorial_status: public-domain transcription with Gutenberg header/footer stripped;
+  Lapsley date error retained in body but corrected in metadata
+editorial_notes: The raw body prints January 27, 1837 following the Lapsley/Gutenberg
+  source. Project metadata uses 1838-01-27, following Basler, Collected Works vol.
+  1, p. 108.
+inclusion_rationale: Early benchmark for Lincoln on political institutions, inherited
+  republican obligation, law, mob violence, and the transition from revolutionary
+  memory to civic reverence.
+risk_flags:
+- source-date-error-in-body
+corpus_layer: balanced-core
+source_language: en
+annotation_language_policy: source-language
+storage_policy: committed
+structural_encoding: single body section segmented into stable paragraph, sentence,
+  and lexical-unit identifiers
+known_limitations: Gutenberg/Lapsley transcription is adequate for pilot annotation
+  but should be cross-checked against Basler before publication-level quotation.
 case_id: lincoln
 raw_path: corpus/raw/lincoln-src-01-lyceum-address.txt
 pipeline_log:
 - stage: normalize-texts
   script: scripts/normalize-texts.py
-  generated_at: '2026-06-14T21:24:35'
+  generated_at: '2026-06-17T01:08:24'
 ---
 
 ADDRESS BEFORE THE YOUNG MEN'S LYCEUM OF SPRINGFIELD, ILLINOIS.

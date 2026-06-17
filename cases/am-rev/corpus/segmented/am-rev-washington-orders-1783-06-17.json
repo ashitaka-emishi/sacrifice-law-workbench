@@ -14,16 +14,20 @@
     "rights_status": "public-domain",
     "expected_raw_path": "corpus/raw/am-rev-src-03-washington-general-orders/washington-orders-1783-06-17-wars-end.txt",
     "analytical_priority": "primary",
-    "risk_flags": [
-      "wrong-document-in-file — re-download needed from Founders Online"
-    ],
+    "verification": {
+      "min_words": 1300,
+      "required_phrases": [
+        "Rocky Hill, near Princeton",
+        "Farewell Orders issued to the Armies"
+      ]
+    },
     "case_id": "am-rev",
     "raw_path": "corpus/raw/am-rev-src-03-washington-general-orders/washington-orders-1783-06-17-wars-end.txt",
     "pipeline_log": [
       {
         "stage": "normalize-texts",
         "script": "scripts/normalize-texts.py",
-        "generated_at": "2026-06-13T20:41:16"
+        "generated_at": "2026-06-17T01:08:21"
       }
     ]
   },
@@ -40,22 +44,11 @@
             {
               "sentence_id": "am-rev-washington-orders-1783-06-17_s01_p01_s01",
               "sentence_ordinal": 1,
-              "text": "Skip navigation.",
+              "text": "Washington's Farewell Address to the Army, 2 November 1783",
               "word_offset_start": 0,
-              "word_offset_end": 2,
+              "word_offset_end": 9,
               "char_offset_start": 0,
-              "char_offset_end": 16,
-              "authorship_note": null,
-              "metaphor_instances": []
-            },
-            {
-              "sentence_id": "am-rev-washington-orders-1783-06-17_s01_p01_s02",
-              "sentence_ordinal": 2,
-              "text": "Go to main content.",
-              "word_offset_start": 2,
-              "word_offset_end": 6,
-              "char_offset_start": 17,
-              "char_offset_end": 36,
+              "char_offset_end": 58,
               "authorship_note": null,
               "metaphor_instances": []
             }
@@ -68,11 +61,11 @@
             {
               "sentence_id": "am-rev-washington-orders-1783-06-17_s01_p02_s01",
               "sentence_ordinal": 1,
-              "text": "Archives.gov Home",
-              "word_offset_start": 6,
-              "word_offset_end": 8,
-              "char_offset_start": 38,
-              "char_offset_end": 55,
+              "text": "2 November 1783",
+              "word_offset_start": 9,
+              "word_offset_end": 12,
+              "char_offset_start": 60,
+              "char_offset_end": 75,
               "authorship_note": null,
               "metaphor_instances": []
             }
@@ -85,11 +78,11 @@
             {
               "sentence_id": "am-rev-washington-orders-1783-06-17_s01_p03_s01",
               "sentence_ordinal": 1,
-              "text": "About Founders Online",
-              "word_offset_start": 8,
-              "word_offset_end": 11,
-              "char_offset_start": 57,
-              "char_offset_end": 78,
+              "text": "Genll Washington's Farewell Orders issued to the Armies of the United States of America the 2d day of Novr 1783 Rocky Hill, near Princeton",
+              "word_offset_start": 12,
+              "word_offset_end": 36,
+              "char_offset_start": 77,
+              "char_offset_end": 215,
               "authorship_note": null,
               "metaphor_instances": []
             }
@@ -102,11 +95,11 @@
             {
               "sentence_id": "am-rev-washington-orders-1783-06-17_s01_p04_s01",
               "sentence_ordinal": 1,
-              "text": "Contact Us",
-              "word_offset_start": 11,
-              "word_offset_end": 13,
-              "char_offset_start": 80,
-              "char_offset_end": 90,
+              "text": "The United States in Congress assembled, after giving the most honorable testimony to the Merits of the Federal Armies, and presenting them with the thanks of their Country for their long, eminent and faithful Services, having thought proper, by their Proclamation bearing date the 18th day of October last, to discharge such part of the Troops as were engaged for the War, and to permit the Officers on Furlough to retire from Service from and after tomorrow, which Proclamation having been communicated in the public papers for the information and government of all concerned. it only remains for the Commander in Chief to address himself once more, and that for the last time, to the Armies of the United States (however widely dispersed the Individuals who composed them may be) and to bid them an affectionate—a long farewell.",
+              "word_offset_start": 36,
+              "word_offset_end": 174,
+              "char_offset_start": 217,
+              "char_offset_end": 1048,
               "authorship_note": null,
               "metaphor_instances": []
             }
@@ -119,11 +112,11 @@
             {
               "sentence_id": "am-rev-washington-orders-1783-06-17_s01_p05_s01",
               "sentence_ordinal": 1,
-              "text": "Founders Online",
-              "word_offset_start": 13,
-              "word_offset_end": 15,
-              "char_offset_start": 92,
-              "char_offset_end": 107,
+              "text": "But before the Commander in Chief takes his final leave of those he holds most dear, he wishes to indulge himself a few moments in calling to mind a slight review of the past—He will then take the liberty of exploring with his Military friends their future prospects, of advising the general line of conduct which in his opinion ought to be persued, and he will conclude the Address, by expressing the obligations he feels himself under for the spirited and able assistance he has experienced from them, in the performance of an arduous office.",
+              "word_offset_start": 174,
+              "word_offset_end": 269,
+              "char_offset_start": 1050,
+              "char_offset_end": 1594,
               "authorship_note": null,
               "metaphor_instances": []
             }
@@ -136,11 +129,11 @@
             {
               "sentence_id": "am-rev-washington-orders-1783-06-17_s01_p06_s01",
               "sentence_ordinal": 1,
-              "text": "[Back to normal view]",
-              "word_offset_start": 15,
-              "word_offset_end": 19,
-              "char_offset_start": 109,
-              "char_offset_end": 130,
+              "text": "A contemplation of the compleat attainment (at a period earlier than could have been expected) of the object for which we contended, against so formidable a power, cannot but inspire us with astonishment and gratitude—The disadvantageous circumstances on our part, under which the War was undertaken, can never be forgotten—The singular interpositions of Providence in our feeble condition were such, as could scarcely escape the attention of the most unobserving, while the unparalleled perseverence of the Armies of the United States, through almost every possible suffering and discouragement, for the space of eight long years, was little short of a standing Miracle.",
+              "word_offset_start": 269,
+              "word_offset_end": 371,
+              "char_offset_start": 1596,
+              "char_offset_end": 2267,
               "authorship_note": null,
               "metaphor_instances": []
             }
@@ -153,11 +146,66 @@
             {
               "sentence_id": "am-rev-washington-orders-1783-06-17_s01_p07_s01",
               "sentence_ordinal": 1,
-              "text": "George Washington Papers",
-              "word_offset_start": 19,
-              "word_offset_end": 22,
-              "char_offset_start": 132,
-              "char_offset_end": 156,
+              "text": "It is not the meaning nor within the compass of this Address, to detail the hardships peculiarly incident to our Service, or to discribe the distresses which in several instances have resulted from the extremes of hunger and nakedness, combined with the rigors of an inclement season.",
+              "word_offset_start": 371,
+              "word_offset_end": 418,
+              "char_offset_start": 2269,
+              "char_offset_end": 2553,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "am-rev-washington-orders-1783-06-17_s01_p07_s02",
+              "sentence_ordinal": 2,
+              "text": "Nor is it necessary to dwell on the dark side of our past affairs.",
+              "word_offset_start": 418,
+              "word_offset_end": 432,
+              "char_offset_start": 2554,
+              "char_offset_end": 2620,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "am-rev-washington-orders-1783-06-17_s01_p07_s03",
+              "sentence_ordinal": 3,
+              "text": "Every American Officer and Soldier must now console himself for any unpleasant circumstances which may have occurred, by a recollection of the uncommon scenes in which he has been called to act, no inglorious part; and the astonishing Events of which he has been a witness—Events which have seldom, if ever before, taken place on the stage of human action, nor can they probably ever happen again.",
+              "word_offset_start": 432,
+              "word_offset_end": 499,
+              "char_offset_start": 2621,
+              "char_offset_end": 3018,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "am-rev-washington-orders-1783-06-17_s01_p07_s04",
+              "sentence_ordinal": 4,
+              "text": "For who has before seen a disciplined Army formed at once from such raw materials?",
+              "word_offset_start": 499,
+              "word_offset_end": 514,
+              "char_offset_start": 3019,
+              "char_offset_end": 3101,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "am-rev-washington-orders-1783-06-17_s01_p07_s05",
+              "sentence_ordinal": 5,
+              "text": "Who that was not a witness could imagine, that the most violent local prejudices would cease so soon, and that Men who came from the different parts of the Continent, strongly disposed by the habits of education, to despise and quarrel with each other, would instantly become but one patriotic band of Brothers?",
+              "word_offset_start": 514,
+              "word_offset_end": 567,
+              "char_offset_start": 3102,
+              "char_offset_end": 3413,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "am-rev-washington-orders-1783-06-17_s01_p07_s06",
+              "sentence_ordinal": 6,
+              "text": "Or who that was not on the spot can trace the steps by which such a wonderful Revolution has been effected, and such a glorious period put to all our Warlike toils?",
+              "word_offset_start": 567,
+              "word_offset_end": 599,
+              "char_offset_start": 3414,
+              "char_offset_end": 3578,
               "authorship_note": null,
               "metaphor_instances": []
             }
@@ -170,11 +218,66 @@
             {
               "sentence_id": "am-rev-washington-orders-1783-06-17_s01_p08_s01",
               "sentence_ordinal": 1,
-              "text": "Permanent Link view",
-              "word_offset_start": 22,
-              "word_offset_end": 25,
-              "char_offset_start": 158,
-              "char_offset_end": 177,
+              "text": "It is universally acknowledged that the enlarged prospect of happiness, opened by the confirmation of our Independence and Sovereignty, almost exceeds the power of description.",
+              "word_offset_start": 599,
+              "word_offset_end": 624,
+              "char_offset_start": 3580,
+              "char_offset_end": 3756,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "am-rev-washington-orders-1783-06-17_s01_p08_s02",
+              "sentence_ordinal": 2,
+              "text": "And shall not the brave Men who have contributed so essentially to these inestimable acquisitions, retiring victorious from the Field of War, to the Field of Agriculture, participate in all the blessings which have been obtained?",
+              "word_offset_start": 624,
+              "word_offset_end": 660,
+              "char_offset_start": 3757,
+              "char_offset_end": 3986,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "am-rev-washington-orders-1783-06-17_s01_p08_s03",
+              "sentence_ordinal": 3,
+              "text": "In such a Republic, who will exclude them from the rights of Citizens and the fruits of their labours?",
+              "word_offset_start": 660,
+              "word_offset_end": 679,
+              "char_offset_start": 3987,
+              "char_offset_end": 4089,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "am-rev-washington-orders-1783-06-17_s01_p08_s04",
+              "sentence_ordinal": 4,
+              "text": "In such a Country so happily circumstanced, the persuits of Commerce and the cultivation of the Soil, will unfold to industry the certain road to competence.",
+              "word_offset_start": 679,
+              "word_offset_end": 705,
+              "char_offset_start": 4090,
+              "char_offset_end": 4247,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "am-rev-washington-orders-1783-06-17_s01_p08_s05",
+              "sentence_ordinal": 5,
+              "text": "To those hardy Soldiers, who are actuated by the spirit of adventure, the Fisheries will afford ample and profitable employment, and the extensive and fertile Regions of the West, will yield a most happy Asylum to those, who fond of domestic enjoyment, are seeking for personal independence.",
+              "word_offset_start": 705,
+              "word_offset_end": 752,
+              "char_offset_start": 4248,
+              "char_offset_end": 4539,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "am-rev-washington-orders-1783-06-17_s01_p08_s06",
+              "sentence_ordinal": 6,
+              "text": "Nor is it possible to conceive that any one of the United States will prefer a National Bankrupcy and a dissolution of the Union, to a compliance with the requisitions of Congress and the payment of its just debts—so that the Officers and Soldiers may expect considerable assistance in recommending their civil occupations, from the sums due to these from the Public, which must and will most inevitably be paid.",
+              "word_offset_start": 752,
+              "word_offset_end": 822,
+              "char_offset_start": 4540,
+              "char_offset_end": 4952,
               "authorship_note": null,
               "metaphor_instances": []
             }
@@ -187,11 +290,33 @@
             {
               "sentence_id": "am-rev-washington-orders-1783-06-17_s01_p09_s01",
               "sentence_ordinal": 1,
-              "text": "Start New Search",
-              "word_offset_start": 25,
-              "word_offset_end": 28,
-              "char_offset_start": 179,
-              "char_offset_end": 195,
+              "text": "In order to effect this desirable purpose, and to remove the prejudices which may have taken possession of the Minds of any of the good People of the States, it is earnestly recommended to all the Troops that with strong attachments to the Union, they should carry with them into civil Society the most conciliating dispositions; and that they should prove themselves not less virtuous and usefull as Citizens, than they have been persevering and victorious as Soldiers.",
+              "word_offset_start": 822,
+              "word_offset_end": 900,
+              "char_offset_start": 4954,
+              "char_offset_end": 5424,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "am-rev-washington-orders-1783-06-17_s01_p09_s02",
+              "sentence_ordinal": 2,
+              "text": "What tho' there should be some envious Individuals who are unwilling to pay the Debt the public has contracted, or to yield the tribute due to Merit, yet let such unworthy treatment produce no invective, or any instance of intemperate conduct, let it be remembered that the unbiased voice of the Free Citizens of the United States has promised the just reward, and given the merited applause; let it be known and remembered that the reputation of the Federal Armies is established beyond the reach of Malevolence, and let a conciousness of their atchievements and fame, still incite the Men who composed them to honorable Actions; under the persuasion that the private virtues of economy, prudence and industry, will not be less amiable in civil life, than the more splendid qualities of valour, perseverence and enterprise, were in the Field: Every one may rest assured that much, very much of the future happiness of the Officers and Men, will depend upon the wise and manly conduct which shall be adopted by these, when they are mingled with the great body of the Community.",
+              "word_offset_start": 900,
+              "word_offset_end": 1083,
+              "char_offset_start": 5425,
+              "char_offset_end": 6502,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "am-rev-washington-orders-1783-06-17_s01_p09_s03",
+              "sentence_ordinal": 3,
+              "text": "And altho', the General has so frequently given it as his opinion in the most public and explicit manner, that unless the principles of the Federal Government were properly supported, and the Powers of the Union encreased, the honor, dignity, and justice of the Nation would be lost for ever; yet he cannot help repeating on this occasion, so interesting a sentiment, and leaving it as his last injunction to every Officer and every Soldier, who may view the subject in the same serious point of light, to add his best endeavours to those of his worthy fellow Citizens towards effecting their great and valuable purposes, on which our very existence as a Nation so materially depends.",
+              "word_offset_start": 1083,
+              "word_offset_end": 1200,
+              "char_offset_start": 6503,
+              "char_offset_end": 7187,
               "authorship_note": null,
               "metaphor_instances": []
             }
@@ -204,1105 +329,44 @@
             {
               "sentence_id": "am-rev-washington-orders-1783-06-17_s01_p10_s01",
               "sentence_ordinal": 1,
-              "text": "View Previous Searches",
-              "word_offset_start": 28,
-              "word_offset_end": 31,
-              "char_offset_start": 197,
-              "char_offset_end": 219,
-              "authorship_note": null,
-              "metaphor_instances": []
-            }
-          ]
-        },
-        {
-          "paragraph_id": "am-rev-washington-orders-1783-06-17_s01_p11",
-          "paragraph_ordinal": 11,
-          "sentences": [
-            {
-              "sentence_id": "am-rev-washington-orders-1783-06-17_s01_p11_s01",
-              "sentence_ordinal": 1,
-              "text": "Print View",
-              "word_offset_start": 31,
-              "word_offset_end": 33,
-              "char_offset_start": 221,
-              "char_offset_end": 231,
-              "authorship_note": null,
-              "metaphor_instances": []
-            }
-          ]
-        },
-        {
-          "paragraph_id": "am-rev-washington-orders-1783-06-17_s01_p12",
-          "paragraph_ordinal": 12,
-          "sentences": [
-            {
-              "sentence_id": "am-rev-washington-orders-1783-06-17_s01_p12_s01",
-              "sentence_ordinal": 1,
-              "text": "Max Page View",
-              "word_offset_start": 33,
-              "word_offset_end": 36,
-              "char_offset_start": 233,
-              "char_offset_end": 246,
-              "authorship_note": null,
-              "metaphor_instances": []
-            }
-          ]
-        },
-        {
-          "paragraph_id": "am-rev-washington-orders-1783-06-17_s01_p13",
-          "paragraph_ordinal": 13,
-          "sentences": [
-            {
-              "sentence_id": "am-rev-washington-orders-1783-06-17_s01_p13_s01",
-              "sentence_ordinal": 1,
-              "text": "Normal Page View",
-              "word_offset_start": 36,
-              "word_offset_end": 39,
-              "char_offset_start": 248,
-              "char_offset_end": 264,
-              "authorship_note": null,
-              "metaphor_instances": []
-            }
-          ]
-        },
-        {
-          "paragraph_id": "am-rev-washington-orders-1783-06-17_s01_p14",
-          "paragraph_ordinal": 14,
-          "sentences": [
-            {
-              "sentence_id": "am-rev-washington-orders-1783-06-17_s01_p14_s01",
-              "sentence_ordinal": 1,
-              "text": "Share",
-              "word_offset_start": 39,
-              "word_offset_end": 40,
-              "char_offset_start": 266,
-              "char_offset_end": 271,
-              "authorship_note": null,
-              "metaphor_instances": []
-            }
-          ]
-        },
-        {
-          "paragraph_id": "am-rev-washington-orders-1783-06-17_s01_p15",
-          "paragraph_ordinal": 15,
-          "sentences": [
-            {
-              "sentence_id": "am-rev-washington-orders-1783-06-17_s01_p15_s01",
-              "sentence_ordinal": 1,
-              "text": "Email This",
-              "word_offset_start": 40,
-              "word_offset_end": 42,
-              "char_offset_start": 273,
-              "char_offset_end": 283,
-              "authorship_note": null,
-              "metaphor_instances": []
-            }
-          ]
-        },
-        {
-          "paragraph_id": "am-rev-washington-orders-1783-06-17_s01_p16",
-          "paragraph_ordinal": 16,
-          "sentences": [
-            {
-              "sentence_id": "am-rev-washington-orders-1783-06-17_s01_p16_s01",
-              "sentence_ordinal": 1,
-              "text": "Share this on Facebook",
-              "word_offset_start": 42,
-              "word_offset_end": 46,
-              "char_offset_start": 285,
-              "char_offset_end": 307,
-              "authorship_note": null,
-              "metaphor_instances": []
-            }
-          ]
-        },
-        {
-          "paragraph_id": "am-rev-washington-orders-1783-06-17_s01_p17",
-          "paragraph_ordinal": 17,
-          "sentences": [
-            {
-              "sentence_id": "am-rev-washington-orders-1783-06-17_s01_p17_s01",
-              "sentence_ordinal": 1,
-              "text": "Tweet",
-              "word_offset_start": 46,
-              "word_offset_end": 47,
-              "char_offset_start": 309,
-              "char_offset_end": 314,
-              "authorship_note": null,
-              "metaphor_instances": []
-            }
-          ]
-        },
-        {
-          "paragraph_id": "am-rev-washington-orders-1783-06-17_s01_p18",
-          "paragraph_ordinal": 18,
-          "sentences": [
-            {
-              "sentence_id": "am-rev-washington-orders-1783-06-17_s01_p18_s01",
-              "sentence_ordinal": 1,
-              "text": "General Orders, 13 May 1780",
-              "word_offset_start": 47,
-              "word_offset_end": 52,
-              "char_offset_start": 316,
-              "char_offset_end": 343,
-              "authorship_note": null,
-              "metaphor_instances": []
-            }
-          ]
-        },
-        {
-          "paragraph_id": "am-rev-washington-orders-1783-06-17_s01_p19",
-          "paragraph_ordinal": 19,
-          "sentences": [
-            {
-              "sentence_id": "am-rev-washington-orders-1783-06-17_s01_p19_s01",
-              "sentence_ordinal": 1,
-              "text": "General Orders",
-              "word_offset_start": 52,
-              "word_offset_end": 54,
-              "char_offset_start": 345,
-              "char_offset_end": 359,
-              "authorship_note": null,
-              "metaphor_instances": []
-            }
-          ]
-        },
-        {
-          "paragraph_id": "am-rev-washington-orders-1783-06-17_s01_p20",
-          "paragraph_ordinal": 20,
-          "sentences": [
-            {
-              "sentence_id": "am-rev-washington-orders-1783-06-17_s01_p20_s01",
-              "sentence_ordinal": 1,
-              "text": "Head Quarters Morristown Saturday May 13th 1780Parole Saxe Countersigns R. P.—— [Officers] Of the Day Tomorrow[:] Colonel Angell[,] Major Thayer[,] Brigade Major 2d pennsylvania brigade A man acquainted with the management of hides from the pennsylvania Line, also one from Stark’s brigade to be sent to the Deputy commissary of hides at Morristown tomorrow they are to remain with him ’till the Brigade to which they belong move from this place.",
-              "word_offset_start": 54,
-              "word_offset_end": 125,
-              "char_offset_start": 359,
-              "char_offset_end": 805,
-              "authorship_note": null,
-              "metaphor_instances": []
-            }
-          ]
-        },
-        {
-          "paragraph_id": "am-rev-washington-orders-1783-06-17_s01_p21",
-          "paragraph_ordinal": 21,
-          "sentences": [
-            {
-              "sentence_id": "am-rev-washington-orders-1783-06-17_s01_p21_s01",
-              "sentence_ordinal": 1,
-              "text": "Varick transcript, DLC:GW.",
-              "word_offset_start": 125,
-              "word_offset_end": 128,
-              "char_offset_start": 810,
-              "char_offset_end": 836,
-              "authorship_note": null,
-              "metaphor_instances": []
-            }
-          ]
-        },
-        {
-          "paragraph_id": "am-rev-washington-orders-1783-06-17_s01_p22",
-          "paragraph_ordinal": 22,
-          "sentences": [
-            {
-              "sentence_id": "am-rev-washington-orders-1783-06-17_s01_p22_s01",
-              "sentence_ordinal": 1,
-              "text": "GW’s main army had been in winter camp at Jockey Hollow, near Morristown, since December 1779.",
-              "word_offset_start": 128,
-              "word_offset_end": 144,
-              "char_offset_start": 838,
-              "char_offset_end": 932,
+              "text": "The Commander in Chief conceives little is now wanting to enable the Soldier to change the Military character into that of the Citizen, but that steady and decent tenor of behaivour which has generally distinguished, not only the Army under his immediate Command, but the different Detachments and seperate Armies, through the course of the War; from their good sense and prudence he anticipates the happiest consequences; And while he congratulates them on the glorious occasion which renders their Services in the Field no longer necessary, he wishes to express the strong obligations he feels himself under, for the assistance he has received from every Class—and in every instance.",
+              "word_offset_start": 1200,
+              "word_offset_end": 1309,
+              "char_offset_start": 7189,
+              "char_offset_end": 7874,
               "authorship_note": null,
               "metaphor_instances": []
             },
             {
-              "sentence_id": "am-rev-washington-orders-1783-06-17_s01_p22_s02",
+              "sentence_id": "am-rev-washington-orders-1783-06-17_s01_p10_s02",
               "sentence_ordinal": 2,
-              "text": "GW kept a brigade-sized corps deployed in the vicinity of Springfield and Elizabeth, N.J., to protect the approaches to Morristown from the east and monitor British activities on Staten Island and in the New York City area.",
-              "word_offset_start": 144,
-              "word_offset_end": 181,
-              "char_offset_start": 933,
-              "char_offset_end": 1156,
+              "text": "He presents his thanks in the most serious and affectionate manner to the General Officers, as well for their Counsel on many interesting occasions, as for their ardor in promoting the success of the plans he had adopted—To the Commandants of Regiments and Corps, and to the other Officers for their great Zeal and attention in carrying his orders promptly into execution—To the Staff for their alacrity and exactness in performing the duties of their several Departments—And to the Non-commissioned Officers and private Soldiers, for their extraordinary patience in suffering, as well as their invincible fortitude in Action—To the various branches of the Army, the General takes this last and solemn oppertunity of professing his inviolable attachment & friendship—He wishes more than bare professions were in his power, that he was really able to be usefull to them all in future life; He flatters himself however, they will do him the justice to believe, that whatever could with propriety be attempted by him, has been done.",
+              "word_offset_start": 1309,
+              "word_offset_end": 1475,
+              "char_offset_start": 7875,
+              "char_offset_end": 8904,
               "authorship_note": null,
               "metaphor_instances": []
             },
             {
-              "sentence_id": "am-rev-washington-orders-1783-06-17_s01_p22_s03",
+              "sentence_id": "am-rev-washington-orders-1783-06-17_s01_p10_s03",
               "sentence_ordinal": 3,
-              "text": "In May, four Massachusetts brigades and the New Hampshire troops remained positioned near West Point, N.Y., and Danbury, Conn., respectively, to protect communications with New England.",
-              "word_offset_start": 181,
-              "word_offset_end": 207,
-              "char_offset_start": 1157,
-              "char_offset_end": 1342,
+              "text": "And being now to conclude these his last public Orders, to take his ultimate leave, in a short time, of the Military Character, and to bid a final adieu to the Armies he has so long had the honor to Command—he can only again offer in their behalf his recommendations to their grateful Country, and his prayers to the God of Armies.",
+              "word_offset_start": 1475,
+              "word_offset_end": 1537,
+              "char_offset_start": 8905,
+              "char_offset_end": 9236,
               "authorship_note": null,
               "metaphor_instances": []
             },
             {
-              "sentence_id": "am-rev-washington-orders-1783-06-17_s01_p22_s04",
+              "sentence_id": "am-rev-washington-orders-1783-06-17_s01_p10_s04",
               "sentence_ordinal": 4,
-              "text": "The 2d and 4th Continental Dragoons were still in their winter camps in Connecticut.",
-              "word_offset_start": 207,
-              "word_offset_end": 221,
-              "char_offset_start": 1343,
-              "char_offset_end": 1427,
-              "authorship_note": null,
-              "metaphor_instances": []
-            },
-            {
-              "sentence_id": "am-rev-washington-orders-1783-06-17_s01_p22_s05",
-              "sentence_ordinal": 5,
-              "text": "Other regiments held posts on the frontier at Fort Pitt in Pennsylvania and at Fort Schuyler in New York.",
-              "word_offset_start": 221,
-              "word_offset_end": 240,
-              "char_offset_start": 1428,
-              "char_offset_end": 1533,
-              "authorship_note": null,
-              "metaphor_instances": []
-            }
-          ]
-        },
-        {
-          "paragraph_id": "am-rev-washington-orders-1783-06-17_s01_p23",
-          "paragraph_ordinal": 23,
-          "sentences": [
-            {
-              "sentence_id": "am-rev-washington-orders-1783-06-17_s01_p23_s01",
-              "sentence_ordinal": 1,
-              "text": "Assistance with GW’s correspondence during this period came from his aides-de-camp Alexander Hamilton, Richard Kidder Meade, and Tench Tilghman, as well as his secretary Robert Hanson Harrison and assistant secretary James McHenry.",
-              "word_offset_start": 240,
-              "word_offset_end": 272,
-              "char_offset_start": 1535,
-              "char_offset_end": 1766,
-              "authorship_note": null,
-              "metaphor_instances": []
-            },
-            {
-              "sentence_id": "am-rev-washington-orders-1783-06-17_s01_p23_s02",
-              "sentence_ordinal": 2,
-              "text": "In late June, David Humphreys joined GW’s headquarters as an aide-de-camp (see General Orders, 23 June).",
-              "word_offset_start": 272,
-              "word_offset_end": 288,
-              "char_offset_start": 1767,
-              "char_offset_end": 1871,
-              "authorship_note": null,
-              "metaphor_instances": []
-            },
-            {
-              "sentence_id": "am-rev-washington-orders-1783-06-17_s01_p23_s03",
-              "sentence_ordinal": 3,
-              "text": "GW and his correspondents typically referred to these men as his family (see below and GW to James Duane, 13 May and 5 June; Duane to GW, 26 May; and GW to Lafayette, 20 May).",
-              "word_offset_start": 288,
-              "word_offset_end": 323,
-              "char_offset_start": 1872,
-              "char_offset_end": 2047,
-              "authorship_note": null,
-              "metaphor_instances": []
-            },
-            {
-              "sentence_id": "am-rev-washington-orders-1783-06-17_s01_p23_s04",
-              "sentence_ordinal": 4,
-              "text": "Maj. Caleb Gibbs, who commanded GW’s guard, also helped with correspondence and managed the money to pay GW’s expenses (see below and the source note to the general orders for 30 May).",
-              "word_offset_start": 323,
-              "word_offset_end": 355,
-              "char_offset_start": 2048,
-              "char_offset_end": 2232,
-              "authorship_note": null,
-              "metaphor_instances": []
-            }
-          ]
-        },
-        {
-          "paragraph_id": "am-rev-washington-orders-1783-06-17_s01_p24",
-          "paragraph_ordinal": 24,
-          "sentences": [
-            {
-              "sentence_id": "am-rev-washington-orders-1783-06-17_s01_p24_s01",
-              "sentence_ordinal": 1,
-              "text": "Gibbs wrote a receipt at Morristown on this date: “Received of the Dy Pay Master General four thousand eight hundred dollars for the use of defraying the expence of His Excellency General Washington’s family which I am to account for” (Revolutionary War Receipt Book, 1776–1780, DLC:GW, ser.",
-              "word_offset_start": 355,
-              "word_offset_end": 402,
-              "char_offset_start": 2234,
-              "char_offset_end": 2525,
-              "authorship_note": null,
-              "metaphor_instances": []
-            },
-            {
-              "sentence_id": "am-rev-washington-orders-1783-06-17_s01_p24_s02",
-              "sentence_ordinal": 2,
-              "text": "5).",
-              "word_offset_start": 402,
-              "word_offset_end": 403,
-              "char_offset_start": 2526,
-              "char_offset_end": 2529,
-              "authorship_note": null,
-              "metaphor_instances": []
-            },
-            {
-              "sentence_id": "am-rev-washington-orders-1783-06-17_s01_p24_s03",
-              "sentence_ordinal": 3,
-              "text": "GW’s warrant book for 12 May indicates that Gibbs received $4,800 “for the use of the Commander in chief” (Revolutionary War Warrant Book 5, 1780–1783, DLC:GW, ser.",
-              "word_offset_start": 403,
-              "word_offset_end": 430,
-              "char_offset_start": 2530,
-              "char_offset_end": 2694,
-              "authorship_note": null,
-              "metaphor_instances": []
-            },
-            {
-              "sentence_id": "am-rev-washington-orders-1783-06-17_s01_p24_s04",
-              "sentence_ordinal": 4,
-              "text": "5).",
-              "word_offset_start": 430,
-              "word_offset_end": 431,
-              "char_offset_start": 2695,
-              "char_offset_end": 2698,
-              "authorship_note": null,
-              "metaphor_instances": []
-            }
-          ]
-        },
-        {
-          "paragraph_id": "am-rev-washington-orders-1783-06-17_s01_p25",
-          "paragraph_ordinal": 25,
-          "sentences": [
-            {
-              "sentence_id": "am-rev-washington-orders-1783-06-17_s01_p25_s01",
-              "sentence_ordinal": 1,
-              "text": "Index Entries",
-              "word_offset_start": 431,
-              "word_offset_end": 433,
-              "char_offset_start": 2700,
-              "char_offset_end": 2713,
-              "authorship_note": null,
-              "metaphor_instances": []
-            }
-          ]
-        },
-        {
-          "paragraph_id": "am-rev-washington-orders-1783-06-17_s01_p26",
-          "paragraph_ordinal": 26,
-          "sentences": [
-            {
-              "sentence_id": "am-rev-washington-orders-1783-06-17_s01_p26_s01",
-              "sentence_ordinal": 1,
-              "text": "Permanent Link What’s this?",
-              "word_offset_start": 433,
-              "word_offset_end": 437,
-              "char_offset_start": 2715,
-              "char_offset_end": 2742,
-              "authorship_note": null,
-              "metaphor_instances": []
-            }
-          ]
-        },
-        {
-          "paragraph_id": "am-rev-washington-orders-1783-06-17_s01_p27",
-          "paragraph_ordinal": 27,
-          "sentences": [
-            {
-              "sentence_id": "am-rev-washington-orders-1783-06-17_s01_p27_s01",
-              "sentence_ordinal": 1,
-              "text": "https://founders.archives.gov/documents/Washington/03-26-02-0001",
-              "word_offset_start": 437,
-              "word_offset_end": 438,
-              "char_offset_start": 2744,
-              "char_offset_end": 2808,
-              "authorship_note": null,
-              "metaphor_instances": []
-            }
-          ]
-        },
-        {
-          "paragraph_id": "am-rev-washington-orders-1783-06-17_s01_p28",
-          "paragraph_ordinal": 28,
-          "sentences": [
-            {
-              "sentence_id": "am-rev-washington-orders-1783-06-17_s01_p28_s01",
-              "sentence_ordinal": 1,
-              "text": "Note: The annotations to this document, and any other",
-              "word_offset_start": 438,
-              "word_offset_end": 447,
-              "char_offset_start": 2810,
-              "char_offset_end": 2863,
-              "authorship_note": null,
-              "metaphor_instances": []
-            }
-          ]
-        },
-        {
-          "paragraph_id": "am-rev-washington-orders-1783-06-17_s01_p29",
-          "paragraph_ordinal": 29,
-          "sentences": [
-            {
-              "sentence_id": "am-rev-washington-orders-1783-06-17_s01_p29_s01",
-              "sentence_ordinal": 1,
-              "text": "modern editorial content, are copyright © The Rector and Visitors of the University of Virginia.",
-              "word_offset_start": 447,
-              "word_offset_end": 462,
-              "char_offset_start": 2865,
-              "char_offset_end": 2961,
-              "authorship_note": null,
-              "metaphor_instances": []
-            },
-            {
-              "sentence_id": "am-rev-washington-orders-1783-06-17_s01_p29_s02",
-              "sentence_ordinal": 2,
-              "text": "All rights reserved.Back to topYou Are Looking AtSource ProjectWashington PapersTitleGeneral Orders, 13 May 1780AuthorWashington, GeorgeDate13 May 1780ReferenceCite as“General Orders, 13 May 1780,” Founders Online, National Archives, https://founders.archives.gov/documents/Washington/03-26-02-0001.",
-              "word_offset_start": 462,
-              "word_offset_end": 489,
-              "char_offset_start": 2962,
-              "char_offset_end": 3261,
-              "authorship_note": null,
-              "metaphor_instances": []
-            },
-            {
-              "sentence_id": "am-rev-washington-orders-1783-06-17_s01_p29_s03",
-              "sentence_ordinal": 3,
-              "text": "[Original source: The Papers of George Washington, Revolutionary War Series, vol. 26, 13 May–4 July 1780, ed.",
-              "word_offset_start": 489,
-              "word_offset_end": 506,
-              "char_offset_start": 3262,
-              "char_offset_end": 3371,
-              "authorship_note": null,
-              "metaphor_instances": []
-            },
-            {
-              "sentence_id": "am-rev-washington-orders-1783-06-17_s01_p29_s04",
-              "sentence_ordinal": 4,
-              "text": "Benjamin L. Huggins and Adrina Garbooshian-Huggins.",
-              "word_offset_start": 506,
-              "word_offset_end": 512,
-              "char_offset_start": 3372,
-              "char_offset_end": 3423,
-              "authorship_note": null,
-              "metaphor_instances": []
-            },
-            {
-              "sentence_id": "am-rev-washington-orders-1783-06-17_s01_p29_s05",
-              "sentence_ordinal": 5,
-              "text": "Charlottesville: University of Virginia Press, 2018, p.",
-              "word_offset_start": 512,
-              "word_offset_end": 519,
-              "char_offset_start": 3424,
-              "char_offset_end": 3479,
-              "authorship_note": null,
-              "metaphor_instances": []
-            },
-            {
-              "sentence_id": "am-rev-washington-orders-1783-06-17_s01_p29_s06",
-              "sentence_ordinal": 6,
-              "text": "1.]",
-              "word_offset_start": 519,
-              "word_offset_end": 520,
-              "char_offset_start": 3480,
-              "char_offset_end": 3483,
-              "authorship_note": null,
-              "metaphor_instances": []
-            }
-          ]
-        },
-        {
-          "paragraph_id": "am-rev-washington-orders-1783-06-17_s01_p30",
-          "paragraph_ordinal": 30,
-          "sentences": [
-            {
-              "sentence_id": "am-rev-washington-orders-1783-06-17_s01_p30_s01",
-              "sentence_ordinal": 1,
-              "text": "NHPRC",
-              "word_offset_start": 520,
-              "word_offset_end": 521,
-              "char_offset_start": 3485,
-              "char_offset_end": 3490,
-              "authorship_note": null,
-              "metaphor_instances": []
-            }
-          ]
-        },
-        {
-          "paragraph_id": "am-rev-washington-orders-1783-06-17_s01_p31",
-          "paragraph_ordinal": 31,
-          "sentences": [
-            {
-              "sentence_id": "am-rev-washington-orders-1783-06-17_s01_p31_s01",
-              "sentence_ordinal": 1,
-              "text": "The National Historical Publications and",
-              "word_offset_start": 521,
-              "word_offset_end": 526,
-              "char_offset_start": 3492,
-              "char_offset_end": 3532,
-              "authorship_note": null,
-              "metaphor_instances": []
-            }
-          ]
-        },
-        {
-          "paragraph_id": "am-rev-washington-orders-1783-06-17_s01_p32",
-          "paragraph_ordinal": 32,
-          "sentences": [
-            {
-              "sentence_id": "am-rev-washington-orders-1783-06-17_s01_p32_s01",
-              "sentence_ordinal": 1,
-              "text": "Records Commission (NHPRC) is part of the National",
-              "word_offset_start": 526,
-              "word_offset_end": 534,
-              "char_offset_start": 3534,
-              "char_offset_end": 3584,
-              "authorship_note": null,
-              "metaphor_instances": []
-            }
-          ]
-        },
-        {
-          "paragraph_id": "am-rev-washington-orders-1783-06-17_s01_p33",
-          "paragraph_ordinal": 33,
-          "sentences": [
-            {
-              "sentence_id": "am-rev-washington-orders-1783-06-17_s01_p33_s01",
-              "sentence_ordinal": 1,
-              "text": "Archives.",
-              "word_offset_start": 534,
-              "word_offset_end": 535,
-              "char_offset_start": 3586,
-              "char_offset_end": 3595,
-              "authorship_note": null,
-              "metaphor_instances": []
-            },
-            {
-              "sentence_id": "am-rev-washington-orders-1783-06-17_s01_p33_s02",
-              "sentence_ordinal": 2,
-              "text": "Through its grants program, the NHPRC supports a wide range of activities to",
-              "word_offset_start": 535,
-              "word_offset_end": 548,
-              "char_offset_start": 3596,
-              "char_offset_end": 3672,
-              "authorship_note": null,
-              "metaphor_instances": []
-            }
-          ]
-        },
-        {
-          "paragraph_id": "am-rev-washington-orders-1783-06-17_s01_p34",
-          "paragraph_ordinal": 34,
-          "sentences": [
-            {
-              "sentence_id": "am-rev-washington-orders-1783-06-17_s01_p34_s01",
-              "sentence_ordinal": 1,
-              "text": "preserve, publish, and encourage the use of documentary sources, relating to the history of",
-              "word_offset_start": 548,
-              "word_offset_end": 562,
-              "char_offset_start": 3674,
-              "char_offset_end": 3765,
-              "authorship_note": null,
-              "metaphor_instances": []
-            }
-          ]
-        },
-        {
-          "paragraph_id": "am-rev-washington-orders-1783-06-17_s01_p35",
-          "paragraph_ordinal": 35,
-          "sentences": [
-            {
-              "sentence_id": "am-rev-washington-orders-1783-06-17_s01_p35_s01",
-              "sentence_ordinal": 1,
-              "text": "the United States, and research and development projects to bring historical records to the",
-              "word_offset_start": 562,
-              "word_offset_end": 576,
-              "char_offset_start": 3767,
-              "char_offset_end": 3858,
-              "authorship_note": null,
-              "metaphor_instances": []
-            }
-          ]
-        },
-        {
-          "paragraph_id": "am-rev-washington-orders-1783-06-17_s01_p36",
-          "paragraph_ordinal": 36,
-          "sentences": [
-            {
-              "sentence_id": "am-rev-washington-orders-1783-06-17_s01_p36_s01",
-              "sentence_ordinal": 1,
-              "text": "public.",
-              "word_offset_start": 576,
-              "word_offset_end": 577,
-              "char_offset_start": 3860,
-              "char_offset_end": 3867,
-              "authorship_note": null,
-              "metaphor_instances": []
-            }
-          ]
-        },
-        {
-          "paragraph_id": "am-rev-washington-orders-1783-06-17_s01_p37",
-          "paragraph_ordinal": 37,
-          "sentences": [
-            {
-              "sentence_id": "am-rev-washington-orders-1783-06-17_s01_p37_s01",
-              "sentence_ordinal": 1,
-              "text": "Founders Online is an official website",
-              "word_offset_start": 577,
-              "word_offset_end": 583,
-              "char_offset_start": 3869,
-              "char_offset_end": 3907,
-              "authorship_note": null,
-              "metaphor_instances": []
-            }
-          ]
-        },
-        {
-          "paragraph_id": "am-rev-washington-orders-1783-06-17_s01_p38",
-          "paragraph_ordinal": 38,
-          "sentences": [
-            {
-              "sentence_id": "am-rev-washington-orders-1783-06-17_s01_p38_s01",
-              "sentence_ordinal": 1,
-              "text": "of the U.S. government, administered by the",
-              "word_offset_start": 583,
-              "word_offset_end": 590,
-              "char_offset_start": 3909,
-              "char_offset_end": 3952,
-              "authorship_note": null,
-              "metaphor_instances": []
-            }
-          ]
-        },
-        {
-          "paragraph_id": "am-rev-washington-orders-1783-06-17_s01_p39",
-          "paragraph_ordinal": 39,
-          "sentences": [
-            {
-              "sentence_id": "am-rev-washington-orders-1783-06-17_s01_p39_s01",
-              "sentence_ordinal": 1,
-              "text": "National Archives and Records Administration",
-              "word_offset_start": 590,
-              "word_offset_end": 595,
-              "char_offset_start": 3954,
-              "char_offset_end": 3998,
-              "authorship_note": null,
-              "metaphor_instances": []
-            }
-          ]
-        },
-        {
-          "paragraph_id": "am-rev-washington-orders-1783-06-17_s01_p40",
-          "paragraph_ordinal": 40,
-          "sentences": [
-            {
-              "sentence_id": "am-rev-washington-orders-1783-06-17_s01_p40_s01",
-              "sentence_ordinal": 1,
-              "text": "through the NHPRC, in partnership with the",
-              "word_offset_start": 595,
-              "word_offset_end": 602,
-              "char_offset_start": 4000,
-              "char_offset_end": 4042,
-              "authorship_note": null,
-              "metaphor_instances": []
-            }
-          ]
-        },
-        {
-          "paragraph_id": "am-rev-washington-orders-1783-06-17_s01_p41",
-          "paragraph_ordinal": 41,
-          "sentences": [
-            {
-              "sentence_id": "am-rev-washington-orders-1783-06-17_s01_p41_s01",
-              "sentence_ordinal": 1,
-              "text": "University of Virginia Press,",
-              "word_offset_start": 602,
-              "word_offset_end": 606,
-              "char_offset_start": 4044,
-              "char_offset_end": 4073,
-              "authorship_note": null,
-              "metaphor_instances": []
-            }
-          ]
-        },
-        {
-          "paragraph_id": "am-rev-washington-orders-1783-06-17_s01_p42",
-          "paragraph_ordinal": 42,
-          "sentences": [
-            {
-              "sentence_id": "am-rev-washington-orders-1783-06-17_s01_p42_s01",
-              "sentence_ordinal": 1,
-              "text": "which is hosting this website.",
-              "word_offset_start": 606,
-              "word_offset_end": 611,
-              "char_offset_start": 4075,
-              "char_offset_end": 4105,
-              "authorship_note": null,
-              "metaphor_instances": []
-            }
-          ]
-        },
-        {
-          "paragraph_id": "am-rev-washington-orders-1783-06-17_s01_p43",
-          "paragraph_ordinal": 43,
-          "sentences": [
-            {
-              "sentence_id": "am-rev-washington-orders-1783-06-17_s01_p43_s01",
-              "sentence_ordinal": 1,
-              "text": "The Adams Papers",
-              "word_offset_start": 611,
-              "word_offset_end": 614,
-              "char_offset_start": 4107,
-              "char_offset_end": 4123,
-              "authorship_note": null,
-              "metaphor_instances": []
-            }
-          ]
-        },
-        {
-          "paragraph_id": "am-rev-washington-orders-1783-06-17_s01_p44",
-          "paragraph_ordinal": 44,
-          "sentences": [
-            {
-              "sentence_id": "am-rev-washington-orders-1783-06-17_s01_p44_s01",
-              "sentence_ordinal": 1,
-              "text": "The Papers of Benjamin Franklin",
-              "word_offset_start": 614,
-              "word_offset_end": 619,
-              "char_offset_start": 4125,
-              "char_offset_end": 4156,
-              "authorship_note": null,
-              "metaphor_instances": []
-            }
-          ]
-        },
-        {
-          "paragraph_id": "am-rev-washington-orders-1783-06-17_s01_p45",
-          "paragraph_ordinal": 45,
-          "sentences": [
-            {
-              "sentence_id": "am-rev-washington-orders-1783-06-17_s01_p45_s01",
-              "sentence_ordinal": 1,
-              "text": "The Papers of Alexander Hamilton",
-              "word_offset_start": 619,
-              "word_offset_end": 624,
-              "char_offset_start": 4158,
-              "char_offset_end": 4190,
-              "authorship_note": null,
-              "metaphor_instances": []
-            }
-          ]
-        },
-        {
-          "paragraph_id": "am-rev-washington-orders-1783-06-17_s01_p46",
-          "paragraph_ordinal": 46,
-          "sentences": [
-            {
-              "sentence_id": "am-rev-washington-orders-1783-06-17_s01_p46_s01",
-              "sentence_ordinal": 1,
-              "text": "The Selected Papers of John Jay",
-              "word_offset_start": 624,
-              "word_offset_end": 630,
-              "char_offset_start": 4192,
-              "char_offset_end": 4223,
-              "authorship_note": null,
-              "metaphor_instances": []
-            }
-          ]
-        },
-        {
-          "paragraph_id": "am-rev-washington-orders-1783-06-17_s01_p47",
-          "paragraph_ordinal": 47,
-          "sentences": [
-            {
-              "sentence_id": "am-rev-washington-orders-1783-06-17_s01_p47_s01",
-              "sentence_ordinal": 1,
-              "text": "The Papers of Thomas Jefferson",
-              "word_offset_start": 630,
-              "word_offset_end": 635,
-              "char_offset_start": 4225,
-              "char_offset_end": 4255,
-              "authorship_note": null,
-              "metaphor_instances": []
-            }
-          ]
-        },
-        {
-          "paragraph_id": "am-rev-washington-orders-1783-06-17_s01_p48",
-          "paragraph_ordinal": 48,
-          "sentences": [
-            {
-              "sentence_id": "am-rev-washington-orders-1783-06-17_s01_p48_s01",
-              "sentence_ordinal": 1,
-              "text": "The Papers of James Madison",
-              "word_offset_start": 635,
-              "word_offset_end": 640,
-              "char_offset_start": 4257,
-              "char_offset_end": 4284,
-              "authorship_note": null,
-              "metaphor_instances": []
-            }
-          ]
-        },
-        {
-          "paragraph_id": "am-rev-washington-orders-1783-06-17_s01_p49",
-          "paragraph_ordinal": 49,
-          "sentences": [
-            {
-              "sentence_id": "am-rev-washington-orders-1783-06-17_s01_p49_s01",
-              "sentence_ordinal": 1,
-              "text": "The Papers of George Washington",
-              "word_offset_start": 640,
-              "word_offset_end": 645,
-              "char_offset_start": 4286,
-              "char_offset_end": 4317,
-              "authorship_note": null,
-              "metaphor_instances": []
-            }
-          ]
-        },
-        {
-          "paragraph_id": "am-rev-washington-orders-1783-06-17_s01_p50",
-          "paragraph_ordinal": 50,
-          "sentences": [
-            {
-              "sentence_id": "am-rev-washington-orders-1783-06-17_s01_p50_s01",
-              "sentence_ordinal": 1,
-              "text": "About the National Archives",
-              "word_offset_start": 645,
-              "word_offset_end": 649,
-              "char_offset_start": 4319,
-              "char_offset_end": 4346,
-              "authorship_note": null,
-              "metaphor_instances": []
-            }
-          ]
-        },
-        {
-          "paragraph_id": "am-rev-washington-orders-1783-06-17_s01_p51",
-          "paragraph_ordinal": 51,
-          "sentences": [
-            {
-              "sentence_id": "am-rev-washington-orders-1783-06-17_s01_p51_s01",
-              "sentence_ordinal": 1,
-              "text": "National Archives Privacy Policy",
-              "word_offset_start": 649,
-              "word_offset_end": 653,
-              "char_offset_start": 4348,
-              "char_offset_end": 4380,
-              "authorship_note": null,
-              "metaphor_instances": []
-            }
-          ]
-        },
-        {
-          "paragraph_id": "am-rev-washington-orders-1783-06-17_s01_p52",
-          "paragraph_ordinal": 52,
-          "sentences": [
-            {
-              "sentence_id": "am-rev-washington-orders-1783-06-17_s01_p52_s01",
-              "sentence_ordinal": 1,
-              "text": "Accessibility",
-              "word_offset_start": 653,
-              "word_offset_end": 654,
-              "char_offset_start": 4382,
-              "char_offset_end": 4395,
-              "authorship_note": null,
-              "metaphor_instances": []
-            }
-          ]
-        },
-        {
-          "paragraph_id": "am-rev-washington-orders-1783-06-17_s01_p53",
-          "paragraph_ordinal": 53,
-          "sentences": [
-            {
-              "sentence_id": "am-rev-washington-orders-1783-06-17_s01_p53_s01",
-              "sentence_ordinal": 1,
-              "text": "Freedom of Information Act",
-              "word_offset_start": 654,
-              "word_offset_end": 658,
-              "char_offset_start": 4397,
-              "char_offset_end": 4423,
-              "authorship_note": null,
-              "metaphor_instances": []
-            }
-          ]
-        },
-        {
-          "paragraph_id": "am-rev-washington-orders-1783-06-17_s01_p54",
-          "paragraph_ordinal": 54,
-          "sentences": [
-            {
-              "sentence_id": "am-rev-washington-orders-1783-06-17_s01_p54_s01",
-              "sentence_ordinal": 1,
-              "text": "No FEAR Act Data",
-              "word_offset_start": 658,
-              "word_offset_end": 662,
-              "char_offset_start": 4425,
-              "char_offset_end": 4441,
-              "authorship_note": null,
-              "metaphor_instances": []
-            }
-          ]
-        },
-        {
-          "paragraph_id": "am-rev-washington-orders-1783-06-17_s01_p55",
-          "paragraph_ordinal": 55,
-          "sentences": [
-            {
-              "sentence_id": "am-rev-washington-orders-1783-06-17_s01_p55_s01",
-              "sentence_ordinal": 1,
-              "text": "window.jQuery || document.write(",
-              "word_offset_start": 662,
-              "word_offset_end": 665,
-              "char_offset_start": 4443,
-              "char_offset_end": 4475,
-              "authorship_note": null,
-              "metaphor_instances": []
-            }
-          ]
-        },
-        {
-          "paragraph_id": "am-rev-washington-orders-1783-06-17_s01_p56",
-          "paragraph_ordinal": 56,
-          "sentences": [
-            {
-              "sentence_id": "am-rev-washington-orders-1783-06-17_s01_p56_s01",
-              "sentence_ordinal": 1,
-              "text": "'&lt;script src=\"https://code.jquery.com/jquery-3.7.1.min.js\" type=\"text/javascript\"&gt;&lt;\\/script&gt;'",
-              "word_offset_start": 665,
-              "word_offset_end": 668,
-              "char_offset_start": 4477,
-              "char_offset_end": 4582,
-              "authorship_note": null,
-              "metaphor_instances": []
-            }
-          ]
-        },
-        {
-          "paragraph_id": "am-rev-washington-orders-1783-06-17_s01_p57",
-          "paragraph_ordinal": 57,
-          "sentences": [
-            {
-              "sentence_id": "am-rev-washington-orders-1783-06-17_s01_p57_s01",
-              "sentence_ordinal": 1,
-              "text": ")",
-              "word_offset_start": 668,
-              "word_offset_end": 669,
-              "char_offset_start": 4584,
-              "char_offset_end": 4585,
-              "authorship_note": null,
-              "metaphor_instances": []
-            }
-          ]
-        },
-        {
-          "paragraph_id": "am-rev-washington-orders-1783-06-17_s01_p58",
-          "paragraph_ordinal": 58,
-          "sentences": [
-            {
-              "sentence_id": "am-rev-washington-orders-1783-06-17_s01_p58_s01",
-              "sentence_ordinal": 1,
-              "text": "label {",
-              "word_offset_start": 669,
-              "word_offset_end": 671,
-              "char_offset_start": 4587,
-              "char_offset_end": 4594,
-              "authorship_note": null,
-              "metaphor_instances": []
-            }
-          ]
-        },
-        {
-          "paragraph_id": "am-rev-washington-orders-1783-06-17_s01_p59",
-          "paragraph_ordinal": 59,
-          "sentences": [
-            {
-              "sentence_id": "am-rev-washington-orders-1783-06-17_s01_p59_s01",
-              "sentence_ordinal": 1,
-              "text": "display: inline-block;",
-              "word_offset_start": 671,
-              "word_offset_end": 673,
-              "char_offset_start": 4596,
-              "char_offset_end": 4618,
-              "authorship_note": null,
-              "metaphor_instances": []
-            }
-          ]
-        },
-        {
-          "paragraph_id": "am-rev-washington-orders-1783-06-17_s01_p60",
-          "paragraph_ordinal": 60,
-          "sentences": [
-            {
-              "sentence_id": "am-rev-washington-orders-1783-06-17_s01_p60_s01",
-              "sentence_ordinal": 1,
-              "text": "width: 5em;",
-              "word_offset_start": 673,
-              "word_offset_end": 675,
-              "char_offset_start": 4620,
-              "char_offset_end": 4631,
-              "authorship_note": null,
-              "metaphor_instances": []
-            }
-          ]
-        },
-        {
-          "paragraph_id": "am-rev-washington-orders-1783-06-17_s01_p61",
-          "paragraph_ordinal": 61,
-          "sentences": [
-            {
-              "sentence_id": "am-rev-washington-orders-1783-06-17_s01_p61_s01",
-              "sentence_ordinal": 1,
-              "text": "}",
-              "word_offset_start": 675,
-              "word_offset_end": 676,
-              "char_offset_start": 4633,
-              "char_offset_end": 4634,
-              "authorship_note": null,
-              "metaphor_instances": []
-            }
-          ]
-        },
-        {
-          "paragraph_id": "am-rev-washington-orders-1783-06-17_s01_p62",
-          "paragraph_ordinal": 62,
-          "sentences": [
-            {
-              "sentence_id": "am-rev-washington-orders-1783-06-17_s01_p62_s01",
-              "sentence_ordinal": 1,
-              "text": "$(document).ready(function() {",
-              "word_offset_start": 676,
-              "word_offset_end": 678,
-              "char_offset_start": 4636,
-              "char_offset_end": 4666,
-              "authorship_note": null,
-              "metaphor_instances": []
-            }
-          ]
-        },
-        {
-          "paragraph_id": "am-rev-washington-orders-1783-06-17_s01_p63",
-          "paragraph_ordinal": 63,
-          "sentences": [
-            {
-              "sentence_id": "am-rev-washington-orders-1783-06-17_s01_p63_s01",
-              "sentence_ordinal": 1,
-              "text": "$('.tooltip').tooltipster();",
-              "word_offset_start": 678,
-              "word_offset_end": 679,
-              "char_offset_start": 4668,
-              "char_offset_end": 4696,
-              "authorship_note": null,
-              "metaphor_instances": []
-            }
-          ]
-        },
-        {
-          "paragraph_id": "am-rev-washington-orders-1783-06-17_s01_p64",
-          "paragraph_ordinal": 64,
-          "sentences": [
-            {
-              "sentence_id": "am-rev-washington-orders-1783-06-17_s01_p64_s01",
-              "sentence_ordinal": 1,
-              "text": "});",
-              "word_offset_start": 679,
-              "word_offset_end": 680,
-              "char_offset_start": 4698,
-              "char_offset_end": 4701,
+              "text": "May ample justice be done them here; and may the choicest of Heaven's favors both here and hereafter attend those, who under the divine auspices have secured innumerable blessings for others: With these Wishes, and this benediction, the Commander in Chief is about to retire from service—The Curtain of seperation will soon be drawn—and the Military Scene to him will be closed for ever.",
+              "word_offset_start": 1537,
+              "word_offset_end": 1601,
+              "char_offset_start": 9237,
+              "char_offset_end": 9624,
               "authorship_note": null,
               "metaphor_instances": []
             }
@@ -1315,8 +379,8 @@
     {
       "stage": "segment-texts",
       "script": "scripts/segment-texts.py",
-      "generated_at": "2026-06-13T20:41:16",
-      "sentence_count": 81
+      "generated_at": "2026-06-17T01:08:21",
+      "sentence_count": 25
     }
   ]
 }

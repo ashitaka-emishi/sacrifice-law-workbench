@@ -4,7 +4,7 @@ title: Second Inaugural Address
 short_title: Second Inaugural
 date: '1865-03-04'
 date_precision: day
-register: political-speech
+register: inaugural-address
 authorship: Abraham Lincoln
 source_url: https://www.gutenberg.org/ebooks/8
 source_citation: 'Project Gutenberg EBook #8 — Abraham Lincoln''s Second Inaugural
@@ -17,12 +17,33 @@ verification:
   required_phrases:
   - Both parties deprecated war
   - malice toward none
+source_registry_id: lincoln-src-03-second-inaugural
+period: providence-and-reconciliation
+phase: final-reconciliation-memorialization
+genre: inaugural address
+source_edition: 'Project Gutenberg EBook #8, Abraham Lincoln''s Second Inaugural Address'
+source_archive: Project Gutenberg
+authorship_confidence: 1.0
+editorial_status: public-domain transcription with Gutenberg header/footer stripped
+editorial_notes: Early Gutenberg transcription uses older formatting conventions.
+  Cross-check against Library of Congress manuscript before publication-level quotation.
+inclusion_rationale: Central final-war text for Providence, oath, Union, shared guilt,
+  blood repayment, judgment, reconciliation, and healing language.
+risk_flags: []
+corpus_layer: balanced-core
+source_language: en
+annotation_language_policy: source-language
+storage_policy: committed
+structural_encoding: single body section segmented into stable paragraph, sentence,
+  and lexical-unit identifiers
+known_limitations: Reliable for pilot annotation; manuscript cross-check remains required
+  before publication-level quotation.
 case_id: lincoln
 raw_path: corpus/raw/lincoln-src-03-second-inaugural.txt
 pipeline_log:
 - stage: normalize-texts
   script: scripts/normalize-texts.py
-  generated_at: '2026-06-14T21:24:35'
+  generated_at: '2026-06-17T01:08:24'
 ---
 
 Fellow countrymen:  At this second appearing to take the oath
