@@ -20,12 +20,18 @@ correspondance_volume: 11
 extraction_script: scripts/extract-napoleon-bulletins.py
 notes: Post-Austerlitz victory dispatch. Army as sacred body, glory-death exchange
   at peak.
+verification:
+  min_words: 960
+  required_phrases:
+  - Austerlitz
+  - prince Repnine
+  - GRANDE ARM
 case_id: napoleon
 raw_path: corpus/raw/napoleon-src-02-grande-armee-bulletins/napoleon-bulletin-1805-12-03-austerlitz.txt
 pipeline_log:
 - stage: normalize-texts
   script: scripts/normalize-texts.py
-  generated_at: '2026-06-14T15:00:09'
+  generated_at: '2026-06-17T01:08:25'
 ---
 
 34e BULLETIN DE LA GRANDE ARMÉE.

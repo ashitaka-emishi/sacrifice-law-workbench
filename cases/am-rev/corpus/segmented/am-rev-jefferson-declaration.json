@@ -14,13 +14,21 @@
     "rights_status": "public-domain",
     "expected_raw_path": "corpus/raw/am-rev-src-02-jefferson-declaration.txt",
     "analytical_priority": "primary",
+    "verification": {
+      "min_words": 1100,
+      "required_phrases": [
+        "We hold these truths to be self-evident",
+        "sacred Honor",
+        "He has refused his Assent"
+      ]
+    },
     "case_id": "am-rev",
     "raw_path": "corpus/raw/am-rev-src-02-jefferson-declaration.txt",
     "pipeline_log": [
       {
         "stage": "normalize-texts",
         "script": "scripts/normalize-texts.py",
-        "generated_at": "2026-06-13T20:41:16"
+        "generated_at": "2026-06-17T01:08:21"
       }
     ]
   },
@@ -719,7 +727,7 @@
     {
       "stage": "segment-texts",
       "script": "scripts/segment-texts.py",
-      "generated_at": "2026-06-13T20:41:16",
+      "generated_at": "2026-06-17T01:08:21",
       "sentence_count": 44
     }
   ]

@@ -22,12 +22,18 @@ notes: 'Battles of Enzersdorf and Wagram (5–6 July 1809): largest battle of th
   wars to that date. Published from Wolkersdorf 8 July. Note: titled ''Bulletin de
   l''Armée d''Allemagne'' not ''de la Grande Armée'' — the 1809 campaign used a different
   bulletin series name.'
+verification:
+  min_words: 3280
+  required_phrases:
+  - Wagram
+  - Enzersdorf
+  - Wolkersdorf
 case_id: napoleon
 raw_path: corpus/raw/napoleon-src-02-grande-armee-bulletins/napoleon-bulletin-1809-07-08-wagram.txt
 pipeline_log:
 - stage: normalize-texts
   script: scripts/normalize-texts.py
-  generated_at: '2026-06-14T15:00:09'
+  generated_at: '2026-06-17T01:08:25'
 ---
 
 15505. — VIXGT-CIXQUIÈMË BULLETIN DE L'ARMÉE D ALLEJIAG.\E.

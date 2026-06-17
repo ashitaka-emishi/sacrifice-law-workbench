@@ -1,11 +1,11 @@
 {
   "case_id": "am-rev",
-  "stage": "complete-mipvu-review",
-  "status": "reviewed",
-  "generated_at": "2026-06-15T14:56:18",
+  "stage": "generate-mipvu-worklist",
+  "status": "ready",
+  "generated_at": "2026-06-17T01:08:22",
   "documents_in_manifest": 9,
   "written": 9,
-  "lexical_units": 33025,
+  "lexical_units": 31594,
   "errors": [],
   "records": [
     {
@@ -13,127 +13,63 @@
       "status": "written",
       "lexical_units": 21760,
       "input_path": "/Users/andrewhammer/codegarden/koenigsberg-sacrifice-workbench/cases/am-rev/corpus/segmented/am-rev-paine-common-sense.json",
-      "output_path": "/Users/andrewhammer/codegarden/koenigsberg-sacrifice-workbench/cases/am-rev/corpus/mipvu/am-rev-paine-common-sense_mipvu.json",
-      "review_status": "reviewed",
-      "pending_units": 0,
-      "by_decision_type": {
-        "mipvu_direct": 30,
-        "mipvu_indirect": 58,
-        "mipvu_personification": 10,
-        "non_metaphor": 21662
-      }
+      "output_path": "/Users/andrewhammer/codegarden/koenigsberg-sacrifice-workbench/cases/am-rev/corpus/mipvu/am-rev-paine-common-sense_mipvu.json"
     },
     {
       "document_id": "am-rev-jefferson-declaration",
       "status": "written",
       "lexical_units": 1337,
       "input_path": "/Users/andrewhammer/codegarden/koenigsberg-sacrifice-workbench/cases/am-rev/corpus/segmented/am-rev-jefferson-declaration.json",
-      "output_path": "/Users/andrewhammer/codegarden/koenigsberg-sacrifice-workbench/cases/am-rev/corpus/mipvu/am-rev-jefferson-declaration_mipvu.json",
-      "review_status": "reviewed",
-      "pending_units": 0,
-      "by_decision_type": {
-        "mipvu_direct": 1,
-        "mipvu_indirect": 21,
-        "non_metaphor": 1313,
-        "uncertain": 2
-      }
+      "output_path": "/Users/andrewhammer/codegarden/koenigsberg-sacrifice-workbench/cases/am-rev/corpus/mipvu/am-rev-jefferson-declaration_mipvu.json"
     },
     {
       "document_id": "am-rev-washington-orders-1775-07-04",
       "status": "written",
-      "lexical_units": 1121,
+      "lexical_units": 870,
       "input_path": "/Users/andrewhammer/codegarden/koenigsberg-sacrifice-workbench/cases/am-rev/corpus/segmented/am-rev-washington-orders-1775-07-04.json",
-      "output_path": "/Users/andrewhammer/codegarden/koenigsberg-sacrifice-workbench/cases/am-rev/corpus/mipvu/am-rev-washington-orders-1775-07-04_mipvu.json",
-      "review_status": "reviewed",
-      "pending_units": 0,
-      "by_decision_type": {
-        "non_metaphor": 1121
-      }
+      "output_path": "/Users/andrewhammer/codegarden/koenigsberg-sacrifice-workbench/cases/am-rev/corpus/mipvu/am-rev-washington-orders-1775-07-04_mipvu.json"
     },
     {
       "document_id": "am-rev-washington-orders-1776-02-09",
       "status": "written",
-      "lexical_units": 468,
+      "lexical_units": 140,
       "input_path": "/Users/andrewhammer/codegarden/koenigsberg-sacrifice-workbench/cases/am-rev/corpus/segmented/am-rev-washington-orders-1776-02-09.json",
-      "output_path": "/Users/andrewhammer/codegarden/koenigsberg-sacrifice-workbench/cases/am-rev/corpus/mipvu/am-rev-washington-orders-1776-02-09_mipvu.json",
-      "review_status": "reviewed",
-      "pending_units": 0,
-      "by_decision_type": {
-        "non_metaphor": 468
-      }
+      "output_path": "/Users/andrewhammer/codegarden/koenigsberg-sacrifice-workbench/cases/am-rev/corpus/mipvu/am-rev-washington-orders-1776-02-09_mipvu.json"
     },
     {
       "document_id": "am-rev-washington-orders-1776-07-02",
       "status": "written",
-      "lexical_units": 5538,
+      "lexical_units": 722,
       "input_path": "/Users/andrewhammer/codegarden/koenigsberg-sacrifice-workbench/cases/am-rev/corpus/segmented/am-rev-washington-orders-1776-07-02.json",
-      "output_path": "/Users/andrewhammer/codegarden/koenigsberg-sacrifice-workbench/cases/am-rev/corpus/mipvu/am-rev-washington-orders-1776-07-02_mipvu.json",
-      "review_status": "reviewed",
-      "pending_units": 0,
-      "by_decision_type": {
-        "non_metaphor": 5532,
-        "uncertain": 6
-      }
+      "output_path": "/Users/andrewhammer/codegarden/koenigsberg-sacrifice-workbench/cases/am-rev/corpus/mipvu/am-rev-washington-orders-1776-07-02_mipvu.json"
     },
     {
       "document_id": "am-rev-washington-orders-1776-08-30",
       "status": "written",
-      "lexical_units": 345,
+      "lexical_units": 405,
       "input_path": "/Users/andrewhammer/codegarden/koenigsberg-sacrifice-workbench/cases/am-rev/corpus/segmented/am-rev-washington-orders-1776-08-30.json",
-      "output_path": "/Users/andrewhammer/codegarden/koenigsberg-sacrifice-workbench/cases/am-rev/corpus/mipvu/am-rev-washington-orders-1776-08-30_mipvu.json",
-      "review_status": "reviewed",
-      "pending_units": 0,
-      "by_decision_type": {
-        "non_metaphor": 345
-      }
+      "output_path": "/Users/andrewhammer/codegarden/koenigsberg-sacrifice-workbench/cases/am-rev/corpus/mipvu/am-rev-washington-orders-1776-08-30_mipvu.json"
     },
     {
       "document_id": "am-rev-washington-orders-1776-12-25",
       "status": "written",
-      "lexical_units": 693,
+      "lexical_units": 602,
       "input_path": "/Users/andrewhammer/codegarden/koenigsberg-sacrifice-workbench/cases/am-rev/corpus/segmented/am-rev-washington-orders-1776-12-25.json",
-      "output_path": "/Users/andrewhammer/codegarden/koenigsberg-sacrifice-workbench/cases/am-rev/corpus/mipvu/am-rev-washington-orders-1776-12-25_mipvu.json",
-      "review_status": "reviewed",
-      "pending_units": 0,
-      "by_decision_type": {
-        "non_metaphor": 693
-      }
+      "output_path": "/Users/andrewhammer/codegarden/koenigsberg-sacrifice-workbench/cases/am-rev/corpus/mipvu/am-rev-washington-orders-1776-12-25_mipvu.json"
     },
     {
       "document_id": "am-rev-washington-orders-1783-06-08",
       "status": "written",
-      "lexical_units": 1044,
+      "lexical_units": 4143,
       "input_path": "/Users/andrewhammer/codegarden/koenigsberg-sacrifice-workbench/cases/am-rev/corpus/segmented/am-rev-washington-orders-1783-06-08.json",
-      "output_path": "/Users/andrewhammer/codegarden/koenigsberg-sacrifice-workbench/cases/am-rev/corpus/mipvu/am-rev-washington-orders-1783-06-08_mipvu.json",
-      "review_status": "reviewed",
-      "pending_units": 0,
-      "by_decision_type": {
-        "non_metaphor": 1040,
-        "uncertain": 4
-      }
+      "output_path": "/Users/andrewhammer/codegarden/koenigsberg-sacrifice-workbench/cases/am-rev/corpus/mipvu/am-rev-washington-orders-1783-06-08_mipvu.json"
     },
     {
       "document_id": "am-rev-washington-orders-1783-06-17",
       "status": "written",
-      "lexical_units": 719,
+      "lexical_units": 1615,
       "input_path": "/Users/andrewhammer/codegarden/koenigsberg-sacrifice-workbench/cases/am-rev/corpus/segmented/am-rev-washington-orders-1783-06-17.json",
-      "output_path": "/Users/andrewhammer/codegarden/koenigsberg-sacrifice-workbench/cases/am-rev/corpus/mipvu/am-rev-washington-orders-1783-06-17_mipvu.json",
-      "review_status": "reviewed",
-      "pending_units": 0,
-      "by_decision_type": {
-        "non_metaphor": 719
-      }
+      "output_path": "/Users/andrewhammer/codegarden/koenigsberg-sacrifice-workbench/cases/am-rev/corpus/mipvu/am-rev-washington-orders-1783-06-17_mipvu.json"
     }
-  ],
-  "reviewed_at": "2026-06-16",
-  "review_batch": "am-rev-full-corpus-mipvu-review-v1",
-  "annotator": "codex-assisted-mipvu-v1",
-  "pending_units": 0,
-  "by_decision_type": {
-    "mipvu_direct": 31,
-    "mipvu_indirect": 79,
-    "mipvu_personification": 10,
-    "non_metaphor": 32893,
-    "uncertain": 12
-  }
+  ]
 }

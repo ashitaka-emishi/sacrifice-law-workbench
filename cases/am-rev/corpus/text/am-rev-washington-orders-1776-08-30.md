@@ -12,134 +12,35 @@ source_citation: Founders Online, National Archives, Papers of George Washington
 rights_status: public-domain
 expected_raw_path: corpus/raw/am-rev-src-03-washington-general-orders/washington-orders-1776-08-30-after-long-island.txt
 analytical_priority: primary
-risk_flags:
-- wrong-document-in-file — re-download needed from Founders Online
+verification:
+  min_words: 340
+  required_phrases:
+  - August 30th 1776
+  - commanding Officers of regiments
 case_id: am-rev
 raw_path: corpus/raw/am-rev-src-03-washington-general-orders/washington-orders-1776-08-30-after-long-island.txt
 pipeline_log:
 - stage: normalize-texts
   script: scripts/normalize-texts.py
-  generated_at: '2026-06-13T20:41:16'
+  generated_at: '2026-06-17T01:08:21'
 ---
 
-Skip navigation. Go to main content.
-
-Archives.gov Home
-
-About Founders Online
-
-Contact Us
-
-Founders Online
-
-[Back to normal view]
-
-George Washington Papers
-
-Permanent Link view
-
-Start New Search
-
-View Previous Searches
-
-Print View
-
-Max Page View
-
-Normal Page View
-
-Share
-
-Email This
-
-Share this on Facebook
-
-Tweet
-
-General Orders, 30 March 1777
-
+General Orders, 30 August 1776
 General Orders
 
-Head-Quarters, Morristown, March 30th 1777.Parole: Hartford.Countersign: Baltimore.
+Head Quarters, New york, August 30th 1776.
 
-Varick transcript, DLC:GW.
+Parole: Liberty.
+Countersign: Hancock.
 
-Index Entries
+All commanding Officers of regiments are to parade on their regimental parade, this evening at five o'Clock, examine the state of their men's ammunition and arms, get them in the best Order—All damaged Cartridges are to be returned and in this case fresh ones drawn without farther order. The Returns of the regiments are to be made as soon, and as exact as possible. No Arguments can be necessary at such a time as this, to induce all officers to a strict attention to this duty.
 
-Permanent Link What’s this?
+The constant firing in the Camp, notwithstanding repeated Orders to the contrary, is very scandalous, and seldom a day passes but some persons are shot by their friends—Once more therefore the General entreats the officers to prevent it, and calls upon the Soldiers to forbear this practice—Peices that cannot be drawn are to be discharged in a Volley, at Retreat Beating, and not otherwise, and then by command of the officer.
 
-https://founders.archives.gov/documents/Washington/03-09-02-0023
+The loss of two General Officers by the late Action having occasioned a necessary change in the brigades; the Brigade Majors are to attend ten OClock to morrow to receive a new arrangement.
 
-Note: The annotations to this document, and any other
+As the Tents are wet, and Weather unfavorable, the troops are to remain in the City till further Orders; those not supplied with Barracks, to apply to Mr Roorbach, Barrack Master: Officers and Men are charged to see, as little damage as possible, done to houses where they are quartered.
 
-modern editorial content, are copyright © The Rector and Visitors of the University of Virginia. All rights reserved.Back to topYou Are Looking AtSource ProjectWashington PapersTitleGeneral Orders, 30 March 1777AuthorWashington, GeorgeDate30 March 1777ReferenceCite as“General Orders, 30 March 1777,” Founders Online, National Archives, https://founders.archives.gov/documents/Washington/03-09-02-0023. [Original source: The Papers of George Washington, Revolutionary War Series, vol. 9, 28 March 1777 – 10 June 1777, ed. Philander D. Chase. Charlottesville: University Press of Virginia, 1999, p. 22.]
+General Wadsworth to send two Regiments from his Brigade, to reinforce Col. Sergeant at Horns hook, as soon as possible.
 
-NHPRC
-
-The National Historical Publications and
-
-Records Commission (NHPRC) is part of the National
-
-Archives. Through its grants program, the NHPRC supports a wide range of activities to
-
-preserve, publish, and encourage the use of documentary sources, relating to the history of
-
-the United States, and research and development projects to bring historical records to the
-
-public.
-
-Founders Online is an official website
-
-of the U.S. government, administered by the
-
-National Archives and Records Administration
-
-through the NHPRC, in partnership with the
-
-University of Virginia Press,
-
-which is hosting this website.
-
-The Adams Papers
-
-The Papers of Benjamin Franklin
-
-The Papers of Alexander Hamilton
-
-The Selected Papers of John Jay
-
-The Papers of Thomas Jefferson
-
-The Papers of James Madison
-
-The Papers of George Washington
-
-About the National Archives
-
-National Archives Privacy Policy
-
-Accessibility
-
-Freedom of Information Act
-
-No FEAR Act Data
-
-window.jQuery || document.write(
-
-'&lt;script src="https://code.jquery.com/jquery-3.7.1.min.js" type="text/javascript"&gt;&lt;\/script&gt;'
-
-)
-
-label {
-
-display: inline-block;
-
-width: 5em;
-
-}
-
-$(document).ready(function() {
-
-$('.tooltip').tooltipster();
-
-});
+In case of an Alarm this evening, which may be expected from the nearness of the enemy, and their expectation of taking advantage of the late rains, and last nights fatigue; the following disposition is to take place and the regiments are to parade accordingly—General Mifflin's to parade on the Grand Parade, they are then to join the regiments lately composing Lord Stirlings Brigade, and the whole to parade on the parade lately assigned by him to them; these are to act under General Mifflin as a Reserve Corps. The regiments of General Nixon's Brigade are to join General Spencer's division who will assign them their alarm posts—The Jersey Troops to join General McDougall's Brigade, and parade at, or near, said ground.

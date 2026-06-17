@@ -22,12 +22,18 @@ notes: 'Battle of Jena-Auerstedt (14 Oct 1806): Prussian army destroyed in a sin
   day. Sacrificial economy at peak: total annihilation of the enemy framed as gloire.
   Note: originally tracked as bulletin ~52 in a cross-campaign count — actual number
   is 5 in the 1806 series.'
+verification:
+  min_words: 2200
+  required_phrases:
+  - Prusse
+  - bataille
+  - GRANDE ARM
 case_id: napoleon
 raw_path: corpus/raw/napoleon-src-02-grande-armee-bulletins/napoleon-bulletin-1806-10-15-jena.txt
 pipeline_log:
 - stage: normalize-texts
   script: scripts/normalize-texts.py
-  generated_at: '2026-06-14T15:00:09'
+  generated_at: '2026-06-17T01:08:25'
 ---
 
 5e BULLETIN DE LA GRANDE ARMÉE.

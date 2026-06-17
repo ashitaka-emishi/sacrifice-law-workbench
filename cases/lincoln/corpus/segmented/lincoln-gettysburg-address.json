@@ -7,7 +7,7 @@
     "short_title": "Gettysburg Address",
     "date": "1863-11-19",
     "date_precision": "day",
-    "register": "political-speech",
+    "register": "ceremonial-address",
     "authorship": "Abraham Lincoln",
     "source_url": "https://www.gutenberg.org/ebooks/4",
     "source_citation": "Project Gutenberg EBook #4 — Bliss copy (Lincoln's final corrected manuscript, the only one he signed)",
@@ -21,13 +21,33 @@
         "government of the people"
       ]
     },
+    "source_registry_id": "lincoln-src-02-gettysburg-address",
+    "period": "emancipation-and-sacrifice",
+    "phase": "peak-war-sacrifice",
+    "genre": "ceremonial address",
+    "source_edition": "Project Gutenberg EBook #4, Bliss copy transcription",
+    "source_archive": "Project Gutenberg",
+    "authorship_confidence": 1.0,
+    "editorial_status": "public-domain Bliss copy transcription with Gutenberg header/footer stripped",
+    "editorial_notes": "Gutenberg represents pauses with spaced ellipses; the Bliss manuscript does not use ellipses in the same way. Manuscript/version choice is analytically important and should be noted in publication.",
+    "inclusion_rationale": "Canonical sacrificial-economy text for battlefield death, national survival, dedication, consecration, unfinished work, and new birth of freedom.",
+    "risk_flags": [
+      "multiple-manuscript-versions-exist",
+      "gutenberg-ellipsis-style"
+    ],
+    "corpus_layer": "balanced-core",
+    "source_language": "en",
+    "annotation_language_policy": "source-language",
+    "storage_policy": "committed",
+    "structural_encoding": "single body section segmented into stable paragraph, sentence, and lexical-unit identifiers",
+    "known_limitations": "The Bliss copy is used for pilot consistency; variant manuscript wording should be checked before claims depend on exact phrasing.",
     "case_id": "lincoln",
     "raw_path": "corpus/raw/lincoln-src-02-gettysburg-address.txt",
     "pipeline_log": [
       {
         "stage": "normalize-texts",
         "script": "scripts/normalize-texts.py",
-        "generated_at": "2026-06-14T21:24:35"
+        "generated_at": "2026-06-17T01:08:24"
       }
     ]
   },
@@ -184,7 +204,7 @@
     {
       "stage": "segment-texts",
       "script": "scripts/segment-texts.py",
-      "generated_at": "2026-06-14T21:24:35",
+      "generated_at": "2026-06-17T01:08:25",
       "sentence_count": 10
     }
   ]

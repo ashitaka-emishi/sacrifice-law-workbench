@@ -1,0 +1,85 @@
+{
+  "version": "1.0",
+  "case_id": "napoleon",
+  "document_id": "napoleon-bulletin-1805-12-03-austerlitz",
+  "generated_at": "2026-06-17T01:07:47",
+  "generator": "scripts/generate-annotation-layer.py",
+  "annotation_policy": "CMT and Koenigsbergian annotations derived from MIPVU-reviewed metaphorical and uncertain lexical units. Each instance cites at least one MIPVU ID with decision_type in METAPHOR_DECISIONS.",
+  "instances": [
+    {
+      "instance_id": "napoleon-ann-001",
+      "case_id": "napoleon",
+      "document_id": "napoleon-bulletin-1805-12-03-austerlitz",
+      "sentence_id": "napoleon-bulletin-1805-12-03-austerlitz_s01_p03_s03",
+      "span_text": "sang",
+      "mipvu_ids": [
+        "napoleon-bulletin-1805-12-03-austerlitz_s01_p03_s03_lu029"
+      ],
+      "cmt": {
+        "mapping_id": "napoleon-cmt-001",
+        "cluster_id": "napoleon-02-army-body",
+        "source_domain_primary": "sacrifice",
+        "source_domain_secondary": [],
+        "target_domain": "army",
+        "conceptual_metaphor": "ARMY IS SACRIFICE",
+        "entailments": [
+          "Russian battle choice is represented as risking the army's blood and honor together",
+          "Military loss is understood through bodily blood and public honor."
+        ],
+        "confidence": 0.82,
+        "rival_reading": "The army's honor is abstract while blood is bodily; the pair turns battle into bodily and reputational expenditure.",
+        "justification": "MIPVU review rule '' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
+      },
+      "koenigsberg": {
+        "fantasy_type": "redemptive_sacrifice",
+        "sacrificial_economy": true
+      },
+      "meta": {
+        "confidence": 0.82,
+        "ambiguity_flag": false,
+        "suppression_flag": false
+      },
+      "gloss_en": "blood / honor",
+      "gloss_notes": "French `sang` and `honneur` combine bodily loss with public esteem; neither English gloss is sufficient alone."
+    },
+    {
+      "instance_id": "napoleon-ann-002",
+      "case_id": "napoleon",
+      "document_id": "napoleon-bulletin-1805-12-03-austerlitz",
+      "sentence_id": "napoleon-bulletin-1805-12-03-austerlitz_s01_p16_s04",
+      "span_text": "braves / morts / patrie / victoire",
+      "mipvu_ids": [
+        "napoleon-bulletin-1805-12-03-austerlitz_s01_p16_s04_lu021",
+        "napoleon-bulletin-1805-12-03-austerlitz_s01_p16_s04_lu022",
+        "napoleon-bulletin-1805-12-03-austerlitz_s01_p16_s04_lu025",
+        "napoleon-bulletin-1805-12-03-austerlitz_s01_p16_s04_lu039"
+      ],
+      "cmt": {
+        "mapping_id": "napoleon-cmt-002",
+        "cluster_id": "napoleon-03-emperor-embodiment",
+        "source_domain_primary": "sacrifice",
+        "source_domain_secondary": [],
+        "target_domain": "nation",
+        "conceptual_metaphor": "NATION IS SACRIFICE",
+        "entailments": [
+          "battlefield dead are memorialized as brave dead for the fatherland within providential victory ritual",
+          "Soldier death is understood through patriotic sacrifice and providential victory."
+        ],
+        "confidence": 0.88,
+        "rival_reading": "The deaths are literal, but the office and thanksgiving frame them as meaningful patriotic-sacred sacrifice.",
+        "justification": "MIPVU review rule '' marked 4 unit(s) as metaphor-related or uncertain in this sentence."
+      },
+      "koenigsberg": {
+        "fantasy_type": "redemptive_sacrifice",
+        "sacrificial_economy": true
+      },
+      "meta": {
+        "confidence": 0.88,
+        "ambiguity_flag": false,
+        "suppression_flag": false
+      },
+      "gloss_en": "brave dead / fatherland / victory",
+      "gloss_notes": "French `patrie` is not reduced to English fatherland; it carries civic-sacral attachment."
+    }
+  ]
+}

@@ -1,0 +1,1750 @@
+{
+  "version": "1.0",
+  "case_id": "am-rev",
+  "document_id": "am-rev-paine-common-sense",
+  "generated_at": "2026-06-17T01:07:47",
+  "generator": "scripts/generate-annotation-layer.py",
+  "annotation_policy": "CMT and Koenigsbergian annotations derived from MIPVU-reviewed metaphorical and uncertain lexical units. Each instance cites at least one MIPVU ID with decision_type in METAPHOR_DECISIONS.",
+  "instances": [
+    {
+      "instance_id": "amrev-ann-001",
+      "case_id": "am-rev",
+      "document_id": "am-rev-paine-common-sense",
+      "sentence_id": "am-rev-paine-common-sense_s01_p100_s01",
+      "span_text": "nature / fire / sword",
+      "mipvu_ids": [
+        "am-rev-paine-common-sense_s01_p100_s01_lu051",
+        "am-rev-paine-common-sense_s01_p100_s01_lu070",
+        "am-rev-paine-common-sense_s01_p100_s01_lu072"
+      ],
+      "cmt": {
+        "mapping_id": "amrev-cmt-001",
+        "cluster_id": "am-rev-01-liberty-tyranny",
+        "source_domain_primary": "war_combat",
+        "source_domain_secondary": [],
+        "target_domain": "enemy",
+        "conceptual_metaphor": "ENEMY IS WAR COMBAT",
+        "entailments": [
+          "imperial war is represented through fire, sword, extirpation, and the face of the earth",
+          "Enemy violence is understood through destructive element, weapon, and earth-body imagery."
+        ],
+        "confidence": 0.76,
+        "rival_reading": "The war is literal, but the phrase condenses political destruction into conventional elemental and bodily imagery.",
+        "justification": "MIPVU review rule '' marked 3 unit(s) as metaphor-related or uncertain in this sentence."
+      },
+      "koenigsberg": {
+        "violence_logic": true
+      },
+      "meta": {
+        "confidence": 0.76,
+        "ambiguity_flag": false,
+        "suppression_flag": false
+      }
+    },
+    {
+      "instance_id": "amrev-ann-002",
+      "case_id": "am-rev",
+      "document_id": "am-rev-paine-common-sense",
+      "sentence_id": "am-rev-paine-common-sense_s01_p102_s06",
+      "span_text": "wounds",
+      "mipvu_ids": [
+        "am-rev-paine-common-sense_s01_p102_s06_lu012"
+      ],
+      "cmt": {
+        "mapping_id": "amrev-cmt-002",
+        "cluster_id": "am-rev-02-people-republic",
+        "source_domain_primary": "sacrifice",
+        "source_domain_secondary": [],
+        "target_domain": "independence",
+        "conceptual_metaphor": "INDEPENDENCE IS SACRIFICE",
+        "entailments": [
+          "revolutionary suffering is framed through blood, slain bodies, martyrs, sacrifice, altars, or wounds",
+          "Revolutionary commitment is understood through sacrifice and bodily injury."
+        ],
+        "confidence": 0.84,
+        "rival_reading": "Some war deaths are literal, but Paine's rhetoric gives them sacrificial political meaning.",
+        "justification": "MIPVU review rule '' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
+      },
+      "koenigsberg": {
+        "fantasy_type": "redemptive_sacrifice",
+        "sacrificial_economy": true
+      },
+      "meta": {
+        "confidence": 0.84,
+        "ambiguity_flag": false,
+        "suppression_flag": false
+      }
+    },
+    {
+      "instance_id": "amrev-ann-003",
+      "case_id": "am-rev",
+      "document_id": "am-rev-paine-common-sense",
+      "sentence_id": "am-rev-paine-common-sense_s01_p108_s01",
+      "span_text": "blood",
+      "mipvu_ids": [
+        "am-rev-paine-common-sense_s01_p108_s01_lu036"
+      ],
+      "cmt": {
+        "mapping_id": "amrev-cmt-003",
+        "cluster_id": "am-rev-02-people-republic",
+        "source_domain_primary": "sacrifice",
+        "source_domain_secondary": [],
+        "target_domain": "independence",
+        "conceptual_metaphor": "INDEPENDENCE IS SACRIFICE",
+        "entailments": [
+          "revolutionary suffering is framed through blood, slain bodies, martyrs, sacrifice, altars, or wounds",
+          "Revolutionary commitment is understood through sacrifice and bodily injury."
+        ],
+        "confidence": 0.84,
+        "rival_reading": "Some war deaths are literal, but Paine's rhetoric gives them sacrificial political meaning.",
+        "justification": "MIPVU review rule '' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
+      },
+      "koenigsberg": {
+        "fantasy_type": "redemptive_sacrifice",
+        "sacrificial_economy": true
+      },
+      "meta": {
+        "confidence": 0.84,
+        "ambiguity_flag": false,
+        "suppression_flag": false
+      }
+    },
+    {
+      "instance_id": "amrev-ann-004",
+      "case_id": "am-rev",
+      "document_id": "am-rev-paine-common-sense",
+      "sentence_id": "am-rev-paine-common-sense_s01_p109_s07",
+      "span_text": "blood",
+      "mipvu_ids": [
+        "am-rev-paine-common-sense_s01_p109_s07_lu065"
+      ],
+      "cmt": {
+        "mapping_id": "amrev-cmt-004",
+        "cluster_id": "am-rev-02-people-republic",
+        "source_domain_primary": "sacrifice",
+        "source_domain_secondary": [],
+        "target_domain": "independence",
+        "conceptual_metaphor": "INDEPENDENCE IS SACRIFICE",
+        "entailments": [
+          "revolutionary suffering is framed through blood, slain bodies, martyrs, sacrifice, altars, or wounds",
+          "Revolutionary commitment is understood through sacrifice and bodily injury."
+        ],
+        "confidence": 0.84,
+        "rival_reading": "Some war deaths are literal, but Paine's rhetoric gives them sacrificial political meaning.",
+        "justification": "MIPVU review rule '' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
+      },
+      "koenigsberg": {
+        "fantasy_type": "redemptive_sacrifice",
+        "sacrificial_economy": true
+      },
+      "meta": {
+        "confidence": 0.84,
+        "ambiguity_flag": false,
+        "suppression_flag": false
+      }
+    },
+    {
+      "instance_id": "amrev-ann-005",
+      "case_id": "am-rev",
+      "document_id": "am-rev-paine-common-sense",
+      "sentence_id": "am-rev-paine-common-sense_s01_p111_s04",
+      "span_text": "enslaved",
+      "mipvu_ids": [
+        "am-rev-paine-common-sense_s01_p111_s04_lu006"
+      ],
+      "cmt": {
+        "mapping_id": "amrev-cmt-005",
+        "cluster_id": "am-rev-01-liberty-tyranny",
+        "source_domain_primary": "slavery_bondage",
+        "source_domain_secondary": [],
+        "target_domain": "freedom",
+        "conceptual_metaphor": "FREEDOM IS SLAVERY BONDAGE",
+        "entailments": [
+          "imperial dependence or political subjection is framed as slavery, slavishness, chains, bondage, yoke, or shackles",
+          "Political oppression is understood through captivity and bodily restraint."
+        ],
+        "confidence": 0.84,
+        "rival_reading": "Paine applies coercive bodily restraint vocabulary to constitutional and imperial dependence.",
+        "justification": "MIPVU review rule '' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
+      },
+      "koenigsberg": {},
+      "meta": {
+        "confidence": 0.84,
+        "ambiguity_flag": false,
+        "suppression_flag": false
+      }
+    },
+    {
+      "instance_id": "amrev-ann-006",
+      "case_id": "am-rev",
+      "document_id": "am-rev-paine-common-sense",
+      "sentence_id": "am-rev-paine-common-sense_s01_p116_s02",
+      "span_text": "sacrificed",
+      "mipvu_ids": [
+        "am-rev-paine-common-sense_s01_p116_s02_lu012"
+      ],
+      "cmt": {
+        "mapping_id": "amrev-cmt-006",
+        "cluster_id": "am-rev-02-people-republic",
+        "source_domain_primary": "sacrifice",
+        "source_domain_secondary": [],
+        "target_domain": "independence",
+        "conceptual_metaphor": "INDEPENDENCE IS SACRIFICE",
+        "entailments": [
+          "revolutionary suffering is framed through blood, slain bodies, martyrs, sacrifice, altars, or wounds",
+          "Revolutionary commitment is understood through sacrifice and bodily injury."
+        ],
+        "confidence": 0.84,
+        "rival_reading": "Some war deaths are literal, but Paine's rhetoric gives them sacrificial political meaning.",
+        "justification": "MIPVU review rule '' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
+      },
+      "koenigsberg": {
+        "fantasy_type": "redemptive_sacrifice",
+        "sacrificial_economy": true
+      },
+      "meta": {
+        "confidence": 0.84,
+        "ambiguity_flag": false,
+        "suppression_flag": false
+      }
+    },
+    {
+      "instance_id": "amrev-ann-007",
+      "case_id": "am-rev",
+      "document_id": "am-rev-paine-common-sense",
+      "sentence_id": "am-rev-paine-common-sense_s01_p119_s03",
+      "span_text": "materials",
+      "mipvu_ids": [
+        "am-rev-paine-common-sense_s01_p119_s03_lu013"
+      ],
+      "cmt": {
+        "mapping_id": "amrev-cmt-007",
+        "cluster_id": "am-rev-06-union-founding-memory",
+        "source_domain_primary": "body",
+        "source_domain_secondary": [],
+        "target_domain": "government",
+        "conceptual_metaphor": "GOVERNMENT IS BODY",
+        "entailments": [
+          "government or the people are construed as a body, mechanism, or material structure",
+          "Collective political order is understood through bodies, repair, and materials."
+        ],
+        "confidence": 0.78,
+        "rival_reading": "Political collectives and constitutions are abstract institutions, not literal bodies or machines.",
+        "justification": "MIPVU review rule '' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
+      },
+      "koenigsberg": {},
+      "meta": {
+        "confidence": 0.78,
+        "ambiguity_flag": false,
+        "suppression_flag": false
+      }
+    },
+    {
+      "instance_id": "amrev-ann-008",
+      "case_id": "am-rev",
+      "document_id": "am-rev-paine-common-sense",
+      "sentence_id": "am-rev-paine-common-sense_s01_p145_s04",
+      "span_text": "materials",
+      "mipvu_ids": [
+        "am-rev-paine-common-sense_s01_p145_s04_lu027"
+      ],
+      "cmt": {
+        "mapping_id": "amrev-cmt-008",
+        "cluster_id": "am-rev-06-union-founding-memory",
+        "source_domain_primary": "body",
+        "source_domain_secondary": [],
+        "target_domain": "government",
+        "conceptual_metaphor": "GOVERNMENT IS BODY",
+        "entailments": [
+          "government or the people are construed as a body, mechanism, or material structure",
+          "Collective political order is understood through bodies, repair, and materials."
+        ],
+        "confidence": 0.78,
+        "rival_reading": "Political collectives and constitutions are abstract institutions, not literal bodies or machines.",
+        "justification": "MIPVU review rule '' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
+      },
+      "koenigsberg": {},
+      "meta": {
+        "confidence": 0.78,
+        "ambiguity_flag": false,
+        "suppression_flag": false
+      }
+    },
+    {
+      "instance_id": "amrev-ann-009",
+      "case_id": "am-rev",
+      "document_id": "am-rev-paine-common-sense",
+      "sentence_id": "am-rev-paine-common-sense_s01_p146_s08",
+      "span_text": "materials",
+      "mipvu_ids": [
+        "am-rev-paine-common-sense_s01_p146_s08_lu026"
+      ],
+      "cmt": {
+        "mapping_id": "amrev-cmt-009",
+        "cluster_id": "am-rev-06-union-founding-memory",
+        "source_domain_primary": "body",
+        "source_domain_secondary": [],
+        "target_domain": "government",
+        "conceptual_metaphor": "GOVERNMENT IS BODY",
+        "entailments": [
+          "government or the people are construed as a body, mechanism, or material structure",
+          "Collective political order is understood through bodies, repair, and materials."
+        ],
+        "confidence": 0.78,
+        "rival_reading": "Political collectives and constitutions are abstract institutions, not literal bodies or machines.",
+        "justification": "MIPVU review rule '' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
+      },
+      "koenigsberg": {},
+      "meta": {
+        "confidence": 0.78,
+        "ambiguity_flag": false,
+        "suppression_flag": false
+      }
+    },
+    {
+      "instance_id": "amrev-ann-010",
+      "case_id": "am-rev",
+      "document_id": "am-rev-paine-common-sense",
+      "sentence_id": "am-rev-paine-common-sense_s01_p148_s04",
+      "span_text": "slavery",
+      "mipvu_ids": [
+        "am-rev-paine-common-sense_s01_p148_s04_lu023"
+      ],
+      "cmt": {
+        "mapping_id": "amrev-cmt-010",
+        "cluster_id": "am-rev-01-liberty-tyranny",
+        "source_domain_primary": "slavery_bondage",
+        "source_domain_secondary": [],
+        "target_domain": "freedom",
+        "conceptual_metaphor": "FREEDOM IS SLAVERY BONDAGE",
+        "entailments": [
+          "imperial dependence or political subjection is framed as slavery, slavishness, chains, bondage, yoke, or shackles",
+          "Political oppression is understood through captivity and bodily restraint."
+        ],
+        "confidence": 0.84,
+        "rival_reading": "Paine applies coercive bodily restraint vocabulary to constitutional and imperial dependence.",
+        "justification": "MIPVU review rule '' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
+      },
+      "koenigsberg": {},
+      "meta": {
+        "confidence": 0.84,
+        "ambiguity_flag": false,
+        "suppression_flag": false
+      }
+    },
+    {
+      "instance_id": "amrev-ann-011",
+      "case_id": "am-rev",
+      "document_id": "am-rev-paine-common-sense",
+      "sentence_id": "am-rev-paine-common-sense_s01_p153_s01",
+      "span_text": "infant",
+      "mipvu_ids": [
+        "am-rev-paine-common-sense_s01_p153_s01_lu002"
+      ],
+      "cmt": {
+        "mapping_id": "amrev-cmt-011",
+        "cluster_id": "am-rev-02-people-republic",
+        "source_domain_primary": "birth_generation",
+        "source_domain_secondary": [],
+        "target_domain": "independence",
+        "conceptual_metaphor": "INDEPENDENCE IS BIRTH GENERATION",
+        "entailments": [
+          "colonial relation, independence, and founding are represented through parenthood, infancy, birth, and a new world",
+          "Revolutionary founding is understood through kinship and birth-generation."
+        ],
+        "confidence": 0.88,
+        "rival_reading": "Political colonies, pamphlets, and founding moments are not literal parents, infants, worlds, or births.",
+        "justification": "MIPVU review rule '' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
+      },
+      "koenigsberg": {},
+      "meta": {
+        "confidence": 0.88,
+        "ambiguity_flag": false,
+        "suppression_flag": false
+      }
+    },
+    {
+      "instance_id": "amrev-ann-012",
+      "case_id": "am-rev",
+      "document_id": "am-rev-paine-common-sense",
+      "sentence_id": "am-rev-paine-common-sense_s01_p153_s11",
+      "span_text": "slaves",
+      "mipvu_ids": [
+        "am-rev-paine-common-sense_s01_p153_s11_lu006"
+      ],
+      "cmt": {
+        "mapping_id": "amrev-cmt-012",
+        "cluster_id": "am-rev-01-liberty-tyranny",
+        "source_domain_primary": "slavery_bondage",
+        "source_domain_secondary": [],
+        "target_domain": "freedom",
+        "conceptual_metaphor": "FREEDOM IS SLAVERY BONDAGE",
+        "entailments": [
+          "imperial dependence or political subjection is framed as slavery, slavishness, chains, bondage, yoke, or shackles",
+          "Political oppression is understood through captivity and bodily restraint."
+        ],
+        "confidence": 0.84,
+        "rival_reading": "Paine applies coercive bodily restraint vocabulary to constitutional and imperial dependence.",
+        "justification": "MIPVU review rule '' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
+      },
+      "koenigsberg": {},
+      "meta": {
+        "confidence": 0.84,
+        "ambiguity_flag": false,
+        "suppression_flag": false
+      }
+    },
+    {
+      "instance_id": "amrev-ann-013",
+      "case_id": "am-rev",
+      "document_id": "am-rev-paine-common-sense",
+      "sentence_id": "am-rev-paine-common-sense_s01_p154_s01",
+      "span_text": "seed",
+      "mipvu_ids": [
+        "am-rev-paine-common-sense_s01_p154_s01_lu004"
+      ],
+      "cmt": {
+        "mapping_id": "amrev-cmt-013",
+        "cluster_id": "am-rev-06-union-founding-memory",
+        "source_domain_primary": "agriculture",
+        "source_domain_secondary": [],
+        "target_domain": "union",
+        "conceptual_metaphor": "UNION IS AGRICULTURE",
+        "entailments": [
+          "union, independence, or political change is represented through planting, roots, growth, ripening, and harvest",
+          "Founding and union are understood through agriculture and growth."
+        ],
+        "confidence": 0.82,
+        "rival_reading": "Political development is abstract but is construed as organic growth.",
+        "justification": "MIPVU review rule '' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
+      },
+      "koenigsberg": {},
+      "meta": {
+        "confidence": 0.82,
+        "ambiguity_flag": false,
+        "suppression_flag": false
+      }
+    },
+    {
+      "instance_id": "amrev-ann-014",
+      "case_id": "am-rev",
+      "document_id": "am-rev-paine-common-sense",
+      "sentence_id": "am-rev-paine-common-sense_s01_p171_s02",
+      "span_text": "birth / production / brought / forth",
+      "mipvu_ids": [
+        "am-rev-paine-common-sense_s01_p171_s02_lu008",
+        "am-rev-paine-common-sense_s01_p171_s02_lu011",
+        "am-rev-paine-common-sense_s01_p171_s02_lu016",
+        "am-rev-paine-common-sense_s01_p171_s02_lu018"
+      ],
+      "cmt": {
+        "mapping_id": "amrev-cmt-014",
+        "cluster_id": "am-rev-02-people-republic",
+        "source_domain_primary": "birth_generation",
+        "source_domain_secondary": [],
+        "target_domain": "independence",
+        "conceptual_metaphor": "INDEPENDENCE IS BIRTH GENERATION",
+        "entailments": [
+          "colonial relation, independence, and founding are represented through parenthood, infancy, birth, and a new world",
+          "Revolutionary founding is understood through kinship and birth-generation."
+        ],
+        "confidence": 0.88,
+        "rival_reading": "Political colonies, pamphlets, and founding moments are not literal parents, infants, worlds, or births.",
+        "justification": "MIPVU review rule '' marked 4 unit(s) as metaphor-related or uncertain in this sentence."
+      },
+      "koenigsberg": {},
+      "meta": {
+        "confidence": 0.88,
+        "ambiguity_flag": false,
+        "suppression_flag": false
+      }
+    },
+    {
+      "instance_id": "amrev-ann-015",
+      "case_id": "am-rev",
+      "document_id": "am-rev-paine-common-sense",
+      "sentence_id": "am-rev-paine-common-sense_s01_p172_s04",
+      "span_text": "offering / sacrifices",
+      "mipvu_ids": [
+        "am-rev-paine-common-sense_s01_p172_s04_lu036",
+        "am-rev-paine-common-sense_s01_p172_s04_lu039"
+      ],
+      "cmt": {
+        "mapping_id": "amrev-cmt-015",
+        "cluster_id": "am-rev-02-people-republic",
+        "source_domain_primary": "sacrifice",
+        "source_domain_secondary": [],
+        "target_domain": "independence",
+        "conceptual_metaphor": "INDEPENDENCE IS SACRIFICE",
+        "entailments": [
+          "revolutionary suffering is framed through blood, slain bodies, martyrs, sacrifice, altars, or wounds",
+          "Revolutionary commitment is understood through sacrifice and bodily injury."
+        ],
+        "confidence": 0.84,
+        "rival_reading": "Some war deaths are literal, but Paine's rhetoric gives them sacrificial political meaning.",
+        "justification": "MIPVU review rule '' marked 2 unit(s) as metaphor-related or uncertain in this sentence."
+      },
+      "koenigsberg": {
+        "fantasy_type": "redemptive_sacrifice",
+        "sacrificial_economy": true
+      },
+      "meta": {
+        "confidence": 0.84,
+        "ambiguity_flag": false,
+        "suppression_flag": false
+      }
+    },
+    {
+      "instance_id": "amrev-ann-016",
+      "case_id": "am-rev",
+      "document_id": "am-rev-paine-common-sense",
+      "sentence_id": "am-rev-paine-common-sense_s01_p189_s03",
+      "span_text": "repaired",
+      "mipvu_ids": [
+        "am-rev-paine-common-sense_s01_p189_s03_lu038"
+      ],
+      "cmt": {
+        "mapping_id": "amrev-cmt-016",
+        "cluster_id": "am-rev-06-union-founding-memory",
+        "source_domain_primary": "body",
+        "source_domain_secondary": [],
+        "target_domain": "government",
+        "conceptual_metaphor": "GOVERNMENT IS BODY",
+        "entailments": [
+          "government or the people are construed as a body, mechanism, or material structure",
+          "Collective political order is understood through bodies, repair, and materials."
+        ],
+        "confidence": 0.78,
+        "rival_reading": "Political collectives and constitutions are abstract institutions, not literal bodies or machines.",
+        "justification": "MIPVU review rule '' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
+      },
+      "koenigsberg": {},
+      "meta": {
+        "confidence": 0.78,
+        "ambiguity_flag": false,
+        "suppression_flag": false
+      }
+    },
+    {
+      "instance_id": "amrev-ann-017",
+      "case_id": "am-rev",
+      "document_id": "am-rev-paine-common-sense",
+      "sentence_id": "am-rev-paine-common-sense_s01_p190_s03",
+      "span_text": "fire / sword",
+      "mipvu_ids": [
+        "am-rev-paine-common-sense_s01_p190_s03_lu028",
+        "am-rev-paine-common-sense_s01_p190_s03_lu030"
+      ],
+      "cmt": {
+        "mapping_id": "amrev-cmt-017",
+        "cluster_id": "am-rev-01-liberty-tyranny",
+        "source_domain_primary": "war_combat",
+        "source_domain_secondary": [],
+        "target_domain": "enemy",
+        "conceptual_metaphor": "ENEMY IS WAR COMBAT",
+        "entailments": [
+          "imperial war is represented through fire, sword, extirpation, and the face of the earth",
+          "Enemy violence is understood through destructive element, weapon, and earth-body imagery."
+        ],
+        "confidence": 0.76,
+        "rival_reading": "The war is literal, but the phrase condenses political destruction into conventional elemental and bodily imagery.",
+        "justification": "MIPVU review rule '' marked 2 unit(s) as metaphor-related or uncertain in this sentence."
+      },
+      "koenigsberg": {
+        "violence_logic": true
+      },
+      "meta": {
+        "confidence": 0.76,
+        "ambiguity_flag": false,
+        "suppression_flag": false
+      }
+    },
+    {
+      "instance_id": "amrev-ann-018",
+      "case_id": "am-rev",
+      "document_id": "am-rev-paine-common-sense",
+      "sentence_id": "am-rev-paine-common-sense_s01_p190_s04",
+      "span_text": "chain",
+      "mipvu_ids": [
+        "am-rev-paine-common-sense_s01_p190_s04_lu020"
+      ],
+      "cmt": {
+        "mapping_id": "amrev-cmt-018",
+        "cluster_id": "am-rev-01-liberty-tyranny",
+        "source_domain_primary": "slavery_bondage",
+        "source_domain_secondary": [],
+        "target_domain": "freedom",
+        "conceptual_metaphor": "FREEDOM IS SLAVERY BONDAGE",
+        "entailments": [
+          "imperial dependence or political subjection is framed as slavery, slavishness, chains, bondage, yoke, or shackles",
+          "Political oppression is understood through captivity and bodily restraint."
+        ],
+        "confidence": 0.84,
+        "rival_reading": "Paine applies coercive bodily restraint vocabulary to constitutional and imperial dependence.",
+        "justification": "MIPVU review rule '' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
+      },
+      "koenigsberg": {},
+      "meta": {
+        "confidence": 0.84,
+        "ambiguity_flag": false,
+        "suppression_flag": false
+      }
+    },
+    {
+      "instance_id": "amrev-ann-019",
+      "case_id": "am-rev",
+      "document_id": "am-rev-paine-common-sense",
+      "sentence_id": "am-rev-paine-common-sense_s01_p191_s07",
+      "span_text": "birthday / world",
+      "mipvu_ids": [
+        "am-rev-paine-common-sense_s01_p191_s07_lu002",
+        "am-rev-paine-common-sense_s01_p191_s07_lu006"
+      ],
+      "cmt": {
+        "mapping_id": "amrev-cmt-019",
+        "cluster_id": "am-rev-02-people-republic",
+        "source_domain_primary": "birth_generation",
+        "source_domain_secondary": [],
+        "target_domain": "independence",
+        "conceptual_metaphor": "INDEPENDENCE IS BIRTH GENERATION",
+        "entailments": [
+          "colonial relation, independence, and founding are represented through parenthood, infancy, birth, and a new world",
+          "Revolutionary founding is understood through kinship and birth-generation."
+        ],
+        "confidence": 0.88,
+        "rival_reading": "Political colonies, pamphlets, and founding moments are not literal parents, infants, worlds, or births.",
+        "justification": "MIPVU review rule '' marked 2 unit(s) as metaphor-related or uncertain in this sentence."
+      },
+      "koenigsberg": {},
+      "meta": {
+        "confidence": 0.88,
+        "ambiguity_flag": false,
+        "suppression_flag": false
+      }
+    },
+    {
+      "instance_id": "amrev-ann-020",
+      "case_id": "am-rev",
+      "document_id": "am-rev-paine-common-sense",
+      "sentence_id": "am-rev-paine-common-sense_s01_p193_s05",
+      "span_text": "offering",
+      "mipvu_ids": [
+        "am-rev-paine-common-sense_s01_p193_s05_lu032"
+      ],
+      "cmt": {
+        "mapping_id": "amrev-cmt-020",
+        "cluster_id": "am-rev-02-people-republic",
+        "source_domain_primary": "sacrifice",
+        "source_domain_secondary": [],
+        "target_domain": "independence",
+        "conceptual_metaphor": "INDEPENDENCE IS SACRIFICE",
+        "entailments": [
+          "revolutionary suffering is framed through blood, slain bodies, martyrs, sacrifice, altars, or wounds",
+          "Revolutionary commitment is understood through sacrifice and bodily injury."
+        ],
+        "confidence": 0.84,
+        "rival_reading": "Some war deaths are literal, but Paine's rhetoric gives them sacrificial political meaning.",
+        "justification": "MIPVU review rule '' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
+      },
+      "koenigsberg": {
+        "fantasy_type": "redemptive_sacrifice",
+        "sacrificial_economy": true
+      },
+      "meta": {
+        "confidence": 0.84,
+        "ambiguity_flag": false,
+        "suppression_flag": false
+      }
+    },
+    {
+      "instance_id": "amrev-ann-021",
+      "case_id": "am-rev",
+      "document_id": "am-rev-paine-common-sense",
+      "sentence_id": "am-rev-paine-common-sense_s01_p197_s01",
+      "span_text": "body",
+      "mipvu_ids": [
+        "am-rev-paine-common-sense_s01_p197_s01_lu019"
+      ],
+      "cmt": {
+        "mapping_id": "amrev-cmt-021",
+        "cluster_id": "am-rev-06-union-founding-memory",
+        "source_domain_primary": "body",
+        "source_domain_secondary": [],
+        "target_domain": "government",
+        "conceptual_metaphor": "GOVERNMENT IS BODY",
+        "entailments": [
+          "government or the people are construed as a body, mechanism, or material structure",
+          "Collective political order is understood through bodies, repair, and materials."
+        ],
+        "confidence": 0.78,
+        "rival_reading": "Political collectives and constitutions are abstract institutions, not literal bodies or machines.",
+        "justification": "MIPVU review rule '' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
+      },
+      "koenigsberg": {},
+      "meta": {
+        "confidence": 0.78,
+        "ambiguity_flag": false,
+        "suppression_flag": false
+      }
+    },
+    {
+      "instance_id": "amrev-ann-022",
+      "case_id": "am-rev",
+      "document_id": "am-rev-paine-common-sense",
+      "sentence_id": "am-rev-paine-common-sense_s01_p199_s06",
+      "span_text": "blood",
+      "mipvu_ids": [
+        "am-rev-paine-common-sense_s01_p199_s06_lu023"
+      ],
+      "cmt": {
+        "mapping_id": "amrev-cmt-022",
+        "cluster_id": "am-rev-02-people-republic",
+        "source_domain_primary": "sacrifice",
+        "source_domain_secondary": [],
+        "target_domain": "independence",
+        "conceptual_metaphor": "INDEPENDENCE IS SACRIFICE",
+        "entailments": [
+          "revolutionary suffering is framed through blood, slain bodies, martyrs, sacrifice, altars, or wounds",
+          "Revolutionary commitment is understood through sacrifice and bodily injury."
+        ],
+        "confidence": 0.84,
+        "rival_reading": "Some war deaths are literal, but Paine's rhetoric gives them sacrificial political meaning.",
+        "justification": "MIPVU review rule '' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
+      },
+      "koenigsberg": {
+        "fantasy_type": "redemptive_sacrifice",
+        "sacrificial_economy": true
+      },
+      "meta": {
+        "confidence": 0.84,
+        "ambiguity_flag": false,
+        "suppression_flag": false
+      }
+    },
+    {
+      "instance_id": "amrev-ann-023",
+      "case_id": "am-rev",
+      "document_id": "am-rev-paine-common-sense",
+      "sentence_id": "am-rev-paine-common-sense_s01_p208_s07",
+      "span_text": "world",
+      "mipvu_ids": [
+        "am-rev-paine-common-sense_s01_p208_s07_lu047"
+      ],
+      "cmt": {
+        "mapping_id": "amrev-cmt-023",
+        "cluster_id": "am-rev-02-people-republic",
+        "source_domain_primary": "birth_generation",
+        "source_domain_secondary": [],
+        "target_domain": "independence",
+        "conceptual_metaphor": "INDEPENDENCE IS BIRTH GENERATION",
+        "entailments": [
+          "colonial relation, independence, and founding are represented through parenthood, infancy, birth, and a new world",
+          "Revolutionary founding is understood through kinship and birth-generation."
+        ],
+        "confidence": 0.88,
+        "rival_reading": "Political colonies, pamphlets, and founding moments are not literal parents, infants, worlds, or births.",
+        "justification": "MIPVU review rule '' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
+      },
+      "koenigsberg": {},
+      "meta": {
+        "confidence": 0.88,
+        "ambiguity_flag": false,
+        "suppression_flag": false
+      }
+    },
+    {
+      "instance_id": "amrev-ann-024",
+      "case_id": "am-rev",
+      "document_id": "am-rev-paine-common-sense",
+      "sentence_id": "am-rev-paine-common-sense_s01_p208_s09",
+      "span_text": "body",
+      "mipvu_ids": [
+        "am-rev-paine-common-sense_s01_p208_s09_lu054"
+      ],
+      "cmt": {
+        "mapping_id": "amrev-cmt-024",
+        "cluster_id": "am-rev-06-union-founding-memory",
+        "source_domain_primary": "body",
+        "source_domain_secondary": [],
+        "target_domain": "government",
+        "conceptual_metaphor": "GOVERNMENT IS BODY",
+        "entailments": [
+          "government or the people are construed as a body, mechanism, or material structure",
+          "Collective political order is understood through bodies, repair, and materials."
+        ],
+        "confidence": 0.78,
+        "rival_reading": "Political collectives and constitutions are abstract institutions, not literal bodies or machines.",
+        "justification": "MIPVU review rule '' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
+      },
+      "koenigsberg": {},
+      "meta": {
+        "confidence": 0.78,
+        "ambiguity_flag": false,
+        "suppression_flag": false
+      }
+    },
+    {
+      "instance_id": "amrev-ann-025",
+      "case_id": "am-rev",
+      "document_id": "am-rev-paine-common-sense",
+      "sentence_id": "am-rev-paine-common-sense_s01_p20_s03",
+      "span_text": "Fire / Sword / Face / Earth / Nature",
+      "mipvu_ids": [
+        "am-rev-paine-common-sense_s01_p20_s03_lu007",
+        "am-rev-paine-common-sense_s01_p20_s03_lu009",
+        "am-rev-paine-common-sense_s01_p20_s03_lu026",
+        "am-rev-paine-common-sense_s01_p20_s03_lu029",
+        "am-rev-paine-common-sense_s01_p20_s03_lu038"
+      ],
+      "cmt": {
+        "mapping_id": "amrev-cmt-025",
+        "cluster_id": "am-rev-01-liberty-tyranny",
+        "source_domain_primary": "war_combat",
+        "source_domain_secondary": [],
+        "target_domain": "enemy",
+        "conceptual_metaphor": "ENEMY IS WAR COMBAT",
+        "entailments": [
+          "imperial war is represented through fire, sword, extirpation, and the face of the earth",
+          "Enemy violence is understood through destructive element, weapon, and earth-body imagery."
+        ],
+        "confidence": 0.76,
+        "rival_reading": "The war is literal, but the phrase condenses political destruction into conventional elemental and bodily imagery.",
+        "justification": "MIPVU review rule '' marked 5 unit(s) as metaphor-related or uncertain in this sentence."
+      },
+      "koenigsberg": {
+        "violence_logic": true
+      },
+      "meta": {
+        "confidence": 0.76,
+        "ambiguity_flag": false,
+        "suppression_flag": false
+      }
+    },
+    {
+      "instance_id": "amrev-ann-026",
+      "case_id": "am-rev",
+      "document_id": "am-rev-paine-common-sense",
+      "sentence_id": "am-rev-paine-common-sense_s01_p28_s05",
+      "span_text": "Disease / misfortune / death / perish / die",
+      "mipvu_ids": [
+        "am-rev-paine-common-sense_s01_p28_s05_lu001",
+        "am-rev-paine-common-sense_s01_p28_s05_lu004",
+        "am-rev-paine-common-sense_s01_p28_s05_lu007",
+        "am-rev-paine-common-sense_s01_p28_s05_lu035",
+        "am-rev-paine-common-sense_s01_p28_s05_lu038"
+      ],
+      "cmt": {
+        "mapping_id": "amrev-cmt-026",
+        "cluster_id": "am-rev-01-liberty-tyranny",
+        "source_domain_primary": "body",
+        "source_domain_secondary": [],
+        "target_domain": "social_body",
+        "conceptual_metaphor": "SOCIAL BODY IS BODY",
+        "entailments": [
+          "isolated natural life is compared to sickness, misfortune, death, and perishing",
+          "Social vulnerability is understood through bodily illness and death."
+        ],
+        "confidence": 0.88,
+        "rival_reading": "Paine uses physical mortality to explain the social necessity of cooperation.",
+        "justification": "MIPVU review rule '' marked 5 unit(s) as metaphor-related or uncertain in this sentence."
+      },
+      "koenigsberg": {},
+      "meta": {
+        "confidence": 0.88,
+        "ambiguity_flag": false,
+        "suppression_flag": false
+      }
+    },
+    {
+      "instance_id": "amrev-ann-027",
+      "case_id": "am-rev",
+      "document_id": "am-rev-paine-common-sense",
+      "sentence_id": "am-rev-paine-common-sense_s01_p29_s01",
+      "span_text": "gravitating / power / form / impregnable / vice / form",
+      "mipvu_ids": [
+        "am-rev-paine-common-sense_s01_p29_s01_lu005",
+        "am-rev-paine-common-sense_s01_p29_s01_lu006",
+        "am-rev-paine-common-sense_s01_p29_s01_lu009",
+        "am-rev-paine-common-sense_s01_p29_s01_lu046",
+        "am-rev-paine-common-sense_s01_p29_s01_lu048",
+        "am-rev-paine-common-sense_s01_p29_s01_lu096"
+      ],
+      "cmt": {
+        "mapping_id": "amrev-cmt-027",
+        "cluster_id": "am-rev-05-virtue-corruption",
+        "source_domain_primary": "mechanics",
+        "source_domain_secondary": [],
+        "target_domain": "social_body",
+        "conceptual_metaphor": "SOCIAL BODY IS MECHANICS",
+        "entailments": [
+          "necessity forms society like physical gravity, while heaven is imagined as a fortress against vice",
+          "Society and virtue are understood through physical force and defense."
+        ],
+        "confidence": 0.84,
+        "rival_reading": "Social formation and moral purity are abstract but are explained through physical force and fortification.",
+        "justification": "MIPVU review rule '' marked 6 unit(s) as metaphor-related or uncertain in this sentence."
+      },
+      "koenigsberg": {},
+      "meta": {
+        "confidence": 0.84,
+        "ambiguity_flag": false,
+        "suppression_flag": false
+      }
+    },
+    {
+      "instance_id": "amrev-ann-028",
+      "case_id": "am-rev",
+      "document_id": "am-rev-paine-common-sense",
+      "sentence_id": "am-rev-paine-common-sense_s01_p31_s02",
+      "span_text": "body / body",
+      "mipvu_ids": [
+        "am-rev-paine-common-sense_s01_p31_s02_lu026",
+        "am-rev-paine-common-sense_s01_p31_s02_lu053"
+      ],
+      "cmt": {
+        "mapping_id": "amrev-cmt-028",
+        "cluster_id": "am-rev-06-union-founding-memory",
+        "source_domain_primary": "body",
+        "source_domain_secondary": [],
+        "target_domain": "government",
+        "conceptual_metaphor": "GOVERNMENT IS BODY",
+        "entailments": [
+          "government or the people are construed as a body, mechanism, or material structure",
+          "Collective political order is understood through bodies, repair, and materials."
+        ],
+        "confidence": 0.78,
+        "rival_reading": "Political collectives and constitutions are abstract institutions, not literal bodies or machines.",
+        "justification": "MIPVU review rule '' marked 2 unit(s) as metaphor-related or uncertain in this sentence."
+      },
+      "koenigsberg": {},
+      "meta": {
+        "confidence": 0.78,
+        "ambiguity_flag": false,
+        "suppression_flag": false
+      }
+    },
+    {
+      "instance_id": "amrev-ann-029",
+      "case_id": "am-rev",
+      "document_id": "am-rev-paine-common-sense",
+      "sentence_id": "am-rev-paine-common-sense_s01_p32_s02",
+      "span_text": "eyes / dazzled / ears / deceived / warp / darken / voice / nature / reason",
+      "mipvu_ids": [
+        "am-rev-paine-common-sense_s01_p32_s02_lu004",
+        "am-rev-paine-common-sense_s01_p32_s02_lu007",
+        "am-rev-paine-common-sense_s01_p32_s02_lu012",
+        "am-rev-paine-common-sense_s01_p32_s02_lu013",
+        "am-rev-paine-common-sense_s01_p32_s02_lu019",
+        "am-rev-paine-common-sense_s01_p32_s02_lu024",
+        "am-rev-paine-common-sense_s01_p32_s02_lu029",
+        "am-rev-paine-common-sense_s01_p32_s02_lu031",
+        "am-rev-paine-common-sense_s01_p32_s02_lu034"
+      ],
+      "cmt": {
+        "mapping_id": "amrev-cmt-029",
+        "cluster_id": "am-rev-01-liberty-tyranny",
+        "source_domain_primary": "body",
+        "source_domain_secondary": [],
+        "target_domain": "social_body",
+        "conceptual_metaphor": "SOCIAL BODY IS BODY",
+        "entailments": [
+          "judgment and reason are represented through sight, hearing, darkness, voice, and agency",
+          "Political judgment is understood through bodily perception and personified reason."
+        ],
+        "confidence": 0.8,
+        "rival_reading": "Abstract faculties are treated as embodied perceivers or speakers.",
+        "justification": "MIPVU review rule '' marked 9 unit(s) as metaphor-related or uncertain in this sentence."
+      },
+      "koenigsberg": {},
+      "meta": {
+        "confidence": 0.8,
+        "ambiguity_flag": false,
+        "suppression_flag": false
+      }
+    },
+    {
+      "instance_id": "amrev-ann-030",
+      "case_id": "am-rev",
+      "document_id": "am-rev-paine-common-sense",
+      "sentence_id": "am-rev-paine-common-sense_s01_p33_s01",
+      "span_text": "disordered / repaired / disordered",
+      "mipvu_ids": [
+        "am-rev-paine-common-sense_s01_p33_s01_lu035",
+        "am-rev-paine-common-sense_s01_p33_s01_lu039",
+        "am-rev-paine-common-sense_s01_p33_s01_lu041"
+      ],
+      "cmt": {
+        "mapping_id": "amrev-cmt-030",
+        "cluster_id": "am-rev-06-union-founding-memory",
+        "source_domain_primary": "body",
+        "source_domain_secondary": [],
+        "target_domain": "government",
+        "conceptual_metaphor": "GOVERNMENT IS BODY",
+        "entailments": [
+          "government or the people are construed as a body, mechanism, or material structure",
+          "Collective political order is understood through bodies, repair, and materials."
+        ],
+        "confidence": 0.78,
+        "rival_reading": "Political collectives and constitutions are abstract institutions, not literal bodies or machines.",
+        "justification": "MIPVU review rule '' marked 3 unit(s) as metaphor-related or uncertain in this sentence."
+      },
+      "koenigsberg": {},
+      "meta": {
+        "confidence": 0.78,
+        "ambiguity_flag": false,
+        "suppression_flag": false
+      }
+    },
+    {
+      "instance_id": "amrev-ann-031",
+      "case_id": "am-rev",
+      "document_id": "am-rev-paine-common-sense",
+      "sentence_id": "am-rev-paine-common-sense_s01_p33_s02",
+      "span_text": "slavish",
+      "mipvu_ids": [
+        "am-rev-paine-common-sense_s01_p33_s02_lu009"
+      ],
+      "cmt": {
+        "mapping_id": "amrev-cmt-031",
+        "cluster_id": "am-rev-01-liberty-tyranny",
+        "source_domain_primary": "slavery_bondage",
+        "source_domain_secondary": [],
+        "target_domain": "freedom",
+        "conceptual_metaphor": "FREEDOM IS SLAVERY BONDAGE",
+        "entailments": [
+          "imperial dependence or political subjection is framed as slavery, slavishness, chains, bondage, yoke, or shackles",
+          "Political oppression is understood through captivity and bodily restraint."
+        ],
+        "confidence": 0.84,
+        "rival_reading": "Paine applies coercive bodily restraint vocabulary to constitutional and imperial dependence.",
+        "justification": "MIPVU review rule '' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
+      },
+      "koenigsberg": {},
+      "meta": {
+        "confidence": 0.84,
+        "ambiguity_flag": false,
+        "suppression_flag": false
+      }
+    },
+    {
+      "instance_id": "amrev-ann-032",
+      "case_id": "am-rev",
+      "document_id": "am-rev-paine-common-sense",
+      "sentence_id": "am-rev-paine-common-sense_s01_p34_s01",
+      "span_text": "head / springs / remedy",
+      "mipvu_ids": [
+        "am-rev-paine-common-sense_s01_p34_s01_lu025",
+        "am-rev-paine-common-sense_s01_p34_s01_lu030",
+        "am-rev-paine-common-sense_s01_p34_s01_lu034"
+      ],
+      "cmt": {
+        "mapping_id": "amrev-cmt-032",
+        "cluster_id": "am-rev-06-union-founding-memory",
+        "source_domain_primary": "body",
+        "source_domain_secondary": [],
+        "target_domain": "government",
+        "conceptual_metaphor": "GOVERNMENT IS BODY",
+        "entailments": [
+          "government or the people are construed as a body, mechanism, or material structure",
+          "Collective political order is understood through bodies, repair, and materials."
+        ],
+        "confidence": 0.78,
+        "rival_reading": "Political collectives and constitutions are abstract institutions, not literal bodies or machines.",
+        "justification": "MIPVU review rule '' marked 3 unit(s) as metaphor-related or uncertain in this sentence."
+      },
+      "koenigsberg": {},
+      "meta": {
+        "confidence": 0.78,
+        "ambiguity_flag": false,
+        "suppression_flag": false
+      }
+    },
+    {
+      "instance_id": "amrev-ann-033",
+      "case_id": "am-rev",
+      "document_id": "am-rev-paine-common-sense",
+      "sentence_id": "am-rev-paine-common-sense_s01_p35_s01",
+      "span_text": "materials",
+      "mipvu_ids": [
+        "am-rev-paine-common-sense_s01_p35_s01_lu047"
+      ],
+      "cmt": {
+        "mapping_id": "amrev-cmt-033",
+        "cluster_id": "am-rev-06-union-founding-memory",
+        "source_domain_primary": "body",
+        "source_domain_secondary": [],
+        "target_domain": "government",
+        "conceptual_metaphor": "GOVERNMENT IS BODY",
+        "entailments": [
+          "government or the people are construed as a body, mechanism, or material structure",
+          "Collective political order is understood through bodies, repair, and materials."
+        ],
+        "confidence": 0.78,
+        "rival_reading": "Political collectives and constitutions are abstract institutions, not literal bodies or machines.",
+        "justification": "MIPVU review rule '' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
+      },
+      "koenigsberg": {},
+      "meta": {
+        "confidence": 0.78,
+        "ambiguity_flag": false,
+        "suppression_flag": false
+      }
+    },
+    {
+      "instance_id": "amrev-ann-034",
+      "case_id": "am-rev",
+      "document_id": "am-rev-paine-common-sense",
+      "sentence_id": "am-rev-paine-common-sense_s01_p38_s01",
+      "span_text": "materials",
+      "mipvu_ids": [
+        "am-rev-paine-common-sense_s01_p38_s01_lu005"
+      ],
+      "cmt": {
+        "mapping_id": "amrev-cmt-034",
+        "cluster_id": "am-rev-06-union-founding-memory",
+        "source_domain_primary": "body",
+        "source_domain_secondary": [],
+        "target_domain": "government",
+        "conceptual_metaphor": "GOVERNMENT IS BODY",
+        "entailments": [
+          "government or the people are construed as a body, mechanism, or material structure",
+          "Collective political order is understood through bodies, repair, and materials."
+        ],
+        "confidence": 0.78,
+        "rival_reading": "Political collectives and constitutions are abstract institutions, not literal bodies or machines.",
+        "justification": "MIPVU review rule '' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
+      },
+      "koenigsberg": {},
+      "meta": {
+        "confidence": 0.78,
+        "ambiguity_flag": false,
+        "suppression_flag": false
+      }
+    },
+    {
+      "instance_id": "amrev-ann-035",
+      "case_id": "am-rev",
+      "document_id": "am-rev-paine-common-sense",
+      "sentence_id": "am-rev-paine-common-sense_s01_p56_s04",
+      "span_text": "sacred / majesty / worm / crumbling / dust",
+      "mipvu_ids": [
+        "am-rev-paine-common-sense_s01_p56_s04_lu007",
+        "am-rev-paine-common-sense_s01_p56_s04_lu008",
+        "am-rev-paine-common-sense_s01_p56_s04_lu012",
+        "am-rev-paine-common-sense_s01_p56_s04_lu021",
+        "am-rev-paine-common-sense_s01_p56_s04_lu023"
+      ],
+      "cmt": {
+        "mapping_id": "amrev-cmt-035",
+        "cluster_id": "am-rev-04-providence-covenant",
+        "source_domain_primary": "religion_providence",
+        "source_domain_secondary": [],
+        "target_domain": "government",
+        "conceptual_metaphor": "GOVERNMENT IS RELIGION PROVIDENCE",
+        "entailments": [
+          "monarchy is attacked through sacred parody, idolatry, bodily decay, and heavenly sovereignty",
+          "Monarchical power is understood through false worship and mortal body imagery."
+        ],
+        "confidence": 0.86,
+        "rival_reading": "Royal authority is political, but Paine frames it through religious transgression and bodily mortality.",
+        "justification": "MIPVU review rule '' marked 5 unit(s) as metaphor-related or uncertain in this sentence."
+      },
+      "koenigsberg": {
+        "fantasy_type": "providential_covenant"
+      },
+      "meta": {
+        "confidence": 0.86,
+        "ambiguity_flag": false,
+        "suppression_flag": false
+      }
+    },
+    {
+      "instance_id": "amrev-ann-036",
+      "case_id": "am-rev",
+      "document_id": "am-rev-paine-common-sense",
+      "sentence_id": "am-rev-paine-common-sense_s01_p58_s04",
+      "span_text": "idolatrous / homage / heaven",
+      "mipvu_ids": [
+        "am-rev-paine-common-sense_s01_p58_s04_lu009",
+        "am-rev-paine-common-sense_s01_p58_s04_lu010",
+        "am-rev-paine-common-sense_s01_p58_s04_lu045"
+      ],
+      "cmt": {
+        "mapping_id": "amrev-cmt-036",
+        "cluster_id": "am-rev-04-providence-covenant",
+        "source_domain_primary": "religion_providence",
+        "source_domain_secondary": [],
+        "target_domain": "government",
+        "conceptual_metaphor": "GOVERNMENT IS RELIGION PROVIDENCE",
+        "entailments": [
+          "monarchy is attacked through sacred parody, idolatry, bodily decay, and heavenly sovereignty",
+          "Monarchical power is understood through false worship and mortal body imagery."
+        ],
+        "confidence": 0.86,
+        "rival_reading": "Royal authority is political, but Paine frames it through religious transgression and bodily mortality.",
+        "justification": "MIPVU review rule '' marked 3 unit(s) as metaphor-related or uncertain in this sentence."
+      },
+      "koenigsberg": {
+        "fantasy_type": "providential_covenant"
+      },
+      "meta": {
+        "confidence": 0.86,
+        "ambiguity_flag": false,
+        "suppression_flag": false
+      }
+    },
+    {
+      "instance_id": "amrev-ann-037",
+      "case_id": "am-rev",
+      "document_id": "am-rev-paine-common-sense",
+      "sentence_id": "am-rev-paine-common-sense_s01_p60_s05",
+      "span_text": "heaven",
+      "mipvu_ids": [
+        "am-rev-paine-common-sense_s01_p60_s05_lu050"
+      ],
+      "cmt": {
+        "mapping_id": "amrev-cmt-037",
+        "cluster_id": "am-rev-04-providence-covenant",
+        "source_domain_primary": "religion_providence",
+        "source_domain_secondary": [],
+        "target_domain": "government",
+        "conceptual_metaphor": "GOVERNMENT IS RELIGION PROVIDENCE",
+        "entailments": [
+          "monarchy is attacked through sacred parody, idolatry, bodily decay, and heavenly sovereignty",
+          "Monarchical power is understood through false worship and mortal body imagery."
+        ],
+        "confidence": 0.86,
+        "rival_reading": "Royal authority is political, but Paine frames it through religious transgression and bodily mortality.",
+        "justification": "MIPVU review rule '' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
+      },
+      "koenigsberg": {
+        "fantasy_type": "providential_covenant"
+      },
+      "meta": {
+        "confidence": 0.86,
+        "ambiguity_flag": false,
+        "suppression_flag": false
+      }
+    },
+    {
+      "instance_id": "amrev-ann-038",
+      "case_id": "am-rev",
+      "document_id": "am-rev-paine-common-sense",
+      "sentence_id": "am-rev-paine-common-sense_s01_p61_s09",
+      "span_text": "harvest",
+      "mipvu_ids": [
+        "am-rev-paine-common-sense_s01_p61_s09_lu076"
+      ],
+      "cmt": {
+        "mapping_id": "amrev-cmt-038",
+        "cluster_id": "am-rev-06-union-founding-memory",
+        "source_domain_primary": "agriculture",
+        "source_domain_secondary": [],
+        "target_domain": "union",
+        "conceptual_metaphor": "UNION IS AGRICULTURE",
+        "entailments": [
+          "union, independence, or political change is represented through planting, roots, growth, ripening, and harvest",
+          "Founding and union are understood through agriculture and growth."
+        ],
+        "confidence": 0.82,
+        "rival_reading": "Political development is abstract but is construed as organic growth.",
+        "justification": "MIPVU review rule '' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
+      },
+      "koenigsberg": {},
+      "meta": {
+        "confidence": 0.82,
+        "ambiguity_flag": false,
+        "suppression_flag": false
+      }
+    },
+    {
+      "instance_id": "amrev-ann-039",
+      "case_id": "am-rev",
+      "document_id": "am-rev-paine-common-sense",
+      "sentence_id": "am-rev-paine-common-sense_s01_p61_s12",
+      "span_text": "harvest",
+      "mipvu_ids": [
+        "am-rev-paine-common-sense_s01_p61_s12_lu057"
+      ],
+      "cmt": {
+        "mapping_id": "amrev-cmt-039",
+        "cluster_id": "am-rev-06-union-founding-memory",
+        "source_domain_primary": "agriculture",
+        "source_domain_secondary": [],
+        "target_domain": "union",
+        "conceptual_metaphor": "UNION IS AGRICULTURE",
+        "entailments": [
+          "union, independence, or political change is represented through planting, roots, growth, ripening, and harvest",
+          "Founding and union are understood through agriculture and growth."
+        ],
+        "confidence": 0.82,
+        "rival_reading": "Political development is abstract but is construed as organic growth.",
+        "justification": "MIPVU review rule '' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
+      },
+      "koenigsberg": {},
+      "meta": {
+        "confidence": 0.82,
+        "ambiguity_flag": false,
+        "suppression_flag": false
+      }
+    },
+    {
+      "instance_id": "amrev-ann-040",
+      "case_id": "am-rev",
+      "document_id": "am-rev-paine-common-sense",
+      "sentence_id": "am-rev-paine-common-sense_s01_p71_s01",
+      "span_text": "blood",
+      "mipvu_ids": [
+        "am-rev-paine-common-sense_s01_p71_s01_lu020"
+      ],
+      "cmt": {
+        "mapping_id": "amrev-cmt-040",
+        "cluster_id": "am-rev-02-people-republic",
+        "source_domain_primary": "sacrifice",
+        "source_domain_secondary": [],
+        "target_domain": "independence",
+        "conceptual_metaphor": "INDEPENDENCE IS SACRIFICE",
+        "entailments": [
+          "revolutionary suffering is framed through blood, slain bodies, martyrs, sacrifice, altars, or wounds",
+          "Revolutionary commitment is understood through sacrifice and bodily injury."
+        ],
+        "confidence": 0.84,
+        "rival_reading": "Some war deaths are literal, but Paine's rhetoric gives them sacrificial political meaning.",
+        "justification": "MIPVU review rule '' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
+      },
+      "koenigsberg": {
+        "fantasy_type": "redemptive_sacrifice",
+        "sacrificial_economy": true
+      },
+      "meta": {
+        "confidence": 0.84,
+        "ambiguity_flag": false,
+        "suppression_flag": false
+      }
+    },
+    {
+      "instance_id": "amrev-ann-041",
+      "case_id": "am-rev",
+      "document_id": "am-rev-paine-common-sense",
+      "sentence_id": "am-rev-paine-common-sense_s01_p73_s01",
+      "span_text": "blood",
+      "mipvu_ids": [
+        "am-rev-paine-common-sense_s01_p73_s01_lu018"
+      ],
+      "cmt": {
+        "mapping_id": "amrev-cmt-041",
+        "cluster_id": "am-rev-02-people-republic",
+        "source_domain_primary": "sacrifice",
+        "source_domain_secondary": [],
+        "target_domain": "independence",
+        "conceptual_metaphor": "INDEPENDENCE IS SACRIFICE",
+        "entailments": [
+          "revolutionary suffering is framed through blood, slain bodies, martyrs, sacrifice, altars, or wounds",
+          "Revolutionary commitment is understood through sacrifice and bodily injury."
+        ],
+        "confidence": 0.84,
+        "rival_reading": "Some war deaths are literal, but Paine's rhetoric gives them sacrificial political meaning.",
+        "justification": "MIPVU review rule '' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
+      },
+      "koenigsberg": {
+        "fantasy_type": "redemptive_sacrifice",
+        "sacrificial_economy": true
+      },
+      "meta": {
+        "confidence": 0.84,
+        "ambiguity_flag": false,
+        "suppression_flag": false
+      }
+    },
+    {
+      "instance_id": "amrev-ann-042",
+      "case_id": "am-rev",
+      "document_id": "am-rev-paine-common-sense",
+      "sentence_id": "am-rev-paine-common-sense_s01_p73_s02",
+      "span_text": "blood",
+      "mipvu_ids": [
+        "am-rev-paine-common-sense_s01_p73_s02_lu015"
+      ],
+      "cmt": {
+        "mapping_id": "amrev-cmt-042",
+        "cluster_id": "am-rev-02-people-republic",
+        "source_domain_primary": "sacrifice",
+        "source_domain_secondary": [],
+        "target_domain": "independence",
+        "conceptual_metaphor": "INDEPENDENCE IS SACRIFICE",
+        "entailments": [
+          "revolutionary suffering is framed through blood, slain bodies, martyrs, sacrifice, altars, or wounds",
+          "Revolutionary commitment is understood through sacrifice and bodily injury."
+        ],
+        "confidence": 0.84,
+        "rival_reading": "Some war deaths are literal, but Paine's rhetoric gives them sacrificial political meaning.",
+        "justification": "MIPVU review rule '' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
+      },
+      "koenigsberg": {
+        "fantasy_type": "redemptive_sacrifice",
+        "sacrificial_economy": true
+      },
+      "meta": {
+        "confidence": 0.84,
+        "ambiguity_flag": false,
+        "suppression_flag": false
+      }
+    },
+    {
+      "instance_id": "amrev-ann-043",
+      "case_id": "am-rev",
+      "document_id": "am-rev-paine-common-sense",
+      "sentence_id": "am-rev-paine-common-sense_s01_p75_s05",
+      "span_text": "slavery",
+      "mipvu_ids": [
+        "am-rev-paine-common-sense_s01_p75_s05_lu046"
+      ],
+      "cmt": {
+        "mapping_id": "amrev-cmt-043",
+        "cluster_id": "am-rev-01-liberty-tyranny",
+        "source_domain_primary": "slavery_bondage",
+        "source_domain_secondary": [],
+        "target_domain": "freedom",
+        "conceptual_metaphor": "FREEDOM IS SLAVERY BONDAGE",
+        "entailments": [
+          "imperial dependence or political subjection is framed as slavery, slavishness, chains, bondage, yoke, or shackles",
+          "Political oppression is understood through captivity and bodily restraint."
+        ],
+        "confidence": 0.84,
+        "rival_reading": "Paine applies coercive bodily restraint vocabulary to constitutional and imperial dependence.",
+        "justification": "MIPVU review rule '' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
+      },
+      "koenigsberg": {},
+      "meta": {
+        "confidence": 0.84,
+        "ambiguity_flag": false,
+        "suppression_flag": false
+      }
+    },
+    {
+      "instance_id": "amrev-ann-044",
+      "case_id": "am-rev",
+      "document_id": "am-rev-paine-common-sense",
+      "sentence_id": "am-rev-paine-common-sense_s01_p81_s04",
+      "span_text": "seed",
+      "mipvu_ids": [
+        "am-rev-paine-common-sense_s01_p81_s04_lu004"
+      ],
+      "cmt": {
+        "mapping_id": "amrev-cmt-044",
+        "cluster_id": "am-rev-06-union-founding-memory",
+        "source_domain_primary": "agriculture",
+        "source_domain_secondary": [],
+        "target_domain": "union",
+        "conceptual_metaphor": "UNION IS AGRICULTURE",
+        "entailments": [
+          "union, independence, or political change is represented through planting, roots, growth, ripening, and harvest",
+          "Founding and union are understood through agriculture and growth."
+        ],
+        "confidence": 0.82,
+        "rival_reading": "Political development is abstract but is construed as organic growth.",
+        "justification": "MIPVU review rule '' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
+      },
+      "koenigsberg": {},
+      "meta": {
+        "confidence": 0.82,
+        "ambiguity_flag": false,
+        "suppression_flag": false
+      }
+    },
+    {
+      "instance_id": "amrev-ann-045",
+      "case_id": "am-rev",
+      "document_id": "am-rev-paine-common-sense",
+      "sentence_id": "am-rev-paine-common-sense_s01_p81_s05",
+      "span_text": "wound",
+      "mipvu_ids": [
+        "am-rev-paine-common-sense_s01_p81_s05_lu026"
+      ],
+      "cmt": {
+        "mapping_id": "amrev-cmt-045",
+        "cluster_id": "am-rev-02-people-republic",
+        "source_domain_primary": "sacrifice",
+        "source_domain_secondary": [],
+        "target_domain": "independence",
+        "conceptual_metaphor": "INDEPENDENCE IS SACRIFICE",
+        "entailments": [
+          "revolutionary suffering is framed through blood, slain bodies, martyrs, sacrifice, altars, or wounds",
+          "Revolutionary commitment is understood through sacrifice and bodily injury."
+        ],
+        "confidence": 0.84,
+        "rival_reading": "Some war deaths are literal, but Paine's rhetoric gives them sacrificial political meaning.",
+        "justification": "MIPVU review rule '' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
+      },
+      "koenigsberg": {
+        "fantasy_type": "redemptive_sacrifice",
+        "sacrificial_economy": true
+      },
+      "meta": {
+        "confidence": 0.84,
+        "ambiguity_flag": false,
+        "suppression_flag": false
+      }
+    },
+    {
+      "instance_id": "amrev-ann-046",
+      "case_id": "am-rev",
+      "document_id": "am-rev-paine-common-sense",
+      "sentence_id": "am-rev-paine-common-sense_s01_p86_s01",
+      "span_text": "sacrifices",
+      "mipvu_ids": [
+        "am-rev-paine-common-sense_s01_p86_s01_lu014"
+      ],
+      "cmt": {
+        "mapping_id": "amrev-cmt-046",
+        "cluster_id": "am-rev-02-people-republic",
+        "source_domain_primary": "sacrifice",
+        "source_domain_secondary": [],
+        "target_domain": "independence",
+        "conceptual_metaphor": "INDEPENDENCE IS SACRIFICE",
+        "entailments": [
+          "revolutionary suffering is framed through blood, slain bodies, martyrs, sacrifice, altars, or wounds",
+          "Revolutionary commitment is understood through sacrifice and bodily injury."
+        ],
+        "confidence": 0.84,
+        "rival_reading": "Some war deaths are literal, but Paine's rhetoric gives them sacrificial political meaning.",
+        "justification": "MIPVU review rule '' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
+      },
+      "koenigsberg": {
+        "fantasy_type": "redemptive_sacrifice",
+        "sacrificial_economy": true
+      },
+      "meta": {
+        "confidence": 0.84,
+        "ambiguity_flag": false,
+        "suppression_flag": false
+      }
+    },
+    {
+      "instance_id": "amrev-ann-047",
+      "case_id": "am-rev",
+      "document_id": "am-rev-paine-common-sense",
+      "sentence_id": "am-rev-paine-common-sense_s01_p87_s01",
+      "span_text": "parent",
+      "mipvu_ids": [
+        "am-rev-paine-common-sense_s01_p87_s01_lu020"
+      ],
+      "cmt": {
+        "mapping_id": "amrev-cmt-047",
+        "cluster_id": "am-rev-02-people-republic",
+        "source_domain_primary": "birth_generation",
+        "source_domain_secondary": [],
+        "target_domain": "independence",
+        "conceptual_metaphor": "INDEPENDENCE IS BIRTH GENERATION",
+        "entailments": [
+          "colonial relation, independence, and founding are represented through parenthood, infancy, birth, and a new world",
+          "Revolutionary founding is understood through kinship and birth-generation."
+        ],
+        "confidence": 0.88,
+        "rival_reading": "Political colonies, pamphlets, and founding moments are not literal parents, infants, worlds, or births.",
+        "justification": "MIPVU review rule '' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
+      },
+      "koenigsberg": {},
+      "meta": {
+        "confidence": 0.88,
+        "ambiguity_flag": false,
+        "suppression_flag": false
+      }
+    },
+    {
+      "instance_id": "amrev-ann-048",
+      "case_id": "am-rev",
+      "document_id": "am-rev-paine-common-sense",
+      "sentence_id": "am-rev-paine-common-sense_s01_p88_s01",
+      "span_text": "parent",
+      "mipvu_ids": [
+        "am-rev-paine-common-sense_s01_p88_s01_lu005"
+      ],
+      "cmt": {
+        "mapping_id": "amrev-cmt-048",
+        "cluster_id": "am-rev-02-people-republic",
+        "source_domain_primary": "birth_generation",
+        "source_domain_secondary": [],
+        "target_domain": "independence",
+        "conceptual_metaphor": "INDEPENDENCE IS BIRTH GENERATION",
+        "entailments": [
+          "colonial relation, independence, and founding are represented through parenthood, infancy, birth, and a new world",
+          "Revolutionary founding is understood through kinship and birth-generation."
+        ],
+        "confidence": 0.88,
+        "rival_reading": "Political colonies, pamphlets, and founding moments are not literal parents, infants, worlds, or births.",
+        "justification": "MIPVU review rule '' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
+      },
+      "koenigsberg": {},
+      "meta": {
+        "confidence": 0.88,
+        "ambiguity_flag": false,
+        "suppression_flag": false
+      }
+    },
+    {
+      "instance_id": "amrev-ann-049",
+      "case_id": "am-rev",
+      "document_id": "am-rev-paine-common-sense",
+      "sentence_id": "am-rev-paine-common-sense_s01_p88_s03",
+      "span_text": "parent / mother",
+      "mipvu_ids": [
+        "am-rev-paine-common-sense_s01_p88_s03_lu038",
+        "am-rev-paine-common-sense_s01_p88_s03_lu040"
+      ],
+      "cmt": {
+        "mapping_id": "amrev-cmt-049",
+        "cluster_id": "am-rev-02-people-republic",
+        "source_domain_primary": "birth_generation",
+        "source_domain_secondary": [],
+        "target_domain": "independence",
+        "conceptual_metaphor": "INDEPENDENCE IS BIRTH GENERATION",
+        "entailments": [
+          "colonial relation, independence, and founding are represented through parenthood, infancy, birth, and a new world",
+          "Revolutionary founding is understood through kinship and birth-generation."
+        ],
+        "confidence": 0.88,
+        "rival_reading": "Political colonies, pamphlets, and founding moments are not literal parents, infants, worlds, or births.",
+        "justification": "MIPVU review rule '' marked 2 unit(s) as metaphor-related or uncertain in this sentence."
+      },
+      "koenigsberg": {},
+      "meta": {
+        "confidence": 0.88,
+        "ambiguity_flag": false,
+        "suppression_flag": false
+      }
+    },
+    {
+      "instance_id": "amrev-ann-050",
+      "case_id": "am-rev",
+      "document_id": "am-rev-paine-common-sense",
+      "sentence_id": "am-rev-paine-common-sense_s01_p88_s04",
+      "span_text": "parent",
+      "mipvu_ids": [
+        "am-rev-paine-common-sense_s01_p88_s04_lu007"
+      ],
+      "cmt": {
+        "mapping_id": "amrev-cmt-050",
+        "cluster_id": "am-rev-02-people-republic",
+        "source_domain_primary": "birth_generation",
+        "source_domain_secondary": [],
+        "target_domain": "independence",
+        "conceptual_metaphor": "INDEPENDENCE IS BIRTH GENERATION",
+        "entailments": [
+          "colonial relation, independence, and founding are represented through parenthood, infancy, birth, and a new world",
+          "Revolutionary founding is understood through kinship and birth-generation."
+        ],
+        "confidence": 0.88,
+        "rival_reading": "Political colonies, pamphlets, and founding moments are not literal parents, infants, worlds, or births.",
+        "justification": "MIPVU review rule '' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
+      },
+      "koenigsberg": {},
+      "meta": {
+        "confidence": 0.88,
+        "ambiguity_flag": false,
+        "suppression_flag": false
+      }
+    },
+    {
+      "instance_id": "amrev-ann-051",
+      "case_id": "am-rev",
+      "document_id": "am-rev-paine-common-sense",
+      "sentence_id": "am-rev-paine-common-sense_s01_p88_s05",
+      "span_text": "world",
+      "mipvu_ids": [
+        "am-rev-paine-common-sense_s01_p88_s05_lu003"
+      ],
+      "cmt": {
+        "mapping_id": "amrev-cmt-051",
+        "cluster_id": "am-rev-02-people-republic",
+        "source_domain_primary": "birth_generation",
+        "source_domain_secondary": [],
+        "target_domain": "independence",
+        "conceptual_metaphor": "INDEPENDENCE IS BIRTH GENERATION",
+        "entailments": [
+          "colonial relation, independence, and founding are represented through parenthood, infancy, birth, and a new world",
+          "Revolutionary founding is understood through kinship and birth-generation."
+        ],
+        "confidence": 0.88,
+        "rival_reading": "Political colonies, pamphlets, and founding moments are not literal parents, infants, worlds, or births.",
+        "justification": "MIPVU review rule '' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
+      },
+      "koenigsberg": {},
+      "meta": {
+        "confidence": 0.88,
+        "ambiguity_flag": false,
+        "suppression_flag": false
+      }
+    },
+    {
+      "instance_id": "amrev-ann-052",
+      "case_id": "am-rev",
+      "document_id": "am-rev-paine-common-sense",
+      "sentence_id": "am-rev-paine-common-sense_s01_p90_s05",
+      "span_text": "parent / mother",
+      "mipvu_ids": [
+        "am-rev-paine-common-sense_s01_p90_s05_lu007",
+        "am-rev-paine-common-sense_s01_p90_s05_lu009"
+      ],
+      "cmt": {
+        "mapping_id": "amrev-cmt-052",
+        "cluster_id": "am-rev-02-people-republic",
+        "source_domain_primary": "birth_generation",
+        "source_domain_secondary": [],
+        "target_domain": "independence",
+        "conceptual_metaphor": "INDEPENDENCE IS BIRTH GENERATION",
+        "entailments": [
+          "colonial relation, independence, and founding are represented through parenthood, infancy, birth, and a new world",
+          "Revolutionary founding is understood through kinship and birth-generation."
+        ],
+        "confidence": 0.88,
+        "rival_reading": "Political colonies, pamphlets, and founding moments are not literal parents, infants, worlds, or births.",
+        "justification": "MIPVU review rule '' marked 2 unit(s) as metaphor-related or uncertain in this sentence."
+      },
+      "koenigsberg": {},
+      "meta": {
+        "confidence": 0.88,
+        "ambiguity_flag": false,
+        "suppression_flag": false
+      }
+    },
+    {
+      "instance_id": "amrev-ann-053",
+      "case_id": "am-rev",
+      "document_id": "am-rev-paine-common-sense",
+      "sentence_id": "am-rev-paine-common-sense_s01_p96_s04",
+      "span_text": "blood / slain / voice / nature",
+      "mipvu_ids": [
+        "am-rev-paine-common-sense_s01_p96_s04_lu002",
+        "am-rev-paine-common-sense_s01_p96_s04_lu005",
+        "am-rev-paine-common-sense_s01_p96_s04_lu008",
+        "am-rev-paine-common-sense_s01_p96_s04_lu010"
+      ],
+      "cmt": {
+        "mapping_id": "amrev-cmt-053",
+        "cluster_id": "am-rev-02-people-republic",
+        "source_domain_primary": "sacrifice",
+        "source_domain_secondary": [],
+        "target_domain": "independence",
+        "conceptual_metaphor": "INDEPENDENCE IS SACRIFICE",
+        "entailments": [
+          "revolutionary suffering is framed through blood, slain bodies, martyrs, sacrifice, altars, or wounds",
+          "judgment and reason are represented through sight, hearing, darkness, voice, and agency",
+          "Revolutionary commitment is understood through sacrifice and bodily injury."
+        ],
+        "confidence": 0.82,
+        "rival_reading": "Some war deaths are literal, but Paine's rhetoric gives them sacrificial political meaning.",
+        "justification": "MIPVU review rule '' marked 4 unit(s) as metaphor-related or uncertain in this sentence."
+      },
+      "koenigsberg": {
+        "fantasy_type": "redemptive_sacrifice",
+        "sacrificial_economy": true
+      },
+      "meta": {
+        "confidence": 0.82,
+        "ambiguity_flag": false,
+        "suppression_flag": false
+      }
+    }
+  ]
+}

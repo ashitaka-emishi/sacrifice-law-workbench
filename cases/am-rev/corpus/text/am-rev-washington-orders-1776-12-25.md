@@ -12,146 +12,38 @@ source_citation: Founders Online, National Archives, Papers of George Washington
 rights_status: public-domain
 expected_raw_path: corpus/raw/am-rev-src-03-washington-general-orders/washington-orders-1776-12-25-trenton-eve.txt
 analytical_priority: primary
-risk_flags:
-- wrong-document-in-file — re-download needed from Founders Online
+verification:
+  min_words: 510
+  required_phrases:
+  - 25 December 1776
+  - Each Brigade to be furnish
 case_id: am-rev
 raw_path: corpus/raw/am-rev-src-03-washington-general-orders/washington-orders-1776-12-25-trenton-eve.txt
 pipeline_log:
 - stage: normalize-texts
   script: scripts/normalize-texts.py
-  generated_at: '2026-06-13T20:41:16'
+  generated_at: '2026-06-17T01:08:21'
 ---
 
-Skip navigation. Go to main content.
+General Orders, 25 December 1776
+General Orders
 
-Archives.gov Home
+[Bucks County, Pa., 25 December 1776]
 
-About Founders Online
+Each Brigade to be furnish'd with two good Guides.
 
-Contact Us
+General Stevenss Brigade to form the advanced party & to have with them a detachment of the Artillery without Cannon provided with Spikes and Hamners to Spike up the enemies Cannon in case of necesity or to bring them off if it can be effected. the party to be provided with drag ropes for the purpose of dragging off the Cannon. General Stevens is to attack and force the enemies Guards and seize such posts as may prevent them from forming in the streets and in case they are annoy'd from the houses to set them on fire. The Brigades of Mercer & Lord Stirling under the Command of Major General Greene to support General Stevens, this is the second division or left wing of the Army and to march by the way of the Pennington Road.
 
-Founders Online
+St Clairs Glovers & Sargents Brigades under Major General Sullivan to march by the river road, this is the first division of the Army and to form the right wing. Lord Stirlings Brigade to form the reserve of the left wing and General St Clairs Brigade the reserve of the right wing. These reserves to form a second line in Conjunction or a second Line to each division as circumstances may require—Each Brigadier to make the Colonels acquainted with the posts of their respective Regiments in the Brigade and the Major Generals will inform them of the posts of their Brigades in the Line.
 
-[Back to normal view]
+Four peices of artillery to march at the head of each Column, three peices at the head of the second Brigade of each Division and two peices with each of the Reserves. The troops to be assembled one Miles back of McKonkeys ferry and as soon as it begins to grow dark the troops to be March'd to McKonkeys ferry and embark onboard the boats in following order under the direction of Colonel Knox.
 
-George Washington Papers
+General Stevens Brigade with the detachment of Artillery men to embark first General Mercers next; Lord Stirlings next, Genl Fermoys next who will march in the rear of the Second Division and file off from the Penington to the Princeton Road in such direction that he can with the greatest ease & safety secure the passes between Princeton & Trenton. the Guides will be the best judges of this. he is to take two peices of artillery with him.
 
-Permanent Link view
+St Clair Glover & Sargents Brigades to embark in order. Immediately upon their debarkation the whole to form & march in Subdivisions from the Right.
 
-Start New Search
+The Commanding Officers of Regiments to observe that the Divisions be equal & that proper officers be appointed to each—a profound silence to be enjoyn'd & no man to quit his Ranks on the pain of Death—each Brigadier to appoint flanking parties—the reserve Brigades to appoint the rear Guards of the Columns—The heads of the Columns to be appointed to arrive at Trenton at five oClock.
 
-View Previous Searches
+Capt. Washington & Capt. Flahaven with a party of 40 men each to march before the Divisions & post themselves on the road about three miles from Trenton & make prisoners of all going in or coming out of Town.
 
-Print View
-
-Max Page View
-
-Normal Page View
-
-Share
-
-Email This
-
-Share this on Facebook
-
-Tweet
-
-George Washington to Benjamin Rush, 12 January 1778
-
-To Benjamin Rush
-
-Head Quarters Valley Forge 12th Jany 1778Sir
-I have been favd with yours of the 26th December. Soon after the Rect I had an opportunity of communicating the substance of it, and one from Govr Livingston on the same subject, to the Director General.1
-It is to be regretted, that a department for which such ample provision has been made, and on which so much depends, should yet be inadequate to the ends proposed. If the present medical Establishment is, as you say, a bad one, no time ought to be lost, in amending it, and those Gentlemen, who have had an opportunity of trying it for a twelvemonth, are certainly best able to point out the defects.
-From the peculiarity of our circumstances, we cannot expect to be as well furnished with the necessary apparatus of an Hospital as we ought to be, but still I beleive, we might do much better, if more order and discipline was observed by the patients. Upon hearing of the many irregularities committed by them, I have lately ordered a discreet Feild Officer to visit the principal Hospitals and endeavour to establish a proper discipline.2
-Among the many necessary reforms in the military line, I suppose that of the regulation of the Hospitals will be considered. I shall always be ready to contribute all in my power, towards rendering the situation, of those unhappy people who are under the necessity of becoming the inhabitants of them, as comfortable as possible. I am Sir Yr most obt Servt
-
-Go: Washington
-
-LS, in Tench Tilghman’s writing, NcD-MC: Benjamin Rush Papers; 
-Df, DLC:GW; 
-Varick transcript, DLC:GW.
-
-1. On 26 Dec. 1777 William Livingston wrote GW enclosing a copy of his letter to Henry Laurens of the previous day. Livingston’s letter to Laurens, detailing the abuses and deficiencies in the hospital system, was based in large part on information provided by Rush.
-
-2. See General Orders, 15 January, n. 2.
-
-Index Entries
-
-Permanent Link What’s this?
-
-https://founders.archives.gov/documents/Washington/03-13-02-0177
-
-Note: The annotations to this document, and any other
-
-modern editorial content, are copyright © The Rector and Visitors of the University of Virginia. All rights reserved.Back to topYou Are Looking AtSource ProjectWashington PapersTitleGeorge Washington to Benjamin Rush, 12 January 1778AuthorWashington, GeorgeRecipientRush, BenjaminDate12 January 1778ReferenceCite as“George Washington to Benjamin Rush, 12 January 1778,” Founders Online, National Archives, https://founders.archives.gov/documents/Washington/03-13-02-0177. [Original source: The Papers of George Washington, Revolutionary War Series, vol. 13, 26 December 1777 – 28 February 1778, ed. Edward G. Lengel. Charlottesville: University of Virginia Press, 2003, p. 210.]More between these correspondentsPrecedingFrom Rush to Washington [26 December 1777]NextFrom Rush to Washington [25 February 1778]AllAll correspondence between Rush and Washington
-
-NHPRC
-
-The National Historical Publications and
-
-Records Commission (NHPRC) is part of the National
-
-Archives. Through its grants program, the NHPRC supports a wide range of activities to
-
-preserve, publish, and encourage the use of documentary sources, relating to the history of
-
-the United States, and research and development projects to bring historical records to the
-
-public.
-
-Founders Online is an official website
-
-of the U.S. government, administered by the
-
-National Archives and Records Administration
-
-through the NHPRC, in partnership with the
-
-University of Virginia Press,
-
-which is hosting this website.
-
-The Adams Papers
-
-The Papers of Benjamin Franklin
-
-The Papers of Alexander Hamilton
-
-The Selected Papers of John Jay
-
-The Papers of Thomas Jefferson
-
-The Papers of James Madison
-
-The Papers of George Washington
-
-About the National Archives
-
-National Archives Privacy Policy
-
-Accessibility
-
-Freedom of Information Act
-
-No FEAR Act Data
-
-window.jQuery || document.write(
-
-'&lt;script src="https://code.jquery.com/jquery-3.7.1.min.js" type="text/javascript"&gt;&lt;\/script&gt;'
-
-)
-
-label {
-
-display: inline-block;
-
-width: 5em;
-
-}
-
-$(document).ready(function() {
-
-$('.tooltip').tooltipster();
-
-});
+General Stevens will appoint a Guard to form a chain of centries round the landing place at a sufficient distance from the river to permit the troops to form This Guard not to suffer any person to go in or come out—but to detain all persons who attempts either this Guard to join their Brigade when the troops are all over.

@@ -12,164 +12,57 @@ source_citation: Founders Online, National Archives, Papers of George Washington
 rights_status: public-domain
 expected_raw_path: corpus/raw/am-rev-src-03-washington-general-orders/washington-orders-1775-07-04-first-independence-day.txt
 analytical_priority: primary
-risk_flags:
-- wrong-document-in-file — re-download needed from Founders Online
+verification:
+  min_words: 700
+  required_phrases:
+  - The General most earnestly requires
+  - Cambridge, July 4th 1775
 case_id: am-rev
 raw_path: corpus/raw/am-rev-src-03-washington-general-orders/washington-orders-1775-07-04-first-independence-day.txt
 pipeline_log:
 - stage: normalize-texts
   script: scripts/normalize-texts.py
-  generated_at: '2026-06-13T20:41:16'
+  generated_at: '2026-06-17T01:08:21'
 ---
 
-Skip navigation. Go to main content.
+General Orders, 4 July 1775
+General Orders
 
-Archives.gov Home
+Head Quarters, Cambridge, July 4th 1775.
 
-About Founders Online
+Parole. Abington.
+Countersign, Bedford.
 
-Contact Us
+Exact returns to be made by the proper Officers of all the Provisions⟨,⟩ Ordnance, Ordnance stores, Powder, Lead, working Tools of all kinds, Tents, Camp Kettles, and all other Stores under their respective care, belonging to the Armies at Roxbury and Cambridge. The commanding Officer of each Regiment to make a return of the number of blankets wanted to compleat every Man with one at least.
 
-Founders Online
+The Hon: Artemus Ward, Charles Lee, Philip Schuyler, and Israel Putnam Esquires, are appointed Major Generals of the American Army and due Obedience is to be paid them as such. The Continental Congress not having compleated the appointments of the other officers in said army, nor had sufficient time to prepare and forward their Commissions; every Officer is to continue to do duty in the Rank and Station he at present holds untill further orders.
 
-[Back to normal view]
+Thomas Mifflin Esqr. is appointed by the General one of his Aid-de-Camps. Joseph Reed Esqr. is in like manner appointed Secretary to the General, and they are in future to be consider'd and regarded as such.
 
-George Washington Papers
+The Continental Congress having now taken all the Troops of the several Colonies, which have been raised, or which may be hereafter raised, for the support and defence of the Liberties of America; into their Pay and Service: They are now the Troops of the United Provinces of North America; and it is hoped that all Distinctions of Colonies will be laid aside; so that one and the same spirit may animate the whole, and the only Contest be, who shall render, on this great and trying occasion, the most essential service to the great and common cause in which we are all engaged.
 
-Permanent Link view
+It is required and expected that exact discipline be observed, and due Subordination prevail thro' the whole Army, as a Failure in these most essential points must necessarily produce extreme Hazard, Disorder and Confusion; and end in shameful disappointment and disgrace.
 
-Start New Search
+The General most earnestly requires, and expects, a due observance of those articles of war, established for the Government of the army, which forbid profane cursing, swearing & drunkeness; And in like manner requires & expects, of all Officers, and Soldiers, not engaged on actual duty, a punctual attendance on divine service, to implore the blessings of heaven upon the means used for our safety and defence.
 
-View Previous Searches
+All Officers are required and expected to pay diligent Attention, to keep their Men neat and clean—to visit them often at their quarters, and inculcate upon them the necessity of cleanliness, as essential to their health and service. They are particularly to see, that they have Straw to lay on, if to be had, and to make it known if they are destitute of this article. They are also to take care that Necessarys be provided in the Camps and frequently filled up to prevent their being offensive and unhealthy. Proper Notice will be taken of such Officers and Men, as distinguish themselves by their attention to these necessary duties.
 
-Print View
+The commanding Officer of each Regiment is to take particular care that not more than two Men of a Company be absent on furlough at the same time, unless in very extraordinary cases.
 
-Max Page View
+Col. Gardner is to be buried to morrow at 3, OClock, P: M. with the military Honors due to so brave and gallant an Officer, who fought, bled and died in the Cause of his country and mankind. His own Regiment, except the company at Malden, to attend on this mournful occasion. The places of those Companies in the Lines on Prospect Hill, to be supplied by Col. Glovers regiment 'till the funeral is over.
 
-Normal Page View
+No Person is to be allowed to go to Fresh-water pond a fishing or on any other occasion as there may be danger of introducing the small pox into the army.
 
-Share
+It is strictly required and commanded that there be no firing of Cannon or small Arms from any of the Lines, or elsewhere, except in case of necessary, immediate defence, or special order given for that purpose.
 
-Email This
+All Prisoners taken, Deserters coming in, Persons coming out of Boston, who can give any Intelligence; any Captures of any kind from the Enemy, are to be immediately reported and brought up to Head Quarters in Cambridge. Capt. Griffin is appointed Aid-de-Camp to General Lee and to be regarded as such.
 
-Share this on Facebook
+The Guard for the security of the stores at Watertown, is to be increased to thirty men immediately.
 
-Tweet
+A serjeant and six men to be set as a Guard to the Hospital, and are to apply to Doctor Rand.
 
-Commission from the Continental Congress, 19 June 1775
+Complaint having been made against John White Quarter Master of Col. Nixon's Regmt for misdemeanors in drawing out Provisions for more Men than the Regiment consisted of; A Court Martial consisting of one Captain and four Subalterns is ordered to be held on said White, who are to enquire, determine and report.
 
-Commission from the Continental Congress
+After Orders. 10 OClock
 
-[Philadelphia, 19 June 1775]
-In Congress
-The delegates of the United Colonies of New-hampshire, Massachusetts bay, Rhode-island, Connecticut, New-York, New-Jersey,
-
-Pennsylvania, New Castle Kent & Sussex on Delaware, Maryland, Virginia, North Carolina & South Carolina1
-To George Washington Esquire
-We reposing especial trust and confidence in your patriotism, conduct and fidelity2 Do by these presents constitute and appoint you to be General and Commander in chief of the army of the United Colonies and of all the forces raised3 or to be raised by them and of all others who shall voluntarily offer their service and join the said army for the defence of American Liberty and for repelling every hostile invasion thereof And you are hereby vested with full power and authority to act as you shall think for the good and Welfare of the service.
-And we do hereby strictly charge and require all officers and soldiers under your command to be obedient to your orders & diligent in the exercise of their several dut⟨ies.⟩ And we do also enjoin and require you to be careful in executing the great trust reposed in you, by causing strict discipline and order to be observed in th⟨e⟩ army and that the soldiers are duly exercised an⟨d⟩ provided with all convenient necessaries.
-And you are to regulate your conduct in every respect by the rules and discipline of war (as herewith given you) and punctually to observe and foll⟨ow⟩ such orders and directions from time to time as you shall receive from this or a future Congress of the said United Colonies or a committee of Congress for that purpose appointed.4
-This Commission to continue inforce until revoked by this or a future Congress.
-
-By order of the Congress
-John Hancock President
-Dated Philadelphia June 19th 1775.
- Attest Chas Thomson secy5
-
-DS, DLC:GW;
-
-copy, DNA:PCC, item 1.
-
-The text of the commission in DLC:GW is in the writing of Timothy Matlack, clerk to the secretary of Congress, Charles Thomson. It is signed by Hancock and Thomson. The PCC copy is in the rough journal of the Continental Congress in Thomson’s writing. It is dated 17 June 1775, the day that Congress approved the commission. Significant variations in this copy are noted below. The journal version was printed in Dunlap’s Pennsylvania Packet, or, the General Advertiser (Philadelphia), 11 Dec. 1775.
-
-GW’s commission was drafted by a committee of three delegates, Richard Henry Lee, Edward Rutledge, and John Adams, who were appointed for that purpose on 16 June immediately after GW’s speech accepting the command of the Continental forces. They reported to Congress the next day, at which time the commission, “being read by paragraphs and debated, was agreed to.” Congress then ordered it to “be fairly transcribed, to be signed by the president, and attested by the secretary, and delivered to the General” (JCC description begins Worthington Chauncey Ford et al., eds. Journals of the Continental Congress, 1774-1789. 34 vols. Washington, D.C., 1904–37. description ends , 2:93, 96–97). On 18 June, Hancock wrote to Joseph Warren: “The Congress have Appointed George Washington Esqr. General & Commander in Chief of the Continental Army, his Commission is made out, & I shall Sign it tomorrow” (Smith, Letters of Delegates description begins Paul H. Smith et al., eds. Letters of Delegates to Congress, 1774–1789. 26 vols. Washington, D.C., 1976–2000. description ends , 1:507–8). When Hancock signed the commission, he apparently changed the date by writing “19” over the “17” written by Matlack.
-
-1. The copy in the rough journal of the Continental Congress reads “The Counties of Newcastle, Kent & Sussex on Delaware.” The words “in congress assembled” appear after “South Carolina.”
-
-2. In the rough journal this phrase reads “your patriotism, valour, conduct & fidelity.”
-
-3. The rough journal reads “now raised.”
-
-4. The articles of war were adopted by Congress on 30 June, a week after GW left Philadelphia, and on 5 July Hancock forwarded them to Cambridge. See Richard Henry Lee to GW, 29 June 1775, n.3, and Hancock to GW, 5 July 1775. GW received a set of instructions from Congress on 22 June, which he carried with him.
-
-5. Charles Thomson (1729–1824) of Philadelphia was elected secretary of the First Continental Congress on 5 Sept. 1774 and the Second Continental Congress on 10 May 1775. He held the latter position until Congress ceased to exist in 1789. Thomson officially notified GW of his election as president in April 1789.
-
-Index Entries
-
-Permanent Link What’s this?
-
-https://founders.archives.gov/documents/Washington/03-01-02-0004
-
-Note: The annotations to this document, and any other
-
-modern editorial content, are copyright © The Rector and Visitors of the University of Virginia. All rights reserved.Back to topYou Are Looking AtSource ProjectWashington PapersTitleCommission from the Continental Congress, 19 June 1775AuthorContinental CongressRecipientWashington, GeorgeDate19 June 1775ReferenceCite as“Commission from the Continental Congress, 19 June 1775,” Founders Online, National Archives, https://founders.archives.gov/documents/Washington/03-01-02-0004. [Original source: The Papers of George Washington, Revolutionary War Series, vol. 1, 16 June 1775 – 15 September 1775, ed. Philander D. Chase. Charlottesville: University Press of Virginia, 1985, pp. 6–8.]More between these correspondentsPrecedingFrom Washington to Continental Congress [16 June 1775]NextFrom Continental Congress to Washington [22 June 1775]AllAll correspondence between Washington and Continental Congress
-
-NHPRC
-
-The National Historical Publications and
-
-Records Commission (NHPRC) is part of the National
-
-Archives. Through its grants program, the NHPRC supports a wide range of activities to
-
-preserve, publish, and encourage the use of documentary sources, relating to the history of
-
-the United States, and research and development projects to bring historical records to the
-
-public.
-
-Founders Online is an official website
-
-of the U.S. government, administered by the
-
-National Archives and Records Administration
-
-through the NHPRC, in partnership with the
-
-University of Virginia Press,
-
-which is hosting this website.
-
-The Adams Papers
-
-The Papers of Benjamin Franklin
-
-The Papers of Alexander Hamilton
-
-The Selected Papers of John Jay
-
-The Papers of Thomas Jefferson
-
-The Papers of James Madison
-
-The Papers of George Washington
-
-About the National Archives
-
-National Archives Privacy Policy
-
-Accessibility
-
-Freedom of Information Act
-
-No FEAR Act Data
-
-window.jQuery || document.write(
-
-'&lt;script src="https://code.jquery.com/jquery-3.7.1.min.js" type="text/javascript"&gt;&lt;\/script&gt;'
-
-)
-
-label {
-
-display: inline-block;
-
-width: 5em;
-
-}
-
-$(document).ready(function() {
-
-$('.tooltip').tooltipster();
-
-});
+The General desires that some Carpenters be immediately set to work at Brattle's Stables, to fix up Stalls for eight Horses, and more if the Room will admit, with suitable racks, mangers &c.

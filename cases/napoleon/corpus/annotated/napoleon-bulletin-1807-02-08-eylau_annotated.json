@@ -1,0 +1,188 @@
+{
+  "version": "1.0",
+  "case_id": "napoleon",
+  "document_id": "napoleon-bulletin-1807-02-08-eylau",
+  "generated_at": "2026-06-17T01:07:47",
+  "generator": "scripts/generate-annotation-layer.py",
+  "annotation_policy": "CMT and Koenigsbergian annotations derived from MIPVU-reviewed metaphorical and uncertain lexical units. Each instance cites at least one MIPVU ID with decision_type in METAPHOR_DECISIONS.",
+  "instances": [
+    {
+      "instance_id": "napoleon-ann-008",
+      "case_id": "napoleon",
+      "document_id": "napoleon-bulletin-1807-02-08-eylau",
+      "sentence_id": "napoleon-bulletin-1807-02-08-eylau_s01_p12_s03",
+      "span_text": "gloire",
+      "mipvu_ids": [
+        "napoleon-bulletin-1807-02-08-eylau_s01_p12_s03_lu020"
+      ],
+      "cmt": {
+        "mapping_id": "napoleon-cmt-008",
+        "cluster_id": "napoleon-01-glory-destiny",
+        "source_domain_primary": "light_darkness",
+        "source_domain_secondary": [],
+        "target_domain": "military_virtue",
+        "conceptual_metaphor": "MILITARY VIRTUE IS LIGHT DARKNESS",
+        "entailments": [
+          "`gloire` frames military conduct or death as publicly radiant renown attached to soldiers or units",
+          "Military action and death are understood through fame as covering, radiance, or honor-bearing accompaniment."
+        ],
+        "confidence": 0.86,
+        "rival_reading": "Glory is not a physical covering or companion, but the French phrasing treats it as something one is covered with or dies with.",
+        "justification": "MIPVU review rule '' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
+      },
+      "koenigsberg": {},
+      "meta": {
+        "confidence": 0.86,
+        "ambiguity_flag": false,
+        "suppression_flag": false
+      },
+      "gloss_en": "glory",
+      "gloss_notes": "French `gloire` carries military fame, radiance, public renown, and honor; do not flatten it into generic English glory."
+    },
+    {
+      "instance_id": "napoleon-ann-009",
+      "case_id": "napoleon",
+      "document_id": "napoleon-bulletin-1807-02-08-eylau",
+      "sentence_id": "napoleon-bulletin-1807-02-08-eylau_s01_p15_s02",
+      "span_text": "bouches / feu / mort",
+      "mipvu_ids": [
+        "napoleon-bulletin-1807-02-08-eylau_s01_p15_s02_lu003",
+        "napoleon-bulletin-1807-02-08-eylau_s01_p15_s02_lu005",
+        "napoleon-bulletin-1807-02-08-eylau_s01_p15_s02_lu009"
+      ],
+      "cmt": {
+        "mapping_id": "napoleon-cmt-009",
+        "cluster_id": "napoleon-02-army-body",
+        "source_domain_primary": "body",
+        "source_domain_secondary": [],
+        "target_domain": "army",
+        "conceptual_metaphor": "ARMY IS BODY",
+        "entailments": [
+          "artillery pieces are named as mouths of fire producing death",
+          "battle death and bloodshed are framed as produced, sown, or converted into glory-bearing cost",
+          "Artillery is understood through bodily mouth and fire imagery."
+        ],
+        "confidence": 0.787,
+        "rival_reading": "Cannons are not literal mouths; the French military term preserves body/fire imagery.",
+        "justification": "MIPVU review rule '' marked 3 unit(s) as metaphor-related or uncertain in this sentence."
+      },
+      "koenigsberg": {},
+      "meta": {
+        "confidence": 0.787,
+        "ambiguity_flag": false,
+        "suppression_flag": false
+      },
+      "gloss_en": "mouths of fire",
+      "gloss_notes": "French `bouches a feu` is a conventional term for artillery pieces; body imagery remains visible."
+    },
+    {
+      "instance_id": "napoleon-ann-010",
+      "case_id": "napoleon",
+      "document_id": "napoleon-bulletin-1807-02-08-eylau",
+      "sentence_id": "napoleon-bulletin-1807-02-08-eylau_s01_p15_s03",
+      "span_text": "victoire",
+      "mipvu_ids": [
+        "napoleon-bulletin-1807-02-08-eylau_s01_p15_s03_lu002"
+      ],
+      "cmt": {
+        "mapping_id": "napoleon-cmt-010",
+        "cluster_id": "napoleon-02-army-body",
+        "source_domain_primary": "body",
+        "source_domain_secondary": [],
+        "target_domain": "military_virtue",
+        "conceptual_metaphor": "MILITARY VIRTUE IS BODY",
+        "entailments": [
+          "`victoire` is treated as an agent, possession, or hesitant outcome in battle narrative",
+          "Battle outcome is understood through personification and possession."
+        ],
+        "confidence": 0.76,
+        "rival_reading": "Victory is abstract but is described as hesitating, deciding, or belonging to an army.",
+        "justification": "MIPVU review rule '' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
+      },
+      "koenigsberg": {},
+      "meta": {
+        "confidence": 0.76,
+        "ambiguity_flag": false,
+        "suppression_flag": false
+      },
+      "gloss_en": "victory",
+      "gloss_notes": "French `victoire` may name an event, a result, or a quasi-agent in personified phrasing."
+    },
+    {
+      "instance_id": "napoleon-ann-011",
+      "case_id": "napoleon",
+      "document_id": "napoleon-bulletin-1807-02-08-eylau",
+      "sentence_id": "napoleon-bulletin-1807-02-08-eylau_s01_p16_s06",
+      "span_text": "morts / gloire",
+      "mipvu_ids": [
+        "napoleon-bulletin-1807-02-08-eylau_s01_p16_s06_lu003",
+        "napoleon-bulletin-1807-02-08-eylau_s01_p16_s06_lu005"
+      ],
+      "cmt": {
+        "mapping_id": "napoleon-cmt-011",
+        "cluster_id": "napoleon-05-soldier-sacrifice",
+        "source_domain_primary": "sacrifice",
+        "source_domain_secondary": [],
+        "target_domain": "war_death",
+        "conceptual_metaphor": "WAR DEATH IS SACRIFICE",
+        "entailments": [
+          "battle death and bloodshed are framed as produced, sown, or converted into glory-bearing cost",
+          "`gloire` frames military conduct or death as publicly radiant renown attached to soldiers or units",
+          "Battlefield violence is understood through production, sowing, and sacrificial blood cost."
+        ],
+        "confidence": 0.83,
+        "rival_reading": "Some death is literal, but the phrasing treats death as an output, seed, or glory-bearing sacrificial cost.",
+        "justification": "MIPVU review rule '' marked 2 unit(s) as metaphor-related or uncertain in this sentence."
+      },
+      "koenigsberg": {
+        "fantasy_type": "redemptive_sacrifice",
+        "violence_logic": true,
+        "sacrificial_economy": true
+      },
+      "meta": {
+        "confidence": 0.83,
+        "ambiguity_flag": false,
+        "suppression_flag": false
+      },
+      "gloss_en": "death / blood",
+      "gloss_notes": "French `mort` and `sang` may be literal while still serving sacrifice/glory framing."
+    },
+    {
+      "instance_id": "napoleon-ann-012",
+      "case_id": "napoleon",
+      "document_id": "napoleon-bulletin-1807-02-08-eylau",
+      "sentence_id": "napoleon-bulletin-1807-02-08-eylau_s01_p17_s01",
+      "span_text": "sang",
+      "mipvu_ids": [
+        "napoleon-bulletin-1807-02-08-eylau_s01_p17_s01_lu053"
+      ],
+      "cmt": {
+        "mapping_id": "napoleon-cmt-012",
+        "cluster_id": "napoleon-05-soldier-sacrifice",
+        "source_domain_primary": "sacrifice",
+        "source_domain_secondary": [],
+        "target_domain": "war_death",
+        "conceptual_metaphor": "WAR DEATH IS SACRIFICE",
+        "entailments": [
+          "battle death and bloodshed are framed as produced, sown, or converted into glory-bearing cost",
+          "Battlefield violence is understood through production, sowing, and sacrificial blood cost."
+        ],
+        "confidence": 0.8,
+        "rival_reading": "Some death is literal, but the phrasing treats death as an output, seed, or glory-bearing sacrificial cost.",
+        "justification": "MIPVU review rule '' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
+      },
+      "koenigsberg": {
+        "fantasy_type": "redemptive_sacrifice",
+        "violence_logic": true,
+        "sacrificial_economy": true
+      },
+      "meta": {
+        "confidence": 0.8,
+        "ambiguity_flag": false,
+        "suppression_flag": false
+      },
+      "gloss_en": "death / blood",
+      "gloss_notes": "French `mort` and `sang` may be literal while still serving sacrifice/glory framing."
+    }
+  ]
+}

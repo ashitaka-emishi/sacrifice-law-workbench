@@ -21,13 +21,21 @@
     "correspondance_volume": 24,
     "extraction_script": "scripts/extract-napoleon-bulletins.py",
     "notes": "Post-Moskova movements, French occupation of Moscow. Sacrificial economy under strain: victory proclaimed but retreat imminent.",
+    "verification": {
+      "min_words": 1620,
+      "required_phrases": [
+        "Borovsk",
+        "Moscou",
+        "GRANDE ARM"
+      ]
+    },
     "case_id": "napoleon",
     "raw_path": "corpus/raw/napoleon-src-02-grande-armee-bulletins/napoleon-bulletin-1812-10-23-russia-advance.txt",
     "pipeline_log": [
       {
         "stage": "normalize-texts",
         "script": "scripts/normalize-texts.py",
-        "generated_at": "2026-06-14T15:00:09"
+        "generated_at": "2026-06-17T01:08:25"
       }
     ]
   },
@@ -1337,7 +1345,7 @@
     {
       "stage": "segment-texts",
       "script": "scripts/segment-texts.py",
-      "generated_at": "2026-06-14T15:00:25",
+      "generated_at": "2026-06-17T01:08:25",
       "sentence_count": 93
     }
   ]

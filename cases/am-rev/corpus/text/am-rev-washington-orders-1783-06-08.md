@@ -11,149 +11,78 @@ source_citation: Founders Online, National Archives, Papers of George Washington
 rights_status: public-domain
 expected_raw_path: corpus/raw/am-rev-src-03-washington-general-orders/washington-orders-1783-06-08-farewell-circular.txt
 analytical_priority: primary
-risk_flags:
-- wrong-document-in-file — re-download needed from Founders Online
+verification:
+  min_words: 3300
+  required_phrases:
+  - Head Quarters Newburgh June 8
+  - resign it into the hands of Congress
 case_id: am-rev
 raw_path: corpus/raw/am-rev-src-03-washington-general-orders/washington-orders-1783-06-08-farewell-circular.txt
 pipeline_log:
 - stage: normalize-texts
   script: scripts/normalize-texts.py
-  generated_at: '2026-06-13T20:41:16'
+  generated_at: '2026-06-17T01:08:21'
 ---
 
-Skip navigation. Go to main content.
+From George Washington to The States, 8 June 1783
+(Circular)
 
-Archives.gov Home
+Head Quarters Newburgh June 8-21st 1783
 
-About Founders Online
+Sir
 
-Contact Us
+The great object, for which I had the honor to hold an Appointment in the service of my Country being accomplished, I am now preparing to resign it into the hands of Congress, and to return to that domestic retirement; which it is well known I left with the greatest reluctance, a retirement for which I have never ceased to sigh through a long and painfull absence, and in which (remote from the noise and trouble of the World) I meditate to pass the remainder of life, in a state of undisturbed repose: But before I carry this resolution into effect, I think is a duty incumbent on me, to make this my last official communication, to congratulate you on the glorious events which Heaven has been pleased to produce in our favor, to offer my sentiments respecting some important subjects which appear to me to be intimately connected with the tranquility of the United States, to take my leave of your Excellency as a public Character, and to give my final blessing to that Country, in whose service I have spent the prime of my life, for whose sake I have consumed so many anxious days and watchful nights, and whose happiness, being extremely dear to me, will always constitute no inconsiderable part of my own.
 
-Founders Online
+Impressed with the liveliest sensibility on this pleasing occasion, I will claim the indulgence of dilating the more copiously on the subjects of our mutual felicitation—When we consider the magnitude of the prize we contended for, the doubtfull nature of the Contest, and the favorable manner in which it has terminated, we shall find the greatest possible reason for gratitude and rejoycing—This is a theme that will afford infinite delight to every benevolent & liberal Mind, whether the event in contemplation be considerd as the source of present enjoyment or the parent of future happiness; and we shall have equal occasion to felicitate ourselves, on the lot which Providence has assigned us, whether we view it in a natural, a political, or a moral point of light.
 
-[Back to normal view]
+The Citizens of America, placed in the most enviable condition, as the sole Lords and Proprietors of a vast tract of Continent, comprehending all the various Soils and Climates of the World and abounding with all the necessaries and conveniences of life, are now, by the late satisfactory pacification, acknowledged to be possessed of absolute freedom and Independancy—They are from this period to be considered as the Actors, on a most conspicuous Theatre, which seems to be peculiarly designated by Providence for the display of human greatness and felicity, here they are not only surrounded with every thing which can contribute to the completion of private and domestic enjoyment, but Heaven has crowned all its other blessings by giving a fairer opportunity for political happiness, than any other Nation has ever been favored with—Nothing can illustrate these observations more forcibly than a recollection of the happy conjuncture of times and circumstances under which our Republic assumed its Rank among the Nations—the foundation of our Empire was not laid in the gloomy Age of ignorance and superstition, but at an Epocha when the rights of Mankind were better understood and more clearly defined, than at any former period—The researches of the human Mind after social happiness have been carried to a great extent, the treasures of knowledge acquired by the labours of Philosophers, Sages and Legislators, through a long succession of years, are laid open for our use and their collected wisdom may be happily applied in the establishment of our forms of Government. The free cultivation of letters, the unbounded extension of Commerce, the progressive Refinement of manners, the growing liberality of sentiment, and, above all, the pure and benign light of Revelation, have had a meliorating influence on Mankind and encreased the blessings of Society. At this Auspicious period the United States came into existence as a Nation, and if their Citizens should not be completely free & happy, the fault will be entirely their own.
 
-George Washington Papers
+Such is our situation, and such are our prospects: but nowithstanding the Cup of blessing is thus reached out to us, notwithstanding happiness is ours if we have a disposition to seize the occasion and make it our own, yet it appears to me there is an option still left to the United States of America; that it is in their choïce and depends upon their conduct, whether they will be respectable and prosperous or contemptible and Miserable as a Nation. This is the time of their political probation: this is the moment when the eyes of the whole World are turned upon them—This is the moment to establish or ruin their National Character for ever—This is the favorable moment to give such a tone to our fœderal Government, as will enable it to answer the ends of its institution—or this may be the ill fated moment for relaxing the powers of the Union, annihilating the cement of the Confederation and exposing us to become the sport of European Politicks, which may play one State against another, to prevent their growing importance and to serve their own interested purposes; for according to the System of Policy the States shall adopt at this moment, they will stand or fall, and by their confirmation or lapse, it is yet to be decided whether the Revolution must ultimately be considered as a blessing or a curse: a blessing or a curse, not to the present Age alone, for with our fate will the destiny of unborn Millions be involved.
 
-Permanent Link view
+With this conviction of the importance of the present Crisis, silence in me would be a crime; I will therefore speak to your Excellency the language of freedom and sincerity without disguise. I am aware, however, that those who differ from me in political sentiment may perhaps remark I am stepping out of the proper line of my duty, and they may possibly ascribe to arrogance or ostentation what I know is alone the result of the purest intention; but the rectitude of my own heart, which disdains such unworthy motives; the part I have hitherto acted in life; the determination I have formed of not taking any share in public business hereafter; the ardent desire I feel and shall continue to manifest of quietly enjoying in private life, after all the toils of War, the benefits of a wise and liberal Government, will, I flatter myself, sooner or later convince my Country men that I could have no sinister views in delivering, with so little Reserve, the opinions contained in this address.
 
-Start New Search
+There are four things, which I humbly conceive are essential to the well being, I may even venture to say to the existence, of the United States as an independent Power.
 
-View Previous Searches
+1st An indissoluble Union of the States under one federal Head.
 
-Print View
+2ndly A sacred regard to public Justice.
 
-Max Page View
+3dly The adoption of a proper Peace Establishment—and
 
-Normal Page View
+4thly The prevalence of that pacific and friendly disposition among the people of the United States, which will induce them to forget their local prejudices and policies, to make those mutual concessions which are requisite to the general prosperity, and, in some instances, to sacrifice their individual advantages to the interest of the community.
 
-Share
+These are the pillars on which the glorious fabrick of our Independancy and National Character must be supported—Liberty is the basis—and whoever would dare to sap the foundation or overturn the Structure under whatever specious pretexts he may attempt it, will merit the bitterest execration and the severest punishments which can be inflicted by his injured Country.
 
-Email This
+On the three first Articles I will make a few observations, leaving the last to the good sense and serious consideration of those immediately concerned.
 
-Share this on Facebook
+Under the first head, altho it may not be necessary or proper for me in this place to enter into a particular disquisition of the principles of the Union and to take up the great question which has been frequently agitated, whether it be expedient and requisite for the States to delegate a larger proportion of Power to Congress or not, yet it will be a part of my duty, and that of every true Patriot; to assert without reserve and to insist upon the following positions—That unless the States will suffer Congress to exercise those prerogatives they are undoubtedly invested with by the Constitution, every thing must very rapidly tend to Anarchy and confusion—that it is indispensible to the happiness of the individual States that there should be lodged somewhere, a supreme power to regulate and govern the general concerns of the confederated Republic, without which the Union cannot be of long duration—That there must be a faithfull and pointed compliance on the part of every State with the late proposals and demands of Congress, or the most fatal consequences will ensue; that whatever measures have a tendency to dissolve the Union, or contribute to violate or lessen the Sovereign Authority, ought to be considered as hostile to the Liberty and Independancy of America and the Authors of them treated accordingly; and lastly, that unless we can be enabled, by the concurrence of the States, to participate of the fruits of the Revolution, and enjoy the essential benefits of civil Society, under a form of Government so free and uncorrupted, so happily guarded against the danger of oppression as has been devised and adopted by the Articles of Confederation, it will be a subject of regret that so much blood and treasure have been lavished for no purpose; that so many sufferings have been encounter'd, without a compensation and that so many sacrifices have been made in vain.
 
-Tweet
+Many other considerations might here be adduced to prove, that without an entire conformity to the spirit of the Union we cannot exist as an independant Power. It will be sufficient for my purpose, to mention but one or two which seem to me of the greatest importance. It is only in our United Character, as an Empire, that our Independance is acknowledged, that our power can be regarded or our Credit supported among foreign Nations—the Treaties of the European Powers with the United States of America will have no validity on a dissolution of the Union. We shall be left nearly in a State of Nature, or we may find by our own unhappy experience, that there is a natural and necessary progression from the extreme of Anarchy to the extreme of Tyranny, and that arbritary power is most easily established on the ruins of Liberty abused to Licentiousness.
 
-Brigadier General Henry Knox to George Washington, 4 February 1778
+As to the second Article, which respects the performance of public justice, Congress have in their late address to the United States almost exhausted the Subject, they have explained their ideas so fully and have enforced the obligations the States are under to render compleat justice to all the public Creditors, with so much dignity and energy, that in my opinion no real friend to the honour and Independancy of America, can hesitate a single moment respecting the propriety of complying with the just and honorable measures proposed—If their Arguments do not produce conviction, I know of nothing that will have greater influence, especially when we recollect that the System referred to, being the result of the collected wisdom of the Continent, must be esteemed, if not perfect, certainly the least objectionable of any that could be devised, and that if it shall not be carried into immediate execution, a National bankruptcy, with all its deplorable consequences, will take place before any different plan can possibly be proposed and adopted, so pressing are the present circumstances! and such is the alternative now offerd to the States!
 
-From Brigadier General Henry Knox
+The ability of the Country to discharge the debts which have been incurred in its defence, is not to be doubted, an inclination I flatter myself will not be wanting: the path of our duty is plain before us—honesty will be found on every experiment to be the best and only true policy—let us then as a Nation be just—let us fulfill the public Contracts which Congress had undoubtedly a right to make for the purpose of carrying on the War, with the same good faith we suppose ourselves bound to perform our private engagements; in the mean time let an attention to the chearfull performance of their proper business as individuals and as members of Society be earnestly inculcated on the Citizens of America—then will they strengthen the hands of Government & be happy under its protection, every one will reap the fruit of his Labours, every one will enjoy his own acquisitions without molestation and without danger.
 
-Boston February 4th 1778.Sir.
-I wrote to your Excellency from Springfield concerning the Cannon which were sent from Albany to Farmington in Connecticut, and that I had determin’d to wait your further directions about them, as I suppos’d Genl Gates must have had some particular object in view by ordering them to that place.1 The greater part of the Cannon that arriv’d at Portsmouth have been brought to this Town by Water, to save the expence of land carriage, and which with 17 others that arriv’d in Town, will be sent off to Springfield immediately. The Mortars are not yet arriv’d but are hourly expected.
-There are great quantities of lead and other Military Stores, absolutely necesary for next Campaign, in this and the other neighbouring Sea Ports, but the prices are so extravagantly high that I am almost afraid to order them to be purchas’d, especially as I have not yet receiv’d the directions of the board of War for which your Excellency desir’d me to write to them.
-Money in all the Public departments here is excesively scarce insomuch that public Bussiness is at a stand for want of it, and it is not to be borrow’d, as the Merchants and monied people declare they have not half enough for a medium of trade.
-The Agent for Cloathing Mr Otis asserted to me that if he was properly supported with Money he should be able to purchase Cloathing sufficient for 30,000 men by the first day of next month; and from the exertions he has made I have not the least doubt of his performing it—He has sent on 7000 suits & is making up 5000 more. Goods of every kind are here in great plenty, but very high priced—the people say they are falling every hour, and have fell 40 ⅌Ct within this month past; if so they must have been nearly infinite, as imported articles are now six times as much as they were formerly. Nothing but heavy taxes will reduce the prices and enable the Continent to carry on the War.
-The Legislature here appear to be fully sensible of the importance of filling up their quota of the Army, but fear the people will not bear the propos’d mode of drafting. This is a debilitated way of thinking, and I have no doubt were Congress to press the matter and leave no alternative, that your Excellency would in April find yourself at the head of a powerful body of forces fully equal to all exigencies.
-Should the Continental Army not be fill’d up so as to enable you to act with Vigor and decision I deprecate the consequences. New England would upon an emergency turn out Ten or twelve thousand men to assist the Continental Army: this indeed is their passion, it is what they ardently wish. I assert this from the information which I have
+In this state of absolute freedom and perfect security, who will grudge to yield a very little of his property to support the common interests of Society and ensure the protection of Government? who does not remember the frequent declarations at the commencement of the War that we should be completely satisfied, if at the expence of one half, we could defend the remainder of our possessions! where is the Man to be found who wishes to remain indebted for the defence of his own person and property to the exertions, the bravery and the blood of others, without making one generous effort to repay the debt of honor and of gratitude? In what part of the Continent shall we find any Man or body of Men who would not blush to stand up and propose measures purposely calculated to rob the Soldier of his Stipend and the public Creditor of his due and were it possible that such a flagrant instance of injustice could ever happen, would it not excite the general indignation and tend to bring down upon the authors of such measures the aggravated vengeance of Heaven?
 
-receiv’d from all classes of people. Were these to be employ’d agreable to a hint of your Excellency’s and a proposal which I had the honor of making, I have not the least doubt of the event being glorious—In every point of view in which I have been able to place the proposition the conclusion has been favorable for the attempt.2
-I expect soon to receive directions from the Board of War respecting the Stores, but should they not arrive in time I shall endeavor to make such provision as the next Campaign may demand, & hope the exigencies of the Service will justify my conduct. I am in hopes to have every thing in such readiness as to be able to sett off for Camp the beginning of next Month. I am with the utmost respect & attachment Your Excellency’s most Obedient Humble Servant
+If after all, a spirit of disunion or a temper of obstinacy and perverseness should manifest itself in any of the States; if such an ungracious disposition should attempt to frustrate all the happy effects that might be expected to flow from the Union; if there should be a refusal to comply with the Requisitions for funds to discharge the annual Interest of the public Debts and if that refusal should revive again all those jealousies and produce all those evils which are now happily removed, Congress, who have, in all their transactions, shewn a great degree of magnanimity and justice, will stand justified in the sight of God and Man and the State alone which puts itself in opposition to the aggregate wisdom of the Continent and follows such mistaken and pernicious councils, will be responsible for all the Consequences.
 
-H. Knox B.G. Artillery
+For my own part, conscious of having acted, while a servant of the public, in the manner I conceived best suited to promote the real interests of my Country, having in consequence of my fixed belief, in some measure, pledged myself to the Army that their Country would finally do them compleat and ample Justice and not wishing to conceal any instance of my official conduct from the eyes of the World, I have thought proper to transmit to your Excellency the inclosed collection of papers relative to the half-pay & commutation granted by Congress to the Officers of the Army. From these communications my decided sentiment will be clearly comprehended, together with the conclusive reasons which induced me, at an early period, to recommend the adoption of this measure in the most earnest and serious manner. As the proceedings of Congress, the Army and myself are open to all and contain in my opinion sufficient information to remove the prejudices and errors which may have been entertained by any, I think it unnecessary to say anything more, than just to observe, that the resolutions of Congress now alluded to, are undoubtedly as absolutely binding upon the United States, as the most solemn Acts of Confederation or Legislation. As to the idea which, I am informed, has in some instances prevailed, that the half pay and Commutation are to be regarded merely in the odious Light of a pension, it ought to be exploded forever—that provision should be viewed as it really was, a reasonable compensation offerd by Congress at a Time when they had nothing else to give to the Officers of the Army for services then to be performed. It was the only means to prevent a total dereliction of the Service—it was a part of their hire, I may be allowed to say, it was the price of their blood and of your Independancy—it is therefore more than a common debt, it is a debt of honor—it can never be considered as a pension or gratuity nor be cancelled untill it is fairly discharged.
 
-LS, DLC:GW.
+With regard to a distinction between Officers and Soldiers, it is sufficient that the uniform experience of every Nation of the World combined with our own, proves the utility and propriety of the discrimination—Rewards in proportion to the Aids the Public derives from them, are unquestionably due to all its Servants—In some Lines, the Soldiers have perhaps generally had as ample a compensation for their Services, by the large bounties which have been paid them, as their Officers will receive in the proposed commutation; in others, if besides the donation of Lands, the payment of Arrearages of Cloathing and Wages (in which Articles all the component parts of the Army must be on the same footing) we take into the estimate the bounties many of the Soldiers have received and the gratuity of one years full pay which is promised to all, possibly their situation (every circumstance being duly considered) will not be deemed less eligible than that of the Officers, should a farther Reward however be judged equitable, I will venture to asert no one will enjoy greater satisfaction than myself, on seeing an exemption from Taxes for a limitted time (which has been petitioned for in some instances) or any other adequate compensation or immunity, granted to the brave defenders of their Countrys cause; but neither the adoption or rejection of this proposition, will in any manner affect, much less militate against, the Act of Congress by which they have offer'd five Years full pay in lieu of half pay for life, which had been before promised to the Officers of the Army.
 
-1. Knox is referring to his letter to GW of 21 January.
+Before I conclude the Subject of public justice, I cannot omit to mention the obligations this Country is under to that meritorious class of veteran non Commission'd Officers and Privates who have been discharged for inability, in consequence of the resolution of Congress of the 23d April 1782, on an annual pension for life; their peculiar sufferings, their singular merits and claims to that provision, need only be known, to interest all the feelings of humanity in their behalf; nothing but a punctual payment of their annual allowance, can rescue them from the most complicated misery, and nothing could be a more melancholy and distressing sight, than to behold those who have shed their blood or lost their limbs in the service of their Country, without a shelter, without a friend and without the means of obtaining any of the necessaries of life or comforts of life compelled to beg their daily bread from door to door! Suffer me to recommend those of this description belonging to your State to the warmest patronage of your Excellency and your Legislature.
 
-2. Knox had advocated an attack on New York City in his letter to GW of 3 January.
+It is necessary to say but a few words on the third topic which was proposed and which regards particularly the defence of the Republic—As there can be little doubt but Congress will Recommend a proper Peace Establishment for the United States in which a due attention will be paid to the importance of placing the Militia of the Union upon a regular and respectable footing—If this should be the case, I would beg leave to urge the great advantage of it in the strongest terms—the Militia of this Country must be considerd as the Palladium of our security and the first effectual resort, in case of hostility; It is essential therefore, that the same system should pervade the whole—that the formation & discipline of the Militia of the Continent should be absolutely uniform and the same species of Arms, Accoutrements & Military Apparatus should be introduced in every part of the United States. No one, who has not learned it from experience, can conceive the difficulty, expence & confusion which result from a contrary System, or the vague Arrangements which have hitherto prevailed.
 
-Index Entries
+If in treating of political points, a greater latitude than usual has been taken in the course of this address—the importance of the Crisis and the magnitude of the objects in discussion, must be my apology—It is, however, neither my wish or expectation, that the preceding observations should claim any regard, except so far as they shall appear to be dictated by a good intention, consonant to the immutable rules of Justice—calculated to produce a liberal system of Policy and founded on what ever experience may have been acquired by a long and close Attention to public business—Here I might speak with the more confidence, from my actual observations and if it would not swell this Letter (already too prolix) beyond the bounds I had prescribed myself, I could demonstrate to every mind open to conviction, that in less time & with much less expence than has been incurred, the War might have been brought to the same happy, conclusion if the resources of the Continent could have been properly drawn forth—that the distresses and disappointments, which have very often occurred, have in too many instances resulted more from a want of energy in the Continental Government, than a deficiency of means in the particular States—That the inefficacy of measures, arising from the want of an adequate authority in the supreme Power, from a partial compliance with the requisitions of Congress in some of the States and from a failure of punctuality in others, while it tended to damp the Zeal of those which where more willing to exert themselves, served also to accumulate the expences of the War and to frustrate the best concerted plans; and that the discouragement, occasioned by the complicated difficulties & embarrasments in which our affairs were by this means involved, would have long ago produced the dissolution of any Army, less patient, less virtuous and less persevering than that which I have had the honor to Command. But while I mention these things, which are notorious facts, as the defects of our Federal Constitution, particularly in the prosecution of a War, I beg it may be understood, that as I have ever taken a pleasure in gratefully acknowledging the assistance and support I have derived from every class of Citizens, so shall I always be happy to do justice to the unparralled exertions of the individual States on many interesting occasions.
 
-Permanent Link What’s this?
+I have thus freely disclosed, what I wished to make known, before I surrendered up my Public trust to those who committed it to me—the task is now accomplished—I now bid adieu to your Excellency, as the Chief Magistrate of your State at the same time I bid a last farewell to the cares of Office and all the employments of public life.
 
-https://founders.archives.gov/documents/Washington/03-13-02-0371
+It remains then to be my final and only request, that your Excellency will communicate these sentiments to your legislature at their next meeting and that they may be considered as the Legacy of one who has ardently wished on all occasions to be usefull to his Country and who even in the shade of Retirement will not fail to implore the divine benediction upon it.
 
-Note: The annotations to this document, and any other
+I now make it my earnest prayer, that God would have you and the State over which you preside, in his holy protection that he would incline the hearts of the Citizens to cultivate a spirit of subordination & obedience to Government, to entertain a brotherly affection and love for one another, for their fellow Citizens of the United States at large and particularly for their brethren who have served in the field—and finally that he would most graciously be pleas'd to dispose us all to do Justice, to love mercy and to demean ourselves, with that Charity, humility & pacific temper of mind, which were the Characteristicks of the Divine Author of our blessed Religion & without an humble immitation of whose example in these things, we can never hope to be a happy Nation.
 
-modern editorial content, are copyright © The Rector and Visitors of the University of Virginia. All rights reserved.Back to topYou Are Looking AtSource ProjectWashington PapersTitleBrigadier General Henry Knox to George Washington, 4 February 1778AuthorKnox, HenryRecipientWashington, GeorgeDate4 February 1778ReferenceCite as“Brigadier General Henry Knox to George Washington, 4 February 1778,” Founders Online, National Archives, https://founders.archives.gov/documents/Washington/03-13-02-0371. [Original source: The Papers of George Washington, Revolutionary War Series, vol. 13, 26 December 1777 – 28 February 1778, ed. Edward G. Lengel. Charlottesville: University of Virginia Press, 2003, pp. 449–450.]More between these correspondentsPrecedingFrom Knox to Washington [21 January 1778]NextFrom Knox to Washington [16 February 1778]AllAll correspondence between Knox and Washington
+With the greatest regard and esteem, I have the honor to be Sir Your Excellency's Most Obedient and most humble Servant
 
-NHPRC
-
-The National Historical Publications and
-
-Records Commission (NHPRC) is part of the National
-
-Archives. Through its grants program, the NHPRC supports a wide range of activities to
-
-preserve, publish, and encourage the use of documentary sources, relating to the history of
-
-the United States, and research and development projects to bring historical records to the
-
-public.
-
-Founders Online is an official website
-
-of the U.S. government, administered by the
-
-National Archives and Records Administration
-
-through the NHPRC, in partnership with the
-
-University of Virginia Press,
-
-which is hosting this website.
-
-The Adams Papers
-
-The Papers of Benjamin Franklin
-
-The Papers of Alexander Hamilton
-
-The Selected Papers of John Jay
-
-The Papers of Thomas Jefferson
-
-The Papers of James Madison
-
-The Papers of George Washington
-
-About the National Archives
-
-National Archives Privacy Policy
-
-Accessibility
-
-Freedom of Information Act
-
-No FEAR Act Data
-
-window.jQuery || document.write(
-
-'&lt;script src="https://code.jquery.com/jquery-3.7.1.min.js" type="text/javascript"&gt;&lt;\/script&gt;'
-
-)
-
-label {
-
-display: inline-block;
-
-width: 5em;
-
-}
-
-$(document).ready(function() {
-
-$('.tooltip').tooltipster();
-
-});
+Go: Washington

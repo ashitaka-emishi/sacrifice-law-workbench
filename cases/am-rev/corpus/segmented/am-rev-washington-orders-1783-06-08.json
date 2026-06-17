@@ -14,16 +14,20 @@
     "rights_status": "public-domain",
     "expected_raw_path": "corpus/raw/am-rev-src-03-washington-general-orders/washington-orders-1783-06-08-farewell-circular.txt",
     "analytical_priority": "primary",
-    "risk_flags": [
-      "wrong-document-in-file — re-download needed from Founders Online"
-    ],
+    "verification": {
+      "min_words": 3300,
+      "required_phrases": [
+        "Head Quarters Newburgh June 8",
+        "resign it into the hands of Congress"
+      ]
+    },
     "case_id": "am-rev",
     "raw_path": "corpus/raw/am-rev-src-03-washington-general-orders/washington-orders-1783-06-08-farewell-circular.txt",
     "pipeline_log": [
       {
         "stage": "normalize-texts",
         "script": "scripts/normalize-texts.py",
-        "generated_at": "2026-06-13T20:41:16"
+        "generated_at": "2026-06-17T01:08:21"
       }
     ]
   },
@@ -40,22 +44,11 @@
             {
               "sentence_id": "am-rev-washington-orders-1783-06-08_s01_p01_s01",
               "sentence_ordinal": 1,
-              "text": "Skip navigation.",
+              "text": "From George Washington to The States, 8 June 1783 (Circular)",
               "word_offset_start": 0,
-              "word_offset_end": 2,
+              "word_offset_end": 10,
               "char_offset_start": 0,
-              "char_offset_end": 16,
-              "authorship_note": null,
-              "metaphor_instances": []
-            },
-            {
-              "sentence_id": "am-rev-washington-orders-1783-06-08_s01_p01_s02",
-              "sentence_ordinal": 2,
-              "text": "Go to main content.",
-              "word_offset_start": 2,
-              "word_offset_end": 6,
-              "char_offset_start": 17,
-              "char_offset_end": 36,
+              "char_offset_end": 60,
               "authorship_note": null,
               "metaphor_instances": []
             }
@@ -68,11 +61,11 @@
             {
               "sentence_id": "am-rev-washington-orders-1783-06-08_s01_p02_s01",
               "sentence_ordinal": 1,
-              "text": "Archives.gov Home",
-              "word_offset_start": 6,
-              "word_offset_end": 8,
-              "char_offset_start": 38,
-              "char_offset_end": 55,
+              "text": "Head Quarters Newburgh June 8-21st 1783",
+              "word_offset_start": 10,
+              "word_offset_end": 16,
+              "char_offset_start": 62,
+              "char_offset_end": 101,
               "authorship_note": null,
               "metaphor_instances": []
             }
@@ -85,11 +78,11 @@
             {
               "sentence_id": "am-rev-washington-orders-1783-06-08_s01_p03_s01",
               "sentence_ordinal": 1,
-              "text": "About Founders Online",
-              "word_offset_start": 8,
-              "word_offset_end": 11,
-              "char_offset_start": 57,
-              "char_offset_end": 78,
+              "text": "Sir",
+              "word_offset_start": 16,
+              "word_offset_end": 17,
+              "char_offset_start": 103,
+              "char_offset_end": 106,
               "authorship_note": null,
               "metaphor_instances": []
             }
@@ -102,11 +95,11 @@
             {
               "sentence_id": "am-rev-washington-orders-1783-06-08_s01_p04_s01",
               "sentence_ordinal": 1,
-              "text": "Contact Us",
-              "word_offset_start": 11,
-              "word_offset_end": 13,
-              "char_offset_start": 80,
-              "char_offset_end": 90,
+              "text": "The great object, for which I had the honor to hold an Appointment in the service of my Country being accomplished, I am now preparing to resign it into the hands of Congress, and to return to that domestic retirement; which it is well known I left with the greatest reluctance, a retirement for which I have never ceased to sigh through a long and painfull absence, and in which (remote from the noise and trouble of the World) I meditate to pass the remainder of life, in a state of undisturbed repose: But before I carry this resolution into effect, I think is a duty incumbent on me, to make this my last official communication, to congratulate you on the glorious events which Heaven has been pleased to produce in our favor, to offer my sentiments respecting some important subjects which appear to me to be intimately connected with the tranquility of the United States, to take my leave of your Excellency as a public Character, and to give my final blessing to that Country, in whose service I have spent the prime of my life, for whose sake I have consumed so many anxious days and watchful nights, and whose happiness, being extremely dear to me, will always constitute no inconsiderable part of my own.",
+              "word_offset_start": 17,
+              "word_offset_end": 234,
+              "char_offset_start": 108,
+              "char_offset_end": 1322,
               "authorship_note": null,
               "metaphor_instances": []
             }
@@ -119,11 +112,11 @@
             {
               "sentence_id": "am-rev-washington-orders-1783-06-08_s01_p05_s01",
               "sentence_ordinal": 1,
-              "text": "Founders Online",
-              "word_offset_start": 13,
-              "word_offset_end": 15,
-              "char_offset_start": 92,
-              "char_offset_end": 107,
+              "text": "Impressed with the liveliest sensibility on this pleasing occasion, I will claim the indulgence of dilating the more copiously on the subjects of our mutual felicitation—When we consider the magnitude of the prize we contended for, the doubtfull nature of the Contest, and the favorable manner in which it has terminated, we shall find the greatest possible reason for gratitude and rejoycing—This is a theme that will afford infinite delight to every benevolent & liberal Mind, whether the event in contemplation be considerd as the source of present enjoyment or the parent of future happiness; and we shall have equal occasion to felicitate ourselves, on the lot which Providence has assigned us, whether we view it in a natural, a political, or a moral point of light.",
+              "word_offset_start": 234,
+              "word_offset_end": 361,
+              "char_offset_start": 1324,
+              "char_offset_end": 2096,
               "authorship_note": null,
               "metaphor_instances": []
             }
@@ -136,11 +129,33 @@
             {
               "sentence_id": "am-rev-washington-orders-1783-06-08_s01_p06_s01",
               "sentence_ordinal": 1,
-              "text": "[Back to normal view]",
-              "word_offset_start": 15,
-              "word_offset_end": 19,
-              "char_offset_start": 109,
-              "char_offset_end": 130,
+              "text": "The Citizens of America, placed in the most enviable condition, as the sole Lords and Proprietors of a vast tract of Continent, comprehending all the various Soils and Climates of the World and abounding with all the necessaries and conveniences of life, are now, by the late satisfactory pacification, acknowledged to be possessed of absolute freedom and Independancy—They are from this period to be considered as the Actors, on a most conspicuous Theatre, which seems to be peculiarly designated by Providence for the display of human greatness and felicity, here they are not only surrounded with every thing which can contribute to the completion of private and domestic enjoyment, but Heaven has crowned all its other blessings by giving a fairer opportunity for political happiness, than any other Nation has ever been favored with—Nothing can illustrate these observations more forcibly than a recollection of the happy conjuncture of times and circumstances under which our Republic assumed its Rank among the Nations—the foundation of our Empire was not laid in the gloomy Age of ignorance and superstition, but at an Epocha when the rights of Mankind were better understood and more clearly defined, than at any former period—The researches of the human Mind after social happiness have been carried to a great extent, the treasures of knowledge acquired by the labours of Philosophers, Sages and Legislators, through a long succession of years, are laid open for our use and their collected wisdom may be happily applied in the establishment of our forms of Government.",
+              "word_offset_start": 361,
+              "word_offset_end": 614,
+              "char_offset_start": 2098,
+              "char_offset_end": 3678,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "am-rev-washington-orders-1783-06-08_s01_p06_s02",
+              "sentence_ordinal": 2,
+              "text": "The free cultivation of letters, the unbounded extension of Commerce, the progressive Refinement of manners, the growing liberality of sentiment, and, above all, the pure and benign light of Revelation, have had a meliorating influence on Mankind and encreased the blessings of Society.",
+              "word_offset_start": 614,
+              "word_offset_end": 657,
+              "char_offset_start": 3679,
+              "char_offset_end": 3965,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "am-rev-washington-orders-1783-06-08_s01_p06_s03",
+              "sentence_ordinal": 3,
+              "text": "At this Auspicious period the United States came into existence as a Nation, and if their Citizens should not be completely free & happy, the fault will be entirely their own.",
+              "word_offset_start": 657,
+              "word_offset_end": 688,
+              "char_offset_start": 3966,
+              "char_offset_end": 4141,
               "authorship_note": null,
               "metaphor_instances": []
             }
@@ -153,11 +168,22 @@
             {
               "sentence_id": "am-rev-washington-orders-1783-06-08_s01_p07_s01",
               "sentence_ordinal": 1,
-              "text": "George Washington Papers",
-              "word_offset_start": 19,
-              "word_offset_end": 22,
-              "char_offset_start": 132,
-              "char_offset_end": 156,
+              "text": "Such is our situation, and such are our prospects: but nowithstanding the Cup of blessing is thus reached out to us, notwithstanding happiness is ours if we have a disposition to seize the occasion and make it our own, yet it appears to me there is an option still left to the United States of America; that it is in their choïce and depends upon their conduct, whether they will be respectable and prosperous or contemptible and Miserable as a Nation.",
+              "word_offset_start": 688,
+              "word_offset_end": 769,
+              "char_offset_start": 4143,
+              "char_offset_end": 4595,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "am-rev-washington-orders-1783-06-08_s01_p07_s02",
+              "sentence_ordinal": 2,
+              "text": "This is the time of their political probation: this is the moment when the eyes of the whole World are turned upon them—This is the moment to establish or ruin their National Character for ever—This is the favorable moment to give such a tone to our fœderal Government, as will enable it to answer the ends of its institution—or this may be the ill fated moment for relaxing the powers of the Union, annihilating the cement of the Confederation and exposing us to become the sport of European Politicks, which may play one State against another, to prevent their growing importance and to serve their own interested purposes; for according to the System of Policy the States shall adopt at this moment, they will stand or fall, and by their confirmation or lapse, it is yet to be decided whether the Revolution must ultimately be considered as a blessing or a curse: a blessing or a curse, not to the present Age alone, for with our fate will the destiny of unborn Millions be involved.",
+              "word_offset_start": 769,
+              "word_offset_end": 944,
+              "char_offset_start": 4596,
+              "char_offset_end": 5582,
               "authorship_note": null,
               "metaphor_instances": []
             }
@@ -170,11 +196,22 @@
             {
               "sentence_id": "am-rev-washington-orders-1783-06-08_s01_p08_s01",
               "sentence_ordinal": 1,
-              "text": "Permanent Link view",
-              "word_offset_start": 22,
-              "word_offset_end": 25,
-              "char_offset_start": 158,
-              "char_offset_end": 177,
+              "text": "With this conviction of the importance of the present Crisis, silence in me would be a crime; I will therefore speak to your Excellency the language of freedom and sincerity without disguise.",
+              "word_offset_start": 944,
+              "word_offset_end": 976,
+              "char_offset_start": 5584,
+              "char_offset_end": 5775,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "am-rev-washington-orders-1783-06-08_s01_p08_s02",
+              "sentence_ordinal": 2,
+              "text": "I am aware, however, that those who differ from me in political sentiment may perhaps remark I am stepping out of the proper line of my duty, and they may possibly ascribe to arrogance or ostentation what I know is alone the result of the purest intention; but the rectitude of my own heart, which disdains such unworthy motives; the part I have hitherto acted in life; the determination I have formed of not taking any share in public business hereafter; the ardent desire I feel and shall continue to manifest of quietly enjoying in private life, after all the toils of War, the benefits of a wise and liberal Government, will, I flatter myself, sooner or later convince my Country men that I could have no sinister views in delivering, with so little Reserve, the opinions contained in this address.",
+              "word_offset_start": 976,
+              "word_offset_end": 1117,
+              "char_offset_start": 5776,
+              "char_offset_end": 6578,
               "authorship_note": null,
               "metaphor_instances": []
             }
@@ -187,11 +224,11 @@
             {
               "sentence_id": "am-rev-washington-orders-1783-06-08_s01_p09_s01",
               "sentence_ordinal": 1,
-              "text": "Start New Search",
-              "word_offset_start": 25,
-              "word_offset_end": 28,
-              "char_offset_start": 179,
-              "char_offset_end": 195,
+              "text": "There are four things, which I humbly conceive are essential to the well being, I may even venture to say to the existence, of the United States as an independent Power.",
+              "word_offset_start": 1117,
+              "word_offset_end": 1148,
+              "char_offset_start": 6580,
+              "char_offset_end": 6749,
               "authorship_note": null,
               "metaphor_instances": []
             }
@@ -204,11 +241,11 @@
             {
               "sentence_id": "am-rev-washington-orders-1783-06-08_s01_p10_s01",
               "sentence_ordinal": 1,
-              "text": "View Previous Searches",
-              "word_offset_start": 28,
-              "word_offset_end": 31,
-              "char_offset_start": 197,
-              "char_offset_end": 219,
+              "text": "1st An indissoluble Union of the States under one federal Head.",
+              "word_offset_start": 1148,
+              "word_offset_end": 1159,
+              "char_offset_start": 6751,
+              "char_offset_end": 6814,
               "authorship_note": null,
               "metaphor_instances": []
             }
@@ -221,11 +258,11 @@
             {
               "sentence_id": "am-rev-washington-orders-1783-06-08_s01_p11_s01",
               "sentence_ordinal": 1,
-              "text": "Print View",
-              "word_offset_start": 31,
-              "word_offset_end": 33,
-              "char_offset_start": 221,
-              "char_offset_end": 231,
+              "text": "2ndly A sacred regard to public Justice.",
+              "word_offset_start": 1159,
+              "word_offset_end": 1166,
+              "char_offset_start": 6816,
+              "char_offset_end": 6856,
               "authorship_note": null,
               "metaphor_instances": []
             }
@@ -238,11 +275,11 @@
             {
               "sentence_id": "am-rev-washington-orders-1783-06-08_s01_p12_s01",
               "sentence_ordinal": 1,
-              "text": "Max Page View",
-              "word_offset_start": 33,
-              "word_offset_end": 36,
-              "char_offset_start": 233,
-              "char_offset_end": 246,
+              "text": "3dly The adoption of a proper Peace Establishment—and",
+              "word_offset_start": 1166,
+              "word_offset_end": 1174,
+              "char_offset_start": 6858,
+              "char_offset_end": 6911,
               "authorship_note": null,
               "metaphor_instances": []
             }
@@ -255,11 +292,11 @@
             {
               "sentence_id": "am-rev-washington-orders-1783-06-08_s01_p13_s01",
               "sentence_ordinal": 1,
-              "text": "Normal Page View",
-              "word_offset_start": 36,
-              "word_offset_end": 39,
-              "char_offset_start": 248,
-              "char_offset_end": 264,
+              "text": "4thly The prevalence of that pacific and friendly disposition among the people of the United States, which will induce them to forget their local prejudices and policies, to make those mutual concessions which are requisite to the general prosperity, and, in some instances, to sacrifice their individual advantages to the interest of the community.",
+              "word_offset_start": 1174,
+              "word_offset_end": 1228,
+              "char_offset_start": 6913,
+              "char_offset_end": 7262,
               "authorship_note": null,
               "metaphor_instances": []
             }
@@ -272,11 +309,11 @@
             {
               "sentence_id": "am-rev-washington-orders-1783-06-08_s01_p14_s01",
               "sentence_ordinal": 1,
-              "text": "Share",
-              "word_offset_start": 39,
-              "word_offset_end": 40,
-              "char_offset_start": 266,
-              "char_offset_end": 271,
+              "text": "These are the pillars on which the glorious fabrick of our Independancy and National Character must be supported—Liberty is the basis—and whoever would dare to sap the foundation or overturn the Structure under whatever specious pretexts he may attempt it, will merit the bitterest execration and the severest punishments which can be inflicted by his injured Country.",
+              "word_offset_start": 1228,
+              "word_offset_end": 1285,
+              "char_offset_start": 7264,
+              "char_offset_end": 7632,
               "authorship_note": null,
               "metaphor_instances": []
             }
@@ -289,11 +326,11 @@
             {
               "sentence_id": "am-rev-washington-orders-1783-06-08_s01_p15_s01",
               "sentence_ordinal": 1,
-              "text": "Email This",
-              "word_offset_start": 40,
-              "word_offset_end": 42,
-              "char_offset_start": 273,
-              "char_offset_end": 283,
+              "text": "On the three first Articles I will make a few observations, leaving the last to the good sense and serious consideration of those immediately concerned.",
+              "word_offset_start": 1285,
+              "word_offset_end": 1310,
+              "char_offset_start": 7634,
+              "char_offset_end": 7786,
               "authorship_note": null,
               "metaphor_instances": []
             }
@@ -306,11 +343,11 @@
             {
               "sentence_id": "am-rev-washington-orders-1783-06-08_s01_p16_s01",
               "sentence_ordinal": 1,
-              "text": "Share this on Facebook",
-              "word_offset_start": 42,
-              "word_offset_end": 46,
-              "char_offset_start": 285,
-              "char_offset_end": 307,
+              "text": "Under the first head, altho it may not be necessary or proper for me in this place to enter into a particular disquisition of the principles of the Union and to take up the great question which has been frequently agitated, whether it be expedient and requisite for the States to delegate a larger proportion of Power to Congress or not, yet it will be a part of my duty, and that of every true Patriot; to assert without reserve and to insist upon the following positions—That unless the States will suffer Congress to exercise those prerogatives they are undoubtedly invested with by the Constitution, every thing must very rapidly tend to Anarchy and confusion—that it is indispensible to the happiness of the individual States that there should be lodged somewhere, a supreme power to regulate and govern the general concerns of the confederated Republic, without which the Union cannot be of long duration—That there must be a faithfull and pointed compliance on the part of every State with the late proposals and demands of Congress, or the most fatal consequences will ensue; that whatever measures have a tendency to dissolve the Union, or contribute to violate or lessen the Sovereign Authority, ought to be considered as hostile to the Liberty and Independancy of America and the Authors of them treated accordingly; and lastly, that unless we can be enabled, by the concurrence of the States, to participate of the fruits of the Revolution, and enjoy the essential benefits of civil Society, under a form of Government so free and uncorrupted, so happily guarded against the danger of oppression as has been devised and adopted by the Articles of Confederation, it will be a subject of regret that so much blood and treasure have been lavished for no purpose; that so many sufferings have been encounter'd, without a compensation and that so many sacrifices have been made in vain.",
+              "word_offset_start": 1310,
+              "word_offset_end": 1629,
+              "char_offset_start": 7788,
+              "char_offset_end": 9681,
               "authorship_note": null,
               "metaphor_instances": []
             }
@@ -323,11 +360,44 @@
             {
               "sentence_id": "am-rev-washington-orders-1783-06-08_s01_p17_s01",
               "sentence_ordinal": 1,
-              "text": "Tweet",
-              "word_offset_start": 46,
-              "word_offset_end": 47,
-              "char_offset_start": 309,
-              "char_offset_end": 314,
+              "text": "Many other considerations might here be adduced to prove, that without an entire conformity to the spirit of the Union we cannot exist as an independant Power.",
+              "word_offset_start": 1629,
+              "word_offset_end": 1656,
+              "char_offset_start": 9683,
+              "char_offset_end": 9842,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "am-rev-washington-orders-1783-06-08_s01_p17_s02",
+              "sentence_ordinal": 2,
+              "text": "It will be sufficient for my purpose, to mention but one or two which seem to me of the greatest importance.",
+              "word_offset_start": 1656,
+              "word_offset_end": 1677,
+              "char_offset_start": 9843,
+              "char_offset_end": 9951,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "am-rev-washington-orders-1783-06-08_s01_p17_s03",
+              "sentence_ordinal": 3,
+              "text": "It is only in our United Character, as an Empire, that our Independance is acknowledged, that our power can be regarded or our Credit supported among foreign Nations—the Treaties of the European Powers with the United States of America will have no validity on a dissolution of the Union.",
+              "word_offset_start": 1677,
+              "word_offset_end": 1726,
+              "char_offset_start": 9952,
+              "char_offset_end": 10240,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "am-rev-washington-orders-1783-06-08_s01_p17_s04",
+              "sentence_ordinal": 4,
+              "text": "We shall be left nearly in a State of Nature, or we may find by our own unhappy experience, that there is a natural and necessary progression from the extreme of Anarchy to the extreme of Tyranny, and that arbritary power is most easily established on the ruins of Liberty abused to Licentiousness.",
+              "word_offset_start": 1726,
+              "word_offset_end": 1779,
+              "char_offset_start": 10241,
+              "char_offset_end": 10539,
               "authorship_note": null,
               "metaphor_instances": []
             }
@@ -340,11 +410,11 @@
             {
               "sentence_id": "am-rev-washington-orders-1783-06-08_s01_p18_s01",
               "sentence_ordinal": 1,
-              "text": "Brigadier General Henry Knox to George Washington, 4 February 1778",
-              "word_offset_start": 47,
-              "word_offset_end": 57,
-              "char_offset_start": 316,
-              "char_offset_end": 382,
+              "text": "As to the second Article, which respects the performance of public justice, Congress have in their late address to the United States almost exhausted the Subject, they have explained their ideas so fully and have enforced the obligations the States are under to render compleat justice to all the public Creditors, with so much dignity and energy, that in my opinion no real friend to the honour and Independancy of America, can hesitate a single moment respecting the propriety of complying with the just and honorable measures proposed—If their Arguments do not produce conviction, I know of nothing that will have greater influence, especially when we recollect that the System referred to, being the result of the collected wisdom of the Continent, must be esteemed, if not perfect, certainly the least objectionable of any that could be devised, and that if it shall not be carried into immediate execution, a National bankruptcy, with all its deplorable consequences, will take place before any different plan can possibly be proposed and adopted, so pressing are the present circumstances! and such is the alternative now offerd to the States!",
+              "word_offset_start": 1779,
+              "word_offset_end": 1965,
+              "char_offset_start": 10541,
+              "char_offset_end": 11691,
               "authorship_note": null,
               "metaphor_instances": []
             }
@@ -357,11 +427,11 @@
             {
               "sentence_id": "am-rev-washington-orders-1783-06-08_s01_p19_s01",
               "sentence_ordinal": 1,
-              "text": "From Brigadier General Henry Knox",
-              "word_offset_start": 57,
-              "word_offset_end": 62,
-              "char_offset_start": 384,
-              "char_offset_end": 417,
+              "text": "The ability of the Country to discharge the debts which have been incurred in its defence, is not to be doubted, an inclination I flatter myself will not be wanting: the path of our duty is plain before us—honesty will be found on every experiment to be the best and only true policy—let us then as a Nation be just—let us fulfill the public Contracts which Congress had undoubtedly a right to make for the purpose of carrying on the War, with the same good faith we suppose ourselves bound to perform our private engagements; in the mean time let an attention to the chearfull performance of their proper business as individuals and as members of Society be earnestly inculcated on the Citizens of America—then will they strengthen the hands of Government & be happy under its protection, every one will reap the fruit of his Labours, every one will enjoy his own acquisitions without molestation and without danger.",
+              "word_offset_start": 1965,
+              "word_offset_end": 2124,
+              "char_offset_start": 11693,
+              "char_offset_end": 12610,
               "authorship_note": null,
               "metaphor_instances": []
             }
@@ -374,143 +444,22 @@
             {
               "sentence_id": "am-rev-washington-orders-1783-06-08_s01_p20_s01",
               "sentence_ordinal": 1,
-              "text": "Boston February 4th 1778.Sir.",
-              "word_offset_start": 62,
-              "word_offset_end": 66,
-              "char_offset_start": 419,
-              "char_offset_end": 448,
+              "text": "In this state of absolute freedom and perfect security, who will grudge to yield a very little of his property to support the common interests of Society and ensure the protection of Government? who does not remember the frequent declarations at the commencement of the War that we should be completely satisfied, if at the expence of one half, we could defend the remainder of our possessions! where is the Man to be found who wishes to remain indebted for the defence of his own person and property to the exertions, the bravery and the blood of others, without making one generous effort to repay the debt of honor and of gratitude?",
+              "word_offset_start": 2124,
+              "word_offset_end": 2236,
+              "char_offset_start": 12612,
+              "char_offset_end": 13247,
               "authorship_note": null,
               "metaphor_instances": []
             },
             {
               "sentence_id": "am-rev-washington-orders-1783-06-08_s01_p20_s02",
               "sentence_ordinal": 2,
-              "text": "I wrote to your Excellency from Springfield concerning the Cannon which were sent from Albany to Farmington in Connecticut, and that I had determin’d to wait your further directions about them, as I suppos’d Genl Gates must have had some particular object in view by ordering them to that place.1 The greater part of the Cannon that arriv’d at Portsmouth have been brought to this Town by Water, to save the expence of land carriage, and which with 17 others that arriv’d in Town, will be sent off to Springfield immediately.",
-              "word_offset_start": 66,
-              "word_offset_end": 157,
-              "char_offset_start": 449,
-              "char_offset_end": 974,
-              "authorship_note": null,
-              "metaphor_instances": []
-            },
-            {
-              "sentence_id": "am-rev-washington-orders-1783-06-08_s01_p20_s03",
-              "sentence_ordinal": 3,
-              "text": "The Mortars are not yet arriv’d but are hourly expected.",
-              "word_offset_start": 157,
-              "word_offset_end": 167,
-              "char_offset_start": 975,
-              "char_offset_end": 1031,
-              "authorship_note": null,
-              "metaphor_instances": []
-            },
-            {
-              "sentence_id": "am-rev-washington-orders-1783-06-08_s01_p20_s04",
-              "sentence_ordinal": 4,
-              "text": "There are great quantities of lead and other Military Stores, absolutely necesary for next Campaign, in this and the other neighbouring Sea Ports, but the prices are so extravagantly high that I am almost afraid to order them to be purchas’d, especially as I have not yet receiv’d the directions of the board of War for which your Excellency desir’d me to write to them.",
-              "word_offset_start": 167,
-              "word_offset_end": 232,
-              "char_offset_start": 1032,
-              "char_offset_end": 1402,
-              "authorship_note": null,
-              "metaphor_instances": []
-            },
-            {
-              "sentence_id": "am-rev-washington-orders-1783-06-08_s01_p20_s05",
-              "sentence_ordinal": 5,
-              "text": "Money in all the Public departments here is excesively scarce insomuch that public Bussiness is at a stand for want of it, and it is not to be borrow’d, as the Merchants and monied people declare they have not half enough for a medium of trade.",
-              "word_offset_start": 232,
-              "word_offset_end": 278,
-              "char_offset_start": 1403,
-              "char_offset_end": 1647,
-              "authorship_note": null,
-              "metaphor_instances": []
-            },
-            {
-              "sentence_id": "am-rev-washington-orders-1783-06-08_s01_p20_s06",
-              "sentence_ordinal": 6,
-              "text": "The Agent for Cloathing Mr Otis asserted to me that if he was properly supported with Money he should be able to purchase Cloathing sufficient for 30,000 men by the first day of next month; and from the exertions he has made I have not the least doubt of his performing it—He has sent on 7000 suits & is making up 5000 more.",
-              "word_offset_start": 278,
-              "word_offset_end": 341,
-              "char_offset_start": 1648,
-              "char_offset_end": 1972,
-              "authorship_note": null,
-              "metaphor_instances": []
-            },
-            {
-              "sentence_id": "am-rev-washington-orders-1783-06-08_s01_p20_s07",
-              "sentence_ordinal": 7,
-              "text": "Goods of every kind are here in great plenty, but very high priced—the people say they are falling every hour, and have fell 40 ⅌Ct within this month past; if so they must have been nearly infinite, as imported articles are now six times as much as they were formerly.",
-              "word_offset_start": 341,
-              "word_offset_end": 391,
-              "char_offset_start": 1973,
-              "char_offset_end": 2241,
-              "authorship_note": null,
-              "metaphor_instances": []
-            },
-            {
-              "sentence_id": "am-rev-washington-orders-1783-06-08_s01_p20_s08",
-              "sentence_ordinal": 8,
-              "text": "Nothing but heavy taxes will reduce the prices and enable the Continent to carry on the War.",
-              "word_offset_start": 391,
-              "word_offset_end": 408,
-              "char_offset_start": 2242,
-              "char_offset_end": 2334,
-              "authorship_note": null,
-              "metaphor_instances": []
-            },
-            {
-              "sentence_id": "am-rev-washington-orders-1783-06-08_s01_p20_s09",
-              "sentence_ordinal": 9,
-              "text": "The Legislature here appear to be fully sensible of the importance of filling up their quota of the Army, but fear the people will not bear the propos’d mode of drafting.",
-              "word_offset_start": 408,
-              "word_offset_end": 439,
-              "char_offset_start": 2335,
-              "char_offset_end": 2505,
-              "authorship_note": null,
-              "metaphor_instances": []
-            },
-            {
-              "sentence_id": "am-rev-washington-orders-1783-06-08_s01_p20_s10",
-              "sentence_ordinal": 10,
-              "text": "This is a debilitated way of thinking, and I have no doubt were Congress to press the matter and leave no alternative, that your Excellency would in April find yourself at the head of a powerful body of forces fully equal to all exigencies.",
-              "word_offset_start": 439,
-              "word_offset_end": 483,
-              "char_offset_start": 2506,
-              "char_offset_end": 2746,
-              "authorship_note": null,
-              "metaphor_instances": []
-            },
-            {
-              "sentence_id": "am-rev-washington-orders-1783-06-08_s01_p20_s11",
-              "sentence_ordinal": 11,
-              "text": "Should the Continental Army not be fill’d up so as to enable you to act with Vigor and decision I deprecate the consequences.",
-              "word_offset_start": 483,
-              "word_offset_end": 506,
-              "char_offset_start": 2747,
-              "char_offset_end": 2872,
-              "authorship_note": null,
-              "metaphor_instances": []
-            },
-            {
-              "sentence_id": "am-rev-washington-orders-1783-06-08_s01_p20_s12",
-              "sentence_ordinal": 12,
-              "text": "New England would upon an emergency turn out Ten or twelve thousand men to assist the Continental Army: this indeed is their passion, it is what they ardently wish.",
-              "word_offset_start": 506,
-              "word_offset_end": 535,
-              "char_offset_start": 2873,
-              "char_offset_end": 3037,
-              "authorship_note": null,
-              "metaphor_instances": []
-            },
-            {
-              "sentence_id": "am-rev-washington-orders-1783-06-08_s01_p20_s13",
-              "sentence_ordinal": 13,
-              "text": "I assert this from the information which I have",
-              "word_offset_start": 535,
-              "word_offset_end": 544,
-              "char_offset_start": 3038,
-              "char_offset_end": 3085,
+              "text": "In what part of the Continent shall we find any Man or body of Men who would not blush to stand up and propose measures purposely calculated to rob the Soldier of his Stipend and the public Creditor of his due and were it possible that such a flagrant instance of injustice could ever happen, would it not excite the general indignation and tend to bring down upon the authors of such measures the aggravated vengeance of Heaven?",
+              "word_offset_start": 2236,
+              "word_offset_end": 2314,
+              "char_offset_start": 13248,
+              "char_offset_end": 13677,
               "authorship_note": null,
               "metaphor_instances": []
             }
@@ -523,44 +472,11 @@
             {
               "sentence_id": "am-rev-washington-orders-1783-06-08_s01_p21_s01",
               "sentence_ordinal": 1,
-              "text": "receiv’d from all classes of people.",
-              "word_offset_start": 544,
-              "word_offset_end": 550,
-              "char_offset_start": 3087,
-              "char_offset_end": 3123,
-              "authorship_note": null,
-              "metaphor_instances": []
-            },
-            {
-              "sentence_id": "am-rev-washington-orders-1783-06-08_s01_p21_s02",
-              "sentence_ordinal": 2,
-              "text": "Were these to be employ’d agreable to a hint of your Excellency’s and a proposal which I had the honor of making, I have not the least doubt of the event being glorious—In every point of view in which I have been able to place the proposition the conclusion has been favorable for the attempt.2 I expect soon to receive directions from the Board of War respecting the Stores, but should they not arrive in time I shall endeavor to make such provision as the next Campaign may demand, & hope the exigencies of the Service will justify my conduct.",
-              "word_offset_start": 550,
-              "word_offset_end": 650,
-              "char_offset_start": 3123,
-              "char_offset_end": 3668,
-              "authorship_note": null,
-              "metaphor_instances": []
-            },
-            {
-              "sentence_id": "am-rev-washington-orders-1783-06-08_s01_p21_s03",
-              "sentence_ordinal": 3,
-              "text": "I am in hopes to have every thing in such readiness as to be able to sett off for Camp the beginning of next Month.",
-              "word_offset_start": 650,
-              "word_offset_end": 675,
-              "char_offset_start": 3670,
-              "char_offset_end": 3785,
-              "authorship_note": null,
-              "metaphor_instances": []
-            },
-            {
-              "sentence_id": "am-rev-washington-orders-1783-06-08_s01_p21_s04",
-              "sentence_ordinal": 4,
-              "text": "I am with the utmost respect & attachment Your Excellency’s most Obedient Humble Servant",
-              "word_offset_start": 675,
-              "word_offset_end": 689,
-              "char_offset_start": 3786,
-              "char_offset_end": 3874,
+              "text": "If after all, a spirit of disunion or a temper of obstinacy and perverseness should manifest itself in any of the States; if such an ungracious disposition should attempt to frustrate all the happy effects that might be expected to flow from the Union; if there should be a refusal to comply with the Requisitions for funds to discharge the annual Interest of the public Debts and if that refusal should revive again all those jealousies and produce all those evils which are now happily removed, Congress, who have, in all their transactions, shewn a great degree of magnanimity and justice, will stand justified in the sight of God and Man and the State alone which puts itself in opposition to the aggregate wisdom of the Continent and follows such mistaken and pernicious councils, will be responsible for all the Consequences.",
+              "word_offset_start": 2314,
+              "word_offset_end": 2455,
+              "char_offset_start": 13679,
+              "char_offset_end": 14510,
               "authorship_note": null,
               "metaphor_instances": []
             }
@@ -573,11 +489,55 @@
             {
               "sentence_id": "am-rev-washington-orders-1783-06-08_s01_p22_s01",
               "sentence_ordinal": 1,
-              "text": "H. Knox B.G. Artillery",
-              "word_offset_start": 689,
-              "word_offset_end": 693,
-              "char_offset_start": 3876,
-              "char_offset_end": 3898,
+              "text": "For my own part, conscious of having acted, while a servant of the public, in the manner I conceived best suited to promote the real interests of my Country, having in consequence of my fixed belief, in some measure, pledged myself to the Army that their Country would finally do them compleat and ample Justice and not wishing to conceal any instance of my official conduct from the eyes of the World, I have thought proper to transmit to your Excellency the inclosed collection of papers relative to the half-pay & commutation granted by Congress to the Officers of the Army.",
+              "word_offset_start": 2455,
+              "word_offset_end": 2556,
+              "char_offset_start": 14512,
+              "char_offset_end": 15089,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "am-rev-washington-orders-1783-06-08_s01_p22_s02",
+              "sentence_ordinal": 2,
+              "text": "From these communications my decided sentiment will be clearly comprehended, together with the conclusive reasons which induced me, at an early period, to recommend the adoption of this measure in the most earnest and serious manner.",
+              "word_offset_start": 2556,
+              "word_offset_end": 2592,
+              "char_offset_start": 15090,
+              "char_offset_end": 15323,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "am-rev-washington-orders-1783-06-08_s01_p22_s03",
+              "sentence_ordinal": 3,
+              "text": "As the proceedings of Congress, the Army and myself are open to all and contain in my opinion sufficient information to remove the prejudices and errors which may have been entertained by any, I think it unnecessary to say anything more, than just to observe, that the resolutions of Congress now alluded to, are undoubtedly as absolutely binding upon the United States, as the most solemn Acts of Confederation or Legislation.",
+              "word_offset_start": 2592,
+              "word_offset_end": 2663,
+              "char_offset_start": 15324,
+              "char_offset_end": 15751,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "am-rev-washington-orders-1783-06-08_s01_p22_s04",
+              "sentence_ordinal": 4,
+              "text": "As to the idea which, I am informed, has in some instances prevailed, that the half pay and Commutation are to be regarded merely in the odious Light of a pension, it ought to be exploded forever—that provision should be viewed as it really was, a reasonable compensation offerd by Congress at a Time when they had nothing else to give to the Officers of the Army for services then to be performed.",
+              "word_offset_start": 2663,
+              "word_offset_end": 2736,
+              "char_offset_start": 15752,
+              "char_offset_end": 16150,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "am-rev-washington-orders-1783-06-08_s01_p22_s05",
+              "sentence_ordinal": 5,
+              "text": "It was the only means to prevent a total dereliction of the Service—it was a part of their hire, I may be allowed to say, it was the price of their blood and of your Independancy—it is therefore more than a common debt, it is a debt of honor—it can never be considered as a pension or gratuity nor be cancelled untill it is fairly discharged.",
+              "word_offset_start": 2736,
+              "word_offset_end": 2802,
+              "char_offset_start": 16151,
+              "char_offset_end": 16493,
               "authorship_note": null,
               "metaphor_instances": []
             }
@@ -590,11 +550,11 @@
             {
               "sentence_id": "am-rev-washington-orders-1783-06-08_s01_p23_s01",
               "sentence_ordinal": 1,
-              "text": "LS, DLC:GW.",
-              "word_offset_start": 693,
-              "word_offset_end": 695,
-              "char_offset_start": 3900,
-              "char_offset_end": 3911,
+              "text": "With regard to a distinction between Officers and Soldiers, it is sufficient that the uniform experience of every Nation of the World combined with our own, proves the utility and propriety of the discrimination—Rewards in proportion to the Aids the Public derives from them, are unquestionably due to all its Servants—In some Lines, the Soldiers have perhaps generally had as ample a compensation for their Services, by the large bounties which have been paid them, as their Officers will receive in the proposed commutation; in others, if besides the donation of Lands, the payment of Arrearages of Cloathing and Wages (in which Articles all the component parts of the Army must be on the same footing) we take into the estimate the bounties many of the Soldiers have received and the gratuity of one years full pay which is promised to all, possibly their situation (every circumstance being duly considered) will not be deemed less eligible than that of the Officers, should a farther Reward however be judged equitable, I will venture to asert no one will enjoy greater satisfaction than myself, on seeing an exemption from Taxes for a limitted time (which has been petitioned for in some instances) or any other adequate compensation or immunity, granted to the brave defenders of their Countrys cause; but neither the adoption or rejection of this proposition, will in any manner affect, much less militate against, the Act of Congress by which they have offer'd five Years full pay in lieu of half pay for life, which had been before promised to the Officers of the Army.",
+              "word_offset_start": 2802,
+              "word_offset_end": 3067,
+              "char_offset_start": 16495,
+              "char_offset_end": 18074,
               "authorship_note": null,
               "metaphor_instances": []
             }
@@ -607,22 +567,22 @@
             {
               "sentence_id": "am-rev-washington-orders-1783-06-08_s01_p24_s01",
               "sentence_ordinal": 1,
-              "text": "1.",
-              "word_offset_start": 695,
-              "word_offset_end": 696,
-              "char_offset_start": 3913,
-              "char_offset_end": 3915,
+              "text": "Before I conclude the Subject of public justice, I cannot omit to mention the obligations this Country is under to that meritorious class of veteran non Commission'd Officers and Privates who have been discharged for inability, in consequence of the resolution of Congress of the 23d April 1782, on an annual pension for life; their peculiar sufferings, their singular merits and claims to that provision, need only be known, to interest all the feelings of humanity in their behalf; nothing but a punctual payment of their annual allowance, can rescue them from the most complicated misery, and nothing could be a more melancholy and distressing sight, than to behold those who have shed their blood or lost their limbs in the service of their Country, without a shelter, without a friend and without the means of obtaining any of the necessaries of life or comforts of life compelled to beg their daily bread from door to door!",
+              "word_offset_start": 3067,
+              "word_offset_end": 3224,
+              "char_offset_start": 18076,
+              "char_offset_end": 19005,
               "authorship_note": null,
               "metaphor_instances": []
             },
             {
               "sentence_id": "am-rev-washington-orders-1783-06-08_s01_p24_s02",
               "sentence_ordinal": 2,
-              "text": "Knox is referring to his letter to GW of 21 January.",
-              "word_offset_start": 696,
-              "word_offset_end": 707,
-              "char_offset_start": 3916,
-              "char_offset_end": 3968,
+              "text": "Suffer me to recommend those of this description belonging to your State to the warmest patronage of your Excellency and your Legislature.",
+              "word_offset_start": 3224,
+              "word_offset_end": 3246,
+              "char_offset_start": 19006,
+              "char_offset_end": 19144,
               "authorship_note": null,
               "metaphor_instances": []
             }
@@ -635,22 +595,22 @@
             {
               "sentence_id": "am-rev-washington-orders-1783-06-08_s01_p25_s01",
               "sentence_ordinal": 1,
-              "text": "2.",
-              "word_offset_start": 707,
-              "word_offset_end": 708,
-              "char_offset_start": 3970,
-              "char_offset_end": 3972,
+              "text": "It is necessary to say but a few words on the third topic which was proposed and which regards particularly the defence of the Republic—As there can be little doubt but Congress will Recommend a proper Peace Establishment for the United States in which a due attention will be paid to the importance of placing the Militia of the Union upon a regular and respectable footing—If this should be the case, I would beg leave to urge the great advantage of it in the strongest terms—the Militia of this Country must be considerd as the Palladium of our security and the first effectual resort, in case of hostility; It is essential therefore, that the same system should pervade the whole—that the formation & discipline of the Militia of the Continent should be absolutely uniform and the same species of Arms, Accoutrements & Military Apparatus should be introduced in every part of the United States.",
+              "word_offset_start": 3246,
+              "word_offset_end": 3400,
+              "char_offset_start": 19146,
+              "char_offset_end": 20044,
               "authorship_note": null,
               "metaphor_instances": []
             },
             {
               "sentence_id": "am-rev-washington-orders-1783-06-08_s01_p25_s02",
               "sentence_ordinal": 2,
-              "text": "Knox had advocated an attack on New York City in his letter to GW of 3 January.",
-              "word_offset_start": 708,
-              "word_offset_end": 725,
-              "char_offset_start": 3973,
-              "char_offset_end": 4052,
+              "text": "No one, who has not learned it from experience, can conceive the difficulty, expence & confusion which result from a contrary System, or the vague Arrangements which have hitherto prevailed.",
+              "word_offset_start": 3400,
+              "word_offset_end": 3430,
+              "char_offset_start": 20045,
+              "char_offset_end": 20235,
               "authorship_note": null,
               "metaphor_instances": []
             }
@@ -663,11 +623,22 @@
             {
               "sentence_id": "am-rev-washington-orders-1783-06-08_s01_p26_s01",
               "sentence_ordinal": 1,
-              "text": "Index Entries",
-              "word_offset_start": 725,
-              "word_offset_end": 727,
-              "char_offset_start": 4054,
-              "char_offset_end": 4067,
+              "text": "If in treating of political points, a greater latitude than usual has been taken in the course of this address—the importance of the Crisis and the magnitude of the objects in discussion, must be my apology—It is, however, neither my wish or expectation, that the preceding observations should claim any regard, except so far as they shall appear to be dictated by a good intention, consonant to the immutable rules of Justice—calculated to produce a liberal system of Policy and founded on what ever experience may have been acquired by a long and close Attention to public business—Here I might speak with the more confidence, from my actual observations and if it would not swell this Letter (already too prolix) beyond the bounds I had prescribed myself, I could demonstrate to every mind open to conviction, that in less time & with much less expence than has been incurred, the War might have been brought to the same happy, conclusion if the resources of the Continent could have been properly drawn forth—that the distresses and disappointments, which have very often occurred, have in too many instances resulted more from a want of energy in the Continental Government, than a deficiency of means in the particular States—That the inefficacy of measures, arising from the want of an adequate authority in the supreme Power, from a partial compliance with the requisitions of Congress in some of the States and from a failure of punctuality in others, while it tended to damp the Zeal of those which where more willing to exert themselves, served also to accumulate the expences of the War and to frustrate the best concerted plans; and that the discouragement, occasioned by the complicated difficulties & embarrasments in which our affairs were by this means involved, would have long ago produced the dissolution of any Army, less patient, less virtuous and less persevering than that which I have had the honor to Command.",
+              "word_offset_start": 3430,
+              "word_offset_end": 3753,
+              "char_offset_start": 20237,
+              "char_offset_end": 22172,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "am-rev-washington-orders-1783-06-08_s01_p26_s02",
+              "sentence_ordinal": 2,
+              "text": "But while I mention these things, which are notorious facts, as the defects of our Federal Constitution, particularly in the prosecution of a War, I beg it may be understood, that as I have ever taken a pleasure in gratefully acknowledging the assistance and support I have derived from every class of Citizens, so shall I always be happy to do justice to the unparralled exertions of the individual States on many interesting occasions.",
+              "word_offset_start": 3753,
+              "word_offset_end": 3827,
+              "char_offset_start": 22173,
+              "char_offset_end": 22610,
               "authorship_note": null,
               "metaphor_instances": []
             }
@@ -680,11 +651,11 @@
             {
               "sentence_id": "am-rev-washington-orders-1783-06-08_s01_p27_s01",
               "sentence_ordinal": 1,
-              "text": "Permanent Link What’s this?",
-              "word_offset_start": 727,
-              "word_offset_end": 731,
-              "char_offset_start": 4069,
-              "char_offset_end": 4096,
+              "text": "I have thus freely disclosed, what I wished to make known, before I surrendered up my Public trust to those who committed it to me—the task is now accomplished—I now bid adieu to your Excellency, as the Chief Magistrate of your State at the same time I bid a last farewell to the cares of Office and all the employments of public life.",
+              "word_offset_start": 3827,
+              "word_offset_end": 3890,
+              "char_offset_start": 22612,
+              "char_offset_end": 22947,
               "authorship_note": null,
               "metaphor_instances": []
             }
@@ -697,11 +668,11 @@
             {
               "sentence_id": "am-rev-washington-orders-1783-06-08_s01_p28_s01",
               "sentence_ordinal": 1,
-              "text": "https://founders.archives.gov/documents/Washington/03-13-02-0371",
-              "word_offset_start": 731,
-              "word_offset_end": 732,
-              "char_offset_start": 4098,
-              "char_offset_end": 4162,
+              "text": "It remains then to be my final and only request, that your Excellency will communicate these sentiments to your legislature at their next meeting and that they may be considered as the Legacy of one who has ardently wished on all occasions to be usefull to his Country and who even in the shade of Retirement will not fail to implore the divine benediction upon it.",
+              "word_offset_start": 3890,
+              "word_offset_end": 3956,
+              "char_offset_start": 22949,
+              "char_offset_end": 23314,
               "authorship_note": null,
               "metaphor_instances": []
             }
@@ -714,11 +685,11 @@
             {
               "sentence_id": "am-rev-washington-orders-1783-06-08_s01_p29_s01",
               "sentence_ordinal": 1,
-              "text": "Note: The annotations to this document, and any other",
-              "word_offset_start": 732,
-              "word_offset_end": 741,
-              "char_offset_start": 4164,
-              "char_offset_end": 4217,
+              "text": "I now make it my earnest prayer, that God would have you and the State over which you preside, in his holy protection that he would incline the hearts of the Citizens to cultivate a spirit of subordination & obedience to Government, to entertain a brotherly affection and love for one another, for their fellow Citizens of the United States at large and particularly for their brethren who have served in the field—and finally that he would most graciously be pleas'd to dispose us all to do Justice, to love mercy and to demean ourselves, with that Charity, humility & pacific temper of mind, which were the Characteristicks of the Divine Author of our blessed Religion & without an humble immitation of whose example in these things, we can never hope to be a happy Nation.",
+              "word_offset_start": 3956,
+              "word_offset_end": 4092,
+              "char_offset_start": 23316,
+              "char_offset_end": 24091,
               "authorship_note": null,
               "metaphor_instances": []
             }
@@ -731,55 +702,11 @@
             {
               "sentence_id": "am-rev-washington-orders-1783-06-08_s01_p30_s01",
               "sentence_ordinal": 1,
-              "text": "modern editorial content, are copyright © The Rector and Visitors of the University of Virginia.",
-              "word_offset_start": 741,
-              "word_offset_end": 756,
-              "char_offset_start": 4219,
-              "char_offset_end": 4315,
-              "authorship_note": null,
-              "metaphor_instances": []
-            },
-            {
-              "sentence_id": "am-rev-washington-orders-1783-06-08_s01_p30_s02",
-              "sentence_ordinal": 2,
-              "text": "All rights reserved.Back to topYou Are Looking AtSource ProjectWashington PapersTitleBrigadier General Henry Knox to George Washington, 4 February 1778AuthorKnox, HenryRecipientWashington, GeorgeDate4 February 1778ReferenceCite as“Brigadier General Henry Knox to George Washington, 4 February 1778,” Founders Online, National Archives, https://founders.archives.gov/documents/Washington/03-13-02-0371.",
-              "word_offset_start": 756,
-              "word_offset_end": 794,
-              "char_offset_start": 4316,
-              "char_offset_end": 4717,
-              "authorship_note": null,
-              "metaphor_instances": []
-            },
-            {
-              "sentence_id": "am-rev-washington-orders-1783-06-08_s01_p30_s03",
-              "sentence_ordinal": 3,
-              "text": "[Original source: The Papers of George Washington, Revolutionary War Series, vol. 13, 26 December 1777 – 28 February 1778, ed.",
-              "word_offset_start": 794,
-              "word_offset_end": 814,
-              "char_offset_start": 4717,
-              "char_offset_end": 4843,
-              "authorship_note": null,
-              "metaphor_instances": []
-            },
-            {
-              "sentence_id": "am-rev-washington-orders-1783-06-08_s01_p30_s04",
-              "sentence_ordinal": 4,
-              "text": "Edward G. Lengel.",
-              "word_offset_start": 814,
-              "word_offset_end": 817,
-              "char_offset_start": 4845,
-              "char_offset_end": 4862,
-              "authorship_note": null,
-              "metaphor_instances": []
-            },
-            {
-              "sentence_id": "am-rev-washington-orders-1783-06-08_s01_p30_s05",
-              "sentence_ordinal": 5,
-              "text": "Charlottesville: University of Virginia Press, 2003, pp. 449–450.]More between these correspondentsPrecedingFrom Knox to Washington [21 January 1778]NextFrom Knox to Washington [16 February 1778]AllAll correspondence between Knox and Washington",
-              "word_offset_start": 817,
-              "word_offset_end": 845,
-              "char_offset_start": 4863,
-              "char_offset_end": 5107,
+              "text": "With the greatest regard and esteem, I have the honor to be Sir Your Excellency's Most Obedient and most humble Servant",
+              "word_offset_start": 4092,
+              "word_offset_end": 4113,
+              "char_offset_start": 24093,
+              "char_offset_end": 24212,
               "authorship_note": null,
               "metaphor_instances": []
             }
@@ -792,600 +719,11 @@
             {
               "sentence_id": "am-rev-washington-orders-1783-06-08_s01_p31_s01",
               "sentence_ordinal": 1,
-              "text": "NHPRC",
-              "word_offset_start": 845,
-              "word_offset_end": 846,
-              "char_offset_start": 5109,
-              "char_offset_end": 5114,
-              "authorship_note": null,
-              "metaphor_instances": []
-            }
-          ]
-        },
-        {
-          "paragraph_id": "am-rev-washington-orders-1783-06-08_s01_p32",
-          "paragraph_ordinal": 32,
-          "sentences": [
-            {
-              "sentence_id": "am-rev-washington-orders-1783-06-08_s01_p32_s01",
-              "sentence_ordinal": 1,
-              "text": "The National Historical Publications and",
-              "word_offset_start": 846,
-              "word_offset_end": 851,
-              "char_offset_start": 5116,
-              "char_offset_end": 5156,
-              "authorship_note": null,
-              "metaphor_instances": []
-            }
-          ]
-        },
-        {
-          "paragraph_id": "am-rev-washington-orders-1783-06-08_s01_p33",
-          "paragraph_ordinal": 33,
-          "sentences": [
-            {
-              "sentence_id": "am-rev-washington-orders-1783-06-08_s01_p33_s01",
-              "sentence_ordinal": 1,
-              "text": "Records Commission (NHPRC) is part of the National",
-              "word_offset_start": 851,
-              "word_offset_end": 859,
-              "char_offset_start": 5158,
-              "char_offset_end": 5208,
-              "authorship_note": null,
-              "metaphor_instances": []
-            }
-          ]
-        },
-        {
-          "paragraph_id": "am-rev-washington-orders-1783-06-08_s01_p34",
-          "paragraph_ordinal": 34,
-          "sentences": [
-            {
-              "sentence_id": "am-rev-washington-orders-1783-06-08_s01_p34_s01",
-              "sentence_ordinal": 1,
-              "text": "Archives.",
-              "word_offset_start": 859,
-              "word_offset_end": 860,
-              "char_offset_start": 5210,
-              "char_offset_end": 5219,
-              "authorship_note": null,
-              "metaphor_instances": []
-            },
-            {
-              "sentence_id": "am-rev-washington-orders-1783-06-08_s01_p34_s02",
-              "sentence_ordinal": 2,
-              "text": "Through its grants program, the NHPRC supports a wide range of activities to",
-              "word_offset_start": 860,
-              "word_offset_end": 873,
-              "char_offset_start": 5220,
-              "char_offset_end": 5296,
-              "authorship_note": null,
-              "metaphor_instances": []
-            }
-          ]
-        },
-        {
-          "paragraph_id": "am-rev-washington-orders-1783-06-08_s01_p35",
-          "paragraph_ordinal": 35,
-          "sentences": [
-            {
-              "sentence_id": "am-rev-washington-orders-1783-06-08_s01_p35_s01",
-              "sentence_ordinal": 1,
-              "text": "preserve, publish, and encourage the use of documentary sources, relating to the history of",
-              "word_offset_start": 873,
-              "word_offset_end": 887,
-              "char_offset_start": 5298,
-              "char_offset_end": 5389,
-              "authorship_note": null,
-              "metaphor_instances": []
-            }
-          ]
-        },
-        {
-          "paragraph_id": "am-rev-washington-orders-1783-06-08_s01_p36",
-          "paragraph_ordinal": 36,
-          "sentences": [
-            {
-              "sentence_id": "am-rev-washington-orders-1783-06-08_s01_p36_s01",
-              "sentence_ordinal": 1,
-              "text": "the United States, and research and development projects to bring historical records to the",
-              "word_offset_start": 887,
-              "word_offset_end": 901,
-              "char_offset_start": 5391,
-              "char_offset_end": 5482,
-              "authorship_note": null,
-              "metaphor_instances": []
-            }
-          ]
-        },
-        {
-          "paragraph_id": "am-rev-washington-orders-1783-06-08_s01_p37",
-          "paragraph_ordinal": 37,
-          "sentences": [
-            {
-              "sentence_id": "am-rev-washington-orders-1783-06-08_s01_p37_s01",
-              "sentence_ordinal": 1,
-              "text": "public.",
-              "word_offset_start": 901,
-              "word_offset_end": 902,
-              "char_offset_start": 5484,
-              "char_offset_end": 5491,
-              "authorship_note": null,
-              "metaphor_instances": []
-            }
-          ]
-        },
-        {
-          "paragraph_id": "am-rev-washington-orders-1783-06-08_s01_p38",
-          "paragraph_ordinal": 38,
-          "sentences": [
-            {
-              "sentence_id": "am-rev-washington-orders-1783-06-08_s01_p38_s01",
-              "sentence_ordinal": 1,
-              "text": "Founders Online is an official website",
-              "word_offset_start": 902,
-              "word_offset_end": 908,
-              "char_offset_start": 5493,
-              "char_offset_end": 5531,
-              "authorship_note": null,
-              "metaphor_instances": []
-            }
-          ]
-        },
-        {
-          "paragraph_id": "am-rev-washington-orders-1783-06-08_s01_p39",
-          "paragraph_ordinal": 39,
-          "sentences": [
-            {
-              "sentence_id": "am-rev-washington-orders-1783-06-08_s01_p39_s01",
-              "sentence_ordinal": 1,
-              "text": "of the U.S. government, administered by the",
-              "word_offset_start": 908,
-              "word_offset_end": 915,
-              "char_offset_start": 5533,
-              "char_offset_end": 5576,
-              "authorship_note": null,
-              "metaphor_instances": []
-            }
-          ]
-        },
-        {
-          "paragraph_id": "am-rev-washington-orders-1783-06-08_s01_p40",
-          "paragraph_ordinal": 40,
-          "sentences": [
-            {
-              "sentence_id": "am-rev-washington-orders-1783-06-08_s01_p40_s01",
-              "sentence_ordinal": 1,
-              "text": "National Archives and Records Administration",
-              "word_offset_start": 915,
-              "word_offset_end": 920,
-              "char_offset_start": 5578,
-              "char_offset_end": 5622,
-              "authorship_note": null,
-              "metaphor_instances": []
-            }
-          ]
-        },
-        {
-          "paragraph_id": "am-rev-washington-orders-1783-06-08_s01_p41",
-          "paragraph_ordinal": 41,
-          "sentences": [
-            {
-              "sentence_id": "am-rev-washington-orders-1783-06-08_s01_p41_s01",
-              "sentence_ordinal": 1,
-              "text": "through the NHPRC, in partnership with the",
-              "word_offset_start": 920,
-              "word_offset_end": 927,
-              "char_offset_start": 5624,
-              "char_offset_end": 5666,
-              "authorship_note": null,
-              "metaphor_instances": []
-            }
-          ]
-        },
-        {
-          "paragraph_id": "am-rev-washington-orders-1783-06-08_s01_p42",
-          "paragraph_ordinal": 42,
-          "sentences": [
-            {
-              "sentence_id": "am-rev-washington-orders-1783-06-08_s01_p42_s01",
-              "sentence_ordinal": 1,
-              "text": "University of Virginia Press,",
-              "word_offset_start": 927,
-              "word_offset_end": 931,
-              "char_offset_start": 5668,
-              "char_offset_end": 5697,
-              "authorship_note": null,
-              "metaphor_instances": []
-            }
-          ]
-        },
-        {
-          "paragraph_id": "am-rev-washington-orders-1783-06-08_s01_p43",
-          "paragraph_ordinal": 43,
-          "sentences": [
-            {
-              "sentence_id": "am-rev-washington-orders-1783-06-08_s01_p43_s01",
-              "sentence_ordinal": 1,
-              "text": "which is hosting this website.",
-              "word_offset_start": 931,
-              "word_offset_end": 936,
-              "char_offset_start": 5699,
-              "char_offset_end": 5729,
-              "authorship_note": null,
-              "metaphor_instances": []
-            }
-          ]
-        },
-        {
-          "paragraph_id": "am-rev-washington-orders-1783-06-08_s01_p44",
-          "paragraph_ordinal": 44,
-          "sentences": [
-            {
-              "sentence_id": "am-rev-washington-orders-1783-06-08_s01_p44_s01",
-              "sentence_ordinal": 1,
-              "text": "The Adams Papers",
-              "word_offset_start": 936,
-              "word_offset_end": 939,
-              "char_offset_start": 5731,
-              "char_offset_end": 5747,
-              "authorship_note": null,
-              "metaphor_instances": []
-            }
-          ]
-        },
-        {
-          "paragraph_id": "am-rev-washington-orders-1783-06-08_s01_p45",
-          "paragraph_ordinal": 45,
-          "sentences": [
-            {
-              "sentence_id": "am-rev-washington-orders-1783-06-08_s01_p45_s01",
-              "sentence_ordinal": 1,
-              "text": "The Papers of Benjamin Franklin",
-              "word_offset_start": 939,
-              "word_offset_end": 944,
-              "char_offset_start": 5749,
-              "char_offset_end": 5780,
-              "authorship_note": null,
-              "metaphor_instances": []
-            }
-          ]
-        },
-        {
-          "paragraph_id": "am-rev-washington-orders-1783-06-08_s01_p46",
-          "paragraph_ordinal": 46,
-          "sentences": [
-            {
-              "sentence_id": "am-rev-washington-orders-1783-06-08_s01_p46_s01",
-              "sentence_ordinal": 1,
-              "text": "The Papers of Alexander Hamilton",
-              "word_offset_start": 944,
-              "word_offset_end": 949,
-              "char_offset_start": 5782,
-              "char_offset_end": 5814,
-              "authorship_note": null,
-              "metaphor_instances": []
-            }
-          ]
-        },
-        {
-          "paragraph_id": "am-rev-washington-orders-1783-06-08_s01_p47",
-          "paragraph_ordinal": 47,
-          "sentences": [
-            {
-              "sentence_id": "am-rev-washington-orders-1783-06-08_s01_p47_s01",
-              "sentence_ordinal": 1,
-              "text": "The Selected Papers of John Jay",
-              "word_offset_start": 949,
-              "word_offset_end": 955,
-              "char_offset_start": 5816,
-              "char_offset_end": 5847,
-              "authorship_note": null,
-              "metaphor_instances": []
-            }
-          ]
-        },
-        {
-          "paragraph_id": "am-rev-washington-orders-1783-06-08_s01_p48",
-          "paragraph_ordinal": 48,
-          "sentences": [
-            {
-              "sentence_id": "am-rev-washington-orders-1783-06-08_s01_p48_s01",
-              "sentence_ordinal": 1,
-              "text": "The Papers of Thomas Jefferson",
-              "word_offset_start": 955,
-              "word_offset_end": 960,
-              "char_offset_start": 5849,
-              "char_offset_end": 5879,
-              "authorship_note": null,
-              "metaphor_instances": []
-            }
-          ]
-        },
-        {
-          "paragraph_id": "am-rev-washington-orders-1783-06-08_s01_p49",
-          "paragraph_ordinal": 49,
-          "sentences": [
-            {
-              "sentence_id": "am-rev-washington-orders-1783-06-08_s01_p49_s01",
-              "sentence_ordinal": 1,
-              "text": "The Papers of James Madison",
-              "word_offset_start": 960,
-              "word_offset_end": 965,
-              "char_offset_start": 5881,
-              "char_offset_end": 5908,
-              "authorship_note": null,
-              "metaphor_instances": []
-            }
-          ]
-        },
-        {
-          "paragraph_id": "am-rev-washington-orders-1783-06-08_s01_p50",
-          "paragraph_ordinal": 50,
-          "sentences": [
-            {
-              "sentence_id": "am-rev-washington-orders-1783-06-08_s01_p50_s01",
-              "sentence_ordinal": 1,
-              "text": "The Papers of George Washington",
-              "word_offset_start": 965,
-              "word_offset_end": 970,
-              "char_offset_start": 5910,
-              "char_offset_end": 5941,
-              "authorship_note": null,
-              "metaphor_instances": []
-            }
-          ]
-        },
-        {
-          "paragraph_id": "am-rev-washington-orders-1783-06-08_s01_p51",
-          "paragraph_ordinal": 51,
-          "sentences": [
-            {
-              "sentence_id": "am-rev-washington-orders-1783-06-08_s01_p51_s01",
-              "sentence_ordinal": 1,
-              "text": "About the National Archives",
-              "word_offset_start": 970,
-              "word_offset_end": 974,
-              "char_offset_start": 5943,
-              "char_offset_end": 5970,
-              "authorship_note": null,
-              "metaphor_instances": []
-            }
-          ]
-        },
-        {
-          "paragraph_id": "am-rev-washington-orders-1783-06-08_s01_p52",
-          "paragraph_ordinal": 52,
-          "sentences": [
-            {
-              "sentence_id": "am-rev-washington-orders-1783-06-08_s01_p52_s01",
-              "sentence_ordinal": 1,
-              "text": "National Archives Privacy Policy",
-              "word_offset_start": 974,
-              "word_offset_end": 978,
-              "char_offset_start": 5972,
-              "char_offset_end": 6004,
-              "authorship_note": null,
-              "metaphor_instances": []
-            }
-          ]
-        },
-        {
-          "paragraph_id": "am-rev-washington-orders-1783-06-08_s01_p53",
-          "paragraph_ordinal": 53,
-          "sentences": [
-            {
-              "sentence_id": "am-rev-washington-orders-1783-06-08_s01_p53_s01",
-              "sentence_ordinal": 1,
-              "text": "Accessibility",
-              "word_offset_start": 978,
-              "word_offset_end": 979,
-              "char_offset_start": 6006,
-              "char_offset_end": 6019,
-              "authorship_note": null,
-              "metaphor_instances": []
-            }
-          ]
-        },
-        {
-          "paragraph_id": "am-rev-washington-orders-1783-06-08_s01_p54",
-          "paragraph_ordinal": 54,
-          "sentences": [
-            {
-              "sentence_id": "am-rev-washington-orders-1783-06-08_s01_p54_s01",
-              "sentence_ordinal": 1,
-              "text": "Freedom of Information Act",
-              "word_offset_start": 979,
-              "word_offset_end": 983,
-              "char_offset_start": 6021,
-              "char_offset_end": 6047,
-              "authorship_note": null,
-              "metaphor_instances": []
-            }
-          ]
-        },
-        {
-          "paragraph_id": "am-rev-washington-orders-1783-06-08_s01_p55",
-          "paragraph_ordinal": 55,
-          "sentences": [
-            {
-              "sentence_id": "am-rev-washington-orders-1783-06-08_s01_p55_s01",
-              "sentence_ordinal": 1,
-              "text": "No FEAR Act Data",
-              "word_offset_start": 983,
-              "word_offset_end": 987,
-              "char_offset_start": 6049,
-              "char_offset_end": 6065,
-              "authorship_note": null,
-              "metaphor_instances": []
-            }
-          ]
-        },
-        {
-          "paragraph_id": "am-rev-washington-orders-1783-06-08_s01_p56",
-          "paragraph_ordinal": 56,
-          "sentences": [
-            {
-              "sentence_id": "am-rev-washington-orders-1783-06-08_s01_p56_s01",
-              "sentence_ordinal": 1,
-              "text": "window.jQuery || document.write(",
-              "word_offset_start": 987,
-              "word_offset_end": 990,
-              "char_offset_start": 6067,
-              "char_offset_end": 6099,
-              "authorship_note": null,
-              "metaphor_instances": []
-            }
-          ]
-        },
-        {
-          "paragraph_id": "am-rev-washington-orders-1783-06-08_s01_p57",
-          "paragraph_ordinal": 57,
-          "sentences": [
-            {
-              "sentence_id": "am-rev-washington-orders-1783-06-08_s01_p57_s01",
-              "sentence_ordinal": 1,
-              "text": "'&lt;script src=\"https://code.jquery.com/jquery-3.7.1.min.js\" type=\"text/javascript\"&gt;&lt;\\/script&gt;'",
-              "word_offset_start": 990,
-              "word_offset_end": 993,
-              "char_offset_start": 6101,
-              "char_offset_end": 6206,
-              "authorship_note": null,
-              "metaphor_instances": []
-            }
-          ]
-        },
-        {
-          "paragraph_id": "am-rev-washington-orders-1783-06-08_s01_p58",
-          "paragraph_ordinal": 58,
-          "sentences": [
-            {
-              "sentence_id": "am-rev-washington-orders-1783-06-08_s01_p58_s01",
-              "sentence_ordinal": 1,
-              "text": ")",
-              "word_offset_start": 993,
-              "word_offset_end": 994,
-              "char_offset_start": 6208,
-              "char_offset_end": 6209,
-              "authorship_note": null,
-              "metaphor_instances": []
-            }
-          ]
-        },
-        {
-          "paragraph_id": "am-rev-washington-orders-1783-06-08_s01_p59",
-          "paragraph_ordinal": 59,
-          "sentences": [
-            {
-              "sentence_id": "am-rev-washington-orders-1783-06-08_s01_p59_s01",
-              "sentence_ordinal": 1,
-              "text": "label {",
-              "word_offset_start": 994,
-              "word_offset_end": 996,
-              "char_offset_start": 6211,
-              "char_offset_end": 6218,
-              "authorship_note": null,
-              "metaphor_instances": []
-            }
-          ]
-        },
-        {
-          "paragraph_id": "am-rev-washington-orders-1783-06-08_s01_p60",
-          "paragraph_ordinal": 60,
-          "sentences": [
-            {
-              "sentence_id": "am-rev-washington-orders-1783-06-08_s01_p60_s01",
-              "sentence_ordinal": 1,
-              "text": "display: inline-block;",
-              "word_offset_start": 996,
-              "word_offset_end": 998,
-              "char_offset_start": 6220,
-              "char_offset_end": 6242,
-              "authorship_note": null,
-              "metaphor_instances": []
-            }
-          ]
-        },
-        {
-          "paragraph_id": "am-rev-washington-orders-1783-06-08_s01_p61",
-          "paragraph_ordinal": 61,
-          "sentences": [
-            {
-              "sentence_id": "am-rev-washington-orders-1783-06-08_s01_p61_s01",
-              "sentence_ordinal": 1,
-              "text": "width: 5em;",
-              "word_offset_start": 998,
-              "word_offset_end": 1000,
-              "char_offset_start": 6244,
-              "char_offset_end": 6255,
-              "authorship_note": null,
-              "metaphor_instances": []
-            }
-          ]
-        },
-        {
-          "paragraph_id": "am-rev-washington-orders-1783-06-08_s01_p62",
-          "paragraph_ordinal": 62,
-          "sentences": [
-            {
-              "sentence_id": "am-rev-washington-orders-1783-06-08_s01_p62_s01",
-              "sentence_ordinal": 1,
-              "text": "}",
-              "word_offset_start": 1000,
-              "word_offset_end": 1001,
-              "char_offset_start": 6257,
-              "char_offset_end": 6258,
-              "authorship_note": null,
-              "metaphor_instances": []
-            }
-          ]
-        },
-        {
-          "paragraph_id": "am-rev-washington-orders-1783-06-08_s01_p63",
-          "paragraph_ordinal": 63,
-          "sentences": [
-            {
-              "sentence_id": "am-rev-washington-orders-1783-06-08_s01_p63_s01",
-              "sentence_ordinal": 1,
-              "text": "$(document).ready(function() {",
-              "word_offset_start": 1001,
-              "word_offset_end": 1003,
-              "char_offset_start": 6260,
-              "char_offset_end": 6290,
-              "authorship_note": null,
-              "metaphor_instances": []
-            }
-          ]
-        },
-        {
-          "paragraph_id": "am-rev-washington-orders-1783-06-08_s01_p64",
-          "paragraph_ordinal": 64,
-          "sentences": [
-            {
-              "sentence_id": "am-rev-washington-orders-1783-06-08_s01_p64_s01",
-              "sentence_ordinal": 1,
-              "text": "$('.tooltip').tooltipster();",
-              "word_offset_start": 1003,
-              "word_offset_end": 1004,
-              "char_offset_start": 6292,
-              "char_offset_end": 6320,
-              "authorship_note": null,
-              "metaphor_instances": []
-            }
-          ]
-        },
-        {
-          "paragraph_id": "am-rev-washington-orders-1783-06-08_s01_p65",
-          "paragraph_ordinal": 65,
-          "sentences": [
-            {
-              "sentence_id": "am-rev-washington-orders-1783-06-08_s01_p65_s01",
-              "sentence_ordinal": 1,
-              "text": "});",
-              "word_offset_start": 1004,
-              "word_offset_end": 1005,
-              "char_offset_start": 6322,
-              "char_offset_end": 6325,
+              "text": "Go: Washington",
+              "word_offset_start": 4113,
+              "word_offset_end": 4115,
+              "char_offset_start": 24214,
+              "char_offset_end": 24228,
               "authorship_note": null,
               "metaphor_instances": []
             }
@@ -1398,8 +736,8 @@
     {
       "stage": "segment-texts",
       "script": "scripts/segment-texts.py",
-      "generated_at": "2026-06-13T20:41:16",
-      "sentence_count": 88
+      "generated_at": "2026-06-17T01:08:21",
+      "sentence_count": 46
     }
   ]
 }

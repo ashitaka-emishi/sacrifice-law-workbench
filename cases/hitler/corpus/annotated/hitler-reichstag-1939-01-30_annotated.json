@@ -1,0 +1,80 @@
+{
+  "version": "1.0",
+  "case_id": "hitler",
+  "document_id": "hitler-reichstag-1939-01-30",
+  "generated_at": "2026-06-17T01:07:47",
+  "generator": "scripts/generate-annotation-layer.py",
+  "annotation_policy": "CMT and Koenigsbergian annotations derived from MIPVU-reviewed metaphorical and uncertain lexical units. Each instance cites at least one MIPVU ID with decision_type in METAPHOR_DECISIONS.",
+  "instances": [
+    {
+      "instance_id": "hitler-ann-061",
+      "case_id": "hitler",
+      "document_id": "hitler-reichstag-1939-01-30",
+      "sentence_id": "hitler-reichstag-1939-01-30_s01_p12_s02",
+      "span_text": "Vernichtung",
+      "mipvu_ids": [
+        "hitler-reichstag-1939-01-30_s01_p12_s02_lu076"
+      ],
+      "cmt": {
+        "mapping_id": "hitler-cmt-061",
+        "cluster_id": "hitler-03-jew-parasite-disease",
+        "source_domain_primary": "physical_destruction",
+        "source_domain_secondary": [],
+        "target_domain": "purification",
+        "conceptual_metaphor": "PURIFICATION IS PHYSICAL DESTRUCTION",
+        "entailments": [
+          "`Vernichtung` extends physical destruction/annihilation to economic, political, or racial elimination of groups",
+          "Social or racial elimination is understood through total physical annihilation."
+        ],
+        "confidence": 0.78,
+        "rival_reading": "Physical destruction is extended to social/economic/racial elimination; the basic physical sense underwrites the metaphorical application to groups.",
+        "justification": "MIPVU review rule '' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
+      },
+      "koenigsberg": {
+        "violence_logic": true
+      },
+      "meta": {
+        "confidence": 0.78,
+        "ambiguity_flag": false,
+        "suppression_flag": false
+      },
+      "gloss_en": "annihilation / destruction",
+      "gloss_notes": "German `Vernichtung` denotes total destruction; in Nazi text often applied to enemies or states — may be literal or figurative depending on target."
+    },
+    {
+      "instance_id": "hitler-ann-062",
+      "case_id": "hitler",
+      "document_id": "hitler-reichstag-1939-01-30",
+      "sentence_id": "hitler-reichstag-1939-01-30_s01_p27_s01",
+      "span_text": "Vernichtung",
+      "mipvu_ids": [
+        "hitler-reichstag-1939-01-30_s01_p27_s01_lu048"
+      ],
+      "cmt": {
+        "mapping_id": "hitler-cmt-062",
+        "cluster_id": "hitler-03-jew-parasite-disease",
+        "source_domain_primary": "physical_destruction",
+        "source_domain_secondary": [],
+        "target_domain": "purification",
+        "conceptual_metaphor": "PURIFICATION IS PHYSICAL DESTRUCTION",
+        "entailments": [
+          "`Vernichtung` extends physical destruction/annihilation to economic, political, or racial elimination of groups",
+          "Social or racial elimination is understood through total physical annihilation."
+        ],
+        "confidence": 0.78,
+        "rival_reading": "Physical destruction is extended to social/economic/racial elimination; the basic physical sense underwrites the metaphorical application to groups.",
+        "justification": "MIPVU review rule '' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
+      },
+      "koenigsberg": {
+        "violence_logic": true
+      },
+      "meta": {
+        "confidence": 0.78,
+        "ambiguity_flag": false,
+        "suppression_flag": false
+      },
+      "gloss_en": "annihilation / destruction",
+      "gloss_notes": "German `Vernichtung` denotes total destruction; in Nazi text often applied to enemies or states — may be literal or figurative depending on target."
+    }
+  ]
+}

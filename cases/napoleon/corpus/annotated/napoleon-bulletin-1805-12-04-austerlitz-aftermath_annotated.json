@@ -1,0 +1,43 @@
+{
+  "version": "1.0",
+  "case_id": "napoleon",
+  "document_id": "napoleon-bulletin-1805-12-04-austerlitz-aftermath",
+  "generated_at": "2026-06-17T01:07:47",
+  "generator": "scripts/generate-annotation-layer.py",
+  "annotation_policy": "CMT and Koenigsbergian annotations derived from MIPVU-reviewed metaphorical and uncertain lexical units. Each instance cites at least one MIPVU ID with decision_type in METAPHOR_DECISIONS.",
+  "instances": [
+    {
+      "instance_id": "napoleon-ann-003",
+      "case_id": "napoleon",
+      "document_id": "napoleon-bulletin-1805-12-04-austerlitz-aftermath",
+      "sentence_id": "napoleon-bulletin-1805-12-04-austerlitz-aftermath_s01_p21_s02",
+      "span_text": "couronne",
+      "mipvu_ids": [
+        "napoleon-bulletin-1805-12-04-austerlitz-aftermath_s01_p21_s02_lu009"
+      ],
+      "cmt": {
+        "mapping_id": "napoleon-cmt-003",
+        "cluster_id": "napoleon-01-glory-destiny",
+        "source_domain_primary": "object_material",
+        "source_domain_secondary": [],
+        "target_domain": "history",
+        "conceptual_metaphor": "HISTORY IS OBJECT MATERIAL",
+        "entailments": [
+          "monarchical or military memory is mediated through tomb, trophies, or crown objects",
+          "Political-military legitimacy may be understood through symbolic objects."
+        ],
+        "confidence": 0.55,
+        "rival_reading": "The objects may be literal, but they also condense monarchy, victory, and imperial memory.",
+        "justification": "MIPVU review rule '' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
+      },
+      "koenigsberg": {},
+      "meta": {
+        "confidence": 0.55,
+        "ambiguity_flag": true,
+        "suppression_flag": false
+      },
+      "gloss_en": "tomb / trophies / crown",
+      "gloss_notes": "French symbolic-object terms need context-specific translation before CMT mapping."
+    }
+  ]
+}

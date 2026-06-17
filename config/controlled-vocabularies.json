@@ -1,7 +1,7 @@
 {
   "version": "1.0",
   "status": "draft",
-  "updated": "2026-06-15",
+  "updated": "2026-06-17",
   "description": "Controlled vocabularies for the Sacrifice Law Workbench annotation and analysis pipeline.",
   "source_domains": [
     { "id": "body", "label": "body", "scope_note": "Human or collective body, including parts, integrity, injury, and embodiment." },
@@ -22,7 +22,13 @@
     { "id": "war_combat", "label": "war / combat", "scope_note": "Battle, arms, field, enemy, defense, defeat, and military action." },
     { "id": "light_darkness", "label": "light / darkness", "scope_note": "Illumination, obscurity, blindness, and revelation." },
     { "id": "slavery_bondage", "label": "slavery / bondage", "scope_note": "Bondage, enslavement, mastery, servitude, emancipation, and captivity." },
-    { "id": "nature_organism", "label": "nature / organism", "scope_note": "Growth, decay, roots, branches, storms, climate, and organic life." }
+    { "id": "nature_organism", "label": "nature / organism", "scope_note": "Growth, decay, roots, branches, storms, climate, and organic life." },
+    { "id": "object_material", "label": "object / material", "scope_note": "Physical objects, substances, bindings, materials, and their dissolution or manipulation." },
+    { "id": "physical_destruction", "label": "physical destruction", "scope_note": "Crushing, breaking, annihilation, expulsion, and irreversible damage to material things." },
+    { "id": "person_agency", "label": "person / agency", "scope_note": "Personhood, individual will, inner strength, and motivated action." },
+    { "id": "life_death", "label": "life / death", "scope_note": "Existence and cessation, vital force, dying, killing, and survival." },
+    { "id": "theater_stage", "label": "theater / stage", "scope_note": "Drama, spectacle, performance, appearance, and masquerade." },
+    { "id": "ritual_religion", "label": "ritual / religion", "scope_note": "Ceremony, consecration, prayer, sacrament, and religious performance distinct from providential narrative." }
   ],
   "target_domains": [
     { "id": "nation", "label": "nation" },
@@ -42,7 +48,21 @@
     { "id": "enemy", "label": "enemy" },
     { "id": "people", "label": "people" },
     { "id": "law", "label": "law" },
-    { "id": "history", "label": "history" }
+    { "id": "history", "label": "history" },
+    { "id": "government", "label": "government", "scope_note": "Institutions of political authority and administration." },
+    { "id": "political_order", "label": "political order", "scope_note": "Arrangements of rule, authority, and legitimate governance." },
+    { "id": "political_identity", "label": "political identity", "scope_note": "Collective self-definition in political terms." },
+    { "id": "independence", "label": "independence", "scope_note": "Political self-determination, separation from imperial authority, and sovereignty." },
+    { "id": "racial_identity", "label": "racial identity", "scope_note": "Race-based frameworks of collective selfhood and belonging." },
+    { "id": "racial_order", "label": "racial order", "scope_note": "Hierarchy and antagonism framed in racial terms." },
+    { "id": "military_virtue", "label": "military virtue", "scope_note": "Courage, valor, glory, and honor in military contexts." },
+    { "id": "war_death", "label": "war death", "scope_note": "Dying in battle, the dead, and the representation of soldier mortality." },
+    { "id": "imperial_authority", "label": "imperial authority", "scope_note": "The Emperor or supreme leader as source of legitimacy." },
+    { "id": "army", "label": "army", "scope_note": "Military force as collective body and instrument." },
+    { "id": "social_body", "label": "social body", "scope_note": "Society, the collective, or the people conceived as a unified whole." },
+    { "id": "purification", "label": "purification", "scope_note": "Cleansing, elimination, and removal of perceived corruption or contamination." },
+    { "id": "struggle", "label": "struggle", "scope_note": "Existential or historical contest for survival, dominance, or destiny." },
+    { "id": "rebirth", "label": "rebirth", "scope_note": "Revival, restoration, resurrection, and national or racial renewal." }
   ],
   "rhetorical_functions": [
     { "id": "exhortation", "label": "exhortation" },

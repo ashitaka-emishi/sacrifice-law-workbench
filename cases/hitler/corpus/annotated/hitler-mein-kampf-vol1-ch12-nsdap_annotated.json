@@ -1,0 +1,285 @@
+{
+  "version": "1.0",
+  "case_id": "hitler",
+  "document_id": "hitler-mein-kampf-vol1-ch12-nsdap",
+  "generated_at": "2026-06-17T01:07:47",
+  "generator": "scripts/generate-annotation-layer.py",
+  "annotation_policy": "CMT and Koenigsbergian annotations derived from MIPVU-reviewed metaphorical and uncertain lexical units. Each instance cites at least one MIPVU ID with decision_type in METAPHOR_DECISIONS.",
+  "instances": [
+    {
+      "instance_id": "hitler-ann-035",
+      "case_id": "hitler",
+      "document_id": "hitler-mein-kampf-vol1-ch12-nsdap",
+      "sentence_id": "hitler-mein-kampf-vol1-ch12-nsdap_s01_p147_s04",
+      "span_text": "Sieg",
+      "mipvu_ids": [
+        "hitler-mein-kampf-vol1-ch12-nsdap_s01_p147_s04_lu017"
+      ],
+      "cmt": {
+        "mapping_id": "hitler-cmt-035",
+        "cluster_id": "hitler-01-volk-racial-body",
+        "source_domain_primary": "war_combat",
+        "source_domain_secondary": [],
+        "target_domain": "racial_order",
+        "conceptual_metaphor": "RACIAL ORDER IS WAR COMBAT",
+        "entailments": [
+          "`Sieg` frames political, ideological, or racial victory as a natural-law outcome or quasi-agent in evolutionary-struggle rhetoric",
+          "Ideological or racial dominance is understood through military victory."
+        ],
+        "confidence": 0.76,
+        "rival_reading": "Battle-victory is extended to denote the triumph of races, ideologies, or laws of nature; the competitive combat source domain is applied to politics and biology.",
+        "justification": "MIPVU review rule '' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
+      },
+      "koenigsberg": {
+        "violence_logic": true
+      },
+      "meta": {
+        "confidence": 0.76,
+        "ambiguity_flag": false,
+        "suppression_flag": false
+      },
+      "gloss_en": "victory",
+      "gloss_notes": "German `Sieg` may be a literal battle outcome or a quasi-agent (der Sieg des Stärkeren = the victory of the stronger) in evolutionary-struggle framing."
+    },
+    {
+      "instance_id": "hitler-ann-036",
+      "case_id": "hitler",
+      "document_id": "hitler-mein-kampf-vol1-ch12-nsdap",
+      "sentence_id": "hitler-mein-kampf-vol1-ch12-nsdap_s01_p232_s01",
+      "span_text": "Heldentum",
+      "mipvu_ids": [
+        "hitler-mein-kampf-vol1-ch12-nsdap_s01_p232_s01_lu011"
+      ],
+      "cmt": {
+        "mapping_id": "hitler-cmt-036",
+        "cluster_id": "hitler-02-fuhrer-embodiment",
+        "source_domain_primary": "person_agency",
+        "source_domain_secondary": [],
+        "target_domain": "sacrifice",
+        "conceptual_metaphor": "SACRIFICE IS PERSON AGENCY",
+        "entailments": [
+          "`Held`/`Heldentum` frames soldiers' death or self-sacrifice as heroic idealization structured by the cultural hero-type",
+          "Soldier death and national sacrifice are understood through heroic idealization."
+        ],
+        "confidence": 0.74,
+        "rival_reading": "Individual soldiers or citizens are idealized through the hero category; heroism becomes the organizing concept for military self-sacrifice.",
+        "justification": "MIPVU review rule '' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
+      },
+      "koenigsberg": {
+        "fantasy_type": "redemptive_sacrifice",
+        "sacrificial_economy": true
+      },
+      "meta": {
+        "confidence": 0.74,
+        "ambiguity_flag": false,
+        "suppression_flag": false
+      },
+      "gloss_en": "hero / heroism",
+      "gloss_notes": "German `Held` in nationalist rhetoric may denote a literal soldier-hero or a culturally-idealized sacrificial figure."
+    },
+    {
+      "instance_id": "hitler-ann-037",
+      "case_id": "hitler",
+      "document_id": "hitler-mein-kampf-vol1-ch12-nsdap",
+      "sentence_id": "hitler-mein-kampf-vol1-ch12-nsdap_s01_p247_s03",
+      "span_text": "Geist",
+      "mipvu_ids": [
+        "hitler-mein-kampf-vol1-ch12-nsdap_s01_p247_s03_lu014"
+      ],
+      "cmt": {
+        "mapping_id": "hitler-cmt-037",
+        "cluster_id": "hitler-01-volk-racial-body",
+        "source_domain_primary": "person_agency",
+        "source_domain_secondary": [],
+        "target_domain": "racial_order",
+        "conceptual_metaphor": "RACIAL ORDER IS PERSON AGENCY",
+        "entailments": [
+          "`Geist` extends the notion of individual intellect or spirit to civilizational, racial, or cultural agency",
+          "Cultural or civilizational capacity is understood through collective spirit/mind."
+        ],
+        "confidence": 0.72,
+        "rival_reading": "Individual mind is extended to collective cultural/civilizational agency; abstract spirit becomes a force that builds or degrades civilizations.",
+        "justification": "MIPVU review rule '' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
+      },
+      "koenigsberg": {},
+      "meta": {
+        "confidence": 0.72,
+        "ambiguity_flag": false,
+        "suppression_flag": false
+      },
+      "gloss_en": "spirit / mind / intellect",
+      "gloss_notes": "German `Geist` spans intellectual capacity, cultural spirit, and spiritual agency; English spirit/mind/intellect each capture only part of the range."
+    },
+    {
+      "instance_id": "hitler-ann-038",
+      "case_id": "hitler",
+      "document_id": "hitler-mein-kampf-vol1-ch12-nsdap",
+      "sentence_id": "hitler-mein-kampf-vol1-ch12-nsdap_s01_p48_s02",
+      "span_text": "Seele",
+      "mipvu_ids": [
+        "hitler-mein-kampf-vol1-ch12-nsdap_s01_p48_s02_lu004"
+      ],
+      "cmt": {
+        "mapping_id": "hitler-cmt-038",
+        "cluster_id": "hitler-01-volk-racial-body",
+        "source_domain_primary": "person_agency",
+        "source_domain_secondary": [],
+        "target_domain": "social_body",
+        "conceptual_metaphor": "SOCIAL BODY IS PERSON AGENCY",
+        "entailments": [
+          "`Seele` extends individual soul/psyche to the collective psyche of a people as something that can be won, poisoned, or protected",
+          "Collective political disposition is understood through individual soul as a capturable entity."
+        ],
+        "confidence": 0.78,
+        "rival_reading": "Individual soul is extended to collective psychological disposition; the collective soul becomes something that political actors can capture or poison.",
+        "justification": "MIPVU review rule '' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
+      },
+      "koenigsberg": {},
+      "meta": {
+        "confidence": 0.78,
+        "ambiguity_flag": false,
+        "suppression_flag": false
+      },
+      "gloss_en": "soul / psyche",
+      "gloss_notes": "German `Seele des Volkes` (soul of the people) extends the individual soul as a collective-organic metaphor."
+    },
+    {
+      "instance_id": "hitler-ann-039",
+      "case_id": "hitler",
+      "document_id": "hitler-mein-kampf-vol1-ch12-nsdap",
+      "sentence_id": "hitler-mein-kampf-vol1-ch12-nsdap_s01_p49_s01",
+      "span_text": "Vernichtung",
+      "mipvu_ids": [
+        "hitler-mein-kampf-vol1-ch12-nsdap_s01_p49_s01_lu025"
+      ],
+      "cmt": {
+        "mapping_id": "hitler-cmt-039",
+        "cluster_id": "hitler-03-jew-parasite-disease",
+        "source_domain_primary": "physical_destruction",
+        "source_domain_secondary": [],
+        "target_domain": "purification",
+        "conceptual_metaphor": "PURIFICATION IS PHYSICAL DESTRUCTION",
+        "entailments": [
+          "`Vernichtung` extends physical destruction/annihilation to economic, political, or racial elimination of groups",
+          "Social or racial elimination is understood through total physical annihilation."
+        ],
+        "confidence": 0.78,
+        "rival_reading": "Physical destruction is extended to social/economic/racial elimination; the basic physical sense underwrites the metaphorical application to groups.",
+        "justification": "MIPVU review rule '' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
+      },
+      "koenigsberg": {
+        "violence_logic": true
+      },
+      "meta": {
+        "confidence": 0.78,
+        "ambiguity_flag": false,
+        "suppression_flag": false
+      },
+      "gloss_en": "annihilation / destruction",
+      "gloss_notes": "German `Vernichtung` denotes total destruction; in Nazi text often applied to enemies or states — may be literal or figurative depending on target."
+    },
+    {
+      "instance_id": "hitler-ann-040",
+      "case_id": "hitler",
+      "document_id": "hitler-mein-kampf-vol1-ch12-nsdap",
+      "sentence_id": "hitler-mein-kampf-vol1-ch12-nsdap_s01_p52_s02",
+      "span_text": "Sieg / Vernichtung",
+      "mipvu_ids": [
+        "hitler-mein-kampf-vol1-ch12-nsdap_s01_p52_s02_lu006",
+        "hitler-mein-kampf-vol1-ch12-nsdap_s01_p52_s02_lu011"
+      ],
+      "cmt": {
+        "mapping_id": "hitler-cmt-040",
+        "cluster_id": "hitler-01-volk-racial-body",
+        "source_domain_primary": "war_combat",
+        "source_domain_secondary": [],
+        "target_domain": "racial_order",
+        "conceptual_metaphor": "RACIAL ORDER IS WAR COMBAT",
+        "entailments": [
+          "`Sieg` frames political, ideological, or racial victory as a natural-law outcome or quasi-agent in evolutionary-struggle rhetoric",
+          "`Vernichtung` extends physical destruction/annihilation to economic, political, or racial elimination of groups",
+          "Ideological or racial dominance is understood through military victory."
+        ],
+        "confidence": 0.77,
+        "rival_reading": "Battle-victory is extended to denote the triumph of races, ideologies, or laws of nature; the competitive combat source domain is applied to politics and biology.",
+        "justification": "MIPVU review rule '' marked 2 unit(s) as metaphor-related or uncertain in this sentence."
+      },
+      "koenigsberg": {
+        "violence_logic": true
+      },
+      "meta": {
+        "confidence": 0.77,
+        "ambiguity_flag": false,
+        "suppression_flag": false
+      },
+      "gloss_en": "victory",
+      "gloss_notes": "German `Sieg` may be a literal battle outcome or a quasi-agent (der Sieg des Stärkeren = the victory of the stronger) in evolutionary-struggle framing."
+    },
+    {
+      "instance_id": "hitler-ann-041",
+      "case_id": "hitler",
+      "document_id": "hitler-mein-kampf-vol1-ch12-nsdap",
+      "sentence_id": "hitler-mein-kampf-vol1-ch12-nsdap_s01_p53_s01",
+      "span_text": "Seele",
+      "mipvu_ids": [
+        "hitler-mein-kampf-vol1-ch12-nsdap_s01_p53_s01_lu015"
+      ],
+      "cmt": {
+        "mapping_id": "hitler-cmt-041",
+        "cluster_id": "hitler-01-volk-racial-body",
+        "source_domain_primary": "person_agency",
+        "source_domain_secondary": [],
+        "target_domain": "social_body",
+        "conceptual_metaphor": "SOCIAL BODY IS PERSON AGENCY",
+        "entailments": [
+          "`Seele` extends individual soul/psyche to the collective psyche of a people as something that can be won, poisoned, or protected",
+          "Collective political disposition is understood through individual soul as a capturable entity."
+        ],
+        "confidence": 0.78,
+        "rival_reading": "Individual soul is extended to collective psychological disposition; the collective soul becomes something that political actors can capture or poison.",
+        "justification": "MIPVU review rule '' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
+      },
+      "koenigsberg": {},
+      "meta": {
+        "confidence": 0.78,
+        "ambiguity_flag": false,
+        "suppression_flag": false
+      },
+      "gloss_en": "soul / psyche",
+      "gloss_notes": "German `Seele des Volkes` (soul of the people) extends the individual soul as a collective-organic metaphor."
+    },
+    {
+      "instance_id": "hitler-ann-042",
+      "case_id": "hitler",
+      "document_id": "hitler-mein-kampf-vol1-ch12-nsdap",
+      "sentence_id": "hitler-mein-kampf-vol1-ch12-nsdap_s01_p54_s04",
+      "span_text": "Blute",
+      "mipvu_ids": [
+        "hitler-mein-kampf-vol1-ch12-nsdap_s01_p54_s04_lu002"
+      ],
+      "cmt": {
+        "mapping_id": "hitler-cmt-042",
+        "cluster_id": "hitler-01-volk-racial-body",
+        "source_domain_primary": "body",
+        "source_domain_secondary": [],
+        "target_domain": "racial_identity",
+        "conceptual_metaphor": "RACIAL IDENTITY IS BODY",
+        "entailments": [
+          "`Blut` denotes racial lineage, genetic essence, or inherited cultural capacity — not literal blood in veins",
+          "Racial identity and cultural capacity are understood through the bodily blood domain."
+        ],
+        "confidence": 0.88,
+        "rival_reading": "Biological blood is extended to denote racial descent and inherited essence; the physical source domain underwrites racial-purity claims.",
+        "justification": "MIPVU review rule '' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
+      },
+      "koenigsberg": {},
+      "meta": {
+        "confidence": 0.88,
+        "ambiguity_flag": false,
+        "suppression_flag": false
+      },
+      "gloss_en": "blood (racial lineage)",
+      "gloss_notes": "German `Blut` spans literal biological blood, racial-lineage metaphor, and sacrificial-cost rhetoric; context is decisive for MIPVU."
+    }
+  ]
+}

@@ -1,9 +1,9 @@
 {
   "version": "1.0",
   "case_id": "lincoln",
-  "generated_at": "2026-06-15T21:16:19",
+  "generated_at": "2026-06-17T01:08:25",
   "status": "complete",
-  "total_instances": 0,
+  "total_instances": 64,
   "mipvu_profile": {
     "mipvu_files": 3,
     "total_lexical_units": 4536,
@@ -44,51 +44,89 @@
   },
   "cmt_profile": {
     "mapping_file": "corpus/cmt/cmt-mappings.json",
-    "mapping_count": 9,
+    "mapping_count": 64,
     "by_cluster": {
-      "lincoln-06-providence-theodicy": 4,
-      "lincoln-01-body-organism": 2,
-      "lincoln-08-sacrificial-death-gift": 2,
-      "lincoln-04-birth-creation": 1
+      "lincoln-01-body-organism": 43,
+      "lincoln-05-fathers-inheritance": 6,
+      "lincoln-08-sacrificial-death-gift": 5,
+      "lincoln-02-covenant-oath": 4,
+      "lincoln-03-experiment-proposition": 3,
+      "lincoln-06-providence-theodicy": 2,
+      "lincoln-07-absence-black-agency": 1
     },
     "by_source_domain": {
+      "body": 20,
+      "nature_organism": 12,
+      "architecture_building": 6,
+      "object_material": 4,
+      "religion_providence": 4,
+      "sacrifice": 4,
+      "experiment_science": 3,
+      "life_death": 3,
+      "birth_generation": 2,
       "debt_accounting": 2,
-      "nature_organism": 2,
-      "sacrifice": 2,
-      "birth_generation": 1,
-      "law_contract": 1,
-      "religion_providence": 1
+      "theater_stage": 2,
+      "war_combat": 2
     },
     "by_target_domain": {
-      "civil_war": 2,
-      "nation": 2,
-      "citizenship": 1,
-      "democracy": 1,
-      "freedom": 1,
-      "providence": 1,
-      "slavery": 1
+      "political_order": 17,
+      "history": 10,
+      "citizenship": 7,
+      "nation": 7,
+      "government": 5,
+      "republic": 3,
+      "slavery": 3,
+      "war_death": 3,
+      "freedom": 2,
+      "law": 2,
+      "union": 2,
+      "civil_war": 1,
+      "enemy": 1,
+      "political_identity": 1
     },
     "by_conceptual_metaphor": {
-      "BLOODSHED IS MORAL REPAYMENT": 1,
-      "CIVIC DUTY IS SACRED DEDICATION": 1,
-      "DEMOCRATIC GOVERNMENT IS A LIVING ORGANISM": 1,
-      "DIVINE WILL IS RIGHTEOUS JUDGMENT": 1,
-      "MILITARY DEATH IS TOTAL DEVOTIONAL PAYMENT": 1,
-      "POLITICAL RENEWAL IS BIRTH": 1,
-      "SLAVERY'S PROFIT IS MORAL DEBT": 1,
-      "SOLDIER DEATH IS A GIFT THAT PRESERVES NATIONAL LIFE": 1,
-      "THE NATION IS A LIVING BODY": 1
+      "POLITICAL ORDER IS BODY": 7,
+      "POLITICAL ORDER IS NATURE ORGANISM": 7,
+      "GOVERNMENT IS ARCHITECTURE BUILDING": 4,
+      "NATION IS NATURE ORGANISM": 4,
+      "CITIZENSHIP IS BODY": 3,
+      "CITIZENSHIP IS SACRIFICE": 3,
+      "HISTORY IS BODY": 3,
+      "HISTORY IS LIFE DEATH": 3,
+      "REPUBLIC IS EXPERIMENT SCIENCE": 3,
+      "FREEDOM IS ARCHITECTURE BUILDING": 2,
+      "LAW IS RELIGION PROVIDENCE": 2,
+      "NATION IS BIRTH GENERATION": 2,
+      "POLITICAL ORDER IS OBJECT MATERIAL": 2,
+      "UNION IS OBJECT MATERIAL": 2,
+      "WAR DEATH IS BODY": 2,
+      "CITIZENSHIP IS RELIGION PROVIDENCE": 1,
+      "CIVIL WAR IS WAR COMBAT": 1,
+      "ENEMY IS BODY": 1,
+      "GOVERNMENT IS BODY": 1,
+      "HISTORY IS DEBT ACCOUNTING": 1,
+      "HISTORY IS NATURE ORGANISM": 1,
+      "HISTORY IS THEATER STAGE": 1,
+      "HISTORY IS WAR COMBAT": 1,
+      "NATION IS BODY": 1,
+      "POLITICAL IDENTITY IS BODY": 1,
+      "POLITICAL ORDER IS SACRIFICE": 1,
+      "SLAVERY IS BODY": 1,
+      "SLAVERY IS DEBT ACCOUNTING": 1,
+      "SLAVERY IS RELIGION PROVIDENCE": 1,
+      "WAR DEATH IS THEATER STAGE": 1
     },
     "by_document": {
-      "lincoln-gettysburg-address": 5,
-      "lincoln-second-inaugural": 3,
-      "lincoln-lyceum-address": 1
+      "lincoln-lyceum-address": 50,
+      "lincoln-second-inaugural": 9,
+      "lincoln-gettysburg-address": 5
     },
     "by_salience": {
-      "high": 9
+      "high": 32,
+      "medium": 32
     },
     "by_status": {
-      "provisional": 9
+      "provisional": 64
     }
   },
   "cluster_analyses": [
@@ -96,31 +134,141 @@
       "cluster_id": "lincoln-01-body-organism",
       "cluster_name": "Nation as organism / body",
       "status": "provisional",
-      "instance_count": 0,
-      "instance_ids": [],
-      "cmt_mapping_count": 2,
+      "instance_count": 43,
+      "instance_ids": [
+        "lincoln-ann-051",
+        "lincoln-ann-052",
+        "lincoln-ann-053",
+        "lincoln-ann-054",
+        "lincoln-ann-003",
+        "lincoln-ann-004",
+        "lincoln-ann-005",
+        "lincoln-ann-006",
+        "lincoln-ann-007",
+        "lincoln-ann-008",
+        "lincoln-ann-009",
+        "lincoln-ann-010",
+        "lincoln-ann-011",
+        "lincoln-ann-014",
+        "lincoln-ann-015",
+        "lincoln-ann-017",
+        "lincoln-ann-022",
+        "lincoln-ann-025",
+        "lincoln-ann-029",
+        "lincoln-ann-030",
+        "lincoln-ann-031",
+        "lincoln-ann-032",
+        "lincoln-ann-033",
+        "lincoln-ann-034",
+        "lincoln-ann-035",
+        "lincoln-ann-036",
+        "lincoln-ann-037",
+        "lincoln-ann-038",
+        "lincoln-ann-039",
+        "lincoln-ann-040",
+        "lincoln-ann-041",
+        "lincoln-ann-043",
+        "lincoln-ann-045",
+        "lincoln-ann-046",
+        "lincoln-ann-047",
+        "lincoln-ann-048",
+        "lincoln-ann-049",
+        "lincoln-ann-050",
+        "lincoln-ann-056",
+        "lincoln-ann-058",
+        "lincoln-ann-060",
+        "lincoln-ann-062",
+        "lincoln-ann-064"
+      ],
+      "cmt_mapping_count": 43,
       "cmt_mapping_ids": [
-        "lincoln-cmt-001",
-        "lincoln-cmt-006"
+        "lincoln-cmt-003",
+        "lincoln-cmt-004",
+        "lincoln-cmt-005",
+        "lincoln-cmt-006",
+        "lincoln-cmt-007",
+        "lincoln-cmt-008",
+        "lincoln-cmt-009",
+        "lincoln-cmt-010",
+        "lincoln-cmt-011",
+        "lincoln-cmt-014",
+        "lincoln-cmt-015",
+        "lincoln-cmt-017",
+        "lincoln-cmt-022",
+        "lincoln-cmt-025",
+        "lincoln-cmt-029",
+        "lincoln-cmt-030",
+        "lincoln-cmt-031",
+        "lincoln-cmt-032",
+        "lincoln-cmt-033",
+        "lincoln-cmt-034",
+        "lincoln-cmt-035",
+        "lincoln-cmt-036",
+        "lincoln-cmt-037",
+        "lincoln-cmt-038",
+        "lincoln-cmt-039",
+        "lincoln-cmt-040",
+        "lincoln-cmt-041",
+        "lincoln-cmt-043",
+        "lincoln-cmt-045",
+        "lincoln-cmt-046",
+        "lincoln-cmt-047",
+        "lincoln-cmt-048",
+        "lincoln-cmt-049",
+        "lincoln-cmt-050",
+        "lincoln-cmt-051",
+        "lincoln-cmt-052",
+        "lincoln-cmt-053",
+        "lincoln-cmt-054",
+        "lincoln-cmt-056",
+        "lincoln-cmt-058",
+        "lincoln-cmt-060",
+        "lincoln-cmt-062",
+        "lincoln-cmt-064"
       ],
       "cmt_source_domains": {
-        "nature_organism": 2
+        "body": 20,
+        "nature_organism": 12,
+        "architecture_building": 6,
+        "birth_generation": 2,
+        "object_material": 2,
+        "war_combat": 1
       },
       "cmt_target_domains": {
-        "democracy": 1,
-        "nation": 1
+        "political_order": 16,
+        "nation": 7,
+        "government": 5,
+        "history": 4,
+        "citizenship": 3,
+        "freedom": 2,
+        "war_death": 2,
+        "civil_war": 1,
+        "enemy": 1,
+        "political_identity": 1,
+        "slavery": 1
       },
       "rhetorical_salience_distribution": {
-        "high": 2
+        "high": 22,
+        "medium": 21
       },
-      "by_document": {},
+      "by_document": {
+        "lincoln-lyceum-address": 34,
+        "lincoln-second-inaugural": 5,
+        "lincoln-gettysburg-address": 4
+      },
       "by_register": {},
       "koenigsberg_profile": {
-        "fantasy_type_distribution": {},
-        "violence_logic_distribution": {},
-        "obligatory_frame_rate": null,
-        "sacrificial_economy_rate": null,
-        "absence_flags_distribution": {}
+        "fantasy_type_distribution": {
+          "national_body": 7
+        },
+        "violence_logic_distribution": {
+          "True": 4
+        },
+        "obligatory_frame_rate": 0.0,
+        "sacrificial_economy_rate": 0.047,
+        "absence_flags_distribution": {
+          "possible-suppressed-agent": 3
+        }
       },
       "analyst_notes": null,
       "interpretive_summary": null,
@@ -130,20 +278,44 @@
       "cluster_id": "lincoln-02-covenant-oath",
       "cluster_name": "Union as covenant / oath",
       "status": "provisional",
-      "instance_count": 0,
-      "instance_ids": [],
-      "cmt_mapping_count": 0,
-      "cmt_mapping_ids": [],
-      "cmt_source_domains": {},
-      "cmt_target_domains": {},
-      "rhetorical_salience_distribution": {},
-      "by_document": {},
+      "instance_count": 4,
+      "instance_ids": [
+        "lincoln-ann-020",
+        "lincoln-ann-021",
+        "lincoln-ann-057",
+        "lincoln-ann-059"
+      ],
+      "cmt_mapping_count": 4,
+      "cmt_mapping_ids": [
+        "lincoln-cmt-020",
+        "lincoln-cmt-021",
+        "lincoln-cmt-057",
+        "lincoln-cmt-059"
+      ],
+      "cmt_source_domains": {
+        "object_material": 2,
+        "religion_providence": 2
+      },
+      "cmt_target_domains": {
+        "law": 2,
+        "union": 2
+      },
+      "rhetorical_salience_distribution": {
+        "high": 3,
+        "medium": 1
+      },
+      "by_document": {
+        "lincoln-lyceum-address": 2,
+        "lincoln-second-inaugural": 2
+      },
       "by_register": {},
       "koenigsberg_profile": {
-        "fantasy_type_distribution": {},
+        "fantasy_type_distribution": {
+          "providential_covenant": 2
+        },
         "violence_logic_distribution": {},
-        "obligatory_frame_rate": null,
-        "sacrificial_economy_rate": null,
+        "obligatory_frame_rate": 0.0,
+        "sacrificial_economy_rate": 0.0,
         "absence_flags_distribution": {}
       },
       "analyst_notes": null,
@@ -154,20 +326,36 @@
       "cluster_id": "lincoln-03-experiment-proposition",
       "cluster_name": "Republic as experiment / proposition",
       "status": "provisional",
-      "instance_count": 0,
-      "instance_ids": [],
-      "cmt_mapping_count": 0,
-      "cmt_mapping_ids": [],
-      "cmt_source_domains": {},
-      "cmt_target_domains": {},
-      "rhetorical_salience_distribution": {},
-      "by_document": {},
+      "instance_count": 3,
+      "instance_ids": [
+        "lincoln-ann-023",
+        "lincoln-ann-024",
+        "lincoln-ann-028"
+      ],
+      "cmt_mapping_count": 3,
+      "cmt_mapping_ids": [
+        "lincoln-cmt-023",
+        "lincoln-cmt-024",
+        "lincoln-cmt-028"
+      ],
+      "cmt_source_domains": {
+        "experiment_science": 3
+      },
+      "cmt_target_domains": {
+        "republic": 3
+      },
+      "rhetorical_salience_distribution": {
+        "medium": 3
+      },
+      "by_document": {
+        "lincoln-lyceum-address": 3
+      },
       "by_register": {},
       "koenigsberg_profile": {
         "fantasy_type_distribution": {},
         "violence_logic_distribution": {},
-        "obligatory_frame_rate": null,
-        "sacrificial_economy_rate": null,
+        "obligatory_frame_rate": 0.0,
+        "sacrificial_economy_rate": 0.0,
         "absence_flags_distribution": {}
       },
       "analyst_notes": null,
@@ -180,19 +368,11 @@
       "status": "provisional",
       "instance_count": 0,
       "instance_ids": [],
-      "cmt_mapping_count": 1,
-      "cmt_mapping_ids": [
-        "lincoln-cmt-005"
-      ],
-      "cmt_source_domains": {
-        "birth_generation": 1
-      },
-      "cmt_target_domains": {
-        "freedom": 1
-      },
-      "rhetorical_salience_distribution": {
-        "high": 1
-      },
+      "cmt_mapping_count": 0,
+      "cmt_mapping_ids": [],
+      "cmt_source_domains": {},
+      "cmt_target_domains": {},
+      "rhetorical_salience_distribution": {},
       "by_document": {},
       "by_register": {},
       "koenigsberg_profile": {
@@ -210,20 +390,48 @@
       "cluster_id": "lincoln-05-fathers-inheritance",
       "cluster_name": "Founding fathers as inheritance",
       "status": "provisional",
-      "instance_count": 0,
-      "instance_ids": [],
-      "cmt_mapping_count": 0,
-      "cmt_mapping_ids": [],
-      "cmt_source_domains": {},
-      "cmt_target_domains": {},
-      "rhetorical_salience_distribution": {},
-      "by_document": {},
+      "instance_count": 6,
+      "instance_ids": [
+        "lincoln-ann-001",
+        "lincoln-ann-002",
+        "lincoln-ann-026",
+        "lincoln-ann-027",
+        "lincoln-ann-042",
+        "lincoln-ann-044"
+      ],
+      "cmt_mapping_count": 6,
+      "cmt_mapping_ids": [
+        "lincoln-cmt-001",
+        "lincoln-cmt-002",
+        "lincoln-cmt-026",
+        "lincoln-cmt-027",
+        "lincoln-cmt-042",
+        "lincoln-cmt-044"
+      ],
+      "cmt_source_domains": {
+        "life_death": 3,
+        "debt_accounting": 1,
+        "theater_stage": 1,
+        "war_combat": 1
+      },
+      "cmt_target_domains": {
+        "history": 6
+      },
+      "rhetorical_salience_distribution": {
+        "high": 3,
+        "medium": 3
+      },
+      "by_document": {
+        "lincoln-lyceum-address": 6
+      },
       "by_register": {},
       "koenigsberg_profile": {
         "fantasy_type_distribution": {},
-        "violence_logic_distribution": {},
-        "obligatory_frame_rate": null,
-        "sacrificial_economy_rate": null,
+        "violence_logic_distribution": {
+          "True": 1
+        },
+        "obligatory_frame_rate": 0.0,
+        "sacrificial_economy_rate": 0.5,
         "absence_flags_distribution": {}
       },
       "analyst_notes": null,
@@ -234,36 +442,39 @@
       "cluster_id": "lincoln-06-providence-theodicy",
       "cluster_name": "Providence / divine will",
       "status": "provisional",
-      "instance_count": 0,
-      "instance_ids": [],
-      "cmt_mapping_count": 4,
+      "instance_count": 2,
+      "instance_ids": [
+        "lincoln-ann-055",
+        "lincoln-ann-061"
+      ],
+      "cmt_mapping_count": 2,
       "cmt_mapping_ids": [
-        "lincoln-cmt-003",
-        "lincoln-cmt-007",
-        "lincoln-cmt-008",
-        "lincoln-cmt-009"
+        "lincoln-cmt-055",
+        "lincoln-cmt-061"
       ],
       "cmt_source_domains": {
-        "debt_accounting": 2,
-        "law_contract": 1,
-        "religion_providence": 1
+        "religion_providence": 2
       },
       "cmt_target_domains": {
         "citizenship": 1,
-        "civil_war": 1,
-        "providence": 1,
         "slavery": 1
       },
       "rhetorical_salience_distribution": {
-        "high": 4
+        "high": 1,
+        "medium": 1
       },
-      "by_document": {},
+      "by_document": {
+        "lincoln-gettysburg-address": 1,
+        "lincoln-second-inaugural": 1
+      },
       "by_register": {},
       "koenigsberg_profile": {
-        "fantasy_type_distribution": {},
+        "fantasy_type_distribution": {
+          "providential_covenant": 2
+        },
         "violence_logic_distribution": {},
-        "obligatory_frame_rate": null,
-        "sacrificial_economy_rate": null,
+        "obligatory_frame_rate": 0.0,
+        "sacrificial_economy_rate": 0.0,
         "absence_flags_distribution": {}
       },
       "analyst_notes": null,
@@ -274,20 +485,32 @@
       "cluster_id": "lincoln-07-absence-black-agency",
       "cluster_name": "Systematic absence / suppressed agency",
       "status": "provisional",
-      "instance_count": 0,
-      "instance_ids": [],
-      "cmt_mapping_count": 0,
-      "cmt_mapping_ids": [],
-      "cmt_source_domains": {},
-      "cmt_target_domains": {},
-      "rhetorical_salience_distribution": {},
-      "by_document": {},
+      "instance_count": 1,
+      "instance_ids": [
+        "lincoln-ann-063"
+      ],
+      "cmt_mapping_count": 1,
+      "cmt_mapping_ids": [
+        "lincoln-cmt-063"
+      ],
+      "cmt_source_domains": {
+        "debt_accounting": 1
+      },
+      "cmt_target_domains": {
+        "slavery": 1
+      },
+      "rhetorical_salience_distribution": {
+        "medium": 1
+      },
+      "by_document": {
+        "lincoln-second-inaugural": 1
+      },
       "by_register": {},
       "koenigsberg_profile": {
         "fantasy_type_distribution": {},
         "violence_logic_distribution": {},
-        "obligatory_frame_rate": null,
-        "sacrificial_economy_rate": null,
+        "obligatory_frame_rate": 0.0,
+        "sacrificial_economy_rate": 0.0,
         "absence_flags_distribution": {}
       },
       "analyst_notes": null,
@@ -298,30 +521,48 @@
       "cluster_id": "lincoln-08-sacrificial-death-gift",
       "cluster_name": "Soldier death as sacrifice / gift",
       "status": "provisional",
-      "instance_count": 0,
-      "instance_ids": [],
-      "cmt_mapping_count": 2,
+      "instance_count": 5,
+      "instance_ids": [
+        "lincoln-ann-012",
+        "lincoln-ann-013",
+        "lincoln-ann-016",
+        "lincoln-ann-018",
+        "lincoln-ann-019"
+      ],
+      "cmt_mapping_count": 5,
       "cmt_mapping_ids": [
-        "lincoln-cmt-002",
-        "lincoln-cmt-004"
+        "lincoln-cmt-012",
+        "lincoln-cmt-013",
+        "lincoln-cmt-016",
+        "lincoln-cmt-018",
+        "lincoln-cmt-019"
       ],
       "cmt_source_domains": {
-        "sacrifice": 2
+        "sacrifice": 4,
+        "theater_stage": 1
       },
       "cmt_target_domains": {
-        "civil_war": 1,
-        "nation": 1
+        "citizenship": 3,
+        "political_order": 1,
+        "war_death": 1
       },
       "rhetorical_salience_distribution": {
-        "high": 2
+        "high": 3,
+        "medium": 2
       },
-      "by_document": {},
+      "by_document": {
+        "lincoln-lyceum-address": 5
+      },
       "by_register": {},
       "koenigsberg_profile": {
-        "fantasy_type_distribution": {},
-        "violence_logic_distribution": {},
-        "obligatory_frame_rate": null,
-        "sacrificial_economy_rate": null,
+        "fantasy_type_distribution": {
+          "redemptive_sacrifice": 4
+        },
+        "violence_logic_distribution": {
+          "True": 1
+        },
+        "obligatory_frame_rate": 0.0,
+        "sacrificial_economy_rate": 1.0,
         "absence_flags_distribution": {}
       },
       "analyst_notes": null,
@@ -330,50 +571,108 @@
     }
   ],
   "corpus_profile": {
-    "by_document": {},
+    "by_document": {
+      "lincoln-lyceum-address": 50,
+      "lincoln-second-inaugural": 9,
+      "lincoln-gettysburg-address": 5
+    },
     "by_register": {},
-    "by_cluster": {},
-    "by_fantasy_type": {},
-    "by_violence_logic": {},
-    "by_absence_flag": {},
+    "by_cluster": {
+      "lincoln-01-body-organism": 43,
+      "lincoln-05-fathers-inheritance": 6,
+      "lincoln-08-sacrificial-death-gift": 5,
+      "lincoln-02-covenant-oath": 4,
+      "lincoln-03-experiment-proposition": 3,
+      "lincoln-06-providence-theodicy": 2,
+      "lincoln-07-absence-black-agency": 1
+    },
+    "by_fantasy_type": {
+      "national_body": 7,
+      "providential_covenant": 4,
+      "redemptive_sacrifice": 4
+    },
+    "by_violence_logic": {
+      "True": 6
+    },
+    "by_absence_flag": {
+      "possible-suppressed-agent": 3
+    },
     "cmt_denominator": {
-      "mapping_count": 9,
+      "mapping_count": 64,
       "by_cluster": {
-        "lincoln-06-providence-theodicy": 4,
-        "lincoln-01-body-organism": 2,
-        "lincoln-08-sacrificial-death-gift": 2,
-        "lincoln-04-birth-creation": 1
+        "lincoln-01-body-organism": 43,
+        "lincoln-05-fathers-inheritance": 6,
+        "lincoln-08-sacrificial-death-gift": 5,
+        "lincoln-02-covenant-oath": 4,
+        "lincoln-03-experiment-proposition": 3,
+        "lincoln-06-providence-theodicy": 2,
+        "lincoln-07-absence-black-agency": 1
       },
       "by_source_domain": {
+        "body": 20,
+        "nature_organism": 12,
+        "architecture_building": 6,
+        "object_material": 4,
+        "religion_providence": 4,
+        "sacrifice": 4,
+        "experiment_science": 3,
+        "life_death": 3,
+        "birth_generation": 2,
         "debt_accounting": 2,
-        "nature_organism": 2,
-        "sacrifice": 2,
-        "birth_generation": 1,
-        "law_contract": 1,
-        "religion_providence": 1
+        "theater_stage": 2,
+        "war_combat": 2
       },
       "by_target_domain": {
-        "civil_war": 2,
-        "nation": 2,
-        "citizenship": 1,
-        "democracy": 1,
-        "freedom": 1,
-        "providence": 1,
-        "slavery": 1
+        "political_order": 17,
+        "history": 10,
+        "citizenship": 7,
+        "nation": 7,
+        "government": 5,
+        "republic": 3,
+        "slavery": 3,
+        "war_death": 3,
+        "freedom": 2,
+        "law": 2,
+        "union": 2,
+        "civil_war": 1,
+        "enemy": 1,
+        "political_identity": 1
       },
       "by_conceptual_metaphor": {
-        "BLOODSHED IS MORAL REPAYMENT": 1,
-        "CIVIC DUTY IS SACRED DEDICATION": 1,
-        "DEMOCRATIC GOVERNMENT IS A LIVING ORGANISM": 1,
-        "DIVINE WILL IS RIGHTEOUS JUDGMENT": 1,
-        "MILITARY DEATH IS TOTAL DEVOTIONAL PAYMENT": 1,
-        "POLITICAL RENEWAL IS BIRTH": 1,
-        "SLAVERY'S PROFIT IS MORAL DEBT": 1,
-        "SOLDIER DEATH IS A GIFT THAT PRESERVES NATIONAL LIFE": 1,
-        "THE NATION IS A LIVING BODY": 1
+        "POLITICAL ORDER IS BODY": 7,
+        "POLITICAL ORDER IS NATURE ORGANISM": 7,
+        "GOVERNMENT IS ARCHITECTURE BUILDING": 4,
+        "NATION IS NATURE ORGANISM": 4,
+        "CITIZENSHIP IS BODY": 3,
+        "CITIZENSHIP IS SACRIFICE": 3,
+        "HISTORY IS BODY": 3,
+        "HISTORY IS LIFE DEATH": 3,
+        "REPUBLIC IS EXPERIMENT SCIENCE": 3,
+        "FREEDOM IS ARCHITECTURE BUILDING": 2,
+        "LAW IS RELIGION PROVIDENCE": 2,
+        "NATION IS BIRTH GENERATION": 2,
+        "POLITICAL ORDER IS OBJECT MATERIAL": 2,
+        "UNION IS OBJECT MATERIAL": 2,
+        "WAR DEATH IS BODY": 2,
+        "CITIZENSHIP IS RELIGION PROVIDENCE": 1,
+        "CIVIL WAR IS WAR COMBAT": 1,
+        "ENEMY IS BODY": 1,
+        "GOVERNMENT IS BODY": 1,
+        "HISTORY IS DEBT ACCOUNTING": 1,
+        "HISTORY IS NATURE ORGANISM": 1,
+        "HISTORY IS THEATER STAGE": 1,
+        "HISTORY IS WAR COMBAT": 1,
+        "NATION IS BODY": 1,
+        "POLITICAL IDENTITY IS BODY": 1,
+        "POLITICAL ORDER IS SACRIFICE": 1,
+        "SLAVERY IS BODY": 1,
+        "SLAVERY IS DEBT ACCOUNTING": 1,
+        "SLAVERY IS RELIGION PROVIDENCE": 1,
+        "WAR DEATH IS THEATER STAGE": 1
       },
       "by_salience": {
-        "high": 9
+        "high": 32,
+        "medium": 32
       }
     },
     "mipvu_denominator": {
@@ -392,7 +691,7 @@
     {
       "stage": "run-case-analysis",
       "script": "scripts/run-case-analysis.py",
-      "generated_at": "2026-06-15T21:16:19"
+      "generated_at": "2026-06-17T01:08:25"
     }
   ]
 }

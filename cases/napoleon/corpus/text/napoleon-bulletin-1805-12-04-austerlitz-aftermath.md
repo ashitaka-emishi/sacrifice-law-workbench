@@ -20,12 +20,18 @@ correspondance_volume: 11
 extraction_script: scripts/extract-napoleon-bulletins.py
 notes: 'Aftermath: Russian retreat, prisoner lists, imperial magnanimity. Sacrificial
   economy at peak — death rendered meaningful by total victory.'
+verification:
+  min_words: 2500
+  required_phrases:
+  - 20 frimaire
+  - armée russe
+  - GRANDE ARM
 case_id: napoleon
 raw_path: corpus/raw/napoleon-src-02-grande-armee-bulletins/napoleon-bulletin-1805-12-04-austerlitz-aftermath.txt
 pipeline_log:
 - stage: normalize-texts
   script: scripts/normalize-texts.py
-  generated_at: '2026-06-14T15:00:09'
+  generated_at: '2026-06-17T01:08:25'
 ---
 
 35e BULLETIN DE LA GRANDE ARMÉE.

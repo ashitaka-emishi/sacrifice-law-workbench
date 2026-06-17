@@ -1,0 +1,328 @@
+{
+  "version": "1.0",
+  "case_id": "lincoln",
+  "document_id": "lincoln-second-inaugural",
+  "generated_at": "2026-06-17T01:07:47",
+  "generator": "scripts/generate-annotation-layer.py",
+  "annotation_policy": "CMT and Koenigsbergian annotations derived from MIPVU-reviewed metaphorical and uncertain lexical units. Each instance cites at least one MIPVU ID with decision_type in METAPHOR_DECISIONS.",
+  "instances": [
+    {
+      "instance_id": "lincoln-ann-056",
+      "case_id": "lincoln",
+      "document_id": "lincoln-second-inaugural",
+      "sentence_id": "lincoln-second-inaugural_s01_p01_s03",
+      "span_text": "contest / absorbs / engrosses",
+      "mipvu_ids": [
+        "lincoln-second-inaugural_s01_p01_s03_lu025",
+        "lincoln-second-inaugural_s01_p01_s03_lu028",
+        "lincoln-second-inaugural_s01_p01_s03_lu032"
+      ],
+      "cmt": {
+        "mapping_id": "lincoln-cmt-056",
+        "cluster_id": "lincoln-01-body-organism",
+        "source_domain_primary": "war_combat",
+        "source_domain_secondary": [],
+        "target_domain": "civil_war",
+        "conceptual_metaphor": "CIVIL WAR IS WAR COMBAT",
+        "entailments": [
+          "the war and public attention are framed as combat and consuming attention",
+          "Political conflict is understood through combat and physical possession."
+        ],
+        "confidence": 0.72,
+        "rival_reading": "Public affairs and attention are construed through combat and physical absorption.",
+        "justification": "MIPVU review rule '' marked 3 unit(s) as metaphor-related or uncertain in this sentence."
+      },
+      "koenigsberg": {
+        "violence_logic": true
+      },
+      "meta": {
+        "confidence": 0.72,
+        "ambiguity_flag": false,
+        "suppression_flag": false
+      }
+    },
+    {
+      "instance_id": "lincoln-ann-057",
+      "case_id": "lincoln",
+      "document_id": "lincoln-second-inaugural",
+      "sentence_id": "lincoln-second-inaugural_s01_p02_s03",
+      "span_text": "dissolve / divide",
+      "mipvu_ids": [
+        "lincoln-second-inaugural_s01_p02_s03_lu033",
+        "lincoln-second-inaugural_s01_p02_s03_lu037"
+      ],
+      "cmt": {
+        "mapping_id": "lincoln-cmt-057",
+        "cluster_id": "lincoln-02-covenant-oath",
+        "source_domain_primary": "object_material",
+        "source_domain_secondary": [],
+        "target_domain": "union",
+        "conceptual_metaphor": "UNION IS OBJECT MATERIAL",
+        "entailments": [
+          "the Union is represented as a body or material object that can be torn, dissolved, or divided",
+          "Political union is understood through material cohesion."
+        ],
+        "confidence": 0.86,
+        "rival_reading": "The constitutional Union is abstract-political but construed as a separable material entity.",
+        "justification": "MIPVU review rule '' marked 2 unit(s) as metaphor-related or uncertain in this sentence."
+      },
+      "koenigsberg": {},
+      "meta": {
+        "confidence": 0.86,
+        "ambiguity_flag": false,
+        "suppression_flag": false
+      }
+    },
+    {
+      "instance_id": "lincoln-ann-058",
+      "case_id": "lincoln",
+      "document_id": "lincoln-second-inaugural",
+      "sentence_id": "lincoln-second-inaugural_s01_p02_s04",
+      "span_text": "survive / perish",
+      "mipvu_ids": [
+        "lincoln-second-inaugural_s01_p02_s04_lu017",
+        "lincoln-second-inaugural_s01_p02_s04_lu028"
+      ],
+      "cmt": {
+        "mapping_id": "lincoln-cmt-058",
+        "cluster_id": "lincoln-01-body-organism",
+        "source_domain_primary": "nature_organism",
+        "source_domain_secondary": [],
+        "target_domain": "nation",
+        "conceptual_metaphor": "NATION IS NATURE ORGANISM",
+        "entailments": [
+          "the nation or government continues or ceases political existence",
+          "Political survival is understood through organismic life and death."
+        ],
+        "confidence": 0.9,
+        "rival_reading": "A polity is not a biological organism, but its political existence is construed as bodily life or death.",
+        "justification": "MIPVU review rule '' marked 2 unit(s) as metaphor-related or uncertain in this sentence."
+      },
+      "koenigsberg": {
+        "fantasy_type": "national_body",
+        "absence_flags": [
+          "possible-suppressed-agent"
+        ]
+      },
+      "meta": {
+        "confidence": 0.9,
+        "ambiguity_flag": false,
+        "suppression_flag": true
+      }
+    },
+    {
+      "instance_id": "lincoln-ann-059",
+      "case_id": "lincoln",
+      "document_id": "lincoln-second-inaugural",
+      "sentence_id": "lincoln-second-inaugural_s01_p03_s04",
+      "span_text": "rend",
+      "mipvu_ids": [
+        "lincoln-second-inaugural_s01_p03_s04_lu016"
+      ],
+      "cmt": {
+        "mapping_id": "lincoln-cmt-059",
+        "cluster_id": "lincoln-02-covenant-oath",
+        "source_domain_primary": "object_material",
+        "source_domain_secondary": [],
+        "target_domain": "union",
+        "conceptual_metaphor": "UNION IS OBJECT MATERIAL",
+        "entailments": [
+          "the Union is represented as a body or material object that can be torn, dissolved, or divided",
+          "Political union is understood through material cohesion."
+        ],
+        "confidence": 0.86,
+        "rival_reading": "The constitutional Union is abstract-political but construed as a separable material entity.",
+        "justification": "MIPVU review rule '' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
+      },
+      "koenigsberg": {},
+      "meta": {
+        "confidence": 0.86,
+        "ambiguity_flag": false,
+        "suppression_flag": false
+      }
+    },
+    {
+      "instance_id": "lincoln-ann-060",
+      "case_id": "lincoln",
+      "document_id": "lincoln-second-inaugural",
+      "sentence_id": "lincoln-second-inaugural_s01_p04_s05",
+      "span_text": "wringing / bread / sweat / faces",
+      "mipvu_ids": [
+        "lincoln-second-inaugural_s01_p04_s05_lu017",
+        "lincoln-second-inaugural_s01_p04_s05_lu019",
+        "lincoln-second-inaugural_s01_p04_s05_lu022",
+        "lincoln-second-inaugural_s01_p04_s05_lu026"
+      ],
+      "cmt": {
+        "mapping_id": "lincoln-cmt-060",
+        "cluster_id": "lincoln-01-body-organism",
+        "source_domain_primary": "body",
+        "source_domain_secondary": [],
+        "target_domain": "slavery",
+        "conceptual_metaphor": "SLAVERY IS BODY",
+        "entailments": [
+          "enslaved labor is represented through extracting bread from bodily sweat",
+          "Slavery's labor economy is understood through bodily extraction."
+        ],
+        "confidence": 0.84,
+        "rival_reading": "The expression frames exploitation through bodily extraction and biblical labor idiom.",
+        "justification": "MIPVU review rule '' marked 4 unit(s) as metaphor-related or uncertain in this sentence."
+      },
+      "koenigsberg": {},
+      "meta": {
+        "confidence": 0.84,
+        "ambiguity_flag": false,
+        "suppression_flag": false
+      }
+    },
+    {
+      "instance_id": "lincoln-ann-061",
+      "case_id": "lincoln",
+      "document_id": "lincoln-second-inaugural",
+      "sentence_id": "lincoln-second-inaugural_s01_p05_s02",
+      "span_text": "Woe / offenses / offenses / woe / offense / offenses / providence / gives / woe / offense",
+      "mipvu_ids": [
+        "lincoln-second-inaugural_s01_p05_s02_lu001",
+        "lincoln-second-inaugural_s01_p05_s02_lu007",
+        "lincoln-second-inaugural_s01_p05_s02_lu014",
+        "lincoln-second-inaugural_s01_p05_s02_lu017",
+        "lincoln-second-inaugural_s01_p05_s02_lu024",
+        "lincoln-second-inaugural_s01_p05_s02_lu037",
+        "lincoln-second-inaugural_s01_p05_s02_lu041",
+        "lincoln-second-inaugural_s01_p05_s02_lu063",
+        "lincoln-second-inaugural_s01_p05_s02_lu074",
+        "lincoln-second-inaugural_s01_p05_s02_lu081"
+      ],
+      "cmt": {
+        "mapping_id": "lincoln-cmt-061",
+        "cluster_id": "lincoln-06-providence-theodicy",
+        "source_domain_primary": "religion_providence",
+        "source_domain_secondary": [],
+        "target_domain": "slavery",
+        "conceptual_metaphor": "SLAVERY IS RELIGION PROVIDENCE",
+        "entailments": [
+          "slavery and war are framed through biblical offense, woe, providence, and divine giving",
+          "Historical causation may be understood through biblical moral accounting."
+        ],
+        "confidence": 0.58,
+        "rival_reading": "Biblical usage may be conventional theological idiom rather than a separable metaphor.",
+        "justification": "MIPVU review rule '' marked 10 unit(s) as metaphor-related or uncertain in this sentence."
+      },
+      "koenigsberg": {
+        "fantasy_type": "providential_covenant"
+      },
+      "meta": {
+        "confidence": 0.58,
+        "ambiguity_flag": true,
+        "suppression_flag": false
+      }
+    },
+    {
+      "instance_id": "lincoln-ann-062",
+      "case_id": "lincoln",
+      "document_id": "lincoln-second-inaugural",
+      "sentence_id": "lincoln-second-inaugural_s01_p05_s03",
+      "span_text": "scourge / pass",
+      "mipvu_ids": [
+        "lincoln-second-inaugural_s01_p05_s03_lu012",
+        "lincoln-second-inaugural_s01_p05_s03_lu017"
+      ],
+      "cmt": {
+        "mapping_id": "lincoln-cmt-062",
+        "cluster_id": "lincoln-01-body-organism",
+        "source_domain_primary": "body",
+        "source_domain_secondary": [],
+        "target_domain": "war_death",
+        "conceptual_metaphor": "WAR DEATH IS BODY",
+        "entailments": [
+          "war is represented as a divine or punitive scourge that passes away",
+          "War is understood through punitive bodily punishment."
+        ],
+        "confidence": 0.82,
+        "rival_reading": "War is not literally a whip, but it is explicitly called a scourge.",
+        "justification": "MIPVU review rule '' marked 2 unit(s) as metaphor-related or uncertain in this sentence."
+      },
+      "koenigsberg": {
+        "violence_logic": true,
+        "sacrificial_economy": true
+      },
+      "meta": {
+        "confidence": 0.82,
+        "ambiguity_flag": false,
+        "suppression_flag": false
+      }
+    },
+    {
+      "instance_id": "lincoln-ann-063",
+      "case_id": "lincoln",
+      "document_id": "lincoln-second-inaugural",
+      "sentence_id": "lincoln-second-inaugural_s01_p05_s04",
+      "span_text": "sunk / paid / sword / judgments",
+      "mipvu_ids": [
+        "lincoln-second-inaugural_s01_p05_s04_lu026",
+        "lincoln-second-inaugural_s01_p05_s04_lu039",
+        "lincoln-second-inaugural_s01_p05_s04_lu045",
+        "lincoln-second-inaugural_s01_p05_s04_lu060"
+      ],
+      "cmt": {
+        "mapping_id": "lincoln-cmt-063",
+        "cluster_id": "lincoln-07-absence-black-agency",
+        "source_domain_primary": "debt_accounting",
+        "source_domain_secondary": [],
+        "target_domain": "slavery",
+        "conceptual_metaphor": "SLAVERY IS DEBT ACCOUNTING",
+        "entailments": [
+          "wealth produced by enslaved labor is exhausted or consumed",
+          "bloodshed is morally repaid by further bloodshed in war",
+          "war violence or armed force in the repayment phrase",
+          "divine moral determinations concerning the war and slavery"
+        ],
+        "confidence": 0.718,
+        "rival_reading": "Wealth is not literally submerged; it is imagined as disappearing downward or being consumed.",
+        "justification": "MIPVU review rule '' marked 4 unit(s) as metaphor-related or uncertain in this sentence."
+      },
+      "koenigsberg": {},
+      "meta": {
+        "confidence": 0.718,
+        "ambiguity_flag": true,
+        "suppression_flag": false
+      }
+    },
+    {
+      "instance_id": "lincoln-ann-064",
+      "case_id": "lincoln",
+      "document_id": "lincoln-second-inaugural",
+      "sentence_id": "lincoln-second-inaugural_s01_p06_s01",
+      "span_text": "bind / wounds / cherish",
+      "mipvu_ids": [
+        "lincoln-second-inaugural_s01_p06_s01_lu034",
+        "lincoln-second-inaugural_s01_p06_s01_lu038",
+        "lincoln-second-inaugural_s01_p06_s01_lu063"
+      ],
+      "cmt": {
+        "mapping_id": "lincoln-cmt-064",
+        "cluster_id": "lincoln-01-body-organism",
+        "source_domain_primary": "body",
+        "source_domain_secondary": [],
+        "target_domain": "nation",
+        "conceptual_metaphor": "NATION IS BODY",
+        "entailments": [
+          "repairing the nation after war",
+          "peace is treated as something to nurture and hold dear",
+          "Political reconciliation is understood through healing an injured body."
+        ],
+        "confidence": 0.86,
+        "rival_reading": "The nation is treated as an injured body capable of wounds and care.",
+        "justification": "MIPVU review rule '' marked 3 unit(s) as metaphor-related or uncertain in this sentence."
+      },
+      "koenigsberg": {
+        "fantasy_type": "national_body"
+      },
+      "meta": {
+        "confidence": 0.86,
+        "ambiguity_flag": false,
+        "suppression_flag": false
+      }
+    }
+  ]
+}

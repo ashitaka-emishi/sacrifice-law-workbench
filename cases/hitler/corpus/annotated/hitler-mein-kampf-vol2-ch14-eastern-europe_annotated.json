@@ -1,0 +1,280 @@
+{
+  "version": "1.0",
+  "case_id": "hitler",
+  "document_id": "hitler-mein-kampf-vol2-ch14-eastern-europe",
+  "generated_at": "2026-06-17T01:07:47",
+  "generator": "scripts/generate-annotation-layer.py",
+  "annotation_policy": "CMT and Koenigsbergian annotations derived from MIPVU-reviewed metaphorical and uncertain lexical units. Each instance cites at least one MIPVU ID with decision_type in METAPHOR_DECISIONS.",
+  "instances": [
+    {
+      "instance_id": "hitler-ann-053",
+      "case_id": "hitler",
+      "document_id": "hitler-mein-kampf-vol2-ch14-eastern-europe",
+      "sentence_id": "hitler-mein-kampf-vol2-ch14-eastern-europe_s01_p127_s04",
+      "span_text": "Vernichtung",
+      "mipvu_ids": [
+        "hitler-mein-kampf-vol2-ch14-eastern-europe_s01_p127_s04_lu013"
+      ],
+      "cmt": {
+        "mapping_id": "hitler-cmt-053",
+        "cluster_id": "hitler-03-jew-parasite-disease",
+        "source_domain_primary": "physical_destruction",
+        "source_domain_secondary": [],
+        "target_domain": "purification",
+        "conceptual_metaphor": "PURIFICATION IS PHYSICAL DESTRUCTION",
+        "entailments": [
+          "`Vernichtung` extends physical destruction/annihilation to economic, political, or racial elimination of groups",
+          "Social or racial elimination is understood through total physical annihilation."
+        ],
+        "confidence": 0.78,
+        "rival_reading": "Physical destruction is extended to social/economic/racial elimination; the basic physical sense underwrites the metaphorical application to groups.",
+        "justification": "MIPVU review rule '' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
+      },
+      "koenigsberg": {
+        "violence_logic": true
+      },
+      "meta": {
+        "confidence": 0.78,
+        "ambiguity_flag": false,
+        "suppression_flag": false
+      },
+      "gloss_en": "annihilation / destruction",
+      "gloss_notes": "German `Vernichtung` denotes total destruction; in Nazi text often applied to enemies or states — may be literal or figurative depending on target."
+    },
+    {
+      "instance_id": "hitler-ann-054",
+      "case_id": "hitler",
+      "document_id": "hitler-mein-kampf-vol2-ch14-eastern-europe",
+      "sentence_id": "hitler-mein-kampf-vol2-ch14-eastern-europe_s01_p127_s05",
+      "span_text": "Ehre",
+      "mipvu_ids": [
+        "hitler-mein-kampf-vol2-ch14-eastern-europe_s01_p127_s05_lu021"
+      ],
+      "cmt": {
+        "mapping_id": "hitler-cmt-054",
+        "cluster_id": "hitler-02-fuhrer-embodiment",
+        "source_domain_primary": "person_agency",
+        "source_domain_secondary": [],
+        "target_domain": "nation",
+        "conceptual_metaphor": "NATION IS PERSON AGENCY",
+        "entailments": [
+          "`Ehre` frames national reputation or martial obligation as a property that can be given, lost, or restored",
+          "National political standing is understood through individual honor as a tangible property."
+        ],
+        "confidence": 0.71,
+        "rival_reading": "Individual honor is extended to national-collective honor as a possessable, transferable property; the Reich's honor can be restored like a physical object.",
+        "justification": "MIPVU review rule '' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
+      },
+      "koenigsberg": {},
+      "meta": {
+        "confidence": 0.71,
+        "ambiguity_flag": false,
+        "suppression_flag": false
+      },
+      "gloss_en": "honor / dignity",
+      "gloss_notes": "German `Ehre` in political register carries public reputation, martial obligation, and national dignity — not reducible to English honor."
+    },
+    {
+      "instance_id": "hitler-ann-055",
+      "case_id": "hitler",
+      "document_id": "hitler-mein-kampf-vol2-ch14-eastern-europe",
+      "sentence_id": "hitler-mein-kampf-vol2-ch14-eastern-europe_s01_p14_s02",
+      "span_text": "Vernichtung",
+      "mipvu_ids": [
+        "hitler-mein-kampf-vol2-ch14-eastern-europe_s01_p14_s02_lu027"
+      ],
+      "cmt": {
+        "mapping_id": "hitler-cmt-055",
+        "cluster_id": "hitler-03-jew-parasite-disease",
+        "source_domain_primary": "physical_destruction",
+        "source_domain_secondary": [],
+        "target_domain": "purification",
+        "conceptual_metaphor": "PURIFICATION IS PHYSICAL DESTRUCTION",
+        "entailments": [
+          "`Vernichtung` extends physical destruction/annihilation to economic, political, or racial elimination of groups",
+          "Social or racial elimination is understood through total physical annihilation."
+        ],
+        "confidence": 0.78,
+        "rival_reading": "Physical destruction is extended to social/economic/racial elimination; the basic physical sense underwrites the metaphorical application to groups.",
+        "justification": "MIPVU review rule '' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
+      },
+      "koenigsberg": {
+        "violence_logic": true
+      },
+      "meta": {
+        "confidence": 0.78,
+        "ambiguity_flag": false,
+        "suppression_flag": false
+      },
+      "gloss_en": "annihilation / destruction",
+      "gloss_notes": "German `Vernichtung` denotes total destruction; in Nazi text often applied to enemies or states — may be literal or figurative depending on target."
+    },
+    {
+      "instance_id": "hitler-ann-056",
+      "case_id": "hitler",
+      "document_id": "hitler-mein-kampf-vol2-ch14-eastern-europe",
+      "sentence_id": "hitler-mein-kampf-vol2-ch14-eastern-europe_s01_p163_s01",
+      "span_text": "Vernichtung",
+      "mipvu_ids": [
+        "hitler-mein-kampf-vol2-ch14-eastern-europe_s01_p163_s01_lu014"
+      ],
+      "cmt": {
+        "mapping_id": "hitler-cmt-056",
+        "cluster_id": "hitler-03-jew-parasite-disease",
+        "source_domain_primary": "physical_destruction",
+        "source_domain_secondary": [],
+        "target_domain": "purification",
+        "conceptual_metaphor": "PURIFICATION IS PHYSICAL DESTRUCTION",
+        "entailments": [
+          "`Vernichtung` extends physical destruction/annihilation to economic, political, or racial elimination of groups",
+          "Social or racial elimination is understood through total physical annihilation."
+        ],
+        "confidence": 0.78,
+        "rival_reading": "Physical destruction is extended to social/economic/racial elimination; the basic physical sense underwrites the metaphorical application to groups.",
+        "justification": "MIPVU review rule '' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
+      },
+      "koenigsberg": {
+        "violence_logic": true
+      },
+      "meta": {
+        "confidence": 0.78,
+        "ambiguity_flag": false,
+        "suppression_flag": false
+      },
+      "gloss_en": "annihilation / destruction",
+      "gloss_notes": "German `Vernichtung` denotes total destruction; in Nazi text often applied to enemies or states — may be literal or figurative depending on target."
+    },
+    {
+      "instance_id": "hitler-ann-057",
+      "case_id": "hitler",
+      "document_id": "hitler-mein-kampf-vol2-ch14-eastern-europe",
+      "sentence_id": "hitler-mein-kampf-vol2-ch14-eastern-europe_s01_p34_s02",
+      "span_text": "Boden",
+      "mipvu_ids": [
+        "hitler-mein-kampf-vol2-ch14-eastern-europe_s01_p34_s02_lu040"
+      ],
+      "cmt": {
+        "mapping_id": "hitler-cmt-057",
+        "cluster_id": "hitler-01-volk-racial-body",
+        "source_domain_primary": "nature_organism",
+        "source_domain_secondary": [],
+        "target_domain": "racial_order",
+        "conceptual_metaphor": "RACIAL ORDER IS NATURE ORGANISM",
+        "entailments": [
+          "`Boden`/`Lebensraum` extends physical earth/soil to territorial-organic entitlement — land as the natural living-space of a racial people",
+          "Territorial expansion is understood through the organic need for living-space/soil."
+        ],
+        "confidence": 0.82,
+        "rival_reading": "Physical soil is extended to denote an organic territorial right; space becomes a biological necessity for the Volk.",
+        "justification": "MIPVU review rule '' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
+      },
+      "koenigsberg": {},
+      "meta": {
+        "confidence": 0.82,
+        "ambiguity_flag": false,
+        "suppression_flag": false
+      },
+      "gloss_en": "soil / living-space",
+      "gloss_notes": "German `Boden` in `Lebensraum` contexts extends physical soil into territorial-organic entitlement rhetoric."
+    },
+    {
+      "instance_id": "hitler-ann-058",
+      "case_id": "hitler",
+      "document_id": "hitler-mein-kampf-vol2-ch14-eastern-europe",
+      "sentence_id": "hitler-mein-kampf-vol2-ch14-eastern-europe_s01_p77_s02",
+      "span_text": "Ehre",
+      "mipvu_ids": [
+        "hitler-mein-kampf-vol2-ch14-eastern-europe_s01_p77_s02_lu023"
+      ],
+      "cmt": {
+        "mapping_id": "hitler-cmt-058",
+        "cluster_id": "hitler-02-fuhrer-embodiment",
+        "source_domain_primary": "person_agency",
+        "source_domain_secondary": [],
+        "target_domain": "nation",
+        "conceptual_metaphor": "NATION IS PERSON AGENCY",
+        "entailments": [
+          "`Ehre` frames national reputation or martial obligation as a property that can be given, lost, or restored",
+          "National political standing is understood through individual honor as a tangible property."
+        ],
+        "confidence": 0.71,
+        "rival_reading": "Individual honor is extended to national-collective honor as a possessable, transferable property; the Reich's honor can be restored like a physical object.",
+        "justification": "MIPVU review rule '' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
+      },
+      "koenigsberg": {},
+      "meta": {
+        "confidence": 0.71,
+        "ambiguity_flag": false,
+        "suppression_flag": false
+      },
+      "gloss_en": "honor / dignity",
+      "gloss_notes": "German `Ehre` in political register carries public reputation, martial obligation, and national dignity — not reducible to English honor."
+    },
+    {
+      "instance_id": "hitler-ann-059",
+      "case_id": "hitler",
+      "document_id": "hitler-mein-kampf-vol2-ch14-eastern-europe",
+      "sentence_id": "hitler-mein-kampf-vol2-ch14-eastern-europe_s01_p84_s04",
+      "span_text": "Schicksals",
+      "mipvu_ids": [
+        "hitler-mein-kampf-vol2-ch14-eastern-europe_s01_p84_s04_lu022"
+      ],
+      "cmt": {
+        "mapping_id": "hitler-cmt-059",
+        "cluster_id": "hitler-01-volk-racial-body",
+        "source_domain_primary": "person_agency",
+        "source_domain_secondary": [],
+        "target_domain": "social_body",
+        "conceptual_metaphor": "SOCIAL BODY IS PERSON AGENCY",
+        "entailments": [
+          "`Schicksal` denotes life circumstances or an assigned lot; the personification may be faded or conventional",
+          "Life adversity may be understood through fate as abstract condition or weak personification."
+        ],
+        "confidence": 0.55,
+        "rival_reading": "German `Schicksal` here may be a conventional expression for life-lot rather than a live personification.",
+        "justification": "MIPVU review rule '' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
+      },
+      "koenigsberg": {},
+      "meta": {
+        "confidence": 0.55,
+        "ambiguity_flag": true,
+        "suppression_flag": false
+      },
+      "gloss_en": "fate / destiny",
+      "gloss_notes": "German `Schicksal` may be literal fate-as-circumstance or personified destiny-as-agent; context distinguishes conventional from live metaphor."
+    },
+    {
+      "instance_id": "hitler-ann-060",
+      "case_id": "hitler",
+      "document_id": "hitler-mein-kampf-vol2-ch14-eastern-europe",
+      "sentence_id": "hitler-mein-kampf-vol2-ch14-eastern-europe_s01_p86_s02",
+      "span_text": "Boden",
+      "mipvu_ids": [
+        "hitler-mein-kampf-vol2-ch14-eastern-europe_s01_p86_s02_lu030"
+      ],
+      "cmt": {
+        "mapping_id": "hitler-cmt-060",
+        "cluster_id": "hitler-01-volk-racial-body",
+        "source_domain_primary": "nature_organism",
+        "source_domain_secondary": [],
+        "target_domain": "racial_order",
+        "conceptual_metaphor": "RACIAL ORDER IS NATURE ORGANISM",
+        "entailments": [
+          "`Boden`/`Lebensraum` extends physical earth/soil to territorial-organic entitlement — land as the natural living-space of a racial people",
+          "Territorial expansion is understood through the organic need for living-space/soil."
+        ],
+        "confidence": 0.82,
+        "rival_reading": "Physical soil is extended to denote an organic territorial right; space becomes a biological necessity for the Volk.",
+        "justification": "MIPVU review rule '' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
+      },
+      "koenigsberg": {},
+      "meta": {
+        "confidence": 0.82,
+        "ambiguity_flag": false,
+        "suppression_flag": false
+      },
+      "gloss_en": "soil / living-space",
+      "gloss_notes": "German `Boden` in `Lebensraum` contexts extends physical soil into territorial-organic entitlement rhetoric."
+    }
+  ]
+}

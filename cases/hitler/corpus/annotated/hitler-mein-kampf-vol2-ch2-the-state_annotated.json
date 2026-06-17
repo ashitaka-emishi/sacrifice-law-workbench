@@ -1,0 +1,255 @@
+{
+  "version": "1.0",
+  "case_id": "hitler",
+  "document_id": "hitler-mein-kampf-vol2-ch2-the-state",
+  "generated_at": "2026-06-17T01:07:47",
+  "generator": "scripts/generate-annotation-layer.py",
+  "annotation_policy": "CMT and Koenigsbergian annotations derived from MIPVU-reviewed metaphorical and uncertain lexical units. Each instance cites at least one MIPVU ID with decision_type in METAPHOR_DECISIONS.",
+  "instances": [
+    {
+      "instance_id": "hitler-ann-046",
+      "case_id": "hitler",
+      "document_id": "hitler-mein-kampf-vol2-ch2-the-state",
+      "sentence_id": "hitler-mein-kampf-vol2-ch2-the-state_s01_p16_s01",
+      "span_text": "Blute / Blut",
+      "mipvu_ids": [
+        "hitler-mein-kampf-vol2-ch2-the-state_s01_p16_s01_lu015",
+        "hitler-mein-kampf-vol2-ch2-the-state_s01_p16_s01_lu033"
+      ],
+      "cmt": {
+        "mapping_id": "hitler-cmt-046",
+        "cluster_id": "hitler-01-volk-racial-body",
+        "source_domain_primary": "body",
+        "source_domain_secondary": [],
+        "target_domain": "racial_identity",
+        "conceptual_metaphor": "RACIAL IDENTITY IS BODY",
+        "entailments": [
+          "`Blut` denotes racial lineage, genetic essence, or inherited cultural capacity — not literal blood in veins",
+          "Racial identity and cultural capacity are understood through the bodily blood domain."
+        ],
+        "confidence": 0.88,
+        "rival_reading": "Biological blood is extended to denote racial descent and inherited essence; the physical source domain underwrites racial-purity claims.",
+        "justification": "MIPVU review rule '' marked 2 unit(s) as metaphor-related or uncertain in this sentence."
+      },
+      "koenigsberg": {},
+      "meta": {
+        "confidence": 0.88,
+        "ambiguity_flag": false,
+        "suppression_flag": false
+      },
+      "gloss_en": "blood (racial lineage)",
+      "gloss_notes": "German `Blut` spans literal biological blood, racial-lineage metaphor, and sacrificial-cost rhetoric; context is decisive for MIPVU."
+    },
+    {
+      "instance_id": "hitler-ann-047",
+      "case_id": "hitler",
+      "document_id": "hitler-mein-kampf-vol2-ch2-the-state",
+      "sentence_id": "hitler-mein-kampf-vol2-ch2-the-state_s01_p18_s02",
+      "span_text": "Vernichtung",
+      "mipvu_ids": [
+        "hitler-mein-kampf-vol2-ch2-the-state_s01_p18_s02_lu009"
+      ],
+      "cmt": {
+        "mapping_id": "hitler-cmt-047",
+        "cluster_id": "hitler-03-jew-parasite-disease",
+        "source_domain_primary": "physical_destruction",
+        "source_domain_secondary": [],
+        "target_domain": "purification",
+        "conceptual_metaphor": "PURIFICATION IS PHYSICAL DESTRUCTION",
+        "entailments": [
+          "`Vernichtung` extends physical destruction/annihilation to economic, political, or racial elimination of groups",
+          "Social or racial elimination is understood through total physical annihilation."
+        ],
+        "confidence": 0.78,
+        "rival_reading": "Physical destruction is extended to social/economic/racial elimination; the basic physical sense underwrites the metaphorical application to groups.",
+        "justification": "MIPVU review rule '' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
+      },
+      "koenigsberg": {
+        "violence_logic": true
+      },
+      "meta": {
+        "confidence": 0.78,
+        "ambiguity_flag": false,
+        "suppression_flag": false
+      },
+      "gloss_en": "annihilation / destruction",
+      "gloss_notes": "German `Vernichtung` denotes total destruction; in Nazi text often applied to enemies or states — may be literal or figurative depending on target."
+    },
+    {
+      "instance_id": "hitler-ann-048",
+      "case_id": "hitler",
+      "document_id": "hitler-mein-kampf-vol2-ch2-the-state",
+      "sentence_id": "hitler-mein-kampf-vol2-ch2-the-state_s01_p271_s03",
+      "span_text": "Helden / blut",
+      "mipvu_ids": [
+        "hitler-mein-kampf-vol2-ch2-the-state_s01_p271_s03_lu017",
+        "hitler-mein-kampf-vol2-ch2-the-state_s01_p271_s03_lu018"
+      ],
+      "cmt": {
+        "mapping_id": "hitler-cmt-048",
+        "cluster_id": "hitler-02-fuhrer-embodiment",
+        "source_domain_primary": "person_agency",
+        "source_domain_secondary": [],
+        "target_domain": "sacrifice",
+        "conceptual_metaphor": "SACRIFICE IS PERSON AGENCY",
+        "entailments": [
+          "`Held`/`Heldentum` frames soldiers' death or self-sacrifice as heroic idealization structured by the cultural hero-type",
+          "`Blut` frames soldiers' deaths as a sacrificial blood-cost",
+          "Soldier death and national sacrifice are understood through heroic idealization."
+        ],
+        "confidence": 0.77,
+        "rival_reading": "Individual soldiers or citizens are idealized through the hero category; heroism becomes the organizing concept for military self-sacrifice.",
+        "justification": "MIPVU review rule '' marked 2 unit(s) as metaphor-related or uncertain in this sentence."
+      },
+      "koenigsberg": {
+        "fantasy_type": "redemptive_sacrifice",
+        "sacrificial_economy": true
+      },
+      "meta": {
+        "confidence": 0.77,
+        "ambiguity_flag": false,
+        "suppression_flag": false
+      },
+      "gloss_en": "hero / heroism",
+      "gloss_notes": "German `Held` in nationalist rhetoric may denote a literal soldier-hero or a culturally-idealized sacrificial figure."
+    },
+    {
+      "instance_id": "hitler-ann-049",
+      "case_id": "hitler",
+      "document_id": "hitler-mein-kampf-vol2-ch2-the-state",
+      "sentence_id": "hitler-mein-kampf-vol2-ch2-the-state_s01_p301_s03",
+      "span_text": "Ehre",
+      "mipvu_ids": [
+        "hitler-mein-kampf-vol2-ch2-the-state_s01_p301_s03_lu034"
+      ],
+      "cmt": {
+        "mapping_id": "hitler-cmt-049",
+        "cluster_id": "hitler-02-fuhrer-embodiment",
+        "source_domain_primary": "person_agency",
+        "source_domain_secondary": [],
+        "target_domain": "nation",
+        "conceptual_metaphor": "NATION IS PERSON AGENCY",
+        "entailments": [
+          "`Ehre` frames national reputation or martial obligation as a property that can be given, lost, or restored",
+          "National political standing is understood through individual honor as a tangible property."
+        ],
+        "confidence": 0.71,
+        "rival_reading": "Individual honor is extended to national-collective honor as a possessable, transferable property; the Reich's honor can be restored like a physical object.",
+        "justification": "MIPVU review rule '' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
+      },
+      "koenigsberg": {},
+      "meta": {
+        "confidence": 0.71,
+        "ambiguity_flag": false,
+        "suppression_flag": false
+      },
+      "gloss_en": "honor / dignity",
+      "gloss_notes": "German `Ehre` in political register carries public reputation, martial obligation, and national dignity — not reducible to English honor."
+    },
+    {
+      "instance_id": "hitler-ann-050",
+      "case_id": "hitler",
+      "document_id": "hitler-mein-kampf-vol2-ch2-the-state",
+      "sentence_id": "hitler-mein-kampf-vol2-ch2-the-state_s01_p32_s05",
+      "span_text": "Vernichtung",
+      "mipvu_ids": [
+        "hitler-mein-kampf-vol2-ch2-the-state_s01_p32_s05_lu018"
+      ],
+      "cmt": {
+        "mapping_id": "hitler-cmt-050",
+        "cluster_id": "hitler-03-jew-parasite-disease",
+        "source_domain_primary": "physical_destruction",
+        "source_domain_secondary": [],
+        "target_domain": "purification",
+        "conceptual_metaphor": "PURIFICATION IS PHYSICAL DESTRUCTION",
+        "entailments": [
+          "`Vernichtung` extends physical destruction/annihilation to economic, political, or racial elimination of groups",
+          "Social or racial elimination is understood through total physical annihilation."
+        ],
+        "confidence": 0.78,
+        "rival_reading": "Physical destruction is extended to social/economic/racial elimination; the basic physical sense underwrites the metaphorical application to groups.",
+        "justification": "MIPVU review rule '' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
+      },
+      "koenigsberg": {
+        "violence_logic": true
+      },
+      "meta": {
+        "confidence": 0.78,
+        "ambiguity_flag": false,
+        "suppression_flag": false
+      },
+      "gloss_en": "annihilation / destruction",
+      "gloss_notes": "German `Vernichtung` denotes total destruction; in Nazi text often applied to enemies or states — may be literal or figurative depending on target."
+    },
+    {
+      "instance_id": "hitler-ann-051",
+      "case_id": "hitler",
+      "document_id": "hitler-mein-kampf-vol2-ch2-the-state",
+      "sentence_id": "hitler-mein-kampf-vol2-ch2-the-state_s01_p34_s04",
+      "span_text": "Vernichtung",
+      "mipvu_ids": [
+        "hitler-mein-kampf-vol2-ch2-the-state_s01_p34_s04_lu003"
+      ],
+      "cmt": {
+        "mapping_id": "hitler-cmt-051",
+        "cluster_id": "hitler-03-jew-parasite-disease",
+        "source_domain_primary": "physical_destruction",
+        "source_domain_secondary": [],
+        "target_domain": "purification",
+        "conceptual_metaphor": "PURIFICATION IS PHYSICAL DESTRUCTION",
+        "entailments": [
+          "`Vernichtung` extends physical destruction/annihilation to economic, political, or racial elimination of groups",
+          "Social or racial elimination is understood through total physical annihilation."
+        ],
+        "confidence": 0.78,
+        "rival_reading": "Physical destruction is extended to social/economic/racial elimination; the basic physical sense underwrites the metaphorical application to groups.",
+        "justification": "MIPVU review rule '' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
+      },
+      "koenigsberg": {
+        "violence_logic": true
+      },
+      "meta": {
+        "confidence": 0.78,
+        "ambiguity_flag": false,
+        "suppression_flag": false
+      },
+      "gloss_en": "annihilation / destruction",
+      "gloss_notes": "German `Vernichtung` denotes total destruction; in Nazi text often applied to enemies or states — may be literal or figurative depending on target."
+    },
+    {
+      "instance_id": "hitler-ann-052",
+      "case_id": "hitler",
+      "document_id": "hitler-mein-kampf-vol2-ch2-the-state",
+      "sentence_id": "hitler-mein-kampf-vol2-ch2-the-state_s01_p56_s05",
+      "span_text": "Vernichtung",
+      "mipvu_ids": [
+        "hitler-mein-kampf-vol2-ch2-the-state_s01_p56_s05_lu045"
+      ],
+      "cmt": {
+        "mapping_id": "hitler-cmt-052",
+        "cluster_id": "hitler-03-jew-parasite-disease",
+        "source_domain_primary": "physical_destruction",
+        "source_domain_secondary": [],
+        "target_domain": "purification",
+        "conceptual_metaphor": "PURIFICATION IS PHYSICAL DESTRUCTION",
+        "entailments": [
+          "`Vernichtung` extends physical destruction/annihilation to economic, political, or racial elimination of groups",
+          "Social or racial elimination is understood through total physical annihilation."
+        ],
+        "confidence": 0.78,
+        "rival_reading": "Physical destruction is extended to social/economic/racial elimination; the basic physical sense underwrites the metaphorical application to groups.",
+        "justification": "MIPVU review rule '' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
+      },
+      "koenigsberg": {
+        "violence_logic": true
+      },
+      "meta": {
+        "confidence": 0.78,
+        "ambiguity_flag": false,
+        "suppression_flag": false
+      },
+      "gloss_en": "annihilation / destruction",
+      "gloss_notes": "German `Vernichtung` denotes total destruction; in Nazi text often applied to enemies or states — may be literal or figurative depending on target."
+    }
+  ]
+}

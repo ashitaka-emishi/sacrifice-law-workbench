@@ -1,0 +1,176 @@
+{
+  "version": "1.0",
+  "case_id": "hitler",
+  "document_id": "hitler-mein-kampf-vol1-ch2-wien",
+  "generated_at": "2026-06-17T01:07:47",
+  "generator": "scripts/generate-annotation-layer.py",
+  "annotation_policy": "CMT and Koenigsbergian annotations derived from MIPVU-reviewed metaphorical and uncertain lexical units. Each instance cites at least one MIPVU ID with decision_type in METAPHOR_DECISIONS.",
+  "instances": [
+    {
+      "instance_id": "hitler-ann-001",
+      "case_id": "hitler",
+      "document_id": "hitler-mein-kampf-vol1-ch2-wien",
+      "sentence_id": "hitler-mein-kampf-vol1-ch2-wien_s01_p344_s01",
+      "span_text": "Schicksal / Schicksals",
+      "mipvu_ids": [
+        "hitler-mein-kampf-vol1-ch2-wien_s01_p344_s01_lu016",
+        "hitler-mein-kampf-vol1-ch2-wien_s01_p344_s01_lu033"
+      ],
+      "cmt": {
+        "mapping_id": "hitler-cmt-001",
+        "cluster_id": "hitler-01-volk-racial-body",
+        "source_domain_primary": "person_agency",
+        "source_domain_secondary": [],
+        "target_domain": "social_body",
+        "conceptual_metaphor": "SOCIAL BODY IS PERSON AGENCY",
+        "entailments": [
+          "`Schicksal` is treated as an agent that strikes, decides, or leads — not an abstract circumstance",
+          "Life circumstances are understood through personified fate acting on people."
+        ],
+        "confidence": 0.79,
+        "rival_reading": "Fate does not literally strike with a hammer, make decisions, or lead people; it is cast as an intentional agent.",
+        "justification": "MIPVU review rule '' marked 2 unit(s) as metaphor-related or uncertain in this sentence."
+      },
+      "koenigsberg": {},
+      "meta": {
+        "confidence": 0.79,
+        "ambiguity_flag": false,
+        "suppression_flag": false
+      },
+      "gloss_en": "fate / destiny",
+      "gloss_notes": "German `Schicksal` may be literal fate-as-circumstance or personified destiny-as-agent; context distinguishes conventional from live metaphor."
+    },
+    {
+      "instance_id": "hitler-ann-002",
+      "case_id": "hitler",
+      "document_id": "hitler-mein-kampf-vol1-ch2-wien",
+      "sentence_id": "hitler-mein-kampf-vol1-ch2-wien_s01_p377_s01",
+      "span_text": "Geist",
+      "mipvu_ids": [
+        "hitler-mein-kampf-vol1-ch2-wien_s01_p377_s01_lu018"
+      ],
+      "cmt": {
+        "mapping_id": "hitler-cmt-002",
+        "cluster_id": "hitler-01-volk-racial-body",
+        "source_domain_primary": "person_agency",
+        "source_domain_secondary": [],
+        "target_domain": "racial_order",
+        "conceptual_metaphor": "RACIAL ORDER IS PERSON AGENCY",
+        "entailments": [
+          "`Geist` extends the notion of individual intellect or spirit to civilizational, racial, or cultural agency",
+          "Cultural or civilizational capacity is understood through collective spirit/mind."
+        ],
+        "confidence": 0.72,
+        "rival_reading": "Individual mind is extended to collective cultural/civilizational agency; abstract spirit becomes a force that builds or degrades civilizations.",
+        "justification": "MIPVU review rule '' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
+      },
+      "koenigsberg": {},
+      "meta": {
+        "confidence": 0.72,
+        "ambiguity_flag": false,
+        "suppression_flag": false
+      },
+      "gloss_en": "spirit / mind / intellect",
+      "gloss_notes": "German `Geist` spans intellectual capacity, cultural spirit, and spiritual agency; English spirit/mind/intellect each capture only part of the range."
+    },
+    {
+      "instance_id": "hitler-ann-003",
+      "case_id": "hitler",
+      "document_id": "hitler-mein-kampf-vol1-ch2-wien",
+      "sentence_id": "hitler-mein-kampf-vol1-ch2-wien_s01_p56_s01",
+      "span_text": "Schicksal",
+      "mipvu_ids": [
+        "hitler-mein-kampf-vol1-ch2-wien_s01_p56_s01_lu003"
+      ],
+      "cmt": {
+        "mapping_id": "hitler-cmt-003",
+        "cluster_id": "hitler-01-volk-racial-body",
+        "source_domain_primary": "person_agency",
+        "source_domain_secondary": [],
+        "target_domain": "social_body",
+        "conceptual_metaphor": "SOCIAL BODY IS PERSON AGENCY",
+        "entailments": [
+          "`Schicksal` denotes life circumstances or an assigned lot; the personification may be faded or conventional",
+          "Life adversity may be understood through fate as abstract condition or weak personification."
+        ],
+        "confidence": 0.55,
+        "rival_reading": "German `Schicksal` here may be a conventional expression for life-lot rather than a live personification.",
+        "justification": "MIPVU review rule '' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
+      },
+      "koenigsberg": {},
+      "meta": {
+        "confidence": 0.55,
+        "ambiguity_flag": true,
+        "suppression_flag": false
+      },
+      "gloss_en": "fate / destiny",
+      "gloss_notes": "German `Schicksal` may be literal fate-as-circumstance or personified destiny-as-agent; context distinguishes conventional from live metaphor."
+    },
+    {
+      "instance_id": "hitler-ann-004",
+      "case_id": "hitler",
+      "document_id": "hitler-mein-kampf-vol1-ch2-wien",
+      "sentence_id": "hitler-mein-kampf-vol1-ch2-wien_s01_p60_s01",
+      "span_text": "Schicksal",
+      "mipvu_ids": [
+        "hitler-mein-kampf-vol1-ch2-wien_s01_p60_s01_lu002"
+      ],
+      "cmt": {
+        "mapping_id": "hitler-cmt-004",
+        "cluster_id": "hitler-01-volk-racial-body",
+        "source_domain_primary": "person_agency",
+        "source_domain_secondary": [],
+        "target_domain": "social_body",
+        "conceptual_metaphor": "SOCIAL BODY IS PERSON AGENCY",
+        "entailments": [
+          "`Schicksal` denotes life circumstances or an assigned lot; the personification may be faded or conventional",
+          "Life adversity may be understood through fate as abstract condition or weak personification."
+        ],
+        "confidence": 0.55,
+        "rival_reading": "German `Schicksal` here may be a conventional expression for life-lot rather than a live personification.",
+        "justification": "MIPVU review rule '' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
+      },
+      "koenigsberg": {},
+      "meta": {
+        "confidence": 0.55,
+        "ambiguity_flag": true,
+        "suppression_flag": false
+      },
+      "gloss_en": "fate / destiny",
+      "gloss_notes": "German `Schicksal` may be literal fate-as-circumstance or personified destiny-as-agent; context distinguishes conventional from live metaphor."
+    },
+    {
+      "instance_id": "hitler-ann-005",
+      "case_id": "hitler",
+      "document_id": "hitler-mein-kampf-vol1-ch2-wien",
+      "sentence_id": "hitler-mein-kampf-vol1-ch2-wien_s01_p65_s01",
+      "span_text": "Schicksal",
+      "mipvu_ids": [
+        "hitler-mein-kampf-vol1-ch2-wien_s01_p65_s01_lu003"
+      ],
+      "cmt": {
+        "mapping_id": "hitler-cmt-005",
+        "cluster_id": "hitler-01-volk-racial-body",
+        "source_domain_primary": "person_agency",
+        "source_domain_secondary": [],
+        "target_domain": "social_body",
+        "conceptual_metaphor": "SOCIAL BODY IS PERSON AGENCY",
+        "entailments": [
+          "`Schicksal` denotes life circumstances or an assigned lot; the personification may be faded or conventional",
+          "Life adversity may be understood through fate as abstract condition or weak personification."
+        ],
+        "confidence": 0.55,
+        "rival_reading": "German `Schicksal` here may be a conventional expression for life-lot rather than a live personification.",
+        "justification": "MIPVU review rule '' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
+      },
+      "koenigsberg": {},
+      "meta": {
+        "confidence": 0.55,
+        "ambiguity_flag": true,
+        "suppression_flag": false
+      },
+      "gloss_en": "fate / destiny",
+      "gloss_notes": "German `Schicksal` may be literal fate-as-circumstance or personified destiny-as-agent; context distinguishes conventional from live metaphor."
+    }
+  ]
+}

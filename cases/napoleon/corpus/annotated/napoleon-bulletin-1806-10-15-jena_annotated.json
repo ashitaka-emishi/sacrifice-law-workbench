@@ -1,0 +1,80 @@
+{
+  "version": "1.0",
+  "case_id": "napoleon",
+  "document_id": "napoleon-bulletin-1806-10-15-jena",
+  "generated_at": "2026-06-17T01:07:47",
+  "generator": "scripts/generate-annotation-layer.py",
+  "annotation_policy": "CMT and Koenigsbergian annotations derived from MIPVU-reviewed metaphorical and uncertain lexical units. Each instance cites at least one MIPVU ID with decision_type in METAPHOR_DECISIONS.",
+  "instances": [
+    {
+      "instance_id": "napoleon-ann-004",
+      "case_id": "napoleon",
+      "document_id": "napoleon-bulletin-1806-10-15-jena",
+      "sentence_id": "napoleon-bulletin-1806-10-15-jena_s01_p23_s06",
+      "span_text": "mort",
+      "mipvu_ids": [
+        "napoleon-bulletin-1806-10-15-jena_s01_p23_s06_lu023"
+      ],
+      "cmt": {
+        "mapping_id": "napoleon-cmt-004",
+        "cluster_id": "napoleon-05-soldier-sacrifice",
+        "source_domain_primary": "sacrifice",
+        "source_domain_secondary": [],
+        "target_domain": "war_death",
+        "conceptual_metaphor": "WAR DEATH IS SACRIFICE",
+        "entailments": [
+          "battle death and bloodshed are framed as produced, sown, or converted into glory-bearing cost",
+          "Battlefield violence is understood through production, sowing, and sacrificial blood cost."
+        ],
+        "confidence": 0.8,
+        "rival_reading": "Some death is literal, but the phrasing treats death as an output, seed, or glory-bearing sacrificial cost.",
+        "justification": "MIPVU review rule '' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
+      },
+      "koenigsberg": {
+        "fantasy_type": "redemptive_sacrifice",
+        "violence_logic": true,
+        "sacrificial_economy": true
+      },
+      "meta": {
+        "confidence": 0.8,
+        "ambiguity_flag": false,
+        "suppression_flag": false
+      },
+      "gloss_en": "death / blood",
+      "gloss_notes": "French `mort` and `sang` may be literal while still serving sacrifice/glory framing."
+    },
+    {
+      "instance_id": "napoleon-ann-005",
+      "case_id": "napoleon",
+      "document_id": "napoleon-bulletin-1806-10-15-jena",
+      "sentence_id": "napoleon-bulletin-1806-10-15-jena_s01_p24_s04",
+      "span_text": "victoire",
+      "mipvu_ids": [
+        "napoleon-bulletin-1806-10-15-jena_s01_p24_s04_lu008"
+      ],
+      "cmt": {
+        "mapping_id": "napoleon-cmt-005",
+        "cluster_id": "napoleon-02-army-body",
+        "source_domain_primary": "body",
+        "source_domain_secondary": [],
+        "target_domain": "military_virtue",
+        "conceptual_metaphor": "MILITARY VIRTUE IS BODY",
+        "entailments": [
+          "`victoire` is treated as an agent, possession, or hesitant outcome in battle narrative",
+          "Battle outcome is understood through personification and possession."
+        ],
+        "confidence": 0.76,
+        "rival_reading": "Victory is abstract but is described as hesitating, deciding, or belonging to an army.",
+        "justification": "MIPVU review rule '' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
+      },
+      "koenigsberg": {},
+      "meta": {
+        "confidence": 0.76,
+        "ambiguity_flag": false,
+        "suppression_flag": false
+      },
+      "gloss_en": "victory",
+      "gloss_notes": "French `victoire` may name an event, a result, or a quasi-agent in personified phrasing."
+    }
+  ]
+}

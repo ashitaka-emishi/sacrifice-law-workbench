@@ -1,0 +1,194 @@
+{
+  "version": "1.0",
+  "case_id": "lincoln",
+  "document_id": "lincoln-gettysburg-address",
+  "generated_at": "2026-06-17T01:07:47",
+  "generator": "scripts/generate-annotation-layer.py",
+  "annotation_policy": "CMT and Koenigsbergian annotations derived from MIPVU-reviewed metaphorical and uncertain lexical units. Each instance cites at least one MIPVU ID with decision_type in METAPHOR_DECISIONS.",
+  "instances": [
+    {
+      "instance_id": "lincoln-ann-051",
+      "case_id": "lincoln",
+      "document_id": "lincoln-gettysburg-address",
+      "sentence_id": "lincoln-gettysburg-address_s01_p01_s01",
+      "span_text": "brought / forth / conceived / dedicated",
+      "mipvu_ids": [
+        "lincoln-gettysburg-address_s01_p01_s01_lu009",
+        "lincoln-gettysburg-address_s01_p01_s01_lu010",
+        "lincoln-gettysburg-address_s01_p01_s01_lu017",
+        "lincoln-gettysburg-address_s01_p01_s01_lu021"
+      ],
+      "cmt": {
+        "mapping_id": "lincoln-cmt-051",
+        "cluster_id": "lincoln-01-body-organism",
+        "source_domain_primary": "birth_generation",
+        "source_domain_secondary": [],
+        "target_domain": "nation",
+        "conceptual_metaphor": "NATION IS BIRTH GENERATION",
+        "entailments": [
+          "political founding of a nation is represented through generation or birth",
+          "committed the nation or people to a political principle",
+          "Political founding is understood through human generation."
+        ],
+        "confidence": 0.83,
+        "rival_reading": "The nation is not literally born, yet its founding is framed through birth-generation language.",
+        "justification": "MIPVU review rule '' marked 4 unit(s) as metaphor-related or uncertain in this sentence."
+      },
+      "koenigsberg": {
+        "fantasy_type": "national_body"
+      },
+      "meta": {
+        "confidence": 0.83,
+        "ambiguity_flag": false,
+        "suppression_flag": false
+      }
+    },
+    {
+      "instance_id": "lincoln-ann-052",
+      "case_id": "lincoln",
+      "document_id": "lincoln-gettysburg-address",
+      "sentence_id": "lincoln-gettysburg-address_s01_p02_s01",
+      "span_text": "endure",
+      "mipvu_ids": [
+        "lincoln-gettysburg-address_s01_p02_s01_lu024"
+      ],
+      "cmt": {
+        "mapping_id": "lincoln-cmt-052",
+        "cluster_id": "lincoln-01-body-organism",
+        "source_domain_primary": "nature_organism",
+        "source_domain_secondary": [],
+        "target_domain": "nation",
+        "conceptual_metaphor": "NATION IS NATURE ORGANISM",
+        "entailments": [
+          "the nation or government continues or ceases political existence",
+          "Political survival is understood through organismic life and death."
+        ],
+        "confidence": 0.72,
+        "rival_reading": "A polity is not a biological organism, but its political existence is construed as bodily life or death.",
+        "justification": "MIPVU review rule '' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
+      },
+      "koenigsberg": {
+        "fantasy_type": "national_body",
+        "absence_flags": [
+          "possible-suppressed-agent"
+        ]
+      },
+      "meta": {
+        "confidence": 0.72,
+        "ambiguity_flag": false,
+        "suppression_flag": true
+      }
+    },
+    {
+      "instance_id": "lincoln-ann-053",
+      "case_id": "lincoln",
+      "document_id": "lincoln-gettysburg-address",
+      "sentence_id": "lincoln-gettysburg-address_s01_p03_s01",
+      "span_text": "resting / gave / live",
+      "mipvu_ids": [
+        "lincoln-gettysburg-address_s01_p03_s01_lu014",
+        "lincoln-gettysburg-address_s01_p03_s01_lu020",
+        "lincoln-gettysburg-address_s01_p03_s01_lu027"
+      ],
+      "cmt": {
+        "mapping_id": "lincoln-cmt-053",
+        "cluster_id": "lincoln-01-body-organism",
+        "source_domain_primary": "body",
+        "source_domain_secondary": [],
+        "target_domain": "war_death",
+        "conceptual_metaphor": "WAR DEATH IS BODY",
+        "entailments": [
+          "burial or cemetery repose for the war dead",
+          "surrendered or offered their lives in battle",
+          "the nation would continue to exist politically",
+          "Death or burial is understood through bodily rest/repose."
+        ],
+        "confidence": 0.837,
+        "rival_reading": "The contextual meaning concerns burial/death rather than ordinary bodily rest after exertion.",
+        "justification": "MIPVU review rule '' marked 3 unit(s) as metaphor-related or uncertain in this sentence."
+      },
+      "koenigsberg": {
+        "violence_logic": true,
+        "sacrificial_economy": true
+      },
+      "meta": {
+        "confidence": 0.837,
+        "ambiguity_flag": false,
+        "suppression_flag": false
+      }
+    },
+    {
+      "instance_id": "lincoln-ann-054",
+      "case_id": "lincoln",
+      "document_id": "lincoln-gettysburg-address",
+      "sentence_id": "lincoln-gettysburg-address_s01_p04_s03",
+      "span_text": "world / note / remember / forget",
+      "mipvu_ids": [
+        "lincoln-gettysburg-address_s01_p04_s03_lu002",
+        "lincoln-gettysburg-address_s01_p04_s03_lu005",
+        "lincoln-gettysburg-address_s01_p04_s03_lu008",
+        "lincoln-gettysburg-address_s01_p04_s03_lu017"
+      ],
+      "cmt": {
+        "mapping_id": "lincoln-cmt-054",
+        "cluster_id": "lincoln-01-body-organism",
+        "source_domain_primary": "body",
+        "source_domain_secondary": [],
+        "target_domain": "history",
+        "conceptual_metaphor": "HISTORY IS BODY",
+        "entailments": [
+          "public memory is attributed to the world as an agent",
+          "Collective historical memory is understood through human cognition."
+        ],
+        "confidence": 0.84,
+        "rival_reading": "The world is treated as a remembering person.",
+        "justification": "MIPVU review rule '' marked 4 unit(s) as metaphor-related or uncertain in this sentence."
+      },
+      "koenigsberg": {},
+      "meta": {
+        "confidence": 0.84,
+        "ambiguity_flag": false,
+        "suppression_flag": false
+      }
+    },
+    {
+      "instance_id": "lincoln-ann-055",
+      "case_id": "lincoln",
+      "document_id": "lincoln-gettysburg-address",
+      "sentence_id": "lincoln-gettysburg-address_s01_p05_s02",
+      "span_text": "dedicated / gave / measure / birth / perish",
+      "mipvu_ids": [
+        "lincoln-gettysburg-address_s01_p05_s02_lu009",
+        "lincoln-gettysburg-address_s01_p05_s02_lu032",
+        "lincoln-gettysburg-address_s01_p05_s02_lu036",
+        "lincoln-gettysburg-address_s01_p05_s02_lu062",
+        "lincoln-gettysburg-address_s01_p05_s02_lu079"
+      ],
+      "cmt": {
+        "mapping_id": "lincoln-cmt-055",
+        "cluster_id": "lincoln-06-providence-theodicy",
+        "source_domain_primary": "religion_providence",
+        "source_domain_secondary": [],
+        "target_domain": "citizenship",
+        "conceptual_metaphor": "CITIZENSHIP IS RELIGION PROVIDENCE",
+        "entailments": [
+          "committed to public work or obligation",
+          "sacrificed or expended themselves for the cause",
+          "complete extent of devotion or sacrifice",
+          "political renewal of freedom after war sacrifice"
+        ],
+        "confidence": 0.85,
+        "rival_reading": "The living are not physically set apart like an object or place; they are morally committed to a public task.",
+        "justification": "MIPVU review rule '' marked 5 unit(s) as metaphor-related or uncertain in this sentence."
+      },
+      "koenigsberg": {
+        "fantasy_type": "providential_covenant"
+      },
+      "meta": {
+        "confidence": 0.85,
+        "ambiguity_flag": false,
+        "suppression_flag": false
+      }
+    }
+  ]
+}

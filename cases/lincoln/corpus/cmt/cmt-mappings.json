@@ -2,11 +2,211 @@
   "version": "1.0",
   "case_id": "lincoln",
   "status": "draft",
-  "updated": "2026-06-15",
+  "updated": "2026-06-17",
   "mapping_policy": "CMT mappings are downstream of MIPVU. Every non-exploratory mapping must cite metaphor-related or uncertain MIPVU lexical units from the same sentence.",
   "mappings": [
     {
       "mapping_id": "lincoln-cmt-001",
+      "case_id": "lincoln",
+      "document_id": "lincoln-lyceum-address",
+      "sentence_id": "lincoln-lyceum-address_s01_p04_s01",
+      "mipvu_ids": [
+        "lincoln-lyceum-address_s01_p04_s01_lu004",
+        "lincoln-lyceum-address_s01_p04_s01_lu017",
+        "lincoln-lyceum-address_s01_p04_s01_lu018"
+      ],
+      "expression": "journal / account / running",
+      "evidence_span": "In the great journal of things happening under the sun, we, the American people, find our account running under date of the nineteenth century of the Christian era.",
+      "source_domain_primary": "debt_accounting",
+      "source_domain_secondary": [],
+      "target_domain": "history",
+      "conceptual_metaphor": "HISTORY IS DEBT ACCOUNTING",
+      "entailments": [
+        "historical time and national circumstance are represented as a ledger or journal entry",
+        "Historical situation is understood through written/accounting records."
+      ],
+      "cluster_id": "lincoln-05-fathers-inheritance",
+      "confidence": 0.82,
+      "rival_reading": "Events under the sun are not literally a ledger, but the sentence frames history through accounting.",
+      "justification": "MIPVU review rule '' marked 3 unit(s) as metaphor-related or uncertain in this sentence.",
+      "mapping_status": "provisional",
+      "rhetorical_salience": "high",
+      "rhetorical_functions": [
+        "argument"
+      ],
+      "ideological_functions": [
+        "legitimation"
+      ]
+    },
+    {
+      "mapping_id": "lincoln-cmt-002",
+      "case_id": "lincoln",
+      "document_id": "lincoln-lyceum-address",
+      "sentence_id": "lincoln-lyceum-address_s01_p04_s04",
+      "mipvu_ids": [
+        "lincoln-lyceum-address_s01_p04_s04_lu003",
+        "lincoln-lyceum-address_s01_p04_s04_lu005",
+        "lincoln-lyceum-address_s01_p04_s04_lu007"
+      ],
+      "expression": "mounting / stage / existence",
+      "evidence_span": "We, when mounting the stage of existence, found ourselves the legal inheritors of these fundamental blessings.",
+      "source_domain_primary": "theater_stage",
+      "source_domain_secondary": [],
+      "target_domain": "history",
+      "conceptual_metaphor": "HISTORY IS THEATER STAGE",
+      "entailments": [
+        "entering historical life as public actors",
+        "Political-historical life is understood through theatrical staging."
+      ],
+      "cluster_id": "lincoln-05-fathers-inheritance",
+      "confidence": 0.86,
+      "rival_reading": "Collective historical existence is explicitly framed as appearing on a stage.",
+      "justification": "MIPVU review rule '' marked 3 unit(s) as metaphor-related or uncertain in this sentence.",
+      "mapping_status": "provisional",
+      "rhetorical_salience": "high",
+      "rhetorical_functions": [
+        "argument"
+      ],
+      "ideological_functions": [
+        "legitimation"
+      ]
+    },
+    {
+      "mapping_id": "lincoln-cmt-003",
+      "case_id": "lincoln",
+      "document_id": "lincoln-lyceum-address",
+      "sentence_id": "lincoln-lyceum-address_s01_p04_s06",
+      "mipvu_ids": [
+        "lincoln-lyceum-address_s01_p04_s06_lu023",
+        "lincoln-lyceum-address_s01_p04_s06_lu032",
+        "lincoln-lyceum-address_s01_p04_s06_lu043",
+        "lincoln-lyceum-address_s01_p04_s06_lu047",
+        "lincoln-lyceum-address_s01_p04_s06_lu056",
+        "lincoln-lyceum-address_s01_p04_s06_lu063"
+      ],
+      "expression": "uprear / edifice / transmit / unprofaned / undecayed / untorn",
+      "evidence_span": "Theirs was the task (and nobly they performed it) to possess themselves, and through themselves us, of this goodly land, and to uprear upon its hills and its valleys a political edifice of liberty and equal rights; it is ours only to transmit these--the former unprofaned by the foot of an invader, the latter undecayed by the lapse of time and untorn by usurpation--to the latest generation that fate shall permit the world to know.",
+      "source_domain_primary": "architecture_building",
+      "source_domain_secondary": [],
+      "target_domain": "government",
+      "conceptual_metaphor": "GOVERNMENT IS ARCHITECTURE BUILDING",
+      "entailments": [
+        "building political institutions of liberty and rights",
+        "preserving and handing on political liberties and institutions",
+        "Institutions are understood through built structure."
+      ],
+      "cluster_id": "lincoln-01-body-organism",
+      "confidence": 0.83,
+      "rival_reading": "Political institutions are explicitly construed as a built edifice.",
+      "justification": "MIPVU review rule '' marked 6 unit(s) as metaphor-related or uncertain in this sentence.",
+      "mapping_status": "provisional",
+      "rhetorical_salience": "high",
+      "rhetorical_functions": [
+        "argument"
+      ],
+      "ideological_functions": [
+        "legitimation"
+      ]
+    },
+    {
+      "mapping_id": "lincoln-cmt-004",
+      "case_id": "lincoln",
+      "document_id": "lincoln-lyceum-address",
+      "sentence_id": "lincoln-lyceum-address_s01_p05_s04",
+      "mipvu_ids": [
+        "lincoln-lyceum-address_s01_p05_s04_lu007",
+        "lincoln-lyceum-address_s01_p05_s04_lu009",
+        "lincoln-lyceum-address_s01_p05_s04_lu013",
+        "lincoln-lyceum-address_s01_p05_s04_lu017"
+      ],
+      "expression": "giant / step / crush / blow",
+      "evidence_span": "Shall we expect some transatlantic military giant to step the ocean and crush us at a blow?",
+      "source_domain_primary": "body",
+      "source_domain_secondary": [],
+      "target_domain": "enemy",
+      "conceptual_metaphor": "ENEMY IS BODY",
+      "entailments": [
+        "foreign military danger imagined as a giant body attacking physically",
+        "Geopolitical threat is understood through bodily combat with a giant."
+      ],
+      "cluster_id": "lincoln-01-body-organism",
+      "confidence": 0.9,
+      "rival_reading": "An overseas army is personified as a giant capable of bodily attack.",
+      "justification": "MIPVU review rule '' marked 4 unit(s) as metaphor-related or uncertain in this sentence.",
+      "mapping_status": "provisional",
+      "rhetorical_salience": "high",
+      "rhetorical_functions": [
+        "argument"
+      ],
+      "ideological_functions": [
+        "legitimation"
+      ]
+    },
+    {
+      "mapping_id": "lincoln-cmt-005",
+      "case_id": "lincoln",
+      "document_id": "lincoln-lyceum-address",
+      "sentence_id": "lincoln-lyceum-address_s01_p06_s02",
+      "mipvu_ids": [
+        "lincoln-lyceum-address_s01_p06_s02_lu010"
+      ],
+      "expression": "spring",
+      "evidence_span": "I answer: If it ever reach us it must spring up amongst us; it cannot come from abroad.",
+      "source_domain_primary": "nature_organism",
+      "source_domain_secondary": [],
+      "target_domain": "political_order",
+      "conceptual_metaphor": "POLITICAL ORDER IS NATURE ORGANISM",
+      "entailments": [
+        "danger, disorder, or ambitious men arise within the polity",
+        "Political emergence is understood through upward growth."
+      ],
+      "cluster_id": "lincoln-01-body-organism",
+      "confidence": 0.72,
+      "rival_reading": "Abstract danger or political actors are represented as emerging upward like growth.",
+      "justification": "MIPVU review rule '' marked 1 unit(s) as metaphor-related or uncertain in this sentence.",
+      "mapping_status": "provisional",
+      "rhetorical_salience": "medium",
+      "rhetorical_functions": [
+        "argument"
+      ],
+      "ideological_functions": [
+        "legitimation"
+      ]
+    },
+    {
+      "mapping_id": "lincoln-cmt-006",
+      "case_id": "lincoln",
+      "document_id": "lincoln-lyceum-address",
+      "sentence_id": "lincoln-lyceum-address_s01_p06_s03",
+      "mipvu_ids": [
+        "lincoln-lyceum-address_s01_p06_s03_lu011",
+        "lincoln-lyceum-address_s01_p06_s03_lu013"
+      ],
+      "expression": "author / finisher",
+      "evidence_span": "If destruction be our lot we must ourselves be its author and finisher.",
+      "source_domain_primary": "birth_generation",
+      "source_domain_secondary": [],
+      "target_domain": "nation",
+      "conceptual_metaphor": "NATION IS BIRTH GENERATION",
+      "entailments": [
+        "the nation would cause and complete its own destruction",
+        "Collective causation is understood through making or authoring a work."
+      ],
+      "cluster_id": "lincoln-01-body-organism",
+      "confidence": 0.78,
+      "rival_reading": "Political destruction is framed through authorship and completion.",
+      "justification": "MIPVU review rule '' marked 2 unit(s) as metaphor-related or uncertain in this sentence.",
+      "mapping_status": "provisional",
+      "rhetorical_salience": "medium",
+      "rhetorical_functions": [
+        "national_self_definition"
+      ],
+      "ideological_functions": [
+        "obligation"
+      ]
+    },
+    {
+      "mapping_id": "lincoln-cmt-007",
       "case_id": "lincoln",
       "document_id": "lincoln-lyceum-address",
       "sentence_id": "lincoln-lyceum-address_s01_p06_s04",
@@ -15,36 +215,1527 @@
         "lincoln-lyceum-address_s01_p06_s04_lu013",
         "lincoln-lyceum-address_s01_p06_s04_lu015"
       ],
-      "expression": "we must live through all time, or die by suicide",
+      "expression": "live / die / suicide",
       "evidence_span": "As a nation of freemen we must live through all time, or die by suicide.",
       "source_domain_primary": "nature_organism",
-      "source_domain_secondary": [
-        "body"
-      ],
+      "source_domain_secondary": [],
       "target_domain": "nation",
-      "conceptual_metaphor": "THE NATION IS A LIVING BODY",
+      "conceptual_metaphor": "NATION IS NATURE ORGANISM",
       "entailments": [
-        "A nation can live or die as though it were an organism.",
-        "National destruction can be framed as self-caused bodily death.",
-        "Political preservation becomes a duty of collective self-care."
+        "the nation continues in political existence",
+        "the nation ceases to exist politically",
+        "self-caused national political destruction",
+        "Political existence is understood through bodily or organismic life."
       ],
       "cluster_id": "lincoln-01-body-organism",
-      "confidence": 0.9,
-      "rival_reading": "Conventional body-politic idiom rather than active metaphor; keep conventionality visible in aggregate claims.",
-      "justification": "The reviewed MIPVU units mark live, die, and suicide as personification/body-politic language in the same sentence.",
+      "confidence": 0.937,
+      "rival_reading": "A nation is not a biological organism, but it is construed as capable of living.",
+      "justification": "MIPVU review rule '' marked 3 unit(s) as metaphor-related or uncertain in this sentence.",
       "mapping_status": "provisional",
       "rhetorical_salience": "high",
       "rhetorical_functions": [
-        "warning",
         "national_self_definition"
       ],
       "ideological_functions": [
         "obligation"
-      ],
-      "diachronic_stage": "pre-war-union-republic-language"
+      ]
     },
     {
-      "mapping_id": "lincoln-cmt-002",
+      "mapping_id": "lincoln-cmt-008",
+      "case_id": "lincoln",
+      "document_id": "lincoln-lyceum-address",
+      "sentence_id": "lincoln-lyceum-address_s01_p07_s02",
+      "mipvu_ids": [
+        "lincoln-lyceum-address_s01_p07_s02_lu018",
+        "lincoln-lyceum-address_s01_p07_s02_lu020",
+        "lincoln-lyceum-address_s01_p07_s02_lu026"
+      ],
+      "expression": "wild / furious / sober",
+      "evidence_span": "I mean the increasing disregard for law which pervades the country--the growing disposition to substitute the wild and furious passions in lieu of the sober judgment of courts, and the worse than savage mobs for the executive ministers of justice.",
+      "source_domain_primary": "body",
+      "source_domain_secondary": [],
+      "target_domain": "political_identity",
+      "conceptual_metaphor": "POLITICAL IDENTITY IS BODY",
+      "entailments": [
+        "public passions are characterized as uncontrolled agents rather than judgments",
+        "Political emotion is understood through embodied agency."
+      ],
+      "cluster_id": "lincoln-01-body-organism",
+      "confidence": 0.74,
+      "rival_reading": "Passions and judgment are abstract faculties but are treated as agents with temperaments.",
+      "justification": "MIPVU review rule '' marked 3 unit(s) as metaphor-related or uncertain in this sentence.",
+      "mapping_status": "provisional",
+      "rhetorical_salience": "medium",
+      "rhetorical_functions": [
+        "argument"
+      ],
+      "ideological_functions": [
+        "legitimation"
+      ]
+    },
+    {
+      "mapping_id": "lincoln-cmt-009",
+      "case_id": "lincoln",
+      "document_id": "lincoln-lyceum-address",
+      "sentence_id": "lincoln-lyceum-address_s01_p07_s05",
+      "mipvu_ids": [
+        "lincoln-lyceum-address_s01_p07_s05_lu033"
+      ],
+      "expression": "creature",
+      "evidence_span": "They have pervaded the country from New England to Louisiana; they are neither peculiar to the eternal snows of the former nor the burning suns of the latter; they are not the creature of climate, neither are they confined to the slave holding or the non-slave holding States.",
+      "source_domain_primary": "nature_organism",
+      "source_domain_secondary": [],
+      "target_domain": "political_order",
+      "conceptual_metaphor": "POLITICAL ORDER IS NATURE ORGANISM",
+      "entailments": [
+        "mob violence is not produced by climate",
+        "Social disorder is understood through animate creation."
+      ],
+      "cluster_id": "lincoln-01-body-organism",
+      "confidence": 0.72,
+      "rival_reading": "A social phenomenon is treated as a creature with an origin.",
+      "justification": "MIPVU review rule '' marked 1 unit(s) as metaphor-related or uncertain in this sentence.",
+      "mapping_status": "provisional",
+      "rhetorical_salience": "medium",
+      "rhetorical_functions": [
+        "argument"
+      ],
+      "ideological_functions": [
+        "legitimation"
+      ]
+    },
+    {
+      "mapping_id": "lincoln-cmt-010",
+      "case_id": "lincoln",
+      "document_id": "lincoln-lyceum-address",
+      "sentence_id": "lincoln-lyceum-address_s01_p07_s06",
+      "mipvu_ids": [
+        "lincoln-lyceum-address_s01_p07_s06_lu003"
+      ],
+      "expression": "spring",
+      "evidence_span": "Alike they spring up among the pleasure-hunting masters of Southern slaves, and the order-loving citizens of the land of steady habits.",
+      "source_domain_primary": "nature_organism",
+      "source_domain_secondary": [],
+      "target_domain": "political_order",
+      "conceptual_metaphor": "POLITICAL ORDER IS NATURE ORGANISM",
+      "entailments": [
+        "danger, disorder, or ambitious men arise within the polity",
+        "Political emergence is understood through upward growth."
+      ],
+      "cluster_id": "lincoln-01-body-organism",
+      "confidence": 0.72,
+      "rival_reading": "Abstract danger or political actors are represented as emerging upward like growth.",
+      "justification": "MIPVU review rule '' marked 1 unit(s) as metaphor-related or uncertain in this sentence.",
+      "mapping_status": "provisional",
+      "rhetorical_salience": "medium",
+      "rhetorical_functions": [
+        "argument"
+      ],
+      "ideological_functions": [
+        "legitimation"
+      ]
+    },
+    {
+      "mapping_id": "lincoln-cmt-011",
+      "case_id": "lincoln",
+      "document_id": "lincoln-lyceum-address",
+      "sentence_id": "lincoln-lyceum-address_s01_p08_s05",
+      "mipvu_ids": [
+        "lincoln-lyceum-address_s01_p08_s05_lu043",
+        "lincoln-lyceum-address_s01_p08_s05_lu053"
+      ],
+      "expression": "rival / drapery",
+      "evidence_span": "Thus went on this process of hanging, from gamblers to negroes, from negroes to white citizens, and from these to strangers, till dead men were seen literally dangling from the boughs of trees upon every roadside, and in numbers almost sufficient to rival the native Spanish moss of the country as a drapery of the forest.",
+      "source_domain_primary": "object_material",
+      "source_domain_secondary": [],
+      "target_domain": "political_order",
+      "conceptual_metaphor": "POLITICAL ORDER IS OBJECT MATERIAL",
+      "entailments": [
+        "hanged bodies are compared with moss-like drapery in the forest",
+        "Mob killing is understood through visual covering/ornament."
+      ],
+      "cluster_id": "lincoln-01-body-organism",
+      "confidence": 0.82,
+      "rival_reading": "The sentence explicitly compares corpses on trees with moss or drapery.",
+      "justification": "MIPVU review rule '' marked 2 unit(s) as metaphor-related or uncertain in this sentence.",
+      "mapping_status": "provisional",
+      "rhetorical_salience": "high",
+      "rhetorical_functions": [
+        "argument"
+      ],
+      "ideological_functions": [
+        "legitimation"
+      ]
+    },
+    {
+      "mapping_id": "lincoln-cmt-012",
+      "case_id": "lincoln",
+      "document_id": "lincoln-lyceum-address",
+      "sentence_id": "lincoln-lyceum-address_s01_p09_s02",
+      "mipvu_ids": [
+        "lincoln-lyceum-address_s01_p09_s02_lu006"
+      ],
+      "expression": "sacrificed",
+      "evidence_span": "A single victim only was sacrificed there.",
+      "source_domain_primary": "sacrifice",
+      "source_domain_secondary": [],
+      "target_domain": "political_order",
+      "conceptual_metaphor": "POLITICAL ORDER IS SACRIFICE",
+      "entailments": [
+        "a person killed by mob violence is framed as a sacrificial victim",
+        "Mob killing is understood through sacrifice."
+      ],
+      "cluster_id": "lincoln-08-sacrificial-death-gift",
+      "confidence": 0.82,
+      "rival_reading": "The killing is historical violence, not a ritual offering, but is named through sacrificial vocabulary.",
+      "justification": "MIPVU review rule '' marked 1 unit(s) as metaphor-related or uncertain in this sentence.",
+      "mapping_status": "provisional",
+      "rhetorical_salience": "high",
+      "rhetorical_functions": [
+        "commemoration"
+      ],
+      "ideological_functions": [
+        "sacrifice"
+      ]
+    },
+    {
+      "mapping_id": "lincoln-cmt-013",
+      "case_id": "lincoln",
+      "document_id": "lincoln-lyceum-address",
+      "sentence_id": "lincoln-lyceum-address_s01_p11_s05",
+      "mipvu_ids": [
+        "lincoln-lyceum-address_s01_p11_s05_lu005",
+        "lincoln-lyceum-address_s01_p11_s05_lu008",
+        "lincoln-lyceum-address_s01_p11_s05_lu010"
+      ],
+      "expression": "swept / stage / existence",
+      "evidence_span": "If they were annually swept from the stage of existence by the plague or smallpox, honest men would perhaps be much profited by the operation.",
+      "source_domain_primary": "theater_stage",
+      "source_domain_secondary": [],
+      "target_domain": "war_death",
+      "conceptual_metaphor": "WAR DEATH IS THEATER STAGE",
+      "entailments": [
+        "people are imagined as removed from the arena of life",
+        "Life is understood through theatrical staging."
+      ],
+      "cluster_id": "lincoln-08-sacrificial-death-gift",
+      "confidence": 0.78,
+      "rival_reading": "Human death or removal is framed through theatrical stage imagery.",
+      "justification": "MIPVU review rule '' marked 3 unit(s) as metaphor-related or uncertain in this sentence.",
+      "mapping_status": "provisional",
+      "rhetorical_salience": "medium",
+      "rhetorical_functions": [
+        "argument"
+      ],
+      "ideological_functions": [
+        "legitimation"
+      ]
+    },
+    {
+      "mapping_id": "lincoln-cmt-014",
+      "case_id": "lincoln",
+      "document_id": "lincoln-lyceum-address",
+      "sentence_id": "lincoln-lyceum-address_s01_p11_s11",
+      "mipvu_ids": [
+        "lincoln-lyceum-address_s01_p11_s11_lu013",
+        "lincoln-lyceum-address_s01_p11_s11_lu025",
+        "lincoln-lyceum-address_s01_p11_s11_lu026",
+        "lincoln-lyceum-address_s01_p11_s11_lu029",
+        "lincoln-lyceum-address_s01_p11_s11_lu044",
+        "lincoln-lyceum-address_s01_p11_s11_lu045",
+        "lincoln-lyceum-address_s01_p11_s11_lu048",
+        "lincoln-lyceum-address_s01_p11_s11_lu057"
+      ],
+      "expression": "faces / fall / victims / ravages / walls / erected / defense / trodden",
+      "evidence_span": "And not only so: the innocent, those who have ever set their faces against violations of law in every shape, alike with the guilty fall victims to the ravages of mob law; and thus it goes on, step by step, till all the walls erected for the defense of the persons and property of individuals are trodden down and disregarded.",
+      "source_domain_primary": "body",
+      "source_domain_secondary": [],
+      "target_domain": "political_order",
+      "conceptual_metaphor": "POLITICAL ORDER IS BODY",
+      "entailments": [
+        "law-abiding people are overcome by mob violence",
+        "legal protections are represented as walls defending persons and property",
+        "Civic injury is understood through bodily attack."
+      ],
+      "cluster_id": "lincoln-01-body-organism",
+      "confidence": 0.82,
+      "rival_reading": "Political-legal harm is represented through bodily orientation, falling, and ravaging.",
+      "justification": "MIPVU review rule '' marked 8 unit(s) as metaphor-related or uncertain in this sentence.",
+      "mapping_status": "provisional",
+      "rhetorical_salience": "high",
+      "rhetorical_functions": [
+        "argument"
+      ],
+      "ideological_functions": [
+        "legitimation"
+      ]
+    },
+    {
+      "mapping_id": "lincoln-cmt-015",
+      "case_id": "lincoln",
+      "document_id": "lincoln-lyceum-address",
+      "sentence_id": "lincoln-lyceum-address_s01_p11_s14",
+      "mipvu_ids": [
+        "lincoln-lyceum-address_s01_p11_s14_lu008",
+        "lincoln-lyceum-address_s01_p11_s14_lu028"
+      ],
+      "expression": "bane / annihilation",
+      "evidence_span": "Having ever regarded government as their deadliest bane, they make a jubilee of the suspension of its operations, and pray for nothing so much as its total annihilation.",
+      "source_domain_primary": "body",
+      "source_domain_secondary": [],
+      "target_domain": "government",
+      "conceptual_metaphor": "GOVERNMENT IS BODY",
+      "entailments": [
+        "government is treated as a harmful or destructible entity",
+        "Political institutions are understood through harmful/destructible bodies or objects."
+      ],
+      "cluster_id": "lincoln-01-body-organism",
+      "confidence": 0.74,
+      "rival_reading": "Government is abstract-institutional but construed as an entity that can be bane or be annihilated.",
+      "justification": "MIPVU review rule '' marked 2 unit(s) as metaphor-related or uncertain in this sentence.",
+      "mapping_status": "provisional",
+      "rhetorical_salience": "medium",
+      "rhetorical_functions": [
+        "argument"
+      ],
+      "ideological_functions": [
+        "legitimation"
+      ]
+    },
+    {
+      "mapping_id": "lincoln-cmt-016",
+      "case_id": "lincoln",
+      "document_id": "lincoln-lyceum-address",
+      "sentence_id": "lincoln-lyceum-address_s01_p11_s15",
+      "mipvu_ids": [
+        "lincoln-lyceum-address_s01_p11_s15_lu026",
+        "lincoln-lyceum-address_s01_p11_s15_lu028"
+      ],
+      "expression": "spill / blood",
+      "evidence_span": "While, on the other hand, good men, men who love tranquillity, who desire to abide by the laws and enjoy their benefits, who would gladly spill their blood in the defense of their country, seeing their property destroyed, their families insulted, and their lives endangered, their persons injured, and seeing nothing in prospect that forebodes a change for the better, become tired of and disgusted with a government that offers them no protection, and are not much averse to a change in which they imagine they have nothing to lose.",
+      "source_domain_primary": "sacrifice",
+      "source_domain_secondary": [],
+      "target_domain": "citizenship",
+      "conceptual_metaphor": "CITIZENSHIP IS SACRIFICE",
+      "entailments": [
+        "patriotic obligation and violation of law are framed through blood, trampling, and tearing",
+        "Civic obligation is understood through bodily sacrifice and material violation."
+      ],
+      "cluster_id": "lincoln-08-sacrificial-death-gift",
+      "confidence": 0.82,
+      "rival_reading": "Revolutionary inheritance and legal liberty are treated as bodily/material things that can be spilled, trampled, or torn.",
+      "justification": "MIPVU review rule '' marked 2 unit(s) as metaphor-related or uncertain in this sentence.",
+      "mapping_status": "provisional",
+      "rhetorical_salience": "high",
+      "rhetorical_functions": [
+        "commemoration"
+      ],
+      "ideological_functions": [
+        "sacrifice"
+      ]
+    },
+    {
+      "mapping_id": "lincoln-cmt-017",
+      "case_id": "lincoln",
+      "document_id": "lincoln-lyceum-address",
+      "sentence_id": "lincoln-lyceum-address_s01_p12_s01",
+      "mipvu_ids": [
+        "lincoln-lyceum-address_s01_p12_s01_lu025"
+      ],
+      "expression": "endure",
+      "evidence_span": "I know the American people are much attached to their government; I know they would suffer much for its sake; I know they would endure evils long and patiently before they would ever think of exchanging it for another,--yet, notwithstanding all this, if the laws be continually despised and disregarded, if their rights to be secure in their persons and property are held by no better tenure than the caprice of a mob, the alienation of their affections from the government is the natural consequence; and to that, sooner or later, it must come.",
+      "source_domain_primary": "nature_organism",
+      "source_domain_secondary": [],
+      "target_domain": "nation",
+      "conceptual_metaphor": "NATION IS NATURE ORGANISM",
+      "entailments": [
+        "the nation or government continues or ceases political existence",
+        "Political survival is understood through organismic life and death."
+      ],
+      "cluster_id": "lincoln-01-body-organism",
+      "confidence": 0.72,
+      "rival_reading": "A polity is not a biological organism, but its political existence is construed as bodily life or death.",
+      "justification": "MIPVU review rule '' marked 1 unit(s) as metaphor-related or uncertain in this sentence.",
+      "mapping_status": "provisional",
+      "rhetorical_salience": "medium",
+      "rhetorical_functions": [
+        "national_self_definition"
+      ],
+      "ideological_functions": [
+        "obligation"
+      ]
+    },
+    {
+      "mapping_id": "lincoln-cmt-018",
+      "case_id": "lincoln",
+      "document_id": "lincoln-lyceum-address",
+      "sentence_id": "lincoln-lyceum-address_s01_p14_s03",
+      "mipvu_ids": [
+        "lincoln-lyceum-address_s01_p14_s03_lu016"
+      ],
+      "expression": "blood",
+      "evidence_span": "Let every American, every lover of liberty, every well-wisher to his posterity swear by the blood of the Revolution never to violate in the least particular the laws of the country, and never to tolerate their violation by others.",
+      "source_domain_primary": "sacrifice",
+      "source_domain_secondary": [],
+      "target_domain": "citizenship",
+      "conceptual_metaphor": "CITIZENSHIP IS SACRIFICE",
+      "entailments": [
+        "patriotic obligation and violation of law are framed through blood, trampling, and tearing",
+        "Civic obligation is understood through bodily sacrifice and material violation."
+      ],
+      "cluster_id": "lincoln-08-sacrificial-death-gift",
+      "confidence": 0.82,
+      "rival_reading": "Revolutionary inheritance and legal liberty are treated as bodily/material things that can be spilled, trampled, or torn.",
+      "justification": "MIPVU review rule '' marked 1 unit(s) as metaphor-related or uncertain in this sentence.",
+      "mapping_status": "provisional",
+      "rhetorical_salience": "high",
+      "rhetorical_functions": [
+        "commemoration"
+      ],
+      "ideological_functions": [
+        "sacrifice"
+      ]
+    },
+    {
+      "mapping_id": "lincoln-cmt-019",
+      "case_id": "lincoln",
+      "document_id": "lincoln-lyceum-address",
+      "sentence_id": "lincoln-lyceum-address_s01_p14_s05",
+      "mipvu_ids": [
+        "lincoln-lyceum-address_s01_p14_s05_lu012",
+        "lincoln-lyceum-address_s01_p14_s05_lu015",
+        "lincoln-lyceum-address_s01_p14_s05_lu021",
+        "lincoln-lyceum-address_s01_p14_s05_lu023"
+      ],
+      "expression": "trample / blood / tear / charter",
+      "evidence_span": "Let every man remember that to violate the law is to trample on the blood of his father, and to tear the charter of his own and his children's liberty.",
+      "source_domain_primary": "sacrifice",
+      "source_domain_secondary": [],
+      "target_domain": "citizenship",
+      "conceptual_metaphor": "CITIZENSHIP IS SACRIFICE",
+      "entailments": [
+        "patriotic obligation and violation of law are framed through blood, trampling, and tearing",
+        "Civic obligation is understood through bodily sacrifice and material violation."
+      ],
+      "cluster_id": "lincoln-08-sacrificial-death-gift",
+      "confidence": 0.775,
+      "rival_reading": "Revolutionary inheritance and legal liberty are treated as bodily/material things that can be spilled, trampled, or torn.",
+      "justification": "MIPVU review rule '' marked 4 unit(s) as metaphor-related or uncertain in this sentence.",
+      "mapping_status": "provisional",
+      "rhetorical_salience": "medium",
+      "rhetorical_functions": [
+        "commemoration"
+      ],
+      "ideological_functions": [
+        "sacrifice"
+      ]
+    },
+    {
+      "mapping_id": "lincoln-cmt-020",
+      "case_id": "lincoln",
+      "document_id": "lincoln-lyceum-address",
+      "sentence_id": "lincoln-lyceum-address_s01_p14_s06",
+      "mipvu_ids": [
+        "lincoln-lyceum-address_s01_p14_s06_lu007"
+      ],
+      "expression": "breathed",
+      "evidence_span": "Let reverence for the laws be breathed by every American mother to the lisping babe that prattles on her lap; let it be taught in schools, in seminaries, and in colleges; let it be written in primers, spelling books, and in almanacs; let it be preached from the pulpit, proclaimed in legislative halls, and enforced in courts of justice.",
+      "source_domain_primary": "religion_providence",
+      "source_domain_secondary": [],
+      "target_domain": "law",
+      "conceptual_metaphor": "LAW IS RELIGION PROVIDENCE",
+      "entailments": [
+        "reverence for law is framed as religious devotion and ritual sacrifice",
+        "Civic obedience is understood through religion and sacrifice."
+      ],
+      "cluster_id": "lincoln-02-covenant-oath",
+      "confidence": 0.78,
+      "rival_reading": "Legal-political reverence is explicitly understood through religious ritual vocabulary.",
+      "justification": "MIPVU review rule '' marked 1 unit(s) as metaphor-related or uncertain in this sentence.",
+      "mapping_status": "provisional",
+      "rhetorical_salience": "medium",
+      "rhetorical_functions": [
+        "sacralization"
+      ],
+      "ideological_functions": [
+        "guilt_distribution"
+      ]
+    },
+    {
+      "mapping_id": "lincoln-cmt-021",
+      "case_id": "lincoln",
+      "document_id": "lincoln-lyceum-address",
+      "sentence_id": "lincoln-lyceum-address_s01_p14_s07",
+      "mipvu_ids": [
+        "lincoln-lyceum-address_s01_p14_s07_lu008",
+        "lincoln-lyceum-address_s01_p14_s07_lu009",
+        "lincoln-lyceum-address_s01_p14_s07_lu039",
+        "lincoln-lyceum-address_s01_p14_s07_lu043"
+      ],
+      "expression": "political / religion / sacrifice / altars",
+      "evidence_span": "And, in short, let it become the political religion of the nation; and let the old and the young, the rich and the poor, the grave and the gay of all sexes and tongues and colors and conditions, sacrifice unceasingly upon its altars.",
+      "source_domain_primary": "religion_providence",
+      "source_domain_secondary": [],
+      "target_domain": "law",
+      "conceptual_metaphor": "LAW IS RELIGION PROVIDENCE",
+      "entailments": [
+        "reverence for law is framed as religious devotion and ritual sacrifice",
+        "Civic obedience is understood through religion and sacrifice."
+      ],
+      "cluster_id": "lincoln-02-covenant-oath",
+      "confidence": 0.885,
+      "rival_reading": "Legal-political reverence is explicitly understood through religious ritual vocabulary.",
+      "justification": "MIPVU review rule '' marked 4 unit(s) as metaphor-related or uncertain in this sentence.",
+      "mapping_status": "provisional",
+      "rhetorical_salience": "high",
+      "rhetorical_functions": [
+        "sacralization"
+      ],
+      "ideological_functions": [
+        "guilt_distribution"
+      ]
+    },
+    {
+      "mapping_id": "lincoln-cmt-022",
+      "case_id": "lincoln",
+      "document_id": "lincoln-lyceum-address",
+      "sentence_id": "lincoln-lyceum-address_s01_p19_s05",
+      "mipvu_ids": [
+        "lincoln-lyceum-address_s01_p19_s05_lu004",
+        "lincoln-lyceum-address_s01_p19_s05_lu006",
+        "lincoln-lyceum-address_s01_p19_s05_lu014",
+        "lincoln-lyceum-address_s01_p19_s05_lu016"
+      ],
+      "expression": "props / support / decayed / crumbled",
+      "evidence_span": "It had many props to support it through that period, which now are decayed and crumbled away.",
+      "source_domain_primary": "architecture_building",
+      "source_domain_secondary": [],
+      "target_domain": "government",
+      "conceptual_metaphor": "GOVERNMENT IS ARCHITECTURE BUILDING",
+      "entailments": [
+        "early supports for government are represented as structural props that decay",
+        "Political stability is understood through built structure."
+      ],
+      "cluster_id": "lincoln-01-body-organism",
+      "confidence": 0.86,
+      "rival_reading": "Institutional maintenance is framed through structural support and material decay.",
+      "justification": "MIPVU review rule '' marked 4 unit(s) as metaphor-related or uncertain in this sentence.",
+      "mapping_status": "provisional",
+      "rhetorical_salience": "high",
+      "rhetorical_functions": [
+        "argument"
+      ],
+      "ideological_functions": [
+        "legitimation"
+      ]
+    },
+    {
+      "mapping_id": "lincoln-cmt-023",
+      "case_id": "lincoln",
+      "document_id": "lincoln-lyceum-address",
+      "sentence_id": "lincoln-lyceum-address_s01_p19_s06",
+      "mipvu_ids": [
+        "lincoln-lyceum-address_s01_p19_s06_lu013",
+        "lincoln-lyceum-address_s01_p19_s06_lu021"
+      ],
+      "expression": "experiment / successful",
+      "evidence_span": "Through that period it was felt by all to be an undecided experiment; now it is understood to be a successful one.",
+      "source_domain_primary": "experiment_science",
+      "source_domain_secondary": [],
+      "target_domain": "republic",
+      "conceptual_metaphor": "REPUBLIC IS EXPERIMENT SCIENCE",
+      "entailments": [
+        "self-government is treated as a trial whose truth can be demonstrated",
+        "Political viability is understood through experiment and demonstration."
+      ],
+      "cluster_id": "lincoln-03-experiment-proposition",
+      "confidence": 0.74,
+      "rival_reading": "A political order is not a laboratory object, but its success is framed as a trial or proof.",
+      "justification": "MIPVU review rule '' marked 2 unit(s) as metaphor-related or uncertain in this sentence.",
+      "mapping_status": "provisional",
+      "rhetorical_salience": "medium",
+      "rhetorical_functions": [
+        "national_self_definition"
+      ],
+      "ideological_functions": [
+        "obligation"
+      ]
+    },
+    {
+      "mapping_id": "lincoln-cmt-024",
+      "case_id": "lincoln",
+      "document_id": "lincoln-lyceum-address",
+      "sentence_id": "lincoln-lyceum-address_s01_p19_s07",
+      "mipvu_ids": [
+        "lincoln-lyceum-address_s01_p19_s07_lu019"
+      ],
+      "expression": "experiment",
+      "evidence_span": "Then, all that sought celebrity and fame and distinction expected to find them in the success of that experiment.",
+      "source_domain_primary": "experiment_science",
+      "source_domain_secondary": [],
+      "target_domain": "republic",
+      "conceptual_metaphor": "REPUBLIC IS EXPERIMENT SCIENCE",
+      "entailments": [
+        "self-government is treated as a trial whose truth can be demonstrated",
+        "Political viability is understood through experiment and demonstration."
+      ],
+      "cluster_id": "lincoln-03-experiment-proposition",
+      "confidence": 0.74,
+      "rival_reading": "A political order is not a laboratory object, but its success is framed as a trial or proof.",
+      "justification": "MIPVU review rule '' marked 1 unit(s) as metaphor-related or uncertain in this sentence.",
+      "mapping_status": "provisional",
+      "rhetorical_salience": "medium",
+      "rhetorical_functions": [
+        "national_self_definition"
+      ],
+      "ideological_functions": [
+        "obligation"
+      ]
+    },
+    {
+      "mapping_id": "lincoln-cmt-025",
+      "case_id": "lincoln",
+      "document_id": "lincoln-lyceum-address",
+      "sentence_id": "lincoln-lyceum-address_s01_p19_s08",
+      "mipvu_ids": [
+        "lincoln-lyceum-address_s01_p19_s08_lu004",
+        "lincoln-lyceum-address_s01_p19_s08_lu011"
+      ],
+      "expression": "staked / linked",
+      "evidence_span": "Their all was staked upon it; their destiny was inseparably linked with it.",
+      "source_domain_primary": "object_material",
+      "source_domain_secondary": [],
+      "target_domain": "political_order",
+      "conceptual_metaphor": "POLITICAL ORDER IS OBJECT MATERIAL",
+      "entailments": [
+        "founders' destiny is bound to the political experiment",
+        "Commitment is understood through physical fastening."
+      ],
+      "cluster_id": "lincoln-01-body-organism",
+      "confidence": 0.76,
+      "rival_reading": "Abstract destiny and ambition are represented as attached to an undertaking.",
+      "justification": "MIPVU review rule '' marked 2 unit(s) as metaphor-related or uncertain in this sentence.",
+      "mapping_status": "provisional",
+      "rhetorical_salience": "medium",
+      "rhetorical_functions": [
+        "argument"
+      ],
+      "ideological_functions": [
+        "legitimation"
+      ]
+    },
+    {
+      "mapping_id": "lincoln-cmt-026",
+      "case_id": "lincoln",
+      "document_id": "lincoln-lyceum-address",
+      "sentence_id": "lincoln-lyceum-address_s01_p19_s10",
+      "mipvu_ids": [
+        "lincoln-lyceum-address_s01_p19_s10_lu008"
+      ],
+      "expression": "immortalized",
+      "evidence_span": "If they succeeded they were to be immortalized; their names were to be transferred to counties, and cities, and rivers, and mountains; and to be revered and sung, toasted through all time.",
+      "source_domain_primary": "life_death",
+      "source_domain_secondary": [],
+      "target_domain": "history",
+      "conceptual_metaphor": "HISTORY IS LIFE DEATH",
+      "entailments": [
+        "fame or memory persists or disappears as life, deathlessness, or downward sinking",
+        "Historical memory is understood through life/death and vertical motion."
+      ],
+      "cluster_id": "lincoln-05-fathers-inheritance",
+      "confidence": 0.78,
+      "rival_reading": "Reputation and memory are treated through bodily life/death or physical descent.",
+      "justification": "MIPVU review rule '' marked 1 unit(s) as metaphor-related or uncertain in this sentence.",
+      "mapping_status": "provisional",
+      "rhetorical_salience": "medium",
+      "rhetorical_functions": [
+        "argument"
+      ],
+      "ideological_functions": [
+        "legitimation"
+      ]
+    },
+    {
+      "mapping_id": "lincoln-cmt-027",
+      "case_id": "lincoln",
+      "document_id": "lincoln-lyceum-address",
+      "sentence_id": "lincoln-lyceum-address_s01_p19_s11",
+      "mipvu_ids": [
+        "lincoln-lyceum-address_s01_p19_s11_lu020",
+        "lincoln-lyceum-address_s01_p19_s11_lu023"
+      ],
+      "expression": "sink / forgotten",
+      "evidence_span": "If they failed, they were to be called knaves and fools, and fanatics for a fleeting hour; then to sink and be forgotten.",
+      "source_domain_primary": "life_death",
+      "source_domain_secondary": [],
+      "target_domain": "history",
+      "conceptual_metaphor": "HISTORY IS LIFE DEATH",
+      "entailments": [
+        "fame or memory persists or disappears as life, deathlessness, or downward sinking",
+        "Historical memory is understood through life/death and vertical motion."
+      ],
+      "cluster_id": "lincoln-05-fathers-inheritance",
+      "confidence": 0.78,
+      "rival_reading": "Reputation and memory are treated through bodily life/death or physical descent.",
+      "justification": "MIPVU review rule '' marked 2 unit(s) as metaphor-related or uncertain in this sentence.",
+      "mapping_status": "provisional",
+      "rhetorical_salience": "medium",
+      "rhetorical_functions": [
+        "argument"
+      ],
+      "ideological_functions": [
+        "legitimation"
+      ]
+    },
+    {
+      "mapping_id": "lincoln-cmt-028",
+      "case_id": "lincoln",
+      "document_id": "lincoln-lyceum-address",
+      "sentence_id": "lincoln-lyceum-address_s01_p19_s13",
+      "mipvu_ids": [
+        "lincoln-lyceum-address_s01_p19_s13_lu002",
+        "lincoln-lyceum-address_s01_p19_s13_lu004",
+        "lincoln-lyceum-address_s01_p19_s13_lu010"
+      ],
+      "expression": "experiment / successful / deathless",
+      "evidence_span": "The experiment is successful, and thousands have won their deathless names in making it so.",
+      "source_domain_primary": "experiment_science",
+      "source_domain_secondary": [],
+      "target_domain": "republic",
+      "conceptual_metaphor": "REPUBLIC IS EXPERIMENT SCIENCE",
+      "entailments": [
+        "self-government is treated as a trial whose truth can be demonstrated",
+        "fame or memory persists or disappears as life, deathlessness, or downward sinking",
+        "Political viability is understood through experiment and demonstration."
+      ],
+      "cluster_id": "lincoln-03-experiment-proposition",
+      "confidence": 0.753,
+      "rival_reading": "A political order is not a laboratory object, but its success is framed as a trial or proof.",
+      "justification": "MIPVU review rule '' marked 3 unit(s) as metaphor-related or uncertain in this sentence.",
+      "mapping_status": "provisional",
+      "rhetorical_salience": "medium",
+      "rhetorical_functions": [
+        "national_self_definition"
+      ],
+      "ideological_functions": [
+        "obligation"
+      ]
+    },
+    {
+      "mapping_id": "lincoln-cmt-029",
+      "case_id": "lincoln",
+      "document_id": "lincoln-lyceum-address",
+      "sentence_id": "lincoln-lyceum-address_s01_p19_s14",
+      "mipvu_ids": [
+        "lincoln-lyceum-address_s01_p19_s14_lu003",
+        "lincoln-lyceum-address_s01_p19_s14_lu005",
+        "lincoln-lyceum-address_s01_p19_s14_lu021"
+      ],
+      "expression": "game / caught / chase",
+      "evidence_span": "But the game is caught; and I believe it is true that with the catching end the pleasures of the chase.",
+      "source_domain_primary": "nature_organism",
+      "source_domain_secondary": [],
+      "target_domain": "political_order",
+      "conceptual_metaphor": "POLITICAL ORDER IS NATURE ORGANISM",
+      "entailments": [
+        "political glory and ambition are represented as hunting or harvest",
+        "Political ambition is understood through hunting and harvest."
+      ],
+      "cluster_id": "lincoln-01-body-organism",
+      "confidence": 0.88,
+      "rival_reading": "Ambition and fame are not literal game or crops, but are framed through hunting and agriculture.",
+      "justification": "MIPVU review rule '' marked 3 unit(s) as metaphor-related or uncertain in this sentence.",
+      "mapping_status": "provisional",
+      "rhetorical_salience": "high",
+      "rhetorical_functions": [
+        "argument"
+      ],
+      "ideological_functions": [
+        "legitimation"
+      ]
+    },
+    {
+      "mapping_id": "lincoln-cmt-030",
+      "case_id": "lincoln",
+      "document_id": "lincoln-lyceum-address",
+      "sentence_id": "lincoln-lyceum-address_s01_p19_s15",
+      "mipvu_ids": [
+        "lincoln-lyceum-address_s01_p19_s15_lu002",
+        "lincoln-lyceum-address_s01_p19_s15_lu004",
+        "lincoln-lyceum-address_s01_p19_s15_lu006",
+        "lincoln-lyceum-address_s01_p19_s15_lu009"
+      ],
+      "expression": "field / glory / harvested / crop",
+      "evidence_span": "This field of glory is harvested, and the crop is already appropriated.",
+      "source_domain_primary": "nature_organism",
+      "source_domain_secondary": [],
+      "target_domain": "political_order",
+      "conceptual_metaphor": "POLITICAL ORDER IS NATURE ORGANISM",
+      "entailments": [
+        "political glory and ambition are represented as hunting or harvest",
+        "Political ambition is understood through hunting and harvest."
+      ],
+      "cluster_id": "lincoln-01-body-organism",
+      "confidence": 0.88,
+      "rival_reading": "Ambition and fame are not literal game or crops, but are framed through hunting and agriculture.",
+      "justification": "MIPVU review rule '' marked 4 unit(s) as metaphor-related or uncertain in this sentence.",
+      "mapping_status": "provisional",
+      "rhetorical_salience": "high",
+      "rhetorical_functions": [
+        "argument"
+      ],
+      "ideological_functions": [
+        "legitimation"
+      ]
+    },
+    {
+      "mapping_id": "lincoln-cmt-031",
+      "case_id": "lincoln",
+      "document_id": "lincoln-lyceum-address",
+      "sentence_id": "lincoln-lyceum-address_s01_p19_s16",
+      "mipvu_ids": [
+        "lincoln-lyceum-address_s01_p19_s16_lu003",
+        "lincoln-lyceum-address_s01_p19_s16_lu012"
+      ],
+      "expression": "reapers / field",
+      "evidence_span": "But new reapers will arise, and they too will seek a field.",
+      "source_domain_primary": "nature_organism",
+      "source_domain_secondary": [],
+      "target_domain": "political_order",
+      "conceptual_metaphor": "POLITICAL ORDER IS NATURE ORGANISM",
+      "entailments": [
+        "political glory and ambition are represented as hunting or harvest",
+        "Political ambition is understood through hunting and harvest."
+      ],
+      "cluster_id": "lincoln-01-body-organism",
+      "confidence": 0.88,
+      "rival_reading": "Ambition and fame are not literal game or crops, but are framed through hunting and agriculture.",
+      "justification": "MIPVU review rule '' marked 2 unit(s) as metaphor-related or uncertain in this sentence.",
+      "mapping_status": "provisional",
+      "rhetorical_salience": "high",
+      "rhetorical_functions": [
+        "argument"
+      ],
+      "ideological_functions": [
+        "legitimation"
+      ]
+    },
+    {
+      "mapping_id": "lincoln-cmt-032",
+      "case_id": "lincoln",
+      "document_id": "lincoln-lyceum-address",
+      "sentence_id": "lincoln-lyceum-address_s01_p19_s17",
+      "mipvu_ids": [
+        "lincoln-lyceum-address_s01_p19_s17_lu027"
+      ],
+      "expression": "spring",
+      "evidence_span": "It is to deny what the history of the world tells us is true, to suppose that men of ambition and talents will not continue to spring up amongst us.",
+      "source_domain_primary": "nature_organism",
+      "source_domain_secondary": [],
+      "target_domain": "political_order",
+      "conceptual_metaphor": "POLITICAL ORDER IS NATURE ORGANISM",
+      "entailments": [
+        "danger, disorder, or ambitious men arise within the polity",
+        "Political emergence is understood through upward growth."
+      ],
+      "cluster_id": "lincoln-01-body-organism",
+      "confidence": 0.72,
+      "rival_reading": "Abstract danger or political actors are represented as emerging upward like growth.",
+      "justification": "MIPVU review rule '' marked 1 unit(s) as metaphor-related or uncertain in this sentence.",
+      "mapping_status": "provisional",
+      "rhetorical_salience": "medium",
+      "rhetorical_functions": [
+        "argument"
+      ],
+      "ideological_functions": [
+        "legitimation"
+      ]
+    },
+    {
+      "mapping_id": "lincoln-cmt-033",
+      "case_id": "lincoln",
+      "document_id": "lincoln-lyceum-address",
+      "sentence_id": "lincoln-lyceum-address_s01_p19_s19",
+      "mipvu_ids": [
+        "lincoln-lyceum-address_s01_p19_s19_lu016",
+        "lincoln-lyceum-address_s01_p19_s19_lu020"
+      ],
+      "expression": "edifice / erected",
+      "evidence_span": "The question then is, Can that gratification be found in supporting and in maintaining an edifice that has been erected by others?",
+      "source_domain_primary": "architecture_building",
+      "source_domain_secondary": [],
+      "target_domain": "government",
+      "conceptual_metaphor": "GOVERNMENT IS ARCHITECTURE BUILDING",
+      "entailments": [
+        "political inheritance or institutional work is represented as building and demolition",
+        "Political institutions are understood through built structure."
+      ],
+      "cluster_id": "lincoln-01-body-organism",
+      "confidence": 0.88,
+      "rival_reading": "Political work is construed as construction or demolition of a building.",
+      "justification": "MIPVU review rule '' marked 2 unit(s) as metaphor-related or uncertain in this sentence.",
+      "mapping_status": "provisional",
+      "rhetorical_salience": "high",
+      "rhetorical_functions": [
+        "argument"
+      ],
+      "ideological_functions": [
+        "legitimation"
+      ]
+    },
+    {
+      "mapping_id": "lincoln-cmt-034",
+      "case_id": "lincoln",
+      "document_id": "lincoln-lyceum-address",
+      "sentence_id": "lincoln-lyceum-address_s01_p19_s21",
+      "mipvu_ids": [
+        "lincoln-lyceum-address_s01_p19_s21_lu041",
+        "lincoln-lyceum-address_s01_p19_s21_lu044",
+        "lincoln-lyceum-address_s01_p19_s21_lu047",
+        "lincoln-lyceum-address_s01_p19_s21_lu050"
+      ],
+      "expression": "family / lion / tribe / eagle",
+      "evidence_span": "Many great and good men, sufficiently qualified for any task they should undertake, may ever be found whose ambition would aspire to nothing beyond a seat in Congress, a Gubernatorial or a Presidential chair; but such belong not to the family of the lion, or the tribe of the eagle.",
+      "source_domain_primary": "body",
+      "source_domain_secondary": [],
+      "target_domain": "political_order",
+      "conceptual_metaphor": "POLITICAL ORDER IS BODY",
+      "entailments": [
+        "ambition and genius are represented through animals, height, paths, bodily appetite, fire, or stretching",
+        "Political ambition is understood through embodied force and animal/combat imagery."
+      ],
+      "cluster_id": "lincoln-01-body-organism",
+      "confidence": 0.75,
+      "rival_reading": "Abstract ambition is repeatedly construed through embodied motion, animal rank, appetite, and fire.",
+      "justification": "MIPVU review rule '' marked 4 unit(s) as metaphor-related or uncertain in this sentence.",
+      "mapping_status": "provisional",
+      "rhetorical_salience": "medium",
+      "rhetorical_functions": [
+        "argument"
+      ],
+      "ideological_functions": [
+        "legitimation"
+      ]
+    },
+    {
+      "mapping_id": "lincoln-cmt-035",
+      "case_id": "lincoln",
+      "document_id": "lincoln-lyceum-address",
+      "sentence_id": "lincoln-lyceum-address_s01_p19_s24",
+      "mipvu_ids": [
+        "lincoln-lyceum-address_s01_p19_s24_lu001",
+        "lincoln-lyceum-address_s01_p19_s24_lu006"
+      ],
+      "expression": "Towering / path",
+      "evidence_span": "Towering genius disdains a beaten path.",
+      "source_domain_primary": "body",
+      "source_domain_secondary": [],
+      "target_domain": "political_order",
+      "conceptual_metaphor": "POLITICAL ORDER IS BODY",
+      "entailments": [
+        "ambition and genius are represented through animals, height, paths, bodily appetite, fire, or stretching",
+        "Political ambition is understood through embodied force and animal/combat imagery."
+      ],
+      "cluster_id": "lincoln-01-body-organism",
+      "confidence": 0.75,
+      "rival_reading": "Abstract ambition is repeatedly construed through embodied motion, animal rank, appetite, and fire.",
+      "justification": "MIPVU review rule '' marked 2 unit(s) as metaphor-related or uncertain in this sentence.",
+      "mapping_status": "provisional",
+      "rhetorical_salience": "medium",
+      "rhetorical_functions": [
+        "argument"
+      ],
+      "ideological_functions": [
+        "legitimation"
+      ]
+    },
+    {
+      "mapping_id": "lincoln-cmt-036",
+      "case_id": "lincoln",
+      "document_id": "lincoln-lyceum-address",
+      "sentence_id": "lincoln-lyceum-address_s01_p19_s25",
+      "mipvu_ids": [
+        "lincoln-lyceum-address_s01_p19_s25_lu003"
+      ],
+      "expression": "regions",
+      "evidence_span": "It seeks regions hitherto unexplored.",
+      "source_domain_primary": "body",
+      "source_domain_secondary": [],
+      "target_domain": "political_order",
+      "conceptual_metaphor": "POLITICAL ORDER IS BODY",
+      "entailments": [
+        "ambition and genius are represented through animals, height, paths, bodily appetite, fire, or stretching",
+        "Political ambition is understood through embodied force and animal/combat imagery."
+      ],
+      "cluster_id": "lincoln-01-body-organism",
+      "confidence": 0.75,
+      "rival_reading": "Abstract ambition is repeatedly construed through embodied motion, animal rank, appetite, and fire.",
+      "justification": "MIPVU review rule '' marked 1 unit(s) as metaphor-related or uncertain in this sentence.",
+      "mapping_status": "provisional",
+      "rhetorical_salience": "medium",
+      "rhetorical_functions": [
+        "argument"
+      ],
+      "ideological_functions": [
+        "legitimation"
+      ]
+    },
+    {
+      "mapping_id": "lincoln-cmt-037",
+      "case_id": "lincoln",
+      "document_id": "lincoln-lyceum-address",
+      "sentence_id": "lincoln-lyceum-address_s01_p19_s28",
+      "mipvu_ids": [
+        "lincoln-lyceum-address_s01_p19_s28_lu007"
+      ],
+      "expression": "footsteps",
+      "evidence_span": "It scorns to tread in the footsteps of any predecessor, however illustrious.",
+      "source_domain_primary": "body",
+      "source_domain_secondary": [],
+      "target_domain": "political_order",
+      "conceptual_metaphor": "POLITICAL ORDER IS BODY",
+      "entailments": [
+        "ambition and genius are represented through animals, height, paths, bodily appetite, fire, or stretching",
+        "Political ambition is understood through embodied force and animal/combat imagery."
+      ],
+      "cluster_id": "lincoln-01-body-organism",
+      "confidence": 0.75,
+      "rival_reading": "Abstract ambition is repeatedly construed through embodied motion, animal rank, appetite, and fire.",
+      "justification": "MIPVU review rule '' marked 1 unit(s) as metaphor-related or uncertain in this sentence.",
+      "mapping_status": "provisional",
+      "rhetorical_salience": "medium",
+      "rhetorical_functions": [
+        "argument"
+      ],
+      "ideological_functions": [
+        "legitimation"
+      ]
+    },
+    {
+      "mapping_id": "lincoln-cmt-038",
+      "case_id": "lincoln",
+      "document_id": "lincoln-lyceum-address",
+      "sentence_id": "lincoln-lyceum-address_s01_p19_s29",
+      "mipvu_ids": [
+        "lincoln-lyceum-address_s01_p19_s29_lu002",
+        "lincoln-lyceum-address_s01_p19_s29_lu004"
+      ],
+      "expression": "thirsts / burns",
+      "evidence_span": "It thirsts and burns for distinction; and if possible, it will have it, whether at the expense of emancipating slaves or enslaving freemen.",
+      "source_domain_primary": "body",
+      "source_domain_secondary": [],
+      "target_domain": "political_order",
+      "conceptual_metaphor": "POLITICAL ORDER IS BODY",
+      "entailments": [
+        "ambition and genius are represented through animals, height, paths, bodily appetite, fire, or stretching",
+        "Political ambition is understood through embodied force and animal/combat imagery."
+      ],
+      "cluster_id": "lincoln-01-body-organism",
+      "confidence": 0.75,
+      "rival_reading": "Abstract ambition is repeatedly construed through embodied motion, animal rank, appetite, and fire.",
+      "justification": "MIPVU review rule '' marked 2 unit(s) as metaphor-related or uncertain in this sentence.",
+      "mapping_status": "provisional",
+      "rhetorical_salience": "medium",
+      "rhetorical_functions": [
+        "argument"
+      ],
+      "ideological_functions": [
+        "legitimation"
+      ]
+    },
+    {
+      "mapping_id": "lincoln-cmt-039",
+      "case_id": "lincoln",
+      "document_id": "lincoln-lyceum-address",
+      "sentence_id": "lincoln-lyceum-address_s01_p19_s30",
+      "mipvu_ids": [
+        "lincoln-lyceum-address_s01_p19_s30_lu025",
+        "lincoln-lyceum-address_s01_p19_s30_lu030"
+      ],
+      "expression": "stretch / spring",
+      "evidence_span": "Is it unreasonable, then, to expect that some man possessed of the loftiest genius, coupled with ambition sufficient to push it to its utmost stretch, will at some time spring up among us?",
+      "source_domain_primary": "body",
+      "source_domain_secondary": [],
+      "target_domain": "political_order",
+      "conceptual_metaphor": "POLITICAL ORDER IS BODY",
+      "entailments": [
+        "ambition and genius are represented through animals, height, paths, bodily appetite, fire, or stretching",
+        "danger, disorder, or ambitious men arise within the polity",
+        "Political ambition is understood through embodied force and animal/combat imagery."
+      ],
+      "cluster_id": "lincoln-01-body-organism",
+      "confidence": 0.735,
+      "rival_reading": "Abstract ambition is repeatedly construed through embodied motion, animal rank, appetite, and fire.",
+      "justification": "MIPVU review rule '' marked 2 unit(s) as metaphor-related or uncertain in this sentence.",
+      "mapping_status": "provisional",
+      "rhetorical_salience": "medium",
+      "rhetorical_functions": [
+        "argument"
+      ],
+      "ideological_functions": [
+        "legitimation"
+      ]
+    },
+    {
+      "mapping_id": "lincoln-cmt-040",
+      "case_id": "lincoln",
+      "document_id": "lincoln-lyceum-address",
+      "sentence_id": "lincoln-lyceum-address_s01_p20_s01",
+      "mipvu_ids": [
+        "lincoln-lyceum-address_s01_p20_s01_lu038",
+        "lincoln-lyceum-address_s01_p20_s01_lu048"
+      ],
+      "expression": "building / pulling",
+      "evidence_span": "Distinction will be his paramount object, and although he would as willingly, perhaps more so, acquire it by doing good as harm, yet, that opportunity being past, and nothing left to be done in the way of building up, he would set boldly to the task of pulling down.",
+      "source_domain_primary": "architecture_building",
+      "source_domain_secondary": [],
+      "target_domain": "government",
+      "conceptual_metaphor": "GOVERNMENT IS ARCHITECTURE BUILDING",
+      "entailments": [
+        "political inheritance or institutional work is represented as building and demolition",
+        "Political institutions are understood through built structure."
+      ],
+      "cluster_id": "lincoln-01-body-organism",
+      "confidence": 0.88,
+      "rival_reading": "Political work is construed as construction or demolition of a building.",
+      "justification": "MIPVU review rule '' marked 2 unit(s) as metaphor-related or uncertain in this sentence.",
+      "mapping_status": "provisional",
+      "rhetorical_salience": "high",
+      "rhetorical_functions": [
+        "argument"
+      ],
+      "ideological_functions": [
+        "legitimation"
+      ]
+    },
+    {
+      "mapping_id": "lincoln-cmt-041",
+      "case_id": "lincoln",
+      "document_id": "lincoln-lyceum-address",
+      "sentence_id": "lincoln-lyceum-address_s01_p23_s01",
+      "mipvu_ids": [
+        "lincoln-lyceum-address_s01_p23_s01_lu007"
+      ],
+      "expression": "fade",
+      "evidence_span": "But this state of feeling must fade, is fading, has faded, with the circumstances that produced it.",
+      "source_domain_primary": "body",
+      "source_domain_secondary": [],
+      "target_domain": "history",
+      "conceptual_metaphor": "HISTORY IS BODY",
+      "entailments": [
+        "emotion, memory, or influence loses force or becomes inactive",
+        "Collective memory and emotion are understood through embodied or visual states."
+      ],
+      "cluster_id": "lincoln-01-body-organism",
+      "confidence": 0.76,
+      "rival_reading": "Abstract passions and memories are treated as bodies, agents, or lights.",
+      "justification": "MIPVU review rule '' marked 1 unit(s) as metaphor-related or uncertain in this sentence.",
+      "mapping_status": "provisional",
+      "rhetorical_salience": "medium",
+      "rhetorical_functions": [
+        "argument"
+      ],
+      "ideological_functions": [
+        "legitimation"
+      ]
+    },
+    {
+      "mapping_id": "lincoln-cmt-042",
+      "case_id": "lincoln",
+      "document_id": "lincoln-lyceum-address",
+      "sentence_id": "lincoln-lyceum-address_s01_p24_s01",
+      "mipvu_ids": [
+        "lincoln-lyceum-address_s01_p24_s01_lu020",
+        "lincoln-lyceum-address_s01_p24_s01_lu028",
+        "lincoln-lyceum-address_s01_p24_s01_lu040"
+      ],
+      "expression": "forgotten / fade / dim",
+      "evidence_span": "I do not mean to say that the scenes of the Revolution are now or ever will be entirely forgotten, but that, like everything else, they must fade upon the memory of the world, and grow more and more dim by the lapse of time.",
+      "source_domain_primary": "life_death",
+      "source_domain_secondary": [],
+      "target_domain": "history",
+      "conceptual_metaphor": "HISTORY IS LIFE DEATH",
+      "entailments": [
+        "fame or memory persists or disappears as life, deathlessness, or downward sinking",
+        "emotion, memory, or influence loses force or becomes inactive",
+        "Historical memory is understood through life/death and vertical motion."
+      ],
+      "cluster_id": "lincoln-05-fathers-inheritance",
+      "confidence": 0.767,
+      "rival_reading": "Reputation and memory are treated through bodily life/death or physical descent.",
+      "justification": "MIPVU review rule '' marked 3 unit(s) as metaphor-related or uncertain in this sentence.",
+      "mapping_status": "provisional",
+      "rhetorical_salience": "medium",
+      "rhetorical_functions": [
+        "argument"
+      ],
+      "ideological_functions": [
+        "legitimation"
+      ]
+    },
+    {
+      "mapping_id": "lincoln-cmt-043",
+      "case_id": "lincoln",
+      "document_id": "lincoln-lyceum-address",
+      "sentence_id": "lincoln-lyceum-address_s01_p24_s05",
+      "mipvu_ids": [
+        "lincoln-lyceum-address_s01_p24_s05_lu022",
+        "lincoln-lyceum-address_s01_p24_s05_lu023",
+        "lincoln-lyceum-address_s01_p24_s05_lu030",
+        "lincoln-lyceum-address_s01_p24_s05_lu032",
+        "lincoln-lyceum-address_s01_p24_s05_lu033",
+        "lincoln-lyceum-address_s01_p24_s05_lu036",
+        "lincoln-lyceum-address_s01_p24_s05_lu060",
+        "lincoln-lyceum-address_s01_p24_s05_lu065"
+      ],
+      "expression": "living / history / family / history / bearing / testimonies / history / read",
+      "evidence_span": "The consequence was that of those scenes, in the form of a husband, a father, a son, or a brother, a living history was to be found in every family--a history bearing the indubitable testimonies of its own authenticity, in the limbs mangled, in the scars of wounds received, in the midst of the very scenes related--a history, too, that could be read and understood alike by all, the wise and the ignorant, the learned and the unlearned.",
+      "source_domain_primary": "body",
+      "source_domain_secondary": [],
+      "target_domain": "history",
+      "conceptual_metaphor": "HISTORY IS BODY",
+      "entailments": [
+        "Revolutionary veterans and family memory are treated as living/readable history",
+        "ambition and genius are represented through animals, height, paths, bodily appetite, fire, or stretching",
+        "Collective memory is understood through living bodies and written testimony."
+      ],
+      "cluster_id": "lincoln-01-body-organism",
+      "confidence": 0.846,
+      "rival_reading": "Historical memory is embodied in persons and wounds as if it were a living readable document.",
+      "justification": "MIPVU review rule '' marked 8 unit(s) as metaphor-related or uncertain in this sentence.",
+      "mapping_status": "provisional",
+      "rhetorical_salience": "high",
+      "rhetorical_functions": [
+        "argument"
+      ],
+      "ideological_functions": [
+        "legitimation"
+      ]
+    },
+    {
+      "mapping_id": "lincoln-cmt-044",
+      "case_id": "lincoln",
+      "document_id": "lincoln-lyceum-address",
+      "sentence_id": "lincoln-lyceum-address_s01_p24_s08",
+      "mipvu_ids": [
+        "lincoln-lyceum-address_s01_p24_s08_lu004",
+        "lincoln-lyceum-address_s01_p24_s08_lu006",
+        "lincoln-lyceum-address_s01_p24_s08_lu016",
+        "lincoln-lyceum-address_s01_p24_s08_lu018",
+        "lincoln-lyceum-address_s01_p24_s08_lu022",
+        "lincoln-lyceum-address_s01_p24_s08_lu025"
+      ],
+      "expression": "fortress / strength / artillery / time / leveling / walls",
+      "evidence_span": "They were a fortress of strength; but what invading foeman could never do the silent artillery of time has done--the leveling of its walls.",
+      "source_domain_primary": "war_combat",
+      "source_domain_secondary": [],
+      "target_domain": "history",
+      "conceptual_metaphor": "HISTORY IS WAR COMBAT",
+      "entailments": [
+        "living revolutionary memory is represented as a fortress destroyed by time's artillery",
+        "Historical memory is understood through military fortification and attack."
+      ],
+      "cluster_id": "lincoln-05-fathers-inheritance",
+      "confidence": 0.95,
+      "rival_reading": "Memory is not a fortification, and time does not literally fire artillery.",
+      "justification": "MIPVU review rule '' marked 6 unit(s) as metaphor-related or uncertain in this sentence.",
+      "mapping_status": "provisional",
+      "rhetorical_salience": "high",
+      "rhetorical_functions": [
+        "glorification"
+      ],
+      "ideological_functions": [
+        "violence_legitimation"
+      ]
+    },
+    {
+      "mapping_id": "lincoln-cmt-045",
+      "case_id": "lincoln",
+      "document_id": "lincoln-lyceum-address",
+      "sentence_id": "lincoln-lyceum-address_s01_p24_s10",
+      "mipvu_ids": [
+        "lincoln-lyceum-address_s01_p24_s10_lu004",
+        "lincoln-lyceum-address_s01_p24_s10_lu007",
+        "lincoln-lyceum-address_s01_p24_s10_lu011",
+        "lincoln-lyceum-address_s01_p24_s10_lu024",
+        "lincoln-lyceum-address_s01_p24_s10_lu028",
+        "lincoln-lyceum-address_s01_p24_s10_lu032",
+        "lincoln-lyceum-address_s01_p24_s10_lu037",
+        "lincoln-lyceum-address_s01_p24_s10_lu043",
+        "lincoln-lyceum-address_s01_p24_s10_lu050",
+        "lincoln-lyceum-address_s01_p24_s10_lu055",
+        "lincoln-lyceum-address_s01_p24_s10_lu058"
+      ],
+      "expression": "forest / oaks / hurricane / trunk / verdure / foliage / murmur / breezes / limbs / storms / sink",
+      "evidence_span": "They were a forest of giant oaks; but the all-restless hurricane has swept over them, and left only here and there a lonely trunk, despoiled of its verdure, shorn of its foliage, unshading and unshaded, to murmur in a few more gentle breezes, and to combat with its mutilated limbs a few more ruder storms, then to sink and be no more.",
+      "source_domain_primary": "nature_organism",
+      "source_domain_secondary": [],
+      "target_domain": "history",
+      "conceptual_metaphor": "HISTORY IS NATURE ORGANISM",
+      "entailments": [
+        "the Revolutionary generation is represented as a damaged forest of trees",
+        "fame or memory persists or disappears as life, deathlessness, or downward sinking",
+        "Historical generations are understood through trees and weather."
+      ],
+      "cluster_id": "lincoln-01-body-organism",
+      "confidence": 0.925,
+      "rival_reading": "Human generations and memory are explicitly construed as trees weathered by storms.",
+      "justification": "MIPVU review rule '' marked 11 unit(s) as metaphor-related or uncertain in this sentence.",
+      "mapping_status": "provisional",
+      "rhetorical_salience": "high",
+      "rhetorical_functions": [
+        "argument"
+      ],
+      "ideological_functions": [
+        "legitimation"
+      ]
+    },
+    {
+      "mapping_id": "lincoln-cmt-046",
+      "case_id": "lincoln",
+      "document_id": "lincoln-lyceum-address",
+      "sentence_id": "lincoln-lyceum-address_s01_p25_s01",
+      "mipvu_ids": [
+        "lincoln-lyceum-address_s01_p25_s01_lu003",
+        "lincoln-lyceum-address_s01_p25_s01_lu006",
+        "lincoln-lyceum-address_s01_p25_s01_lu008",
+        "lincoln-lyceum-address_s01_p25_s01_lu014",
+        "lincoln-lyceum-address_s01_p25_s01_lu017",
+        "lincoln-lyceum-address_s01_p25_s01_lu019",
+        "lincoln-lyceum-address_s01_p25_s01_lu024",
+        "lincoln-lyceum-address_s01_p25_s01_lu029",
+        "lincoln-lyceum-address_s01_p25_s01_lu030",
+        "lincoln-lyceum-address_s01_p25_s01_lu034",
+        "lincoln-lyceum-address_s01_p25_s01_lu037"
+      ],
+      "expression": "pillars / temple / liberty / crumbled / temple / fall / supply / pillars / hewn / quarry / reason",
+      "evidence_span": "They were pillars of the temple of liberty; and now that they have crumbled away that temple must fall unless we, their descendants, supply their places with other pillars, hewn from the solid quarry of sober reason.",
+      "source_domain_primary": "architecture_building",
+      "source_domain_secondary": [],
+      "target_domain": "freedom",
+      "conceptual_metaphor": "FREEDOM IS ARCHITECTURE BUILDING",
+      "entailments": [
+        "liberty and institutions are represented as a temple supported by pillars of reason",
+        "Liberty is understood through sacred architecture."
+      ],
+      "cluster_id": "lincoln-01-body-organism",
+      "confidence": 0.95,
+      "rival_reading": "Political liberty and rational support are explicitly construed as architectural materials.",
+      "justification": "MIPVU review rule '' marked 11 unit(s) as metaphor-related or uncertain in this sentence.",
+      "mapping_status": "provisional",
+      "rhetorical_salience": "high",
+      "rhetorical_functions": [
+        "argument"
+      ],
+      "ideological_functions": [
+        "legitimation"
+      ]
+    },
+    {
+      "mapping_id": "lincoln-cmt-047",
+      "case_id": "lincoln",
+      "document_id": "lincoln-lyceum-address",
+      "sentence_id": "lincoln-lyceum-address_s01_p25_s03",
+      "mipvu_ids": [
+        "lincoln-lyceum-address_s01_p25_s03_lu007"
+      ],
+      "expression": "enemy",
+      "evidence_span": "It will in future be our enemy.",
+      "source_domain_primary": "body",
+      "source_domain_secondary": [],
+      "target_domain": "citizenship",
+      "conceptual_metaphor": "CITIZENSHIP IS BODY",
+      "entailments": [
+        "reason, passion, and Washington's memory are represented through enemies, materials, support, sleep, and awakening",
+        "Civic memory and reason are understood through bodies and construction materials."
+      ],
+      "cluster_id": "lincoln-01-body-organism",
+      "confidence": 0.78,
+      "rival_reading": "Abstract civic faculties and memorial expectation are treated through bodily and material processes.",
+      "justification": "MIPVU review rule '' marked 1 unit(s) as metaphor-related or uncertain in this sentence.",
+      "mapping_status": "provisional",
+      "rhetorical_salience": "medium",
+      "rhetorical_functions": [
+        "argument"
+      ],
+      "ideological_functions": [
+        "legitimation"
+      ]
+    },
+    {
+      "mapping_id": "lincoln-cmt-048",
+      "case_id": "lincoln",
+      "document_id": "lincoln-lyceum-address",
+      "sentence_id": "lincoln-lyceum-address_s01_p25_s04",
+      "mipvu_ids": [
+        "lincoln-lyceum-address_s01_p25_s04_lu010",
+        "lincoln-lyceum-address_s01_p25_s04_lu014",
+        "lincoln-lyceum-address_s01_p25_s04_lu016"
+      ],
+      "expression": "materials / support / defense",
+      "evidence_span": "Reason cold, calculating, unimpassioned reason--must furnish all the materials for our future support and defense.",
+      "source_domain_primary": "body",
+      "source_domain_secondary": [],
+      "target_domain": "citizenship",
+      "conceptual_metaphor": "CITIZENSHIP IS BODY",
+      "entailments": [
+        "reason, passion, and Washington's memory are represented through enemies, materials, support, sleep, and awakening",
+        "Civic memory and reason are understood through bodies and construction materials."
+      ],
+      "cluster_id": "lincoln-01-body-organism",
+      "confidence": 0.78,
+      "rival_reading": "Abstract civic faculties and memorial expectation are treated through bodily and material processes.",
+      "justification": "MIPVU review rule '' marked 3 unit(s) as metaphor-related or uncertain in this sentence.",
+      "mapping_status": "provisional",
+      "rhetorical_salience": "medium",
+      "rhetorical_functions": [
+        "argument"
+      ],
+      "ideological_functions": [
+        "legitimation"
+      ]
+    },
+    {
+      "mapping_id": "lincoln-cmt-049",
+      "case_id": "lincoln",
+      "document_id": "lincoln-lyceum-address",
+      "sentence_id": "lincoln-lyceum-address_s01_p25_s05",
+      "mipvu_ids": [
+        "lincoln-lyceum-address_s01_p25_s05_lu003",
+        "lincoln-lyceum-address_s01_p25_s05_lu005",
+        "lincoln-lyceum-address_s01_p25_s05_lu047",
+        "lincoln-lyceum-address_s01_p25_s05_lu069",
+        "lincoln-lyceum-address_s01_p25_s05_lu071"
+      ],
+      "expression": "materials / moulded / sleep / trump / awaken",
+      "evidence_span": "Let those materials be moulded into general intelligence, sound morality, and in particular, a reverence for the Constitution and laws; and that we improved to the last, that we remained free to the last, that we revered his name to the last, that during his long sleep we permitted no hostile foot to pass over or desecrate his resting place, shall be that which to learn the last trump shall awaken our Washington.",
+      "source_domain_primary": "body",
+      "source_domain_secondary": [],
+      "target_domain": "citizenship",
+      "conceptual_metaphor": "CITIZENSHIP IS BODY",
+      "entailments": [
+        "reason, passion, and Washington's memory are represented through enemies, materials, support, sleep, and awakening",
+        "Civic memory and reason are understood through bodies and construction materials."
+      ],
+      "cluster_id": "lincoln-01-body-organism",
+      "confidence": 0.78,
+      "rival_reading": "Abstract civic faculties and memorial expectation are treated through bodily and material processes.",
+      "justification": "MIPVU review rule '' marked 5 unit(s) as metaphor-related or uncertain in this sentence.",
+      "mapping_status": "provisional",
+      "rhetorical_salience": "medium",
+      "rhetorical_functions": [
+        "argument"
+      ],
+      "ideological_functions": [
+        "legitimation"
+      ]
+    },
+    {
+      "mapping_id": "lincoln-cmt-050",
+      "case_id": "lincoln",
+      "document_id": "lincoln-lyceum-address",
+      "sentence_id": "lincoln-lyceum-address_s01_p26_s01",
+      "mipvu_ids": [
+        "lincoln-lyceum-address_s01_p26_s01_lu006",
+        "lincoln-lyceum-address_s01_p26_s01_lu008",
+        "lincoln-lyceum-address_s01_p26_s01_lu009",
+        "lincoln-lyceum-address_s01_p26_s01_lu012",
+        "lincoln-lyceum-address_s01_p26_s01_lu015",
+        "lincoln-lyceum-address_s01_p26_s01_lu029",
+        "lincoln-lyceum-address_s01_p26_s01_lu031",
+        "lincoln-lyceum-address_s01_p26_s01_lu034"
+      ],
+      "expression": "fabric / freedom / rest / rock / basis / gates / hell / prevail",
+      "evidence_span": "Upon these let the proud fabric of freedom rest, as the rock of its basis; and as truly as has been said of the only greater institution, \"the gates of hell shall not prevail against it.\"",
+      "source_domain_primary": "architecture_building",
+      "source_domain_secondary": [],
+      "target_domain": "freedom",
+      "conceptual_metaphor": "FREEDOM IS ARCHITECTURE BUILDING",
+      "entailments": [
+        "freedom is represented as a fabric or institution resting on rock and resisting gates of hell",
+        "Freedom is understood through built structure and biblical combat."
+      ],
+      "cluster_id": "lincoln-01-body-organism",
+      "confidence": 0.9,
+      "rival_reading": "Abstract freedom is construed as a physical structure with a foundation and biblical fortification imagery.",
+      "justification": "MIPVU review rule '' marked 8 unit(s) as metaphor-related or uncertain in this sentence.",
+      "mapping_status": "provisional",
+      "rhetorical_salience": "high",
+      "rhetorical_functions": [
+        "argument"
+      ],
+      "ideological_functions": [
+        "legitimation"
+      ]
+    },
+    {
+      "mapping_id": "lincoln-cmt-051",
+      "case_id": "lincoln",
+      "document_id": "lincoln-gettysburg-address",
+      "sentence_id": "lincoln-gettysburg-address_s01_p01_s01",
+      "mipvu_ids": [
+        "lincoln-gettysburg-address_s01_p01_s01_lu009",
+        "lincoln-gettysburg-address_s01_p01_s01_lu010",
+        "lincoln-gettysburg-address_s01_p01_s01_lu017",
+        "lincoln-gettysburg-address_s01_p01_s01_lu021"
+      ],
+      "expression": "brought / forth / conceived / dedicated",
+      "evidence_span": "Four score and seven years ago, our fathers brought forth upon this continent a new nation: conceived in liberty, and dedicated to the proposition that all men are created equal.",
+      "source_domain_primary": "birth_generation",
+      "source_domain_secondary": [],
+      "target_domain": "nation",
+      "conceptual_metaphor": "NATION IS BIRTH GENERATION",
+      "entailments": [
+        "political founding of a nation is represented through generation or birth",
+        "committed the nation or people to a political principle",
+        "Political founding is understood through human generation."
+      ],
+      "cluster_id": "lincoln-01-body-organism",
+      "confidence": 0.83,
+      "rival_reading": "The nation is not literally born, yet its founding is framed through birth-generation language.",
+      "justification": "MIPVU review rule '' marked 4 unit(s) as metaphor-related or uncertain in this sentence.",
+      "mapping_status": "provisional",
+      "rhetorical_salience": "high",
+      "rhetorical_functions": [
+        "national_self_definition"
+      ],
+      "ideological_functions": [
+        "obligation"
+      ]
+    },
+    {
+      "mapping_id": "lincoln-cmt-052",
+      "case_id": "lincoln",
+      "document_id": "lincoln-gettysburg-address",
+      "sentence_id": "lincoln-gettysburg-address_s01_p02_s01",
+      "mipvu_ids": [
+        "lincoln-gettysburg-address_s01_p02_s01_lu024"
+      ],
+      "expression": "endure",
+      "evidence_span": "Now we are engaged in a great civil war. . .testing whether that nation, or any nation so conceived and so dedicated. . . can long endure.",
+      "source_domain_primary": "nature_organism",
+      "source_domain_secondary": [],
+      "target_domain": "nation",
+      "conceptual_metaphor": "NATION IS NATURE ORGANISM",
+      "entailments": [
+        "the nation or government continues or ceases political existence",
+        "Political survival is understood through organismic life and death."
+      ],
+      "cluster_id": "lincoln-01-body-organism",
+      "confidence": 0.72,
+      "rival_reading": "A polity is not a biological organism, but its political existence is construed as bodily life or death.",
+      "justification": "MIPVU review rule '' marked 1 unit(s) as metaphor-related or uncertain in this sentence.",
+      "mapping_status": "provisional",
+      "rhetorical_salience": "medium",
+      "rhetorical_functions": [
+        "national_self_definition"
+      ],
+      "ideological_functions": [
+        "obligation"
+      ]
+    },
+    {
+      "mapping_id": "lincoln-cmt-053",
       "case_id": "lincoln",
       "document_id": "lincoln-gettysburg-address",
       "sentence_id": "lincoln-gettysburg-address_s01_p03_s01",
@@ -53,295 +1744,405 @@
         "lincoln-gettysburg-address_s01_p03_s01_lu020",
         "lincoln-gettysburg-address_s01_p03_s01_lu027"
       ],
-      "expression": "final resting place ... gave their lives that this nation might live",
+      "expression": "resting / gave / live",
       "evidence_span": "We have come to dedicate a portion of that field as a final resting place for those who here gave their lives that this nation might live.",
-      "source_domain_primary": "sacrifice",
-      "source_domain_secondary": [
-        "nature_organism",
-        "body"
-      ],
-      "target_domain": "nation",
-      "conceptual_metaphor": "SOLDIER DEATH IS A GIFT THAT PRESERVES NATIONAL LIFE",
+      "source_domain_primary": "body",
+      "source_domain_secondary": [],
+      "target_domain": "war_death",
+      "conceptual_metaphor": "WAR DEATH IS BODY",
       "entailments": [
-        "The soldiers' deaths are construed as meaningful offerings.",
-        "The nation is figured as a life that can be preserved by those deaths.",
-        "Burial and dedication convert loss into public obligation."
-      ],
-      "cluster_id": "lincoln-08-sacrificial-death-gift",
-      "confidence": 0.86,
-      "rival_reading": "The sentence may be read as solemn memorial diction rather than a fully active sacrificial mapping.",
-      "justification": "The mapping combines reviewed MIPVU evidence for resting, gave, and live in a single burial/dedication sentence.",
-      "mapping_status": "provisional",
-      "rhetorical_salience": "high",
-      "rhetorical_functions": [
-        "memorialization",
-        "consecration"
-      ],
-      "ideological_functions": [
-        "sacrifice",
-        "obligation"
-      ],
-      "diachronic_stage": "peak-war-sacrifice"
-    },
-    {
-      "mapping_id": "lincoln-cmt-003",
-      "case_id": "lincoln",
-      "document_id": "lincoln-gettysburg-address",
-      "sentence_id": "lincoln-gettysburg-address_s01_p05_s02",
-      "mipvu_ids": [
-        "lincoln-gettysburg-address_s01_p05_s02_lu009"
-      ],
-      "expression": "dedicated to the great task remaining before us",
-      "evidence_span": "It is rather for us to be here dedicated to the great task remaining before us.",
-      "source_domain_primary": "religion_providence",
-      "source_domain_secondary": [
-        "law_contract"
-      ],
-      "target_domain": "citizenship",
-      "conceptual_metaphor": "CIVIC DUTY IS SACRED DEDICATION",
-      "entailments": [
-        "Political commitment is treated as solemn devotion.",
-        "The living inherit an obligation generated by the dead.",
-        "Public work is elevated above ordinary preference."
-      ],
-      "cluster_id": "lincoln-06-providence-theodicy",
-      "confidence": 0.78,
-      "rival_reading": "Dedicated may function as conventional ceremonial diction with limited conceptual force.",
-      "justification": "The MIPVU unit dedicated records a contrast between public commitment and sacred/solemn setting apart.",
-      "mapping_status": "provisional",
-      "rhetorical_salience": "high",
-      "rhetorical_functions": [
-        "exhortation",
-        "consecration"
-      ],
-      "ideological_functions": [
-        "sacralization",
-        "obligation"
-      ],
-      "diachronic_stage": "peak-war-sacrifice"
-    },
-    {
-      "mapping_id": "lincoln-cmt-004",
-      "case_id": "lincoln",
-      "document_id": "lincoln-gettysburg-address",
-      "sentence_id": "lincoln-gettysburg-address_s01_p05_s02",
-      "mipvu_ids": [
-        "lincoln-gettysburg-address_s01_p05_s02_lu032",
-        "lincoln-gettysburg-address_s01_p05_s02_lu036"
-      ],
-      "expression": "gave the last full measure of devotion",
-      "evidence_span": "that cause for which they gave the last full measure of devotion",
-      "source_domain_primary": "sacrifice",
-      "source_domain_secondary": [
-        "debt_accounting"
-      ],
-      "target_domain": "civil_war",
-      "conceptual_metaphor": "MILITARY DEATH IS TOTAL DEVOTIONAL PAYMENT",
-      "entailments": [
-        "Death is framed as an offering or expenditure.",
-        "Devotion can be measured as though it were a quantity paid out.",
-        "The living can be obligated by the full payment of the dead."
-      ],
-      "cluster_id": "lincoln-08-sacrificial-death-gift",
-      "confidence": 0.84,
-      "rival_reading": "Measure may be conventional quantifying language rather than a distinct accounting source domain.",
-      "justification": "The mapping joins reviewed MIPVU evidence for gave and measure in the phrase that gives death an exchange/payment structure.",
-      "mapping_status": "provisional",
-      "rhetorical_salience": "high",
-      "rhetorical_functions": [
-        "memorialization",
-        "exhortation"
-      ],
-      "ideological_functions": [
-        "sacrifice",
-        "obligation"
-      ],
-      "diachronic_stage": "peak-war-sacrifice"
-    },
-    {
-      "mapping_id": "lincoln-cmt-005",
-      "case_id": "lincoln",
-      "document_id": "lincoln-gettysburg-address",
-      "sentence_id": "lincoln-gettysburg-address_s01_p05_s02",
-      "mipvu_ids": [
-        "lincoln-gettysburg-address_s01_p05_s02_lu062"
-      ],
-      "expression": "a new birth of freedom",
-      "evidence_span": "this nation, under God, shall have a new birth of freedom",
-      "source_domain_primary": "birth_generation",
-      "source_domain_secondary": [
-        "religion_providence"
-      ],
-      "target_domain": "freedom",
-      "conceptual_metaphor": "POLITICAL RENEWAL IS BIRTH",
-      "entailments": [
-        "Freedom can be renewed as a living thing comes into being.",
-        "War death becomes the condition for a future political life.",
-        "The nation is imagined as capable of rebirth rather than mere preservation."
-      ],
-      "cluster_id": "lincoln-04-birth-creation",
-      "confidence": 0.95,
-      "rival_reading": "Republican renewal formula; historical-semantics controls should prevent overstating biological literalness.",
-      "justification": "Birth is a direct MIPVU metaphor in the reviewed sample and is explicitly linked to freedom and national future.",
-      "mapping_status": "provisional",
-      "rhetorical_salience": "high",
-      "rhetorical_functions": [
-        "exhortation",
-        "national_self_definition"
-      ],
-      "ideological_functions": [
-        "redemption",
-        "sacralization"
-      ],
-      "diachronic_stage": "peak-war-sacrifice"
-    },
-    {
-      "mapping_id": "lincoln-cmt-006",
-      "case_id": "lincoln",
-      "document_id": "lincoln-gettysburg-address",
-      "sentence_id": "lincoln-gettysburg-address_s01_p05_s02",
-      "mipvu_ids": [
-        "lincoln-gettysburg-address_s01_p05_s02_lu079"
-      ],
-      "expression": "government ... shall not perish from this earth",
-      "evidence_span": "government of the people...by the people...for the people...shall not perish from this earth",
-      "source_domain_primary": "nature_organism",
-      "source_domain_secondary": [
-        "body"
-      ],
-      "target_domain": "democracy",
-      "conceptual_metaphor": "DEMOCRATIC GOVERNMENT IS A LIVING ORGANISM",
-      "entailments": [
-        "Government can die or survive as though it were alive.",
-        "The people's political form becomes a mortal life at risk.",
-        "Sacrificial duty is linked to democratic survival."
+        "burial or cemetery repose for the war dead",
+        "surrendered or offered their lives in battle",
+        "the nation would continue to exist politically",
+        "Death or burial is understood through bodily rest/repose."
       ],
       "cluster_id": "lincoln-01-body-organism",
-      "confidence": 0.9,
-      "rival_reading": "Perish can be a conventional verb for institutional failure; preserve conventionality in claims.",
-      "justification": "The MIPVU unit perish is reviewed as personification in a climactic democratic-survival clause.",
+      "confidence": 0.837,
+      "rival_reading": "The contextual meaning concerns burial/death rather than ordinary bodily rest after exertion.",
+      "justification": "MIPVU review rule '' marked 3 unit(s) as metaphor-related or uncertain in this sentence.",
       "mapping_status": "provisional",
       "rhetorical_salience": "high",
       "rhetorical_functions": [
-        "exhortation",
-        "national_self_definition"
+        "argument"
       ],
       "ideological_functions": [
-        "obligation"
-      ],
-      "diachronic_stage": "peak-war-sacrifice"
+        "legitimation"
+      ]
     },
     {
-      "mapping_id": "lincoln-cmt-007",
+      "mapping_id": "lincoln-cmt-054",
       "case_id": "lincoln",
-      "document_id": "lincoln-second-inaugural",
-      "sentence_id": "lincoln-second-inaugural_s01_p05_s04",
+      "document_id": "lincoln-gettysburg-address",
+      "sentence_id": "lincoln-gettysburg-address_s01_p04_s03",
       "mipvu_ids": [
-        "lincoln-second-inaugural_s01_p05_s04_lu026"
+        "lincoln-gettysburg-address_s01_p04_s03_lu002",
+        "lincoln-gettysburg-address_s01_p04_s03_lu005",
+        "lincoln-gettysburg-address_s01_p04_s03_lu008",
+        "lincoln-gettysburg-address_s01_p04_s03_lu017"
       ],
-      "expression": "all the wealth ... shall be sunk",
-      "evidence_span": "until all the wealth piled by the bondsman's two hundred and fifty years of unrequited toil shall be sunk",
-      "source_domain_primary": "debt_accounting",
-      "source_domain_secondary": [
-        "slavery_bondage"
-      ],
-      "target_domain": "slavery",
-      "conceptual_metaphor": "SLAVERY'S PROFIT IS MORAL DEBT",
+      "expression": "world / note / remember / forget",
+      "evidence_span": "The world will little note, nor long remember, what we say here, but it can never forget what they did here.",
+      "source_domain_primary": "body",
+      "source_domain_secondary": [],
+      "target_domain": "history",
+      "conceptual_metaphor": "HISTORY IS BODY",
       "entailments": [
-        "Enslaved labor is treated as accumulated wealth with moral liability.",
-        "The wealth can be consumed or exhausted as part of judgment.",
-        "Economic gain is brought under providential accounting."
+        "public memory is attributed to the world as an agent",
+        "Collective historical memory is understood through human cognition."
       ],
-      "cluster_id": "lincoln-06-providence-theodicy",
-      "confidence": 0.78,
-      "rival_reading": "Sunk may be a financial or material idiom without a full metaphorical debt structure.",
-      "justification": "The MIPVU unit sunk marks the movement from accumulated slave-produced wealth to exhaustion under divine will.",
+      "cluster_id": "lincoln-01-body-organism",
+      "confidence": 0.84,
+      "rival_reading": "The world is treated as a remembering person.",
+      "justification": "MIPVU review rule '' marked 4 unit(s) as metaphor-related or uncertain in this sentence.",
       "mapping_status": "provisional",
       "rhetorical_salience": "high",
       "rhetorical_functions": [
-        "accusation",
-        "prophecy"
+        "argument"
+      ],
+      "ideological_functions": [
+        "legitimation"
+      ]
+    },
+    {
+      "mapping_id": "lincoln-cmt-055",
+      "case_id": "lincoln",
+      "document_id": "lincoln-gettysburg-address",
+      "sentence_id": "lincoln-gettysburg-address_s01_p05_s02",
+      "mipvu_ids": [
+        "lincoln-gettysburg-address_s01_p05_s02_lu009",
+        "lincoln-gettysburg-address_s01_p05_s02_lu032",
+        "lincoln-gettysburg-address_s01_p05_s02_lu036",
+        "lincoln-gettysburg-address_s01_p05_s02_lu062",
+        "lincoln-gettysburg-address_s01_p05_s02_lu079"
+      ],
+      "expression": "dedicated / gave / measure / birth / perish",
+      "evidence_span": "It is rather for us to be here dedicated to the great task remaining before us. . .that from these honored dead we take increased devotion to that cause for which they gave the last full measure of devotion. . . that we here highly resolve that these dead shall not have died in vain. . . that this nation, under God, shall have a new birth of freedom. . . and that government of the people. . .by the people. . .for the people. . . shall not perish from this earth.",
+      "source_domain_primary": "religion_providence",
+      "source_domain_secondary": [],
+      "target_domain": "citizenship",
+      "conceptual_metaphor": "CITIZENSHIP IS RELIGION PROVIDENCE",
+      "entailments": [
+        "committed to public work or obligation",
+        "sacrificed or expended themselves for the cause",
+        "complete extent of devotion or sacrifice",
+        "political renewal of freedom after war sacrifice"
+      ],
+      "cluster_id": "lincoln-06-providence-theodicy",
+      "confidence": 0.85,
+      "rival_reading": "The living are not physically set apart like an object or place; they are morally committed to a public task.",
+      "justification": "MIPVU review rule '' marked 5 unit(s) as metaphor-related or uncertain in this sentence.",
+      "mapping_status": "provisional",
+      "rhetorical_salience": "high",
+      "rhetorical_functions": [
+        "sacralization"
       ],
       "ideological_functions": [
         "guilt_distribution"
-      ],
-      "diachronic_stage": "final-reconciliation-memorialization"
+      ]
     },
     {
-      "mapping_id": "lincoln-cmt-008",
+      "mapping_id": "lincoln-cmt-056",
       "case_id": "lincoln",
       "document_id": "lincoln-second-inaugural",
-      "sentence_id": "lincoln-second-inaugural_s01_p05_s04",
+      "sentence_id": "lincoln-second-inaugural_s01_p01_s03",
       "mipvu_ids": [
-        "lincoln-second-inaugural_s01_p05_s04_lu039",
-        "lincoln-second-inaugural_s01_p05_s04_lu045"
+        "lincoln-second-inaugural_s01_p01_s03_lu025",
+        "lincoln-second-inaugural_s01_p01_s03_lu028",
+        "lincoln-second-inaugural_s01_p01_s03_lu032"
       ],
-      "expression": "every drop of blood ... shall be paid by another drawn with the sword",
-      "evidence_span": "until every drop of blood drawn by the lash shall be paid by another drawn with the sword",
-      "source_domain_primary": "debt_accounting",
-      "source_domain_secondary": [
-        "war_combat",
-        "religion_providence"
-      ],
+      "expression": "contest / absorbs / engrosses",
+      "evidence_span": "Now, at the expiration of four years, during which public declarations have been constantly called forth on every point and phase of the great contest which still absorbs the attention and engrosses the energies of the nation, little that is new could be presented.",
+      "source_domain_primary": "war_combat",
+      "source_domain_secondary": [],
       "target_domain": "civil_war",
-      "conceptual_metaphor": "BLOODSHED IS MORAL REPAYMENT",
+      "conceptual_metaphor": "CIVIL WAR IS WAR COMBAT",
       "entailments": [
-        "Violence can be represented as payment for prior violence.",
-        "The Civil War becomes a moral accounting of slavery's lash.",
-        "Human blood is placed within a providential balance."
+        "the war and public attention are framed as combat and consuming attention",
+        "Political conflict is understood through combat and physical possession."
       ],
-      "cluster_id": "lincoln-06-providence-theodicy",
-      "confidence": 0.82,
-      "rival_reading": "Sword remains uncertain: it may be literal weapon, metonym for war, or biblical idiom.",
-      "justification": "The mapping links the high-confidence paid unit with the explicitly uncertain sword unit and preserves the uncertainty in the rival reading.",
+      "cluster_id": "lincoln-01-body-organism",
+      "confidence": 0.72,
+      "rival_reading": "Public affairs and attention are construed through combat and physical absorption.",
+      "justification": "MIPVU review rule '' marked 3 unit(s) as metaphor-related or uncertain in this sentence.",
       "mapping_status": "provisional",
-      "rhetorical_salience": "high",
+      "rhetorical_salience": "medium",
       "rhetorical_functions": [
-        "accusation",
-        "prophecy"
+        "glorification"
       ],
       "ideological_functions": [
-        "guilt_distribution",
-        "redemption"
-      ],
-      "diachronic_stage": "final-reconciliation-memorialization"
+        "violence_legitimation"
+      ]
     },
     {
-      "mapping_id": "lincoln-cmt-009",
+      "mapping_id": "lincoln-cmt-057",
       "case_id": "lincoln",
       "document_id": "lincoln-second-inaugural",
-      "sentence_id": "lincoln-second-inaugural_s01_p05_s04",
+      "sentence_id": "lincoln-second-inaugural_s01_p02_s03",
       "mipvu_ids": [
-        "lincoln-second-inaugural_s01_p05_s04_lu060"
+        "lincoln-second-inaugural_s01_p02_s03_lu033",
+        "lincoln-second-inaugural_s01_p02_s03_lu037"
       ],
-      "expression": "The judgments of the Lord are true and righteous altogether",
-      "evidence_span": "The judgments of the Lord are true and righteous altogether.",
-      "source_domain_primary": "law_contract",
-      "source_domain_secondary": [
-        "religion_providence"
-      ],
-      "target_domain": "providence",
-      "conceptual_metaphor": "DIVINE WILL IS RIGHTEOUS JUDGMENT",
+      "expression": "dissolve / divide",
+      "evidence_span": "While the inaugural address was being delivered from this place, devoted altogether to saving the Union without war, insurgent agents were in the city seeking to destroy it without war-- seeking to dissolve the Union, and divide effects, by negotiation.",
+      "source_domain_primary": "object_material",
+      "source_domain_secondary": [],
+      "target_domain": "union",
+      "conceptual_metaphor": "UNION IS OBJECT MATERIAL",
       "entailments": [
-        "Providence is understood through legal judgment.",
-        "War suffering can be construed as sentence rather than accident.",
-        "Human claims are subordinated to divine adjudication."
+        "the Union is represented as a body or material object that can be torn, dissolved, or divided",
+        "Political union is understood through material cohesion."
       ],
-      "cluster_id": "lincoln-06-providence-theodicy",
-      "confidence": 0.6,
-      "rival_reading": "Biblical quotation may function as doctrinal citation rather than independently mapped metaphor.",
-      "justification": "The MIPVU unit judgments is uncertain, so this mapping is retained as provisional and low-confidence.",
+      "cluster_id": "lincoln-02-covenant-oath",
+      "confidence": 0.86,
+      "rival_reading": "The constitutional Union is abstract-political but construed as a separable material entity.",
+      "justification": "MIPVU review rule '' marked 2 unit(s) as metaphor-related or uncertain in this sentence.",
       "mapping_status": "provisional",
       "rhetorical_salience": "high",
       "rhetorical_functions": [
-        "prophecy",
-        "reconciliation"
+        "argument"
       ],
       "ideological_functions": [
-        "guilt_distribution",
+        "legitimation"
+      ]
+    },
+    {
+      "mapping_id": "lincoln-cmt-058",
+      "case_id": "lincoln",
+      "document_id": "lincoln-second-inaugural",
+      "sentence_id": "lincoln-second-inaugural_s01_p02_s04",
+      "mipvu_ids": [
+        "lincoln-second-inaugural_s01_p02_s04_lu017",
+        "lincoln-second-inaugural_s01_p02_s04_lu028"
+      ],
+      "expression": "survive / perish",
+      "evidence_span": "Both parties deprecated war; but one of them would make war rather than let the nation survive; and the other would accept war rather than let it perish.",
+      "source_domain_primary": "nature_organism",
+      "source_domain_secondary": [],
+      "target_domain": "nation",
+      "conceptual_metaphor": "NATION IS NATURE ORGANISM",
+      "entailments": [
+        "the nation or government continues or ceases political existence",
+        "Political survival is understood through organismic life and death."
+      ],
+      "cluster_id": "lincoln-01-body-organism",
+      "confidence": 0.9,
+      "rival_reading": "A polity is not a biological organism, but its political existence is construed as bodily life or death.",
+      "justification": "MIPVU review rule '' marked 2 unit(s) as metaphor-related or uncertain in this sentence.",
+      "mapping_status": "provisional",
+      "rhetorical_salience": "high",
+      "rhetorical_functions": [
+        "national_self_definition"
+      ],
+      "ideological_functions": [
+        "obligation"
+      ]
+    },
+    {
+      "mapping_id": "lincoln-cmt-059",
+      "case_id": "lincoln",
+      "document_id": "lincoln-second-inaugural",
+      "sentence_id": "lincoln-second-inaugural_s01_p03_s04",
+      "mipvu_ids": [
+        "lincoln-second-inaugural_s01_p03_s04_lu016"
+      ],
+      "expression": "rend",
+      "evidence_span": "To strengthen, perpetuate, and extend this interest was the object for which the insurgents would rend the Union, even by war; while the government claimed no right to do more than to restrict the territorial enlargement of it.",
+      "source_domain_primary": "object_material",
+      "source_domain_secondary": [],
+      "target_domain": "union",
+      "conceptual_metaphor": "UNION IS OBJECT MATERIAL",
+      "entailments": [
+        "the Union is represented as a body or material object that can be torn, dissolved, or divided",
+        "Political union is understood through material cohesion."
+      ],
+      "cluster_id": "lincoln-02-covenant-oath",
+      "confidence": 0.86,
+      "rival_reading": "The constitutional Union is abstract-political but construed as a separable material entity.",
+      "justification": "MIPVU review rule '' marked 1 unit(s) as metaphor-related or uncertain in this sentence.",
+      "mapping_status": "provisional",
+      "rhetorical_salience": "high",
+      "rhetorical_functions": [
+        "argument"
+      ],
+      "ideological_functions": [
+        "legitimation"
+      ]
+    },
+    {
+      "mapping_id": "lincoln-cmt-060",
+      "case_id": "lincoln",
+      "document_id": "lincoln-second-inaugural",
+      "sentence_id": "lincoln-second-inaugural_s01_p04_s05",
+      "mipvu_ids": [
+        "lincoln-second-inaugural_s01_p04_s05_lu017",
+        "lincoln-second-inaugural_s01_p04_s05_lu019",
+        "lincoln-second-inaugural_s01_p04_s05_lu022",
+        "lincoln-second-inaugural_s01_p04_s05_lu026"
+      ],
+      "expression": "wringing / bread / sweat / faces",
+      "evidence_span": "It may seem strange that any men should dare to ask a just God's assistance in wringing their bread from the sweat of other men's faces; but let us judge not, that we be not judged.",
+      "source_domain_primary": "body",
+      "source_domain_secondary": [],
+      "target_domain": "slavery",
+      "conceptual_metaphor": "SLAVERY IS BODY",
+      "entailments": [
+        "enslaved labor is represented through extracting bread from bodily sweat",
+        "Slavery's labor economy is understood through bodily extraction."
+      ],
+      "cluster_id": "lincoln-01-body-organism",
+      "confidence": 0.84,
+      "rival_reading": "The expression frames exploitation through bodily extraction and biblical labor idiom.",
+      "justification": "MIPVU review rule '' marked 4 unit(s) as metaphor-related or uncertain in this sentence.",
+      "mapping_status": "provisional",
+      "rhetorical_salience": "high",
+      "rhetorical_functions": [
+        "argument"
+      ],
+      "ideological_functions": [
+        "legitimation"
+      ]
+    },
+    {
+      "mapping_id": "lincoln-cmt-061",
+      "case_id": "lincoln",
+      "document_id": "lincoln-second-inaugural",
+      "sentence_id": "lincoln-second-inaugural_s01_p05_s02",
+      "mipvu_ids": [
+        "lincoln-second-inaugural_s01_p05_s02_lu001",
+        "lincoln-second-inaugural_s01_p05_s02_lu007",
+        "lincoln-second-inaugural_s01_p05_s02_lu014",
+        "lincoln-second-inaugural_s01_p05_s02_lu017",
+        "lincoln-second-inaugural_s01_p05_s02_lu024",
+        "lincoln-second-inaugural_s01_p05_s02_lu037",
+        "lincoln-second-inaugural_s01_p05_s02_lu041",
+        "lincoln-second-inaugural_s01_p05_s02_lu063",
+        "lincoln-second-inaugural_s01_p05_s02_lu074",
+        "lincoln-second-inaugural_s01_p05_s02_lu081"
+      ],
+      "expression": "Woe / offenses / offenses / woe / offense / offenses / providence / gives / woe / offense",
+      "evidence_span": "\"Woe unto the world because of offenses! for it must needs be that offenses come; but woe to that man by whom the offense cometh.\" If we shall suppose that American slavery is one of those offenses which, in the providence of God, must needs come, but which, having continued through his appointed time, he now wills to remove, and that he gives to both North and South this terrible war, as the woe due to those by whom the offense came, shall we discern therein any departure from those divine attributes which the believers in a living God always ascribe to him?",
+      "source_domain_primary": "religion_providence",
+      "source_domain_secondary": [],
+      "target_domain": "slavery",
+      "conceptual_metaphor": "SLAVERY IS RELIGION PROVIDENCE",
+      "entailments": [
+        "slavery and war are framed through biblical offense, woe, providence, and divine giving",
+        "Historical causation may be understood through biblical moral accounting."
+      ],
+      "cluster_id": "lincoln-06-providence-theodicy",
+      "confidence": 0.58,
+      "rival_reading": "Biblical usage may be conventional theological idiom rather than a separable metaphor.",
+      "justification": "MIPVU review rule '' marked 10 unit(s) as metaphor-related or uncertain in this sentence.",
+      "mapping_status": "provisional",
+      "rhetorical_salience": "medium",
+      "rhetorical_functions": [
         "sacralization"
       ],
-      "diachronic_stage": "final-reconciliation-memorialization"
+      "ideological_functions": [
+        "guilt_distribution"
+      ]
+    },
+    {
+      "mapping_id": "lincoln-cmt-062",
+      "case_id": "lincoln",
+      "document_id": "lincoln-second-inaugural",
+      "sentence_id": "lincoln-second-inaugural_s01_p05_s03",
+      "mipvu_ids": [
+        "lincoln-second-inaugural_s01_p05_s03_lu012",
+        "lincoln-second-inaugural_s01_p05_s03_lu017"
+      ],
+      "expression": "scourge / pass",
+      "evidence_span": "Fondly do we hope--fervently do we pray--that this mighty scourge of war may speedily pass away.",
+      "source_domain_primary": "body",
+      "source_domain_secondary": [],
+      "target_domain": "war_death",
+      "conceptual_metaphor": "WAR DEATH IS BODY",
+      "entailments": [
+        "war is represented as a divine or punitive scourge that passes away",
+        "War is understood through punitive bodily punishment."
+      ],
+      "cluster_id": "lincoln-01-body-organism",
+      "confidence": 0.82,
+      "rival_reading": "War is not literally a whip, but it is explicitly called a scourge.",
+      "justification": "MIPVU review rule '' marked 2 unit(s) as metaphor-related or uncertain in this sentence.",
+      "mapping_status": "provisional",
+      "rhetorical_salience": "high",
+      "rhetorical_functions": [
+        "argument"
+      ],
+      "ideological_functions": [
+        "legitimation"
+      ]
+    },
+    {
+      "mapping_id": "lincoln-cmt-063",
+      "case_id": "lincoln",
+      "document_id": "lincoln-second-inaugural",
+      "sentence_id": "lincoln-second-inaugural_s01_p05_s04",
+      "mipvu_ids": [
+        "lincoln-second-inaugural_s01_p05_s04_lu026",
+        "lincoln-second-inaugural_s01_p05_s04_lu039",
+        "lincoln-second-inaugural_s01_p05_s04_lu045",
+        "lincoln-second-inaugural_s01_p05_s04_lu060"
+      ],
+      "expression": "sunk / paid / sword / judgments",
+      "evidence_span": "Yet, if God wills that it continue until all the wealth piled by the bondsman's two hundred and fifty years of unrequited toil shall be sunk, and until every drop of blood drawn by the lash shall be paid by another drawn with the sword, as was said three thousand years ago, so still it must be said, \"The judgments of the Lord are true and righteous altogether.\"",
+      "source_domain_primary": "debt_accounting",
+      "source_domain_secondary": [],
+      "target_domain": "slavery",
+      "conceptual_metaphor": "SLAVERY IS DEBT ACCOUNTING",
+      "entailments": [
+        "wealth produced by enslaved labor is exhausted or consumed",
+        "bloodshed is morally repaid by further bloodshed in war",
+        "war violence or armed force in the repayment phrase",
+        "divine moral determinations concerning the war and slavery"
+      ],
+      "cluster_id": "lincoln-07-absence-black-agency",
+      "confidence": 0.718,
+      "rival_reading": "Wealth is not literally submerged; it is imagined as disappearing downward or being consumed.",
+      "justification": "MIPVU review rule '' marked 4 unit(s) as metaphor-related or uncertain in this sentence.",
+      "mapping_status": "provisional",
+      "rhetorical_salience": "medium",
+      "rhetorical_functions": [
+        "argument"
+      ],
+      "ideological_functions": [
+        "legitimation"
+      ]
+    },
+    {
+      "mapping_id": "lincoln-cmt-064",
+      "case_id": "lincoln",
+      "document_id": "lincoln-second-inaugural",
+      "sentence_id": "lincoln-second-inaugural_s01_p06_s01",
+      "mipvu_ids": [
+        "lincoln-second-inaugural_s01_p06_s01_lu034",
+        "lincoln-second-inaugural_s01_p06_s01_lu038",
+        "lincoln-second-inaugural_s01_p06_s01_lu063"
+      ],
+      "expression": "bind / wounds / cherish",
+      "evidence_span": "With malice toward none; with charity for all; with firmness in the right, as God gives us to see the right, let us strive on to finish the work we are in; to bind up the nation's wounds; to care for him who shall have borne the battle, and for his widow, and his orphan--to do all which may achieve and cherish a just and lasting peace among ourselves, and with all nations.",
+      "source_domain_primary": "body",
+      "source_domain_secondary": [],
+      "target_domain": "nation",
+      "conceptual_metaphor": "NATION IS BODY",
+      "entailments": [
+        "repairing the nation after war",
+        "peace is treated as something to nurture and hold dear",
+        "Political reconciliation is understood through healing an injured body."
+      ],
+      "cluster_id": "lincoln-01-body-organism",
+      "confidence": 0.86,
+      "rival_reading": "The nation is treated as an injured body capable of wounds and care.",
+      "justification": "MIPVU review rule '' marked 3 unit(s) as metaphor-related or uncertain in this sentence.",
+      "mapping_status": "provisional",
+      "rhetorical_salience": "high",
+      "rhetorical_functions": [
+        "national_self_definition"
+      ],
+      "ideological_functions": [
+        "obligation"
+      ]
     }
   ]
 }
