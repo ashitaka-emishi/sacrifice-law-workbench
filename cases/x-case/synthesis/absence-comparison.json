@@ -1,4 +1,161 @@
 {
+  "version": "1.0",
+  "case_id": "x-case",
+  "generated_at": "2026-06-17T16:56:27",
   "status": "draft",
-  "items": []
+  "method_note": "Each absence row is a review question per case; cross-case patterns are not confirmed findings.",
+  "items": [
+    {
+      "case_id": "am-rev",
+      "absence_id": "am-rev-absence-001",
+      "cluster_id": "am-rev-01-liberty-tyranny",
+      "metaphor_system": "Liberty versus tyranny / slavery",
+      "excluded_agents": [
+        "enslaved people",
+        "Indigenous peoples",
+        "women"
+      ],
+      "displacement_mechanism": "Political slavery is foregrounded as metaphor while chattel slavery is structurally absent from the rights claim.",
+      "claim_boundary": "A structural absence in the founding documents; not a peripheral oversight."
+    },
+    {
+      "case_id": "am-rev",
+      "absence_id": "am-rev-absence-002",
+      "cluster_id": "am-rev-03-founding-sacrifice",
+      "metaphor_system": "Founding sacrifice / blood of liberty",
+      "excluded_agents": [
+        "Black soldiers (free and enslaved)",
+        "Indigenous allies and opponents",
+        "women in the war effort"
+      ],
+      "displacement_mechanism": "Universal founding-sacrifice language naturalizes an exclusive beneficiary class.",
+      "claim_boundary": "Review question for fuller historical corroboration."
+    },
+    {
+      "case_id": "am-rev",
+      "absence_id": "am-rev-absence-003",
+      "cluster_id": "am-rev-02-people-republic",
+      "metaphor_system": "The people / republic as sacred political object",
+      "excluded_agents": [
+        "enslaved people",
+        "Indigenous peoples",
+        "non-propertied men",
+        "women"
+      ],
+      "displacement_mechanism": "Universal-people rhetoric suppresses the particularity of its exclusions.",
+      "claim_boundary": "Structural absence at the founding; well-documented in historical scholarship."
+    },
+    {
+      "case_id": "hitler",
+      "absence_id": "hitler-absence-001",
+      "cluster_id": "hitler-03-jew-parasite-disease",
+      "metaphor_system": "Jew / enemy as parasite / disease / poison",
+      "excluded_agents": [
+        "Jewish political, cultural, and social actors",
+        "targets of Nazi persecution with no counter-voice in this corpus"
+      ],
+      "displacement_mechanism": "Pathogen framing suppresses Jewish subjectivity entirely; the ideology constructs its own victims as its agents.",
+      "claim_boundary": "Not an absence in the usual sense — an active erasure that is the ideological goal of the texts under analysis."
+    },
+    {
+      "case_id": "hitler",
+      "absence_id": "hitler-absence-002",
+      "cluster_id": "hitler-06-sacrifice-martyrdom",
+      "metaphor_system": "Sacrifice / martyrdom / blood witness",
+      "excluded_agents": [
+        "victims of Nazi political violence",
+        "populations killed by the state the movement created"
+      ],
+      "displacement_mechanism": "Martyrology concentrates sacrificial meaning on perpetrators while suppressing the deaths it caused.",
+      "claim_boundary": "Requires historical corroboration for the full scope of victim suppression."
+    },
+    {
+      "case_id": "hitler",
+      "absence_id": "hitler-absence-003",
+      "cluster_id": "hitler-01-volk-racial-body",
+      "metaphor_system": "Volk / racial body",
+      "excluded_agents": [
+        "Jewish, Roma, disabled, homosexual, and other excluded populations",
+        "political opponents within the Volk"
+      ],
+      "displacement_mechanism": "Racial-body rhetoric naturalizes exclusion and murder as organic necessity.",
+      "claim_boundary": "The logic of racial-body rhetoric directly authorized genocide; this is not a hypothesis but a historical fact."
+    },
+    {
+      "case_id": "lincoln",
+      "absence_id": "lincoln-absence-001",
+      "cluster_id": "lincoln-08-sacrificial-death-gift",
+      "metaphor_system": "Soldier death as sacrifice / gift",
+      "excluded_agents": [
+        "Confederate soldiers as subjects",
+        "civilian casualties"
+      ],
+      "displacement_mechanism": "Bodily loss is displaced into national obligation and cemetery consecration.",
+      "claim_boundary": "Systematic absence candidate; requires fuller corpus review before becoming a case-level finding."
+    },
+    {
+      "case_id": "lincoln",
+      "absence_id": "lincoln-absence-002",
+      "cluster_id": "lincoln-06-providence-theodicy",
+      "metaphor_system": "Providential judgment and moral accounting",
+      "excluded_agents": [
+        "Black soldiers and activists",
+        "specific enslavers",
+        "military perpetrators"
+      ],
+      "displacement_mechanism": "Providential grammar can widen guilt but also blur differentiated human agency.",
+      "claim_boundary": "Interpretive caution, not a claim that Lincoln intentionally suppressed agency."
+    },
+    {
+      "case_id": "lincoln",
+      "absence_id": "lincoln-absence-003",
+      "cluster_id": "lincoln-01-body-organism",
+      "metaphor_system": "Nation or government as living organism",
+      "excluded_agents": [
+        "named opponents",
+        "excluded populations outside the citizen 'we'"
+      ],
+      "displacement_mechanism": "Conflict is condensed into organism survival rather than social plurality.",
+      "claim_boundary": "Useful for rhetorical analysis; not by itself evidence of coercive policy."
+    },
+    {
+      "case_id": "napoleon",
+      "absence_id": "napoleon-absence-001",
+      "cluster_id": "napoleon-05-soldier-sacrifice",
+      "metaphor_system": "Soldier sacrifice / honor / immortality",
+      "excluded_agents": [
+        "enemy dead and wounded as subjects",
+        "families of the fallen",
+        "civilians in war zones"
+      ],
+      "displacement_mechanism": "Glory and destiny convert individual deaths into abstract historical capital.",
+      "claim_boundary": "Most clearly evidenced at Eylau; requires corroboration from non-bulletin sources."
+    },
+    {
+      "case_id": "napoleon",
+      "absence_id": "napoleon-absence-002",
+      "cluster_id": "napoleon-06-enemy-obstacle",
+      "metaphor_system": "Enemy as obstacle to order / destiny",
+      "excluded_agents": [
+        "enemy civilian populations",
+        "resistance fighters",
+        "populations under French occupation"
+      ],
+      "displacement_mechanism": "Obstacle framing suppresses enemy agency and civilian experience of conquest.",
+      "claim_boundary": "A structural feature of the bulletin genre; requires non-French sources for the other side."
+    },
+    {
+      "case_id": "napoleon",
+      "absence_id": "napoleon-absence-003",
+      "cluster_id": "napoleon-03-emperor-embodiment",
+      "metaphor_system": "Emperor as embodiment of France / history",
+      "excluded_agents": [
+        "deserters",
+        "conscripts under coercion",
+        "subject peoples of the Empire"
+      ],
+      "displacement_mechanism": "Embodiment rhetoric naturalizes coercive military service as voluntary devotion.",
+      "claim_boundary": "Requires corroboration from non-official sources (memoirs, administrative records)."
+    }
+  ]
 }

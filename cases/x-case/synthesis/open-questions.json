@@ -1,4 +1,79 @@
 {
+  "version": "1.0",
+  "case_id": "x-case",
+  "generated_at": "2026-06-17T16:56:27",
   "status": "draft",
-  "items": []
+  "items": [
+    {
+      "question_id": "xq-001",
+      "question": "Do all four cases share a common sacrificial economy logic, or do preservation, glory, and extermination differ structurally?",
+      "relevant_cases": [
+        "lincoln",
+        "napoleon",
+        "am-rev",
+        "hitler"
+      ],
+      "status": "open",
+      "dependency": "All four cases require support-rating adjudication before this can be answered."
+    },
+    {
+      "question_id": "xq-002",
+      "question": "Is the enemy-as-bringer-of-death dimension present with comparable salience across all cases?",
+      "relevant_cases": [
+        "lincoln",
+        "napoleon",
+        "am-rev",
+        "hitler"
+      ],
+      "status": "open",
+      "dependency": "Lincoln pilot evidence shows weak enemy-death salience; other cases remain unrated."
+    },
+    {
+      "question_id": "xq-003",
+      "question": "Does the obligatory frame appear in all cases, or only in cases with explicit covenantal or martyrological rhetoric?",
+      "relevant_cases": [
+        "lincoln",
+        "am-rev",
+        "napoleon",
+        "hitler"
+      ],
+      "status": "open",
+      "dependency": "Per-case obligatory-frame rates require case-level adjudication."
+    },
+    {
+      "question_id": "xq-004",
+      "question": "Do absence patterns differ systematically by case type (war preservation vs. imperial vs. founding vs. genocide)?",
+      "relevant_cases": [
+        "lincoln",
+        "napoleon",
+        "am-rev",
+        "hitler"
+      ],
+      "status": "open",
+      "dependency": "Absence rows exist for all four cases but have not been cross-case adjudicated."
+    },
+    {
+      "question_id": "xq-005",
+      "question": "What is the structural role of the providence / historical destiny cluster across cases? Is it a universal feature or a historically specific one?",
+      "relevant_cases": [
+        "lincoln",
+        "am-rev",
+        "napoleon",
+        "hitler"
+      ],
+      "status": "open",
+      "dependency": "Providence appears in lincoln, am-rev, and napoleon clusters; hitler uses destiny differently. Requires comparative analysis."
+    },
+    {
+      "question_id": "xq-006",
+      "question": "When will case-level support ratings be available for: hitler, napoleon, am-rev?",
+      "relevant_cases": [
+        "hitler",
+        "napoleon",
+        "am-rev"
+      ],
+      "status": "blocking",
+      "dependency": "These cases block all cross-case claims that require support-score comparisons."
+    }
+  ]
 }

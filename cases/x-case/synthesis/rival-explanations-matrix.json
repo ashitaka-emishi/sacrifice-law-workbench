@@ -1,4 +1,482 @@
 {
+  "version": "1.0",
+  "case_id": "x-case",
+  "generated_at": "2026-06-17T16:56:27",
   "status": "draft",
-  "items": []
+  "items": [
+    {
+      "case_id": "am-rev",
+      "cluster_id": "am-rev-01-liberty-tyranny",
+      "rival_reading": "Abstract faculties are treated as embodied perceivers or speakers.",
+      "claim_boundary": "Rival readings are per-mapping annotations; cross-case patterns require analyst review."
+    },
+    {
+      "case_id": "am-rev",
+      "cluster_id": "am-rev-01-liberty-tyranny",
+      "rival_reading": "Military and political actions are represented through bodily death-work and national embodiment.",
+      "claim_boundary": "Rival readings are per-mapping annotations; cross-case patterns require analyst review."
+    },
+    {
+      "case_id": "am-rev",
+      "cluster_id": "am-rev-01-liberty-tyranny",
+      "rival_reading": "Paine applies coercive bodily restraint vocabulary to constitutional and imperial dependence.",
+      "claim_boundary": "Rival readings are per-mapping annotations; cross-case patterns require analyst review."
+    },
+    {
+      "case_id": "am-rev",
+      "cluster_id": "am-rev-01-liberty-tyranny",
+      "rival_reading": "Paine uses physical mortality to explain the social necessity of cooperation.",
+      "claim_boundary": "Rival readings are per-mapping annotations; cross-case patterns require analyst review."
+    },
+    {
+      "case_id": "am-rev",
+      "cluster_id": "am-rev-01-liberty-tyranny",
+      "rival_reading": "The war is literal, but the phrase condenses political destruction into conventional elemental and bodily imagery.",
+      "claim_boundary": "Rival readings are per-mapping annotations; cross-case patterns require analyst review."
+    },
+    {
+      "case_id": "am-rev",
+      "cluster_id": "am-rev-02-people-republic",
+      "rival_reading": "Legal-political entities do not literally suffer bodily injury or exposure.",
+      "claim_boundary": "Rival readings are per-mapping annotations; cross-case patterns require analyst review."
+    },
+    {
+      "case_id": "am-rev",
+      "cluster_id": "am-rev-02-people-republic",
+      "rival_reading": "Political colonies, pamphlets, and founding moments are not literal parents, infants, worlds, or births.",
+      "claim_boundary": "Rival readings are per-mapping annotations; cross-case patterns require analyst review."
+    },
+    {
+      "case_id": "am-rev",
+      "cluster_id": "am-rev-02-people-republic",
+      "rival_reading": "Some war deaths are literal, but Paine's rhetoric gives them sacrificial political meaning.",
+      "claim_boundary": "Rival readings are per-mapping annotations; cross-case patterns require analyst review."
+    },
+    {
+      "case_id": "am-rev",
+      "cluster_id": "am-rev-03-founding-sacrifice",
+      "rival_reading": "The pledge is a real political act, but the closing formula gives it sacred and sacrificial force.",
+      "claim_boundary": "Rival readings are per-mapping annotations; cross-case patterns require analyst review."
+    },
+    {
+      "case_id": "am-rev",
+      "cluster_id": "am-rev-04-providence-covenant",
+      "rival_reading": "Royal authority is political, but Paine frames it through religious transgression and bodily mortality.",
+      "claim_boundary": "Rival readings are per-mapping annotations; cross-case patterns require analyst review."
+    },
+    {
+      "case_id": "am-rev",
+      "cluster_id": "am-rev-05-virtue-corruption",
+      "rival_reading": "Social formation and moral purity are abstract but are explained through physical force and fortification.",
+      "claim_boundary": "Rival readings are per-mapping annotations; cross-case patterns require analyst review."
+    },
+    {
+      "case_id": "am-rev",
+      "cluster_id": "am-rev-06-union-founding-memory",
+      "rival_reading": "Political collectives and constitutions are abstract institutions, not literal bodies or machines.",
+      "claim_boundary": "Rival readings are per-mapping annotations; cross-case patterns require analyst review."
+    },
+    {
+      "case_id": "am-rev",
+      "cluster_id": "am-rev-06-union-founding-memory",
+      "rival_reading": "Political development is abstract but is construed as organic growth.",
+      "claim_boundary": "Rival readings are per-mapping annotations; cross-case patterns require analyst review."
+    },
+    {
+      "case_id": "am-rev",
+      "cluster_id": "am-rev-06-union-founding-memory",
+      "rival_reading": "Political oppression and institutional remedies are abstract but are framed through physical subjection and protection.",
+      "claim_boundary": "Rival readings are per-mapping annotations; cross-case patterns require analyst review."
+    },
+    {
+      "case_id": "am-rev",
+      "cluster_id": "am-rev-06-union-founding-memory",
+      "rival_reading": "The relation among peoples and states is political, not a literal band or substance.",
+      "claim_boundary": "Rival readings are per-mapping annotations; cross-case patterns require analyst review."
+    },
+    {
+      "case_id": "hitler",
+      "cluster_id": "hitler-01-volk-racial-body",
+      "rival_reading": "Battle-victory is extended to denote the triumph of races, ideologies, or laws of nature; the competitive combat source domain is applied to politics and biology.",
+      "claim_boundary": "Rival readings are per-mapping annotations; cross-case patterns require analyst review."
+    },
+    {
+      "case_id": "hitler",
+      "cluster_id": "hitler-01-volk-racial-body",
+      "rival_reading": "Biological blood is extended to denote racial descent and inherited essence; the physical source domain underwrites racial-purity claims.",
+      "claim_boundary": "Rival readings are per-mapping annotations; cross-case patterns require analyst review."
+    },
+    {
+      "case_id": "hitler",
+      "cluster_id": "hitler-01-volk-racial-body",
+      "rival_reading": "Fate does not literally strike with a hammer, make decisions, or lead people; it is cast as an intentional agent.",
+      "claim_boundary": "Rival readings are per-mapping annotations; cross-case patterns require analyst review."
+    },
+    {
+      "case_id": "hitler",
+      "cluster_id": "hitler-01-volk-racial-body",
+      "rival_reading": "German `Schicksal` here may be a conventional expression for life-lot rather than a live personification.",
+      "claim_boundary": "Rival readings are per-mapping annotations; cross-case patterns require analyst review."
+    },
+    {
+      "case_id": "hitler",
+      "cluster_id": "hitler-01-volk-racial-body",
+      "rival_reading": "Individual mind is extended to collective cultural/civilizational agency; abstract spirit becomes a force that builds or degrades civilizations.",
+      "claim_boundary": "Rival readings are per-mapping annotations; cross-case patterns require analyst review."
+    },
+    {
+      "case_id": "hitler",
+      "cluster_id": "hitler-01-volk-racial-body",
+      "rival_reading": "Individual soul is extended to collective psychological disposition; the collective soul becomes something that political actors can capture or poison.",
+      "claim_boundary": "Rival readings are per-mapping annotations; cross-case patterns require analyst review."
+    },
+    {
+      "case_id": "hitler",
+      "cluster_id": "hitler-01-volk-racial-body",
+      "rival_reading": "Physical soil is extended to denote an organic territorial right; space becomes a biological necessity for the Volk.",
+      "claim_boundary": "Rival readings are per-mapping annotations; cross-case patterns require analyst review."
+    },
+    {
+      "case_id": "hitler",
+      "cluster_id": "hitler-01-volk-racial-body",
+      "rival_reading": "The botanical act of rooting out is extended to human elimination; the physical source domain is preserved in the compound.",
+      "claim_boundary": "Rival readings are per-mapping annotations; cross-case patterns require analyst review."
+    },
+    {
+      "case_id": "hitler",
+      "cluster_id": "hitler-01-volk-racial-body",
+      "rival_reading": "The exploited population is cast as a sacrificial victim consumed by a predatory agent.",
+      "claim_boundary": "Rival readings are per-mapping annotations; cross-case patterns require analyst review."
+    },
+    {
+      "case_id": "hitler",
+      "cluster_id": "hitler-02-fuhrer-embodiment",
+      "rival_reading": "Individual honor is extended to national-collective honor as a possessable, transferable property; the Reich's honor can be restored like a physical object.",
+      "claim_boundary": "Rival readings are per-mapping annotations; cross-case patterns require analyst review."
+    },
+    {
+      "case_id": "hitler",
+      "cluster_id": "hitler-02-fuhrer-embodiment",
+      "rival_reading": "Individual soldiers or citizens are idealized through the hero category; heroism becomes the organizing concept for military self-sacrifice.",
+      "claim_boundary": "Rival readings are per-mapping annotations; cross-case patterns require analyst review."
+    },
+    {
+      "case_id": "hitler",
+      "cluster_id": "hitler-03-jew-parasite-disease",
+      "rival_reading": "Physical destruction is extended to social/economic/racial elimination; the basic physical sense underwrites the metaphorical application to groups.",
+      "claim_boundary": "Rival readings are per-mapping annotations; cross-case patterns require analyst review."
+    },
+    {
+      "case_id": "hitler",
+      "cluster_id": "hitler-06-sacrifice-martyrdom",
+      "rival_reading": "The individual gives up their ego/advantage to the community; this is not a religious ritual but is structured as one.",
+      "claim_boundary": "Rival readings are per-mapping annotations; cross-case patterns require analyst review."
+    },
+    {
+      "case_id": "lincoln",
+      "cluster_id": "lincoln-01-body-organism",
+      "rival_reading": "A nation is not a biological organism, but it is construed as capable of living.",
+      "claim_boundary": "Rival readings are per-mapping annotations; cross-case patterns require analyst review."
+    },
+    {
+      "case_id": "lincoln",
+      "cluster_id": "lincoln-01-body-organism",
+      "rival_reading": "A polity is not a biological organism, but its political existence is construed as bodily life or death.",
+      "claim_boundary": "Rival readings are per-mapping annotations; cross-case patterns require analyst review."
+    },
+    {
+      "case_id": "lincoln",
+      "cluster_id": "lincoln-01-body-organism",
+      "rival_reading": "A social phenomenon is treated as a creature with an origin.",
+      "claim_boundary": "Rival readings are per-mapping annotations; cross-case patterns require analyst review."
+    },
+    {
+      "case_id": "lincoln",
+      "cluster_id": "lincoln-01-body-organism",
+      "rival_reading": "Abstract ambition is repeatedly construed through embodied motion, animal rank, appetite, and fire.",
+      "claim_boundary": "Rival readings are per-mapping annotations; cross-case patterns require analyst review."
+    },
+    {
+      "case_id": "lincoln",
+      "cluster_id": "lincoln-01-body-organism",
+      "rival_reading": "Abstract civic faculties and memorial expectation are treated through bodily and material processes.",
+      "claim_boundary": "Rival readings are per-mapping annotations; cross-case patterns require analyst review."
+    },
+    {
+      "case_id": "lincoln",
+      "cluster_id": "lincoln-01-body-organism",
+      "rival_reading": "Abstract danger or political actors are represented as emerging upward like growth.",
+      "claim_boundary": "Rival readings are per-mapping annotations; cross-case patterns require analyst review."
+    },
+    {
+      "case_id": "lincoln",
+      "cluster_id": "lincoln-01-body-organism",
+      "rival_reading": "Abstract destiny and ambition are represented as attached to an undertaking.",
+      "claim_boundary": "Rival readings are per-mapping annotations; cross-case patterns require analyst review."
+    },
+    {
+      "case_id": "lincoln",
+      "cluster_id": "lincoln-01-body-organism",
+      "rival_reading": "Abstract freedom is construed as a physical structure with a foundation and biblical fortification imagery.",
+      "claim_boundary": "Rival readings are per-mapping annotations; cross-case patterns require analyst review."
+    },
+    {
+      "case_id": "lincoln",
+      "cluster_id": "lincoln-01-body-organism",
+      "rival_reading": "Abstract passions and memories are treated as bodies, agents, or lights.",
+      "claim_boundary": "Rival readings are per-mapping annotations; cross-case patterns require analyst review."
+    },
+    {
+      "case_id": "lincoln",
+      "cluster_id": "lincoln-01-body-organism",
+      "rival_reading": "Ambition and fame are not literal game or crops, but are framed through hunting and agriculture.",
+      "claim_boundary": "Rival readings are per-mapping annotations; cross-case patterns require analyst review."
+    },
+    {
+      "case_id": "lincoln",
+      "cluster_id": "lincoln-01-body-organism",
+      "rival_reading": "An overseas army is personified as a giant capable of bodily attack.",
+      "claim_boundary": "Rival readings are per-mapping annotations; cross-case patterns require analyst review."
+    },
+    {
+      "case_id": "lincoln",
+      "cluster_id": "lincoln-01-body-organism",
+      "rival_reading": "Government is abstract-institutional but construed as an entity that can be bane or be annihilated.",
+      "claim_boundary": "Rival readings are per-mapping annotations; cross-case patterns require analyst review."
+    },
+    {
+      "case_id": "lincoln",
+      "cluster_id": "lincoln-01-body-organism",
+      "rival_reading": "Historical memory is embodied in persons and wounds as if it were a living readable document.",
+      "claim_boundary": "Rival readings are per-mapping annotations; cross-case patterns require analyst review."
+    },
+    {
+      "case_id": "lincoln",
+      "cluster_id": "lincoln-01-body-organism",
+      "rival_reading": "Human generations and memory are explicitly construed as trees weathered by storms.",
+      "claim_boundary": "Rival readings are per-mapping annotations; cross-case patterns require analyst review."
+    },
+    {
+      "case_id": "lincoln",
+      "cluster_id": "lincoln-01-body-organism",
+      "rival_reading": "Institutional maintenance is framed through structural support and material decay.",
+      "claim_boundary": "Rival readings are per-mapping annotations; cross-case patterns require analyst review."
+    },
+    {
+      "case_id": "lincoln",
+      "cluster_id": "lincoln-01-body-organism",
+      "rival_reading": "Passions and judgment are abstract faculties but are treated as agents with temperaments.",
+      "claim_boundary": "Rival readings are per-mapping annotations; cross-case patterns require analyst review."
+    },
+    {
+      "case_id": "lincoln",
+      "cluster_id": "lincoln-01-body-organism",
+      "rival_reading": "Political destruction is framed through authorship and completion.",
+      "claim_boundary": "Rival readings are per-mapping annotations; cross-case patterns require analyst review."
+    },
+    {
+      "case_id": "lincoln",
+      "cluster_id": "lincoln-01-body-organism",
+      "rival_reading": "Political institutions are explicitly construed as a built edifice.",
+      "claim_boundary": "Rival readings are per-mapping annotations; cross-case patterns require analyst review."
+    },
+    {
+      "case_id": "lincoln",
+      "cluster_id": "lincoln-01-body-organism",
+      "rival_reading": "Political liberty and rational support are explicitly construed as architectural materials.",
+      "claim_boundary": "Rival readings are per-mapping annotations; cross-case patterns require analyst review."
+    },
+    {
+      "case_id": "lincoln",
+      "cluster_id": "lincoln-01-body-organism",
+      "rival_reading": "Political work is construed as construction or demolition of a building.",
+      "claim_boundary": "Rival readings are per-mapping annotations; cross-case patterns require analyst review."
+    },
+    {
+      "case_id": "lincoln",
+      "cluster_id": "lincoln-01-body-organism",
+      "rival_reading": "Political-legal harm is represented through bodily orientation, falling, and ravaging.",
+      "claim_boundary": "Rival readings are per-mapping annotations; cross-case patterns require analyst review."
+    },
+    {
+      "case_id": "lincoln",
+      "cluster_id": "lincoln-01-body-organism",
+      "rival_reading": "Public affairs and attention are construed through combat and physical absorption.",
+      "claim_boundary": "Rival readings are per-mapping annotations; cross-case patterns require analyst review."
+    },
+    {
+      "case_id": "lincoln",
+      "cluster_id": "lincoln-01-body-organism",
+      "rival_reading": "The contextual meaning concerns burial/death rather than ordinary bodily rest after exertion.",
+      "claim_boundary": "Rival readings are per-mapping annotations; cross-case patterns require analyst review."
+    },
+    {
+      "case_id": "lincoln",
+      "cluster_id": "lincoln-01-body-organism",
+      "rival_reading": "The expression frames exploitation through bodily extraction and biblical labor idiom.",
+      "claim_boundary": "Rival readings are per-mapping annotations; cross-case patterns require analyst review."
+    },
+    {
+      "case_id": "lincoln",
+      "cluster_id": "lincoln-01-body-organism",
+      "rival_reading": "The nation is not literally born, yet its founding is framed through birth-generation language.",
+      "claim_boundary": "Rival readings are per-mapping annotations; cross-case patterns require analyst review."
+    },
+    {
+      "case_id": "lincoln",
+      "cluster_id": "lincoln-01-body-organism",
+      "rival_reading": "The nation is treated as an injured body capable of wounds and care.",
+      "claim_boundary": "Rival readings are per-mapping annotations; cross-case patterns require analyst review."
+    },
+    {
+      "case_id": "lincoln",
+      "cluster_id": "lincoln-01-body-organism",
+      "rival_reading": "The sentence explicitly compares corpses on trees with moss or drapery.",
+      "claim_boundary": "Rival readings are per-mapping annotations; cross-case patterns require analyst review."
+    },
+    {
+      "case_id": "lincoln",
+      "cluster_id": "lincoln-01-body-organism",
+      "rival_reading": "The world is treated as a remembering person.",
+      "claim_boundary": "Rival readings are per-mapping annotations; cross-case patterns require analyst review."
+    },
+    {
+      "case_id": "lincoln",
+      "cluster_id": "lincoln-01-body-organism",
+      "rival_reading": "War is not literally a whip, but it is explicitly called a scourge.",
+      "claim_boundary": "Rival readings are per-mapping annotations; cross-case patterns require analyst review."
+    },
+    {
+      "case_id": "lincoln",
+      "cluster_id": "lincoln-02-covenant-oath",
+      "rival_reading": "Legal-political reverence is explicitly understood through religious ritual vocabulary.",
+      "claim_boundary": "Rival readings are per-mapping annotations; cross-case patterns require analyst review."
+    },
+    {
+      "case_id": "lincoln",
+      "cluster_id": "lincoln-02-covenant-oath",
+      "rival_reading": "The constitutional Union is abstract-political but construed as a separable material entity.",
+      "claim_boundary": "Rival readings are per-mapping annotations; cross-case patterns require analyst review."
+    },
+    {
+      "case_id": "lincoln",
+      "cluster_id": "lincoln-03-experiment-proposition",
+      "rival_reading": "A political order is not a laboratory object, but its success is framed as a trial or proof.",
+      "claim_boundary": "Rival readings are per-mapping annotations; cross-case patterns require analyst review."
+    },
+    {
+      "case_id": "lincoln",
+      "cluster_id": "lincoln-05-fathers-inheritance",
+      "rival_reading": "Collective historical existence is explicitly framed as appearing on a stage.",
+      "claim_boundary": "Rival readings are per-mapping annotations; cross-case patterns require analyst review."
+    },
+    {
+      "case_id": "lincoln",
+      "cluster_id": "lincoln-05-fathers-inheritance",
+      "rival_reading": "Events under the sun are not literally a ledger, but the sentence frames history through accounting.",
+      "claim_boundary": "Rival readings are per-mapping annotations; cross-case patterns require analyst review."
+    },
+    {
+      "case_id": "lincoln",
+      "cluster_id": "lincoln-05-fathers-inheritance",
+      "rival_reading": "Memory is not a fortification, and time does not literally fire artillery.",
+      "claim_boundary": "Rival readings are per-mapping annotations; cross-case patterns require analyst review."
+    },
+    {
+      "case_id": "lincoln",
+      "cluster_id": "lincoln-05-fathers-inheritance",
+      "rival_reading": "Reputation and memory are treated through bodily life/death or physical descent.",
+      "claim_boundary": "Rival readings are per-mapping annotations; cross-case patterns require analyst review."
+    },
+    {
+      "case_id": "lincoln",
+      "cluster_id": "lincoln-06-providence-theodicy",
+      "rival_reading": "Biblical usage may be conventional theological idiom rather than a separable metaphor.",
+      "claim_boundary": "Rival readings are per-mapping annotations; cross-case patterns require analyst review."
+    },
+    {
+      "case_id": "lincoln",
+      "cluster_id": "lincoln-06-providence-theodicy",
+      "rival_reading": "The living are not physically set apart like an object or place; they are morally committed to a public task.",
+      "claim_boundary": "Rival readings are per-mapping annotations; cross-case patterns require analyst review."
+    },
+    {
+      "case_id": "lincoln",
+      "cluster_id": "lincoln-07-absence-black-agency",
+      "rival_reading": "Wealth is not literally submerged; it is imagined as disappearing downward or being consumed.",
+      "claim_boundary": "Rival readings are per-mapping annotations; cross-case patterns require analyst review."
+    },
+    {
+      "case_id": "lincoln",
+      "cluster_id": "lincoln-08-sacrificial-death-gift",
+      "rival_reading": "Human death or removal is framed through theatrical stage imagery.",
+      "claim_boundary": "Rival readings are per-mapping annotations; cross-case patterns require analyst review."
+    },
+    {
+      "case_id": "lincoln",
+      "cluster_id": "lincoln-08-sacrificial-death-gift",
+      "rival_reading": "Revolutionary inheritance and legal liberty are treated as bodily/material things that can be spilled, trampled, or torn.",
+      "claim_boundary": "Rival readings are per-mapping annotations; cross-case patterns require analyst review."
+    },
+    {
+      "case_id": "lincoln",
+      "cluster_id": "lincoln-08-sacrificial-death-gift",
+      "rival_reading": "The killing is historical violence, not a ritual offering, but is named through sacrificial vocabulary.",
+      "claim_boundary": "Rival readings are per-mapping annotations; cross-case patterns require analyst review."
+    },
+    {
+      "case_id": "napoleon",
+      "cluster_id": "napoleon-01-glory-destiny",
+      "rival_reading": "Glory is not a physical covering or companion, but the French phrasing treats it as something one is covered with or dies with.",
+      "claim_boundary": "Rival readings are per-mapping annotations; cross-case patterns require analyst review."
+    },
+    {
+      "case_id": "napoleon",
+      "cluster_id": "napoleon-01-glory-destiny",
+      "rival_reading": "The objects may be literal, but they also condense monarchy, victory, and imperial memory.",
+      "claim_boundary": "Rival readings are per-mapping annotations; cross-case patterns require analyst review."
+    },
+    {
+      "case_id": "napoleon",
+      "cluster_id": "napoleon-02-army-body",
+      "rival_reading": "Cannons are not literal mouths; the French military term preserves body/fire imagery.",
+      "claim_boundary": "Rival readings are per-mapping annotations; cross-case patterns require analyst review."
+    },
+    {
+      "case_id": "napoleon",
+      "cluster_id": "napoleon-02-army-body",
+      "rival_reading": "Fortune does not literally smile or act like a human force.",
+      "claim_boundary": "Rival readings are per-mapping annotations; cross-case patterns require analyst review."
+    },
+    {
+      "case_id": "napoleon",
+      "cluster_id": "napoleon-02-army-body",
+      "rival_reading": "The army's honor is abstract while blood is bodily; the pair turns battle into bodily and reputational expenditure.",
+      "claim_boundary": "Rival readings are per-mapping annotations; cross-case patterns require analyst review."
+    },
+    {
+      "case_id": "napoleon",
+      "cluster_id": "napoleon-02-army-body",
+      "rival_reading": "Victory is abstract but is described as hesitating, deciding, or belonging to an army.",
+      "claim_boundary": "Rival readings are per-mapping annotations; cross-case patterns require analyst review."
+    },
+    {
+      "case_id": "napoleon",
+      "cluster_id": "napoleon-03-emperor-embodiment",
+      "rival_reading": "The deaths are literal, but the office and thanksgiving frame them as meaningful patriotic-sacred sacrifice.",
+      "claim_boundary": "Rival readings are per-mapping annotations; cross-case patterns require analyst review."
+    },
+    {
+      "case_id": "napoleon",
+      "cluster_id": "napoleon-05-soldier-sacrifice",
+      "rival_reading": "A battle does not literally possess destiny, but the outcome is construed as fate-like.",
+      "claim_boundary": "Rival readings are per-mapping annotations; cross-case patterns require analyst review."
+    },
+    {
+      "case_id": "napoleon",
+      "cluster_id": "napoleon-05-soldier-sacrifice",
+      "rival_reading": "Some death is literal, but the phrasing treats death as an output, seed, or glory-bearing sacrificial cost.",
+      "claim_boundary": "Rival readings are per-mapping annotations; cross-case patterns require analyst review."
+    }
+  ]
 }

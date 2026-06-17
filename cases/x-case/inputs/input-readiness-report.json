@@ -1,4 +1,26 @@
 {
+  "generated_at": "2026-06-17T16:56:27",
   "status": "draft",
-  "items": []
+  "items": [
+    {
+      "case_id": "am-rev",
+      "ready": true,
+      "reason": "complete"
+    },
+    {
+      "case_id": "hitler",
+      "ready": true,
+      "reason": "complete"
+    },
+    {
+      "case_id": "lincoln",
+      "ready": true,
+      "reason": "complete"
+    },
+    {
+      "case_id": "napoleon",
+      "ready": true,
+      "reason": "complete"
+    }
+  ]
 }
