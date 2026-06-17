@@ -1,0 +1,74 @@
+{
+  "version": "1.0",
+  "case_id": "hitler",
+  "generated_at": "2026-06-17T00:00:00",
+  "status": "draft",
+  "moral_equivalence_guardrail": "Structural similarity in metaphor does not establish moral equivalence. This file records corroboration of the Koenigsbergian symbolic pattern by historical events; it does not imply that other cases in the comparative study are morally equivalent to Nazi Germany. War, genocide, enslavement, and state terror require separate historical and moral description even when symbolic structures overlap. See cases/x-case/validation/moral-equivalence-guardrails.json.",
+  "notes": [
+    {
+      "note_id": "hitler-hist-001",
+      "dimension": "historical_enactment_alignment",
+      "topic": "Nuremberg Laws (1935) and racial-state legislation as enactment of Volk-as-racial-body metaphors",
+      "historical_alignment_level": [
+        "formal_enactment",
+        "historical_consequence"
+      ],
+      "summary": "The Nuremberg Laws of September 1935 (Law for the Protection of German Blood and German Honour; Reich Citizenship Law) formally enacted the racial-body metaphor cluster into state law: citizenship was redefined by blood, intermarriage was criminalized as racial contamination, and Jews were stripped of political membership in the Volk. This directly enacts the sacred-object (das Volk as racial body) and enemy-as-contamination (Jew as disease/parasite) metaphor systems documented in Mein Kampf Vol1 Chapters 11, 12 and Vol2 Chapter 2.",
+      "linked_mapping_ids": [
+        "hitler-cmt-001", "hitler-cmt-002", "hitler-cmt-003", "hitler-cmt-004",
+        "hitler-cmt-005", "hitler-cmt-008", "hitler-cmt-009", "hitler-cmt-016",
+        "hitler-cmt-017", "hitler-cmt-039", "hitler-cmt-044", "hitler-cmt-045"
+      ],
+      "corroboration_status": "contextually-corroborated; publication citations required (standard historiography: Evans, Third Reich in Power; Friedländer, Nazi Germany and the Jews vol.1)",
+      "claim_boundary": "The Nuremberg Laws corroborate that the racial-body metaphor system was formally enacted as policy. This is not a claim that the metaphors caused the laws, nor that metaphor analysis alone establishes genocidal intent. The laws are independently documented historical events."
+    },
+    {
+      "note_id": "hitler-hist-002",
+      "dimension": "historical_enactment_alignment",
+      "topic": "Operation Barbarossa (June 1941) and Lebensraum as enacted territorial-elimination logic",
+      "historical_alignment_level": [
+        "formal_enactment",
+        "historical_consequence",
+        "social_uptake"
+      ],
+      "summary": "Operation Barbarossa (June 22, 1941) enacted the Lebensraum territorial-elimination logic documented in Mein Kampf Vol2 Chapter 14 and the USSR Proclamation. The invasion was framed publicly and internally as a racial war of annihilation (Vernichtungskrieg) against Jewish Bolshevism; Einsatzgruppen followed Wehrmacht forces and conducted mass shootings of Jewish civilians from the first days of the invasion. The USSR Proclamation (hitler-ussr-proclamation-1941-06-22) directly links the Volk-survival sacred object, Jewish-Bolshevist enemy construction, and military mobilization in a single enactment text.",
+      "linked_mapping_ids": [
+        "hitler-cmt-060", "hitler-cmt-061", "hitler-cmt-062", "hitler-cmt-063",
+        "hitler-cmt-064", "hitler-cmt-046", "hitler-cmt-047", "hitler-cmt-065"
+      ],
+      "corroboration_status": "contextually-corroborated; publication citations required (standard historiography: Browning, Ordinary Men; Longerich, Holocaust; Snyder, Bloodlands)",
+      "claim_boundary": "Operation Barbarossa and the Einsatzgruppen shootings corroborate that the Lebensraum and Jewish-Bolshevist-enemy metaphor systems were enacted at the highest level of state violence. This is not a claim that metaphor annotation alone explains the Holocaust, nor that the metaphors were the sole or sufficient cause."
+    },
+    {
+      "note_id": "hitler-hist-003",
+      "dimension": "historical_enactment_alignment",
+      "topic": "Wannsee Conference (January 1942) as bureaucratic systematization of the annihilationist enemy frame",
+      "historical_alignment_level": [
+        "formal_enactment",
+        "historical_consequence"
+      ],
+      "summary": "The Wannsee Conference (January 20, 1942) systematized the Final Solution as bureaucratic policy. The conference explicitly invoked Hitler's 1939 Reichstag 'prophecy' — the most extreme public statement of enemy-as-bringer-of-death in the corpus — as authorization. The PURIFICATION IS PHYSICAL DESTRUCTION metaphor (Vernichtung, Ausrottung) in the corpus maps directly onto the bureaucratic language of the Wannsee protocol. The Reichstag speech (hitler-reichstag-1939-01-30) is the rhetorical hinge connecting the metaphor system to the genocide's administrative architecture.",
+      "linked_mapping_ids": [
+        "hitler-cmt-044", "hitler-cmt-045", "hitler-cmt-050", "hitler-cmt-051",
+        "hitler-cmt-052", "hitler-cmt-055", "hitler-cmt-056"
+      ],
+      "corroboration_status": "contextually-corroborated; publication citations required (standard historiography: Roseman, The Wannsee Conference and the Final Solution; Friedländer, Nazi Germany and the Jews vol.2)",
+      "claim_boundary": "The Wannsee Conference corroborates that the annihilationist enemy-as-bringer-of-death frame was enacted as genocide policy. This corroborates the historical-enactment dimension for this specific case only. The guardrail from cases/x-case/validation/moral-equivalence-guardrails.json applies: this alignment does not license moral equivalence with other cases in the comparative study."
+    },
+    {
+      "note_id": "hitler-hist-004",
+      "dimension": "historical_enactment_alignment",
+      "topic": "Social uptake of Volk-as-racial-body metaphors in Nazi Germany: propaganda, education, and popular culture",
+      "historical_alignment_level": [
+        "social_uptake"
+      ],
+      "summary": "The Volk-as-racial-body and Jew-as-parasite metaphor systems achieved mass social uptake through state propaganda (Goebbels's ministry), school curricula (racial hygiene education), Der Stürmer and other periodicals, and film (e.g. Der ewige Jude, 1940). The RACIAL IDENTITY IS BODY and PURIFICATION IS PHYSICAL DESTRUCTION metaphor systems documented in the corpus were not confined to Hitler's texts but were reproduced systemically across German public life from 1933. This social uptake corroborates the historical-enactment dimension beyond formal policy.",
+      "linked_mapping_ids": [
+        "hitler-cmt-001", "hitler-cmt-002", "hitler-cmt-003", "hitler-cmt-016",
+        "hitler-cmt-017", "hitler-cmt-018", "hitler-cmt-019"
+      ],
+      "corroboration_status": "contextually-corroborated; publication citations required (standard historiography: Kershaw, Hitler's Willing Executioners debate; Bytwerk, Julius Streicher; Welch, The Third Reich: Politics and Propaganda)",
+      "claim_boundary": "Social uptake corroborates that the metaphor system circulated beyond authorial intention into public culture. This does not establish that metaphor was the mechanism of genocide, nor that all consumers of Nazi propaganda were equally implicated in atrocities."
+    }
+  ]
+}
