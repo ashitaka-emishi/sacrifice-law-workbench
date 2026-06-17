@@ -2,7 +2,7 @@
   "version": "1.0",
   "case_id": "napoleon",
   "document_id": "napoleon-bulletin-1805-12-03-austerlitz",
-  "generated_at": "2026-06-17T01:07:47",
+  "generated_at": "2026-06-17T15:09:55",
   "generator": "scripts/generate-annotation-layer.py",
   "annotation_policy": "CMT and Koenigsbergian annotations derived from MIPVU-reviewed metaphorical and uncertain lexical units. Each instance cites at least one MIPVU ID with decision_type in METAPHOR_DECISIONS.",
   "instances": [

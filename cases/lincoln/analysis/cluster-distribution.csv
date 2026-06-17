@@ -1,5 +1,8 @@
 average_confidence,cluster_id,document_count,high_salience_count,mapping_count,mapping_ids,periods,registers
-0.9,lincoln-01-body-organism,2,2,2,lincoln-cmt-001;lincoln-cmt-006,early-republican-rhetoric;emancipation-and-sacrifice,ceremonial-address;public-address
-0.95,lincoln-04-birth-creation,1,1,1,lincoln-cmt-005,emancipation-and-sacrifice,ceremonial-address
-0.745,lincoln-06-providence-theodicy,2,4,4,lincoln-cmt-003;lincoln-cmt-007;lincoln-cmt-008;lincoln-cmt-009,emancipation-and-sacrifice;providence-and-reconciliation,ceremonial-address;inaugural-address
-0.85,lincoln-08-sacrificial-death-gift,1,2,2,lincoln-cmt-002;lincoln-cmt-004,emancipation-and-sacrifice,ceremonial-address
+0.808,lincoln-01-body-organism,3,22,43,lincoln-cmt-003;lincoln-cmt-004;lincoln-cmt-005;lincoln-cmt-006;lincoln-cmt-007;lincoln-cmt-008;lincoln-cmt-009;lincoln-cmt-010;lincoln-cmt-011;lincoln-cmt-014;lincoln-cmt-015;lincoln-cmt-017;lincoln-cmt-022;lincoln-cmt-025;lincoln-cmt-029;lincoln-cmt-030;lincoln-cmt-031;lincoln-cmt-032;lincoln-cmt-033;lincoln-cmt-034;lincoln-cmt-035;lincoln-cmt-036;lincoln-cmt-037;lincoln-cmt-038;lincoln-cmt-039;lincoln-cmt-040;lincoln-cmt-041;lincoln-cmt-043;lincoln-cmt-045;lincoln-cmt-046;lincoln-cmt-047;lincoln-cmt-048;lincoln-cmt-049;lincoln-cmt-050;lincoln-cmt-051;lincoln-cmt-052;lincoln-cmt-053;lincoln-cmt-054;lincoln-cmt-056;lincoln-cmt-058;lincoln-cmt-060;lincoln-cmt-062;lincoln-cmt-064,early-republican-rhetoric;emancipation-and-sacrifice;providence-and-reconciliation,ceremonial-address;inaugural-address;public-address
+0.846,lincoln-02-covenant-oath,2,3,4,lincoln-cmt-020;lincoln-cmt-021;lincoln-cmt-057;lincoln-cmt-059,early-republican-rhetoric;providence-and-reconciliation,inaugural-address;public-address
+0.744,lincoln-03-experiment-proposition,1,0,3,lincoln-cmt-023;lincoln-cmt-024;lincoln-cmt-028,early-republican-rhetoric,public-address
+0.826,lincoln-05-fathers-inheritance,1,3,6,lincoln-cmt-001;lincoln-cmt-002;lincoln-cmt-026;lincoln-cmt-027;lincoln-cmt-042;lincoln-cmt-044,early-republican-rhetoric,public-address
+0.715,lincoln-06-providence-theodicy,2,1,2,lincoln-cmt-055;lincoln-cmt-061,emancipation-and-sacrifice;providence-and-reconciliation,ceremonial-address;inaugural-address
+0.718,lincoln-07-absence-black-agency,1,0,1,lincoln-cmt-063,providence-and-reconciliation,inaugural-address
+0.803,lincoln-08-sacrificial-death-gift,1,3,5,lincoln-cmt-012;lincoln-cmt-013;lincoln-cmt-016;lincoln-cmt-018;lincoln-cmt-019,early-republican-rhetoric,public-address

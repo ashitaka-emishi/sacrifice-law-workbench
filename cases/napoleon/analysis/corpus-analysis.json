@@ -1,0 +1,761 @@
+{
+  "version": "1.0",
+  "case_id": "napoleon",
+  "generated_at": "2026-06-17T01:25:15",
+  "status": "complete",
+  "source": "corpus/cmt/cmt-mappings.json",
+  "mapping_count": 19,
+  "frequency_tables": [
+    {
+      "metric": "source_domain_primary",
+      "value": "body",
+      "mapping_count": 7,
+      "document_count": 5,
+      "high_salience_count": 0,
+      "average_confidence": 0.758,
+      "mapping_ids": "napoleon-cmt-005;napoleon-cmt-009;napoleon-cmt-010;napoleon-cmt-013;napoleon-cmt-014;napoleon-cmt-016;napoleon-cmt-018"
+    },
+    {
+      "metric": "source_domain_primary",
+      "value": "sacrifice",
+      "mapping_count": 5,
+      "document_count": 3,
+      "high_salience_count": 5,
+      "average_confidence": 0.826,
+      "mapping_ids": "napoleon-cmt-001;napoleon-cmt-002;napoleon-cmt-004;napoleon-cmt-011;napoleon-cmt-012"
+    },
+    {
+      "metric": "source_domain_primary",
+      "value": "light_darkness",
+      "mapping_count": 3,
+      "document_count": 2,
+      "high_salience_count": 3,
+      "average_confidence": 0.86,
+      "mapping_ids": "napoleon-cmt-008;napoleon-cmt-015;napoleon-cmt-017"
+    },
+    {
+      "metric": "source_domain_primary",
+      "value": "object_material",
+      "mapping_count": 3,
+      "document_count": 2,
+      "high_salience_count": 0,
+      "average_confidence": 0.55,
+      "mapping_ids": "napoleon-cmt-003;napoleon-cmt-006;napoleon-cmt-007"
+    },
+    {
+      "metric": "source_domain_primary",
+      "value": "journey_motion",
+      "mapping_count": 1,
+      "document_count": 1,
+      "high_salience_count": 0,
+      "average_confidence": 0.7,
+      "mapping_ids": "napoleon-cmt-019"
+    },
+    {
+      "metric": "target_domain",
+      "value": "military_virtue",
+      "mapping_count": 7,
+      "document_count": 4,
+      "high_salience_count": 3,
+      "average_confidence": 0.803,
+      "mapping_ids": "napoleon-cmt-005;napoleon-cmt-008;napoleon-cmt-010;napoleon-cmt-014;napoleon-cmt-015;napoleon-cmt-016;napoleon-cmt-017"
+    },
+    {
+      "metric": "target_domain",
+      "value": "war_death",
+      "mapping_count": 6,
+      "document_count": 5,
+      "high_salience_count": 3,
+      "average_confidence": 0.768,
+      "mapping_ids": "napoleon-cmt-004;napoleon-cmt-011;napoleon-cmt-012;napoleon-cmt-013;napoleon-cmt-018;napoleon-cmt-019"
+    },
+    {
+      "metric": "target_domain",
+      "value": "history",
+      "mapping_count": 3,
+      "document_count": 2,
+      "high_salience_count": 0,
+      "average_confidence": 0.55,
+      "mapping_ids": "napoleon-cmt-003;napoleon-cmt-006;napoleon-cmt-007"
+    },
+    {
+      "metric": "target_domain",
+      "value": "army",
+      "mapping_count": 2,
+      "document_count": 2,
+      "high_salience_count": 1,
+      "average_confidence": 0.803,
+      "mapping_ids": "napoleon-cmt-001;napoleon-cmt-009"
+    },
+    {
+      "metric": "target_domain",
+      "value": "nation",
+      "mapping_count": 1,
+      "document_count": 1,
+      "high_salience_count": 1,
+      "average_confidence": 0.88,
+      "mapping_ids": "napoleon-cmt-002"
+    },
+    {
+      "metric": "conceptual_metaphor",
+      "value": "MILITARY VIRTUE IS BODY",
+      "mapping_count": 4,
+      "document_count": 4,
+      "high_salience_count": 0,
+      "average_confidence": 0.76,
+      "mapping_ids": "napoleon-cmt-005;napoleon-cmt-010;napoleon-cmt-014;napoleon-cmt-016"
+    },
+    {
+      "metric": "conceptual_metaphor",
+      "value": "HISTORY IS OBJECT MATERIAL",
+      "mapping_count": 3,
+      "document_count": 2,
+      "high_salience_count": 0,
+      "average_confidence": 0.55,
+      "mapping_ids": "napoleon-cmt-003;napoleon-cmt-006;napoleon-cmt-007"
+    },
+    {
+      "metric": "conceptual_metaphor",
+      "value": "MILITARY VIRTUE IS LIGHT DARKNESS",
+      "mapping_count": 3,
+      "document_count": 2,
+      "high_salience_count": 3,
+      "average_confidence": 0.86,
+      "mapping_ids": "napoleon-cmt-008;napoleon-cmt-015;napoleon-cmt-017"
+    },
+    {
+      "metric": "conceptual_metaphor",
+      "value": "WAR DEATH IS SACRIFICE",
+      "mapping_count": 3,
+      "document_count": 2,
+      "high_salience_count": 3,
+      "average_confidence": 0.81,
+      "mapping_ids": "napoleon-cmt-004;napoleon-cmt-011;napoleon-cmt-012"
+    },
+    {
+      "metric": "conceptual_metaphor",
+      "value": "WAR DEATH IS BODY",
+      "mapping_count": 2,
+      "document_count": 2,
+      "high_salience_count": 0,
+      "average_confidence": 0.74,
+      "mapping_ids": "napoleon-cmt-013;napoleon-cmt-018"
+    },
+    {
+      "metric": "conceptual_metaphor",
+      "value": "ARMY IS BODY",
+      "mapping_count": 1,
+      "document_count": 1,
+      "high_salience_count": 0,
+      "average_confidence": 0.787,
+      "mapping_ids": "napoleon-cmt-009"
+    },
+    {
+      "metric": "conceptual_metaphor",
+      "value": "ARMY IS SACRIFICE",
+      "mapping_count": 1,
+      "document_count": 1,
+      "high_salience_count": 1,
+      "average_confidence": 0.82,
+      "mapping_ids": "napoleon-cmt-001"
+    },
+    {
+      "metric": "conceptual_metaphor",
+      "value": "NATION IS SACRIFICE",
+      "mapping_count": 1,
+      "document_count": 1,
+      "high_salience_count": 1,
+      "average_confidence": 0.88,
+      "mapping_ids": "napoleon-cmt-002"
+    },
+    {
+      "metric": "conceptual_metaphor",
+      "value": "WAR DEATH IS JOURNEY MOTION",
+      "mapping_count": 1,
+      "document_count": 1,
+      "high_salience_count": 0,
+      "average_confidence": 0.7,
+      "mapping_ids": "napoleon-cmt-019"
+    },
+    {
+      "metric": "cluster_id",
+      "value": "napoleon-02-army-body",
+      "mapping_count": 8,
+      "document_count": 6,
+      "high_salience_count": 1,
+      "average_confidence": 0.766,
+      "mapping_ids": "napoleon-cmt-001;napoleon-cmt-005;napoleon-cmt-009;napoleon-cmt-010;napoleon-cmt-013;napoleon-cmt-014;napoleon-cmt-016;napoleon-cmt-018"
+    },
+    {
+      "metric": "cluster_id",
+      "value": "napoleon-01-glory-destiny",
+      "mapping_count": 6,
+      "document_count": 4,
+      "high_salience_count": 3,
+      "average_confidence": 0.705,
+      "mapping_ids": "napoleon-cmt-003;napoleon-cmt-006;napoleon-cmt-007;napoleon-cmt-008;napoleon-cmt-015;napoleon-cmt-017"
+    },
+    {
+      "metric": "cluster_id",
+      "value": "napoleon-05-soldier-sacrifice",
+      "mapping_count": 3,
+      "document_count": 2,
+      "high_salience_count": 3,
+      "average_confidence": 0.81,
+      "mapping_ids": "napoleon-cmt-004;napoleon-cmt-011;napoleon-cmt-012"
+    },
+    {
+      "metric": "cluster_id",
+      "value": "napoleon-03-emperor-embodiment",
+      "mapping_count": 1,
+      "document_count": 1,
+      "high_salience_count": 1,
+      "average_confidence": 0.88,
+      "mapping_ids": "napoleon-cmt-002"
+    },
+    {
+      "metric": "cluster_id",
+      "value": "napoleon-06-enemy-obstacle",
+      "mapping_count": 1,
+      "document_count": 1,
+      "high_salience_count": 0,
+      "average_confidence": 0.7,
+      "mapping_ids": "napoleon-cmt-019"
+    },
+    {
+      "metric": "rhetorical_salience",
+      "value": "medium",
+      "mapping_count": 11,
+      "document_count": 8,
+      "high_salience_count": 0,
+      "average_confidence": 0.696,
+      "mapping_ids": "napoleon-cmt-003;napoleon-cmt-005;napoleon-cmt-006;napoleon-cmt-007;napoleon-cmt-009;napoleon-cmt-010;napoleon-cmt-013;napoleon-cmt-014;napoleon-cmt-016;napoleon-cmt-018;napoleon-cmt-019"
+    },
+    {
+      "metric": "rhetorical_salience",
+      "value": "high",
+      "mapping_count": 8,
+      "document_count": 4,
+      "high_salience_count": 8,
+      "average_confidence": 0.839,
+      "mapping_ids": "napoleon-cmt-001;napoleon-cmt-002;napoleon-cmt-004;napoleon-cmt-008;napoleon-cmt-011;napoleon-cmt-012;napoleon-cmt-015;napoleon-cmt-017"
+    },
+    {
+      "metric": "register",
+      "value": "military-bulletin-proclamation",
+      "mapping_count": 19,
+      "document_count": 9,
+      "high_salience_count": 8,
+      "average_confidence": 0.756,
+      "mapping_ids": "napoleon-cmt-001;napoleon-cmt-002;napoleon-cmt-003;napoleon-cmt-004;napoleon-cmt-005;napoleon-cmt-006;napoleon-cmt-007;napoleon-cmt-008;napoleon-cmt-009;napoleon-cmt-010;napoleon-cmt-011;napoleon-cmt-012;napoleon-cmt-013;napoleon-cmt-014;napoleon-cmt-015;napoleon-cmt-016;napoleon-cmt-017;napoleon-cmt-018;napoleon-cmt-019"
+    }
+  ],
+  "cluster_distribution": [
+    {
+      "cluster_id": "napoleon-01-glory-destiny",
+      "mapping_count": 6,
+      "document_count": 4,
+      "registers": "military-bulletin-proclamation",
+      "periods": "",
+      "high_salience_count": 3,
+      "average_confidence": 0.705,
+      "mapping_ids": "napoleon-cmt-003;napoleon-cmt-006;napoleon-cmt-007;napoleon-cmt-008;napoleon-cmt-015;napoleon-cmt-017"
+    },
+    {
+      "cluster_id": "napoleon-02-army-body",
+      "mapping_count": 8,
+      "document_count": 6,
+      "registers": "military-bulletin-proclamation",
+      "periods": "",
+      "high_salience_count": 1,
+      "average_confidence": 0.766,
+      "mapping_ids": "napoleon-cmt-001;napoleon-cmt-005;napoleon-cmt-009;napoleon-cmt-010;napoleon-cmt-013;napoleon-cmt-014;napoleon-cmt-016;napoleon-cmt-018"
+    },
+    {
+      "cluster_id": "napoleon-03-emperor-embodiment",
+      "mapping_count": 1,
+      "document_count": 1,
+      "registers": "military-bulletin-proclamation",
+      "periods": "",
+      "high_salience_count": 1,
+      "average_confidence": 0.88,
+      "mapping_ids": "napoleon-cmt-002"
+    },
+    {
+      "cluster_id": "napoleon-05-soldier-sacrifice",
+      "mapping_count": 3,
+      "document_count": 2,
+      "registers": "military-bulletin-proclamation",
+      "periods": "",
+      "high_salience_count": 3,
+      "average_confidence": 0.81,
+      "mapping_ids": "napoleon-cmt-004;napoleon-cmt-011;napoleon-cmt-012"
+    },
+    {
+      "cluster_id": "napoleon-06-enemy-obstacle",
+      "mapping_count": 1,
+      "document_count": 1,
+      "registers": "military-bulletin-proclamation",
+      "periods": "",
+      "high_salience_count": 0,
+      "average_confidence": 0.7,
+      "mapping_ids": "napoleon-cmt-019"
+    }
+  ],
+  "source_domain_cooccurrence": [],
+  "salience_review": [
+    {
+      "mapping_id": "napoleon-cmt-001",
+      "rhetorical_salience": "high",
+      "frequency_count_for_concept": 1,
+      "cluster_mapping_count": 8,
+      "conceptual_centrality": "high",
+      "ideological_force": "sacrifice",
+      "claim_caution": "high salience is not the same as high frequency"
+    },
+    {
+      "mapping_id": "napoleon-cmt-002",
+      "rhetorical_salience": "high",
+      "frequency_count_for_concept": 1,
+      "cluster_mapping_count": 1,
+      "conceptual_centrality": "local",
+      "ideological_force": "sacrifice;obligation",
+      "claim_caution": "high salience is not the same as high frequency"
+    },
+    {
+      "mapping_id": "napoleon-cmt-003",
+      "rhetorical_salience": "medium",
+      "frequency_count_for_concept": 3,
+      "cluster_mapping_count": 6,
+      "conceptual_centrality": "high",
+      "ideological_force": "legitimation",
+      "claim_caution": "high salience is not the same as high frequency"
+    },
+    {
+      "mapping_id": "napoleon-cmt-004",
+      "rhetorical_salience": "high",
+      "frequency_count_for_concept": 3,
+      "cluster_mapping_count": 3,
+      "conceptual_centrality": "high",
+      "ideological_force": "sacrifice",
+      "claim_caution": "high salience is not the same as high frequency"
+    },
+    {
+      "mapping_id": "napoleon-cmt-005",
+      "rhetorical_salience": "medium",
+      "frequency_count_for_concept": 4,
+      "cluster_mapping_count": 8,
+      "conceptual_centrality": "high",
+      "ideological_force": "legitimation",
+      "claim_caution": "high salience is not the same as high frequency"
+    },
+    {
+      "mapping_id": "napoleon-cmt-006",
+      "rhetorical_salience": "medium",
+      "frequency_count_for_concept": 3,
+      "cluster_mapping_count": 6,
+      "conceptual_centrality": "high",
+      "ideological_force": "legitimation",
+      "claim_caution": "high salience is not the same as high frequency"
+    },
+    {
+      "mapping_id": "napoleon-cmt-007",
+      "rhetorical_salience": "medium",
+      "frequency_count_for_concept": 3,
+      "cluster_mapping_count": 6,
+      "conceptual_centrality": "high",
+      "ideological_force": "legitimation",
+      "claim_caution": "high salience is not the same as high frequency"
+    },
+    {
+      "mapping_id": "napoleon-cmt-008",
+      "rhetorical_salience": "high",
+      "frequency_count_for_concept": 3,
+      "cluster_mapping_count": 6,
+      "conceptual_centrality": "high",
+      "ideological_force": "legitimation",
+      "claim_caution": "high salience is not the same as high frequency"
+    },
+    {
+      "mapping_id": "napoleon-cmt-009",
+      "rhetorical_salience": "medium",
+      "frequency_count_for_concept": 1,
+      "cluster_mapping_count": 8,
+      "conceptual_centrality": "high",
+      "ideological_force": "legitimation",
+      "claim_caution": "high salience is not the same as high frequency"
+    },
+    {
+      "mapping_id": "napoleon-cmt-010",
+      "rhetorical_salience": "medium",
+      "frequency_count_for_concept": 4,
+      "cluster_mapping_count": 8,
+      "conceptual_centrality": "high",
+      "ideological_force": "legitimation",
+      "claim_caution": "high salience is not the same as high frequency"
+    },
+    {
+      "mapping_id": "napoleon-cmt-011",
+      "rhetorical_salience": "high",
+      "frequency_count_for_concept": 3,
+      "cluster_mapping_count": 3,
+      "conceptual_centrality": "high",
+      "ideological_force": "sacrifice",
+      "claim_caution": "high salience is not the same as high frequency"
+    },
+    {
+      "mapping_id": "napoleon-cmt-012",
+      "rhetorical_salience": "high",
+      "frequency_count_for_concept": 3,
+      "cluster_mapping_count": 3,
+      "conceptual_centrality": "high",
+      "ideological_force": "sacrifice",
+      "claim_caution": "high salience is not the same as high frequency"
+    },
+    {
+      "mapping_id": "napoleon-cmt-013",
+      "rhetorical_salience": "medium",
+      "frequency_count_for_concept": 2,
+      "cluster_mapping_count": 8,
+      "conceptual_centrality": "high",
+      "ideological_force": "legitimation",
+      "claim_caution": "high salience is not the same as high frequency"
+    },
+    {
+      "mapping_id": "napoleon-cmt-014",
+      "rhetorical_salience": "medium",
+      "frequency_count_for_concept": 4,
+      "cluster_mapping_count": 8,
+      "conceptual_centrality": "high",
+      "ideological_force": "legitimation",
+      "claim_caution": "high salience is not the same as high frequency"
+    },
+    {
+      "mapping_id": "napoleon-cmt-015",
+      "rhetorical_salience": "high",
+      "frequency_count_for_concept": 3,
+      "cluster_mapping_count": 6,
+      "conceptual_centrality": "high",
+      "ideological_force": "legitimation",
+      "claim_caution": "high salience is not the same as high frequency"
+    },
+    {
+      "mapping_id": "napoleon-cmt-016",
+      "rhetorical_salience": "medium",
+      "frequency_count_for_concept": 4,
+      "cluster_mapping_count": 8,
+      "conceptual_centrality": "high",
+      "ideological_force": "legitimation",
+      "claim_caution": "high salience is not the same as high frequency"
+    },
+    {
+      "mapping_id": "napoleon-cmt-017",
+      "rhetorical_salience": "high",
+      "frequency_count_for_concept": 3,
+      "cluster_mapping_count": 6,
+      "conceptual_centrality": "high",
+      "ideological_force": "legitimation",
+      "claim_caution": "high salience is not the same as high frequency"
+    },
+    {
+      "mapping_id": "napoleon-cmt-018",
+      "rhetorical_salience": "medium",
+      "frequency_count_for_concept": 2,
+      "cluster_mapping_count": 8,
+      "conceptual_centrality": "high",
+      "ideological_force": "legitimation",
+      "claim_caution": "high salience is not the same as high frequency"
+    },
+    {
+      "mapping_id": "napoleon-cmt-019",
+      "rhetorical_salience": "medium",
+      "frequency_count_for_concept": 1,
+      "cluster_mapping_count": 1,
+      "conceptual_centrality": "local",
+      "ideological_force": "legitimation",
+      "claim_caution": "high salience is not the same as high frequency"
+    }
+  ],
+  "timeline": [
+    {
+      "document_date": "1805-12-10",
+      "period": null,
+      "register": "military-bulletin-proclamation",
+      "document_id": "napoleon-bulletin-1805-12-03-austerlitz",
+      "mapping_id": "napoleon-cmt-001",
+      "cluster_id": "napoleon-02-army-body",
+      "source_domain_primary": "sacrifice",
+      "target_domain": "army",
+      "conceptual_metaphor": "ARMY IS SACRIFICE",
+      "rhetorical_salience": "high",
+      "confidence": 0.82,
+      "mipvu_ids": "napoleon-bulletin-1805-12-03-austerlitz_s01_p03_s03_lu029"
+    },
+    {
+      "document_date": "1805-12-10",
+      "period": null,
+      "register": "military-bulletin-proclamation",
+      "document_id": "napoleon-bulletin-1805-12-03-austerlitz",
+      "mapping_id": "napoleon-cmt-002",
+      "cluster_id": "napoleon-03-emperor-embodiment",
+      "source_domain_primary": "sacrifice",
+      "target_domain": "nation",
+      "conceptual_metaphor": "NATION IS SACRIFICE",
+      "rhetorical_salience": "high",
+      "confidence": 0.88,
+      "mipvu_ids": "napoleon-bulletin-1805-12-03-austerlitz_s01_p16_s04_lu021;napoleon-bulletin-1805-12-03-austerlitz_s01_p16_s04_lu022;napoleon-bulletin-1805-12-03-austerlitz_s01_p16_s04_lu025;napoleon-bulletin-1805-12-03-austerlitz_s01_p16_s04_lu039"
+    },
+    {
+      "document_date": "1805-12-11",
+      "period": null,
+      "register": "military-bulletin-proclamation",
+      "document_id": "napoleon-bulletin-1805-12-04-austerlitz-aftermath",
+      "mapping_id": "napoleon-cmt-003",
+      "cluster_id": "napoleon-01-glory-destiny",
+      "source_domain_primary": "object_material",
+      "target_domain": "history",
+      "conceptual_metaphor": "HISTORY IS OBJECT MATERIAL",
+      "rhetorical_salience": "medium",
+      "confidence": 0.55,
+      "mipvu_ids": "napoleon-bulletin-1805-12-04-austerlitz-aftermath_s01_p21_s02_lu009"
+    },
+    {
+      "document_date": "1806-10-15",
+      "period": null,
+      "register": "military-bulletin-proclamation",
+      "document_id": "napoleon-bulletin-1806-10-15-jena",
+      "mapping_id": "napoleon-cmt-004",
+      "cluster_id": "napoleon-05-soldier-sacrifice",
+      "source_domain_primary": "sacrifice",
+      "target_domain": "war_death",
+      "conceptual_metaphor": "WAR DEATH IS SACRIFICE",
+      "rhetorical_salience": "high",
+      "confidence": 0.8,
+      "mipvu_ids": "napoleon-bulletin-1806-10-15-jena_s01_p23_s06_lu023"
+    },
+    {
+      "document_date": "1806-10-15",
+      "period": null,
+      "register": "military-bulletin-proclamation",
+      "document_id": "napoleon-bulletin-1806-10-15-jena",
+      "mapping_id": "napoleon-cmt-005",
+      "cluster_id": "napoleon-02-army-body",
+      "source_domain_primary": "body",
+      "target_domain": "military_virtue",
+      "conceptual_metaphor": "MILITARY VIRTUE IS BODY",
+      "rhetorical_salience": "medium",
+      "confidence": 0.76,
+      "mipvu_ids": "napoleon-bulletin-1806-10-15-jena_s01_p24_s04_lu008"
+    },
+    {
+      "document_date": "1806-10-26",
+      "period": null,
+      "register": "military-bulletin-proclamation",
+      "document_id": "napoleon-bulletin-1806-10-26-berlin",
+      "mapping_id": "napoleon-cmt-006",
+      "cluster_id": "napoleon-01-glory-destiny",
+      "source_domain_primary": "object_material",
+      "target_domain": "history",
+      "conceptual_metaphor": "HISTORY IS OBJECT MATERIAL",
+      "rhetorical_salience": "medium",
+      "confidence": 0.55,
+      "mipvu_ids": "napoleon-bulletin-1806-10-26-berlin_s01_p06_s01_lu006"
+    },
+    {
+      "document_date": "1806-10-26",
+      "period": null,
+      "register": "military-bulletin-proclamation",
+      "document_id": "napoleon-bulletin-1806-10-26-berlin",
+      "mapping_id": "napoleon-cmt-007",
+      "cluster_id": "napoleon-01-glory-destiny",
+      "source_domain_primary": "object_material",
+      "target_domain": "history",
+      "conceptual_metaphor": "HISTORY IS OBJECT MATERIAL",
+      "rhetorical_salience": "medium",
+      "confidence": 0.55,
+      "mipvu_ids": "napoleon-bulletin-1806-10-26-berlin_s01_p06_s02_lu024"
+    },
+    {
+      "document_date": "1807-02-09",
+      "period": null,
+      "register": "military-bulletin-proclamation",
+      "document_id": "napoleon-bulletin-1807-02-08-eylau",
+      "mapping_id": "napoleon-cmt-008",
+      "cluster_id": "napoleon-01-glory-destiny",
+      "source_domain_primary": "light_darkness",
+      "target_domain": "military_virtue",
+      "conceptual_metaphor": "MILITARY VIRTUE IS LIGHT DARKNESS",
+      "rhetorical_salience": "high",
+      "confidence": 0.86,
+      "mipvu_ids": "napoleon-bulletin-1807-02-08-eylau_s01_p12_s03_lu020"
+    },
+    {
+      "document_date": "1807-02-09",
+      "period": null,
+      "register": "military-bulletin-proclamation",
+      "document_id": "napoleon-bulletin-1807-02-08-eylau",
+      "mapping_id": "napoleon-cmt-009",
+      "cluster_id": "napoleon-02-army-body",
+      "source_domain_primary": "body",
+      "target_domain": "army",
+      "conceptual_metaphor": "ARMY IS BODY",
+      "rhetorical_salience": "medium",
+      "confidence": 0.787,
+      "mipvu_ids": "napoleon-bulletin-1807-02-08-eylau_s01_p15_s02_lu003;napoleon-bulletin-1807-02-08-eylau_s01_p15_s02_lu005;napoleon-bulletin-1807-02-08-eylau_s01_p15_s02_lu009"
+    },
+    {
+      "document_date": "1807-02-09",
+      "period": null,
+      "register": "military-bulletin-proclamation",
+      "document_id": "napoleon-bulletin-1807-02-08-eylau",
+      "mapping_id": "napoleon-cmt-010",
+      "cluster_id": "napoleon-02-army-body",
+      "source_domain_primary": "body",
+      "target_domain": "military_virtue",
+      "conceptual_metaphor": "MILITARY VIRTUE IS BODY",
+      "rhetorical_salience": "medium",
+      "confidence": 0.76,
+      "mipvu_ids": "napoleon-bulletin-1807-02-08-eylau_s01_p15_s03_lu002"
+    },
+    {
+      "document_date": "1807-02-09",
+      "period": null,
+      "register": "military-bulletin-proclamation",
+      "document_id": "napoleon-bulletin-1807-02-08-eylau",
+      "mapping_id": "napoleon-cmt-011",
+      "cluster_id": "napoleon-05-soldier-sacrifice",
+      "source_domain_primary": "sacrifice",
+      "target_domain": "war_death",
+      "conceptual_metaphor": "WAR DEATH IS SACRIFICE",
+      "rhetorical_salience": "high",
+      "confidence": 0.83,
+      "mipvu_ids": "napoleon-bulletin-1807-02-08-eylau_s01_p16_s06_lu003;napoleon-bulletin-1807-02-08-eylau_s01_p16_s06_lu005"
+    },
+    {
+      "document_date": "1807-02-09",
+      "period": null,
+      "register": "military-bulletin-proclamation",
+      "document_id": "napoleon-bulletin-1807-02-08-eylau",
+      "mapping_id": "napoleon-cmt-012",
+      "cluster_id": "napoleon-05-soldier-sacrifice",
+      "source_domain_primary": "sacrifice",
+      "target_domain": "war_death",
+      "conceptual_metaphor": "WAR DEATH IS SACRIFICE",
+      "rhetorical_salience": "high",
+      "confidence": 0.8,
+      "mipvu_ids": "napoleon-bulletin-1807-02-08-eylau_s01_p17_s01_lu053"
+    },
+    {
+      "document_date": "1807-06-17",
+      "period": null,
+      "register": "military-bulletin-proclamation",
+      "document_id": "napoleon-bulletin-1807-06-14-friedland",
+      "mapping_id": "napoleon-cmt-013",
+      "cluster_id": "napoleon-02-army-body",
+      "source_domain_primary": "body",
+      "target_domain": "war_death",
+      "conceptual_metaphor": "WAR DEATH IS BODY",
+      "rhetorical_salience": "medium",
+      "confidence": 0.74,
+      "mipvu_ids": "napoleon-bulletin-1807-06-14-friedland_s01_p05_s01_lu002"
+    },
+    {
+      "document_date": "1807-06-17",
+      "period": null,
+      "register": "military-bulletin-proclamation",
+      "document_id": "napoleon-bulletin-1807-06-14-friedland",
+      "mapping_id": "napoleon-cmt-014",
+      "cluster_id": "napoleon-02-army-body",
+      "source_domain_primary": "body",
+      "target_domain": "military_virtue",
+      "conceptual_metaphor": "MILITARY VIRTUE IS BODY",
+      "rhetorical_salience": "medium",
+      "confidence": 0.76,
+      "mipvu_ids": "napoleon-bulletin-1807-06-14-friedland_s01_p25_s02_lu002"
+    },
+    {
+      "document_date": "1809-07-08",
+      "period": null,
+      "register": "military-bulletin-proclamation",
+      "document_id": "napoleon-bulletin-1809-07-08-wagram",
+      "mapping_id": "napoleon-cmt-015",
+      "cluster_id": "napoleon-01-glory-destiny",
+      "source_domain_primary": "light_darkness",
+      "target_domain": "military_virtue",
+      "conceptual_metaphor": "MILITARY VIRTUE IS LIGHT DARKNESS",
+      "rhetorical_salience": "high",
+      "confidence": 0.86,
+      "mipvu_ids": "napoleon-bulletin-1809-07-08-wagram_s01_p43_s05_lu012"
+    },
+    {
+      "document_date": "1809-07-08",
+      "period": null,
+      "register": "military-bulletin-proclamation",
+      "document_id": "napoleon-bulletin-1809-07-08-wagram",
+      "mapping_id": "napoleon-cmt-016",
+      "cluster_id": "napoleon-02-army-body",
+      "source_domain_primary": "body",
+      "target_domain": "military_virtue",
+      "conceptual_metaphor": "MILITARY VIRTUE IS BODY",
+      "rhetorical_salience": "medium",
+      "confidence": 0.76,
+      "mipvu_ids": "napoleon-bulletin-1809-07-08-wagram_s01_p44_s01_lu024"
+    },
+    {
+      "document_date": "1809-07-08",
+      "period": null,
+      "register": "military-bulletin-proclamation",
+      "document_id": "napoleon-bulletin-1809-07-08-wagram",
+      "mapping_id": "napoleon-cmt-017",
+      "cluster_id": "napoleon-01-glory-destiny",
+      "source_domain_primary": "light_darkness",
+      "target_domain": "military_virtue",
+      "conceptual_metaphor": "MILITARY VIRTUE IS LIGHT DARKNESS",
+      "rhetorical_salience": "high",
+      "confidence": 0.86,
+      "mipvu_ids": "napoleon-bulletin-1809-07-08-wagram_s01_p53_s04_lu006"
+    },
+    {
+      "document_date": "1812-12-03",
+      "period": null,
+      "register": "military-bulletin-proclamation",
+      "document_id": "napoleon-bulletin-1812-12-03-russia-29th",
+      "mapping_id": "napoleon-cmt-018",
+      "cluster_id": "napoleon-02-army-body",
+      "source_domain_primary": "body",
+      "target_domain": "war_death",
+      "conceptual_metaphor": "WAR DEATH IS BODY",
+      "rhetorical_salience": "medium",
+      "confidence": 0.74,
+      "mipvu_ids": "napoleon-bulletin-1812-12-03-russia-29th_s01_p09_s04_lu023"
+    },
+    {
+      "document_date": "1813-05-24",
+      "period": null,
+      "register": "military-bulletin-proclamation",
+      "document_id": "napoleon-bulletin-1813-05-24-bautzen",
+      "mapping_id": "napoleon-cmt-019",
+      "cluster_id": "napoleon-06-enemy-obstacle",
+      "source_domain_primary": "journey_motion",
+      "target_domain": "war_death",
+      "conceptual_metaphor": "WAR DEATH IS JOURNEY MOTION",
+      "rhetorical_salience": "medium",
+      "confidence": 0.7,
+      "mipvu_ids": "napoleon-bulletin-1813-05-24-bautzen_s01_p25_s03_lu008"
+    }
+  ],
+  "measure_definitions": {
+    "frequency": "Number of CMT mapping records in the reviewed mapping table.",
+    "distribution": "Number of documents, registers, or periods in which a mapping pattern appears.",
+    "concentration": "Whether mappings are concentrated in a few documents or periods.",
+    "rhetorical_salience": "Analyst-coded prominence in the local rhetorical occasion.",
+    "conceptual_centrality": "Whether a cluster organizes multiple mapping records in the current evidence set.",
+    "ideological_force": "Recorded ideological functions attached to the mapping; not reducible to frequency."
+  },
+  "diachronic_classification": {
+    "lincoln-01-body-organism": "stable/reactivated",
+    "lincoln-08-sacrificial-death-gift": "intensifying in peak-war-sacrifice evidence",
+    "lincoln-04-birth-creation": "local high-salience mutation toward renewal",
+    "lincoln-06-providence-theodicy": "reorganizing in final-reconciliation evidence"
+  }
+}

@@ -1,34 +1,72 @@
 average_confidence,document_count,high_salience_count,mapping_count,mapping_ids,metric,value
-0.8,1,2,2,lincoln-cmt-007;lincoln-cmt-008,source_domain_primary,debt_accounting
-0.9,2,2,2,lincoln-cmt-001;lincoln-cmt-006,source_domain_primary,nature_organism
-0.85,1,2,2,lincoln-cmt-002;lincoln-cmt-004,source_domain_primary,sacrifice
-0.95,1,1,1,lincoln-cmt-005,source_domain_primary,birth_generation
-0.6,1,1,1,lincoln-cmt-009,source_domain_primary,law_contract
-0.78,1,1,1,lincoln-cmt-003,source_domain_primary,religion_providence
-0.83,2,2,2,lincoln-cmt-004;lincoln-cmt-008,target_domain,civil_war
-0.88,2,2,2,lincoln-cmt-001;lincoln-cmt-002,target_domain,nation
-0.78,1,1,1,lincoln-cmt-003,target_domain,citizenship
-0.9,1,1,1,lincoln-cmt-006,target_domain,democracy
-0.95,1,1,1,lincoln-cmt-005,target_domain,freedom
-0.6,1,1,1,lincoln-cmt-009,target_domain,providence
-0.78,1,1,1,lincoln-cmt-007,target_domain,slavery
-0.82,1,1,1,lincoln-cmt-008,conceptual_metaphor,BLOODSHED IS MORAL REPAYMENT
-0.78,1,1,1,lincoln-cmt-003,conceptual_metaphor,CIVIC DUTY IS SACRED DEDICATION
-0.9,1,1,1,lincoln-cmt-006,conceptual_metaphor,DEMOCRATIC GOVERNMENT IS A LIVING ORGANISM
-0.6,1,1,1,lincoln-cmt-009,conceptual_metaphor,DIVINE WILL IS RIGHTEOUS JUDGMENT
-0.84,1,1,1,lincoln-cmt-004,conceptual_metaphor,MILITARY DEATH IS TOTAL DEVOTIONAL PAYMENT
-0.95,1,1,1,lincoln-cmt-005,conceptual_metaphor,POLITICAL RENEWAL IS BIRTH
-0.78,1,1,1,lincoln-cmt-007,conceptual_metaphor,SLAVERY'S PROFIT IS MORAL DEBT
-0.86,1,1,1,lincoln-cmt-002,conceptual_metaphor,SOLDIER DEATH IS A GIFT THAT PRESERVES NATIONAL LIFE
-0.9,1,1,1,lincoln-cmt-001,conceptual_metaphor,THE NATION IS A LIVING BODY
-0.745,2,4,4,lincoln-cmt-003;lincoln-cmt-007;lincoln-cmt-008;lincoln-cmt-009,cluster_id,lincoln-06-providence-theodicy
-0.9,2,2,2,lincoln-cmt-001;lincoln-cmt-006,cluster_id,lincoln-01-body-organism
-0.85,1,2,2,lincoln-cmt-002;lincoln-cmt-004,cluster_id,lincoln-08-sacrificial-death-gift
-0.95,1,1,1,lincoln-cmt-005,cluster_id,lincoln-04-birth-creation
-0.826,3,9,9,lincoln-cmt-001;lincoln-cmt-002;lincoln-cmt-003;lincoln-cmt-004;lincoln-cmt-005;lincoln-cmt-006;lincoln-cmt-007;lincoln-cmt-008;lincoln-cmt-009,rhetorical_salience,high
-0.866,1,5,5,lincoln-cmt-002;lincoln-cmt-003;lincoln-cmt-004;lincoln-cmt-005;lincoln-cmt-006,register,ceremonial-address
-0.733,1,3,3,lincoln-cmt-007;lincoln-cmt-008;lincoln-cmt-009,register,inaugural-address
-0.9,1,1,1,lincoln-cmt-001,register,public-address
-0.866,1,5,5,lincoln-cmt-002;lincoln-cmt-003;lincoln-cmt-004;lincoln-cmt-005;lincoln-cmt-006,period,emancipation-and-sacrifice
-0.733,1,3,3,lincoln-cmt-007;lincoln-cmt-008;lincoln-cmt-009,period,providence-and-reconciliation
-0.9,1,1,1,lincoln-cmt-001,period,early-republican-rhetoric
+0.791,3,8,20,lincoln-cmt-004;lincoln-cmt-008;lincoln-cmt-014;lincoln-cmt-015;lincoln-cmt-034;lincoln-cmt-035;lincoln-cmt-036;lincoln-cmt-037;lincoln-cmt-038;lincoln-cmt-039;lincoln-cmt-041;lincoln-cmt-043;lincoln-cmt-047;lincoln-cmt-048;lincoln-cmt-049;lincoln-cmt-053;lincoln-cmt-054;lincoln-cmt-060;lincoln-cmt-062;lincoln-cmt-064,source_domain_primary,body
+0.81,3,6,12,lincoln-cmt-005;lincoln-cmt-007;lincoln-cmt-009;lincoln-cmt-010;lincoln-cmt-017;lincoln-cmt-029;lincoln-cmt-030;lincoln-cmt-031;lincoln-cmt-032;lincoln-cmt-045;lincoln-cmt-052;lincoln-cmt-058,source_domain_primary,nature_organism
+0.883,1,6,6,lincoln-cmt-003;lincoln-cmt-022;lincoln-cmt-033;lincoln-cmt-040;lincoln-cmt-046;lincoln-cmt-050,source_domain_primary,architecture_building
+0.825,2,3,4,lincoln-cmt-011;lincoln-cmt-025;lincoln-cmt-057;lincoln-cmt-059,source_domain_primary,object_material
+0.774,3,2,4,lincoln-cmt-020;lincoln-cmt-021;lincoln-cmt-055;lincoln-cmt-061,source_domain_primary,religion_providence
+0.809,1,3,4,lincoln-cmt-012;lincoln-cmt-016;lincoln-cmt-018;lincoln-cmt-019,source_domain_primary,sacrifice
+0.744,1,0,3,lincoln-cmt-023;lincoln-cmt-024;lincoln-cmt-028,source_domain_primary,experiment_science
+0.776,1,0,3,lincoln-cmt-026;lincoln-cmt-027;lincoln-cmt-042,source_domain_primary,life_death
+0.805,2,1,2,lincoln-cmt-006;lincoln-cmt-051,source_domain_primary,birth_generation
+0.769,2,1,2,lincoln-cmt-001;lincoln-cmt-063,source_domain_primary,debt_accounting
+0.82,1,1,2,lincoln-cmt-002;lincoln-cmt-013,source_domain_primary,theater_stage
+0.835,2,1,2,lincoln-cmt-044;lincoln-cmt-056,source_domain_primary,war_combat
+0.778,1,6,17,lincoln-cmt-005;lincoln-cmt-009;lincoln-cmt-010;lincoln-cmt-011;lincoln-cmt-012;lincoln-cmt-014;lincoln-cmt-025;lincoln-cmt-029;lincoln-cmt-030;lincoln-cmt-031;lincoln-cmt-032;lincoln-cmt-034;lincoln-cmt-035;lincoln-cmt-036;lincoln-cmt-037;lincoln-cmt-038;lincoln-cmt-039,target_domain,political_order
+0.833,2,6,10,lincoln-cmt-001;lincoln-cmt-002;lincoln-cmt-026;lincoln-cmt-027;lincoln-cmt-041;lincoln-cmt-042;lincoln-cmt-043;lincoln-cmt-044;lincoln-cmt-045;lincoln-cmt-054,target_domain,history
+0.801,2,3,7,lincoln-cmt-016;lincoln-cmt-018;lincoln-cmt-019;lincoln-cmt-047;lincoln-cmt-048;lincoln-cmt-049;lincoln-cmt-055,target_domain,citizenship
+0.821,3,4,7,lincoln-cmt-006;lincoln-cmt-007;lincoln-cmt-017;lincoln-cmt-051;lincoln-cmt-052;lincoln-cmt-058;lincoln-cmt-064,target_domain,nation
+0.838,1,4,5,lincoln-cmt-003;lincoln-cmt-015;lincoln-cmt-022;lincoln-cmt-033;lincoln-cmt-040,target_domain,government
+0.744,1,0,3,lincoln-cmt-023;lincoln-cmt-024;lincoln-cmt-028,target_domain,republic
+0.713,1,1,3,lincoln-cmt-060;lincoln-cmt-061;lincoln-cmt-063,target_domain,slavery
+0.812,3,2,3,lincoln-cmt-013;lincoln-cmt-053;lincoln-cmt-062,target_domain,war_death
+0.925,1,2,2,lincoln-cmt-046;lincoln-cmt-050,target_domain,freedom
+0.833,1,1,2,lincoln-cmt-020;lincoln-cmt-021,target_domain,law
+0.86,1,2,2,lincoln-cmt-057;lincoln-cmt-059,target_domain,union
+0.72,1,0,1,lincoln-cmt-056,target_domain,civil_war
+0.9,1,1,1,lincoln-cmt-004,target_domain,enemy
+0.74,1,0,1,lincoln-cmt-008,target_domain,political_identity
+0.758,1,1,7,lincoln-cmt-014;lincoln-cmt-034;lincoln-cmt-035;lincoln-cmt-036;lincoln-cmt-037;lincoln-cmt-038;lincoln-cmt-039,conceptual_metaphor,POLITICAL ORDER IS BODY
+0.789,1,3,7,lincoln-cmt-005;lincoln-cmt-009;lincoln-cmt-010;lincoln-cmt-029;lincoln-cmt-030;lincoln-cmt-031;lincoln-cmt-032,conceptual_metaphor,POLITICAL ORDER IS NATURE ORGANISM
+0.862,1,4,4,lincoln-cmt-003;lincoln-cmt-022;lincoln-cmt-033;lincoln-cmt-040,conceptual_metaphor,GOVERNMENT IS ARCHITECTURE BUILDING
+0.819,3,2,4,lincoln-cmt-007;lincoln-cmt-017;lincoln-cmt-052;lincoln-cmt-058,conceptual_metaphor,NATION IS NATURE ORGANISM
+0.78,1,0,3,lincoln-cmt-047;lincoln-cmt-048;lincoln-cmt-049,conceptual_metaphor,CITIZENSHIP IS BODY
+0.805,1,2,3,lincoln-cmt-016;lincoln-cmt-018;lincoln-cmt-019,conceptual_metaphor,CITIZENSHIP IS SACRIFICE
+0.815,2,2,3,lincoln-cmt-041;lincoln-cmt-043;lincoln-cmt-054,conceptual_metaphor,HISTORY IS BODY
+0.776,1,0,3,lincoln-cmt-026;lincoln-cmt-027;lincoln-cmt-042,conceptual_metaphor,HISTORY IS LIFE DEATH
+0.744,1,0,3,lincoln-cmt-023;lincoln-cmt-024;lincoln-cmt-028,conceptual_metaphor,REPUBLIC IS EXPERIMENT SCIENCE
+0.925,1,2,2,lincoln-cmt-046;lincoln-cmt-050,conceptual_metaphor,FREEDOM IS ARCHITECTURE BUILDING
+0.833,1,1,2,lincoln-cmt-020;lincoln-cmt-021,conceptual_metaphor,LAW IS RELIGION PROVIDENCE
+0.805,2,1,2,lincoln-cmt-006;lincoln-cmt-051,conceptual_metaphor,NATION IS BIRTH GENERATION
+0.79,1,1,2,lincoln-cmt-011;lincoln-cmt-025,conceptual_metaphor,POLITICAL ORDER IS OBJECT MATERIAL
+0.86,1,2,2,lincoln-cmt-057;lincoln-cmt-059,conceptual_metaphor,UNION IS OBJECT MATERIAL
+0.829,2,2,2,lincoln-cmt-053;lincoln-cmt-062,conceptual_metaphor,WAR DEATH IS BODY
+0.85,1,1,1,lincoln-cmt-055,conceptual_metaphor,CITIZENSHIP IS RELIGION PROVIDENCE
+0.72,1,0,1,lincoln-cmt-056,conceptual_metaphor,CIVIL WAR IS WAR COMBAT
+0.9,1,1,1,lincoln-cmt-004,conceptual_metaphor,ENEMY IS BODY
+0.74,1,0,1,lincoln-cmt-015,conceptual_metaphor,GOVERNMENT IS BODY
+0.82,1,1,1,lincoln-cmt-001,conceptual_metaphor,HISTORY IS DEBT ACCOUNTING
+0.925,1,1,1,lincoln-cmt-045,conceptual_metaphor,HISTORY IS NATURE ORGANISM
+0.86,1,1,1,lincoln-cmt-002,conceptual_metaphor,HISTORY IS THEATER STAGE
+0.95,1,1,1,lincoln-cmt-044,conceptual_metaphor,HISTORY IS WAR COMBAT
+0.86,1,1,1,lincoln-cmt-064,conceptual_metaphor,NATION IS BODY
+0.74,1,0,1,lincoln-cmt-008,conceptual_metaphor,POLITICAL IDENTITY IS BODY
+0.82,1,1,1,lincoln-cmt-012,conceptual_metaphor,POLITICAL ORDER IS SACRIFICE
+0.84,1,1,1,lincoln-cmt-060,conceptual_metaphor,SLAVERY IS BODY
+0.718,1,0,1,lincoln-cmt-063,conceptual_metaphor,SLAVERY IS DEBT ACCOUNTING
+0.58,1,0,1,lincoln-cmt-061,conceptual_metaphor,SLAVERY IS RELIGION PROVIDENCE
+0.78,1,0,1,lincoln-cmt-013,conceptual_metaphor,WAR DEATH IS THEATER STAGE
+0.808,3,22,43,lincoln-cmt-003;lincoln-cmt-004;lincoln-cmt-005;lincoln-cmt-006;lincoln-cmt-007;lincoln-cmt-008;lincoln-cmt-009;lincoln-cmt-010;lincoln-cmt-011;lincoln-cmt-014;lincoln-cmt-015;lincoln-cmt-017;lincoln-cmt-022;lincoln-cmt-025;lincoln-cmt-029;lincoln-cmt-030;lincoln-cmt-031;lincoln-cmt-032;lincoln-cmt-033;lincoln-cmt-034;lincoln-cmt-035;lincoln-cmt-036;lincoln-cmt-037;lincoln-cmt-038;lincoln-cmt-039;lincoln-cmt-040;lincoln-cmt-041;lincoln-cmt-043;lincoln-cmt-045;lincoln-cmt-046;lincoln-cmt-047;lincoln-cmt-048;lincoln-cmt-049;lincoln-cmt-050;lincoln-cmt-051;lincoln-cmt-052;lincoln-cmt-053;lincoln-cmt-054;lincoln-cmt-056;lincoln-cmt-058;lincoln-cmt-060;lincoln-cmt-062;lincoln-cmt-064,cluster_id,lincoln-01-body-organism
+0.826,1,3,6,lincoln-cmt-001;lincoln-cmt-002;lincoln-cmt-026;lincoln-cmt-027;lincoln-cmt-042;lincoln-cmt-044,cluster_id,lincoln-05-fathers-inheritance
+0.803,1,3,5,lincoln-cmt-012;lincoln-cmt-013;lincoln-cmt-016;lincoln-cmt-018;lincoln-cmt-019,cluster_id,lincoln-08-sacrificial-death-gift
+0.846,2,3,4,lincoln-cmt-020;lincoln-cmt-021;lincoln-cmt-057;lincoln-cmt-059,cluster_id,lincoln-02-covenant-oath
+0.744,1,0,3,lincoln-cmt-023;lincoln-cmt-024;lincoln-cmt-028,cluster_id,lincoln-03-experiment-proposition
+0.715,2,1,2,lincoln-cmt-055;lincoln-cmt-061,cluster_id,lincoln-06-providence-theodicy
+0.718,1,0,1,lincoln-cmt-063,cluster_id,lincoln-07-absence-black-agency
+0.864,3,32,32,lincoln-cmt-001;lincoln-cmt-002;lincoln-cmt-003;lincoln-cmt-004;lincoln-cmt-007;lincoln-cmt-011;lincoln-cmt-012;lincoln-cmt-014;lincoln-cmt-016;lincoln-cmt-018;lincoln-cmt-021;lincoln-cmt-022;lincoln-cmt-029;lincoln-cmt-030;lincoln-cmt-031;lincoln-cmt-033;lincoln-cmt-040;lincoln-cmt-043;lincoln-cmt-044;lincoln-cmt-045;lincoln-cmt-046;lincoln-cmt-050;lincoln-cmt-051;lincoln-cmt-053;lincoln-cmt-054;lincoln-cmt-055;lincoln-cmt-057;lincoln-cmt-058;lincoln-cmt-059;lincoln-cmt-060;lincoln-cmt-062;lincoln-cmt-064,rhetorical_salience,high
+0.745,3,0,32,lincoln-cmt-005;lincoln-cmt-006;lincoln-cmt-008;lincoln-cmt-009;lincoln-cmt-010;lincoln-cmt-013;lincoln-cmt-015;lincoln-cmt-017;lincoln-cmt-019;lincoln-cmt-020;lincoln-cmt-023;lincoln-cmt-024;lincoln-cmt-025;lincoln-cmt-026;lincoln-cmt-027;lincoln-cmt-028;lincoln-cmt-032;lincoln-cmt-034;lincoln-cmt-035;lincoln-cmt-036;lincoln-cmt-037;lincoln-cmt-038;lincoln-cmt-039;lincoln-cmt-041;lincoln-cmt-042;lincoln-cmt-047;lincoln-cmt-048;lincoln-cmt-049;lincoln-cmt-052;lincoln-cmt-056;lincoln-cmt-061;lincoln-cmt-063,rhetorical_salience,medium
+0.805,1,22,50,lincoln-cmt-001;lincoln-cmt-002;lincoln-cmt-003;lincoln-cmt-004;lincoln-cmt-005;lincoln-cmt-006;lincoln-cmt-007;lincoln-cmt-008;lincoln-cmt-009;lincoln-cmt-010;lincoln-cmt-011;lincoln-cmt-012;lincoln-cmt-013;lincoln-cmt-014;lincoln-cmt-015;lincoln-cmt-016;lincoln-cmt-017;lincoln-cmt-018;lincoln-cmt-019;lincoln-cmt-020;lincoln-cmt-021;lincoln-cmt-022;lincoln-cmt-023;lincoln-cmt-024;lincoln-cmt-025;lincoln-cmt-026;lincoln-cmt-027;lincoln-cmt-028;lincoln-cmt-029;lincoln-cmt-030;lincoln-cmt-031;lincoln-cmt-032;lincoln-cmt-033;lincoln-cmt-034;lincoln-cmt-035;lincoln-cmt-036;lincoln-cmt-037;lincoln-cmt-038;lincoln-cmt-039;lincoln-cmt-040;lincoln-cmt-041;lincoln-cmt-042;lincoln-cmt-043;lincoln-cmt-044;lincoln-cmt-045;lincoln-cmt-046;lincoln-cmt-047;lincoln-cmt-048;lincoln-cmt-049;lincoln-cmt-050,register,public-address
+0.795,1,6,9,lincoln-cmt-056;lincoln-cmt-057;lincoln-cmt-058;lincoln-cmt-059;lincoln-cmt-060;lincoln-cmt-061;lincoln-cmt-062;lincoln-cmt-063;lincoln-cmt-064,register,inaugural-address
+0.815,1,4,5,lincoln-cmt-051;lincoln-cmt-052;lincoln-cmt-053;lincoln-cmt-054;lincoln-cmt-055,register,ceremonial-address
+0.805,1,22,50,lincoln-cmt-001;lincoln-cmt-002;lincoln-cmt-003;lincoln-cmt-004;lincoln-cmt-005;lincoln-cmt-006;lincoln-cmt-007;lincoln-cmt-008;lincoln-cmt-009;lincoln-cmt-010;lincoln-cmt-011;lincoln-cmt-012;lincoln-cmt-013;lincoln-cmt-014;lincoln-cmt-015;lincoln-cmt-016;lincoln-cmt-017;lincoln-cmt-018;lincoln-cmt-019;lincoln-cmt-020;lincoln-cmt-021;lincoln-cmt-022;lincoln-cmt-023;lincoln-cmt-024;lincoln-cmt-025;lincoln-cmt-026;lincoln-cmt-027;lincoln-cmt-028;lincoln-cmt-029;lincoln-cmt-030;lincoln-cmt-031;lincoln-cmt-032;lincoln-cmt-033;lincoln-cmt-034;lincoln-cmt-035;lincoln-cmt-036;lincoln-cmt-037;lincoln-cmt-038;lincoln-cmt-039;lincoln-cmt-040;lincoln-cmt-041;lincoln-cmt-042;lincoln-cmt-043;lincoln-cmt-044;lincoln-cmt-045;lincoln-cmt-046;lincoln-cmt-047;lincoln-cmt-048;lincoln-cmt-049;lincoln-cmt-050,period,early-republican-rhetoric
+0.795,1,6,9,lincoln-cmt-056;lincoln-cmt-057;lincoln-cmt-058;lincoln-cmt-059;lincoln-cmt-060;lincoln-cmt-061;lincoln-cmt-062;lincoln-cmt-063;lincoln-cmt-064,period,providence-and-reconciliation
+0.815,1,4,5,lincoln-cmt-051;lincoln-cmt-052;lincoln-cmt-053;lincoln-cmt-054;lincoln-cmt-055,period,emancipation-and-sacrifice

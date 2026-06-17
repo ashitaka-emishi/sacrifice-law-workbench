@@ -1,0 +1,743 @@
+{
+  "version": "1.0",
+  "case_id": "napoleon",
+  "generated_at": "2026-06-17T15:09:55",
+  "status": "draft",
+  "contexts": [
+    {
+      "mapping_id": "napoleon-cmt-001",
+      "document_id": "napoleon-bulletin-1805-12-03-austerlitz",
+      "sentence_id": "napoleon-bulletin-1805-12-03-austerlitz_s01_p03_s03",
+      "date": "1805-12-10",
+      "period": null,
+      "audience": "Grande Armée soldiers, French public, and European courts reading official bulletins",
+      "occasion": "Battle of Austerlitz, December 2, 1805 — Napoleon's most celebrated victory",
+      "genre": "imperial military bulletin",
+      "rhetorical_action": "Glorifies the victory as providential destiny and constructs the Emperor as the embodied source of triumph.",
+      "emotional_posture": "triumphant, celebratory, imperial",
+      "agency_structure": {
+        "agents": [
+          "l'Empereur",
+          "la Grande Armée",
+          "soldats"
+        ],
+        "patients": [
+          "l'ennemi",
+          "les armées coalisées"
+        ],
+        "beneficiaries": [
+          "la France",
+          "l'Empire",
+          "la gloire"
+        ],
+        "passive_or_absent": [
+          "enemy dead and wounded",
+          "civilian populations",
+          "non-French subject peoples"
+        ],
+        "displacement_mechanism": "Enemy suffering is suppressed under glory and destiny; civilian impact is invisible."
+      },
+      "rhetorical_salience": "high",
+      "rhetorical_functions": [
+        "commemoration"
+      ],
+      "evidence_span": "Sa Majesté a exprimé le regret que l'empereur de Russie eût voulu livrer bataille, et a dit que ce monarque, s'il l'avait cru la veille, aurait épargné le sang et l'honneur de son armée.",
+      "claim_boundary": "Genre-sensitive interpretation; do not aggregate as frequency without document/register context."
+    },
+    {
+      "mapping_id": "napoleon-cmt-002",
+      "document_id": "napoleon-bulletin-1805-12-03-austerlitz",
+      "sentence_id": "napoleon-bulletin-1805-12-03-austerlitz_s01_p16_s04",
+      "date": "1805-12-10",
+      "period": null,
+      "audience": "Grande Armée soldiers, French public, and European courts reading official bulletins",
+      "occasion": "Battle of Austerlitz, December 2, 1805 — Napoleon's most celebrated victory",
+      "genre": "imperial military bulletin",
+      "rhetorical_action": "Glorifies the victory as providential destiny and constructs the Emperor as the embodied source of triumph.",
+      "emotional_posture": "triumphant, celebratory, imperial",
+      "agency_structure": {
+        "agents": [
+          "l'Empereur",
+          "la Grande Armée",
+          "soldats"
+        ],
+        "patients": [
+          "l'ennemi",
+          "les armées coalisées"
+        ],
+        "beneficiaries": [
+          "la France",
+          "l'Empire",
+          "la gloire"
+        ],
+        "passive_or_absent": [
+          "enemy dead and wounded",
+          "civilian populations",
+          "non-French subject peoples"
+        ],
+        "displacement_mechanism": "Enemy suffering is suppressed under glory and destiny; civilian impact is invisible."
+      },
+      "rhetorical_salience": "high",
+      "rhetorical_functions": [
+        "commemoration",
+        "national_self_definition"
+      ],
+      "evidence_span": "Notre intention est que, tous les ans, audit jour, un office solennel soit chanté dans ladite métropole, en mémoire des braves morts pour la patrie dans cette grande journée; lequel office sera suivi d'actions de grâces pour la victoire qu'il a plu au Dieu des armées de nous accorder.",
+      "claim_boundary": "Genre-sensitive interpretation; do not aggregate as frequency without document/register context."
+    },
+    {
+      "mapping_id": "napoleon-cmt-003",
+      "document_id": "napoleon-bulletin-1805-12-04-austerlitz-aftermath",
+      "sentence_id": "napoleon-bulletin-1805-12-04-austerlitz-aftermath_s01_p21_s02",
+      "date": "1805-12-11",
+      "period": null,
+      "audience": "Grande Armée and French public",
+      "occasion": "Day after Austerlitz — consolidation of victory and armistice negotiations",
+      "genre": "imperial military bulletin",
+      "rhetorical_action": "Cements the victory narrative and presents Napoleon as magnanimous conqueror.",
+      "emotional_posture": "authoritative, magnanimous",
+      "agency_structure": {
+        "agents": [
+          "l'Empereur",
+          "la Grande Armée"
+        ],
+        "patients": [
+          "l'ennemi vaincu",
+          "les empereurs vaincus"
+        ],
+        "beneficiaries": [
+          "la paix",
+          "l'Empire"
+        ],
+        "passive_or_absent": [
+          "defeated soldiers",
+          "civilian populations of occupied territories"
+        ],
+        "displacement_mechanism": "Magnanimity narrative suppresses the violence and territorial costs of the victory."
+      },
+      "rhetorical_salience": "medium",
+      "rhetorical_functions": [
+        "argument"
+      ],
+      "evidence_span": "Parlez aussi vaguement de ma renonciation à la couronne d'Italie; faites remarquer que ces mots \\\\ à la paix générales m'empêchent de faire ma paix avec l'Angleterre; mais en disant, lorsque l'Angleterre rétablira l'équilibre des mers,?? ou \\\\ que les conditions dont j'ai parlé pour ma renonciation seront remplies,?? cela me donne du vague et des facilités pour faire ma paix avec l'Angleterre.",
+      "claim_boundary": "Genre-sensitive interpretation; do not aggregate as frequency without document/register context."
+    },
+    {
+      "mapping_id": "napoleon-cmt-004",
+      "document_id": "napoleon-bulletin-1806-10-15-jena",
+      "sentence_id": "napoleon-bulletin-1806-10-15-jena_s01_p23_s06",
+      "date": "1806-10-15",
+      "period": null,
+      "audience": "Grande Armée and French public",
+      "occasion": "Battle of Jena, October 14, 1806 — decisive defeat of Prussian forces",
+      "genre": "imperial military bulletin",
+      "rhetorical_action": "Presents Prussian defeat as the inevitable consequence of their aggression and French military superiority.",
+      "emotional_posture": "triumphant, contemptuous of the enemy",
+      "agency_structure": {
+        "agents": [
+          "l'Empereur",
+          "les soldats français"
+        ],
+        "patients": [
+          "l'armée prussienne",
+          "la Prusse"
+        ],
+        "beneficiaries": [
+          "l'Empire",
+          "la gloire française"
+        ],
+        "passive_or_absent": [
+          "Prussian civilian populations",
+          "war dead",
+          "wounded soldiers"
+        ],
+        "displacement_mechanism": "Enemy defeat is framed as deserved; material suffering of soldiers and civilians is suppressed."
+      },
+      "rhetorical_salience": "high",
+      "rhetorical_functions": [
+        "commemoration"
+      ],
+      "evidence_span": "En moins d'une heure, l'action devint générale : 250 ou 3oo,ooo hommes, avec 7 ou 800 pièces de canon, semaient partout la mort et offraient un de ces spectacles rares dans l'histoire.",
+      "claim_boundary": "Genre-sensitive interpretation; do not aggregate as frequency without document/register context."
+    },
+    {
+      "mapping_id": "napoleon-cmt-005",
+      "document_id": "napoleon-bulletin-1806-10-15-jena",
+      "sentence_id": "napoleon-bulletin-1806-10-15-jena_s01_p24_s04",
+      "date": "1806-10-15",
+      "period": null,
+      "audience": "Grande Armée and French public",
+      "occasion": "Battle of Jena, October 14, 1806 — decisive defeat of Prussian forces",
+      "genre": "imperial military bulletin",
+      "rhetorical_action": "Presents Prussian defeat as the inevitable consequence of their aggression and French military superiority.",
+      "emotional_posture": "triumphant, contemptuous of the enemy",
+      "agency_structure": {
+        "agents": [
+          "l'Empereur",
+          "les soldats français"
+        ],
+        "patients": [
+          "l'armée prussienne",
+          "la Prusse"
+        ],
+        "beneficiaries": [
+          "l'Empire",
+          "la gloire française"
+        ],
+        "passive_or_absent": [
+          "Prussian civilian populations",
+          "war dead",
+          "wounded soldiers"
+        ],
+        "displacement_mechanism": "Enemy defeat is framed as deserved; material suffering of soldiers and civilians is suppressed."
+      },
+      "rhetorical_salience": "medium",
+      "rhetorical_functions": [
+        "argument"
+      ],
+      "evidence_span": "Ces braves cavaliers, frémissant de voir la victoire se décider",
+      "claim_boundary": "Genre-sensitive interpretation; do not aggregate as frequency without document/register context."
+    },
+    {
+      "mapping_id": "napoleon-cmt-006",
+      "document_id": "napoleon-bulletin-1806-10-26-berlin",
+      "sentence_id": "napoleon-bulletin-1806-10-26-berlin_s01_p06_s01",
+      "date": "1806-10-26",
+      "period": null,
+      "audience": "Grande Armée and French public",
+      "occasion": "Entry into Berlin, October 1806 — symbolic occupation of the Prussian capital",
+      "genre": "imperial military bulletin",
+      "rhetorical_action": "Frames the capture of Berlin as the completion of historical destiny and Napoleonic mission.",
+      "emotional_posture": "triumphant, imperial",
+      "agency_structure": {
+        "agents": [
+          "l'Empereur",
+          "la Grande Armée"
+        ],
+        "patients": [
+          "Berlin",
+          "la Prusse vaincue"
+        ],
+        "beneficiaries": [
+          "l'Empire",
+          "la France"
+        ],
+        "passive_or_absent": [
+          "Berlin civilian population",
+          "Prussian non-combatants"
+        ],
+        "displacement_mechanism": "Occupation is framed as historical destiny; civilian experience of occupation is absent."
+      },
+      "rhetorical_salience": "medium",
+      "rhetorical_functions": [
+        "argument"
+      ],
+      "evidence_span": "L'Empereur a été voir le tombeau du grand Frédéric.",
+      "claim_boundary": "Genre-sensitive interpretation; do not aggregate as frequency without document/register context."
+    },
+    {
+      "mapping_id": "napoleon-cmt-007",
+      "document_id": "napoleon-bulletin-1806-10-26-berlin",
+      "sentence_id": "napoleon-bulletin-1806-10-26-berlin_s01_p06_s02",
+      "date": "1806-10-26",
+      "period": null,
+      "audience": "Grande Armée and French public",
+      "occasion": "Entry into Berlin, October 1806 — symbolic occupation of the Prussian capital",
+      "genre": "imperial military bulletin",
+      "rhetorical_action": "Frames the capture of Berlin as the completion of historical destiny and Napoleonic mission.",
+      "emotional_posture": "triumphant, imperial",
+      "agency_structure": {
+        "agents": [
+          "l'Empereur",
+          "la Grande Armée"
+        ],
+        "patients": [
+          "Berlin",
+          "la Prusse vaincue"
+        ],
+        "beneficiaries": [
+          "l'Empire",
+          "la France"
+        ],
+        "passive_or_absent": [
+          "Berlin civilian population",
+          "Prussian non-combatants"
+        ],
+        "displacement_mechanism": "Occupation is framed as historical destiny; civilian experience of occupation is absent."
+      },
+      "rhetorical_salience": "medium",
+      "rhetorical_functions": [
+        "argument"
+      ],
+      "evidence_span": "Les restes de ce grand homme sont renfermés dans un cercueil de bois recouvert en cuivre, placé dans un caveau sans ornements, sans trophées, sans aucunes distinctions qui rappellent les grandes actions qu'il a faites.",
+      "claim_boundary": "Genre-sensitive interpretation; do not aggregate as frequency without document/register context."
+    },
+    {
+      "mapping_id": "napoleon-cmt-008",
+      "document_id": "napoleon-bulletin-1807-02-08-eylau",
+      "sentence_id": "napoleon-bulletin-1807-02-08-eylau_s01_p12_s03",
+      "date": "1807-02-09",
+      "period": null,
+      "audience": "Grande Armée and French public",
+      "occasion": "Battle of Eylau, February 8, 1807 — one of Napoleon's bloodiest engagements",
+      "genre": "imperial military bulletin",
+      "rhetorical_action": "Transforms a costly and inconclusive battle into a narrative of French courage and sacrificial glory.",
+      "emotional_posture": "somber courage, glorification of sacrifice",
+      "agency_structure": {
+        "agents": [
+          "l'Empereur",
+          "les braves soldats",
+          "la Grande Armée"
+        ],
+        "patients": [
+          "les morts",
+          "l'ennemi",
+          "les blessés"
+        ],
+        "beneficiaries": [
+          "la gloire",
+          "la France",
+          "l'Empire"
+        ],
+        "passive_or_absent": [
+          "mass dead on both sides",
+          "wounded left on the field",
+          "civilian casualties"
+        ],
+        "displacement_mechanism": "Mass death is converted into glory and sacrificial honor; the scale of suffering is suppressed."
+      },
+      "rhetorical_salience": "high",
+      "rhetorical_functions": [
+        "argument"
+      ],
+      "evidence_span": "Le général Dahlmann, commandant les chasseurs de la Garde, et un bon nombre de ses intrépides soldats, moururent avec gloire.",
+      "claim_boundary": "Genre-sensitive interpretation; do not aggregate as frequency without document/register context."
+    },
+    {
+      "mapping_id": "napoleon-cmt-009",
+      "document_id": "napoleon-bulletin-1807-02-08-eylau",
+      "sentence_id": "napoleon-bulletin-1807-02-08-eylau_s01_p15_s02",
+      "date": "1807-02-09",
+      "period": null,
+      "audience": "Grande Armée and French public",
+      "occasion": "Battle of Eylau, February 8, 1807 — one of Napoleon's bloodiest engagements",
+      "genre": "imperial military bulletin",
+      "rhetorical_action": "Transforms a costly and inconclusive battle into a narrative of French courage and sacrificial glory.",
+      "emotional_posture": "somber courage, glorification of sacrifice",
+      "agency_structure": {
+        "agents": [
+          "l'Empereur",
+          "les braves soldats",
+          "la Grande Armée"
+        ],
+        "patients": [
+          "les morts",
+          "l'ennemi",
+          "les blessés"
+        ],
+        "beneficiaries": [
+          "la gloire",
+          "la France",
+          "l'Empire"
+        ],
+        "passive_or_absent": [
+          "mass dead on both sides",
+          "wounded left on the field",
+          "civilian casualties"
+        ],
+        "displacement_mechanism": "Mass death is converted into glory and sacrificial honor; the scale of suffering is suppressed."
+      },
+      "rhetorical_salience": "medium",
+      "rhetorical_functions": [
+        "argument"
+      ],
+      "evidence_span": "Trois cents bouches à feu ont produit la mort de part et d'autre pendant douze heures.",
+      "claim_boundary": "Genre-sensitive interpretation; do not aggregate as frequency without document/register context."
+    },
+    {
+      "mapping_id": "napoleon-cmt-010",
+      "document_id": "napoleon-bulletin-1807-02-08-eylau",
+      "sentence_id": "napoleon-bulletin-1807-02-08-eylau_s01_p15_s03",
+      "date": "1807-02-09",
+      "period": null,
+      "audience": "Grande Armée and French public",
+      "occasion": "Battle of Eylau, February 8, 1807 — one of Napoleon's bloodiest engagements",
+      "genre": "imperial military bulletin",
+      "rhetorical_action": "Transforms a costly and inconclusive battle into a narrative of French courage and sacrificial glory.",
+      "emotional_posture": "somber courage, glorification of sacrifice",
+      "agency_structure": {
+        "agents": [
+          "l'Empereur",
+          "les braves soldats",
+          "la Grande Armée"
+        ],
+        "patients": [
+          "les morts",
+          "l'ennemi",
+          "les blessés"
+        ],
+        "beneficiaries": [
+          "la gloire",
+          "la France",
+          "l'Empire"
+        ],
+        "passive_or_absent": [
+          "mass dead on both sides",
+          "wounded left on the field",
+          "civilian casualties"
+        ],
+        "displacement_mechanism": "Mass death is converted into glory and sacrificial honor; the scale of suffering is suppressed."
+      },
+      "rhetorical_salience": "medium",
+      "rhetorical_functions": [
+        "argument"
+      ],
+      "evidence_span": "La victoire, longtemps incertaine, fut décidée et gagnée lorsque le maréchal Davout déboucha sur le plateau et déborda l'ennemi, qui, après avoir fait de vains efforts pour le reprendre, battit en retraite.",
+      "claim_boundary": "Genre-sensitive interpretation; do not aggregate as frequency without document/register context."
+    },
+    {
+      "mapping_id": "napoleon-cmt-011",
+      "document_id": "napoleon-bulletin-1807-02-08-eylau",
+      "sentence_id": "napoleon-bulletin-1807-02-08-eylau_s01_p16_s06",
+      "date": "1807-02-09",
+      "period": null,
+      "audience": "Grande Armée and French public",
+      "occasion": "Battle of Eylau, February 8, 1807 — one of Napoleon's bloodiest engagements",
+      "genre": "imperial military bulletin",
+      "rhetorical_action": "Transforms a costly and inconclusive battle into a narrative of French courage and sacrificial glory.",
+      "emotional_posture": "somber courage, glorification of sacrifice",
+      "agency_structure": {
+        "agents": [
+          "l'Empereur",
+          "les braves soldats",
+          "la Grande Armée"
+        ],
+        "patients": [
+          "les morts",
+          "l'ennemi",
+          "les blessés"
+        ],
+        "beneficiaries": [
+          "la gloire",
+          "la France",
+          "l'Empire"
+        ],
+        "passive_or_absent": [
+          "mass dead on both sides",
+          "wounded left on the field",
+          "civilian casualties"
+        ],
+        "displacement_mechanism": "Mass death is converted into glory and sacrificial honor; the scale of suffering is suppressed."
+      },
+      "rhetorical_salience": "high",
+      "rhetorical_functions": [
+        "commemoration"
+      ],
+      "evidence_span": "Tous sont morts avec gloire.",
+      "claim_boundary": "Genre-sensitive interpretation; do not aggregate as frequency without document/register context."
+    },
+    {
+      "mapping_id": "napoleon-cmt-012",
+      "document_id": "napoleon-bulletin-1807-02-08-eylau",
+      "sentence_id": "napoleon-bulletin-1807-02-08-eylau_s01_p17_s01",
+      "date": "1807-02-09",
+      "period": null,
+      "audience": "Grande Armée and French public",
+      "occasion": "Battle of Eylau, February 8, 1807 — one of Napoleon's bloodiest engagements",
+      "genre": "imperial military bulletin",
+      "rhetorical_action": "Transforms a costly and inconclusive battle into a narrative of French courage and sacrificial glory.",
+      "emotional_posture": "somber courage, glorification of sacrifice",
+      "agency_structure": {
+        "agents": [
+          "l'Empereur",
+          "les braves soldats",
+          "la Grande Armée"
+        ],
+        "patients": [
+          "les morts",
+          "l'ennemi",
+          "les blessés"
+        ],
+        "beneficiaries": [
+          "la gloire",
+          "la France",
+          "l'Empire"
+        ],
+        "passive_or_absent": [
+          "mass dead on both sides",
+          "wounded left on the field",
+          "civilian casualties"
+        ],
+        "displacement_mechanism": "Mass death is converted into glory and sacrificial honor; the scale of suffering is suppressed."
+      },
+      "rhetorical_salience": "high",
+      "rhetorical_functions": [
+        "commemoration"
+      ],
+      "evidence_span": "Ainsi l'expédition offensive de l'ennemi, qui avait pour but de se porter sur Thorn en débordant la gauche de la Grande Armée, lui a été funeste : 12 à 15,000 prisonniers, autant d'hommes hors de combat, 18 drapeaux, 45 pièces de canon, sont les trophées trop chèrement payés sans doute par le sang de tant de braves.",
+      "claim_boundary": "Genre-sensitive interpretation; do not aggregate as frequency without document/register context."
+    },
+    {
+      "mapping_id": "napoleon-cmt-013",
+      "document_id": "napoleon-bulletin-1807-06-14-friedland",
+      "sentence_id": "napoleon-bulletin-1807-06-14-friedland_s01_p05_s01",
+      "date": "1807-06-17",
+      "period": null,
+      "audience": "Grande Armée and French public",
+      "occasion": "Battle of Friedland, June 14, 1807 — decisive victory leading to Treaty of Tilsit",
+      "genre": "imperial military bulletin",
+      "rhetorical_action": "Presents the victory as the culmination of the campaign and Napoleon's personal genius.",
+      "emotional_posture": "triumphant, conclusive",
+      "agency_structure": {
+        "agents": [
+          "l'Empereur",
+          "les soldats"
+        ],
+        "patients": [
+          "l'ennemi russe"
+        ],
+        "beneficiaries": [
+          "la paix",
+          "l'Empire"
+        ],
+        "passive_or_absent": [
+          "Russian dead and wounded",
+          "civilian populations of East Prussia"
+        ],
+        "displacement_mechanism": "Enemy defeat suppresses the scale of killing; peace framing displaces material violence."
+      },
+      "rhetorical_salience": "medium",
+      "rhetorical_functions": [
+        "argument"
+      ],
+      "evidence_span": "La fortune a souri à ce projet.",
+      "claim_boundary": "Genre-sensitive interpretation; do not aggregate as frequency without document/register context."
+    },
+    {
+      "mapping_id": "napoleon-cmt-014",
+      "document_id": "napoleon-bulletin-1807-06-14-friedland",
+      "sentence_id": "napoleon-bulletin-1807-06-14-friedland_s01_p25_s02",
+      "date": "1807-06-17",
+      "period": null,
+      "audience": "Grande Armée and French public",
+      "occasion": "Battle of Friedland, June 14, 1807 — decisive victory leading to Treaty of Tilsit",
+      "genre": "imperial military bulletin",
+      "rhetorical_action": "Presents the victory as the culmination of the campaign and Napoleon's personal genius.",
+      "emotional_posture": "triumphant, conclusive",
+      "agency_structure": {
+        "agents": [
+          "l'Empereur",
+          "les soldats"
+        ],
+        "patients": [
+          "l'ennemi russe"
+        ],
+        "beneficiaries": [
+          "la paix",
+          "l'Empire"
+        ],
+        "passive_or_absent": [
+          "Russian dead and wounded",
+          "civilian populations of East Prussia"
+        ],
+        "displacement_mechanism": "Enemy defeat suppresses the scale of killing; peace framing displaces material violence."
+      },
+      "rhetorical_salience": "medium",
+      "rhetorical_functions": [
+        "argument"
+      ],
+      "evidence_span": "La victoire n'a pas hésité un seul instant.",
+      "claim_boundary": "Genre-sensitive interpretation; do not aggregate as frequency without document/register context."
+    },
+    {
+      "mapping_id": "napoleon-cmt-015",
+      "document_id": "napoleon-bulletin-1809-07-08-wagram",
+      "sentence_id": "napoleon-bulletin-1809-07-08-wagram_s01_p43_s05",
+      "date": "1809-07-08",
+      "period": null,
+      "audience": "Grande Armée and French public",
+      "occasion": "Battle of Wagram, July 1809 — major victory over Austria",
+      "genre": "imperial military bulletin",
+      "rhetorical_action": "Frames the victory as the decisive blow that compels Austrian submission.",
+      "emotional_posture": "commanding, triumphant",
+      "agency_structure": {
+        "agents": [
+          "l'Empereur",
+          "la Grande Armée"
+        ],
+        "patients": [
+          "l'armée autrichienne",
+          "l'Autriche"
+        ],
+        "beneficiaries": [
+          "la paix",
+          "l'Empire"
+        ],
+        "passive_or_absent": [
+          "battle dead",
+          "wounded soldiers",
+          "civilian populations of the Danube valley"
+        ],
+        "displacement_mechanism": "Military glory narrative suppresses the costs in lives and material destruction."
+      },
+      "rhetorical_salience": "high",
+      "rhetorical_functions": [
+        "argument"
+      ],
+      "evidence_span": "La division Broussier et la division Gudin se sont couvertes de gloire.",
+      "claim_boundary": "Genre-sensitive interpretation; do not aggregate as frequency without document/register context."
+    },
+    {
+      "mapping_id": "napoleon-cmt-016",
+      "document_id": "napoleon-bulletin-1809-07-08-wagram",
+      "sentence_id": "napoleon-bulletin-1809-07-08-wagram_s01_p44_s01",
+      "date": "1809-07-08",
+      "period": null,
+      "audience": "Grande Armée and French public",
+      "occasion": "Battle of Wagram, July 1809 — major victory over Austria",
+      "genre": "imperial military bulletin",
+      "rhetorical_action": "Frames the victory as the decisive blow that compels Austrian submission.",
+      "emotional_posture": "commanding, triumphant",
+      "agency_structure": {
+        "agents": [
+          "l'Empereur",
+          "la Grande Armée"
+        ],
+        "patients": [
+          "l'armée autrichienne",
+          "l'Autriche"
+        ],
+        "beneficiaries": [
+          "la paix",
+          "l'Empire"
+        ],
+        "passive_or_absent": [
+          "battle dead",
+          "wounded soldiers",
+          "civilian populations of the Danube valley"
+        ],
+        "displacement_mechanism": "Military glory narrative suppresses the costs in lives and material destruction."
+      },
+      "rhetorical_salience": "medium",
+      "rhetorical_functions": [
+        "argument"
+      ],
+      "evidence_span": "Il n'était alors que dix heures du matin, et les hommes les moins clairvoyants voyaient que la journée était décidée et que la victoire était à nous.",
+      "claim_boundary": "Genre-sensitive interpretation; do not aggregate as frequency without document/register context."
+    },
+    {
+      "mapping_id": "napoleon-cmt-017",
+      "document_id": "napoleon-bulletin-1809-07-08-wagram",
+      "sentence_id": "napoleon-bulletin-1809-07-08-wagram_s01_p53_s04",
+      "date": "1809-07-08",
+      "period": null,
+      "audience": "Grande Armée and French public",
+      "occasion": "Battle of Wagram, July 1809 — major victory over Austria",
+      "genre": "imperial military bulletin",
+      "rhetorical_action": "Frames the victory as the decisive blow that compels Austrian submission.",
+      "emotional_posture": "commanding, triumphant",
+      "agency_structure": {
+        "agents": [
+          "l'Empereur",
+          "la Grande Armée"
+        ],
+        "patients": [
+          "l'armée autrichienne",
+          "l'Autriche"
+        ],
+        "beneficiaries": [
+          "la paix",
+          "l'Empire"
+        ],
+        "passive_or_absent": [
+          "battle dead",
+          "wounded soldiers",
+          "civilian populations of the Danube valley"
+        ],
+        "displacement_mechanism": "Military glory narrative suppresses the costs in lives and material destruction."
+      },
+      "rhetorical_salience": "high",
+      "rhetorical_functions": [
+        "argument"
+      ],
+      "evidence_span": "Ce régiment s'est couvert dé gloire.",
+      "claim_boundary": "Genre-sensitive interpretation; do not aggregate as frequency without document/register context."
+    },
+    {
+      "mapping_id": "napoleon-cmt-018",
+      "document_id": "napoleon-bulletin-1812-12-03-russia-29th",
+      "sentence_id": "napoleon-bulletin-1812-12-03-russia-29th_s01_p09_s04",
+      "date": "1812-12-03",
+      "period": null,
+      "audience": "Grande Armée survivors and French public",
+      "occasion": "The infamous 29th Bulletin, December 1812 — first public acknowledgment of the Russian disaster",
+      "genre": "imperial military bulletin",
+      "rhetorical_action": "Acknowledges catastrophic losses while attributing them to weather rather than strategic failure.",
+      "emotional_posture": "controlled admission, deflection",
+      "agency_structure": {
+        "agents": [
+          "l'Empereur",
+          "le froid",
+          "le destin"
+        ],
+        "patients": [
+          "la Grande Armée",
+          "les chevaux",
+          "les soldats"
+        ],
+        "beneficiaries": [
+          "l'Empire survivant",
+          "la France"
+        ],
+        "passive_or_absent": [
+          "individual dead soldiers",
+          "their families",
+          "Russian civilian victims of the campaign"
+        ],
+        "displacement_mechanism": "Agency is displaced onto weather and fate; strategic and command responsibility is suppressed."
+      },
+      "rhetorical_salience": "medium",
+      "rhetorical_functions": [
+        "argument"
+      ],
+      "evidence_span": "Des hommes que la nature n'a pas trempés assez fortement pour être au-dessus de toutes les chances du sort et de la fortune parurent ébranlés, perdirent leur gaieté, leur bonne humeur, et ne rêvèrent que malheurs et catastrophes; ceux qu'elle a créés supérieurs à tout conservèrent leur gaieté et leurs manières ordinaires, et virent une nouvelle gloire dans des difficultés différentes à surmonter.",
+      "claim_boundary": "Genre-sensitive interpretation; do not aggregate as frequency without document/register context."
+    },
+    {
+      "mapping_id": "napoleon-cmt-019",
+      "document_id": "napoleon-bulletin-1813-05-24-bautzen",
+      "sentence_id": "napoleon-bulletin-1813-05-24-bautzen_s01_p25_s03",
+      "date": "1813-05-24",
+      "period": null,
+      "audience": "Grande Armée and French public",
+      "occasion": "Battle of Bautzen, May 1813 — victory in the German campaign after Russian disaster",
+      "genre": "imperial military bulletin",
+      "rhetorical_action": "Frames the victory as a resumption of Napoleonic military glory after the Russian setback.",
+      "emotional_posture": "restored confidence, triumphant",
+      "agency_structure": {
+        "agents": [
+          "l'Empereur",
+          "la Grande Armée"
+        ],
+        "patients": [
+          "l'ennemi prussien et russe"
+        ],
+        "beneficiaries": [
+          "l'Empire",
+          "la gloire française"
+        ],
+        "passive_or_absent": [
+          "allied dead",
+          "German civilian populations under occupation"
+        ],
+        "displacement_mechanism": "Victory narrative suppresses the continuing costs of war on populations and on the army itself."
+      },
+      "rhetorical_salience": "medium",
+      "rhetorical_functions": [
+        "argument"
+      ],
+      "evidence_span": "Déjà toutes ses dispositions étaient changées : le destin de la bataille ne devait plus se décider derrière ses retranchements; ses immenses travaux et 3oo redoutes devenaient inutiles; la droite de sa position, qui était opposée au 4e corps, devenait son centre, et il était obligé de jeter sa droite, qui formait une bonne partie de son armée, pour l'opposer au prince de la Moskova, dans un lieu qu'il n'avait pas étudié et qu'il croyait hors de sa position.",
+      "claim_boundary": "Genre-sensitive interpretation; do not aggregate as frequency without document/register context."
+    }
+  ]
+}

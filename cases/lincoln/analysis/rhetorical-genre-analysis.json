@@ -1,11 +1,245 @@
 {
   "version": "1.0",
   "case_id": "lincoln",
-  "generated_at": "2026-06-15T09:49:38",
+  "generated_at": "2026-06-17T15:09:55",
   "status": "draft",
   "contexts": [
     {
       "mapping_id": "lincoln-cmt-001",
+      "document_id": "lincoln-lyceum-address",
+      "sentence_id": "lincoln-lyceum-address_s01_p04_s01",
+      "date": "1838-01-27",
+      "period": "early-republican-rhetoric",
+      "audience": "Young Men's Lyceum of Springfield and a civic public concerned with republican institutions",
+      "occasion": "Early public address on mob violence, political inheritance, and the perpetuation of American institutions",
+      "genre": "public address",
+      "rhetorical_action": "Warns that republican survival depends on civic discipline and reverence for law.",
+      "emotional_posture": "warning",
+      "agency_structure": {
+        "agents": [
+          "we",
+          "nation of freemen",
+          "citizens"
+        ],
+        "patients": [
+          "nation",
+          "political institutions"
+        ],
+        "beneficiaries": [
+          "future republic",
+          "American people"
+        ],
+        "passive_or_absent": [
+          "enslaved people",
+          "women",
+          "Indigenous people"
+        ],
+        "displacement_mechanism": "National survival is framed as collective self-preservation rather than as conflict among named social groups."
+      },
+      "rhetorical_salience": "high",
+      "rhetorical_functions": [
+        "argument"
+      ],
+      "evidence_span": "In the great journal of things happening under the sun, we, the American people, find our account running under date of the nineteenth century of the Christian era.",
+      "claim_boundary": "Genre-sensitive interpretation; do not aggregate as frequency without document/register context."
+    },
+    {
+      "mapping_id": "lincoln-cmt-002",
+      "document_id": "lincoln-lyceum-address",
+      "sentence_id": "lincoln-lyceum-address_s01_p04_s04",
+      "date": "1838-01-27",
+      "period": "early-republican-rhetoric",
+      "audience": "Young Men's Lyceum of Springfield and a civic public concerned with republican institutions",
+      "occasion": "Early public address on mob violence, political inheritance, and the perpetuation of American institutions",
+      "genre": "public address",
+      "rhetorical_action": "Warns that republican survival depends on civic discipline and reverence for law.",
+      "emotional_posture": "warning",
+      "agency_structure": {
+        "agents": [
+          "we",
+          "nation of freemen",
+          "citizens"
+        ],
+        "patients": [
+          "nation",
+          "political institutions"
+        ],
+        "beneficiaries": [
+          "future republic",
+          "American people"
+        ],
+        "passive_or_absent": [
+          "enslaved people",
+          "women",
+          "Indigenous people"
+        ],
+        "displacement_mechanism": "National survival is framed as collective self-preservation rather than as conflict among named social groups."
+      },
+      "rhetorical_salience": "high",
+      "rhetorical_functions": [
+        "argument"
+      ],
+      "evidence_span": "We, when mounting the stage of existence, found ourselves the legal inheritors of these fundamental blessings.",
+      "claim_boundary": "Genre-sensitive interpretation; do not aggregate as frequency without document/register context."
+    },
+    {
+      "mapping_id": "lincoln-cmt-003",
+      "document_id": "lincoln-lyceum-address",
+      "sentence_id": "lincoln-lyceum-address_s01_p04_s06",
+      "date": "1838-01-27",
+      "period": "early-republican-rhetoric",
+      "audience": "Young Men's Lyceum of Springfield and a civic public concerned with republican institutions",
+      "occasion": "Early public address on mob violence, political inheritance, and the perpetuation of American institutions",
+      "genre": "public address",
+      "rhetorical_action": "Warns that republican survival depends on civic discipline and reverence for law.",
+      "emotional_posture": "warning",
+      "agency_structure": {
+        "agents": [
+          "we",
+          "nation of freemen",
+          "citizens"
+        ],
+        "patients": [
+          "nation",
+          "political institutions"
+        ],
+        "beneficiaries": [
+          "future republic",
+          "American people"
+        ],
+        "passive_or_absent": [
+          "enslaved people",
+          "women",
+          "Indigenous people"
+        ],
+        "displacement_mechanism": "National survival is framed as collective self-preservation rather than as conflict among named social groups."
+      },
+      "rhetorical_salience": "high",
+      "rhetorical_functions": [
+        "argument"
+      ],
+      "evidence_span": "Theirs was the task (and nobly they performed it) to possess themselves, and through themselves us, of this goodly land, and to uprear upon its hills and its valleys a political edifice of liberty and equal rights; it is ours only to transmit these--the former unprofaned by the foot of an invader, the latter undecayed by the lapse of time and untorn by usurpation--to the latest generation that fate shall permit the world to know.",
+      "claim_boundary": "Genre-sensitive interpretation; do not aggregate as frequency without document/register context."
+    },
+    {
+      "mapping_id": "lincoln-cmt-004",
+      "document_id": "lincoln-lyceum-address",
+      "sentence_id": "lincoln-lyceum-address_s01_p05_s04",
+      "date": "1838-01-27",
+      "period": "early-republican-rhetoric",
+      "audience": "Young Men's Lyceum of Springfield and a civic public concerned with republican institutions",
+      "occasion": "Early public address on mob violence, political inheritance, and the perpetuation of American institutions",
+      "genre": "public address",
+      "rhetorical_action": "Warns that republican survival depends on civic discipline and reverence for law.",
+      "emotional_posture": "warning",
+      "agency_structure": {
+        "agents": [
+          "we",
+          "nation of freemen",
+          "citizens"
+        ],
+        "patients": [
+          "nation",
+          "political institutions"
+        ],
+        "beneficiaries": [
+          "future republic",
+          "American people"
+        ],
+        "passive_or_absent": [
+          "enslaved people",
+          "women",
+          "Indigenous people"
+        ],
+        "displacement_mechanism": "National survival is framed as collective self-preservation rather than as conflict among named social groups."
+      },
+      "rhetorical_salience": "high",
+      "rhetorical_functions": [
+        "argument"
+      ],
+      "evidence_span": "Shall we expect some transatlantic military giant to step the ocean and crush us at a blow?",
+      "claim_boundary": "Genre-sensitive interpretation; do not aggregate as frequency without document/register context."
+    },
+    {
+      "mapping_id": "lincoln-cmt-005",
+      "document_id": "lincoln-lyceum-address",
+      "sentence_id": "lincoln-lyceum-address_s01_p06_s02",
+      "date": "1838-01-27",
+      "period": "early-republican-rhetoric",
+      "audience": "Young Men's Lyceum of Springfield and a civic public concerned with republican institutions",
+      "occasion": "Early public address on mob violence, political inheritance, and the perpetuation of American institutions",
+      "genre": "public address",
+      "rhetorical_action": "Warns that republican survival depends on civic discipline and reverence for law.",
+      "emotional_posture": "warning",
+      "agency_structure": {
+        "agents": [
+          "we",
+          "nation of freemen",
+          "citizens"
+        ],
+        "patients": [
+          "nation",
+          "political institutions"
+        ],
+        "beneficiaries": [
+          "future republic",
+          "American people"
+        ],
+        "passive_or_absent": [
+          "enslaved people",
+          "women",
+          "Indigenous people"
+        ],
+        "displacement_mechanism": "National survival is framed as collective self-preservation rather than as conflict among named social groups."
+      },
+      "rhetorical_salience": "medium",
+      "rhetorical_functions": [
+        "argument"
+      ],
+      "evidence_span": "I answer: If it ever reach us it must spring up amongst us; it cannot come from abroad.",
+      "claim_boundary": "Genre-sensitive interpretation; do not aggregate as frequency without document/register context."
+    },
+    {
+      "mapping_id": "lincoln-cmt-006",
+      "document_id": "lincoln-lyceum-address",
+      "sentence_id": "lincoln-lyceum-address_s01_p06_s03",
+      "date": "1838-01-27",
+      "period": "early-republican-rhetoric",
+      "audience": "Young Men's Lyceum of Springfield and a civic public concerned with republican institutions",
+      "occasion": "Early public address on mob violence, political inheritance, and the perpetuation of American institutions",
+      "genre": "public address",
+      "rhetorical_action": "Warns that republican survival depends on civic discipline and reverence for law.",
+      "emotional_posture": "warning",
+      "agency_structure": {
+        "agents": [
+          "we",
+          "nation of freemen",
+          "citizens"
+        ],
+        "patients": [
+          "nation",
+          "political institutions"
+        ],
+        "beneficiaries": [
+          "future republic",
+          "American people"
+        ],
+        "passive_or_absent": [
+          "enslaved people",
+          "women",
+          "Indigenous people"
+        ],
+        "displacement_mechanism": "National survival is framed as collective self-preservation rather than as conflict among named social groups."
+      },
+      "rhetorical_salience": "medium",
+      "rhetorical_functions": [
+        "national_self_definition"
+      ],
+      "evidence_span": "If destruction be our lot we must ourselves be its author and finisher.",
+      "claim_boundary": "Genre-sensitive interpretation; do not aggregate as frequency without document/register context."
+    },
+    {
+      "mapping_id": "lincoln-cmt-007",
       "document_id": "lincoln-lyceum-address",
       "sentence_id": "lincoln-lyceum-address_s01_p06_s04",
       "date": "1838-01-27",
@@ -38,14 +272,1772 @@
       },
       "rhetorical_salience": "high",
       "rhetorical_functions": [
-        "warning",
         "national_self_definition"
       ],
       "evidence_span": "As a nation of freemen we must live through all time, or die by suicide.",
       "claim_boundary": "Genre-sensitive interpretation; do not aggregate as frequency without document/register context."
     },
     {
-      "mapping_id": "lincoln-cmt-002",
+      "mapping_id": "lincoln-cmt-008",
+      "document_id": "lincoln-lyceum-address",
+      "sentence_id": "lincoln-lyceum-address_s01_p07_s02",
+      "date": "1838-01-27",
+      "period": "early-republican-rhetoric",
+      "audience": "Young Men's Lyceum of Springfield and a civic public concerned with republican institutions",
+      "occasion": "Early public address on mob violence, political inheritance, and the perpetuation of American institutions",
+      "genre": "public address",
+      "rhetorical_action": "Warns that republican survival depends on civic discipline and reverence for law.",
+      "emotional_posture": "warning",
+      "agency_structure": {
+        "agents": [
+          "we",
+          "nation of freemen",
+          "citizens"
+        ],
+        "patients": [
+          "nation",
+          "political institutions"
+        ],
+        "beneficiaries": [
+          "future republic",
+          "American people"
+        ],
+        "passive_or_absent": [
+          "enslaved people",
+          "women",
+          "Indigenous people"
+        ],
+        "displacement_mechanism": "National survival is framed as collective self-preservation rather than as conflict among named social groups."
+      },
+      "rhetorical_salience": "medium",
+      "rhetorical_functions": [
+        "argument"
+      ],
+      "evidence_span": "I mean the increasing disregard for law which pervades the country--the growing disposition to substitute the wild and furious passions in lieu of the sober judgment of courts, and the worse than savage mobs for the executive ministers of justice.",
+      "claim_boundary": "Genre-sensitive interpretation; do not aggregate as frequency without document/register context."
+    },
+    {
+      "mapping_id": "lincoln-cmt-009",
+      "document_id": "lincoln-lyceum-address",
+      "sentence_id": "lincoln-lyceum-address_s01_p07_s05",
+      "date": "1838-01-27",
+      "period": "early-republican-rhetoric",
+      "audience": "Young Men's Lyceum of Springfield and a civic public concerned with republican institutions",
+      "occasion": "Early public address on mob violence, political inheritance, and the perpetuation of American institutions",
+      "genre": "public address",
+      "rhetorical_action": "Warns that republican survival depends on civic discipline and reverence for law.",
+      "emotional_posture": "warning",
+      "agency_structure": {
+        "agents": [
+          "we",
+          "nation of freemen",
+          "citizens"
+        ],
+        "patients": [
+          "nation",
+          "political institutions"
+        ],
+        "beneficiaries": [
+          "future republic",
+          "American people"
+        ],
+        "passive_or_absent": [
+          "enslaved people",
+          "women",
+          "Indigenous people"
+        ],
+        "displacement_mechanism": "National survival is framed as collective self-preservation rather than as conflict among named social groups."
+      },
+      "rhetorical_salience": "medium",
+      "rhetorical_functions": [
+        "argument"
+      ],
+      "evidence_span": "They have pervaded the country from New England to Louisiana; they are neither peculiar to the eternal snows of the former nor the burning suns of the latter; they are not the creature of climate, neither are they confined to the slave holding or the non-slave holding States.",
+      "claim_boundary": "Genre-sensitive interpretation; do not aggregate as frequency without document/register context."
+    },
+    {
+      "mapping_id": "lincoln-cmt-010",
+      "document_id": "lincoln-lyceum-address",
+      "sentence_id": "lincoln-lyceum-address_s01_p07_s06",
+      "date": "1838-01-27",
+      "period": "early-republican-rhetoric",
+      "audience": "Young Men's Lyceum of Springfield and a civic public concerned with republican institutions",
+      "occasion": "Early public address on mob violence, political inheritance, and the perpetuation of American institutions",
+      "genre": "public address",
+      "rhetorical_action": "Warns that republican survival depends on civic discipline and reverence for law.",
+      "emotional_posture": "warning",
+      "agency_structure": {
+        "agents": [
+          "we",
+          "nation of freemen",
+          "citizens"
+        ],
+        "patients": [
+          "nation",
+          "political institutions"
+        ],
+        "beneficiaries": [
+          "future republic",
+          "American people"
+        ],
+        "passive_or_absent": [
+          "enslaved people",
+          "women",
+          "Indigenous people"
+        ],
+        "displacement_mechanism": "National survival is framed as collective self-preservation rather than as conflict among named social groups."
+      },
+      "rhetorical_salience": "medium",
+      "rhetorical_functions": [
+        "argument"
+      ],
+      "evidence_span": "Alike they spring up among the pleasure-hunting masters of Southern slaves, and the order-loving citizens of the land of steady habits.",
+      "claim_boundary": "Genre-sensitive interpretation; do not aggregate as frequency without document/register context."
+    },
+    {
+      "mapping_id": "lincoln-cmt-011",
+      "document_id": "lincoln-lyceum-address",
+      "sentence_id": "lincoln-lyceum-address_s01_p08_s05",
+      "date": "1838-01-27",
+      "period": "early-republican-rhetoric",
+      "audience": "Young Men's Lyceum of Springfield and a civic public concerned with republican institutions",
+      "occasion": "Early public address on mob violence, political inheritance, and the perpetuation of American institutions",
+      "genre": "public address",
+      "rhetorical_action": "Warns that republican survival depends on civic discipline and reverence for law.",
+      "emotional_posture": "warning",
+      "agency_structure": {
+        "agents": [
+          "we",
+          "nation of freemen",
+          "citizens"
+        ],
+        "patients": [
+          "nation",
+          "political institutions"
+        ],
+        "beneficiaries": [
+          "future republic",
+          "American people"
+        ],
+        "passive_or_absent": [
+          "enslaved people",
+          "women",
+          "Indigenous people"
+        ],
+        "displacement_mechanism": "National survival is framed as collective self-preservation rather than as conflict among named social groups."
+      },
+      "rhetorical_salience": "high",
+      "rhetorical_functions": [
+        "argument"
+      ],
+      "evidence_span": "Thus went on this process of hanging, from gamblers to negroes, from negroes to white citizens, and from these to strangers, till dead men were seen literally dangling from the boughs of trees upon every roadside, and in numbers almost sufficient to rival the native Spanish moss of the country as a drapery of the forest.",
+      "claim_boundary": "Genre-sensitive interpretation; do not aggregate as frequency without document/register context."
+    },
+    {
+      "mapping_id": "lincoln-cmt-012",
+      "document_id": "lincoln-lyceum-address",
+      "sentence_id": "lincoln-lyceum-address_s01_p09_s02",
+      "date": "1838-01-27",
+      "period": "early-republican-rhetoric",
+      "audience": "Young Men's Lyceum of Springfield and a civic public concerned with republican institutions",
+      "occasion": "Early public address on mob violence, political inheritance, and the perpetuation of American institutions",
+      "genre": "public address",
+      "rhetorical_action": "Warns that republican survival depends on civic discipline and reverence for law.",
+      "emotional_posture": "warning",
+      "agency_structure": {
+        "agents": [
+          "we",
+          "nation of freemen",
+          "citizens"
+        ],
+        "patients": [
+          "nation",
+          "political institutions"
+        ],
+        "beneficiaries": [
+          "future republic",
+          "American people"
+        ],
+        "passive_or_absent": [
+          "enslaved people",
+          "women",
+          "Indigenous people"
+        ],
+        "displacement_mechanism": "National survival is framed as collective self-preservation rather than as conflict among named social groups."
+      },
+      "rhetorical_salience": "high",
+      "rhetorical_functions": [
+        "commemoration"
+      ],
+      "evidence_span": "A single victim only was sacrificed there.",
+      "claim_boundary": "Genre-sensitive interpretation; do not aggregate as frequency without document/register context."
+    },
+    {
+      "mapping_id": "lincoln-cmt-013",
+      "document_id": "lincoln-lyceum-address",
+      "sentence_id": "lincoln-lyceum-address_s01_p11_s05",
+      "date": "1838-01-27",
+      "period": "early-republican-rhetoric",
+      "audience": "Young Men's Lyceum of Springfield and a civic public concerned with republican institutions",
+      "occasion": "Early public address on mob violence, political inheritance, and the perpetuation of American institutions",
+      "genre": "public address",
+      "rhetorical_action": "Warns that republican survival depends on civic discipline and reverence for law.",
+      "emotional_posture": "warning",
+      "agency_structure": {
+        "agents": [
+          "we",
+          "nation of freemen",
+          "citizens"
+        ],
+        "patients": [
+          "nation",
+          "political institutions"
+        ],
+        "beneficiaries": [
+          "future republic",
+          "American people"
+        ],
+        "passive_or_absent": [
+          "enslaved people",
+          "women",
+          "Indigenous people"
+        ],
+        "displacement_mechanism": "National survival is framed as collective self-preservation rather than as conflict among named social groups."
+      },
+      "rhetorical_salience": "medium",
+      "rhetorical_functions": [
+        "argument"
+      ],
+      "evidence_span": "If they were annually swept from the stage of existence by the plague or smallpox, honest men would perhaps be much profited by the operation.",
+      "claim_boundary": "Genre-sensitive interpretation; do not aggregate as frequency without document/register context."
+    },
+    {
+      "mapping_id": "lincoln-cmt-014",
+      "document_id": "lincoln-lyceum-address",
+      "sentence_id": "lincoln-lyceum-address_s01_p11_s11",
+      "date": "1838-01-27",
+      "period": "early-republican-rhetoric",
+      "audience": "Young Men's Lyceum of Springfield and a civic public concerned with republican institutions",
+      "occasion": "Early public address on mob violence, political inheritance, and the perpetuation of American institutions",
+      "genre": "public address",
+      "rhetorical_action": "Warns that republican survival depends on civic discipline and reverence for law.",
+      "emotional_posture": "warning",
+      "agency_structure": {
+        "agents": [
+          "we",
+          "nation of freemen",
+          "citizens"
+        ],
+        "patients": [
+          "nation",
+          "political institutions"
+        ],
+        "beneficiaries": [
+          "future republic",
+          "American people"
+        ],
+        "passive_or_absent": [
+          "enslaved people",
+          "women",
+          "Indigenous people"
+        ],
+        "displacement_mechanism": "National survival is framed as collective self-preservation rather than as conflict among named social groups."
+      },
+      "rhetorical_salience": "high",
+      "rhetorical_functions": [
+        "argument"
+      ],
+      "evidence_span": "And not only so: the innocent, those who have ever set their faces against violations of law in every shape, alike with the guilty fall victims to the ravages of mob law; and thus it goes on, step by step, till all the walls erected for the defense of the persons and property of individuals are trodden down and disregarded.",
+      "claim_boundary": "Genre-sensitive interpretation; do not aggregate as frequency without document/register context."
+    },
+    {
+      "mapping_id": "lincoln-cmt-015",
+      "document_id": "lincoln-lyceum-address",
+      "sentence_id": "lincoln-lyceum-address_s01_p11_s14",
+      "date": "1838-01-27",
+      "period": "early-republican-rhetoric",
+      "audience": "Young Men's Lyceum of Springfield and a civic public concerned with republican institutions",
+      "occasion": "Early public address on mob violence, political inheritance, and the perpetuation of American institutions",
+      "genre": "public address",
+      "rhetorical_action": "Warns that republican survival depends on civic discipline and reverence for law.",
+      "emotional_posture": "warning",
+      "agency_structure": {
+        "agents": [
+          "we",
+          "nation of freemen",
+          "citizens"
+        ],
+        "patients": [
+          "nation",
+          "political institutions"
+        ],
+        "beneficiaries": [
+          "future republic",
+          "American people"
+        ],
+        "passive_or_absent": [
+          "enslaved people",
+          "women",
+          "Indigenous people"
+        ],
+        "displacement_mechanism": "National survival is framed as collective self-preservation rather than as conflict among named social groups."
+      },
+      "rhetorical_salience": "medium",
+      "rhetorical_functions": [
+        "argument"
+      ],
+      "evidence_span": "Having ever regarded government as their deadliest bane, they make a jubilee of the suspension of its operations, and pray for nothing so much as its total annihilation.",
+      "claim_boundary": "Genre-sensitive interpretation; do not aggregate as frequency without document/register context."
+    },
+    {
+      "mapping_id": "lincoln-cmt-016",
+      "document_id": "lincoln-lyceum-address",
+      "sentence_id": "lincoln-lyceum-address_s01_p11_s15",
+      "date": "1838-01-27",
+      "period": "early-republican-rhetoric",
+      "audience": "Young Men's Lyceum of Springfield and a civic public concerned with republican institutions",
+      "occasion": "Early public address on mob violence, political inheritance, and the perpetuation of American institutions",
+      "genre": "public address",
+      "rhetorical_action": "Warns that republican survival depends on civic discipline and reverence for law.",
+      "emotional_posture": "warning",
+      "agency_structure": {
+        "agents": [
+          "we",
+          "nation of freemen",
+          "citizens"
+        ],
+        "patients": [
+          "nation",
+          "political institutions"
+        ],
+        "beneficiaries": [
+          "future republic",
+          "American people"
+        ],
+        "passive_or_absent": [
+          "enslaved people",
+          "women",
+          "Indigenous people"
+        ],
+        "displacement_mechanism": "National survival is framed as collective self-preservation rather than as conflict among named social groups."
+      },
+      "rhetorical_salience": "high",
+      "rhetorical_functions": [
+        "commemoration"
+      ],
+      "evidence_span": "While, on the other hand, good men, men who love tranquillity, who desire to abide by the laws and enjoy their benefits, who would gladly spill their blood in the defense of their country, seeing their property destroyed, their families insulted, and their lives endangered, their persons injured, and seeing nothing in prospect that forebodes a change for the better, become tired of and disgusted with a government that offers them no protection, and are not much averse to a change in which they imagine they have nothing to lose.",
+      "claim_boundary": "Genre-sensitive interpretation; do not aggregate as frequency without document/register context."
+    },
+    {
+      "mapping_id": "lincoln-cmt-017",
+      "document_id": "lincoln-lyceum-address",
+      "sentence_id": "lincoln-lyceum-address_s01_p12_s01",
+      "date": "1838-01-27",
+      "period": "early-republican-rhetoric",
+      "audience": "Young Men's Lyceum of Springfield and a civic public concerned with republican institutions",
+      "occasion": "Early public address on mob violence, political inheritance, and the perpetuation of American institutions",
+      "genre": "public address",
+      "rhetorical_action": "Warns that republican survival depends on civic discipline and reverence for law.",
+      "emotional_posture": "warning",
+      "agency_structure": {
+        "agents": [
+          "we",
+          "nation of freemen",
+          "citizens"
+        ],
+        "patients": [
+          "nation",
+          "political institutions"
+        ],
+        "beneficiaries": [
+          "future republic",
+          "American people"
+        ],
+        "passive_or_absent": [
+          "enslaved people",
+          "women",
+          "Indigenous people"
+        ],
+        "displacement_mechanism": "National survival is framed as collective self-preservation rather than as conflict among named social groups."
+      },
+      "rhetorical_salience": "medium",
+      "rhetorical_functions": [
+        "national_self_definition"
+      ],
+      "evidence_span": "I know the American people are much attached to their government; I know they would suffer much for its sake; I know they would endure evils long and patiently before they would ever think of exchanging it for another,--yet, notwithstanding all this, if the laws be continually despised and disregarded, if their rights to be secure in their persons and property are held by no better tenure than the caprice of a mob, the alienation of their affections from the government is the natural consequence; and to that, sooner or later, it must come.",
+      "claim_boundary": "Genre-sensitive interpretation; do not aggregate as frequency without document/register context."
+    },
+    {
+      "mapping_id": "lincoln-cmt-018",
+      "document_id": "lincoln-lyceum-address",
+      "sentence_id": "lincoln-lyceum-address_s01_p14_s03",
+      "date": "1838-01-27",
+      "period": "early-republican-rhetoric",
+      "audience": "Young Men's Lyceum of Springfield and a civic public concerned with republican institutions",
+      "occasion": "Early public address on mob violence, political inheritance, and the perpetuation of American institutions",
+      "genre": "public address",
+      "rhetorical_action": "Warns that republican survival depends on civic discipline and reverence for law.",
+      "emotional_posture": "warning",
+      "agency_structure": {
+        "agents": [
+          "we",
+          "nation of freemen",
+          "citizens"
+        ],
+        "patients": [
+          "nation",
+          "political institutions"
+        ],
+        "beneficiaries": [
+          "future republic",
+          "American people"
+        ],
+        "passive_or_absent": [
+          "enslaved people",
+          "women",
+          "Indigenous people"
+        ],
+        "displacement_mechanism": "National survival is framed as collective self-preservation rather than as conflict among named social groups."
+      },
+      "rhetorical_salience": "high",
+      "rhetorical_functions": [
+        "commemoration"
+      ],
+      "evidence_span": "Let every American, every lover of liberty, every well-wisher to his posterity swear by the blood of the Revolution never to violate in the least particular the laws of the country, and never to tolerate their violation by others.",
+      "claim_boundary": "Genre-sensitive interpretation; do not aggregate as frequency without document/register context."
+    },
+    {
+      "mapping_id": "lincoln-cmt-019",
+      "document_id": "lincoln-lyceum-address",
+      "sentence_id": "lincoln-lyceum-address_s01_p14_s05",
+      "date": "1838-01-27",
+      "period": "early-republican-rhetoric",
+      "audience": "Young Men's Lyceum of Springfield and a civic public concerned with republican institutions",
+      "occasion": "Early public address on mob violence, political inheritance, and the perpetuation of American institutions",
+      "genre": "public address",
+      "rhetorical_action": "Warns that republican survival depends on civic discipline and reverence for law.",
+      "emotional_posture": "warning",
+      "agency_structure": {
+        "agents": [
+          "we",
+          "nation of freemen",
+          "citizens"
+        ],
+        "patients": [
+          "nation",
+          "political institutions"
+        ],
+        "beneficiaries": [
+          "future republic",
+          "American people"
+        ],
+        "passive_or_absent": [
+          "enslaved people",
+          "women",
+          "Indigenous people"
+        ],
+        "displacement_mechanism": "National survival is framed as collective self-preservation rather than as conflict among named social groups."
+      },
+      "rhetorical_salience": "medium",
+      "rhetorical_functions": [
+        "commemoration"
+      ],
+      "evidence_span": "Let every man remember that to violate the law is to trample on the blood of his father, and to tear the charter of his own and his children's liberty.",
+      "claim_boundary": "Genre-sensitive interpretation; do not aggregate as frequency without document/register context."
+    },
+    {
+      "mapping_id": "lincoln-cmt-020",
+      "document_id": "lincoln-lyceum-address",
+      "sentence_id": "lincoln-lyceum-address_s01_p14_s06",
+      "date": "1838-01-27",
+      "period": "early-republican-rhetoric",
+      "audience": "Young Men's Lyceum of Springfield and a civic public concerned with republican institutions",
+      "occasion": "Early public address on mob violence, political inheritance, and the perpetuation of American institutions",
+      "genre": "public address",
+      "rhetorical_action": "Warns that republican survival depends on civic discipline and reverence for law.",
+      "emotional_posture": "warning",
+      "agency_structure": {
+        "agents": [
+          "we",
+          "nation of freemen",
+          "citizens"
+        ],
+        "patients": [
+          "nation",
+          "political institutions"
+        ],
+        "beneficiaries": [
+          "future republic",
+          "American people"
+        ],
+        "passive_or_absent": [
+          "enslaved people",
+          "women",
+          "Indigenous people"
+        ],
+        "displacement_mechanism": "National survival is framed as collective self-preservation rather than as conflict among named social groups."
+      },
+      "rhetorical_salience": "medium",
+      "rhetorical_functions": [
+        "sacralization"
+      ],
+      "evidence_span": "Let reverence for the laws be breathed by every American mother to the lisping babe that prattles on her lap; let it be taught in schools, in seminaries, and in colleges; let it be written in primers, spelling books, and in almanacs; let it be preached from the pulpit, proclaimed in legislative halls, and enforced in courts of justice.",
+      "claim_boundary": "Genre-sensitive interpretation; do not aggregate as frequency without document/register context."
+    },
+    {
+      "mapping_id": "lincoln-cmt-021",
+      "document_id": "lincoln-lyceum-address",
+      "sentence_id": "lincoln-lyceum-address_s01_p14_s07",
+      "date": "1838-01-27",
+      "period": "early-republican-rhetoric",
+      "audience": "Young Men's Lyceum of Springfield and a civic public concerned with republican institutions",
+      "occasion": "Early public address on mob violence, political inheritance, and the perpetuation of American institutions",
+      "genre": "public address",
+      "rhetorical_action": "Warns that republican survival depends on civic discipline and reverence for law.",
+      "emotional_posture": "warning",
+      "agency_structure": {
+        "agents": [
+          "we",
+          "nation of freemen",
+          "citizens"
+        ],
+        "patients": [
+          "nation",
+          "political institutions"
+        ],
+        "beneficiaries": [
+          "future republic",
+          "American people"
+        ],
+        "passive_or_absent": [
+          "enslaved people",
+          "women",
+          "Indigenous people"
+        ],
+        "displacement_mechanism": "National survival is framed as collective self-preservation rather than as conflict among named social groups."
+      },
+      "rhetorical_salience": "high",
+      "rhetorical_functions": [
+        "sacralization"
+      ],
+      "evidence_span": "And, in short, let it become the political religion of the nation; and let the old and the young, the rich and the poor, the grave and the gay of all sexes and tongues and colors and conditions, sacrifice unceasingly upon its altars.",
+      "claim_boundary": "Genre-sensitive interpretation; do not aggregate as frequency without document/register context."
+    },
+    {
+      "mapping_id": "lincoln-cmt-022",
+      "document_id": "lincoln-lyceum-address",
+      "sentence_id": "lincoln-lyceum-address_s01_p19_s05",
+      "date": "1838-01-27",
+      "period": "early-republican-rhetoric",
+      "audience": "Young Men's Lyceum of Springfield and a civic public concerned with republican institutions",
+      "occasion": "Early public address on mob violence, political inheritance, and the perpetuation of American institutions",
+      "genre": "public address",
+      "rhetorical_action": "Warns that republican survival depends on civic discipline and reverence for law.",
+      "emotional_posture": "warning",
+      "agency_structure": {
+        "agents": [
+          "we",
+          "nation of freemen",
+          "citizens"
+        ],
+        "patients": [
+          "nation",
+          "political institutions"
+        ],
+        "beneficiaries": [
+          "future republic",
+          "American people"
+        ],
+        "passive_or_absent": [
+          "enslaved people",
+          "women",
+          "Indigenous people"
+        ],
+        "displacement_mechanism": "National survival is framed as collective self-preservation rather than as conflict among named social groups."
+      },
+      "rhetorical_salience": "high",
+      "rhetorical_functions": [
+        "argument"
+      ],
+      "evidence_span": "It had many props to support it through that period, which now are decayed and crumbled away.",
+      "claim_boundary": "Genre-sensitive interpretation; do not aggregate as frequency without document/register context."
+    },
+    {
+      "mapping_id": "lincoln-cmt-023",
+      "document_id": "lincoln-lyceum-address",
+      "sentence_id": "lincoln-lyceum-address_s01_p19_s06",
+      "date": "1838-01-27",
+      "period": "early-republican-rhetoric",
+      "audience": "Young Men's Lyceum of Springfield and a civic public concerned with republican institutions",
+      "occasion": "Early public address on mob violence, political inheritance, and the perpetuation of American institutions",
+      "genre": "public address",
+      "rhetorical_action": "Warns that republican survival depends on civic discipline and reverence for law.",
+      "emotional_posture": "warning",
+      "agency_structure": {
+        "agents": [
+          "we",
+          "nation of freemen",
+          "citizens"
+        ],
+        "patients": [
+          "nation",
+          "political institutions"
+        ],
+        "beneficiaries": [
+          "future republic",
+          "American people"
+        ],
+        "passive_or_absent": [
+          "enslaved people",
+          "women",
+          "Indigenous people"
+        ],
+        "displacement_mechanism": "National survival is framed as collective self-preservation rather than as conflict among named social groups."
+      },
+      "rhetorical_salience": "medium",
+      "rhetorical_functions": [
+        "national_self_definition"
+      ],
+      "evidence_span": "Through that period it was felt by all to be an undecided experiment; now it is understood to be a successful one.",
+      "claim_boundary": "Genre-sensitive interpretation; do not aggregate as frequency without document/register context."
+    },
+    {
+      "mapping_id": "lincoln-cmt-024",
+      "document_id": "lincoln-lyceum-address",
+      "sentence_id": "lincoln-lyceum-address_s01_p19_s07",
+      "date": "1838-01-27",
+      "period": "early-republican-rhetoric",
+      "audience": "Young Men's Lyceum of Springfield and a civic public concerned with republican institutions",
+      "occasion": "Early public address on mob violence, political inheritance, and the perpetuation of American institutions",
+      "genre": "public address",
+      "rhetorical_action": "Warns that republican survival depends on civic discipline and reverence for law.",
+      "emotional_posture": "warning",
+      "agency_structure": {
+        "agents": [
+          "we",
+          "nation of freemen",
+          "citizens"
+        ],
+        "patients": [
+          "nation",
+          "political institutions"
+        ],
+        "beneficiaries": [
+          "future republic",
+          "American people"
+        ],
+        "passive_or_absent": [
+          "enslaved people",
+          "women",
+          "Indigenous people"
+        ],
+        "displacement_mechanism": "National survival is framed as collective self-preservation rather than as conflict among named social groups."
+      },
+      "rhetorical_salience": "medium",
+      "rhetorical_functions": [
+        "national_self_definition"
+      ],
+      "evidence_span": "Then, all that sought celebrity and fame and distinction expected to find them in the success of that experiment.",
+      "claim_boundary": "Genre-sensitive interpretation; do not aggregate as frequency without document/register context."
+    },
+    {
+      "mapping_id": "lincoln-cmt-025",
+      "document_id": "lincoln-lyceum-address",
+      "sentence_id": "lincoln-lyceum-address_s01_p19_s08",
+      "date": "1838-01-27",
+      "period": "early-republican-rhetoric",
+      "audience": "Young Men's Lyceum of Springfield and a civic public concerned with republican institutions",
+      "occasion": "Early public address on mob violence, political inheritance, and the perpetuation of American institutions",
+      "genre": "public address",
+      "rhetorical_action": "Warns that republican survival depends on civic discipline and reverence for law.",
+      "emotional_posture": "warning",
+      "agency_structure": {
+        "agents": [
+          "we",
+          "nation of freemen",
+          "citizens"
+        ],
+        "patients": [
+          "nation",
+          "political institutions"
+        ],
+        "beneficiaries": [
+          "future republic",
+          "American people"
+        ],
+        "passive_or_absent": [
+          "enslaved people",
+          "women",
+          "Indigenous people"
+        ],
+        "displacement_mechanism": "National survival is framed as collective self-preservation rather than as conflict among named social groups."
+      },
+      "rhetorical_salience": "medium",
+      "rhetorical_functions": [
+        "argument"
+      ],
+      "evidence_span": "Their all was staked upon it; their destiny was inseparably linked with it.",
+      "claim_boundary": "Genre-sensitive interpretation; do not aggregate as frequency without document/register context."
+    },
+    {
+      "mapping_id": "lincoln-cmt-026",
+      "document_id": "lincoln-lyceum-address",
+      "sentence_id": "lincoln-lyceum-address_s01_p19_s10",
+      "date": "1838-01-27",
+      "period": "early-republican-rhetoric",
+      "audience": "Young Men's Lyceum of Springfield and a civic public concerned with republican institutions",
+      "occasion": "Early public address on mob violence, political inheritance, and the perpetuation of American institutions",
+      "genre": "public address",
+      "rhetorical_action": "Warns that republican survival depends on civic discipline and reverence for law.",
+      "emotional_posture": "warning",
+      "agency_structure": {
+        "agents": [
+          "we",
+          "nation of freemen",
+          "citizens"
+        ],
+        "patients": [
+          "nation",
+          "political institutions"
+        ],
+        "beneficiaries": [
+          "future republic",
+          "American people"
+        ],
+        "passive_or_absent": [
+          "enslaved people",
+          "women",
+          "Indigenous people"
+        ],
+        "displacement_mechanism": "National survival is framed as collective self-preservation rather than as conflict among named social groups."
+      },
+      "rhetorical_salience": "medium",
+      "rhetorical_functions": [
+        "argument"
+      ],
+      "evidence_span": "If they succeeded they were to be immortalized; their names were to be transferred to counties, and cities, and rivers, and mountains; and to be revered and sung, toasted through all time.",
+      "claim_boundary": "Genre-sensitive interpretation; do not aggregate as frequency without document/register context."
+    },
+    {
+      "mapping_id": "lincoln-cmt-027",
+      "document_id": "lincoln-lyceum-address",
+      "sentence_id": "lincoln-lyceum-address_s01_p19_s11",
+      "date": "1838-01-27",
+      "period": "early-republican-rhetoric",
+      "audience": "Young Men's Lyceum of Springfield and a civic public concerned with republican institutions",
+      "occasion": "Early public address on mob violence, political inheritance, and the perpetuation of American institutions",
+      "genre": "public address",
+      "rhetorical_action": "Warns that republican survival depends on civic discipline and reverence for law.",
+      "emotional_posture": "warning",
+      "agency_structure": {
+        "agents": [
+          "we",
+          "nation of freemen",
+          "citizens"
+        ],
+        "patients": [
+          "nation",
+          "political institutions"
+        ],
+        "beneficiaries": [
+          "future republic",
+          "American people"
+        ],
+        "passive_or_absent": [
+          "enslaved people",
+          "women",
+          "Indigenous people"
+        ],
+        "displacement_mechanism": "National survival is framed as collective self-preservation rather than as conflict among named social groups."
+      },
+      "rhetorical_salience": "medium",
+      "rhetorical_functions": [
+        "argument"
+      ],
+      "evidence_span": "If they failed, they were to be called knaves and fools, and fanatics for a fleeting hour; then to sink and be forgotten.",
+      "claim_boundary": "Genre-sensitive interpretation; do not aggregate as frequency without document/register context."
+    },
+    {
+      "mapping_id": "lincoln-cmt-028",
+      "document_id": "lincoln-lyceum-address",
+      "sentence_id": "lincoln-lyceum-address_s01_p19_s13",
+      "date": "1838-01-27",
+      "period": "early-republican-rhetoric",
+      "audience": "Young Men's Lyceum of Springfield and a civic public concerned with republican institutions",
+      "occasion": "Early public address on mob violence, political inheritance, and the perpetuation of American institutions",
+      "genre": "public address",
+      "rhetorical_action": "Warns that republican survival depends on civic discipline and reverence for law.",
+      "emotional_posture": "warning",
+      "agency_structure": {
+        "agents": [
+          "we",
+          "nation of freemen",
+          "citizens"
+        ],
+        "patients": [
+          "nation",
+          "political institutions"
+        ],
+        "beneficiaries": [
+          "future republic",
+          "American people"
+        ],
+        "passive_or_absent": [
+          "enslaved people",
+          "women",
+          "Indigenous people"
+        ],
+        "displacement_mechanism": "National survival is framed as collective self-preservation rather than as conflict among named social groups."
+      },
+      "rhetorical_salience": "medium",
+      "rhetorical_functions": [
+        "national_self_definition"
+      ],
+      "evidence_span": "The experiment is successful, and thousands have won their deathless names in making it so.",
+      "claim_boundary": "Genre-sensitive interpretation; do not aggregate as frequency without document/register context."
+    },
+    {
+      "mapping_id": "lincoln-cmt-029",
+      "document_id": "lincoln-lyceum-address",
+      "sentence_id": "lincoln-lyceum-address_s01_p19_s14",
+      "date": "1838-01-27",
+      "period": "early-republican-rhetoric",
+      "audience": "Young Men's Lyceum of Springfield and a civic public concerned with republican institutions",
+      "occasion": "Early public address on mob violence, political inheritance, and the perpetuation of American institutions",
+      "genre": "public address",
+      "rhetorical_action": "Warns that republican survival depends on civic discipline and reverence for law.",
+      "emotional_posture": "warning",
+      "agency_structure": {
+        "agents": [
+          "we",
+          "nation of freemen",
+          "citizens"
+        ],
+        "patients": [
+          "nation",
+          "political institutions"
+        ],
+        "beneficiaries": [
+          "future republic",
+          "American people"
+        ],
+        "passive_or_absent": [
+          "enslaved people",
+          "women",
+          "Indigenous people"
+        ],
+        "displacement_mechanism": "National survival is framed as collective self-preservation rather than as conflict among named social groups."
+      },
+      "rhetorical_salience": "high",
+      "rhetorical_functions": [
+        "argument"
+      ],
+      "evidence_span": "But the game is caught; and I believe it is true that with the catching end the pleasures of the chase.",
+      "claim_boundary": "Genre-sensitive interpretation; do not aggregate as frequency without document/register context."
+    },
+    {
+      "mapping_id": "lincoln-cmt-030",
+      "document_id": "lincoln-lyceum-address",
+      "sentence_id": "lincoln-lyceum-address_s01_p19_s15",
+      "date": "1838-01-27",
+      "period": "early-republican-rhetoric",
+      "audience": "Young Men's Lyceum of Springfield and a civic public concerned with republican institutions",
+      "occasion": "Early public address on mob violence, political inheritance, and the perpetuation of American institutions",
+      "genre": "public address",
+      "rhetorical_action": "Warns that republican survival depends on civic discipline and reverence for law.",
+      "emotional_posture": "warning",
+      "agency_structure": {
+        "agents": [
+          "we",
+          "nation of freemen",
+          "citizens"
+        ],
+        "patients": [
+          "nation",
+          "political institutions"
+        ],
+        "beneficiaries": [
+          "future republic",
+          "American people"
+        ],
+        "passive_or_absent": [
+          "enslaved people",
+          "women",
+          "Indigenous people"
+        ],
+        "displacement_mechanism": "National survival is framed as collective self-preservation rather than as conflict among named social groups."
+      },
+      "rhetorical_salience": "high",
+      "rhetorical_functions": [
+        "argument"
+      ],
+      "evidence_span": "This field of glory is harvested, and the crop is already appropriated.",
+      "claim_boundary": "Genre-sensitive interpretation; do not aggregate as frequency without document/register context."
+    },
+    {
+      "mapping_id": "lincoln-cmt-031",
+      "document_id": "lincoln-lyceum-address",
+      "sentence_id": "lincoln-lyceum-address_s01_p19_s16",
+      "date": "1838-01-27",
+      "period": "early-republican-rhetoric",
+      "audience": "Young Men's Lyceum of Springfield and a civic public concerned with republican institutions",
+      "occasion": "Early public address on mob violence, political inheritance, and the perpetuation of American institutions",
+      "genre": "public address",
+      "rhetorical_action": "Warns that republican survival depends on civic discipline and reverence for law.",
+      "emotional_posture": "warning",
+      "agency_structure": {
+        "agents": [
+          "we",
+          "nation of freemen",
+          "citizens"
+        ],
+        "patients": [
+          "nation",
+          "political institutions"
+        ],
+        "beneficiaries": [
+          "future republic",
+          "American people"
+        ],
+        "passive_or_absent": [
+          "enslaved people",
+          "women",
+          "Indigenous people"
+        ],
+        "displacement_mechanism": "National survival is framed as collective self-preservation rather than as conflict among named social groups."
+      },
+      "rhetorical_salience": "high",
+      "rhetorical_functions": [
+        "argument"
+      ],
+      "evidence_span": "But new reapers will arise, and they too will seek a field.",
+      "claim_boundary": "Genre-sensitive interpretation; do not aggregate as frequency without document/register context."
+    },
+    {
+      "mapping_id": "lincoln-cmt-032",
+      "document_id": "lincoln-lyceum-address",
+      "sentence_id": "lincoln-lyceum-address_s01_p19_s17",
+      "date": "1838-01-27",
+      "period": "early-republican-rhetoric",
+      "audience": "Young Men's Lyceum of Springfield and a civic public concerned with republican institutions",
+      "occasion": "Early public address on mob violence, political inheritance, and the perpetuation of American institutions",
+      "genre": "public address",
+      "rhetorical_action": "Warns that republican survival depends on civic discipline and reverence for law.",
+      "emotional_posture": "warning",
+      "agency_structure": {
+        "agents": [
+          "we",
+          "nation of freemen",
+          "citizens"
+        ],
+        "patients": [
+          "nation",
+          "political institutions"
+        ],
+        "beneficiaries": [
+          "future republic",
+          "American people"
+        ],
+        "passive_or_absent": [
+          "enslaved people",
+          "women",
+          "Indigenous people"
+        ],
+        "displacement_mechanism": "National survival is framed as collective self-preservation rather than as conflict among named social groups."
+      },
+      "rhetorical_salience": "medium",
+      "rhetorical_functions": [
+        "argument"
+      ],
+      "evidence_span": "It is to deny what the history of the world tells us is true, to suppose that men of ambition and talents will not continue to spring up amongst us.",
+      "claim_boundary": "Genre-sensitive interpretation; do not aggregate as frequency without document/register context."
+    },
+    {
+      "mapping_id": "lincoln-cmt-033",
+      "document_id": "lincoln-lyceum-address",
+      "sentence_id": "lincoln-lyceum-address_s01_p19_s19",
+      "date": "1838-01-27",
+      "period": "early-republican-rhetoric",
+      "audience": "Young Men's Lyceum of Springfield and a civic public concerned with republican institutions",
+      "occasion": "Early public address on mob violence, political inheritance, and the perpetuation of American institutions",
+      "genre": "public address",
+      "rhetorical_action": "Warns that republican survival depends on civic discipline and reverence for law.",
+      "emotional_posture": "warning",
+      "agency_structure": {
+        "agents": [
+          "we",
+          "nation of freemen",
+          "citizens"
+        ],
+        "patients": [
+          "nation",
+          "political institutions"
+        ],
+        "beneficiaries": [
+          "future republic",
+          "American people"
+        ],
+        "passive_or_absent": [
+          "enslaved people",
+          "women",
+          "Indigenous people"
+        ],
+        "displacement_mechanism": "National survival is framed as collective self-preservation rather than as conflict among named social groups."
+      },
+      "rhetorical_salience": "high",
+      "rhetorical_functions": [
+        "argument"
+      ],
+      "evidence_span": "The question then is, Can that gratification be found in supporting and in maintaining an edifice that has been erected by others?",
+      "claim_boundary": "Genre-sensitive interpretation; do not aggregate as frequency without document/register context."
+    },
+    {
+      "mapping_id": "lincoln-cmt-034",
+      "document_id": "lincoln-lyceum-address",
+      "sentence_id": "lincoln-lyceum-address_s01_p19_s21",
+      "date": "1838-01-27",
+      "period": "early-republican-rhetoric",
+      "audience": "Young Men's Lyceum of Springfield and a civic public concerned with republican institutions",
+      "occasion": "Early public address on mob violence, political inheritance, and the perpetuation of American institutions",
+      "genre": "public address",
+      "rhetorical_action": "Warns that republican survival depends on civic discipline and reverence for law.",
+      "emotional_posture": "warning",
+      "agency_structure": {
+        "agents": [
+          "we",
+          "nation of freemen",
+          "citizens"
+        ],
+        "patients": [
+          "nation",
+          "political institutions"
+        ],
+        "beneficiaries": [
+          "future republic",
+          "American people"
+        ],
+        "passive_or_absent": [
+          "enslaved people",
+          "women",
+          "Indigenous people"
+        ],
+        "displacement_mechanism": "National survival is framed as collective self-preservation rather than as conflict among named social groups."
+      },
+      "rhetorical_salience": "medium",
+      "rhetorical_functions": [
+        "argument"
+      ],
+      "evidence_span": "Many great and good men, sufficiently qualified for any task they should undertake, may ever be found whose ambition would aspire to nothing beyond a seat in Congress, a Gubernatorial or a Presidential chair; but such belong not to the family of the lion, or the tribe of the eagle.",
+      "claim_boundary": "Genre-sensitive interpretation; do not aggregate as frequency without document/register context."
+    },
+    {
+      "mapping_id": "lincoln-cmt-035",
+      "document_id": "lincoln-lyceum-address",
+      "sentence_id": "lincoln-lyceum-address_s01_p19_s24",
+      "date": "1838-01-27",
+      "period": "early-republican-rhetoric",
+      "audience": "Young Men's Lyceum of Springfield and a civic public concerned with republican institutions",
+      "occasion": "Early public address on mob violence, political inheritance, and the perpetuation of American institutions",
+      "genre": "public address",
+      "rhetorical_action": "Warns that republican survival depends on civic discipline and reverence for law.",
+      "emotional_posture": "warning",
+      "agency_structure": {
+        "agents": [
+          "we",
+          "nation of freemen",
+          "citizens"
+        ],
+        "patients": [
+          "nation",
+          "political institutions"
+        ],
+        "beneficiaries": [
+          "future republic",
+          "American people"
+        ],
+        "passive_or_absent": [
+          "enslaved people",
+          "women",
+          "Indigenous people"
+        ],
+        "displacement_mechanism": "National survival is framed as collective self-preservation rather than as conflict among named social groups."
+      },
+      "rhetorical_salience": "medium",
+      "rhetorical_functions": [
+        "argument"
+      ],
+      "evidence_span": "Towering genius disdains a beaten path.",
+      "claim_boundary": "Genre-sensitive interpretation; do not aggregate as frequency without document/register context."
+    },
+    {
+      "mapping_id": "lincoln-cmt-036",
+      "document_id": "lincoln-lyceum-address",
+      "sentence_id": "lincoln-lyceum-address_s01_p19_s25",
+      "date": "1838-01-27",
+      "period": "early-republican-rhetoric",
+      "audience": "Young Men's Lyceum of Springfield and a civic public concerned with republican institutions",
+      "occasion": "Early public address on mob violence, political inheritance, and the perpetuation of American institutions",
+      "genre": "public address",
+      "rhetorical_action": "Warns that republican survival depends on civic discipline and reverence for law.",
+      "emotional_posture": "warning",
+      "agency_structure": {
+        "agents": [
+          "we",
+          "nation of freemen",
+          "citizens"
+        ],
+        "patients": [
+          "nation",
+          "political institutions"
+        ],
+        "beneficiaries": [
+          "future republic",
+          "American people"
+        ],
+        "passive_or_absent": [
+          "enslaved people",
+          "women",
+          "Indigenous people"
+        ],
+        "displacement_mechanism": "National survival is framed as collective self-preservation rather than as conflict among named social groups."
+      },
+      "rhetorical_salience": "medium",
+      "rhetorical_functions": [
+        "argument"
+      ],
+      "evidence_span": "It seeks regions hitherto unexplored.",
+      "claim_boundary": "Genre-sensitive interpretation; do not aggregate as frequency without document/register context."
+    },
+    {
+      "mapping_id": "lincoln-cmt-037",
+      "document_id": "lincoln-lyceum-address",
+      "sentence_id": "lincoln-lyceum-address_s01_p19_s28",
+      "date": "1838-01-27",
+      "period": "early-republican-rhetoric",
+      "audience": "Young Men's Lyceum of Springfield and a civic public concerned with republican institutions",
+      "occasion": "Early public address on mob violence, political inheritance, and the perpetuation of American institutions",
+      "genre": "public address",
+      "rhetorical_action": "Warns that republican survival depends on civic discipline and reverence for law.",
+      "emotional_posture": "warning",
+      "agency_structure": {
+        "agents": [
+          "we",
+          "nation of freemen",
+          "citizens"
+        ],
+        "patients": [
+          "nation",
+          "political institutions"
+        ],
+        "beneficiaries": [
+          "future republic",
+          "American people"
+        ],
+        "passive_or_absent": [
+          "enslaved people",
+          "women",
+          "Indigenous people"
+        ],
+        "displacement_mechanism": "National survival is framed as collective self-preservation rather than as conflict among named social groups."
+      },
+      "rhetorical_salience": "medium",
+      "rhetorical_functions": [
+        "argument"
+      ],
+      "evidence_span": "It scorns to tread in the footsteps of any predecessor, however illustrious.",
+      "claim_boundary": "Genre-sensitive interpretation; do not aggregate as frequency without document/register context."
+    },
+    {
+      "mapping_id": "lincoln-cmt-038",
+      "document_id": "lincoln-lyceum-address",
+      "sentence_id": "lincoln-lyceum-address_s01_p19_s29",
+      "date": "1838-01-27",
+      "period": "early-republican-rhetoric",
+      "audience": "Young Men's Lyceum of Springfield and a civic public concerned with republican institutions",
+      "occasion": "Early public address on mob violence, political inheritance, and the perpetuation of American institutions",
+      "genre": "public address",
+      "rhetorical_action": "Warns that republican survival depends on civic discipline and reverence for law.",
+      "emotional_posture": "warning",
+      "agency_structure": {
+        "agents": [
+          "we",
+          "nation of freemen",
+          "citizens"
+        ],
+        "patients": [
+          "nation",
+          "political institutions"
+        ],
+        "beneficiaries": [
+          "future republic",
+          "American people"
+        ],
+        "passive_or_absent": [
+          "enslaved people",
+          "women",
+          "Indigenous people"
+        ],
+        "displacement_mechanism": "National survival is framed as collective self-preservation rather than as conflict among named social groups."
+      },
+      "rhetorical_salience": "medium",
+      "rhetorical_functions": [
+        "argument"
+      ],
+      "evidence_span": "It thirsts and burns for distinction; and if possible, it will have it, whether at the expense of emancipating slaves or enslaving freemen.",
+      "claim_boundary": "Genre-sensitive interpretation; do not aggregate as frequency without document/register context."
+    },
+    {
+      "mapping_id": "lincoln-cmt-039",
+      "document_id": "lincoln-lyceum-address",
+      "sentence_id": "lincoln-lyceum-address_s01_p19_s30",
+      "date": "1838-01-27",
+      "period": "early-republican-rhetoric",
+      "audience": "Young Men's Lyceum of Springfield and a civic public concerned with republican institutions",
+      "occasion": "Early public address on mob violence, political inheritance, and the perpetuation of American institutions",
+      "genre": "public address",
+      "rhetorical_action": "Warns that republican survival depends on civic discipline and reverence for law.",
+      "emotional_posture": "warning",
+      "agency_structure": {
+        "agents": [
+          "we",
+          "nation of freemen",
+          "citizens"
+        ],
+        "patients": [
+          "nation",
+          "political institutions"
+        ],
+        "beneficiaries": [
+          "future republic",
+          "American people"
+        ],
+        "passive_or_absent": [
+          "enslaved people",
+          "women",
+          "Indigenous people"
+        ],
+        "displacement_mechanism": "National survival is framed as collective self-preservation rather than as conflict among named social groups."
+      },
+      "rhetorical_salience": "medium",
+      "rhetorical_functions": [
+        "argument"
+      ],
+      "evidence_span": "Is it unreasonable, then, to expect that some man possessed of the loftiest genius, coupled with ambition sufficient to push it to its utmost stretch, will at some time spring up among us?",
+      "claim_boundary": "Genre-sensitive interpretation; do not aggregate as frequency without document/register context."
+    },
+    {
+      "mapping_id": "lincoln-cmt-040",
+      "document_id": "lincoln-lyceum-address",
+      "sentence_id": "lincoln-lyceum-address_s01_p20_s01",
+      "date": "1838-01-27",
+      "period": "early-republican-rhetoric",
+      "audience": "Young Men's Lyceum of Springfield and a civic public concerned with republican institutions",
+      "occasion": "Early public address on mob violence, political inheritance, and the perpetuation of American institutions",
+      "genre": "public address",
+      "rhetorical_action": "Warns that republican survival depends on civic discipline and reverence for law.",
+      "emotional_posture": "warning",
+      "agency_structure": {
+        "agents": [
+          "we",
+          "nation of freemen",
+          "citizens"
+        ],
+        "patients": [
+          "nation",
+          "political institutions"
+        ],
+        "beneficiaries": [
+          "future republic",
+          "American people"
+        ],
+        "passive_or_absent": [
+          "enslaved people",
+          "women",
+          "Indigenous people"
+        ],
+        "displacement_mechanism": "National survival is framed as collective self-preservation rather than as conflict among named social groups."
+      },
+      "rhetorical_salience": "high",
+      "rhetorical_functions": [
+        "argument"
+      ],
+      "evidence_span": "Distinction will be his paramount object, and although he would as willingly, perhaps more so, acquire it by doing good as harm, yet, that opportunity being past, and nothing left to be done in the way of building up, he would set boldly to the task of pulling down.",
+      "claim_boundary": "Genre-sensitive interpretation; do not aggregate as frequency without document/register context."
+    },
+    {
+      "mapping_id": "lincoln-cmt-041",
+      "document_id": "lincoln-lyceum-address",
+      "sentence_id": "lincoln-lyceum-address_s01_p23_s01",
+      "date": "1838-01-27",
+      "period": "early-republican-rhetoric",
+      "audience": "Young Men's Lyceum of Springfield and a civic public concerned with republican institutions",
+      "occasion": "Early public address on mob violence, political inheritance, and the perpetuation of American institutions",
+      "genre": "public address",
+      "rhetorical_action": "Warns that republican survival depends on civic discipline and reverence for law.",
+      "emotional_posture": "warning",
+      "agency_structure": {
+        "agents": [
+          "we",
+          "nation of freemen",
+          "citizens"
+        ],
+        "patients": [
+          "nation",
+          "political institutions"
+        ],
+        "beneficiaries": [
+          "future republic",
+          "American people"
+        ],
+        "passive_or_absent": [
+          "enslaved people",
+          "women",
+          "Indigenous people"
+        ],
+        "displacement_mechanism": "National survival is framed as collective self-preservation rather than as conflict among named social groups."
+      },
+      "rhetorical_salience": "medium",
+      "rhetorical_functions": [
+        "argument"
+      ],
+      "evidence_span": "But this state of feeling must fade, is fading, has faded, with the circumstances that produced it.",
+      "claim_boundary": "Genre-sensitive interpretation; do not aggregate as frequency without document/register context."
+    },
+    {
+      "mapping_id": "lincoln-cmt-042",
+      "document_id": "lincoln-lyceum-address",
+      "sentence_id": "lincoln-lyceum-address_s01_p24_s01",
+      "date": "1838-01-27",
+      "period": "early-republican-rhetoric",
+      "audience": "Young Men's Lyceum of Springfield and a civic public concerned with republican institutions",
+      "occasion": "Early public address on mob violence, political inheritance, and the perpetuation of American institutions",
+      "genre": "public address",
+      "rhetorical_action": "Warns that republican survival depends on civic discipline and reverence for law.",
+      "emotional_posture": "warning",
+      "agency_structure": {
+        "agents": [
+          "we",
+          "nation of freemen",
+          "citizens"
+        ],
+        "patients": [
+          "nation",
+          "political institutions"
+        ],
+        "beneficiaries": [
+          "future republic",
+          "American people"
+        ],
+        "passive_or_absent": [
+          "enslaved people",
+          "women",
+          "Indigenous people"
+        ],
+        "displacement_mechanism": "National survival is framed as collective self-preservation rather than as conflict among named social groups."
+      },
+      "rhetorical_salience": "medium",
+      "rhetorical_functions": [
+        "argument"
+      ],
+      "evidence_span": "I do not mean to say that the scenes of the Revolution are now or ever will be entirely forgotten, but that, like everything else, they must fade upon the memory of the world, and grow more and more dim by the lapse of time.",
+      "claim_boundary": "Genre-sensitive interpretation; do not aggregate as frequency without document/register context."
+    },
+    {
+      "mapping_id": "lincoln-cmt-043",
+      "document_id": "lincoln-lyceum-address",
+      "sentence_id": "lincoln-lyceum-address_s01_p24_s05",
+      "date": "1838-01-27",
+      "period": "early-republican-rhetoric",
+      "audience": "Young Men's Lyceum of Springfield and a civic public concerned with republican institutions",
+      "occasion": "Early public address on mob violence, political inheritance, and the perpetuation of American institutions",
+      "genre": "public address",
+      "rhetorical_action": "Warns that republican survival depends on civic discipline and reverence for law.",
+      "emotional_posture": "warning",
+      "agency_structure": {
+        "agents": [
+          "we",
+          "nation of freemen",
+          "citizens"
+        ],
+        "patients": [
+          "nation",
+          "political institutions"
+        ],
+        "beneficiaries": [
+          "future republic",
+          "American people"
+        ],
+        "passive_or_absent": [
+          "enslaved people",
+          "women",
+          "Indigenous people"
+        ],
+        "displacement_mechanism": "National survival is framed as collective self-preservation rather than as conflict among named social groups."
+      },
+      "rhetorical_salience": "high",
+      "rhetorical_functions": [
+        "argument"
+      ],
+      "evidence_span": "The consequence was that of those scenes, in the form of a husband, a father, a son, or a brother, a living history was to be found in every family--a history bearing the indubitable testimonies of its own authenticity, in the limbs mangled, in the scars of wounds received, in the midst of the very scenes related--a history, too, that could be read and understood alike by all, the wise and the ignorant, the learned and the unlearned.",
+      "claim_boundary": "Genre-sensitive interpretation; do not aggregate as frequency without document/register context."
+    },
+    {
+      "mapping_id": "lincoln-cmt-044",
+      "document_id": "lincoln-lyceum-address",
+      "sentence_id": "lincoln-lyceum-address_s01_p24_s08",
+      "date": "1838-01-27",
+      "period": "early-republican-rhetoric",
+      "audience": "Young Men's Lyceum of Springfield and a civic public concerned with republican institutions",
+      "occasion": "Early public address on mob violence, political inheritance, and the perpetuation of American institutions",
+      "genre": "public address",
+      "rhetorical_action": "Warns that republican survival depends on civic discipline and reverence for law.",
+      "emotional_posture": "warning",
+      "agency_structure": {
+        "agents": [
+          "we",
+          "nation of freemen",
+          "citizens"
+        ],
+        "patients": [
+          "nation",
+          "political institutions"
+        ],
+        "beneficiaries": [
+          "future republic",
+          "American people"
+        ],
+        "passive_or_absent": [
+          "enslaved people",
+          "women",
+          "Indigenous people"
+        ],
+        "displacement_mechanism": "National survival is framed as collective self-preservation rather than as conflict among named social groups."
+      },
+      "rhetorical_salience": "high",
+      "rhetorical_functions": [
+        "glorification"
+      ],
+      "evidence_span": "They were a fortress of strength; but what invading foeman could never do the silent artillery of time has done--the leveling of its walls.",
+      "claim_boundary": "Genre-sensitive interpretation; do not aggregate as frequency without document/register context."
+    },
+    {
+      "mapping_id": "lincoln-cmt-045",
+      "document_id": "lincoln-lyceum-address",
+      "sentence_id": "lincoln-lyceum-address_s01_p24_s10",
+      "date": "1838-01-27",
+      "period": "early-republican-rhetoric",
+      "audience": "Young Men's Lyceum of Springfield and a civic public concerned with republican institutions",
+      "occasion": "Early public address on mob violence, political inheritance, and the perpetuation of American institutions",
+      "genre": "public address",
+      "rhetorical_action": "Warns that republican survival depends on civic discipline and reverence for law.",
+      "emotional_posture": "warning",
+      "agency_structure": {
+        "agents": [
+          "we",
+          "nation of freemen",
+          "citizens"
+        ],
+        "patients": [
+          "nation",
+          "political institutions"
+        ],
+        "beneficiaries": [
+          "future republic",
+          "American people"
+        ],
+        "passive_or_absent": [
+          "enslaved people",
+          "women",
+          "Indigenous people"
+        ],
+        "displacement_mechanism": "National survival is framed as collective self-preservation rather than as conflict among named social groups."
+      },
+      "rhetorical_salience": "high",
+      "rhetorical_functions": [
+        "argument"
+      ],
+      "evidence_span": "They were a forest of giant oaks; but the all-restless hurricane has swept over them, and left only here and there a lonely trunk, despoiled of its verdure, shorn of its foliage, unshading and unshaded, to murmur in a few more gentle breezes, and to combat with its mutilated limbs a few more ruder storms, then to sink and be no more.",
+      "claim_boundary": "Genre-sensitive interpretation; do not aggregate as frequency without document/register context."
+    },
+    {
+      "mapping_id": "lincoln-cmt-046",
+      "document_id": "lincoln-lyceum-address",
+      "sentence_id": "lincoln-lyceum-address_s01_p25_s01",
+      "date": "1838-01-27",
+      "period": "early-republican-rhetoric",
+      "audience": "Young Men's Lyceum of Springfield and a civic public concerned with republican institutions",
+      "occasion": "Early public address on mob violence, political inheritance, and the perpetuation of American institutions",
+      "genre": "public address",
+      "rhetorical_action": "Warns that republican survival depends on civic discipline and reverence for law.",
+      "emotional_posture": "warning",
+      "agency_structure": {
+        "agents": [
+          "we",
+          "nation of freemen",
+          "citizens"
+        ],
+        "patients": [
+          "nation",
+          "political institutions"
+        ],
+        "beneficiaries": [
+          "future republic",
+          "American people"
+        ],
+        "passive_or_absent": [
+          "enslaved people",
+          "women",
+          "Indigenous people"
+        ],
+        "displacement_mechanism": "National survival is framed as collective self-preservation rather than as conflict among named social groups."
+      },
+      "rhetorical_salience": "high",
+      "rhetorical_functions": [
+        "argument"
+      ],
+      "evidence_span": "They were pillars of the temple of liberty; and now that they have crumbled away that temple must fall unless we, their descendants, supply their places with other pillars, hewn from the solid quarry of sober reason.",
+      "claim_boundary": "Genre-sensitive interpretation; do not aggregate as frequency without document/register context."
+    },
+    {
+      "mapping_id": "lincoln-cmt-047",
+      "document_id": "lincoln-lyceum-address",
+      "sentence_id": "lincoln-lyceum-address_s01_p25_s03",
+      "date": "1838-01-27",
+      "period": "early-republican-rhetoric",
+      "audience": "Young Men's Lyceum of Springfield and a civic public concerned with republican institutions",
+      "occasion": "Early public address on mob violence, political inheritance, and the perpetuation of American institutions",
+      "genre": "public address",
+      "rhetorical_action": "Warns that republican survival depends on civic discipline and reverence for law.",
+      "emotional_posture": "warning",
+      "agency_structure": {
+        "agents": [
+          "we",
+          "nation of freemen",
+          "citizens"
+        ],
+        "patients": [
+          "nation",
+          "political institutions"
+        ],
+        "beneficiaries": [
+          "future republic",
+          "American people"
+        ],
+        "passive_or_absent": [
+          "enslaved people",
+          "women",
+          "Indigenous people"
+        ],
+        "displacement_mechanism": "National survival is framed as collective self-preservation rather than as conflict among named social groups."
+      },
+      "rhetorical_salience": "medium",
+      "rhetorical_functions": [
+        "argument"
+      ],
+      "evidence_span": "It will in future be our enemy.",
+      "claim_boundary": "Genre-sensitive interpretation; do not aggregate as frequency without document/register context."
+    },
+    {
+      "mapping_id": "lincoln-cmt-048",
+      "document_id": "lincoln-lyceum-address",
+      "sentence_id": "lincoln-lyceum-address_s01_p25_s04",
+      "date": "1838-01-27",
+      "period": "early-republican-rhetoric",
+      "audience": "Young Men's Lyceum of Springfield and a civic public concerned with republican institutions",
+      "occasion": "Early public address on mob violence, political inheritance, and the perpetuation of American institutions",
+      "genre": "public address",
+      "rhetorical_action": "Warns that republican survival depends on civic discipline and reverence for law.",
+      "emotional_posture": "warning",
+      "agency_structure": {
+        "agents": [
+          "we",
+          "nation of freemen",
+          "citizens"
+        ],
+        "patients": [
+          "nation",
+          "political institutions"
+        ],
+        "beneficiaries": [
+          "future republic",
+          "American people"
+        ],
+        "passive_or_absent": [
+          "enslaved people",
+          "women",
+          "Indigenous people"
+        ],
+        "displacement_mechanism": "National survival is framed as collective self-preservation rather than as conflict among named social groups."
+      },
+      "rhetorical_salience": "medium",
+      "rhetorical_functions": [
+        "argument"
+      ],
+      "evidence_span": "Reason cold, calculating, unimpassioned reason--must furnish all the materials for our future support and defense.",
+      "claim_boundary": "Genre-sensitive interpretation; do not aggregate as frequency without document/register context."
+    },
+    {
+      "mapping_id": "lincoln-cmt-049",
+      "document_id": "lincoln-lyceum-address",
+      "sentence_id": "lincoln-lyceum-address_s01_p25_s05",
+      "date": "1838-01-27",
+      "period": "early-republican-rhetoric",
+      "audience": "Young Men's Lyceum of Springfield and a civic public concerned with republican institutions",
+      "occasion": "Early public address on mob violence, political inheritance, and the perpetuation of American institutions",
+      "genre": "public address",
+      "rhetorical_action": "Warns that republican survival depends on civic discipline and reverence for law.",
+      "emotional_posture": "warning",
+      "agency_structure": {
+        "agents": [
+          "we",
+          "nation of freemen",
+          "citizens"
+        ],
+        "patients": [
+          "nation",
+          "political institutions"
+        ],
+        "beneficiaries": [
+          "future republic",
+          "American people"
+        ],
+        "passive_or_absent": [
+          "enslaved people",
+          "women",
+          "Indigenous people"
+        ],
+        "displacement_mechanism": "National survival is framed as collective self-preservation rather than as conflict among named social groups."
+      },
+      "rhetorical_salience": "medium",
+      "rhetorical_functions": [
+        "argument"
+      ],
+      "evidence_span": "Let those materials be moulded into general intelligence, sound morality, and in particular, a reverence for the Constitution and laws; and that we improved to the last, that we remained free to the last, that we revered his name to the last, that during his long sleep we permitted no hostile foot to pass over or desecrate his resting place, shall be that which to learn the last trump shall awaken our Washington.",
+      "claim_boundary": "Genre-sensitive interpretation; do not aggregate as frequency without document/register context."
+    },
+    {
+      "mapping_id": "lincoln-cmt-050",
+      "document_id": "lincoln-lyceum-address",
+      "sentence_id": "lincoln-lyceum-address_s01_p26_s01",
+      "date": "1838-01-27",
+      "period": "early-republican-rhetoric",
+      "audience": "Young Men's Lyceum of Springfield and a civic public concerned with republican institutions",
+      "occasion": "Early public address on mob violence, political inheritance, and the perpetuation of American institutions",
+      "genre": "public address",
+      "rhetorical_action": "Warns that republican survival depends on civic discipline and reverence for law.",
+      "emotional_posture": "warning",
+      "agency_structure": {
+        "agents": [
+          "we",
+          "nation of freemen",
+          "citizens"
+        ],
+        "patients": [
+          "nation",
+          "political institutions"
+        ],
+        "beneficiaries": [
+          "future republic",
+          "American people"
+        ],
+        "passive_or_absent": [
+          "enslaved people",
+          "women",
+          "Indigenous people"
+        ],
+        "displacement_mechanism": "National survival is framed as collective self-preservation rather than as conflict among named social groups."
+      },
+      "rhetorical_salience": "high",
+      "rhetorical_functions": [
+        "argument"
+      ],
+      "evidence_span": "Upon these let the proud fabric of freedom rest, as the rock of its basis; and as truly as has been said of the only greater institution, \"the gates of hell shall not prevail against it.\"",
+      "claim_boundary": "Genre-sensitive interpretation; do not aggregate as frequency without document/register context."
+    },
+    {
+      "mapping_id": "lincoln-cmt-051",
+      "document_id": "lincoln-gettysburg-address",
+      "sentence_id": "lincoln-gettysburg-address_s01_p01_s01",
+      "date": "1863-11-19",
+      "period": "emancipation-and-sacrifice",
+      "audience": "Cemetery dedication audience, Union public, mourners, soldiers, and national readers",
+      "occasion": "Dedication of the national cemetery after the Battle of Gettysburg",
+      "genre": "ceremonial address",
+      "rhetorical_action": "Transforms battlefield death into renewed obligation to preserve democratic government and freedom.",
+      "emotional_posture": "mourning, consecration, exhortation",
+      "agency_structure": {
+        "agents": [
+          "honored dead",
+          "living citizens",
+          "we"
+        ],
+        "patients": [
+          "dead soldiers",
+          "nation",
+          "government of the people"
+        ],
+        "beneficiaries": [
+          "nation",
+          "freedom",
+          "democratic government"
+        ],
+        "passive_or_absent": [
+          "Confederate agency",
+          "enslaved people's own agency",
+          "civilian suffering"
+        ],
+        "displacement_mechanism": "Deaths are generalized as national offering and obligation; specific agents and material bodies recede behind public dedication."
+      },
+      "rhetorical_salience": "high",
+      "rhetorical_functions": [
+        "national_self_definition"
+      ],
+      "evidence_span": "Four score and seven years ago, our fathers brought forth upon this continent a new nation: conceived in liberty, and dedicated to the proposition that all men are created equal.",
+      "claim_boundary": "Genre-sensitive interpretation; do not aggregate as frequency without document/register context."
+    },
+    {
+      "mapping_id": "lincoln-cmt-052",
+      "document_id": "lincoln-gettysburg-address",
+      "sentence_id": "lincoln-gettysburg-address_s01_p02_s01",
+      "date": "1863-11-19",
+      "period": "emancipation-and-sacrifice",
+      "audience": "Cemetery dedication audience, Union public, mourners, soldiers, and national readers",
+      "occasion": "Dedication of the national cemetery after the Battle of Gettysburg",
+      "genre": "ceremonial address",
+      "rhetorical_action": "Transforms battlefield death into renewed obligation to preserve democratic government and freedom.",
+      "emotional_posture": "mourning, consecration, exhortation",
+      "agency_structure": {
+        "agents": [
+          "honored dead",
+          "living citizens",
+          "we"
+        ],
+        "patients": [
+          "dead soldiers",
+          "nation",
+          "government of the people"
+        ],
+        "beneficiaries": [
+          "nation",
+          "freedom",
+          "democratic government"
+        ],
+        "passive_or_absent": [
+          "Confederate agency",
+          "enslaved people's own agency",
+          "civilian suffering"
+        ],
+        "displacement_mechanism": "Deaths are generalized as national offering and obligation; specific agents and material bodies recede behind public dedication."
+      },
+      "rhetorical_salience": "medium",
+      "rhetorical_functions": [
+        "national_self_definition"
+      ],
+      "evidence_span": "Now we are engaged in a great civil war. . .testing whether that nation, or any nation so conceived and so dedicated. . . can long endure.",
+      "claim_boundary": "Genre-sensitive interpretation; do not aggregate as frequency without document/register context."
+    },
+    {
+      "mapping_id": "lincoln-cmt-053",
       "document_id": "lincoln-gettysburg-address",
       "sentence_id": "lincoln-gettysburg-address_s01_p03_s01",
       "date": "1863-11-19",
@@ -80,16 +2072,15 @@
       },
       "rhetorical_salience": "high",
       "rhetorical_functions": [
-        "memorialization",
-        "consecration"
+        "argument"
       ],
       "evidence_span": "We have come to dedicate a portion of that field as a final resting place for those who here gave their lives that this nation might live.",
       "claim_boundary": "Genre-sensitive interpretation; do not aggregate as frequency without document/register context."
     },
     {
-      "mapping_id": "lincoln-cmt-003",
+      "mapping_id": "lincoln-cmt-054",
       "document_id": "lincoln-gettysburg-address",
-      "sentence_id": "lincoln-gettysburg-address_s01_p05_s02",
+      "sentence_id": "lincoln-gettysburg-address_s01_p04_s03",
       "date": "1863-11-19",
       "period": "emancipation-and-sacrifice",
       "audience": "Cemetery dedication audience, Union public, mourners, soldiers, and national readers",
@@ -122,14 +2113,13 @@
       },
       "rhetorical_salience": "high",
       "rhetorical_functions": [
-        "exhortation",
-        "consecration"
+        "argument"
       ],
-      "evidence_span": "It is rather for us to be here dedicated to the great task remaining before us.",
+      "evidence_span": "The world will little note, nor long remember, what we say here, but it can never forget what they did here.",
       "claim_boundary": "Genre-sensitive interpretation; do not aggregate as frequency without document/register context."
     },
     {
-      "mapping_id": "lincoln-cmt-004",
+      "mapping_id": "lincoln-cmt-055",
       "document_id": "lincoln-gettysburg-address",
       "sentence_id": "lincoln-gettysburg-address_s01_p05_s02",
       "date": "1863-11-19",
@@ -164,217 +2154,369 @@
       },
       "rhetorical_salience": "high",
       "rhetorical_functions": [
-        "memorialization",
-        "exhortation"
+        "sacralization"
       ],
-      "evidence_span": "that cause for which they gave the last full measure of devotion",
+      "evidence_span": "It is rather for us to be here dedicated to the great task remaining before us. . .that from these honored dead we take increased devotion to that cause for which they gave the last full measure of devotion. . . that we here highly resolve that these dead shall not have died in vain. . . that this nation, under God, shall have a new birth of freedom. . . and that government of the people. . .by the people. . .for the people. . . shall not perish from this earth.",
       "claim_boundary": "Genre-sensitive interpretation; do not aggregate as frequency without document/register context."
     },
     {
-      "mapping_id": "lincoln-cmt-005",
-      "document_id": "lincoln-gettysburg-address",
-      "sentence_id": "lincoln-gettysburg-address_s01_p05_s02",
-      "date": "1863-11-19",
-      "period": "emancipation-and-sacrifice",
-      "audience": "Cemetery dedication audience, Union public, mourners, soldiers, and national readers",
-      "occasion": "Dedication of the national cemetery after the Battle of Gettysburg",
-      "genre": "ceremonial address",
-      "rhetorical_action": "Transforms battlefield death into renewed obligation to preserve democratic government and freedom.",
-      "emotional_posture": "mourning, consecration, exhortation",
+      "mapping_id": "lincoln-cmt-056",
+      "document_id": "lincoln-second-inaugural",
+      "sentence_id": "lincoln-second-inaugural_s01_p01_s03",
+      "date": "1865-03-04",
+      "period": "providence-and-reconciliation",
+      "audience": "Second inaugural audience, wartime public, Union and returning Confederate publics",
+      "occasion": "Second presidential inauguration near the end of the Civil War",
+      "genre": "inaugural address",
+      "rhetorical_action": "Reframes the war as providential judgment on slavery and redirects victory toward reconciliation.",
+      "emotional_posture": "humility, judgment, reconciliation",
       "agency_structure": {
         "agents": [
-          "honored dead",
-          "living citizens",
+          "God",
+          "both parties",
           "we"
         ],
         "patients": [
-          "dead soldiers",
+          "bondsman",
           "nation",
-          "government of the people"
+          "war dead"
         ],
         "beneficiaries": [
-          "nation",
-          "freedom",
-          "democratic government"
+          "reunited nation",
+          "emancipation as moral horizon"
         ],
         "passive_or_absent": [
-          "Confederate agency",
-          "enslaved people's own agency",
-          "civilian suffering"
+          "Black political agency",
+          "specific enslavers",
+          "military perpetrators"
         ],
-        "displacement_mechanism": "Deaths are generalized as national offering and obligation; specific agents and material bodies recede behind public dedication."
+        "displacement_mechanism": "Human agency is partially displaced into providential judgment and shared national guilt."
+      },
+      "rhetorical_salience": "medium",
+      "rhetorical_functions": [
+        "glorification"
+      ],
+      "evidence_span": "Now, at the expiration of four years, during which public declarations have been constantly called forth on every point and phase of the great contest which still absorbs the attention and engrosses the energies of the nation, little that is new could be presented.",
+      "claim_boundary": "Genre-sensitive interpretation; do not aggregate as frequency without document/register context."
+    },
+    {
+      "mapping_id": "lincoln-cmt-057",
+      "document_id": "lincoln-second-inaugural",
+      "sentence_id": "lincoln-second-inaugural_s01_p02_s03",
+      "date": "1865-03-04",
+      "period": "providence-and-reconciliation",
+      "audience": "Second inaugural audience, wartime public, Union and returning Confederate publics",
+      "occasion": "Second presidential inauguration near the end of the Civil War",
+      "genre": "inaugural address",
+      "rhetorical_action": "Reframes the war as providential judgment on slavery and redirects victory toward reconciliation.",
+      "emotional_posture": "humility, judgment, reconciliation",
+      "agency_structure": {
+        "agents": [
+          "God",
+          "both parties",
+          "we"
+        ],
+        "patients": [
+          "bondsman",
+          "nation",
+          "war dead"
+        ],
+        "beneficiaries": [
+          "reunited nation",
+          "emancipation as moral horizon"
+        ],
+        "passive_or_absent": [
+          "Black political agency",
+          "specific enslavers",
+          "military perpetrators"
+        ],
+        "displacement_mechanism": "Human agency is partially displaced into providential judgment and shared national guilt."
       },
       "rhetorical_salience": "high",
       "rhetorical_functions": [
-        "exhortation",
+        "argument"
+      ],
+      "evidence_span": "While the inaugural address was being delivered from this place, devoted altogether to saving the Union without war, insurgent agents were in the city seeking to destroy it without war-- seeking to dissolve the Union, and divide effects, by negotiation.",
+      "claim_boundary": "Genre-sensitive interpretation; do not aggregate as frequency without document/register context."
+    },
+    {
+      "mapping_id": "lincoln-cmt-058",
+      "document_id": "lincoln-second-inaugural",
+      "sentence_id": "lincoln-second-inaugural_s01_p02_s04",
+      "date": "1865-03-04",
+      "period": "providence-and-reconciliation",
+      "audience": "Second inaugural audience, wartime public, Union and returning Confederate publics",
+      "occasion": "Second presidential inauguration near the end of the Civil War",
+      "genre": "inaugural address",
+      "rhetorical_action": "Reframes the war as providential judgment on slavery and redirects victory toward reconciliation.",
+      "emotional_posture": "humility, judgment, reconciliation",
+      "agency_structure": {
+        "agents": [
+          "God",
+          "both parties",
+          "we"
+        ],
+        "patients": [
+          "bondsman",
+          "nation",
+          "war dead"
+        ],
+        "beneficiaries": [
+          "reunited nation",
+          "emancipation as moral horizon"
+        ],
+        "passive_or_absent": [
+          "Black political agency",
+          "specific enslavers",
+          "military perpetrators"
+        ],
+        "displacement_mechanism": "Human agency is partially displaced into providential judgment and shared national guilt."
+      },
+      "rhetorical_salience": "high",
+      "rhetorical_functions": [
         "national_self_definition"
       ],
-      "evidence_span": "this nation, under God, shall have a new birth of freedom",
+      "evidence_span": "Both parties deprecated war; but one of them would make war rather than let the nation survive; and the other would accept war rather than let it perish.",
       "claim_boundary": "Genre-sensitive interpretation; do not aggregate as frequency without document/register context."
     },
     {
-      "mapping_id": "lincoln-cmt-006",
-      "document_id": "lincoln-gettysburg-address",
-      "sentence_id": "lincoln-gettysburg-address_s01_p05_s02",
-      "date": "1863-11-19",
-      "period": "emancipation-and-sacrifice",
-      "audience": "Cemetery dedication audience, Union public, mourners, soldiers, and national readers",
-      "occasion": "Dedication of the national cemetery after the Battle of Gettysburg",
-      "genre": "ceremonial address",
-      "rhetorical_action": "Transforms battlefield death into renewed obligation to preserve democratic government and freedom.",
-      "emotional_posture": "mourning, consecration, exhortation",
+      "mapping_id": "lincoln-cmt-059",
+      "document_id": "lincoln-second-inaugural",
+      "sentence_id": "lincoln-second-inaugural_s01_p03_s04",
+      "date": "1865-03-04",
+      "period": "providence-and-reconciliation",
+      "audience": "Second inaugural audience, wartime public, Union and returning Confederate publics",
+      "occasion": "Second presidential inauguration near the end of the Civil War",
+      "genre": "inaugural address",
+      "rhetorical_action": "Reframes the war as providential judgment on slavery and redirects victory toward reconciliation.",
+      "emotional_posture": "humility, judgment, reconciliation",
       "agency_structure": {
         "agents": [
-          "honored dead",
-          "living citizens",
+          "God",
+          "both parties",
           "we"
         ],
         "patients": [
-          "dead soldiers",
+          "bondsman",
           "nation",
-          "government of the people"
+          "war dead"
         ],
         "beneficiaries": [
-          "nation",
-          "freedom",
-          "democratic government"
+          "reunited nation",
+          "emancipation as moral horizon"
         ],
         "passive_or_absent": [
-          "Confederate agency",
-          "enslaved people's own agency",
-          "civilian suffering"
+          "Black political agency",
+          "specific enslavers",
+          "military perpetrators"
         ],
-        "displacement_mechanism": "Deaths are generalized as national offering and obligation; specific agents and material bodies recede behind public dedication."
+        "displacement_mechanism": "Human agency is partially displaced into providential judgment and shared national guilt."
       },
       "rhetorical_salience": "high",
       "rhetorical_functions": [
-        "exhortation",
+        "argument"
+      ],
+      "evidence_span": "To strengthen, perpetuate, and extend this interest was the object for which the insurgents would rend the Union, even by war; while the government claimed no right to do more than to restrict the territorial enlargement of it.",
+      "claim_boundary": "Genre-sensitive interpretation; do not aggregate as frequency without document/register context."
+    },
+    {
+      "mapping_id": "lincoln-cmt-060",
+      "document_id": "lincoln-second-inaugural",
+      "sentence_id": "lincoln-second-inaugural_s01_p04_s05",
+      "date": "1865-03-04",
+      "period": "providence-and-reconciliation",
+      "audience": "Second inaugural audience, wartime public, Union and returning Confederate publics",
+      "occasion": "Second presidential inauguration near the end of the Civil War",
+      "genre": "inaugural address",
+      "rhetorical_action": "Reframes the war as providential judgment on slavery and redirects victory toward reconciliation.",
+      "emotional_posture": "humility, judgment, reconciliation",
+      "agency_structure": {
+        "agents": [
+          "God",
+          "both parties",
+          "we"
+        ],
+        "patients": [
+          "bondsman",
+          "nation",
+          "war dead"
+        ],
+        "beneficiaries": [
+          "reunited nation",
+          "emancipation as moral horizon"
+        ],
+        "passive_or_absent": [
+          "Black political agency",
+          "specific enslavers",
+          "military perpetrators"
+        ],
+        "displacement_mechanism": "Human agency is partially displaced into providential judgment and shared national guilt."
+      },
+      "rhetorical_salience": "high",
+      "rhetorical_functions": [
+        "argument"
+      ],
+      "evidence_span": "It may seem strange that any men should dare to ask a just God's assistance in wringing their bread from the sweat of other men's faces; but let us judge not, that we be not judged.",
+      "claim_boundary": "Genre-sensitive interpretation; do not aggregate as frequency without document/register context."
+    },
+    {
+      "mapping_id": "lincoln-cmt-061",
+      "document_id": "lincoln-second-inaugural",
+      "sentence_id": "lincoln-second-inaugural_s01_p05_s02",
+      "date": "1865-03-04",
+      "period": "providence-and-reconciliation",
+      "audience": "Second inaugural audience, wartime public, Union and returning Confederate publics",
+      "occasion": "Second presidential inauguration near the end of the Civil War",
+      "genre": "inaugural address",
+      "rhetorical_action": "Reframes the war as providential judgment on slavery and redirects victory toward reconciliation.",
+      "emotional_posture": "humility, judgment, reconciliation",
+      "agency_structure": {
+        "agents": [
+          "God",
+          "both parties",
+          "we"
+        ],
+        "patients": [
+          "bondsman",
+          "nation",
+          "war dead"
+        ],
+        "beneficiaries": [
+          "reunited nation",
+          "emancipation as moral horizon"
+        ],
+        "passive_or_absent": [
+          "Black political agency",
+          "specific enslavers",
+          "military perpetrators"
+        ],
+        "displacement_mechanism": "Human agency is partially displaced into providential judgment and shared national guilt."
+      },
+      "rhetorical_salience": "medium",
+      "rhetorical_functions": [
+        "sacralization"
+      ],
+      "evidence_span": "\"Woe unto the world because of offenses! for it must needs be that offenses come; but woe to that man by whom the offense cometh.\" If we shall suppose that American slavery is one of those offenses which, in the providence of God, must needs come, but which, having continued through his appointed time, he now wills to remove, and that he gives to both North and South this terrible war, as the woe due to those by whom the offense came, shall we discern therein any departure from those divine attributes which the believers in a living God always ascribe to him?",
+      "claim_boundary": "Genre-sensitive interpretation; do not aggregate as frequency without document/register context."
+    },
+    {
+      "mapping_id": "lincoln-cmt-062",
+      "document_id": "lincoln-second-inaugural",
+      "sentence_id": "lincoln-second-inaugural_s01_p05_s03",
+      "date": "1865-03-04",
+      "period": "providence-and-reconciliation",
+      "audience": "Second inaugural audience, wartime public, Union and returning Confederate publics",
+      "occasion": "Second presidential inauguration near the end of the Civil War",
+      "genre": "inaugural address",
+      "rhetorical_action": "Reframes the war as providential judgment on slavery and redirects victory toward reconciliation.",
+      "emotional_posture": "humility, judgment, reconciliation",
+      "agency_structure": {
+        "agents": [
+          "God",
+          "both parties",
+          "we"
+        ],
+        "patients": [
+          "bondsman",
+          "nation",
+          "war dead"
+        ],
+        "beneficiaries": [
+          "reunited nation",
+          "emancipation as moral horizon"
+        ],
+        "passive_or_absent": [
+          "Black political agency",
+          "specific enslavers",
+          "military perpetrators"
+        ],
+        "displacement_mechanism": "Human agency is partially displaced into providential judgment and shared national guilt."
+      },
+      "rhetorical_salience": "high",
+      "rhetorical_functions": [
+        "argument"
+      ],
+      "evidence_span": "Fondly do we hope--fervently do we pray--that this mighty scourge of war may speedily pass away.",
+      "claim_boundary": "Genre-sensitive interpretation; do not aggregate as frequency without document/register context."
+    },
+    {
+      "mapping_id": "lincoln-cmt-063",
+      "document_id": "lincoln-second-inaugural",
+      "sentence_id": "lincoln-second-inaugural_s01_p05_s04",
+      "date": "1865-03-04",
+      "period": "providence-and-reconciliation",
+      "audience": "Second inaugural audience, wartime public, Union and returning Confederate publics",
+      "occasion": "Second presidential inauguration near the end of the Civil War",
+      "genre": "inaugural address",
+      "rhetorical_action": "Reframes the war as providential judgment on slavery and redirects victory toward reconciliation.",
+      "emotional_posture": "humility, judgment, reconciliation",
+      "agency_structure": {
+        "agents": [
+          "God",
+          "both parties",
+          "we"
+        ],
+        "patients": [
+          "bondsman",
+          "nation",
+          "war dead"
+        ],
+        "beneficiaries": [
+          "reunited nation",
+          "emancipation as moral horizon"
+        ],
+        "passive_or_absent": [
+          "Black political agency",
+          "specific enslavers",
+          "military perpetrators"
+        ],
+        "displacement_mechanism": "Human agency is partially displaced into providential judgment and shared national guilt."
+      },
+      "rhetorical_salience": "medium",
+      "rhetorical_functions": [
+        "argument"
+      ],
+      "evidence_span": "Yet, if God wills that it continue until all the wealth piled by the bondsman's two hundred and fifty years of unrequited toil shall be sunk, and until every drop of blood drawn by the lash shall be paid by another drawn with the sword, as was said three thousand years ago, so still it must be said, \"The judgments of the Lord are true and righteous altogether.\"",
+      "claim_boundary": "Genre-sensitive interpretation; do not aggregate as frequency without document/register context."
+    },
+    {
+      "mapping_id": "lincoln-cmt-064",
+      "document_id": "lincoln-second-inaugural",
+      "sentence_id": "lincoln-second-inaugural_s01_p06_s01",
+      "date": "1865-03-04",
+      "period": "providence-and-reconciliation",
+      "audience": "Second inaugural audience, wartime public, Union and returning Confederate publics",
+      "occasion": "Second presidential inauguration near the end of the Civil War",
+      "genre": "inaugural address",
+      "rhetorical_action": "Reframes the war as providential judgment on slavery and redirects victory toward reconciliation.",
+      "emotional_posture": "humility, judgment, reconciliation",
+      "agency_structure": {
+        "agents": [
+          "God",
+          "both parties",
+          "we"
+        ],
+        "patients": [
+          "bondsman",
+          "nation",
+          "war dead"
+        ],
+        "beneficiaries": [
+          "reunited nation",
+          "emancipation as moral horizon"
+        ],
+        "passive_or_absent": [
+          "Black political agency",
+          "specific enslavers",
+          "military perpetrators"
+        ],
+        "displacement_mechanism": "Human agency is partially displaced into providential judgment and shared national guilt."
+      },
+      "rhetorical_salience": "high",
+      "rhetorical_functions": [
         "national_self_definition"
       ],
-      "evidence_span": "government of the people...by the people...for the people...shall not perish from this earth",
-      "claim_boundary": "Genre-sensitive interpretation; do not aggregate as frequency without document/register context."
-    },
-    {
-      "mapping_id": "lincoln-cmt-007",
-      "document_id": "lincoln-second-inaugural",
-      "sentence_id": "lincoln-second-inaugural_s01_p05_s04",
-      "date": "1865-03-04",
-      "period": "providence-and-reconciliation",
-      "audience": "Second inaugural audience, wartime public, Union and returning Confederate publics",
-      "occasion": "Second presidential inauguration near the end of the Civil War",
-      "genre": "inaugural address",
-      "rhetorical_action": "Reframes the war as providential judgment on slavery and redirects victory toward reconciliation.",
-      "emotional_posture": "humility, judgment, reconciliation",
-      "agency_structure": {
-        "agents": [
-          "God",
-          "both parties",
-          "we"
-        ],
-        "patients": [
-          "bondsman",
-          "nation",
-          "war dead"
-        ],
-        "beneficiaries": [
-          "reunited nation",
-          "emancipation as moral horizon"
-        ],
-        "passive_or_absent": [
-          "Black political agency",
-          "specific enslavers",
-          "military perpetrators"
-        ],
-        "displacement_mechanism": "Human agency is partially displaced into providential judgment and shared national guilt."
-      },
-      "rhetorical_salience": "high",
-      "rhetorical_functions": [
-        "accusation",
-        "prophecy"
-      ],
-      "evidence_span": "until all the wealth piled by the bondsman's two hundred and fifty years of unrequited toil shall be sunk",
-      "claim_boundary": "Genre-sensitive interpretation; do not aggregate as frequency without document/register context."
-    },
-    {
-      "mapping_id": "lincoln-cmt-008",
-      "document_id": "lincoln-second-inaugural",
-      "sentence_id": "lincoln-second-inaugural_s01_p05_s04",
-      "date": "1865-03-04",
-      "period": "providence-and-reconciliation",
-      "audience": "Second inaugural audience, wartime public, Union and returning Confederate publics",
-      "occasion": "Second presidential inauguration near the end of the Civil War",
-      "genre": "inaugural address",
-      "rhetorical_action": "Reframes the war as providential judgment on slavery and redirects victory toward reconciliation.",
-      "emotional_posture": "humility, judgment, reconciliation",
-      "agency_structure": {
-        "agents": [
-          "God",
-          "both parties",
-          "we"
-        ],
-        "patients": [
-          "bondsman",
-          "nation",
-          "war dead"
-        ],
-        "beneficiaries": [
-          "reunited nation",
-          "emancipation as moral horizon"
-        ],
-        "passive_or_absent": [
-          "Black political agency",
-          "specific enslavers",
-          "military perpetrators"
-        ],
-        "displacement_mechanism": "Human agency is partially displaced into providential judgment and shared national guilt."
-      },
-      "rhetorical_salience": "high",
-      "rhetorical_functions": [
-        "accusation",
-        "prophecy"
-      ],
-      "evidence_span": "until every drop of blood drawn by the lash shall be paid by another drawn with the sword",
-      "claim_boundary": "Genre-sensitive interpretation; do not aggregate as frequency without document/register context."
-    },
-    {
-      "mapping_id": "lincoln-cmt-009",
-      "document_id": "lincoln-second-inaugural",
-      "sentence_id": "lincoln-second-inaugural_s01_p05_s04",
-      "date": "1865-03-04",
-      "period": "providence-and-reconciliation",
-      "audience": "Second inaugural audience, wartime public, Union and returning Confederate publics",
-      "occasion": "Second presidential inauguration near the end of the Civil War",
-      "genre": "inaugural address",
-      "rhetorical_action": "Reframes the war as providential judgment on slavery and redirects victory toward reconciliation.",
-      "emotional_posture": "humility, judgment, reconciliation",
-      "agency_structure": {
-        "agents": [
-          "God",
-          "both parties",
-          "we"
-        ],
-        "patients": [
-          "bondsman",
-          "nation",
-          "war dead"
-        ],
-        "beneficiaries": [
-          "reunited nation",
-          "emancipation as moral horizon"
-        ],
-        "passive_or_absent": [
-          "Black political agency",
-          "specific enslavers",
-          "military perpetrators"
-        ],
-        "displacement_mechanism": "Human agency is partially displaced into providential judgment and shared national guilt."
-      },
-      "rhetorical_salience": "high",
-      "rhetorical_functions": [
-        "prophecy",
-        "reconciliation"
-      ],
-      "evidence_span": "The judgments of the Lord are true and righteous altogether.",
+      "evidence_span": "With malice toward none; with charity for all; with firmness in the right, as God gives us to see the right, let us strive on to finish the work we are in; to bind up the nation's wounds; to care for him who shall have borne the battle, and for his widow, and his orphan--to do all which may achieve and cherish a just and lasting peace among ourselves, and with all nations.",
       "claim_boundary": "Genre-sensitive interpretation; do not aggregate as frequency without document/register context."
     }
   ]

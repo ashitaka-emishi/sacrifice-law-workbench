@@ -1,0 +1,28 @@
+average_confidence,document_count,high_salience_count,mapping_count,mapping_ids,metric,value
+0.758,5,0,7,napoleon-cmt-005;napoleon-cmt-009;napoleon-cmt-010;napoleon-cmt-013;napoleon-cmt-014;napoleon-cmt-016;napoleon-cmt-018,source_domain_primary,body
+0.826,3,5,5,napoleon-cmt-001;napoleon-cmt-002;napoleon-cmt-004;napoleon-cmt-011;napoleon-cmt-012,source_domain_primary,sacrifice
+0.86,2,3,3,napoleon-cmt-008;napoleon-cmt-015;napoleon-cmt-017,source_domain_primary,light_darkness
+0.55,2,0,3,napoleon-cmt-003;napoleon-cmt-006;napoleon-cmt-007,source_domain_primary,object_material
+0.7,1,0,1,napoleon-cmt-019,source_domain_primary,journey_motion
+0.803,4,3,7,napoleon-cmt-005;napoleon-cmt-008;napoleon-cmt-010;napoleon-cmt-014;napoleon-cmt-015;napoleon-cmt-016;napoleon-cmt-017,target_domain,military_virtue
+0.768,5,3,6,napoleon-cmt-004;napoleon-cmt-011;napoleon-cmt-012;napoleon-cmt-013;napoleon-cmt-018;napoleon-cmt-019,target_domain,war_death
+0.55,2,0,3,napoleon-cmt-003;napoleon-cmt-006;napoleon-cmt-007,target_domain,history
+0.803,2,1,2,napoleon-cmt-001;napoleon-cmt-009,target_domain,army
+0.88,1,1,1,napoleon-cmt-002,target_domain,nation
+0.76,4,0,4,napoleon-cmt-005;napoleon-cmt-010;napoleon-cmt-014;napoleon-cmt-016,conceptual_metaphor,MILITARY VIRTUE IS BODY
+0.55,2,0,3,napoleon-cmt-003;napoleon-cmt-006;napoleon-cmt-007,conceptual_metaphor,HISTORY IS OBJECT MATERIAL
+0.86,2,3,3,napoleon-cmt-008;napoleon-cmt-015;napoleon-cmt-017,conceptual_metaphor,MILITARY VIRTUE IS LIGHT DARKNESS
+0.81,2,3,3,napoleon-cmt-004;napoleon-cmt-011;napoleon-cmt-012,conceptual_metaphor,WAR DEATH IS SACRIFICE
+0.74,2,0,2,napoleon-cmt-013;napoleon-cmt-018,conceptual_metaphor,WAR DEATH IS BODY
+0.787,1,0,1,napoleon-cmt-009,conceptual_metaphor,ARMY IS BODY
+0.82,1,1,1,napoleon-cmt-001,conceptual_metaphor,ARMY IS SACRIFICE
+0.88,1,1,1,napoleon-cmt-002,conceptual_metaphor,NATION IS SACRIFICE
+0.7,1,0,1,napoleon-cmt-019,conceptual_metaphor,WAR DEATH IS JOURNEY MOTION
+0.766,6,1,8,napoleon-cmt-001;napoleon-cmt-005;napoleon-cmt-009;napoleon-cmt-010;napoleon-cmt-013;napoleon-cmt-014;napoleon-cmt-016;napoleon-cmt-018,cluster_id,napoleon-02-army-body
+0.705,4,3,6,napoleon-cmt-003;napoleon-cmt-006;napoleon-cmt-007;napoleon-cmt-008;napoleon-cmt-015;napoleon-cmt-017,cluster_id,napoleon-01-glory-destiny
+0.81,2,3,3,napoleon-cmt-004;napoleon-cmt-011;napoleon-cmt-012,cluster_id,napoleon-05-soldier-sacrifice
+0.88,1,1,1,napoleon-cmt-002,cluster_id,napoleon-03-emperor-embodiment
+0.7,1,0,1,napoleon-cmt-019,cluster_id,napoleon-06-enemy-obstacle
+0.696,8,0,11,napoleon-cmt-003;napoleon-cmt-005;napoleon-cmt-006;napoleon-cmt-007;napoleon-cmt-009;napoleon-cmt-010;napoleon-cmt-013;napoleon-cmt-014;napoleon-cmt-016;napoleon-cmt-018;napoleon-cmt-019,rhetorical_salience,medium
+0.839,4,8,8,napoleon-cmt-001;napoleon-cmt-002;napoleon-cmt-004;napoleon-cmt-008;napoleon-cmt-011;napoleon-cmt-012;napoleon-cmt-015;napoleon-cmt-017,rhetorical_salience,high
+0.756,9,8,19,napoleon-cmt-001;napoleon-cmt-002;napoleon-cmt-003;napoleon-cmt-004;napoleon-cmt-005;napoleon-cmt-006;napoleon-cmt-007;napoleon-cmt-008;napoleon-cmt-009;napoleon-cmt-010;napoleon-cmt-011;napoleon-cmt-012;napoleon-cmt-013;napoleon-cmt-014;napoleon-cmt-015;napoleon-cmt-016;napoleon-cmt-017;napoleon-cmt-018;napoleon-cmt-019,register,military-bulletin-proclamation

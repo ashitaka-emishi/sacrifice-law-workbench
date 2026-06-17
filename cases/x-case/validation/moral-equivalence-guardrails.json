@@ -1,7 +1,7 @@
 {
   "version": "1.0",
   "case_id": "x-case",
-  "generated_at": "2026-06-17T01:08:26",
+  "generated_at": "2026-06-17T06:50:10",
   "status": "draft",
   "guardrails": [
     "Structural comparison is not moral equivalence.",

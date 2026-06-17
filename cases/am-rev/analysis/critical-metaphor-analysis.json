@@ -1,0 +1,415 @@
+{
+  "version": "1.0",
+  "case_id": "am-rev",
+  "generated_at": "2026-06-17T15:09:55",
+  "status": "draft",
+  "source": "corpus/cmt/cmt-mappings.json",
+  "cluster_profiles": [
+    {
+      "cluster_id": "am-rev-01-liberty-tyranny",
+      "mapping_ids": [
+        "amrev-cmt-001",
+        "amrev-cmt-005",
+        "amrev-cmt-010",
+        "amrev-cmt-012",
+        "amrev-cmt-017",
+        "amrev-cmt-018",
+        "amrev-cmt-025",
+        "amrev-cmt-026",
+        "amrev-cmt-029",
+        "amrev-cmt-031",
+        "amrev-cmt-043",
+        "amrev-cmt-060"
+      ],
+      "source_domains": [
+        "body",
+        "slavery_bondage",
+        "war_combat"
+      ],
+      "target_domains": [
+        "enemy",
+        "freedom",
+        "social_body"
+      ],
+      "major_expressions": [
+        "Disease / misfortune / death / perish / die",
+        "Fire / Sword / Face / Earth / Nature",
+        "chain",
+        "death / desolation / tyranny / Head",
+        "enslaved",
+        "eyes / dazzled / ears / deceived / warp / darken / voice / nature / reason",
+        "fire / sword",
+        "nature / fire / sword",
+        "slavery",
+        "slaves",
+        "slavish"
+      ],
+      "corpus_distribution": {
+        "mapping_count": 12,
+        "documents": [
+          "am-rev-jefferson-declaration",
+          "am-rev-paine-common-sense"
+        ],
+        "periods": [],
+        "rhetorical_salience": [
+          "high",
+          "medium"
+        ]
+      },
+      "rhetorical_contexts": [
+        "argument",
+        "glorification"
+      ],
+      "persuasive_function": "Frames the political choice as an absolute moral binary between freedom and bondage, foreclosing accommodation.",
+      "moral_emotions_activated": [
+        "outrage",
+        "fear of enslavement",
+        "hatred of tyranny"
+      ],
+      "political_actions_authorized": [
+        "revolution",
+        "separation from Britain",
+        "armed resistance"
+      ],
+      "rival_readings": [
+        "Abstract faculties are treated as embodied perceivers or speakers.",
+        "Military and political actions are represented through bodily death-work and national embodiment.",
+        "Paine applies coercive bodily restraint vocabulary to constitutional and imperial dependence.",
+        "Paine uses physical mortality to explain the social necessity of cooperation.",
+        "The war is literal, but the phrase condenses political destruction into conventional elemental and bodily imagery."
+      ],
+      "negative_cases": [
+        "The liberty/tyranny binary suppresses moderate constitutional arguments; not all colonial writers used this frame with equal intensity."
+      ],
+      "relation_to_koenigsbergian_analysis": "Sets up the enemy-as-bringer-of-death dimension: the tyrannical enemy threatens the sacred object (liberty) and must be resisted or expelled.",
+      "evidence_status": "provisional-cmt-backed"
+    },
+    {
+      "cluster_id": "am-rev-02-people-republic",
+      "mapping_ids": [
+        "amrev-cmt-002",
+        "amrev-cmt-003",
+        "amrev-cmt-004",
+        "amrev-cmt-006",
+        "amrev-cmt-011",
+        "amrev-cmt-014",
+        "amrev-cmt-015",
+        "amrev-cmt-019",
+        "amrev-cmt-020",
+        "amrev-cmt-022",
+        "amrev-cmt-023",
+        "amrev-cmt-040",
+        "amrev-cmt-041",
+        "amrev-cmt-042",
+        "amrev-cmt-045",
+        "amrev-cmt-046",
+        "amrev-cmt-047",
+        "amrev-cmt-048",
+        "amrev-cmt-049",
+        "amrev-cmt-050",
+        "amrev-cmt-051",
+        "amrev-cmt-052",
+        "amrev-cmt-053",
+        "amrev-cmt-056",
+        "amrev-cmt-057",
+        "amrev-cmt-058"
+      ],
+      "source_domains": [
+        "birth_generation",
+        "body",
+        "sacrifice"
+      ],
+      "target_domains": [
+        "freedom",
+        "independence"
+      ],
+      "major_expressions": [
+        "Annihilation / exposed",
+        "birth / production / brought / forth",
+        "birthday / world",
+        "blood",
+        "blood / slain / voice / nature",
+        "infant",
+        "injuries",
+        "invasions",
+        "offering",
+        "offering / sacrifices",
+        "parent",
+        "parent / mother",
+        "sacrificed",
+        "sacrifices",
+        "world",
+        "wound",
+        "wounds"
+      ],
+      "corpus_distribution": {
+        "mapping_count": 26,
+        "documents": [
+          "am-rev-jefferson-declaration",
+          "am-rev-paine-common-sense"
+        ],
+        "periods": [],
+        "rhetorical_salience": [
+          "high",
+          "medium"
+        ]
+      },
+      "rhetorical_contexts": [
+        "argument",
+        "commemoration"
+      ],
+      "persuasive_function": "Constitutes a sovereign people and a republic as natural political entities that precede and authorize the revolutionary act.",
+      "moral_emotions_activated": [
+        "civic pride",
+        "republican virtue",
+        "collective obligation"
+      ],
+      "political_actions_authorized": [
+        "self-government",
+        "constitution-making",
+        "resistance to tyranny"
+      ],
+      "rival_readings": [
+        "Legal-political entities do not literally suffer bodily injury or exposure.",
+        "Political colonies, pamphlets, and founding moments are not literal parents, infants, worlds, or births.",
+        "Some war deaths are literal, but Paine's rhetoric gives them sacrificial political meaning."
+      ],
+      "negative_cases": [
+        "'The people' in this corpus is structurally exclusive; the claim to universal sovereignty coexists with enslaved, Indigenous, and propertyless exclusion."
+      ],
+      "relation_to_koenigsbergian_analysis": "The people as sacred political object is the object that sacrifice preserves; it requires the enemy-as-threat framing to motivate action.",
+      "evidence_status": "provisional-cmt-backed"
+    },
+    {
+      "cluster_id": "am-rev-03-founding-sacrifice",
+      "mapping_ids": [
+        "amrev-cmt-059",
+        "amrev-cmt-061"
+      ],
+      "source_domains": [
+        "religion_providence"
+      ],
+      "target_domains": [
+        "sacrifice"
+      ],
+      "major_expressions": [
+        "divine / Providence / pledge / Lives / Fortunes / sacred / Honor",
+        "lives"
+      ],
+      "corpus_distribution": {
+        "mapping_count": 2,
+        "documents": [
+          "am-rev-jefferson-declaration"
+        ],
+        "periods": [],
+        "rhetorical_salience": [
+          "high",
+          "medium"
+        ]
+      },
+      "rhetorical_contexts": [
+        "sacralization"
+      ],
+      "persuasive_function": "Transforms the costs of revolution into sacred offerings that obligate posterity and legitimate the founding.",
+      "moral_emotions_activated": [
+        "debt",
+        "obligation",
+        "reverence for sacrifice",
+        "shame at ingratitude"
+      ],
+      "political_actions_authorized": [
+        "continued commitment to the republic",
+        "civic honor for veterans",
+        "preservation of the founding order"
+      ],
+      "rival_readings": [
+        "The pledge is a real political act, but the closing formula gives it sacred and sacrificial force."
+      ],
+      "negative_cases": [
+        "Founding sacrifice language is concentrated in Washington's valedictory orders; the Declaration and Common Sense use it less directly."
+      ],
+      "relation_to_koenigsbergian_analysis": "Directly activates the sacrificial-body dimension: the revolutionary dead create the sacred debt that sustains the republic.",
+      "evidence_status": "provisional-cmt-backed"
+    },
+    {
+      "cluster_id": "am-rev-04-providence-covenant",
+      "mapping_ids": [
+        "amrev-cmt-035",
+        "amrev-cmt-036",
+        "amrev-cmt-037"
+      ],
+      "source_domains": [
+        "religion_providence"
+      ],
+      "target_domains": [
+        "government"
+      ],
+      "major_expressions": [
+        "heaven",
+        "idolatrous / homage / heaven",
+        "sacred / majesty / worm / crumbling / dust"
+      ],
+      "corpus_distribution": {
+        "mapping_count": 3,
+        "documents": [
+          "am-rev-paine-common-sense"
+        ],
+        "periods": [],
+        "rhetorical_salience": [
+          "high"
+        ]
+      },
+      "rhetorical_contexts": [
+        "sacralization"
+      ],
+      "persuasive_function": "Sacralizes the revolutionary cause by placing it under divine sanction and framing it as a covenant with providential history.",
+      "moral_emotions_activated": [
+        "awe",
+        "duty",
+        "gratitude for divine favor",
+        "fear of moral failure"
+      ],
+      "political_actions_authorized": [
+        "trust in providential outcome",
+        "moral seriousness in combat",
+        "gratitude as civic obligation"
+      ],
+      "rival_readings": [
+        "Royal authority is political, but Paine frames it through religious transgression and bodily mortality."
+      ],
+      "negative_cases": [
+        "Providence language in Washington's orders is formulaic and military; it should not be treated as evidence of deep theological conviction without further corroboration."
+      ],
+      "relation_to_koenigsbergian_analysis": "Supports the historical-sacral framing; the cause is not merely political but divinely backed, heightening the stakes of sacrifice.",
+      "evidence_status": "provisional-cmt-backed"
+    },
+    {
+      "cluster_id": "am-rev-05-virtue-corruption",
+      "mapping_ids": [
+        "amrev-cmt-027"
+      ],
+      "source_domains": [
+        "mechanics"
+      ],
+      "target_domains": [
+        "social_body"
+      ],
+      "major_expressions": [
+        "gravitating / power / form / impregnable / vice / form"
+      ],
+      "corpus_distribution": {
+        "mapping_count": 1,
+        "documents": [
+          "am-rev-paine-common-sense"
+        ],
+        "periods": [],
+        "rhetorical_salience": [
+          "high"
+        ]
+      },
+      "rhetorical_contexts": [
+        "argument"
+      ],
+      "persuasive_function": "Frames the revolution as a moral regeneration against the corruption that monarchy and luxury produce.",
+      "moral_emotions_activated": [
+        "disgust at corruption",
+        "admiration for virtue",
+        "civic shame"
+      ],
+      "political_actions_authorized": [
+        "republican simplicity",
+        "rejection of aristocratic excess",
+        "civic vigilance"
+      ],
+      "rival_readings": [
+        "Social formation and moral purity are abstract but are explained through physical force and fortification."
+      ],
+      "negative_cases": [
+        "Virtue/corruption discourse is most prominent in Common Sense and less developed in the military orders or Declaration."
+      ],
+      "relation_to_koenigsbergian_analysis": "Supports the enemy-as-contamination framing; corruption is a moral and civic disease spread by the monarchical enemy.",
+      "evidence_status": "provisional-cmt-backed"
+    },
+    {
+      "cluster_id": "am-rev-06-union-founding-memory",
+      "mapping_ids": [
+        "amrev-cmt-007",
+        "amrev-cmt-008",
+        "amrev-cmt-009",
+        "amrev-cmt-013",
+        "amrev-cmt-016",
+        "amrev-cmt-021",
+        "amrev-cmt-024",
+        "amrev-cmt-028",
+        "amrev-cmt-030",
+        "amrev-cmt-032",
+        "amrev-cmt-033",
+        "amrev-cmt-034",
+        "amrev-cmt-038",
+        "amrev-cmt-039",
+        "amrev-cmt-044",
+        "amrev-cmt-054",
+        "amrev-cmt-055"
+      ],
+      "source_domains": [
+        "agriculture",
+        "body",
+        "object_material"
+      ],
+      "target_domains": [
+        "government",
+        "political_order",
+        "union"
+      ],
+      "major_expressions": [
+        "body",
+        "body / body",
+        "disordered / repaired / disordered",
+        "dissolve / bands / connected",
+        "harvest",
+        "head / springs / remedy",
+        "materials",
+        "repaired",
+        "seed",
+        "train / reduce / under / throw / Guards"
+      ],
+      "corpus_distribution": {
+        "mapping_count": 17,
+        "documents": [
+          "am-rev-jefferson-declaration",
+          "am-rev-paine-common-sense"
+        ],
+        "periods": [],
+        "rhetorical_salience": [
+          "high",
+          "medium"
+        ]
+      },
+      "rhetorical_contexts": [
+        "argument"
+      ],
+      "persuasive_function": "Creates an obligation to preserve the founding order by framing it as a sacred legacy held in trust for posterity.",
+      "moral_emotions_activated": [
+        "custodial duty",
+        "pride in achievement",
+        "fear of betraying the founders"
+      ],
+      "political_actions_authorized": [
+        "preservation of the union",
+        "civic memory",
+        "resistance to dissolution"
+      ],
+      "rival_readings": [
+        "Political collectives and constitutions are abstract institutions, not literal bodies or machines.",
+        "Political development is abstract but is construed as organic growth.",
+        "Political oppression and institutional remedies are abstract but are framed through physical subjection and protection.",
+        "The relation among peoples and states is political, not a literal band or substance."
+      ],
+      "negative_cases": [
+        "Union/founding-memory framing is concentrated in Washington's 1783 orders; it is prospective and valedictory, not a description of the war's motivations."
+      ],
+      "relation_to_koenigsbergian_analysis": "Sustains the sacred-object dimension over time; the union becomes the object that must be preserved across generations.",
+      "evidence_status": "provisional-cmt-backed"
+    }
+  ]
+}

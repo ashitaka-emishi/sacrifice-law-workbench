@@ -1,7 +1,7 @@
 {
   "version": "1.0",
   "case_id": "napoleon",
-  "generated_at": "2026-06-17T01:08:26",
+  "generated_at": "2026-06-17T06:50:10",
   "status": "complete",
   "mipvu_profile": {
     "mipvu_files": 10,
@@ -890,7 +890,7 @@
       "stage": "build-concordance",
       "script": "scripts/build-concordance.py",
       "annotated_files": 9,
-      "generated_at": "2026-06-17T01:08:26"
+      "generated_at": "2026-06-17T06:50:10"
     }
   ]
 }

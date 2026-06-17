@@ -1,6 +1,6 @@
 # Historical Enactment Alignment: lincoln
 
-Generated: 2026-06-16T07:53:30
+Generated: 2026-06-17T01:24:46
 
 Status: draft contextual corroboration notes. Publication citations remain
 required before these notes support final claims.
