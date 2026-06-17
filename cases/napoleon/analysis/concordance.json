@@ -1,7 +1,7 @@
 {
   "version": "1.0",
   "case_id": "napoleon",
-  "generated_at": "2026-06-17T06:50:10",
+  "generated_at": "2026-06-17T17:38:40",
   "status": "complete",
   "mipvu_profile": {
     "mipvu_files": 10,
@@ -51,9 +51,8 @@
     "by_cluster": {
       "napoleon-02-army-body": 8,
       "napoleon-01-glory-destiny": 6,
-      "napoleon-05-soldier-sacrifice": 3,
-      "napoleon-03-emperor-embodiment": 1,
-      "napoleon-06-enemy-obstacle": 1
+      "napoleon-05-soldier-sacrifice": 4,
+      "napoleon-03-emperor-embodiment": 1
     },
     "by_source_domain": {
       "body": 7,
@@ -740,7 +739,7 @@
       ],
       "cmt": {
         "mapping_id": "napoleon-cmt-019",
-        "cluster_id": "napoleon-06-enemy-obstacle",
+        "cluster_id": "napoleon-05-soldier-sacrifice",
         "source_domain_primary": "journey_motion",
         "source_domain_secondary": [],
         "target_domain": "war_death",
@@ -793,11 +792,10 @@
       "napoleon-05-soldier-sacrifice": [
         "napoleon-ann-004",
         "napoleon-ann-011",
-        "napoleon-ann-012"
-      ],
-      "napoleon-06-enemy-obstacle": [
+        "napoleon-ann-012",
         "napoleon-ann-019"
-      ]
+      ],
+      "napoleon-06-enemy-obstacle": []
     },
     "by_document": {
       "napoleon-bulletin-1805-12-03-austerlitz": [
@@ -890,7 +888,7 @@
       "stage": "build-concordance",
       "script": "scripts/build-concordance.py",
       "annotated_files": 9,
-      "generated_at": "2026-06-17T06:50:10"
+      "generated_at": "2026-06-17T17:38:40"
     }
   ]
 }

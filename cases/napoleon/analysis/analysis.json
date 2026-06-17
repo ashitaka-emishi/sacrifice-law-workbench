@@ -1,7 +1,7 @@
 {
   "version": "1.0",
   "case_id": "napoleon",
-  "generated_at": "2026-06-17T06:50:10",
+  "generated_at": "2026-06-17T17:38:40",
   "status": "complete",
   "total_instances": 19,
   "mipvu_profile": {
@@ -52,9 +52,8 @@
     "by_cluster": {
       "napoleon-02-army-body": 8,
       "napoleon-01-glory-destiny": 6,
-      "napoleon-05-soldier-sacrifice": 3,
-      "napoleon-03-emperor-embodiment": 1,
-      "napoleon-06-enemy-obstacle": 1
+      "napoleon-05-soldier-sacrifice": 4,
+      "napoleon-03-emperor-embodiment": 1
     },
     "by_source_domain": {
       "body": 7,
@@ -282,30 +281,35 @@
       "cluster_id": "napoleon-05-soldier-sacrifice",
       "cluster_name": "Soldier sacrifice / honor / immortality",
       "status": "provisional",
-      "instance_count": 3,
+      "instance_count": 4,
       "instance_ids": [
         "napoleon-ann-004",
         "napoleon-ann-011",
-        "napoleon-ann-012"
+        "napoleon-ann-012",
+        "napoleon-ann-019"
       ],
-      "cmt_mapping_count": 3,
+      "cmt_mapping_count": 4,
       "cmt_mapping_ids": [
         "napoleon-cmt-004",
         "napoleon-cmt-011",
-        "napoleon-cmt-012"
+        "napoleon-cmt-012",
+        "napoleon-cmt-019"
       ],
       "cmt_source_domains": {
-        "sacrifice": 3
+        "sacrifice": 3,
+        "journey_motion": 1
       },
       "cmt_target_domains": {
-        "war_death": 3
+        "war_death": 4
       },
       "rhetorical_salience_distribution": {
-        "high": 3
+        "high": 3,
+        "medium": 1
       },
       "by_document": {
         "napoleon-bulletin-1807-02-08-eylau": 2,
-        "napoleon-bulletin-1806-10-15-jena": 1
+        "napoleon-bulletin-1806-10-15-jena": 1,
+        "napoleon-bulletin-1813-05-24-bautzen": 1
       },
       "by_register": {},
       "koenigsberg_profile": {
@@ -313,7 +317,7 @@
           "redemptive_sacrifice": 3
         },
         "violence_logic_distribution": {
-          "True": 3
+          "True": 4
         },
         "obligatory_frame_rate": 0.0,
         "sacrificial_economy_rate": 1.0,
@@ -327,34 +331,20 @@
       "cluster_id": "napoleon-06-enemy-obstacle",
       "cluster_name": "Enemy as obstacle to order/destiny",
       "status": "provisional",
-      "instance_count": 1,
-      "instance_ids": [
-        "napoleon-ann-019"
-      ],
-      "cmt_mapping_count": 1,
-      "cmt_mapping_ids": [
-        "napoleon-cmt-019"
-      ],
-      "cmt_source_domains": {
-        "journey_motion": 1
-      },
-      "cmt_target_domains": {
-        "war_death": 1
-      },
-      "rhetorical_salience_distribution": {
-        "medium": 1
-      },
-      "by_document": {
-        "napoleon-bulletin-1813-05-24-bautzen": 1
-      },
+      "instance_count": 0,
+      "instance_ids": [],
+      "cmt_mapping_count": 0,
+      "cmt_mapping_ids": [],
+      "cmt_source_domains": {},
+      "cmt_target_domains": {},
+      "rhetorical_salience_distribution": {},
+      "by_document": {},
       "by_register": {},
       "koenigsberg_profile": {
         "fantasy_type_distribution": {},
-        "violence_logic_distribution": {
-          "True": 1
-        },
-        "obligatory_frame_rate": 0.0,
-        "sacrificial_economy_rate": 1.0,
+        "violence_logic_distribution": {},
+        "obligatory_frame_rate": null,
+        "sacrificial_economy_rate": null,
         "absence_flags_distribution": {}
       },
       "analyst_notes": null,
@@ -378,9 +368,8 @@
     "by_cluster": {
       "napoleon-02-army-body": 8,
       "napoleon-01-glory-destiny": 6,
-      "napoleon-05-soldier-sacrifice": 3,
-      "napoleon-03-emperor-embodiment": 1,
-      "napoleon-06-enemy-obstacle": 1
+      "napoleon-05-soldier-sacrifice": 4,
+      "napoleon-03-emperor-embodiment": 1
     },
     "by_fantasy_type": {
       "redemptive_sacrifice": 5
@@ -394,9 +383,8 @@
       "by_cluster": {
         "napoleon-02-army-body": 8,
         "napoleon-01-glory-destiny": 6,
-        "napoleon-05-soldier-sacrifice": 3,
-        "napoleon-03-emperor-embodiment": 1,
-        "napoleon-06-enemy-obstacle": 1
+        "napoleon-05-soldier-sacrifice": 4,
+        "napoleon-03-emperor-embodiment": 1
       },
       "by_source_domain": {
         "body": 7,
@@ -444,7 +432,7 @@
     {
       "stage": "run-case-analysis",
       "script": "scripts/run-case-analysis.py",
-      "generated_at": "2026-06-17T06:50:10"
+      "generated_at": "2026-06-17T17:38:40"
     }
   ]
 }
