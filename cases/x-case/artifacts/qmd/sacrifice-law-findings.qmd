@@ -7,9 +7,9 @@ title: "Sacrifice Law Findings"
 | case_id | status | support_rating | support_score | support_rating_path |
 | --- | --- | --- | --- | --- |
 | lincoln | draft-scored | moderate support | 2.13 | cases/lincoln/analysis/support-ratings.json |
-| hitler | pending-case-level-support-rating | pending |  |  |
-| napoleon | pending-case-level-support-rating | pending |  |  |
-| am-rev | pending-case-level-support-rating | pending |  |  |
+| hitler | draft-scored | strong support | 2.94 | cases/hitler/analysis/support-ratings.json |
+| napoleon | draft-scored | moderate support | 1.94 | cases/napoleon/analysis/support-ratings.json |
+| am-rev | draft-scored | moderate support | 2.34 | cases/am-rev/analysis/support-ratings.json |
 
 Only Lincoln currently has a draft case-level support rating. Other cases remain
 pending until their annotation, corroboration, and support-rating artifacts are

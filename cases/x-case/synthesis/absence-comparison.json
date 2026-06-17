@@ -1,7 +1,7 @@
 {
   "version": "1.0",
   "case_id": "x-case",
-  "generated_at": "2026-06-17T17:38:41",
+  "generated_at": "2026-06-17T19:56:05",
   "status": "draft",
   "method_note": "Each absence row is a review question per case; cross-case patterns are not confirmed findings.",
   "items": [

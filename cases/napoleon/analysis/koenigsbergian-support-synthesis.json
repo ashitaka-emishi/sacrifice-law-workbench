@@ -1,0 +1,36 @@
+{
+  "version": "1.0",
+  "case_id": "napoleon",
+  "generated_at": "2026-06-17",
+  "status": "draft",
+  "support_summary": {
+    "formula": "((S + 1) * (B + 1) * (E + 1) * (H + 1)^2)^(1/5) - 1",
+    "score": 1.94,
+    "uncapped_category": "moderate support",
+    "historical_alignment_cap": "moderate support",
+    "final_category": "moderate support"
+  },
+  "support_statement": "moderate support — the Napoleon bulletins show a functioning sacrificial economy (glory-destiny, army-as-body, soldier sacrifice), but the corpus is thin (19 instances), the genre systematically suppresses loss, and several Koenigsbergian dimensions are under-evidenced",
+  "supporting_dimensions": {
+    "sacred_object": 2.4,
+    "sacrificial_body": 2.1,
+    "enemy_as_bringer_of_death": 1.2,
+    "historical_enactment_alignment": 2.1
+  },
+  "dimension_notes": {
+    "sacred_collective_object": "La Gloire, l'Empire, la France as sacred collective — most clearly evidenced in glory-destiny cluster (napoleon-01, 6 instances). The Emperor is both embodiment and guarantor of the sacred object.",
+    "dominant_body_metaphor": "Army-as-body (napoleon-02, 8 instances) is the strongest body metaphor. Emperor-embodiment (napoleon-03) is very thin (1 instance). Body metaphor is present but less philosophically developed than in Lincoln or Am-Rev.",
+    "violence_logic": "Military glory, conquest as historical destiny, and soldier sacrifice for the Empire. The violence logic is preservation-and-glory rather than extermination; enemies are obstacles to order, not carriers of contamination.",
+    "enemy_as_bringer_of_death": "Weak to moderate. Napoleon-06-enemy-obstacle has only 1 instance. The 29th Bulletin shows the enemy (Russian winter/army) as death-bearer in the corpus's one catastrophe acknowledgment. Enemy-death framing is structurally present but not dominant.",
+    "death_logic": "Soldier death converted to honor, sacrifice, and glory for the Emperor and Empire. Eylau is the clearest expression. The 29th Bulletin is the limit case where death cannot be fully absorbed by glory.",
+    "guilt_structure": "Minimal guilt structure; the bulletins celebrate victory and externalize loss onto weather, terrain, or enemy resistance. No moral accounting or shared-guilt logic — contrast with Lincoln's Second Inaugural.",
+    "endpoint": "Imperial consolidation, Napoleonic peace, historical glory. Not extermination or republican founding — the endpoint is perpetuation of the imperial order."
+  },
+  "complications": [
+    "The bulletin genre is official propaganda that systematically minimizes loss and dissent; the corpus likely underestimates the sacrificial and enemy-death dimensions.",
+    "19 total instances is a thin evidence base; napoleon-04 (empire-order) and napoleon-06 (enemy-obstacle) have 0 and 1 instances respectively.",
+    "Source-language (French) review may carry unresolved translation ambiguities in candidate domain assignments.",
+    "The Koenigsbergian framework maps more cleanly to ideological texts (Lincoln, Am-Rev, Hitler) than to military dispatches."
+  ],
+  "claim_boundary": "Assessment of evidentiary support from reviewed MIPVU decisions, not a complete historical judgment. The bulletin corpus is a partial sample of Napoleon's rhetorical production."
+}

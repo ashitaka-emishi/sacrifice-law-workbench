@@ -1,7 +1,7 @@
 {
   "version": "1.0",
   "case_id": "x-case",
-  "generated_at": "2026-06-17T17:38:41",
+  "generated_at": "2026-06-17T19:56:05",
   "status": "draft",
   "items": [
     {
@@ -63,17 +63,6 @@
       ],
       "status": "open",
       "dependency": "Providence appears in lincoln, am-rev, and napoleon clusters; hitler uses destiny differently. Requires comparative analysis."
-    },
-    {
-      "question_id": "xq-006",
-      "question": "When will case-level support ratings be available for: hitler, napoleon, am-rev?",
-      "relevant_cases": [
-        "hitler",
-        "napoleon",
-        "am-rev"
-      ],
-      "status": "blocking",
-      "dependency": "These cases block all cross-case claims that require support-score comparisons."
     }
   ]
 }

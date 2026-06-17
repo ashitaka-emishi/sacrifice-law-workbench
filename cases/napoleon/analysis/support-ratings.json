@@ -1,0 +1,89 @@
+{
+  "version": "1.0",
+  "case_id": "napoleon",
+  "generated_at": "2026-06-17",
+  "status": "draft",
+  "scale": "0-4 anchored support scale",
+  "document_ratings": [
+    {
+      "score_id": "napoleon-score-doc-austerlitz",
+      "document_id": "napoleon-bulletin-1805-12-03-austerlitz",
+      "document_weight": 2.0,
+      "weight_rationale": "Canonical victory bulletin; highest rhetorical prestige in the corpus.",
+      "scores": {
+        "sacred_object": 3.0,
+        "sacrificial_body": 2.0,
+        "enemy_as_bringer_of_death": 1.0,
+        "historical_enactment_alignment": 2.0
+      },
+      "mapping_ids": ["napoleon-cmt-003", "napoleon-cmt-006"],
+      "historical_note_ids": ["napoleon-hist-001"],
+      "rationale": "Austerlitz strongly enacts glory-destiny logic and the army-as-sacred-collective frame; enemy is obstacle rather than death-bearer; soldier sacrifice is present but thin in direct expression."
+    },
+    {
+      "score_id": "napoleon-score-doc-eylau",
+      "document_id": "napoleon-bulletin-1807-02-08-eylau",
+      "document_weight": 2.0,
+      "weight_rationale": "Highest metaphor density bulletin (8 instances); the one text where soldier death and sacrifice are most directly confronted.",
+      "scores": {
+        "sacred_object": 2.0,
+        "sacrificial_body": 3.0,
+        "enemy_as_bringer_of_death": 1.0,
+        "historical_enactment_alignment": 3.0
+      },
+      "mapping_ids": ["napoleon-cmt-004", "napoleon-cmt-011", "napoleon-cmt-012"],
+      "historical_note_ids": ["napoleon-hist-002"],
+      "rationale": "Eylau directly addresses mass casualties and converts them into sacrifice for glory and the Emperor; the closest Napoleon's bulletins come to explicit sacrificial economy logic."
+    },
+    {
+      "score_id": "napoleon-score-doc-russia-29th",
+      "document_id": "napoleon-bulletin-1812-12-03-russia-29th",
+      "document_weight": 1.5,
+      "weight_rationale": "The 29th Bulletin is the sole public acknowledgment of catastrophic loss; rhetorically important as a limit case.",
+      "scores": {
+        "sacred_object": 2.0,
+        "sacrificial_body": 2.0,
+        "enemy_as_bringer_of_death": 2.0,
+        "historical_enactment_alignment": 2.0
+      },
+      "mapping_ids": ["napoleon-cmt-018", "napoleon-cmt-019"],
+      "historical_note_ids": ["napoleon-hist-003"],
+      "rationale": "The 29th Bulletin acknowledges catastrophe but reframes it as destiny; the enemy (Russian winter/army) is more explicitly death-bearing here than elsewhere in the corpus."
+    },
+    {
+      "score_id": "napoleon-score-doc-other-bulletins",
+      "document_id": "napoleon-bulletins-combined",
+      "document_weight": 1.0,
+      "weight_rationale": "Remaining bulletins (Jena, Berlin, Friedland, Wagram, Bautzen, Austerlitz-aftermath) averaged as a group; individually thin.",
+      "scores": {
+        "sacred_object": 2.0,
+        "sacrificial_body": 1.0,
+        "enemy_as_bringer_of_death": 1.0,
+        "historical_enactment_alignment": 1.5
+      },
+      "mapping_ids": ["napoleon-cmt-001", "napoleon-cmt-002", "napoleon-cmt-005", "napoleon-cmt-008", "napoleon-cmt-009", "napoleon-cmt-010", "napoleon-cmt-013", "napoleon-cmt-014", "napoleon-cmt-015", "napoleon-cmt-016", "napoleon-cmt-017"],
+      "historical_note_ids": ["napoleon-hist-004"],
+      "rationale": "The remaining bulletins show glory-destiny and army-body framing but are individually thin on sacrifice and enemy-death logic."
+    }
+  ],
+  "case_scores": {
+    "sacred_object": 2.4,
+    "sacrificial_body": 2.1,
+    "enemy_as_bringer_of_death": 1.2,
+    "historical_enactment_alignment": 2.1
+  },
+  "overall_support": {
+    "formula": "((S + 1) * (B + 1) * (E + 1) * (H + 1)^2)^(1/5) - 1",
+    "score": 1.94,
+    "uncapped_category": "moderate support",
+    "historical_alignment_cap": "moderate support",
+    "final_category": "moderate support"
+  },
+  "limitations": [
+    "Corpus is limited to official military bulletins — a propaganda genre that systematically suppresses loss and dissent.",
+    "19 total instances across 9 documents is a thin evidence base; several clusters have 0 or 1 instances.",
+    "Napoleon-04-empire-order and napoleon-06-enemy-obstacle have 0 instances in current review; those dimensions are under-evidenced.",
+    "Source-language (French) glosses have been reviewed but translation ambiguities remain in the candidate domain assignments.",
+    "Historical alignment notes require publication-grade citations before final scoring."
+  ]
+}

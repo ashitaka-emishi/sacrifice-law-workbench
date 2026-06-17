@@ -7,8 +7,8 @@ title: "Case Comparison"
 | case_id | case_type | status | support_rating | endpoint | claim_boundary |
 | --- | --- | --- | --- | --- | --- |
 | lincoln | civil-war-preservation-and-reunion | draft-scored | moderate support | Reunion, democratic survival, reconciliation, and renewal. | Lincoln is comparison-ready only as a provisional pilot case; full-corpus review and reliability adjudication remain pending. |
-| hitler | genocidal-racial-state-violence | pending-case-level-support-rating | pending |  | Do not infer comparison from Lincoln or from starter clusters before Hitler case-level scoring is complete. |
-| napoleon | imperial-war-mobilization | pending-case-level-support-rating | pending |  | Do not infer comparison from Lincoln or from starter clusters before Napoleon case-level scoring is complete. |
-| am-rev | revolutionary-founding-violence | pending-case-level-support-rating | pending |  | Do not infer comparison from Lincoln or from starter clusters before American Revolution case-level scoring is complete. |
+| hitler | genocidal-racial-state-violence | draft-scored | strong support | Racial state, Lebensraum, extermination of designated enemies, Thousand-Year Reich. | Hitler case is draft-scored; full-corpus German source review and reliability adjudication remain pending. |
+| napoleon | imperial-war-mobilization | draft-scored | moderate support | Imperial consolidation, Napoleonic peace, historical glory; not extermination or republican founding. | Napoleon case is draft-scored from bulletin corpus; thin evidence base (19 instances) and genre constraints limit generalization. |
+| am-rev | revolutionary-founding-violence | draft-scored | moderate support | Republican founding, constitutional self-governance, permanent severance from monarchical authority. | Am-Rev case is draft-scored; tech debt #42 means am-rev MIPVU pipeline may have overwritten reviewed annotations for Washington Orders documents. |
 
 Comparisons remain evidence-bound. Pending cases are not interpreted by analogy.

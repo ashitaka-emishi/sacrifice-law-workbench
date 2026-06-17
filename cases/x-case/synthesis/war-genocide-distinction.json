@@ -1,7 +1,7 @@
 {
   "version": "1.0",
   "case_id": "x-case",
-  "generated_at": "2026-06-17T17:38:41",
+  "generated_at": "2026-06-17T19:56:05",
   "status": "draft",
   "guardrails": [
     "Structural comparison is not moral equivalence.",
@@ -34,23 +34,56 @@
     {
       "case_id": "hitler",
       "case_type": "genocidal-racial-state-violence",
-      "status": "pending-case-level-support-rating",
-      "support_rating": "pending",
-      "claim_boundary": "Do not infer comparison from Lincoln or from starter clusters before Hitler case-level scoring is complete."
+      "status": "draft-scored",
+      "sacred_collective_object": "Aryan Volk, blood-and-soil nation, racial purity",
+      "dominant_body_metaphor": "Racial body, Volk as organic collective, parasite/pathogen (enemy)",
+      "violence_logic": "Racial purification, extermination of contaminating enemy, national rebirth through blood",
+      "enemy_as_bringer_of_death": "Strong — Jewish/Bolshevik enemy is explicit death-bearer and existential contamination threat.",
+      "death_logic": "Death of enemies required for collective survival; German soldier deaths are sacrifice for racial Volk.",
+      "historical_alignment": "Nuremberg Laws 1935, Operation Barbarossa 1941, Wannsee 1942 industrial genocide, documented social uptake in Nazi state machinery.",
+      "support_rating": "strong support",
+      "support_score": 2.94,
+      "guilt_structure": "External guilt projected onto racial enemy; no internal moral accounting. Contamination logic inverts guilt.",
+      "endpoint": "Racial state, Lebensraum, extermination of designated enemies, Thousand-Year Reich.",
+      "support_rating_path": "cases/hitler/analysis/support-ratings.json",
+      "support_synthesis_path": "cases/hitler/analysis/koenigsbergian-support-synthesis.json",
+      "claim_boundary": "Hitler case is draft-scored; full-corpus German source review and reliability adjudication remain pending."
     },
     {
       "case_id": "napoleon",
       "case_type": "imperial-war-mobilization",
-      "status": "pending-case-level-support-rating",
-      "support_rating": "pending",
-      "claim_boundary": "Do not infer comparison from Lincoln or from starter clusters before Napoleon case-level scoring is complete."
+      "status": "draft-scored",
+      "sacred_collective_object": "La Gloire, l'Empire, la France — imperial glory as sacred collective object",
+      "dominant_body_metaphor": "Army-as-body, Emperor as embodiment of the nation",
+      "violence_logic": "Military glory, conquest as historical destiny, soldier sacrifice for the Emperor and Empire",
+      "enemy_as_bringer_of_death": "Weak to moderate — enemies are obstacles to order; death-bearer framing clearest in 29th Bulletin.",
+      "death_logic": "Soldier death converted to honor and sacrifice for glory; Eylau is the clearest expression.",
+      "historical_alignment": "Austerlitz mobilization, Eylau mass casualties, 29th Bulletin catastrophe acknowledgment corroborated historically.",
+      "support_rating": "moderate support",
+      "support_score": 1.94,
+      "guilt_structure": "Minimal — bulletins externalize loss onto weather, terrain, or enemy resistance; no shared-guilt logic.",
+      "endpoint": "Imperial consolidation, Napoleonic peace, historical glory; not extermination or republican founding.",
+      "support_rating_path": "cases/napoleon/analysis/support-ratings.json",
+      "support_synthesis_path": "cases/napoleon/analysis/koenigsbergian-support-synthesis.json",
+      "claim_boundary": "Napoleon case is draft-scored from bulletin corpus; thin evidence base (19 instances) and genre constraints limit generalization."
     },
     {
       "case_id": "am-rev",
       "case_type": "revolutionary-founding-violence",
-      "status": "pending-case-level-support-rating",
-      "support_rating": "pending",
-      "claim_boundary": "Do not infer comparison from Lincoln or from starter clusters before American Revolution case-level scoring is complete."
+      "status": "draft-scored",
+      "sacred_collective_object": "Liberty, republican self-governance, natural rights, Providence-backed founding",
+      "dominant_body_metaphor": "Body politic, patriot sacrifice, civic organism",
+      "violence_logic": "Defensive founding violence, tyranny-resistance as sacred obligation, providential justification",
+      "enemy_as_bringer_of_death": "Moderate — British tyranny and Hessian mercenaries as death-bearers; tyranny as slavery-and-death frame.",
+      "death_logic": "Patriot death as founding sacrifice; blood of martyrs consecrates the republic.",
+      "historical_alignment": "Continental Army mobilization, Battle of Trenton, Valley Forge sacrifice, documented pamphlet reception corroborated.",
+      "support_rating": "moderate support",
+      "support_score": 2.34,
+      "guilt_structure": "External guilt projected onto Crown and loyalists; colonists positioned as innocent victims of tyranny.",
+      "endpoint": "Republican founding, constitutional self-governance, permanent severance from monarchical authority.",
+      "support_rating_path": "cases/am-rev/analysis/support-ratings.json",
+      "support_synthesis_path": "cases/am-rev/analysis/koenigsbergian-support-synthesis.json",
+      "claim_boundary": "Am-Rev case is draft-scored; tech debt #42 means am-rev MIPVU pipeline may have overwritten reviewed annotations for Washington Orders documents."
     }
   ]
 }
