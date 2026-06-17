@@ -1,0 +1,36 @@
+{
+  "version": "1.0",
+  "case_id": "am-rev",
+  "generated_at": "2026-06-17T00:00:00",
+  "status": "draft",
+  "support_summary": {
+    "formula": "((S + 1) * (B + 1) * (E + 1) * (H + 1)^2)^(1/5) - 1",
+    "score": 2.34,
+    "uncapped_category": "moderate support",
+    "historical_alignment_cap": "strong support",
+    "final_category": "moderate support"
+  },
+  "support_statement": "moderate support with stronger enemy-construction than Lincoln but without Lincoln's theological depth",
+  "supporting_dimensions": {
+    "sacred_object": 2.75,
+    "sacrificial_body": 2.5,
+    "enemy_as_bringer_of_death": 2.0,
+    "historical_enactment_alignment": 2.25
+  },
+  "dimension_notes": {
+    "sacred_collective_object": "Liberty is the dominant sacred object across both documents, treated as unalienable, absolute, and worth ultimate cost. The people-republic cluster (26 instances, cluster am-rev-02) constitutes the people and the emerging republic as a sacred political entity. The union-founding-memory cluster (17 instances, am-rev-06) extends this to the founding order as an object held in trust for posterity. Sacred-object evidence is strong (2.75), present in both documents and across multiple clusters.",
+    "dominant_body_metaphor": "The body metaphor operates at three levels: (1) GOVERNMENT IS BODY (11 mappings), figuring political institutions as organisms subject to illness, disorder, and repair; (2) INDEPENDENCE IS BIRTH/GENERATION (10 mappings), figuring the republic as a newborn requiring protection; (3) sacrifice and wounding vocabulary (blood, wounds, injuries, offering) attaching bodily suffering to the independence project. The people-republic cluster is the strongest locus (26 instances, source domains: sacrifice, birth_generation, body).",
+    "violence_logic": "Violence logic is preservation-and-expulsion rather than extermination. The enemy (Britain/monarchy) is to be separated from, resisted, and expelled — not annihilated. Liberty-tyranny cluster (am-rev-01) uses fire/sword/death/desolation vocabulary but as threat description rather than genocidal program. The violence logic authorizes revolution and armed resistance for the purpose of securing liberty, not eliminating an enemy population.",
+    "enemy_as_bringer_of_death": "Enemy-as-bringer-of-death evidence is moderate (2.0). The Declaration's grievances list constructs the king as a systematic destroyer: waging war, burning towns, ravaging coasts, bringing foreign mercenaries, exciting insurrection. Common Sense figures tyranny as bringing slavery, bondage, fire, and sword. The enemy is a death-bearing oppressor and enslaver. However, enemy agency is less central than the sacred object and sacrificial body; it functions as the necessary threat that activates the liberty frame rather than as the dominant obsession.",
+    "death_logic": "Death and sacrifice are made meaningful through a founding-debt frame: the blood and fortunes pledged in the Declaration (am-rev-03) create an obligation on posterity. Common Sense's INDEPENDENCE IS SACRIFICE (13 mappings) frames revolutionary deaths as offerings that constitute the republic. Death logic is sacrificial and founding-obligatory rather than martyrological (as in religious traditions) or eliminatory (as in genocide rhetoric). The endpoint is liberty and self-government, not death as such.",
+    "guilt_structure": "Britain and the king bear near-total guilt in both documents. Colonists are constructed as patient victims asserting natural rights only after repeated injuries. The Declaration's rhetorical structure presents a juridical case: the king has done X repeatedly; the colonists have petitioned in vain; therefore separation is justified. This is a victim-asserting-rights guilt structure, not a shared-guilt or providential-judgment structure (contrast Lincoln's Second Inaugural). Common Sense adds a cosmological guilt dimension: monarchy is inherently corrupt, an idolatrous institution against providential order.",
+    "endpoint": "Republican self-government and independence. The endpoint is a free republic of equal citizens, separate from British imperial domination. This is a preservation-and-founding endpoint rather than a reconciliation, purification, or annihilation endpoint. The union-founding-memory cluster frames the endpoint as a sacred legacy for posterity (am-rev-06). The providence-covenant cluster (am-rev-04) frames it as providentially sanctioned. The endpoint is positive and constructive (a new republic) rather than purely eliminatory."
+  },
+  "complications": [
+    "Washington Orders documents (7 documents) have 0 metaphorical instances in the current review due to a known MIPVU overwrite issue (tech debt #42); military enactment evidence is therefore absent from the current scoring.",
+    "Enemy-as-bringer-of-death evidence is present but less dominant than sacred-object and sacrificial-body evidence; the liberty/tyranny frame is more about freedom than about the enemy as such.",
+    "The corpus excludes Loyalist texts and moderate colonial voices; the liberty/tyranny binary was contested within the colonies.",
+    "Providence framing (am-rev-04) is present but thinner than in Lincoln; the theological depth of providential judgment is not matched."
+  ],
+  "claim_boundary": "Assessment of evidentiary support from the reviewed corpus (61 instances, Declaration and Common Sense only), not proof or causal explanation. Washington Orders re-review may substantially alter military-enactment scores."
+}

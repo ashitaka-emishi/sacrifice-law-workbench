@@ -1,0 +1,68 @@
+{
+  "version": "1.0",
+  "case_id": "am-rev",
+  "generated_at": "2026-06-17T00:00:00",
+  "status": "draft",
+  "notes": [
+    {
+      "note_id": "amrev-hist-001",
+      "dimension": "historical_enactment_alignment",
+      "topic": "Declaration of Independence as formal founding act and war trigger",
+      "historical_alignment_level": [
+        "formal_enactment",
+        "historical_consequence"
+      ],
+      "summary": "The Declaration's liberty/tyranny and founding-sacrifice metaphors align directly with the formal political act of independence and the initiation of the Revolutionary War. The pledge of lives, fortunes, and sacred honor was enacted by actual deaths, imprisonment, and financial ruin among signatories and soldiers. The document's enemy-construction (king as systematic destroyer) aligns with the historical context of British military campaigns, taxation without representation, and quartering practices.",
+      "linked_mapping_ids": [
+        "amrev-cmt-059",
+        "amrev-cmt-061",
+        "amrev-cmt-001",
+        "amrev-cmt-010",
+        "amrev-cmt-012"
+      ],
+      "corroboration_status": "contextually-corroborated; publication citations required",
+      "claim_boundary": "Supports historical alignment between symbolic sacrifice framing and actual wartime deaths; does not prove that the metaphors caused the war or that the signatories held the beliefs the metaphors imply."
+    },
+    {
+      "note_id": "amrev-hist-002",
+      "dimension": "historical_enactment_alignment",
+      "topic": "Founding sacrifice and posterity obligation as civic legacy",
+      "historical_alignment_level": [
+        "social_uptake",
+        "historical_consequence"
+      ],
+      "summary": "The founding-sacrifice cluster (am-rev-03) and the people-republic cluster (am-rev-02) generated an enduring civic obligation narrative that was institutionalized in American political culture: commemorative practices, Fourth of July observance, veteran memorial traditions, and constitutional reverence all draw on the founding-blood-as-debt frame. Washington's Farewell Address and subsequent political discourse extended this frame into a sustained social uptake.",
+      "linked_mapping_ids": [
+        "amrev-cmt-059",
+        "amrev-cmt-061",
+        "amrev-cmt-002",
+        "amrev-cmt-003",
+        "amrev-cmt-045",
+        "amrev-cmt-046"
+      ],
+      "corroboration_status": "contextually-corroborated; publication citations required",
+      "claim_boundary": "Social-uptake corroboration is retrospective; the founding-sacrifice frame's endurance as civic obligation is contextually established but requires historical literature citations before final use."
+    },
+    {
+      "note_id": "amrev-hist-003",
+      "dimension": "historical_enactment_alignment",
+      "topic": "Common Sense as mass-mobilization text preceding the war",
+      "historical_alignment_level": [
+        "social_uptake"
+      ],
+      "summary": "Common Sense was a rhetorical mobilization instrument read widely among colonial populations before and during the war. Its slavery-bondage and birth-generation metaphors for independence aligned with public sentiment that shifted from constitutional grievance to revolutionary separation. The pamphlet's historical alignment is primarily in social uptake — generating the emotional and conceptual preconditions for revolutionary commitment — rather than in formal enactment.",
+      "linked_mapping_ids": [
+        "amrev-cmt-025",
+        "amrev-cmt-026",
+        "amrev-cmt-029",
+        "amrev-cmt-031",
+        "amrev-cmt-043",
+        "amrev-cmt-035",
+        "amrev-cmt-036",
+        "amrev-cmt-037"
+      ],
+      "corroboration_status": "contextually-corroborated; publication citations required",
+      "claim_boundary": "Pamphlet circulation and influence are contextually established but individual readership impact and causal force require separate historical documentation."
+    }
+  ]
+}
