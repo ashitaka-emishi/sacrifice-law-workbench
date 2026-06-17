@@ -1,0 +1,92 @@
+{
+  "version": "1.0",
+  "case_id": "am-rev",
+  "generated_at": "2026-06-17T00:00:00",
+  "status": "draft",
+  "scale": "0-4 anchored support scale",
+  "document_ratings": [
+    {
+      "score_id": "amrev-score-doc-declaration",
+      "document_id": "am-rev-jefferson-declaration",
+      "document_weight": 2.0,
+      "weight_rationale": "Canonical founding document; concentrated evidence for sacred-object, sacrificial pledge, and enemy-construction dimensions.",
+      "scores": {
+        "sacred_object": 3.0,
+        "sacrificial_body": 2.5,
+        "enemy_as_bringer_of_death": 2.0,
+        "historical_enactment_alignment": 2.5
+      },
+      "mapping_ids": [
+        "amrev-cmt-059",
+        "amrev-cmt-061",
+        "amrev-cmt-001",
+        "amrev-cmt-010",
+        "amrev-cmt-012",
+        "amrev-cmt-060",
+        "amrev-cmt-007",
+        "amrev-cmt-013"
+      ],
+      "historical_note_ids": [
+        "amrev-hist-001",
+        "amrev-hist-002"
+      ],
+      "rationale": "The Declaration figures liberty as an unalienable sacred object, pledges lives and fortunes as founding sacrifice, and constructs the king as a systematic bringer of destruction and death through the enumerated grievances list. Historical alignment is strong: the document triggered the war and is formally enacted as the founding charter."
+    },
+    {
+      "score_id": "amrev-score-doc-common-sense",
+      "document_id": "am-rev-paine-common-sense",
+      "document_weight": 2.0,
+      "weight_rationale": "Principal pamphlet corpus source (53 of 61 CMT instances); supplies the dominant body, sacrifice, slavery-bondage, and providence clusters.",
+      "scores": {
+        "sacred_object": 2.5,
+        "sacrificial_body": 2.5,
+        "enemy_as_bringer_of_death": 2.0,
+        "historical_enactment_alignment": 2.0
+      },
+      "mapping_ids": [
+        "amrev-cmt-002",
+        "amrev-cmt-003",
+        "amrev-cmt-004",
+        "amrev-cmt-006",
+        "amrev-cmt-011",
+        "amrev-cmt-014",
+        "amrev-cmt-015",
+        "amrev-cmt-019",
+        "amrev-cmt-020",
+        "amrev-cmt-022",
+        "amrev-cmt-023",
+        "amrev-cmt-025",
+        "amrev-cmt-026",
+        "amrev-cmt-029",
+        "amrev-cmt-031",
+        "amrev-cmt-035",
+        "amrev-cmt-036",
+        "amrev-cmt-037",
+        "amrev-cmt-043"
+      ],
+      "historical_note_ids": [
+        "amrev-hist-003"
+      ],
+      "rationale": "Common Sense saturates the corpus with sacrifice, birth-generation, and slavery-bondage metaphors. The people-republic cluster (26 instances) constitutes the sacred collective object. Britain/monarchy is figured as bringer of fire, sword, and bondage. Historical alignment is contextually corroborated as a mass-mobilization text preceding the war, but it is rhetorical rather than a formal-enactment document."
+    }
+  ],
+  "case_scores": {
+    "sacred_object": 2.75,
+    "sacrificial_body": 2.5,
+    "enemy_as_bringer_of_death": 2.0,
+    "historical_enactment_alignment": 2.25
+  },
+  "overall_support": {
+    "formula": "((S + 1) * (B + 1) * (E + 1) * (H + 1)^2)^(1/5) - 1",
+    "score": 2.34,
+    "uncapped_category": "moderate support",
+    "historical_alignment_cap": "strong support",
+    "final_category": "moderate support"
+  },
+  "limitations": [
+    "Scores are provisional and based on reviewed am-rev pilot evidence (61 instances, Jefferson Declaration and Common Sense only).",
+    "Washington Orders documents have 0 metaphorical instances in the current review due to a known MIPVU overwrite issue (tech debt #42); re-review may alter scores.",
+    "Full-corpus MIPVU review and reliability adjudication are pending.",
+    "Historical alignment notes require publication-grade citations."
+  ]
+}
