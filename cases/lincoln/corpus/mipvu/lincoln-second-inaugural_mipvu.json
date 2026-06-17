@@ -3,7 +3,7 @@
   "case_id": "lincoln",
   "document_id": "lincoln-second-inaugural",
   "source_language": "en",
-  "generated_at": "2026-06-17T01:08:25",
+  "generated_at": "2026-06-17T06:50:08",
   "status": "worklist",
   "meta": {
     "title": "Second Inaugural Address",
@@ -1322,18 +1322,18 @@
       "sentence_char_offset_end": 150,
       "review_status": "reviewed",
       "semantic_shift_risk": "medium",
-      "basic_meaning": "weapons, a contest, absorption, or engrossing possession",
-      "basic_meaning_source": "Webster 1828, \"contest\"",
-      "decision_type": "mipvu_indirect",
-      "contextual_meaning": "the war and public attention are framed as combat and consuming attention",
-      "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "confidence": 0.72,
       "candidate_target_domain": "civil_war",
-      "review_notes": "Mostly conventional war-register wording; retain moderate confidence.",
-      "annotator": "codex-assisted-mipvu-v1",
+      "decision_type": "mipvu_indirect",
+      "basic_meaning": "weapons, a contest, absorption, or engrossing possession",
       "comparison_basis": "Political conflict is understood through combat and physical possession.",
+      "review_batch": "lincoln-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
       "contrast_explanation": "Public affairs and attention are construed through combat and physical absorption.",
-      "candidate_source_domain": "war_combat"
+      "contextual_meaning": "the war and public attention are framed as combat and consuming attention",
+      "confidence": 0.72,
+      "candidate_source_domain": "war_combat",
+      "basic_meaning_source": "Webster 1828, \"contest\"",
+      "review_notes": "Mostly conventional war-register wording; retain moderate confidence."
     },
     {
       "mipvu_id": "lincoln-second-inaugural_s01_p01_s03_lu026",
@@ -1389,18 +1389,18 @@
       "sentence_char_offset_end": 170,
       "review_status": "reviewed",
       "semantic_shift_risk": "medium",
-      "basic_meaning": "weapons, a contest, absorption, or engrossing possession",
-      "basic_meaning_source": "Webster 1828, \"absorbs\"",
-      "decision_type": "mipvu_indirect",
-      "contextual_meaning": "the war and public attention are framed as combat and consuming attention",
-      "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "confidence": 0.72,
       "candidate_target_domain": "civil_war",
-      "review_notes": "Mostly conventional war-register wording; retain moderate confidence.",
-      "annotator": "codex-assisted-mipvu-v1",
+      "decision_type": "mipvu_indirect",
+      "basic_meaning": "weapons, a contest, absorption, or engrossing possession",
       "comparison_basis": "Political conflict is understood through combat and physical possession.",
+      "review_batch": "lincoln-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
       "contrast_explanation": "Public affairs and attention are construed through combat and physical absorption.",
-      "candidate_source_domain": "war_combat"
+      "contextual_meaning": "the war and public attention are framed as combat and consuming attention",
+      "confidence": 0.72,
+      "candidate_source_domain": "war_combat",
+      "basic_meaning_source": "Webster 1828, \"absorbs\"",
+      "review_notes": "Mostly conventional war-register wording; retain moderate confidence."
     },
     {
       "mipvu_id": "lincoln-second-inaugural_s01_p01_s03_lu029",
@@ -1475,18 +1475,18 @@
       "sentence_char_offset_end": 198,
       "review_status": "reviewed",
       "semantic_shift_risk": "medium",
-      "basic_meaning": "weapons, a contest, absorption, or engrossing possession",
-      "basic_meaning_source": "Webster 1828, \"engrosses\"",
-      "decision_type": "mipvu_indirect",
-      "contextual_meaning": "the war and public attention are framed as combat and consuming attention",
-      "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "confidence": 0.72,
       "candidate_target_domain": "civil_war",
-      "review_notes": "Mostly conventional war-register wording; retain moderate confidence.",
-      "annotator": "codex-assisted-mipvu-v1",
+      "decision_type": "mipvu_indirect",
+      "basic_meaning": "weapons, a contest, absorption, or engrossing possession",
       "comparison_basis": "Political conflict is understood through combat and physical possession.",
+      "review_batch": "lincoln-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
       "contrast_explanation": "Public affairs and attention are construed through combat and physical absorption.",
-      "candidate_source_domain": "war_combat"
+      "contextual_meaning": "the war and public attention are framed as combat and consuming attention",
+      "confidence": 0.72,
+      "candidate_source_domain": "war_combat",
+      "basic_meaning_source": "Webster 1828, \"engrosses\"",
+      "review_notes": "Mostly conventional war-register wording; retain moderate confidence."
     },
     {
       "mipvu_id": "lincoln-second-inaugural_s01_p01_s03_lu033",
@@ -3727,18 +3727,18 @@
       "sentence_char_offset_end": 206,
       "review_status": "reviewed",
       "semantic_shift_risk": "high",
-      "basic_meaning": "tearing fabric/body, dissolving substance, or dividing an object",
-      "basic_meaning_source": "Webster 1828, \"rend\" / Bouvier 1856, \"Union\"",
-      "decision_type": "mipvu_indirect",
-      "contextual_meaning": "the Union is represented as a body or material object that can be torn, dissolved, or divided",
-      "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "confidence": 0.86,
       "candidate_target_domain": "union",
-      "review_notes": "Union semantic-control note applies; keep legal and body/material readings distinct.",
-      "annotator": "codex-assisted-mipvu-v1",
+      "decision_type": "mipvu_indirect",
+      "basic_meaning": "tearing fabric/body, dissolving substance, or dividing an object",
       "comparison_basis": "Political union is understood through material cohesion.",
+      "review_batch": "lincoln-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
       "contrast_explanation": "The constitutional Union is abstract-political but construed as a separable material entity.",
-      "candidate_source_domain": "object_material"
+      "contextual_meaning": "the Union is represented as a body or material object that can be torn, dissolved, or divided",
+      "confidence": 0.86,
+      "candidate_source_domain": "object_material",
+      "basic_meaning_source": "Webster 1828, \"rend\" / Bouvier 1856, \"Union\"",
+      "review_notes": "Union semantic-control note applies; keep legal and body/material readings distinct."
     },
     {
       "mipvu_id": "lincoln-second-inaugural_s01_p02_s03_lu034",
@@ -3813,18 +3813,18 @@
       "sentence_char_offset_end": 228,
       "review_status": "reviewed",
       "semantic_shift_risk": "high",
-      "basic_meaning": "tearing fabric/body, dissolving substance, or dividing an object",
-      "basic_meaning_source": "Webster 1828, \"rend\" / Bouvier 1856, \"Union\"",
-      "decision_type": "mipvu_indirect",
-      "contextual_meaning": "the Union is represented as a body or material object that can be torn, dissolved, or divided",
-      "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "confidence": 0.86,
       "candidate_target_domain": "union",
-      "review_notes": "Union semantic-control note applies; keep legal and body/material readings distinct.",
-      "annotator": "codex-assisted-mipvu-v1",
+      "decision_type": "mipvu_indirect",
+      "basic_meaning": "tearing fabric/body, dissolving substance, or dividing an object",
       "comparison_basis": "Political union is understood through material cohesion.",
+      "review_batch": "lincoln-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
       "contrast_explanation": "The constitutional Union is abstract-political but construed as a separable material entity.",
-      "candidate_source_domain": "object_material"
+      "contextual_meaning": "the Union is represented as a body or material object that can be torn, dissolved, or divided",
+      "confidence": 0.86,
+      "candidate_source_domain": "object_material",
+      "basic_meaning_source": "Webster 1828, \"rend\" / Bouvier 1856, \"Union\"",
+      "review_notes": "Union semantic-control note applies; keep legal and body/material readings distinct."
     },
     {
       "mipvu_id": "lincoln-second-inaugural_s01_p02_s03_lu038",
@@ -4203,18 +4203,18 @@
       "sentence_char_offset_end": 94,
       "review_status": "reviewed",
       "semantic_shift_risk": "low",
-      "basic_meaning": "a living organism continues alive, dies, perishes, survives, or endures bodily strain",
-      "basic_meaning_source": "Webster 1828, \"survive\"",
-      "decision_type": "mipvu_personification",
-      "contextual_meaning": "the nation or government continues or ceases political existence",
-      "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "confidence": 0.9,
       "candidate_target_domain": "nation",
-      "review_notes": "Body-politic survival language; use as MIPVU evidence only with its local national subject.",
-      "annotator": "codex-assisted-mipvu-v1",
+      "decision_type": "mipvu_personification",
+      "basic_meaning": "a living organism continues alive, dies, perishes, survives, or endures bodily strain",
       "comparison_basis": "Political survival is understood through organismic life and death.",
+      "review_batch": "lincoln-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
       "contrast_explanation": "A polity is not a biological organism, but its political existence is construed as bodily life or death.",
-      "candidate_source_domain": "nature_organism"
+      "contextual_meaning": "the nation or government continues or ceases political existence",
+      "confidence": 0.9,
+      "candidate_source_domain": "nature_organism",
+      "basic_meaning_source": "Webster 1828, \"survive\"",
+      "review_notes": "Body-politic survival language; use as MIPVU evidence only with its local national subject."
     },
     {
       "mipvu_id": "lincoln-second-inaugural_s01_p02_s04_lu018",
@@ -4422,18 +4422,18 @@
       "sentence_char_offset_end": 152,
       "review_status": "reviewed",
       "semantic_shift_risk": "low",
-      "basic_meaning": "a living organism continues alive, dies, perishes, survives, or endures bodily strain",
-      "basic_meaning_source": "Webster 1828, \"perish\"",
-      "decision_type": "mipvu_personification",
-      "contextual_meaning": "the nation or government continues or ceases political existence",
-      "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "confidence": 0.9,
       "candidate_target_domain": "nation",
-      "review_notes": "Body-politic survival language; use as MIPVU evidence only with its local national subject.",
-      "annotator": "codex-assisted-mipvu-v1",
+      "decision_type": "mipvu_personification",
+      "basic_meaning": "a living organism continues alive, dies, perishes, survives, or endures bodily strain",
       "comparison_basis": "Political survival is understood through organismic life and death.",
+      "review_batch": "lincoln-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
       "contrast_explanation": "A polity is not a biological organism, but its political existence is construed as bodily life or death.",
-      "candidate_source_domain": "nature_organism"
+      "contextual_meaning": "the nation or government continues or ceases political existence",
+      "confidence": 0.9,
+      "candidate_source_domain": "nature_organism",
+      "basic_meaning_source": "Webster 1828, \"perish\"",
+      "review_notes": "Body-politic survival language; use as MIPVU evidence only with its local national subject."
     },
     {
       "mipvu_id": "lincoln-second-inaugural_s01_p02_s05_lu001",
@@ -5610,18 +5610,18 @@
       "sentence_char_offset_end": 102,
       "review_status": "reviewed",
       "semantic_shift_risk": "high",
-      "basic_meaning": "tearing fabric/body, dissolving substance, or dividing an object",
-      "basic_meaning_source": "Webster 1828, \"rend\" / Bouvier 1856, \"Union\"",
-      "decision_type": "mipvu_indirect",
-      "contextual_meaning": "the Union is represented as a body or material object that can be torn, dissolved, or divided",
-      "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "confidence": 0.86,
       "candidate_target_domain": "union",
-      "review_notes": "Union semantic-control note applies; keep legal and body/material readings distinct.",
-      "annotator": "codex-assisted-mipvu-v1",
+      "decision_type": "mipvu_indirect",
+      "basic_meaning": "tearing fabric/body, dissolving substance, or dividing an object",
       "comparison_basis": "Political union is understood through material cohesion.",
+      "review_batch": "lincoln-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
       "contrast_explanation": "The constitutional Union is abstract-political but construed as a separable material entity.",
-      "candidate_source_domain": "object_material"
+      "contextual_meaning": "the Union is represented as a body or material object that can be torn, dissolved, or divided",
+      "confidence": 0.86,
+      "candidate_source_domain": "object_material",
+      "basic_meaning_source": "Webster 1828, \"rend\" / Bouvier 1856, \"Union\"",
+      "review_notes": "Union semantic-control note applies; keep legal and body/material readings distinct."
     },
     {
       "mipvu_id": "lincoln-second-inaugural_s01_p03_s04_lu017",
@@ -7634,18 +7634,18 @@
       "sentence_char_offset_end": 87,
       "review_status": "reviewed",
       "semantic_shift_risk": "high",
-      "basic_meaning": "twisting liquid out of something, bread as food, sweat on faces",
-      "basic_meaning_source": "Webster 1828, \"wring\"; Genesis 3:19 idiom",
-      "decision_type": "mipvu_indirect",
-      "contextual_meaning": "enslaved labor is represented through extracting bread from bodily sweat",
-      "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "confidence": 0.84,
       "candidate_target_domain": "slavery",
-      "review_notes": "Biblical/allusive phrase; the bodily labor is literal but 'wringing bread' is figurative.",
-      "annotator": "codex-assisted-mipvu-v1",
+      "decision_type": "mipvu_indirect",
+      "basic_meaning": "twisting liquid out of something, bread as food, sweat on faces",
       "comparison_basis": "Slavery's labor economy is understood through bodily extraction.",
+      "review_batch": "lincoln-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
       "contrast_explanation": "The expression frames exploitation through bodily extraction and biblical labor idiom.",
-      "candidate_source_domain": "body"
+      "contextual_meaning": "enslaved labor is represented through extracting bread from bodily sweat",
+      "confidence": 0.84,
+      "candidate_source_domain": "body",
+      "basic_meaning_source": "Webster 1828, \"wring\"; Genesis 3:19 idiom",
+      "review_notes": "Biblical/allusive phrase; the bodily labor is literal but 'wringing bread' is figurative."
     },
     {
       "mipvu_id": "lincoln-second-inaugural_s01_p04_s05_lu018",
@@ -7682,18 +7682,18 @@
       "sentence_char_offset_end": 99,
       "review_status": "reviewed",
       "semantic_shift_risk": "high",
-      "basic_meaning": "twisting liquid out of something, bread as food, sweat on faces",
-      "basic_meaning_source": "Webster 1828, \"wring\"; Genesis 3:19 idiom",
-      "decision_type": "mipvu_indirect",
-      "contextual_meaning": "enslaved labor is represented through extracting bread from bodily sweat",
-      "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "confidence": 0.84,
       "candidate_target_domain": "slavery",
-      "review_notes": "Biblical/allusive phrase; the bodily labor is literal but 'wringing bread' is figurative.",
-      "annotator": "codex-assisted-mipvu-v1",
+      "decision_type": "mipvu_indirect",
+      "basic_meaning": "twisting liquid out of something, bread as food, sweat on faces",
       "comparison_basis": "Slavery's labor economy is understood through bodily extraction.",
+      "review_batch": "lincoln-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
       "contrast_explanation": "The expression frames exploitation through bodily extraction and biblical labor idiom.",
-      "candidate_source_domain": "body"
+      "contextual_meaning": "enslaved labor is represented through extracting bread from bodily sweat",
+      "confidence": 0.84,
+      "candidate_source_domain": "body",
+      "basic_meaning_source": "Webster 1828, \"wring\"; Genesis 3:19 idiom",
+      "review_notes": "Biblical/allusive phrase; the bodily labor is literal but 'wringing bread' is figurative."
     },
     {
       "mipvu_id": "lincoln-second-inaugural_s01_p04_s05_lu020",
@@ -7749,18 +7749,18 @@
       "sentence_char_offset_end": 114,
       "review_status": "reviewed",
       "semantic_shift_risk": "high",
-      "basic_meaning": "twisting liquid out of something, bread as food, sweat on faces",
-      "basic_meaning_source": "Webster 1828, \"wring\"; Genesis 3:19 idiom",
-      "decision_type": "mipvu_indirect",
-      "contextual_meaning": "enslaved labor is represented through extracting bread from bodily sweat",
-      "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "confidence": 0.84,
       "candidate_target_domain": "slavery",
-      "review_notes": "Biblical/allusive phrase; the bodily labor is literal but 'wringing bread' is figurative.",
-      "annotator": "codex-assisted-mipvu-v1",
+      "decision_type": "mipvu_indirect",
+      "basic_meaning": "twisting liquid out of something, bread as food, sweat on faces",
       "comparison_basis": "Slavery's labor economy is understood through bodily extraction.",
+      "review_batch": "lincoln-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
       "contrast_explanation": "The expression frames exploitation through bodily extraction and biblical labor idiom.",
-      "candidate_source_domain": "body"
+      "contextual_meaning": "enslaved labor is represented through extracting bread from bodily sweat",
+      "confidence": 0.84,
+      "candidate_source_domain": "body",
+      "basic_meaning_source": "Webster 1828, \"wring\"; Genesis 3:19 idiom",
+      "review_notes": "Biblical/allusive phrase; the bodily labor is literal but 'wringing bread' is figurative."
     },
     {
       "mipvu_id": "lincoln-second-inaugural_s01_p04_s05_lu023",
@@ -7835,18 +7835,18 @@
       "sentence_char_offset_end": 135,
       "review_status": "reviewed",
       "semantic_shift_risk": "high",
-      "basic_meaning": "twisting liquid out of something, bread as food, sweat on faces",
-      "basic_meaning_source": "Webster 1828, \"wring\"; Genesis 3:19 idiom",
-      "decision_type": "mipvu_indirect",
-      "contextual_meaning": "enslaved labor is represented through extracting bread from bodily sweat",
-      "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "confidence": 0.84,
       "candidate_target_domain": "slavery",
-      "review_notes": "Biblical/allusive phrase; the bodily labor is literal but 'wringing bread' is figurative.",
-      "annotator": "codex-assisted-mipvu-v1",
+      "decision_type": "mipvu_indirect",
+      "basic_meaning": "twisting liquid out of something, bread as food, sweat on faces",
       "comparison_basis": "Slavery's labor economy is understood through bodily extraction.",
+      "review_batch": "lincoln-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
       "contrast_explanation": "The expression frames exploitation through bodily extraction and biblical labor idiom.",
-      "candidate_source_domain": "body"
+      "contextual_meaning": "enslaved labor is represented through extracting bread from bodily sweat",
+      "confidence": 0.84,
+      "candidate_source_domain": "body",
+      "basic_meaning_source": "Webster 1828, \"wring\"; Genesis 3:19 idiom",
+      "review_notes": "Biblical/allusive phrase; the bodily labor is literal but 'wringing bread' is figurative."
     },
     {
       "mipvu_id": "lincoln-second-inaugural_s01_p04_s05_lu027",
@@ -8453,18 +8453,18 @@
       "sentence_char_offset_end": 4,
       "review_status": "reviewed",
       "semantic_shift_risk": "high",
-      "basic_meaning": "stumbling block, sin, calamity, divine government, or transfer/gift",
-      "basic_meaning_source": "KJV Matthew 18:7 / Webster 1828, \"offense\"",
-      "decision_type": "uncertain",
-      "contextual_meaning": "slavery and war are framed through biblical offense, woe, providence, and divine giving",
-      "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "confidence": 0.58,
       "candidate_target_domain": "slavery",
-      "review_notes": "Keep uncertain under the historical-semantics note for offense/providence.",
-      "annotator": "codex-assisted-mipvu-v1",
+      "decision_type": "uncertain",
+      "basic_meaning": "stumbling block, sin, calamity, divine government, or transfer/gift",
       "comparison_basis": "Historical causation may be understood through biblical moral accounting.",
+      "review_batch": "lincoln-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
       "contrast_explanation": "Biblical usage may be conventional theological idiom rather than a separable metaphor.",
-      "candidate_source_domain": "religion_providence"
+      "contextual_meaning": "slavery and war are framed through biblical offense, woe, providence, and divine giving",
+      "confidence": 0.58,
+      "candidate_source_domain": "religion_providence",
+      "basic_meaning_source": "KJV Matthew 18:7 / Webster 1828, \"offense\"",
+      "review_notes": "Keep uncertain under the historical-semantics note for offense/providence."
     },
     {
       "mipvu_id": "lincoln-second-inaugural_s01_p05_s02_lu002",
@@ -8577,18 +8577,18 @@
       "sentence_char_offset_end": 39,
       "review_status": "reviewed",
       "semantic_shift_risk": "high",
-      "basic_meaning": "stumbling block, sin, calamity, divine government, or transfer/gift",
-      "basic_meaning_source": "KJV Matthew 18:7 / Webster 1828, \"offense\"",
-      "decision_type": "uncertain",
-      "contextual_meaning": "slavery and war are framed through biblical offense, woe, providence, and divine giving",
-      "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "confidence": 0.58,
       "candidate_target_domain": "slavery",
-      "review_notes": "Keep uncertain under the historical-semantics note for offense/providence.",
-      "annotator": "codex-assisted-mipvu-v1",
+      "decision_type": "uncertain",
+      "basic_meaning": "stumbling block, sin, calamity, divine government, or transfer/gift",
       "comparison_basis": "Historical causation may be understood through biblical moral accounting.",
+      "review_batch": "lincoln-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
       "contrast_explanation": "Biblical usage may be conventional theological idiom rather than a separable metaphor.",
-      "candidate_source_domain": "religion_providence"
+      "contextual_meaning": "slavery and war are framed through biblical offense, woe, providence, and divine giving",
+      "confidence": 0.58,
+      "candidate_source_domain": "religion_providence",
+      "basic_meaning_source": "KJV Matthew 18:7 / Webster 1828, \"offense\"",
+      "review_notes": "Keep uncertain under the historical-semantics note for offense/providence."
     },
     {
       "mipvu_id": "lincoln-second-inaugural_s01_p05_s02_lu008",
@@ -8720,18 +8720,18 @@
       "sentence_char_offset_end": 75,
       "review_status": "reviewed",
       "semantic_shift_risk": "high",
-      "basic_meaning": "stumbling block, sin, calamity, divine government, or transfer/gift",
-      "basic_meaning_source": "KJV Matthew 18:7 / Webster 1828, \"offense\"",
-      "decision_type": "uncertain",
-      "contextual_meaning": "slavery and war are framed through biblical offense, woe, providence, and divine giving",
-      "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "confidence": 0.58,
       "candidate_target_domain": "slavery",
-      "review_notes": "Keep uncertain under the historical-semantics note for offense/providence.",
-      "annotator": "codex-assisted-mipvu-v1",
+      "decision_type": "uncertain",
+      "basic_meaning": "stumbling block, sin, calamity, divine government, or transfer/gift",
       "comparison_basis": "Historical causation may be understood through biblical moral accounting.",
+      "review_batch": "lincoln-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
       "contrast_explanation": "Biblical usage may be conventional theological idiom rather than a separable metaphor.",
-      "candidate_source_domain": "religion_providence"
+      "contextual_meaning": "slavery and war are framed through biblical offense, woe, providence, and divine giving",
+      "confidence": 0.58,
+      "candidate_source_domain": "religion_providence",
+      "basic_meaning_source": "KJV Matthew 18:7 / Webster 1828, \"offense\"",
+      "review_notes": "Keep uncertain under the historical-semantics note for offense/providence."
     },
     {
       "mipvu_id": "lincoln-second-inaugural_s01_p05_s02_lu015",
@@ -8787,18 +8787,18 @@
       "sentence_char_offset_end": 89,
       "review_status": "reviewed",
       "semantic_shift_risk": "high",
-      "basic_meaning": "stumbling block, sin, calamity, divine government, or transfer/gift",
-      "basic_meaning_source": "KJV Matthew 18:7 / Webster 1828, \"offense\"",
-      "decision_type": "uncertain",
-      "contextual_meaning": "slavery and war are framed through biblical offense, woe, providence, and divine giving",
-      "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "confidence": 0.58,
       "candidate_target_domain": "slavery",
-      "review_notes": "Keep uncertain under the historical-semantics note for offense/providence.",
-      "annotator": "codex-assisted-mipvu-v1",
+      "decision_type": "uncertain",
+      "basic_meaning": "stumbling block, sin, calamity, divine government, or transfer/gift",
       "comparison_basis": "Historical causation may be understood through biblical moral accounting.",
+      "review_batch": "lincoln-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
       "contrast_explanation": "Biblical usage may be conventional theological idiom rather than a separable metaphor.",
-      "candidate_source_domain": "religion_providence"
+      "contextual_meaning": "slavery and war are framed through biblical offense, woe, providence, and divine giving",
+      "confidence": 0.58,
+      "candidate_source_domain": "religion_providence",
+      "basic_meaning_source": "KJV Matthew 18:7 / Webster 1828, \"offense\"",
+      "review_notes": "Keep uncertain under the historical-semantics note for offense/providence."
     },
     {
       "mipvu_id": "lincoln-second-inaugural_s01_p05_s02_lu018",
@@ -8930,18 +8930,18 @@
       "sentence_char_offset_end": 121,
       "review_status": "reviewed",
       "semantic_shift_risk": "high",
-      "basic_meaning": "stumbling block, sin, calamity, divine government, or transfer/gift",
-      "basic_meaning_source": "KJV Matthew 18:7 / Webster 1828, \"offense\"",
-      "decision_type": "uncertain",
-      "contextual_meaning": "slavery and war are framed through biblical offense, woe, providence, and divine giving",
-      "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "confidence": 0.58,
       "candidate_target_domain": "slavery",
-      "review_notes": "Keep uncertain under the historical-semantics note for offense/providence.",
-      "annotator": "codex-assisted-mipvu-v1",
+      "decision_type": "uncertain",
+      "basic_meaning": "stumbling block, sin, calamity, divine government, or transfer/gift",
       "comparison_basis": "Historical causation may be understood through biblical moral accounting.",
+      "review_batch": "lincoln-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
       "contrast_explanation": "Biblical usage may be conventional theological idiom rather than a separable metaphor.",
-      "candidate_source_domain": "religion_providence"
+      "contextual_meaning": "slavery and war are framed through biblical offense, woe, providence, and divine giving",
+      "confidence": 0.58,
+      "candidate_source_domain": "religion_providence",
+      "basic_meaning_source": "KJV Matthew 18:7 / Webster 1828, \"offense\"",
+      "review_notes": "Keep uncertain under the historical-semantics note for offense/providence."
     },
     {
       "mipvu_id": "lincoln-second-inaugural_s01_p05_s02_lu025",
@@ -9187,18 +9187,18 @@
       "sentence_char_offset_end": 197,
       "review_status": "reviewed",
       "semantic_shift_risk": "high",
-      "basic_meaning": "stumbling block, sin, calamity, divine government, or transfer/gift",
-      "basic_meaning_source": "KJV Matthew 18:7 / Webster 1828, \"offense\"",
-      "decision_type": "uncertain",
-      "contextual_meaning": "slavery and war are framed through biblical offense, woe, providence, and divine giving",
-      "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "confidence": 0.58,
       "candidate_target_domain": "slavery",
-      "review_notes": "Keep uncertain under the historical-semantics note for offense/providence.",
-      "annotator": "codex-assisted-mipvu-v1",
+      "decision_type": "uncertain",
+      "basic_meaning": "stumbling block, sin, calamity, divine government, or transfer/gift",
       "comparison_basis": "Historical causation may be understood through biblical moral accounting.",
+      "review_batch": "lincoln-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
       "contrast_explanation": "Biblical usage may be conventional theological idiom rather than a separable metaphor.",
-      "candidate_source_domain": "religion_providence"
+      "contextual_meaning": "slavery and war are framed through biblical offense, woe, providence, and divine giving",
+      "confidence": 0.58,
+      "candidate_source_domain": "religion_providence",
+      "basic_meaning_source": "KJV Matthew 18:7 / Webster 1828, \"offense\"",
+      "review_notes": "Keep uncertain under the historical-semantics note for offense/providence."
     },
     {
       "mipvu_id": "lincoln-second-inaugural_s01_p05_s02_lu038",
@@ -9273,18 +9273,18 @@
       "sentence_char_offset_end": 222,
       "review_status": "reviewed",
       "semantic_shift_risk": "high",
-      "basic_meaning": "stumbling block, sin, calamity, divine government, or transfer/gift",
-      "basic_meaning_source": "KJV Matthew 18:7 / Webster 1828, \"offense\"",
-      "decision_type": "uncertain",
-      "contextual_meaning": "slavery and war are framed through biblical offense, woe, providence, and divine giving",
-      "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "confidence": 0.58,
       "candidate_target_domain": "slavery",
-      "review_notes": "Keep uncertain under the historical-semantics note for offense/providence.",
-      "annotator": "codex-assisted-mipvu-v1",
+      "decision_type": "uncertain",
+      "basic_meaning": "stumbling block, sin, calamity, divine government, or transfer/gift",
       "comparison_basis": "Historical causation may be understood through biblical moral accounting.",
+      "review_batch": "lincoln-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
       "contrast_explanation": "Biblical usage may be conventional theological idiom rather than a separable metaphor.",
-      "candidate_source_domain": "religion_providence"
+      "contextual_meaning": "slavery and war are framed through biblical offense, woe, providence, and divine giving",
+      "confidence": 0.58,
+      "candidate_source_domain": "religion_providence",
+      "basic_meaning_source": "KJV Matthew 18:7 / Webster 1828, \"offense\"",
+      "review_notes": "Keep uncertain under the historical-semantics note for offense/providence."
     },
     {
       "mipvu_id": "lincoln-second-inaugural_s01_p05_s02_lu042",
@@ -9701,18 +9701,18 @@
       "sentence_char_offset_end": 345,
       "review_status": "reviewed",
       "semantic_shift_risk": "high",
-      "basic_meaning": "stumbling block, sin, calamity, divine government, or transfer/gift",
-      "basic_meaning_source": "KJV Matthew 18:7 / Webster 1828, \"offense\"",
-      "decision_type": "uncertain",
-      "contextual_meaning": "slavery and war are framed through biblical offense, woe, providence, and divine giving",
-      "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "confidence": 0.58,
       "candidate_target_domain": "slavery",
-      "review_notes": "Keep uncertain under the historical-semantics note for offense/providence.",
-      "annotator": "codex-assisted-mipvu-v1",
+      "decision_type": "uncertain",
+      "basic_meaning": "stumbling block, sin, calamity, divine government, or transfer/gift",
       "comparison_basis": "Historical causation may be understood through biblical moral accounting.",
+      "review_batch": "lincoln-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
       "contrast_explanation": "Biblical usage may be conventional theological idiom rather than a separable metaphor.",
-      "candidate_source_domain": "religion_providence"
+      "contextual_meaning": "slavery and war are framed through biblical offense, woe, providence, and divine giving",
+      "confidence": 0.58,
+      "candidate_source_domain": "religion_providence",
+      "basic_meaning_source": "KJV Matthew 18:7 / Webster 1828, \"offense\"",
+      "review_notes": "Keep uncertain under the historical-semantics note for offense/providence."
     },
     {
       "mipvu_id": "lincoln-second-inaugural_s01_p05_s02_lu064",
@@ -9920,18 +9920,18 @@
       "sentence_char_offset_end": 399,
       "review_status": "reviewed",
       "semantic_shift_risk": "high",
-      "basic_meaning": "stumbling block, sin, calamity, divine government, or transfer/gift",
-      "basic_meaning_source": "KJV Matthew 18:7 / Webster 1828, \"offense\"",
-      "decision_type": "uncertain",
-      "contextual_meaning": "slavery and war are framed through biblical offense, woe, providence, and divine giving",
-      "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "confidence": 0.58,
       "candidate_target_domain": "slavery",
-      "review_notes": "Keep uncertain under the historical-semantics note for offense/providence.",
-      "annotator": "codex-assisted-mipvu-v1",
+      "decision_type": "uncertain",
+      "basic_meaning": "stumbling block, sin, calamity, divine government, or transfer/gift",
       "comparison_basis": "Historical causation may be understood through biblical moral accounting.",
+      "review_batch": "lincoln-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
       "contrast_explanation": "Biblical usage may be conventional theological idiom rather than a separable metaphor.",
-      "candidate_source_domain": "religion_providence"
+      "contextual_meaning": "slavery and war are framed through biblical offense, woe, providence, and divine giving",
+      "confidence": 0.58,
+      "candidate_source_domain": "religion_providence",
+      "basic_meaning_source": "KJV Matthew 18:7 / Webster 1828, \"offense\"",
+      "review_notes": "Keep uncertain under the historical-semantics note for offense/providence."
     },
     {
       "mipvu_id": "lincoln-second-inaugural_s01_p05_s02_lu075",
@@ -10063,18 +10063,18 @@
       "sentence_char_offset_end": 432,
       "review_status": "reviewed",
       "semantic_shift_risk": "high",
-      "basic_meaning": "stumbling block, sin, calamity, divine government, or transfer/gift",
-      "basic_meaning_source": "KJV Matthew 18:7 / Webster 1828, \"offense\"",
-      "decision_type": "uncertain",
-      "contextual_meaning": "slavery and war are framed through biblical offense, woe, providence, and divine giving",
-      "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "confidence": 0.58,
       "candidate_target_domain": "slavery",
-      "review_notes": "Keep uncertain under the historical-semantics note for offense/providence.",
-      "annotator": "codex-assisted-mipvu-v1",
+      "decision_type": "uncertain",
+      "basic_meaning": "stumbling block, sin, calamity, divine government, or transfer/gift",
       "comparison_basis": "Historical causation may be understood through biblical moral accounting.",
+      "review_batch": "lincoln-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
       "contrast_explanation": "Biblical usage may be conventional theological idiom rather than a separable metaphor.",
-      "candidate_source_domain": "religion_providence"
+      "contextual_meaning": "slavery and war are framed through biblical offense, woe, providence, and divine giving",
+      "confidence": 0.58,
+      "candidate_source_domain": "religion_providence",
+      "basic_meaning_source": "KJV Matthew 18:7 / Webster 1828, \"offense\"",
+      "review_notes": "Keep uncertain under the historical-semantics note for offense/providence."
     },
     {
       "mipvu_id": "lincoln-second-inaugural_s01_p05_s02_lu082",
@@ -10719,18 +10719,18 @@
       "sentence_char_offset_end": 65,
       "review_status": "reviewed",
       "semantic_shift_risk": "high",
-      "basic_meaning": "a whip or instrument of punishment; movement away from a place",
-      "basic_meaning_source": "Webster 1828, \"scourge\"",
-      "decision_type": "mipvu_direct",
-      "contextual_meaning": "war is represented as a divine or punitive scourge that passes away",
-      "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "confidence": 0.92,
       "candidate_target_domain": "war",
-      "review_notes": "Providential punishment imagery; interpret with caution.",
-      "annotator": "codex-assisted-mipvu-v1",
+      "decision_type": "mipvu_direct",
+      "basic_meaning": "a whip or instrument of punishment; movement away from a place",
       "comparison_basis": "War is understood through punitive bodily punishment.",
+      "review_batch": "lincoln-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
       "contrast_explanation": "War is not literally a whip, but it is explicitly called a scourge.",
-      "candidate_source_domain": "body"
+      "contextual_meaning": "war is represented as a divine or punitive scourge that passes away",
+      "confidence": 0.92,
+      "candidate_source_domain": "body",
+      "basic_meaning_source": "Webster 1828, \"scourge\"",
+      "review_notes": "Providential punishment imagery; interpret with caution."
     },
     {
       "mipvu_id": "lincoln-second-inaugural_s01_p05_s03_lu013",
@@ -10824,18 +10824,18 @@
       "sentence_char_offset_end": 90,
       "review_status": "reviewed",
       "semantic_shift_risk": "high",
-      "basic_meaning": "a whip or instrument of punishment; movement away from a place",
-      "basic_meaning_source": "Webster 1828, \"scourge\"",
-      "decision_type": "mipvu_direct",
-      "contextual_meaning": "war is represented as a divine or punitive scourge that passes away",
-      "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "confidence": 0.72,
       "candidate_target_domain": "war",
-      "review_notes": "Providential punishment imagery; interpret with caution.",
-      "annotator": "codex-assisted-mipvu-v1",
+      "decision_type": "mipvu_direct",
+      "basic_meaning": "a whip or instrument of punishment; movement away from a place",
       "comparison_basis": "War is understood through punitive bodily punishment.",
+      "review_batch": "lincoln-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
       "contrast_explanation": "War is not literally a whip, but it is explicitly called a scourge.",
-      "candidate_source_domain": "body"
+      "contextual_meaning": "war is represented as a divine or punitive scourge that passes away",
+      "confidence": 0.72,
+      "candidate_source_domain": "body",
+      "basic_meaning_source": "Webster 1828, \"scourge\"",
+      "review_notes": "Providential punishment imagery; interpret with caution."
     },
     {
       "mipvu_id": "lincoln-second-inaugural_s01_p05_s03_lu018",
@@ -10874,8 +10874,8 @@
       "semantic_shift_risk": "low",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "annotator": "codex-draft"
+      "annotator": "codex-draft",
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-second-inaugural_s01_p05_s04_lu002",
@@ -10895,8 +10895,8 @@
       "semantic_shift_risk": "low",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "annotator": "codex-draft"
+      "annotator": "codex-draft",
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-second-inaugural_s01_p05_s04_lu003",
@@ -10916,8 +10916,8 @@
       "semantic_shift_risk": "low",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "annotator": "codex-draft"
+      "annotator": "codex-draft",
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-second-inaugural_s01_p05_s04_lu004",
@@ -10937,8 +10937,8 @@
       "semantic_shift_risk": "low",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "annotator": "codex-draft"
+      "annotator": "codex-draft",
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-second-inaugural_s01_p05_s04_lu005",
@@ -10958,8 +10958,8 @@
       "semantic_shift_risk": "low",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "annotator": "codex-draft"
+      "annotator": "codex-draft",
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-second-inaugural_s01_p05_s04_lu006",
@@ -10979,8 +10979,8 @@
       "semantic_shift_risk": "low",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "annotator": "codex-draft"
+      "annotator": "codex-draft",
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-second-inaugural_s01_p05_s04_lu007",
@@ -11000,8 +11000,8 @@
       "semantic_shift_risk": "low",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "annotator": "codex-draft"
+      "annotator": "codex-draft",
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-second-inaugural_s01_p05_s04_lu008",
@@ -11021,8 +11021,8 @@
       "semantic_shift_risk": "low",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "annotator": "codex-draft"
+      "annotator": "codex-draft",
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-second-inaugural_s01_p05_s04_lu009",
@@ -11042,8 +11042,8 @@
       "semantic_shift_risk": "low",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "annotator": "codex-draft"
+      "annotator": "codex-draft",
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-second-inaugural_s01_p05_s04_lu010",
@@ -11063,8 +11063,8 @@
       "semantic_shift_risk": "low",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "annotator": "codex-draft"
+      "annotator": "codex-draft",
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-second-inaugural_s01_p05_s04_lu011",
@@ -11084,8 +11084,8 @@
       "semantic_shift_risk": "low",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "annotator": "codex-draft"
+      "annotator": "codex-draft",
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-second-inaugural_s01_p05_s04_lu012",
@@ -11105,8 +11105,8 @@
       "semantic_shift_risk": "low",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "annotator": "codex-draft"
+      "annotator": "codex-draft",
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-second-inaugural_s01_p05_s04_lu013",
@@ -11126,8 +11126,8 @@
       "semantic_shift_risk": "low",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "annotator": "codex-draft"
+      "annotator": "codex-draft",
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-second-inaugural_s01_p05_s04_lu014",
@@ -11147,8 +11147,8 @@
       "semantic_shift_risk": "low",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "annotator": "codex-draft"
+      "annotator": "codex-draft",
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-second-inaugural_s01_p05_s04_lu015",
@@ -11168,8 +11168,8 @@
       "semantic_shift_risk": "low",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "annotator": "codex-draft"
+      "annotator": "codex-draft",
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-second-inaugural_s01_p05_s04_lu016",
@@ -11189,8 +11189,8 @@
       "semantic_shift_risk": "low",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "annotator": "codex-draft"
+      "annotator": "codex-draft",
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-second-inaugural_s01_p05_s04_lu017",
@@ -11210,8 +11210,8 @@
       "semantic_shift_risk": "low",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "annotator": "codex-draft"
+      "annotator": "codex-draft",
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-second-inaugural_s01_p05_s04_lu018",
@@ -11231,8 +11231,8 @@
       "semantic_shift_risk": "low",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "annotator": "codex-draft"
+      "annotator": "codex-draft",
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-second-inaugural_s01_p05_s04_lu019",
@@ -11252,8 +11252,8 @@
       "semantic_shift_risk": "low",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "annotator": "codex-draft"
+      "annotator": "codex-draft",
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-second-inaugural_s01_p05_s04_lu020",
@@ -11273,8 +11273,8 @@
       "semantic_shift_risk": "low",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "annotator": "codex-draft"
+      "annotator": "codex-draft",
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-second-inaugural_s01_p05_s04_lu021",
@@ -11294,8 +11294,8 @@
       "semantic_shift_risk": "low",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "annotator": "codex-draft"
+      "annotator": "codex-draft",
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-second-inaugural_s01_p05_s04_lu022",
@@ -11315,8 +11315,8 @@
       "semantic_shift_risk": "low",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "annotator": "codex-draft"
+      "annotator": "codex-draft",
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-second-inaugural_s01_p05_s04_lu023",
@@ -11336,8 +11336,8 @@
       "semantic_shift_risk": "low",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "annotator": "codex-draft"
+      "annotator": "codex-draft",
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-second-inaugural_s01_p05_s04_lu024",
@@ -11357,8 +11357,8 @@
       "semantic_shift_risk": "low",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "annotator": "codex-draft"
+      "annotator": "codex-draft",
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-second-inaugural_s01_p05_s04_lu025",
@@ -11378,8 +11378,8 @@
       "semantic_shift_risk": "low",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "annotator": "codex-draft"
+      "annotator": "codex-draft",
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-second-inaugural_s01_p05_s04_lu026",
@@ -11397,18 +11397,18 @@
       "sentence_char_offset_end": 140,
       "review_status": "reviewed",
       "semantic_shift_risk": "medium",
-      "basic_meaning": "descended below a surface or into water/earth",
-      "basic_meaning_source": "Webster 1828, 'sink'",
-      "decision_type": "mipvu_indirect",
-      "contextual_meaning": "wealth produced by enslaved labor is exhausted or consumed",
-      "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "confidence": 0.78,
       "candidate_target_domain": "slavery",
-      "review_notes": "Part of moral-accounting sequence; may map with debt/accounting rather than body metaphor.",
-      "annotator": "codex-draft",
+      "decision_type": "mipvu_indirect",
+      "basic_meaning": "descended below a surface or into water/earth",
       "comparison_basis": "Economic repayment or loss is understood through physical sinking/descent.",
+      "review_batch": "lincoln-full-corpus-mipvu-review-v1",
+      "annotator": "codex-draft",
       "contrast_explanation": "Wealth is not literally submerged; it is imagined as disappearing downward or being consumed.",
-      "candidate_source_domain": "debt_accounting"
+      "contextual_meaning": "wealth produced by enslaved labor is exhausted or consumed",
+      "confidence": 0.78,
+      "candidate_source_domain": "debt_accounting",
+      "basic_meaning_source": "Webster 1828, 'sink'",
+      "review_notes": "Part of moral-accounting sequence; may map with debt/accounting rather than body metaphor."
     },
     {
       "mipvu_id": "lincoln-second-inaugural_s01_p05_s04_lu027",
@@ -11428,8 +11428,8 @@
       "semantic_shift_risk": "low",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "annotator": "codex-draft"
+      "annotator": "codex-draft",
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-second-inaugural_s01_p05_s04_lu028",
@@ -11449,8 +11449,8 @@
       "semantic_shift_risk": "low",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "annotator": "codex-draft"
+      "annotator": "codex-draft",
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-second-inaugural_s01_p05_s04_lu029",
@@ -11470,8 +11470,8 @@
       "semantic_shift_risk": "low",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "annotator": "codex-draft"
+      "annotator": "codex-draft",
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-second-inaugural_s01_p05_s04_lu030",
@@ -11491,8 +11491,8 @@
       "semantic_shift_risk": "low",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "annotator": "codex-draft"
+      "annotator": "codex-draft",
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-second-inaugural_s01_p05_s04_lu031",
@@ -11512,8 +11512,8 @@
       "semantic_shift_risk": "low",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "annotator": "codex-draft"
+      "annotator": "codex-draft",
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-second-inaugural_s01_p05_s04_lu032",
@@ -11533,8 +11533,8 @@
       "semantic_shift_risk": "low",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "annotator": "codex-draft"
+      "annotator": "codex-draft",
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-second-inaugural_s01_p05_s04_lu033",
@@ -11554,8 +11554,8 @@
       "semantic_shift_risk": "low",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "annotator": "codex-draft"
+      "annotator": "codex-draft",
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-second-inaugural_s01_p05_s04_lu034",
@@ -11575,8 +11575,8 @@
       "semantic_shift_risk": "low",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "annotator": "codex-draft"
+      "annotator": "codex-draft",
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-second-inaugural_s01_p05_s04_lu035",
@@ -11596,8 +11596,8 @@
       "semantic_shift_risk": "low",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "annotator": "codex-draft"
+      "annotator": "codex-draft",
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-second-inaugural_s01_p05_s04_lu036",
@@ -11617,8 +11617,8 @@
       "semantic_shift_risk": "low",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "annotator": "codex-draft"
+      "annotator": "codex-draft",
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-second-inaugural_s01_p05_s04_lu037",
@@ -11638,8 +11638,8 @@
       "semantic_shift_risk": "low",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "annotator": "codex-draft"
+      "annotator": "codex-draft",
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-second-inaugural_s01_p05_s04_lu038",
@@ -11659,8 +11659,8 @@
       "semantic_shift_risk": "low",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "annotator": "codex-draft"
+      "annotator": "codex-draft",
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-second-inaugural_s01_p05_s04_lu039",
@@ -11678,18 +11678,18 @@
       "sentence_char_offset_end": 203,
       "review_status": "reviewed",
       "semantic_shift_risk": "high",
-      "basic_meaning": "settle a debt by giving money or equivalent value",
-      "basic_meaning_source": "Webster 1828, 'pay'",
-      "decision_type": "mipvu_indirect",
-      "contextual_meaning": "bloodshed is morally repaid by further bloodshed in war",
-      "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "confidence": 0.94,
       "candidate_target_domain": "providence",
-      "review_notes": "High-salience moral accounting unit; interpret only with blood/lash/sword and providential judgment context.",
-      "annotator": "codex-draft",
+      "decision_type": "mipvu_indirect",
+      "basic_meaning": "settle a debt by giving money or equivalent value",
       "comparison_basis": "Historical judgment is understood through debt repayment and moral accounting.",
+      "review_batch": "lincoln-full-corpus-mipvu-review-v1",
+      "annotator": "codex-draft",
       "contrast_explanation": "Blood is not currency, but violence is framed as repayment for prior violence.",
-      "candidate_source_domain": "debt_accounting"
+      "contextual_meaning": "bloodshed is morally repaid by further bloodshed in war",
+      "confidence": 0.94,
+      "candidate_source_domain": "debt_accounting",
+      "basic_meaning_source": "Webster 1828, 'pay'",
+      "review_notes": "High-salience moral accounting unit; interpret only with blood/lash/sword and providential judgment context."
     },
     {
       "mipvu_id": "lincoln-second-inaugural_s01_p05_s04_lu040",
@@ -11709,8 +11709,8 @@
       "semantic_shift_risk": "low",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "annotator": "codex-draft"
+      "annotator": "codex-draft",
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-second-inaugural_s01_p05_s04_lu041",
@@ -11730,8 +11730,8 @@
       "semantic_shift_risk": "low",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "annotator": "codex-draft"
+      "annotator": "codex-draft",
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-second-inaugural_s01_p05_s04_lu042",
@@ -11751,8 +11751,8 @@
       "semantic_shift_risk": "low",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "annotator": "codex-draft"
+      "annotator": "codex-draft",
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-second-inaugural_s01_p05_s04_lu043",
@@ -11772,8 +11772,8 @@
       "semantic_shift_risk": "low",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "annotator": "codex-draft"
+      "annotator": "codex-draft",
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-second-inaugural_s01_p05_s04_lu044",
@@ -11793,8 +11793,8 @@
       "semantic_shift_risk": "low",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "annotator": "codex-draft"
+      "annotator": "codex-draft",
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-second-inaugural_s01_p05_s04_lu045",
@@ -11812,18 +11812,18 @@
       "sentence_char_offset_end": 235,
       "review_status": "reviewed",
       "semantic_shift_risk": "high",
-      "basic_meaning": "a bladed weapon",
-      "basic_meaning_source": "Webster 1828, 'sword'",
-      "decision_type": "uncertain",
-      "contextual_meaning": "war violence or armed force in the repayment phrase",
-      "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "confidence": 0.55,
       "candidate_target_domain": "civil_war",
-      "review_notes": "Preserve uncertainty: could be literal weapon, metonym for war, or biblical idiom. Do not use as high-confidence metaphor evidence without adjudication.",
-      "annotator": "codex-draft",
+      "decision_type": "uncertain",
+      "basic_meaning": "a bladed weapon",
       "comparison_basis": "War may be represented by its weapon, but this may be metonymic rather than metaphorical.",
+      "review_batch": "lincoln-full-corpus-mipvu-review-v1",
+      "annotator": "codex-draft",
       "contrast_explanation": "The local phrase may refer to literal weapons, war by metonymy, or biblical/legal retribution imagery.",
-      "candidate_source_domain": "war_combat"
+      "contextual_meaning": "war violence or armed force in the repayment phrase",
+      "confidence": 0.55,
+      "candidate_source_domain": "war_combat",
+      "basic_meaning_source": "Webster 1828, 'sword'",
+      "review_notes": "Preserve uncertainty: could be literal weapon, metonym for war, or biblical idiom. Do not use as high-confidence metaphor evidence without adjudication."
     },
     {
       "mipvu_id": "lincoln-second-inaugural_s01_p05_s04_lu046",
@@ -11843,8 +11843,8 @@
       "semantic_shift_risk": "low",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "annotator": "codex-draft"
+      "annotator": "codex-draft",
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-second-inaugural_s01_p05_s04_lu047",
@@ -11864,8 +11864,8 @@
       "semantic_shift_risk": "low",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "annotator": "codex-draft"
+      "annotator": "codex-draft",
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-second-inaugural_s01_p05_s04_lu048",
@@ -11885,8 +11885,8 @@
       "semantic_shift_risk": "low",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "annotator": "codex-draft"
+      "annotator": "codex-draft",
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-second-inaugural_s01_p05_s04_lu049",
@@ -11906,8 +11906,8 @@
       "semantic_shift_risk": "low",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "annotator": "codex-draft"
+      "annotator": "codex-draft",
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-second-inaugural_s01_p05_s04_lu050",
@@ -11927,8 +11927,8 @@
       "semantic_shift_risk": "low",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "annotator": "codex-draft"
+      "annotator": "codex-draft",
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-second-inaugural_s01_p05_s04_lu051",
@@ -11948,8 +11948,8 @@
       "semantic_shift_risk": "low",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "annotator": "codex-draft"
+      "annotator": "codex-draft",
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-second-inaugural_s01_p05_s04_lu052",
@@ -11969,8 +11969,8 @@
       "semantic_shift_risk": "low",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "annotator": "codex-draft"
+      "annotator": "codex-draft",
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-second-inaugural_s01_p05_s04_lu053",
@@ -11990,8 +11990,8 @@
       "semantic_shift_risk": "low",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "annotator": "codex-draft"
+      "annotator": "codex-draft",
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-second-inaugural_s01_p05_s04_lu054",
@@ -12011,8 +12011,8 @@
       "semantic_shift_risk": "low",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "annotator": "codex-draft"
+      "annotator": "codex-draft",
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-second-inaugural_s01_p05_s04_lu055",
@@ -12032,8 +12032,8 @@
       "semantic_shift_risk": "low",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "annotator": "codex-draft"
+      "annotator": "codex-draft",
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-second-inaugural_s01_p05_s04_lu056",
@@ -12053,8 +12053,8 @@
       "semantic_shift_risk": "low",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "annotator": "codex-draft"
+      "annotator": "codex-draft",
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-second-inaugural_s01_p05_s04_lu057",
@@ -12074,8 +12074,8 @@
       "semantic_shift_risk": "low",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "annotator": "codex-draft"
+      "annotator": "codex-draft",
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-second-inaugural_s01_p05_s04_lu058",
@@ -12095,8 +12095,8 @@
       "semantic_shift_risk": "low",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "annotator": "codex-draft"
+      "annotator": "codex-draft",
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-second-inaugural_s01_p05_s04_lu059",
@@ -12116,8 +12116,8 @@
       "semantic_shift_risk": "low",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "annotator": "codex-draft"
+      "annotator": "codex-draft",
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-second-inaugural_s01_p05_s04_lu060",
@@ -12135,18 +12135,18 @@
       "sentence_char_offset_end": 315,
       "review_status": "reviewed",
       "semantic_shift_risk": "high",
-      "basic_meaning": "legal decision or sentence by a judge",
-      "basic_meaning_source": "KJV Psalm 19:9 / Webster 1828, 'judgment'",
-      "decision_type": "uncertain",
-      "contextual_meaning": "divine moral determinations concerning the war and slavery",
-      "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "confidence": 0.6,
       "candidate_target_domain": "providence",
-      "review_notes": "Requires historical semantics control before CMT mapping; record as uncertain rather than force legal-source mapping.",
-      "annotator": "codex-draft",
+      "decision_type": "uncertain",
+      "basic_meaning": "legal decision or sentence by a judge",
       "comparison_basis": "Providential meaning may be understood through legal judgment, but period biblical idiom may make it conventional rather than metaphorical.",
+      "review_batch": "lincoln-full-corpus-mipvu-review-v1",
+      "annotator": "codex-draft",
       "contrast_explanation": "The term is biblical and theological in context, but legal and divine judgment senses overlap historically.",
-      "candidate_source_domain": "law_contract"
+      "contextual_meaning": "divine moral determinations concerning the war and slavery",
+      "confidence": 0.6,
+      "candidate_source_domain": "law_contract",
+      "basic_meaning_source": "KJV Psalm 19:9 / Webster 1828, 'judgment'",
+      "review_notes": "Requires historical semantics control before CMT mapping; record as uncertain rather than force legal-source mapping."
     },
     {
       "mipvu_id": "lincoln-second-inaugural_s01_p05_s04_lu061",
@@ -12166,8 +12166,8 @@
       "semantic_shift_risk": "low",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "annotator": "codex-draft"
+      "annotator": "codex-draft",
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-second-inaugural_s01_p05_s04_lu062",
@@ -12187,8 +12187,8 @@
       "semantic_shift_risk": "low",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "annotator": "codex-draft"
+      "annotator": "codex-draft",
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-second-inaugural_s01_p05_s04_lu063",
@@ -12208,8 +12208,8 @@
       "semantic_shift_risk": "low",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "annotator": "codex-draft"
+      "annotator": "codex-draft",
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-second-inaugural_s01_p05_s04_lu064",
@@ -12229,8 +12229,8 @@
       "semantic_shift_risk": "low",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "annotator": "codex-draft"
+      "annotator": "codex-draft",
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-second-inaugural_s01_p05_s04_lu065",
@@ -12250,8 +12250,8 @@
       "semantic_shift_risk": "low",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "annotator": "codex-draft"
+      "annotator": "codex-draft",
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-second-inaugural_s01_p05_s04_lu066",
@@ -12271,8 +12271,8 @@
       "semantic_shift_risk": "low",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "annotator": "codex-draft"
+      "annotator": "codex-draft",
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-second-inaugural_s01_p05_s04_lu067",
@@ -12292,8 +12292,8 @@
       "semantic_shift_risk": "low",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "annotator": "codex-draft"
+      "annotator": "codex-draft",
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-second-inaugural_s01_p05_s04_lu068",
@@ -12313,8 +12313,8 @@
       "semantic_shift_risk": "low",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
-      "annotator": "codex-draft"
+      "annotator": "codex-draft",
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
     },
     {
       "mipvu_id": "lincoln-second-inaugural_s01_p06_s01_lu001",
@@ -12959,18 +12959,18 @@
       "sentence_char_offset_end": 163,
       "review_status": "accepted",
       "semantic_shift_risk": "medium",
-      "basic_meaning": "binding and tending bodily wounds",
-      "basic_meaning_source": "Webster 1828, \"bind\" / \"wound\"",
-      "decision_type": "mipvu_personification",
-      "contextual_meaning": "repairing the nation after war",
-      "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "confidence": 0.94,
       "candidate_target_domain": "nation",
-      "review_notes": "High-salience body-politic healing expression in the closing sentence.",
-      "annotator": "codex-assisted-mipvu-v1",
+      "decision_type": "mipvu_personification",
+      "basic_meaning": "binding and tending bodily wounds",
       "comparison_basis": "Political reconciliation is understood through healing an injured body.",
+      "review_batch": "lincoln-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
       "contrast_explanation": "The nation is treated as an injured body capable of wounds and care.",
-      "candidate_source_domain": "body"
+      "contextual_meaning": "repairing the nation after war",
+      "confidence": 0.94,
+      "candidate_source_domain": "body",
+      "basic_meaning_source": "Webster 1828, \"bind\" / \"wound\"",
+      "review_notes": "High-salience body-politic healing expression in the closing sentence."
     },
     {
       "mipvu_id": "lincoln-second-inaugural_s01_p06_s01_lu035",
@@ -13045,18 +13045,18 @@
       "sentence_char_offset_end": 186,
       "review_status": "accepted",
       "semantic_shift_risk": "medium",
-      "basic_meaning": "binding and tending bodily wounds",
-      "basic_meaning_source": "Webster 1828, \"bind\" / \"wound\"",
-      "decision_type": "mipvu_personification",
-      "contextual_meaning": "repairing the nation after war",
-      "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "confidence": 0.94,
       "candidate_target_domain": "nation",
-      "review_notes": "High-salience body-politic healing expression in the closing sentence.",
-      "annotator": "codex-assisted-mipvu-v1",
+      "decision_type": "mipvu_personification",
+      "basic_meaning": "binding and tending bodily wounds",
       "comparison_basis": "Political reconciliation is understood through healing an injured body.",
+      "review_batch": "lincoln-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
       "contrast_explanation": "The nation is treated as an injured body capable of wounds and care.",
-      "candidate_source_domain": "body"
+      "contextual_meaning": "repairing the nation after war",
+      "confidence": 0.94,
+      "candidate_source_domain": "body",
+      "basic_meaning_source": "Webster 1828, \"bind\" / \"wound\"",
+      "review_notes": "High-salience body-politic healing expression in the closing sentence."
     },
     {
       "mipvu_id": "lincoln-second-inaugural_s01_p06_s01_lu039",
@@ -13530,18 +13530,18 @@
       "sentence_char_offset_end": 311,
       "review_status": "accepted",
       "semantic_shift_risk": "medium",
-      "basic_meaning": "hold, care for, or nurse a beloved living being",
-      "basic_meaning_source": "Webster 1828, \"cherish\"",
-      "decision_type": "mipvu_indirect",
-      "contextual_meaning": "peace is treated as something to nurture and hold dear",
-      "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "confidence": 0.7,
       "candidate_target_domain": "peace",
-      "review_notes": "Closing reconciliation language; lower confidence because conventional.",
-      "annotator": "codex-assisted-mipvu-v1",
+      "decision_type": "mipvu_indirect",
+      "basic_meaning": "hold, care for, or nurse a beloved living being",
       "comparison_basis": "Political peace is understood through care/nurture.",
+      "review_batch": "lincoln-full-corpus-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
       "contrast_explanation": "Peace is abstract but is construed as an object or living good to be cherished.",
-      "candidate_source_domain": "body"
+      "contextual_meaning": "peace is treated as something to nurture and hold dear",
+      "confidence": 0.7,
+      "candidate_source_domain": "body",
+      "basic_meaning_source": "Webster 1828, \"cherish\"",
+      "review_notes": "Closing reconciliation language; lower confidence because conventional."
     },
     {
       "mipvu_id": "lincoln-second-inaugural_s01_p06_s01_lu064",
@@ -13757,7 +13757,7 @@
     {
       "stage": "generate-mipvu-worklist",
       "script": "scripts/generate-mipvu-worklist.py",
-      "generated_at": "2026-06-17T01:08:25",
+      "generated_at": "2026-06-17T06:50:08",
       "lexical_unit_count": 700
     }
   ]

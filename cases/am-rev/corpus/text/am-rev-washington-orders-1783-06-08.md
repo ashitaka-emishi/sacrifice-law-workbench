@@ -21,7 +21,7 @@ raw_path: corpus/raw/am-rev-src-03-washington-general-orders/washington-orders-1
 pipeline_log:
 - stage: normalize-texts
   script: scripts/normalize-texts.py
-  generated_at: '2026-06-17T01:08:21'
+  generated_at: '2026-06-17T06:50:02'
 ---
 
 From George Washington to The States, 8 June 1783

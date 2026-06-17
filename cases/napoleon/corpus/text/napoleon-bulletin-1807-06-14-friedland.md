@@ -31,7 +31,7 @@ raw_path: corpus/raw/napoleon-src-02-grande-armee-bulletins/napoleon-bulletin-18
 pipeline_log:
 - stage: normalize-texts
   script: scripts/normalize-texts.py
-  generated_at: '2026-06-17T01:08:25'
+  generated_at: '2026-06-17T06:50:09'
 ---
 
 12767. - 79e BULLETIN DE LA GRANDE ARMÉE.

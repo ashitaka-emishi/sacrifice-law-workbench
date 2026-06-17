@@ -23,7 +23,7 @@ raw_path: corpus/raw/am-rev-src-02-jefferson-declaration.txt
 pipeline_log:
 - stage: normalize-texts
   script: scripts/normalize-texts.py
-  generated_at: '2026-06-17T01:08:21'
+  generated_at: '2026-06-17T06:50:02'
 ---
 
 In Congress, July 4, 1776

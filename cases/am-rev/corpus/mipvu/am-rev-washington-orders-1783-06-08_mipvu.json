@@ -3,7 +3,7 @@
   "case_id": "am-rev",
   "document_id": "am-rev-washington-orders-1783-06-08",
   "source_language": "en",
-  "generated_at": "2026-06-17T01:08:21",
+  "generated_at": "2026-06-17T06:50:03",
   "status": "worklist",
   "meta": {
     "title": "Circular to the States, 8 June 1783",
@@ -37118,8 +37118,8 @@
       "sentence_char_offset_end": 348,
       "review_status": "reviewed",
       "review_batch": "am-rev-full-corpus-mipvu-review-v1",
-      "decision_type": "non_metaphor",
-      "annotator": "codex-assisted-mipvu-v1"
+      "annotator": "codex-assisted-mipvu-v1",
+      "decision_type": "non_metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1783-06-08_s01_p20_s02_lu066",
@@ -37377,8 +37377,8 @@
       "sentence_char_offset_end": 12,
       "review_status": "reviewed",
       "review_batch": "am-rev-full-corpus-mipvu-review-v1",
-      "decision_type": "non_metaphor",
-      "annotator": "codex-assisted-mipvu-v1"
+      "annotator": "codex-assisted-mipvu-v1",
+      "decision_type": "non_metaphor"
     },
     {
       "mipvu_id": "am-rev-washington-orders-1783-06-08_s01_p21_s01_lu004",
@@ -66313,7 +66313,7 @@
     {
       "stage": "generate-mipvu-worklist",
       "script": "scripts/generate-mipvu-worklist.py",
-      "generated_at": "2026-06-17T01:08:21",
+      "generated_at": "2026-06-17T06:50:03",
       "lexical_unit_count": 4143
     }
   ]

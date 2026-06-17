@@ -49,7 +49,7 @@ raw_path: corpus/raw/lincoln-src-01-lyceum-address.txt
 pipeline_log:
 - stage: normalize-texts
   script: scripts/normalize-texts.py
-  generated_at: '2026-06-17T01:08:24'
+  generated_at: '2026-06-17T06:50:08'
 ---
 
 ADDRESS BEFORE THE YOUNG MEN'S LYCEUM OF SPRINGFIELD, ILLINOIS.
