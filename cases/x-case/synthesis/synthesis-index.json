@@ -1,17 +1,29 @@
 {
   "version": "1.0",
   "case_id": "x-case",
-  "generated_at": "2026-06-17T06:50:10",
+  "generated_at": "2026-06-17T16:56:27",
   "status": "draft",
   "artifacts": [
     "protocol/comparative-analysis-protocol.json",
     "protocol/comparative-analysis-protocol.md",
     "synthesis/case-comparison.json",
     "synthesis/war-genocide-distinction.json",
-    "synthesis/sacrifice-law-findings.json"
+    "synthesis/sacrifice-law-findings.json",
+    "synthesis/cluster-comparison.json",
+    "synthesis/absence-comparison.json",
+    "synthesis/diachronic-comparison.json",
+    "synthesis/shared-concordance.json",
+    "synthesis/rival-explanations-matrix.json",
+    "synthesis/open-questions.json",
+    "inputs/case-output-manifest.json",
+    "inputs/cross-case-inputs.json",
+    "inputs/input-readiness-report.json"
   ],
   "dependencies": [
     "cases/lincoln/analysis/support-ratings.json",
-    "cases/lincoln/analysis/historical-enactment-alignment.json"
+    "cases/lincoln/analysis/historical-enactment-alignment.json",
+    "cases/am-rev/analysis/analysis.json",
+    "cases/napoleon/analysis/analysis.json",
+    "cases/hitler/analysis/analysis.json"
   ]
 }

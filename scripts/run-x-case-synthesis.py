@@ -6,7 +6,7 @@ import argparse
 from pathlib import Path
 from typing import Any
 
-from pipeline_common import ROOT, now_iso, read_json, write_json
+from pipeline_common import ROOT, case_ids, now_iso, read_json, write_json
 
 XCASE_DIR = ROOT / "cases" / "x-case"
 
@@ -66,6 +66,202 @@ GUARDRAILS = [
     "Comparator cases without support ratings remain pending, not inferred by analogy.",
     "War, genocide, enslavement, colonial violence, and state terror require separate historical and moral description even when symbolic structures overlap.",
 ]
+
+
+def case_analysis(case_id: str) -> dict[str, Any]:
+    path = ROOT / "cases" / case_id / "analysis" / "analysis.json"
+    return read_json(path, {}) or {}
+
+
+def case_absence(case_id: str) -> list[dict[str, Any]]:
+    path = ROOT / "cases" / case_id / "analysis" / "absence-agency-analysis.json"
+    data = read_json(path, {}) or {}
+    return data.get("matrix", [])
+
+
+def case_critical(case_id: str) -> list[dict[str, Any]]:
+    path = ROOT / "cases" / case_id / "analysis" / "critical-metaphor-analysis.json"
+    data = read_json(path, {}) or {}
+    return data.get("cluster_profiles", [])
+
+
+def case_concordance(case_id: str) -> list[dict[str, Any]]:
+    path = ROOT / "cases" / case_id / "analysis" / "concordance.json"
+    data = read_json(path, {}) or {}
+    return data.get("instances", [])
+
+
+def build_inputs(generated_at: str, all_ids: list[str]) -> dict[str, Any]:
+    manifest_items = []
+    readiness_items = []
+    for cid in all_ids:
+        analysis = case_analysis(cid)
+        status = analysis.get("status", "missing")
+        total = analysis.get("total_instances", 0)
+        clusters = len(analysis.get("cluster_analyses", []))
+        ready = status in ("complete", "draft") and total > 0
+        manifest_items.append({
+            "case_id": cid,
+            "analysis_status": status,
+            "total_instances": total,
+            "cluster_count": clusters,
+            "ready_for_xcase": ready,
+        })
+        readiness_items.append({
+            "case_id": cid,
+            "ready": ready,
+            "reason": "complete" if ready else f"status={status}, instances={total}",
+        })
+    return {
+        "manifest": {
+            "generated_at": generated_at,
+            "status": "draft",
+            "items": manifest_items,
+        },
+        "inputs": {
+            "generated_at": generated_at,
+            "status": "draft",
+            "items": [item for item in manifest_items if item["ready_for_xcase"]],
+        },
+        "readiness": {
+            "generated_at": generated_at,
+            "status": "draft",
+            "items": readiness_items,
+        },
+    }
+
+
+def build_cluster_comparison(all_ids: list[str]) -> list[dict[str, Any]]:
+    rows = []
+    for cid in all_ids:
+        analysis = case_analysis(cid)
+        for cluster in analysis.get("cluster_analyses", []):
+            kp = cluster.get("koenigsberg_profile", {})
+            rows.append({
+                "case_id": cid,
+                "cluster_id": cluster.get("cluster_id"),
+                "cluster_name": cluster.get("cluster_name"),
+                "instance_count": cluster.get("instance_count", 0),
+                "cmt_mapping_count": cluster.get("cmt_mapping_count", 0),
+                "primary_source_domains": list(cluster.get("cmt_source_domains", {}).keys())[:3],
+                "primary_target_domains": list(cluster.get("cmt_target_domains", {}).keys())[:3],
+                "fantasy_types": list(kp.get("fantasy_type_distribution", {}).keys()),
+                "obligatory_frame_rate": kp.get("obligatory_frame_rate"),
+                "sacrificial_economy_rate": kp.get("sacrificial_economy_rate"),
+                "claim_boundary": "Cluster distributions are draft; pending support-rating adjudication per case.",
+            })
+    return rows
+
+
+def build_absence_comparison(all_ids: list[str]) -> list[dict[str, Any]]:
+    rows = []
+    for cid in all_ids:
+        for row in case_absence(cid):
+            rows.append({
+                "case_id": cid,
+                "absence_id": row.get("absence_id"),
+                "cluster_id": row.get("cluster_id"),
+                "metaphor_system": row.get("metaphor_system"),
+                "excluded_agents": row.get("excluded_agents", []),
+                "displacement_mechanism": row.get("displacement_mechanism"),
+                "claim_boundary": row.get("claim_boundary"),
+            })
+    return rows
+
+
+def build_diachronic_comparison(all_ids: list[str]) -> list[dict[str, Any]]:
+    rows = []
+    for cid in all_ids:
+        analysis = case_analysis(cid)
+        profile = analysis.get("corpus_profile", {})
+        by_doc = profile.get("by_document", {})
+        rows.append({
+            "case_id": cid,
+            "total_instances": analysis.get("total_instances", 0),
+            "documents_with_instances": len([k for k, v in by_doc.items() if v > 0]),
+            "total_documents": len(by_doc),
+            "by_cluster": profile.get("by_cluster", {}),
+            "by_fantasy_type": profile.get("by_fantasy_type", {}),
+            "by_violence_logic": profile.get("by_violence_logic", {}),
+            "claim_boundary": "Diachronic claims require document-level dating and sequential context not yet fully represented in this aggregate.",
+        })
+    return rows
+
+
+def build_shared_concordance(all_ids: list[str]) -> list[dict[str, Any]]:
+    instances = []
+    for cid in all_ids:
+        for inst in case_concordance(cid):
+            inst_copy = dict(inst)
+            inst_copy.setdefault("case_id", cid)
+            instances.append(inst_copy)
+    return instances
+
+
+def build_rival_explanations(all_ids: list[str]) -> list[dict[str, Any]]:
+    rows = []
+    for cid in all_ids:
+        for profile in case_critical(cid):
+            for rival in profile.get("rival_readings", []):
+                if rival:
+                    rows.append({
+                        "case_id": cid,
+                        "cluster_id": profile.get("cluster_id"),
+                        "rival_reading": rival,
+                        "claim_boundary": "Rival readings are per-mapping annotations; cross-case patterns require analyst review.",
+                    })
+    return rows
+
+
+def build_open_questions(items: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    questions = [
+        {
+            "question_id": "xq-001",
+            "question": "Do all four cases share a common sacrificial economy logic, or do preservation, glory, and extermination differ structurally?",
+            "relevant_cases": ["lincoln", "napoleon", "am-rev", "hitler"],
+            "status": "open",
+            "dependency": "All four cases require support-rating adjudication before this can be answered.",
+        },
+        {
+            "question_id": "xq-002",
+            "question": "Is the enemy-as-bringer-of-death dimension present with comparable salience across all cases?",
+            "relevant_cases": ["lincoln", "napoleon", "am-rev", "hitler"],
+            "status": "open",
+            "dependency": "Lincoln pilot evidence shows weak enemy-death salience; other cases remain unrated.",
+        },
+        {
+            "question_id": "xq-003",
+            "question": "Does the obligatory frame appear in all cases, or only in cases with explicit covenantal or martyrological rhetoric?",
+            "relevant_cases": ["lincoln", "am-rev", "napoleon", "hitler"],
+            "status": "open",
+            "dependency": "Per-case obligatory-frame rates require case-level adjudication.",
+        },
+        {
+            "question_id": "xq-004",
+            "question": "Do absence patterns differ systematically by case type (war preservation vs. imperial vs. founding vs. genocide)?",
+            "relevant_cases": ["lincoln", "napoleon", "am-rev", "hitler"],
+            "status": "open",
+            "dependency": "Absence rows exist for all four cases but have not been cross-case adjudicated.",
+        },
+        {
+            "question_id": "xq-005",
+            "question": "What is the structural role of the providence / historical destiny cluster across cases? Is it a universal feature or a historically specific one?",
+            "relevant_cases": ["lincoln", "am-rev", "napoleon", "hitler"],
+            "status": "open",
+            "dependency": "Providence appears in lincoln, am-rev, and napoleon clusters; hitler uses destiny differently. Requires comparative analysis.",
+        },
+    ]
+    pending = [item.get("case_id", "") for item in items if item.get("status") == "pending-case-level-support-rating"]
+    pending = [cid for cid in pending if cid]
+    if pending:
+        questions.append({
+            "question_id": "xq-006",
+            "question": f"When will case-level support ratings be available for: {', '.join(pending)}?",
+            "relevant_cases": pending,
+            "status": "blocking",
+            "dependency": "These cases block all cross-case claims that require support-score comparisons.",
+        })
+    return questions
 
 
 def lincoln_support() -> dict[str, Any]:
@@ -263,12 +459,92 @@ def build() -> dict[str, Any]:
     generated_at = now_iso()
     protocol_data = protocol(generated_at)
     items = comparison_items()
+    all_ids = case_ids()
     synthesis_dir = XCASE_DIR / "synthesis"
     protocol_dir = XCASE_DIR / "protocol"
+    inputs_dir = XCASE_DIR / "inputs"
     status_dir = XCASE_DIR / "status"
     validation_dir = XCASE_DIR / "validation"
-    for directory in [synthesis_dir, protocol_dir, status_dir, validation_dir]:
+    for directory in [synthesis_dir, protocol_dir, inputs_dir, status_dir, validation_dir]:
         directory.mkdir(parents=True, exist_ok=True)
+
+    # Build inputs
+    inputs_data = build_inputs(generated_at, all_ids)
+    write_json(inputs_dir / "case-output-manifest.json", inputs_data["manifest"])
+    write_json(inputs_dir / "cross-case-inputs.json", inputs_data["inputs"])
+    write_json(inputs_dir / "input-readiness-report.json", inputs_data["readiness"])
+
+    # Build comparison artifacts
+    cluster_rows = build_cluster_comparison(all_ids)
+    write_json(
+        synthesis_dir / "cluster-comparison.json",
+        {
+            "version": "1.0",
+            "case_id": "x-case",
+            "generated_at": generated_at,
+            "status": "draft",
+            "guardrails": GUARDRAILS,
+            "items": cluster_rows,
+        },
+    )
+    absence_rows = build_absence_comparison(all_ids)
+    write_json(
+        synthesis_dir / "absence-comparison.json",
+        {
+            "version": "1.0",
+            "case_id": "x-case",
+            "generated_at": generated_at,
+            "status": "draft",
+            "method_note": "Each absence row is a review question per case; cross-case patterns are not confirmed findings.",
+            "items": absence_rows,
+        },
+    )
+    diachronic_rows = build_diachronic_comparison(all_ids)
+    write_json(
+        synthesis_dir / "diachronic-comparison.json",
+        {
+            "version": "1.0",
+            "case_id": "x-case",
+            "generated_at": generated_at,
+            "status": "draft",
+            "guardrails": GUARDRAILS,
+            "items": diachronic_rows,
+        },
+    )
+    shared_instances = build_shared_concordance(all_ids)
+    write_json(
+        synthesis_dir / "shared-concordance.json",
+        {
+            "version": "1.0",
+            "case_id": "x-case",
+            "generated_at": generated_at,
+            "status": "draft",
+            "total_instances": len(shared_instances),
+            "items": shared_instances,
+        },
+    )
+    rival_rows = build_rival_explanations(all_ids)
+    write_json(
+        synthesis_dir / "rival-explanations-matrix.json",
+        {
+            "version": "1.0",
+            "case_id": "x-case",
+            "generated_at": generated_at,
+            "status": "draft",
+            "items": rival_rows,
+        },
+    )
+    open_q = build_open_questions(items)
+    write_json(
+        synthesis_dir / "open-questions.json",
+        {
+            "version": "1.0",
+            "case_id": "x-case",
+            "generated_at": generated_at,
+            "status": "draft",
+            "items": open_q,
+        },
+    )
 
     write_json(protocol_dir / "comparative-analysis-protocol.json", protocol_data)
     write_protocol_md(protocol_data)
@@ -327,10 +603,22 @@ def build() -> dict[str, Any]:
                 "synthesis/case-comparison.json",
                 "synthesis/war-genocide-distinction.json",
                 "synthesis/sacrifice-law-findings.json",
+                "synthesis/cluster-comparison.json",
+                "synthesis/absence-comparison.json",
+                "synthesis/diachronic-comparison.json",
+                "synthesis/shared-concordance.json",
+                "synthesis/rival-explanations-matrix.json",
+                "synthesis/open-questions.json",
+                "inputs/case-output-manifest.json",
+                "inputs/cross-case-inputs.json",
+                "inputs/input-readiness-report.json",
             ],
             "dependencies": [
                 "cases/lincoln/analysis/support-ratings.json",
                 "cases/lincoln/analysis/historical-enactment-alignment.json",
+                "cases/am-rev/analysis/analysis.json",
+                "cases/napoleon/analysis/analysis.json",
+                "cases/hitler/analysis/analysis.json",
             ],
         },
     )
@@ -360,7 +648,15 @@ def build() -> dict[str, Any]:
         },
     )
     write_qmd_pages(items, protocol_data)
-    return {"generated_at": generated_at, "case_rows": len(items), "guardrails": len(GUARDRAILS)}
+    return {
+        "generated_at": generated_at,
+        "case_rows": len(items),
+        "guardrails": len(GUARDRAILS),
+        "cluster_rows": len(cluster_rows),
+        "absence_rows": len(absence_rows),
+        "shared_instances": len(shared_instances),
+        "open_questions": len(open_q),
+    }
 
 
 def main() -> int:
@@ -369,8 +665,10 @@ def main() -> int:
     parser.parse_args()
     result = build()
     print(
-        f"x-case: built comparative protocol with {result['case_rows']} case row(s) "
-        f"and {result['guardrails']} guardrail(s)."
+        f"x-case: built comparative protocol with {result['case_rows']} case row(s), "
+        f"{result['guardrails']} guardrail(s), {result['cluster_rows']} cluster row(s), "
+        f"{result['absence_rows']} absence row(s), {result['shared_instances']} shared instance(s), "
+        f"{result['open_questions']} open question(s)."
     )
     return 0
 

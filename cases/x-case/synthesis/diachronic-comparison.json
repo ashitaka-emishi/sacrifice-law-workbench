@@ -1,4 +1,100 @@
 {
+  "version": "1.0",
+  "case_id": "x-case",
+  "generated_at": "2026-06-17T16:56:27",
   "status": "draft",
-  "items": []
+  "guardrails": [
+    "Structural comparison is not moral equivalence.",
+    "Similarity in metaphor form is not equivalence in political content, institutional setting, or historical outcome.",
+    "Enemy construction, endpoint, violence logic, and historical enactment matter centrally.",
+    "Each case remains historically contextualized and evidence-bound.",
+    "Comparator cases without support ratings remain pending, not inferred by analogy.",
+    "War, genocide, enslavement, colonial violence, and state terror require separate historical and moral description even when symbolic structures overlap."
+  ],
+  "items": [
+    {
+      "case_id": "am-rev",
+      "total_instances": 61,
+      "documents_with_instances": 2,
+      "total_documents": 2,
+      "by_cluster": {
+        "am-rev-02-people-republic": 26,
+        "am-rev-06-union-founding-memory": 17,
+        "am-rev-01-liberty-tyranny": 12,
+        "am-rev-04-providence-covenant": 3,
+        "am-rev-03-founding-sacrifice": 2,
+        "am-rev-05-virtue-corruption": 1
+      },
+      "by_fantasy_type": {
+        "redemptive_sacrifice": 15,
+        "providential_covenant": 3
+      },
+      "by_violence_logic": {
+        "True": 4
+      },
+      "claim_boundary": "Diachronic claims require document-level dating and sequential context not yet fully represented in this aggregate."
+    },
+    {
+      "case_id": "hitler",
+      "total_instances": 65,
+      "documents_with_instances": 8,
+      "total_documents": 8,
+      "by_cluster": {
+        "hitler-01-volk-racial-body": 40,
+        "hitler-03-jew-parasite-disease": 16,
+        "hitler-02-fuhrer-embodiment": 6,
+        "hitler-06-sacrifice-martyrdom": 3
+      },
+      "by_fantasy_type": {
+        "redemptive_sacrifice": 6
+      },
+      "by_violence_logic": {
+        "True": 24
+      },
+      "claim_boundary": "Diachronic claims require document-level dating and sequential context not yet fully represented in this aggregate."
+    },
+    {
+      "case_id": "lincoln",
+      "total_instances": 64,
+      "documents_with_instances": 3,
+      "total_documents": 3,
+      "by_cluster": {
+        "lincoln-01-body-organism": 43,
+        "lincoln-05-fathers-inheritance": 6,
+        "lincoln-08-sacrificial-death-gift": 5,
+        "lincoln-02-covenant-oath": 4,
+        "lincoln-03-experiment-proposition": 3,
+        "lincoln-06-providence-theodicy": 2,
+        "lincoln-07-absence-black-agency": 1
+      },
+      "by_fantasy_type": {
+        "national_body": 7,
+        "providential_covenant": 4,
+        "redemptive_sacrifice": 4
+      },
+      "by_violence_logic": {
+        "True": 6
+      },
+      "claim_boundary": "Diachronic claims require document-level dating and sequential context not yet fully represented in this aggregate."
+    },
+    {
+      "case_id": "napoleon",
+      "total_instances": 19,
+      "documents_with_instances": 9,
+      "total_documents": 9,
+      "by_cluster": {
+        "napoleon-02-army-body": 8,
+        "napoleon-01-glory-destiny": 6,
+        "napoleon-05-soldier-sacrifice": 4,
+        "napoleon-03-emperor-embodiment": 1
+      },
+      "by_fantasy_type": {
+        "redemptive_sacrifice": 5
+      },
+      "by_violence_logic": {
+        "True": 6
+      },
+      "claim_boundary": "Diachronic claims require document-level dating and sequential context not yet fully represented in this aggregate."
+    }
+  ]
 }

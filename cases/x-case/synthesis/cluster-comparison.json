@@ -1,4 +1,522 @@
 {
+  "version": "1.0",
+  "case_id": "x-case",
+  "generated_at": "2026-06-17T16:56:27",
   "status": "draft",
-  "items": []
+  "guardrails": [
+    "Structural comparison is not moral equivalence.",
+    "Similarity in metaphor form is not equivalence in political content, institutional setting, or historical outcome.",
+    "Enemy construction, endpoint, violence logic, and historical enactment matter centrally.",
+    "Each case remains historically contextualized and evidence-bound.",
+    "Comparator cases without support ratings remain pending, not inferred by analogy.",
+    "War, genocide, enslavement, colonial violence, and state terror require separate historical and moral description even when symbolic structures overlap."
+  ],
+  "items": [
+    {
+      "case_id": "am-rev",
+      "cluster_id": "am-rev-01-liberty-tyranny",
+      "cluster_name": "Liberty versus tyranny",
+      "instance_count": 12,
+      "cmt_mapping_count": 12,
+      "primary_source_domains": [
+        "slavery_bondage",
+        "body",
+        "war_combat"
+      ],
+      "primary_target_domains": [
+        "freedom",
+        "enemy",
+        "social_body"
+      ],
+      "fantasy_types": [],
+      "obligatory_frame_rate": 0.0,
+      "sacrificial_economy_rate": 0.0,
+      "claim_boundary": "Cluster distributions are draft; pending support-rating adjudication per case."
+    },
+    {
+      "case_id": "am-rev",
+      "cluster_id": "am-rev-02-people-republic",
+      "cluster_name": "People / republic as sacred political object",
+      "instance_count": 26,
+      "cmt_mapping_count": 26,
+      "primary_source_domains": [
+        "sacrifice",
+        "birth_generation",
+        "body"
+      ],
+      "primary_target_domains": [
+        "independence",
+        "freedom"
+      ],
+      "fantasy_types": [
+        "redemptive_sacrifice"
+      ],
+      "obligatory_frame_rate": 0.0,
+      "sacrificial_economy_rate": 0.5,
+      "claim_boundary": "Cluster distributions are draft; pending support-rating adjudication per case."
+    },
+    {
+      "case_id": "am-rev",
+      "cluster_id": "am-rev-03-founding-sacrifice",
+      "cluster_name": "Founding sacrifice / blood of liberty",
+      "instance_count": 2,
+      "cmt_mapping_count": 2,
+      "primary_source_domains": [
+        "religion_providence"
+      ],
+      "primary_target_domains": [
+        "sacrifice"
+      ],
+      "fantasy_types": [
+        "redemptive_sacrifice"
+      ],
+      "obligatory_frame_rate": 0.0,
+      "sacrificial_economy_rate": 1.0,
+      "claim_boundary": "Cluster distributions are draft; pending support-rating adjudication per case."
+    },
+    {
+      "case_id": "am-rev",
+      "cluster_id": "am-rev-04-providence-covenant",
+      "cluster_name": "Providence / covenant / sacred duty",
+      "instance_count": 3,
+      "cmt_mapping_count": 3,
+      "primary_source_domains": [
+        "religion_providence"
+      ],
+      "primary_target_domains": [
+        "government"
+      ],
+      "fantasy_types": [
+        "providential_covenant"
+      ],
+      "obligatory_frame_rate": 0.0,
+      "sacrificial_economy_rate": 0.0,
+      "claim_boundary": "Cluster distributions are draft; pending support-rating adjudication per case."
+    },
+    {
+      "case_id": "am-rev",
+      "cluster_id": "am-rev-05-virtue-corruption",
+      "cluster_name": "Virtue versus corruption",
+      "instance_count": 1,
+      "cmt_mapping_count": 1,
+      "primary_source_domains": [
+        "mechanics"
+      ],
+      "primary_target_domains": [
+        "social_body"
+      ],
+      "fantasy_types": [],
+      "obligatory_frame_rate": 0.0,
+      "sacrificial_economy_rate": 0.0,
+      "claim_boundary": "Cluster distributions are draft; pending support-rating adjudication per case."
+    },
+    {
+      "case_id": "am-rev",
+      "cluster_id": "am-rev-06-union-founding-memory",
+      "cluster_name": "Union / founding memory",
+      "instance_count": 17,
+      "cmt_mapping_count": 17,
+      "primary_source_domains": [
+        "body",
+        "agriculture",
+        "object_material"
+      ],
+      "primary_target_domains": [
+        "government",
+        "union",
+        "political_order"
+      ],
+      "fantasy_types": [],
+      "obligatory_frame_rate": 0.0,
+      "sacrificial_economy_rate": 0.0,
+      "claim_boundary": "Cluster distributions are draft; pending support-rating adjudication per case."
+    },
+    {
+      "case_id": "hitler",
+      "cluster_id": "hitler-01-volk-racial-body",
+      "cluster_name": "Volk / racial body",
+      "instance_count": 40,
+      "cmt_mapping_count": 40,
+      "primary_source_domains": [
+        "person_agency",
+        "body",
+        "nature_organism"
+      ],
+      "primary_target_domains": [
+        "racial_order",
+        "racial_identity",
+        "social_body"
+      ],
+      "fantasy_types": [],
+      "obligatory_frame_rate": 0.0,
+      "sacrificial_economy_rate": 0.0,
+      "claim_boundary": "Cluster distributions are draft; pending support-rating adjudication per case."
+    },
+    {
+      "case_id": "hitler",
+      "cluster_id": "hitler-02-fuhrer-embodiment",
+      "cluster_name": "Führer embodiment",
+      "instance_count": 6,
+      "cmt_mapping_count": 6,
+      "primary_source_domains": [
+        "person_agency"
+      ],
+      "primary_target_domains": [
+        "nation",
+        "sacrifice"
+      ],
+      "fantasy_types": [
+        "redemptive_sacrifice"
+      ],
+      "obligatory_frame_rate": 0.0,
+      "sacrificial_economy_rate": 0.5,
+      "claim_boundary": "Cluster distributions are draft; pending support-rating adjudication per case."
+    },
+    {
+      "case_id": "hitler",
+      "cluster_id": "hitler-03-jew-parasite-disease",
+      "cluster_name": "Jew/enemy as parasite / disease / poison",
+      "instance_count": 16,
+      "cmt_mapping_count": 16,
+      "primary_source_domains": [
+        "physical_destruction"
+      ],
+      "primary_target_domains": [
+        "purification"
+      ],
+      "fantasy_types": [],
+      "obligatory_frame_rate": 0.0,
+      "sacrificial_economy_rate": 0.0,
+      "claim_boundary": "Cluster distributions are draft; pending support-rating adjudication per case."
+    },
+    {
+      "case_id": "hitler",
+      "cluster_id": "hitler-04-purification-surgery",
+      "cluster_name": "Purification / cleansing / exterminatory surgery",
+      "instance_count": 0,
+      "cmt_mapping_count": 0,
+      "primary_source_domains": [],
+      "primary_target_domains": [],
+      "fantasy_types": [],
+      "obligatory_frame_rate": null,
+      "sacrificial_economy_rate": null,
+      "claim_boundary": "Cluster distributions are draft; pending support-rating adjudication per case."
+    },
+    {
+      "case_id": "hitler",
+      "cluster_id": "hitler-05-struggle-destiny",
+      "cluster_name": "Struggle / destiny / thousand-year mission",
+      "instance_count": 0,
+      "cmt_mapping_count": 0,
+      "primary_source_domains": [],
+      "primary_target_domains": [],
+      "fantasy_types": [],
+      "obligatory_frame_rate": null,
+      "sacrificial_economy_rate": null,
+      "claim_boundary": "Cluster distributions are draft; pending support-rating adjudication per case."
+    },
+    {
+      "case_id": "hitler",
+      "cluster_id": "hitler-06-sacrifice-martyrdom",
+      "cluster_name": "Sacrifice / martyrdom / blood witness",
+      "instance_count": 3,
+      "cmt_mapping_count": 3,
+      "primary_source_domains": [
+        "ritual_religion"
+      ],
+      "primary_target_domains": [
+        "sacrifice"
+      ],
+      "fantasy_types": [
+        "redemptive_sacrifice"
+      ],
+      "obligatory_frame_rate": 0.0,
+      "sacrificial_economy_rate": 1.0,
+      "claim_boundary": "Cluster distributions are draft; pending support-rating adjudication per case."
+    },
+    {
+      "case_id": "hitler",
+      "cluster_id": "hitler-07-rebirth-reich",
+      "cluster_name": "National rebirth / Reich renewal",
+      "instance_count": 0,
+      "cmt_mapping_count": 0,
+      "primary_source_domains": [],
+      "primary_target_domains": [],
+      "fantasy_types": [],
+      "obligatory_frame_rate": null,
+      "sacrificial_economy_rate": null,
+      "claim_boundary": "Cluster distributions are draft; pending support-rating adjudication per case."
+    },
+    {
+      "case_id": "hitler",
+      "cluster_id": "hitler-08-victim-erasure",
+      "cluster_name": "Victim erasure / moral inversion",
+      "instance_count": 0,
+      "cmt_mapping_count": 0,
+      "primary_source_domains": [],
+      "primary_target_domains": [],
+      "fantasy_types": [],
+      "obligatory_frame_rate": null,
+      "sacrificial_economy_rate": null,
+      "claim_boundary": "Cluster distributions are draft; pending support-rating adjudication per case."
+    },
+    {
+      "case_id": "lincoln",
+      "cluster_id": "lincoln-01-body-organism",
+      "cluster_name": "Nation as organism / body",
+      "instance_count": 43,
+      "cmt_mapping_count": 43,
+      "primary_source_domains": [
+        "body",
+        "nature_organism",
+        "architecture_building"
+      ],
+      "primary_target_domains": [
+        "political_order",
+        "nation",
+        "government"
+      ],
+      "fantasy_types": [
+        "national_body"
+      ],
+      "obligatory_frame_rate": 0.0,
+      "sacrificial_economy_rate": 0.047,
+      "claim_boundary": "Cluster distributions are draft; pending support-rating adjudication per case."
+    },
+    {
+      "case_id": "lincoln",
+      "cluster_id": "lincoln-02-covenant-oath",
+      "cluster_name": "Union as covenant / oath",
+      "instance_count": 4,
+      "cmt_mapping_count": 4,
+      "primary_source_domains": [
+        "object_material",
+        "religion_providence"
+      ],
+      "primary_target_domains": [
+        "law",
+        "union"
+      ],
+      "fantasy_types": [
+        "providential_covenant"
+      ],
+      "obligatory_frame_rate": 0.0,
+      "sacrificial_economy_rate": 0.0,
+      "claim_boundary": "Cluster distributions are draft; pending support-rating adjudication per case."
+    },
+    {
+      "case_id": "lincoln",
+      "cluster_id": "lincoln-03-experiment-proposition",
+      "cluster_name": "Republic as experiment / proposition",
+      "instance_count": 3,
+      "cmt_mapping_count": 3,
+      "primary_source_domains": [
+        "experiment_science"
+      ],
+      "primary_target_domains": [
+        "republic"
+      ],
+      "fantasy_types": [],
+      "obligatory_frame_rate": 0.0,
+      "sacrificial_economy_rate": 0.0,
+      "claim_boundary": "Cluster distributions are draft; pending support-rating adjudication per case."
+    },
+    {
+      "case_id": "lincoln",
+      "cluster_id": "lincoln-04-birth-creation",
+      "cluster_name": "War as birth / new creation",
+      "instance_count": 0,
+      "cmt_mapping_count": 0,
+      "primary_source_domains": [],
+      "primary_target_domains": [],
+      "fantasy_types": [],
+      "obligatory_frame_rate": null,
+      "sacrificial_economy_rate": null,
+      "claim_boundary": "Cluster distributions are draft; pending support-rating adjudication per case."
+    },
+    {
+      "case_id": "lincoln",
+      "cluster_id": "lincoln-05-fathers-inheritance",
+      "cluster_name": "Founding fathers as inheritance",
+      "instance_count": 6,
+      "cmt_mapping_count": 6,
+      "primary_source_domains": [
+        "life_death",
+        "debt_accounting",
+        "theater_stage"
+      ],
+      "primary_target_domains": [
+        "history"
+      ],
+      "fantasy_types": [],
+      "obligatory_frame_rate": 0.0,
+      "sacrificial_economy_rate": 0.5,
+      "claim_boundary": "Cluster distributions are draft; pending support-rating adjudication per case."
+    },
+    {
+      "case_id": "lincoln",
+      "cluster_id": "lincoln-06-providence-theodicy",
+      "cluster_name": "Providence / divine will",
+      "instance_count": 2,
+      "cmt_mapping_count": 2,
+      "primary_source_domains": [
+        "religion_providence"
+      ],
+      "primary_target_domains": [
+        "citizenship",
+        "slavery"
+      ],
+      "fantasy_types": [
+        "providential_covenant"
+      ],
+      "obligatory_frame_rate": 0.0,
+      "sacrificial_economy_rate": 0.0,
+      "claim_boundary": "Cluster distributions are draft; pending support-rating adjudication per case."
+    },
+    {
+      "case_id": "lincoln",
+      "cluster_id": "lincoln-07-absence-black-agency",
+      "cluster_name": "Systematic absence / suppressed agency",
+      "instance_count": 1,
+      "cmt_mapping_count": 1,
+      "primary_source_domains": [
+        "debt_accounting"
+      ],
+      "primary_target_domains": [
+        "slavery"
+      ],
+      "fantasy_types": [],
+      "obligatory_frame_rate": 0.0,
+      "sacrificial_economy_rate": 0.0,
+      "claim_boundary": "Cluster distributions are draft; pending support-rating adjudication per case."
+    },
+    {
+      "case_id": "lincoln",
+      "cluster_id": "lincoln-08-sacrificial-death-gift",
+      "cluster_name": "Soldier death as sacrifice / gift",
+      "instance_count": 5,
+      "cmt_mapping_count": 5,
+      "primary_source_domains": [
+        "sacrifice",
+        "theater_stage"
+      ],
+      "primary_target_domains": [
+        "citizenship",
+        "political_order",
+        "war_death"
+      ],
+      "fantasy_types": [
+        "redemptive_sacrifice"
+      ],
+      "obligatory_frame_rate": 0.0,
+      "sacrificial_economy_rate": 1.0,
+      "claim_boundary": "Cluster distributions are draft; pending support-rating adjudication per case."
+    },
+    {
+      "case_id": "napoleon",
+      "cluster_id": "napoleon-01-glory-destiny",
+      "cluster_name": "Glory / destiny / world-historical mission",
+      "instance_count": 6,
+      "cmt_mapping_count": 6,
+      "primary_source_domains": [
+        "light_darkness",
+        "object_material"
+      ],
+      "primary_target_domains": [
+        "history",
+        "military_virtue"
+      ],
+      "fantasy_types": [],
+      "obligatory_frame_rate": 0.0,
+      "sacrificial_economy_rate": 0.0,
+      "claim_boundary": "Cluster distributions are draft; pending support-rating adjudication per case."
+    },
+    {
+      "case_id": "napoleon",
+      "cluster_id": "napoleon-02-army-body",
+      "cluster_name": "Army as body / instrument of destiny",
+      "instance_count": 8,
+      "cmt_mapping_count": 8,
+      "primary_source_domains": [
+        "body",
+        "sacrifice"
+      ],
+      "primary_target_domains": [
+        "military_virtue",
+        "army",
+        "war_death"
+      ],
+      "fantasy_types": [
+        "redemptive_sacrifice"
+      ],
+      "obligatory_frame_rate": 0.0,
+      "sacrificial_economy_rate": 0.375,
+      "claim_boundary": "Cluster distributions are draft; pending support-rating adjudication per case."
+    },
+    {
+      "case_id": "napoleon",
+      "cluster_id": "napoleon-03-emperor-embodiment",
+      "cluster_name": "Emperor as embodiment of France/history",
+      "instance_count": 1,
+      "cmt_mapping_count": 1,
+      "primary_source_domains": [
+        "sacrifice"
+      ],
+      "primary_target_domains": [
+        "nation"
+      ],
+      "fantasy_types": [
+        "redemptive_sacrifice"
+      ],
+      "obligatory_frame_rate": 0.0,
+      "sacrificial_economy_rate": 1.0,
+      "claim_boundary": "Cluster distributions are draft; pending support-rating adjudication per case."
+    },
+    {
+      "case_id": "napoleon",
+      "cluster_id": "napoleon-04-empire-order",
+      "cluster_name": "Empire as order / civilization / law",
+      "instance_count": 0,
+      "cmt_mapping_count": 0,
+      "primary_source_domains": [],
+      "primary_target_domains": [],
+      "fantasy_types": [],
+      "obligatory_frame_rate": null,
+      "sacrificial_economy_rate": null,
+      "claim_boundary": "Cluster distributions are draft; pending support-rating adjudication per case."
+    },
+    {
+      "case_id": "napoleon",
+      "cluster_id": "napoleon-05-soldier-sacrifice",
+      "cluster_name": "Soldier sacrifice / honor / immortality",
+      "instance_count": 4,
+      "cmt_mapping_count": 4,
+      "primary_source_domains": [
+        "sacrifice",
+        "journey_motion"
+      ],
+      "primary_target_domains": [
+        "war_death"
+      ],
+      "fantasy_types": [
+        "redemptive_sacrifice"
+      ],
+      "obligatory_frame_rate": 0.0,
+      "sacrificial_economy_rate": 1.0,
+      "claim_boundary": "Cluster distributions are draft; pending support-rating adjudication per case."
+    },
+    {
+      "case_id": "napoleon",
+      "cluster_id": "napoleon-06-enemy-obstacle",
+      "cluster_name": "Enemy as obstacle to order/destiny",
+      "instance_count": 0,
+      "cmt_mapping_count": 0,
+      "primary_source_domains": [],
+      "primary_target_domains": [],
+      "fantasy_types": [],
+      "obligatory_frame_rate": null,
+      "sacrificial_economy_rate": null,
+      "claim_boundary": "Cluster distributions are draft; pending support-rating adjudication per case."
+    }
+  ]
 }
