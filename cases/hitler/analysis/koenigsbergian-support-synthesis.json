@@ -1,0 +1,49 @@
+{
+  "version": "1.0",
+  "case_id": "hitler",
+  "generated_at": "2026-06-17T00:00:00",
+  "status": "draft",
+  "support_summary": {
+    "formula": "((S + 1) * (B + 1) * (E + 1) * (H + 1)^2)^(1/5) - 1",
+    "score": 2.94,
+    "uncapped_category": "strong support",
+    "historical_alignment_cap": "strong support",
+    "final_category": "strong support"
+  },
+  "support_statement": "strong support, with a structurally distinctive enemy-extermination logic that distinguishes this case from all others in the comparative study",
+  "supporting_dimensions": {
+    "sacred_object": 3.57,
+    "sacrificial_body": 1.89,
+    "enemy_as_bringer_of_death": 3.20,
+    "historical_enactment_alignment": 3.14
+  },
+  "dimension_notes": {
+    "sacred_collective_object": "Das Volk as racial organism is the corpus's overwhelmingly dominant sacred object: 40 of 65 instances (62%) are in cluster 01 (Volk/racial body), expressed through Blut (blood), Boden (soil), Seele (soul), Schicksal (destiny), and Lebensraum. The racial body is treated as immortal, transcendent, and worth sacrifice in a manner that saturates the corpus across all eight documents and both registers (polemic and proclamation). Score: 3.57.",
+    "dominant_body_metaphor": "The dominant body metaphor is the Volk-as-racial-organism: the German people is figured as a living biological body with blood, heredity, contamination thresholds, and survival imperatives. This is not a secondary frame but the structural foundation for all other dimensions. RACIAL IDENTITY IS BODY (13 mappings) and SOCIAL BODY IS PERSON AGENCY (9 mappings) are the primary conceptual metaphors. The Führer-embodiment cluster (6 instances) extends this: the Führer is the racial body's personal expression and guardian.",
+    "violence_logic": "Violence logic in this corpus is extermination-as-purification, not preservation or reconciliation. PURIFICATION IS PHYSICAL DESTRUCTION (16 mappings, all in cluster 03) is the dominant violence frame: the enemy must be eliminated as a pathogen is eliminated, not defeated as a rival is defeated. This is the most analytically distinctive feature of the Hitler case and the dimension that most sharply separates it from other cases in the comparative study. Clusters 04 (purification-surgery) and 05 (struggle-destiny) have zero instances, but the extermination logic is fully realized through clusters 01 and 03 rather than requiring them.",
+    "enemy_as_bringer_of_death": "Enemy-as-bringer-of-death evidence is the corpus's second-strongest dimension (score: 3.20) after sacred object. The Jew/enemy is constructed as a parasite, disease, and poison (cluster 03, 16 instances) — not an external rival but an internal pathogen that kills the racial body from within. This is enemy-as-bringer-of-death at its maximum conceptual intensity: the enemy does not merely threaten the collective but constitutes its existential contamination. The Reichstag speech (1939) escalates this to public genocidal declaration, and the USSR Proclamation (1941) activates it as military-operational rationale.",
+    "death_logic": "The primary death logic is that the enemy must die for the Volk to live. This is distinct from martyrological death logic (cluster 06, sacrifice-martyrdom, 3 instances — thin evidence), where the movement's own dead become a sacred debt. Both logics are present but with very different evidentiary weights: the extermination logic (clusters 01+03) dominates with 56 combined instances; the martyrdom logic (cluster 06) is thin with 3 instances of high salience. The corpus constructs a death economy in which enemy death is the enabling condition for Volk survival, not a consequence of war.",
+    "guilt_structure": "Guilt is projected entirely onto the enemy (the Jew as source of all historical corruption, racial degeneration, and political crisis). There is no shared or national guilt — this is the structural inverse of Lincoln's providential guilt-sharing in the Second Inaugural. The Volk is positioned as innocent victim of Jewish contamination; violence against the enemy is therefore defensive and obligatory rather than punitive. Clusters 07 (victim-erasure) and 08 (victim-erasure/moral-inversion) have zero instances, but the victim-erasure logic is operationally present through the parasite/disease frame in cluster 03.",
+    "endpoint": "The imagined endpoint is racial purification and territorial expansion (Lebensraum), not reconciliation, republican self-government, or coexistence. The Volk achieves historical fulfillment through elimination of the contaminating enemy and acquisition of living space. This distinguishes the Hitler case from Lincoln (reunion/reconciliation), the American Revolution (constitutional founding), and Napoleon (imperial glory). Clusters 07 (rebirth-Reich) and 08 have zero instances, but the purification endpoint is fully elaborated through clusters 01 and 03.",
+    "historical_enactment_alignment": "Historical alignment is strong (score: 3.14) and corroborated by four external anchors: Nuremberg Laws 1935 (formal enactment of racial-body metaphors as state law), Operation Barbarossa 1941 (enactment of Lebensraum territorial-elimination logic), Wannsee Conference 1942 (bureaucratic systematization of the annihilationist enemy frame, explicitly invoking the 1939 Reichstag 'prophecy'), and social uptake of Volk/Jew-parasite metaphors through Nazi propaganda institutions. All four notes require publication-grade citations before final use."
+  },
+  "complications": [
+    "Sacrificial-body evidence is lower than expected (score: 1.89) because martyrdom language (cluster 06) is thin — only 3 instances, all in Vol1 Ch11. The corpus's dominant sacrificial economy is enemy-extermination, not self-sacrifice. This means the Hitler case achieves strong Koenigsbergian support through a different internal architecture than Lincoln: sacred object and enemy-death dominate; sacrificial body is secondary.",
+    "Four of eight clusters (04 purification-surgery, 05 struggle-destiny, 07 rebirth-Reich, 08 victim-erasure) have zero corpus instances. The violence logic, death logic, endpoint, and guilt-structure dimensions are scored from adjacent cluster evidence and document-level content rather than direct cluster representation. Scoring confidence for those dimensions is lower than for sacred-object and enemy-death.",
+    "The corpus is composed entirely of German source-language texts. Metaphor annotation was conducted on source-language glosses per MIPVU protocol. Translation effects on conceptual metaphor density cannot be ruled out.",
+    "The two public speeches (Reichstag 1939, USSR 1941) have very high historical-enactment scores but very low instance counts (2 and 3 respectively). The high scores for those documents are driven by the documented historical consequences of those specific rhetorical acts, not by their metaphor density."
+  ],
+  "koenigsbergian_framework_alignment": {
+    "does_case_support_framework": true,
+    "support_strength": "strong",
+    "what_is_supported": "The Hitler case provides strong evidence that the Koenigsbergian Law of Sacrifice framework identifies a real pattern: the sacred collective object (das Volk as racial body) is constituted through enemy-as-bringer-of-death construction (Jew as parasite/disease), and the sacrificial economy authorizes violence as biological necessity. The framework's core logic — that collective sacred identity requires an enemy whose death is the condition of the collective's life — maps directly onto this corpus.",
+    "what_is_not_supported": "The corpus does not strongly support the classic martyrological variant of the sacrificial-body dimension (cluster 06 is thin). The Hitler case is not primarily about the community's own dead becoming sacred obligation; it is primarily about the enemy's necessary death as the condition of Volk survival. This is a distinct variant of the Koenigsbergian pattern.",
+    "analytic_distinctiveness": "The Hitler case is analytically distinctive in the comparative study because it represents the framework's most dangerous potential: the logic of sacrificial purification extended to genocidal extermination. This is a structural observation about the framework's diagnostic scope, not a claim of moral equivalence with other cases."
+  },
+  "moral_equivalence_guardrail": {
+    "guardrail_applied": true,
+    "statement": "Strong Koenigsbergian support in this case does not establish moral equivalence with other cases in the comparative study. The comparison protocol (cases/x-case/validation/moral-equivalence-guardrails.json) requires that war, genocide, enslavement, colonial violence, and state terror be described separately by endpoint, enemy construction, violence logic, and historical enactment — even when symbolic structures overlap. The Hitler case's endpoint (racial extermination), violence logic (purification-as-elimination), enemy construction (Jew as existential pathogen), and historical enactment (Holocaust) are categorically distinct from the Lincoln case's endpoint (reunion/reconciliation), violence logic (preservation/providential judgment), and historical enactment (Civil War). Structural similarity in the sacred-object or body-metaphor dimension does not license equivalence claims across these differences.",
+    "citation": "cases/x-case/validation/moral-equivalence-guardrails.json"
+  },
+  "claim_boundary": "Assessment of evidentiary support for the Koenigsbergian Law of Sacrifice framework, not proof or causal explanation. Historical alignment notes corroborate context; they do not prove that metaphors caused genocide. Full-corpus MIPVU review and reliability adjudication remain pending. Publication-grade citations are required before any claim in this synthesis is advanced in a scholarly publication."
+}

@@ -1,0 +1,235 @@
+{
+  "version": "1.0",
+  "case_id": "hitler",
+  "generated_at": "2026-06-17T00:00:00",
+  "status": "draft",
+  "scale": "0-4 anchored support scale",
+  "document_ratings": [
+    {
+      "score_id": "hitler-score-doc-vol1-ch11",
+      "document_id": "hitler-mein-kampf-vol1-ch11-race-and-people",
+      "document_weight": 3.0,
+      "weight_rationale": "Canonical race-theory chapter; 29 of 65 instances (45%) concentrated here; densest evidence for Volk-as-racial-body, enemy-as-parasite, and sacrificial obligation.",
+      "scores": {
+        "sacred_object": 4.0,
+        "sacrificial_body": 3.0,
+        "enemy_as_bringer_of_death": 3.5,
+        "historical_enactment_alignment": 3.0
+      },
+      "mapping_ids": [
+        "hitler-cmt-001", "hitler-cmt-002", "hitler-cmt-003", "hitler-cmt-004",
+        "hitler-cmt-005", "hitler-cmt-006", "hitler-cmt-007", "hitler-cmt-008",
+        "hitler-cmt-009", "hitler-cmt-010", "hitler-cmt-011", "hitler-cmt-012",
+        "hitler-cmt-013", "hitler-cmt-014", "hitler-cmt-015", "hitler-cmt-016",
+        "hitler-cmt-017", "hitler-cmt-018", "hitler-cmt-019", "hitler-cmt-020",
+        "hitler-cmt-021", "hitler-cmt-022", "hitler-cmt-023", "hitler-cmt-024",
+        "hitler-cmt-025", "hitler-cmt-026", "hitler-cmt-027", "hitler-cmt-032",
+        "hitler-cmt-033"
+      ],
+      "historical_note_ids": [
+        "hitler-hist-001", "hitler-hist-002"
+      ],
+      "rationale": "Sacred-object evidence is maximal: das Volk as racial organism is the chapter's central, sustained theme across blood (Blut), soil (Boden), soul (Seele), and destiny (Schicksal). Sacrificial-body evidence is present through Opfer/opfern martyrdom language (clusters 02, 06). Enemy-as-bringer-of-death is strong via PURIFICATION IS PHYSICAL DESTRUCTION and Jew-as-parasite/disease mappings. Historical-enactment alignment corroborated by subsequent Nuremberg Laws (1935) and racial-science institutionalization. Clusters 04, 05, 07, 08 have zero instances in this document; thin-evidence caveat applies."
+    },
+    {
+      "score_id": "hitler-score-doc-vol1-ch12",
+      "document_id": "hitler-mein-kampf-vol1-ch12-nsdap",
+      "document_weight": 1.5,
+      "weight_rationale": "NSDAP founding chapter; 8 instances; establishes movement-as-sacred-cause and Führer-embodiment frame.",
+      "scores": {
+        "sacred_object": 3.5,
+        "sacrificial_body": 2.5,
+        "enemy_as_bringer_of_death": 2.5,
+        "historical_enactment_alignment": 2.5
+      },
+      "mapping_ids": [
+        "hitler-cmt-028", "hitler-cmt-034", "hitler-cmt-035", "hitler-cmt-036",
+        "hitler-cmt-037", "hitler-cmt-038", "hitler-cmt-048", "hitler-cmt-049"
+      ],
+      "historical_note_ids": [
+        "hitler-hist-001"
+      ],
+      "rationale": "Sacred object (Volk/movement/racial mission) is strongly present. Sacrificial body evidence is moderate: Helden/Heldentum (hero/heroism) language supplies sacrificial-economy framing. Enemy construction present but less developed than in dedicated race-theory chapters. Historical alignment corroborated by NSDAP organizational history and subsequent political trajectory."
+    },
+    {
+      "score_id": "hitler-score-doc-vol1-ch2",
+      "document_id": "hitler-mein-kampf-vol1-ch2-wien",
+      "document_weight": 1.0,
+      "weight_rationale": "Autobiographical formation chapter; 5 instances; important for diachronic setup but less doctrinally dense.",
+      "scores": {
+        "sacred_object": 3.0,
+        "sacrificial_body": 1.0,
+        "enemy_as_bringer_of_death": 1.5,
+        "historical_enactment_alignment": 2.0
+      },
+      "mapping_ids": [
+        "hitler-cmt-039", "hitler-cmt-040", "hitler-cmt-041", "hitler-cmt-042",
+        "hitler-cmt-043"
+      ],
+      "historical_note_ids": [
+        "hitler-hist-001"
+      ],
+      "rationale": "Vienna chapter supplies early Volk/racial-body formation language but does not yet develop the full sacrificial or extermination logic. Sacred-object evidence is present through Blut and Schicksal expressions; sacrificial-body and enemy-death evidence are thin. Historical alignment is primarily developmental context rather than direct enactment."
+    },
+    {
+      "score_id": "hitler-score-doc-vol2-ch1",
+      "document_id": "hitler-mein-kampf-vol2-ch1-weltanschauung",
+      "document_weight": 1.0,
+      "weight_rationale": "Worldview-theory chapter; 3 instances; establishes ideological frame for racial Weltanschauung.",
+      "scores": {
+        "sacred_object": 3.5,
+        "sacrificial_body": 1.5,
+        "enemy_as_bringer_of_death": 2.5,
+        "historical_enactment_alignment": 2.5
+      },
+      "mapping_ids": [
+        "hitler-cmt-050", "hitler-cmt-051", "hitler-cmt-052"
+      ],
+      "historical_note_ids": [
+        "hitler-hist-001", "hitler-hist-002"
+      ],
+      "rationale": "Weltanschauung chapter develops the sacred-collective frame (racial ideology as ultimate worldview) and enemy-as-contamination logic (PURIFICATION IS PHYSICAL DESTRUCTION present). Sacrificial-body evidence is limited given the small instance count. Historical alignment corroborated by ideological institutionalization in the Reich."
+    },
+    {
+      "score_id": "hitler-score-doc-vol2-ch2",
+      "document_id": "hitler-mein-kampf-vol2-ch2-the-state",
+      "document_weight": 1.5,
+      "weight_rationale": "State theory chapter; 7 instances; develops racial state concept and purification mandate.",
+      "scores": {
+        "sacred_object": 3.5,
+        "sacrificial_body": 1.5,
+        "enemy_as_bringer_of_death": 3.0,
+        "historical_enactment_alignment": 2.5
+      },
+      "mapping_ids": [
+        "hitler-cmt-053", "hitler-cmt-054", "hitler-cmt-055", "hitler-cmt-056",
+        "hitler-cmt-057", "hitler-cmt-058", "hitler-cmt-059"
+      ],
+      "historical_note_ids": [
+        "hitler-hist-001", "hitler-hist-002"
+      ],
+      "rationale": "State theory chapter establishes the racial state as sacred object and develops strong enemy-as-contamination framing through PURIFICATION IS PHYSICAL DESTRUCTION mappings. The Vernichtung cluster is well-represented. Historical alignment corroborated by subsequent racial-state legislation and bureaucratic persecution apparatus."
+    },
+    {
+      "score_id": "hitler-score-doc-vol2-ch14",
+      "document_id": "hitler-mein-kampf-vol2-ch14-eastern-europe",
+      "document_weight": 2.0,
+      "weight_rationale": "Eastern Europe / Lebensraum chapter; 8 instances; explicit territorial expansion and racial elimination mandate; directly foreshadows Operation Barbarossa.",
+      "scores": {
+        "sacred_object": 4.0,
+        "sacrificial_body": 2.0,
+        "enemy_as_bringer_of_death": 3.5,
+        "historical_enactment_alignment": 3.5
+      },
+      "mapping_ids": [
+        "hitler-cmt-060", "hitler-cmt-061", "hitler-cmt-062", "hitler-cmt-063",
+        "hitler-cmt-064"
+      ],
+      "historical_note_ids": [
+        "hitler-hist-002", "hitler-hist-003"
+      ],
+      "rationale": "The Lebensraum chapter presents the most explicit territorial-elimination logic: the Volk requires eastern land for survival, and the Slavic/Jewish enemy is constructed as an existential obstacle requiring removal. Sacred-object evidence is maximal (Lebensraum as biological necessity for the racial body). Enemy-as-bringer-of-death is very strong. Historical-enactment alignment is high: Operation Barbarossa (1941) and Einsatzgruppen mass shootings directly enacted this logic. Sacrificial-body evidence is moderate via hero framing."
+    },
+    {
+      "score_id": "hitler-score-doc-reichstag-1939",
+      "document_id": "hitler-reichstag-1939-01-30",
+      "document_weight": 2.0,
+      "weight_rationale": "Reichstag speech of January 30, 1939; 2 instances; contains the public 'prophecy' of Jewish annihilation; most historically consequential single speech in the corpus for enemy-as-bringer-of-death.",
+      "scores": {
+        "sacred_object": 3.0,
+        "sacrificial_body": 1.0,
+        "enemy_as_bringer_of_death": 4.0,
+        "historical_enactment_alignment": 4.0
+      },
+      "mapping_ids": [
+        "hitler-cmt-044", "hitler-cmt-045"
+      ],
+      "historical_note_ids": [
+        "hitler-hist-003", "hitler-hist-004"
+      ],
+      "rationale": "The Reichstag speech provides the clearest public statement of enemy-as-bringer-of-death at maximum intensity: the Jew is declared an annihilationist threat to European civilization, licensing genocide as defensive necessity. PURIFICATION IS PHYSICAL DESTRUCTION mappings are present. Historical-enactment alignment is maximal: the speech was subsequently invoked to justify mass murder at Wannsee (January 1942) and throughout the Final Solution. Sacred-object and sacrificial-body evidence is thinner given the 2-instance count; thin-evidence caveat applies to those dimensions for this document."
+    },
+    {
+      "score_id": "hitler-score-doc-ussr-1941",
+      "document_id": "hitler-ussr-proclamation-1941-06-22",
+      "document_weight": 2.0,
+      "weight_rationale": "USSR invasion proclamation June 22, 1941; 3 instances; state-level enactment document linking racial-body frame to military invasion and Jewish-Bolshevist enemy construction.",
+      "scores": {
+        "sacred_object": 3.5,
+        "sacrificial_body": 1.5,
+        "enemy_as_bringer_of_death": 3.5,
+        "historical_enactment_alignment": 4.0
+      },
+      "mapping_ids": [
+        "hitler-cmt-046", "hitler-cmt-047", "hitler-cmt-065"
+      ],
+      "historical_note_ids": [
+        "hitler-hist-003", "hitler-hist-004"
+      ],
+      "rationale": "The USSR proclamation fuses Volk-survival (sacred object), Jewish-Bolshevist enemy-as-contaminant, and military mobilization into a single document of state enactment. Enemy-as-bringer-of-death is very strong. Historical-enactment alignment is maximal: the proclamation launched Operation Barbarossa, directly followed by Einsatzgruppen mass shootings. Sacrificial-body evidence is limited given the 3-instance count; the operational register foregrounds destruction over martyrdom."
+    }
+  ],
+  "case_scores": {
+    "sacred_object": 3.57,
+    "sacrificial_body": 1.89,
+    "enemy_as_bringer_of_death": 3.20,
+    "historical_enactment_alignment": 3.14
+  },
+  "overall_support": {
+    "formula": "((S + 1) * (B + 1) * (E + 1) * (H + 1)^2)^(1/5) - 1",
+    "score": 2.94,
+    "uncapped_category": "strong support",
+    "historical_alignment_cap": "strong support",
+    "final_category": "strong support"
+  },
+  "cluster_evidence_summary": {
+    "hitler-01-volk-racial-body": {
+      "instance_count": 40,
+      "evidence_status": "strong — dominant cluster, 62% of all instances",
+      "koenigsbergian_dimension": "sacred_object, dominant_body_metaphor"
+    },
+    "hitler-02-fuhrer-embodiment": {
+      "instance_count": 6,
+      "evidence_status": "moderate — medium salience",
+      "koenigsbergian_dimension": "sacrificial_body (partially)"
+    },
+    "hitler-03-jew-parasite-disease": {
+      "instance_count": 16,
+      "evidence_status": "strong — second-largest cluster, 25% of all instances",
+      "koenigsbergian_dimension": "enemy_as_bringer_of_death"
+    },
+    "hitler-04-purification-surgery": {
+      "instance_count": 0,
+      "evidence_status": "absent — zero instances; dimension not independently scored from this cluster",
+      "koenigsbergian_dimension": "violence_logic (would-be)"
+    },
+    "hitler-05-struggle-destiny": {
+      "instance_count": 0,
+      "evidence_status": "absent — zero instances",
+      "koenigsbergian_dimension": "death_logic (would-be)"
+    },
+    "hitler-06-sacrifice-martyrdom": {
+      "instance_count": 3,
+      "evidence_status": "thin — high salience but 3 instances, all in Vol1 Ch11",
+      "koenigsbergian_dimension": "sacrificial_body, death_logic"
+    },
+    "hitler-07-rebirth-reich": {
+      "instance_count": 0,
+      "evidence_status": "absent — zero instances",
+      "koenigsbergian_dimension": "endpoint (would-be)"
+    },
+    "hitler-08-victim-erasure": {
+      "instance_count": 0,
+      "evidence_status": "absent — zero instances",
+      "koenigsbergian_dimension": "guilt_structure (would-be)"
+    }
+  },
+  "limitations": [
+    "Scores are provisional and based on reviewed MIPVU annotations for 8 Hitler corpus documents.",
+    "Four of eight clusters (04, 05, 07, 08) have zero instances; those dimensions are scored from adjacent cluster evidence and document-level content rather than direct cluster representation.",
+    "Sacrificial-body score is lower than sacred-object and enemy-death scores because martyrdom language (cluster 06) is thin (3 instances); the dominant death logic is enemy-extermination, not self-sacrifice.",
+    "Historical-alignment claims cite Nuremberg Laws (1935), Wannsee Conference (January 1942), Operation Barbarossa (June 1941), and Einsatzgruppen records — these require publication-grade citations before final use.",
+    "The support rating measures Koenigsbergian framework alignment, not moral severity. The moral-equivalence guardrails in cases/x-case/validation/moral-equivalence-guardrails.json apply: structural similarity in metaphor does not establish moral equivalence with other cases.",
+    "All corpus texts are German source-language; metaphor annotation was conducted on source-language glosses per MIPVU protocol."
+  ]
+}
