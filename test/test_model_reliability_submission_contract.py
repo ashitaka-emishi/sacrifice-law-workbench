@@ -108,6 +108,31 @@ class SubmissionContractTest(unittest.TestCase):
     def test_valid_multilingual_multi_lexical_unit_submission(self) -> None:
         self.assertEqual(validate_submission(valid_submission(), context()), [])
 
+    def test_cmt_does_not_require_identification_decisions(self) -> None:
+        submission = valid_submission()
+        for unit in submission["items"][0]["lexical_units"]:
+            del unit["decision"]
+            del unit["boundary_decision"]
+
+        self.assertEqual(validate_submission(submission, context()), [])
+
+    def test_identification_requires_lexical_unit_decisions(self) -> None:
+        submission = valid_submission()
+        item = submission["items"][0]
+        item["task_layer"] = "identification"
+        del item["cmt"]
+        item["identification"] = {
+            "contextual_meaning": "A contextual meaning.",
+            "basic_meaning": "A basic meaning.",
+            "contrast_explanation": "The meanings contrast.",
+            "comparison_basis": "Comparison across domains.",
+        }
+        del item["lexical_units"][0]["decision"]
+
+        errors = validate_submission(submission, context())
+
+        self.assertTrue(any("decision" in error and "required property" in error for error in errors))
+
     def test_rejects_packet_hash_unknown_ids_and_vocabulary(self) -> None:
         submission = copy.deepcopy(valid_submission())
         submission["packet_hash"] = HASH_B
