@@ -36,7 +36,8 @@ and normalize to the same JSON shape before registration.
 
 `identification` records contextual meaning, basic meaning, contrast, and the
 comparison basis. Each lexical unit independently records its MIPVU and boundary
-decision.
+decision. CMT and interpretive submissions preserve the same lexical-unit IDs
+and source spans but do not repeat identification decisions.
 
 `cmt` records primary and secondary source domains, target domain, conceptual
 mapping, entailments, and cluster. Controlled domain IDs remain machine-stable

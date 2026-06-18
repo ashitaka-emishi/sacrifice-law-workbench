@@ -1,0 +1,141 @@
+{
+  "case_id": "lincoln",
+  "code_revision": "a7e43cebb0353751a587598a44cb25607ade9b55",
+  "generator": {
+    "script": "scripts/model_reliability/generate_packets.py",
+    "script_hash": "sha256:e288b58b15b403abca11d8b9e5ba1a3b6f8a1728a38e22cac36f1e136aa9ac55",
+    "version": "1.0.0"
+  },
+  "packet_hash": "sha256:61caf3e713199f4ceddfb731447b1c052000b25a7e8b6eae07736bd6d05c9c75",
+  "packet_id": "lincoln-multi-model-v1-packet",
+  "payloads": [
+    {
+      "hash": "sha256:3fe72aa5985e738900233e42429ce2d0cd68c9683822ba6a749fa2a7788e23fa",
+      "id": "lincoln-multi-model-v1-packet-identification",
+      "item_count": 7,
+      "path": "quality/model-reliability/packets/identification-packet.jsonl",
+      "task_layer": "identification"
+    },
+    {
+      "hash": "sha256:f42eb1ef1ee892b03c982dca1e9250d78c369252f402308ca4672d34eb5728bf",
+      "id": "lincoln-multi-model-v1-packet-cmt",
+      "item_count": 7,
+      "path": "quality/model-reliability/packets/cmt-packet.jsonl",
+      "task_layer": "cmt"
+    },
+    {
+      "hash": "sha256:9b7bc2ee0b1176573effb2d21d16d6901c375ec50753712e5cf8b61b90f6877b",
+      "id": "lincoln-multi-model-v1-packet-interpretation",
+      "item_count": 7,
+      "path": "quality/model-reliability/packets/interpretive-packet.jsonl",
+      "task_layer": "interpretation"
+    }
+  ],
+  "prompts": [
+    {
+      "hash": "sha256:ea3188884ec82ca1d9b707ee5304c4b7bbb30a15bca1dcd950ea3ce0de141d4f",
+      "id": "identification-v1",
+      "path": "quality/model-reliability/packets/identification-prompt.md"
+    },
+    {
+      "hash": "sha256:a34444175a8ee7817e9bee726bc721e89e9a2fe14245c916cdc7ecd63249a892",
+      "id": "cmt-v1",
+      "path": "quality/model-reliability/packets/cmt-prompt.md"
+    },
+    {
+      "hash": "sha256:e379d980e367005b7c01a6fa7557a02cfebde7d8889a0599c29b0c3755e14a0c",
+      "id": "interpretation-v1",
+      "path": "quality/model-reliability/packets/interpretation-prompt.md"
+    }
+  ],
+  "rights_constraints": [
+    "public-domain-source",
+    "source-language-text-may-be-committed"
+  ],
+  "sample_id": "lincoln-multi-model-v1",
+  "sample_version": "1.0.0",
+  "schema_version": "1.0.0",
+  "selection_summary": {
+    "field_agreement_items": 7,
+    "lexical_units": 467,
+    "sentences": 7
+  },
+  "source_inputs": [
+    {
+      "hash": "sha256:7d5d12a075ec81e5afa346caee3452b5b94e2368ff0f24870e6c8423b6db4b01",
+      "id": "lincoln-gettysburg-address_annotated",
+      "path": "cases/lincoln/corpus/annotated/lincoln-gettysburg-address_annotated.json"
+    },
+    {
+      "hash": "sha256:810ff5991b578cee8c596b0f72ddefa37f9f335399f6feae847f241e556e3c35",
+      "id": "lincoln-lyceum-address_annotated",
+      "path": "cases/lincoln/corpus/annotated/lincoln-lyceum-address_annotated.json"
+    },
+    {
+      "hash": "sha256:7d5b2f642469ef449897bebdf1b485ea0c790b207d76aaf45fd9f19a6b306258",
+      "id": "lincoln-second-inaugural_annotated",
+      "path": "cases/lincoln/corpus/annotated/lincoln-second-inaugural_annotated.json"
+    },
+    {
+      "hash": "sha256:861d817d4a91f81b8e2705f56975cf04d475ddc3726f5401038f58e6371b9c3a",
+      "id": "lincoln-gettysburg-address_mipvu",
+      "path": "cases/lincoln/corpus/mipvu/lincoln-gettysburg-address_mipvu.json"
+    },
+    {
+      "hash": "sha256:6fb6cddf1d2f4edb5425b685af2a5d4b8a70c8b7c50155a34ad8f03b7dcf74ba",
+      "id": "lincoln-lyceum-address_mipvu",
+      "path": "cases/lincoln/corpus/mipvu/lincoln-lyceum-address_mipvu.json"
+    },
+    {
+      "hash": "sha256:35fde4e8862eb304b29322b4dd591945a2a2e877352a9492868fec4716d6370b",
+      "id": "lincoln-second-inaugural_mipvu",
+      "path": "cases/lincoln/corpus/mipvu/lincoln-second-inaugural_mipvu.json"
+    },
+    {
+      "hash": "sha256:aaf5a3f4eaa9680a7bcb0246220222e2d88a7279cf356b86693135804b539877",
+      "id": "lincoln-gettysburg-address",
+      "path": "cases/lincoln/corpus/segmented/lincoln-gettysburg-address.json"
+    },
+    {
+      "hash": "sha256:017069069f1067aacae0d58abb09ef9b15fc5fb72aa8ed2556c816d1e2a07315",
+      "id": "lincoln-lyceum-address",
+      "path": "cases/lincoln/corpus/segmented/lincoln-lyceum-address.json"
+    },
+    {
+      "hash": "sha256:95cb1453ee74e3027e0d0f3254b40504bfe426237d8c927e4c3b45c89d1f0f64",
+      "id": "lincoln-second-inaugural",
+      "path": "cases/lincoln/corpus/segmented/lincoln-second-inaugural.json"
+    },
+    {
+      "hash": "sha256:2491dd97a38fb9a924a240116e096c6f2c241c40ca01d631fb6583a4087a0b92",
+      "id": "document-manifest",
+      "path": "cases/lincoln/metadata/document-manifest.json"
+    },
+    {
+      "hash": "sha256:04351d72771c17266e4efd6bb2cf10c4d7fbee183e114bab424bbb77535ccd49",
+      "id": "sample-manifest",
+      "path": "cases/lincoln/quality/model-reliability/sample/sample-manifest.json"
+    },
+    {
+      "hash": "sha256:ba50424e31b2715519f0ef759ac022130e389538bab4f0f05cc63f5abfb7f551",
+      "id": "reliability-sample",
+      "path": "cases/lincoln/quality/reliability-sample.json"
+    },
+    {
+      "hash": "sha256:a34444175a8ee7817e9bee726bc721e89e9a2fe14245c916cdc7ecd63249a892",
+      "id": "cmt-v1",
+      "path": "config/model-reliability/prompts/cmt-v1.md"
+    },
+    {
+      "hash": "sha256:ea3188884ec82ca1d9b707ee5304c4b7bbb30a15bca1dcd950ea3ce0de141d4f",
+      "id": "identification-v1",
+      "path": "config/model-reliability/prompts/identification-v1.md"
+    },
+    {
+      "hash": "sha256:e379d980e367005b7c01a6fa7557a02cfebde7d8889a0599c29b0c3755e14a0c",
+      "id": "interpretation-v1",
+      "path": "config/model-reliability/prompts/interpretation-v1.md"
+    }
+  ],
+  "source_language": "en"
+}

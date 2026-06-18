@@ -1,0 +1,83 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://sacrifice-law-workbench.local/schemas/model-reliability/sample-manifest-schema.json",
+  "title": "Approved multi-model reliability sample",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "sample_id",
+    "sample_version",
+    "packet_id",
+    "case_id",
+    "status",
+    "source_language",
+    "source_sample",
+    "sentence_ids",
+    "task_layers",
+    "selection_policy",
+    "rights_constraints",
+    "prompts"
+  ],
+  "properties": {
+    "schema_version": { "const": "1.0.0" },
+    "sample_id": { "$ref": "#/$defs/nonEmptyString" },
+    "sample_version": { "$ref": "#/$defs/nonEmptyString" },
+    "packet_id": { "$ref": "#/$defs/nonEmptyString" },
+    "case_id": { "$ref": "#/$defs/nonEmptyString" },
+    "status": { "const": "approved" },
+    "source_language": { "$ref": "#/$defs/languageTag" },
+    "source_sample": { "$ref": "#/$defs/nonEmptyString" },
+    "sentence_ids": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "#/$defs/nonEmptyString" },
+      "uniqueItems": true
+    },
+    "task_layers": {
+      "type": "array",
+      "minItems": 3,
+      "items": { "enum": ["identification", "cmt", "interpretation"] },
+      "uniqueItems": true
+    },
+    "selection_policy": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["identification", "ambiguous", "field_agreement"],
+      "properties": {
+        "identification": { "const": "all_lexical_units_in_selected_sentences" },
+        "ambiguous": { "const": "uncertain_or_confidence_below_0.8_or_high_semantic_shift_risk" },
+        "field_agreement": { "const": "annotated_instances_in_selected_sentences" }
+      }
+    },
+    "rights_constraints": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "#/$defs/nonEmptyString" },
+      "uniqueItems": true
+    },
+    "prompts": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["identification", "cmt", "interpretation"],
+      "properties": {
+        "identification": { "$ref": "#/$defs/prompt" },
+        "cmt": { "$ref": "#/$defs/prompt" },
+        "interpretation": { "$ref": "#/$defs/prompt" }
+      }
+    }
+  },
+  "$defs": {
+    "nonEmptyString": { "type": "string", "minLength": 1 },
+    "languageTag": { "type": "string", "pattern": "^[A-Za-z]{2,3}(?:-[A-Za-z0-9]{2,8})*$" },
+    "prompt": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["prompt_id", "path"],
+      "properties": {
+        "prompt_id": { "$ref": "#/$defs/nonEmptyString" },
+        "path": { "$ref": "#/$defs/nonEmptyString" }
+      }
+    }
+  }
+}

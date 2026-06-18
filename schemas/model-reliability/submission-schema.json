@@ -96,9 +96,7 @@
         "span_id",
         "source_text",
         "char_offset_start",
-        "char_offset_end",
-        "decision",
-        "boundary_decision"
+        "char_offset_end"
       ],
       "properties": {
         "lexical_unit_id": { "$ref": "#/$defs/nonEmptyString" },
@@ -291,7 +289,12 @@
           "if": { "properties": { "task_layer": { "const": "identification" } }, "required": ["task_layer"] },
           "then": {
             "required": ["identification"],
-            "not": { "anyOf": [{ "required": ["cmt"] }, { "required": ["interpretation"] }] }
+            "not": { "anyOf": [{ "required": ["cmt"] }, { "required": ["interpretation"] }] },
+            "properties": {
+              "lexical_units": {
+                "items": { "required": ["decision", "boundary_decision"] }
+              }
+            }
           }
         },
         {
