@@ -438,6 +438,7 @@ def generate_packets(
                 "id": prompt_id,
                 "path": relative_path(case_root, prompt_output),
                 "hash": sha256_bytes(prompt_data),
+                "task_layer": layer,
             }
         )
 

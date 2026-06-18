@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Validated normalized model runs",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "case_id", "runs"],
+  "properties": {
+    "schema_version": { "const": "1.0.0" },
+    "case_id": { "type": "string", "minLength": 1 },
+    "runs": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["registration_id", "registered_at", "raw_hash", "submission"],
+        "properties": {
+          "registration_id": { "type": "string", "minLength": 1 },
+          "registered_at": { "type": "string", "format": "date-time" },
+          "raw_hash": { "type": "string", "pattern": "^sha256:[0-9a-f]{64}$" },
+          "submission": { "type": "object" }
+        }
+      }
+    }
+  }
+}

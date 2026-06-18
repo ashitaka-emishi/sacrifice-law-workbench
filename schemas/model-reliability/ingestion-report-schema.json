@@ -1,0 +1,50 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Model submission ingestion report",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "registration_id",
+    "registered_at",
+    "case_id",
+    "submission_id",
+    "run_id",
+    "source_format",
+    "raw_hash",
+    "status",
+    "errors",
+    "item_results",
+    "raw_metadata_rows",
+    "raw_item_rows"
+  ],
+  "properties": {
+    "schema_version": { "const": "1.0.0" },
+    "registration_id": { "type": "string", "minLength": 1 },
+    "registered_at": { "type": "string", "format": "date-time" },
+    "case_id": { "type": "string", "minLength": 1 },
+    "submission_id": { "type": ["string", "null"] },
+    "run_id": { "type": ["string", "null"] },
+    "source_format": { "enum": ["json", "csv"] },
+    "raw_hash": { "type": "string", "pattern": "^sha256:[0-9a-f]{64}$" },
+    "status": { "enum": ["valid", "invalid"] },
+    "errors": { "type": "array", "items": { "type": "string", "minLength": 1 } },
+    "item_results": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["index", "item_id", "status", "errors", "raw_item"],
+        "properties": {
+          "index": { "type": "integer", "minimum": 0 },
+          "item_id": { "type": ["string", "null"] },
+          "status": { "enum": ["valid", "invalid"] },
+          "errors": { "type": "array", "items": { "type": "string" } },
+          "raw_item": {}
+        }
+      }
+    },
+    "raw_metadata_rows": { "type": "array", "items": { "type": "object" } },
+    "raw_item_rows": { "type": "array", "items": { "type": "object" } }
+  }
+}

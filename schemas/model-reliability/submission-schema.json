@@ -246,6 +246,7 @@
         "source_language",
         "sentence_source_text",
         "lexical_units",
+        "source_risk_flags",
         "confidence",
         "uncertainty",
         "rival_reading",
@@ -270,6 +271,11 @@
           "type": "array",
           "minItems": 1,
           "items": { "$ref": "#/$defs/lexicalUnit" }
+        },
+        "source_risk_flags": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/nonEmptyString" },
+          "uniqueItems": true
         },
         "identification": { "$ref": "#/$defs/identification" },
         "cmt": { "$ref": "#/$defs/cmt" },

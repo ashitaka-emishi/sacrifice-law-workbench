@@ -49,6 +49,7 @@ def valid_submission() -> dict:
                 "source_language": "fr",
                 "sentence_source_text": "Le peuple porte et défend la patrie.",
                 "sentence_gloss_en": "The people carry and defend the homeland.",
+                "source_risk_flags": ["translation-check"],
                 "lexical_units": [
                     {
                         "lexical_unit_id": "lu-001",

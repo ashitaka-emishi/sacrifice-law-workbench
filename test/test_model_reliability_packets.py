@@ -162,6 +162,10 @@ class PacketGenerationTest(unittest.TestCase):
             self.assertEqual(first["selection_summary"]["field_agreement_items"], 1)
             self.assertNotIn("negative_controls", first["selection_summary"])
             self.assertNotIn("ambiguous_items", first["selection_summary"])
+            self.assertEqual(
+                {entry["task_layer"] for entry in first["prompts"]},
+                {"identification", "cmt", "interpretation"},
+            )
 
             identification = json.loads(
                 (packet_dir / "identification-packet.jsonl").read_text(encoding="utf-8").splitlines()[0]
