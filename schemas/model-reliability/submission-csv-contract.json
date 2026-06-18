@@ -1,0 +1,74 @@
+{
+  "schema_version": "1.0.0",
+  "description": "CSV transport contract that normalizes to submission-schema.json. One metadata row and one or more item rows constitute a submission.",
+  "files": {
+    "metadata": {
+      "required_columns": [
+        "schema_version",
+        "submission_id",
+        "case_id",
+        "sample_id",
+        "sample_version",
+        "packet_id",
+        "packet_hash",
+        "prompt_id",
+        "prompt_hash",
+        "source_language",
+        "code_revision",
+        "run_id",
+        "provider",
+        "model",
+        "model_version",
+        "completed_at",
+        "language_capabilities",
+        "settings"
+      ],
+      "row_count": 1
+    },
+    "items": {
+      "required_columns": [
+        "item_id",
+        "task_layer",
+        "case_id",
+        "document_id",
+        "sentence_id",
+        "span_ids",
+        "source_language",
+        "sentence_source_text",
+        "sentence_gloss_en",
+        "lexical_units",
+        "identification",
+        "cmt",
+        "interpretation",
+        "confidence",
+        "uncertainty",
+        "rival_reading",
+        "case_fields"
+      ],
+      "minimum_rows": 1
+    }
+  },
+  "encoding": {
+    "charset": "UTF-8",
+    "delimiter": ",",
+    "line_ending": "LF",
+    "null": "",
+    "json_columns": [
+      "language_capabilities",
+      "settings",
+      "span_ids",
+      "lexical_units",
+      "identification",
+      "cmt",
+      "interpretation",
+      "uncertainty",
+      "case_fields"
+    ],
+    "rules": [
+      "JSON columns contain compact valid JSON, not delimiter-joined pseudo-lists.",
+      "Blank optional object columns normalize to an absent property, not an empty string.",
+      "Source-language text and optional English glosses always occupy distinct columns.",
+      "All normalized values must satisfy submission-schema.json."
+    ]
+  }
+}
