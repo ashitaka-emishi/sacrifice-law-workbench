@@ -1,0 +1,11 @@
+{
+  "documents": [
+    {
+      "document_id": "demo-doc-001",
+      "title": "Synthetic French sentence",
+      "source_language": "fr",
+      "rights_status": "synthetic-cc0",
+      "risk_flags": ["translation-check"]
+    }
+  ]
+}

@@ -21,6 +21,7 @@ from test.test_model_reliability_packets import fixture_root, write_json
 
 
 SOURCE_ROOT = Path(__file__).resolve().parents[1]
+FIXTURE_ROOT = SOURCE_ROOT / "test" / "fixtures" / "model-reliability"
 
 
 def ingestion_root(base: Path) -> Path:
@@ -28,66 +29,17 @@ def ingestion_root(base: Path) -> Path:
     target_schemas = root / "schemas" / "model-reliability"
     target_schemas.parent.mkdir(parents=True, exist_ok=True)
     shutil.copytree(SOURCE_ROOT / "schemas" / "model-reliability", target_schemas)
-    write_json(
-        root / "config" / "controlled-vocabularies.json",
-        {
-            "source_domains": [{"id": "body", "label": "body"}],
-            "target_domains": [{"id": "nation", "label": "nation"}],
-        },
-    )
-    write_json(
-        root / "cases" / "demo" / "config" / "case-clusters.json",
-        [{"id": "demo-cluster", "name": "Demo cluster"}],
-    )
-    generate_packets(root, "demo", revision="deadbeef")
+    generate_packets(root, "demo", revision="fixture-revision-v1")
     return root
 
 
 def valid_submission(root: Path, suffix: str = "001") -> dict:
-    packet_root = root / "cases" / "demo" / "quality" / "model-reliability" / "packets"
-    manifest = json.loads((packet_root / "packet-manifest.json").read_text(encoding="utf-8"))
-    prompt = next(item for item in manifest["prompts"] if item["task_layer"] == "cmt")
-    packet_item = json.loads((packet_root / "cmt-packet.jsonl").read_text(encoding="utf-8"))
-    item = copy.deepcopy(packet_item)
-    item.update(
-        {
-            "cmt": {
-                "source_domain_primary": "body",
-                "source_domain_secondary": [],
-                "target_domain": "nation",
-                "conceptual_metaphor": "NATION IS BODY",
-                "entailments": ["collective action supports the polity"],
-                "cluster_id": "demo-cluster",
-            },
-            "confidence": 0.8,
-            "uncertainty": {"status": "low", "note": "A literal reading remains possible."},
-            "rival_reading": "A literal statement of support.",
-            "case_fields": {},
-        }
+    submission = json.loads(
+        (FIXTURE_ROOT / "submissions" / "valid-cmt.json").read_text(encoding="utf-8")
     )
-    return {
-        "schema_version": "1.0.0",
-        "submission_id": f"submission-{suffix}",
-        "case_id": "demo",
-        "sample_id": manifest["sample_id"],
-        "sample_version": manifest["sample_version"],
-        "packet_id": manifest["packet_id"],
-        "packet_hash": manifest["packet_hash"],
-        "prompt_id": prompt["id"],
-        "prompt_hash": prompt["hash"],
-        "source_language": manifest["source_language"],
-        "code_revision": manifest["code_revision"],
-        "run": {
-            "run_id": f"run-{suffix}",
-            "provider": "manual-provider",
-            "model": "manual-model",
-            "model_version": None,
-            "completed_at": "2026-06-18T12:00:00Z",
-            "language_capabilities": ["fr", "en"],
-            "settings": {"temperature": 0},
-        },
-        "items": [item],
-    }
+    submission["submission_id"] = f"submission-{suffix}"
+    submission["run"]["run_id"] = f"run-{suffix}"
+    return submission
 
 
 def corpus_snapshot(root: Path) -> dict[str, bytes]:
@@ -185,9 +137,8 @@ class SubmissionIngestionTest(unittest.TestCase):
         with tempfile.TemporaryDirectory() as temp_dir:
             base = Path(temp_dir)
             root = ingestion_root(base)
-            metadata_path, items_path = write_csv_submission(
-                root, valid_submission(root, "csv"), base / "incoming"
-            )
+            metadata_path = FIXTURE_ROOT / "submissions" / "valid-csv" / "metadata.csv"
+            items_path = FIXTURE_ROOT / "submissions" / "valid-csv" / "items.csv"
             contract = json.loads(
                 (root / "schemas" / "model-reliability" / "submission-csv-contract.json").read_text()
             )
@@ -196,7 +147,7 @@ class SubmissionIngestionTest(unittest.TestCase):
             report = ingest_submission(root, "demo", parsed)
 
             self.assertEqual(report["status"], "valid")
-            self.assertEqual(parsed.envelope["run"]["model_version"], None)
+            self.assertEqual(parsed.envelope["run"]["model_version"], "fixture-v1")
             self.assertIsInstance(parsed.envelope["items"][0]["cmt"], dict)
             self.assertEqual(len(report["raw_item_rows"]), 1)
 

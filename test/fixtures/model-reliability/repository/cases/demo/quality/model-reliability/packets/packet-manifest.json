@@ -1,0 +1,114 @@
+{
+  "case_id": "demo",
+  "code_revision": "fixture-revision-v1",
+  "generator": {
+    "script": "scripts/model_reliability/generate_packets.py",
+    "script_hash": "sha256:c401f6191dd35c108768f5c6815e60abf8183d15fb34b28b2d0790c0ba0f8e7d",
+    "version": "1.0.0"
+  },
+  "packet_hash": "sha256:cd31a7819471631bea518e207275f6879dd24e461c57bc9e5ad386045acd636a",
+  "packet_id": "demo-multi-model-v1-packet",
+  "payloads": [
+    {
+      "hash": "sha256:c1c92702111902459ca3ce8beae02e9519680493523f7da7a4f24645c7e315c8",
+      "id": "demo-multi-model-v1-packet-identification",
+      "item_count": 1,
+      "path": "quality/model-reliability/packets/identification-packet.jsonl",
+      "task_layer": "identification"
+    },
+    {
+      "hash": "sha256:b6bf7a963de27084267ad66a821c977677dfa169f110f355765105e9f6908ece",
+      "id": "demo-multi-model-v1-packet-cmt",
+      "item_count": 1,
+      "path": "quality/model-reliability/packets/cmt-packet.jsonl",
+      "task_layer": "cmt"
+    },
+    {
+      "hash": "sha256:1f6ff4904c9609c779a38119c3ba9d00ab5e2174ca4cc653223feb6fcf7b409e",
+      "id": "demo-multi-model-v1-packet-interpretation",
+      "item_count": 1,
+      "path": "quality/model-reliability/packets/interpretive-packet.jsonl",
+      "task_layer": "interpretation"
+    }
+  ],
+  "prompts": [
+    {
+      "hash": "sha256:73a8473ab4528162346ec41e53248e98d166d95e2cdab48d5726671e2f058b5e",
+      "id": "identification-v1",
+      "path": "quality/model-reliability/packets/identification-prompt.md",
+      "task_layer": "identification"
+    },
+    {
+      "hash": "sha256:3454b00e86d116aba69979d668a7d74cc5ef0fe5deef1515e9832867588e3435",
+      "id": "cmt-v1",
+      "path": "quality/model-reliability/packets/cmt-prompt.md",
+      "task_layer": "cmt"
+    },
+    {
+      "hash": "sha256:8386ecb8805467edab7cb217ca6bb75609a2e507466c2b00320a8353f92f868c",
+      "id": "interpretation-v1",
+      "path": "quality/model-reliability/packets/interpretation-prompt.md",
+      "task_layer": "interpretation"
+    }
+  ],
+  "rights_constraints": [
+    "source-language-text-may-be-committed",
+    "synthetic-cc0"
+  ],
+  "sample_id": "demo-multi-model-v1",
+  "sample_version": "1.0.0",
+  "schema_version": "1.0.0",
+  "selection_summary": {
+    "field_agreement_items": 1,
+    "lexical_units": 2,
+    "sentences": 1
+  },
+  "source_inputs": [
+    {
+      "hash": "sha256:15a9746d918fbfd4689030476ed3f2243214f2396c5c31d4483703f84e4589bb",
+      "id": "demo-doc-001_annotated",
+      "path": "cases/demo/corpus/annotated/demo-doc-001_annotated.json"
+    },
+    {
+      "hash": "sha256:fb91840197693f87a15ea56939b0a93c118b102a9fae8d7f76cf44d8b282c84a",
+      "id": "demo-doc-001_mipvu",
+      "path": "cases/demo/corpus/mipvu/demo-doc-001_mipvu.json"
+    },
+    {
+      "hash": "sha256:3f390f7cd314b67b349bd7c6184929465184fc7a63e47509e09aeb39bde33ccd",
+      "id": "demo-doc-001",
+      "path": "cases/demo/corpus/segmented/demo-doc-001.json"
+    },
+    {
+      "hash": "sha256:440c20363f7670757119daee24b715de0afdbd690d406bfdd9221c5a14028fe4",
+      "id": "document-manifest",
+      "path": "cases/demo/metadata/document-manifest.json"
+    },
+    {
+      "hash": "sha256:f9a85f8e961c19c489a39ee6683f8ba69085dec293042ab23bb9b8fa3cbc41f0",
+      "id": "sample-manifest",
+      "path": "cases/demo/quality/model-reliability/sample/sample-manifest.json"
+    },
+    {
+      "hash": "sha256:365cea339680e1faa4774b1119b1f678e987e4936c1496051ca8ff0837c42d4f",
+      "id": "reliability-sample",
+      "path": "cases/demo/quality/reliability-sample.json"
+    },
+    {
+      "hash": "sha256:3454b00e86d116aba69979d668a7d74cc5ef0fe5deef1515e9832867588e3435",
+      "id": "cmt-v1",
+      "path": "config/model-reliability/prompts/cmt-v1.md"
+    },
+    {
+      "hash": "sha256:73a8473ab4528162346ec41e53248e98d166d95e2cdab48d5726671e2f058b5e",
+      "id": "identification-v1",
+      "path": "config/model-reliability/prompts/identification-v1.md"
+    },
+    {
+      "hash": "sha256:8386ecb8805467edab7cb217ca6bb75609a2e507466c2b00320a8353f92f868c",
+      "id": "interpretation-v1",
+      "path": "config/model-reliability/prompts/interpretation-v1.md"
+    }
+  ],
+  "source_language": "fr"
+}

@@ -1,0 +1,10 @@
+{
+  "source_domains": [
+    { "id": "body", "label": "body" },
+    { "id": "carrying", "label": "carrying" }
+  ],
+  "target_domains": [
+    { "id": "nation", "label": "nation" },
+    { "id": "hope", "label": "hope" }
+  ]
+}

@@ -46,3 +46,15 @@ list all detected violations. Re-ingesting identical bytes is idempotent.
 Inputs that appear to contain credentials or account identifiers are rejected
 before any raw bytes are stored. No command writes to metadata, corpus, analysis,
 existing reliability, review-packet, or publication paths.
+
+## Rights-safe tests
+
+The committed synthetic fixture under `test/fixtures/model-reliability/`
+contains an invented French sentence, deterministic packets, valid JSON and CSV
+submissions, named invalid submissions, and two controlled comparison runs. It
+does not require project corpora or external APIs.
+
+```bash
+pip install -r requirements.txt
+npm run test:model-reliability
+```

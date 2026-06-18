@@ -1,0 +1,61 @@
+{
+  "schema_version": "1.0.0",
+  "submission_id": "fixture-submission-unknown-ids",
+  "case_id": "demo",
+  "sample_id": "demo-multi-model-v1",
+  "sample_version": "1.0.0",
+  "packet_id": "demo-multi-model-v1-packet",
+  "packet_hash": "sha256:cd31a7819471631bea518e207275f6879dd24e461c57bc9e5ad386045acd636a",
+  "prompt_id": "cmt-v1",
+  "prompt_hash": "sha256:3454b00e86d116aba69979d668a7d74cc5ef0fe5deef1515e9832867588e3435",
+  "source_language": "fr",
+  "code_revision": "fixture-revision-v1",
+  "run": {
+    "run_id": "fixture-run-unknown-ids",
+    "provider": "fixture-provider",
+    "model": "fixture-model",
+    "model_version": null,
+    "completed_at": "2026-06-18T12:00:00Z",
+    "language_capabilities": ["fr"],
+    "settings": {}
+  },
+  "items": [
+    {
+      "item_id": "unknown-item",
+      "task_layer": "cmt",
+      "case_id": "demo",
+      "document_id": "unknown-document",
+      "sentence_id": "unknown-sentence",
+      "span_ids": ["unknown-span"],
+      "source_language": "fr",
+      "sentence_source_text": "La cité porte l'espoir.",
+      "sentence_gloss_en": "The city carries hope.",
+      "lexical_units": [
+        {
+          "lexical_unit_id": "unknown-lexical-unit",
+          "span_id": "unknown-span",
+          "source_text": "porte",
+          "gloss_en": "carries",
+          "char_offset_start": 8,
+          "char_offset_end": 13
+        }
+      ],
+      "source_risk_flags": ["translation-check"],
+      "cmt": {
+        "source_domain_primary": "carrying",
+        "source_domain_secondary": [],
+        "target_domain": "hope",
+        "conceptual_metaphor": "HOPE IS A CARRIED OBJECT",
+        "entailments": ["hope can be borne by a collective"],
+        "cluster_id": "unknown-cluster"
+      },
+      "confidence": 0.5,
+      "uncertainty": {
+        "status": "material",
+        "note": "IDs are deliberately unknown."
+      },
+      "rival_reading": "Unknown-ID fixture.",
+      "case_fields": {}
+    }
+  ]
+}

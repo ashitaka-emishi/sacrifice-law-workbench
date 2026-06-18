@@ -1,0 +1,18 @@
+{
+  "fixture_version": "1.0.0",
+  "rights_status": "synthetic-cc0",
+  "description": "Invented French-language micro-corpus for model-reliability tests. It contains no historical or restricted source text.",
+  "case_id": "demo",
+  "coverage": [
+    "deterministic packet generation",
+    "multilingual source text with separate English gloss",
+    "valid JSON submission",
+    "valid CSV submission",
+    "invalid field value",
+    "unknown item and span IDs",
+    "packet hash mismatch",
+    "duplicate span set",
+    "two-run metric input",
+    "controlled disagreement classification"
+  ]
+}
