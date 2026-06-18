@@ -635,6 +635,8 @@ def ingest_submission(
     run = parsed.envelope.get("run")
     run_id = run.get("run_id") if isinstance(run, Mapping) else None
     for entry in entries:
+        if entry.get("status") != "valid":
+            continue
         if submission_id and entry.get("submission_id") == submission_id:
             errors.append(f"$.submission_id: duplicate registered submission ID `{submission_id}`")
         if run_id and entry.get("run_id") == run_id:

@@ -303,6 +303,24 @@ class SubmissionIngestionTest(unittest.TestCase):
             with self.assertRaisesRegex(IngestionError, "raw registration was altered"):
                 ingest_submission(root, "demo", parse_json_submission(source))
 
+    def test_corrected_submission_can_reuse_ids_from_invalid_attempt(self) -> None:
+        with tempfile.TemporaryDirectory() as temp_dir:
+            base = Path(temp_dir)
+            root = ingestion_root(base)
+            corrected = valid_submission(root, "corrected")
+            invalid = copy.deepcopy(corrected)
+            invalid["packet_hash"] = "sha256:" + "0" * 64
+            invalid_path = base / "invalid.json"
+            corrected_path = base / "corrected.json"
+            write_json(invalid_path, invalid)
+            write_json(corrected_path, corrected)
+
+            first = ingest_submission(root, "demo", parse_json_submission(invalid_path))
+            second = ingest_submission(root, "demo", parse_json_submission(corrected_path))
+
+            self.assertEqual(first["status"], "invalid")
+            self.assertEqual(second["status"], "valid")
+
     def test_refuses_sensitive_input_before_registration(self) -> None:
         with tempfile.TemporaryDirectory() as temp_dir:
             base = Path(temp_dir)
