@@ -1,7 +1,7 @@
 # Multi-Model Annotation Reliability Architecture
 
-Status: architecture defined; deterministic packet generation available;
-external model execution not started.
+Status: architecture defined; deterministic packet generation and manual
+submission ingestion available; external model execution not started.
 
 This document defines the repository and data-flow contract for blind,
 multi-model annotation stress testing. The workflow asks whether independent AI
@@ -105,6 +105,7 @@ Shared contracts and tools live outside individual cases:
 docs/reliability/
   multi-model-architecture.md
   model-reliability-packets.md
+  model-reliability-ingestion.md
 
 schemas/model-reliability/
   # submission, packet, comparison, and status schemas added by later issues

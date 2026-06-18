@@ -1,0 +1,40 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Model reliability submission register",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "case_id", "submissions"],
+  "properties": {
+    "schema_version": { "const": "1.0.0" },
+    "case_id": { "type": "string", "minLength": 1 },
+    "submissions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "registration_id",
+          "registered_at",
+          "submission_id",
+          "run_id",
+          "packet_id",
+          "source_format",
+          "raw_hash",
+          "status",
+          "validation_report"
+        ],
+        "properties": {
+          "registration_id": { "type": "string", "minLength": 1 },
+          "registered_at": { "type": "string", "format": "date-time" },
+          "submission_id": { "type": ["string", "null"] },
+          "run_id": { "type": ["string", "null"] },
+          "packet_id": { "type": ["string", "null"] },
+          "source_format": { "enum": ["json", "csv"] },
+          "raw_hash": { "type": "string", "pattern": "^sha256:[0-9a-f]{64}$" },
+          "status": { "enum": ["valid", "invalid"] },
+          "validation_report": { "type": "string", "minLength": 1 }
+        }
+      }
+    }
+  }
+}

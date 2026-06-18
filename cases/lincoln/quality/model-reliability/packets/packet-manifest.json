@@ -1,12 +1,12 @@
 {
   "case_id": "lincoln",
-  "code_revision": "a7e43cebb0353751a587598a44cb25607ade9b55",
+  "code_revision": "21ac6491c2d2f3f5adfdd9df2735f479072df6e7",
   "generator": {
     "script": "scripts/model_reliability/generate_packets.py",
-    "script_hash": "sha256:e288b58b15b403abca11d8b9e5ba1a3b6f8a1728a38e22cac36f1e136aa9ac55",
+    "script_hash": "sha256:4a0f2a6794e716b37a8db5dac295205c77e7ecf6193b0e8fbde8ce75da7a80fc",
     "version": "1.0.0"
   },
-  "packet_hash": "sha256:61caf3e713199f4ceddfb731447b1c052000b25a7e8b6eae07736bd6d05c9c75",
+  "packet_hash": "sha256:1243682b0f628f76263fb92f9b998e1e45eb729cc3b5ac97e925648b16060506",
   "packet_id": "lincoln-multi-model-v1-packet",
   "payloads": [
     {
@@ -35,17 +35,20 @@
     {
       "hash": "sha256:ea3188884ec82ca1d9b707ee5304c4b7bbb30a15bca1dcd950ea3ce0de141d4f",
       "id": "identification-v1",
-      "path": "quality/model-reliability/packets/identification-prompt.md"
+      "path": "quality/model-reliability/packets/identification-prompt.md",
+      "task_layer": "identification"
     },
     {
       "hash": "sha256:a34444175a8ee7817e9bee726bc721e89e9a2fe14245c916cdc7ecd63249a892",
       "id": "cmt-v1",
-      "path": "quality/model-reliability/packets/cmt-prompt.md"
+      "path": "quality/model-reliability/packets/cmt-prompt.md",
+      "task_layer": "cmt"
     },
     {
       "hash": "sha256:e379d980e367005b7c01a6fa7557a02cfebde7d8889a0599c29b0c3755e14a0c",
       "id": "interpretation-v1",
-      "path": "quality/model-reliability/packets/interpretation-prompt.md"
+      "path": "quality/model-reliability/packets/interpretation-prompt.md",
+      "task_layer": "interpretation"
     }
   ],
   "rights_constraints": [

@@ -58,7 +58,18 @@
     "prompts": {
       "type": "array",
       "minItems": 3,
-      "items": { "$ref": "#/$defs/hashedArtifact" }
+      "items": {
+        "allOf": [
+          { "$ref": "#/$defs/hashedArtifact" },
+          {
+            "type": "object",
+            "required": ["task_layer"],
+            "properties": {
+              "task_layer": { "enum": ["identification", "cmt", "interpretation"] }
+            }
+          }
+        ]
+      }
     },
     "source_inputs": {
       "type": "array",

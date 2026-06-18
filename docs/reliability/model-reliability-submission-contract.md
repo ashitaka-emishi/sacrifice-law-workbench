@@ -1,6 +1,6 @@
 # Model Reliability Submission Contract
 
-Status: schema version `1.0.0` defined; ingestion not yet implemented.
+Status: schema version `1.0.0` defined; JSON and CSV ingestion implemented.
 
 This contract defines the model/run metadata and item-level decisions exchanged
 by the blind multi-model stress test. The canonical representation is JSON under
@@ -66,6 +66,6 @@ parent-reference checks as a native JSON submission.
 `validate_submission`, which returns every detected violation, and
 `assert_valid_submission`, which raises with the complete violation list. The
 caller supplies a `SubmissionContext` built from the packet manifest and current
-case artifacts. The validator is read-only; ingestion, immutable raw-submission
-registration, normalization, and validation reports remain the responsibility
-of issue #60.
+case artifacts. The validator is read-only. The issue #60 ingestion layer uses
+it for immutable raw registration, normalization, and validation reporting; see
+[`model-reliability-ingestion.md`](model-reliability-ingestion.md).
