@@ -2,6 +2,36 @@
 title: "Case Selection"
 ---
 
+## Choose a case
+
+::: {.grid .case-grid}
+::: {.g-col-12 .g-col-md-6 .reader-card}
+### [American Revolution](cases/am-rev/artifacts/qmd/case-overview.qmd)
+
+Revolutionary founding, sacred liberty, collective exception, and war.
+:::
+
+::: {.g-col-12 .g-col-md-6 .reader-card}
+### [Napoleon / Napoleonic Wars](cases/napoleon/artifacts/qmd/case-overview.qmd)
+
+Imperial glory, army–nation fusion, and translation-sensitive sacrifice.
+:::
+
+::: {.g-col-12 .g-col-md-6 .reader-card}
+### [Lincoln / American Civil War](cases/lincoln/artifacts/qmd/case-overview.qmd)
+
+Union, covenant, battlefield sacrifice, providence, and reconciliation.
+:::
+
+::: {.g-col-12 .g-col-md-6 .reader-card}
+### [Hitler / Nazi Germany](cases/hitler/artifacts/qmd/case-overview.qmd)
+
+Purification fantasy, enemy construction, and exterminatory violence.
+:::
+:::
+
+## Why these cases
+
 V1 uses leader-centered corpora to compare how sacred objects, enemies,
 obligation, and sacrifice are organized in political language. The cases are not
 treated as identical historical events. They are selected because each can test
@@ -12,7 +42,7 @@ The initial pilot cases for the primary research question are defined here
 rather than in the research-question document so that the question can remain
 stable as the workbench expands.
 
-## Selection Criteria
+## Selection criteria
 
 Cases should satisfy most of these criteria:
 
@@ -23,7 +53,7 @@ Cases should satisfy most of these criteria:
 - enough historical difference to make cross-case comparison meaningful;
 - source provenance clear enough for citation and audit.
 
-## V1 Cases
+## Comparative design
 
 | Case | ID | V1 corpus model | Rationale |
 |---|---:|---|---|

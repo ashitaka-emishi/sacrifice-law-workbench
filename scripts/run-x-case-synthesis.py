@@ -521,21 +521,56 @@ title: "Sacrifice Law Findings"
         encoding="utf-8",
     )
     overview_status = "draft-scored" if all_scored else "draft"
+    overview_progress = (
+        "All four cases have case-level support ratings and historical-alignment notes.\n"
+        "Cross-case findings remain provisional until full-corpus review, reliability\n"
+        "adjudication, and publication-grade citation work are complete."
+        if all_scored
+        else
+        "Some cases do not yet have case-level support ratings. Cross-case findings\n"
+        "remain unavailable until every required case is scored and validated."
+    )
+    overview_answer = (
+        "The draft comparison finds the strongest support for the Law of Sacrifice in\n"
+        "the Hitler case and moderate support in the American Revolution, Lincoln, and\n"
+        "Napoleon cases. The shared pattern is not a claim of equivalence: metaphor\n"
+        "form, political endpoint, enemy construction, institutional setting, and\n"
+        "historical enactment differ substantially across the four cases."
+        if all_scored
+        else
+        "The comparative answer is pending. Cases without support ratings are not\n"
+        "interpreted by analogy, and partial results are not promoted as cross-case\n"
+        "findings."
+    )
     (qmd_dir / "x-case-overview.qmd").write_text(
         f"""---
-title: "X Case Overview"
+title: "Findings"
 ---
 
-Status: {overview_status}.
+::: {{.callout-note title="Status: {overview_status}"}}
+{overview_progress}
+:::
 
-The x-case layer has a comparative protocol, moral-equivalence guardrails,
-and draft comparison rows for all four cases. All cases have case-level
-support ratings and historical alignment notes. Cross-case findings remain
-draft until full-corpus review and reliability adjudication are complete.
+## Current answer
 
-Guardrails: structural comparison is not moral equivalence. War, genocide,
-enslavement, and state terror require separate historical and moral description
-even when symbolic structures overlap.
+{overview_answer}
+
+## Read the findings
+
+- [Case comparison](case-comparison.qmd) — support ratings, endpoints, and claim boundaries.
+- [Law of Sacrifice findings](sacrifice-law-findings.qmd) — current case-level scores.
+- [Shared metaphor systems](shared-clusters.qmd) — provisional cross-case mappings.
+- [War and genocide distinction](war-genocide-distinction.qmd) — moral and historical guardrails.
+- [Rival explanations](rival-explanations.qmd) — competing interpretations and unresolved questions.
+- [Validation summary](validation-summary.qmd) — readiness and evidentiary limits.
+
+## Compare responsibly
+
+Structural comparison is not moral equivalence. War, genocide, enslavement,
+colonial violence, and state terror require separate historical and moral
+description even when symbolic structures overlap. Readers can inspect the
+[comparative protocol](../../protocol/comparative-analysis-protocol.md) or
+[audit package](../../../../publication/audit-package.md) behind these claims.
 """,
         encoding="utf-8",
     )

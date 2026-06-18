@@ -2,4 +2,30 @@
 title: "Lincoln / American Civil War"
 ---
 
-Draft case overview for `lincoln`.
+::: {.callout-note title="Status: provisional pilot"}
+Lincoln has a complete Codex-assisted first-pass MIPVU review, but independent
+human reliability work and publication-grade historical citations remain
+pending.
+:::
+
+## Analytical focus
+
+The Lincoln case examines Union and constitutional government as sacred
+objects; battlefield death as dedication; national life, rebirth, and healing;
+providential judgment; reconciliation; and systematic absences around slavery,
+coercion, and agency.
+
+## Explore this case
+
+- [Corpus analysis](../../analysis/corpus-analysis.md)
+- [Diachronic analysis](../../analysis/diachronic-analysis.md)
+- [Metaphor-system evolution](../../analysis/cluster-evolution.md)
+- [Critical metaphor analysis](../../analysis/critical-metaphor-analysis.md)
+- [Rhetorical and genre analysis](../../analysis/rhetorical-genre-analysis.md)
+- [Absence and agency analysis](../../analysis/absence-agency-analysis.md)
+- [Historical enactment and alignment](../../analysis/historical-enactment-alignment.md)
+- [Support synthesis](../../analysis/koenigsbergian-support-synthesis.md)
+- [Reliability report](../../quality/reliability-report.md)
+
+Return to [all cases](../../../../case-selection.qmd) or continue to the
+[cross-case findings](../../../x-case/artifacts/qmd/x-case-overview.qmd).

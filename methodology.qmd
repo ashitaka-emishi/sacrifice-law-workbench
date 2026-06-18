@@ -8,6 +8,18 @@ may become a corpus record, how a sentence may become an annotation, and how an
 annotation may support a case-level or cross-case claim.
 :::
 
+## Method reader's guide
+
+| Need | Start here |
+|---|---|
+| Understand the full study design and claim limits | [Research Design](RESEARCH_DESIGN.md) |
+| Review metaphor-identification rules | [MIPVU Annotation Guide](MIPVU_ANNOTATION_GUIDE.md) |
+| Inspect corpus selection, provenance, and rights | [Corpus and Sources](starter-corpus-proposal.qmd) and [Corpus Rights Policy](corpus-rights-policy.qmd) |
+| Understand validation and audit controls | [Validation Protocol](validation-protocol.qmd) and [Research Archive](research-archive.qmd) |
+
+The sequence below is the canonical pipeline. Detailed governance and review
+documents remain available without occupying the primary reader path.
+
 ## Research Design
 
 This project assesses the degree of evidentiary support for Richard A.

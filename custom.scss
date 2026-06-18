@@ -117,3 +117,41 @@ thead {
 .callout {
   border-left-color: #800000;
 }
+
+.hero-deck {
+  max-width: 52rem;
+  margin: 0.25rem 0 1.75rem;
+  color: #46515e;
+  font-family: "Catamaran", "Segoe UI", Roboto, sans-serif;
+  font-size: clamp(1.2rem, 2.4vw, 1.65rem);
+  line-height: 1.45;
+}
+
+.reader-card {
+  height: 100%;
+  padding: 1.15rem 1.25rem;
+  border: 1px solid rgba(128, 0, 0, 0.22);
+  border-radius: 0.35rem;
+  background: rgba(255, 255, 255, 0.38);
+  box-shadow: 0 2px 7px rgba(32, 32, 32, 0.05);
+}
+
+.reader-card h3 {
+  margin-top: 0;
+}
+
+.reader-card p:last-child {
+  margin-bottom: 0;
+}
+
+.reader-paths,
+.case-grid {
+  row-gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+@media (max-width: 767.98px) {
+  .reader-card {
+    height: auto;
+  }
+}

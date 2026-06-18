@@ -1,0 +1,45 @@
+---
+title: "Research Archive"
+---
+
+The main site presents the shortest scholarly reading path. This archive keeps
+the workbench's status, method, provenance, validation, and maintenance details
+available for readers who want to inspect how the argument was built.
+
+## Project state
+
+- [Project Status](project-status.qmd) is the generated pipeline snapshot.
+- [Current Status](CURRENT_STATUS.md) is the maintained narrative audit of
+  progress, blockers, and corpus boundaries.
+- [Project Brief](PROJECT_BRIEF.md) introduces the theory and research purpose.
+- [Open Decisions](OPEN_DECISIONS.md) records unresolved design choices.
+
+## Method detail
+
+- [Research Design](RESEARCH_DESIGN.md)
+- [Primary Research Question](PRIMARY_RESEARCH_QUESTION.md)
+- [MIPVU Annotation Guide](MIPVU_ANNOTATION_GUIDE.md)
+- [Corpus Rights Policy](corpus-rights-policy.qmd)
+- [Corpus Limitations](corpus-limitations.qmd)
+- [Validation Protocol](validation-protocol.qmd)
+- [Comparative Analysis Protocol](cases/x-case/protocol/comparative-analysis-protocol.md)
+
+## Evidence and review package
+
+- [Publication Audit Package](publication/audit-package.md)
+- [Claim Traceability](publication/claim-traceability.md)
+- [Validation Gate](publication/validation-gate.md)
+- [AI Use Statement](publication/ai-use-statement.md)
+- [Data Availability](publication/data-availability.md)
+- [Public Site Readiness](publication/public-site-readiness.md)
+
+## Research infrastructure
+
+- [Pipeline Upgrade Notes](PIPELINE-UPGRADE.md)
+- [Future LangGraph Compatibility](FUTURE_LANGGRAPH_COMPATIBILITY.md)
+- [Site Architecture](SITE_ARCHITECTURE.md)
+- [Project repository](https://github.com/ashitaka-emishi/sacrifice-law-workbench)
+
+Detailed case analyses and generated artifacts remain accessible from each
+[case hub](case-selection.qmd), the [findings hub](cases/x-case/artifacts/qmd/x-case-overview.qmd),
+and site search.

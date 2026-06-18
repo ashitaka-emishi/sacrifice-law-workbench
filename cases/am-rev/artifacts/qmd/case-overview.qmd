@@ -2,4 +2,26 @@
 title: "American Revolution"
 ---
 
-Draft case overview for `am-rev`.
+::: {.callout-note title="Status: draft-scored"}
+This case has a provisional support rating. Full-corpus review, reliability
+adjudication, and publication-grade citations remain pending.
+:::
+
+## Analytical focus
+
+The American Revolution case examines how revolutionary rhetoric makes liberty,
+self-government, founding, and collective survival sacred; how suffering and
+military sacrifice authorize independence; and how tyranny and disunion are
+constructed as threats to the political body.
+
+## Explore this case
+
+- [Corpus analysis](../../analysis/corpus-analysis.md)
+- [Diachronic analysis](../../analysis/diachronic-analysis.md)
+- [Metaphor-system evolution](../../analysis/cluster-evolution.md)
+- [Critical metaphor analysis](../../analysis/critical-metaphor-analysis.md)
+- [Rhetorical and genre analysis](../../analysis/rhetorical-genre-analysis.md)
+- [Absence and agency analysis](../../analysis/absence-agency-analysis.md)
+
+Return to [all cases](../../../../case-selection.qmd) or continue to the
+[cross-case findings](../../../x-case/artifacts/qmd/x-case-overview.qmd).
