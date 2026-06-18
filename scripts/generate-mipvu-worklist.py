@@ -160,6 +160,18 @@ def generate_case(case_id: str, doc_filter: Optional[str] = None, force: bool = 
             )
             continue
 
+        if not force and out_path.exists():
+            if any(lu.get("review_status") == "reviewed" for lu in existing_records(out_path).values()):
+                records.append(
+                    {
+                        "document_id": doc_id,
+                        "status": "skipped_reviewed",
+                        "input_path": str(segmented_path),
+                        "output_path": str(out_path),
+                    }
+                )
+                continue
+
         segmented = read_json(segmented_path, {}) or {}
         if not isinstance(segmented, dict):
             errors.append(f"{segmented_path}: segmented document must be an object")
@@ -211,6 +223,7 @@ def generate_case(case_id: str, doc_filter: Optional[str] = None, force: bool = 
             }
         )
 
+    skipped_reviewed = sum(1 for r in records if r.get("status") == "skipped_reviewed")
     status = {
         "case_id": case_id,
         "stage": "generate-mipvu-worklist",
@@ -218,6 +231,7 @@ def generate_case(case_id: str, doc_filter: Optional[str] = None, force: bool = 
         "generated_at": now_iso(),
         "documents_in_manifest": len(documents(case_id)),
         "written": written,
+        "skipped_reviewed": skipped_reviewed,
         "lexical_units": total_units,
         "errors": errors,
         "records": records,
@@ -237,9 +251,11 @@ def main() -> int:
     exit_code = 0
     for case_id in case_ids(args.case_id):
         status = generate_case(case_id, doc_filter=args.doc_id, force=args.force, strict=args.strict)
+        skipped = status.get("skipped_reviewed", 0)
+        skip_note = f"; skipped {skipped} reviewed doc(s)" if skipped else ""
         print(
             f"{case_id}: wrote {status['written']} MIPVU worklist(s); "
-            f"{status['lexical_units']} lexical unit(s)."
+            f"{status['lexical_units']} lexical unit(s){skip_note}."
         )
         if status["errors"]:
             exit_code = 1
