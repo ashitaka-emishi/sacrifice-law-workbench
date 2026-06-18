@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0.0",
+  "sample_id": "lincoln-multi-model-v1",
+  "sample_version": "1.0.0",
+  "packet_id": "lincoln-multi-model-v1-packet",
+  "case_id": "lincoln",
+  "status": "approved",
+  "source_language": "en",
+  "source_sample": "cases/lincoln/quality/reliability-sample.json",
+  "sentence_ids": [
+    "lincoln-gettysburg-address_s01_p01_s01",
+    "lincoln-gettysburg-address_s01_p04_s03",
+    "lincoln-lyceum-address_s01_p04_s06",
+    "lincoln-lyceum-address_s01_p11_s15",
+    "lincoln-lyceum-address_s01_p12_s01",
+    "lincoln-lyceum-address_s01_p24_s05",
+    "lincoln-second-inaugural_s01_p06_s01"
+  ],
+  "task_layers": [
+    "identification",
+    "cmt",
+    "interpretation"
+  ],
+  "selection_policy": {
+    "identification": "all_lexical_units_in_selected_sentences",
+    "ambiguous": "uncertain_or_confidence_below_0.8_or_high_semantic_shift_risk",
+    "field_agreement": "annotated_instances_in_selected_sentences"
+  },
+  "rights_constraints": [
+    "public-domain-source",
+    "source-language-text-may-be-committed"
+  ],
+  "prompts": {
+    "identification": {
+      "prompt_id": "identification-v1",
+      "path": "config/model-reliability/prompts/identification-v1.md"
+    },
+    "cmt": {
+      "prompt_id": "cmt-v1",
+      "path": "config/model-reliability/prompts/cmt-v1.md"
+    },
+    "interpretation": {
+      "prompt_id": "interpretation-v1",
+      "path": "config/model-reliability/prompts/interpretation-v1.md"
+    }
+  }
+}

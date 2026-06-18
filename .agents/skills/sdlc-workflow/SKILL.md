@@ -128,6 +128,7 @@ Only do this when the user explicitly asks.
    - check off the issue
    - note out-of-order completion or dependency changes
    - close the tracking issue only when its completion definition is met
+6. Inspect the updated tracker, dependencies, and existing branch/PR state, then suggest the next recommended ticket without starting it.
 
 ## If Blocked
 

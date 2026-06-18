@@ -1,0 +1,71 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://sacrifice-law-workbench.local/schemas/model-reliability/packet-item-schema.json",
+  "title": "Blind model-reliability packet item",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "item_id",
+    "task_layer",
+    "case_id",
+    "document_id",
+    "sentence_id",
+    "span_ids",
+    "source_language",
+    "sentence_source_text",
+    "lexical_units",
+    "source_risk_flags"
+  ],
+  "properties": {
+    "item_id": { "$ref": "#/$defs/nonEmptyString" },
+    "task_layer": { "enum": ["identification", "cmt", "interpretation"] },
+    "case_id": { "$ref": "#/$defs/nonEmptyString" },
+    "document_id": { "$ref": "#/$defs/nonEmptyString" },
+    "sentence_id": { "$ref": "#/$defs/nonEmptyString" },
+    "span_ids": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "#/$defs/nonEmptyString" },
+      "uniqueItems": true
+    },
+    "source_language": { "$ref": "#/$defs/languageTag" },
+    "sentence_source_text": { "$ref": "#/$defs/nonEmptyString" },
+    "sentence_gloss_en": { "type": "string" },
+    "lexical_units": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "#/$defs/lexicalUnit" }
+    },
+    "source_risk_flags": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/nonEmptyString" },
+      "uniqueItems": true
+    }
+  },
+  "$defs": {
+    "nonEmptyString": { "type": "string", "minLength": 1 },
+    "languageTag": {
+      "type": "string",
+      "pattern": "^[A-Za-z]{2,3}(?:-[A-Za-z0-9]{2,8})*$"
+    },
+    "lexicalUnit": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "lexical_unit_id",
+        "span_id",
+        "source_text",
+        "char_offset_start",
+        "char_offset_end"
+      ],
+      "properties": {
+        "lexical_unit_id": { "$ref": "#/$defs/nonEmptyString" },
+        "span_id": { "$ref": "#/$defs/nonEmptyString" },
+        "source_text": { "$ref": "#/$defs/nonEmptyString" },
+        "gloss_en": { "type": "string" },
+        "char_offset_start": { "type": "integer", "minimum": 0 },
+        "char_offset_end": { "type": "integer", "minimum": 1 }
+      }
+    }
+  }
+}
