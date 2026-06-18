@@ -1,0 +1,24 @@
+{
+  "case_id": "demo",
+  "document_id": "demo-doc-001",
+  "meta": {
+    "source_language": "fr"
+  },
+  "sections": [
+    {
+      "section_id": "demo-doc-001_s01",
+      "paragraphs": [
+        {
+          "paragraph_id": "demo-doc-001_s01_p01",
+          "sentences": [
+            {
+              "sentence_id": "demo-doc-001_s01_p01_s01",
+              "text": "La cité porte l'espoir.",
+              "gloss_en": "The city carries hope."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

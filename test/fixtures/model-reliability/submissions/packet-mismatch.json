@@ -1,0 +1,23 @@
+{
+  "schema_version": "1.0.0",
+  "submission_id": "fixture-submission-packet-mismatch",
+  "case_id": "demo",
+  "sample_id": "demo-multi-model-v1",
+  "sample_version": "1.0.0",
+  "packet_id": "demo-multi-model-v1-packet",
+  "packet_hash": "sha256:0000000000000000000000000000000000000000000000000000000000000000",
+  "prompt_id": "cmt-v1",
+  "prompt_hash": "sha256:3454b00e86d116aba69979d668a7d74cc5ef0fe5deef1515e9832867588e3435",
+  "source_language": "fr",
+  "code_revision": "fixture-revision-v1",
+  "run": {
+    "run_id": "fixture-run-packet-mismatch",
+    "provider": "fixture-provider",
+    "model": "fixture-model",
+    "model_version": null,
+    "completed_at": "2026-06-18T12:00:00Z",
+    "language_capabilities": ["fr"],
+    "settings": {}
+  },
+  "items": []
+}

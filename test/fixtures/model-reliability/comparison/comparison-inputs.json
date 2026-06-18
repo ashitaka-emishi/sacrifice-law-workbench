@@ -1,0 +1,54 @@
+{
+  "schema_version": "1.0.0",
+  "case_id": "demo",
+  "runs": [
+    {
+      "run_id": "fixture-run-a",
+      "provider": "fixture-provider-a",
+      "model": "fixture-model-a",
+      "source_language": "fr",
+      "items": [
+        {
+          "item_id": "demo-multi-model-v1-packet:identification:demo-doc-001_s01_p01_s01",
+          "task_layer": "identification",
+          "lexical_unit_id": "demo-doc-001_s01_p01_s01_lu002",
+          "decision": "mipvu_indirect",
+          "boundary_decision": "exact",
+          "confidence": 0.82
+        },
+        {
+          "item_id": "demo-multi-model-v1-packet:cmt:demo-ann-001",
+          "task_layer": "cmt",
+          "source_domain_primary": "carrying",
+          "target_domain": "hope",
+          "cluster_id": "demo-carrying-hope",
+          "confidence": 0.78
+        }
+      ]
+    },
+    {
+      "run_id": "fixture-run-b",
+      "provider": "fixture-provider-b",
+      "model": "fixture-model-b",
+      "source_language": "fr",
+      "items": [
+        {
+          "item_id": "demo-multi-model-v1-packet:identification:demo-doc-001_s01_p01_s01",
+          "task_layer": "identification",
+          "lexical_unit_id": "demo-doc-001_s01_p01_s01_lu002",
+          "decision": "non_metaphor",
+          "boundary_decision": "exact",
+          "confidence": 0.61
+        },
+        {
+          "item_id": "demo-multi-model-v1-packet:cmt:demo-ann-001",
+          "task_layer": "cmt",
+          "source_domain_primary": "carrying",
+          "target_domain": "nation",
+          "cluster_id": "demo-carrying-hope",
+          "confidence": 0.64
+        }
+      ]
+    }
+  ]
+}

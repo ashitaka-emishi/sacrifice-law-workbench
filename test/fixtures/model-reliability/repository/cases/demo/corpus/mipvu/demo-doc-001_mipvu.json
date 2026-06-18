@@ -1,0 +1,38 @@
+{
+  "version": "1.0",
+  "case_id": "demo",
+  "document_id": "demo-doc-001",
+  "source_language": "fr",
+  "lexical_units": [
+    {
+      "mipvu_id": "demo-doc-001_s01_p01_s01_lu001",
+      "case_id": "demo",
+      "document_id": "demo-doc-001",
+      "sentence_id": "demo-doc-001_s01_p01_s01",
+      "lexical_unit": "cité",
+      "gloss_en": "city",
+      "language": "fr",
+      "sentence_unit_ordinal": 1,
+      "sentence_char_offset_start": 3,
+      "sentence_char_offset_end": 7,
+      "decision_type": "non_metaphor",
+      "review_status": "accepted"
+    },
+    {
+      "mipvu_id": "demo-doc-001_s01_p01_s01_lu002",
+      "case_id": "demo",
+      "document_id": "demo-doc-001",
+      "sentence_id": "demo-doc-001_s01_p01_s01",
+      "lexical_unit": "porte",
+      "gloss_en": "carries",
+      "language": "fr",
+      "sentence_unit_ordinal": 2,
+      "sentence_char_offset_start": 8,
+      "sentence_char_offset_end": 13,
+      "decision_type": "mipvu_indirect",
+      "confidence": 0.72,
+      "semantic_shift_risk": "high",
+      "review_status": "accepted"
+    }
+  ]
+}

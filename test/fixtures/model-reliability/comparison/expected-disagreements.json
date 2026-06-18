@@ -1,0 +1,17 @@
+{
+  "case_id": "demo",
+  "expected": [
+    {
+      "item_id": "demo-multi-model-v1-packet:identification:demo-doc-001_s01_p01_s01",
+      "field": "decision",
+      "classification": "metaphor-identification-instability",
+      "values": ["mipvu_indirect", "non_metaphor"]
+    },
+    {
+      "item_id": "demo-multi-model-v1-packet:cmt:demo-ann-001",
+      "field": "target_domain",
+      "classification": "target-domain-instability",
+      "values": ["hope", "nation"]
+    }
+  ]
+}

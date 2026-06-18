@@ -1,0 +1,26 @@
+{
+  "version": "1.0",
+  "case_id": "demo",
+  "document_id": "demo-doc-001",
+  "instances": [
+    {
+      "instance_id": "demo-ann-001",
+      "case_id": "demo",
+      "document_id": "demo-doc-001",
+      "sentence_id": "demo-doc-001_s01_p01_s01",
+      "span_text": "porte",
+      "mipvu_ids": ["demo-doc-001_s01_p01_s01_lu002"],
+      "cmt": {
+        "source_domain_primary": "carrying",
+        "target_domain": "hope"
+      },
+      "koenigsberg": {
+        "obligatory_frame": false
+      },
+      "meta": {
+        "confidence": 0.72,
+        "ambiguity_flag": true
+      }
+    }
+  ]
+}
