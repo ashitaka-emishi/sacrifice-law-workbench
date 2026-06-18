@@ -1,0 +1,314 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://sacrifice-law-workbench.local/schemas/model-reliability/submission-schema.json",
+  "title": "Multi-model reliability submission",
+  "description": "Canonical JSON exchange contract for one blind model run. CSV submissions normalize to this shape.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "submission_id",
+    "case_id",
+    "sample_id",
+    "sample_version",
+    "packet_id",
+    "packet_hash",
+    "prompt_id",
+    "prompt_hash",
+    "source_language",
+    "code_revision",
+    "run",
+    "items"
+  ],
+  "properties": {
+    "schema_version": { "const": "1.0.0" },
+    "submission_id": { "$ref": "#/$defs/nonEmptyString" },
+    "case_id": { "$ref": "#/$defs/nonEmptyString" },
+    "sample_id": { "$ref": "#/$defs/nonEmptyString" },
+    "sample_version": { "$ref": "#/$defs/nonEmptyString" },
+    "packet_id": { "$ref": "#/$defs/nonEmptyString" },
+    "packet_hash": { "$ref": "#/$defs/sha256" },
+    "prompt_id": { "$ref": "#/$defs/nonEmptyString" },
+    "prompt_hash": { "$ref": "#/$defs/sha256" },
+    "source_language": { "$ref": "#/$defs/languageTag" },
+    "code_revision": { "$ref": "#/$defs/nonEmptyString" },
+    "run": { "$ref": "#/$defs/runMetadata" },
+    "items": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "#/$defs/submissionItem" }
+    }
+  },
+  "$defs": {
+    "nonEmptyString": { "type": "string", "minLength": 1 },
+    "nullableString": { "type": ["string", "null"] },
+    "sha256": {
+      "type": "string",
+      "pattern": "^sha256:[0-9a-f]{64}$"
+    },
+    "languageTag": {
+      "type": "string",
+      "pattern": "^[A-Za-z]{2,3}(?:-[A-Za-z0-9]{2,8})*$"
+    },
+    "stringArray": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/nonEmptyString" },
+      "uniqueItems": true
+    },
+    "runMetadata": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "run_id",
+        "provider",
+        "model",
+        "completed_at",
+        "language_capabilities",
+        "settings"
+      ],
+      "properties": {
+        "run_id": { "$ref": "#/$defs/nonEmptyString" },
+        "provider": { "$ref": "#/$defs/nonEmptyString" },
+        "model": { "$ref": "#/$defs/nonEmptyString" },
+        "model_version": { "$ref": "#/$defs/nullableString" },
+        "completed_at": { "type": "string", "format": "date-time" },
+        "language_capabilities": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "$ref": "#/$defs/languageTag" },
+          "uniqueItems": true
+        },
+        "settings": {
+          "type": "object",
+          "description": "Non-secret generation settings only.",
+          "propertyNames": { "pattern": "^[a-z][a-z0-9_]*$" },
+          "additionalProperties": {
+            "type": ["string", "number", "integer", "boolean", "null"]
+          }
+        }
+      }
+    },
+    "lexicalUnit": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "lexical_unit_id",
+        "span_id",
+        "source_text",
+        "char_offset_start",
+        "char_offset_end",
+        "decision",
+        "boundary_decision"
+      ],
+      "properties": {
+        "lexical_unit_id": { "$ref": "#/$defs/nonEmptyString" },
+        "span_id": { "$ref": "#/$defs/nonEmptyString" },
+        "source_text": { "$ref": "#/$defs/nonEmptyString" },
+        "gloss_en": { "type": "string" },
+        "char_offset_start": { "type": "integer", "minimum": 0 },
+        "char_offset_end": { "type": "integer", "minimum": 0 },
+        "decision": {
+          "enum": [
+            "non_metaphor",
+            "mipvu_indirect",
+            "mipvu_direct",
+            "mipvu_implicit",
+            "mipvu_personification",
+            "uncertain",
+            "excluded_nonlexical"
+          ]
+        },
+        "boundary_decision": {
+          "enum": ["exact", "expand", "contract", "split", "merge", "no_valid_span", "uncertain"]
+        },
+        "proposed_source_text": { "type": "string" },
+        "proposed_char_offset_start": { "type": "integer", "minimum": 0 },
+        "proposed_char_offset_end": { "type": "integer", "minimum": 0 }
+      }
+    },
+    "uncertainty": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["status", "note"],
+      "properties": {
+        "status": { "enum": ["none", "low", "material", "unresolved"] },
+        "note": { "type": "string" }
+      }
+    },
+    "identification": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["contextual_meaning", "basic_meaning", "contrast_explanation", "comparison_basis"],
+      "properties": {
+        "contextual_meaning": { "$ref": "#/$defs/nonEmptyString" },
+        "basic_meaning": { "$ref": "#/$defs/nonEmptyString" },
+        "contrast_explanation": { "$ref": "#/$defs/nonEmptyString" },
+        "comparison_basis": { "$ref": "#/$defs/nonEmptyString" }
+      }
+    },
+    "cmt": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "source_domain_primary",
+        "source_domain_secondary",
+        "target_domain",
+        "conceptual_metaphor",
+        "entailments",
+        "cluster_id"
+      ],
+      "properties": {
+        "source_domain_primary": { "$ref": "#/$defs/nonEmptyString" },
+        "source_domain_secondary": { "$ref": "#/$defs/stringArray" },
+        "target_domain": { "$ref": "#/$defs/nonEmptyString" },
+        "conceptual_metaphor": { "$ref": "#/$defs/nonEmptyString" },
+        "entailments": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "$ref": "#/$defs/nonEmptyString" },
+          "uniqueItems": true
+        },
+        "cluster_id": { "$ref": "#/$defs/nonEmptyString" }
+      }
+    },
+    "agency": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["agents", "patients", "beneficiaries", "sacrificial_subjects", "excluded_agents"],
+      "properties": {
+        "agents": { "$ref": "#/$defs/stringArray" },
+        "patients": { "$ref": "#/$defs/stringArray" },
+        "beneficiaries": { "$ref": "#/$defs/stringArray" },
+        "sacrificial_subjects": { "$ref": "#/$defs/stringArray" },
+        "excluded_agents": { "$ref": "#/$defs/stringArray" }
+      }
+    },
+    "absence": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["status", "expected_presence", "possible_absence", "displacement_mechanism"],
+      "properties": {
+        "status": { "enum": ["present", "absent", "uncertain", "not_applicable"] },
+        "expected_presence": { "type": "string" },
+        "possible_absence": { "type": "string" },
+        "displacement_mechanism": { "type": "string" }
+      }
+    },
+    "interpretation": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["functions", "agency", "absence"],
+      "properties": {
+        "functions": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "sacred_object",
+            "sacrificial_body",
+            "enemy_as_bringer_of_death",
+            "violence_logic",
+            "obligatory_frame",
+            "purification"
+          ],
+          "properties": {
+            "sacred_object": { "$ref": "#/$defs/fieldJudgment" },
+            "sacrificial_body": { "$ref": "#/$defs/fieldJudgment" },
+            "enemy_as_bringer_of_death": { "$ref": "#/$defs/fieldJudgment" },
+            "violence_logic": { "$ref": "#/$defs/fieldJudgment" },
+            "obligatory_frame": { "$ref": "#/$defs/fieldJudgment" },
+            "purification": { "$ref": "#/$defs/fieldJudgment" }
+          }
+        },
+        "agency": { "$ref": "#/$defs/agency" },
+        "absence": { "$ref": "#/$defs/absence" }
+      }
+    },
+    "fieldJudgment": {
+      "enum": ["present", "absent", "uncertain", "not_applicable"]
+    },
+    "caseFieldValue": {
+      "oneOf": [
+        { "type": ["string", "number", "integer", "boolean", "null"] },
+        {
+          "type": "array",
+          "items": { "type": ["string", "number", "integer", "boolean", "null"] }
+        }
+      ]
+    },
+    "submissionItem": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "item_id",
+        "task_layer",
+        "case_id",
+        "document_id",
+        "sentence_id",
+        "span_ids",
+        "source_language",
+        "sentence_source_text",
+        "lexical_units",
+        "confidence",
+        "uncertainty",
+        "rival_reading",
+        "case_fields"
+      ],
+      "properties": {
+        "item_id": { "$ref": "#/$defs/nonEmptyString" },
+        "task_layer": { "enum": ["identification", "cmt", "interpretation"] },
+        "case_id": { "$ref": "#/$defs/nonEmptyString" },
+        "document_id": { "$ref": "#/$defs/nonEmptyString" },
+        "sentence_id": { "$ref": "#/$defs/nonEmptyString" },
+        "span_ids": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "$ref": "#/$defs/nonEmptyString" },
+          "uniqueItems": true
+        },
+        "source_language": { "$ref": "#/$defs/languageTag" },
+        "sentence_source_text": { "$ref": "#/$defs/nonEmptyString" },
+        "sentence_gloss_en": { "type": "string" },
+        "lexical_units": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "$ref": "#/$defs/lexicalUnit" }
+        },
+        "identification": { "$ref": "#/$defs/identification" },
+        "cmt": { "$ref": "#/$defs/cmt" },
+        "interpretation": { "$ref": "#/$defs/interpretation" },
+        "confidence": { "type": "number", "minimum": 0, "maximum": 1 },
+        "uncertainty": { "$ref": "#/$defs/uncertainty" },
+        "rival_reading": { "$ref": "#/$defs/nonEmptyString" },
+        "case_fields": {
+          "type": "object",
+          "description": "Namespaced, case-specific scalar or scalar-array fields. Keys must begin with the case ID plus two underscores.",
+          "propertyNames": { "pattern": "^[a-z0-9-]+__[a-z][a-z0-9_]*$" },
+          "additionalProperties": { "$ref": "#/$defs/caseFieldValue" }
+        }
+      },
+      "allOf": [
+        {
+          "if": { "properties": { "task_layer": { "const": "identification" } }, "required": ["task_layer"] },
+          "then": {
+            "required": ["identification"],
+            "not": { "anyOf": [{ "required": ["cmt"] }, { "required": ["interpretation"] }] }
+          }
+        },
+        {
+          "if": { "properties": { "task_layer": { "const": "cmt" } }, "required": ["task_layer"] },
+          "then": {
+            "required": ["cmt"],
+            "not": { "anyOf": [{ "required": ["identification"] }, { "required": ["interpretation"] }] }
+          }
+        },
+        {
+          "if": { "properties": { "task_layer": { "const": "interpretation" } }, "required": ["task_layer"] },
+          "then": {
+            "required": ["interpretation"],
+            "not": { "anyOf": [{ "required": ["identification"] }, { "required": ["cmt"] }] }
+          }
+        }
+      ]
+    }
+  }
+}
