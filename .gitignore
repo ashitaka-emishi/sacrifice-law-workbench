@@ -20,6 +20,9 @@ cases/hitler/corpus/text/*.md
 cases/hitler/corpus/segmented/*.json
 # MIPVU worklists tokenize the local source text and must remain local too
 cases/hitler/corpus/mipvu/*.json
+# Multi-model packets and submissions may reproduce the same local-only text.
+# Publication-safe aggregate summaries can be promoted deliberately after review.
+cases/hitler/quality/model-reliability/
 reports/tmp/
 
 /.quarto/
