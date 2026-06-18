@@ -1,35 +1,96 @@
 {
   "version": "1.0",
   "case_id": "x-case",
-  "generated_at": "2026-06-17T19:56:05",
-  "status": "draft",
+  "generated_at": "2026-06-17T23:30:41",
+  "status": "draft-scored",
+  "cross_case_findings": [
+    {
+      "finding_id": "xcf-001",
+      "claim": "All four cases show a functioning Koenigsbergian sacrificial economy at draft-score level.",
+      "evidence": "Each case has sacred_object, sacrificial_body, and historical_enactment_alignment scores ≥ 1.9 (moderate support or higher).",
+      "support_scores": {
+        "lincoln": 2.13,
+        "hitler": 2.94,
+        "napoleon": 1.94,
+        "am-rev": 2.34
+      },
+      "guardrail": "Structural similarity is not moral equivalence. Endpoint, enemy-construction, and violence logic differ categorically across cases.",
+      "claim_boundary": "Draft scoring only; full-corpus review and reliability adjudication remain pending for all cases."
+    },
+    {
+      "finding_id": "xcf-002",
+      "claim": "The enemy-as-bringer-of-death dimension shows the largest cross-case variance of any scored dimension.",
+      "evidence": "Draft enemy-death scores: hitler=3.2, am-rev=2.0, lincoln=1.0, napoleon=1.2.",
+      "guardrail": "High enemy-death scores in genocide cases reflect extermination logic; low scores in preservation cases reflect diffused enemy agency. These are not equivalent phenomena.",
+      "claim_boundary": "Draft scoring only; full adjudication required."
+    },
+    {
+      "finding_id": "xcf-003",
+      "claim": "Hitler case scores highest overall (strong support); lincoln, am-rev, and napoleon score moderate support.",
+      "evidence": "Overall scores: hitler=2.94, am-rev=2.34, lincoln=2.13, napoleon=1.94.",
+      "guardrail": "Higher support score does not indicate moral precedence. Hitler's higher score reflects the framework's fit with genocidal racial-state rhetoric, not normative ranking.",
+      "claim_boundary": "Draft scoring only; corpus size and genre constraints differ across cases."
+    }
+  ],
   "items": [
     {
       "case_id": "lincoln",
+      "status": "draft-scored",
       "support_rating": "moderate support",
       "support_score": 2.13,
       "support_rating_path": "cases/lincoln/analysis/support-ratings.json",
+      "support_synthesis_path": "cases/lincoln/analysis/koenigsbergian-support-synthesis.json",
+      "case_scores": {
+        "sacred_object": 2.4,
+        "sacrificial_body": 2.4,
+        "enemy_as_bringer_of_death": 1.0,
+        "historical_enactment_alignment": 2.6
+      },
       "claim_boundary": "Lincoln is comparison-ready only as a provisional pilot case; full-corpus review and reliability adjudication remain pending."
     },
     {
       "case_id": "hitler",
+      "status": "draft-scored",
       "support_rating": "strong support",
       "support_score": 2.94,
       "support_rating_path": "cases/hitler/analysis/support-ratings.json",
+      "support_synthesis_path": "cases/hitler/analysis/koenigsbergian-support-synthesis.json",
+      "case_scores": {
+        "sacred_object": 3.57,
+        "sacrificial_body": 1.89,
+        "enemy_as_bringer_of_death": 3.2,
+        "historical_enactment_alignment": 3.14
+      },
       "claim_boundary": "Hitler case is draft-scored; full-corpus German source review and reliability adjudication remain pending."
     },
     {
       "case_id": "napoleon",
+      "status": "draft-scored",
       "support_rating": "moderate support",
       "support_score": 1.94,
       "support_rating_path": "cases/napoleon/analysis/support-ratings.json",
+      "support_synthesis_path": "cases/napoleon/analysis/koenigsbergian-support-synthesis.json",
+      "case_scores": {
+        "sacred_object": 2.4,
+        "sacrificial_body": 2.1,
+        "enemy_as_bringer_of_death": 1.2,
+        "historical_enactment_alignment": 2.1
+      },
       "claim_boundary": "Napoleon case is draft-scored from bulletin corpus; thin evidence base (19 instances) and genre constraints limit generalization."
     },
     {
       "case_id": "am-rev",
+      "status": "draft-scored",
       "support_rating": "moderate support",
       "support_score": 2.34,
       "support_rating_path": "cases/am-rev/analysis/support-ratings.json",
+      "support_synthesis_path": "cases/am-rev/analysis/koenigsbergian-support-synthesis.json",
+      "case_scores": {
+        "sacred_object": 2.75,
+        "sacrificial_body": 2.5,
+        "enemy_as_bringer_of_death": 2.0,
+        "historical_enactment_alignment": 2.25
+      },
       "claim_boundary": "Am-Rev case is draft-scored; tech debt #42 means am-rev MIPVU pipeline may have overwritten reviewed annotations for Washington Orders documents."
     }
   ]

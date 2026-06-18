@@ -2,7 +2,13 @@
 title: "X Case Overview"
 ---
 
-The x-case layer now has a comparative protocol, moral-equivalence guardrails,
-and a draft Lincoln-linked comparison row. Cross-case findings remain draft
-until every included case has case-level support ratings and historical
-alignment notes.
+Status: draft-scored.
+
+The x-case layer has a comparative protocol, moral-equivalence guardrails,
+and draft comparison rows for all four cases. All cases have case-level
+support ratings and historical alignment notes. Cross-case findings remain
+draft until full-corpus review and reliability adjudication are complete.
+
+Guardrails: structural comparison is not moral equivalence. War, genocide,
+enslavement, and state terror require separate historical and moral description
+even when symbolic structures overlap.

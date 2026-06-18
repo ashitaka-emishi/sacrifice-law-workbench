@@ -1,8 +1,8 @@
 {
   "version": "1.0",
   "case_id": "x-case",
-  "generated_at": "2026-06-17T19:56:05",
-  "status": "draft",
+  "generated_at": "2026-06-17T23:30:41",
+  "status": "draft-scored",
   "items": [
     {
       "case_id": "lincoln",
@@ -16,6 +16,12 @@
       "historical_alignment": "Battlefield death, public mourning, emancipation context, wartime bloodshed, and reunion practice require publication citations before final claims.",
       "support_rating": "moderate support",
       "support_score": 2.13,
+      "case_scores": {
+        "sacred_object": 2.4,
+        "sacrificial_body": 2.4,
+        "enemy_as_bringer_of_death": 1.0,
+        "historical_enactment_alignment": 2.6
+      },
       "guilt_structure": "Shared national guilt and providential judgment, especially in the Second Inaugural.",
       "endpoint": "Reunion, democratic survival, reconciliation, and renewal.",
       "support_rating_path": "cases/lincoln/analysis/support-ratings.json",
@@ -34,6 +40,12 @@
       "historical_alignment": "Nuremberg Laws 1935, Operation Barbarossa 1941, Wannsee 1942 industrial genocide, documented social uptake in Nazi state machinery.",
       "support_rating": "strong support",
       "support_score": 2.94,
+      "case_scores": {
+        "sacred_object": 3.57,
+        "sacrificial_body": 1.89,
+        "enemy_as_bringer_of_death": 3.2,
+        "historical_enactment_alignment": 3.14
+      },
       "guilt_structure": "External guilt projected onto racial enemy; no internal moral accounting. Contamination logic inverts guilt.",
       "endpoint": "Racial state, Lebensraum, extermination of designated enemies, Thousand-Year Reich.",
       "support_rating_path": "cases/hitler/analysis/support-ratings.json",
@@ -52,6 +64,12 @@
       "historical_alignment": "Austerlitz mobilization, Eylau mass casualties, 29th Bulletin catastrophe acknowledgment corroborated historically.",
       "support_rating": "moderate support",
       "support_score": 1.94,
+      "case_scores": {
+        "sacred_object": 2.4,
+        "sacrificial_body": 2.1,
+        "enemy_as_bringer_of_death": 1.2,
+        "historical_enactment_alignment": 2.1
+      },
       "guilt_structure": "Minimal — bulletins externalize loss onto weather, terrain, or enemy resistance; no shared-guilt logic.",
       "endpoint": "Imperial consolidation, Napoleonic peace, historical glory; not extermination or republican founding.",
       "support_rating_path": "cases/napoleon/analysis/support-ratings.json",
@@ -70,6 +88,12 @@
       "historical_alignment": "Continental Army mobilization, Battle of Trenton, Valley Forge sacrifice, documented pamphlet reception corroborated.",
       "support_rating": "moderate support",
       "support_score": 2.34,
+      "case_scores": {
+        "sacred_object": 2.75,
+        "sacrificial_body": 2.5,
+        "enemy_as_bringer_of_death": 2.0,
+        "historical_enactment_alignment": 2.25
+      },
       "guilt_structure": "External guilt projected onto Crown and loyalists; colonists positioned as innocent victims of tyranny.",
       "endpoint": "Republican founding, constitutional self-governance, permanent severance from monarchical authority.",
       "support_rating_path": "cases/am-rev/analysis/support-ratings.json",

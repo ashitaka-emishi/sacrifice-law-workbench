@@ -214,41 +214,71 @@ def build_rival_explanations(all_ids: list[str]) -> list[dict[str, Any]]:
 
 
 def build_open_questions(items: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    scored = {item["case_id"]: item for item in items if item.get("comparison_ready") or item.get("status") == "draft-scored"}
+    all_scored = len(scored) == len(items)
+
+    by_case = {item["case_id"]: item for item in items}
+
+    def score_for(case_id: str, dim: str) -> float | None:
+        return (by_case.get(case_id) or {}).get("case_scores", {}).get(dim)
+
     questions = [
         {
             "question_id": "xq-001",
             "question": "Do all four cases share a common sacrificial economy logic, or do preservation, glory, and extermination differ structurally?",
             "relevant_cases": ["lincoln", "napoleon", "am-rev", "hitler"],
-            "status": "open",
-            "dependency": "All four cases require support-rating adjudication before this can be answered.",
+            "status": "partially-answered" if all_scored else "open",
+            "dependency": "All four cases now have draft support ratings." if all_scored else "All four cases require support-rating adjudication before this can be answered.",
+            "draft_answer": (
+                "All four cases show a functioning sacrificial economy (sacred collective object, body metaphor, violence logic, death-conversion), "
+                "but the endpoint and violence logic differ structurally: Lincoln/Am-Rev use preservation-and-founding logic; Napoleon uses imperial glory; "
+                "Hitler uses racial extermination. Shared form with divergent content — the framework holds cross-case, but the moral-political substance differs categorically. "
+                "Full answer requires obligatory-frame rate comparison and corpus-level adjudication."
+            ) if all_scored else None,
         },
         {
             "question_id": "xq-002",
             "question": "Is the enemy-as-bringer-of-death dimension present with comparable salience across all cases?",
             "relevant_cases": ["lincoln", "napoleon", "am-rev", "hitler"],
-            "status": "open",
-            "dependency": "Lincoln pilot evidence shows weak enemy-death salience; other cases remain unrated.",
+            "status": "partially-answered" if all_scored else "open",
+            "dependency": "All four cases now have draft enemy-death scores." if all_scored else "Lincoln pilot evidence shows weak enemy-death salience; other cases remain unrated.",
+            "draft_answer": (
+                f"No — enemy-death salience varies significantly. Draft scores: "
+                f"lincoln={score_for('lincoln', 'enemy_as_bringer_of_death')}, "
+                f"am-rev={score_for('am-rev', 'enemy_as_bringer_of_death')}, "
+                f"napoleon={score_for('napoleon', 'enemy_as_bringer_of_death')}, "
+                f"hitler={score_for('hitler', 'enemy_as_bringer_of_death')}. "
+                "Hitler shows the highest enemy-death salience (racial contamination/extermination logic); Napoleon shows the lowest (enemies as obstacles to order). "
+                "Lincoln and Am-Rev are intermediate — tyranny and disunion as death-bearers, but enemy agency is often muted or diffused. "
+                "Full answer requires obligatory-frame and cluster-density adjudication."
+            ) if all_scored else None,
         },
         {
             "question_id": "xq-003",
             "question": "Does the obligatory frame appear in all cases, or only in cases with explicit covenantal or martyrological rhetoric?",
             "relevant_cases": ["lincoln", "am-rev", "napoleon", "hitler"],
             "status": "open",
-            "dependency": "Per-case obligatory-frame rates require case-level adjudication.",
+            "dependency": "Per-case obligatory-frame rates exist in cluster profiles but have not been cross-case adjudicated. Requires analyst review of cluster-comparison data.",
         },
         {
             "question_id": "xq-004",
             "question": "Do absence patterns differ systematically by case type (war preservation vs. imperial vs. founding vs. genocide)?",
             "relevant_cases": ["lincoln", "napoleon", "am-rev", "hitler"],
-            "status": "open",
-            "dependency": "Absence rows exist for all four cases but have not been cross-case adjudicated.",
+            "status": "partially-answered" if all_scored else "open",
+            "dependency": "Absence rows exist for all four cases; cross-case adjudication is draft." if all_scored else "Absence rows exist for all four cases but have not been cross-case adjudicated.",
+            "draft_answer": (
+                "Draft patterns: all four cases show agency-absence for defeated/excluded populations (slaves/freedmen in Lincoln, Hessians/loyalists in Am-Rev, "
+                "Russian casualties in Napoleon, Jewish/Slavic victims in Hitler). The displacement mechanism differs by case type: "
+                "preservation cases displace through elevation (honor/sacrifice); genocide cases displace through negation (subhuman/vermin). "
+                "Full adjudication requires corpus-level absence-pattern review."
+            ) if all_scored else None,
         },
         {
             "question_id": "xq-005",
             "question": "What is the structural role of the providence / historical destiny cluster across cases? Is it a universal feature or a historically specific one?",
             "relevant_cases": ["lincoln", "am-rev", "napoleon", "hitler"],
             "status": "open",
-            "dependency": "Providence appears in lincoln, am-rev, and napoleon clusters; hitler uses destiny differently. Requires comparative analysis.",
+            "dependency": "Providence appears in lincoln, am-rev, and napoleon clusters; hitler uses destiny differently. Requires comparative analysis of cluster profiles.",
         },
     ]
     pending = [item.get("case_id", "") for item in items if item.get("status") == "pending-case-level-support-rating"]
@@ -333,6 +363,7 @@ def comparison_items() -> list[dict[str, Any]]:
             "historical_alignment": "Battlefield death, public mourning, emancipation context, wartime bloodshed, and reunion practice require publication citations before final claims.",
             "support_rating": lincoln.get("overall_support", {}).get("final_category", "pending"),
             "support_score": lincoln.get("overall_support", {}).get("score"),
+            "case_scores": lincoln.get("case_scores"),
             "guilt_structure": "Shared national guilt and providential judgment, especially in the Second Inaugural.",
             "endpoint": "Reunion, democratic survival, reconciliation, and renewal.",
             "support_rating_path": lincoln["support_rating_path"],
@@ -351,6 +382,7 @@ def comparison_items() -> list[dict[str, Any]]:
             "historical_alignment": "Nuremberg Laws 1935, Operation Barbarossa 1941, Wannsee 1942 industrial genocide, documented social uptake in Nazi state machinery.",
             "support_rating": hitler.get("overall_support", {}).get("final_category", "pending"),
             "support_score": hitler.get("overall_support", {}).get("score"),
+            "case_scores": hitler.get("case_scores"),
             "guilt_structure": "External guilt projected onto racial enemy; no internal moral accounting. Contamination logic inverts guilt.",
             "endpoint": "Racial state, Lebensraum, extermination of designated enemies, Thousand-Year Reich.",
             "support_rating_path": hitler["support_rating_path"],
@@ -369,6 +401,7 @@ def comparison_items() -> list[dict[str, Any]]:
             "historical_alignment": "Austerlitz mobilization, Eylau mass casualties, 29th Bulletin catastrophe acknowledgment corroborated historically.",
             "support_rating": napoleon.get("overall_support", {}).get("final_category", "pending"),
             "support_score": napoleon.get("overall_support", {}).get("score"),
+            "case_scores": napoleon.get("case_scores"),
             "guilt_structure": "Minimal — bulletins externalize loss onto weather, terrain, or enemy resistance; no shared-guilt logic.",
             "endpoint": "Imperial consolidation, Napoleonic peace, historical glory; not extermination or republican founding.",
             "support_rating_path": napoleon["support_rating_path"],
@@ -387,6 +420,7 @@ def comparison_items() -> list[dict[str, Any]]:
             "historical_alignment": "Continental Army mobilization, Battle of Trenton, Valley Forge sacrifice, documented pamphlet reception corroborated.",
             "support_rating": am_rev.get("overall_support", {}).get("final_category", "pending"),
             "support_score": am_rev.get("overall_support", {}).get("score"),
+            "case_scores": am_rev.get("case_scores"),
             "guilt_structure": "External guilt projected onto Crown and loyalists; colonists positioned as innocent victims of tyranny.",
             "endpoint": "Republican founding, constitutional self-governance, permanent severance from monarchical authority.",
             "support_rating_path": am_rev["support_rating_path"],
@@ -430,7 +464,7 @@ Status: {data['status']}.
     (protocol_dir / "comparative-analysis-protocol.md").write_text(text, encoding="utf-8")
 
 
-def write_qmd_pages(items: list[dict[str, Any]], protocol_data: dict[str, Any]) -> None:
+def write_qmd_pages(items: list[dict[str, Any]], protocol_data: dict[str, Any], all_scored: bool = False) -> None:
     qmd_dir = XCASE_DIR / "artifacts" / "qmd"
     qmd_dir.mkdir(parents=True, exist_ok=True)
     guardrails = "\n".join(f"- {item}" for item in protocol_data["guardrails"])
@@ -467,6 +501,12 @@ forms never establish moral equivalence.
 """,
         encoding="utf-8",
     )
+    findings_note = (
+        "All four cases now have draft case-level support ratings. Cross-case findings are draft-scored. "
+        "Full-corpus review, reliability adjudication, and publication-grade citations remain pending."
+        if all_scored else
+        "Some cases remain pending. Cross-case findings are not available until all cases are scored."
+    )
     (qmd_dir / "sacrifice-law-findings.qmd").write_text(
         f"""---
 title: "Sacrifice Law Findings"
@@ -476,21 +516,26 @@ title: "Sacrifice Law Findings"
 
 {markdown_table(items, ["case_id", "status", "support_rating", "support_score", "support_rating_path"])}
 
-Only Lincoln currently has a draft case-level support rating. Other cases remain
-pending until their annotation, corroboration, and support-rating artifacts are
-complete.
+{findings_note}
 """,
         encoding="utf-8",
     )
+    overview_status = "draft-scored" if all_scored else "draft"
     (qmd_dir / "x-case-overview.qmd").write_text(
         f"""---
 title: "X Case Overview"
 ---
 
-The x-case layer now has a comparative protocol, moral-equivalence guardrails,
-and a draft Lincoln-linked comparison row. Cross-case findings remain draft
-until every included case has case-level support ratings and historical
-alignment notes.
+Status: {overview_status}.
+
+The x-case layer has a comparative protocol, moral-equivalence guardrails,
+and draft comparison rows for all four cases. All cases have case-level
+support ratings and historical alignment notes. Cross-case findings remain
+draft until full-corpus review and reliability adjudication are complete.
+
+Guardrails: structural comparison is not moral equivalence. War, genocide,
+enslavement, and state terror require separate historical and moral description
+even when symbolic structures overlap.
 """,
         encoding="utf-8",
     )
@@ -589,13 +634,15 @@ def build() -> dict[str, Any]:
 
     write_json(protocol_dir / "comparative-analysis-protocol.json", protocol_data)
     write_protocol_md(protocol_data)
+    all_scored = all(item.get("status") == "draft-scored" for item in items)
+    by_case = {item["case_id"]: item for item in items}
     write_json(
         synthesis_dir / "case-comparison.json",
         {
             "version": "1.0",
             "case_id": "x-case",
             "generated_at": generated_at,
-            "status": "draft",
+            "status": "draft-scored" if all_scored else "draft",
             "items": items,
             "guardrails": GUARDRAILS,
         },
@@ -612,19 +659,65 @@ def build() -> dict[str, Any]:
             "items": items,
         },
     )
+    findings_status = "draft-scored" if all_scored else "draft"
+    cross_case_findings = []
+    if all_scored:
+        def _cs(case_id: str, dim: str) -> float | None:
+            return (by_case.get(case_id) or {}).get("case_scores", {}).get(dim)
+
+        cross_case_findings = [
+            {
+                "finding_id": "xcf-001",
+                "claim": "All four cases show a functioning Koenigsbergian sacrificial economy at draft-score level.",
+                "evidence": "Each case has sacred_object, sacrificial_body, and historical_enactment_alignment scores ≥ 1.9 (moderate support or higher).",
+                "support_scores": {item["case_id"]: item.get("support_score") for item in items},
+                "guardrail": "Structural similarity is not moral equivalence. Endpoint, enemy-construction, and violence logic differ categorically across cases.",
+                "claim_boundary": "Draft scoring only; full-corpus review and reliability adjudication remain pending for all cases.",
+            },
+            {
+                "finding_id": "xcf-002",
+                "claim": "The enemy-as-bringer-of-death dimension shows the largest cross-case variance of any scored dimension.",
+                "evidence": (
+                    f"Draft enemy-death scores: "
+                    f"hitler={_cs('hitler', 'enemy_as_bringer_of_death')}, "
+                    f"am-rev={_cs('am-rev', 'enemy_as_bringer_of_death')}, "
+                    f"lincoln={_cs('lincoln', 'enemy_as_bringer_of_death')}, "
+                    f"napoleon={_cs('napoleon', 'enemy_as_bringer_of_death')}."
+                ),
+                "guardrail": "High enemy-death scores in genocide cases reflect extermination logic; low scores in preservation cases reflect diffused enemy agency. These are not equivalent phenomena.",
+                "claim_boundary": "Draft scoring only; full adjudication required.",
+            },
+            {
+                "finding_id": "xcf-003",
+                "claim": "Hitler case scores highest overall (strong support); lincoln, am-rev, and napoleon score moderate support.",
+                "evidence": (
+                    f"Overall scores: "
+                    f"hitler={by_case.get('hitler', {}).get('support_score')}, "
+                    f"am-rev={by_case.get('am-rev', {}).get('support_score')}, "
+                    f"lincoln={by_case.get('lincoln', {}).get('support_score')}, "
+                    f"napoleon={by_case.get('napoleon', {}).get('support_score')}."
+                ),
+                "guardrail": "Higher support score does not indicate moral precedence. Hitler's higher score reflects the framework's fit with genocidal racial-state rhetoric, not normative ranking.",
+                "claim_boundary": "Draft scoring only; corpus size and genre constraints differ across cases.",
+            },
+        ]
     write_json(
         synthesis_dir / "sacrifice-law-findings.json",
         {
             "version": "1.0",
             "case_id": "x-case",
             "generated_at": generated_at,
-            "status": "draft",
+            "status": findings_status,
+            "cross_case_findings": cross_case_findings,
             "items": [
                 {
                     "case_id": item["case_id"],
+                    "status": item.get("status"),
                     "support_rating": item.get("support_rating"),
                     "support_score": item.get("support_score"),
                     "support_rating_path": item.get("support_rating_path"),
+                    "support_synthesis_path": item.get("support_synthesis_path"),
+                    "case_scores": item.get("case_scores"),
                     "claim_boundary": item.get("claim_boundary"),
                 }
                 for item in items
@@ -657,9 +750,16 @@ def build() -> dict[str, Any]:
             "dependencies": [
                 "cases/lincoln/analysis/support-ratings.json",
                 "cases/lincoln/analysis/historical-enactment-alignment.json",
-                "cases/am-rev/analysis/analysis.json",
-                "cases/napoleon/analysis/analysis.json",
-                "cases/hitler/analysis/analysis.json",
+                "cases/lincoln/analysis/koenigsbergian-support-synthesis.json",
+                "cases/am-rev/analysis/support-ratings.json",
+                "cases/am-rev/analysis/historical-enactment-alignment.json",
+                "cases/am-rev/analysis/koenigsbergian-support-synthesis.json",
+                "cases/napoleon/analysis/support-ratings.json",
+                "cases/napoleon/analysis/historical-enactment-alignment.json",
+                "cases/napoleon/analysis/koenigsbergian-support-synthesis.json",
+                "cases/hitler/analysis/support-ratings.json",
+                "cases/hitler/analysis/historical-enactment-alignment.json",
+                "cases/hitler/analysis/koenigsbergian-support-synthesis.json",
             ],
         },
     )
@@ -688,7 +788,7 @@ def build() -> dict[str, Any]:
             "notes": "Comparative protocol and moral-equivalence guardrails are defined. Lincoln has a draft support row; other case comparisons remain pending case-level support ratings.",
         },
     )
-    write_qmd_pages(items, protocol_data)
+    write_qmd_pages(items, protocol_data, all_scored=all_scored)
     return {
         "generated_at": generated_at,
         "case_rows": len(items),
