@@ -13,10 +13,10 @@ support scores, and synthesis claims. CMT and interpretive prompts explicitly
 describe their items as bounded classification exercises rather than accepted
 metaphors.
 
-The approved sample remains the source of selection authority. Selection
-strata—negative controls, ambiguous items, and claim-relevant items—appear in
-the packet manifest only as aggregate counts, never as item labels. An approved
-sample must contain at least one item from each stratum.
+The approved sample remains the source of selection authority. The generator
+requires negative controls, ambiguous items, and claim-relevant items, but does
+not expose those item labels or their distribution in the model-visible packet
+or manifest. The manifest reports only neutral coverage totals.
 
 ## Determinism and provenance
 

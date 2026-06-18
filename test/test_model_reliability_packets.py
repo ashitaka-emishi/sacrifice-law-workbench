@@ -159,9 +159,9 @@ class PacketGenerationTest(unittest.TestCase):
 
             self.assertEqual(first, second)
             self.assertEqual(first_bytes, second_bytes)
-            self.assertEqual(first["selection_summary"]["negative_controls"], 1)
-            self.assertEqual(first["selection_summary"]["ambiguous_items"], 1)
-            self.assertEqual(first["selection_summary"]["claim_relevant_items"], 1)
+            self.assertEqual(first["selection_summary"]["field_agreement_items"], 1)
+            self.assertNotIn("negative_controls", first["selection_summary"])
+            self.assertNotIn("ambiguous_items", first["selection_summary"])
 
             identification = json.loads(
                 (packet_dir / "identification-packet.jsonl").read_text(encoding="utf-8").splitlines()[0]

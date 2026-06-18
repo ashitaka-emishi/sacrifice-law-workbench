@@ -472,9 +472,7 @@ def generate_packets(
         "selection_summary": {
             "sentences": len(sentence_ids),
             "lexical_units": len(all_selected_units),
-            "negative_controls": negative_controls,
-            "ambiguous_items": ambiguous_items,
-            "claim_relevant_items": len(claim_relevant_ids),
+            "field_agreement_items": len(claim_relevant_ids),
         },
         "prompts": prompt_entries,
         "source_inputs": source_entries,

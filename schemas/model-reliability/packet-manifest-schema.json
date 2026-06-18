@@ -48,13 +48,11 @@
     "selection_summary": {
       "type": "object",
       "additionalProperties": false,
-      "required": ["sentences", "lexical_units", "negative_controls", "ambiguous_items", "claim_relevant_items"],
+      "required": ["sentences", "lexical_units", "field_agreement_items"],
       "properties": {
         "sentences": { "type": "integer", "minimum": 1 },
         "lexical_units": { "type": "integer", "minimum": 1 },
-        "negative_controls": { "type": "integer", "minimum": 1 },
-        "ambiguous_items": { "type": "integer", "minimum": 1 },
-        "claim_relevant_items": { "type": "integer", "minimum": 1 }
+        "field_agreement_items": { "type": "integer", "minimum": 1 }
       }
     },
     "prompts": {
