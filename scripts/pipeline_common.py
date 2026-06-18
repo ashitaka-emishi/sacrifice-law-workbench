@@ -13,6 +13,15 @@ import yaml
 ROOT = Path(__file__).resolve().parents[1]
 CASES_ROOT = ROOT / "cases"
 
+# Canonical MIPVU decision-type sets — single source of truth for all pipeline scripts.
+MIPVU_CONFIRMED_METAPHOR_DECISIONS: frozenset[str] = frozenset({
+    "mipvu_indirect",
+    "mipvu_direct",
+    "mipvu_implicit",
+    "mipvu_personification",
+})
+MIPVU_METAPHOR_OR_UNCERTAIN_DECISIONS: frozenset[str] = MIPVU_CONFIRMED_METAPHOR_DECISIONS | {"uncertain"}
+
 
 def now_iso() -> str:
     return _dt.datetime.now().isoformat(timespec="seconds")

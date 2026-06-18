@@ -7,6 +7,8 @@ from pathlib import Path
 from typing import Any
 
 from pipeline_common import (
+    MIPVU_CONFIRMED_METAPHOR_DECISIONS,
+    MIPVU_METAPHOR_OR_UNCERTAIN_DECISIONS,
     case_dir,
     case_ids,
     cmt_mappings_path_for,
@@ -21,14 +23,6 @@ from pipeline_common import (
     valid_cluster_ids,
     write_json,
 )
-
-MIPVU_CONFIRMED_METAPHOR_DECISIONS = {
-    "mipvu_indirect",
-    "mipvu_direct",
-    "mipvu_implicit",
-    "mipvu_personification",
-}
-MIPVU_METAPHOR_OR_UNCERTAIN_DECISIONS = MIPVU_CONFIRMED_METAPHOR_DECISIONS | {"uncertain"}
 
 
 def add_index(index: dict[str, list[str]], key: Any, instance_id: str) -> None:

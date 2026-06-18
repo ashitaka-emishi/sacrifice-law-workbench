@@ -7,7 +7,7 @@ For each reviewed MIPVU document, this script:
   3. Writes per-document annotated JSON to corpus/annotated/.
   4. Writes a per-case CMT mapping file to corpus/cmt/cmt-mappings.json.
 
-Only LUs with decision_type in METAPHOR_DECISIONS are processed.
+Only LUs with decision_type in MIPVU_METAPHOR_OR_UNCERTAIN_DECISIONS are processed.
 No annotation is created from purely theoretical interest without MIPVU evidence.
 """
 from __future__ import annotations
@@ -23,6 +23,7 @@ from typing import Any
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from pipeline_common import (
+    MIPVU_METAPHOR_OR_UNCERTAIN_DECISIONS,
     annotated_path_for,
     case_dir,
     case_ids,
@@ -36,14 +37,6 @@ from pipeline_common import (
     segmented_path_for,
     write_json,
 )
-
-METAPHOR_DECISIONS = {
-    "mipvu_indirect",
-    "mipvu_direct",
-    "mipvu_implicit",
-    "mipvu_personification",
-    "uncertain",
-}
 
 TODAY = datetime.now().strftime("%Y-%m-%d")
 
@@ -166,67 +159,44 @@ TARGET_DOMAIN_MAP: dict[str, str] = {
 
 
 # ---------------------------------------------------------------------------
-# Cluster matching
+# Koenigsbergian classification term-sets (module-level constants)
 # ---------------------------------------------------------------------------
 
-# Per-case heuristic maps: (source_domain_token, target_domain_token) → cluster_id suffix.
-# Tokens are single words that appear in the mapped source or target domain string.
-_CLUSTER_HINTS: dict[str, list[tuple[tuple[str, ...], str]]] = {
-    "am-rev": [
-        (("war", "combat", "enemy", "bondage", "slavery"), "am-rev-01-liberty-tyranny"),
-        (("freedom", "liberty", "independence", "republic", "people"), "am-rev-02-people-republic"),
-        (("sacrifice", "founding", "founding_sacrifice"), "am-rev-03-founding-sacrifice"),
-        (("religion", "providence", "covenant", "ritual"), "am-rev-04-providence-covenant"),
-        (("virtue", "corruption", "mechanics", "theater"), "am-rev-05-virtue-corruption"),
-        (("union", "history", "government", "political"), "am-rev-06-union-founding-memory"),
-    ],
-    "napoleon": [
-        (("light", "glory", "destiny", "struggle", "rebirth"), "napoleon-01-glory-destiny"),
-        (("body", "army", "organism", "instrument"), "napoleon-02-army-body"),
-        (("imperial", "emperor", "nation", "embodiment"), "napoleon-03-emperor-embodiment"),
-        (("law", "order", "empire", "architecture"), "napoleon-04-empire-order"),
-        (("sacrifice", "soldier", "military", "war_death", "honor"), "napoleon-05-soldier-sacrifice"),
-        (("enemy", "obstacle", "combat", "war"), "napoleon-06-enemy-obstacle"),
-    ],
-    "hitler": [
-        (("body", "blood", "racial", "volk", "organism"), "hitler-01-volk-racial-body"),
-        (("person", "agency", "fuhrer"), "hitler-02-fuhrer-embodiment"),
-        (("disease", "parasite", "purification", "racial_order", "object_material"), "hitler-03-jew-parasite-disease"),
-        (("physical", "destruction", "surgery", "elimination", "purif"), "hitler-04-purification-surgery"),
-        (("war", "combat", "struggle", "destiny", "nature"), "hitler-05-struggle-destiny"),
-        (("sacrifice", "martyrdom", "war_death", "blood"), "hitler-06-sacrifice-martyrdom"),
-        (("rebirth", "renewal", "birth", "generation"), "hitler-07-rebirth-reich"),
-        (("erasure", "victim", "theater", "inversion"), "hitler-08-victim-erasure"),
-    ],
-    "lincoln": [
-        (("body", "organism", "nation", "social"), "lincoln-01-body-organism"),
-        (("law", "covenant", "oath", "union", "contract"), "lincoln-02-covenant-oath"),
-        (("experiment", "science", "republic", "democracy"), "lincoln-03-experiment-proposition"),
-        (("birth", "creation", "generation", "founding"), "lincoln-04-birth-creation"),
-        (("family", "inheritance", "father", "history"), "lincoln-05-fathers-inheritance"),
-        (("religion", "providence", "ritual"), "lincoln-06-providence-theodicy"),
-        (("absence", "suppression", "slavery", "bondage"), "lincoln-07-absence-black-agency"),
-        (("sacrifice", "death", "war_death", "gift"), "lincoln-08-sacrificial-death-gift"),
-    ],
-}
+_SACRIFICIAL_TERMS: frozenset[str] = frozenset({
+    "sacrifice", "martyr", "death", "gift", "offering", "blood", "dying", "die", "gave",
+})
+_VIOLENCE_TERMS: frozenset[str] = frozenset({
+    "war", "combat", "parasite", "disease", "purif", "surg", "enemy", "destroy", "kill", "exterminate",
+})
+_OBLIGATORY_TERMS: frozenset[str] = frozenset({
+    "obligat", "duty", "must", "covenant", "oath", "dedicate", "consecrat",
+})
+_SUPPRESSED_GROUPS: frozenset[str] = frozenset({
+    "soldier", "worker", "subject", "people", "enslaved", "colonized",
+})
 
+
+# ---------------------------------------------------------------------------
+# Cluster matching
+# ---------------------------------------------------------------------------
 
 def _best_cluster(
     source: str,
     target: str,
     conceptual_metaphor: str,
     clusters: list[dict],
-    case_id: str = "",
 ) -> str:
     if not clusters:
         return "unknown-cluster"
-    hints = _CLUSTER_HINTS.get(case_id, [])
     combined = (source + "_" + target + "_" + conceptual_metaphor).lower()
     tokens = set(combined.split("_"))
-    for keyword_group, cluster_id in hints:
-        if any(kw in tokens or kw in combined for kw in keyword_group):
-            return cluster_id
-    # Fallback: first cluster in the list
+    for cluster in clusters:
+        cid = cluster.get("id")
+        if not cid:
+            continue
+        for kw in cluster.get("keywords", []):
+            if kw in tokens or kw in combined:
+                return str(cid)
     return str(clusters[0].get("id", "unknown-cluster"))
 
 
@@ -265,16 +235,13 @@ def _koenigsberg_for(
     cid = (cluster_id or "").lower()
 
     # Detect sacrificial economy
-    sacrificial_terms = {"sacrifice", "martyr", "death", "gift", "offering", "blood", "dying", "die", "gave"}
-    has_sacrificial = bool(sacrificial_terms & set(src.split("_") + tgt.split("_") + cm.split()))
+    has_sacrificial = bool(_SACRIFICIAL_TERMS & set(src.split("_") + tgt.split("_") + cm.split()))
 
     # Detect violence logic
-    violence_terms = {"war", "combat", "parasite", "disease", "purif", "surg", "enemy", "destroy", "kill", "exterminate"}
-    has_violence = any(vt in src or vt in tgt or vt in cm for vt in violence_terms)
+    has_violence = any(vt in src or vt in tgt or vt in cm for vt in _VIOLENCE_TERMS)
 
     # Detect obligatory frame
-    obligatory_terms = {"obligat", "duty", "must", "covenant", "oath", "dedicate", "consecrat"}
-    has_obligatory = any(ot in cm for ot in obligatory_terms)
+    has_obligatory = any(ot in cm for ot in _OBLIGATORY_TERMS)
 
     # Fantasy type
     fantasy_type: str | None = None
@@ -293,10 +260,9 @@ def _koenigsberg_for(
 
     # Absence flag — note suppressed or absent agency
     absence_flags: list[str] = []
-    suppressed_groups = {"soldier", "worker", "subject", "people", "enslaved", "colonized"}
     for lu in lus:
         notes = (lu.get("review_notes") or "").lower()
-        if any(sg in notes for sg in suppressed_groups):
+        if any(sg in notes for sg in _SUPPRESSED_GROUPS):
             absence_flags.append("possible-suppressed-agent")
             break
 
@@ -495,7 +461,7 @@ def process_document(
 
     lus = [
         lu for lu in (mipvu_data.get("lexical_units") or [])
-        if lu.get("decision_type") in METAPHOR_DECISIONS
+        if lu.get("decision_type") in MIPVU_METAPHOR_OR_UNCERTAIN_DECISIONS
     ]
     if not lus:
         return [], [], cmt_counter_start
@@ -521,7 +487,7 @@ def process_document(
         source = SOURCE_DOMAIN_MAP.get(raw_source, raw_source)
         target = TARGET_DOMAIN_MAP.get(raw_target, raw_target)
         cm_label = f"{re.sub(r'[_]+', ' ', target).upper()} IS {re.sub(r'[_]+', ' ', source).upper()}"
-        cluster_id = _best_cluster(source, target, cm_label, clusters, case_id=case_id)
+        cluster_id = _best_cluster(source, target, cm_label, clusters)
 
         counter += 1
         cmt_mapping = _cmt_for_group(
@@ -551,7 +517,7 @@ def write_annotated_file(
         "annotation_policy": (
             "CMT and Koenigsbergian annotations derived from MIPVU-reviewed metaphorical "
             "and uncertain lexical units. Each instance cites at least one MIPVU ID with "
-            "decision_type in METAPHOR_DECISIONS."
+            "decision_type in MIPVU_METAPHOR_OR_UNCERTAIN_DECISIONS."
         ),
         "instances": instances,
     }
@@ -581,11 +547,20 @@ def write_cmt_mappings_file(
         (str(m.get("sentence_id", "")), str(m.get("cluster_id", "")))
         for m in all_mappings
     }
-    preserved: list[dict] = [
-        m for m in existing_mappings
-        if not str(m.get("mapping_id", "")).startswith(generated_id_prefix)
-        and (str(m.get("sentence_id", "")), str(m.get("cluster_id", ""))) not in generated_keys
-    ]
+    preserved: list[dict] = []
+    for m in existing_mappings:
+        mid = str(m.get("mapping_id", ""))
+        key = (str(m.get("sentence_id", "")), str(m.get("cluster_id", "")))
+        if mid.startswith(generated_id_prefix):
+            continue
+        if key in generated_keys:
+            print(
+                f"WARNING: hand-crafted mapping {mid!r} discarded — "
+                f"superseded by generated mapping for {key}",
+                file=sys.stderr,
+            )
+            continue
+        preserved.append(m)
     merged = preserved + all_mappings
 
     payload: dict[str, Any] = {
