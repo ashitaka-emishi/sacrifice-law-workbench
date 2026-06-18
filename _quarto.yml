@@ -24,17 +24,15 @@ website:
     search: true
     left:
       - href: index.qmd
-        text: Home
+        text: Overview
+      - href: cases/x-case/artifacts/qmd/x-case-overview.qmd
+        text: Findings
       - href: case-selection.qmd
         text: Cases
       - href: methodology.qmd
-        text: Methodology
-      - href: starter-corpus-proposal.qmd
-        text: Corpus
-      - href: starter-cluster-proposal.qmd
-        text: Clusters
-      - href: cases/x-case/artifacts/qmd/x-case-overview.qmd
-        text: Synthesis
+        text: Method
+      - href: research-archive.qmd
+        text: Research Archive
     right:
       - icon: github
         href: https://github.com/ashitaka-emishi/sacrifice-law-workbench
@@ -46,50 +44,12 @@ website:
     contents:
       - href: index.qmd
         text: Overview
-      - href: project-status.qmd
-        text: Project Status
-      - href: CURRENT_STATUS.md
-        text: Current Status
-      - href: PROJECT_BRIEF.md
-        text: Project Brief
-      - href: OPEN_DECISIONS.md
-        text: Open Decisions
-      - section: Methodology
-        contents:
-          - href: methodology.qmd
-            text: Methodology
-          - href: RESEARCH_DESIGN.md
-            text: Research Design
-          - href: PRIMARY_RESEARCH_QUESTION.md
-            text: Primary Research Question
-          - href: MIPVU_ANNOTATION_GUIDE.md
-            text: MIPVU Annotation Guide
-          - href: corpus-rights-policy.qmd
-            text: Corpus Rights Policy
-          - href: corpus-limitations.qmd
-            text: Corpus Limitations
-          - href: validation-protocol.qmd
-            text: Validation Protocol
-          - href: FUTURE_LANGGRAPH_COMPATIBILITY.md
-            text: Future LangGraph Compatibility
-      - section: Review Package
-        contents:
-          - href: publication/audit-package.md
-            text: Publication Audit Package
-          - href: publication/claim-traceability.md
-            text: Claim Traceability
-          - href: publication/validation-gate.md
-            text: Validation Gate
-          - href: publication/ai-use-statement.md
-            text: AI Use Statement
-          - href: publication/data-availability.md
-            text: Data Availability
-          - href: publication/public-site-readiness.md
-            text: Public Site Readiness
+      - href: cases/x-case/artifacts/qmd/x-case-overview.qmd
+        text: Findings
       - section: Cases
         contents:
           - href: case-selection.qmd
-            text: Case Selection
+            text: All Cases
           - href: cases/am-rev/artifacts/qmd/case-overview.qmd
             text: American Revolution
           - href: cases/napoleon/artifacts/qmd/case-overview.qmd
@@ -98,36 +58,20 @@ website:
             text: Lincoln
           - href: cases/hitler/artifacts/qmd/case-overview.qmd
             text: Hitler
-      - section: Corpus
-        contents:
-          - href: starter-corpus-proposal.qmd
-            text: Starter Corpus Proposal
-      - section: Clusters
-        contents:
-          - href: starter-cluster-proposal.qmd
-            text: Starter Cluster Proposal
-      - section: Synthesis
-        contents:
-          - href: cases/x-case/artifacts/qmd/x-case-overview.qmd
-            text: X-Case Overview
-          - href: cases/x-case/artifacts/qmd/shared-clusters.qmd
-            text: Shared Clusters
-          - href: cases/x-case/artifacts/qmd/case-comparison.qmd
-            text: Case Comparison
-          - href: cases/x-case/artifacts/qmd/sacrifice-law-findings.qmd
-            text: Law of Sacrifice Findings
-          - href: cases/x-case/artifacts/qmd/war-genocide-distinction.qmd
-            text: War / Genocide Distinction
-          - href: cases/x-case/artifacts/qmd/rival-explanations.qmd
-            text: Rival Explanations
-          - href: cases/x-case/artifacts/qmd/validation-summary.qmd
-            text: Validation Summary
+      - href: methodology.qmd
+        text: Method
+      - href: starter-corpus-proposal.qmd
+        text: Corpus and Sources
+      - href: starter-cluster-proposal.qmd
+        text: Metaphor Systems
+      - href: research-archive.qmd
+        text: Research Archive
 
 format:
   html:
     theme: [cosmo, custom.scss]
     toc: true
-    toc-depth: 3
+    toc-depth: 2
     include-in-header:
       text: |
         <link rel="preconnect" href="https://fonts.googleapis.com">

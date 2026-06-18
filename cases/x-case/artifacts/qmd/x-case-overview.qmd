@@ -1,14 +1,34 @@
 ---
-title: "X Case Overview"
+title: "Findings"
 ---
 
-Status: draft-scored.
+::: {.callout-note title="Status: draft-scored"}
+All four cases have case-level support ratings and historical-alignment notes.
+Cross-case findings remain provisional until full-corpus review, reliability
+adjudication, and publication-grade citation work are complete.
+:::
 
-The x-case layer has a comparative protocol, moral-equivalence guardrails,
-and draft comparison rows for all four cases. All cases have case-level
-support ratings and historical alignment notes. Cross-case findings remain
-draft until full-corpus review and reliability adjudication are complete.
+## Current answer
 
-Guardrails: structural comparison is not moral equivalence. War, genocide,
-enslavement, and state terror require separate historical and moral description
-even when symbolic structures overlap.
+The draft comparison finds the strongest support for the Law of Sacrifice in
+the Hitler case and moderate support in the American Revolution, Lincoln, and
+Napoleon cases. The shared pattern is not a claim of equivalence: metaphor
+form, political endpoint, enemy construction, institutional setting, and
+historical enactment differ substantially across the four cases.
+
+## Read the findings
+
+- [Case comparison](case-comparison.qmd) — support ratings, endpoints, and claim boundaries.
+- [Law of Sacrifice findings](sacrifice-law-findings.qmd) — current case-level scores.
+- [Shared metaphor systems](shared-clusters.qmd) — provisional cross-case mappings.
+- [War and genocide distinction](war-genocide-distinction.qmd) — moral and historical guardrails.
+- [Rival explanations](rival-explanations.qmd) — competing interpretations and unresolved questions.
+- [Validation summary](validation-summary.qmd) — readiness and evidentiary limits.
+
+## Compare responsibly
+
+Structural comparison is not moral equivalence. War, genocide, enslavement,
+colonial violence, and state terror require separate historical and moral
+description even when symbolic structures overlap. Readers can inspect the
+[comparative protocol](../../protocol/comparative-analysis-protocol.md) or
+[audit package](../../../../publication/audit-package.md) behind these claims.

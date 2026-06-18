@@ -1,9 +1,10 @@
 ---
-title: "Starter Corpus Proposal"
+title: "Corpus and Sources"
 ---
 
 ::: {.callout-warning}
-This is a provisional starter corpus proposal. Candidate sources are not
+This page documents the provisional corpus-selection and source-promotion
+process. Candidate sources are not
 approved corpus records until they pass source discovery, rights review,
 metadata validation, case-fit review, and support-dimension relevance review.
 :::

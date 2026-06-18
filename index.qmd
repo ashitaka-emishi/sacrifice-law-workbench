@@ -2,26 +2,82 @@
 title: "The Sacrifice Law Workbench"
 ---
 
-This is the Quarto site for The Sacrifice Law Workbench.
+::: {.hero-deck}
+A comparative study of how political language makes nations, armies, and
+ideologies sacred—and how killing and dying are made meaningful in their name.
+:::
 
-A comparative research workbench for assessing evidentiary support for
-Koenigsberg's Law of Sacrifice.
+## The question
 
-The project assesses the degree to which recurring metaphor systems in
-leader-centered political corpora, when compared with historically documented
-practices of mobilization, killing, dying, purification, and enemy destruction,
-support, complicate, or limit Koenigsberg's Law of Sacrifice, its body-politic
-corollary, and the construction of enemies as bringers of death.
+To what degree do recurring metaphor systems in leader-centered political
+corpora support, complicate, or limit Koenigsberg's Law of Sacrifice, its
+body-politic corollary, and the construction of enemies as bringers of death?
 
-The workbench is evidence-led. It preserves Koenigsberg's theory as the object
-of analysis rather than a conclusion assumed in advance.
+::: {.callout-note title="Current evidence status"}
+All four pilot cases have draft support scores. The present comparison finds
+the strongest support in the Hitler case and moderate support in the American
+Revolution, Lincoln, and Napoleon cases. These are provisional analytical
+results, not publication-ready findings: full-corpus review, human reliability
+work, and publication-grade citations remain pending.
+:::
 
-## Start here
+The workbench tests the theory rather than assuming it. Similar metaphors do
+not establish moral equivalence: historical endpoint, enemy construction,
+institutional setting, and enacted violence remain decisive.
 
-- [Project Status](project-status.qmd)
-- [Current Status](CURRENT_STATUS.md)
-- [Primary Research Question](PRIMARY_RESEARCH_QUESTION.md)
-- [Methodology](methodology.qmd)
-- [Case Selection](case-selection.qmd)
-- [Starter Corpus Proposal](starter-corpus-proposal.qmd)
-- [Starter Cluster Proposal](starter-cluster-proposal.qmd)
+## Choose a reading path
+
+::: {.grid .reader-paths}
+::: {.g-col-12 .g-col-md-4 .reader-card}
+### Quick overview
+
+Meet the four cases and see why they were selected.
+
+[Explore the cases](case-selection.qmd)
+:::
+
+::: {.g-col-12 .g-col-md-4 .reader-card}
+### Read the argument
+
+Start with the provisional cross-case findings and their limits.
+
+[Read the findings](cases/x-case/artifacts/qmd/x-case-overview.qmd)
+:::
+
+::: {.g-col-12 .g-col-md-4 .reader-card}
+### Audit the evidence
+
+Inspect status, methods, provenance, validation, and claim traceability.
+
+[Open the research archive](research-archive.qmd)
+:::
+:::
+
+## Four comparative cases
+
+::: {.grid .case-grid}
+::: {.g-col-12 .g-col-md-6 .reader-card}
+### [American Revolution](cases/am-rev/artifacts/qmd/case-overview.qmd)
+
+Revolutionary founding, sacred liberty, collective obligation, and war.
+:::
+
+::: {.g-col-12 .g-col-md-6 .reader-card}
+### [Napoleon](cases/napoleon/artifacts/qmd/case-overview.qmd)
+
+Imperial glory, army–nation fusion, leader symbolism, and mobilization.
+:::
+
+::: {.g-col-12 .g-col-md-6 .reader-card}
+### [Lincoln](cases/lincoln/artifacts/qmd/case-overview.qmd)
+
+Union, covenant, battlefield sacrifice, providence, and reconciliation.
+:::
+
+::: {.g-col-12 .g-col-md-6 .reader-card}
+### [Hitler](cases/hitler/artifacts/qmd/case-overview.qmd)
+
+Racial purification, enemy construction, extermination, and genocidal
+state violence.
+:::
+:::
