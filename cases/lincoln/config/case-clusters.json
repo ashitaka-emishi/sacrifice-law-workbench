@@ -2,41 +2,89 @@
   {
     "id": "lincoln-01-body-organism",
     "name": "Nation as organism / body",
-    "status": "provisional"
+    "status": "provisional",
+    "keywords": [
+      "body",
+      "organism",
+      "nation",
+      "social"
+    ]
   },
   {
     "id": "lincoln-02-covenant-oath",
     "name": "Union as covenant / oath",
-    "status": "provisional"
+    "status": "provisional",
+    "keywords": [
+      "law",
+      "covenant",
+      "oath",
+      "union",
+      "contract"
+    ]
   },
   {
     "id": "lincoln-03-experiment-proposition",
     "name": "Republic as experiment / proposition",
-    "status": "provisional"
+    "status": "provisional",
+    "keywords": [
+      "experiment",
+      "science",
+      "republic",
+      "democracy"
+    ]
   },
   {
     "id": "lincoln-04-birth-creation",
     "name": "War as birth / new creation",
-    "status": "provisional"
+    "status": "provisional",
+    "keywords": [
+      "birth",
+      "creation",
+      "generation",
+      "founding"
+    ]
   },
   {
     "id": "lincoln-05-fathers-inheritance",
     "name": "Founding fathers as inheritance",
-    "status": "provisional"
+    "status": "provisional",
+    "keywords": [
+      "family",
+      "inheritance",
+      "father",
+      "history"
+    ]
   },
   {
     "id": "lincoln-06-providence-theodicy",
     "name": "Providence / divine will",
-    "status": "provisional"
+    "status": "provisional",
+    "keywords": [
+      "religion",
+      "providence",
+      "ritual"
+    ]
   },
   {
     "id": "lincoln-07-absence-black-agency",
     "name": "Systematic absence / suppressed agency",
-    "status": "provisional"
+    "status": "provisional",
+    "keywords": [
+      "absence",
+      "suppression",
+      "slavery",
+      "bondage"
+    ]
   },
   {
     "id": "lincoln-08-sacrificial-death-gift",
     "name": "Soldier death as sacrifice / gift",
-    "status": "provisional"
+    "status": "provisional",
+    "keywords": [
+      "sacrifice",
+      "death",
+      "war_death",
+      "gift"
+    ]
   }
 ]
