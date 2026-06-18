@@ -1,7 +1,7 @@
 {
   "version": "1.0",
   "case_id": "x-case",
-  "generated_at": "2026-06-17T19:56:05",
+  "generated_at": "2026-06-17T23:30:41",
   "status": "draft",
   "artifacts": [
     "protocol/comparative-analysis-protocol.json",
@@ -22,8 +22,15 @@
   "dependencies": [
     "cases/lincoln/analysis/support-ratings.json",
     "cases/lincoln/analysis/historical-enactment-alignment.json",
-    "cases/am-rev/analysis/analysis.json",
-    "cases/napoleon/analysis/analysis.json",
-    "cases/hitler/analysis/analysis.json"
+    "cases/lincoln/analysis/koenigsbergian-support-synthesis.json",
+    "cases/am-rev/analysis/support-ratings.json",
+    "cases/am-rev/analysis/historical-enactment-alignment.json",
+    "cases/am-rev/analysis/koenigsbergian-support-synthesis.json",
+    "cases/napoleon/analysis/support-ratings.json",
+    "cases/napoleon/analysis/historical-enactment-alignment.json",
+    "cases/napoleon/analysis/koenigsbergian-support-synthesis.json",
+    "cases/hitler/analysis/support-ratings.json",
+    "cases/hitler/analysis/historical-enactment-alignment.json",
+    "cases/hitler/analysis/koenigsbergian-support-synthesis.json"
   ]
 }

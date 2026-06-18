@@ -1,7 +1,7 @@
 {
   "version": "1.0",
   "case_id": "x-case",
-  "generated_at": "2026-06-17T19:56:05",
+  "generated_at": "2026-06-17T23:30:41",
   "status": "draft",
   "items": [
     {
@@ -13,8 +13,9 @@
         "am-rev",
         "hitler"
       ],
-      "status": "open",
-      "dependency": "All four cases require support-rating adjudication before this can be answered."
+      "status": "partially-answered",
+      "dependency": "All four cases now have draft support ratings.",
+      "draft_answer": "All four cases show a functioning sacrificial economy (sacred collective object, body metaphor, violence logic, death-conversion), but the endpoint and violence logic differ structurally: Lincoln/Am-Rev use preservation-and-founding logic; Napoleon uses imperial glory; Hitler uses racial extermination. Shared form with divergent content — the framework holds cross-case, but the moral-political substance differs categorically. Full answer requires obligatory-frame rate comparison and corpus-level adjudication."
     },
     {
       "question_id": "xq-002",
@@ -25,8 +26,9 @@
         "am-rev",
         "hitler"
       ],
-      "status": "open",
-      "dependency": "Lincoln pilot evidence shows weak enemy-death salience; other cases remain unrated."
+      "status": "partially-answered",
+      "dependency": "All four cases now have draft enemy-death scores.",
+      "draft_answer": "No — enemy-death salience varies significantly. Draft scores: lincoln=1.0, am-rev=2.0, napoleon=1.2, hitler=3.2. Hitler shows the highest enemy-death salience (racial contamination/extermination logic); Napoleon shows the lowest (enemies as obstacles to order). Lincoln and Am-Rev are intermediate — tyranny and disunion as death-bearers, but enemy agency is often muted or diffused. Full answer requires obligatory-frame and cluster-density adjudication."
     },
     {
       "question_id": "xq-003",
@@ -38,7 +40,7 @@
         "hitler"
       ],
       "status": "open",
-      "dependency": "Per-case obligatory-frame rates require case-level adjudication."
+      "dependency": "Per-case obligatory-frame rates exist in cluster profiles but have not been cross-case adjudicated. Requires analyst review of cluster-comparison data."
     },
     {
       "question_id": "xq-004",
@@ -49,8 +51,9 @@
         "am-rev",
         "hitler"
       ],
-      "status": "open",
-      "dependency": "Absence rows exist for all four cases but have not been cross-case adjudicated."
+      "status": "partially-answered",
+      "dependency": "Absence rows exist for all four cases; cross-case adjudication is draft.",
+      "draft_answer": "Draft patterns: all four cases show agency-absence for defeated/excluded populations (slaves/freedmen in Lincoln, Hessians/loyalists in Am-Rev, Russian casualties in Napoleon, Jewish/Slavic victims in Hitler). The displacement mechanism differs by case type: preservation cases displace through elevation (honor/sacrifice); genocide cases displace through negation (subhuman/vermin). Full adjudication requires corpus-level absence-pattern review."
     },
     {
       "question_id": "xq-005",
@@ -62,7 +65,7 @@
         "hitler"
       ],
       "status": "open",
-      "dependency": "Providence appears in lincoln, am-rev, and napoleon clusters; hitler uses destiny differently. Requires comparative analysis."
+      "dependency": "Providence appears in lincoln, am-rev, and napoleon clusters; hitler uses destiny differently. Requires comparative analysis of cluster profiles."
     }
   ]
 }

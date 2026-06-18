@@ -11,6 +11,4 @@ title: "Sacrifice Law Findings"
 | napoleon | draft-scored | moderate support | 1.94 | cases/napoleon/analysis/support-ratings.json |
 | am-rev | draft-scored | moderate support | 2.34 | cases/am-rev/analysis/support-ratings.json |
 
-Only Lincoln currently has a draft case-level support rating. Other cases remain
-pending until their annotation, corroboration, and support-rating artifacts are
-complete.
+All four cases now have draft case-level support ratings. Cross-case findings are draft-scored. Full-corpus review, reliability adjudication, and publication-grade citations remain pending.
