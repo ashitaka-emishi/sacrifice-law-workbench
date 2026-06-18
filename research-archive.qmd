@@ -35,6 +35,7 @@ available for readers who want to inspect how the argument was built.
 
 ## Research infrastructure
 
+- [Multi-Model Reliability Architecture](docs/reliability/multi-model-architecture.md)
 - [Pipeline Upgrade Notes](PIPELINE-UPGRADE.md)
 - [Future LangGraph Compatibility](FUTURE_LANGGRAPH_COMPATIBILITY.md)
 - [Site Architecture](SITE_ARCHITECTURE.md)
