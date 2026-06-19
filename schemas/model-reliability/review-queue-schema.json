@@ -1,0 +1,203 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Human review queue for model disagreement diagnostics",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "case_id",
+    "generator",
+    "source_disagreement_generator",
+    "run_ids",
+    "queue_policy",
+    "summary",
+    "entries"
+  ],
+  "properties": {
+    "schema_version": { "const": "1.0.0" },
+    "case_id": { "type": "string", "minLength": 1 },
+    "generator": {
+      "const": "scripts/model_reliability/generate_review_queue.py"
+    },
+    "source_disagreement_generator": {
+      "const": "scripts/model_reliability/classify_disagreements.py"
+    },
+    "run_ids": {
+      "type": "array",
+      "minItems": 2,
+      "uniqueItems": true,
+      "items": { "type": "string", "minLength": 1 }
+    },
+    "queue_policy": { "type": "string", "minLength": 1 },
+    "summary": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "queue_count",
+        "high_priority_count",
+        "claim_linked_count",
+        "cross_case_impact_count"
+      ],
+      "properties": {
+        "queue_count": { "type": "integer", "minimum": 0 },
+        "high_priority_count": { "type": "integer", "minimum": 0 },
+        "claim_linked_count": { "type": "integer", "minimum": 0 },
+        "cross_case_impact_count": { "type": "integer", "minimum": 0 }
+      }
+    },
+    "entries": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/entry" }
+    }
+  },
+  "$defs": {
+    "claim": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "claim_id",
+        "claim_text",
+        "claim_status",
+        "support_dimension",
+        "match_reasons"
+      ],
+      "properties": {
+        "claim_id": { "type": "string", "minLength": 1 },
+        "claim_text": { "type": "string" },
+        "claim_status": { "type": "string" },
+        "support_dimension": { "type": "string" },
+        "match_reasons": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "enum": ["unit_id", "sentence_id", "cluster_id", "document_id"]
+          }
+        }
+      }
+    },
+    "valueGroup": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["value", "run_ids", "run_count"],
+      "properties": {
+        "value": {},
+        "run_ids": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": { "type": "string", "minLength": 1 }
+        },
+        "run_count": { "type": "integer", "minimum": 1 }
+      }
+    },
+    "entry": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "queue_id",
+        "queue_rank",
+        "disagreement_id",
+        "case_id",
+        "source_language",
+        "document_id",
+        "sentence_id",
+        "item_id",
+        "unit_id",
+        "cluster_id",
+        "task_layer",
+        "field",
+        "category",
+        "agreement_pattern",
+        "source_text",
+        "gloss_en",
+        "focal_text",
+        "source_risk_flags",
+        "rights_status",
+        "storage_policy",
+        "reference_value",
+        "model_values",
+        "value_groups",
+        "missing_run_ids",
+        "affected_claims",
+        "cross_case_impacts",
+        "priority",
+        "priority_score",
+        "priority_reasons",
+        "review_question",
+        "review_status",
+        "decision_authority",
+        "adjudication_note"
+      ],
+      "properties": {
+        "queue_id": { "type": "string", "pattern": "^review-[0-9]{4}$" },
+        "queue_rank": { "type": "integer", "minimum": 1 },
+        "disagreement_id": {
+          "type": "string",
+          "pattern": "^disagreement-[0-9]{4}$"
+        },
+        "case_id": { "type": "string", "minLength": 1 },
+        "source_language": { "type": "string" },
+        "document_id": { "type": "string" },
+        "sentence_id": { "type": "string" },
+        "item_id": { "type": "string" },
+        "unit_id": { "type": "string", "minLength": 1 },
+        "cluster_id": { "type": ["string", "null"] },
+        "task_layer": { "type": "string", "minLength": 1 },
+        "field": { "type": "string", "minLength": 1 },
+        "category": { "type": "string", "minLength": 1 },
+        "agreement_pattern": { "type": "string", "minLength": 1 },
+        "source_text": { "type": "string" },
+        "gloss_en": { "type": "string" },
+        "focal_text": { "type": "string" },
+        "source_risk_flags": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": { "type": "string", "minLength": 1 }
+        },
+        "rights_status": { "type": "string", "minLength": 1 },
+        "storage_policy": { "type": "string", "minLength": 1 },
+        "reference_value": {},
+        "model_values": { "type": "object" },
+        "value_groups": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "$ref": "#/$defs/valueGroup" }
+        },
+        "missing_run_ids": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": { "type": "string", "minLength": 1 }
+        },
+        "affected_claims": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/claim" }
+        },
+        "cross_case_impacts": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": { "type": "string", "minLength": 1 }
+        },
+        "priority": { "enum": ["low", "medium", "high"] },
+        "priority_score": { "type": "integer", "minimum": 0 },
+        "priority_reasons": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": { "type": "string", "minLength": 1 }
+        },
+        "review_question": { "type": "string", "minLength": 1 },
+        "review_status": { "const": "pending-human-review" },
+        "decision_authority": { "const": "human-only" },
+        "adjudication_note": { "type": "string", "minLength": 1 }
+      },
+      "not": {
+        "anyOf": [
+          { "required": ["adjudication_decision"] },
+          { "required": ["accepted_value"] },
+          { "required": ["majority_decision"] }
+        ]
+      }
+    }
+  }
+}
