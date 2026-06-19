@@ -106,6 +106,7 @@ docs/reliability/
   multi-model-architecture.md
   model-reliability-packets.md
   model-reliability-ingestion.md
+  external-model-review-procedures.md
 
 schemas/model-reliability/
   # submission, packet, comparison, and status schemas added by later issues
