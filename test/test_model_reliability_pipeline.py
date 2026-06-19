@@ -112,6 +112,7 @@ class ModelReliabilityPipelineTest(unittest.TestCase):
                     "disagreements",
                     "review-queue",
                     "report",
+                    "codebook-notes",
                 ],
             )
             self.assertGreater(result["disagreement_count"], 0)

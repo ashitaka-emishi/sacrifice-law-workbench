@@ -12,6 +12,7 @@ python3 scripts/model_reliability/pipeline.py compare --case lincoln
 python3 scripts/model_reliability/pipeline.py disagreements --case lincoln
 python3 scripts/model_reliability/pipeline.py review-queue --case lincoln
 python3 scripts/model_reliability/pipeline.py report --case lincoln
+python3 scripts/model_reliability/pipeline.py codebook-notes --case lincoln
 ```
 
 CSV ingestion accepts the same paired files as the dedicated ingestion tool:
@@ -24,7 +25,8 @@ python3 scripts/model_reliability/pipeline.py ingest --case lincoln \
 
 The end-to-end command regenerates deterministic packets and then runs
 comparison, disagreement classification, queue generation, and reporting when
-at least two validated runs are available:
+at least two validated runs are available. It also generates human-governed
+codebook revision notes after the report:
 
 ```bash
 python3 scripts/model_reliability/pipeline.py run --case lincoln

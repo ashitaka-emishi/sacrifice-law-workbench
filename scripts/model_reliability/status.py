@@ -30,6 +30,8 @@ ARTIFACT_SCHEMAS = {
     "comparisons/disagreement-log.json": "disagreement-log-schema.json",
     "review-queue/model-review-queue.json": "review-queue-schema.json",
     "comparisons/consensus-report.json": "consensus-report-schema.json",
+    "codebook/codebook-revision-notes.json": "codebook-revision-notes-schema.json",
+    "codebook/recommendation-decisions.json": "codebook-recommendation-decisions-schema.json",
 }
 COMPLETE_ARTIFACTS = (
     "comparisons/agreement-results.json",
@@ -37,6 +39,8 @@ COMPLETE_ARTIFACTS = (
     "review-queue/model-review-queue.json",
     "comparisons/consensus-report.json",
     "comparisons/consensus-report.md",
+    "codebook/codebook-revision-notes.json",
+    "codebook/codebook-revision-notes.md",
 )
 
 
@@ -265,6 +269,7 @@ def _cross_validate(
         "comparisons/disagreement-log.json",
         "review-queue/model-review-queue.json",
         "comparisons/consensus-report.json",
+        "codebook/codebook-revision-notes.json",
     )
     for relative in downstream:
         artifact = artifacts.get(relative)
@@ -326,6 +331,98 @@ def _cross_validate(
                         f"{model_root}: consensus summary `{key}` does not reconcile"
                     )
 
+    notes = artifacts.get("codebook/codebook-revision-notes.json")
+    decisions = artifacts.get("codebook/recommendation-decisions.json")
+    if decisions is not None and notes is None:
+        errors.append(
+            f"{model_root}: decision register has no generated codebook notes"
+        )
+    if notes is not None:
+        recommendations = notes.get("recommendations", [])
+        if not isinstance(recommendations, list):
+            recommendations = []
+        recommendation_ids = [
+            item.get("recommendation_id")
+            for item in recommendations
+            if isinstance(item, Mapping)
+        ]
+        if len(recommendation_ids) != len(set(recommendation_ids)):
+            errors.append(f"{model_root}: codebook notes contain duplicate IDs")
+        summary = notes.get("summary", {})
+        if isinstance(summary, Mapping):
+            reconciliations = {
+                "recommendation_count": len(recommendations),
+                "accepted_count": sum(
+                    item.get("disposition") == "accepted"
+                    for item in recommendations
+                    if isinstance(item, Mapping)
+                ),
+                "rejected_count": sum(
+                    item.get("disposition") == "rejected"
+                    for item in recommendations
+                    if isinstance(item, Mapping)
+                ),
+                "deferred_count": sum(
+                    item.get("disposition") == "deferred"
+                    for item in recommendations
+                    if isinstance(item, Mapping)
+                ),
+            }
+            for key, expected in reconciliations.items():
+                if summary.get(key) != expected:
+                    errors.append(
+                        f"{model_root}: codebook summary `{key}` does not reconcile"
+                    )
+        decision_entries = (
+            decisions.get("decisions", [])
+            if isinstance(decisions, Mapping)
+            else []
+        )
+        decision_by_id = {
+            item.get("recommendation_id"): item
+            for item in decision_entries
+            if isinstance(item, Mapping)
+        }
+        if len(decision_by_id) != len(decision_entries):
+            errors.append(f"{model_root}: decision register contains duplicate IDs")
+        recommendation_by_id = {
+            item.get("recommendation_id"): item
+            for item in recommendations
+            if isinstance(item, Mapping)
+        }
+        unknown_decisions = sorted(set(decision_by_id) - set(recommendation_by_id))
+        if unknown_decisions:
+            errors.append(
+                f"{model_root}: decision register references unknown recommendation(s)"
+            )
+        for recommendation_id, recommendation in recommendation_by_id.items():
+            decision = decision_by_id.get(recommendation_id)
+            if decision is None:
+                if recommendation.get("decision_source") != "generated-default":
+                    errors.append(
+                        f"{model_root}: codebook recommendation `{recommendation_id}` "
+                        "has a stale human decision"
+                    )
+                continue
+            comparisons = {
+                "disposition": "disposition",
+                "decision_rationale": "rationale",
+                "reviewer": "reviewer",
+                "decided_at": "decided_at",
+            }
+            if recommendation.get("decision_source") != "human-decision-register":
+                errors.append(
+                    f"{model_root}: codebook recommendation `{recommendation_id}` "
+                    "does not record its human decision source"
+                )
+            for note_field, decision_field in comparisons.items():
+                if recommendation.get(note_field) != decision.get(decision_field):
+                    errors.append(
+                        f"{model_root}: codebook recommendation `{recommendation_id}` "
+                        "is stale relative to the decision register"
+                    )
+                    break
+
     invalid_count = sum(
         entry.get("status") == "invalid"
         for entry in submissions
@@ -334,7 +431,12 @@ def _cross_validate(
     return len(runs), invalid_count
 
 
-def evaluate_case(root: Path, case_id: str) -> dict[str, Any]:
+def evaluate_case(
+    root: Path,
+    case_id: str,
+    *,
+    validate_existing_status: bool = True,
+) -> dict[str, Any]:
     root = root.resolve()
     case_root = root / "cases" / case_id
     model_root = case_root / "quality" / "model-reliability"
@@ -353,6 +455,8 @@ def evaluate_case(root: Path, case_id: str) -> dict[str, Any]:
         else []
     )
     for relative, schema_name in ARTIFACT_SCHEMAS.items():
+        if relative == "status.json" and not validate_existing_status:
+            continue
         path = model_root / relative
         if not path.exists():
             continue
@@ -428,6 +532,7 @@ def evaluate_case(root: Path, case_id: str) -> dict[str, Any]:
             "disagreements": "comparisons/disagreement-log.json" in artifacts,
             "review_queue": "review-queue/model-review-queue.json" in artifacts,
             "report": "comparisons/consensus-report.json" in artifacts,
+            "codebook_notes": "codebook/codebook-revision-notes.json" in artifacts,
         },
         "warnings": warnings,
         "errors": errors,
@@ -435,7 +540,7 @@ def evaluate_case(root: Path, case_id: str) -> dict[str, Any]:
 
 
 def write_case_status(root: Path, case_id: str) -> dict[str, Any]:
-    status = evaluate_case(root, case_id)
+    status = evaluate_case(root, case_id, validate_existing_status=False)
     case_root = root.resolve() / "cases" / case_id
     path = safe_output_path(case_root, "quality/model-reliability/status.json")
     path.parent.mkdir(parents=True, exist_ok=True)

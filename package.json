@@ -15,6 +15,7 @@
     "model-reliability:disagreements": "python3 scripts/model_reliability/classify_disagreements.py",
     "model-reliability:review-queue": "python3 scripts/model_reliability/generate_review_queue.py",
     "model-reliability:report": "python3 scripts/model_reliability/generate_consensus_report.py",
+    "model-reliability:codebook-notes": "python3 scripts/model_reliability/generate_codebook_notes.py",
     "model-reliability:run": "python3 scripts/model_reliability/pipeline.py run",
     "model-reliability:status": "python3 scripts/model_reliability/status.py",
     "model-reliability:results": "python3 scripts/model_reliability/generate_results_page.py",
