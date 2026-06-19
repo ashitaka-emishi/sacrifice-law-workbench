@@ -38,3 +38,7 @@ The manifest and item shapes are defined by
 `schemas/model-reliability/packet-manifest-schema.json` and
 `schemas/model-reliability/packet-item-schema.json`. Source-derived Hitler
 packets remain local under the repository's existing ignore policy.
+
+For manual handoff to an external model system, including what to send and
+withhold, see
+[`external-model-review-procedures.md`](external-model-review-procedures.md).

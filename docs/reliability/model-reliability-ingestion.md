@@ -4,6 +4,11 @@
 two-file CSV submission, validates it against the exact blind packet, and writes
 only beneath `cases/<case_id>/quality/model-reliability/`.
 
+For the non-developer procedure covering packet handoff, leakage controls,
+run metadata, rights checks, complete JSON and CSV examples, and interpretation
+limits, see
+[`external-model-review-procedures.md`](external-model-review-procedures.md).
+
 Install the repository's Python dependencies with `pip install -r requirements.txt`
 before running the command.
 
