@@ -1,0 +1,150 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Layered model reliability agreement diagnostics",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "case_id",
+    "generator",
+    "run_ids",
+    "comparison_families"
+  ],
+  "properties": {
+    "schema_version": { "const": "1.0.0" },
+    "case_id": { "type": "string", "minLength": 1 },
+    "generator": { "const": "scripts/model_reliability/compare_runs.py" },
+    "run_ids": {
+      "type": "array",
+      "minItems": 2,
+      "uniqueItems": true,
+      "items": { "type": "string", "minLength": 1 }
+    },
+    "comparison_families": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["model_vs_model", "model_vs_reference"],
+      "properties": {
+        "model_vs_model": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["pairs"],
+          "properties": {
+            "pairs": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": ["left_run_id", "right_run_id", "summaries"],
+                "properties": {
+                  "left_run_id": { "type": "string", "minLength": 1 },
+                  "right_run_id": { "type": "string", "minLength": 1 },
+                  "summaries": {
+                    "type": "array",
+                    "items": { "$ref": "#/$defs/summary" }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "model_vs_reference": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["runs"],
+          "properties": {
+            "runs": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": ["run_id", "reference_id", "summaries"],
+                "properties": {
+                  "run_id": { "type": "string", "minLength": 1 },
+                  "reference_id": { "type": "string", "minLength": 1 },
+                  "summaries": {
+                    "type": "array",
+                    "items": { "$ref": "#/$defs/summary" }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "$defs": {
+    "metric": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["name", "status", "value", "undefined_reason"],
+      "properties": {
+        "name": {
+          "enum": [
+            "observed_agreement",
+            "jaccard_overlap",
+            "mean_absolute_difference"
+          ]
+        },
+        "status": { "enum": ["defined", "undefined"] },
+        "value": {
+          "type": ["number", "null"],
+          "minimum": 0,
+          "maximum": 1
+        },
+        "undefined_reason": { "type": ["string", "null"] }
+      }
+    },
+    "kappa": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["status", "value", "undefined_reason"],
+      "properties": {
+        "status": { "enum": ["defined", "undefined"] },
+        "value": {
+          "type": ["number", "null"],
+          "minimum": -1,
+          "maximum": 1
+        },
+        "undefined_reason": { "type": ["string", "null"] }
+      }
+    },
+    "summary": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "comparison_family",
+        "left_id",
+        "right_id",
+        "case_id",
+        "source_language",
+        "document_id",
+        "task_layer",
+        "field",
+        "comparable_count",
+        "exact_match_count",
+        "metric",
+        "cohens_kappa"
+      ],
+      "properties": {
+        "comparison_family": {
+          "enum": ["model_vs_model", "model_vs_reference"]
+        },
+        "left_id": { "type": "string", "minLength": 1 },
+        "right_id": { "type": "string", "minLength": 1 },
+        "case_id": { "type": "string", "minLength": 1 },
+        "source_language": { "type": "string", "minLength": 1 },
+        "document_id": { "type": ["string", "null"] },
+        "task_layer": {
+          "enum": ["identification", "cmt", "interpretation"]
+        },
+        "field": { "type": "string", "minLength": 1 },
+        "comparable_count": { "type": "integer", "minimum": 0 },
+        "exact_match_count": { "type": "integer", "minimum": 0 },
+        "metric": { "$ref": "#/$defs/metric" },
+        "cohens_kappa": { "$ref": "#/$defs/kappa" }
+      }
+    }
+  }
+}
