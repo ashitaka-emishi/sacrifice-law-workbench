@@ -16,14 +16,30 @@ from typing import Any, Iterable, Mapping, Sequence
 from jsonschema import Draft202012Validator, FormatChecker
 
 try:
+    from scripts.model_reliability.boundaries import safe_output_path
     from scripts.model_reliability.generate_packets import canonical_json_bytes, sha256_bytes
     from scripts.model_reliability.submission_contract import (
         SubmissionContext,
         validate_submission,
     )
 except ModuleNotFoundError:  # Direct execution from scripts/model_reliability/.
-    from generate_packets import canonical_json_bytes, sha256_bytes
-    from submission_contract import SubmissionContext, validate_submission
+    try:
+        from model_reliability.boundaries import safe_output_path
+        from model_reliability.generate_packets import (
+            canonical_json_bytes,
+            sha256_bytes,
+        )
+        from model_reliability.submission_contract import (
+            SubmissionContext,
+            validate_submission,
+        )
+    except ModuleNotFoundError:
+        from boundaries import safe_output_path  # type: ignore
+        from generate_packets import canonical_json_bytes, sha256_bytes  # type: ignore
+        from submission_contract import (  # type: ignore
+            SubmissionContext,
+            validate_submission,
+        )
 
 
 ROOT = Path(__file__).resolve().parents[2]
@@ -85,14 +101,6 @@ def read_json_object(path: Path) -> dict[str, Any]:
     if not isinstance(data, dict):
         raise IngestionError(f"expected a JSON object in {path}")
     return data
-
-
-def safe_output_path(case_root: Path, relative: str) -> Path:
-    writable_root = (case_root / "quality" / "model-reliability").resolve()
-    target = (case_root / relative).resolve()
-    if not target.is_relative_to(writable_root):
-        raise IngestionError(f"refusing output outside model-reliability subtree: {target}")
-    return target
 
 
 def write_json(path: Path, data: Any) -> None:

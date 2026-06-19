@@ -9,6 +9,13 @@ import subprocess
 from pathlib import Path
 from typing import Any, Iterable, Mapping
 
+try:
+    from scripts.model_reliability.boundaries import safe_output_path
+except ModuleNotFoundError:
+    try:
+        from model_reliability.boundaries import safe_output_path
+    except ModuleNotFoundError:
+        from boundaries import safe_output_path  # type: ignore
 
 ROOT = Path(__file__).resolve().parents[2]
 GENERATOR_VERSION = "1.0.0"
@@ -193,14 +200,6 @@ def _base_item(
     if isinstance(sentence_gloss, str) and sentence_gloss:
         item["sentence_gloss_en"] = sentence_gloss
     return item
-
-
-def _safe_output_path(case_root: Path, relative: str) -> Path:
-    writable_root = (case_root / "quality" / "model-reliability").resolve()
-    target = (case_root / relative).resolve()
-    if not target.is_relative_to(writable_root):
-        raise PacketGenerationError(f"refusing output outside model-reliability subtree: {target}")
-    return target
 
 
 def _write_bytes_if_changed(path: Path, data: bytes) -> None:
@@ -401,12 +400,12 @@ def generate_packets(
             "approved sample must contain negative controls, ambiguous items, and claim-relevant items"
         )
 
-    output_dir = _safe_output_path(case_root, "quality/model-reliability/packets")
+    output_dir = safe_output_path(case_root, "quality/model-reliability/packets")
     payload_entries: list[dict[str, Any]] = []
     output_bytes: dict[Path, bytes] = {}
     for layer in TASK_LAYERS:
         filename = PAYLOAD_FILENAMES[layer]
-        payload_path = _safe_output_path(case_root, f"quality/model-reliability/packets/{filename}")
+        payload_path = safe_output_path(case_root, f"quality/model-reliability/packets/{filename}")
         data = jsonl_bytes(payload_items[layer])
         output_bytes[payload_path] = data
         payload_entries.append(
@@ -429,7 +428,7 @@ def generate_packets(
             raise PacketGenerationError(f"missing configured prompt for `{layer}`")
         source_paths.add(prompt_source)
         prompt_data = prompt_source.read_bytes()
-        prompt_output = _safe_output_path(
+        prompt_output = safe_output_path(
             case_root, f"quality/model-reliability/packets/{PROMPT_FILENAMES[layer]}"
         )
         output_bytes[prompt_output] = prompt_data
@@ -483,7 +482,7 @@ def generate_packets(
         **manifest_without_hash,
         "packet_hash": sha256_bytes(canonical_json_bytes(manifest_without_hash)),
     }
-    manifest_path_out = _safe_output_path(
+    manifest_path_out = safe_output_path(
         case_root, "quality/model-reliability/packets/packet-manifest.json"
     )
     output_bytes[manifest_path_out] = json.dumps(
