@@ -35,6 +35,8 @@ website:
             text: Core Methodology
           - href: model-reliability-methodology.qmd
             text: Multi-Model Stress Test
+          - href: model-reliability-results.qmd
+            text: Model Reliability Results
       - href: research-archive.qmd
         text: Research Archive
     right:
@@ -68,6 +70,8 @@ website:
             text: Core Methodology
           - href: model-reliability-methodology.qmd
             text: Multi-Model Stress Test
+          - href: model-reliability-results.qmd
+            text: Model Reliability Results
       - href: starter-corpus-proposal.qmd
         text: Corpus and Sources
       - href: starter-cluster-proposal.qmd

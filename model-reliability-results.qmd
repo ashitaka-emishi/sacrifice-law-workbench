@@ -1,0 +1,75 @@
+---
+title: "Multi-Model Reliability Results"
+description: "Execution status and field-level diagnostics for blind multi-model annotation stress tests"
+---
+
+::: {.callout-important}
+These are model-behavior diagnostics, not human inter-annotator reliability or
+scholarly evidence. Consensus is not adjudication, and no result proves
+reproducibility or changes an accepted annotation.
+:::
+
+This page is generated from validated case-local model-reliability artifacts by
+`scripts/model_reliability/generate_results_page.py`.
+
+**Designed but not executed:** `lincoln` has blind packets but no valid external model submissions.
+
+## Execution status by case and layer
+
+| Case | Task layer | State | Valid runs | Available fields | Note |
+|---|---|---|---:|---:|---|
+| `am-rev` | identification | absent — not designed | 0 | 0 | Multi-model reliability has not been designed for this case. |
+| `am-rev` | cmt | absent — not designed | 0 | 0 | Multi-model reliability has not been designed for this case. |
+| `am-rev` | interpretation | absent — not designed | 0 | 0 | Multi-model reliability has not been designed for this case. |
+| `hitler` | identification | absent — not designed | 0 | 0 | Multi-model reliability has not been designed for this case. |
+| `hitler` | cmt | absent — not designed | 0 | 0 | Multi-model reliability has not been designed for this case. |
+| `hitler` | interpretation | absent — not designed | 0 | 0 | Multi-model reliability has not been designed for this case. |
+| `lincoln` | identification | designed — not executed | 0 | 0 | Blind packets are ready; no valid external model submissions are present. |
+| `lincoln` | cmt | designed — not executed | 0 | 0 | Blind packets are ready; no valid external model submissions are present. |
+| `lincoln` | interpretation | designed — not executed | 0 | 0 | Blind packets are ready; no valid external model submissions are present. |
+| `napoleon` | identification | absent — not designed | 0 | 0 | Multi-model reliability has not been designed for this case. |
+| `napoleon` | cmt | absent — not designed | 0 | 0 | Multi-model reliability has not been designed for this case. |
+| `napoleon` | interpretation | absent — not designed | 0 | 0 | Multi-model reliability has not been designed for this case. |
+
+The same case state is repeated for each layer so missing execution cannot be
+mistaken for a missing row. `Complete` means the artifact chain is valid; it
+does not mean an interpretation has been proven.
+
+## Model-to-model field stability
+
+No validated model-to-model field results are available. This is expected while packets are designed but not executed.
+
+Model-to-model stability asks whether separately run systems behave similarly.
+Shared behavior may reflect a clear instruction, shared bias, prompt effects,
+or common training data.
+
+## Model-to-reference field divergence
+
+No validated model-to-reference field results are available. Reference alignment has not been measured.
+
+Reference alignment is reported separately from model-to-model stability. A
+divergence may reflect model error, reference error, or codebook ambiguity; it
+is a question for human review, not an automatic correction.
+
+## Consensus, instability, and review queue
+
+No consensus and instability report is available. Absence of a report is not evidence of agreement or reproducibility.
+
+The review queue has human-only decision authority. Model agreement is not a
+vote, and high-priority reference challenges remain unadjudicated suggestions.
+
+## Interpretation limits
+
+- Results remain stratified by case, source language, task layer, field, and
+  run or run pair.
+- Undefined and unavailable metrics stay visible rather than becoming zero or
+  perfect agreement.
+- Missing submissions and reports are execution states, not positive findings.
+- Model outputs cannot corroborate historical claims or validate theoretical
+  interpretations.
+- Human source review, adjudication, and accepted-correction governance remain
+  separate from this stress test.
+
+See the [methodology](model-reliability-methodology.qmd) for the study design and
+the [external review procedure](docs/reliability/external-model-review-procedures.md)
+for packet execution and ingestion.
