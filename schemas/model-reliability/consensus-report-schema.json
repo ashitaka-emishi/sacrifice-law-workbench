@@ -1,0 +1,342 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Multi-model consensus and instability diagnostic report",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "case_id",
+    "generator",
+    "source_generators",
+    "run_ids",
+    "authority",
+    "summary",
+    "model_stability",
+    "reference_diagnostics",
+    "risk_dimensions",
+    "review_priorities",
+    "limitations"
+  ],
+  "properties": {
+    "schema_version": { "const": "1.0.0" },
+    "case_id": { "type": "string", "minLength": 1 },
+    "generator": {
+      "const": "scripts/model_reliability/generate_consensus_report.py"
+    },
+    "source_generators": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["agreement", "disagreements", "review_queue"],
+      "properties": {
+        "agreement": {
+          "const": "scripts/model_reliability/compare_runs.py"
+        },
+        "disagreements": {
+          "const": "scripts/model_reliability/classify_disagreements.py"
+        },
+        "review_queue": {
+          "const": "scripts/model_reliability/generate_review_queue.py"
+        }
+      }
+    },
+    "run_ids": {
+      "type": "array",
+      "minItems": 2,
+      "uniqueItems": true,
+      "items": { "type": "string", "minLength": 1 }
+    },
+    "authority": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "consensus_is_evidence",
+        "decision_authority",
+        "notice"
+      ],
+      "properties": {
+        "consensus_is_evidence": { "const": false },
+        "decision_authority": { "const": "human-only" },
+        "notice": { "type": "string", "minLength": 1 }
+      }
+    },
+    "summary": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "field_count",
+        "stable_field_count",
+        "unstable_field_count",
+        "insufficient_data_field_count",
+        "reference_support_field_count",
+        "reference_divergence_field_count",
+        "mixed_reference_alignment_field_count",
+        "challenged_reference_field_count",
+        "unanimous_reference_challenge_count",
+        "review_queue_count",
+        "high_priority_review_count"
+      ],
+      "properties": {
+        "field_count": { "type": "integer", "minimum": 0 },
+        "stable_field_count": { "type": "integer", "minimum": 0 },
+        "unstable_field_count": { "type": "integer", "minimum": 0 },
+        "insufficient_data_field_count": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "reference_support_field_count": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "reference_divergence_field_count": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "mixed_reference_alignment_field_count": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "challenged_reference_field_count": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "unanimous_reference_challenge_count": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "review_queue_count": { "type": "integer", "minimum": 0 },
+        "high_priority_review_count": {
+          "type": "integer",
+          "minimum": 0
+        }
+      }
+    },
+    "model_stability": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/fieldDiagnostic" }
+    },
+    "reference_diagnostics": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/referenceDiagnostic" }
+    },
+    "risk_dimensions": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["by_document", "by_cluster", "by_language"],
+      "properties": {
+        "by_document": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/documentRisk" }
+        },
+        "by_cluster": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/clusterRisk" }
+        },
+        "by_language": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/languageRisk" }
+        }
+      }
+    },
+    "review_priorities": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/reviewPriority" }
+    },
+    "limitations": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "type": "string", "minLength": 1 }
+    }
+  },
+  "$defs": {
+    "fieldDiagnostic": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "case_id",
+        "source_language",
+        "task_layer",
+        "field",
+        "status",
+        "pair_count",
+        "defined_pair_count",
+        "comparable_count",
+        "minimum_agreement",
+        "maximum_agreement"
+      ],
+      "properties": {
+        "case_id": { "type": "string", "minLength": 1 },
+        "source_language": { "type": "string", "minLength": 1 },
+        "task_layer": { "type": "string", "minLength": 1 },
+        "field": { "type": "string", "minLength": 1 },
+        "status": {
+          "enum": ["stable", "unstable", "insufficient-data"]
+        },
+        "pair_count": { "type": "integer", "minimum": 1 },
+        "defined_pair_count": { "type": "integer", "minimum": 0 },
+        "comparable_count": { "type": "integer", "minimum": 0 },
+        "minimum_agreement": {
+          "type": ["number", "null"],
+          "minimum": 0,
+          "maximum": 1
+        },
+        "maximum_agreement": {
+          "type": ["number", "null"],
+          "minimum": 0,
+          "maximum": 1
+        }
+      }
+    },
+    "referenceDiagnostic": {
+      "allOf": [
+        { "$ref": "#/$defs/fieldDiagnosticBase" },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "case_id",
+            "source_language",
+            "task_layer",
+            "field",
+            "status",
+            "run_count",
+            "defined_run_count",
+            "comparable_count",
+            "exact_match_count",
+            "minimum_agreement",
+            "maximum_agreement",
+            "unanimous_reference_challenge_count"
+          ],
+          "properties": {
+            "case_id": { "type": "string", "minLength": 1 },
+            "source_language": { "type": "string", "minLength": 1 },
+            "task_layer": { "type": "string", "minLength": 1 },
+            "field": { "type": "string", "minLength": 1 },
+            "status": {
+              "enum": [
+                "supports-reference",
+                "challenged-reference",
+                "mixed-reference-alignment",
+                "diverges-from-reference",
+                "insufficient-data"
+              ]
+            },
+            "run_count": { "type": "integer", "minimum": 1 },
+            "defined_run_count": { "type": "integer", "minimum": 0 },
+            "comparable_count": { "type": "integer", "minimum": 0 },
+            "exact_match_count": { "type": "integer", "minimum": 0 },
+            "minimum_agreement": {
+              "type": ["number", "null"],
+              "minimum": 0,
+              "maximum": 1
+            },
+            "maximum_agreement": {
+              "type": ["number", "null"],
+              "minimum": 0,
+              "maximum": 1
+            },
+            "unanimous_reference_challenge_count": {
+              "type": "integer",
+              "minimum": 0
+            }
+          }
+        }
+      ]
+    },
+    "fieldDiagnosticBase": {
+      "type": "object"
+    },
+    "riskBase": {
+      "type": "object",
+      "required": [
+        "disagreement_count",
+        "unanimous_reference_challenge_count",
+        "high_priority_review_count"
+      ],
+      "properties": {
+        "disagreement_count": { "type": "integer", "minimum": 0 },
+        "unanimous_reference_challenge_count": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "high_priority_review_count": {
+          "type": "integer",
+          "minimum": 0
+        }
+      }
+    },
+    "documentRisk": {
+      "allOf": [
+        { "$ref": "#/$defs/riskBase" },
+        {
+          "type": "object",
+          "required": ["document_id"],
+          "properties": {
+            "document_id": { "type": "string", "minLength": 1 }
+          }
+        }
+      ],
+      "unevaluatedProperties": false
+    },
+    "clusterRisk": {
+      "allOf": [
+        { "$ref": "#/$defs/riskBase" },
+        {
+          "type": "object",
+          "required": ["cluster_id"],
+          "properties": {
+            "cluster_id": { "type": "string", "minLength": 1 }
+          }
+        }
+      ],
+      "unevaluatedProperties": false
+    },
+    "languageRisk": {
+      "allOf": [
+        { "$ref": "#/$defs/riskBase" },
+        {
+          "type": "object",
+          "required": ["source_language"],
+          "properties": {
+            "source_language": { "type": "string", "minLength": 1 }
+          }
+        }
+      ],
+      "unevaluatedProperties": false
+    },
+    "reviewPriority": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "queue_id",
+        "queue_rank",
+        "priority",
+        "disagreement_id",
+        "document_id",
+        "source_language",
+        "cluster_id",
+        "task_layer",
+        "field",
+        "category",
+        "review_question",
+        "decision_authority"
+      ],
+      "properties": {
+        "queue_id": { "type": "string", "pattern": "^review-[0-9]{4}$" },
+        "queue_rank": { "type": "integer", "minimum": 1 },
+        "priority": { "enum": ["low", "medium", "high"] },
+        "disagreement_id": {
+          "type": "string",
+          "pattern": "^disagreement-[0-9]{4}$"
+        },
+        "document_id": { "type": "string" },
+        "source_language": { "type": "string" },
+        "cluster_id": { "type": ["string", "null"] },
+        "task_layer": { "type": "string", "minLength": 1 },
+        "field": { "type": "string", "minLength": 1 },
+        "category": { "type": "string", "minLength": 1 },
+        "review_question": { "type": "string", "minLength": 1 },
+        "decision_authority": { "const": "human-only" }
+      }
+    }
+  }
+}
