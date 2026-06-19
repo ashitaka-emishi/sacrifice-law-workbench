@@ -29,8 +29,12 @@ website:
         text: Findings
       - href: case-selection.qmd
         text: Cases
-      - href: methodology.qmd
-        text: Method
+      - text: Method
+        menu:
+          - href: methodology.qmd
+            text: Core Methodology
+          - href: model-reliability-methodology.qmd
+            text: Multi-Model Stress Test
       - href: research-archive.qmd
         text: Research Archive
     right:
@@ -58,8 +62,12 @@ website:
             text: Lincoln
           - href: cases/hitler/artifacts/qmd/case-overview.qmd
             text: Hitler
-      - href: methodology.qmd
-        text: Method
+      - section: Method
+        contents:
+          - href: methodology.qmd
+            text: Core Methodology
+          - href: model-reliability-methodology.qmd
+            text: Multi-Model Stress Test
       - href: starter-corpus-proposal.qmd
         text: Corpus and Sources
       - href: starter-cluster-proposal.qmd
