@@ -11,6 +11,7 @@
     "model-reliability:compare": "python3 scripts/model_reliability/compare_runs.py",
     "model-reliability:disagreements": "python3 scripts/model_reliability/classify_disagreements.py",
     "model-reliability:review-queue": "python3 scripts/model_reliability/generate_review_queue.py",
+    "model-reliability:report": "python3 scripts/model_reliability/generate_consensus_report.py",
     "audit": "python3 scripts/generate-traceability-report.py",
     "rebuild:all": "python3 scripts/rebuild-all.py",
     "xcase": "python3 scripts/run-x-case-synthesis.py",
