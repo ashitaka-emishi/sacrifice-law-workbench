@@ -1,0 +1,217 @@
+---
+title: "Multi-Model Annotation Stress Test"
+description: "Method, safeguards, and interpretation limits for blind multi-model annotation diagnostics"
+---
+
+::: {.callout-important}
+This is a diagnostic stress test of annotation instructions and model behavior.
+AI agreement is not human inter-annotator reliability, and AI output is not
+scholarly evidence. No result can automatically revise an accepted annotation
+or adjudicate a historical or interpretive claim.
+:::
+
+## Purpose and scope
+
+The workbench uses separately run AI model systems to test whether bounded
+annotation tasks produce stable or unstable outputs under the same instructions.
+The design covers three layers:
+
+- metaphor identification and lexical boundaries using MIPVU fields;
+- conceptual-metaphor mapping, domains, entailments, and clusters; and
+- Koenigsbergian interpretive functions, agency, absence, uncertainty, and
+  rival readings.
+
+The stress test can identify fragile instructions, unstable fields, possible
+multilingual problems, and items that deserve human review. It cannot establish
+that an annotation is correct, validate a theory, corroborate a historical
+claim, measure human coding reliability, or substitute for scholarly judgment.
+
+## Study design
+
+The workflow begins only after a case has stable source identifiers, accepted
+or reviewable reference artifacts, and a human-approved reliability sample.
+Each external model system receives the same deterministic packet for one task
+layer. Runs are kept separate by model system, source language, task layer, and
+field.
+
+1. A sample records stable document, sentence, span, and lexical-unit IDs,
+   together with sampling and rights constraints.
+2. The generator creates separate identification, CMT, and interpretation
+   packets from explicit field allowlists.
+3. External model systems complete the packets independently, one task layer
+   per submission.
+4. Ingestion verifies exact packet and prompt hashes, source fields, IDs,
+   controlled vocabularies, complete layer coverage, and non-secret run
+   metadata.
+5. Comparisons report model-to-model stability separately from each
+   model-to-reference divergence.
+6. Classified disagreements become bounded questions in a human review queue.
+
+Packet, prompt, schema, source, and code hashes preserve provenance. Invalid
+submissions remain auditable but do not enter valid-run comparisons. The
+[external review procedure](docs/reliability/external-model-review-procedures.md)
+specifies the manual handoff and ingestion steps.
+
+## Blindness and leakage controls
+
+Model-visible packets include only stable IDs, source-language text and lexical
+units, optional separately labeled English glosses, offsets, and neutral source
+risk flags. They withhold:
+
+- accepted MIPVU, CMT, and interpretive labels;
+- sample roles such as negative control, ambiguous, or claim-relevant;
+- human coder decisions, prior reliability results, and adjudication outcomes;
+- other model outputs, consensus reports, and review queues; and
+- analysis conclusions, support scores, synthesis claims, and publication
+  status.
+
+Packet generation uses allowlists rather than copying full source objects and
+then deleting known answers. Each model run should use a fresh context without
+memory, browsing, retrieval, or repository access when the interface permits.
+Models are not coached after their answers are seen; a format repair must
+preserve the original substantive decisions.
+
+## Sampling and packets
+
+An approved sample includes negative controls, difficult or ambiguous items,
+and claim-relevant items so that apparent stability is not estimated only from
+easy examples. These roles are not exposed in the model-visible packet or its
+neutral coverage summary.
+
+Packets are deterministic: unchanged inputs produce byte-identical payloads and
+hashes. Identification, CMT, and interpretation use separate prompts and
+payloads so a task does not imply that the project has accepted a metaphor or
+interpretation. A model submission must preserve every assigned source field
+and return every item in exactly one layer.
+
+## Agreement diagnostics
+
+All measures are field-level diagnostics. They remain stratified by case,
+source language, document, task layer, and run or run pair. Source languages
+are never silently pooled.
+
+| Field type | Diagnostic | Interpretation |
+|---|---|---|
+| Closed nominal judgments | Observed agreement; Cohen's kappa when mathematically defined | Exact category stability, with chance correction only where supported |
+| Open-ended meanings and explanations | Exact agreement | String identity only; difference is not automatically substantive error |
+| Lexical boundaries | Character-span Jaccard overlap | Degree of overlap between proposed boundaries |
+| Set-valued domains, entailments, and agency fields | Jaccard overlap | Shared versus distinct set members |
+| Confidence | Mean absolute difference | Distance between reported confidence values |
+
+Sparse, absent, or degenerate comparisons are reported as undefined with a
+reason; they are not converted to zero or perfect agreement. Cohen's kappa is
+limited to closed-vocabulary judgments with enough observations and
+non-degenerate expected agreement.
+
+Two diagnostic families stay separate:
+
+- **Model-to-model stability** asks whether separately run systems behave
+  similarly under the same packet and prompt.
+- **Model-to-reference divergence** asks where each model differs from the
+  accepted or reviewable project reference.
+
+They are not combined into one headline score. Model stability can reflect a
+shared bias, prompt artifact, common training data, or a genuinely clear field.
+Reference divergence can reflect model error, reference error, codebook
+ambiguity, or a mismatch in task interpretation. Neither family resolves which
+explanation is correct.
+
+## Disagreement typology
+
+Substantive differences are classified by the field and observed pattern. The
+implemented field categories cover:
+
+- metaphor-identification and lexical-boundary instability;
+- semantic, contextual, source-domain, target-domain, and cluster instability;
+- violence, obligation, agency, and absence instability;
+- confidence instability; and
+- schema failures and hallucinated identifiers.
+
+Patterns distinguish pairwise splits, majority/minority and multi-way splits,
+coverage gaps, invalid submissions, and unanimous reference challenges.
+Confidence differences below 0.10 are not promoted as substantive
+instability. A unanimous reference challenge receives high review priority but
+is still only a question for a human reviewer; shared model error remains
+possible.
+
+## Multilingual and rights controls
+
+Every packet item records `source_language`. Identification and boundary tasks
+use the source-language sentence and lexical unit. English glosses, when lawful
+and useful, remain optional aids and never replace the source text. Run metadata
+records declared model language capabilities so results can be stratified
+rather than treated as automatically comparable.
+
+OCR, transcription, translation, and provenance risks travel with packet items
+as neutral flags. They may explain instability but do not reveal the reference
+answer.
+
+Packet payloads and raw responses inherit the source's rights and storage
+constraints. Material that is local-only, restricted, metadata-only, or
+unresolved cannot be sent to a hosted model without permission and cannot be
+committed merely because it appears in a reliability artifact. Public summaries
+prefer stable IDs, aggregate diagnostics, and short compliant spans.
+
+## Human-review boundary
+
+The generated review queue is a triage aid, not an adjudication form. It records
+the source context, reference and model values, disagreement pattern, risk
+flags, priority reasons, and a bounded question. It contains no accepted value
+and marks decision authority as human-only.
+
+The governance sequence is deliberately separate:
+
+1. model outputs create a diagnostic suggestion;
+2. a human reviews the source, codebook, and relevant evidence;
+3. an authorized human process may accept, reject, or defer a correction; and
+4. ordinary corpus, analysis, audit, and publication pipelines regenerate only
+   after an accepted correction.
+
+Model-reliability tools can write only beneath the dedicated case-local
+`quality/model-reliability/` subtree. Protected corpus, annotation, analysis,
+prior human-reliability, and publication paths remain immutable during the
+stress test.
+
+## Publication use
+
+Publication-facing reports may describe which fields were stable or unstable,
+where model systems diverged from references, what limitations apply, and which
+questions were sent for human review. They should retain model, language,
+layer, field, and sample context and should report undefined or incomplete
+diagnostics honestly.
+
+Reports must not claim that model agreement proves reproducibility, validates
+an interpretation, confirms a historical mechanism, or equals human
+inter-annotator reliability. Model outputs are methodological diagnostics, not
+citations or evidence. Historical and interpretive claims continue to require
+source-based argument, corroboration, traceability, and human scholarly review.
+
+## Execution states
+
+Status reporting distinguishes an absent workflow, a designed packet set with
+no valid submissions, partial execution, invalid present artifacts, and a
+complete artifact chain with at least two validated runs. Missing submissions
+are an honest designed-state warning, not fabricated
+results. A complete state requires valid comparisons, disagreement records, a
+human review queue, and reports; it does not mean the underlying interpretations
+have been proven.
+
+## Limitations
+
+- Model systems are not independent human annotators and may share training
+  data, architectures, provider defaults, or cultural and linguistic biases.
+- Provider versions and hidden system behavior may change even when visible
+  settings are recorded.
+- Exact agreement can understate semantic similarity in open text, while more
+  permissive similarity measures can conceal meaningful conceptual differences.
+- Small or purposive samples diagnose selected tasks; they do not estimate a
+  population-wide error rate.
+- English glosses can help review but can also introduce translation anchoring.
+- Reference artifacts are comparison anchors, not infallible ground truth.
+- High agreement can reflect an easy prompt or shared mistake; disagreement can
+  reflect productive ambiguity rather than poor annotation.
+- A model stress test cannot replace blind human double-coding, adjudication,
+  historical expertise, or publication-level source review.
+
+The machine-facing architecture, schemas, and implementation details remain in
+the [reliability documentation](docs/reliability/multi-model-architecture.md).
