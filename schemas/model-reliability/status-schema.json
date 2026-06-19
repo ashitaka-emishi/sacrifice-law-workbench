@@ -1,0 +1,64 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Model reliability execution status",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "case_id",
+    "generator",
+    "state",
+    "valid",
+    "counts",
+    "artifacts",
+    "warnings",
+    "errors"
+  ],
+  "properties": {
+    "schema_version": { "const": "1.0.0" },
+    "case_id": { "type": "string", "minLength": 1 },
+    "generator": { "const": "scripts/model_reliability/status.py" },
+    "state": {
+      "enum": ["absent", "designed", "partial", "invalid", "complete"]
+    },
+    "valid": { "type": "boolean" },
+    "counts": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["submissions", "valid_runs", "invalid_submissions"],
+      "properties": {
+        "submissions": { "type": "integer", "minimum": 0 },
+        "valid_runs": { "type": "integer", "minimum": 0 },
+        "invalid_submissions": { "type": "integer", "minimum": 0 }
+      }
+    },
+    "artifacts": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "sample",
+        "packets",
+        "agreement",
+        "disagreements",
+        "review_queue",
+        "report"
+      ],
+      "properties": {
+        "sample": { "type": "boolean" },
+        "packets": { "type": "boolean" },
+        "agreement": { "type": "boolean" },
+        "disagreements": { "type": "boolean" },
+        "review_queue": { "type": "boolean" },
+        "report": { "type": "boolean" }
+      }
+    },
+    "warnings": {
+      "type": "array",
+      "items": { "type": "string", "minLength": 1 }
+    },
+    "errors": {
+      "type": "array",
+      "items": { "type": "string", "minLength": 1 }
+    }
+  }
+}

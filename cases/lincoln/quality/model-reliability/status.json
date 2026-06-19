@@ -1,0 +1,24 @@
+{
+  "artifacts": {
+    "agreement": false,
+    "disagreements": false,
+    "packets": true,
+    "report": false,
+    "review_queue": false,
+    "sample": true
+  },
+  "case_id": "lincoln",
+  "counts": {
+    "invalid_submissions": 0,
+    "submissions": 0,
+    "valid_runs": 0
+  },
+  "errors": [],
+  "generator": "scripts/model_reliability/status.py",
+  "schema_version": "1.0.0",
+  "state": "designed",
+  "valid": true,
+  "warnings": [
+    "Blind packets are ready; no valid external model submissions are present."
+  ]
+}

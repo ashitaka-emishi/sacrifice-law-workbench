@@ -1,0 +1,24 @@
+{
+  "artifacts": {
+    "agreement": false,
+    "disagreements": false,
+    "packets": false,
+    "report": false,
+    "review_queue": false,
+    "sample": false
+  },
+  "case_id": "am-rev",
+  "counts": {
+    "invalid_submissions": 0,
+    "submissions": 0,
+    "valid_runs": 0
+  },
+  "errors": [],
+  "generator": "scripts/model_reliability/status.py",
+  "schema_version": "1.0.0",
+  "state": "absent",
+  "valid": true,
+  "warnings": [
+    "Multi-model reliability has not been designed for this case."
+  ]
+}

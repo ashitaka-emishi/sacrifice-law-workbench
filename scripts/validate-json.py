@@ -25,6 +25,7 @@ from pipeline_common import (
     segmented_path_for,
     valid_cluster_ids,
 )
+from model_reliability.status import evaluate_case
 
 MANIFEST_REQUIRED = [
     "document_id",
@@ -1106,6 +1107,20 @@ class Validator:
         self.validate_support_artifacts(case_id, valid_mapping_ids)
         self.validate_annotated(case_id, sentence_ids, mipvu_lookup)
         self.validate_concordance_and_analysis(case_id)
+        reliability = evaluate_case(ROOT, case_id)
+        for message in reliability["errors"]:
+            self.error(
+                case_dir(case_id) / "quality" / "model-reliability",
+                message,
+            )
+        if reliability["counts"]["invalid_submissions"]:
+            self.error(
+                case_dir(case_id) / "quality" / "model-reliability",
+                (
+                    f"{reliability['counts']['invalid_submissions']} invalid "
+                    "model submission(s) are registered"
+                ),
+            )
 
 
 def main() -> int:
