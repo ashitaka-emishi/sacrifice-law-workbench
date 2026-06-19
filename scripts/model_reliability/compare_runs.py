@@ -14,7 +14,10 @@ from typing import Any, Iterable, Mapping, Sequence
 try:
     from scripts.model_reliability.boundaries import safe_output_path
 except ModuleNotFoundError:
-    from boundaries import safe_output_path  # type: ignore
+    try:
+        from model_reliability.boundaries import safe_output_path
+    except ModuleNotFoundError:
+        from boundaries import safe_output_path  # type: ignore
 
 GENERATOR_PATH = "scripts/model_reliability/compare_runs.py"
 NOMINAL_FIELDS = {

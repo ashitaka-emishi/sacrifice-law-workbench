@@ -13,7 +13,11 @@ from jsonschema import Draft202012Validator, FormatChecker
 try:
     from scripts.model_reliability.boundaries import safe_output_path
 except ModuleNotFoundError:
-    from boundaries import safe_output_path  # type: ignore
+    try:
+        from model_reliability.boundaries import safe_output_path
+    except ModuleNotFoundError:
+        from boundaries import safe_output_path  # type: ignore
+
 ROOT = Path(__file__).resolve().parents[2]
 STATUS_GENERATOR = "scripts/model_reliability/status.py"
 ARTIFACT_SCHEMAS = {

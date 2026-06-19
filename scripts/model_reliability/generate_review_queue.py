@@ -16,8 +16,20 @@ try:
         write_json,
     )
 except ModuleNotFoundError:  # Direct execution from scripts/model_reliability/.
-    from boundaries import review_candidate_path  # type: ignore
-    from compare_runs import read_json_object, safe_output_path, write_json  # type: ignore
+    try:
+        from model_reliability.boundaries import review_candidate_path
+        from model_reliability.compare_runs import (
+            read_json_object,
+            safe_output_path,
+            write_json,
+        )
+    except ModuleNotFoundError:
+        from boundaries import review_candidate_path  # type: ignore
+        from compare_runs import (  # type: ignore
+            read_json_object,
+            safe_output_path,
+            write_json,
+        )
 
 
 GENERATOR_PATH = "scripts/model_reliability/generate_review_queue.py"

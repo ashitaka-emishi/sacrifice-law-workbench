@@ -12,7 +12,10 @@ from typing import Any, Iterable, Mapping
 try:
     from scripts.model_reliability.boundaries import safe_output_path
 except ModuleNotFoundError:
-    from boundaries import safe_output_path  # type: ignore
+    try:
+        from model_reliability.boundaries import safe_output_path
+    except ModuleNotFoundError:
+        from boundaries import safe_output_path  # type: ignore
 
 ROOT = Path(__file__).resolve().parents[2]
 GENERATOR_VERSION = "1.0.0"
