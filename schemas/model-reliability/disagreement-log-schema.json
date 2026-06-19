@@ -1,0 +1,215 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Model disagreement classification log",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "case_id",
+    "generator",
+    "agreement_generator",
+    "run_ids",
+    "summary",
+    "disagreements"
+  ],
+  "properties": {
+    "schema_version": { "const": "1.0.0" },
+    "case_id": { "type": "string", "minLength": 1 },
+    "generator": {
+      "const": "scripts/model_reliability/classify_disagreements.py"
+    },
+    "agreement_generator": {
+      "const": "scripts/model_reliability/compare_runs.py"
+    },
+    "run_ids": {
+      "type": "array",
+      "minItems": 2,
+      "uniqueItems": true,
+      "items": { "type": "string", "minLength": 1 }
+    },
+    "summary": { "$ref": "#/$defs/summary" },
+    "disagreements": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/disagreement" }
+    }
+  },
+  "$defs": {
+    "countRow": {
+      "type": "object",
+      "additionalProperties": {
+        "type": ["string", "integer"]
+      },
+      "required": ["disagreement_count"],
+      "properties": {
+        "disagreement_count": { "type": "integer", "minimum": 0 }
+      }
+    },
+    "summary": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "total_disagreements",
+        "unanimous_reference_challenges",
+        "high_priority_count",
+        "possible_codebook_ambiguity_count",
+        "by_case",
+        "by_language",
+        "by_document",
+        "by_cluster",
+        "by_layer",
+        "by_category",
+        "by_priority",
+        "run_ids"
+      ],
+      "properties": {
+        "total_disagreements": { "type": "integer", "minimum": 0 },
+        "unanimous_reference_challenges": { "type": "integer", "minimum": 0 },
+        "high_priority_count": { "type": "integer", "minimum": 0 },
+        "possible_codebook_ambiguity_count": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "by_case": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/countRow" }
+        },
+        "by_language": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/countRow" }
+        },
+        "by_document": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/countRow" }
+        },
+        "by_cluster": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/countRow" }
+        },
+        "by_layer": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/countRow" }
+        },
+        "by_category": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/countRow" }
+        },
+        "by_priority": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/countRow" }
+        },
+        "run_ids": {
+          "type": "array",
+          "minItems": 2,
+          "uniqueItems": true,
+          "items": { "type": "string", "minLength": 1 }
+        }
+      }
+    },
+    "disagreement": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "disagreement_id",
+        "case_id",
+        "source_language",
+        "document_id",
+        "sentence_id",
+        "item_id",
+        "unit_id",
+        "cluster_id",
+        "task_layer",
+        "field",
+        "category",
+        "agreement_pattern",
+        "run_values",
+        "value_groups",
+        "missing_run_ids",
+        "reference_value",
+        "unanimous_reference_challenge",
+        "possible_codebook_ambiguity",
+        "claim_impact",
+        "review_priority",
+        "review_question",
+        "evidence_source"
+      ],
+      "properties": {
+        "disagreement_id": {
+          "type": "string",
+          "pattern": "^disagreement-[0-9]{4}$"
+        },
+        "case_id": { "type": "string", "minLength": 1 },
+        "source_language": { "type": "string" },
+        "document_id": { "type": "string" },
+        "sentence_id": { "type": "string" },
+        "item_id": { "type": "string" },
+        "unit_id": { "type": "string", "minLength": 1 },
+        "cluster_id": { "type": ["string", "null"] },
+        "task_layer": { "type": "string", "minLength": 1 },
+        "field": { "type": "string", "minLength": 1 },
+        "category": {
+          "enum": [
+            "metaphor-identification-instability",
+            "boundary-instability",
+            "semantic-instability",
+            "domain-instability",
+            "target-domain-instability",
+            "cluster-instability",
+            "violence-instability",
+            "obligation-instability",
+            "agency-absence-instability",
+            "confidence-instability",
+            "context-instability",
+            "hallucination-instability",
+            "schema-instability",
+            "reference-challenge"
+          ]
+        },
+        "agreement_pattern": {
+          "enum": [
+            "two-way-split",
+            "majority-minority-split",
+            "multi-way-split",
+            "coverage-gap",
+            "unanimous-reference-challenge",
+            "hallucinated-identifier",
+            "invalid-submission"
+          ]
+        },
+        "run_values": { "type": "object" },
+        "value_groups": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["value", "run_ids", "run_count"],
+            "properties": {
+              "value": {},
+              "run_ids": {
+                "type": "array",
+                "minItems": 1,
+                "uniqueItems": true,
+                "items": { "type": "string", "minLength": 1 }
+              },
+              "run_count": { "type": "integer", "minimum": 1 }
+            }
+          }
+        },
+        "missing_run_ids": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": { "type": "string", "minLength": 1 }
+        },
+        "reference_value": {},
+        "unanimous_reference_challenge": { "type": "boolean" },
+        "possible_codebook_ambiguity": { "type": "boolean" },
+        "claim_impact": { "enum": ["low", "medium", "high"] },
+        "review_priority": { "enum": ["low", "medium", "high"] },
+        "review_question": { "type": "string", "minLength": 1 },
+        "evidence_source": {
+          "enum": ["normalized-runs", "validation-report"]
+        }
+      }
+    }
+  }
+}
