@@ -10,6 +10,10 @@ from typing import Any, Iterable, Mapping
 
 from jsonschema import Draft202012Validator, FormatChecker
 
+try:
+    from scripts.model_reliability.boundaries import safe_output_path
+except ModuleNotFoundError:
+    from boundaries import safe_output_path  # type: ignore
 ROOT = Path(__file__).resolve().parents[2]
 STATUS_GENERATOR = "scripts/model_reliability/status.py"
 ARTIFACT_SCHEMAS = {
@@ -428,14 +432,8 @@ def evaluate_case(root: Path, case_id: str) -> dict[str, Any]:
 
 def write_case_status(root: Path, case_id: str) -> dict[str, Any]:
     status = evaluate_case(root, case_id)
-    path = (
-        root.resolve()
-        / "cases"
-        / case_id
-        / "quality"
-        / "model-reliability"
-        / "status.json"
-    )
+    case_root = root.resolve() / "cases" / case_id
+    path = safe_output_path(case_root, "quality/model-reliability/status.json")
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(
         json.dumps(status, ensure_ascii=False, indent=2, sort_keys=True) + "\n",

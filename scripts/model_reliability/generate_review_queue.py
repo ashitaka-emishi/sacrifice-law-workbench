@@ -9,12 +9,14 @@ from pathlib import Path
 from typing import Any, Iterable, Mapping
 
 try:
+    from scripts.model_reliability.boundaries import review_candidate_path
     from scripts.model_reliability.compare_runs import (
         read_json_object,
         safe_output_path,
         write_json,
     )
 except ModuleNotFoundError:  # Direct execution from scripts/model_reliability/.
+    from boundaries import review_candidate_path  # type: ignore
     from compare_runs import read_json_object, safe_output_path, write_json  # type: ignore
 
 
@@ -498,12 +500,8 @@ def generate_case_review_queue(root: Path, case_id: str) -> dict[str, Any]:
     )
     disagreement_log = read_json_object(disagreement_path)
     queue = build_queue(root, case_id, disagreement_log)
-    json_path = safe_output_path(
-        case_root, "quality/model-reliability/review-queue/model-review-queue.json"
-    )
-    csv_path = safe_output_path(
-        case_root, "quality/model-reliability/review-queue/model-review-queue.csv"
-    )
+    json_path = review_candidate_path(case_root, "model-review-queue.json")
+    csv_path = review_candidate_path(case_root, "model-review-queue.csv")
     write_json(json_path, queue)
     write_queue_csv(csv_path, queue["entries"])
     return queue

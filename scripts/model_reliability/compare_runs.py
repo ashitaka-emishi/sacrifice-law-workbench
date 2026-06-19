@@ -11,6 +11,10 @@ from dataclasses import dataclass
 from pathlib import Path
 from typing import Any, Iterable, Mapping, Sequence
 
+try:
+    from scripts.model_reliability.boundaries import safe_output_path
+except ModuleNotFoundError:
+    from boundaries import safe_output_path  # type: ignore
 
 GENERATOR_PATH = "scripts/model_reliability/compare_runs.py"
 NOMINAL_FIELDS = {
@@ -98,14 +102,6 @@ def write_json(path: Path, value: Mapping[str, Any]) -> None:
         json.dumps(value, indent=2, ensure_ascii=False, sort_keys=True) + "\n",
         encoding="utf-8",
     )
-
-
-def safe_output_path(case_root: Path, relative: str) -> Path:
-    writable_root = (case_root / "quality" / "model-reliability").resolve()
-    target = (case_root / relative).resolve()
-    if target != writable_root and writable_root not in target.parents:
-        raise ComparisonError(f"refusing output outside model-reliability subtree: {target}")
-    return target
 
 
 def _submission(run: Mapping[str, Any]) -> Mapping[str, Any]:

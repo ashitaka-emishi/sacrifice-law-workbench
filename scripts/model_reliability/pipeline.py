@@ -9,6 +9,10 @@ from pathlib import Path
 from typing import Any, Mapping, Sequence
 
 try:
+    from scripts.model_reliability.boundaries import (
+        ProtectedPathError,
+        immutable_reference_guard,
+    )
     from scripts.model_reliability.classify_disagreements import (
         DisagreementError,
         compute_case_disagreements,
@@ -37,6 +41,7 @@ try:
         read_json_object,
     )
 except ModuleNotFoundError:  # Direct execution from scripts/model_reliability/.
+    from boundaries import ProtectedPathError, immutable_reference_guard  # type: ignore
     from classify_disagreements import (  # type: ignore
         DisagreementError,
         compute_case_disagreements,
@@ -71,6 +76,7 @@ PIPELINE_ERRORS = (
     DisagreementError,
     ReviewQueueError,
     ConsensusReportError,
+    ProtectedPathError,
     OSError,
 )
 
@@ -180,50 +186,51 @@ def run_pipeline(
     revision: str | None = None,
 ) -> dict[str, Any]:
     root = root.resolve()
-    manifest = generate_packets(
-        root,
-        case_id,
-        sample_path=sample_path,
-        revision=revision,
-    )
-    ready = readiness(
-        root,
-        case_id,
-        packet_id=str(manifest["packet_id"]),
-        packet_hash=str(manifest["packet_hash"]),
-    )
-    completed = ["packets"]
-    if ready["status"] != "ready":
+    with immutable_reference_guard(root, case_id):
+        manifest = generate_packets(
+            root,
+            case_id,
+            sample_path=sample_path,
+            revision=revision,
+        )
+        ready = readiness(
+            root,
+            case_id,
+            packet_id=str(manifest["packet_id"]),
+            packet_hash=str(manifest["packet_hash"]),
+        )
+        completed = ["packets"]
+        if ready["status"] != "ready":
+            return {
+                "case_id": case_id,
+                "status": ready["status"],
+                "completed_stages": completed,
+                "packet_id": manifest["packet_id"],
+                "run_count": ready["run_count"],
+                "run_ids": ready["run_ids"],
+                "warning": ready["warning"],
+            }
+
+        agreement = compute_case_agreement(root, case_id)
+        completed.append("comparison")
+        disagreements = compute_case_disagreements(root, case_id)
+        completed.append("disagreements")
+        queue = generate_case_review_queue(root, case_id)
+        completed.append("review-queue")
+        report = generate_case_consensus_report(root, case_id)
+        completed.append("report")
         return {
             "case_id": case_id,
-            "status": ready["status"],
+            "status": "complete",
             "completed_stages": completed,
             "packet_id": manifest["packet_id"],
-            "run_count": ready["run_count"],
-            "run_ids": ready["run_ids"],
-            "warning": ready["warning"],
+            "run_count": len(agreement["run_ids"]),
+            "run_ids": agreement["run_ids"],
+            "disagreement_count": disagreements["summary"]["total_disagreements"],
+            "review_queue_count": queue["summary"]["queue_count"],
+            "reported_field_count": report["summary"]["field_count"],
+            "warning": None,
         }
-
-    agreement = compute_case_agreement(root, case_id)
-    completed.append("comparison")
-    disagreements = compute_case_disagreements(root, case_id)
-    completed.append("disagreements")
-    queue = generate_case_review_queue(root, case_id)
-    completed.append("review-queue")
-    report = generate_case_consensus_report(root, case_id)
-    completed.append("report")
-    return {
-        "case_id": case_id,
-        "status": "complete",
-        "completed_stages": completed,
-        "packet_id": manifest["packet_id"],
-        "run_count": len(agreement["run_ids"]),
-        "run_ids": agreement["run_ids"],
-        "disagreement_count": disagreements["summary"]["total_disagreements"],
-        "review_queue_count": queue["summary"]["queue_count"],
-        "reported_field_count": report["summary"]["field_count"],
-        "warning": None,
-    }
 
 
 def _add_case(parser: argparse.ArgumentParser) -> None:
