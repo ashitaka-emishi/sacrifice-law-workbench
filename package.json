@@ -9,6 +9,7 @@
     "mipvu:reliability": "python3 scripts/calculate-mipvu-reliability.py",
     "test:model-reliability": "python3 -m unittest discover -s test -p 'test_model_reliability*.py' -v",
     "model-reliability:compare": "python3 scripts/model_reliability/compare_runs.py",
+    "model-reliability:disagreements": "python3 scripts/model_reliability/classify_disagreements.py",
     "audit": "python3 scripts/generate-traceability-report.py",
     "rebuild:all": "python3 scripts/rebuild-all.py",
     "xcase": "python3 scripts/run-x-case-synthesis.py",
