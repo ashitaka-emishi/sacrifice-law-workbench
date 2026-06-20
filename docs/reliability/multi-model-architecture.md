@@ -36,9 +36,11 @@ path that creates or revises those artifacts. Any possible correction discovered
 through model comparison remains a review candidate until a separate,
 human-authorized correction process accepts it.
 
-Human inter-annotator reliability and human adjudication are separate future
-layers. Their metrics must not be averaged with model diagnostics or described
-as equivalent evidence.
+Human inter-annotator reliability and human adjudication are separate layers
+defined in the
+[human reliability architecture](human-reliability-architecture.md). Their
+metrics must not be averaged with model diagnostics or described as equivalent
+evidence.
 
 ## Architectural principles
 
