@@ -1,7 +1,7 @@
 {
   "version": "1.0",
   "case_id": "lincoln",
-  "generated_at": "2026-06-19T22:23:26",
+  "generated_at": "2026-06-19T22:43:39",
   "status": "draft-review-package",
   "source_issue": "#13",
   "package_policy": "This package exposes the method, evidence, validation gate, AI-use statement, model-reliability disclosure, data-availability statement, and claim traceability needed for scholarly review.",
@@ -208,6 +208,18 @@
       "file_count": 1,
       "files": [
         "publication/model-reliability.md"
+      ]
+    },
+    {
+      "component_id": "model-reliability-completion",
+      "label": "Model-reliability completion gate",
+      "purpose": "Defines the final artifact, authority, documentation, protected-path, and repository validation gate.",
+      "publication_status": "draft-review-package",
+      "path": "docs/reliability/model-reliability-completion-checklist.md",
+      "status": "available",
+      "file_count": 1,
+      "files": [
+        "docs/reliability/model-reliability-completion-checklist.md"
       ]
     },
     {

@@ -19,6 +19,7 @@
     "model-reliability:run": "python3 scripts/model_reliability/pipeline.py run",
     "model-reliability:status": "python3 scripts/model_reliability/status.py",
     "model-reliability:results": "python3 scripts/model_reliability/generate_results_page.py",
+    "model-reliability:completion": "python3 scripts/model_reliability/completion_checklist.py",
     "audit": "python3 scripts/generate-traceability-report.py",
     "rebuild:all": "python3 scripts/rebuild-all.py",
     "xcase": "python3 scripts/run-x-case-synthesis.py",

@@ -460,6 +460,7 @@ def package_components(case_id: str) -> list[dict[str, Any]]:
         ("claim-traceability", "Claim traceability", "publication/claim-traceability.md", "Links support claims to evidence records and source metadata."),
         ("ai-use-statement", "AI-use statement", "publication/ai-use-statement.md", "Explains AI assistance and human scholarly responsibility."),
         ("model-reliability-disclosure", "Model-reliability disclosure", "publication/model-reliability.md", "Separates accepted annotations, prior review, model diagnostics, human reliability, and reproducibility claims."),
+        ("model-reliability-completion", "Model-reliability completion gate", "docs/reliability/model-reliability-completion-checklist.md", "Defines the final artifact, authority, documentation, protected-path, and repository validation gate."),
         ("data-availability", "Data availability", "publication/data-availability.md", "Explains shareable data, rights status, and reuse cautions."),
         ("validation-gate", "Validation gate", "publication/validation-gate.md", "Documents the milestone-level rebuild, validation, and publication checks."),
         ("public-site-readiness", "Public-site readiness", "publication/public-site-readiness.md", "Shows draft/placeholder signals on public pages."),

@@ -45,9 +45,27 @@ npm run model-reliability -- run --case lincoln
 npm run model-reliability:packets -- --case lincoln
 npm run model-reliability:ingest -- --case lincoln --json /path/to/submission.json
 npm run model-reliability:run -- --case lincoln
+npm run model-reliability:completion -- --case lincoln
 ```
 
 Every command writes only beneath
 `cases/<case_id>/quality/model-reliability/`. Accepted metadata, corpus,
 annotation, analysis, existing human-reliability, and publication artifacts are
 read-only inputs.
+
+## Final completion gate
+
+After at least two validated runs and the full downstream artifact chain exist,
+run:
+
+```bash
+npm run model-reliability:completion -- \
+  --case lincoln --run-repository-validation --write
+```
+
+The gate verifies validated runs, layered metrics, disagreement logs, the
+human-review queue, reports, documentation, protected-path authority, and the
+four repository validation commands. It writes a blocked or complete checklist
+beneath the case-local model-reliability subtree. See the
+[completion checklist](model-reliability-completion-checklist.md) for the full
+contract.
