@@ -26,3 +26,19 @@ Known source limitations remain part of the v1 record. Napoleon is normalized
 from Gallica OCR and should preserve OCR uncertainty where it affects French
 MIPVU decisions. Hitler source-language review depends on rights-reviewed
 local/fair-use German texts with English glosses used only as analytical aids.
+
+## Multi-model reliability limits
+
+The multi-model stress test does not widen the corpus's publication rights.
+Packet payloads and raw responses inherit each source's storage and
+third-party-transmission constraints. Local-only, restricted, metadata-only,
+or unresolved spans must remain local or be withheld; public summaries should
+prefer stable IDs, aggregate diagnostics, provenance metadata, and short
+compliant spans.
+
+Accepted annotations and prior human-review artifacts remain separate from
+model diagnostics. AI agreement cannot establish human inter-annotator
+reliability, prove that an interpretation is correct, or demonstrate scholarly
+reproducibility. A publication-grade human reliability claim would require a
+separately designed blind human coding study with its own sample, metrics,
+adjudication, and limitations.

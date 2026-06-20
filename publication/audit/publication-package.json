@@ -1,10 +1,10 @@
 {
   "version": "1.0",
   "case_id": "lincoln",
-  "generated_at": "2026-06-17T17:38:41",
+  "generated_at": "2026-06-19T22:23:26",
   "status": "draft-review-package",
   "source_issue": "#13",
-  "package_policy": "This package exposes the method, evidence, validation gate, AI-use statement, data-availability statement, and claim traceability needed for scholarly review.",
+  "package_policy": "This package exposes the method, evidence, validation gate, AI-use statement, model-reliability disclosure, data-availability statement, and claim traceability needed for scholarly review.",
   "components": [
     {
       "component_id": "research-design",
@@ -199,6 +199,18 @@
       ]
     },
     {
+      "component_id": "model-reliability-disclosure",
+      "label": "Model-reliability disclosure",
+      "purpose": "Separates accepted annotations, prior review, model diagnostics, human reliability, and reproducibility claims.",
+      "publication_status": "draft-review-package",
+      "path": "publication/model-reliability.md",
+      "status": "available",
+      "file_count": 1,
+      "files": [
+        "publication/model-reliability.md"
+      ]
+    },
+    {
       "component_id": "data-availability",
       "label": "Data availability",
       "purpose": "Explains shareable data, rights status, and reuse cautions.",
@@ -257,6 +269,9 @@
     "Publication-grade historical citations remain required where historical notes say so.",
     "Scores are provisional and based on reviewed Lincoln pilot evidence.",
     "Full-corpus MIPVU review and reliability adjudication are pending.",
-    "Historical alignment notes require publication-grade citations."
+    "Historical alignment notes require publication-grade citations.",
+    "Accepted annotations and prior human-review artifacts remain distinct from multi-model diagnostic outputs.",
+    "Model agreement does not establish human inter-annotator reliability, scholarly reproducibility, or evidentiary correctness.",
+    "Model-reliability packets and responses inherit source-level rights and storage restrictions."
   ]
 }
