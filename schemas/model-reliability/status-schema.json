@@ -41,7 +41,8 @@
         "agreement",
         "disagreements",
         "review_queue",
-        "report"
+        "report",
+        "codebook_notes"
       ],
       "properties": {
         "sample": { "type": "boolean" },
@@ -49,7 +50,8 @@
         "agreement": { "type": "boolean" },
         "disagreements": { "type": "boolean" },
         "review_queue": { "type": "boolean" },
-        "report": { "type": "boolean" }
+        "report": { "type": "boolean" },
+        "codebook_notes": { "type": "boolean" }
       }
     },
     "warnings": {

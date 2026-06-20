@@ -25,6 +25,10 @@ try:
         ConsensusReportError,
         generate_case_consensus_report,
     )
+    from scripts.model_reliability.generate_codebook_notes import (
+        CodebookNotesError,
+        generate_case_codebook_notes,
+    )
     from scripts.model_reliability.generate_packets import (
         PacketGenerationError,
         generate_packets,
@@ -51,6 +55,10 @@ except ModuleNotFoundError:  # Direct execution from scripts/model_reliability/.
         ConsensusReportError,
         generate_case_consensus_report,
     )
+    from generate_codebook_notes import (  # type: ignore
+        CodebookNotesError,
+        generate_case_codebook_notes,
+    )
     from generate_packets import (  # type: ignore
         PacketGenerationError,
         generate_packets,
@@ -76,6 +84,7 @@ PIPELINE_ERRORS = (
     DisagreementError,
     ReviewQueueError,
     ConsensusReportError,
+    CodebookNotesError,
     ProtectedPathError,
     OSError,
 )
@@ -219,6 +228,8 @@ def run_pipeline(
         completed.append("review-queue")
         report = generate_case_consensus_report(root, case_id)
         completed.append("report")
+        notes = generate_case_codebook_notes(root, case_id)
+        completed.append("codebook-notes")
         return {
             "case_id": case_id,
             "status": "complete",
@@ -229,6 +240,9 @@ def run_pipeline(
             "disagreement_count": disagreements["summary"]["total_disagreements"],
             "review_queue_count": queue["summary"]["queue_count"],
             "reported_field_count": report["summary"]["field_count"],
+            "codebook_recommendation_count": notes["summary"][
+                "recommendation_count"
+            ],
             "warning": None,
         }
 
@@ -268,6 +282,7 @@ def build_parser() -> argparse.ArgumentParser:
         ("disagreements", "Classify disagreements"),
         ("review-queue", "Generate the human review queue"),
         ("report", "Generate the consensus and instability report"),
+        ("codebook-notes", "Generate human-governed codebook revision notes"),
     ):
         stage = commands.add_parser(name, help=help_text)
         _add_case(stage)
@@ -337,6 +352,13 @@ def main(argv: Sequence[str] | None = None) -> int:
             print(
                 f"{args.case_id}: reported "
                 f"{result['summary']['field_count']} field(s)"
+            )
+        elif args.command == "codebook-notes":
+            result = generate_case_codebook_notes(root, args.case_id)
+            print(
+                f"{args.case_id}: generated "
+                f"{result['summary']['recommendation_count']} codebook "
+                "recommendation(s)"
             )
         else:
             result = run_pipeline(

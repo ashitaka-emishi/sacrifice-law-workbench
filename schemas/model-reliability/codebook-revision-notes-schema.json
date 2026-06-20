@@ -1,0 +1,87 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Human-governed codebook revision notes",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "case_id", "generator", "source_generators", "run_ids", "authority", "summary", "recommendations"],
+  "properties": {
+    "schema_version": { "const": "1.0.0" },
+    "case_id": { "type": "string", "minLength": 1 },
+    "generator": { "const": "scripts/model_reliability/generate_codebook_notes.py" },
+    "source_generators": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["agreement", "disagreements", "review_queue"],
+      "properties": {
+        "agreement": { "const": "scripts/model_reliability/compare_runs.py" },
+        "disagreements": { "const": "scripts/model_reliability/classify_disagreements.py" },
+        "review_queue": { "const": "scripts/model_reliability/generate_review_queue.py" }
+      }
+    },
+    "run_ids": {
+      "type": "array",
+      "minItems": 2,
+      "uniqueItems": true,
+      "items": { "type": "string", "minLength": 1 }
+    },
+    "authority": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["decision_authority", "retroactive_change_permitted", "notice"],
+      "properties": {
+        "decision_authority": { "const": "human-only" },
+        "retroactive_change_permitted": { "const": false },
+        "notice": { "type": "string", "minLength": 1 }
+      }
+    },
+    "summary": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["recommendation_count", "accepted_count", "rejected_count", "deferred_count", "stable_category_count", "ambiguous_instruction_count", "common_model_error_count", "multilingual_problem_count"],
+      "properties": {
+        "recommendation_count": { "type": "integer", "minimum": 0 },
+        "accepted_count": { "type": "integer", "minimum": 0 },
+        "rejected_count": { "type": "integer", "minimum": 0 },
+        "deferred_count": { "type": "integer", "minimum": 0 },
+        "stable_category_count": { "type": "integer", "minimum": 0 },
+        "ambiguous_instruction_count": { "type": "integer", "minimum": 0 },
+        "common_model_error_count": { "type": "integer", "minimum": 0 },
+        "multilingual_problem_count": { "type": "integer", "minimum": 0 }
+      }
+    },
+    "recommendations": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/recommendation" }
+    }
+  },
+  "$defs": {
+    "recommendation": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["recommendation_id", "case_id", "finding_type", "source_language", "task_layer", "field", "categories", "disagreement_ids", "queue_ids", "evidence_count", "observation", "recommended_change", "training_use", "disposition", "decision_rationale", "reviewer", "decided_at", "decision_source"],
+      "properties": {
+        "recommendation_id": { "type": "string", "pattern": "^codebook-rec-[0-9a-f]{12}$" },
+        "case_id": { "type": "string", "minLength": 1 },
+        "finding_type": { "enum": ["stable-category", "ambiguous-instruction", "common-model-error", "multilingual-problem"] },
+        "source_language": { "type": "string" },
+        "task_layer": { "type": "string", "minLength": 1 },
+        "field": { "type": "string", "minLength": 1 },
+        "metric_name": { "type": "string" },
+        "metric_value": { "type": ["number", "null"] },
+        "comparable_count": { "type": "integer", "minimum": 0 },
+        "categories": { "type": "array", "uniqueItems": true, "items": { "type": "string", "minLength": 1 } },
+        "disagreement_ids": { "type": "array", "uniqueItems": true, "items": { "type": "string", "pattern": "^disagreement-[0-9]{4}$" } },
+        "queue_ids": { "type": "array", "uniqueItems": true, "items": { "type": "string", "pattern": "^review-[0-9]{4}$" } },
+        "evidence_count": { "type": "integer", "minimum": 0 },
+        "observation": { "type": "string", "minLength": 1 },
+        "recommended_change": { "type": "string", "minLength": 1 },
+        "training_use": { "type": "string", "minLength": 1 },
+        "disposition": { "enum": ["accepted", "rejected", "deferred"] },
+        "decision_rationale": { "type": "string", "minLength": 1 },
+        "reviewer": { "type": ["string", "null"] },
+        "decided_at": { "type": ["string", "null"], "format": "date-time" },
+        "decision_source": { "enum": ["generated-default", "human-decision-register"] }
+      }
+    }
+  }
+}

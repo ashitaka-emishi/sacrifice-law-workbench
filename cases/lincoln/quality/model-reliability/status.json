@@ -1,6 +1,7 @@
 {
   "artifacts": {
     "agreement": false,
+    "codebook_notes": false,
     "disagreements": false,
     "packets": true,
     "report": false,
