@@ -58,6 +58,10 @@ class ModelReliabilityPublicationTest(unittest.TestCase):
             components["model-reliability-disclosure"]["path"],
             "publication/model-reliability.md",
         )
+        self.assertEqual(
+            components["model-reliability-completion"]["path"],
+            "docs/reliability/model-reliability-completion-checklist.md",
+        )
         limitations = " ".join(manifest["known_limitations"])
         self.assertIn("human inter-annotator reliability", limitations)
         self.assertIn("rights and storage restrictions", limitations)

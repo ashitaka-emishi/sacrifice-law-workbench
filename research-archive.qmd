@@ -38,6 +38,7 @@ available for readers who want to inspect how the argument was built.
 
 - [Multi-Model Reliability Architecture](docs/reliability/multi-model-architecture.md)
 - [Multi-Model Reliability Results](model-reliability-results.qmd)
+- [Multi-Model Reliability Completion Checklist](docs/reliability/model-reliability-completion-checklist.md)
 - [Pipeline Upgrade Notes](PIPELINE-UPGRADE.md)
 - [Future LangGraph Compatibility](FUTURE_LANGGRAPH_COMPATIBILITY.md)
 - [Site Architecture](SITE_ARCHITECTURE.md)

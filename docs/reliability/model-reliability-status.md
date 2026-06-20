@@ -25,3 +25,9 @@ rendering failure. `npm run pipeline` and Quarto therefore continue while
 refreshing packets for cases with approved samples and surfacing the warning on
 the generated status page. Invalid present artifacts remain errors and cannot
 be silently treated as absent.
+
+Case status and milestone completion are related but distinct. `complete`
+status confirms a valid artifact chain. The final
+[completion checklist](model-reliability-completion-checklist.md) additionally
+requires documentation, protected-authority checks, and successful status,
+validation, pipeline, and Quarto commands.

@@ -32,6 +32,7 @@ ARTIFACT_SCHEMAS = {
     "comparisons/consensus-report.json": "consensus-report-schema.json",
     "codebook/codebook-revision-notes.json": "codebook-revision-notes-schema.json",
     "codebook/recommendation-decisions.json": "codebook-recommendation-decisions-schema.json",
+    "completion/completion-checklist.json": "completion-checklist-schema.json",
 }
 COMPLETE_ARTIFACTS = (
     "comparisons/agreement-results.json",
@@ -270,6 +271,7 @@ def _cross_validate(
         "review-queue/model-review-queue.json",
         "comparisons/consensus-report.json",
         "codebook/codebook-revision-notes.json",
+        "completion/completion-checklist.json",
     )
     for relative in downstream:
         artifact = artifacts.get(relative)
@@ -422,6 +424,47 @@ def _cross_validate(
                         "is stale relative to the decision register"
                     )
                     break
+
+    completion = artifacts.get("completion/completion-checklist.json")
+    if completion is not None:
+        checks = completion.get("checks", [])
+        if not isinstance(checks, list):
+            checks = []
+        failed_check_ids = [
+            item.get("check_id")
+            for item in checks
+            if isinstance(item, Mapping) and item.get("status") != "pass"
+        ]
+        summary = completion.get("summary", {})
+        expected_status = "complete" if not failed_check_ids else "blocked"
+        if completion.get("status") != expected_status:
+            errors.append(
+                f"{model_root}: completion status does not reconcile with checks"
+            )
+        if isinstance(summary, Mapping):
+            reconciliations = {
+                "check_count": len(checks),
+                "passed_count": len(checks) - len(failed_check_ids),
+                "failed_count": len(failed_check_ids),
+                "failed_check_ids": failed_check_ids,
+            }
+            for key, expected in reconciliations.items():
+                if summary.get(key) != expected:
+                    errors.append(
+                        f"{model_root}: completion summary `{key}` does not reconcile"
+                    )
+        if completion.get("status") == "complete":
+            commands = completion.get("required_commands", [])
+            commands_pass = isinstance(commands, list) and all(
+                isinstance(item, Mapping)
+                and item.get("status") == "pass"
+                and item.get("exit_code") == 0
+                for item in commands
+            )
+            if not commands_pass:
+                errors.append(
+                    f"{model_root}: complete checklist has unpassed repository commands"
+                )
 
     invalid_count = sum(
         entry.get("status") == "invalid"
