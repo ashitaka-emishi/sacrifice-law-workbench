@@ -323,6 +323,8 @@ Coders complete a versioned training guide using examples outside reliability
 samples. The guide covers MIPVU, boundaries, CMT, interpretation,
 violence/obligation, agency/absence, confidence, ambiguity, rival readings,
 uncertainty, out-of-scope decisions, blindness, rights, and gloss limits.
+The current operational guide is the
+[human coder training guide](human-coder-training-guide.md).
 
 ### 2. Calibration
 
