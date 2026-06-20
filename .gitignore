@@ -23,6 +23,9 @@ cases/hitler/corpus/mipvu/*.json
 # Multi-model packets and submissions may reproduce the same local-only text.
 # Publication-safe aggregate summaries can be promoted deliberately after review.
 cases/hitler/quality/model-reliability/
+# Human coder packets, submissions, queues, and adjudication may also reproduce
+# the same local-only text. Rights-safe aggregate reports require deliberate review.
+cases/hitler/quality/human-reliability/
 reports/tmp/
 
 /.quarto/
