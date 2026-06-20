@@ -16,8 +16,11 @@ uncertainty, and out-of-scope decisions.
 
 All worked examples below are invented for training. They are identified with
 `training-synthetic-*` IDs, contain no historical or restricted source text,
-and must never be included in a blind reliability sample. Issue #77 will add
-separate multilingual calibration packets and training-only answer keys.
+and must never be included in a blind reliability sample. After training,
+coders complete the separate
+[multilingual calibration packets](human-coder-calibration.md), whose
+coordinator-held answer keys and completion records remain outside the blind
+study.
 
 ## Training outcome
 

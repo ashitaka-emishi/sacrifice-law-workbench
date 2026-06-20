@@ -1,0 +1,49 @@
+{
+  "schema_version": "human-calibration-completion-template-1.0.0",
+  "register_id": "replace-with-stable-register-id",
+  "case_id": "replace-with-case-id",
+  "cohort_id": "replace-with-cohort-id",
+  "source_language": "en",
+  "task_layers": [
+    "identification",
+    "cmt",
+    "interpretation",
+    "agency_absence"
+  ],
+  "training_version": "1.0.0",
+  "codebook_version": "replace-with-codebook-version",
+  "attempts": [
+    {
+      "attempt_id": "replace-with-stable-attempt-id",
+      "coder_id": "pseudonymous-coder-id",
+      "coder_role": "primary",
+      "packet_id": "human-calibration-en-1.0.0",
+      "packet_version": "1.0.0",
+      "first_pass_response_sha256": "replace-with-64-lowercase-hex-characters",
+      "completed_at": "YYYY-MM-DDThh:mm:ssZ",
+      "independent_first_pass_attested": true,
+      "answer_key_withheld_until_first_pass": true,
+      "items_completed": 6,
+      "items_total": 6,
+      "critical_controls_passed": false,
+      "remediation": {
+        "required": false,
+        "topics": [],
+        "completed_at": null,
+        "notes": ""
+      },
+      "qualification_decision": "pending",
+      "qualified_task_layers": [],
+      "coordinator_id": "pseudonymous-coordinator-id",
+      "decision_at": null,
+      "incidents": [],
+      "notes": ""
+    }
+  ],
+  "allowed_qualification_decisions": [
+    "pending",
+    "qualified",
+    "remediation_required",
+    "not_qualified"
+  ]
+}

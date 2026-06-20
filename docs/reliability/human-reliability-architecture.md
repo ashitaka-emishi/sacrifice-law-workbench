@@ -333,6 +333,10 @@ training-only. Calibration completion is recorded before reliability packet
 release. Calibration answers, discussion, and keys must not reveal study items
 or accepted decisions from the reliability sample.
 
+The shared [multilingual calibration packet set](human-coder-calibration.md)
+provides synthetic English, French, and German exercises, separately held
+answer keys, administration rules, and a completion-register template.
+
 ### 3. Sample declaration
 
 A stratified sample manifest records cases, languages, phases, genres, task
