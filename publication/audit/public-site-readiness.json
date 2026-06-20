@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-06-17T17:38:41",
+  "generated_at": "2026-06-19T22:23:26",
   "status": "pass",
   "policy": "Placeholder public pages must be visibly marked as draft, provisional, or pending.",
   "blockers": [],
@@ -31,26 +31,26 @@
     },
     {
       "path": "cases/am-rev/artifacts/qmd/case-overview.qmd",
-      "status": "placeholder-marked-as-draft",
-      "has_placeholder_signal": true,
+      "status": "draft-or-provisional-marked",
+      "has_placeholder_signal": false,
       "has_draft_or_pending_signal": true
     },
     {
       "path": "cases/hitler/artifacts/qmd/case-overview.qmd",
-      "status": "placeholder-marked-as-draft",
-      "has_placeholder_signal": true,
+      "status": "draft-or-provisional-marked",
+      "has_placeholder_signal": false,
       "has_draft_or_pending_signal": true
     },
     {
       "path": "cases/lincoln/artifacts/qmd/case-overview.qmd",
-      "status": "placeholder-marked-as-draft",
-      "has_placeholder_signal": true,
+      "status": "draft-or-provisional-marked",
+      "has_placeholder_signal": false,
       "has_draft_or_pending_signal": true
     },
     {
       "path": "cases/napoleon/artifacts/qmd/case-overview.qmd",
-      "status": "placeholder-marked-as-draft",
-      "has_placeholder_signal": true,
+      "status": "draft-or-provisional-marked",
+      "has_placeholder_signal": false,
       "has_draft_or_pending_signal": true
     },
     {
@@ -163,6 +163,12 @@
     },
     {
       "path": "publication/data-availability.md",
+      "status": "no-draft-signal-detected",
+      "has_placeholder_signal": false,
+      "has_draft_or_pending_signal": false
+    },
+    {
+      "path": "publication/model-reliability.md",
       "status": "no-draft-signal-detected",
       "has_placeholder_signal": false,
       "has_draft_or_pending_signal": false

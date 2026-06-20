@@ -218,6 +218,30 @@ A claim survives review when the project can explain why the preferred
 interpretation fits the corpus better than the rival, or when the claim is
 qualified to preserve the rival.
 
+## Multi-Model Reliability Audit
+
+Multi-model reliability artifacts are diagnostic controls on instructions and
+model behavior. Review them separately from accepted annotations, prior human
+review or adjudication, and any future human inter-annotator reliability study.
+
+The audit should confirm that:
+
+- model-to-model stability remains separate from model-to-reference
+  divergence;
+- absent, partial, invalid, and complete execution states are reported
+  honestly;
+- a complete artifact chain is not described as proof of correctness or
+  scholarly reproducibility;
+- disagreements remain human-review candidates and cannot revise accepted
+  annotations automatically;
+- packet payloads and raw responses follow source-level rights, storage, and
+  third-party-transmission restrictions; and
+- public summaries expose only rights-safe identifiers, aggregates,
+  provenance metadata, and compliant short spans.
+
+Human reliability requires its own blind coding design, coder sample, metrics,
+and adjudication record. AI-model agreement is not a substitute.
+
 ## Translation And Register Sensitivity
 
 Translation-sensitive cases require special care. When possible, translated

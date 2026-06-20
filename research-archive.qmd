@@ -30,12 +30,14 @@ available for readers who want to inspect how the argument was built.
 - [Claim Traceability](publication/claim-traceability.md)
 - [Validation Gate](publication/validation-gate.md)
 - [AI Use Statement](publication/ai-use-statement.md)
+- [Model-Reliability Disclosure](publication/model-reliability.md)
 - [Data Availability](publication/data-availability.md)
 - [Public Site Readiness](publication/public-site-readiness.md)
 
 ## Research infrastructure
 
 - [Multi-Model Reliability Architecture](docs/reliability/multi-model-architecture.md)
+- [Multi-Model Reliability Results](model-reliability-results.qmd)
 - [Pipeline Upgrade Notes](PIPELINE-UPGRADE.md)
 - [Future LangGraph Compatibility](FUTURE_LANGGRAPH_COMPATIBILITY.md)
 - [Site Architecture](SITE_ARCHITECTURE.md)

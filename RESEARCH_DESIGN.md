@@ -316,6 +316,7 @@ claims.
 | CMT mapping | Suggest possible source-target mappings and entailments | Decide, justify, and record rival readings |
 | Corpus summaries | Draft summaries of validated artifacts | Check against concordance, annotations, and analysis outputs |
 | Support scoring | Flag possible score evidence or inconsistencies | Assign, justify, and review dimension scores |
+| Multi-model stress testing | Produce blind, bounded annotation responses for diagnostic comparison | Keep accepted annotations authoritative, inspect disagreements, and authorize any later correction |
 | Writing | Draft or revise prose | Preserve claim status, citations, and human scholarly responsibility |
 
 Required AI-use disclosure:
@@ -333,6 +334,13 @@ evidence.
 If a publication venue requires a different disclosure format, preserve this
 substance while adapting the wording.
 
+Multi-model stress testing is a distinct diagnostic layer. Accepted
+annotations, prior human review and adjudication artifacts, AI-model
+comparisons, and any separately designed human inter-annotator reliability
+study must be reported independently. Agreement among AI models does not prove
+that an annotation is correct, establish human reliability, or demonstrate
+scholarly reproducibility.
+
 ## Data Availability Policy
 
 Data availability depends on rights status and scholarly risk:
@@ -344,6 +352,8 @@ Data availability depends on rights status and scholarly risk:
 | Source registry and document manifest metadata | Publish when it does not reproduce restricted text and does preserve provenance |
 | Normalized and segmented corpus derivatives | Publish only when underlying rights status permits |
 | MIPVU worklists and annotations | Publish when they do not reproduce restricted text beyond permitted short spans or metadata |
+| Multi-model packets and raw responses | Apply the underlying source's rights and storage policy; restricted or local-only spans remain local or withheld |
+| Multi-model aggregate diagnostics | Publish when they use rights-safe identifiers, measures, provenance metadata, and short compliant spans |
 | Analysis, support scores, validation outputs, and public prose | Publish with citations, evidence boundaries, and limitations |
 | AI prompts and workflow notes | Publish when they do not contain restricted source text or unsupported claims |
 
