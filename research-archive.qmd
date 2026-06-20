@@ -37,6 +37,7 @@ available for readers who want to inspect how the argument was built.
 ## Research infrastructure
 
 - [Human Reliability and Adjudication Architecture](docs/reliability/human-reliability-architecture.md)
+- [Human Coder Training Guide](docs/reliability/human-coder-training-guide.md)
 - [Multi-Model Reliability Architecture](docs/reliability/multi-model-architecture.md)
 - [Multi-Model Reliability Results](model-reliability-results.qmd)
 - [Multi-Model Reliability Completion Checklist](docs/reliability/model-reliability-completion-checklist.md)
