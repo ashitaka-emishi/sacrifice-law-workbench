@@ -41,6 +41,13 @@ def write_json(path: Path, data: Any) -> None:
         handle.write("\n")
 
 
+def repo_relative_path(path: Path) -> str:
+    """Return a portable repository-relative path when path is within ROOT."""
+    resolved = path.resolve()
+    root = ROOT.resolve()
+    return resolved.relative_to(root).as_posix() if resolved.is_relative_to(root) else str(path)
+
+
 def case_ids(selected: str | None = None) -> list[str]:
     if selected:
         return [selected]

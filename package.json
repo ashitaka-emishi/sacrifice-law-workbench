@@ -7,6 +7,7 @@
     "mipvu": "python3 scripts/generate-mipvu-worklist.py",
     "mipvu:packets": "python3 scripts/generate-mipvu-review-packets.py",
     "mipvu:reliability": "python3 scripts/calculate-mipvu-reliability.py",
+    "corpus:reference-index": "python3 scripts/generate-local-corpus-reference-index.py",
     "test:model-reliability": "python3 -m unittest discover -s test -p 'test_model_reliability*.py' -v",
     "model-reliability": "python3 scripts/model_reliability/pipeline.py",
     "model-reliability:packets": "python3 scripts/model_reliability/pipeline.py packets",

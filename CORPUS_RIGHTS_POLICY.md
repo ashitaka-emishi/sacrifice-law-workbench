@@ -17,6 +17,14 @@ When rights permit, raw corpus texts should be stored directly in the Git reposi
 
 When licensing, archive terms, translation status, or rights uncertainty prevent committing raw texts, those files should be stored locally in expected project paths but excluded from Git via `.gitignore`.
 
+Committed annotations may reference local-only derived artifacts only through a
+reviewed public-safe index or an explicitly declared external-artifact
+contract. See
+[`docs/corpus/local-only-reference-validation.md`](docs/corpus/local-only-reference-validation.md).
+Such an index may expose stable identifiers, relationships, controlled
+decision values, and integrity hashes, but not source text or token-level text
+unless a separate rights review authorizes publication.
+
 The source registry must preserve:
 
 - source URL;

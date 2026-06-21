@@ -12,57 +12,57 @@
       "document_id": "hitler-mein-kampf-vol1-ch2-wien",
       "status": "written",
       "sentence_count": 734,
-      "input_path": "/Users/andrewhammer/codegarden/koenigsberg-sacrifice-workbench/cases/hitler/corpus/text/hitler-mein-kampf-vol1-ch2-wien.md",
-      "output_path": "/Users/andrewhammer/codegarden/koenigsberg-sacrifice-workbench/cases/hitler/corpus/segmented/hitler-mein-kampf-vol1-ch2-wien.json"
+      "input_path": "cases/hitler/corpus/text/hitler-mein-kampf-vol1-ch2-wien.md",
+      "output_path": "cases/hitler/corpus/segmented/hitler-mein-kampf-vol1-ch2-wien.json"
     },
     {
       "document_id": "hitler-mein-kampf-vol1-ch11-race-and-people",
       "status": "written",
       "sentence_count": 687,
-      "input_path": "/Users/andrewhammer/codegarden/koenigsberg-sacrifice-workbench/cases/hitler/corpus/text/hitler-mein-kampf-vol1-ch11-race-and-people.md",
-      "output_path": "/Users/andrewhammer/codegarden/koenigsberg-sacrifice-workbench/cases/hitler/corpus/segmented/hitler-mein-kampf-vol1-ch11-race-and-people.json"
+      "input_path": "cases/hitler/corpus/text/hitler-mein-kampf-vol1-ch11-race-and-people.md",
+      "output_path": "cases/hitler/corpus/segmented/hitler-mein-kampf-vol1-ch11-race-and-people.json"
     },
     {
       "document_id": "hitler-mein-kampf-vol1-ch12-nsdap",
       "status": "written",
       "sentence_count": 607,
-      "input_path": "/Users/andrewhammer/codegarden/koenigsberg-sacrifice-workbench/cases/hitler/corpus/text/hitler-mein-kampf-vol1-ch12-nsdap.md",
-      "output_path": "/Users/andrewhammer/codegarden/koenigsberg-sacrifice-workbench/cases/hitler/corpus/segmented/hitler-mein-kampf-vol1-ch12-nsdap.json"
+      "input_path": "cases/hitler/corpus/text/hitler-mein-kampf-vol1-ch12-nsdap.md",
+      "output_path": "cases/hitler/corpus/segmented/hitler-mein-kampf-vol1-ch12-nsdap.json"
     },
     {
       "document_id": "hitler-mein-kampf-vol2-ch1-weltanschauung",
       "status": "written",
       "sentence_count": 159,
-      "input_path": "/Users/andrewhammer/codegarden/koenigsberg-sacrifice-workbench/cases/hitler/corpus/text/hitler-mein-kampf-vol2-ch1-weltanschauung.md",
-      "output_path": "/Users/andrewhammer/codegarden/koenigsberg-sacrifice-workbench/cases/hitler/corpus/segmented/hitler-mein-kampf-vol2-ch1-weltanschauung.json"
+      "input_path": "cases/hitler/corpus/text/hitler-mein-kampf-vol2-ch1-weltanschauung.md",
+      "output_path": "cases/hitler/corpus/segmented/hitler-mein-kampf-vol2-ch1-weltanschauung.json"
     },
     {
       "document_id": "hitler-mein-kampf-vol2-ch2-the-state",
       "status": "written",
       "sentence_count": 797,
-      "input_path": "/Users/andrewhammer/codegarden/koenigsberg-sacrifice-workbench/cases/hitler/corpus/text/hitler-mein-kampf-vol2-ch2-the-state.md",
-      "output_path": "/Users/andrewhammer/codegarden/koenigsberg-sacrifice-workbench/cases/hitler/corpus/segmented/hitler-mein-kampf-vol2-ch2-the-state.json"
+      "input_path": "cases/hitler/corpus/text/hitler-mein-kampf-vol2-ch2-the-state.md",
+      "output_path": "cases/hitler/corpus/segmented/hitler-mein-kampf-vol2-ch2-the-state.json"
     },
     {
       "document_id": "hitler-mein-kampf-vol2-ch14-eastern-europe",
       "status": "written",
       "sentence_count": 422,
-      "input_path": "/Users/andrewhammer/codegarden/koenigsberg-sacrifice-workbench/cases/hitler/corpus/text/hitler-mein-kampf-vol2-ch14-eastern-europe.md",
-      "output_path": "/Users/andrewhammer/codegarden/koenigsberg-sacrifice-workbench/cases/hitler/corpus/segmented/hitler-mein-kampf-vol2-ch14-eastern-europe.json"
+      "input_path": "cases/hitler/corpus/text/hitler-mein-kampf-vol2-ch14-eastern-europe.md",
+      "output_path": "cases/hitler/corpus/segmented/hitler-mein-kampf-vol2-ch14-eastern-europe.json"
     },
     {
       "document_id": "hitler-reichstag-1939-01-30",
       "status": "written",
       "sentence_count": 266,
-      "input_path": "/Users/andrewhammer/codegarden/koenigsberg-sacrifice-workbench/cases/hitler/corpus/text/hitler-reichstag-1939-01-30.md",
-      "output_path": "/Users/andrewhammer/codegarden/koenigsberg-sacrifice-workbench/cases/hitler/corpus/segmented/hitler-reichstag-1939-01-30.json"
+      "input_path": "cases/hitler/corpus/text/hitler-reichstag-1939-01-30.md",
+      "output_path": "cases/hitler/corpus/segmented/hitler-reichstag-1939-01-30.json"
     },
     {
       "document_id": "hitler-ussr-proclamation-1941-06-22",
       "status": "written",
       "sentence_count": 154,
-      "input_path": "/Users/andrewhammer/codegarden/koenigsberg-sacrifice-workbench/cases/hitler/corpus/text/hitler-ussr-proclamation-1941-06-22.md",
-      "output_path": "/Users/andrewhammer/codegarden/koenigsberg-sacrifice-workbench/cases/hitler/corpus/segmented/hitler-ussr-proclamation-1941-06-22.json"
+      "input_path": "cases/hitler/corpus/text/hitler-ussr-proclamation-1941-06-22.md",
+      "output_path": "cases/hitler/corpus/segmented/hitler-ussr-proclamation-1941-06-22.json"
     }
   ]
 }
