@@ -1,7 +1,8 @@
 # Human Inter-Annotator Reliability and Adjudication Architecture
 
-Status: architecture defined; training, sampling, packets, coder submissions,
-agreement analysis, and adjudication not yet executed.
+Status: architecture, training, calibration, sampling, packet generation, and
+submission contracts are defined; ingestion, agreement analysis, and
+adjudication are not yet executed.
 
 This document defines the repository and authority contract for blind human
 double-coding and later adjudication. The study asks how consistently qualified
@@ -366,6 +367,10 @@ Submissions record a pseudonymous coder ID, role, qualification/training
 attestations, conflict declaration, source language, cohort, packet hash,
 completion timestamp, and item-level decisions. Reports should not expose
 unnecessary personal information.
+
+The canonical JSON shape, equivalent CSV transport, packet-hash handoff, and
+contextual validation rules are defined in the
+[human coder submission contract](human-coder-submission-contract.md).
 
 ### 6. Ingestion and normalization
 

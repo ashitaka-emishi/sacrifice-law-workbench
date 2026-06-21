@@ -61,10 +61,19 @@ ANSWER_TEMPLATE_KEYS = frozenset(
     }
 )
 
-COMMON_COLUMNS = [
-    "packet_id", "item_id", "document_id", "sentence_id", "source_span_id",
+SUBMISSION_COLUMNS = [
+    "schema_version", "submission_id", "cohort_id", "cohort_version",
+    "case_id", "sample_id", "sample_version", "packet_id", "packet_hash",
+    "source_language", "task_layer", "codebook_version", "coder_id",
+    "coder_role", "qualification_attested", "source_language_qualified",
+    "training_version", "training_completed_at", "calibration_id",
+    "calibration_completed_at", "conflict_status", "conflict_details",
+    "independence_attested", "ai_assistance_used", "completed_at",
+]
+COMMON_COLUMNS = SUBMISSION_COLUMNS + [
+    "item_id", "document_id", "sentence_id", "source_span_id",
     "disposition", "confidence", "uncertainty", "uncertainty_note",
-    "out_of_scope_reason", "notes",
+    "out_of_scope_reason", "notes", "case_fields",
 ]
 LAYER_COLUMNS = {
     "identification": [
@@ -73,11 +82,11 @@ LAYER_COLUMNS = {
         "contrast_explanation", "comparison_basis",
     ],
     "cmt": [
-        "source_domain_primary", "source_domain_secondary", "target_domain",
+        "lexical_unit_ids", "source_domain_primary", "source_domain_secondary", "target_domain",
         "conceptual_mapping", "entailments", "cluster_id", "rival_reading",
     ],
     "interpretation": [
-        "sacred_object", "sacrificial_body", "enemy_as_bringer_of_death",
+        "lexical_unit_ids", "sacred_object", "sacrificial_body", "enemy_as_bringer_of_death",
         "violence_logic", "obligatory_frame", "purification", "agents",
         "patients", "beneficiaries", "excluded_agents", "absence_decision",
         "absence_scope", "presence_criterion", "rival_reading",
@@ -306,6 +315,33 @@ def generate_packets(
                     annotation_lookup[str(annotation["instance_id"])] = annotation
 
     packet_id = f"{sample_id}-{sample_version}-{layer}"
+    template_metadata = {
+        "schema_version": "1.0.0",
+        "submission_id": "",
+        "cohort_id": "",
+        "cohort_version": "",
+        "case_id": case_id,
+        "sample_id": sample_id,
+        "sample_version": sample_version,
+        "packet_id": packet_id,
+        "packet_hash": "",
+        "source_language": source_language,
+        "task_layer": layer,
+        "codebook_version": str(frame.get("codebook_version") or ""),
+        "coder_id": "",
+        "coder_role": "primary",
+        "qualification_attested": "",
+        "source_language_qualified": "",
+        "training_version": "",
+        "training_completed_at": "",
+        "calibration_id": "",
+        "calibration_completed_at": "",
+        "conflict_status": "",
+        "conflict_details": "",
+        "independence_attested": "",
+        "ai_assistance_used": "",
+        "completed_at": "",
+    }
     packet_items: list[dict[str, Any]] = []
     response_rows: list[dict[str, Any]] = []
     response_json_items: list[dict[str, Any]] = []
@@ -383,6 +419,7 @@ def generate_packets(
             raise PacketGenerationError(f"item `{item_id}` lacks source text or context scope")
         packet_items.append(packet_item)
         common = {
+            **template_metadata,
             "packet_id": packet_id,
             "item_id": item_id,
             "document_id": document_id,
@@ -393,19 +430,49 @@ def generate_packets(
             for unit in focal_units:
                 response_rows.append({**common, "lexical_unit_id": unit["mipvu_id"]})
         else:
-            response_rows.append(common)
-        response_json_items.append({
+            response_rows.append({
+                **common,
+                "lexical_unit_ids": json.dumps(
+                    [str(unit["mipvu_id"]) for unit in focal_units],
+                    ensure_ascii=False,
+                    separators=(",", ":"),
+                ),
+            })
+        response_item = {
             **common,
+            "task_layer": layer,
             "source_span_id": source_span_id,
             "lexical_unit_ids": [str(unit["mipvu_id"]) for unit in focal_units],
-            "response": {column: None for column in LAYER_COLUMNS[layer]},
             "disposition": None,
             "confidence": None,
             "uncertainty": None,
             "uncertainty_note": None,
             "out_of_scope_reason": None,
             "notes": None,
-        })
+            "case_fields": {},
+        }
+        for metadata_key in SUBMISSION_COLUMNS:
+            response_item.pop(metadata_key, None)
+        response_item["task_layer"] = layer
+        if layer == "identification":
+            response_item["lexical_unit_responses"] = [
+                {
+                    "lexical_unit_id": str(unit["mipvu_id"]),
+                    **{
+                        column: None
+                        for column in LAYER_COLUMNS[layer]
+                        if column != "lexical_unit_id"
+                    },
+                }
+                for unit in focal_units
+            ]
+        else:
+            response_item[f"{layer}_response"] = {
+                column: None
+                for column in LAYER_COLUMNS[layer]
+                if column != "lexical_unit_ids"
+            }
+        response_json_items.append(response_item)
 
     seed = str(sample.get("selection", {}).get("seed") or "")
     if not seed:
@@ -421,16 +488,11 @@ def generate_packets(
     csv_columns = COMMON_COLUMNS + LAYER_COLUMNS[layer]
     response_csv_bytes = csv_bytes(response_rows, csv_columns)
     response_template = {
-        "schema_version": "1.0.0",
-        "packet_id": packet_id,
+        **{
+            key: (value if value != "" else None)
+            for key, value in template_metadata.items()
+        },
         "packet_hash": None,
-        "case_id": case_id,
-        "sample_id": sample_id,
-        "sample_version": sample_version,
-        "source_language": source_language,
-        "task_layer": layer,
-        "coder_id": None,
-        "coder_role": "primary",
         "responses": response_json_items,
     }
 
@@ -442,6 +504,8 @@ def generate_packets(
         root / "schemas" / "human-reliability" / "sample-manifest-schema.json",
         root / "schemas" / "human-reliability" / "packet-item-schema.json",
         root / "schemas" / "human-reliability" / "packet-manifest-schema.json",
+        root / "schemas" / "human-reliability" / "submission-schema.json",
+        root / "schemas" / "human-reliability" / "submission-csv-contract.json",
         root / "docs" / "reliability" / "human-coder-training-guide.md",
         root / "docs" / "reliability" / "human-reliability-packets.md",
     }

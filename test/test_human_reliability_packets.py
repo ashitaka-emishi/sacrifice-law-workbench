@@ -147,11 +147,26 @@ class HumanReliabilityPacketTest(unittest.TestCase):
             self.assertEqual(2, len(rows))
             self.assertEqual("", rows[0]["decision_type"])
             self.assertEqual("", rows[0]["confidence"])
+            self.assertEqual("demo", rows[0]["case_id"])
+            self.assertEqual("primary", rows[0]["coder_role"])
+            self.assertEqual("", rows[0]["packet_hash"])
             json_template = json.loads(
                 (output / "identification-response-template.json").read_text(encoding="utf-8")
             )
+            submission_schema = json.loads(
+                (SOURCE_ROOT / "schemas" / "human-reliability" / "submission-schema.json")
+                .read_text(encoding="utf-8")
+            )
+            self.assertTrue(set(submission_schema["required"]).issubset(json_template))
+            self.assertTrue(
+                set(submission_schema["$defs"]["responseItem"]["required"])
+                .issubset(json_template["responses"][0])
+            )
             self.assertIsNone(json_template["packet_hash"])
-            self.assertIsNone(json_template["responses"][0]["response"]["decision_type"])
+            self.assertEqual(2, len(json_template["responses"][0]["lexical_unit_responses"]))
+            self.assertIsNone(
+                json_template["responses"][0]["lexical_unit_responses"][0]["decision_type"]
+            )
 
     def test_generates_field_packet_from_annotation_and_negative_span(self) -> None:
         for layer, span_id, expected_unit in (
