@@ -1,0 +1,37 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://sacrifice-law-workbench.local/schemas/human-reliability/submission-register-schema.json",
+  "title": "Human coder submission register",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "case_id", "submissions"],
+  "properties": {
+    "schema_version": { "const": "1.0.0" },
+    "case_id": { "type": "string", "minLength": 1 },
+    "submissions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "registration_id", "registered_at", "cohort_id", "cohort_version",
+          "submission_id", "coder_id", "packet_id", "source_format",
+          "raw_hash", "status", "validation_report"
+        ],
+        "properties": {
+          "registration_id": { "type": "string", "minLength": 1 },
+          "registered_at": { "type": "string", "format": "date-time" },
+          "cohort_id": { "type": ["string", "null"] },
+          "cohort_version": { "type": ["string", "null"] },
+          "submission_id": { "type": ["string", "null"] },
+          "coder_id": { "type": ["string", "null"] },
+          "packet_id": { "type": ["string", "null"] },
+          "source_format": { "enum": ["json", "csv"] },
+          "raw_hash": { "type": "string", "pattern": "^sha256:[0-9a-f]{64}$" },
+          "status": { "enum": ["valid", "invalid"] },
+          "validation_report": { "type": "string", "minLength": 1 }
+        }
+      }
+    }
+  }
+}

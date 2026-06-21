@@ -1,0 +1,65 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://sacrifice-law-workbench.local/schemas/human-reliability/cohort-manifest-schema.json",
+  "title": "Approved human reliability cohort manifest",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version", "status", "cohort_id", "cohort_version", "case_id",
+    "sample_id", "sample_version", "packet_id", "packet_manifest",
+    "source_language", "task_layer", "codebook_version", "training_version",
+    "calibration_id", "required_primary_coders", "primary_coder_ids",
+    "ai_assistance_allowed", "storage_policy", "rights_constraints", "approval"
+  ],
+  "properties": {
+    "schema_version": { "const": "1.0.0" },
+    "status": { "const": "approved" },
+    "cohort_id": { "$ref": "#/$defs/nonEmptyString" },
+    "cohort_version": { "$ref": "#/$defs/nonEmptyString" },
+    "case_id": { "$ref": "#/$defs/nonEmptyString" },
+    "sample_id": { "$ref": "#/$defs/nonEmptyString" },
+    "sample_version": { "$ref": "#/$defs/nonEmptyString" },
+    "packet_id": { "$ref": "#/$defs/nonEmptyString" },
+    "packet_manifest": {
+      "type": "string",
+      "pattern": "^quality/human-reliability/packets/[A-Za-z0-9._/-]+/packet-manifest\\.json$"
+    },
+    "source_language": {
+      "type": "string",
+      "pattern": "^[A-Za-z]{2,3}(?:-[A-Za-z0-9]{2,8})*$"
+    },
+    "task_layer": { "enum": ["identification", "cmt", "interpretation"] },
+    "codebook_version": { "$ref": "#/$defs/nonEmptyString" },
+    "training_version": { "$ref": "#/$defs/nonEmptyString" },
+    "calibration_id": { "$ref": "#/$defs/nonEmptyString" },
+    "required_primary_coders": { "type": "integer", "minimum": 2 },
+    "primary_coder_ids": {
+      "type": "array",
+      "minItems": 2,
+      "uniqueItems": true,
+      "items": { "$ref": "#/$defs/nonEmptyString" }
+    },
+    "ai_assistance_allowed": { "type": "boolean" },
+    "storage_policy": { "enum": ["repository_allowed", "local_only"] },
+    "rights_constraints": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": { "$ref": "#/$defs/nonEmptyString" }
+    },
+    "approval": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["approved_by", "approved_at", "manifest_sha256"],
+      "properties": {
+        "approved_by": { "$ref": "#/$defs/nonEmptyString" },
+        "approved_at": { "type": "string", "format": "date-time" },
+        "manifest_sha256": { "$ref": "#/$defs/sha256" }
+      }
+    }
+  },
+  "$defs": {
+    "nonEmptyString": { "type": "string", "minLength": 1 },
+    "sha256": { "type": "string", "pattern": "^sha256:[0-9a-f]{64}$" }
+  }
+}

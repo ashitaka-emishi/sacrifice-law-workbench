@@ -1,0 +1,40 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://sacrifice-law-workbench.local/schemas/human-reliability/ingestion-status-schema.json",
+  "title": "Human reliability ingestion status",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "case_id", "cohorts"],
+  "properties": {
+    "schema_version": { "const": "1.0.0" },
+    "case_id": { "type": "string", "minLength": 1 },
+    "cohorts": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "cohort_id", "cohort_version", "state", "required_primary_coders",
+          "valid_primary_coders", "valid_submission_count",
+          "invalid_submission_count", "registration_ids"
+        ],
+        "properties": {
+          "cohort_id": { "type": "string", "minLength": 1 },
+          "cohort_version": { "type": "string", "minLength": 1 },
+          "state": { "enum": ["absent", "partial", "invalid", "complete"] },
+          "required_primary_coders": { "type": "integer", "minimum": 2 },
+          "valid_primary_coders": {
+            "type": "array", "uniqueItems": true,
+            "items": { "type": "string", "minLength": 1 }
+          },
+          "valid_submission_count": { "type": "integer", "minimum": 0 },
+          "invalid_submission_count": { "type": "integer", "minimum": 0 },
+          "registration_ids": {
+            "type": "array", "uniqueItems": true,
+            "items": { "type": "string", "minLength": 1 }
+          }
+        }
+      }
+    }
+  }
+}
