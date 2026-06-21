@@ -1,8 +1,8 @@
 # Human Inter-Annotator Reliability and Adjudication Architecture
 
-Status: architecture, training, calibration, sampling, packet generation, and
-submission contracts are defined; ingestion, agreement analysis, and
-adjudication are not yet executed.
+Status: architecture, training, calibration, sampling, packet generation,
+submission contracts, and ingestion tooling are defined; real coder execution,
+agreement analysis, and adjudication are not yet executed.
 
 This document defines the repository and authority contract for blind human
 double-coding and later adjudication. The study asks how consistently qualified
@@ -379,6 +379,10 @@ unknown vocabulary, records every parseable row and validation decision, and
 writes a separate normalized view. Invalid submissions remain auditable but do
 not enter reliability metrics. Two valid independent primary coder runs are
 required for a reportable cohort.
+
+The operational command, cohort authority, rights checks, immutable raw store,
+and ingestion-only lifecycle states are documented in
+[human coder submission ingestion](human-submission-ingestion.md).
 
 ### 7. Human-human agreement
 

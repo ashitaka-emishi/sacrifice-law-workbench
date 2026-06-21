@@ -1,0 +1,32 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://sacrifice-law-workbench.local/schemas/human-reliability/normalized-coder-runs-schema.json",
+  "title": "Validated normalized human coder runs",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "case_id", "runs"],
+  "properties": {
+    "schema_version": { "const": "1.0.0" },
+    "case_id": { "type": "string", "minLength": 1 },
+    "runs": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "registration_id", "registered_at", "raw_hash", "cohort_id",
+          "cohort_version", "coder_id", "submission"
+        ],
+        "properties": {
+          "registration_id": { "type": "string", "minLength": 1 },
+          "registered_at": { "type": "string", "format": "date-time" },
+          "raw_hash": { "type": "string", "pattern": "^sha256:[0-9a-f]{64}$" },
+          "cohort_id": { "type": "string", "minLength": 1 },
+          "cohort_version": { "type": "string", "minLength": 1 },
+          "coder_id": { "type": "string", "minLength": 1 },
+          "submission": { "type": "object" }
+        }
+      }
+    }
+  }
+}

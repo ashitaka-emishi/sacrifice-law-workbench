@@ -76,6 +76,7 @@ checks the submission against the approved cohort and packet:
   and
 - the case namespace for extension fields.
 
-Issue #81 will use this contract to parse JSON and CSV, preserve original
-bytes, register every attempt, and write a separate normalized view. Invalid
-submissions remain auditable and never enter agreement metrics.
+The [human submission ingestion workflow](human-submission-ingestion.md) uses
+this contract to parse JSON and CSV, preserve original bytes, register every
+attempt, and write a separate normalized view. Invalid submissions remain
+auditable and never enter agreement metrics.
