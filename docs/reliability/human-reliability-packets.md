@@ -47,9 +47,11 @@ roles. JSONL uses canonical UTF-8 serialization, CSV uses a fixed column order
 and LF endings, and no timestamp participates in identity. Re-running with
 unchanged inputs and code revision produces byte-identical outputs.
 
-The response template's `packet_hash` remains `null`; issue #80 defines the
-submission contract and how a coder binds a completed response to the packet
-manifest without introducing a circular payload hash.
+The response template's `packet_hash` remains `null`. The
+[human coder submission contract](human-coder-submission-contract.md) requires
+the completed response to copy the final packet manifest hash. The blank
+template remains a manifest-hashed payload, while ingestion gives the completed
+submission its own raw hash, avoiding a circular payload hash.
 
 ## Blindness allowlist
 

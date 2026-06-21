@@ -1,0 +1,57 @@
+{
+  "schema_version": "1.0.0",
+  "description": "Single-file CSV transport contract that normalizes to submission-schema.json. Submission metadata repeats identically on every row.",
+  "metadata_columns": [
+    "schema_version", "submission_id", "cohort_id", "cohort_version",
+    "case_id", "sample_id", "sample_version", "packet_id", "packet_hash",
+    "source_language", "task_layer", "codebook_version", "coder_id",
+    "coder_role", "qualification_attested", "source_language_qualified",
+    "training_version", "training_completed_at", "calibration_id",
+    "calibration_completed_at", "conflict_status", "conflict_details",
+    "independence_attested", "ai_assistance_used", "completed_at"
+  ],
+  "common_response_columns": [
+    "item_id", "document_id", "sentence_id", "source_span_id",
+    "disposition", "confidence", "uncertainty", "uncertainty_note",
+    "out_of_scope_reason", "notes", "case_fields"
+  ],
+  "layer_columns": {
+    "identification": [
+      "lexical_unit_id", "boundary_response", "decision_type",
+      "contextual_meaning", "basic_meaning", "basic_meaning_source",
+      "contrast_explanation", "comparison_basis"
+    ],
+    "cmt": [
+      "lexical_unit_ids", "source_domain_primary", "source_domain_secondary",
+      "target_domain", "conceptual_mapping", "entailments", "cluster_id",
+      "rival_reading"
+    ],
+    "interpretation": [
+      "lexical_unit_ids", "sacred_object", "sacrificial_body",
+      "enemy_as_bringer_of_death", "violence_logic", "obligatory_frame",
+      "purification", "agents", "patients", "beneficiaries",
+      "excluded_agents", "absence_decision", "absence_scope",
+      "presence_criterion", "rival_reading"
+    ]
+  },
+  "encoding": {
+    "charset": "UTF-8",
+    "delimiter": ",",
+    "line_ending": "LF",
+    "null": "",
+    "boolean_values": ["true", "false"],
+    "json_columns": [
+      "case_fields", "lexical_unit_ids", "source_domain_secondary",
+      "entailments", "agents", "patients", "beneficiaries", "excluded_agents"
+    ]
+  },
+  "normalization_rules": [
+    "Every metadata column has the same nonblank value on every row, except conflict_details which is blank when conflict_status is none_declared.",
+    "Identification has one row per lexical unit; rows for one item normalize into one response with lexical_unit_responses.",
+    "CMT and interpretation have one row per packet item and encode lexical_unit_ids as a JSON array.",
+    "JSON columns contain compact valid JSON, never delimiter-joined pseudo-lists.",
+    "An out_of_scope row has an allowed out_of_scope_reason, blank confidence, and no substantive layer response.",
+    "Source-language values and English glosses are never combined in a response field.",
+    "All normalized values must satisfy submission-schema.json and contextual packet validation."
+  ]
+}

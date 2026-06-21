@@ -1,0 +1,266 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://sacrifice-law-workbench.local/schemas/human-reliability/submission-schema.json",
+  "title": "Human coder submission",
+  "description": "Canonical JSON contract for one completed blind primary-coder submission. CSV submissions normalize to this shape.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version", "submission_id", "cohort_id", "cohort_version",
+    "case_id", "sample_id", "sample_version", "packet_id", "packet_hash",
+    "source_language", "task_layer", "codebook_version", "coder_id",
+    "coder_role", "qualification_attested", "source_language_qualified",
+    "training_version", "training_completed_at", "calibration_id",
+    "calibration_completed_at", "conflict_status", "conflict_details",
+    "independence_attested", "ai_assistance_used", "completed_at", "responses"
+  ],
+  "properties": {
+    "schema_version": { "const": "1.0.0" },
+    "submission_id": { "$ref": "#/$defs/nonEmptyString" },
+    "cohort_id": { "$ref": "#/$defs/nonEmptyString" },
+    "cohort_version": { "$ref": "#/$defs/nonEmptyString" },
+    "case_id": { "$ref": "#/$defs/nonEmptyString" },
+    "sample_id": { "$ref": "#/$defs/nonEmptyString" },
+    "sample_version": { "$ref": "#/$defs/nonEmptyString" },
+    "packet_id": { "$ref": "#/$defs/nonEmptyString" },
+    "packet_hash": { "$ref": "#/$defs/sha256" },
+    "source_language": { "$ref": "#/$defs/languageTag" },
+    "task_layer": { "enum": ["identification", "cmt", "interpretation"] },
+    "codebook_version": { "$ref": "#/$defs/nonEmptyString" },
+    "coder_id": { "$ref": "#/$defs/nonEmptyString" },
+    "coder_role": { "const": "primary" },
+    "qualification_attested": { "const": true },
+    "source_language_qualified": { "const": true },
+    "training_version": { "$ref": "#/$defs/nonEmptyString" },
+    "training_completed_at": { "type": "string", "format": "date-time" },
+    "calibration_id": { "$ref": "#/$defs/nonEmptyString" },
+    "calibration_completed_at": { "type": "string", "format": "date-time" },
+    "conflict_status": { "enum": ["none_declared", "disclosed"] },
+    "conflict_details": { "type": ["string", "null"] },
+    "independence_attested": { "const": true },
+    "ai_assistance_used": { "type": "boolean" },
+    "completed_at": { "type": "string", "format": "date-time" },
+    "responses": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "#/$defs/responseItem" }
+    }
+  },
+  "allOf": [
+    {
+      "if": { "properties": { "conflict_status": { "const": "none_declared" } } },
+      "then": { "properties": { "conflict_details": { "type": "null" } } },
+      "else": { "properties": { "conflict_details": { "$ref": "#/$defs/nonEmptyString" } } }
+    }
+  ],
+  "$defs": {
+    "nonEmptyString": { "type": "string", "minLength": 1 },
+    "nullableString": { "type": ["string", "null"] },
+    "languageTag": {
+      "type": "string",
+      "pattern": "^[A-Za-z]{2,3}(?:-[A-Za-z0-9]{2,8})*$"
+    },
+    "sha256": {
+      "type": "string",
+      "pattern": "^sha256:[0-9a-f]{64}$"
+    },
+    "stringArray": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/nonEmptyString" },
+      "uniqueItems": true
+    },
+    "caseFieldValue": {
+      "oneOf": [
+        { "type": ["string", "number", "integer", "boolean", "null"] },
+        {
+          "type": "array",
+          "items": { "type": ["string", "number", "integer", "boolean", "null"] }
+        }
+      ]
+    },
+    "identificationResponse": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "lexical_unit_id", "boundary_response", "decision_type",
+        "contextual_meaning", "basic_meaning", "basic_meaning_source",
+        "contrast_explanation", "comparison_basis"
+      ],
+      "properties": {
+        "lexical_unit_id": { "$ref": "#/$defs/nonEmptyString" },
+        "boundary_response": {
+          "enum": ["exact", "expand", "contract", "split", "merge", "no_valid_span", "uncertain"]
+        },
+        "decision_type": {
+          "enum": [
+            "non_metaphor", "mipvu_indirect", "mipvu_direct", "mipvu_implicit",
+            "mipvu_personification", "uncertain", "excluded_nonlexical"
+          ]
+        },
+        "contextual_meaning": { "$ref": "#/$defs/nonEmptyString" },
+        "basic_meaning": { "$ref": "#/$defs/nonEmptyString" },
+        "basic_meaning_source": { "$ref": "#/$defs/nonEmptyString" },
+        "contrast_explanation": { "$ref": "#/$defs/nonEmptyString" },
+        "comparison_basis": { "$ref": "#/$defs/nonEmptyString" }
+      }
+    },
+    "cmtResponse": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "source_domain_primary", "source_domain_secondary", "target_domain",
+        "conceptual_mapping", "entailments", "cluster_id", "rival_reading"
+      ],
+      "properties": {
+        "source_domain_primary": { "$ref": "#/$defs/nonEmptyString" },
+        "source_domain_secondary": { "$ref": "#/$defs/stringArray" },
+        "target_domain": { "$ref": "#/$defs/nonEmptyString" },
+        "conceptual_mapping": { "$ref": "#/$defs/nonEmptyString" },
+        "entailments": { "$ref": "#/$defs/stringArray" },
+        "cluster_id": { "$ref": "#/$defs/nullableString" },
+        "rival_reading": { "$ref": "#/$defs/nonEmptyString" }
+      }
+    },
+    "fieldJudgment": {
+      "enum": ["present", "absent", "uncertain", "not_applicable"]
+    },
+    "interpretationResponse": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "sacred_object", "sacrificial_body", "enemy_as_bringer_of_death",
+        "violence_logic", "obligatory_frame", "purification", "agents",
+        "patients", "beneficiaries", "excluded_agents", "absence_decision",
+        "absence_scope", "presence_criterion", "rival_reading"
+      ],
+      "properties": {
+        "sacred_object": { "$ref": "#/$defs/fieldJudgment" },
+        "sacrificial_body": { "$ref": "#/$defs/fieldJudgment" },
+        "enemy_as_bringer_of_death": { "$ref": "#/$defs/fieldJudgment" },
+        "violence_logic": { "$ref": "#/$defs/fieldJudgment" },
+        "obligatory_frame": { "$ref": "#/$defs/fieldJudgment" },
+        "purification": { "$ref": "#/$defs/fieldJudgment" },
+        "agents": { "$ref": "#/$defs/stringArray" },
+        "patients": { "$ref": "#/$defs/stringArray" },
+        "beneficiaries": { "$ref": "#/$defs/stringArray" },
+        "excluded_agents": { "$ref": "#/$defs/stringArray" },
+        "absence_decision": { "$ref": "#/$defs/fieldJudgment" },
+        "absence_scope": { "$ref": "#/$defs/nonEmptyString" },
+        "presence_criterion": { "$ref": "#/$defs/nonEmptyString" },
+        "rival_reading": { "$ref": "#/$defs/nonEmptyString" }
+      }
+    },
+    "responseItem": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "item_id", "task_layer", "document_id", "sentence_id", "source_span_id",
+        "lexical_unit_ids", "disposition", "confidence", "uncertainty",
+        "uncertainty_note", "out_of_scope_reason", "notes", "case_fields"
+      ],
+      "properties": {
+        "item_id": { "$ref": "#/$defs/nonEmptyString" },
+        "task_layer": { "enum": ["identification", "cmt", "interpretation"] },
+        "document_id": { "$ref": "#/$defs/nonEmptyString" },
+        "sentence_id": { "$ref": "#/$defs/nonEmptyString" },
+        "source_span_id": { "type": ["string", "null"] },
+        "lexical_unit_ids": {
+          "type": "array", "minItems": 1, "uniqueItems": true,
+          "items": { "$ref": "#/$defs/nonEmptyString" }
+        },
+        "disposition": { "enum": ["coded", "out_of_scope"] },
+        "confidence": { "type": ["number", "null"], "minimum": 0, "maximum": 1 },
+        "uncertainty": { "enum": ["none", "low", "material", "unresolved"] },
+        "uncertainty_note": { "type": "string" },
+        "out_of_scope_reason": {
+          "type": ["string", "null"],
+          "enum": [
+            null, "language_competence", "rights_or_access", "corrupted_source",
+            "missing_context", "invalid_identifier", "task_or_codebook_mismatch",
+            "packet_defect", "conflict_or_contamination"
+          ]
+        },
+        "notes": { "type": "string" },
+        "case_fields": {
+          "type": "object",
+          "description": "Namespaced case extensions. Each key must begin with the submission case_id followed by two underscores.",
+          "propertyNames": { "pattern": "^[a-z0-9-]+__[a-z][a-z0-9_]*$" },
+          "additionalProperties": { "$ref": "#/$defs/caseFieldValue" }
+        },
+        "lexical_unit_responses": {
+          "type": "array", "minItems": 1,
+          "items": { "$ref": "#/$defs/identificationResponse" }
+        },
+        "cmt_response": { "$ref": "#/$defs/cmtResponse" },
+        "interpretation_response": { "$ref": "#/$defs/interpretationResponse" }
+      },
+      "allOf": [
+        {
+          "if": { "properties": { "disposition": { "const": "coded" } } },
+          "then": {
+            "properties": {
+              "confidence": { "type": "number", "minimum": 0, "maximum": 1 },
+              "out_of_scope_reason": { "type": "null" }
+            }
+          },
+          "else": {
+            "properties": {
+              "confidence": { "type": "null" },
+              "out_of_scope_reason": {
+                "type": "string",
+                "enum": [
+                  "language_competence", "rights_or_access", "corrupted_source",
+                  "missing_context", "invalid_identifier", "task_or_codebook_mismatch",
+                  "packet_defect", "conflict_or_contamination"
+                ]
+              }
+            },
+            "not": {
+              "anyOf": [
+                { "required": ["lexical_unit_responses"] },
+                { "required": ["cmt_response"] },
+                { "required": ["interpretation_response"] }
+              ]
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "disposition": { "const": "coded" },
+              "task_layer": { "const": "identification" }
+            }
+          },
+          "then": {
+            "required": ["lexical_unit_responses"],
+            "not": { "anyOf": [{ "required": ["cmt_response"] }, { "required": ["interpretation_response"] }] }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "disposition": { "const": "coded" },
+              "task_layer": { "const": "cmt" }
+            }
+          },
+          "then": {
+            "required": ["cmt_response"],
+            "not": { "anyOf": [{ "required": ["lexical_unit_responses"] }, { "required": ["interpretation_response"] }] }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "disposition": { "const": "coded" },
+              "task_layer": { "const": "interpretation" }
+            }
+          },
+          "then": {
+            "required": ["interpretation_response"],
+            "not": { "anyOf": [{ "required": ["lexical_unit_responses"] }, { "required": ["cmt_response"] }] }
+          }
+        }
+      ]
+    }
+  }
+}
