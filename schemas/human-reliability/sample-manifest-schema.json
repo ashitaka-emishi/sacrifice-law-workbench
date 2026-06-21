@@ -1,0 +1,260 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://sacrifice-law-workbench.local/schemas/human-reliability/sample-manifest-schema.json",
+  "title": "Human reliability stratified sample manifest",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "strategy_version",
+    "sample_id",
+    "sample_version",
+    "status",
+    "case_id",
+    "source_language",
+    "task_layer",
+    "frame",
+    "selection",
+    "items",
+    "exclusions",
+    "execution",
+    "approval"
+  ],
+  "properties": {
+    "schema_version": { "const": "1.0.0" },
+    "strategy_version": { "const": "1.0.0" },
+    "sample_id": { "$ref": "#/$defs/nonEmptyString" },
+    "sample_version": { "$ref": "#/$defs/nonEmptyString" },
+    "status": { "enum": ["planned", "approved", "superseded", "withdrawn"] },
+    "case_id": { "$ref": "#/$defs/nonEmptyString" },
+    "source_language": { "$ref": "#/$defs/languageTag" },
+    "task_layer": { "enum": ["identification", "cmt", "interpretation"] },
+    "frame": { "$ref": "#/$defs/frame" },
+    "selection": { "$ref": "#/$defs/selection" },
+    "items": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "#/$defs/item" }
+    },
+    "exclusions": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/exclusion" }
+    },
+    "lincoln_continuity": { "$ref": "#/$defs/lincolnContinuity" },
+    "execution": { "$ref": "#/$defs/execution" },
+    "approval": { "$ref": "#/$defs/approval" }
+  },
+  "$defs": {
+    "nonEmptyString": { "type": "string", "minLength": 1 },
+    "nullableString": { "type": ["string", "null"] },
+    "languageTag": {
+      "type": "string",
+      "pattern": "^[A-Za-z]{2,3}(?:-[A-Za-z0-9]{2,8})*$"
+    },
+    "sha256OrPlaceholder": {
+      "type": "string",
+      "minLength": 1
+    },
+    "stringArray": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/nonEmptyString" },
+      "uniqueItems": true
+    },
+    "fractionRange": {
+      "type": "array",
+      "prefixItems": [
+        { "type": "number", "minimum": 0, "maximum": 1 },
+        { "type": "number", "minimum": 0, "maximum": 1 }
+      ],
+      "items": false,
+      "minItems": 2,
+      "maxItems": 2
+    },
+    "frame": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "frame_id",
+        "frame_sha256",
+        "codebook_version",
+        "source_artifact_versions",
+        "eligible_item_count",
+        "eligible_document_count",
+        "phases",
+        "genres_or_registers",
+        "rights_constraints",
+        "frozen_at"
+      ],
+      "properties": {
+        "frame_id": { "$ref": "#/$defs/nonEmptyString" },
+        "frame_sha256": { "$ref": "#/$defs/sha256OrPlaceholder" },
+        "codebook_version": { "$ref": "#/$defs/nonEmptyString" },
+        "source_artifact_versions": { "$ref": "#/$defs/stringArray" },
+        "eligible_item_count": { "type": "integer", "minimum": 0 },
+        "eligible_document_count": { "type": "integer", "minimum": 0 },
+        "phases": { "$ref": "#/$defs/stringArray" },
+        "genres_or_registers": { "$ref": "#/$defs/stringArray" },
+        "rights_constraints": { "$ref": "#/$defs/stringArray" },
+        "frozen_at": { "$ref": "#/$defs/nullableString" }
+      }
+    },
+    "selection": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "method",
+        "seed",
+        "primary_unit",
+        "target_item_count",
+        "target_cluster_count",
+        "quotas",
+        "small_frame_policy",
+        "adaptive_expansion_policy"
+      ],
+      "properties": {
+        "method": { "const": "two_stage_stratified_seeded" },
+        "seed": { "$ref": "#/$defs/nonEmptyString" },
+        "primary_unit": {
+          "enum": ["complete_segmented_sentence", "source_span", "bounded_context"]
+        },
+        "target_item_count": { "type": "integer", "minimum": 1 },
+        "target_cluster_count": { "type": "integer", "minimum": 1 },
+        "quotas": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "reference_positive_or_uncertain_minimum",
+            "ordinary_negative_minimum",
+            "ambiguous_target_fraction",
+            "provenance_risk_target_fraction",
+            "high_impact_maximum_fraction",
+            "document_maximum_fraction"
+          ],
+          "properties": {
+            "reference_positive_or_uncertain_minimum": { "type": "integer", "minimum": 0 },
+            "ordinary_negative_minimum": { "type": "integer", "minimum": 0 },
+            "ambiguous_target_fraction": { "$ref": "#/$defs/fractionRange" },
+            "provenance_risk_target_fraction": { "$ref": "#/$defs/fractionRange" },
+            "high_impact_maximum_fraction": { "type": "number", "minimum": 0, "maximum": 1 },
+            "document_maximum_fraction": { "type": "number", "exclusiveMinimum": 0, "maximum": 1 }
+          }
+        },
+        "small_frame_policy": { "const": "census_and_scope_claim" },
+        "adaptive_expansion_policy": { "const": "predeclared_new_version_only" }
+      }
+    },
+    "item": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "item_id",
+        "document_id",
+        "sentence_id",
+        "source_span_id",
+        "phase",
+        "genre_or_register",
+        "design_roles",
+        "provenance_risks",
+        "claim_impact",
+        "context_scope",
+        "legacy_continuity"
+      ],
+      "properties": {
+        "item_id": { "$ref": "#/$defs/nonEmptyString" },
+        "document_id": { "$ref": "#/$defs/nonEmptyString" },
+        "sentence_id": { "$ref": "#/$defs/nullableString" },
+        "source_span_id": { "$ref": "#/$defs/nullableString" },
+        "phase": { "$ref": "#/$defs/nonEmptyString" },
+        "genre_or_register": { "$ref": "#/$defs/nonEmptyString" },
+        "design_roles": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "enum": [
+              "reference_positive",
+              "negative_control",
+              "ambiguous",
+              "high_impact",
+              "provenance_risk",
+              "rival_control",
+              "ordinary"
+            ]
+          },
+          "uniqueItems": true
+        },
+        "provenance_risks": { "$ref": "#/$defs/stringArray" },
+        "claim_impact": { "enum": ["ordinary", "moderate", "high"] },
+        "context_scope": { "$ref": "#/$defs/nonEmptyString" },
+        "legacy_continuity": { "type": "boolean" }
+      }
+    },
+    "exclusion": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["item_id", "reason", "notes"],
+      "properties": {
+        "item_id": { "$ref": "#/$defs/nonEmptyString" },
+        "reason": {
+          "enum": [
+            "training_or_calibration",
+            "prior_answer_exposure",
+            "unstable_identifier",
+            "insufficient_context",
+            "rights_or_access",
+            "language_competence",
+            "duplicate_or_superseded",
+            "packet_defect",
+            "other"
+          ]
+        },
+        "notes": { "type": "string" }
+      }
+    },
+    "lincolnContinuity": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "legacy_sample_id",
+        "legacy_item_ids_preserved",
+        "legacy_item_ids_reused",
+        "legacy_item_ids_replaced",
+        "deviation_reasons"
+      ],
+      "properties": {
+        "legacy_sample_id": { "$ref": "#/$defs/nullableString" },
+        "legacy_item_ids_preserved": { "$ref": "#/$defs/stringArray" },
+        "legacy_item_ids_reused": { "$ref": "#/$defs/stringArray" },
+        "legacy_item_ids_replaced": { "$ref": "#/$defs/stringArray" },
+        "deviation_reasons": { "$ref": "#/$defs/stringArray" }
+      }
+    },
+    "execution": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "status",
+        "qualified_primary_coders_required",
+        "coder_access_constraints",
+        "non_execution_reason"
+      ],
+      "properties": {
+        "status": {
+          "enum": ["planned", "approved_to_execute", "planned_not_executable", "executed"]
+        },
+        "qualified_primary_coders_required": { "const": 2 },
+        "coder_access_constraints": { "$ref": "#/$defs/stringArray" },
+        "non_execution_reason": { "$ref": "#/$defs/nullableString" }
+      }
+    },
+    "approval": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["approved_by", "approved_at", "manifest_sha256"],
+      "properties": {
+        "approved_by": { "$ref": "#/$defs/nullableString" },
+        "approved_at": { "$ref": "#/$defs/nullableString" },
+        "manifest_sha256": { "$ref": "#/$defs/nullableString" }
+      }
+    }
+  }
+}

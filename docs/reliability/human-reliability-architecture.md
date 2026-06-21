@@ -345,6 +345,9 @@ items, provenance risks, sample-size rationale, exclusions, and rights
 constraints. Existing Lincoln material is preserved or deviations are
 documented explicitly.
 
+The operational selection and sample-size rules are defined in the
+[stratified human reliability sampling strategy](human-reliability-sampling-strategy.md).
+
 ### 4. Blind packet generation
 
 The generator resolves stable IDs and writes deterministic source-language

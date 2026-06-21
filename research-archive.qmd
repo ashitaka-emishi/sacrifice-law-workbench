@@ -39,6 +39,7 @@ available for readers who want to inspect how the argument was built.
 - [Human Reliability and Adjudication Architecture](docs/reliability/human-reliability-architecture.md)
 - [Human Coder Training Guide](docs/reliability/human-coder-training-guide.md)
 - [Multilingual Human Coder Calibration Packets](docs/reliability/human-coder-calibration.md)
+- [Stratified Human Reliability Sampling Strategy](docs/reliability/human-reliability-sampling-strategy.md)
 - [Multi-Model Reliability Architecture](docs/reliability/multi-model-architecture.md)
 - [Multi-Model Reliability Results](model-reliability-results.qmd)
 - [Multi-Model Reliability Completion Checklist](docs/reliability/model-reliability-completion-checklist.md)

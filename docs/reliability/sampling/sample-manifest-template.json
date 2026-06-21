@@ -1,0 +1,79 @@
+{
+  "schema_version": "1.0.0",
+  "strategy_version": "1.0.0",
+  "sample_id": "replace-with-stable-sample-id",
+  "sample_version": "1.0.0",
+  "status": "planned",
+  "case_id": "replace-with-case-id",
+  "source_language": "en",
+  "task_layer": "identification",
+  "frame": {
+    "frame_id": "replace-with-frame-id",
+    "frame_sha256": "replace-with-64-lowercase-hex-characters",
+    "codebook_version": "replace-with-codebook-version",
+    "source_artifact_versions": ["replace-with-source-version"],
+    "eligible_item_count": 0,
+    "eligible_document_count": 0,
+    "phases": [],
+    "genres_or_registers": [],
+    "rights_constraints": [],
+    "frozen_at": null
+  },
+  "selection": {
+    "method": "two_stage_stratified_seeded",
+    "seed": "replace-with-public-reproducibility-seed",
+    "primary_unit": "complete_segmented_sentence",
+    "target_item_count": 400,
+    "target_cluster_count": 30,
+    "quotas": {
+      "reference_positive_or_uncertain_minimum": 50,
+      "ordinary_negative_minimum": 300,
+      "ambiguous_target_fraction": [0.15, 0.25],
+      "provenance_risk_target_fraction": [0.1, 0.2],
+      "high_impact_maximum_fraction": 0.3,
+      "document_maximum_fraction": 0.35
+    },
+    "small_frame_policy": "census_and_scope_claim",
+    "adaptive_expansion_policy": "predeclared_new_version_only"
+  },
+  "items": [
+    {
+      "item_id": "replace-with-stable-item-id",
+      "document_id": "replace-with-document-id",
+      "sentence_id": "replace-with-sentence-id",
+      "source_span_id": null,
+      "phase": "replace-with-phase",
+      "genre_or_register": "replace-with-genre-or-register",
+      "design_roles": ["negative_control"],
+      "provenance_risks": [],
+      "claim_impact": "ordinary",
+      "context_scope": "complete_sentence",
+      "legacy_continuity": false
+    }
+  ],
+  "exclusions": [
+    {
+      "item_id": "replace-with-excluded-item-id",
+      "reason": "training_or_calibration",
+      "notes": ""
+    }
+  ],
+  "lincoln_continuity": {
+    "legacy_sample_id": null,
+    "legacy_item_ids_preserved": [],
+    "legacy_item_ids_reused": [],
+    "legacy_item_ids_replaced": [],
+    "deviation_reasons": []
+  },
+  "execution": {
+    "status": "planned",
+    "qualified_primary_coders_required": 2,
+    "coder_access_constraints": [],
+    "non_execution_reason": null
+  },
+  "approval": {
+    "approved_by": null,
+    "approved_at": null,
+    "manifest_sha256": null
+  }
+}
