@@ -11,6 +11,7 @@ from pipeline_common import (
     documents,
     frontmatter_for,
     raw_path_for,
+    repo_relative_path,
     text_path_for,
     write_json,
     case_dir,
@@ -81,8 +82,8 @@ def normalize_case(case_id: str, strict: bool = False) -> dict:
                 {
                     "document_id": doc_id,
                     "status": "skipped_missing_raw",
-                    "raw_path": str(raw_path),
-                    "output_path": str(out_path),
+                    "raw_path": repo_relative_path(raw_path),
+                    "output_path": repo_relative_path(out_path),
                 }
             )
             continue
@@ -95,8 +96,8 @@ def normalize_case(case_id: str, strict: bool = False) -> dict:
             {
                 "document_id": doc_id,
                 "status": "written",
-                "raw_path": str(raw_path),
-                "output_path": str(out_path),
+                "raw_path": repo_relative_path(raw_path),
+                "output_path": repo_relative_path(out_path),
             }
         )
 

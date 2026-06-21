@@ -8,6 +8,13 @@ import json
 from pathlib import Path
 from typing import Any, Optional
 
+from local_corpus_reference_index import (
+    INDEX_VERSION,
+    index_path as local_reference_index_path,
+    iter_prohibited_fields,
+    read_index as read_local_reference_index,
+    sha256_json_artifact,
+)
 from pipeline_common import (
     ROOT,
     case_dir,
@@ -162,10 +169,177 @@ PUBLICATION_TRACE_REQUIRED = [
 class Validator:
     def __init__(self) -> None:
         self.errors: list[str] = []
+        self.notices: list[str] = []
 
     def error(self, path: Path, message: str) -> None:
         rel = path.relative_to(ROOT) if path.is_relative_to(ROOT) else path
         self.errors.append(f"{rel}: {message}")
+
+    def notice(self, path: Path, message: str) -> None:
+        rel = path.relative_to(ROOT) if path.is_relative_to(ROOT) else path
+        self.notices.append(f"{rel}: {message}")
+
+    @staticmethod
+    def valid_sha256(value: Any) -> bool:
+        return (
+            isinstance(value, str)
+            and len(value) == 64
+            and all(character in "0123456789abcdef" for character in value)
+        )
+
+    def validate_local_reference_index(
+        self,
+        case_id: str,
+    ) -> tuple[set[str], dict[str, dict[str, Any]]]:
+        path = local_reference_index_path(ROOT, case_id)
+        try:
+            data = read_local_reference_index(ROOT, case_id)
+        except json.JSONDecodeError:
+            return set(), {}
+        if data is None:
+            if path.exists():
+                self.error(path, "public reference index must be an object")
+            return set(), {}
+
+        if data.get("version") != INDEX_VERSION:
+            self.error(path, f"version must be `{INDEX_VERSION}`")
+        if data.get("case_id") != case_id:
+            self.error(path, f"case_id must be `{case_id}`")
+        if data.get("status") != "public-safe-reference-index":
+            self.error(path, "status must be `public-safe-reference-index`")
+        for field_path in iter_prohibited_fields(data):
+            self.error(path, f"public index contains prohibited source-derived field `{field_path}`")
+
+        manifest_doc_records = {
+            document_id(doc): doc for doc in documents(case_id) if document_id(doc)
+        }
+        manifest_docs = set(manifest_doc_records)
+        artifacts = data.get("artifacts")
+        if not isinstance(artifacts, list):
+            self.error(path, "`artifacts` must be an array")
+            artifacts = []
+        seen_artifact_docs: set[str] = set()
+        local_artifact_count = 0
+        indexed_artifact_count = 0
+        for index, artifact in enumerate(artifacts):
+            if not isinstance(artifact, dict):
+                self.error(path, f"artifacts[{index}] must be an object")
+                continue
+            doc_id = str(artifact.get("document_id") or "")
+            if not doc_id or doc_id not in manifest_docs:
+                self.error(path, f"artifacts[{index}] has unknown document_id `{doc_id}`")
+            if doc_id in seen_artifact_docs:
+                self.error(path, f"duplicate artifact document_id `{doc_id}`")
+            seen_artifact_docs.add(doc_id)
+            for field in ("segmented_artifact", "mipvu_artifact"):
+                record = artifact.get(field)
+                if not isinstance(record, dict):
+                    self.error(path, f"{doc_id}: `{field}` must be an object")
+                    continue
+                rel_path = record.get("path")
+                expected_hash = record.get("sha256")
+                if not isinstance(rel_path, str) or not rel_path:
+                    self.error(path, f"{doc_id}: `{field}.path` must be a string")
+                    continue
+                doc = manifest_doc_records.get(doc_id)
+                if doc is not None:
+                    expected_path = (
+                        segmented_path_for(case_id, doc)
+                        if field == "segmented_artifact"
+                        else mipvu_path_for(case_id, doc)
+                    ).relative_to(ROOT).as_posix()
+                    if rel_path != expected_path:
+                        self.error(
+                            path,
+                            f"{doc_id}: `{field}.path` must be `{expected_path}`",
+                        )
+                if not self.valid_sha256(expected_hash):
+                    self.error(path, f"{doc_id}: `{field}.sha256` must be lowercase SHA-256")
+                    continue
+                indexed_artifact_count += 1
+                artifact_path = (ROOT / rel_path).resolve()
+                expected_root = (case_dir(case_id) / "corpus").resolve()
+                if not artifact_path.is_relative_to(expected_root):
+                    self.error(path, f"{doc_id}: `{field}.path` escapes the case corpus")
+                    continue
+                if artifact_path.is_file():
+                    local_artifact_count += 1
+                    actual_hash = sha256_json_artifact(artifact_path)
+                    if actual_hash != expected_hash:
+                        self.error(
+                            artifact_path,
+                            f"SHA-256 does not match public reference index `{expected_hash}`",
+                        )
+        for doc_id in sorted(manifest_docs - seen_artifact_docs):
+            self.error(path, f"missing artifact record for `{doc_id}`")
+
+        sentences = data.get("sentences")
+        if not isinstance(sentences, list) or not sentences:
+            self.error(path, "`sentences` must be a non-empty array")
+            sentences = []
+        sentence_ids: set[str] = set()
+        sentence_docs: dict[str, str] = {}
+        for index, sentence in enumerate(sentences):
+            if not isinstance(sentence, dict):
+                self.error(path, f"sentences[{index}] must be an object")
+                continue
+            sentence_id = str(sentence.get("sentence_id") or "")
+            doc_id = str(sentence.get("document_id") or "")
+            if not sentence_id:
+                self.error(path, f"sentences[{index}] missing sentence_id")
+                continue
+            if sentence_id in sentence_ids:
+                self.error(path, f"duplicate sentence_id `{sentence_id}`")
+            sentence_ids.add(sentence_id)
+            sentence_docs[sentence_id] = doc_id
+            if doc_id not in manifest_docs:
+                self.error(path, f"{sentence_id}: unknown document_id `{doc_id}`")
+            if not self.valid_sha256(sentence.get("record_sha256")):
+                self.error(path, f"{sentence_id}: record_sha256 must be lowercase SHA-256")
+
+        units = data.get("mipvu_units")
+        if not isinstance(units, list) or not units:
+            self.error(path, "`mipvu_units` must be a non-empty array")
+            units = []
+        mipvu_lookup: dict[str, dict[str, Any]] = {}
+        for index, unit in enumerate(units):
+            if not isinstance(unit, dict):
+                self.error(path, f"mipvu_units[{index}] must be an object")
+                continue
+            mipvu_id = str(unit.get("mipvu_id") or "")
+            if not mipvu_id:
+                self.error(path, f"mipvu_units[{index}] missing mipvu_id")
+                continue
+            if mipvu_id in mipvu_lookup:
+                self.error(path, f"duplicate mipvu_id `{mipvu_id}`")
+            mipvu_lookup[mipvu_id] = unit
+            doc_id = str(unit.get("document_id") or "")
+            sentence_id = str(unit.get("sentence_id") or "")
+            if sentence_id not in sentence_ids:
+                self.error(path, f"{mipvu_id}: unknown sentence_id `{sentence_id}`")
+            elif sentence_docs.get(sentence_id) != doc_id:
+                self.error(path, f"{mipvu_id}: document_id does not match indexed sentence")
+            if unit.get("decision_type") not in MIPVU_METAPHOR_DECISIONS:
+                self.error(path, f"{mipvu_id}: invalid indexed decision_type `{unit.get('decision_type')}`")
+            if not self.valid_sha256(unit.get("record_sha256")):
+                self.error(path, f"{mipvu_id}: record_sha256 must be lowercase SHA-256")
+
+        if local_artifact_count == indexed_artifact_count and indexed_artifact_count:
+            self.notice(path, "authorized local artifacts match the committed integrity hashes")
+        elif local_artifact_count:
+            self.error(
+                path,
+                (
+                    f"partial local artifact restore: found {local_artifact_count} of "
+                    f"{indexed_artifact_count} indexed artifacts"
+                ),
+            )
+        else:
+            self.notice(
+                path,
+                "local source-derived artifacts unavailable; references verified against the public-safe index",
+            )
+        return sentence_ids, mipvu_lookup
 
     def validate_json_parseability(self) -> None:
         for root in [ROOT / "cases", ROOT / "schemas", ROOT / "status", ROOT / "config"]:
@@ -1093,8 +1267,10 @@ class Validator:
     def validate_case(self, case_id: str, strict: bool = False) -> None:
         self.validate_manifest(case_id)
         self.validate_corpus_register(case_id)
-        sentence_ids = self.validate_segmented(case_id)
-        mipvu_lookup = self.validate_mipvu(case_id, sentence_ids, strict=strict)
+        indexed_sentence_ids, indexed_mipvu_lookup = self.validate_local_reference_index(case_id)
+        sentence_ids = self.validate_segmented(case_id) | indexed_sentence_ids
+        mipvu_lookup = dict(indexed_mipvu_lookup)
+        mipvu_lookup.update(self.validate_mipvu(case_id, sentence_ids, strict=strict))
         self.validate_reliability_artifacts(case_id, sentence_ids, mipvu_lookup)
         self.validate_cmt_mappings(case_id, sentence_ids, mipvu_lookup)
         cmt_data = read_json(cmt_mappings_path_for(case_id), {}) or {}
@@ -1145,6 +1321,8 @@ def main() -> int:
         print(f"\nValidation failed with {len(validator.errors)} error(s).")
         return 1
 
+    for notice in validator.notices:
+        print(f"NOTICE: {notice}")
     print("Validation passed.")
     return 0
 

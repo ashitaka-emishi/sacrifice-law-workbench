@@ -15,6 +15,7 @@ from pipeline_common import (
     mipvu_path_for,
     now_iso,
     read_json,
+    repo_relative_path,
     segmented_path_for,
     write_json,
 )
@@ -154,8 +155,8 @@ def generate_case(case_id: str, doc_filter: Optional[str] = None, force: bool = 
                 {
                     "document_id": doc_id,
                     "status": "skipped_missing_segmented",
-                    "input_path": str(segmented_path),
-                    "output_path": str(out_path),
+                    "input_path": repo_relative_path(segmented_path),
+                    "output_path": repo_relative_path(out_path),
                 }
             )
             continue
@@ -166,8 +167,8 @@ def generate_case(case_id: str, doc_filter: Optional[str] = None, force: bool = 
                     {
                         "document_id": doc_id,
                         "status": "skipped_reviewed",
-                        "input_path": str(segmented_path),
-                        "output_path": str(out_path),
+                        "input_path": repo_relative_path(segmented_path),
+                        "output_path": repo_relative_path(out_path),
                     }
                 )
                 continue
@@ -218,8 +219,8 @@ def generate_case(case_id: str, doc_filter: Optional[str] = None, force: bool = 
                 "document_id": doc_id,
                 "status": "written",
                 "lexical_units": len(units),
-                "input_path": str(segmented_path),
-                "output_path": str(out_path),
+                "input_path": repo_relative_path(segmented_path),
+                "output_path": repo_relative_path(out_path),
             }
         )
 

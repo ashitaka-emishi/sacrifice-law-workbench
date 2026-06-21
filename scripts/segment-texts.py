@@ -11,6 +11,7 @@ from pipeline_common import (
     documents,
     now_iso,
     parse_markdown_with_frontmatter,
+    repo_relative_path,
     segmented_path_for,
     split_sentences,
     text_path_for,
@@ -102,8 +103,8 @@ def segment_case(case_id: str, strict: bool = False) -> dict:
                 {
                     "document_id": doc_id,
                     "status": "skipped_missing_text",
-                    "input_path": str(in_path),
-                    "output_path": str(out_path),
+                    "input_path": repo_relative_path(in_path),
+                    "output_path": repo_relative_path(out_path),
                 }
             )
             continue
@@ -122,8 +123,8 @@ def segment_case(case_id: str, strict: bool = False) -> dict:
                 "document_id": doc_id,
                 "status": "written",
                 "sentence_count": sentence_count,
-                "input_path": str(in_path),
-                "output_path": str(out_path),
+                "input_path": repo_relative_path(in_path),
+                "output_path": repo_relative_path(out_path),
             }
         )
 
