@@ -1,0 +1,51 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://sacrifice-law-workbench.local/schemas/human-reliability/packet-item-schema.json",
+  "title": "Blind human coding packet item",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version", "packet_id", "item_id", "task_layer", "case_id",
+    "document_id", "sentence_id", "source_span_id", "source_language",
+    "sentence_source_text", "lexical_units", "context_scope", "rights_constraints"
+  ],
+  "properties": {
+    "schema_version": { "const": "1.0.0" },
+    "packet_id": { "$ref": "#/$defs/nonEmptyString" },
+    "item_id": { "$ref": "#/$defs/nonEmptyString" },
+    "task_layer": { "enum": ["identification", "cmt", "interpretation"] },
+    "case_id": { "$ref": "#/$defs/nonEmptyString" },
+    "document_id": { "$ref": "#/$defs/nonEmptyString" },
+    "sentence_id": { "$ref": "#/$defs/nonEmptyString" },
+    "source_span_id": { "type": ["string", "null"] },
+    "source_language": { "type": "string", "pattern": "^[A-Za-z]{2,3}(?:-[A-Za-z0-9]{2,8})*$" },
+    "sentence_source_text": { "$ref": "#/$defs/nonEmptyString" },
+    "lexical_units": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "#/$defs/lexicalUnit" }
+    },
+    "context_scope": { "$ref": "#/$defs/nonEmptyString" },
+    "rights_constraints": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": { "$ref": "#/$defs/nonEmptyString" }
+    }
+  },
+  "$defs": {
+    "nonEmptyString": { "type": "string", "minLength": 1 },
+    "lexicalUnit": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["lexical_unit_id", "source_text", "char_offset_start", "char_offset_end"],
+      "properties": {
+        "lexical_unit_id": { "$ref": "#/$defs/nonEmptyString" },
+        "source_text": { "$ref": "#/$defs/nonEmptyString" },
+        "gloss_en": { "$ref": "#/$defs/nonEmptyString" },
+        "char_offset_start": { "type": "integer", "minimum": 0 },
+        "char_offset_end": { "type": "integer", "minimum": 1 }
+      }
+    }
+  }
+}
