@@ -356,6 +356,9 @@ accepted labels, model results, previous coder decisions, adjudication,
 support scores, and synthesis claims. The manifest hashes every input,
 payload, instruction, schema, and code revision.
 
+The operational generator and handoff contract are documented in
+[deterministic blind human coding packets](human-reliability-packets.md).
+
 ### 5. Independent coder submission
 
 Each primary coder receives the same cohort packet and submits independently.
