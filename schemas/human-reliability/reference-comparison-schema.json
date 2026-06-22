@@ -1,0 +1,185 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://sacrifice-law-workbench.local/schemas/human-reliability/reference-comparison-schema.json",
+  "title": "Human coder to reference comparison",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version", "case_id", "cohort_id", "cohort_version",
+    "source_language", "task_layer", "packet_id", "generator",
+    "input_runs", "reference_sources", "coder_comparisons",
+    "pattern_records", "pattern_summary", "adjudicated_comparisons"
+  ],
+  "properties": {
+    "schema_version": { "const": "1.0.0" },
+    "case_id": { "$ref": "#/$defs/nonEmptyString" },
+    "cohort_id": { "$ref": "#/$defs/nonEmptyString" },
+    "cohort_version": { "$ref": "#/$defs/nonEmptyString" },
+    "source_language": { "$ref": "#/$defs/nonEmptyString" },
+    "task_layer": { "enum": ["identification", "cmt", "interpretation"] },
+    "packet_id": { "$ref": "#/$defs/nonEmptyString" },
+    "generator": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["script", "version", "script_hash", "code_revision"],
+      "properties": {
+        "script": { "const": "scripts/human_reliability/compare_references.py" },
+        "version": { "const": "1.0.0" },
+        "script_hash": { "$ref": "#/$defs/sha256" },
+        "code_revision": { "$ref": "#/$defs/nonEmptyString" }
+      }
+    },
+    "input_runs": {
+      "type": "array",
+      "minItems": 2,
+      "items": { "$ref": "#/$defs/inputRun" }
+    },
+    "reference_sources": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/referenceSource" }
+    },
+    "coder_comparisons": {
+      "type": "array",
+      "minItems": 2,
+      "items": { "$ref": "#/$defs/subjectComparison" }
+    },
+    "pattern_records": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/patternRecord" }
+    },
+    "pattern_summary": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "integer",
+        "minimum": 0
+      }
+    },
+    "adjudicated_comparisons": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/subjectComparison" }
+    }
+  },
+  "$defs": {
+    "nonEmptyString": { "type": "string", "minLength": 1 },
+    "sha256": {
+      "type": "string",
+      "pattern": "^sha256:[0-9a-f]{64}$"
+    },
+    "inputRun": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["registration_id", "raw_hash", "submission_id", "coder_id"],
+      "properties": {
+        "registration_id": { "$ref": "#/$defs/nonEmptyString" },
+        "raw_hash": { "$ref": "#/$defs/sha256" },
+        "submission_id": { "$ref": "#/$defs/nonEmptyString" },
+        "coder_id": { "$ref": "#/$defs/nonEmptyString" }
+      }
+    },
+    "referenceSource": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["path", "hash", "authority_status"],
+      "properties": {
+        "path": { "$ref": "#/$defs/nonEmptyString" },
+        "hash": { "$ref": "#/$defs/sha256" },
+        "authority_status": {
+          "enum": ["accepted", "reviewed", "reviewable_reference"]
+        }
+      }
+    },
+    "fieldComparison": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "item_id", "reference_id", "unit_id", "field", "subject_value",
+        "reference_status", "reference_value", "alignment",
+        "reference_authority", "notes"
+      ],
+      "properties": {
+        "item_id": { "$ref": "#/$defs/nonEmptyString" },
+        "reference_id": { "$ref": "#/$defs/nonEmptyString" },
+        "unit_id": { "type": ["string", "null"] },
+        "field": { "$ref": "#/$defs/nonEmptyString" },
+        "subject_value": {},
+        "reference_status": {
+          "enum": ["available", "unavailable", "not_comparable"]
+        },
+        "reference_value": {},
+        "alignment": {
+          "enum": ["aligned", "divergent", "unavailable", "not_comparable"]
+        },
+        "reference_authority": {
+          "type": ["string", "null"],
+          "enum": [null, "accepted", "reviewed", "reviewable_reference"]
+        },
+        "notes": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/nonEmptyString" }
+        }
+      }
+    },
+    "subjectComparison": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["subject_type", "subject_id", "comparisons", "summary"],
+      "properties": {
+        "subject_type": { "enum": ["coder", "adjudicated"] },
+        "subject_id": { "$ref": "#/$defs/nonEmptyString" },
+        "comparisons": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/fieldComparison" }
+        },
+        "summary": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["aligned", "divergent", "unavailable", "not_comparable"],
+          "properties": {
+            "aligned": { "type": "integer", "minimum": 0 },
+            "divergent": { "type": "integer", "minimum": 0 },
+            "unavailable": { "type": "integer", "minimum": 0 },
+            "not_comparable": { "type": "integer", "minimum": 0 }
+          }
+        }
+      }
+    },
+    "patternRecord": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "pattern_id", "left_coder_id", "right_coder_id", "item_id",
+        "reference_id", "unit_id", "field", "pattern", "left_value", "right_value",
+        "reference_status", "reference_value", "reference_authority",
+        "adjudication_recommended", "neutral_interpretation"
+      ],
+      "properties": {
+        "pattern_id": { "$ref": "#/$defs/nonEmptyString" },
+        "left_coder_id": { "$ref": "#/$defs/nonEmptyString" },
+        "right_coder_id": { "$ref": "#/$defs/nonEmptyString" },
+        "item_id": { "$ref": "#/$defs/nonEmptyString" },
+        "reference_id": { "$ref": "#/$defs/nonEmptyString" },
+        "unit_id": { "type": ["string", "null"] },
+        "field": { "$ref": "#/$defs/nonEmptyString" },
+        "pattern": {
+          "enum": [
+            "both_with_reference", "both_against_reference",
+            "split_with_reference", "split_against_both",
+            "uncertain_vs_confident", "reference_unavailable"
+          ]
+        },
+        "left_value": {},
+        "right_value": {},
+        "reference_status": {
+          "enum": ["available", "unavailable", "not_comparable"]
+        },
+        "reference_value": {},
+        "reference_authority": {
+          "type": ["string", "null"],
+          "enum": [null, "accepted", "reviewed", "reviewable_reference"]
+        },
+        "adjudication_recommended": { "type": "boolean" },
+        "neutral_interpretation": { "$ref": "#/$defs/nonEmptyString" }
+      }
+    }
+  }
+}
