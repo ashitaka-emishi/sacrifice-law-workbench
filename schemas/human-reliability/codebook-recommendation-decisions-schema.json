@@ -1,0 +1,57 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://sacrifice-law-workbench.local/schemas/human-reliability/codebook-recommendation-decisions-schema.json",
+  "title": "Human methodology decisions on codebook recommendations",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "case_id", "decision_authority", "decisions"],
+  "properties": {
+    "schema_version": { "const": "1.0.0" },
+    "case_id": { "type": "string", "minLength": 1 },
+    "decision_authority": { "const": "human-methodology-review" },
+    "decisions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "recommendation_id", "recommendation_sha256", "disposition",
+          "rationale", "reviewer", "decided_at"
+        ],
+        "properties": {
+          "recommendation_id": {
+            "type": "string",
+            "pattern": "^human-codebook-rec-[0-9a-f]{16}$"
+          },
+          "recommendation_sha256": {
+            "type": "string",
+            "pattern": "^sha256:[0-9a-f]{64}$"
+          },
+          "disposition": { "enum": ["accepted", "rejected", "deferred"] },
+          "rationale": { "type": "string", "minLength": 1 },
+          "reviewer": { "type": ["string", "null"] },
+          "decided_at": {
+            "type": ["string", "null"],
+            "format": "date-time"
+          }
+        },
+        "allOf": [
+          {
+            "if": {
+              "properties": {
+                "disposition": { "enum": ["accepted", "rejected"] }
+              },
+              "required": ["disposition"]
+            },
+            "then": {
+              "properties": {
+                "reviewer": { "type": "string", "minLength": 1 },
+                "decided_at": { "type": "string", "format": "date-time" }
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

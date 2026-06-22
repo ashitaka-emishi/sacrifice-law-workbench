@@ -480,6 +480,11 @@ Repeated disagreement may generate codebook revision notes. Proposed wording,
 accepted/rejected/deferred disposition, migration implications, and re-coding
 needs remain explicit. A codebook note cannot silently revise prior decisions.
 
+The deterministic
+[human reliability codebook revision notes](human-codebook-revision-notes.md)
+default to proposed and require a separate human methodology register for
+accepted, rejected, or deferred disposition.
+
 ## Provenance and identity contract
 
 Every stage retains enough identity to reconstruct the study:
