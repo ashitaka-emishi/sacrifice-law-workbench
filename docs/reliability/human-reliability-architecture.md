@@ -471,6 +471,11 @@ The deterministic
 designed, partial, and complete execution states without treating absent
 artifacts as zero or successful results.
 
+The publication-facing
+[human adjudication results page](human-adjudication-results-page.md) reports
+outcomes, unresolved work, codebook and claim implications, and unpromoted
+correction candidates while preserving rights restrictions.
+
 Repeated disagreement may generate codebook revision notes. Proposed wording,
 accepted/rejected/deferred disposition, migration implications, and re-coding
 needs remain explicit. A codebook note cannot silently revise prior decisions.

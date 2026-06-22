@@ -37,6 +37,8 @@ website:
             text: Multi-Model Stress Test
           - href: model-reliability-results.qmd
             text: Model Reliability Results
+          - href: human-adjudication-results.qmd
+            text: Human Adjudication Results
       - href: research-archive.qmd
         text: Research Archive
     right:
@@ -72,6 +74,8 @@ website:
             text: Multi-Model Stress Test
           - href: model-reliability-results.qmd
             text: Model Reliability Results
+          - href: human-adjudication-results.qmd
+            text: Human Adjudication Results
       - href: starter-corpus-proposal.qmd
         text: Corpus and Sources
       - href: starter-cluster-proposal.qmd

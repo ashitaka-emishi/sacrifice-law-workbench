@@ -1,0 +1,70 @@
+---
+title: "Human Adjudication Results"
+description: "Scoped outcomes, unresolved work, correction candidates, and publication consequences from validated human adjudication"
+---
+
+::: {.callout-important}
+Adjudication resolves study disagreements; it does not silently rewrite
+accepted annotations. Correction candidates remain review-only proposals until
+a separate authorized promotion records and applies a canonical change.
+:::
+
+This page is generated from validated machine-readable adjudication results and
+correction-candidate artifacts by
+`scripts/human_reliability/generate_adjudication_results_page.py`.
+
+## Cohort status
+
+| Case | Cohort | Language | Layer | State | Decisions | Accepted | Rejected | Deferred | Unresolved | Candidates |
+|---|---|---|---|---|---:|---:|---:|---:|---:|---:|
+| — | — | — | — | not started | 0 | 0 | 0 | 0 | 0 | 0 |
+
+`Not started` means no validated normalized adjudication result exists.
+`Unresolved` preserves deferred or unresolved decisions rather than inferring an
+answer. Results are never pooled across cases, languages, layers, or cohorts.
+
+## Rights and source-language scope
+
+| Cohort | Language | Storage | Rights constraints | Publication detail |
+|---|---|---|---|---|
+| — | — | — | — | No cohorts discovered. |
+
+Local-only cohorts expose aggregate state and counts only. Source text,
+adjudicated values, rationales, evidence, coder values, and reference values
+are not reproduced on this page.
+
+## Decision outcomes
+
+No repository-safe adjudication decision metadata is available. This may mean adjudication has not started or the cohort is local-only.
+
+The table reports decision metadata only. It intentionally omits source text,
+adjudicated values, rationales, evidence, coder values, and reference values.
+
+## Codebook implications
+
+No codebook implications are available.
+
+Codebook clarification, revision, training updates, or recoding needs remain
+recommendations for the separately governed codebook workflow.
+
+## Claim impacts
+
+No claim impacts are available.
+
+`review_required` and `hold_pending_resolution` keep affected claims under
+review; they do not automatically revise publication claims.
+
+## Correction candidates and promotion boundary
+
+Candidate counts come from the dedicated correction-candidate layer. Every
+candidate remains `pending_separate_authorization`, has no promotion ID, and
+forbids direct writes. This page reports proposals, not promoted corrections.
+
+## Interpretation limits
+
+- Adjudication outcomes do not replace pre-adjudication human-human agreement.
+- A selected coder or reference basis is a human decision, not a vote.
+- Missing adjudication is an execution state, not evidence of agreement.
+- Source-language qualification and rights restrictions remain cohort-specific.
+- Canonical corpus, analysis, metadata, claim, and publication edits require a
+  separate authorized promotion and regeneration workflow.
