@@ -1,0 +1,57 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://sacrifice-law-workbench.local/schemas/human-reliability/adjudication-results-schema.json",
+  "title": "Validated normalized human adjudication results",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version", "case_id", "cohort_id", "cohort_version",
+    "source_language", "task_layer", "queue_snapshot", "registration_id",
+    "registered_at", "raw_hash", "adjudication_submission_id", "adjudicator",
+    "summary", "decisions"
+  ],
+  "properties": {
+    "schema_version": { "const": "1.0.0" },
+    "case_id": { "type": "string", "minLength": 1 },
+    "cohort_id": { "type": "string", "minLength": 1 },
+    "cohort_version": { "type": "string", "minLength": 1 },
+    "source_language": { "type": "string", "minLength": 2 },
+    "task_layer": { "enum": ["identification", "cmt", "interpretation"] },
+    "queue_snapshot": { "type": "object" },
+    "registration_id": { "type": "string", "pattern": "^adjudication-registration-[0-9a-f]{16}$" },
+    "registered_at": { "type": "string", "format": "date-time" },
+    "raw_hash": { "type": "string", "pattern": "^sha256:[0-9a-f]{64}$" },
+    "adjudication_submission_id": { "type": "string", "minLength": 1 },
+    "adjudicator": { "type": "object" },
+    "summary": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "decision_count", "accepted_count", "rejected_count",
+        "deferred_count", "unresolved_count", "correction_candidate_count",
+        "state"
+      ],
+      "properties": {
+        "decision_count": { "type": "integer", "minimum": 0 },
+        "accepted_count": { "type": "integer", "minimum": 0 },
+        "rejected_count": { "type": "integer", "minimum": 0 },
+        "deferred_count": { "type": "integer", "minimum": 0 },
+        "unresolved_count": { "type": "integer", "minimum": 0 },
+        "correction_candidate_count": { "type": "integer", "minimum": 0 },
+        "state": { "enum": ["complete", "unresolved"] }
+      }
+    },
+    "decisions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["queue_entry", "decision"],
+        "properties": {
+          "queue_entry": { "type": "object" },
+          "decision": { "type": "object" }
+        }
+      }
+    }
+  }
+}

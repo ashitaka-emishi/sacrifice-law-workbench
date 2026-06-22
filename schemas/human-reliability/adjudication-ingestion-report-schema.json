@@ -1,0 +1,51 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://sacrifice-law-workbench.local/schemas/human-reliability/adjudication-ingestion-report-schema.json",
+  "title": "Human adjudication ingestion report",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version", "registration_id", "registered_at", "case_id",
+    "cohort_id", "cohort_version", "adjudication_submission_id",
+    "adjudicator_id", "queue_sha256", "raw_hash", "status", "errors",
+    "decision_results", "adjudication_state"
+  ],
+  "properties": {
+    "schema_version": { "const": "1.0.0" },
+    "registration_id": { "type": "string", "pattern": "^adjudication-registration-[0-9a-f]{16}$" },
+    "registered_at": { "type": "string", "format": "date-time" },
+    "case_id": { "type": "string", "minLength": 1 },
+    "cohort_id": { "type": ["string", "null"] },
+    "cohort_version": { "type": ["string", "null"] },
+    "adjudication_submission_id": { "type": ["string", "null"] },
+    "adjudicator_id": { "type": ["string", "null"] },
+    "queue_sha256": {
+      "type": ["string", "null"],
+      "pattern": "^sha256:[0-9a-f]{64}$"
+    },
+    "raw_hash": { "type": "string", "pattern": "^sha256:[0-9a-f]{64}$" },
+    "status": { "enum": ["valid", "invalid"] },
+    "errors": {
+      "type": "array",
+      "items": { "type": "string", "minLength": 1 }
+    },
+    "decision_results": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["index", "adjudication_id", "queue_id", "status", "errors"],
+        "properties": {
+          "index": { "type": "integer", "minimum": 0 },
+          "adjudication_id": { "type": ["string", "null"] },
+          "queue_id": { "type": ["string", "null"] },
+          "status": { "enum": ["valid", "invalid"] },
+          "errors": { "type": "array", "items": { "type": "string" } }
+        }
+      }
+    },
+    "adjudication_state": {
+      "enum": ["invalid", "complete", "unresolved"]
+    }
+  }
+}

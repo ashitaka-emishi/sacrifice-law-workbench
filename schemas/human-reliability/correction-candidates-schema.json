@@ -1,0 +1,58 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://sacrifice-law-workbench.local/schemas/human-reliability/correction-candidates-schema.json",
+  "title": "Unpromoted human-adjudication correction candidates",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version", "case_id", "cohort_id", "cohort_version",
+    "source_registration_id", "source_queue_sha256", "authority",
+    "candidates"
+  ],
+  "properties": {
+    "schema_version": { "const": "1.0.0" },
+    "case_id": { "type": "string", "minLength": 1 },
+    "cohort_id": { "type": "string", "minLength": 1 },
+    "cohort_version": { "type": "string", "minLength": 1 },
+    "source_registration_id": { "type": "string", "pattern": "^adjudication-registration-[0-9a-f]{16}$" },
+    "source_queue_sha256": { "type": "string", "pattern": "^sha256:[0-9a-f]{64}$" },
+    "authority": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["layer", "promotion_permitted", "notice"],
+      "properties": {
+        "layer": { "const": "dedicated_review_only" },
+        "promotion_permitted": { "const": false },
+        "notice": { "type": "string", "minLength": 1 }
+      }
+    },
+    "candidates": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "candidate_id", "adjudication_id", "queue_id", "disagreement_id",
+          "item_id", "reference_id", "target", "rationale",
+          "affected_claims", "affected_claim_dimensions", "promotion_status",
+          "promotion_id", "direct_write_permitted"
+        ],
+        "properties": {
+          "candidate_id": { "type": "string", "pattern": "^correction-candidate-[A-Za-z0-9._-]+$" },
+          "adjudication_id": { "type": "string", "minLength": 1 },
+          "queue_id": { "type": "string", "pattern": "^human-queue-[0-9a-f]{16}$" },
+          "disagreement_id": { "type": "string", "pattern": "^human-disagreement-[0-9a-f]{16}$" },
+          "item_id": { "type": "string", "minLength": 1 },
+          "reference_id": { "type": "string", "minLength": 1 },
+          "target": { "type": "object" },
+          "rationale": { "type": "string", "minLength": 1 },
+          "affected_claims": { "type": "array" },
+          "affected_claim_dimensions": { "type": "array", "uniqueItems": true },
+          "promotion_status": { "const": "pending_separate_authorization" },
+          "promotion_id": { "type": "null" },
+          "direct_write_permitted": { "const": false }
+        }
+      }
+    }
+  }
+}
