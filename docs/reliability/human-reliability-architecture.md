@@ -466,6 +466,11 @@ completion, metrics by field, reference comparisons, disagreements,
 adjudication status, unresolved items, correction candidates, limitations, and
 the exact case/language/layer/cohort scope.
 
+The deterministic
+[human reliability report generator](human-reliability-report.md) renders
+designed, partial, and complete execution states without treating absent
+artifacts as zero or successful results.
+
 Repeated disagreement may generate codebook revision notes. Proposed wording,
 accepted/rejected/deferred disposition, migration implications, and re-coding
 needs remain explicit. A codebook note cannot silently revise prior decisions.

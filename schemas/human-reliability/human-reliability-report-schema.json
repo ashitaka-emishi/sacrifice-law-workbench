@@ -1,0 +1,244 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://sacrifice-law-workbench.local/schemas/human-reliability/human-reliability-report-schema.json",
+  "title": "Scoped human reliability publication report",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version", "report_state", "case_id", "cohort_id",
+    "cohort_version", "source_language", "task_layer", "sample_id",
+    "sample_version", "packet_id", "design", "execution", "input_artifacts",
+    "agreement_metrics", "reference_comparison", "disagreements",
+    "adjudication", "scope_claim", "limitations", "generator"
+  ],
+  "properties": {
+    "schema_version": { "const": "1.0.0" },
+    "report_state": { "enum": ["designed", "partial", "complete"] },
+    "case_id": { "$ref": "#/$defs/nonEmptyString" },
+    "cohort_id": { "$ref": "#/$defs/nonEmptyString" },
+    "cohort_version": { "$ref": "#/$defs/nonEmptyString" },
+    "source_language": { "$ref": "#/$defs/nonEmptyString" },
+    "task_layer": { "enum": ["identification", "cmt", "interpretation"] },
+    "sample_id": { "$ref": "#/$defs/nonEmptyString" },
+    "sample_version": { "$ref": "#/$defs/nonEmptyString" },
+    "packet_id": { "$ref": "#/$defs/nonEmptyString" },
+    "design": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "codebook_version", "training_version", "calibration_id",
+        "required_primary_coders", "primary_coder_ids",
+        "blind_independent_coding", "ai_assistance_allowed", "storage_policy",
+        "rights_constraints", "sample_status", "sample_item_count",
+        "sample_exclusion_count", "sample_execution_status"
+      ],
+      "properties": {
+        "codebook_version": { "$ref": "#/$defs/nonEmptyString" },
+        "training_version": { "$ref": "#/$defs/nonEmptyString" },
+        "calibration_id": { "$ref": "#/$defs/nonEmptyString" },
+        "required_primary_coders": { "type": "integer", "minimum": 2 },
+        "primary_coder_ids": { "$ref": "#/$defs/stringArray" },
+        "blind_independent_coding": { "const": true },
+        "ai_assistance_allowed": { "type": "boolean" },
+        "storage_policy": { "enum": ["repository_allowed", "local_only"] },
+        "rights_constraints": { "$ref": "#/$defs/stringArray" },
+        "sample_status": { "enum": ["planned", "approved", "superseded", "withdrawn"] },
+        "sample_item_count": { "type": "integer", "minimum": 1 },
+        "sample_exclusion_count": { "type": "integer", "minimum": 0 },
+        "sample_execution_status": {
+          "enum": ["planned", "approved_to_execute", "planned_not_executable", "executed"]
+        }
+      }
+    },
+    "execution": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "state", "valid_primary_coders", "valid_submission_count",
+        "invalid_submission_count"
+      ],
+      "properties": {
+        "state": { "enum": ["absent", "partial", "invalid", "complete"] },
+        "valid_primary_coders": { "$ref": "#/$defs/stringArray" },
+        "valid_submission_count": { "type": "integer", "minimum": 0 },
+        "invalid_submission_count": { "type": "integer", "minimum": 0 }
+      }
+    },
+    "input_artifacts": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "cohort_manifest", "sample_manifest", "packet_manifest", "agreement",
+        "reference_comparison", "disagreements"
+      ],
+      "properties": {
+        "cohort_manifest": { "$ref": "#/$defs/artifact" },
+        "sample_manifest": { "$ref": "#/$defs/artifact" },
+        "packet_manifest": { "$ref": "#/$defs/artifact" },
+        "agreement": { "$ref": "#/$defs/optionalArtifact" },
+        "reference_comparison": { "$ref": "#/$defs/optionalArtifact" },
+        "disagreements": { "$ref": "#/$defs/optionalArtifact" }
+      }
+    },
+    "agreement_metrics": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "field", "metric_family", "comparable_count", "missing_count",
+          "sample_assessment", "statistics"
+        ],
+        "properties": {
+          "field": { "$ref": "#/$defs/nonEmptyString" },
+          "metric_family": { "$ref": "#/$defs/nonEmptyString" },
+          "comparable_count": { "type": "integer", "minimum": 0 },
+          "missing_count": { "type": "integer", "minimum": 0 },
+          "sample_assessment": { "enum": ["adequate", "sparse", "unavailable"] },
+          "statistics": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "observed_agreement", "cohens_kappa", "positive_agreement",
+              "negative_agreement", "mean_jaccard",
+              "mean_absolute_difference", "mean_ordinal_distance"
+            ],
+            "properties": {
+              "observed_agreement": { "$ref": "#/$defs/statistic" },
+              "cohens_kappa": { "$ref": "#/$defs/statistic" },
+              "positive_agreement": { "$ref": "#/$defs/statistic" },
+              "negative_agreement": { "$ref": "#/$defs/statistic" },
+              "mean_jaccard": { "$ref": "#/$defs/statistic" },
+              "mean_absolute_difference": { "$ref": "#/$defs/statistic" },
+              "mean_ordinal_distance": { "$ref": "#/$defs/statistic" }
+            }
+          }
+        }
+      }
+    },
+    "reference_comparison": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["coder_field_comparisons", "pair_patterns"],
+      "properties": {
+        "coder_field_comparisons": { "$ref": "#/$defs/countMap" },
+        "pair_patterns": { "$ref": "#/$defs/countMap" }
+      }
+    },
+    "disagreements": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "total_disagreements", "by_category", "by_claim_impact",
+        "by_priority", "by_source_language_risk",
+        "possible_codebook_ambiguity_count", "major_claim_impact_count"
+      ],
+      "properties": {
+        "total_disagreements": { "type": ["integer", "null"], "minimum": 0 },
+        "by_category": { "$ref": "#/$defs/countMap" },
+        "by_claim_impact": { "$ref": "#/$defs/countMap" },
+        "by_priority": { "$ref": "#/$defs/countMap" },
+        "by_source_language_risk": { "$ref": "#/$defs/countMap" },
+        "possible_codebook_ambiguity_count": { "type": ["integer", "null"], "minimum": 0 },
+        "major_claim_impact_count": { "type": ["integer", "null"], "minimum": 0 }
+      }
+    },
+    "adjudication": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "status", "decision_count", "accepted_count", "rejected_count",
+        "deferred_count", "unresolved_count", "correction_candidate_count",
+        "artifact"
+      ],
+      "properties": {
+        "status": { "enum": ["not_started", "complete", "unresolved"] },
+        "decision_count": { "type": "integer", "minimum": 0 },
+        "accepted_count": { "type": "integer", "minimum": 0 },
+        "rejected_count": { "type": "integer", "minimum": 0 },
+        "deferred_count": { "type": "integer", "minimum": 0 },
+        "unresolved_count": { "type": "integer", "minimum": 0 },
+        "correction_candidate_count": { "type": "integer", "minimum": 0 },
+        "artifact": {
+          "oneOf": [
+            { "type": "null" },
+            { "$ref": "#/$defs/artifact" }
+          ]
+        }
+      }
+    },
+    "scope_claim": { "$ref": "#/$defs/nonEmptyString" },
+    "limitations": {
+      "type": "array",
+      "minItems": 5,
+      "items": { "$ref": "#/$defs/nonEmptyString" }
+    },
+    "generator": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["script", "version", "script_hash", "code_revision"],
+      "properties": {
+        "script": { "const": "scripts/human_reliability/generate_report.py" },
+        "version": { "const": "1.0.0" },
+        "script_hash": { "$ref": "#/$defs/sha256" },
+        "code_revision": { "$ref": "#/$defs/nonEmptyString" }
+      }
+    }
+  },
+  "$defs": {
+    "nonEmptyString": { "type": "string", "minLength": 1 },
+    "sha256": { "type": "string", "pattern": "^sha256:[0-9a-f]{64}$" },
+    "stringArray": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/nonEmptyString" },
+      "uniqueItems": true
+    },
+    "countMap": {
+      "type": "object",
+      "additionalProperties": { "type": "integer", "minimum": 0 }
+    },
+    "statistic": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["status", "value", "undefined_reason"],
+      "properties": {
+        "status": { "enum": ["defined", "undefined", "not_applicable"] },
+        "value": { "type": ["number", "null"], "minimum": -1, "maximum": 1 },
+        "undefined_reason": { "type": ["string", "null"] }
+      }
+    },
+    "artifact": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["path", "sha256"],
+      "properties": {
+        "path": { "$ref": "#/$defs/nonEmptyString" },
+        "sha256": { "$ref": "#/$defs/sha256" }
+      }
+    },
+    "optionalArtifact": {
+      "oneOf": [
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["status", "path", "sha256"],
+          "properties": {
+            "status": { "const": "available" },
+            "path": { "$ref": "#/$defs/nonEmptyString" },
+            "sha256": { "$ref": "#/$defs/sha256" }
+          }
+        },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["status", "path", "sha256"],
+          "properties": {
+            "status": { "const": "not_available" },
+            "path": { "type": "null" },
+            "sha256": { "type": "null" }
+          }
+        }
+      ]
+    }
+  }
+}
