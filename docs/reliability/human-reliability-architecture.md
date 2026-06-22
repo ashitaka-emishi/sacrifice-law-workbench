@@ -392,6 +392,9 @@ coder pair. Positive/negative agreement, exact agreement, kappa, boundary/set
 overlap, ordinal distance, confidence distance, and missingness are selected
 by field rather than collapsed into one score.
 
+The executable metric map, sparse-result rules, and boundary limitations are
+defined in [human inter-annotator agreement metrics](human-agreement-metrics.md).
+
 ### 8. Human-vs-reference comparison
 
 Each coder is compared separately with the accepted or reviewable reference.
