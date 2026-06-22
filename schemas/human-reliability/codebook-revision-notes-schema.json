@@ -1,0 +1,146 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://sacrifice-law-workbench.local/schemas/human-reliability/codebook-revision-notes-schema.json",
+  "title": "Governed human reliability codebook revision notes",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version", "case_id", "generator", "source_artifacts",
+    "storage_policy", "authority", "summary", "recommendations"
+  ],
+  "properties": {
+    "schema_version": { "const": "1.0.0" },
+    "case_id": { "$ref": "#/$defs/nonEmptyString" },
+    "generator": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["script", "version", "script_hash"],
+      "properties": {
+        "script": { "const": "scripts/human_reliability/generate_codebook_notes.py" },
+        "version": { "const": "1.0.0" },
+        "script_hash": { "$ref": "#/$defs/sha256" }
+      }
+    },
+    "source_artifacts": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/artifact" }
+    },
+    "storage_policy": { "enum": ["repository_allowed", "local_only"] },
+    "authority": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "decision_authority", "codebook_edit_permitted",
+        "retroactive_change_permitted", "notice"
+      ],
+      "properties": {
+        "decision_authority": { "const": "human-methodology-review" },
+        "codebook_edit_permitted": { "const": false },
+        "retroactive_change_permitted": { "const": false },
+        "notice": { "$ref": "#/$defs/nonEmptyString" }
+      }
+    },
+    "summary": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "recommendation_count", "proposed_count", "accepted_count",
+        "rejected_count", "deferred_count", "recoding_required_count"
+      ],
+      "properties": {
+        "recommendation_count": { "type": "integer", "minimum": 0 },
+        "proposed_count": { "type": "integer", "minimum": 0 },
+        "accepted_count": { "type": "integer", "minimum": 0 },
+        "rejected_count": { "type": "integer", "minimum": 0 },
+        "deferred_count": { "type": "integer", "minimum": 0 },
+        "recoding_required_count": { "type": "integer", "minimum": 0 }
+      }
+    },
+    "recommendations": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/recommendation" }
+    }
+  },
+  "$defs": {
+    "nonEmptyString": { "type": "string", "minLength": 1 },
+    "sha256": { "type": "string", "pattern": "^sha256:[0-9a-f]{64}$" },
+    "stringArray": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": { "$ref": "#/$defs/nonEmptyString" }
+    },
+    "artifact": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["path", "sha256"],
+      "properties": {
+        "path": { "$ref": "#/$defs/nonEmptyString" },
+        "sha256": { "$ref": "#/$defs/sha256" }
+      }
+    },
+    "recommendation": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "recommendation_id", "recommendation_sha256", "source_language",
+        "task_layer", "field",
+        "field_categories", "affected_cases", "affected_languages",
+        "affected_layers", "affected_cohorts", "disagreement_ids",
+        "adjudication_ids", "evidence_count", "ambiguity_reasons",
+        "source_language_risks", "claim_impacts", "recommended_action",
+        "affected_sections", "recoding_required", "recommended_change",
+        "migration_implications", "disposition", "decision_rationale",
+        "reviewer", "decided_at", "decision_source"
+      ],
+      "properties": {
+        "recommendation_id": {
+          "type": "string",
+          "pattern": "^human-codebook-rec-[0-9a-f]{16}$"
+        },
+        "recommendation_sha256": { "$ref": "#/$defs/sha256" },
+        "source_language": { "$ref": "#/$defs/nonEmptyString" },
+        "task_layer": { "enum": ["identification", "cmt", "interpretation"] },
+        "field": { "$ref": "#/$defs/nonEmptyString" },
+        "field_categories": { "$ref": "#/$defs/stringArray" },
+        "affected_cases": { "$ref": "#/$defs/stringArray" },
+        "affected_languages": { "$ref": "#/$defs/stringArray" },
+        "affected_layers": { "$ref": "#/$defs/stringArray" },
+        "affected_cohorts": { "$ref": "#/$defs/stringArray" },
+        "disagreement_ids": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "pattern": "^human-disagreement-[0-9a-f]{16}$"
+          }
+        },
+        "adjudication_ids": { "$ref": "#/$defs/stringArray" },
+        "evidence_count": { "type": "integer", "minimum": 1 },
+        "ambiguity_reasons": { "$ref": "#/$defs/stringArray" },
+        "source_language_risks": { "$ref": "#/$defs/stringArray" },
+        "claim_impacts": { "$ref": "#/$defs/stringArray" },
+        "recommended_action": {
+          "enum": [
+            "none", "clarification", "revision", "training_update", "unresolved"
+          ]
+        },
+        "affected_sections": { "$ref": "#/$defs/stringArray" },
+        "recoding_required": { "type": "boolean" },
+        "recommended_change": { "$ref": "#/$defs/nonEmptyString" },
+        "migration_implications": { "$ref": "#/$defs/nonEmptyString" },
+        "disposition": {
+          "enum": ["proposed", "accepted", "rejected", "deferred"]
+        },
+        "decision_rationale": { "$ref": "#/$defs/nonEmptyString" },
+        "reviewer": { "type": ["string", "null"] },
+        "decided_at": {
+          "type": ["string", "null"],
+          "format": "date-time"
+        },
+        "decision_source": {
+          "enum": ["generated-proposal", "human-decision-register"]
+        }
+      }
+    }
+  }
+}
