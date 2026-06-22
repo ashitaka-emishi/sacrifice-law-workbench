@@ -430,6 +430,10 @@ adjudicator records accepted, rejected, deferred, or unresolved dispositions
 with rationale, evidence consulted, confidence, codebook implications,
 correction candidacy, and affected claims.
 
+The deterministic prioritization policy, packet-integrity checks, claim/model
+summary boundaries, and stable queue identifiers are documented in
+[human adjudication queue generation](human-adjudication-queue.md).
+
 Adjudication resolves a study disagreement; it does not erase the original
 coder values or change pre-adjudication statistics. Unresolved decisions remain
 visible and may keep publication claims draft.
