@@ -148,6 +148,16 @@ class HumanAdjudicationDecisionSchemaTest(unittest.TestCase):
         )
         self.assertTrue(errors(deferred))
 
+        cluster = terminal_base("accepted")
+        cluster["decisions"][0].update(
+            {
+                "field": "cmt.cluster_id",
+                "selected_basis": "left_coder",
+                "adjudicated_value": None,
+            }
+        )
+        self.assertEqual([], errors(cluster))
+
     def test_correction_candidate_cannot_promote_or_write_directly(self) -> None:
         value = terminal_base("accepted")
         decision = value["decisions"][0]

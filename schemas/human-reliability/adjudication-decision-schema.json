@@ -192,7 +192,7 @@
         "target_id": { "$ref": "#/$defs/nonEmptyString" },
         "field": { "$ref": "#/$defs/nonEmptyString" },
         "current_value": {},
-        "proposed_value": { "$ref": "#/$defs/decisionValue" }
+        "proposed_value": {}
       }
     },
     "correctionCandidate": {
@@ -363,9 +363,26 @@
               "selected_basis": {
                 "enum": ["left_coder", "right_coder", "reference", "new_value"]
               },
-              "adjudicated_value": { "$ref": "#/$defs/decisionValue" },
               "confidence": { "type": "number", "minimum": 0, "maximum": 1 }
-            }
+            },
+            "allOf": [
+              {
+                "if": {
+                  "properties": { "field": { "const": "cmt.cluster_id" } },
+                  "required": ["field"]
+                },
+                "then": {
+                  "properties": {
+                    "adjudicated_value": { "type": ["string", "null"] }
+                  }
+                },
+                "else": {
+                  "properties": {
+                    "adjudicated_value": { "$ref": "#/$defs/decisionValue" }
+                  }
+                }
+              }
+            ]
           }
         },
         {

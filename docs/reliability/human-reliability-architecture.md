@@ -443,6 +443,10 @@ evidence record, codebook/claim consequences, and no-promotion correction
 candidate contract are defined in
 [human adjudication decision contract](human-adjudication-decision-contract.md).
 
+Immutable registration, frozen-queue reconciliation, normalized unresolved
+results, and dedicated correction-candidate output are documented in
+[human adjudication ingestion](human-adjudication-ingestion.md).
+
 ### 11. Correction candidacy and promotion
 
 An adjudication may emit a correction candidate beneath
