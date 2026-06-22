@@ -438,6 +438,11 @@ Adjudication resolves a study disagreement; it does not erase the original
 coder values or change pre-adjudication statistics. Unresolved decisions remain
 visible and may keep publication claims draft.
 
+The authoritative envelope, status invariants, adjudicator qualification,
+evidence record, codebook/claim consequences, and no-promotion correction
+candidate contract are defined in
+[human adjudication decision contract](human-adjudication-decision-contract.md).
+
 ### 11. Correction candidacy and promotion
 
 An adjudication may emit a correction candidate beneath
