@@ -1,0 +1,198 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://sacrifice-law-workbench.local/schemas/human-reliability/disagreement-log-schema.json",
+  "title": "Classified human-coder disagreement log",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version", "case_id", "cohort_id", "cohort_version",
+    "source_language", "task_layer", "packet_id", "generator",
+    "input_artifacts", "summary", "disagreements"
+  ],
+  "properties": {
+    "schema_version": { "const": "1.0.0" },
+    "case_id": { "$ref": "#/$defs/nonEmptyString" },
+    "cohort_id": { "$ref": "#/$defs/nonEmptyString" },
+    "cohort_version": { "$ref": "#/$defs/nonEmptyString" },
+    "source_language": {
+      "type": "string",
+      "pattern": "^[A-Za-z]{2,3}(?:-[A-Za-z0-9]{2,8})*$"
+    },
+    "task_layer": { "enum": ["identification", "cmt", "interpretation"] },
+    "packet_id": { "$ref": "#/$defs/nonEmptyString" },
+    "generator": { "$ref": "#/$defs/generator" },
+    "input_artifacts": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "agreement", "reference_comparison", "packet_manifest", "sample_manifest"
+      ],
+      "properties": {
+        "agreement": { "$ref": "#/$defs/artifact" },
+        "reference_comparison": { "$ref": "#/$defs/artifact" },
+        "packet_manifest": { "$ref": "#/$defs/artifact" },
+        "sample_manifest": { "$ref": "#/$defs/artifact" }
+      }
+    },
+    "summary": { "$ref": "#/$defs/summary" },
+    "disagreements": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/disagreement" }
+    }
+  },
+  "$defs": {
+    "nonEmptyString": { "type": "string", "minLength": 1 },
+    "sha256": { "type": "string", "pattern": "^sha256:[0-9a-f]{64}$" },
+    "stringArray": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/nonEmptyString" },
+      "uniqueItems": true
+    },
+    "generator": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["script", "version", "script_hash", "code_revision"],
+      "properties": {
+        "script": { "const": "scripts/human_reliability/classify_disagreements.py" },
+        "version": { "const": "1.0.0" },
+        "script_hash": { "$ref": "#/$defs/sha256" },
+        "code_revision": { "$ref": "#/$defs/nonEmptyString" }
+      }
+    },
+    "artifact": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["source", "sha256", "generator_script", "generator_script_hash"],
+      "properties": {
+        "source": { "$ref": "#/$defs/nonEmptyString" },
+        "sha256": { "$ref": "#/$defs/sha256" },
+        "generator_script": { "type": ["string", "null"] },
+        "generator_script_hash": {
+          "type": ["string", "null"],
+          "pattern": "^sha256:[0-9a-f]{64}$"
+        }
+      }
+    },
+    "countMap": {
+      "type": "object",
+      "additionalProperties": { "type": "integer", "minimum": 0 }
+    },
+    "summary": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "total_disagreements", "by_category", "by_claim_impact",
+        "by_priority", "by_source_language_risk",
+        "possible_codebook_ambiguity_count", "major_claim_impact_count"
+      ],
+      "properties": {
+        "total_disagreements": { "type": "integer", "minimum": 0 },
+        "by_category": { "$ref": "#/$defs/countMap" },
+        "by_claim_impact": { "$ref": "#/$defs/countMap" },
+        "by_priority": { "$ref": "#/$defs/countMap" },
+        "by_source_language_risk": { "$ref": "#/$defs/countMap" },
+        "possible_codebook_ambiguity_count": { "type": "integer", "minimum": 0 },
+        "major_claim_impact_count": { "type": "integer", "minimum": 0 }
+      }
+    },
+    "coderValue": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["coder_id", "value"],
+      "properties": {
+        "coder_id": { "$ref": "#/$defs/nonEmptyString" },
+        "value": {}
+      }
+    },
+    "reference": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["status", "value", "authority"],
+      "properties": {
+        "status": { "enum": ["available", "unavailable", "not_comparable"] },
+        "value": {},
+        "authority": {
+          "type": ["string", "null"],
+          "enum": [null, "accepted", "reviewed", "reviewable_reference"]
+        }
+      }
+    },
+    "sourceLanguageRisk": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["level", "reasons"],
+      "properties": {
+        "level": { "enum": ["low", "material", "high"] },
+        "reasons": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "$ref": "#/$defs/nonEmptyString" }
+        }
+      }
+    },
+    "fieldCategory": {
+      "enum": [
+        "identification", "boundary", "semantics", "domains", "clusters",
+        "interpretation", "violence_obligation", "agency_absence",
+        "confidence", "scope_disposition"
+      ]
+    },
+    "disagreement": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "disagreement_id", "source_pattern_id", "item_id", "document_id",
+        "sentence_id", "reference_id", "unit_id", "field", "category",
+        "field_category", "agreement_pattern", "coder_values", "reference",
+        "design_roles", "provenance_risks", "source_language_risk",
+        "claim_impact", "major_claim_impact", "possible_codebook_ambiguity",
+        "codebook_ambiguity_reasons", "adjudication_priority",
+        "adjudication_recommended", "review_question"
+      ],
+      "properties": {
+        "disagreement_id": {
+          "type": "string",
+          "pattern": "^human-disagreement-[0-9a-f]{16}$"
+        },
+        "source_pattern_id": { "$ref": "#/$defs/nonEmptyString" },
+        "item_id": { "$ref": "#/$defs/nonEmptyString" },
+        "document_id": { "$ref": "#/$defs/nonEmptyString" },
+        "sentence_id": { "type": ["string", "null"] },
+        "reference_id": { "$ref": "#/$defs/nonEmptyString" },
+        "unit_id": { "type": ["string", "null"] },
+        "field": { "$ref": "#/$defs/nonEmptyString" },
+        "category": {
+          "oneOf": [
+            { "$ref": "#/$defs/fieldCategory" },
+            { "const": "reference_challenge" }
+          ]
+        },
+        "field_category": { "$ref": "#/$defs/fieldCategory" },
+        "agreement_pattern": {
+          "enum": [
+            "both_against_reference", "split_with_reference",
+            "split_against_both", "uncertain_vs_confident",
+            "reference_unavailable"
+          ]
+        },
+        "coder_values": {
+          "type": "array",
+          "minItems": 2,
+          "maxItems": 2,
+          "items": { "$ref": "#/$defs/coderValue" }
+        },
+        "reference": { "$ref": "#/$defs/reference" },
+        "design_roles": { "$ref": "#/$defs/stringArray" },
+        "provenance_risks": { "$ref": "#/$defs/stringArray" },
+        "source_language_risk": { "$ref": "#/$defs/sourceLanguageRisk" },
+        "claim_impact": { "enum": ["ordinary", "moderate", "high"] },
+        "major_claim_impact": { "type": "boolean" },
+        "possible_codebook_ambiguity": { "type": "boolean" },
+        "codebook_ambiguity_reasons": { "$ref": "#/$defs/stringArray" },
+        "adjudication_priority": { "enum": ["low", "medium", "high"] },
+        "adjudication_recommended": { "const": true },
+        "review_question": { "$ref": "#/$defs/nonEmptyString" }
+      }
+    }
+  }
+}

@@ -420,6 +420,9 @@ Categories cover identification, lexical boundary, contextual/basic meaning,
 domains, mappings, clusters, interpretation, violence/obligation,
 agency/absence, confidence, uncertainty, missing context, and source quality.
 
+The executable taxonomy, escalation rules, and coordinator-manifest boundary
+are documented in [human coder disagreement classification](human-disagreement-classification.md).
+
 ### 10. Adjudication
 
 A versioned queue is frozen from the disagreement log. An authorized
