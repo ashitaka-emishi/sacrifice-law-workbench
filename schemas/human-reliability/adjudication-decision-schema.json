@@ -1,0 +1,436 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://sacrifice-law-workbench.local/schemas/human-reliability/adjudication-decision-schema.json",
+  "title": "Independent human adjudication decision submission",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version", "adjudication_submission_id", "case_id", "cohort_id",
+    "cohort_version", "source_language", "task_layer", "queue_snapshot",
+    "adjudicator", "submitted_at", "decisions"
+  ],
+  "properties": {
+    "schema_version": { "const": "1.0.0" },
+    "adjudication_submission_id": {
+      "type": "string",
+      "pattern": "^adjudication-submission-[A-Za-z0-9._-]+$"
+    },
+    "case_id": { "$ref": "#/$defs/nonEmptyString" },
+    "cohort_id": { "$ref": "#/$defs/nonEmptyString" },
+    "cohort_version": { "$ref": "#/$defs/nonEmptyString" },
+    "source_language": { "$ref": "#/$defs/languageTag" },
+    "task_layer": { "enum": ["identification", "cmt", "interpretation"] },
+    "queue_snapshot": { "$ref": "#/$defs/queueSnapshot" },
+    "adjudicator": { "$ref": "#/$defs/adjudicator" },
+    "submitted_at": { "type": "string", "format": "date-time" },
+    "decisions": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "#/$defs/decision" }
+    }
+  },
+  "$defs": {
+    "nonEmptyString": { "type": "string", "minLength": 1 },
+    "nullableString": { "type": ["string", "null"] },
+    "languageTag": {
+      "type": "string",
+      "pattern": "^[A-Za-z]{2,3}(?:-[A-Za-z0-9]{2,8})*$"
+    },
+    "sha256": { "type": "string", "pattern": "^sha256:[0-9a-f]{64}$" },
+    "stringArray": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": { "$ref": "#/$defs/nonEmptyString" }
+    },
+    "decisionValue": {
+      "not": { "type": "null" }
+    },
+    "queueSnapshot": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "queue_version", "queue_schema_version", "queue_source", "queue_sha256",
+        "queue_generator_script", "queue_generator_version",
+        "queue_generator_script_hash", "queue_code_revision", "frozen_at"
+      ],
+      "properties": {
+        "queue_version": { "$ref": "#/$defs/nonEmptyString" },
+        "queue_schema_version": { "const": "1.0.0" },
+        "queue_source": {
+          "type": "string",
+          "pattern": "^quality/human-reliability/comparisons/[A-Za-z0-9._-]+/adjudication-queue\\.json$"
+        },
+        "queue_sha256": { "$ref": "#/$defs/sha256" },
+        "queue_generator_script": {
+          "const": "scripts/human_reliability/generate_adjudication_queue.py"
+        },
+        "queue_generator_version": { "const": "1.0.0" },
+        "queue_generator_script_hash": { "$ref": "#/$defs/sha256" },
+        "queue_code_revision": { "$ref": "#/$defs/nonEmptyString" },
+        "frozen_at": { "type": "string", "format": "date-time" }
+      }
+    },
+    "adjudicator": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "adjudicator_id", "role", "authorization_id",
+        "independence_attested", "primary_coder_for_cohort",
+        "sole_adjudicator", "source_language_qualified", "conflict_status",
+        "conflict_details"
+      ],
+      "properties": {
+        "adjudicator_id": { "$ref": "#/$defs/nonEmptyString" },
+        "role": { "const": "authorized_human_adjudicator" },
+        "authorization_id": { "$ref": "#/$defs/nonEmptyString" },
+        "independence_attested": { "const": true },
+        "primary_coder_for_cohort": { "type": "boolean" },
+        "sole_adjudicator": { "type": "boolean" },
+        "source_language_qualified": { "const": true },
+        "conflict_status": {
+          "enum": ["none_declared", "declared_and_managed"]
+        },
+        "conflict_details": { "$ref": "#/$defs/nullableString" }
+      },
+      "allOf": [
+        {
+          "if": {
+            "properties": { "conflict_status": { "const": "none_declared" } },
+            "required": ["conflict_status"]
+          },
+          "then": {
+            "properties": { "conflict_details": { "type": "null" } }
+          },
+          "else": {
+            "properties": {
+              "conflict_details": { "$ref": "#/$defs/nonEmptyString" }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "primary_coder_for_cohort": { "const": true }
+            },
+            "required": ["primary_coder_for_cohort"]
+          },
+          "then": {
+            "properties": {
+              "sole_adjudicator": { "const": false },
+              "conflict_status": { "const": "declared_and_managed" },
+              "conflict_details": { "$ref": "#/$defs/nonEmptyString" }
+            }
+          }
+        }
+      ]
+    },
+    "evidence": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["evidence_id", "evidence_type", "source", "sha256", "note"],
+      "properties": {
+        "evidence_id": { "$ref": "#/$defs/nonEmptyString" },
+        "evidence_type": {
+          "enum": [
+            "queue_source_text", "lexical_context", "coder_value",
+            "reference_annotation", "historical_semantics", "claim_trace",
+            "codebook", "model_summary", "other"
+          ]
+        },
+        "source": { "$ref": "#/$defs/nonEmptyString" },
+        "sha256": {
+          "type": ["string", "null"],
+          "pattern": "^sha256:[0-9a-f]{64}$"
+        },
+        "note": { "$ref": "#/$defs/nonEmptyString" }
+      }
+    },
+    "codebookNeed": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["status", "affected_sections", "rationale", "recoding_required"],
+      "properties": {
+        "status": {
+          "enum": ["none", "clarification", "revision", "training_update", "unresolved"]
+        },
+        "affected_sections": { "$ref": "#/$defs/stringArray" },
+        "rationale": { "$ref": "#/$defs/nonEmptyString" },
+        "recoding_required": { "type": "boolean" }
+      },
+      "allOf": [
+        {
+          "if": {
+            "properties": { "status": { "const": "none" } },
+            "required": ["status"]
+          },
+          "then": {
+            "properties": {
+              "affected_sections": { "maxItems": 0 },
+              "recoding_required": { "const": false }
+            }
+          },
+          "else": {
+            "properties": {
+              "affected_sections": { "minItems": 1 }
+            }
+          }
+        }
+      ]
+    },
+    "correctionTarget": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "canonical_artifact", "target_id", "field", "current_value",
+        "proposed_value"
+      ],
+      "properties": {
+        "canonical_artifact": {
+          "type": "string",
+          "pattern": "^(?!.*\\.\\.)cases/[A-Za-z0-9._-]+/(corpus|analysis|metadata)/[A-Za-z0-9._/-]+\\.(json|csv|md)$"
+        },
+        "target_id": { "$ref": "#/$defs/nonEmptyString" },
+        "field": { "$ref": "#/$defs/nonEmptyString" },
+        "current_value": {},
+        "proposed_value": { "$ref": "#/$defs/decisionValue" }
+      }
+    },
+    "correctionCandidate": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "status", "candidate_id", "target", "rationale",
+        "promotion_status", "promotion_id", "direct_write_permitted"
+      ],
+      "properties": {
+        "status": { "enum": ["not_candidate", "candidate", "deferred"] },
+        "candidate_id": {
+          "type": ["string", "null"],
+          "pattern": "^correction-candidate-[A-Za-z0-9._-]+$"
+        },
+        "target": {
+          "oneOf": [
+            { "type": "null" },
+            { "$ref": "#/$defs/correctionTarget" }
+          ]
+        },
+        "rationale": { "$ref": "#/$defs/nonEmptyString" },
+        "promotion_status": { "const": "pending_separate_authorization" },
+        "promotion_id": { "type": "null" },
+        "direct_write_permitted": { "const": false }
+      },
+      "allOf": [
+        {
+          "if": {
+            "properties": { "status": { "const": "candidate" } },
+            "required": ["status"]
+          },
+          "then": {
+            "properties": {
+              "candidate_id": {
+                "type": "string",
+                "pattern": "^correction-candidate-[A-Za-z0-9._-]+$"
+              },
+              "target": { "$ref": "#/$defs/correctionTarget" }
+            }
+          },
+          "else": {
+            "properties": {
+              "candidate_id": { "type": "null" },
+              "target": { "type": "null" }
+            }
+          }
+        }
+      ]
+    },
+    "affectedClaim": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["claim_id", "disposition", "rationale"],
+      "properties": {
+        "claim_id": { "$ref": "#/$defs/nonEmptyString" },
+        "disposition": {
+          "enum": ["no_change", "review_required", "hold_pending_resolution"]
+        },
+        "rationale": { "$ref": "#/$defs/nonEmptyString" }
+      }
+    },
+    "followUp": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["required", "actions", "owner_role", "due_at"],
+      "properties": {
+        "required": { "type": "boolean" },
+        "actions": { "$ref": "#/$defs/stringArray" },
+        "owner_role": { "$ref": "#/$defs/nullableString" },
+        "due_at": {
+          "type": ["string", "null"],
+          "format": "date-time"
+        }
+      },
+      "allOf": [
+        {
+          "if": {
+            "properties": { "required": { "const": true } },
+            "required": ["required"]
+          },
+          "then": {
+            "properties": {
+              "actions": { "minItems": 1 },
+              "owner_role": { "$ref": "#/$defs/nonEmptyString" }
+            }
+          },
+          "else": {
+            "properties": {
+              "actions": { "maxItems": 0 },
+              "owner_role": { "type": "null" },
+              "due_at": { "type": "null" }
+            }
+          }
+        }
+      ]
+    },
+    "decision": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "adjudication_id", "queue_id", "disagreement_id", "item_id",
+        "reference_id", "unit_id", "field", "status", "selected_basis",
+        "adjudicated_value", "rationale", "evidence_consulted", "confidence",
+        "codebook_need", "correction_candidate", "affected_claims",
+        "affected_claim_dimensions", "follow_up", "decided_at"
+      ],
+      "properties": {
+        "adjudication_id": {
+          "type": "string",
+          "pattern": "^adjudication-[A-Za-z0-9._-]+$"
+        },
+        "queue_id": {
+          "type": "string",
+          "pattern": "^human-queue-[0-9a-f]{16}$"
+        },
+        "disagreement_id": {
+          "type": "string",
+          "pattern": "^human-disagreement-[0-9a-f]{16}$"
+        },
+        "item_id": { "$ref": "#/$defs/nonEmptyString" },
+        "reference_id": { "$ref": "#/$defs/nonEmptyString" },
+        "unit_id": { "type": ["string", "null"] },
+        "field": { "$ref": "#/$defs/nonEmptyString" },
+        "status": { "enum": ["accepted", "rejected", "deferred", "unresolved"] },
+        "selected_basis": {
+          "enum": [
+            "left_coder", "right_coder", "reference", "new_value",
+            "retain_current_reference", "no_change", "out_of_scope",
+            "no_resolution"
+          ]
+        },
+        "adjudicated_value": {
+          "oneOf": [
+            { "type": "null" },
+            { "$ref": "#/$defs/decisionValue" }
+          ]
+        },
+        "rationale": { "$ref": "#/$defs/nonEmptyString" },
+        "evidence_consulted": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "$ref": "#/$defs/evidence" }
+        },
+        "confidence": {
+          "type": ["number", "null"],
+          "minimum": 0,
+          "maximum": 1
+        },
+        "codebook_need": { "$ref": "#/$defs/codebookNeed" },
+        "correction_candidate": { "$ref": "#/$defs/correctionCandidate" },
+        "affected_claims": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/affectedClaim" }
+        },
+        "affected_claim_dimensions": { "$ref": "#/$defs/stringArray" },
+        "follow_up": { "$ref": "#/$defs/followUp" },
+        "decided_at": { "type": "string", "format": "date-time" }
+      },
+      "allOf": [
+        {
+          "if": {
+            "properties": { "status": { "const": "accepted" } },
+            "required": ["status"]
+          },
+          "then": {
+            "properties": {
+              "selected_basis": {
+                "enum": ["left_coder", "right_coder", "reference", "new_value"]
+              },
+              "adjudicated_value": { "$ref": "#/$defs/decisionValue" },
+              "confidence": { "type": "number", "minimum": 0, "maximum": 1 }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": { "status": { "const": "rejected" } },
+            "required": ["status"]
+          },
+          "then": {
+            "properties": {
+              "selected_basis": {
+                "enum": [
+                  "retain_current_reference", "no_change", "out_of_scope"
+                ]
+              },
+              "adjudicated_value": { "type": "null" },
+              "confidence": { "type": "number", "minimum": 0, "maximum": 1 },
+              "correction_candidate": {
+                "allOf": [
+                  { "$ref": "#/$defs/correctionCandidate" },
+                  { "properties": { "status": { "const": "not_candidate" } } }
+                ]
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "status": { "enum": ["deferred", "unresolved"] }
+            },
+            "required": ["status"]
+          },
+          "then": {
+            "properties": {
+              "selected_basis": { "const": "no_resolution" },
+              "adjudicated_value": { "type": "null" },
+              "confidence": { "type": "null" },
+              "correction_candidate": {
+                "allOf": [
+                  { "$ref": "#/$defs/correctionCandidate" },
+                  {
+                    "properties": {
+                      "status": { "enum": ["not_candidate", "deferred"] }
+                    }
+                  }
+                ]
+              },
+              "follow_up": {
+                "allOf": [
+                  { "$ref": "#/$defs/followUp" },
+                  { "properties": { "required": { "const": true } } }
+                ]
+              }
+            }
+          }
+        }
+      ],
+      "not": {
+        "anyOf": [
+          { "required": ["promotion_id"] },
+          { "required": ["canonical_write"] },
+          { "required": ["reference_update"] },
+          { "required": ["accepted_artifact_path"] }
+        ]
+      }
+    }
+  }
+}
