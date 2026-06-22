@@ -11,6 +11,7 @@
     "human-reliability:packets": "python3 scripts/human_reliability/generate_packets.py",
     "human-reliability:ingest": "python3 scripts/human_reliability/ingest_submission.py",
     "human-reliability:agreement": "python3 scripts/human_reliability/compute_agreement.py",
+    "human-reliability:reference": "python3 scripts/human_reliability/compare_references.py",
     "test:model-reliability": "python3 -m unittest discover -s test -p 'test_model_reliability*.py' -v",
     "model-reliability": "python3 scripts/model_reliability/pipeline.py",
     "model-reliability:packets": "python3 scripts/model_reliability/pipeline.py packets",

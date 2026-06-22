@@ -407,6 +407,10 @@ eventual adjudicated value may be compared with the reference in a separate
 post-adjudication section, never substituted into the original coder-pair
 calculation.
 
+The executable reference authority rules, neutral alignment patterns, and
+post-adjudication separation are documented in
+[human coder to reference comparison](human-reference-comparison.md).
+
 ### 9. Disagreement classification
 
 Every substantive disagreement receives a stable ID, category, coder values,
