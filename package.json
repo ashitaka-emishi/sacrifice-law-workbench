@@ -22,6 +22,7 @@
     "human-reliability:run": "python3 scripts/human_reliability/pipeline.py run",
     "human-reliability:compare": "python3 scripts/human_reliability/pipeline.py compare",
     "human-reliability:status": "python3 scripts/human_reliability/pipeline.py status",
+    "human-reliability:case-status": "python3 scripts/human_reliability/status.py",
     "test:model-reliability": "python3 -m unittest discover -s test -p 'test_model_reliability*.py' -v",
     "model-reliability": "python3 scripts/model_reliability/pipeline.py",
     "model-reliability:packets": "python3 scripts/model_reliability/pipeline.py packets",

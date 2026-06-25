@@ -33,6 +33,7 @@ from pipeline_common import (
     valid_cluster_ids,
 )
 from model_reliability.status import evaluate_case
+from human_reliability.status import evaluate_case as evaluate_human_case
 
 MANIFEST_REQUIRED = [
     "document_id",
@@ -1295,6 +1296,28 @@ class Validator:
                 (
                     f"{reliability['counts']['invalid_submissions']} invalid "
                     "model submission(s) are registered"
+                ),
+            )
+        human_reliability = evaluate_human_case(ROOT, case_id)
+        for message in human_reliability["errors"]:
+            self.error(
+                case_dir(case_id) / "quality" / "human-reliability",
+                message,
+            )
+        if human_reliability["counts"]["invalid_submissions"]:
+            self.error(
+                case_dir(case_id) / "quality" / "human-reliability",
+                (
+                    f"{human_reliability['counts']['invalid_submissions']} invalid "
+                    "human submission(s) are registered"
+                ),
+            )
+        if human_reliability["counts"]["invalid_adjudications"]:
+            self.error(
+                case_dir(case_id) / "quality" / "human-reliability",
+                (
+                    f"{human_reliability['counts']['invalid_adjudications']} "
+                    "invalid adjudication submission(s) are registered"
                 ),
             )
 

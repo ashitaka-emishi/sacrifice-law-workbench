@@ -1,8 +1,8 @@
 {
   "version": "1.0",
-  "generated_at": "2026-06-19T22:23:26",
+  "generated_at": "2026-06-25T19:44:42",
   "status": "pass",
-  "policy": "Placeholder public pages must be visibly marked as draft, provisional, or pending.",
+  "policy": "Placeholder public pages must be visibly marked as draft, provisional, or pending; incomplete human reliability cannot be claimed as publication-ready.",
   "blockers": [],
   "pages": [
     {
@@ -185,5 +185,38 @@
       "has_placeholder_signal": false,
       "has_draft_or_pending_signal": true
     }
-  ]
+  ],
+  "human_reliability": {
+    "policy": "Absent or designed human reliability may be disclosed as not yet executed; partial, invalid, or awaiting-adjudication states block publication-ready reliability claims.",
+    "case_statuses": [
+      {
+        "case_id": "am-rev",
+        "state": "absent",
+        "valid": true,
+        "warning_count": 1,
+        "error_count": 0
+      },
+      {
+        "case_id": "hitler",
+        "state": "absent",
+        "valid": true,
+        "warning_count": 1,
+        "error_count": 0
+      },
+      {
+        "case_id": "lincoln",
+        "state": "absent",
+        "valid": true,
+        "warning_count": 1,
+        "error_count": 0
+      },
+      {
+        "case_id": "napoleon",
+        "state": "absent",
+        "valid": true,
+        "warning_count": 1,
+        "error_count": 0
+      }
+    ]
+  }
 }
