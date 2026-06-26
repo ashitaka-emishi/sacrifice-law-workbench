@@ -143,6 +143,18 @@ def _restore(
     return restore_from_snapshot, before
 
 
+def _protected_roots(case_root: Path) -> tuple[Path, ...]:
+    """Return case paths that human-reliability tools must not mutate."""
+
+    writable = (case_root / WRITABLE_SUBTREE).resolve()
+    roots: list[Path] = []
+    for child in case_root.iterdir():
+        if child.resolve() == writable:
+            continue
+        roots.append(child.absolute())
+    return tuple(roots)
+
+
 @contextmanager
 def immutable_accepted_artifact_guard(root: Path, case_id: str) -> Iterator[None]:
     """Restore and reject writes outside the human-reliability work layer."""
@@ -154,7 +166,9 @@ def immutable_accepted_artifact_guard(root: Path, case_id: str) -> Iterator[None
     ignored_roots = tuple(
         (case_root / path).resolve() for path in _CASE_PROTECTED_IGNORE_ROOTS
     )
-    restore_from_snapshot, before = _restore((case_root,), ignored_roots)
+    restore_from_snapshot, before = _restore(
+        _protected_roots(case_root), ignored_roots
+    )
     try:
         yield
     finally:
