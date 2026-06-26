@@ -35,6 +35,8 @@ website:
             text: Core Methodology
           - href: model-reliability-methodology.qmd
             text: Multi-Model Stress Test
+          - href: human-reliability-methodology.qmd
+            text: Human Reliability Methodology
           - href: model-reliability-results.qmd
             text: Model Reliability Results
           - href: human-adjudication-results.qmd
@@ -72,6 +74,8 @@ website:
             text: Core Methodology
           - href: model-reliability-methodology.qmd
             text: Multi-Model Stress Test
+          - href: human-reliability-methodology.qmd
+            text: Human Reliability Methodology
           - href: model-reliability-results.qmd
             text: Model Reliability Results
           - href: human-adjudication-results.qmd

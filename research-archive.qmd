@@ -23,6 +23,7 @@ available for readers who want to inspect how the argument was built.
 - [Corpus Limitations](corpus-limitations.qmd)
 - [Validation Protocol](validation-protocol.qmd)
 - [Comparative Analysis Protocol](cases/x-case/protocol/comparative-analysis-protocol.md)
+- [Human Reliability and Adjudication Methodology](human-reliability-methodology.qmd)
 
 ## Evidence and review package
 

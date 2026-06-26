@@ -16,7 +16,7 @@ annotation may support a case-level or cross-case claim.
 | Review metaphor-identification rules | [MIPVU Annotation Guide](MIPVU_ANNOTATION_GUIDE.md) |
 | Inspect corpus selection, provenance, and rights | [Corpus and Sources](starter-corpus-proposal.qmd) and [Corpus Rights Policy](corpus-rights-policy.qmd) |
 | Understand blind multi-model annotation diagnostics | [Multi-Model Annotation Stress Test](model-reliability-methodology.qmd) |
-| Understand planned blind human double-coding and adjudication | [Human Reliability and Adjudication Architecture](docs/reliability/human-reliability-architecture.md) |
+| Understand blind human double-coding and adjudication | [Human Reliability and Adjudication Methodology](human-reliability-methodology.qmd) and [architecture detail](docs/reliability/human-reliability-architecture.md) |
 | Prepare a qualified human coder for calibration | [Human Coder Training Guide](docs/reliability/human-coder-training-guide.md) |
 | Calibrate source-language human coders | [Multilingual Human Coder Calibration Packets](docs/reliability/human-coder-calibration.md) |
 | Understand human reliability sample selection | [Stratified Human Reliability Sampling Strategy](docs/reliability/human-reliability-sampling-strategy.md) |
