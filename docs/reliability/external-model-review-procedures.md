@@ -4,6 +4,15 @@ Use this guide to run a blind packet manually in an external model system and
 return the result to the workbench. No API key or programming is required.
 Complete one model system and one task layer at a time.
 
+If an API-based fresh session is appropriate for the selected source rights,
+`scripts/model_reliability/run_external_model.py` can perform the same blind
+handoff for OpenAI or Anthropic Claude models. The runner writes local ignored
+submission JSON under `reports/tmp/model-reliability/`, validates the returned
+JSON, and still requires explicit ingestion as a separate step. Use the manual
+procedure below when API transmission is not permitted, when a provider UI is
+the reviewed execution environment, or when you need an operator-controlled
+format repair.
+
 External model review is a diagnostic stress test. It is not human
 inter-annotator reliability, human scholarly review, adjudication, or evidence
 for a historical or interpretive claim. A model response can create a review
@@ -236,6 +245,55 @@ python3 scripts/model_reliability/pipeline.py run --case <case_id>
 This creates diagnostics and human review candidates only. Model agreement is
 not adjudication, model disagreement does not invalidate the reference, and no
 model-reliability command may overwrite accepted artifacts.
+
+## Optional API runner
+
+The optional runner uses only environment variables for credentials and does
+not serialize secrets into submissions:
+
+```bash
+export OPENAI_API_KEY=...
+npm run model-reliability:external-run -- \
+  --case lincoln \
+  --task-layer cmt \
+  --provider openai \
+  --model <model-name> \
+  --setting temperature=0 \
+  --setting max_output_tokens=12000
+```
+
+```bash
+export ANTHROPIC_API_KEY=...
+npm run model-reliability:external-run -- \
+  --case lincoln \
+  --task-layer cmt \
+  --provider anthropic \
+  --model <model-name> \
+  --setting temperature=0 \
+  --setting max_tokens=12000
+```
+
+The runner supplies no tools, browsing, retrieval, vector stores, repository
+context, accepted annotations, prior outputs, review queues, analysis files, or
+publication claims. Provider APIs do not expose the same user-interface memory
+controls as chat products; the runner documents this by recording non-secret
+settings that tools, browsing, retrieval, and memory were not supplied.
+
+Before calling a provider, inspect the exact payload with:
+
+```bash
+npm run model-reliability:external-run -- \
+  --case lincoln \
+  --task-layer cmt \
+  --provider openai \
+  --model <model-name> \
+  --dry-run
+```
+
+If the returned JSON validates, ingest the local output path with
+`pipeline.py ingest`. If validation fails, review the `.validation-errors.txt`
+file. Only transport or formatting repairs may be requested; do not edit the
+model's substantive decisions to make validation pass.
 
 ## Rights and availability after ingestion
 
