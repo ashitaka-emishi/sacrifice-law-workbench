@@ -1,0 +1,149 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Human reliability execution status",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "case_id",
+    "generator",
+    "state",
+    "valid",
+    "counts",
+    "artifacts",
+    "cohorts",
+    "warnings",
+    "errors"
+  ],
+  "properties": {
+    "schema_version": { "const": "1.0.0" },
+    "case_id": { "type": "string", "minLength": 1 },
+    "generator": { "const": "scripts/human_reliability/status.py" },
+    "state": {
+      "enum": [
+        "absent",
+        "designed",
+        "partial",
+        "invalid",
+        "awaiting-adjudication",
+        "complete"
+      ]
+    },
+    "valid": { "type": "boolean" },
+    "counts": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "cohorts",
+        "submissions",
+        "valid_runs",
+        "invalid_submissions",
+        "adjudication_submissions",
+        "invalid_adjudications",
+        "unresolved_adjudications",
+        "correction_candidates"
+      ],
+      "properties": {
+        "cohorts": { "type": "integer", "minimum": 0 },
+        "submissions": { "type": "integer", "minimum": 0 },
+        "valid_runs": { "type": "integer", "minimum": 0 },
+        "invalid_submissions": { "type": "integer", "minimum": 0 },
+        "adjudication_submissions": { "type": "integer", "minimum": 0 },
+        "invalid_adjudications": { "type": "integer", "minimum": 0 },
+        "unresolved_adjudications": { "type": "integer", "minimum": 0 },
+        "correction_candidates": { "type": "integer", "minimum": 0 }
+      }
+    },
+    "artifacts": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "cohorts",
+        "packets",
+        "ingestion_status",
+        "agreement",
+        "reference_comparison",
+        "disagreements",
+        "adjudication_queue",
+        "adjudication_results",
+        "correction_candidates",
+        "report",
+        "codebook_notes"
+      ],
+      "properties": {
+        "cohorts": { "type": "boolean" },
+        "packets": { "type": "boolean" },
+        "ingestion_status": { "type": "boolean" },
+        "agreement": { "type": "boolean" },
+        "reference_comparison": { "type": "boolean" },
+        "disagreements": { "type": "boolean" },
+        "adjudication_queue": { "type": "boolean" },
+        "adjudication_results": { "type": "boolean" },
+        "correction_candidates": { "type": "boolean" },
+        "report": { "type": "boolean" },
+        "codebook_notes": { "type": "boolean" }
+      }
+    },
+    "cohorts": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "cohort_id",
+          "cohort_version",
+          "source_language",
+          "task_layer",
+          "state",
+          "ingestion_state",
+          "adjudication_state",
+          "valid_primary_coders",
+          "valid_submission_count",
+          "invalid_submission_count",
+          "queue_count",
+          "unresolved_adjudication_count",
+          "correction_candidate_count"
+        ],
+        "properties": {
+          "cohort_id": { "type": "string", "minLength": 1 },
+          "cohort_version": { "type": "string", "minLength": 1 },
+          "source_language": { "type": "string", "minLength": 1 },
+          "task_layer": { "enum": ["identification", "cmt", "interpretation"] },
+          "state": {
+            "enum": [
+              "designed",
+              "partial",
+              "invalid",
+              "awaiting-adjudication",
+              "complete"
+            ]
+          },
+          "ingestion_state": {
+            "enum": ["absent", "partial", "invalid", "complete"]
+          },
+          "adjudication_state": {
+            "enum": ["not_started", "complete", "unresolved"]
+          },
+          "valid_primary_coders": {
+            "type": "array",
+            "uniqueItems": true,
+            "items": { "type": "string", "minLength": 1 }
+          },
+          "valid_submission_count": { "type": "integer", "minimum": 0 },
+          "invalid_submission_count": { "type": "integer", "minimum": 0 },
+          "queue_count": { "type": "integer", "minimum": 0 },
+          "unresolved_adjudication_count": { "type": "integer", "minimum": 0 },
+          "correction_candidate_count": { "type": "integer", "minimum": 0 }
+        }
+      }
+    },
+    "warnings": {
+      "type": "array",
+      "items": { "type": "string", "minLength": 1 }
+    },
+    "errors": {
+      "type": "array",
+      "items": { "type": "string", "minLength": 1 }
+    }
+  }
+}

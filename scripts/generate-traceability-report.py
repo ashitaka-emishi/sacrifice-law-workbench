@@ -24,6 +24,7 @@ from pipeline_common import (
     segmented_path_for,
     write_json,
 )
+from human_reliability.status import evaluate_case as evaluate_human_reliability
 
 PACKAGE_DIR = ROOT / "publication"
 AUDIT_DIR = PACKAGE_DIR / "audit"
@@ -700,14 +701,42 @@ def build_public_site_readiness(generated_at: str) -> dict[str, Any]:
                 "has_draft_or_pending_signal": has_draft_signal,
             }
         )
+    human_statuses: list[dict[str, Any]] = []
+    for case_path in sorted((ROOT / "cases").iterdir()):
+        if not case_path.is_dir() or case_path.name == "x-case":
+            continue
+        status = evaluate_human_reliability(ROOT, case_path.name)
+        human_statuses.append(
+            {
+                "case_id": case_path.name,
+                "state": status["state"],
+                "valid": status["valid"],
+                "warning_count": len(status["warnings"]),
+                "error_count": len(status["errors"]),
+            }
+        )
+        if status["state"] in {"partial", "invalid", "awaiting-adjudication"}:
+            blockers.append(f"human-reliability:{case_path.name}:{status['state']}")
 
     report = {
         "version": "1.0",
         "generated_at": generated_at,
         "status": "pass" if not blockers else "needs-review",
-        "policy": "Placeholder public pages must be visibly marked as draft, provisional, or pending.",
+        "policy": (
+            "Placeholder public pages must be visibly marked as draft, "
+            "provisional, or pending; incomplete human reliability cannot be "
+            "claimed as publication-ready."
+        ),
         "blockers": blockers,
         "pages": rows,
+        "human_reliability": {
+            "policy": (
+                "Absent or designed human reliability may be disclosed as not "
+                "yet executed; partial, invalid, or awaiting-adjudication "
+                "states block publication-ready reliability claims."
+            ),
+            "case_statuses": human_statuses,
+        },
     }
     write_json(AUDIT_DIR / "public-site-readiness.json", report)
 
@@ -732,6 +761,13 @@ publication status.
 ## Page Signals
 
 {markdown_table(md_rows, ["path", "status"])}
+
+## Human Reliability Claim Gate
+
+Incomplete human reliability may be disclosed as pending, but it cannot be
+claimed as publication-ready.
+
+{markdown_table(human_statuses, ["case_id", "state", "valid", "warning_count", "error_count"])}
 """
     (PACKAGE_DIR / "public-site-readiness.md").write_text(text, encoding="utf-8")
     return report
