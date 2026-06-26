@@ -13,7 +13,7 @@ from typing import Any, Mapping, Sequence
 from jsonschema import Draft202012Validator, FormatChecker
 
 try:
-    from scripts.human_reliability.boundaries import safe_output_path
+    from scripts.human_reliability.boundaries import protect_accepted_artifacts, safe_output_path
     from scripts.human_reliability.compute_agreement import (
         SAFE_COMPONENT,
         _cohort_manifest_path,
@@ -27,7 +27,7 @@ try:
         sample_hash,
     )
 except ModuleNotFoundError:
-    from boundaries import safe_output_path  # type: ignore
+    from boundaries import protect_accepted_artifacts, safe_output_path  # type: ignore
     from compute_agreement import (  # type: ignore
         SAFE_COMPONENT,
         _cohort_manifest_path,
@@ -489,6 +489,7 @@ def write_disagreement_csv(path: Path, result: Mapping[str, Any]) -> None:
             )
 
 
+@protect_accepted_artifacts
 def compute_case_disagreements(
     root: Path,
     case_id: str,

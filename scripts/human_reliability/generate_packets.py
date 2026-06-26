@@ -15,9 +15,9 @@ from typing import Any, Iterable, Mapping
 from jsonschema import Draft202012Validator
 
 try:
-    from scripts.human_reliability.boundaries import safe_output_path
+    from scripts.human_reliability.boundaries import protect_accepted_artifacts, safe_output_path
 except ModuleNotFoundError:
-    from boundaries import safe_output_path  # type: ignore
+    from boundaries import protect_accepted_artifacts, safe_output_path  # type: ignore
 
 
 ROOT = Path(__file__).resolve().parents[2]
@@ -242,6 +242,7 @@ def write_if_changed(path: Path, data: bytes) -> None:
         path.write_bytes(data)
 
 
+@protect_accepted_artifacts
 def generate_packets(
     root: Path,
     case_id: str,

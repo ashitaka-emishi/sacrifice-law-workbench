@@ -15,9 +15,14 @@ from typing import Any, Mapping, Sequence
 from jsonschema import Draft202012Validator, FormatChecker
 
 try:
+    from scripts.human_reliability.boundaries import (
+        protect_accepted_artifacts,
+        safe_output_path,
+    )
     from scripts.human_reliability.generate_packets import sample_hash
     from scripts.human_reliability.ingest_submission import cohort_hash
 except ModuleNotFoundError:
+    from boundaries import protect_accepted_artifacts, safe_output_path  # type: ignore
     from generate_packets import sample_hash  # type: ignore
     from ingest_submission import cohort_hash  # type: ignore
 
@@ -638,6 +643,7 @@ Correction candidates require separate authorization before any canonical edit.
 """ + "\n".join(f"- {_cell(value)}" for value in report["limitations"]) + "\n"
 
 
+@protect_accepted_artifacts
 def generate_case_report(
     root: Path,
     case_id: str,
@@ -649,14 +655,13 @@ def generate_case_report(
     report = build_report(
         root, case_id, cohort_id, cohort_version, revision=revision
     )
-    output_root = (
-        root.resolve()
-        / "cases"
-        / case_id
-        / "quality"
-        / "human-reliability"
-        / "comparisons"
-        / f"{cohort_id}-{cohort_version}"
+    case_root = root.resolve() / "cases" / case_id
+    output_root = safe_output_path(
+        case_root,
+        (
+            "quality/human-reliability/comparisons/"
+            f"{cohort_id}-{cohort_version}"
+        ),
     )
     write_json(output_root / "human-reliability-report.json", report)
     (output_root / "human-reliability-report.md").write_text(

@@ -16,7 +16,7 @@ from typing import Any, Mapping, Sequence
 from jsonschema import Draft202012Validator, FormatChecker
 
 try:
-    from scripts.human_reliability.boundaries import safe_output_path
+    from scripts.human_reliability.boundaries import protect_accepted_artifacts, safe_output_path
     from scripts.human_reliability.compute_agreement import (
         AgreementError,
         FIELD_SPECS,
@@ -35,7 +35,7 @@ try:
     )
     from scripts.human_reliability.submission_contract import validate_submission
 except ModuleNotFoundError:
-    from boundaries import safe_output_path  # type: ignore
+    from boundaries import protect_accepted_artifacts, safe_output_path  # type: ignore
     from compute_agreement import (  # type: ignore
         AgreementError,
         FIELD_SPECS,
@@ -657,6 +657,7 @@ def write_pattern_csv(path: Path, result: Mapping[str, Any]) -> None:
             )
 
 
+@protect_accepted_artifacts
 def compute_case_reference_comparison(
     root: Path,
     case_id: str,
