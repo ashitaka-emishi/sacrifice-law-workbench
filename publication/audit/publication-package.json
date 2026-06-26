@@ -1,10 +1,10 @@
 {
   "version": "1.0",
   "case_id": "lincoln",
-  "generated_at": "2026-06-19T22:43:39",
+  "generated_at": "2026-06-26T10:37:57",
   "status": "draft-review-package",
   "source_issue": "#13",
-  "package_policy": "This package exposes the method, evidence, validation gate, AI-use statement, model-reliability disclosure, data-availability statement, and claim traceability needed for scholarly review.",
+  "package_policy": "This package exposes the method, evidence, validation gate, AI-use statement, model-reliability disclosure, data-availability statement, claim traceability, and human reliability status gates needed for scholarly review. Human reliability claims are limited to complete case/language/layer/cohort rows and remain separate from model agreement and historical corroboration.",
   "components": [
     {
       "component_id": "research-design",
@@ -223,6 +223,44 @@
       ]
     },
     {
+      "component_id": "human-reliability-methodology",
+      "label": "Human reliability methodology",
+      "purpose": "Defines blind human double-coding, adjudication, correction boundaries, and publication claim limits.",
+      "publication_status": "draft-review-package",
+      "path": "human-reliability-methodology.qmd",
+      "status": "available",
+      "file_count": 1,
+      "files": [
+        "human-reliability-methodology.qmd"
+      ]
+    },
+    {
+      "component_id": "human-adjudication-results",
+      "label": "Human adjudication results",
+      "purpose": "Publishes current human adjudication state, unresolved work, and correction-candidate consequences.",
+      "publication_status": "draft-review-package",
+      "path": "human-adjudication-results.qmd",
+      "status": "available",
+      "file_count": 1,
+      "files": [
+        "human-adjudication-results.qmd"
+      ]
+    },
+    {
+      "component_id": "human-reliability-status",
+      "label": "Human reliability status artifacts",
+      "purpose": "Machine-readable per-case human reliability execution status used to gate publication claims.",
+      "publication_status": "draft-review-package",
+      "path": "cases/*/quality/human-reliability/status.json",
+      "status": "available",
+      "file_count": 3,
+      "files": [
+        "cases/am-rev/quality/human-reliability/status.json",
+        "cases/lincoln/quality/human-reliability/status.json",
+        "cases/napoleon/quality/human-reliability/status.json"
+      ]
+    },
+    {
       "component_id": "data-availability",
       "label": "Data availability",
       "purpose": "Explains shareable data, rights status, and reuse cautions.",
@@ -276,6 +314,58 @@
     "blockers": [],
     "report_path": "publication/audit/public-site-readiness.json"
   },
+  "human_reliability": {
+    "policy": "Human reliability claims are scoped to complete cohort rows only. Absent, designed, partial, invalid, awaiting-adjudication, and unresolved states may be disclosed but cannot support publication-ready human reliability claims.",
+    "claim_status": "no-complete-human-reliability-cohorts",
+    "complete_cohorts": [],
+    "blocked_or_incomplete_cohorts": [],
+    "case_statuses": [
+      {
+        "case_id": "am-rev",
+        "state": "absent",
+        "valid": true,
+        "cohort_count": 0,
+        "valid_runs": 0,
+        "complete_cohort_count": 0,
+        "unresolved_adjudications": 0,
+        "warning_count": 1,
+        "error_count": 0
+      },
+      {
+        "case_id": "hitler",
+        "state": "absent",
+        "valid": true,
+        "cohort_count": 0,
+        "valid_runs": 0,
+        "complete_cohort_count": 0,
+        "unresolved_adjudications": 0,
+        "warning_count": 1,
+        "error_count": 0
+      },
+      {
+        "case_id": "lincoln",
+        "state": "absent",
+        "valid": true,
+        "cohort_count": 0,
+        "valid_runs": 0,
+        "complete_cohort_count": 0,
+        "unresolved_adjudications": 0,
+        "warning_count": 1,
+        "error_count": 0
+      },
+      {
+        "case_id": "napoleon",
+        "state": "absent",
+        "valid": true,
+        "cohort_count": 0,
+        "valid_runs": 0,
+        "complete_cohort_count": 0,
+        "unresolved_adjudications": 0,
+        "warning_count": 1,
+        "error_count": 0
+      }
+    ]
+  },
   "known_limitations": [
     "Trace rows are draft review aids, not final publication claims.",
     "Publication-grade historical citations remain required where historical notes say so.",
@@ -284,6 +374,9 @@
     "Historical alignment notes require publication-grade citations.",
     "Accepted annotations and prior human-review artifacts remain distinct from multi-model diagnostic outputs.",
     "Model agreement does not establish human inter-annotator reliability, scholarly reproducibility, or evidentiary correctness.",
-    "Model-reliability packets and responses inherit source-level rights and storage restrictions."
+    "Model-reliability packets and responses inherit source-level rights and storage restrictions.",
+    "No case, source-language, task-layer, or cohort may be described as having completed human reliability unless it appears in the complete human reliability cohort table.",
+    "Incomplete, partial, invalid, awaiting-adjudication, or unresolved human reliability states keep related reliability claims draft.",
+    "Human agreement, model agreement, adjudication, and historical corroboration remain separate publication claims."
   ]
 }
