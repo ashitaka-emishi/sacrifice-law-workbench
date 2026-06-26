@@ -557,6 +557,7 @@ def package_components(case_id: str) -> list[dict[str, Any]]:
         ("human-reliability-methodology", "Human reliability methodology", "human-reliability-methodology.qmd", "Defines blind human double-coding, adjudication, correction boundaries, and publication claim limits."),
         ("human-adjudication-results", "Human adjudication results", "human-adjudication-results.qmd", "Publishes current human adjudication state, unresolved work, and correction-candidate consequences."),
         ("human-reliability-status", "Human reliability status artifacts", "cases/*/quality/human-reliability/status.json", "Machine-readable per-case human reliability execution status used to gate publication claims.", True),
+        ("human-reliability-completion", "Human reliability completion gate", "docs/reliability/human-reliability-completion-checklist.md", "Defines the final training, calibration, two-coder, metrics, adjudication, protected-path, publication, and repository validation gate."),
         ("data-availability", "Data availability", "publication/data-availability.md", "Explains shareable data, rights status, and reuse cautions."),
         ("validation-gate", "Validation gate", "publication/validation-gate.md", "Documents the milestone-level rebuild, validation, and publication checks."),
         ("public-site-readiness", "Public-site readiness", "publication/public-site-readiness.md", "Shows draft/placeholder signals on public pages."),
@@ -764,6 +765,11 @@ audit package or public pages as review-ready.
 - Human reliability status currently records no complete
   case/language/layer/cohort rows; absent, partial, awaiting-adjudication, or
   unresolved states block publication-ready human reliability claims.
+- The human reliability completion checklist requires training, calibration,
+  approved samples, two qualified independent coders, validated submissions,
+  metrics, reference comparison, disagreements, required adjudication, codebook
+  notes, protected-path evidence, publication updates, and this repository
+  validation gate before any cohort can be claimed complete.
 - Human agreement, model agreement, adjudication, and historical corroboration
   remain separate claim families.
 - Rights-restricted packet payloads and raw responses must remain local or
