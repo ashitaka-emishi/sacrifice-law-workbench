@@ -16,7 +16,7 @@ from typing import Any, Iterable, Mapping, Sequence
 from jsonschema import Draft202012Validator, FormatChecker
 
 try:
-    from scripts.human_reliability.boundaries import safe_output_path
+    from scripts.human_reliability.boundaries import protect_accepted_artifacts, safe_output_path
     from scripts.human_reliability.ingest_submission import (
         _raw_digest,
         load_cohort_context,
@@ -25,7 +25,7 @@ try:
     )
     from scripts.human_reliability.submission_contract import validate_submission
 except ModuleNotFoundError:
-    from boundaries import safe_output_path  # type: ignore
+    from boundaries import protect_accepted_artifacts, safe_output_path  # type: ignore
     from ingest_submission import (  # type: ignore
         _raw_digest,
         load_cohort_context,
@@ -750,6 +750,7 @@ def write_summary_csv(path: Path, result: Mapping[str, Any]) -> None:
             )
 
 
+@protect_accepted_artifacts
 def compute_case_agreement(
     root: Path,
     case_id: str,

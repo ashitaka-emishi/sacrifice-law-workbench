@@ -14,10 +14,10 @@ from typing import Any, Mapping, Sequence
 from jsonschema import Draft202012Validator, FormatChecker
 
 try:
-    from scripts.human_reliability.boundaries import safe_output_path
+    from scripts.human_reliability.boundaries import protect_accepted_artifacts, safe_output_path
     from scripts.human_reliability.ingest_submission import cohort_hash
 except ModuleNotFoundError:
-    from boundaries import safe_output_path  # type: ignore
+    from boundaries import protect_accepted_artifacts, safe_output_path  # type: ignore
     from ingest_submission import cohort_hash  # type: ignore
 
 
@@ -605,6 +605,7 @@ def _cell(value: Any) -> str:
     )
 
 
+@protect_accepted_artifacts
 def generate_case_codebook_notes(root: Path, case_id: str) -> dict[str, Any]:
     root = root.resolve()
     case_root = root / "cases" / case_id

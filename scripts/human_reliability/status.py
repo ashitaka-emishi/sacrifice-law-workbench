@@ -12,12 +12,12 @@ from typing import Any, Mapping
 from jsonschema import Draft202012Validator, FormatChecker
 
 try:
-    from scripts.human_reliability.boundaries import safe_output_path
+    from scripts.human_reliability.boundaries import protect_accepted_artifacts, safe_output_path
 except ModuleNotFoundError:
     try:
-        from human_reliability.boundaries import safe_output_path
+        from human_reliability.boundaries import protect_accepted_artifacts, safe_output_path
     except ModuleNotFoundError:
-        from boundaries import safe_output_path  # type: ignore
+        from boundaries import protect_accepted_artifacts, safe_output_path  # type: ignore
 
 
 ROOT = Path(__file__).resolve().parents[2]
@@ -704,6 +704,7 @@ def evaluate_case(
     }
 
 
+@protect_accepted_artifacts
 def write_case_status(root: Path, case_id: str) -> dict[str, Any]:
     status = evaluate_case(root, case_id, validate_existing_status=False)
     case_root = root.resolve() / "cases" / case_id

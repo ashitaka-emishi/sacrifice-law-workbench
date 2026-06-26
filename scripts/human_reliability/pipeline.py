@@ -9,6 +9,7 @@ from pathlib import Path
 from typing import Any, Mapping, Sequence
 
 try:
+    from scripts.human_reliability.boundaries import protect_accepted_artifacts
     from scripts.human_reliability.classify_disagreements import (
         HumanDisagreementError,
         compute_case_disagreements,
@@ -54,6 +55,7 @@ try:
         refresh_ingestion_status,
     )
 except ModuleNotFoundError:  # Direct execution from scripts/human_reliability/.
+    from boundaries import protect_accepted_artifacts  # type: ignore
     from classify_disagreements import (  # type: ignore
         HumanDisagreementError,
         compute_case_disagreements,
@@ -240,6 +242,7 @@ def run_comparison_stages(
     }
 
 
+@protect_accepted_artifacts
 def run_pipeline(
     root: Path,
     case_id: str,

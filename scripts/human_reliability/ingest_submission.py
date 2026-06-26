@@ -18,7 +18,7 @@ from typing import Any, Iterable, Mapping, Sequence
 from jsonschema import Draft202012Validator, FormatChecker
 
 try:
-    from scripts.human_reliability.boundaries import safe_output_path
+    from scripts.human_reliability.boundaries import protect_accepted_artifacts, safe_output_path
     from scripts.human_reliability.generate_packets import (
         canonical_json_bytes,
         sha256_bytes,
@@ -29,7 +29,7 @@ try:
         validate_submission,
     )
 except ModuleNotFoundError:
-    from boundaries import safe_output_path  # type: ignore
+    from boundaries import protect_accepted_artifacts, safe_output_path  # type: ignore
     from generate_packets import canonical_json_bytes, sha256_bytes  # type: ignore
     from submission_contract import (  # type: ignore
         ResponseContext,
@@ -648,6 +648,7 @@ def _write_ingestion_status(
     return summary
 
 
+@protect_accepted_artifacts
 def refresh_ingestion_status(
     root: Path,
     case_id: str,
@@ -697,6 +698,7 @@ def _markdown_report(report: Mapping[str, Any]) -> str:
     return "\n".join(lines)
 
 
+@protect_accepted_artifacts
 def ingest_submission(
     root: Path,
     case_id: str,

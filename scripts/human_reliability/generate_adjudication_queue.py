@@ -13,7 +13,7 @@ from typing import Any, Iterable, Mapping, Sequence
 from jsonschema import Draft202012Validator, FormatChecker
 
 try:
-    from scripts.human_reliability.boundaries import safe_output_path
+    from scripts.human_reliability.boundaries import protect_accepted_artifacts, safe_output_path
     from scripts.human_reliability.compute_agreement import (
         SAFE_COMPONENT,
         _cohort_manifest_path,
@@ -28,7 +28,7 @@ try:
         load_cohort_context,
     )
 except ModuleNotFoundError:
-    from boundaries import safe_output_path  # type: ignore
+    from boundaries import protect_accepted_artifacts, safe_output_path  # type: ignore
     from compute_agreement import (  # type: ignore
         SAFE_COMPONENT,
         _cohort_manifest_path,
@@ -603,6 +603,7 @@ def write_queue_csv(path: Path, entries: Iterable[Mapping[str, Any]]) -> None:
             writer.writerow({field: row.get(field) for field in fields})
 
 
+@protect_accepted_artifacts
 def generate_case_adjudication_queue(
     root: Path,
     case_id: str,

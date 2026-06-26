@@ -15,7 +15,7 @@ from typing import Any, Iterable, Mapping, Sequence
 from jsonschema import Draft202012Validator, FormatChecker
 
 try:
-    from scripts.human_reliability.boundaries import safe_output_path
+    from scripts.human_reliability.boundaries import protect_accepted_artifacts, safe_output_path
     from scripts.human_reliability.compute_agreement import (
         SAFE_COMPONENT,
         _cohort_manifest_path,
@@ -31,7 +31,7 @@ try:
         write_json,
     )
 except ModuleNotFoundError:
-    from boundaries import safe_output_path  # type: ignore
+    from boundaries import protect_accepted_artifacts, safe_output_path  # type: ignore
     from compute_agreement import SAFE_COMPONENT, _cohort_manifest_path  # type: ignore
     from generate_packets import sha256_bytes  # type: ignore
     from ingest_submission import (  # type: ignore
@@ -651,6 +651,7 @@ def _markdown_report(report: Mapping[str, Any]) -> str:
     return "\n".join(lines)
 
 
+@protect_accepted_artifacts
 def ingest_adjudication(
     root: Path,
     case_id: str,
