@@ -82,6 +82,10 @@ class ModelReliabilityPublicationTest(unittest.TestCase):
             "cases/hitler/quality/human-reliability/status.json",
             components["human-reliability-status"]["files"],
         )
+        self.assertEqual(
+            components["human-reliability-completion"]["path"],
+            "docs/reliability/human-reliability-completion-checklist.md",
+        )
         limitations = " ".join(manifest["known_limitations"])
         self.assertIn("human inter-annotator reliability", limitations)
         self.assertIn("rights and storage restrictions", limitations)

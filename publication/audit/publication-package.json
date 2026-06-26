@@ -1,7 +1,7 @@
 {
   "version": "1.0",
   "case_id": "lincoln",
-  "generated_at": "2026-06-26T10:37:57",
+  "generated_at": "2026-06-26T12:33:34",
   "status": "draft-review-package",
   "source_issue": "#13",
   "package_policy": "This package exposes the method, evidence, validation gate, AI-use statement, model-reliability disclosure, data-availability statement, claim traceability, and human reliability status gates needed for scholarly review. Human reliability claims are limited to complete case/language/layer/cohort rows and remain separate from model agreement and historical corroboration.",
@@ -258,6 +258,18 @@
         "cases/am-rev/quality/human-reliability/status.json",
         "cases/lincoln/quality/human-reliability/status.json",
         "cases/napoleon/quality/human-reliability/status.json"
+      ]
+    },
+    {
+      "component_id": "human-reliability-completion",
+      "label": "Human reliability completion gate",
+      "purpose": "Defines the final training, calibration, two-coder, metrics, adjudication, protected-path, publication, and repository validation gate.",
+      "publication_status": "draft-review-package",
+      "path": "docs/reliability/human-reliability-completion-checklist.md",
+      "status": "available",
+      "file_count": 1,
+      "files": [
+        "docs/reliability/human-reliability-completion-checklist.md"
       ]
     },
     {

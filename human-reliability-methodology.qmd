@@ -259,3 +259,5 @@ Detailed operational specifications remain in the
 [disagreement classification](docs/reliability/human-disagreement-classification.md),
 [adjudication queue](docs/reliability/human-adjudication-queue.md), and
 [adjudication ingestion](docs/reliability/human-adjudication-ingestion.md).
+The final publication gate is the
+[human reliability and adjudication completion checklist](docs/reliability/human-reliability-completion-checklist.md).
