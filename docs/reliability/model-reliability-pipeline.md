@@ -1,8 +1,10 @@
 # Multi-Model Reliability Pipeline Commands
 
 `scripts/model_reliability/pipeline.py` exposes every reliability stage through
-one Python-first command surface. All stages operate on manually supplied files;
-none requires an API key or calls a model provider.
+one Python-first command surface. The core pipeline operates on manually
+supplied files; it does not require an API key or call a model provider.
+The optional external runner described below can call provider APIs to produce
+those manually ingestible files.
 
 ```bash
 python3 scripts/model_reliability/pipeline.py packets --case lincoln
@@ -46,7 +48,68 @@ npm run model-reliability:packets -- --case lincoln
 npm run model-reliability:ingest -- --case lincoln --json /path/to/submission.json
 npm run model-reliability:run -- --case lincoln
 npm run model-reliability:completion -- --case lincoln
+npm run model-reliability:external-run -- --case lincoln --task-layer cmt \
+  --provider openai --model <model-name>
 ```
+
+## Optional fresh-provider runner
+
+`scripts/model_reliability/run_external_model.py` can run one existing blind
+packet layer against a fresh OpenAI or Anthropic Claude API session and write
+the returned submission JSON beneath ignored `reports/tmp/model-reliability/`.
+It sends only the task prompt, matching JSONL packet payload, schema/format
+instruction, and response template for the selected layer. It supplies no tool
+definitions, retrieval, browsing, vector stores, repository context, accepted
+annotations, prior model outputs, review queues, analysis files, or publication
+claims.
+
+Run a dry run first to inspect exactly what would be sent:
+
+```bash
+npm run model-reliability:external-run -- \
+  --case lincoln \
+  --task-layer cmt \
+  --provider openai \
+  --model <model-name> \
+  --dry-run
+```
+
+Real provider calls read credentials only from environment variables:
+
+```bash
+export OPENAI_API_KEY=...
+npm run model-reliability:external-run -- \
+  --case lincoln \
+  --task-layer cmt \
+  --provider openai \
+  --model <model-name> \
+  --setting temperature=0 \
+  --setting max_output_tokens=12000
+```
+
+```bash
+export ANTHROPIC_API_KEY=...
+npm run model-reliability:external-run -- \
+  --case lincoln \
+  --task-layer cmt \
+  --provider anthropic \
+  --model <model-name> \
+  --setting temperature=0 \
+  --setting max_tokens=12000
+```
+
+The runner validates the returned JSON with the existing submission contract
+and packet-alignment checks before reporting success. It does not ingest the
+file automatically. After reviewing the local output path, ingest it explicitly:
+
+```bash
+npm run model-reliability:ingest -- --case lincoln --json reports/tmp/model-reliability/<submission>.json
+```
+
+Use `--mock-response /path/to/submission.json` for tests or rehearsals without
+external API calls. Never place API keys, account identifiers, session URLs, or
+personal identifiers in `--setting`; settings are copied into the submission
+envelope as non-secret run metadata.
 
 Every command writes only beneath
 `cases/<case_id>/quality/model-reliability/`. Accepted metadata, corpus,
