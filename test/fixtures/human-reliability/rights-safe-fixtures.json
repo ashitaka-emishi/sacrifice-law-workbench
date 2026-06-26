@@ -1,0 +1,356 @@
+{
+  "fixture_id": "human-reliability-rights-safe-v1",
+  "rights_policy": {
+    "storage_policy": "repository_allowed",
+    "rights_constraints": ["synthetic-test-only"],
+    "notice": "All fixture text and submissions are synthetic and contain no real coder submissions or full corpus excerpts."
+  },
+  "submission_context": {
+    "cohort_id": "human-fixture-fr-cmt-cohort",
+    "cohort_version": "1.0.0",
+    "case_id": "human-fixture",
+    "sample_id": "human-fixture-sample",
+    "sample_version": "1.0.0",
+    "packet_id": "human-fixture-packet",
+    "packet_hash": "sha256:aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "source_language": "fr",
+    "task_layer": "cmt",
+    "codebook_version": "human-fixture-codebook-v1",
+    "training_version": "human-training-v1",
+    "calibration_id": "calibration-fr-v1",
+    "primary_coder_ids": ["coder-fr-001", "coder-fr-002"],
+    "responses": {
+      "human-fixture-item-001": {
+        "document_id": "human-fixture-doc-001",
+        "sentence_id": "human-fixture-sentence-001",
+        "source_span_id": "human-fixture-span-001",
+        "lexical_unit_ids": ["human-fixture-lu-001", "human-fixture-lu-002"]
+      },
+      "human-fixture-item-002": {
+        "document_id": "human-fixture-doc-001",
+        "sentence_id": "human-fixture-sentence-002",
+        "source_span_id": "human-fixture-span-002",
+        "lexical_unit_ids": ["human-fixture-lu-003"]
+      }
+    }
+  },
+  "coder_submissions": [
+    {
+      "schema_version": "1.0.0",
+      "submission_id": "human-fixture-submission-coder-fr-001",
+      "cohort_id": "human-fixture-fr-cmt-cohort",
+      "cohort_version": "1.0.0",
+      "case_id": "human-fixture",
+      "sample_id": "human-fixture-sample",
+      "sample_version": "1.0.0",
+      "packet_id": "human-fixture-packet",
+      "packet_hash": "sha256:aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "source_language": "fr",
+      "task_layer": "cmt",
+      "codebook_version": "human-fixture-codebook-v1",
+      "coder_id": "coder-fr-001",
+      "coder_role": "primary",
+      "qualification_attested": true,
+      "source_language_qualified": true,
+      "training_version": "human-training-v1",
+      "training_completed_at": "2026-06-20T12:00:00Z",
+      "calibration_id": "calibration-fr-v1",
+      "calibration_completed_at": "2026-06-20T13:00:00Z",
+      "conflict_status": "none_declared",
+      "conflict_details": null,
+      "independence_attested": true,
+      "ai_assistance_used": false,
+      "completed_at": "2026-06-21T12:00:00Z",
+      "responses": [
+        {
+          "item_id": "human-fixture-item-001",
+          "task_layer": "cmt",
+          "document_id": "human-fixture-doc-001",
+          "sentence_id": "human-fixture-sentence-001",
+          "source_span_id": "human-fixture-span-001",
+          "lexical_unit_ids": ["human-fixture-lu-001", "human-fixture-lu-002"],
+          "disposition": "coded",
+          "confidence": 0.8,
+          "uncertainty": "low",
+          "uncertainty_note": "The source-language metaphor is conventional but still detectable.",
+          "out_of_scope_reason": null,
+          "notes": "Synthetic French fixture response.",
+          "case_fields": {
+            "human-fixture__register_note": "synthetic ceremonial register"
+          },
+          "cmt_response": {
+            "source_domain_primary": "body",
+            "source_domain_secondary": ["war_combat"],
+            "target_domain": "nation",
+            "conceptual_mapping": "LA NATION EST UN CORPS DEFENDU",
+            "entailments": ["collective defense protects the polity"],
+            "cluster_id": "human-fixture-cluster-001",
+            "rival_reading": "Literal civic defense."
+          }
+        },
+        {
+          "item_id": "human-fixture-item-002",
+          "task_layer": "cmt",
+          "document_id": "human-fixture-doc-001",
+          "sentence_id": "human-fixture-sentence-002",
+          "source_span_id": "human-fixture-span-002",
+          "lexical_unit_ids": ["human-fixture-lu-003"],
+          "disposition": "out_of_scope",
+          "confidence": null,
+          "uncertainty": "unresolved",
+          "uncertainty_note": "The synthetic context is intentionally insufficient.",
+          "out_of_scope_reason": "missing_context",
+          "notes": "No substantive CMT response is present for this partial fixture row.",
+          "case_fields": {
+            "human-fixture__register_note": "missing synthetic context"
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "submission_id": "human-fixture-submission-coder-fr-002",
+      "cohort_id": "human-fixture-fr-cmt-cohort",
+      "cohort_version": "1.0.0",
+      "case_id": "human-fixture",
+      "sample_id": "human-fixture-sample",
+      "sample_version": "1.0.0",
+      "packet_id": "human-fixture-packet",
+      "packet_hash": "sha256:aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "source_language": "fr",
+      "task_layer": "cmt",
+      "codebook_version": "human-fixture-codebook-v1",
+      "coder_id": "coder-fr-002",
+      "coder_role": "primary",
+      "qualification_attested": true,
+      "source_language_qualified": true,
+      "training_version": "human-training-v1",
+      "training_completed_at": "2026-06-20T12:00:00Z",
+      "calibration_id": "calibration-fr-v1",
+      "calibration_completed_at": "2026-06-20T13:00:00Z",
+      "conflict_status": "none_declared",
+      "conflict_details": null,
+      "independence_attested": true,
+      "ai_assistance_used": false,
+      "completed_at": "2026-06-21T12:10:00Z",
+      "responses": [
+        {
+          "item_id": "human-fixture-item-001",
+          "task_layer": "cmt",
+          "document_id": "human-fixture-doc-001",
+          "sentence_id": "human-fixture-sentence-001",
+          "source_span_id": "human-fixture-span-001",
+          "lexical_unit_ids": ["human-fixture-lu-001", "human-fixture-lu-002"],
+          "disposition": "coded",
+          "confidence": 0.6,
+          "uncertainty": "material",
+          "uncertainty_note": "The French phrase also supports an abstract civic reading.",
+          "out_of_scope_reason": null,
+          "notes": "Synthetic French fixture response with a deliberate disagreement.",
+          "case_fields": {
+            "human-fixture__register_note": "synthetic ceremonial register"
+          },
+          "cmt_response": {
+            "source_domain_primary": "body",
+            "source_domain_secondary": [],
+            "target_domain": "freedom",
+            "conceptual_mapping": "LA LIBERTE EST UN CORPS DEFENDU",
+            "entailments": ["collective defense protects freedom"],
+            "cluster_id": "human-fixture-cluster-002",
+            "rival_reading": "Literal civic defense."
+          }
+        },
+        {
+          "item_id": "human-fixture-item-002",
+          "task_layer": "cmt",
+          "document_id": "human-fixture-doc-001",
+          "sentence_id": "human-fixture-sentence-002",
+          "source_span_id": "human-fixture-span-002",
+          "lexical_unit_ids": ["human-fixture-lu-003"],
+          "disposition": "out_of_scope",
+          "confidence": null,
+          "uncertainty": "unresolved",
+          "uncertainty_note": "The synthetic context is intentionally insufficient.",
+          "out_of_scope_reason": "missing_context",
+          "notes": "No substantive CMT response is present for this partial fixture row.",
+          "case_fields": {
+            "human-fixture__register_note": "missing synthetic context"
+          }
+        }
+      ]
+    }
+  ],
+  "disagreement_inputs": {
+    "agreement": {
+      "case_id": "human-fixture",
+      "cohort_id": "human-fixture-fr-cmt-cohort",
+      "cohort_version": "1.0.0",
+      "source_language": "fr",
+      "task_layer": "cmt",
+      "packet_id": "human-fixture-packet",
+      "input_runs": [
+        {
+          "registration_id": "human-fixture-registration-001",
+          "raw_hash": "sha256:1111111111111111111111111111111111111111111111111111111111111111",
+          "submission_id": "human-fixture-submission-coder-fr-001",
+          "coder_id": "coder-fr-001"
+        },
+        {
+          "registration_id": "human-fixture-registration-002",
+          "raw_hash": "sha256:2222222222222222222222222222222222222222222222222222222222222222",
+          "submission_id": "human-fixture-submission-coder-fr-002",
+          "coder_id": "coder-fr-002"
+        }
+      ]
+    },
+    "reference_comparison": {
+      "case_id": "human-fixture",
+      "cohort_id": "human-fixture-fr-cmt-cohort",
+      "cohort_version": "1.0.0",
+      "source_language": "fr",
+      "task_layer": "cmt",
+      "packet_id": "human-fixture-packet",
+      "input_runs": [
+        {
+          "registration_id": "human-fixture-registration-001",
+          "raw_hash": "sha256:1111111111111111111111111111111111111111111111111111111111111111",
+          "submission_id": "human-fixture-submission-coder-fr-001",
+          "coder_id": "coder-fr-001"
+        },
+        {
+          "registration_id": "human-fixture-registration-002",
+          "raw_hash": "sha256:2222222222222222222222222222222222222222222222222222222222222222",
+          "submission_id": "human-fixture-submission-coder-fr-002",
+          "coder_id": "coder-fr-002"
+        }
+      ],
+      "pattern_records": [
+        {
+          "pattern_id": "human-fixture-pattern-target",
+          "left_coder_id": "coder-fr-001",
+          "right_coder_id": "coder-fr-002",
+          "item_id": "human-fixture-item-001",
+          "reference_id": "human-fixture-reference-001",
+          "unit_id": null,
+          "field": "cmt.target_domain",
+          "pattern": "split_with_reference",
+          "left_value": "nation",
+          "right_value": "freedom",
+          "reference_status": "available",
+          "reference_value": "nation",
+          "reference_authority": "accepted"
+        },
+        {
+          "pattern_id": "human-fixture-pattern-mapping",
+          "left_coder_id": "coder-fr-001",
+          "right_coder_id": "coder-fr-002",
+          "item_id": "human-fixture-item-001",
+          "reference_id": "human-fixture-reference-001",
+          "unit_id": null,
+          "field": "cmt.conceptual_mapping",
+          "pattern": "reference_unavailable",
+          "left_value": "LA NATION EST UN CORPS DEFENDU",
+          "right_value": "LA LIBERTE EST UN CORPS DEFENDU",
+          "reference_status": "not_comparable",
+          "reference_value": "LA NATION EST UN CORPS DEFENDU",
+          "reference_authority": "accepted"
+        },
+        {
+          "pattern_id": "human-fixture-pattern-uncertainty",
+          "left_coder_id": "coder-fr-001",
+          "right_coder_id": "coder-fr-002",
+          "item_id": "human-fixture-item-001",
+          "reference_id": "human-fixture-reference-001",
+          "unit_id": null,
+          "field": "uncertainty",
+          "pattern": "uncertain_vs_confident",
+          "left_value": "low",
+          "right_value": "material",
+          "reference_status": "unavailable",
+          "reference_value": null,
+          "reference_authority": null
+        }
+      ]
+    },
+    "sample": {
+      "case_id": "human-fixture",
+      "source_language": "fr",
+      "task_layer": "cmt",
+      "items": [
+        {
+          "item_id": "human-fixture-item-001",
+          "document_id": "human-fixture-doc-001",
+          "sentence_id": "human-fixture-sentence-001",
+          "design_roles": ["ambiguous", "high_impact", "provenance_risk"],
+          "provenance_risks": ["ocr_uncertainty"],
+          "claim_impact": "high"
+        }
+      ]
+    },
+    "packet_items": {
+      "human-fixture-item-001": {
+        "item_id": "human-fixture-item-001",
+        "document_id": "human-fixture-doc-001",
+        "sentence_id": "human-fixture-sentence-001",
+        "sentence_source_text": "La cité porte l'espoir et protège le corps commun.",
+        "lexical_units": [
+          {
+            "lexical_unit_id": "human-fixture-lu-001",
+            "source_text": "porte"
+          },
+          {
+            "lexical_unit_id": "human-fixture-lu-002",
+            "source_text": "corps"
+          }
+        ],
+        "context_scope": "complete_sentence",
+        "rights_constraints": ["synthetic-test-only"]
+      }
+    },
+    "claim_traces": [
+      {
+        "case_id": "human-fixture",
+        "claim_id": "human-fixture-claim-001",
+        "claim_text": "The fixture text frames civic obligation through bodily protection.",
+        "claim_status": "interpretation",
+        "support_dimension": "metaphor-mapping",
+        "sentence_id": "human-fixture-sentence-001",
+        "mapping_id": "human-fixture-reference-001",
+        "mipvu_ids": ["human-fixture-lu-001", "human-fixture-lu-002"]
+      }
+    ]
+  },
+  "adjudication_template": {
+    "schema_version": "1.0.0",
+    "adjudication_submission_id": "adjudication-submission-human-fixture-v1",
+    "case_id": "human-fixture",
+    "cohort_id": "human-fixture-fr-cmt-cohort",
+    "cohort_version": "1.0.0",
+    "source_language": "fr",
+    "task_layer": "cmt",
+    "queue_snapshot": {
+      "queue_version": "1.0.0",
+      "queue_schema_version": null,
+      "queue_source": null,
+      "queue_sha256": null,
+      "queue_generator_script": null,
+      "queue_generator_version": null,
+      "queue_generator_script_hash": null,
+      "queue_code_revision": null,
+      "frozen_at": "2026-06-22T13:00:00Z"
+    },
+    "adjudicator": {
+      "adjudicator_id": "human-fixture-adjudicator-001",
+      "role": "authorized_human_adjudicator",
+      "authorization_id": "human-fixture-authorization-001",
+      "independence_attested": true,
+      "primary_coder_for_cohort": false,
+      "sole_adjudicator": true,
+      "source_language_qualified": true,
+      "conflict_status": "none_declared",
+      "conflict_details": null
+    },
+    "submitted_at": "2026-06-22T15:00:00Z",
+    "decisions": []
+  }
+}
