@@ -1,0 +1,261 @@
+---
+title: "Human Reliability and Adjudication Methodology"
+description: "Publication-facing design and limits for blind human double-coding and adjudication"
+---
+
+::: {.callout-important}
+Human reliability is a separately designed blind human study. It is not the
+multi-model stress test, not prior Codex-assisted review, and not a shortcut to
+publication authority. A reliability claim exists only for a completed cohort
+with qualified coders, validated submissions, scoped metrics, and disclosed
+limitations.
+:::
+
+## Purpose and scope
+
+The human reliability workflow tests whether trained independent coders can
+apply the workbench's annotation rules reproducibly to a declared sample. It
+covers the same major task layers as the workbench annotation system:
+
+- MIPVU-related metaphor identification and lexical-boundary decisions;
+- conceptual-metaphor mapping, domains, entailments, clusters, confidence, and
+  uncertainty; and
+- Koenigsbergian interpretive functions, agency, absence, violence,
+  obligation, purification, rival readings, and out-of-scope decisions.
+
+The workflow answers a narrow methodological question: how consistently do
+qualified humans apply the declared codebook to a declared case, source
+language, task layer, sample, packet version, and cohort? It does not prove
+that an interpretation is historically correct, replace source-based argument,
+or certify cases that were not included in the completed cohort.
+
+## What this is not
+
+Several workbench review layers are deliberately separate:
+
+- **Prior Codex-assisted review** asks whether initial annotations were checked
+  during earlier assisted work. It may document audit history, but it does not
+  establish independent human reliability.
+- **Multi-model stress testing** asks whether separate AI model runs behave
+  stably on bounded blind packets. It is diagnostic only: it identifies model
+  instability and review questions.
+- **Human reliability study** asks whether qualified independent human coders
+  agree under the declared study design. It may support a scoped reliability
+  claim only after the cohort is complete.
+- **Adjudication** asks how selected human-coding disagreements should be
+  resolved or deferred. It produces decisions and correction candidates, not
+  automatic corpus rewrites.
+
+These layers can inform one another, but their results are not pooled into one
+score. Model agreement cannot be reported as human agreement. Prior
+Codex-assisted review cannot be retroactively counted as a blind independent
+coder. Adjudication can resolve downstream interpretation or correction
+questions, but it does not alter the pre-adjudication agreement metrics.
+
+## Cohort design and qualification
+
+A human reliability claim is cohort-scoped. A cohort records:
+
+- the case, source language, task layer, sample ID, sample version, packet ID,
+  packet hash, and codebook version;
+- required primary coder count and the assigned coder IDs;
+- coder source-language qualification, task training, calibration completion,
+  conflict declaration, and independence attestation;
+- whether AI assistance is prohibited or explicitly allowed; and
+- rights and storage policies for packets, submissions, adjudication, and
+  correction candidates.
+
+At least two qualified primary coders must complete the same approved packet
+before human-human agreement is computed. Source-language cohorts require
+source-language competence; English glosses may support review but cannot
+replace the source. Coder roles and adjudicator roles are kept distinct. A
+primary coder may not be treated as the sole independent adjudicator for their
+own cohort.
+
+No cross-language, cross-case, cross-layer, or cross-version pooling is assumed.
+Side-by-side cohort reporting is allowed. A pooled statistic requires an
+explicit pooling question, materially equivalent tasks, compatible sampling
+frames, and retained cohort-level rows so heterogeneity remains visible.
+
+## Training and calibration
+
+Human coders use a controlled training and calibration path before entering a
+study cohort:
+
+1. They review the human coder training guide and the relevant task-layer
+   contract.
+2. They complete language-specific calibration packets that are synthetic or
+   rights-safe and excluded from blind study samples.
+3. Calibration answer keys and completion records document preparation without
+   exposing study answers.
+4. The cohort manifest records the training version and calibration ID required
+   for valid submissions.
+
+Training is meant to standardize rule application, not to coach coders toward a
+known answer. Calibration material, accepted annotations, model results,
+adjudication outcomes, support scores, and synthesis claims are withheld from
+blind study packets.
+
+## Sampling and blind packets
+
+Sampling is stratified by case, source language, task layer, source document,
+design role, claim impact, provenance risk, ambiguity, and rights constraints.
+The sample can include negative controls, high-impact items, uncertain cases,
+and small-frame census rules, but those design roles are not exposed as answers
+inside coder packets.
+
+Blind packets include only the material necessary for the declared task:
+
+- stable case, document, sentence, span, item, and lexical-unit IDs;
+- source-language text and required context scope;
+- task-layer response templates and controlled-vocabulary fields;
+- rights constraints and storage policy; and
+- neutral context or provenance notes when allowed.
+
+Packets omit accepted labels, prior coder outputs, model outputs, adjudication,
+analysis conclusions, claim-support judgments, and sample-role labels. Packet
+hashes bind all coders in a cohort to byte-identical inputs.
+
+## Submission validation and partial execution
+
+Submissions are validated before they can enter agreement metrics. Validation
+checks:
+
+- exact cohort, packet, hash, source-language, task-layer, training, and
+  calibration identity;
+- assigned primary coder identity and independence declarations;
+- complete item coverage for the packet;
+- stable document, sentence, span, and lexical-unit IDs;
+- controlled vocabularies and case-field namespaces; and
+- out-of-scope responses with explicit reasons and no substantive task-layer
+  answer.
+
+Invalid submissions are preserved as audit records but excluded from valid-run
+comparisons. Partial execution is reported honestly: one valid coder does not
+satisfy a two-coder gate, and missing submissions do not imply agreement or
+disagreement.
+
+## Metrics and reference separation
+
+Human-human agreement and human-vs-reference comparison are different artifact
+families.
+
+Human-human agreement asks whether independent coders made the same field-level
+decisions under the same packet and codebook. It may report observed agreement,
+Cohen's kappa where mathematically defined, positive or negative agreement,
+Jaccard overlap for set-valued fields, ordinal distance for uncertainty, and
+mean absolute difference for confidence.
+
+Human-vs-reference comparison asks where each coder differs from accepted or
+reviewable project references. The reference is a comparison anchor, not an
+infallible answer key. A coder-reference difference can indicate coder error,
+reference error, codebook ambiguity, task mismatch, language difficulty, or
+productive interpretive uncertainty.
+
+The two families are not averaged together. Pre-adjudication agreement remains
+visible even when later adjudication accepts one coder's value or creates a
+correction candidate.
+
+## Disagreement classification and adjudication
+
+Disagreement classification turns validated metrics and reference comparisons
+into reviewable records. It distinguishes pair splits, shared reference
+challenges, unavailable references, uncertainty differences, out-of-scope
+patterns, codebook ambiguity signals, source-language risk, and claim impact.
+
+The adjudication queue is a triage artifact. It preserves coder values,
+reference summaries, optional model diagnostics, affected claims, priority
+reasons, and a bounded review question. It does not contain an adjudication
+decision and does not vote.
+
+An authorized human adjudicator may accept a coder value, retain a reference,
+reject a disagreement, defer a decision, or mark an item unresolved. Unresolved
+decisions remain unresolved in reporting; they are not silently converted into
+agreement or omitted from limitations.
+
+## Corrections and protected paths
+
+Adjudication can propose correction candidates, but candidates live in a
+dedicated human-reliability layer. They cannot directly write to accepted
+annotations, MIPVU artifacts, model-reliability artifacts, analysis, or
+publication outputs.
+
+The governance sequence is:
+
+1. a validated adjudication decision identifies a possible correction;
+2. the correction candidate records the target artifact, target ID, field,
+   current value, proposed value, rationale, and authority boundary;
+3. a separate authorized promotion workflow accepts, rejects, or defers the
+   candidate; and
+4. downstream corpus, analysis, status, audit, and publication artifacts are
+   regenerated only after authorized promotion.
+
+Human-reliability scripts are read-only against accepted corpus and reference
+artifacts. They may write only inside `cases/<case_id>/quality/human-reliability/`.
+Protected-path tests intentionally fail and restore attempted writes outside
+that layer.
+
+## Publication use
+
+Publication-facing summaries may state which cohorts were designed, partial,
+invalid, awaiting adjudication, unresolved, or complete. A completed cohort may
+support a scoped statement such as:
+
+> For this case, source language, task layer, sample version, codebook version,
+> and coder cohort, the validated primary coders showed the reported field-level
+> agreement and disagreement patterns.
+
+Reports must preserve the conditions that make the statement true. They should
+name the case, language, layer, sample, packet, coder count, valid submissions,
+missing or invalid submissions, unresolved adjudication, correction candidates,
+and rights restrictions.
+
+Publication reports must not say that:
+
+- human reliability has been established for unrun cases, languages, layers, or
+  samples;
+- model agreement is human inter-annotator reliability;
+- prior Codex-assisted review is equivalent to independent blind coding;
+- adjudication improves the pre-adjudication agreement score;
+- correction candidates have already changed accepted annotations; or
+- agreement proves the historical or interpretive claim itself.
+
+## Current execution state
+
+The workbench now has the architecture, training, calibration, sampling,
+packet, submission, metric, reference-comparison, disagreement, adjudication,
+reporting, fixture, validation, and protected-path machinery required to run
+and audit human reliability cohorts. Generated status pages identify whether a
+case is absent, designed, partial, invalid, awaiting adjudication, unresolved,
+or complete.
+
+At publication time, only completed cohorts should be used for reliability
+claims. Designed or partial cohorts can be disclosed as planned or in progress,
+but they cannot be converted into a completed human reliability result.
+
+## Limitations
+
+- Human agreement measures consistency of rule application, not truth.
+- Small or purposive samples do not estimate all possible source passages.
+- Source-language qualification reduces but does not remove translation,
+  register, transcription, or interpretive risk.
+- High agreement can reflect an easy field or shared training artifact.
+- Low agreement can reflect real ambiguity rather than poor coding.
+- Out-of-scope and unresolved results are substantive limitations, not missing
+  data to erase.
+- Adjudicators introduce a later decision layer and must not be counted as
+  independent primary coders.
+- Rights restrictions may require withholding item-level packets or raw
+  submissions while still allowing aggregate disclosure.
+
+Detailed operational specifications remain in the
+[human reliability architecture](docs/reliability/human-reliability-architecture.md),
+[training guide](docs/reliability/human-coder-training-guide.md),
+[calibration packets](docs/reliability/human-coder-calibration.md),
+[sampling strategy](docs/reliability/human-reliability-sampling-strategy.md),
+[submission contract](docs/reliability/human-coder-submission-contract.md),
+[agreement metrics](docs/reliability/human-agreement-metrics.md),
+[reference comparison](docs/reliability/human-reference-comparison.md),
+[disagreement classification](docs/reliability/human-disagreement-classification.md),
+[adjudication queue](docs/reliability/human-adjudication-queue.md), and
+[adjudication ingestion](docs/reliability/human-adjudication-ingestion.md).
