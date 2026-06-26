@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-06-25T19:44:42",
+  "generated_at": "2026-06-26T10:37:57",
   "status": "pass",
   "policy": "Placeholder public pages must be visibly marked as draft, provisional, or pending; incomplete human reliability cannot be claimed as publication-ready.",
   "blockers": [],
@@ -187,12 +187,19 @@
     }
   ],
   "human_reliability": {
-    "policy": "Absent or designed human reliability may be disclosed as not yet executed; partial, invalid, or awaiting-adjudication states block publication-ready reliability claims.",
+    "policy": "Human reliability claims are scoped to complete cohort rows only. Absent, designed, partial, invalid, awaiting-adjudication, and unresolved states may be disclosed but cannot support publication-ready human reliability claims.",
+    "claim_status": "no-complete-human-reliability-cohorts",
+    "complete_cohorts": [],
+    "blocked_or_incomplete_cohorts": [],
     "case_statuses": [
       {
         "case_id": "am-rev",
         "state": "absent",
         "valid": true,
+        "cohort_count": 0,
+        "valid_runs": 0,
+        "complete_cohort_count": 0,
+        "unresolved_adjudications": 0,
         "warning_count": 1,
         "error_count": 0
       },
@@ -200,6 +207,10 @@
         "case_id": "hitler",
         "state": "absent",
         "valid": true,
+        "cohort_count": 0,
+        "valid_runs": 0,
+        "complete_cohort_count": 0,
+        "unresolved_adjudications": 0,
         "warning_count": 1,
         "error_count": 0
       },
@@ -207,6 +218,10 @@
         "case_id": "lincoln",
         "state": "absent",
         "valid": true,
+        "cohort_count": 0,
+        "valid_runs": 0,
+        "complete_cohort_count": 0,
+        "unresolved_adjudications": 0,
         "warning_count": 1,
         "error_count": 0
       },
@@ -214,6 +229,10 @@
         "case_id": "napoleon",
         "state": "absent",
         "valid": true,
+        "cohort_count": 0,
+        "valid_runs": 0,
+        "complete_cohort_count": 0,
+        "unresolved_adjudications": 0,
         "warning_count": 1,
         "error_count": 0
       }

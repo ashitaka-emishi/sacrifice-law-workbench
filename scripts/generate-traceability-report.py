@@ -5,6 +5,7 @@ from __future__ import annotations
 import argparse
 import csv
 import json
+import subprocess
 from pathlib import Path
 from typing import Any
 
@@ -49,6 +50,12 @@ MODEL_RELIABILITY_LIMITATIONS = [
     "Model-reliability packets and responses inherit source-level rights and storage restrictions.",
 ]
 
+HUMAN_RELIABILITY_LIMITATIONS = [
+    "No case, source-language, task-layer, or cohort may be described as having completed human reliability unless it appears in the complete human reliability cohort table.",
+    "Incomplete, partial, invalid, awaiting-adjudication, or unresolved human reliability states keep related reliability claims draft.",
+    "Human agreement, model agreement, adjudication, and historical corroboration remain separate publication claims.",
+]
+
 
 def rel(path: Path) -> str:
     try:
@@ -76,6 +83,31 @@ def markdown_table(rows: list[dict[str, Any]], fields: list[str]) -> str:
     for row in rows:
         lines.append("| " + " | ".join(md_cell(row.get(field)) for field in fields) + " |")
     return "\n".join(lines)
+
+
+def tracked_glob_matches(pattern: str) -> list[Path]:
+    """Return Git-tracked files matching a package glob.
+
+    Publication manifests should not advertise local ignored artifacts as
+    shareable package files. This matters for rights-restricted case folders
+    where a generator may create a local status file that intentionally remains
+    outside Git.
+    """
+    try:
+        result = subprocess.run(
+            ["git", "ls-files", "--", pattern],
+            cwd=ROOT,
+            capture_output=True,
+            check=True,
+            text=True,
+        )
+    except (OSError, subprocess.CalledProcessError):
+        return [path for path in sorted(ROOT.glob(pattern)) if path.is_file()]
+    return [
+        ROOT / line
+        for line in result.stdout.splitlines()
+        if line and (ROOT / line).is_file()
+    ]
 
 
 def score_category(score: float | int | None) -> str:
@@ -162,6 +194,66 @@ def trace_limitations(case_id: str) -> list[str]:
         "Publication-grade historical citations remain required where historical notes say so.",
     ]
     return base + [str(item) for item in limitations if item]
+
+
+def human_reliability_publication_summary() -> dict[str, Any]:
+    case_statuses: list[dict[str, Any]] = []
+    complete_cohorts: list[dict[str, Any]] = []
+    blocked_cohorts: list[dict[str, Any]] = []
+    for case_path in sorted((ROOT / "cases").iterdir()):
+        if not case_path.is_dir() or case_path.name == "x-case":
+            continue
+        status = evaluate_human_reliability(ROOT, case_path.name)
+        case_statuses.append(
+            {
+                "case_id": case_path.name,
+                "state": status["state"],
+                "valid": status["valid"],
+                "cohort_count": status["counts"]["cohorts"],
+                "valid_runs": status["counts"]["valid_runs"],
+                "complete_cohort_count": sum(
+                    1 for cohort in status["cohorts"] if cohort["state"] == "complete"
+                ),
+                "unresolved_adjudications": status["counts"][
+                    "unresolved_adjudications"
+                ],
+                "warning_count": len(status["warnings"]),
+                "error_count": len(status["errors"]),
+            }
+        )
+        for cohort in status["cohorts"]:
+            row = {
+                "case_id": case_path.name,
+                "cohort_id": cohort["cohort_id"],
+                "cohort_version": cohort["cohort_version"],
+                "source_language": cohort["source_language"],
+                "task_layer": cohort["task_layer"],
+                "state": cohort["state"],
+                "valid_submission_count": cohort["valid_submission_count"],
+                "unresolved_adjudication_count": cohort[
+                    "unresolved_adjudication_count"
+                ],
+            }
+            if cohort["state"] == "complete":
+                complete_cohorts.append(row)
+            else:
+                blocked_cohorts.append(row)
+    return {
+        "policy": (
+            "Human reliability claims are scoped to complete cohort rows only. "
+            "Absent, designed, partial, invalid, awaiting-adjudication, and "
+            "unresolved states may be disclosed but cannot support publication-ready "
+            "human reliability claims."
+        ),
+        "claim_status": (
+            "scoped-complete-cohorts"
+            if complete_cohorts
+            else "no-complete-human-reliability-cohorts"
+        ),
+        "complete_cohorts": complete_cohorts,
+        "blocked_or_incomplete_cohorts": blocked_cohorts,
+        "case_statuses": case_statuses,
+    }
 
 
 def build_trace_records(case_id: str, generated_at: str) -> list[dict[str, Any]]:
@@ -426,7 +518,7 @@ historical corroboration notes. It is a review index, not a finished argument.
 
 def component_status(path: str, glob: bool = False) -> dict[str, Any]:
     if glob:
-        matches = sorted(ROOT.glob(path))
+        matches = tracked_glob_matches(path)
         return {
             "path": path,
             "status": "available" if matches else "missing",
@@ -462,6 +554,9 @@ def package_components(case_id: str) -> list[dict[str, Any]]:
         ("ai-use-statement", "AI-use statement", "publication/ai-use-statement.md", "Explains AI assistance and human scholarly responsibility."),
         ("model-reliability-disclosure", "Model-reliability disclosure", "publication/model-reliability.md", "Separates accepted annotations, prior review, model diagnostics, human reliability, and reproducibility claims."),
         ("model-reliability-completion", "Model-reliability completion gate", "docs/reliability/model-reliability-completion-checklist.md", "Defines the final artifact, authority, documentation, protected-path, and repository validation gate."),
+        ("human-reliability-methodology", "Human reliability methodology", "human-reliability-methodology.qmd", "Defines blind human double-coding, adjudication, correction boundaries, and publication claim limits."),
+        ("human-adjudication-results", "Human adjudication results", "human-adjudication-results.qmd", "Publishes current human adjudication state, unresolved work, and correction-candidate consequences."),
+        ("human-reliability-status", "Human reliability status artifacts", "cases/*/quality/human-reliability/status.json", "Machine-readable per-case human reliability execution status used to gate publication claims.", True),
         ("data-availability", "Data availability", "publication/data-availability.md", "Explains shareable data, rights status, and reuse cautions."),
         ("validation-gate", "Validation gate", "publication/validation-gate.md", "Documents the milestone-level rebuild, validation, and publication checks."),
         ("public-site-readiness", "Public-site readiness", "publication/public-site-readiness.md", "Shows draft/placeholder signals on public pages."),
@@ -526,6 +621,11 @@ blind instructions. Its outputs are diagnostic suggestions for human review.
 Model-to-model agreement and model-to-reference alignment are not human
 inter-annotator reliability, do not adjudicate accepted annotations, and do
 not prove that a scholarly interpretation is correct or reproducible.
+
+Human reliability and adjudication, when present, are separate from AI
+assistance and model diagnostics. The package reports completed and partial
+states from validated human reliability status artifacts; absent or partial
+cohorts cannot be converted into publication-ready reliability claims.
 """
     (PACKAGE_DIR / "ai-use-statement.md").write_text(text, encoding="utf-8")
 
@@ -576,7 +676,8 @@ of a rights-safe aggregate result, but the data-availability statement must say
 what was withheld and why.
 
 See the [stress-test methodology](../model-reliability-methodology.qmd), current
-[execution results](../model-reliability-results.qmd), and
+[execution results](../model-reliability-results.qmd), the
+[human reliability methodology](../human-reliability-methodology.qmd), and
 [external review procedure](../docs/reliability/external-model-review-procedures.md).
 """
     (PACKAGE_DIR / "model-reliability.md").write_text(text, encoding="utf-8")
@@ -610,6 +711,14 @@ inherit the underlying source's rights and storage constraints. Artifacts that
 reproduce local-only, restricted, metadata-only, or unresolved source spans
 must remain local or be withheld; public reports should use stable identifiers,
 aggregate measures, provenance metadata, and short compliant spans instead.
+
+Human-reliability schemas, case status records, aggregate reports, and
+correction-candidate metadata may be shared when rights-safe. Human packet
+payloads, raw coder submissions, adjudication submissions, and adjudication
+working materials inherit both source-document restrictions and coder-storage
+restrictions. Public reporting should use cohort IDs, stable artifact IDs,
+aggregate metrics, status fields, and short compliant spans rather than raw
+restricted payloads.
 
 ## Corpus Availability Snapshot
 
@@ -652,6 +761,11 @@ audit package or public pages as review-ready.
 - Multi-model outputs are diagnostic and remain separate from accepted
   annotations, prior human review, and any future human reliability study.
 - Model agreement does not prove scholarly reproducibility or correctness.
+- Human reliability status currently records no complete
+  case/language/layer/cohort rows; absent, partial, awaiting-adjudication, or
+  unresolved states block publication-ready human reliability claims.
+- Human agreement, model agreement, adjudication, and historical corroboration
+  remain separate claim families.
 - Rights-restricted packet payloads and raw responses must remain local or
   withheld according to their source records.
 - Historical-alignment notes still require publication-grade citations.
@@ -701,22 +815,11 @@ def build_public_site_readiness(generated_at: str) -> dict[str, Any]:
                 "has_draft_or_pending_signal": has_draft_signal,
             }
         )
-    human_statuses: list[dict[str, Any]] = []
-    for case_path in sorted((ROOT / "cases").iterdir()):
-        if not case_path.is_dir() or case_path.name == "x-case":
-            continue
-        status = evaluate_human_reliability(ROOT, case_path.name)
-        human_statuses.append(
-            {
-                "case_id": case_path.name,
-                "state": status["state"],
-                "valid": status["valid"],
-                "warning_count": len(status["warnings"]),
-                "error_count": len(status["errors"]),
-            }
-        )
+    human_summary = human_reliability_publication_summary()
+    human_statuses = human_summary["case_statuses"]
+    for status in human_statuses:
         if status["state"] in {"partial", "invalid", "awaiting-adjudication"}:
-            blockers.append(f"human-reliability:{case_path.name}:{status['state']}")
+            blockers.append(f"human-reliability:{status['case_id']}:{status['state']}")
 
     report = {
         "version": "1.0",
@@ -730,11 +833,12 @@ def build_public_site_readiness(generated_at: str) -> dict[str, Any]:
         "blockers": blockers,
         "pages": rows,
         "human_reliability": {
-            "policy": (
-                "Absent or designed human reliability may be disclosed as not "
-                "yet executed; partial, invalid, or awaiting-adjudication "
-                "states block publication-ready reliability claims."
-            ),
+            "policy": human_summary["policy"],
+            "claim_status": human_summary["claim_status"],
+            "complete_cohorts": human_summary["complete_cohorts"],
+            "blocked_or_incomplete_cohorts": human_summary[
+                "blocked_or_incomplete_cohorts"
+            ],
             "case_statuses": human_statuses,
         },
     }
@@ -744,6 +848,13 @@ def build_public_site_readiness(generated_at: str) -> dict[str, Any]:
         {"path": row["path"], "status": row["status"]}
         for row in rows
     ]
+    human_completion_note = ""
+    if not human_summary["complete_cohorts"]:
+        human_completion_note = (
+            "\nCurrent package has no complete human reliability cohort rows; "
+            "therefore no case/language/layer/cohort is publication-ready for "
+            "a human reliability claim.\n"
+        )
     text = f"""---
 title: "Public Site Readiness"
 ---
@@ -764,10 +875,18 @@ publication status.
 
 ## Human Reliability Claim Gate
 
-Incomplete human reliability may be disclosed as pending, but it cannot be
-claimed as publication-ready.
+Claim status: **{human_summary['claim_status']}**.
 
-{markdown_table(human_statuses, ["case_id", "state", "valid", "warning_count", "error_count"])}
+{human_summary['policy']}
+{human_completion_note}
+
+### Complete Human Reliability Cohorts
+
+{markdown_table(human_summary["complete_cohorts"], ["case_id", "source_language", "task_layer", "cohort_id", "cohort_version", "state", "valid_submission_count", "unresolved_adjudication_count"])}
+
+### Case Status Rows
+
+{markdown_table(human_statuses, ["case_id", "state", "valid", "cohort_count", "valid_runs", "complete_cohort_count", "unresolved_adjudications", "warning_count", "error_count"])}
 """
     (PACKAGE_DIR / "public-site-readiness.md").write_text(text, encoding="utf-8")
     return report
@@ -781,6 +900,7 @@ def write_package_manifest(
 ) -> dict[str, Any]:
     components = package_components(case_id)
     missing = [item for item in components if item["status"] != "available"]
+    human_summary = human_reliability_publication_summary()
     manifest = {
         "version": "1.0",
         "case_id": case_id,
@@ -790,7 +910,10 @@ def write_package_manifest(
         "package_policy": (
             "This package exposes the method, evidence, validation gate, AI-use "
             "statement, model-reliability disclosure, data-availability "
-            "statement, and claim traceability needed for scholarly review."
+            "statement, claim traceability, and human reliability status gates "
+            "needed for scholarly review. Human reliability claims are limited "
+            "to complete case/language/layer/cohort rows and remain separate "
+            "from model agreement and historical corroboration."
         ),
         "components": components,
         "traceability": {
@@ -805,7 +928,12 @@ def write_package_manifest(
             "blockers": readiness.get("blockers", []),
             "report_path": "publication/audit/public-site-readiness.json",
         },
-        "known_limitations": trace_limitations(case_id) + MODEL_RELIABILITY_LIMITATIONS,
+        "human_reliability": human_summary,
+        "known_limitations": (
+            trace_limitations(case_id)
+            + MODEL_RELIABILITY_LIMITATIONS
+            + HUMAN_RELIABILITY_LIMITATIONS
+        ),
     }
     write_json(AUDIT_DIR / "publication-package.json", manifest)
     return manifest
@@ -823,6 +951,14 @@ def write_package_markdown(generated_at: str, manifest: dict[str, Any]) -> None:
     ]
     limitations = "\n".join(f"- {item}" for item in manifest.get("known_limitations", []))
     commands = "\n".join(f"- `{command}`" for command in manifest["validation_gate"])
+    human_summary = manifest["human_reliability"]
+    human_completion_note = ""
+    if not human_summary["complete_cohorts"]:
+        human_completion_note = (
+            "\nCurrent package has no complete human reliability cohort rows; "
+            "therefore no case/language/layer/cohort is publication-ready for "
+            "a human reliability claim.\n"
+        )
     text = f"""---
 title: "Publication Audit Package"
 ---
@@ -848,6 +984,20 @@ rather than promoting the Lincoln pilot analysis as final.
 - JSON: `{manifest['traceability']['json_path']}`
 - CSV: `{manifest['traceability']['csv_path']}`
 - Public table: `{manifest['traceability']['public_page']}`
+
+## Human Reliability Claim Gate
+
+Claim status: **{human_summary['claim_status']}**.
+
+{human_summary['policy']}
+{human_completion_note}
+### Complete Human Reliability Cohorts
+
+{markdown_table(human_summary["complete_cohorts"], ["case_id", "source_language", "task_layer", "cohort_id", "cohort_version", "state", "valid_submission_count", "unresolved_adjudication_count"])}
+
+### Case Status Rows
+
+{markdown_table(human_summary["case_statuses"], ["case_id", "state", "valid", "cohort_count", "valid_runs", "complete_cohort_count", "unresolved_adjudications", "warning_count", "error_count"])}
 
 ## Validation Gate
 
