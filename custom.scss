@@ -114,6 +114,17 @@ thead {
   color: #202020;
 }
 
+main.content table {
+  display: block;
+  max-width: 100%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+main.content table caption {
+  display: block;
+}
+
 .callout {
   border-left-color: #800000;
 }
