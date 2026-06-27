@@ -3,6 +3,8 @@ from __future__ import annotations
 import copy
 import csv
 import json
+import multiprocessing as mp
+import queue
 import shutil
 import tempfile
 import unittest
@@ -13,6 +15,7 @@ from jsonschema import Draft202012Validator, FormatChecker
 from scripts.model_reliability.generate_packets import generate_packets
 from scripts.model_reliability.ingest_submission import (
     IngestionError,
+    _ingestion_lock,
     ingest_submission,
     parse_csv_submission,
     parse_json_submission,
@@ -98,6 +101,15 @@ def write_csv_submission(root: Path, submission: dict, directory: Path) -> tuple
         writer.writeheader()
         writer.writerows(rows)
     return metadata_path, items_path
+
+
+def ingest_worker(root: str, source: str, result_queue: mp.Queue) -> None:
+    try:
+        report = ingest_submission(Path(root), "demo", parse_json_submission(Path(source)))
+    except Exception as exc:  # pragma: no cover - surfaced through parent assertions.
+        result_queue.put(("error", type(exc).__name__, str(exc)))
+    else:
+        result_queue.put(("ok", report["registration_id"], report["status"]))
 
 
 class SubmissionIngestionTest(unittest.TestCase):
@@ -271,6 +283,45 @@ class SubmissionIngestionTest(unittest.TestCase):
 
             self.assertEqual(first["status"], "invalid")
             self.assertEqual(second["status"], "valid")
+
+    def test_concurrent_ingestion_waits_for_case_lock(self) -> None:
+        with tempfile.TemporaryDirectory() as temp_dir:
+            base = Path(temp_dir)
+            root = ingestion_root(base)
+            source = base / "locked.json"
+            write_json(source, valid_submission(root, "locked"))
+            context = mp.get_context("spawn")
+            result_queue = context.Queue()
+            process = context.Process(
+                target=ingest_worker,
+                args=(str(root), str(source), result_queue),
+            )
+            case_root = root / "cases" / "demo"
+
+            try:
+                with _ingestion_lock(case_root):
+                    process.start()
+                    with self.assertRaises(queue.Empty):
+                        result_queue.get(timeout=0.5)
+
+                result = result_queue.get(timeout=5)
+                process.join(timeout=5)
+                self.assertFalse(process.is_alive())
+            finally:
+                if process.is_alive():
+                    process.terminate()
+                    process.join(timeout=5)
+
+            self.assertEqual(("ok", "valid"), (result[0], result[2]), result)
+            model_root = root / "cases" / "demo" / "quality" / "model-reliability"
+            register = json.loads(
+                (model_root / "submissions" / "submission-register.json").read_text()
+            )
+            normalized = json.loads(
+                (model_root / "normalized" / "normalized-runs.json").read_text()
+            )
+            self.assertEqual(1, len(register["submissions"]))
+            self.assertEqual(1, len(normalized["runs"]))
 
     def test_refuses_sensitive_input_before_registration(self) -> None:
         with tempfile.TemporaryDirectory() as temp_dir:
