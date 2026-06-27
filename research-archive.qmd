@@ -38,6 +38,7 @@ available for readers who want to inspect how the argument was built.
 ## Research infrastructure
 
 - [Human Reliability and Adjudication Architecture](docs/reliability/human-reliability-architecture.md)
+- [Human Coder Recruitment and Onboarding Protocol](docs/reliability/human-coder-recruitment-protocol.md)
 - [Human Coder Training Guide](docs/reliability/human-coder-training-guide.md)
 - [Multilingual Human Coder Calibration Packets](docs/reliability/human-coder-calibration.md)
 - [Stratified Human Reliability Sampling Strategy](docs/reliability/human-reliability-sampling-strategy.md)

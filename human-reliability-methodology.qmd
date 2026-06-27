@@ -250,6 +250,7 @@ but they cannot be converted into a completed human reliability result.
 
 Detailed operational specifications remain in the
 [human reliability architecture](docs/reliability/human-reliability-architecture.md),
+[recruitment and onboarding protocol](docs/reliability/human-coder-recruitment-protocol.md),
 [training guide](docs/reliability/human-coder-training-guide.md),
 [calibration packets](docs/reliability/human-coder-calibration.md),
 [sampling strategy](docs/reliability/human-reliability-sampling-strategy.md),

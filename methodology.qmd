@@ -17,6 +17,7 @@ annotation may support a case-level or cross-case claim.
 | Inspect corpus selection, provenance, and rights | [Corpus and Sources](starter-corpus-proposal.qmd) and [Corpus Rights Policy](corpus-rights-policy.qmd) |
 | Understand blind multi-model annotation diagnostics | [Multi-Model Annotation Stress Test](model-reliability-methodology.qmd) |
 | Understand blind human double-coding and adjudication | [Human Reliability and Adjudication Methodology](human-reliability-methodology.qmd) and [architecture detail](docs/reliability/human-reliability-architecture.md) |
+| Recruit and onboard source-language human coders | [Human Coder Recruitment and Onboarding Protocol](docs/reliability/human-coder-recruitment-protocol.md) |
 | Prepare a qualified human coder for calibration | [Human Coder Training Guide](docs/reliability/human-coder-training-guide.md) |
 | Calibrate source-language human coders | [Multilingual Human Coder Calibration Packets](docs/reliability/human-coder-calibration.md) |
 | Understand human reliability sample selection | [Stratified Human Reliability Sampling Strategy](docs/reliability/human-reliability-sampling-strategy.md) |
