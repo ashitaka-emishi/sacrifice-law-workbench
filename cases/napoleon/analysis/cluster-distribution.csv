@@ -2,5 +2,4 @@ average_confidence,cluster_id,document_count,high_salience_count,mapping_count,m
 0.705,napoleon-01-glory-destiny,4,3,6,napoleon-cmt-003;napoleon-cmt-006;napoleon-cmt-007;napoleon-cmt-008;napoleon-cmt-015;napoleon-cmt-017,,military-bulletin-proclamation
 0.766,napoleon-02-army-body,6,1,8,napoleon-cmt-001;napoleon-cmt-005;napoleon-cmt-009;napoleon-cmt-010;napoleon-cmt-013;napoleon-cmt-014;napoleon-cmt-016;napoleon-cmt-018,,military-bulletin-proclamation
 0.88,napoleon-03-emperor-embodiment,1,1,1,napoleon-cmt-002,,military-bulletin-proclamation
-0.81,napoleon-05-soldier-sacrifice,2,3,3,napoleon-cmt-004;napoleon-cmt-011;napoleon-cmt-012,,military-bulletin-proclamation
-0.7,napoleon-06-enemy-obstacle,1,0,1,napoleon-cmt-019,,military-bulletin-proclamation
+0.782,napoleon-05-soldier-sacrifice,3,3,4,napoleon-cmt-004;napoleon-cmt-011;napoleon-cmt-012;napoleon-cmt-019,,military-bulletin-proclamation

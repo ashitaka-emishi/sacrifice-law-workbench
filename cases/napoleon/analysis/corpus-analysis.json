@@ -1,7 +1,7 @@
 {
   "version": "1.0",
   "case_id": "napoleon",
-  "generated_at": "2026-06-17T01:25:15",
+  "generated_at": "2026-06-27T02:50:50",
   "status": "complete",
   "source": "corpus/cmt/cmt-mappings.json",
   "mapping_count": 19,
@@ -198,11 +198,11 @@
     {
       "metric": "cluster_id",
       "value": "napoleon-05-soldier-sacrifice",
-      "mapping_count": 3,
-      "document_count": 2,
+      "mapping_count": 4,
+      "document_count": 3,
       "high_salience_count": 3,
-      "average_confidence": 0.81,
-      "mapping_ids": "napoleon-cmt-004;napoleon-cmt-011;napoleon-cmt-012"
+      "average_confidence": 0.782,
+      "mapping_ids": "napoleon-cmt-004;napoleon-cmt-011;napoleon-cmt-012;napoleon-cmt-019"
     },
     {
       "metric": "cluster_id",
@@ -212,15 +212,6 @@
       "high_salience_count": 1,
       "average_confidence": 0.88,
       "mapping_ids": "napoleon-cmt-002"
-    },
-    {
-      "metric": "cluster_id",
-      "value": "napoleon-06-enemy-obstacle",
-      "mapping_count": 1,
-      "document_count": 1,
-      "high_salience_count": 0,
-      "average_confidence": 0.7,
-      "mapping_ids": "napoleon-cmt-019"
     },
     {
       "metric": "rhetorical_salience",
@@ -283,23 +274,13 @@
     },
     {
       "cluster_id": "napoleon-05-soldier-sacrifice",
-      "mapping_count": 3,
-      "document_count": 2,
+      "mapping_count": 4,
+      "document_count": 3,
       "registers": "military-bulletin-proclamation",
       "periods": "",
       "high_salience_count": 3,
-      "average_confidence": 0.81,
-      "mapping_ids": "napoleon-cmt-004;napoleon-cmt-011;napoleon-cmt-012"
-    },
-    {
-      "cluster_id": "napoleon-06-enemy-obstacle",
-      "mapping_count": 1,
-      "document_count": 1,
-      "registers": "military-bulletin-proclamation",
-      "periods": "",
-      "high_salience_count": 0,
-      "average_confidence": 0.7,
-      "mapping_ids": "napoleon-cmt-019"
+      "average_confidence": 0.782,
+      "mapping_ids": "napoleon-cmt-004;napoleon-cmt-011;napoleon-cmt-012;napoleon-cmt-019"
     }
   ],
   "source_domain_cooccurrence": [],
@@ -335,7 +316,7 @@
       "mapping_id": "napoleon-cmt-004",
       "rhetorical_salience": "high",
       "frequency_count_for_concept": 3,
-      "cluster_mapping_count": 3,
+      "cluster_mapping_count": 4,
       "conceptual_centrality": "high",
       "ideological_force": "sacrifice",
       "claim_caution": "high salience is not the same as high frequency"
@@ -398,7 +379,7 @@
       "mapping_id": "napoleon-cmt-011",
       "rhetorical_salience": "high",
       "frequency_count_for_concept": 3,
-      "cluster_mapping_count": 3,
+      "cluster_mapping_count": 4,
       "conceptual_centrality": "high",
       "ideological_force": "sacrifice",
       "claim_caution": "high salience is not the same as high frequency"
@@ -407,7 +388,7 @@
       "mapping_id": "napoleon-cmt-012",
       "rhetorical_salience": "high",
       "frequency_count_for_concept": 3,
-      "cluster_mapping_count": 3,
+      "cluster_mapping_count": 4,
       "conceptual_centrality": "high",
       "ideological_force": "sacrifice",
       "claim_caution": "high salience is not the same as high frequency"
@@ -470,8 +451,8 @@
       "mapping_id": "napoleon-cmt-019",
       "rhetorical_salience": "medium",
       "frequency_count_for_concept": 1,
-      "cluster_mapping_count": 1,
-      "conceptual_centrality": "local",
+      "cluster_mapping_count": 4,
+      "conceptual_centrality": "high",
       "ideological_force": "legitimation",
       "claim_caution": "high salience is not the same as high frequency"
     }
@@ -735,7 +716,7 @@
       "register": "military-bulletin-proclamation",
       "document_id": "napoleon-bulletin-1813-05-24-bautzen",
       "mapping_id": "napoleon-cmt-019",
-      "cluster_id": "napoleon-06-enemy-obstacle",
+      "cluster_id": "napoleon-05-soldier-sacrifice",
       "source_domain_primary": "journey_motion",
       "target_domain": "war_death",
       "conceptual_metaphor": "WAR DEATH IS JOURNEY MOTION",
@@ -753,9 +734,9 @@
     "ideological_force": "Recorded ideological functions attached to the mapping; not reducible to frequency."
   },
   "diachronic_classification": {
-    "lincoln-01-body-organism": "stable/reactivated",
-    "lincoln-08-sacrificial-death-gift": "intensifying in peak-war-sacrifice evidence",
-    "lincoln-04-birth-creation": "local high-salience mutation toward renewal",
-    "lincoln-06-providence-theodicy": "reorganizing in final-reconciliation evidence"
+    "napoleon-01-glory-destiny": "recurring across dates; 3 high-salience mapping(s)",
+    "napoleon-02-army-body": "recurring across dates; 1 high-salience mapping(s)",
+    "napoleon-03-emperor-embodiment": "localized in current evidence; 1 high-salience mapping(s)",
+    "napoleon-05-soldier-sacrifice": "recurring across dates; 3 high-salience mapping(s)"
   }
 }

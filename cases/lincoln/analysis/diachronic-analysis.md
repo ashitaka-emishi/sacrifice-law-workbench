@@ -1,9 +1,9 @@
 # Diachronic Analysis: lincoln
 
-Generated: 2026-06-17T01:25:15
+Generated: 2026-06-27T02:50:50
 
-Status: provisional; based on reviewed Lincoln MIPVU pilot evidence and CMT
-mapping records.
+Status: provisional; based on reviewed case-local MIPVU evidence and CMT mapping
+records.
 
 ## Timeline
 
@@ -76,17 +76,16 @@ mapping records.
 
 ## Change Notes
 
-- `lincoln-01-body-organism` appears in the 1838 Lyceum evidence and again in
-  the Gettysburg democratic-survival language. Current classification:
-  stable/reactivated, not yet fully measured across the whole corpus.
-- `lincoln-08-sacrificial-death-gift` is concentrated in the Gettysburg burial
-  and dedication evidence. Current classification: intensifying at the
-  peak-war-sacrifice stage, pending fuller review.
-- `lincoln-04-birth-creation` appears in the Gettysburg "new birth" sentence.
-  Current classification: local high-salience mutation from preservation toward
-  renewal.
-- `lincoln-06-providence-theodicy` appears in the Second Inaugural evidence.
-  Current classification: reorganization toward providential accounting and
-  shared moral judgment in the final-reconciliation stage.
-- Clusters without current CMT mapping evidence should be treated as uncoded in
-  this sample, not as disappearing from Lincoln's metaphor system.
+- `lincoln-01-body-organism` appears in 43 mapping(s) across 3 document(s) dated 1838-01-27, 1863-11-19, 1865-03-04 and period(s) early-republican-rhetoric, emancipation-and-sacrifice, providence-and-reconciliation. Current classification: recurring across periods; 22 high-salience mapping(s).
+  Representative metaphor(s): CITIZENSHIP IS BODY, CIVIL WAR IS WAR COMBAT, ENEMY IS BODY.
+- `lincoln-05-fathers-inheritance` appears in 6 mapping(s) across 1 document(s) dated 1838-01-27 and period(s) early-republican-rhetoric. Current classification: localized in current evidence; 3 high-salience mapping(s).
+  Representative metaphor(s): HISTORY IS DEBT ACCOUNTING, HISTORY IS LIFE DEATH, HISTORY IS THEATER STAGE.
+- `lincoln-08-sacrificial-death-gift` appears in 5 mapping(s) across 1 document(s) dated 1838-01-27 and period(s) early-republican-rhetoric. Current classification: localized in current evidence; 3 high-salience mapping(s).
+  Representative metaphor(s): CITIZENSHIP IS SACRIFICE, POLITICAL ORDER IS SACRIFICE, WAR DEATH IS THEATER STAGE.
+- `lincoln-02-covenant-oath` appears in 4 mapping(s) across 2 document(s) dated 1838-01-27, 1865-03-04 and period(s) early-republican-rhetoric, providence-and-reconciliation. Current classification: recurring across periods; 3 high-salience mapping(s).
+  Representative metaphor(s): LAW IS RELIGION PROVIDENCE, UNION IS OBJECT MATERIAL.
+- `lincoln-03-experiment-proposition` appears in 3 mapping(s) across 1 document(s) dated 1838-01-27 and period(s) early-republican-rhetoric. Current classification: localized in current evidence.
+  Representative metaphor(s): REPUBLIC IS EXPERIMENT SCIENCE.
+- `lincoln-06-providence-theodicy` appears in 2 mapping(s) across 2 document(s) dated 1863-11-19, 1865-03-04 and period(s) emancipation-and-sacrifice, providence-and-reconciliation. Current classification: recurring across periods; 1 high-salience mapping(s).
+  Representative metaphor(s): CITIZENSHIP IS RELIGION PROVIDENCE, SLAVERY IS RELIGION PROVIDENCE.
+- Clusters without current CMT mapping evidence should be treated as uncoded in this sample, not as disappearing from the case's metaphor system.
