@@ -4,6 +4,17 @@
   "submissions": [
     {
       "packet_id": "lincoln-multi-model-v1-packet",
+      "raw_hash": "sha256:1ae4d112263f3e3e6952a1fa4cb3aed34d2c2d7c615c4444be8476b0d8816ae7",
+      "registered_at": "2026-06-27T02:56:52Z",
+      "registration_id": "submission-1ae4d112263f3e3e",
+      "run_id": "issue147-anthropic-cmt-final2-20260627",
+      "source_format": "json",
+      "status": "valid",
+      "submission_id": "lincoln-issue147-anthropic-cmt-final2-20260627",
+      "validation_report": "quality/model-reliability/normalized/validation-reports/submission-1ae4d112263f3e3e.json"
+    },
+    {
+      "packet_id": "lincoln-multi-model-v1-packet",
       "raw_hash": "sha256:445eb0b19c270d41432bdc0a34ff45ad9bc0932dc9929ec2d12396ba07ebe249",
       "registered_at": "2026-06-27T02:56:52Z",
       "registration_id": "submission-445eb0b19c270d41",
@@ -15,14 +26,25 @@
     },
     {
       "packet_id": "lincoln-multi-model-v1-packet",
-      "raw_hash": "sha256:1ae4d112263f3e3e6952a1fa4cb3aed34d2c2d7c615c4444be8476b0d8816ae7",
-      "registered_at": "2026-06-27T02:56:52Z",
-      "registration_id": "submission-1ae4d112263f3e3e",
-      "run_id": "issue147-anthropic-cmt-final2-20260627",
+      "raw_hash": "sha256:175d1781926f4b4363559438d25d05a737d7b41ac1f6e92f0daeb6cff0d427cd",
+      "registered_at": "2026-06-27T14:52:13Z",
+      "registration_id": "submission-175d1781926f4b43",
+      "run_id": "issue157-anthropic-interpretation-20260627",
       "source_format": "json",
       "status": "valid",
-      "submission_id": "lincoln-issue147-anthropic-cmt-final2-20260627",
-      "validation_report": "quality/model-reliability/normalized/validation-reports/submission-1ae4d112263f3e3e.json"
+      "submission_id": "lincoln-issue157-anthropic-interpretation-20260627",
+      "validation_report": "quality/model-reliability/normalized/validation-reports/submission-175d1781926f4b43.json"
+    },
+    {
+      "packet_id": "lincoln-multi-model-v1-packet",
+      "raw_hash": "sha256:4d34d4dc2678b7db7dc3da7ca95a6db5f92fde3f1b008447d283fab112cffdc0",
+      "registered_at": "2026-06-27T14:52:13Z",
+      "registration_id": "submission-4d34d4dc2678b7db",
+      "run_id": "issue157-openai-interpretation-20260627",
+      "source_format": "json",
+      "status": "valid",
+      "submission_id": "lincoln-issue157-openai-interpretation-20260627",
+      "validation_report": "quality/model-reliability/normalized/validation-reports/submission-4d34d4dc2678b7db.json"
     }
   ]
 }

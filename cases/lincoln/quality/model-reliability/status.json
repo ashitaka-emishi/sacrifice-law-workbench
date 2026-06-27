@@ -11,8 +11,8 @@
   "case_id": "lincoln",
   "counts": {
     "invalid_submissions": 0,
-    "submissions": 2,
-    "valid_runs": 2
+    "submissions": 4,
+    "valid_runs": 4
   },
   "errors": [],
   "generator": "scripts/model_reliability/status.py",

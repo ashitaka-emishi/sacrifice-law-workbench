@@ -670,10 +670,17 @@ class ExternalModelRunnerTest(unittest.TestCase):
     def test_openai_request_uses_responses_api_without_tools(self) -> None:
         captured: dict[str, object] = {}
 
-        def fake_request(url: str, headers: dict, body: dict) -> dict:
+        def fake_request(
+            url: str,
+            headers: dict,
+            body: dict,
+            *,
+            timeout_seconds: float = 180.0,
+        ) -> dict:
             captured["url"] = url
             captured["headers"] = headers
             captured["body"] = body
+            captured["timeout_seconds"] = timeout_seconds
             return {"output_text": '{"schema_version":"1.0.0"}'}
 
         with patch(
@@ -686,6 +693,7 @@ class ExternalModelRunnerTest(unittest.TestCase):
                 system="system",
                 user="user",
                 settings={"temperature": 0, "max_output_tokens": 1000},
+                timeout_seconds=600.0,
             )
 
         self.assertEqual(text, '{"schema_version":"1.0.0"}')
@@ -694,14 +702,22 @@ class ExternalModelRunnerTest(unittest.TestCase):
         self.assertIsInstance(body, dict)
         self.assertNotIn("tools", body)
         self.assertNotIn("secret-key", json.dumps(body))
+        self.assertEqual(captured["timeout_seconds"], 600.0)
 
     def test_anthropic_request_uses_messages_api_without_tools(self) -> None:
         captured: dict[str, object] = {}
 
-        def fake_request(url: str, headers: dict, body: dict) -> dict:
+        def fake_request(
+            url: str,
+            headers: dict,
+            body: dict,
+            *,
+            timeout_seconds: float = 180.0,
+        ) -> dict:
             captured["url"] = url
             captured["headers"] = headers
             captured["body"] = body
+            captured["timeout_seconds"] = timeout_seconds
             return {"content": [{"type": "text", "text": '{"schema_version":"1.0.0"}'}]}
 
         with patch(
@@ -714,6 +730,7 @@ class ExternalModelRunnerTest(unittest.TestCase):
                 system="system",
                 user="user",
                 settings={"temperature": 0, "max_tokens": 1000},
+                timeout_seconds=600.0,
             )
 
         self.assertEqual(text, '{"schema_version":"1.0.0"}')
@@ -722,6 +739,7 @@ class ExternalModelRunnerTest(unittest.TestCase):
         self.assertIsInstance(body, dict)
         self.assertNotIn("tools", body)
         self.assertNotIn("secret-key", json.dumps(body))
+        self.assertEqual(captured["timeout_seconds"], 600.0)
 
     def test_anthropic_rejects_non_integer_max_tokens(self) -> None:
         with self.assertRaisesRegex(ExternalModelRunnerError, "max_tokens"):
