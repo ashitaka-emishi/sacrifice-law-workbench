@@ -155,13 +155,13 @@ def validate_submission(
         cmt = raw_item.get("cmt")
         if isinstance(cmt, Mapping):
             primary = cmt.get("source_domain_primary")
-            if primary not in source_domains:
+            if isinstance(primary, str) and primary not in source_domains:
                 errors.append(f"{prefix}.cmt.source_domain_primary: unknown controlled value `{primary}`")
             for secondary in cmt.get("source_domain_secondary", []):
-                if secondary not in source_domains:
+                if isinstance(secondary, str) and secondary not in source_domains:
                     errors.append(f"{prefix}.cmt.source_domain_secondary: unknown controlled value `{secondary}`")
             target = cmt.get("target_domain")
-            if target not in target_domains:
+            if isinstance(target, str) and target not in target_domains:
                 errors.append(f"{prefix}.cmt.target_domain: unknown controlled value `{target}`")
 
     return errors

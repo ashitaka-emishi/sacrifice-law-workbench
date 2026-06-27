@@ -1,0 +1,392 @@
+{
+  "authority": {
+    "decision_authority": "human-only",
+    "notice": "Recommendations document training and codebook proposals only. They do not alter accepted annotations or adjudicate queue items.",
+    "retroactive_change_permitted": false
+  },
+  "case_id": "lincoln",
+  "generator": "scripts/model_reliability/generate_codebook_notes.py",
+  "recommendations": [
+    {
+      "case_id": "lincoln",
+      "categories": [
+        "reference-challenge"
+      ],
+      "decided_at": null,
+      "decision_rationale": "Awaiting explicit human review.",
+      "decision_source": "generated-default",
+      "disagreement_ids": [
+        "disagreement-0001",
+        "disagreement-0017",
+        "disagreement-0022",
+        "disagreement-0027"
+      ],
+      "disposition": "deferred",
+      "evidence_count": 4,
+      "field": "cmt.cluster_id",
+      "finding_type": "ambiguous-instruction",
+      "observation": "4 queued `reference-challenge` item(s) affect `cmt.cluster_id` in `en`.",
+      "queue_ids": [
+        "review-0001",
+        "review-0008",
+        "review-0009",
+        "review-0011"
+      ],
+      "recommendation_id": "codebook-rec-bb05431c881b",
+      "recommended_change": "Review the reference and codebook wording independently; do not adopt the model value by vote.",
+      "reviewer": null,
+      "source_language": "en",
+      "task_layer": "cmt",
+      "training_use": "Use the reviewed examples as a contrastive calibration set; retain source language and uncertainty notes."
+    },
+    {
+      "case_id": "lincoln",
+      "categories": [
+        "semantic-instability"
+      ],
+      "decided_at": null,
+      "decision_rationale": "Awaiting explicit human review.",
+      "decision_source": "generated-default",
+      "disagreement_ids": [
+        "disagreement-0002",
+        "disagreement-0006",
+        "disagreement-0011",
+        "disagreement-0018",
+        "disagreement-0023",
+        "disagreement-0028",
+        "disagreement-0033"
+      ],
+      "disposition": "deferred",
+      "evidence_count": 7,
+      "field": "cmt.conceptual_metaphor",
+      "finding_type": "ambiguous-instruction",
+      "observation": "7 queued `semantic-instability` item(s) affect `cmt.conceptual_metaphor` in `en`.",
+      "queue_ids": [
+        "review-0023",
+        "review-0025",
+        "review-0027",
+        "review-0029",
+        "review-0031",
+        "review-0033",
+        "review-0035"
+      ],
+      "recommendation_id": "codebook-rec-1c1d7d367726",
+      "recommended_change": "Clarify the decision rule for `cmt.conceptual_metaphor` with contrastive examples.",
+      "reviewer": null,
+      "source_language": "en",
+      "task_layer": "cmt",
+      "training_use": "Use the reviewed examples as a contrastive calibration set; retain source language and uncertainty notes."
+    },
+    {
+      "case_id": "lincoln",
+      "categories": [
+        "semantic-instability"
+      ],
+      "decided_at": null,
+      "decision_rationale": "Awaiting explicit human review.",
+      "decision_source": "generated-default",
+      "disagreement_ids": [
+        "disagreement-0003",
+        "disagreement-0007",
+        "disagreement-0012",
+        "disagreement-0019",
+        "disagreement-0024",
+        "disagreement-0029",
+        "disagreement-0034"
+      ],
+      "disposition": "deferred",
+      "evidence_count": 7,
+      "field": "cmt.entailments",
+      "finding_type": "ambiguous-instruction",
+      "observation": "7 queued `semantic-instability` item(s) affect `cmt.entailments` in `en`.",
+      "queue_ids": [
+        "review-0024",
+        "review-0026",
+        "review-0028",
+        "review-0030",
+        "review-0032",
+        "review-0034",
+        "review-0036"
+      ],
+      "recommendation_id": "codebook-rec-44d3f615fe5e",
+      "recommended_change": "Clarify the decision rule for `cmt.entailments` with contrastive examples.",
+      "reviewer": null,
+      "source_language": "en",
+      "task_layer": "cmt",
+      "training_use": "Use the reviewed examples as a contrastive calibration set; retain source language and uncertainty notes."
+    },
+    {
+      "case_id": "lincoln",
+      "categories": [
+        "domain-instability"
+      ],
+      "decided_at": null,
+      "decision_rationale": "Awaiting explicit human review.",
+      "decision_source": "generated-default",
+      "disagreement_ids": [
+        "disagreement-0008",
+        "disagreement-0020"
+      ],
+      "disposition": "deferred",
+      "evidence_count": 2,
+      "field": "cmt.source_domain_primary",
+      "finding_type": "ambiguous-instruction",
+      "observation": "2 queued `domain-instability` item(s) affect `cmt.source_domain_primary` in `en`.",
+      "queue_ids": [
+        "review-0018",
+        "review-0021"
+      ],
+      "recommendation_id": "codebook-rec-7c2926693152",
+      "recommended_change": "Clarify domain and cluster distinctions with contrastive mapping examples.",
+      "reviewer": null,
+      "source_language": "en",
+      "task_layer": "cmt",
+      "training_use": "Use the reviewed examples as a contrastive calibration set; retain source language and uncertainty notes."
+    },
+    {
+      "case_id": "lincoln",
+      "categories": [
+        "reference-challenge"
+      ],
+      "decided_at": null,
+      "decision_rationale": "Awaiting explicit human review.",
+      "decision_source": "generated-default",
+      "disagreement_ids": [
+        "disagreement-0013",
+        "disagreement-0030",
+        "disagreement-0035"
+      ],
+      "disposition": "deferred",
+      "evidence_count": 3,
+      "field": "cmt.source_domain_primary",
+      "finding_type": "ambiguous-instruction",
+      "observation": "3 queued `reference-challenge` item(s) affect `cmt.source_domain_primary` in `en`.",
+      "queue_ids": [
+        "review-0003",
+        "review-0005",
+        "review-0010"
+      ],
+      "recommendation_id": "codebook-rec-c035eb0400cd",
+      "recommended_change": "Review the reference and codebook wording independently; do not adopt the model value by vote.",
+      "reviewer": null,
+      "source_language": "en",
+      "task_layer": "cmt",
+      "training_use": "Use the reviewed examples as a contrastive calibration set; retain source language and uncertainty notes."
+    },
+    {
+      "case_id": "lincoln",
+      "categories": [
+        "domain-instability"
+      ],
+      "decided_at": null,
+      "decision_rationale": "Awaiting explicit human review.",
+      "decision_source": "generated-default",
+      "disagreement_ids": [
+        "disagreement-0004",
+        "disagreement-0009",
+        "disagreement-0014",
+        "disagreement-0021",
+        "disagreement-0025",
+        "disagreement-0031"
+      ],
+      "disposition": "deferred",
+      "evidence_count": 6,
+      "field": "cmt.source_domain_secondary",
+      "finding_type": "ambiguous-instruction",
+      "observation": "6 queued `domain-instability` item(s) affect `cmt.source_domain_secondary` in `en`.",
+      "queue_ids": [
+        "review-0012",
+        "review-0013",
+        "review-0014",
+        "review-0016",
+        "review-0019",
+        "review-0022"
+      ],
+      "recommendation_id": "codebook-rec-8efcb632c3ca",
+      "recommended_change": "Clarify domain and cluster distinctions with contrastive mapping examples.",
+      "reviewer": null,
+      "source_language": "en",
+      "task_layer": "cmt",
+      "training_use": "Use the reviewed examples as a contrastive calibration set; retain source language and uncertainty notes."
+    },
+    {
+      "case_id": "lincoln",
+      "categories": [
+        "reference-challenge"
+      ],
+      "decided_at": null,
+      "decision_rationale": "Awaiting explicit human review.",
+      "decision_source": "generated-default",
+      "disagreement_ids": [
+        "disagreement-0036"
+      ],
+      "disposition": "deferred",
+      "evidence_count": 1,
+      "field": "cmt.source_domain_secondary",
+      "finding_type": "ambiguous-instruction",
+      "observation": "1 queued `reference-challenge` item(s) affect `cmt.source_domain_secondary` in `en`.",
+      "queue_ids": [
+        "review-0006"
+      ],
+      "recommendation_id": "codebook-rec-a7c275633158",
+      "recommended_change": "Review the reference and codebook wording independently; do not adopt the model value by vote.",
+      "reviewer": null,
+      "source_language": "en",
+      "task_layer": "cmt",
+      "training_use": "Use the reviewed examples as a contrastive calibration set; retain source language and uncertainty notes."
+    },
+    {
+      "case_id": "lincoln",
+      "categories": [
+        "reference-challenge"
+      ],
+      "decided_at": null,
+      "decision_rationale": "Awaiting explicit human review.",
+      "decision_source": "generated-default",
+      "disagreement_ids": [
+        "disagreement-0005",
+        "disagreement-0015",
+        "disagreement-0037"
+      ],
+      "disposition": "deferred",
+      "evidence_count": 3,
+      "field": "cmt.target_domain",
+      "finding_type": "ambiguous-instruction",
+      "observation": "3 queued `reference-challenge` item(s) affect `cmt.target_domain` in `en`.",
+      "queue_ids": [
+        "review-0002",
+        "review-0004",
+        "review-0007"
+      ],
+      "recommendation_id": "codebook-rec-1aff00c39134",
+      "recommended_change": "Review the reference and codebook wording independently; do not adopt the model value by vote.",
+      "reviewer": null,
+      "source_language": "en",
+      "task_layer": "cmt",
+      "training_use": "Use the reviewed examples as a contrastive calibration set; retain source language and uncertainty notes."
+    },
+    {
+      "case_id": "lincoln",
+      "categories": [
+        "target-domain-instability"
+      ],
+      "decided_at": null,
+      "decision_rationale": "Awaiting explicit human review.",
+      "decision_source": "generated-default",
+      "disagreement_ids": [
+        "disagreement-0010",
+        "disagreement-0026"
+      ],
+      "disposition": "deferred",
+      "evidence_count": 2,
+      "field": "cmt.target_domain",
+      "finding_type": "ambiguous-instruction",
+      "observation": "2 queued `target-domain-instability` item(s) affect `cmt.target_domain` in `en`.",
+      "queue_ids": [
+        "review-0015",
+        "review-0020"
+      ],
+      "recommendation_id": "codebook-rec-ce1e63f5bbd8",
+      "recommended_change": "Clarify domain and cluster distinctions with contrastive mapping examples.",
+      "reviewer": null,
+      "source_language": "en",
+      "task_layer": "cmt",
+      "training_use": "Use the reviewed examples as a contrastive calibration set; retain source language and uncertainty notes."
+    },
+    {
+      "case_id": "lincoln",
+      "categories": [
+        "confidence-instability"
+      ],
+      "decided_at": null,
+      "decision_rationale": "Awaiting explicit human review.",
+      "decision_source": "generated-default",
+      "disagreement_ids": [
+        "disagreement-0016"
+      ],
+      "disposition": "deferred",
+      "evidence_count": 1,
+      "field": "confidence",
+      "finding_type": "ambiguous-instruction",
+      "observation": "1 queued `confidence-instability` item(s) affect `confidence` in `en`.",
+      "queue_ids": [
+        "review-0037"
+      ],
+      "recommendation_id": "codebook-rec-39e5d178f21b",
+      "recommended_change": "Add confidence anchors and examples for adjacent confidence levels.",
+      "reviewer": null,
+      "source_language": "en",
+      "task_layer": "cmt",
+      "training_use": "Use the reviewed examples as a contrastive calibration set; retain source language and uncertainty notes."
+    },
+    {
+      "case_id": "lincoln",
+      "categories": [
+        "context-instability"
+      ],
+      "decided_at": null,
+      "decision_rationale": "Awaiting explicit human review.",
+      "decision_source": "generated-default",
+      "disagreement_ids": [
+        "disagreement-0032"
+      ],
+      "disposition": "deferred",
+      "evidence_count": 1,
+      "field": "uncertainty.status",
+      "finding_type": "ambiguous-instruction",
+      "observation": "1 queued `context-instability` item(s) affect `uncertainty.status` in `en`.",
+      "queue_ids": [
+        "review-0017"
+      ],
+      "recommendation_id": "codebook-rec-b4281c87be86",
+      "recommended_change": "Clarify the decision rule for `uncertainty.status` with contrastive examples.",
+      "reviewer": null,
+      "source_language": "en",
+      "task_layer": "cmt",
+      "training_use": "Use the reviewed examples as a contrastive calibration set; retain source language and uncertainty notes."
+    },
+    {
+      "case_id": "lincoln",
+      "categories": [],
+      "comparable_count": 7,
+      "decided_at": null,
+      "decision_rationale": "Awaiting explicit human review.",
+      "decision_source": "generated-default",
+      "disagreement_ids": [],
+      "disposition": "deferred",
+      "evidence_count": 7,
+      "field": "cmt.cluster_id",
+      "finding_type": "stable-category",
+      "metric_name": "observed_agreement",
+      "metric_value": 1.0,
+      "observation": "All defined model-pair diagnostics were stable for `cmt.cluster_id`.",
+      "queue_ids": [],
+      "recommendation_id": "codebook-rec-5eb2c5b87e2e",
+      "recommended_change": "Retain the current rule for now and preserve this field as a positive calibration example.",
+      "reviewer": null,
+      "source_language": "en",
+      "task_layer": "cmt",
+      "training_use": "Use as a stable positive example, while preserving the original source and task context."
+    }
+  ],
+  "run_ids": [
+    "issue147-anthropic-cmt-final2-20260627",
+    "issue147-openai-cmt-final2-20260627"
+  ],
+  "schema_version": "1.0.0",
+  "source_generators": {
+    "agreement": "scripts/model_reliability/compare_runs.py",
+    "disagreements": "scripts/model_reliability/classify_disagreements.py",
+    "review_queue": "scripts/model_reliability/generate_review_queue.py"
+  },
+  "summary": {
+    "accepted_count": 0,
+    "ambiguous_instruction_count": 11,
+    "common_model_error_count": 0,
+    "deferred_count": 12,
+    "multilingual_problem_count": 0,
+    "recommendation_count": 12,
+    "rejected_count": 0,
+    "stable_category_count": 1
+  }
+}

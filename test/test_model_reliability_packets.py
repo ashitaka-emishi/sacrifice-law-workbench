@@ -84,6 +84,33 @@ class PacketGenerationTest(unittest.TestCase):
                     errors = list(Draft202012Validator(item_schema).iter_errors(json.loads(line)))
                     self.assertEqual(errors, [], payload.name)
 
+    def test_packet_hash_ignores_generated_at_source_metadata(self) -> None:
+        with tempfile.TemporaryDirectory() as temp_dir:
+            root = fixture_root(Path(temp_dir))
+            manifest_before = generate_packets(root, "demo", revision="deadbeef")
+            segmented_path = (
+                root
+                / "cases"
+                / "demo"
+                / "corpus"
+                / "segmented"
+                / "demo-doc-001.json"
+            )
+            segmented = json.loads(segmented_path.read_text(encoding="utf-8"))
+            segmented.setdefault("meta", {})["generated_at"] = "2099-01-01T00:00:00"
+            write_json(segmented_path, segmented)
+
+            manifest_after = generate_packets(root, "demo", revision="deadbeef")
+
+            self.assertEqual(manifest_before["packet_hash"], manifest_after["packet_hash"])
+            before_sources = {
+                entry["path"]: entry["hash"] for entry in manifest_before["source_inputs"]
+            }
+            after_sources = {
+                entry["path"]: entry["hash"] for entry in manifest_after["source_inputs"]
+            }
+            self.assertEqual(before_sources, after_sources)
+
     def test_rejects_unknown_sentence_before_writing_packets(self) -> None:
         with tempfile.TemporaryDirectory() as temp_dir:
             root = fixture_root(Path(temp_dir))

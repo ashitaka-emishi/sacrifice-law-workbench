@@ -37,6 +37,7 @@ def runner_root(base: Path) -> Path:
 def adjusted_valid_mock(
     path: Path,
     *,
+    root: Path,
     provider: str,
     model: str,
     model_version: str | None,
@@ -49,6 +50,24 @@ def adjusted_valid_mock(
             encoding="utf-8"
         )
     )
+    manifest = json.loads(
+        (
+            root
+            / "cases"
+            / "demo"
+            / "quality"
+            / "model-reliability"
+            / "packets"
+            / "packet-manifest.json"
+        ).read_text(encoding="utf-8")
+    )
+    prompt = next(item for item in manifest["prompts"] if item["task_layer"] == "cmt")
+    submission["sample_id"] = manifest["sample_id"]
+    submission["sample_version"] = manifest["sample_version"]
+    submission["packet_hash"] = manifest["packet_hash"]
+    submission["prompt_hash"] = prompt["hash"]
+    submission["code_revision"] = manifest["code_revision"]
+    submission["source_language"] = manifest["source_language"]
     submission["submission_id"] = submission_id
     submission["run"] = {
         "run_id": run_id,
@@ -106,6 +125,59 @@ class ExternalModelRunnerTest(unittest.TestCase):
             self.assertEqual(prompt.count("## Blind packet JSONL"), 1)
             self.assertIn("Return exactly one raw JSON object", prompt)
             self.assertIn("Do not add accepted annotations", prompt)
+            self.assertIn("Controlled values", prompt)
+            self.assertIn("cmt.source_domain_primary", prompt)
+            self.assertIn("uncertainty.status", prompt)
+
+    def test_dry_run_templates_include_layer_specific_required_fields(self) -> None:
+        expected_fields = {
+            "identification": ("identification",),
+            "cmt": ("cmt",),
+            "interpretation": ("interpretation",),
+        }
+        with tempfile.TemporaryDirectory() as temp_dir:
+            base = Path(temp_dir)
+            root = runner_root(base)
+
+            for layer, fields in expected_fields.items():
+                output = base / "reports" / "tmp" / layer
+                result = main(
+                    [
+                        "--root",
+                        str(root),
+                        "--case",
+                        "demo",
+                        "--task-layer",
+                        layer,
+                        "--provider",
+                        "openai",
+                        "--model",
+                        "gpt-test",
+                        "--run-id",
+                        f"dry-run-{layer}",
+                        "--completed-at",
+                        "2026-06-18T12:00:00Z",
+                        "--output-root",
+                        str(output),
+                        "--dry-run",
+                    ]
+                )
+
+                self.assertEqual(result, 0)
+                template_path = next(output.glob("*.json"))
+                item = json.loads(template_path.read_text(encoding="utf-8"))["items"][0]
+                for field in fields:
+                    self.assertIn(field, item)
+                if layer == "identification":
+                    self.assertIn("decision", item["lexical_units"][0])
+                    self.assertIn("boundary_decision", item["lexical_units"][0])
+                if layer == "cmt":
+                    self.assertIn("source_domain_primary", item["cmt"])
+                    self.assertIn("conceptual_metaphor", item["cmt"])
+                if layer == "interpretation":
+                    self.assertIn("functions", item["interpretation"])
+                    self.assertIn("agency", item["interpretation"])
+                    self.assertIn("absence", item["interpretation"])
 
     def test_mock_response_validates_without_calling_external_api(self) -> None:
         with tempfile.TemporaryDirectory() as temp_dir:
@@ -114,6 +186,7 @@ class ExternalModelRunnerTest(unittest.TestCase):
             output = base / "reports" / "tmp" / "model-reliability"
             mock = adjusted_valid_mock(
                 base / "valid.json",
+                root=root,
                 provider="anthropic",
                 model="claude-test",
                 model_version="fixture-v1",
@@ -167,6 +240,7 @@ class ExternalModelRunnerTest(unittest.TestCase):
             root = runner_root(base)
             bad_path = adjusted_valid_mock(
                 base / "bad.json",
+                root=root,
                 provider="openai",
                 model="gpt-test",
                 model_version=None,
@@ -216,6 +290,62 @@ class ExternalModelRunnerTest(unittest.TestCase):
             self.assertEqual(len(errors), 1)
             self.assertIn("packet_hash", errors[0].read_text(encoding="utf-8"))
 
+    def test_mock_response_reports_malformed_cmt_errors_without_crashing(self) -> None:
+        with tempfile.TemporaryDirectory() as temp_dir:
+            base = Path(temp_dir)
+            root = runner_root(base)
+            bad_path = adjusted_valid_mock(
+                base / "bad-cmt.json",
+                root=root,
+                provider="openai",
+                model="gpt-test",
+                model_version=None,
+                run_id="bad-cmt-001",
+                submission_id="demo-bad-cmt-001",
+                completed_at="2026-06-18T12:00:00Z",
+            )
+            bad = json.loads(bad_path.read_text(encoding="utf-8"))
+            bad["items"][0]["cmt"]["target_domain"] = {"label": "hope"}
+            bad_path.write_text(json.dumps(bad), encoding="utf-8")
+            output = base / "reports" / "tmp" / "model-reliability"
+
+            result = main(
+                [
+                    "--root",
+                    str(root),
+                    "--case",
+                    "demo",
+                    "--task-layer",
+                    "cmt",
+                    "--provider",
+                    "openai",
+                    "--model",
+                    "gpt-test",
+                    "--run-id",
+                    "bad-cmt-001",
+                    "--submission-id",
+                    "demo-bad-cmt-001",
+                    "--completed-at",
+                    "2026-06-18T12:00:00Z",
+                    "--language-capability",
+                    "fr",
+                    "--language-capability",
+                    "en",
+                    "--setting",
+                    "temperature=0",
+                    "--no-disable-tools-note",
+                    "--output-root",
+                    str(output),
+                    "--mock-response",
+                    str(bad_path),
+                ]
+            )
+
+            self.assertEqual(result, 1)
+            errors = sorted(output.glob("*.validation-errors.txt"))
+            self.assertEqual(len(errors), 1)
+            self.assertIn("target_domain", errors[0].read_text(encoding="utf-8"))
+
     def test_rejects_sensitive_settings_before_writing(self) -> None:
         with tempfile.TemporaryDirectory() as temp_dir:
             base = Path(temp_dir)
@@ -256,6 +386,7 @@ class ExternalModelRunnerTest(unittest.TestCase):
             (root / ".env").write_text(f"OPENAI_API_KEY={secret}\n", encoding="utf-8")
             mock = adjusted_valid_mock(
                 base / "valid.json",
+                root=root,
                 provider="openai",
                 model="gpt-test",
                 model_version=None,
@@ -319,6 +450,7 @@ class ExternalModelRunnerTest(unittest.TestCase):
             (root / ".env").write_text("OPENAI_API_KEY=dotenv-secret\n", encoding="utf-8")
             mock = adjusted_valid_mock(
                 base / "valid.json",
+                root=root,
                 provider="openai",
                 model="gpt-test",
                 model_version=None,
@@ -378,6 +510,7 @@ class ExternalModelRunnerTest(unittest.TestCase):
             env_file.write_text("CUSTOM_OPENAI_KEY=alternate-secret\n", encoding="utf-8")
             mock = adjusted_valid_mock(
                 base / "valid.json",
+                root=root,
                 provider="openai",
                 model="gpt-test",
                 model_version=None,
@@ -464,6 +597,7 @@ class ExternalModelRunnerTest(unittest.TestCase):
             output = base / "reports" / "tmp" / "model-reliability"
             mock = adjusted_valid_mock(
                 base / "valid.json",
+                root=root,
                 provider="anthropic",
                 model="claude-test",
                 model_version="fixture-v1",

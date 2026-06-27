@@ -162,6 +162,64 @@ def base_submission_template(
     language_capabilities: Sequence[str],
     settings: Mapping[str, Any],
 ) -> dict[str, Any]:
+    def layer_fields(row: Mapping[str, Any]) -> dict[str, Any]:
+        if packet.task_layer == "identification":
+            return {
+                "identification": {
+                    "contextual_meaning": "MODEL MUST REPLACE",
+                    "basic_meaning": "MODEL MUST REPLACE",
+                    "contrast_explanation": "MODEL MUST REPLACE",
+                    "comparison_basis": "MODEL MUST REPLACE",
+                },
+                "lexical_units": [
+                    {
+                        **unit,
+                        "decision": "uncertain",
+                        "boundary_decision": "uncertain",
+                    }
+                    for unit in row.get("lexical_units", [])
+                    if isinstance(unit, Mapping)
+                ],
+            }
+        if packet.task_layer == "cmt":
+            return {
+                "cmt": {
+                    "source_domain_primary": "MODEL MUST REPLACE",
+                    "source_domain_secondary": [],
+                    "target_domain": "MODEL MUST REPLACE",
+                    "conceptual_metaphor": "MODEL MUST REPLACE",
+                    "entailments": ["MODEL MUST REPLACE"],
+                    "cluster_id": "MODEL MUST REPLACE",
+                }
+            }
+        if packet.task_layer == "interpretation":
+            return {
+                "interpretation": {
+                    "functions": {
+                        "sacred_object": "uncertain",
+                        "sacrificial_body": "uncertain",
+                        "enemy_as_bringer_of_death": "uncertain",
+                        "violence_logic": "uncertain",
+                        "obligatory_frame": "uncertain",
+                        "purification": "uncertain",
+                    },
+                    "agency": {
+                        "agents": [],
+                        "patients": [],
+                        "beneficiaries": [],
+                        "sacrificial_subjects": [],
+                        "excluded_agents": [],
+                    },
+                    "absence": {
+                        "status": "uncertain",
+                        "expected_presence": "",
+                        "possible_absence": "",
+                        "displacement_mechanism": "",
+                    },
+                }
+            }
+        raise ExternalModelRunnerError(f"unsupported task layer `{packet.task_layer}`")
+
     return {
         "schema_version": "1.0.0",
         "submission_id": submission_id,
@@ -186,6 +244,7 @@ def base_submission_template(
         "items": [
             {
                 **row,
+                **layer_fields(row),
                 "confidence": 0.0,
                 "uncertainty": {"status": "unresolved", "note": "MODEL MUST REPLACE"},
                 "rival_reading": "MODEL MUST REPLACE",
@@ -194,6 +253,65 @@ def base_submission_template(
             for row in packet.packet_rows
         ],
     }
+
+
+def provider_vocabulary_instruction(packet: PacketRun) -> str:
+    guidance: dict[str, Any] = {
+        "uncertainty.status": ["none", "low", "material", "unresolved"],
+    }
+    if packet.task_layer == "identification":
+        guidance["lexical_units[].decision"] = [
+            "non_metaphor",
+            "mipvu_indirect",
+            "mipvu_direct",
+            "mipvu_implicit",
+            "mipvu_personification",
+            "uncertain",
+            "excluded_nonlexical",
+        ]
+        guidance["lexical_units[].boundary_decision"] = [
+            "exact",
+            "expand",
+            "contract",
+            "split",
+            "merge",
+            "no_valid_span",
+            "uncertain",
+        ]
+    elif packet.task_layer == "cmt":
+        vocab_path = packet.root / "config" / "controlled-vocabularies.json"
+        vocab_data = read_json_object(vocab_path)
+        guidance["cmt.source_domain_primary"] = [
+            item["id"]
+            for item in vocab_data.get("source_domains", [])
+            if isinstance(item, Mapping) and item.get("id")
+        ]
+        guidance["cmt.source_domain_secondary[]"] = guidance["cmt.source_domain_primary"]
+        guidance["cmt.target_domain"] = [
+            item["id"]
+            for item in vocab_data.get("target_domains", [])
+            if isinstance(item, Mapping) and item.get("id")
+        ]
+        cluster_path = packet.root / "cases" / packet.case_id / "config" / "case-clusters.json"
+        cluster_data = json.loads(cluster_path.read_text(encoding="utf-8"))
+        guidance["cmt.cluster_id"] = [
+            {
+                "id": item.get("id"),
+                "name": item.get("name"),
+                "keywords": item.get("keywords", []),
+            }
+            for item in cluster_data
+            if isinstance(item, Mapping) and item.get("id")
+        ]
+    elif packet.task_layer == "interpretation":
+        field_values = ["present", "absent", "uncertain", "not_applicable"]
+        guidance["interpretation.functions.*"] = field_values
+        guidance["interpretation.absence.status"] = field_values
+    return (
+        "Use only these exact controlled values where applicable. Do not invent "
+        "new IDs or use labels in place of IDs:\n"
+        + json.dumps(guidance, ensure_ascii=False, indent=2)
+    )
 
 
 def format_instruction(packet: PacketRun, template: Mapping[str, Any]) -> str:
@@ -231,6 +349,8 @@ def format_instruction(packet: PacketRun, template: Mapping[str, Any]) -> str:
         "The JSON must conform to schemas/model-reliability/submission-schema.json.\n\n"
         "Schema/task reminder:\n"
         + json.dumps(schema_summary, ensure_ascii=False, indent=2)
+        + "\n\nControlled values:\n"
+        + provider_vocabulary_instruction(packet)
         + "\n\nSubmission envelope template to fill:\n"
         + json.dumps(template, ensure_ascii=False, indent=2)
     )

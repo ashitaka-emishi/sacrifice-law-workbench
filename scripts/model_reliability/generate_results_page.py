@@ -105,6 +105,31 @@ def _summaries(
     )
 
 
+def _layer_run_counts(model_root: Path) -> dict[str, int]:
+    normalized = _read_object(model_root / "normalized" / "normalized-runs.json")
+    if normalized is None:
+        return {}
+    runs = normalized.get("runs")
+    if not isinstance(runs, list):
+        return {}
+    counts: dict[str, int] = {}
+    for run in runs:
+        if not isinstance(run, Mapping):
+            continue
+        submission = run.get("submission")
+        items = submission.get("items") if isinstance(submission, Mapping) else []
+        if not isinstance(items, list):
+            continue
+        layers = {
+            item.get("task_layer")
+            for item in items
+            if isinstance(item, Mapping) and isinstance(item.get("task_layer"), str)
+        }
+        for layer in layers:
+            counts[str(layer)] = counts.get(str(layer), 0) + 1
+    return counts
+
+
 def collect_results(root: Path) -> list[dict[str, Any]]:
     root = root.resolve()
     cases: list[dict[str, Any]] = []
@@ -125,6 +150,7 @@ def collect_results(root: Path) -> list[dict[str, Any]]:
             {
                 "case_id": case_id,
                 "status": status,
+                "layer_run_counts": _layer_run_counts(model_root),
                 "model_summaries": _summaries(agreement, "model_vs_model"),
                 "reference_summaries": _summaries(
                     agreement, "model_vs_reference"
@@ -135,11 +161,49 @@ def collect_results(root: Path) -> list[dict[str, Any]]:
     return cases
 
 
+def _positive_comparable_count(summary: Mapping[str, Any]) -> bool:
+    value = summary.get("comparable_count")
+    return isinstance(value, int) and value > 0
+
+
+def _layer_valid_runs(case: Mapping[str, Any], layer: str) -> int:
+    counts = case.get("layer_run_counts")
+    if isinstance(counts, Mapping):
+        value = counts.get(layer, 0)
+        return value if isinstance(value, int) and value >= 0 else 0
+    if any(
+        item.get("task_layer") == layer and _positive_comparable_count(item)
+        for item in [
+            *case.get("model_summaries", []),
+            *case.get("reference_summaries", []),
+        ]
+    ):
+        status_counts = case["status"].get("counts", {})
+        value = status_counts.get("valid_runs", 0) if isinstance(status_counts, Mapping) else 0
+        return value if isinstance(value, int) and value >= 0 else 0
+    return 0
+
+
+def _layer_state_and_note(
+    case: Mapping[str, Any],
+    layer: str,
+    *,
+    default_warning: str,
+) -> tuple[str, str]:
+    status = case["status"]
+    state = status.get("state")
+    if state in {"complete", "partial"} and _layer_valid_runs(case, layer) == 0:
+        return "designed — not executed", (
+            "No valid submissions for this layer; case completion reflects "
+            "the executed layer(s)."
+        )
+    return str(STATE_LABELS.get(state, state)), default_warning
+
+
 def _overview(cases: Sequence[Mapping[str, Any]]) -> str:
     rows: list[str] = []
     for case in cases:
         status = case["status"]
-        counts = status.get("counts", {})
         warning_values = status.get("warnings", [])
         warning = warning_values[0] if warning_values else ""
         if status.get("state") == "invalid":
@@ -157,16 +221,20 @@ def _overview(cases: Sequence[Mapping[str, Any]]) -> str:
                     str(item.get("field"))
                     for item in all_summaries
                     if item.get("task_layer") == layer
+                    and _positive_comparable_count(item)
                 }
+            )
+            layer_state, layer_warning = _layer_state_and_note(
+                case, layer, default_warning=warning
             )
             rows.append(
                 "| `{}` | {} | {} | {} | {} | {} |".format(
                     _cell(case["case_id"]),
                     _cell(layer),
-                    _cell(STATE_LABELS.get(status.get("state"), status.get("state"))),
-                    _cell(counts.get("valid_runs", 0)),
+                    _cell(layer_state),
+                    _cell(_layer_valid_runs(case, layer)),
                     field_count,
-                    _cell(warning),
+                    _cell(layer_warning),
                 )
             )
     return "\n".join(rows) or "| — | — | — | 0 | 0 | No cases discovered. |"
@@ -289,6 +357,19 @@ def render_results_page(cases: Sequence[Mapping[str, Any]]) -> str:
         for case in cases
         if case["status"].get("state") == "designed"
     ]
+    layer_only = []
+    for case in cases:
+        if case["status"].get("state") not in {"complete", "partial"}:
+            continue
+        executed = [layer for layer in TASK_LAYERS if _layer_valid_runs(case, layer) > 0]
+        missing = [layer for layer in TASK_LAYERS if _layer_valid_runs(case, layer) == 0]
+        if executed and missing:
+            layer_only.append(
+                f"`{_cell(case['case_id'])}` executed "
+                f"{', '.join(f'`{_cell(layer)}`' for layer in executed)} only; "
+                f"{', '.join(f'`{_cell(layer)}`' for layer in missing)} "
+                "remain designed but not executed."
+            )
     if designed:
         noun = "has" if len(designed) == 1 else "have"
         execution_note = (
@@ -296,6 +377,8 @@ def render_results_page(cases: Sequence[Mapping[str, Any]]) -> str:
             + ", ".join(f"`{_cell(case_id)}`" for case_id in designed)
             + f" {noun} blind packets but no valid external model submissions."
         )
+    elif layer_only:
+        execution_note = "**Layer-only execution:** " + " ".join(layer_only)
     else:
         execution_note = (
             "No case is currently in the designed-without-submissions state."
@@ -322,9 +405,9 @@ This page is generated from validated case-local model-reliability artifacts by
 |---|---|---|---:|---:|---|
 {_overview(cases)}
 
-The same case state is repeated for each layer so missing execution cannot be
-mistaken for a missing row. `Complete` means the artifact chain is valid; it
-does not mean an interpretation has been proven.
+Layer state is computed from validated submissions for that layer. `Complete`
+means the artifact chain for the executed layer is valid; it does not mean an
+interpretation has been proven.
 
 ## Model-to-model field stability
 

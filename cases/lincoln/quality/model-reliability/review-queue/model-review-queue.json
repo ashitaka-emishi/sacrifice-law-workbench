@@ -1,0 +1,3474 @@
+{
+  "case_id": "lincoln",
+  "entries": [
+    {
+      "adjudication_note": "Model agreement and majority patterns are diagnostic only; this queue contains no adjudication decision.",
+      "affected_claims": [
+        {
+          "claim_id": "lincoln-score-doc-gettysburg-enemy_as_bringer_of_death",
+          "claim_status": "interpretation",
+          "claim_text": "Gettysburg Address contributes weak support evidence for enemy as bringer of death (score 1.0/4): Gettysburg strongly links battlefield death, national survival, civic dedication, and democratic renewal, while the enemy remains mostly unnamed.",
+          "match_reasons": [
+            "sentence_id"
+          ],
+          "support_dimension": "enemy_as_bringer_of_death"
+        },
+        {
+          "claim_id": "lincoln-score-doc-gettysburg-historical_enactment_alignment",
+          "claim_status": "inference",
+          "claim_text": "Gettysburg Address contributes strong support evidence for historical enactment or alignment (score 3.0/4): Gettysburg strongly links battlefield death, national survival, civic dedication, and democratic renewal, while the enemy remains mostly unnamed.",
+          "match_reasons": [
+            "sentence_id"
+          ],
+          "support_dimension": "historical_enactment_alignment"
+        },
+        {
+          "claim_id": "lincoln-score-doc-gettysburg-sacred_object",
+          "claim_status": "interpretation",
+          "claim_text": "Gettysburg Address contributes strong support evidence for sacred object (score 3.0/4): Gettysburg strongly links battlefield death, national survival, civic dedication, and democratic renewal, while the enemy remains mostly unnamed.",
+          "match_reasons": [
+            "sentence_id"
+          ],
+          "support_dimension": "sacred_object"
+        },
+        {
+          "claim_id": "lincoln-score-doc-gettysburg-sacrificial_body",
+          "claim_status": "interpretation",
+          "claim_text": "Gettysburg Address contributes strong support evidence for sacrificial body (score 3.0/4): Gettysburg strongly links battlefield death, national survival, civic dedication, and democratic renewal, while the enemy remains mostly unnamed.",
+          "match_reasons": [
+            "sentence_id"
+          ],
+          "support_dimension": "sacrificial_body"
+        }
+      ],
+      "agreement_pattern": "unanimous-reference-challenge",
+      "case_id": "lincoln",
+      "category": "reference-challenge",
+      "cluster_id": null,
+      "cross_case_impacts": [
+        "cross-case:language-or-reference"
+      ],
+      "decision_authority": "human-only",
+      "disagreement_id": "disagreement-0001",
+      "document_id": "lincoln-lyceum-address",
+      "field": "cmt.cluster_id",
+      "focal_text": "uprear",
+      "gloss_en": "",
+      "item_id": "lincoln-multi-model-v1-packet:cmt:lincoln-ann-003",
+      "missing_run_ids": [],
+      "model_values": {
+        "issue147-anthropic-cmt-final2-20260627": "lincoln-05-fathers-inheritance",
+        "issue147-openai-cmt-final2-20260627": "lincoln-05-fathers-inheritance"
+      },
+      "priority": "high",
+      "priority_reasons": [
+        "classified-high-priority",
+        "unanimous-reference-challenge",
+        "claim-audit-impact",
+        "cross-case-impact",
+        "possible-codebook-ambiguity"
+      ],
+      "priority_score": 560,
+      "queue_id": "review-0001",
+      "queue_rank": 1,
+      "reference_value": "lincoln-01-body-organism",
+      "review_question": "Do the unanimous model values for `cmt.cluster_id` on `lincoln-ann-003` expose a reference error, a codebook ambiguity, or shared model bias?",
+      "review_status": "pending-human-review",
+      "rights_status": "public-domain",
+      "sentence_id": "lincoln-lyceum-address_s01_p04_s06",
+      "source_language": "en",
+      "source_risk_flags": [
+        "source-date-error-in-body"
+      ],
+      "source_text": "Theirs was the task (and nobly they performed it) to possess themselves, and through themselves us, of this goodly land, and to uprear upon its hills and its valleys a political edifice of liberty and equal rights; it is ours only to transmit these--the former unprofaned by the foot of an invader, the latter undecayed by the lapse of time and untorn by usurpation--to the latest generation that fate shall permit the world to know.",
+      "storage_policy": "committed",
+      "task_layer": "cmt",
+      "unit_id": "lincoln-ann-003",
+      "value_groups": [
+        {
+          "run_count": 2,
+          "run_ids": [
+            "issue147-anthropic-cmt-final2-20260627",
+            "issue147-openai-cmt-final2-20260627"
+          ],
+          "value": "lincoln-05-fathers-inheritance"
+        }
+      ]
+    },
+    {
+      "adjudication_note": "Model agreement and majority patterns are diagnostic only; this queue contains no adjudication decision.",
+      "affected_claims": [
+        {
+          "claim_id": "lincoln-score-doc-gettysburg-enemy_as_bringer_of_death",
+          "claim_status": "interpretation",
+          "claim_text": "Gettysburg Address contributes weak support evidence for enemy as bringer of death (score 1.0/4): Gettysburg strongly links battlefield death, national survival, civic dedication, and democratic renewal, while the enemy remains mostly unnamed.",
+          "match_reasons": [
+            "sentence_id"
+          ],
+          "support_dimension": "enemy_as_bringer_of_death"
+        },
+        {
+          "claim_id": "lincoln-score-doc-gettysburg-historical_enactment_alignment",
+          "claim_status": "inference",
+          "claim_text": "Gettysburg Address contributes strong support evidence for historical enactment or alignment (score 3.0/4): Gettysburg strongly links battlefield death, national survival, civic dedication, and democratic renewal, while the enemy remains mostly unnamed.",
+          "match_reasons": [
+            "sentence_id"
+          ],
+          "support_dimension": "historical_enactment_alignment"
+        },
+        {
+          "claim_id": "lincoln-score-doc-gettysburg-sacred_object",
+          "claim_status": "interpretation",
+          "claim_text": "Gettysburg Address contributes strong support evidence for sacred object (score 3.0/4): Gettysburg strongly links battlefield death, national survival, civic dedication, and democratic renewal, while the enemy remains mostly unnamed.",
+          "match_reasons": [
+            "sentence_id"
+          ],
+          "support_dimension": "sacred_object"
+        },
+        {
+          "claim_id": "lincoln-score-doc-gettysburg-sacrificial_body",
+          "claim_status": "interpretation",
+          "claim_text": "Gettysburg Address contributes strong support evidence for sacrificial body (score 3.0/4): Gettysburg strongly links battlefield death, national survival, civic dedication, and democratic renewal, while the enemy remains mostly unnamed.",
+          "match_reasons": [
+            "sentence_id"
+          ],
+          "support_dimension": "sacrificial_body"
+        }
+      ],
+      "agreement_pattern": "unanimous-reference-challenge",
+      "case_id": "lincoln",
+      "category": "reference-challenge",
+      "cluster_id": null,
+      "cross_case_impacts": [
+        "cross-case:language-or-reference"
+      ],
+      "decision_authority": "human-only",
+      "disagreement_id": "disagreement-0005",
+      "document_id": "lincoln-lyceum-address",
+      "field": "cmt.target_domain",
+      "focal_text": "uprear",
+      "gloss_en": "",
+      "item_id": "lincoln-multi-model-v1-packet:cmt:lincoln-ann-003",
+      "missing_run_ids": [],
+      "model_values": {
+        "issue147-anthropic-cmt-final2-20260627": "political_order",
+        "issue147-openai-cmt-final2-20260627": "political_order"
+      },
+      "priority": "high",
+      "priority_reasons": [
+        "classified-high-priority",
+        "unanimous-reference-challenge",
+        "claim-audit-impact",
+        "cross-case-impact",
+        "possible-codebook-ambiguity"
+      ],
+      "priority_score": 560,
+      "queue_id": "review-0002",
+      "queue_rank": 2,
+      "reference_value": "government",
+      "review_question": "Do the unanimous model values for `cmt.target_domain` on `lincoln-ann-003` expose a reference error, a codebook ambiguity, or shared model bias?",
+      "review_status": "pending-human-review",
+      "rights_status": "public-domain",
+      "sentence_id": "lincoln-lyceum-address_s01_p04_s06",
+      "source_language": "en",
+      "source_risk_flags": [
+        "source-date-error-in-body"
+      ],
+      "source_text": "Theirs was the task (and nobly they performed it) to possess themselves, and through themselves us, of this goodly land, and to uprear upon its hills and its valleys a political edifice of liberty and equal rights; it is ours only to transmit these--the former unprofaned by the foot of an invader, the latter undecayed by the lapse of time and untorn by usurpation--to the latest generation that fate shall permit the world to know.",
+      "storage_policy": "committed",
+      "task_layer": "cmt",
+      "unit_id": "lincoln-ann-003",
+      "value_groups": [
+        {
+          "run_count": 2,
+          "run_ids": [
+            "issue147-anthropic-cmt-final2-20260627",
+            "issue147-openai-cmt-final2-20260627"
+          ],
+          "value": "political_order"
+        }
+      ]
+    },
+    {
+      "adjudication_note": "Model agreement and majority patterns are diagnostic only; this queue contains no adjudication decision.",
+      "affected_claims": [
+        {
+          "claim_id": "lincoln-score-doc-gettysburg-enemy_as_bringer_of_death",
+          "claim_status": "interpretation",
+          "claim_text": "Gettysburg Address contributes weak support evidence for enemy as bringer of death (score 1.0/4): Gettysburg strongly links battlefield death, national survival, civic dedication, and democratic renewal, while the enemy remains mostly unnamed.",
+          "match_reasons": [
+            "cluster_id"
+          ],
+          "support_dimension": "enemy_as_bringer_of_death"
+        },
+        {
+          "claim_id": "lincoln-score-doc-gettysburg-historical_enactment_alignment",
+          "claim_status": "inference",
+          "claim_text": "Gettysburg Address contributes strong support evidence for historical enactment or alignment (score 3.0/4): Gettysburg strongly links battlefield death, national survival, civic dedication, and democratic renewal, while the enemy remains mostly unnamed.",
+          "match_reasons": [
+            "cluster_id"
+          ],
+          "support_dimension": "historical_enactment_alignment"
+        },
+        {
+          "claim_id": "lincoln-score-doc-gettysburg-sacred_object",
+          "claim_status": "interpretation",
+          "claim_text": "Gettysburg Address contributes strong support evidence for sacred object (score 3.0/4): Gettysburg strongly links battlefield death, national survival, civic dedication, and democratic renewal, while the enemy remains mostly unnamed.",
+          "match_reasons": [
+            "cluster_id"
+          ],
+          "support_dimension": "sacred_object"
+        },
+        {
+          "claim_id": "lincoln-score-doc-gettysburg-sacrificial_body",
+          "claim_status": "interpretation",
+          "claim_text": "Gettysburg Address contributes strong support evidence for sacrificial body (score 3.0/4): Gettysburg strongly links battlefield death, national survival, civic dedication, and democratic renewal, while the enemy remains mostly unnamed.",
+          "match_reasons": [
+            "cluster_id"
+          ],
+          "support_dimension": "sacrificial_body"
+        },
+        {
+          "claim_id": "lincoln-score-doc-second-inaugural-enemy_as_bringer_of_death",
+          "claim_status": "interpretation",
+          "claim_text": "Second Inaugural contributes weak support evidence for enemy as bringer of death (score 1.0/4): The Second Inaugural strongly aligns blood, slavery, and judgment with historical war and emancipation contexts, but restrains enemy-destruction framing through shared guilt and reconciliation.",
+          "match_reasons": [
+            "cluster_id"
+          ],
+          "support_dimension": "enemy_as_bringer_of_death"
+        },
+        {
+          "claim_id": "lincoln-score-doc-second-inaugural-historical_enactment_alignment",
+          "claim_status": "inference",
+          "claim_text": "Second Inaugural contributes strong support evidence for historical enactment or alignment (score 3.0/4): The Second Inaugural strongly aligns blood, slavery, and judgment with historical war and emancipation contexts, but restrains enemy-destruction framing through shared guilt and reconciliation.",
+          "match_reasons": [
+            "cluster_id"
+          ],
+          "support_dimension": "historical_enactment_alignment"
+        },
+        {
+          "claim_id": "lincoln-score-doc-second-inaugural-sacred_object",
+          "claim_status": "interpretation",
+          "claim_text": "Second Inaugural contributes moderate support evidence for sacred object (score 2.0/4): The Second Inaugural strongly aligns blood, slavery, and judgment with historical war and emancipation contexts, but restrains enemy-destruction framing through shared guilt and reconciliation.",
+          "match_reasons": [
+            "cluster_id"
+          ],
+          "support_dimension": "sacred_object"
+        },
+        {
+          "claim_id": "lincoln-score-doc-second-inaugural-sacrificial_body",
+          "claim_status": "interpretation",
+          "claim_text": "Second Inaugural contributes strong support evidence for sacrificial body (score 3.0/4): The Second Inaugural strongly aligns blood, slavery, and judgment with historical war and emancipation contexts, but restrains enemy-destruction framing through shared guilt and reconciliation.",
+          "match_reasons": [
+            "cluster_id"
+          ],
+          "support_dimension": "sacrificial_body"
+        }
+      ],
+      "agreement_pattern": "unanimous-reference-challenge",
+      "case_id": "lincoln",
+      "category": "reference-challenge",
+      "cluster_id": "lincoln-01-body-organism",
+      "cross_case_impacts": [
+        "cross-case:language-or-reference"
+      ],
+      "decision_authority": "human-only",
+      "disagreement_id": "disagreement-0013",
+      "document_id": "lincoln-lyceum-address",
+      "field": "cmt.source_domain_primary",
+      "focal_text": "endure",
+      "gloss_en": "",
+      "item_id": "lincoln-multi-model-v1-packet:cmt:lincoln-ann-017",
+      "missing_run_ids": [],
+      "model_values": {
+        "issue147-anthropic-cmt-final2-20260627": "body",
+        "issue147-openai-cmt-final2-20260627": "body"
+      },
+      "priority": "high",
+      "priority_reasons": [
+        "classified-high-priority",
+        "unanimous-reference-challenge",
+        "claim-audit-impact",
+        "cross-case-impact",
+        "possible-codebook-ambiguity"
+      ],
+      "priority_score": 560,
+      "queue_id": "review-0003",
+      "queue_rank": 3,
+      "reference_value": "nature_organism",
+      "review_question": "Do the unanimous model values for `cmt.source_domain_primary` on `lincoln-ann-017` expose a reference error, a codebook ambiguity, or shared model bias?",
+      "review_status": "pending-human-review",
+      "rights_status": "public-domain",
+      "sentence_id": "lincoln-lyceum-address_s01_p12_s01",
+      "source_language": "en",
+      "source_risk_flags": [
+        "source-date-error-in-body"
+      ],
+      "source_text": "I know the American people are much attached to their government; I know they would suffer much for its sake; I know they would endure evils long and patiently before they would ever think of exchanging it for another,--yet, notwithstanding all this, if the laws be continually despised and disregarded, if their rights to be secure in their persons and property are held by no better tenure than the caprice of a mob, the alienation of their affections from the government is the natural consequence; and to that, sooner or later, it must come.",
+      "storage_policy": "committed",
+      "task_layer": "cmt",
+      "unit_id": "lincoln-ann-017",
+      "value_groups": [
+        {
+          "run_count": 2,
+          "run_ids": [
+            "issue147-anthropic-cmt-final2-20260627",
+            "issue147-openai-cmt-final2-20260627"
+          ],
+          "value": "body"
+        }
+      ]
+    },
+    {
+      "adjudication_note": "Model agreement and majority patterns are diagnostic only; this queue contains no adjudication decision.",
+      "affected_claims": [
+        {
+          "claim_id": "lincoln-score-doc-gettysburg-enemy_as_bringer_of_death",
+          "claim_status": "interpretation",
+          "claim_text": "Gettysburg Address contributes weak support evidence for enemy as bringer of death (score 1.0/4): Gettysburg strongly links battlefield death, national survival, civic dedication, and democratic renewal, while the enemy remains mostly unnamed.",
+          "match_reasons": [
+            "cluster_id"
+          ],
+          "support_dimension": "enemy_as_bringer_of_death"
+        },
+        {
+          "claim_id": "lincoln-score-doc-gettysburg-historical_enactment_alignment",
+          "claim_status": "inference",
+          "claim_text": "Gettysburg Address contributes strong support evidence for historical enactment or alignment (score 3.0/4): Gettysburg strongly links battlefield death, national survival, civic dedication, and democratic renewal, while the enemy remains mostly unnamed.",
+          "match_reasons": [
+            "cluster_id"
+          ],
+          "support_dimension": "historical_enactment_alignment"
+        },
+        {
+          "claim_id": "lincoln-score-doc-gettysburg-sacred_object",
+          "claim_status": "interpretation",
+          "claim_text": "Gettysburg Address contributes strong support evidence for sacred object (score 3.0/4): Gettysburg strongly links battlefield death, national survival, civic dedication, and democratic renewal, while the enemy remains mostly unnamed.",
+          "match_reasons": [
+            "cluster_id"
+          ],
+          "support_dimension": "sacred_object"
+        },
+        {
+          "claim_id": "lincoln-score-doc-gettysburg-sacrificial_body",
+          "claim_status": "interpretation",
+          "claim_text": "Gettysburg Address contributes strong support evidence for sacrificial body (score 3.0/4): Gettysburg strongly links battlefield death, national survival, civic dedication, and democratic renewal, while the enemy remains mostly unnamed.",
+          "match_reasons": [
+            "cluster_id"
+          ],
+          "support_dimension": "sacrificial_body"
+        },
+        {
+          "claim_id": "lincoln-score-doc-second-inaugural-enemy_as_bringer_of_death",
+          "claim_status": "interpretation",
+          "claim_text": "Second Inaugural contributes weak support evidence for enemy as bringer of death (score 1.0/4): The Second Inaugural strongly aligns blood, slavery, and judgment with historical war and emancipation contexts, but restrains enemy-destruction framing through shared guilt and reconciliation.",
+          "match_reasons": [
+            "cluster_id"
+          ],
+          "support_dimension": "enemy_as_bringer_of_death"
+        },
+        {
+          "claim_id": "lincoln-score-doc-second-inaugural-historical_enactment_alignment",
+          "claim_status": "inference",
+          "claim_text": "Second Inaugural contributes strong support evidence for historical enactment or alignment (score 3.0/4): The Second Inaugural strongly aligns blood, slavery, and judgment with historical war and emancipation contexts, but restrains enemy-destruction framing through shared guilt and reconciliation.",
+          "match_reasons": [
+            "cluster_id"
+          ],
+          "support_dimension": "historical_enactment_alignment"
+        },
+        {
+          "claim_id": "lincoln-score-doc-second-inaugural-sacred_object",
+          "claim_status": "interpretation",
+          "claim_text": "Second Inaugural contributes moderate support evidence for sacred object (score 2.0/4): The Second Inaugural strongly aligns blood, slavery, and judgment with historical war and emancipation contexts, but restrains enemy-destruction framing through shared guilt and reconciliation.",
+          "match_reasons": [
+            "cluster_id"
+          ],
+          "support_dimension": "sacred_object"
+        },
+        {
+          "claim_id": "lincoln-score-doc-second-inaugural-sacrificial_body",
+          "claim_status": "interpretation",
+          "claim_text": "Second Inaugural contributes strong support evidence for sacrificial body (score 3.0/4): The Second Inaugural strongly aligns blood, slavery, and judgment with historical war and emancipation contexts, but restrains enemy-destruction framing through shared guilt and reconciliation.",
+          "match_reasons": [
+            "cluster_id"
+          ],
+          "support_dimension": "sacrificial_body"
+        }
+      ],
+      "agreement_pattern": "unanimous-reference-challenge",
+      "case_id": "lincoln",
+      "category": "reference-challenge",
+      "cluster_id": "lincoln-01-body-organism",
+      "cross_case_impacts": [
+        "cross-case:language-or-reference"
+      ],
+      "decision_authority": "human-only",
+      "disagreement_id": "disagreement-0015",
+      "document_id": "lincoln-lyceum-address",
+      "field": "cmt.target_domain",
+      "focal_text": "endure",
+      "gloss_en": "",
+      "item_id": "lincoln-multi-model-v1-packet:cmt:lincoln-ann-017",
+      "missing_run_ids": [],
+      "model_values": {
+        "issue147-anthropic-cmt-final2-20260627": "government",
+        "issue147-openai-cmt-final2-20260627": "government"
+      },
+      "priority": "high",
+      "priority_reasons": [
+        "classified-high-priority",
+        "unanimous-reference-challenge",
+        "claim-audit-impact",
+        "cross-case-impact",
+        "possible-codebook-ambiguity"
+      ],
+      "priority_score": 560,
+      "queue_id": "review-0004",
+      "queue_rank": 4,
+      "reference_value": "nation",
+      "review_question": "Do the unanimous model values for `cmt.target_domain` on `lincoln-ann-017` expose a reference error, a codebook ambiguity, or shared model bias?",
+      "review_status": "pending-human-review",
+      "rights_status": "public-domain",
+      "sentence_id": "lincoln-lyceum-address_s01_p12_s01",
+      "source_language": "en",
+      "source_risk_flags": [
+        "source-date-error-in-body"
+      ],
+      "source_text": "I know the American people are much attached to their government; I know they would suffer much for its sake; I know they would endure evils long and patiently before they would ever think of exchanging it for another,--yet, notwithstanding all this, if the laws be continually despised and disregarded, if their rights to be secure in their persons and property are held by no better tenure than the caprice of a mob, the alienation of their affections from the government is the natural consequence; and to that, sooner or later, it must come.",
+      "storage_policy": "committed",
+      "task_layer": "cmt",
+      "unit_id": "lincoln-ann-017",
+      "value_groups": [
+        {
+          "run_count": 2,
+          "run_ids": [
+            "issue147-anthropic-cmt-final2-20260627",
+            "issue147-openai-cmt-final2-20260627"
+          ],
+          "value": "government"
+        }
+      ]
+    },
+    {
+      "adjudication_note": "Model agreement and majority patterns are diagnostic only; this queue contains no adjudication decision.",
+      "affected_claims": [
+        {
+          "claim_id": "lincoln-score-doc-gettysburg-enemy_as_bringer_of_death",
+          "claim_status": "interpretation",
+          "claim_text": "Gettysburg Address contributes weak support evidence for enemy as bringer of death (score 1.0/4): Gettysburg strongly links battlefield death, national survival, civic dedication, and democratic renewal, while the enemy remains mostly unnamed.",
+          "match_reasons": [
+            "cluster_id"
+          ],
+          "support_dimension": "enemy_as_bringer_of_death"
+        },
+        {
+          "claim_id": "lincoln-score-doc-gettysburg-historical_enactment_alignment",
+          "claim_status": "inference",
+          "claim_text": "Gettysburg Address contributes strong support evidence for historical enactment or alignment (score 3.0/4): Gettysburg strongly links battlefield death, national survival, civic dedication, and democratic renewal, while the enemy remains mostly unnamed.",
+          "match_reasons": [
+            "cluster_id"
+          ],
+          "support_dimension": "historical_enactment_alignment"
+        },
+        {
+          "claim_id": "lincoln-score-doc-gettysburg-sacred_object",
+          "claim_status": "interpretation",
+          "claim_text": "Gettysburg Address contributes strong support evidence for sacred object (score 3.0/4): Gettysburg strongly links battlefield death, national survival, civic dedication, and democratic renewal, while the enemy remains mostly unnamed.",
+          "match_reasons": [
+            "cluster_id"
+          ],
+          "support_dimension": "sacred_object"
+        },
+        {
+          "claim_id": "lincoln-score-doc-gettysburg-sacrificial_body",
+          "claim_status": "interpretation",
+          "claim_text": "Gettysburg Address contributes strong support evidence for sacrificial body (score 3.0/4): Gettysburg strongly links battlefield death, national survival, civic dedication, and democratic renewal, while the enemy remains mostly unnamed.",
+          "match_reasons": [
+            "cluster_id"
+          ],
+          "support_dimension": "sacrificial_body"
+        },
+        {
+          "claim_id": "lincoln-score-doc-second-inaugural-enemy_as_bringer_of_death",
+          "claim_status": "interpretation",
+          "claim_text": "Second Inaugural contributes weak support evidence for enemy as bringer of death (score 1.0/4): The Second Inaugural strongly aligns blood, slavery, and judgment with historical war and emancipation contexts, but restrains enemy-destruction framing through shared guilt and reconciliation.",
+          "match_reasons": [
+            "cluster_id",
+            "document_id"
+          ],
+          "support_dimension": "enemy_as_bringer_of_death"
+        },
+        {
+          "claim_id": "lincoln-score-doc-second-inaugural-historical_enactment_alignment",
+          "claim_status": "inference",
+          "claim_text": "Second Inaugural contributes strong support evidence for historical enactment or alignment (score 3.0/4): The Second Inaugural strongly aligns blood, slavery, and judgment with historical war and emancipation contexts, but restrains enemy-destruction framing through shared guilt and reconciliation.",
+          "match_reasons": [
+            "cluster_id",
+            "document_id"
+          ],
+          "support_dimension": "historical_enactment_alignment"
+        },
+        {
+          "claim_id": "lincoln-score-doc-second-inaugural-sacred_object",
+          "claim_status": "interpretation",
+          "claim_text": "Second Inaugural contributes moderate support evidence for sacred object (score 2.0/4): The Second Inaugural strongly aligns blood, slavery, and judgment with historical war and emancipation contexts, but restrains enemy-destruction framing through shared guilt and reconciliation.",
+          "match_reasons": [
+            "cluster_id",
+            "document_id"
+          ],
+          "support_dimension": "sacred_object"
+        },
+        {
+          "claim_id": "lincoln-score-doc-second-inaugural-sacrificial_body",
+          "claim_status": "interpretation",
+          "claim_text": "Second Inaugural contributes strong support evidence for sacrificial body (score 3.0/4): The Second Inaugural strongly aligns blood, slavery, and judgment with historical war and emancipation contexts, but restrains enemy-destruction framing through shared guilt and reconciliation.",
+          "match_reasons": [
+            "cluster_id",
+            "document_id"
+          ],
+          "support_dimension": "sacrificial_body"
+        }
+      ],
+      "agreement_pattern": "unanimous-reference-challenge",
+      "case_id": "lincoln",
+      "category": "reference-challenge",
+      "cluster_id": "lincoln-01-body-organism",
+      "cross_case_impacts": [
+        "cross-case:language-or-reference"
+      ],
+      "decision_authority": "human-only",
+      "disagreement_id": "disagreement-0035",
+      "document_id": "lincoln-second-inaugural",
+      "field": "cmt.source_domain_primary",
+      "focal_text": "bind",
+      "gloss_en": "",
+      "item_id": "lincoln-multi-model-v1-packet:cmt:lincoln-ann-064",
+      "missing_run_ids": [],
+      "model_values": {
+        "issue147-anthropic-cmt-final2-20260627": "medicine_healing",
+        "issue147-openai-cmt-final2-20260627": "medicine_healing"
+      },
+      "priority": "high",
+      "priority_reasons": [
+        "classified-high-priority",
+        "unanimous-reference-challenge",
+        "claim-audit-impact",
+        "cross-case-impact",
+        "possible-codebook-ambiguity"
+      ],
+      "priority_score": 560,
+      "queue_id": "review-0005",
+      "queue_rank": 5,
+      "reference_value": "body",
+      "review_question": "Do the unanimous model values for `cmt.source_domain_primary` on `lincoln-ann-064` expose a reference error, a codebook ambiguity, or shared model bias?",
+      "review_status": "pending-human-review",
+      "rights_status": "public-domain",
+      "sentence_id": "lincoln-second-inaugural_s01_p06_s01",
+      "source_language": "en",
+      "source_risk_flags": [],
+      "source_text": "With malice toward none; with charity for all; with firmness in the right, as God gives us to see the right, let us strive on to finish the work we are in; to bind up the nation's wounds; to care for him who shall have borne the battle, and for his widow, and his orphan--to do all which may achieve and cherish a just and lasting peace among ourselves, and with all nations.",
+      "storage_policy": "committed",
+      "task_layer": "cmt",
+      "unit_id": "lincoln-ann-064",
+      "value_groups": [
+        {
+          "run_count": 2,
+          "run_ids": [
+            "issue147-anthropic-cmt-final2-20260627",
+            "issue147-openai-cmt-final2-20260627"
+          ],
+          "value": "medicine_healing"
+        }
+      ]
+    },
+    {
+      "adjudication_note": "Model agreement and majority patterns are diagnostic only; this queue contains no adjudication decision.",
+      "affected_claims": [
+        {
+          "claim_id": "lincoln-score-doc-gettysburg-enemy_as_bringer_of_death",
+          "claim_status": "interpretation",
+          "claim_text": "Gettysburg Address contributes weak support evidence for enemy as bringer of death (score 1.0/4): Gettysburg strongly links battlefield death, national survival, civic dedication, and democratic renewal, while the enemy remains mostly unnamed.",
+          "match_reasons": [
+            "cluster_id"
+          ],
+          "support_dimension": "enemy_as_bringer_of_death"
+        },
+        {
+          "claim_id": "lincoln-score-doc-gettysburg-historical_enactment_alignment",
+          "claim_status": "inference",
+          "claim_text": "Gettysburg Address contributes strong support evidence for historical enactment or alignment (score 3.0/4): Gettysburg strongly links battlefield death, national survival, civic dedication, and democratic renewal, while the enemy remains mostly unnamed.",
+          "match_reasons": [
+            "cluster_id"
+          ],
+          "support_dimension": "historical_enactment_alignment"
+        },
+        {
+          "claim_id": "lincoln-score-doc-gettysburg-sacred_object",
+          "claim_status": "interpretation",
+          "claim_text": "Gettysburg Address contributes strong support evidence for sacred object (score 3.0/4): Gettysburg strongly links battlefield death, national survival, civic dedication, and democratic renewal, while the enemy remains mostly unnamed.",
+          "match_reasons": [
+            "cluster_id"
+          ],
+          "support_dimension": "sacred_object"
+        },
+        {
+          "claim_id": "lincoln-score-doc-gettysburg-sacrificial_body",
+          "claim_status": "interpretation",
+          "claim_text": "Gettysburg Address contributes strong support evidence for sacrificial body (score 3.0/4): Gettysburg strongly links battlefield death, national survival, civic dedication, and democratic renewal, while the enemy remains mostly unnamed.",
+          "match_reasons": [
+            "cluster_id"
+          ],
+          "support_dimension": "sacrificial_body"
+        },
+        {
+          "claim_id": "lincoln-score-doc-second-inaugural-enemy_as_bringer_of_death",
+          "claim_status": "interpretation",
+          "claim_text": "Second Inaugural contributes weak support evidence for enemy as bringer of death (score 1.0/4): The Second Inaugural strongly aligns blood, slavery, and judgment with historical war and emancipation contexts, but restrains enemy-destruction framing through shared guilt and reconciliation.",
+          "match_reasons": [
+            "cluster_id",
+            "document_id"
+          ],
+          "support_dimension": "enemy_as_bringer_of_death"
+        },
+        {
+          "claim_id": "lincoln-score-doc-second-inaugural-historical_enactment_alignment",
+          "claim_status": "inference",
+          "claim_text": "Second Inaugural contributes strong support evidence for historical enactment or alignment (score 3.0/4): The Second Inaugural strongly aligns blood, slavery, and judgment with historical war and emancipation contexts, but restrains enemy-destruction framing through shared guilt and reconciliation.",
+          "match_reasons": [
+            "cluster_id",
+            "document_id"
+          ],
+          "support_dimension": "historical_enactment_alignment"
+        },
+        {
+          "claim_id": "lincoln-score-doc-second-inaugural-sacred_object",
+          "claim_status": "interpretation",
+          "claim_text": "Second Inaugural contributes moderate support evidence for sacred object (score 2.0/4): The Second Inaugural strongly aligns blood, slavery, and judgment with historical war and emancipation contexts, but restrains enemy-destruction framing through shared guilt and reconciliation.",
+          "match_reasons": [
+            "cluster_id",
+            "document_id"
+          ],
+          "support_dimension": "sacred_object"
+        },
+        {
+          "claim_id": "lincoln-score-doc-second-inaugural-sacrificial_body",
+          "claim_status": "interpretation",
+          "claim_text": "Second Inaugural contributes strong support evidence for sacrificial body (score 3.0/4): The Second Inaugural strongly aligns blood, slavery, and judgment with historical war and emancipation contexts, but restrains enemy-destruction framing through shared guilt and reconciliation.",
+          "match_reasons": [
+            "cluster_id",
+            "document_id"
+          ],
+          "support_dimension": "sacrificial_body"
+        }
+      ],
+      "agreement_pattern": "unanimous-reference-challenge",
+      "case_id": "lincoln",
+      "category": "reference-challenge",
+      "cluster_id": "lincoln-01-body-organism",
+      "cross_case_impacts": [
+        "cross-case:language-or-reference"
+      ],
+      "decision_authority": "human-only",
+      "disagreement_id": "disagreement-0036",
+      "document_id": "lincoln-second-inaugural",
+      "field": "cmt.source_domain_secondary",
+      "focal_text": "bind",
+      "gloss_en": "",
+      "item_id": "lincoln-multi-model-v1-packet:cmt:lincoln-ann-064",
+      "missing_run_ids": [],
+      "model_values": {
+        "issue147-anthropic-cmt-final2-20260627": [
+          "wound_injury",
+          "body"
+        ],
+        "issue147-openai-cmt-final2-20260627": [
+          "wound_injury",
+          "body"
+        ]
+      },
+      "priority": "high",
+      "priority_reasons": [
+        "classified-high-priority",
+        "unanimous-reference-challenge",
+        "claim-audit-impact",
+        "cross-case-impact",
+        "possible-codebook-ambiguity"
+      ],
+      "priority_score": 560,
+      "queue_id": "review-0006",
+      "queue_rank": 6,
+      "reference_value": [],
+      "review_question": "Do the unanimous model values for `cmt.source_domain_secondary` on `lincoln-ann-064` expose a reference error, a codebook ambiguity, or shared model bias?",
+      "review_status": "pending-human-review",
+      "rights_status": "public-domain",
+      "sentence_id": "lincoln-second-inaugural_s01_p06_s01",
+      "source_language": "en",
+      "source_risk_flags": [],
+      "source_text": "With malice toward none; with charity for all; with firmness in the right, as God gives us to see the right, let us strive on to finish the work we are in; to bind up the nation's wounds; to care for him who shall have borne the battle, and for his widow, and his orphan--to do all which may achieve and cherish a just and lasting peace among ourselves, and with all nations.",
+      "storage_policy": "committed",
+      "task_layer": "cmt",
+      "unit_id": "lincoln-ann-064",
+      "value_groups": [
+        {
+          "run_count": 2,
+          "run_ids": [
+            "issue147-anthropic-cmt-final2-20260627",
+            "issue147-openai-cmt-final2-20260627"
+          ],
+          "value": [
+            "wound_injury",
+            "body"
+          ]
+        }
+      ]
+    },
+    {
+      "adjudication_note": "Model agreement and majority patterns are diagnostic only; this queue contains no adjudication decision.",
+      "affected_claims": [
+        {
+          "claim_id": "lincoln-score-doc-gettysburg-enemy_as_bringer_of_death",
+          "claim_status": "interpretation",
+          "claim_text": "Gettysburg Address contributes weak support evidence for enemy as bringer of death (score 1.0/4): Gettysburg strongly links battlefield death, national survival, civic dedication, and democratic renewal, while the enemy remains mostly unnamed.",
+          "match_reasons": [
+            "cluster_id"
+          ],
+          "support_dimension": "enemy_as_bringer_of_death"
+        },
+        {
+          "claim_id": "lincoln-score-doc-gettysburg-historical_enactment_alignment",
+          "claim_status": "inference",
+          "claim_text": "Gettysburg Address contributes strong support evidence for historical enactment or alignment (score 3.0/4): Gettysburg strongly links battlefield death, national survival, civic dedication, and democratic renewal, while the enemy remains mostly unnamed.",
+          "match_reasons": [
+            "cluster_id"
+          ],
+          "support_dimension": "historical_enactment_alignment"
+        },
+        {
+          "claim_id": "lincoln-score-doc-gettysburg-sacred_object",
+          "claim_status": "interpretation",
+          "claim_text": "Gettysburg Address contributes strong support evidence for sacred object (score 3.0/4): Gettysburg strongly links battlefield death, national survival, civic dedication, and democratic renewal, while the enemy remains mostly unnamed.",
+          "match_reasons": [
+            "cluster_id"
+          ],
+          "support_dimension": "sacred_object"
+        },
+        {
+          "claim_id": "lincoln-score-doc-gettysburg-sacrificial_body",
+          "claim_status": "interpretation",
+          "claim_text": "Gettysburg Address contributes strong support evidence for sacrificial body (score 3.0/4): Gettysburg strongly links battlefield death, national survival, civic dedication, and democratic renewal, while the enemy remains mostly unnamed.",
+          "match_reasons": [
+            "cluster_id"
+          ],
+          "support_dimension": "sacrificial_body"
+        },
+        {
+          "claim_id": "lincoln-score-doc-second-inaugural-enemy_as_bringer_of_death",
+          "claim_status": "interpretation",
+          "claim_text": "Second Inaugural contributes weak support evidence for enemy as bringer of death (score 1.0/4): The Second Inaugural strongly aligns blood, slavery, and judgment with historical war and emancipation contexts, but restrains enemy-destruction framing through shared guilt and reconciliation.",
+          "match_reasons": [
+            "cluster_id",
+            "document_id"
+          ],
+          "support_dimension": "enemy_as_bringer_of_death"
+        },
+        {
+          "claim_id": "lincoln-score-doc-second-inaugural-historical_enactment_alignment",
+          "claim_status": "inference",
+          "claim_text": "Second Inaugural contributes strong support evidence for historical enactment or alignment (score 3.0/4): The Second Inaugural strongly aligns blood, slavery, and judgment with historical war and emancipation contexts, but restrains enemy-destruction framing through shared guilt and reconciliation.",
+          "match_reasons": [
+            "cluster_id",
+            "document_id"
+          ],
+          "support_dimension": "historical_enactment_alignment"
+        },
+        {
+          "claim_id": "lincoln-score-doc-second-inaugural-sacred_object",
+          "claim_status": "interpretation",
+          "claim_text": "Second Inaugural contributes moderate support evidence for sacred object (score 2.0/4): The Second Inaugural strongly aligns blood, slavery, and judgment with historical war and emancipation contexts, but restrains enemy-destruction framing through shared guilt and reconciliation.",
+          "match_reasons": [
+            "cluster_id",
+            "document_id"
+          ],
+          "support_dimension": "sacred_object"
+        },
+        {
+          "claim_id": "lincoln-score-doc-second-inaugural-sacrificial_body",
+          "claim_status": "interpretation",
+          "claim_text": "Second Inaugural contributes strong support evidence for sacrificial body (score 3.0/4): The Second Inaugural strongly aligns blood, slavery, and judgment with historical war and emancipation contexts, but restrains enemy-destruction framing through shared guilt and reconciliation.",
+          "match_reasons": [
+            "cluster_id",
+            "document_id"
+          ],
+          "support_dimension": "sacrificial_body"
+        }
+      ],
+      "agreement_pattern": "unanimous-reference-challenge",
+      "case_id": "lincoln",
+      "category": "reference-challenge",
+      "cluster_id": "lincoln-01-body-organism",
+      "cross_case_impacts": [
+        "cross-case:language-or-reference"
+      ],
+      "decision_authority": "human-only",
+      "disagreement_id": "disagreement-0037",
+      "document_id": "lincoln-second-inaugural",
+      "field": "cmt.target_domain",
+      "focal_text": "bind",
+      "gloss_en": "",
+      "item_id": "lincoln-multi-model-v1-packet:cmt:lincoln-ann-064",
+      "missing_run_ids": [],
+      "model_values": {
+        "issue147-anthropic-cmt-final2-20260627": "reconciliation",
+        "issue147-openai-cmt-final2-20260627": "reconciliation"
+      },
+      "priority": "high",
+      "priority_reasons": [
+        "classified-high-priority",
+        "unanimous-reference-challenge",
+        "claim-audit-impact",
+        "cross-case-impact",
+        "possible-codebook-ambiguity"
+      ],
+      "priority_score": 560,
+      "queue_id": "review-0007",
+      "queue_rank": 7,
+      "reference_value": "nation",
+      "review_question": "Do the unanimous model values for `cmt.target_domain` on `lincoln-ann-064` expose a reference error, a codebook ambiguity, or shared model bias?",
+      "review_status": "pending-human-review",
+      "rights_status": "public-domain",
+      "sentence_id": "lincoln-second-inaugural_s01_p06_s01",
+      "source_language": "en",
+      "source_risk_flags": [],
+      "source_text": "With malice toward none; with charity for all; with firmness in the right, as God gives us to see the right, let us strive on to finish the work we are in; to bind up the nation's wounds; to care for him who shall have borne the battle, and for his widow, and his orphan--to do all which may achieve and cherish a just and lasting peace among ourselves, and with all nations.",
+      "storage_policy": "committed",
+      "task_layer": "cmt",
+      "unit_id": "lincoln-ann-064",
+      "value_groups": [
+        {
+          "run_count": 2,
+          "run_ids": [
+            "issue147-anthropic-cmt-final2-20260627",
+            "issue147-openai-cmt-final2-20260627"
+          ],
+          "value": "reconciliation"
+        }
+      ]
+    },
+    {
+      "adjudication_note": "Model agreement and majority patterns are diagnostic only; this queue contains no adjudication decision.",
+      "affected_claims": [],
+      "agreement_pattern": "unanimous-reference-challenge",
+      "case_id": "lincoln",
+      "category": "reference-challenge",
+      "cluster_id": null,
+      "cross_case_impacts": [
+        "cross-case:language-or-reference"
+      ],
+      "decision_authority": "human-only",
+      "disagreement_id": "disagreement-0022",
+      "document_id": "lincoln-gettysburg-address",
+      "field": "cmt.cluster_id",
+      "focal_text": "brought",
+      "gloss_en": "",
+      "item_id": "lincoln-multi-model-v1-packet:cmt:lincoln-ann-051",
+      "missing_run_ids": [],
+      "model_values": {
+        "issue147-anthropic-cmt-final2-20260627": "lincoln-04-birth-creation",
+        "issue147-openai-cmt-final2-20260627": "lincoln-04-birth-creation"
+      },
+      "priority": "high",
+      "priority_reasons": [
+        "classified-high-priority",
+        "unanimous-reference-challenge",
+        "cross-case-impact",
+        "possible-codebook-ambiguity"
+      ],
+      "priority_score": 500,
+      "queue_id": "review-0008",
+      "queue_rank": 8,
+      "reference_value": "lincoln-01-body-organism",
+      "review_question": "Do the unanimous model values for `cmt.cluster_id` on `lincoln-ann-051` expose a reference error, a codebook ambiguity, or shared model bias?",
+      "review_status": "pending-human-review",
+      "rights_status": "public-domain",
+      "sentence_id": "lincoln-gettysburg-address_s01_p01_s01",
+      "source_language": "en",
+      "source_risk_flags": [
+        "gutenberg-ellipsis-style",
+        "multiple-manuscript-versions-exist"
+      ],
+      "source_text": "Four score and seven years ago, our fathers brought forth upon this continent a new nation: conceived in liberty, and dedicated to the proposition that all men are created equal.",
+      "storage_policy": "committed",
+      "task_layer": "cmt",
+      "unit_id": "lincoln-ann-051",
+      "value_groups": [
+        {
+          "run_count": 2,
+          "run_ids": [
+            "issue147-anthropic-cmt-final2-20260627",
+            "issue147-openai-cmt-final2-20260627"
+          ],
+          "value": "lincoln-04-birth-creation"
+        }
+      ]
+    },
+    {
+      "adjudication_note": "Model agreement and majority patterns are diagnostic only; this queue contains no adjudication decision.",
+      "affected_claims": [],
+      "agreement_pattern": "unanimous-reference-challenge",
+      "case_id": "lincoln",
+      "category": "reference-challenge",
+      "cluster_id": null,
+      "cross_case_impacts": [
+        "cross-case:language-or-reference"
+      ],
+      "decision_authority": "human-only",
+      "disagreement_id": "disagreement-0027",
+      "document_id": "lincoln-gettysburg-address",
+      "field": "cmt.cluster_id",
+      "focal_text": "world",
+      "gloss_en": "",
+      "item_id": "lincoln-multi-model-v1-packet:cmt:lincoln-ann-054",
+      "missing_run_ids": [],
+      "model_values": {
+        "issue147-anthropic-cmt-final2-20260627": "lincoln-08-sacrificial-death-gift",
+        "issue147-openai-cmt-final2-20260627": "lincoln-08-sacrificial-death-gift"
+      },
+      "priority": "high",
+      "priority_reasons": [
+        "classified-high-priority",
+        "unanimous-reference-challenge",
+        "cross-case-impact",
+        "possible-codebook-ambiguity"
+      ],
+      "priority_score": 500,
+      "queue_id": "review-0009",
+      "queue_rank": 9,
+      "reference_value": "lincoln-01-body-organism",
+      "review_question": "Do the unanimous model values for `cmt.cluster_id` on `lincoln-ann-054` expose a reference error, a codebook ambiguity, or shared model bias?",
+      "review_status": "pending-human-review",
+      "rights_status": "public-domain",
+      "sentence_id": "lincoln-gettysburg-address_s01_p04_s03",
+      "source_language": "en",
+      "source_risk_flags": [
+        "gutenberg-ellipsis-style",
+        "multiple-manuscript-versions-exist"
+      ],
+      "source_text": "The world will little note, nor long remember, what we say here, but it can never forget what they did here.",
+      "storage_policy": "committed",
+      "task_layer": "cmt",
+      "unit_id": "lincoln-ann-054",
+      "value_groups": [
+        {
+          "run_count": 2,
+          "run_ids": [
+            "issue147-anthropic-cmt-final2-20260627",
+            "issue147-openai-cmt-final2-20260627"
+          ],
+          "value": "lincoln-08-sacrificial-death-gift"
+        }
+      ]
+    },
+    {
+      "adjudication_note": "Model agreement and majority patterns are diagnostic only; this queue contains no adjudication decision.",
+      "affected_claims": [],
+      "agreement_pattern": "unanimous-reference-challenge",
+      "case_id": "lincoln",
+      "category": "reference-challenge",
+      "cluster_id": null,
+      "cross_case_impacts": [
+        "cross-case:language-or-reference"
+      ],
+      "decision_authority": "human-only",
+      "disagreement_id": "disagreement-0030",
+      "document_id": "lincoln-gettysburg-address",
+      "field": "cmt.source_domain_primary",
+      "focal_text": "world",
+      "gloss_en": "",
+      "item_id": "lincoln-multi-model-v1-packet:cmt:lincoln-ann-054",
+      "missing_run_ids": [],
+      "model_values": {
+        "issue147-anthropic-cmt-final2-20260627": "person_agency",
+        "issue147-openai-cmt-final2-20260627": "person_agency"
+      },
+      "priority": "high",
+      "priority_reasons": [
+        "classified-high-priority",
+        "unanimous-reference-challenge",
+        "cross-case-impact",
+        "possible-codebook-ambiguity"
+      ],
+      "priority_score": 500,
+      "queue_id": "review-0010",
+      "queue_rank": 10,
+      "reference_value": "body",
+      "review_question": "Do the unanimous model values for `cmt.source_domain_primary` on `lincoln-ann-054` expose a reference error, a codebook ambiguity, or shared model bias?",
+      "review_status": "pending-human-review",
+      "rights_status": "public-domain",
+      "sentence_id": "lincoln-gettysburg-address_s01_p04_s03",
+      "source_language": "en",
+      "source_risk_flags": [
+        "gutenberg-ellipsis-style",
+        "multiple-manuscript-versions-exist"
+      ],
+      "source_text": "The world will little note, nor long remember, what we say here, but it can never forget what they did here.",
+      "storage_policy": "committed",
+      "task_layer": "cmt",
+      "unit_id": "lincoln-ann-054",
+      "value_groups": [
+        {
+          "run_count": 2,
+          "run_ids": [
+            "issue147-anthropic-cmt-final2-20260627",
+            "issue147-openai-cmt-final2-20260627"
+          ],
+          "value": "person_agency"
+        }
+      ]
+    },
+    {
+      "adjudication_note": "Model agreement and majority patterns are diagnostic only; this queue contains no adjudication decision.",
+      "affected_claims": [],
+      "agreement_pattern": "unanimous-reference-challenge",
+      "case_id": "lincoln",
+      "category": "reference-challenge",
+      "cluster_id": null,
+      "cross_case_impacts": [
+        "cross-case:language-or-reference"
+      ],
+      "decision_authority": "human-only",
+      "disagreement_id": "disagreement-0017",
+      "document_id": "lincoln-lyceum-address",
+      "field": "cmt.cluster_id",
+      "focal_text": "living",
+      "gloss_en": "",
+      "item_id": "lincoln-multi-model-v1-packet:cmt:lincoln-ann-043",
+      "missing_run_ids": [],
+      "model_values": {
+        "issue147-anthropic-cmt-final2-20260627": "lincoln-05-fathers-inheritance",
+        "issue147-openai-cmt-final2-20260627": "lincoln-05-fathers-inheritance"
+      },
+      "priority": "high",
+      "priority_reasons": [
+        "classified-high-priority",
+        "unanimous-reference-challenge",
+        "cross-case-impact",
+        "possible-codebook-ambiguity"
+      ],
+      "priority_score": 500,
+      "queue_id": "review-0011",
+      "queue_rank": 11,
+      "reference_value": "lincoln-01-body-organism",
+      "review_question": "Do the unanimous model values for `cmt.cluster_id` on `lincoln-ann-043` expose a reference error, a codebook ambiguity, or shared model bias?",
+      "review_status": "pending-human-review",
+      "rights_status": "public-domain",
+      "sentence_id": "lincoln-lyceum-address_s01_p24_s05",
+      "source_language": "en",
+      "source_risk_flags": [
+        "source-date-error-in-body"
+      ],
+      "source_text": "The consequence was that of those scenes, in the form of a husband, a father, a son, or a brother, a living history was to be found in every family--a history bearing the indubitable testimonies of its own authenticity, in the limbs mangled, in the scars of wounds received, in the midst of the very scenes related--a history, too, that could be read and understood alike by all, the wise and the ignorant, the learned and the unlearned.",
+      "storage_policy": "committed",
+      "task_layer": "cmt",
+      "unit_id": "lincoln-ann-043",
+      "value_groups": [
+        {
+          "run_count": 2,
+          "run_ids": [
+            "issue147-anthropic-cmt-final2-20260627",
+            "issue147-openai-cmt-final2-20260627"
+          ],
+          "value": "lincoln-05-fathers-inheritance"
+        }
+      ]
+    },
+    {
+      "adjudication_note": "Model agreement and majority patterns are diagnostic only; this queue contains no adjudication decision.",
+      "affected_claims": [
+        {
+          "claim_id": "lincoln-score-doc-gettysburg-enemy_as_bringer_of_death",
+          "claim_status": "interpretation",
+          "claim_text": "Gettysburg Address contributes weak support evidence for enemy as bringer of death (score 1.0/4): Gettysburg strongly links battlefield death, national survival, civic dedication, and democratic renewal, while the enemy remains mostly unnamed.",
+          "match_reasons": [
+            "sentence_id"
+          ],
+          "support_dimension": "enemy_as_bringer_of_death"
+        },
+        {
+          "claim_id": "lincoln-score-doc-gettysburg-historical_enactment_alignment",
+          "claim_status": "inference",
+          "claim_text": "Gettysburg Address contributes strong support evidence for historical enactment or alignment (score 3.0/4): Gettysburg strongly links battlefield death, national survival, civic dedication, and democratic renewal, while the enemy remains mostly unnamed.",
+          "match_reasons": [
+            "sentence_id"
+          ],
+          "support_dimension": "historical_enactment_alignment"
+        },
+        {
+          "claim_id": "lincoln-score-doc-gettysburg-sacred_object",
+          "claim_status": "interpretation",
+          "claim_text": "Gettysburg Address contributes strong support evidence for sacred object (score 3.0/4): Gettysburg strongly links battlefield death, national survival, civic dedication, and democratic renewal, while the enemy remains mostly unnamed.",
+          "match_reasons": [
+            "sentence_id"
+          ],
+          "support_dimension": "sacred_object"
+        },
+        {
+          "claim_id": "lincoln-score-doc-gettysburg-sacrificial_body",
+          "claim_status": "interpretation",
+          "claim_text": "Gettysburg Address contributes strong support evidence for sacrificial body (score 3.0/4): Gettysburg strongly links battlefield death, national survival, civic dedication, and democratic renewal, while the enemy remains mostly unnamed.",
+          "match_reasons": [
+            "sentence_id"
+          ],
+          "support_dimension": "sacrificial_body"
+        }
+      ],
+      "agreement_pattern": "two-way-split",
+      "case_id": "lincoln",
+      "category": "domain-instability",
+      "cluster_id": null,
+      "cross_case_impacts": [
+        "cross-case:metaphor-mapping"
+      ],
+      "decision_authority": "human-only",
+      "disagreement_id": "disagreement-0004",
+      "document_id": "lincoln-lyceum-address",
+      "field": "cmt.source_domain_secondary",
+      "focal_text": "uprear",
+      "gloss_en": "",
+      "item_id": "lincoln-multi-model-v1-packet:cmt:lincoln-ann-003",
+      "missing_run_ids": [],
+      "model_values": {
+        "issue147-anthropic-cmt-final2-20260627": [
+          "family_inheritance",
+          "physical_destruction"
+        ],
+        "issue147-openai-cmt-final2-20260627": [
+          "family_inheritance",
+          "physical_destruction",
+          "ritual_religion"
+        ]
+      },
+      "priority": "high",
+      "priority_reasons": [
+        "classified-medium-priority",
+        "claim-audit-impact",
+        "cross-case-impact",
+        "possible-codebook-ambiguity"
+      ],
+      "priority_score": 380,
+      "queue_id": "review-0012",
+      "queue_rank": 12,
+      "reference_value": [],
+      "review_question": "Which value for `cmt.source_domain_secondary` on `lincoln-ann-003` best follows the codebook and source context?",
+      "review_status": "pending-human-review",
+      "rights_status": "public-domain",
+      "sentence_id": "lincoln-lyceum-address_s01_p04_s06",
+      "source_language": "en",
+      "source_risk_flags": [
+        "source-date-error-in-body"
+      ],
+      "source_text": "Theirs was the task (and nobly they performed it) to possess themselves, and through themselves us, of this goodly land, and to uprear upon its hills and its valleys a political edifice of liberty and equal rights; it is ours only to transmit these--the former unprofaned by the foot of an invader, the latter undecayed by the lapse of time and untorn by usurpation--to the latest generation that fate shall permit the world to know.",
+      "storage_policy": "committed",
+      "task_layer": "cmt",
+      "unit_id": "lincoln-ann-003",
+      "value_groups": [
+        {
+          "run_count": 1,
+          "run_ids": [
+            "issue147-openai-cmt-final2-20260627"
+          ],
+          "value": [
+            "family_inheritance",
+            "physical_destruction",
+            "ritual_religion"
+          ]
+        },
+        {
+          "run_count": 1,
+          "run_ids": [
+            "issue147-anthropic-cmt-final2-20260627"
+          ],
+          "value": [
+            "family_inheritance",
+            "physical_destruction"
+          ]
+        }
+      ]
+    },
+    {
+      "adjudication_note": "Model agreement and majority patterns are diagnostic only; this queue contains no adjudication decision.",
+      "affected_claims": [
+        {
+          "claim_id": "lincoln-score-doc-gettysburg-enemy_as_bringer_of_death",
+          "claim_status": "interpretation",
+          "claim_text": "Gettysburg Address contributes weak support evidence for enemy as bringer of death (score 1.0/4): Gettysburg strongly links battlefield death, national survival, civic dedication, and democratic renewal, while the enemy remains mostly unnamed.",
+          "match_reasons": [
+            "cluster_id"
+          ],
+          "support_dimension": "enemy_as_bringer_of_death"
+        },
+        {
+          "claim_id": "lincoln-score-doc-gettysburg-historical_enactment_alignment",
+          "claim_status": "inference",
+          "claim_text": "Gettysburg Address contributes strong support evidence for historical enactment or alignment (score 3.0/4): Gettysburg strongly links battlefield death, national survival, civic dedication, and democratic renewal, while the enemy remains mostly unnamed.",
+          "match_reasons": [
+            "cluster_id"
+          ],
+          "support_dimension": "historical_enactment_alignment"
+        },
+        {
+          "claim_id": "lincoln-score-doc-gettysburg-sacred_object",
+          "claim_status": "interpretation",
+          "claim_text": "Gettysburg Address contributes strong support evidence for sacred object (score 3.0/4): Gettysburg strongly links battlefield death, national survival, civic dedication, and democratic renewal, while the enemy remains mostly unnamed.",
+          "match_reasons": [
+            "cluster_id"
+          ],
+          "support_dimension": "sacred_object"
+        },
+        {
+          "claim_id": "lincoln-score-doc-gettysburg-sacrificial_body",
+          "claim_status": "interpretation",
+          "claim_text": "Gettysburg Address contributes strong support evidence for sacrificial body (score 3.0/4): Gettysburg strongly links battlefield death, national survival, civic dedication, and democratic renewal, while the enemy remains mostly unnamed.",
+          "match_reasons": [
+            "cluster_id"
+          ],
+          "support_dimension": "sacrificial_body"
+        },
+        {
+          "claim_id": "lincoln-score-doc-second-inaugural-enemy_as_bringer_of_death",
+          "claim_status": "interpretation",
+          "claim_text": "Second Inaugural contributes weak support evidence for enemy as bringer of death (score 1.0/4): The Second Inaugural strongly aligns blood, slavery, and judgment with historical war and emancipation contexts, but restrains enemy-destruction framing through shared guilt and reconciliation.",
+          "match_reasons": [
+            "cluster_id"
+          ],
+          "support_dimension": "enemy_as_bringer_of_death"
+        },
+        {
+          "claim_id": "lincoln-score-doc-second-inaugural-historical_enactment_alignment",
+          "claim_status": "inference",
+          "claim_text": "Second Inaugural contributes strong support evidence for historical enactment or alignment (score 3.0/4): The Second Inaugural strongly aligns blood, slavery, and judgment with historical war and emancipation contexts, but restrains enemy-destruction framing through shared guilt and reconciliation.",
+          "match_reasons": [
+            "cluster_id"
+          ],
+          "support_dimension": "historical_enactment_alignment"
+        },
+        {
+          "claim_id": "lincoln-score-doc-second-inaugural-sacred_object",
+          "claim_status": "interpretation",
+          "claim_text": "Second Inaugural contributes moderate support evidence for sacred object (score 2.0/4): The Second Inaugural strongly aligns blood, slavery, and judgment with historical war and emancipation contexts, but restrains enemy-destruction framing through shared guilt and reconciliation.",
+          "match_reasons": [
+            "cluster_id"
+          ],
+          "support_dimension": "sacred_object"
+        },
+        {
+          "claim_id": "lincoln-score-doc-second-inaugural-sacrificial_body",
+          "claim_status": "interpretation",
+          "claim_text": "Second Inaugural contributes strong support evidence for sacrificial body (score 3.0/4): The Second Inaugural strongly aligns blood, slavery, and judgment with historical war and emancipation contexts, but restrains enemy-destruction framing through shared guilt and reconciliation.",
+          "match_reasons": [
+            "cluster_id"
+          ],
+          "support_dimension": "sacrificial_body"
+        }
+      ],
+      "agreement_pattern": "two-way-split",
+      "case_id": "lincoln",
+      "category": "domain-instability",
+      "cluster_id": "lincoln-01-body-organism",
+      "cross_case_impacts": [
+        "cross-case:metaphor-mapping"
+      ],
+      "decision_authority": "human-only",
+      "disagreement_id": "disagreement-0014",
+      "document_id": "lincoln-lyceum-address",
+      "field": "cmt.source_domain_secondary",
+      "focal_text": "endure",
+      "gloss_en": "",
+      "item_id": "lincoln-multi-model-v1-packet:cmt:lincoln-ann-017",
+      "missing_run_ids": [],
+      "model_values": {
+        "issue147-anthropic-cmt-final2-20260627": [
+          "wound_injury"
+        ],
+        "issue147-openai-cmt-final2-20260627": [
+          "sacrifice"
+        ]
+      },
+      "priority": "high",
+      "priority_reasons": [
+        "classified-medium-priority",
+        "claim-audit-impact",
+        "cross-case-impact",
+        "possible-codebook-ambiguity"
+      ],
+      "priority_score": 380,
+      "queue_id": "review-0013",
+      "queue_rank": 13,
+      "reference_value": [],
+      "review_question": "Which value for `cmt.source_domain_secondary` on `lincoln-ann-017` best follows the codebook and source context?",
+      "review_status": "pending-human-review",
+      "rights_status": "public-domain",
+      "sentence_id": "lincoln-lyceum-address_s01_p12_s01",
+      "source_language": "en",
+      "source_risk_flags": [
+        "source-date-error-in-body"
+      ],
+      "source_text": "I know the American people are much attached to their government; I know they would suffer much for its sake; I know they would endure evils long and patiently before they would ever think of exchanging it for another,--yet, notwithstanding all this, if the laws be continually despised and disregarded, if their rights to be secure in their persons and property are held by no better tenure than the caprice of a mob, the alienation of their affections from the government is the natural consequence; and to that, sooner or later, it must come.",
+      "storage_policy": "committed",
+      "task_layer": "cmt",
+      "unit_id": "lincoln-ann-017",
+      "value_groups": [
+        {
+          "run_count": 1,
+          "run_ids": [
+            "issue147-openai-cmt-final2-20260627"
+          ],
+          "value": [
+            "sacrifice"
+          ]
+        },
+        {
+          "run_count": 1,
+          "run_ids": [
+            "issue147-anthropic-cmt-final2-20260627"
+          ],
+          "value": [
+            "wound_injury"
+          ]
+        }
+      ]
+    },
+    {
+      "adjudication_note": "Model agreement and majority patterns are diagnostic only; this queue contains no adjudication decision.",
+      "affected_claims": [],
+      "agreement_pattern": "two-way-split",
+      "case_id": "lincoln",
+      "category": "domain-instability",
+      "cluster_id": null,
+      "cross_case_impacts": [
+        "cross-case:metaphor-mapping"
+      ],
+      "decision_authority": "human-only",
+      "disagreement_id": "disagreement-0025",
+      "document_id": "lincoln-gettysburg-address",
+      "field": "cmt.source_domain_secondary",
+      "focal_text": "brought",
+      "gloss_en": "",
+      "item_id": "lincoln-multi-model-v1-packet:cmt:lincoln-ann-051",
+      "missing_run_ids": [],
+      "model_values": {
+        "issue147-anthropic-cmt-final2-20260627": [
+          "family_inheritance",
+          "religion_providence"
+        ],
+        "issue147-openai-cmt-final2-20260627": [
+          "family_inheritance"
+        ]
+      },
+      "priority": "high",
+      "priority_reasons": [
+        "classified-medium-priority",
+        "cross-case-impact",
+        "possible-codebook-ambiguity"
+      ],
+      "priority_score": 320,
+      "queue_id": "review-0014",
+      "queue_rank": 14,
+      "reference_value": [],
+      "review_question": "Which value for `cmt.source_domain_secondary` on `lincoln-ann-051` best follows the codebook and source context?",
+      "review_status": "pending-human-review",
+      "rights_status": "public-domain",
+      "sentence_id": "lincoln-gettysburg-address_s01_p01_s01",
+      "source_language": "en",
+      "source_risk_flags": [
+        "gutenberg-ellipsis-style",
+        "multiple-manuscript-versions-exist"
+      ],
+      "source_text": "Four score and seven years ago, our fathers brought forth upon this continent a new nation: conceived in liberty, and dedicated to the proposition that all men are created equal.",
+      "storage_policy": "committed",
+      "task_layer": "cmt",
+      "unit_id": "lincoln-ann-051",
+      "value_groups": [
+        {
+          "run_count": 1,
+          "run_ids": [
+            "issue147-anthropic-cmt-final2-20260627"
+          ],
+          "value": [
+            "family_inheritance",
+            "religion_providence"
+          ]
+        },
+        {
+          "run_count": 1,
+          "run_ids": [
+            "issue147-openai-cmt-final2-20260627"
+          ],
+          "value": [
+            "family_inheritance"
+          ]
+        }
+      ]
+    },
+    {
+      "adjudication_note": "Model agreement and majority patterns are diagnostic only; this queue contains no adjudication decision.",
+      "affected_claims": [],
+      "agreement_pattern": "two-way-split",
+      "case_id": "lincoln",
+      "category": "target-domain-instability",
+      "cluster_id": null,
+      "cross_case_impacts": [
+        "cross-case:metaphor-mapping"
+      ],
+      "decision_authority": "human-only",
+      "disagreement_id": "disagreement-0026",
+      "document_id": "lincoln-gettysburg-address",
+      "field": "cmt.target_domain",
+      "focal_text": "brought",
+      "gloss_en": "",
+      "item_id": "lincoln-multi-model-v1-packet:cmt:lincoln-ann-051",
+      "missing_run_ids": [],
+      "model_values": {
+        "issue147-anthropic-cmt-final2-20260627": "founding",
+        "issue147-openai-cmt-final2-20260627": "nation"
+      },
+      "priority": "high",
+      "priority_reasons": [
+        "classified-medium-priority",
+        "cross-case-impact",
+        "possible-codebook-ambiguity"
+      ],
+      "priority_score": 320,
+      "queue_id": "review-0015",
+      "queue_rank": 15,
+      "reference_value": "nation",
+      "review_question": "Which value for `cmt.target_domain` on `lincoln-ann-051` best follows the codebook and source context?",
+      "review_status": "pending-human-review",
+      "rights_status": "public-domain",
+      "sentence_id": "lincoln-gettysburg-address_s01_p01_s01",
+      "source_language": "en",
+      "source_risk_flags": [
+        "gutenberg-ellipsis-style",
+        "multiple-manuscript-versions-exist"
+      ],
+      "source_text": "Four score and seven years ago, our fathers brought forth upon this continent a new nation: conceived in liberty, and dedicated to the proposition that all men are created equal.",
+      "storage_policy": "committed",
+      "task_layer": "cmt",
+      "unit_id": "lincoln-ann-051",
+      "value_groups": [
+        {
+          "run_count": 1,
+          "run_ids": [
+            "issue147-anthropic-cmt-final2-20260627"
+          ],
+          "value": "founding"
+        },
+        {
+          "run_count": 1,
+          "run_ids": [
+            "issue147-openai-cmt-final2-20260627"
+          ],
+          "value": "nation"
+        }
+      ]
+    },
+    {
+      "adjudication_note": "Model agreement and majority patterns are diagnostic only; this queue contains no adjudication decision.",
+      "affected_claims": [],
+      "agreement_pattern": "two-way-split",
+      "case_id": "lincoln",
+      "category": "domain-instability",
+      "cluster_id": null,
+      "cross_case_impacts": [
+        "cross-case:metaphor-mapping"
+      ],
+      "decision_authority": "human-only",
+      "disagreement_id": "disagreement-0031",
+      "document_id": "lincoln-gettysburg-address",
+      "field": "cmt.source_domain_secondary",
+      "focal_text": "world",
+      "gloss_en": "",
+      "item_id": "lincoln-multi-model-v1-packet:cmt:lincoln-ann-054",
+      "missing_run_ids": [],
+      "model_values": {
+        "issue147-anthropic-cmt-final2-20260627": [
+          "body"
+        ],
+        "issue147-openai-cmt-final2-20260627": [
+          "sacrifice"
+        ]
+      },
+      "priority": "high",
+      "priority_reasons": [
+        "classified-medium-priority",
+        "cross-case-impact",
+        "possible-codebook-ambiguity"
+      ],
+      "priority_score": 320,
+      "queue_id": "review-0016",
+      "queue_rank": 16,
+      "reference_value": [],
+      "review_question": "Which value for `cmt.source_domain_secondary` on `lincoln-ann-054` best follows the codebook and source context?",
+      "review_status": "pending-human-review",
+      "rights_status": "public-domain",
+      "sentence_id": "lincoln-gettysburg-address_s01_p04_s03",
+      "source_language": "en",
+      "source_risk_flags": [
+        "gutenberg-ellipsis-style",
+        "multiple-manuscript-versions-exist"
+      ],
+      "source_text": "The world will little note, nor long remember, what we say here, but it can never forget what they did here.",
+      "storage_policy": "committed",
+      "task_layer": "cmt",
+      "unit_id": "lincoln-ann-054",
+      "value_groups": [
+        {
+          "run_count": 1,
+          "run_ids": [
+            "issue147-anthropic-cmt-final2-20260627"
+          ],
+          "value": [
+            "body"
+          ]
+        },
+        {
+          "run_count": 1,
+          "run_ids": [
+            "issue147-openai-cmt-final2-20260627"
+          ],
+          "value": [
+            "sacrifice"
+          ]
+        }
+      ]
+    },
+    {
+      "adjudication_note": "Model agreement and majority patterns are diagnostic only; this queue contains no adjudication decision.",
+      "affected_claims": [],
+      "agreement_pattern": "two-way-split",
+      "case_id": "lincoln",
+      "category": "context-instability",
+      "cluster_id": null,
+      "cross_case_impacts": [
+        "cross-case:language-or-reference"
+      ],
+      "decision_authority": "human-only",
+      "disagreement_id": "disagreement-0032",
+      "document_id": "lincoln-gettysburg-address",
+      "field": "uncertainty.status",
+      "focal_text": "world",
+      "gloss_en": "",
+      "item_id": "lincoln-multi-model-v1-packet:cmt:lincoln-ann-054",
+      "missing_run_ids": [],
+      "model_values": {
+        "issue147-anthropic-cmt-final2-20260627": "low",
+        "issue147-openai-cmt-final2-20260627": "material"
+      },
+      "priority": "high",
+      "priority_reasons": [
+        "classified-medium-priority",
+        "cross-case-impact",
+        "possible-codebook-ambiguity"
+      ],
+      "priority_score": 320,
+      "queue_id": "review-0017",
+      "queue_rank": 17,
+      "reference_value": null,
+      "review_question": "Which value for `uncertainty.status` on `lincoln-ann-054` best follows the codebook and source context?",
+      "review_status": "pending-human-review",
+      "rights_status": "public-domain",
+      "sentence_id": "lincoln-gettysburg-address_s01_p04_s03",
+      "source_language": "en",
+      "source_risk_flags": [
+        "gutenberg-ellipsis-style",
+        "multiple-manuscript-versions-exist"
+      ],
+      "source_text": "The world will little note, nor long remember, what we say here, but it can never forget what they did here.",
+      "storage_policy": "committed",
+      "task_layer": "cmt",
+      "unit_id": "lincoln-ann-054",
+      "value_groups": [
+        {
+          "run_count": 1,
+          "run_ids": [
+            "issue147-anthropic-cmt-final2-20260627"
+          ],
+          "value": "low"
+        },
+        {
+          "run_count": 1,
+          "run_ids": [
+            "issue147-openai-cmt-final2-20260627"
+          ],
+          "value": "material"
+        }
+      ]
+    },
+    {
+      "adjudication_note": "Model agreement and majority patterns are diagnostic only; this queue contains no adjudication decision.",
+      "affected_claims": [],
+      "agreement_pattern": "two-way-split",
+      "case_id": "lincoln",
+      "category": "domain-instability",
+      "cluster_id": "lincoln-08-sacrificial-death-gift",
+      "cross_case_impacts": [
+        "cross-case:metaphor-mapping"
+      ],
+      "decision_authority": "human-only",
+      "disagreement_id": "disagreement-0008",
+      "document_id": "lincoln-lyceum-address",
+      "field": "cmt.source_domain_primary",
+      "focal_text": "spill",
+      "gloss_en": "",
+      "item_id": "lincoln-multi-model-v1-packet:cmt:lincoln-ann-016",
+      "missing_run_ids": [],
+      "model_values": {
+        "issue147-anthropic-cmt-final2-20260627": "body",
+        "issue147-openai-cmt-final2-20260627": "sacrifice"
+      },
+      "priority": "high",
+      "priority_reasons": [
+        "classified-medium-priority",
+        "cross-case-impact",
+        "possible-codebook-ambiguity"
+      ],
+      "priority_score": 320,
+      "queue_id": "review-0018",
+      "queue_rank": 18,
+      "reference_value": "sacrifice",
+      "review_question": "Which value for `cmt.source_domain_primary` on `lincoln-ann-016` best follows the codebook and source context?",
+      "review_status": "pending-human-review",
+      "rights_status": "public-domain",
+      "sentence_id": "lincoln-lyceum-address_s01_p11_s15",
+      "source_language": "en",
+      "source_risk_flags": [
+        "source-date-error-in-body"
+      ],
+      "source_text": "While, on the other hand, good men, men who love tranquillity, who desire to abide by the laws and enjoy their benefits, who would gladly spill their blood in the defense of their country, seeing their property destroyed, their families insulted, and their lives endangered, their persons injured, and seeing nothing in prospect that forebodes a change for the better, become tired of and disgusted with a government that offers them no protection, and are not much averse to a change in which they imagine they have nothing to lose.",
+      "storage_policy": "committed",
+      "task_layer": "cmt",
+      "unit_id": "lincoln-ann-016",
+      "value_groups": [
+        {
+          "run_count": 1,
+          "run_ids": [
+            "issue147-anthropic-cmt-final2-20260627"
+          ],
+          "value": "body"
+        },
+        {
+          "run_count": 1,
+          "run_ids": [
+            "issue147-openai-cmt-final2-20260627"
+          ],
+          "value": "sacrifice"
+        }
+      ]
+    },
+    {
+      "adjudication_note": "Model agreement and majority patterns are diagnostic only; this queue contains no adjudication decision.",
+      "affected_claims": [],
+      "agreement_pattern": "two-way-split",
+      "case_id": "lincoln",
+      "category": "domain-instability",
+      "cluster_id": "lincoln-08-sacrificial-death-gift",
+      "cross_case_impacts": [
+        "cross-case:metaphor-mapping"
+      ],
+      "decision_authority": "human-only",
+      "disagreement_id": "disagreement-0009",
+      "document_id": "lincoln-lyceum-address",
+      "field": "cmt.source_domain_secondary",
+      "focal_text": "spill",
+      "gloss_en": "",
+      "item_id": "lincoln-multi-model-v1-packet:cmt:lincoln-ann-016",
+      "missing_run_ids": [],
+      "model_values": {
+        "issue147-anthropic-cmt-final2-20260627": [
+          "sacrifice",
+          "war_combat"
+        ],
+        "issue147-openai-cmt-final2-20260627": [
+          "wound_injury",
+          "war_combat",
+          "body"
+        ]
+      },
+      "priority": "high",
+      "priority_reasons": [
+        "classified-medium-priority",
+        "cross-case-impact",
+        "possible-codebook-ambiguity"
+      ],
+      "priority_score": 320,
+      "queue_id": "review-0019",
+      "queue_rank": 19,
+      "reference_value": [],
+      "review_question": "Which value for `cmt.source_domain_secondary` on `lincoln-ann-016` best follows the codebook and source context?",
+      "review_status": "pending-human-review",
+      "rights_status": "public-domain",
+      "sentence_id": "lincoln-lyceum-address_s01_p11_s15",
+      "source_language": "en",
+      "source_risk_flags": [
+        "source-date-error-in-body"
+      ],
+      "source_text": "While, on the other hand, good men, men who love tranquillity, who desire to abide by the laws and enjoy their benefits, who would gladly spill their blood in the defense of their country, seeing their property destroyed, their families insulted, and their lives endangered, their persons injured, and seeing nothing in prospect that forebodes a change for the better, become tired of and disgusted with a government that offers them no protection, and are not much averse to a change in which they imagine they have nothing to lose.",
+      "storage_policy": "committed",
+      "task_layer": "cmt",
+      "unit_id": "lincoln-ann-016",
+      "value_groups": [
+        {
+          "run_count": 1,
+          "run_ids": [
+            "issue147-openai-cmt-final2-20260627"
+          ],
+          "value": [
+            "wound_injury",
+            "war_combat",
+            "body"
+          ]
+        },
+        {
+          "run_count": 1,
+          "run_ids": [
+            "issue147-anthropic-cmt-final2-20260627"
+          ],
+          "value": [
+            "sacrifice",
+            "war_combat"
+          ]
+        }
+      ]
+    },
+    {
+      "adjudication_note": "Model agreement and majority patterns are diagnostic only; this queue contains no adjudication decision.",
+      "affected_claims": [],
+      "agreement_pattern": "two-way-split",
+      "case_id": "lincoln",
+      "category": "target-domain-instability",
+      "cluster_id": "lincoln-08-sacrificial-death-gift",
+      "cross_case_impacts": [
+        "cross-case:metaphor-mapping"
+      ],
+      "decision_authority": "human-only",
+      "disagreement_id": "disagreement-0010",
+      "document_id": "lincoln-lyceum-address",
+      "field": "cmt.target_domain",
+      "focal_text": "spill",
+      "gloss_en": "",
+      "item_id": "lincoln-multi-model-v1-packet:cmt:lincoln-ann-016",
+      "missing_run_ids": [],
+      "model_values": {
+        "issue147-anthropic-cmt-final2-20260627": "sacrifice",
+        "issue147-openai-cmt-final2-20260627": "military_virtue"
+      },
+      "priority": "high",
+      "priority_reasons": [
+        "classified-medium-priority",
+        "cross-case-impact",
+        "possible-codebook-ambiguity"
+      ],
+      "priority_score": 320,
+      "queue_id": "review-0020",
+      "queue_rank": 20,
+      "reference_value": "citizenship",
+      "review_question": "Which value for `cmt.target_domain` on `lincoln-ann-016` best follows the codebook and source context?",
+      "review_status": "pending-human-review",
+      "rights_status": "public-domain",
+      "sentence_id": "lincoln-lyceum-address_s01_p11_s15",
+      "source_language": "en",
+      "source_risk_flags": [
+        "source-date-error-in-body"
+      ],
+      "source_text": "While, on the other hand, good men, men who love tranquillity, who desire to abide by the laws and enjoy their benefits, who would gladly spill their blood in the defense of their country, seeing their property destroyed, their families insulted, and their lives endangered, their persons injured, and seeing nothing in prospect that forebodes a change for the better, become tired of and disgusted with a government that offers them no protection, and are not much averse to a change in which they imagine they have nothing to lose.",
+      "storage_policy": "committed",
+      "task_layer": "cmt",
+      "unit_id": "lincoln-ann-016",
+      "value_groups": [
+        {
+          "run_count": 1,
+          "run_ids": [
+            "issue147-openai-cmt-final2-20260627"
+          ],
+          "value": "military_virtue"
+        },
+        {
+          "run_count": 1,
+          "run_ids": [
+            "issue147-anthropic-cmt-final2-20260627"
+          ],
+          "value": "sacrifice"
+        }
+      ]
+    },
+    {
+      "adjudication_note": "Model agreement and majority patterns are diagnostic only; this queue contains no adjudication decision.",
+      "affected_claims": [],
+      "agreement_pattern": "two-way-split",
+      "case_id": "lincoln",
+      "category": "domain-instability",
+      "cluster_id": null,
+      "cross_case_impacts": [
+        "cross-case:metaphor-mapping"
+      ],
+      "decision_authority": "human-only",
+      "disagreement_id": "disagreement-0020",
+      "document_id": "lincoln-lyceum-address",
+      "field": "cmt.source_domain_primary",
+      "focal_text": "living",
+      "gloss_en": "",
+      "item_id": "lincoln-multi-model-v1-packet:cmt:lincoln-ann-043",
+      "missing_run_ids": [],
+      "model_values": {
+        "issue147-anthropic-cmt-final2-20260627": "nature_organism",
+        "issue147-openai-cmt-final2-20260627": "body"
+      },
+      "priority": "high",
+      "priority_reasons": [
+        "classified-medium-priority",
+        "cross-case-impact",
+        "possible-codebook-ambiguity"
+      ],
+      "priority_score": 320,
+      "queue_id": "review-0021",
+      "queue_rank": 21,
+      "reference_value": "body",
+      "review_question": "Which value for `cmt.source_domain_primary` on `lincoln-ann-043` best follows the codebook and source context?",
+      "review_status": "pending-human-review",
+      "rights_status": "public-domain",
+      "sentence_id": "lincoln-lyceum-address_s01_p24_s05",
+      "source_language": "en",
+      "source_risk_flags": [
+        "source-date-error-in-body"
+      ],
+      "source_text": "The consequence was that of those scenes, in the form of a husband, a father, a son, or a brother, a living history was to be found in every family--a history bearing the indubitable testimonies of its own authenticity, in the limbs mangled, in the scars of wounds received, in the midst of the very scenes related--a history, too, that could be read and understood alike by all, the wise and the ignorant, the learned and the unlearned.",
+      "storage_policy": "committed",
+      "task_layer": "cmt",
+      "unit_id": "lincoln-ann-043",
+      "value_groups": [
+        {
+          "run_count": 1,
+          "run_ids": [
+            "issue147-openai-cmt-final2-20260627"
+          ],
+          "value": "body"
+        },
+        {
+          "run_count": 1,
+          "run_ids": [
+            "issue147-anthropic-cmt-final2-20260627"
+          ],
+          "value": "nature_organism"
+        }
+      ]
+    },
+    {
+      "adjudication_note": "Model agreement and majority patterns are diagnostic only; this queue contains no adjudication decision.",
+      "affected_claims": [],
+      "agreement_pattern": "two-way-split",
+      "case_id": "lincoln",
+      "category": "domain-instability",
+      "cluster_id": null,
+      "cross_case_impacts": [
+        "cross-case:metaphor-mapping"
+      ],
+      "decision_authority": "human-only",
+      "disagreement_id": "disagreement-0021",
+      "document_id": "lincoln-lyceum-address",
+      "field": "cmt.source_domain_secondary",
+      "focal_text": "living",
+      "gloss_en": "",
+      "item_id": "lincoln-multi-model-v1-packet:cmt:lincoln-ann-043",
+      "missing_run_ids": [],
+      "model_values": {
+        "issue147-anthropic-cmt-final2-20260627": [
+          "body",
+          "law_contract"
+        ],
+        "issue147-openai-cmt-final2-20260627": [
+          "family_inheritance",
+          "person_agency",
+          "wound_injury"
+        ]
+      },
+      "priority": "high",
+      "priority_reasons": [
+        "classified-medium-priority",
+        "cross-case-impact",
+        "possible-codebook-ambiguity"
+      ],
+      "priority_score": 320,
+      "queue_id": "review-0022",
+      "queue_rank": 22,
+      "reference_value": [],
+      "review_question": "Which value for `cmt.source_domain_secondary` on `lincoln-ann-043` best follows the codebook and source context?",
+      "review_status": "pending-human-review",
+      "rights_status": "public-domain",
+      "sentence_id": "lincoln-lyceum-address_s01_p24_s05",
+      "source_language": "en",
+      "source_risk_flags": [
+        "source-date-error-in-body"
+      ],
+      "source_text": "The consequence was that of those scenes, in the form of a husband, a father, a son, or a brother, a living history was to be found in every family--a history bearing the indubitable testimonies of its own authenticity, in the limbs mangled, in the scars of wounds received, in the midst of the very scenes related--a history, too, that could be read and understood alike by all, the wise and the ignorant, the learned and the unlearned.",
+      "storage_policy": "committed",
+      "task_layer": "cmt",
+      "unit_id": "lincoln-ann-043",
+      "value_groups": [
+        {
+          "run_count": 1,
+          "run_ids": [
+            "issue147-anthropic-cmt-final2-20260627"
+          ],
+          "value": [
+            "body",
+            "law_contract"
+          ]
+        },
+        {
+          "run_count": 1,
+          "run_ids": [
+            "issue147-openai-cmt-final2-20260627"
+          ],
+          "value": [
+            "family_inheritance",
+            "person_agency",
+            "wound_injury"
+          ]
+        }
+      ]
+    },
+    {
+      "adjudication_note": "Model agreement and majority patterns are diagnostic only; this queue contains no adjudication decision.",
+      "affected_claims": [
+        {
+          "claim_id": "lincoln-score-doc-gettysburg-enemy_as_bringer_of_death",
+          "claim_status": "interpretation",
+          "claim_text": "Gettysburg Address contributes weak support evidence for enemy as bringer of death (score 1.0/4): Gettysburg strongly links battlefield death, national survival, civic dedication, and democratic renewal, while the enemy remains mostly unnamed.",
+          "match_reasons": [
+            "sentence_id"
+          ],
+          "support_dimension": "enemy_as_bringer_of_death"
+        },
+        {
+          "claim_id": "lincoln-score-doc-gettysburg-historical_enactment_alignment",
+          "claim_status": "inference",
+          "claim_text": "Gettysburg Address contributes strong support evidence for historical enactment or alignment (score 3.0/4): Gettysburg strongly links battlefield death, national survival, civic dedication, and democratic renewal, while the enemy remains mostly unnamed.",
+          "match_reasons": [
+            "sentence_id"
+          ],
+          "support_dimension": "historical_enactment_alignment"
+        },
+        {
+          "claim_id": "lincoln-score-doc-gettysburg-sacred_object",
+          "claim_status": "interpretation",
+          "claim_text": "Gettysburg Address contributes strong support evidence for sacred object (score 3.0/4): Gettysburg strongly links battlefield death, national survival, civic dedication, and democratic renewal, while the enemy remains mostly unnamed.",
+          "match_reasons": [
+            "sentence_id"
+          ],
+          "support_dimension": "sacred_object"
+        },
+        {
+          "claim_id": "lincoln-score-doc-gettysburg-sacrificial_body",
+          "claim_status": "interpretation",
+          "claim_text": "Gettysburg Address contributes strong support evidence for sacrificial body (score 3.0/4): Gettysburg strongly links battlefield death, national survival, civic dedication, and democratic renewal, while the enemy remains mostly unnamed.",
+          "match_reasons": [
+            "sentence_id"
+          ],
+          "support_dimension": "sacrificial_body"
+        }
+      ],
+      "agreement_pattern": "two-way-split",
+      "case_id": "lincoln",
+      "category": "semantic-instability",
+      "cluster_id": null,
+      "cross_case_impacts": [],
+      "decision_authority": "human-only",
+      "disagreement_id": "disagreement-0002",
+      "document_id": "lincoln-lyceum-address",
+      "field": "cmt.conceptual_metaphor",
+      "focal_text": "uprear",
+      "gloss_en": "",
+      "item_id": "lincoln-multi-model-v1-packet:cmt:lincoln-ann-003",
+      "missing_run_ids": [],
+      "model_values": {
+        "issue147-anthropic-cmt-final2-20260627": "THE POLITICAL ORDER (REPUBLIC OF LIBERTY AND EQUAL RIGHTS) IS A PHYSICAL EDIFICE CONSTRUCTED BY THE FOUNDERS AND BEQUEATHED INTACT TO SUBSEQUENT GENERATIONS",
+        "issue147-openai-cmt-final2-20260627": "A political order of liberty and equal rights is an edifice built by predecessors and preserved for transmission to later generations."
+      },
+      "priority": "medium",
+      "priority_reasons": [
+        "classified-medium-priority",
+        "claim-audit-impact",
+        "possible-codebook-ambiguity"
+      ],
+      "priority_score": 280,
+      "queue_id": "review-0023",
+      "queue_rank": 23,
+      "reference_value": "GOVERNMENT IS ARCHITECTURE BUILDING",
+      "review_question": "Which value for `cmt.conceptual_metaphor` on `lincoln-ann-003` best follows the codebook and source context?",
+      "review_status": "pending-human-review",
+      "rights_status": "public-domain",
+      "sentence_id": "lincoln-lyceum-address_s01_p04_s06",
+      "source_language": "en",
+      "source_risk_flags": [
+        "source-date-error-in-body"
+      ],
+      "source_text": "Theirs was the task (and nobly they performed it) to possess themselves, and through themselves us, of this goodly land, and to uprear upon its hills and its valleys a political edifice of liberty and equal rights; it is ours only to transmit these--the former unprofaned by the foot of an invader, the latter undecayed by the lapse of time and untorn by usurpation--to the latest generation that fate shall permit the world to know.",
+      "storage_policy": "committed",
+      "task_layer": "cmt",
+      "unit_id": "lincoln-ann-003",
+      "value_groups": [
+        {
+          "run_count": 1,
+          "run_ids": [
+            "issue147-openai-cmt-final2-20260627"
+          ],
+          "value": "A political order of liberty and equal rights is an edifice built by predecessors and preserved for transmission to later generations."
+        },
+        {
+          "run_count": 1,
+          "run_ids": [
+            "issue147-anthropic-cmt-final2-20260627"
+          ],
+          "value": "THE POLITICAL ORDER (REPUBLIC OF LIBERTY AND EQUAL RIGHTS) IS A PHYSICAL EDIFICE CONSTRUCTED BY THE FOUNDERS AND BEQUEATHED INTACT TO SUBSEQUENT GENERATIONS"
+        }
+      ]
+    },
+    {
+      "adjudication_note": "Model agreement and majority patterns are diagnostic only; this queue contains no adjudication decision.",
+      "affected_claims": [
+        {
+          "claim_id": "lincoln-score-doc-gettysburg-enemy_as_bringer_of_death",
+          "claim_status": "interpretation",
+          "claim_text": "Gettysburg Address contributes weak support evidence for enemy as bringer of death (score 1.0/4): Gettysburg strongly links battlefield death, national survival, civic dedication, and democratic renewal, while the enemy remains mostly unnamed.",
+          "match_reasons": [
+            "sentence_id"
+          ],
+          "support_dimension": "enemy_as_bringer_of_death"
+        },
+        {
+          "claim_id": "lincoln-score-doc-gettysburg-historical_enactment_alignment",
+          "claim_status": "inference",
+          "claim_text": "Gettysburg Address contributes strong support evidence for historical enactment or alignment (score 3.0/4): Gettysburg strongly links battlefield death, national survival, civic dedication, and democratic renewal, while the enemy remains mostly unnamed.",
+          "match_reasons": [
+            "sentence_id"
+          ],
+          "support_dimension": "historical_enactment_alignment"
+        },
+        {
+          "claim_id": "lincoln-score-doc-gettysburg-sacred_object",
+          "claim_status": "interpretation",
+          "claim_text": "Gettysburg Address contributes strong support evidence for sacred object (score 3.0/4): Gettysburg strongly links battlefield death, national survival, civic dedication, and democratic renewal, while the enemy remains mostly unnamed.",
+          "match_reasons": [
+            "sentence_id"
+          ],
+          "support_dimension": "sacred_object"
+        },
+        {
+          "claim_id": "lincoln-score-doc-gettysburg-sacrificial_body",
+          "claim_status": "interpretation",
+          "claim_text": "Gettysburg Address contributes strong support evidence for sacrificial body (score 3.0/4): Gettysburg strongly links battlefield death, national survival, civic dedication, and democratic renewal, while the enemy remains mostly unnamed.",
+          "match_reasons": [
+            "sentence_id"
+          ],
+          "support_dimension": "sacrificial_body"
+        }
+      ],
+      "agreement_pattern": "two-way-split",
+      "case_id": "lincoln",
+      "category": "semantic-instability",
+      "cluster_id": null,
+      "cross_case_impacts": [],
+      "decision_authority": "human-only",
+      "disagreement_id": "disagreement-0003",
+      "document_id": "lincoln-lyceum-address",
+      "field": "cmt.entailments",
+      "focal_text": "uprear",
+      "gloss_en": "",
+      "item_id": "lincoln-multi-model-v1-packet:cmt:lincoln-ann-003",
+      "missing_run_ids": [],
+      "model_values": {
+        "issue147-anthropic-cmt-final2-20260627": [
+          "'Uprear' maps the physical act of erecting a structure onto the founding of republican institutions, emphasizing deliberate human labor and vertical aspiration.",
+          "'Edifice' maps a stable, load-bearing architectural structure onto the constitutional-political order, implying it has foundations, walls, and the possibility of structural decay or violation.",
+          "'Transmit' maps the physical handover of a durable object across generations (inheritance frame) onto the civic obligation of preservation.",
+          "'Unprofaned' imports a ritual-religious register: the edifice is also a sacred space whose sanctity can be violated by an invader's trespass.",
+          "'Undecayed' maps organic or material deterioration onto institutional corruption or neglect over time.",
+          "'Untorn' maps physical rending or demolition onto usurpation—illegitimate seizure of power that structurally damages the edifice.",
+          "The triad of threats (invasion, time-decay, usurpation) corresponds structurally to threats any physical building faces: external assault, material entropy, and internal sabotage.",
+          "The metaphor places the current generation in a passive-custodial rather than creative role: their duty is conservation, not construction."
+        ],
+        "issue147-openai-cmt-final2-20260627": [
+          "Founders are builders who raise a durable political structure on the land.",
+          "Liberty and equal rights form a constructed inheritance that can be handed down.",
+          "Political institutions can decay, be torn, or be profaned like material or sacred objects.",
+          "The present generation's duty is preservation rather than original construction."
+        ]
+      },
+      "priority": "medium",
+      "priority_reasons": [
+        "classified-medium-priority",
+        "claim-audit-impact",
+        "possible-codebook-ambiguity"
+      ],
+      "priority_score": 280,
+      "queue_id": "review-0024",
+      "queue_rank": 24,
+      "reference_value": [
+        "building political institutions of liberty and rights",
+        "preserving and handing on political liberties and institutions",
+        "Institutions are understood through built structure."
+      ],
+      "review_question": "Which value for `cmt.entailments` on `lincoln-ann-003` best follows the codebook and source context?",
+      "review_status": "pending-human-review",
+      "rights_status": "public-domain",
+      "sentence_id": "lincoln-lyceum-address_s01_p04_s06",
+      "source_language": "en",
+      "source_risk_flags": [
+        "source-date-error-in-body"
+      ],
+      "source_text": "Theirs was the task (and nobly they performed it) to possess themselves, and through themselves us, of this goodly land, and to uprear upon its hills and its valleys a political edifice of liberty and equal rights; it is ours only to transmit these--the former unprofaned by the foot of an invader, the latter undecayed by the lapse of time and untorn by usurpation--to the latest generation that fate shall permit the world to know.",
+      "storage_policy": "committed",
+      "task_layer": "cmt",
+      "unit_id": "lincoln-ann-003",
+      "value_groups": [
+        {
+          "run_count": 1,
+          "run_ids": [
+            "issue147-anthropic-cmt-final2-20260627"
+          ],
+          "value": [
+            "'Uprear' maps the physical act of erecting a structure onto the founding of republican institutions, emphasizing deliberate human labor and vertical aspiration.",
+            "'Edifice' maps a stable, load-bearing architectural structure onto the constitutional-political order, implying it has foundations, walls, and the possibility of structural decay or violation.",
+            "'Transmit' maps the physical handover of a durable object across generations (inheritance frame) onto the civic obligation of preservation.",
+            "'Unprofaned' imports a ritual-religious register: the edifice is also a sacred space whose sanctity can be violated by an invader's trespass.",
+            "'Undecayed' maps organic or material deterioration onto institutional corruption or neglect over time.",
+            "'Untorn' maps physical rending or demolition onto usurpation—illegitimate seizure of power that structurally damages the edifice.",
+            "The triad of threats (invasion, time-decay, usurpation) corresponds structurally to threats any physical building faces: external assault, material entropy, and internal sabotage.",
+            "The metaphor places the current generation in a passive-custodial rather than creative role: their duty is conservation, not construction."
+          ]
+        },
+        {
+          "run_count": 1,
+          "run_ids": [
+            "issue147-openai-cmt-final2-20260627"
+          ],
+          "value": [
+            "Founders are builders who raise a durable political structure on the land.",
+            "Liberty and equal rights form a constructed inheritance that can be handed down.",
+            "Political institutions can decay, be torn, or be profaned like material or sacred objects.",
+            "The present generation's duty is preservation rather than original construction."
+          ]
+        }
+      ]
+    },
+    {
+      "adjudication_note": "Model agreement and majority patterns are diagnostic only; this queue contains no adjudication decision.",
+      "affected_claims": [
+        {
+          "claim_id": "lincoln-score-doc-gettysburg-enemy_as_bringer_of_death",
+          "claim_status": "interpretation",
+          "claim_text": "Gettysburg Address contributes weak support evidence for enemy as bringer of death (score 1.0/4): Gettysburg strongly links battlefield death, national survival, civic dedication, and democratic renewal, while the enemy remains mostly unnamed.",
+          "match_reasons": [
+            "cluster_id"
+          ],
+          "support_dimension": "enemy_as_bringer_of_death"
+        },
+        {
+          "claim_id": "lincoln-score-doc-gettysburg-historical_enactment_alignment",
+          "claim_status": "inference",
+          "claim_text": "Gettysburg Address contributes strong support evidence for historical enactment or alignment (score 3.0/4): Gettysburg strongly links battlefield death, national survival, civic dedication, and democratic renewal, while the enemy remains mostly unnamed.",
+          "match_reasons": [
+            "cluster_id"
+          ],
+          "support_dimension": "historical_enactment_alignment"
+        },
+        {
+          "claim_id": "lincoln-score-doc-gettysburg-sacred_object",
+          "claim_status": "interpretation",
+          "claim_text": "Gettysburg Address contributes strong support evidence for sacred object (score 3.0/4): Gettysburg strongly links battlefield death, national survival, civic dedication, and democratic renewal, while the enemy remains mostly unnamed.",
+          "match_reasons": [
+            "cluster_id"
+          ],
+          "support_dimension": "sacred_object"
+        },
+        {
+          "claim_id": "lincoln-score-doc-gettysburg-sacrificial_body",
+          "claim_status": "interpretation",
+          "claim_text": "Gettysburg Address contributes strong support evidence for sacrificial body (score 3.0/4): Gettysburg strongly links battlefield death, national survival, civic dedication, and democratic renewal, while the enemy remains mostly unnamed.",
+          "match_reasons": [
+            "cluster_id"
+          ],
+          "support_dimension": "sacrificial_body"
+        },
+        {
+          "claim_id": "lincoln-score-doc-second-inaugural-enemy_as_bringer_of_death",
+          "claim_status": "interpretation",
+          "claim_text": "Second Inaugural contributes weak support evidence for enemy as bringer of death (score 1.0/4): The Second Inaugural strongly aligns blood, slavery, and judgment with historical war and emancipation contexts, but restrains enemy-destruction framing through shared guilt and reconciliation.",
+          "match_reasons": [
+            "cluster_id"
+          ],
+          "support_dimension": "enemy_as_bringer_of_death"
+        },
+        {
+          "claim_id": "lincoln-score-doc-second-inaugural-historical_enactment_alignment",
+          "claim_status": "inference",
+          "claim_text": "Second Inaugural contributes strong support evidence for historical enactment or alignment (score 3.0/4): The Second Inaugural strongly aligns blood, slavery, and judgment with historical war and emancipation contexts, but restrains enemy-destruction framing through shared guilt and reconciliation.",
+          "match_reasons": [
+            "cluster_id"
+          ],
+          "support_dimension": "historical_enactment_alignment"
+        },
+        {
+          "claim_id": "lincoln-score-doc-second-inaugural-sacred_object",
+          "claim_status": "interpretation",
+          "claim_text": "Second Inaugural contributes moderate support evidence for sacred object (score 2.0/4): The Second Inaugural strongly aligns blood, slavery, and judgment with historical war and emancipation contexts, but restrains enemy-destruction framing through shared guilt and reconciliation.",
+          "match_reasons": [
+            "cluster_id"
+          ],
+          "support_dimension": "sacred_object"
+        },
+        {
+          "claim_id": "lincoln-score-doc-second-inaugural-sacrificial_body",
+          "claim_status": "interpretation",
+          "claim_text": "Second Inaugural contributes strong support evidence for sacrificial body (score 3.0/4): The Second Inaugural strongly aligns blood, slavery, and judgment with historical war and emancipation contexts, but restrains enemy-destruction framing through shared guilt and reconciliation.",
+          "match_reasons": [
+            "cluster_id"
+          ],
+          "support_dimension": "sacrificial_body"
+        }
+      ],
+      "agreement_pattern": "two-way-split",
+      "case_id": "lincoln",
+      "category": "semantic-instability",
+      "cluster_id": "lincoln-01-body-organism",
+      "cross_case_impacts": [],
+      "decision_authority": "human-only",
+      "disagreement_id": "disagreement-0011",
+      "document_id": "lincoln-lyceum-address",
+      "field": "cmt.conceptual_metaphor",
+      "focal_text": "endure",
+      "gloss_en": "",
+      "item_id": "lincoln-multi-model-v1-packet:cmt:lincoln-ann-017",
+      "missing_run_ids": [],
+      "model_values": {
+        "issue147-anthropic-cmt-final2-20260627": "TOLERATING BAD GOVERNANCE IS PHYSICALLY BEARING A WEIGHT OR WITHSTANDING BODILY HARM; THE PEOPLE'S RELATIONSHIP TO GOVERNMENT TRIALS IS PHYSICAL ENDURANCE",
+        "issue147-openai-cmt-final2-20260627": "Political loyalty is bodily endurance, in which citizens patiently bear pains or evils for the sake of their government."
+      },
+      "priority": "medium",
+      "priority_reasons": [
+        "classified-medium-priority",
+        "claim-audit-impact",
+        "possible-codebook-ambiguity"
+      ],
+      "priority_score": 280,
+      "queue_id": "review-0025",
+      "queue_rank": 25,
+      "reference_value": "NATION IS NATURE ORGANISM",
+      "review_question": "Which value for `cmt.conceptual_metaphor` on `lincoln-ann-017` best follows the codebook and source context?",
+      "review_status": "pending-human-review",
+      "rights_status": "public-domain",
+      "sentence_id": "lincoln-lyceum-address_s01_p12_s01",
+      "source_language": "en",
+      "source_risk_flags": [
+        "source-date-error-in-body"
+      ],
+      "source_text": "I know the American people are much attached to their government; I know they would suffer much for its sake; I know they would endure evils long and patiently before they would ever think of exchanging it for another,--yet, notwithstanding all this, if the laws be continually despised and disregarded, if their rights to be secure in their persons and property are held by no better tenure than the caprice of a mob, the alienation of their affections from the government is the natural consequence; and to that, sooner or later, it must come.",
+      "storage_policy": "committed",
+      "task_layer": "cmt",
+      "unit_id": "lincoln-ann-017",
+      "value_groups": [
+        {
+          "run_count": 1,
+          "run_ids": [
+            "issue147-openai-cmt-final2-20260627"
+          ],
+          "value": "Political loyalty is bodily endurance, in which citizens patiently bear pains or evils for the sake of their government."
+        },
+        {
+          "run_count": 1,
+          "run_ids": [
+            "issue147-anthropic-cmt-final2-20260627"
+          ],
+          "value": "TOLERATING BAD GOVERNANCE IS PHYSICALLY BEARING A WEIGHT OR WITHSTANDING BODILY HARM; THE PEOPLE'S RELATIONSHIP TO GOVERNMENT TRIALS IS PHYSICAL ENDURANCE"
+        }
+      ]
+    },
+    {
+      "adjudication_note": "Model agreement and majority patterns are diagnostic only; this queue contains no adjudication decision.",
+      "affected_claims": [
+        {
+          "claim_id": "lincoln-score-doc-gettysburg-enemy_as_bringer_of_death",
+          "claim_status": "interpretation",
+          "claim_text": "Gettysburg Address contributes weak support evidence for enemy as bringer of death (score 1.0/4): Gettysburg strongly links battlefield death, national survival, civic dedication, and democratic renewal, while the enemy remains mostly unnamed.",
+          "match_reasons": [
+            "cluster_id"
+          ],
+          "support_dimension": "enemy_as_bringer_of_death"
+        },
+        {
+          "claim_id": "lincoln-score-doc-gettysburg-historical_enactment_alignment",
+          "claim_status": "inference",
+          "claim_text": "Gettysburg Address contributes strong support evidence for historical enactment or alignment (score 3.0/4): Gettysburg strongly links battlefield death, national survival, civic dedication, and democratic renewal, while the enemy remains mostly unnamed.",
+          "match_reasons": [
+            "cluster_id"
+          ],
+          "support_dimension": "historical_enactment_alignment"
+        },
+        {
+          "claim_id": "lincoln-score-doc-gettysburg-sacred_object",
+          "claim_status": "interpretation",
+          "claim_text": "Gettysburg Address contributes strong support evidence for sacred object (score 3.0/4): Gettysburg strongly links battlefield death, national survival, civic dedication, and democratic renewal, while the enemy remains mostly unnamed.",
+          "match_reasons": [
+            "cluster_id"
+          ],
+          "support_dimension": "sacred_object"
+        },
+        {
+          "claim_id": "lincoln-score-doc-gettysburg-sacrificial_body",
+          "claim_status": "interpretation",
+          "claim_text": "Gettysburg Address contributes strong support evidence for sacrificial body (score 3.0/4): Gettysburg strongly links battlefield death, national survival, civic dedication, and democratic renewal, while the enemy remains mostly unnamed.",
+          "match_reasons": [
+            "cluster_id"
+          ],
+          "support_dimension": "sacrificial_body"
+        },
+        {
+          "claim_id": "lincoln-score-doc-second-inaugural-enemy_as_bringer_of_death",
+          "claim_status": "interpretation",
+          "claim_text": "Second Inaugural contributes weak support evidence for enemy as bringer of death (score 1.0/4): The Second Inaugural strongly aligns blood, slavery, and judgment with historical war and emancipation contexts, but restrains enemy-destruction framing through shared guilt and reconciliation.",
+          "match_reasons": [
+            "cluster_id"
+          ],
+          "support_dimension": "enemy_as_bringer_of_death"
+        },
+        {
+          "claim_id": "lincoln-score-doc-second-inaugural-historical_enactment_alignment",
+          "claim_status": "inference",
+          "claim_text": "Second Inaugural contributes strong support evidence for historical enactment or alignment (score 3.0/4): The Second Inaugural strongly aligns blood, slavery, and judgment with historical war and emancipation contexts, but restrains enemy-destruction framing through shared guilt and reconciliation.",
+          "match_reasons": [
+            "cluster_id"
+          ],
+          "support_dimension": "historical_enactment_alignment"
+        },
+        {
+          "claim_id": "lincoln-score-doc-second-inaugural-sacred_object",
+          "claim_status": "interpretation",
+          "claim_text": "Second Inaugural contributes moderate support evidence for sacred object (score 2.0/4): The Second Inaugural strongly aligns blood, slavery, and judgment with historical war and emancipation contexts, but restrains enemy-destruction framing through shared guilt and reconciliation.",
+          "match_reasons": [
+            "cluster_id"
+          ],
+          "support_dimension": "sacred_object"
+        },
+        {
+          "claim_id": "lincoln-score-doc-second-inaugural-sacrificial_body",
+          "claim_status": "interpretation",
+          "claim_text": "Second Inaugural contributes strong support evidence for sacrificial body (score 3.0/4): The Second Inaugural strongly aligns blood, slavery, and judgment with historical war and emancipation contexts, but restrains enemy-destruction framing through shared guilt and reconciliation.",
+          "match_reasons": [
+            "cluster_id"
+          ],
+          "support_dimension": "sacrificial_body"
+        }
+      ],
+      "agreement_pattern": "two-way-split",
+      "case_id": "lincoln",
+      "category": "semantic-instability",
+      "cluster_id": "lincoln-01-body-organism",
+      "cross_case_impacts": [],
+      "decision_authority": "human-only",
+      "disagreement_id": "disagreement-0012",
+      "document_id": "lincoln-lyceum-address",
+      "field": "cmt.entailments",
+      "focal_text": "endure",
+      "gloss_en": "",
+      "item_id": "lincoln-multi-model-v1-packet:cmt:lincoln-ann-017",
+      "missing_run_ids": [],
+      "model_values": {
+        "issue147-anthropic-cmt-final2-20260627": [
+          "'Endure evils' maps the physical capacity to sustain pain, hardship, or pressure onto the civic-psychological capacity to tolerate governmental dysfunction without rebellion.",
+          "The body is implicitly the bearer of governmental burdens; political suffering is mapped onto somatic suffering.",
+          "'Long and patiently' extends the temporal dimension of physical endurance, implying a threshold beyond which the body (polity) cannot continue to bear the load.",
+          "The frame implies a limit: endurance is finite, and once exceeded, breakdown (alienation of affections, change of government) follows necessarily—as a body collapses under excessive weight.",
+          "Paired with 'suffer much' earlier in the sentence, 'endure' reinforces a sustained GOVERNMENT AS BURDEN / ORDEAL mapping across the clause complex."
+        ],
+        "issue147-openai-cmt-final2-20260627": [
+          "The people are represented as capable of suffering burdens on behalf of government.",
+          "Loyalty is measured by tolerance of hardship before rejecting or exchanging the government.",
+          "Evils are construed as afflictions to be borne over time.",
+          "There is a threshold at which endured suffering produces alienation from government."
+        ]
+      },
+      "priority": "medium",
+      "priority_reasons": [
+        "classified-medium-priority",
+        "claim-audit-impact",
+        "possible-codebook-ambiguity"
+      ],
+      "priority_score": 280,
+      "queue_id": "review-0026",
+      "queue_rank": 26,
+      "reference_value": [
+        "the nation or government continues or ceases political existence",
+        "Political survival is understood through organismic life and death."
+      ],
+      "review_question": "Which value for `cmt.entailments` on `lincoln-ann-017` best follows the codebook and source context?",
+      "review_status": "pending-human-review",
+      "rights_status": "public-domain",
+      "sentence_id": "lincoln-lyceum-address_s01_p12_s01",
+      "source_language": "en",
+      "source_risk_flags": [
+        "source-date-error-in-body"
+      ],
+      "source_text": "I know the American people are much attached to their government; I know they would suffer much for its sake; I know they would endure evils long and patiently before they would ever think of exchanging it for another,--yet, notwithstanding all this, if the laws be continually despised and disregarded, if their rights to be secure in their persons and property are held by no better tenure than the caprice of a mob, the alienation of their affections from the government is the natural consequence; and to that, sooner or later, it must come.",
+      "storage_policy": "committed",
+      "task_layer": "cmt",
+      "unit_id": "lincoln-ann-017",
+      "value_groups": [
+        {
+          "run_count": 1,
+          "run_ids": [
+            "issue147-anthropic-cmt-final2-20260627"
+          ],
+          "value": [
+            "'Endure evils' maps the physical capacity to sustain pain, hardship, or pressure onto the civic-psychological capacity to tolerate governmental dysfunction without rebellion.",
+            "The body is implicitly the bearer of governmental burdens; political suffering is mapped onto somatic suffering.",
+            "'Long and patiently' extends the temporal dimension of physical endurance, implying a threshold beyond which the body (polity) cannot continue to bear the load.",
+            "The frame implies a limit: endurance is finite, and once exceeded, breakdown (alienation of affections, change of government) follows necessarily—as a body collapses under excessive weight.",
+            "Paired with 'suffer much' earlier in the sentence, 'endure' reinforces a sustained GOVERNMENT AS BURDEN / ORDEAL mapping across the clause complex."
+          ]
+        },
+        {
+          "run_count": 1,
+          "run_ids": [
+            "issue147-openai-cmt-final2-20260627"
+          ],
+          "value": [
+            "The people are represented as capable of suffering burdens on behalf of government.",
+            "Loyalty is measured by tolerance of hardship before rejecting or exchanging the government.",
+            "Evils are construed as afflictions to be borne over time.",
+            "There is a threshold at which endured suffering produces alienation from government."
+          ]
+        }
+      ]
+    },
+    {
+      "adjudication_note": "Model agreement and majority patterns are diagnostic only; this queue contains no adjudication decision.",
+      "affected_claims": [
+        {
+          "claim_id": "lincoln-score-doc-gettysburg-enemy_as_bringer_of_death",
+          "claim_status": "interpretation",
+          "claim_text": "Gettysburg Address contributes weak support evidence for enemy as bringer of death (score 1.0/4): Gettysburg strongly links battlefield death, national survival, civic dedication, and democratic renewal, while the enemy remains mostly unnamed.",
+          "match_reasons": [
+            "cluster_id"
+          ],
+          "support_dimension": "enemy_as_bringer_of_death"
+        },
+        {
+          "claim_id": "lincoln-score-doc-gettysburg-historical_enactment_alignment",
+          "claim_status": "inference",
+          "claim_text": "Gettysburg Address contributes strong support evidence for historical enactment or alignment (score 3.0/4): Gettysburg strongly links battlefield death, national survival, civic dedication, and democratic renewal, while the enemy remains mostly unnamed.",
+          "match_reasons": [
+            "cluster_id"
+          ],
+          "support_dimension": "historical_enactment_alignment"
+        },
+        {
+          "claim_id": "lincoln-score-doc-gettysburg-sacred_object",
+          "claim_status": "interpretation",
+          "claim_text": "Gettysburg Address contributes strong support evidence for sacred object (score 3.0/4): Gettysburg strongly links battlefield death, national survival, civic dedication, and democratic renewal, while the enemy remains mostly unnamed.",
+          "match_reasons": [
+            "cluster_id"
+          ],
+          "support_dimension": "sacred_object"
+        },
+        {
+          "claim_id": "lincoln-score-doc-gettysburg-sacrificial_body",
+          "claim_status": "interpretation",
+          "claim_text": "Gettysburg Address contributes strong support evidence for sacrificial body (score 3.0/4): Gettysburg strongly links battlefield death, national survival, civic dedication, and democratic renewal, while the enemy remains mostly unnamed.",
+          "match_reasons": [
+            "cluster_id"
+          ],
+          "support_dimension": "sacrificial_body"
+        },
+        {
+          "claim_id": "lincoln-score-doc-second-inaugural-enemy_as_bringer_of_death",
+          "claim_status": "interpretation",
+          "claim_text": "Second Inaugural contributes weak support evidence for enemy as bringer of death (score 1.0/4): The Second Inaugural strongly aligns blood, slavery, and judgment with historical war and emancipation contexts, but restrains enemy-destruction framing through shared guilt and reconciliation.",
+          "match_reasons": [
+            "cluster_id",
+            "document_id"
+          ],
+          "support_dimension": "enemy_as_bringer_of_death"
+        },
+        {
+          "claim_id": "lincoln-score-doc-second-inaugural-historical_enactment_alignment",
+          "claim_status": "inference",
+          "claim_text": "Second Inaugural contributes strong support evidence for historical enactment or alignment (score 3.0/4): The Second Inaugural strongly aligns blood, slavery, and judgment with historical war and emancipation contexts, but restrains enemy-destruction framing through shared guilt and reconciliation.",
+          "match_reasons": [
+            "cluster_id",
+            "document_id"
+          ],
+          "support_dimension": "historical_enactment_alignment"
+        },
+        {
+          "claim_id": "lincoln-score-doc-second-inaugural-sacred_object",
+          "claim_status": "interpretation",
+          "claim_text": "Second Inaugural contributes moderate support evidence for sacred object (score 2.0/4): The Second Inaugural strongly aligns blood, slavery, and judgment with historical war and emancipation contexts, but restrains enemy-destruction framing through shared guilt and reconciliation.",
+          "match_reasons": [
+            "cluster_id",
+            "document_id"
+          ],
+          "support_dimension": "sacred_object"
+        },
+        {
+          "claim_id": "lincoln-score-doc-second-inaugural-sacrificial_body",
+          "claim_status": "interpretation",
+          "claim_text": "Second Inaugural contributes strong support evidence for sacrificial body (score 3.0/4): The Second Inaugural strongly aligns blood, slavery, and judgment with historical war and emancipation contexts, but restrains enemy-destruction framing through shared guilt and reconciliation.",
+          "match_reasons": [
+            "cluster_id",
+            "document_id"
+          ],
+          "support_dimension": "sacrificial_body"
+        }
+      ],
+      "agreement_pattern": "two-way-split",
+      "case_id": "lincoln",
+      "category": "semantic-instability",
+      "cluster_id": "lincoln-01-body-organism",
+      "cross_case_impacts": [],
+      "decision_authority": "human-only",
+      "disagreement_id": "disagreement-0033",
+      "document_id": "lincoln-second-inaugural",
+      "field": "cmt.conceptual_metaphor",
+      "focal_text": "bind",
+      "gloss_en": "",
+      "item_id": "lincoln-multi-model-v1-packet:cmt:lincoln-ann-064",
+      "missing_run_ids": [],
+      "model_values": {
+        "issue147-anthropic-cmt-final2-20260627": "THE DIVIDED / WAR-TORN NATION IS A WOUNDED BODY REQUIRING MEDICAL BINDING AND HEALING; RECONCILIATION IS WOUND-CARE",
+        "issue147-openai-cmt-final2-20260627": "National reconciliation is medical healing: the nation is a wounded body whose injuries from war must be bound up and nursed toward peace."
+      },
+      "priority": "medium",
+      "priority_reasons": [
+        "classified-medium-priority",
+        "claim-audit-impact",
+        "possible-codebook-ambiguity"
+      ],
+      "priority_score": 280,
+      "queue_id": "review-0027",
+      "queue_rank": 27,
+      "reference_value": "NATION IS BODY",
+      "review_question": "Which value for `cmt.conceptual_metaphor` on `lincoln-ann-064` best follows the codebook and source context?",
+      "review_status": "pending-human-review",
+      "rights_status": "public-domain",
+      "sentence_id": "lincoln-second-inaugural_s01_p06_s01",
+      "source_language": "en",
+      "source_risk_flags": [],
+      "source_text": "With malice toward none; with charity for all; with firmness in the right, as God gives us to see the right, let us strive on to finish the work we are in; to bind up the nation's wounds; to care for him who shall have borne the battle, and for his widow, and his orphan--to do all which may achieve and cherish a just and lasting peace among ourselves, and with all nations.",
+      "storage_policy": "committed",
+      "task_layer": "cmt",
+      "unit_id": "lincoln-ann-064",
+      "value_groups": [
+        {
+          "run_count": 1,
+          "run_ids": [
+            "issue147-openai-cmt-final2-20260627"
+          ],
+          "value": "National reconciliation is medical healing: the nation is a wounded body whose injuries from war must be bound up and nursed toward peace."
+        },
+        {
+          "run_count": 1,
+          "run_ids": [
+            "issue147-anthropic-cmt-final2-20260627"
+          ],
+          "value": "THE DIVIDED / WAR-TORN NATION IS A WOUNDED BODY REQUIRING MEDICAL BINDING AND HEALING; RECONCILIATION IS WOUND-CARE"
+        }
+      ]
+    },
+    {
+      "adjudication_note": "Model agreement and majority patterns are diagnostic only; this queue contains no adjudication decision.",
+      "affected_claims": [
+        {
+          "claim_id": "lincoln-score-doc-gettysburg-enemy_as_bringer_of_death",
+          "claim_status": "interpretation",
+          "claim_text": "Gettysburg Address contributes weak support evidence for enemy as bringer of death (score 1.0/4): Gettysburg strongly links battlefield death, national survival, civic dedication, and democratic renewal, while the enemy remains mostly unnamed.",
+          "match_reasons": [
+            "cluster_id"
+          ],
+          "support_dimension": "enemy_as_bringer_of_death"
+        },
+        {
+          "claim_id": "lincoln-score-doc-gettysburg-historical_enactment_alignment",
+          "claim_status": "inference",
+          "claim_text": "Gettysburg Address contributes strong support evidence for historical enactment or alignment (score 3.0/4): Gettysburg strongly links battlefield death, national survival, civic dedication, and democratic renewal, while the enemy remains mostly unnamed.",
+          "match_reasons": [
+            "cluster_id"
+          ],
+          "support_dimension": "historical_enactment_alignment"
+        },
+        {
+          "claim_id": "lincoln-score-doc-gettysburg-sacred_object",
+          "claim_status": "interpretation",
+          "claim_text": "Gettysburg Address contributes strong support evidence for sacred object (score 3.0/4): Gettysburg strongly links battlefield death, national survival, civic dedication, and democratic renewal, while the enemy remains mostly unnamed.",
+          "match_reasons": [
+            "cluster_id"
+          ],
+          "support_dimension": "sacred_object"
+        },
+        {
+          "claim_id": "lincoln-score-doc-gettysburg-sacrificial_body",
+          "claim_status": "interpretation",
+          "claim_text": "Gettysburg Address contributes strong support evidence for sacrificial body (score 3.0/4): Gettysburg strongly links battlefield death, national survival, civic dedication, and democratic renewal, while the enemy remains mostly unnamed.",
+          "match_reasons": [
+            "cluster_id"
+          ],
+          "support_dimension": "sacrificial_body"
+        },
+        {
+          "claim_id": "lincoln-score-doc-second-inaugural-enemy_as_bringer_of_death",
+          "claim_status": "interpretation",
+          "claim_text": "Second Inaugural contributes weak support evidence for enemy as bringer of death (score 1.0/4): The Second Inaugural strongly aligns blood, slavery, and judgment with historical war and emancipation contexts, but restrains enemy-destruction framing through shared guilt and reconciliation.",
+          "match_reasons": [
+            "cluster_id",
+            "document_id"
+          ],
+          "support_dimension": "enemy_as_bringer_of_death"
+        },
+        {
+          "claim_id": "lincoln-score-doc-second-inaugural-historical_enactment_alignment",
+          "claim_status": "inference",
+          "claim_text": "Second Inaugural contributes strong support evidence for historical enactment or alignment (score 3.0/4): The Second Inaugural strongly aligns blood, slavery, and judgment with historical war and emancipation contexts, but restrains enemy-destruction framing through shared guilt and reconciliation.",
+          "match_reasons": [
+            "cluster_id",
+            "document_id"
+          ],
+          "support_dimension": "historical_enactment_alignment"
+        },
+        {
+          "claim_id": "lincoln-score-doc-second-inaugural-sacred_object",
+          "claim_status": "interpretation",
+          "claim_text": "Second Inaugural contributes moderate support evidence for sacred object (score 2.0/4): The Second Inaugural strongly aligns blood, slavery, and judgment with historical war and emancipation contexts, but restrains enemy-destruction framing through shared guilt and reconciliation.",
+          "match_reasons": [
+            "cluster_id",
+            "document_id"
+          ],
+          "support_dimension": "sacred_object"
+        },
+        {
+          "claim_id": "lincoln-score-doc-second-inaugural-sacrificial_body",
+          "claim_status": "interpretation",
+          "claim_text": "Second Inaugural contributes strong support evidence for sacrificial body (score 3.0/4): The Second Inaugural strongly aligns blood, slavery, and judgment with historical war and emancipation contexts, but restrains enemy-destruction framing through shared guilt and reconciliation.",
+          "match_reasons": [
+            "cluster_id",
+            "document_id"
+          ],
+          "support_dimension": "sacrificial_body"
+        }
+      ],
+      "agreement_pattern": "two-way-split",
+      "case_id": "lincoln",
+      "category": "semantic-instability",
+      "cluster_id": "lincoln-01-body-organism",
+      "cross_case_impacts": [],
+      "decision_authority": "human-only",
+      "disagreement_id": "disagreement-0034",
+      "document_id": "lincoln-second-inaugural",
+      "field": "cmt.entailments",
+      "focal_text": "bind",
+      "gloss_en": "",
+      "item_id": "lincoln-multi-model-v1-packet:cmt:lincoln-ann-064",
+      "missing_run_ids": [],
+      "model_values": {
+        "issue147-anthropic-cmt-final2-20260627": [
+          "'The nation's wounds' maps physical trauma (lacerated tissue) onto the social, political, and moral damage inflicted by civil war, making the nation a body capable of being hurt.",
+          "'Bind up' maps the clinical act of bandaging or suturing a wound onto the political-legislative work of reconstruction and reconciliation, implying that healing requires active skilled intervention, not passive waiting.",
+          "The medical frame imports a healer agent (the government, the people collectively) whose moral obligation is care and restoration of the injured body.",
+          "Wounds that are bound up are expected to heal and close: the metaphor implies the possibility, indeed the expectation, of full national restoration.",
+          "'Cherish a just and lasting peace' extends the caring register: 'cherish' maps the affective nurturing of a fragile or precious living thing (perhaps an infant or a tender plant) onto the cultivation of post-war peace.",
+          "The convergence of wound-care and cherishing maps medical and parental-nurturing frames simultaneously onto the post-war political task, constructing reconciliation as both clinical and affective work.",
+          "The frame implicitly constructs the Confederacy / the South as a wounded part of the same national body, not an external enemy—a move with significant political and moral entailments for Reconstruction."
+        ],
+        "issue147-openai-cmt-final2-20260627": [
+          "The nation is construed as an injured body requiring care after battle.",
+          "Political action after war is analogous to dressing wounds and promoting recovery.",
+          "Peace is fragile and must be actively cherished or nursed into durability.",
+          "Malice would aggravate injury, while charity and care support healing."
+        ]
+      },
+      "priority": "medium",
+      "priority_reasons": [
+        "classified-medium-priority",
+        "claim-audit-impact",
+        "possible-codebook-ambiguity"
+      ],
+      "priority_score": 280,
+      "queue_id": "review-0028",
+      "queue_rank": 28,
+      "reference_value": [
+        "repairing the nation after war",
+        "peace is treated as something to nurture and hold dear",
+        "Political reconciliation is understood through healing an injured body."
+      ],
+      "review_question": "Which value for `cmt.entailments` on `lincoln-ann-064` best follows the codebook and source context?",
+      "review_status": "pending-human-review",
+      "rights_status": "public-domain",
+      "sentence_id": "lincoln-second-inaugural_s01_p06_s01",
+      "source_language": "en",
+      "source_risk_flags": [],
+      "source_text": "With malice toward none; with charity for all; with firmness in the right, as God gives us to see the right, let us strive on to finish the work we are in; to bind up the nation's wounds; to care for him who shall have borne the battle, and for his widow, and his orphan--to do all which may achieve and cherish a just and lasting peace among ourselves, and with all nations.",
+      "storage_policy": "committed",
+      "task_layer": "cmt",
+      "unit_id": "lincoln-ann-064",
+      "value_groups": [
+        {
+          "run_count": 1,
+          "run_ids": [
+            "issue147-anthropic-cmt-final2-20260627"
+          ],
+          "value": [
+            "'The nation's wounds' maps physical trauma (lacerated tissue) onto the social, political, and moral damage inflicted by civil war, making the nation a body capable of being hurt.",
+            "'Bind up' maps the clinical act of bandaging or suturing a wound onto the political-legislative work of reconstruction and reconciliation, implying that healing requires active skilled intervention, not passive waiting.",
+            "The medical frame imports a healer agent (the government, the people collectively) whose moral obligation is care and restoration of the injured body.",
+            "Wounds that are bound up are expected to heal and close: the metaphor implies the possibility, indeed the expectation, of full national restoration.",
+            "'Cherish a just and lasting peace' extends the caring register: 'cherish' maps the affective nurturing of a fragile or precious living thing (perhaps an infant or a tender plant) onto the cultivation of post-war peace.",
+            "The convergence of wound-care and cherishing maps medical and parental-nurturing frames simultaneously onto the post-war political task, constructing reconciliation as both clinical and affective work.",
+            "The frame implicitly constructs the Confederacy / the South as a wounded part of the same national body, not an external enemy—a move with significant political and moral entailments for Reconstruction."
+          ]
+        },
+        {
+          "run_count": 1,
+          "run_ids": [
+            "issue147-openai-cmt-final2-20260627"
+          ],
+          "value": [
+            "The nation is construed as an injured body requiring care after battle.",
+            "Political action after war is analogous to dressing wounds and promoting recovery.",
+            "Peace is fragile and must be actively cherished or nursed into durability.",
+            "Malice would aggravate injury, while charity and care support healing."
+          ]
+        }
+      ]
+    },
+    {
+      "adjudication_note": "Model agreement and majority patterns are diagnostic only; this queue contains no adjudication decision.",
+      "affected_claims": [],
+      "agreement_pattern": "two-way-split",
+      "case_id": "lincoln",
+      "category": "semantic-instability",
+      "cluster_id": null,
+      "cross_case_impacts": [],
+      "decision_authority": "human-only",
+      "disagreement_id": "disagreement-0023",
+      "document_id": "lincoln-gettysburg-address",
+      "field": "cmt.conceptual_metaphor",
+      "focal_text": "brought",
+      "gloss_en": "",
+      "item_id": "lincoln-multi-model-v1-packet:cmt:lincoln-ann-051",
+      "missing_run_ids": [],
+      "model_values": {
+        "issue147-anthropic-cmt-final2-20260627": "THE FOUNDING OF THE NATION IS A BIRTH / NATIVITY EVENT; THE NATION IS A CHILD BROUGHT FORTH BY FATHERS",
+        "issue147-openai-cmt-final2-20260627": "A nation is a child or new being generated by fathers, conceived in an abstract condition, and brought forth into existence."
+      },
+      "priority": "medium",
+      "priority_reasons": [
+        "classified-medium-priority",
+        "possible-codebook-ambiguity"
+      ],
+      "priority_score": 220,
+      "queue_id": "review-0029",
+      "queue_rank": 29,
+      "reference_value": "NATION IS BIRTH GENERATION",
+      "review_question": "Which value for `cmt.conceptual_metaphor` on `lincoln-ann-051` best follows the codebook and source context?",
+      "review_status": "pending-human-review",
+      "rights_status": "public-domain",
+      "sentence_id": "lincoln-gettysburg-address_s01_p01_s01",
+      "source_language": "en",
+      "source_risk_flags": [
+        "gutenberg-ellipsis-style",
+        "multiple-manuscript-versions-exist"
+      ],
+      "source_text": "Four score and seven years ago, our fathers brought forth upon this continent a new nation: conceived in liberty, and dedicated to the proposition that all men are created equal.",
+      "storage_policy": "committed",
+      "task_layer": "cmt",
+      "unit_id": "lincoln-ann-051",
+      "value_groups": [
+        {
+          "run_count": 1,
+          "run_ids": [
+            "issue147-openai-cmt-final2-20260627"
+          ],
+          "value": "A nation is a child or new being generated by fathers, conceived in an abstract condition, and brought forth into existence."
+        },
+        {
+          "run_count": 1,
+          "run_ids": [
+            "issue147-anthropic-cmt-final2-20260627"
+          ],
+          "value": "THE FOUNDING OF THE NATION IS A BIRTH / NATIVITY EVENT; THE NATION IS A CHILD BROUGHT FORTH BY FATHERS"
+        }
+      ]
+    },
+    {
+      "adjudication_note": "Model agreement and majority patterns are diagnostic only; this queue contains no adjudication decision.",
+      "affected_claims": [],
+      "agreement_pattern": "two-way-split",
+      "case_id": "lincoln",
+      "category": "semantic-instability",
+      "cluster_id": null,
+      "cross_case_impacts": [],
+      "decision_authority": "human-only",
+      "disagreement_id": "disagreement-0024",
+      "document_id": "lincoln-gettysburg-address",
+      "field": "cmt.entailments",
+      "focal_text": "brought",
+      "gloss_en": "",
+      "item_id": "lincoln-multi-model-v1-packet:cmt:lincoln-ann-051",
+      "missing_run_ids": [],
+      "model_values": {
+        "issue147-anthropic-cmt-final2-20260627": [
+          "The founding fathers are the generative parents of the nation, conferring on it both origin and identity.",
+          "'Conceived' maps the ideational origin of the nation (in liberty) onto the biological moment of conception, implying the nation's animating principle was present from its very inception.",
+          "'Brought forth' maps the historical founding act onto parturition, giving the nation a natal moment in time.",
+          "'Dedicated' imports the ritual-religious register of consecration, so the newborn nation is simultaneously baptised or consecrated to a proposition.",
+          "Because birth is natural and generative, the nation's existence carries biological legitimacy and inevitability.",
+          "The birth frame suppresses the constructed, contested, and violent dimensions of founding."
+        ],
+        "issue147-openai-cmt-final2-20260627": [
+          "The founding generation functions as progenitors whose act gives the nation life.",
+          "The nation has an origin moment analogous to conception and birth rather than merely a legal date.",
+          "Liberty is treated as the generative condition in which the nation begins.",
+          "The nation may inherit obligations or defining traits from its founding parents."
+        ]
+      },
+      "priority": "medium",
+      "priority_reasons": [
+        "classified-medium-priority",
+        "possible-codebook-ambiguity"
+      ],
+      "priority_score": 220,
+      "queue_id": "review-0030",
+      "queue_rank": 30,
+      "reference_value": [
+        "political founding of a nation is represented through generation or birth",
+        "committed the nation or people to a political principle",
+        "Political founding is understood through human generation."
+      ],
+      "review_question": "Which value for `cmt.entailments` on `lincoln-ann-051` best follows the codebook and source context?",
+      "review_status": "pending-human-review",
+      "rights_status": "public-domain",
+      "sentence_id": "lincoln-gettysburg-address_s01_p01_s01",
+      "source_language": "en",
+      "source_risk_flags": [
+        "gutenberg-ellipsis-style",
+        "multiple-manuscript-versions-exist"
+      ],
+      "source_text": "Four score and seven years ago, our fathers brought forth upon this continent a new nation: conceived in liberty, and dedicated to the proposition that all men are created equal.",
+      "storage_policy": "committed",
+      "task_layer": "cmt",
+      "unit_id": "lincoln-ann-051",
+      "value_groups": [
+        {
+          "run_count": 1,
+          "run_ids": [
+            "issue147-anthropic-cmt-final2-20260627"
+          ],
+          "value": [
+            "The founding fathers are the generative parents of the nation, conferring on it both origin and identity.",
+            "'Conceived' maps the ideational origin of the nation (in liberty) onto the biological moment of conception, implying the nation's animating principle was present from its very inception.",
+            "'Brought forth' maps the historical founding act onto parturition, giving the nation a natal moment in time.",
+            "'Dedicated' imports the ritual-religious register of consecration, so the newborn nation is simultaneously baptised or consecrated to a proposition.",
+            "Because birth is natural and generative, the nation's existence carries biological legitimacy and inevitability.",
+            "The birth frame suppresses the constructed, contested, and violent dimensions of founding."
+          ]
+        },
+        {
+          "run_count": 1,
+          "run_ids": [
+            "issue147-openai-cmt-final2-20260627"
+          ],
+          "value": [
+            "The founding generation functions as progenitors whose act gives the nation life.",
+            "The nation has an origin moment analogous to conception and birth rather than merely a legal date.",
+            "Liberty is treated as the generative condition in which the nation begins.",
+            "The nation may inherit obligations or defining traits from its founding parents."
+          ]
+        }
+      ]
+    },
+    {
+      "adjudication_note": "Model agreement and majority patterns are diagnostic only; this queue contains no adjudication decision.",
+      "affected_claims": [],
+      "agreement_pattern": "two-way-split",
+      "case_id": "lincoln",
+      "category": "semantic-instability",
+      "cluster_id": null,
+      "cross_case_impacts": [],
+      "decision_authority": "human-only",
+      "disagreement_id": "disagreement-0028",
+      "document_id": "lincoln-gettysburg-address",
+      "field": "cmt.conceptual_metaphor",
+      "focal_text": "world",
+      "gloss_en": "",
+      "item_id": "lincoln-multi-model-v1-packet:cmt:lincoln-ann-054",
+      "missing_run_ids": [],
+      "model_values": {
+        "issue147-anthropic-cmt-final2-20260627": "THE WORLD / HISTORY IS A SENTIENT OBSERVER WITH MEMORY AND ATTENTION; COLLECTIVE HISTORICAL CONSCIOUSNESS IS A MIND THAT NOTES, REMEMBERS, AND FORGETS",
+        "issue147-openai-cmt-final2-20260627": "Public history is a person-like witness with attention and memory, able to notice, remember, and forget words and deeds."
+      },
+      "priority": "medium",
+      "priority_reasons": [
+        "classified-medium-priority",
+        "possible-codebook-ambiguity"
+      ],
+      "priority_score": 220,
+      "queue_id": "review-0031",
+      "queue_rank": 31,
+      "reference_value": "HISTORY IS BODY",
+      "review_question": "Which value for `cmt.conceptual_metaphor` on `lincoln-ann-054` best follows the codebook and source context?",
+      "review_status": "pending-human-review",
+      "rights_status": "public-domain",
+      "sentence_id": "lincoln-gettysburg-address_s01_p04_s03",
+      "source_language": "en",
+      "source_risk_flags": [
+        "gutenberg-ellipsis-style",
+        "multiple-manuscript-versions-exist"
+      ],
+      "source_text": "The world will little note, nor long remember, what we say here, but it can never forget what they did here.",
+      "storage_policy": "committed",
+      "task_layer": "cmt",
+      "unit_id": "lincoln-ann-054",
+      "value_groups": [
+        {
+          "run_count": 1,
+          "run_ids": [
+            "issue147-openai-cmt-final2-20260627"
+          ],
+          "value": "Public history is a person-like witness with attention and memory, able to notice, remember, and forget words and deeds."
+        },
+        {
+          "run_count": 1,
+          "run_ids": [
+            "issue147-anthropic-cmt-final2-20260627"
+          ],
+          "value": "THE WORLD / HISTORY IS A SENTIENT OBSERVER WITH MEMORY AND ATTENTION; COLLECTIVE HISTORICAL CONSCIOUSNESS IS A MIND THAT NOTES, REMEMBERS, AND FORGETS"
+        }
+      ]
+    },
+    {
+      "adjudication_note": "Model agreement and majority patterns are diagnostic only; this queue contains no adjudication decision.",
+      "affected_claims": [],
+      "agreement_pattern": "two-way-split",
+      "case_id": "lincoln",
+      "category": "semantic-instability",
+      "cluster_id": null,
+      "cross_case_impacts": [],
+      "decision_authority": "human-only",
+      "disagreement_id": "disagreement-0029",
+      "document_id": "lincoln-gettysburg-address",
+      "field": "cmt.entailments",
+      "focal_text": "world",
+      "gloss_en": "",
+      "item_id": "lincoln-multi-model-v1-packet:cmt:lincoln-ann-054",
+      "missing_run_ids": [],
+      "model_values": {
+        "issue147-anthropic-cmt-final2-20260627": [
+          "'The world' is personified as a single attentive agent capable of cognitive acts (noting, remembering, forgetting).",
+          "Noting maps selective attention onto the world-mind; remembering maps long-term retention; forgetting maps failure of retention.",
+          "The asymmetry (words forgotten, deeds remembered) implies that physical sacrifice is more cognitively salient to this mind than speech.",
+          "History is framed as a continuous, unified consciousness rather than a dispersed, contested, multi-perspectival record.",
+          "The frame rhetorically subordinates Lincoln's own speech act while simultaneously ensuring its memorability."
+        ],
+        "issue147-openai-cmt-final2-20260627": [
+          "The collective public is treated as a single agent capable of mental acts.",
+          "Speech is represented as something that may fail to enter lasting memory.",
+          "The soldiers' deeds are represented as events that compel permanent remembrance.",
+          "Historical value is measured by what the collective witness cannot forget."
+        ]
+      },
+      "priority": "medium",
+      "priority_reasons": [
+        "classified-medium-priority",
+        "possible-codebook-ambiguity"
+      ],
+      "priority_score": 220,
+      "queue_id": "review-0032",
+      "queue_rank": 32,
+      "reference_value": [
+        "public memory is attributed to the world as an agent",
+        "Collective historical memory is understood through human cognition."
+      ],
+      "review_question": "Which value for `cmt.entailments` on `lincoln-ann-054` best follows the codebook and source context?",
+      "review_status": "pending-human-review",
+      "rights_status": "public-domain",
+      "sentence_id": "lincoln-gettysburg-address_s01_p04_s03",
+      "source_language": "en",
+      "source_risk_flags": [
+        "gutenberg-ellipsis-style",
+        "multiple-manuscript-versions-exist"
+      ],
+      "source_text": "The world will little note, nor long remember, what we say here, but it can never forget what they did here.",
+      "storage_policy": "committed",
+      "task_layer": "cmt",
+      "unit_id": "lincoln-ann-054",
+      "value_groups": [
+        {
+          "run_count": 1,
+          "run_ids": [
+            "issue147-anthropic-cmt-final2-20260627"
+          ],
+          "value": [
+            "'The world' is personified as a single attentive agent capable of cognitive acts (noting, remembering, forgetting).",
+            "Noting maps selective attention onto the world-mind; remembering maps long-term retention; forgetting maps failure of retention.",
+            "The asymmetry (words forgotten, deeds remembered) implies that physical sacrifice is more cognitively salient to this mind than speech.",
+            "History is framed as a continuous, unified consciousness rather than a dispersed, contested, multi-perspectival record.",
+            "The frame rhetorically subordinates Lincoln's own speech act while simultaneously ensuring its memorability."
+          ]
+        },
+        {
+          "run_count": 1,
+          "run_ids": [
+            "issue147-openai-cmt-final2-20260627"
+          ],
+          "value": [
+            "The collective public is treated as a single agent capable of mental acts.",
+            "Speech is represented as something that may fail to enter lasting memory.",
+            "The soldiers' deeds are represented as events that compel permanent remembrance.",
+            "Historical value is measured by what the collective witness cannot forget."
+          ]
+        }
+      ]
+    },
+    {
+      "adjudication_note": "Model agreement and majority patterns are diagnostic only; this queue contains no adjudication decision.",
+      "affected_claims": [],
+      "agreement_pattern": "two-way-split",
+      "case_id": "lincoln",
+      "category": "semantic-instability",
+      "cluster_id": "lincoln-08-sacrificial-death-gift",
+      "cross_case_impacts": [],
+      "decision_authority": "human-only",
+      "disagreement_id": "disagreement-0006",
+      "document_id": "lincoln-lyceum-address",
+      "field": "cmt.conceptual_metaphor",
+      "focal_text": "spill",
+      "gloss_en": "",
+      "item_id": "lincoln-multi-model-v1-packet:cmt:lincoln-ann-016",
+      "missing_run_ids": [],
+      "model_values": {
+        "issue147-anthropic-cmt-final2-20260627": "PATRIOTIC SACRIFICE IS BODILY FLUID EXPENDITURE; CIVIC DEVOTION IS WILLINGNESS TO POUR OUT ONE'S BLOOD FOR THE COUNTRY",
+        "issue147-openai-cmt-final2-20260627": "Patriotic defense is sacrificial blood-giving, in which loyal citizens offer bodily injury or death for the country."
+      },
+      "priority": "medium",
+      "priority_reasons": [
+        "classified-medium-priority",
+        "possible-codebook-ambiguity"
+      ],
+      "priority_score": 220,
+      "queue_id": "review-0033",
+      "queue_rank": 33,
+      "reference_value": "CITIZENSHIP IS SACRIFICE",
+      "review_question": "Which value for `cmt.conceptual_metaphor` on `lincoln-ann-016` best follows the codebook and source context?",
+      "review_status": "pending-human-review",
+      "rights_status": "public-domain",
+      "sentence_id": "lincoln-lyceum-address_s01_p11_s15",
+      "source_language": "en",
+      "source_risk_flags": [
+        "source-date-error-in-body"
+      ],
+      "source_text": "While, on the other hand, good men, men who love tranquillity, who desire to abide by the laws and enjoy their benefits, who would gladly spill their blood in the defense of their country, seeing their property destroyed, their families insulted, and their lives endangered, their persons injured, and seeing nothing in prospect that forebodes a change for the better, become tired of and disgusted with a government that offers them no protection, and are not much averse to a change in which they imagine they have nothing to lose.",
+      "storage_policy": "committed",
+      "task_layer": "cmt",
+      "unit_id": "lincoln-ann-016",
+      "value_groups": [
+        {
+          "run_count": 1,
+          "run_ids": [
+            "issue147-anthropic-cmt-final2-20260627"
+          ],
+          "value": "PATRIOTIC SACRIFICE IS BODILY FLUID EXPENDITURE; CIVIC DEVOTION IS WILLINGNESS TO POUR OUT ONE'S BLOOD FOR THE COUNTRY"
+        },
+        {
+          "run_count": 1,
+          "run_ids": [
+            "issue147-openai-cmt-final2-20260627"
+          ],
+          "value": "Patriotic defense is sacrificial blood-giving, in which loyal citizens offer bodily injury or death for the country."
+        }
+      ]
+    },
+    {
+      "adjudication_note": "Model agreement and majority patterns are diagnostic only; this queue contains no adjudication decision.",
+      "affected_claims": [],
+      "agreement_pattern": "two-way-split",
+      "case_id": "lincoln",
+      "category": "semantic-instability",
+      "cluster_id": "lincoln-08-sacrificial-death-gift",
+      "cross_case_impacts": [],
+      "decision_authority": "human-only",
+      "disagreement_id": "disagreement-0007",
+      "document_id": "lincoln-lyceum-address",
+      "field": "cmt.entailments",
+      "focal_text": "spill",
+      "gloss_en": "",
+      "item_id": "lincoln-multi-model-v1-packet:cmt:lincoln-ann-016",
+      "missing_run_ids": [],
+      "model_values": {
+        "issue147-anthropic-cmt-final2-20260627": [
+          "'Spill their blood' maps the involuntary or deliberate pouring out of a vital bodily fluid onto the act of dying or suffering grievous bodily harm in military service.",
+          "Blood as a metonym for life means its spilling is equivalent to life-expenditure, making the sacrifice irrevocable and total.",
+          "'Gladly spill' introduces a volitional-affective dimension: the sacrifice is freely chosen and cheerful, framing ideal citizenship as willingness to self-annihilate for the polity.",
+          "The body is implicitly a vessel or container of civic loyalty whose contents (blood) can be offered up—invoking a liquid-container image schema.",
+          "The expression establishes a hierarchy of civic commitment: those willing to spill blood are the most devoted citizens, contrasted implicitly with those who are not.",
+          "The metonymic reading (blood = life) and the metaphorical reading (spilling blood = making sacrifice) are simultaneously active."
+        ],
+        "issue147-openai-cmt-final2-20260627": [
+          "Blood stands for life and bodily cost offered in defense of the country.",
+          "Loyal citizens are evaluated by willingness to risk wounds or death.",
+          "Political attachment to country can demand a sacrificial payment from the body.",
+          "Failure of government protection threatens to exhaust this willingness to sacrifice."
+        ]
+      },
+      "priority": "medium",
+      "priority_reasons": [
+        "classified-medium-priority",
+        "possible-codebook-ambiguity"
+      ],
+      "priority_score": 220,
+      "queue_id": "review-0034",
+      "queue_rank": 34,
+      "reference_value": [
+        "patriotic obligation and violation of law are framed through blood, trampling, and tearing",
+        "Civic obligation is understood through bodily sacrifice and material violation."
+      ],
+      "review_question": "Which value for `cmt.entailments` on `lincoln-ann-016` best follows the codebook and source context?",
+      "review_status": "pending-human-review",
+      "rights_status": "public-domain",
+      "sentence_id": "lincoln-lyceum-address_s01_p11_s15",
+      "source_language": "en",
+      "source_risk_flags": [
+        "source-date-error-in-body"
+      ],
+      "source_text": "While, on the other hand, good men, men who love tranquillity, who desire to abide by the laws and enjoy their benefits, who would gladly spill their blood in the defense of their country, seeing their property destroyed, their families insulted, and their lives endangered, their persons injured, and seeing nothing in prospect that forebodes a change for the better, become tired of and disgusted with a government that offers them no protection, and are not much averse to a change in which they imagine they have nothing to lose.",
+      "storage_policy": "committed",
+      "task_layer": "cmt",
+      "unit_id": "lincoln-ann-016",
+      "value_groups": [
+        {
+          "run_count": 1,
+          "run_ids": [
+            "issue147-anthropic-cmt-final2-20260627"
+          ],
+          "value": [
+            "'Spill their blood' maps the involuntary or deliberate pouring out of a vital bodily fluid onto the act of dying or suffering grievous bodily harm in military service.",
+            "Blood as a metonym for life means its spilling is equivalent to life-expenditure, making the sacrifice irrevocable and total.",
+            "'Gladly spill' introduces a volitional-affective dimension: the sacrifice is freely chosen and cheerful, framing ideal citizenship as willingness to self-annihilate for the polity.",
+            "The body is implicitly a vessel or container of civic loyalty whose contents (blood) can be offered up—invoking a liquid-container image schema.",
+            "The expression establishes a hierarchy of civic commitment: those willing to spill blood are the most devoted citizens, contrasted implicitly with those who are not.",
+            "The metonymic reading (blood = life) and the metaphorical reading (spilling blood = making sacrifice) are simultaneously active."
+          ]
+        },
+        {
+          "run_count": 1,
+          "run_ids": [
+            "issue147-openai-cmt-final2-20260627"
+          ],
+          "value": [
+            "Blood stands for life and bodily cost offered in defense of the country.",
+            "Loyal citizens are evaluated by willingness to risk wounds or death.",
+            "Political attachment to country can demand a sacrificial payment from the body.",
+            "Failure of government protection threatens to exhaust this willingness to sacrifice."
+          ]
+        }
+      ]
+    },
+    {
+      "adjudication_note": "Model agreement and majority patterns are diagnostic only; this queue contains no adjudication decision.",
+      "affected_claims": [],
+      "agreement_pattern": "two-way-split",
+      "case_id": "lincoln",
+      "category": "semantic-instability",
+      "cluster_id": null,
+      "cross_case_impacts": [],
+      "decision_authority": "human-only",
+      "disagreement_id": "disagreement-0018",
+      "document_id": "lincoln-lyceum-address",
+      "field": "cmt.conceptual_metaphor",
+      "focal_text": "living",
+      "gloss_en": "",
+      "item_id": "lincoln-multi-model-v1-packet:cmt:lincoln-ann-043",
+      "missing_run_ids": [],
+      "model_values": {
+        "issue147-anthropic-cmt-final2-20260627": "HISTORY IS A LIVING ORGANISM / READABLE TEXT; THE VETERAN'S WOUNDED BODY IS A LIVING HISTORY BOOK BEARING MATERIAL TESTIMONY",
+        "issue147-openai-cmt-final2-20260627": "History is a living embodied family witness whose wounds and scars can be read as testimony of past events."
+      },
+      "priority": "medium",
+      "priority_reasons": [
+        "classified-medium-priority",
+        "possible-codebook-ambiguity"
+      ],
+      "priority_score": 220,
+      "queue_id": "review-0035",
+      "queue_rank": 35,
+      "reference_value": "HISTORY IS BODY",
+      "review_question": "Which value for `cmt.conceptual_metaphor` on `lincoln-ann-043` best follows the codebook and source context?",
+      "review_status": "pending-human-review",
+      "rights_status": "public-domain",
+      "sentence_id": "lincoln-lyceum-address_s01_p24_s05",
+      "source_language": "en",
+      "source_risk_flags": [
+        "source-date-error-in-body"
+      ],
+      "source_text": "The consequence was that of those scenes, in the form of a husband, a father, a son, or a brother, a living history was to be found in every family--a history bearing the indubitable testimonies of its own authenticity, in the limbs mangled, in the scars of wounds received, in the midst of the very scenes related--a history, too, that could be read and understood alike by all, the wise and the ignorant, the learned and the unlearned.",
+      "storage_policy": "committed",
+      "task_layer": "cmt",
+      "unit_id": "lincoln-ann-043",
+      "value_groups": [
+        {
+          "run_count": 1,
+          "run_ids": [
+            "issue147-anthropic-cmt-final2-20260627"
+          ],
+          "value": "HISTORY IS A LIVING ORGANISM / READABLE TEXT; THE VETERAN'S WOUNDED BODY IS A LIVING HISTORY BOOK BEARING MATERIAL TESTIMONY"
+        },
+        {
+          "run_count": 1,
+          "run_ids": [
+            "issue147-openai-cmt-final2-20260627"
+          ],
+          "value": "History is a living embodied family witness whose wounds and scars can be read as testimony of past events."
+        }
+      ]
+    },
+    {
+      "adjudication_note": "Model agreement and majority patterns are diagnostic only; this queue contains no adjudication decision.",
+      "affected_claims": [],
+      "agreement_pattern": "two-way-split",
+      "case_id": "lincoln",
+      "category": "semantic-instability",
+      "cluster_id": null,
+      "cross_case_impacts": [],
+      "decision_authority": "human-only",
+      "disagreement_id": "disagreement-0019",
+      "document_id": "lincoln-lyceum-address",
+      "field": "cmt.entailments",
+      "focal_text": "living",
+      "gloss_en": "",
+      "item_id": "lincoln-multi-model-v1-packet:cmt:lincoln-ann-043",
+      "missing_run_ids": [],
+      "model_values": {
+        "issue147-anthropic-cmt-final2-20260627": [
+          "'Living history' maps biological vitality and presence onto the historical record, contrasting the animate veteran-as-document with inanimate written archives.",
+          "The wounded body (mangled limbs, scars) is mapped onto the pages or physical substrate of a text that bears inscribed evidence of events.",
+          "'Bearing testimonies' imports a legal-evidentiary register: the body is a witness that gives sworn physical testimony whose authenticity is self-evident and irrefutable.",
+          "'Read and understood' maps textual literacy onto the civic capacity to interpret bodily evidence, democratizing historical knowledge—any observer can read the body regardless of formal education.",
+          "The family as the locus where this living history resides maps the domestic-kinship unit onto an archive or repository.",
+          "The metaphor implies that embodied, somatic history is epistemically superior to written or oral history: it is self-authenticating and universally legible.",
+          "The frame suppresses the subjectivity and suffering of the veteran-body by reframing it as an informational resource for civic edification."
+        ],
+        "issue147-openai-cmt-final2-20260627": [
+          "Veterans and relatives make the past present as living evidence inside families.",
+          "Bodily injuries function as authenticating documents or testimony.",
+          "Historical knowledge can be read directly from bodies, not only from formal texts.",
+          "Family memory transmits national history across generations and levels of education."
+        ]
+      },
+      "priority": "medium",
+      "priority_reasons": [
+        "classified-medium-priority",
+        "possible-codebook-ambiguity"
+      ],
+      "priority_score": 220,
+      "queue_id": "review-0036",
+      "queue_rank": 36,
+      "reference_value": [
+        "Revolutionary veterans and family memory are treated as living/readable history",
+        "ambition and genius are represented through animals, height, paths, bodily appetite, fire, or stretching",
+        "Collective memory is understood through living bodies and written testimony."
+      ],
+      "review_question": "Which value for `cmt.entailments` on `lincoln-ann-043` best follows the codebook and source context?",
+      "review_status": "pending-human-review",
+      "rights_status": "public-domain",
+      "sentence_id": "lincoln-lyceum-address_s01_p24_s05",
+      "source_language": "en",
+      "source_risk_flags": [
+        "source-date-error-in-body"
+      ],
+      "source_text": "The consequence was that of those scenes, in the form of a husband, a father, a son, or a brother, a living history was to be found in every family--a history bearing the indubitable testimonies of its own authenticity, in the limbs mangled, in the scars of wounds received, in the midst of the very scenes related--a history, too, that could be read and understood alike by all, the wise and the ignorant, the learned and the unlearned.",
+      "storage_policy": "committed",
+      "task_layer": "cmt",
+      "unit_id": "lincoln-ann-043",
+      "value_groups": [
+        {
+          "run_count": 1,
+          "run_ids": [
+            "issue147-anthropic-cmt-final2-20260627"
+          ],
+          "value": [
+            "'Living history' maps biological vitality and presence onto the historical record, contrasting the animate veteran-as-document with inanimate written archives.",
+            "The wounded body (mangled limbs, scars) is mapped onto the pages or physical substrate of a text that bears inscribed evidence of events.",
+            "'Bearing testimonies' imports a legal-evidentiary register: the body is a witness that gives sworn physical testimony whose authenticity is self-evident and irrefutable.",
+            "'Read and understood' maps textual literacy onto the civic capacity to interpret bodily evidence, democratizing historical knowledge—any observer can read the body regardless of formal education.",
+            "The family as the locus where this living history resides maps the domestic-kinship unit onto an archive or repository.",
+            "The metaphor implies that embodied, somatic history is epistemically superior to written or oral history: it is self-authenticating and universally legible.",
+            "The frame suppresses the subjectivity and suffering of the veteran-body by reframing it as an informational resource for civic edification."
+          ]
+        },
+        {
+          "run_count": 1,
+          "run_ids": [
+            "issue147-openai-cmt-final2-20260627"
+          ],
+          "value": [
+            "Veterans and relatives make the past present as living evidence inside families.",
+            "Bodily injuries function as authenticating documents or testimony.",
+            "Historical knowledge can be read directly from bodies, not only from formal texts.",
+            "Family memory transmits national history across generations and levels of education."
+          ]
+        }
+      ]
+    },
+    {
+      "adjudication_note": "Model agreement and majority patterns are diagnostic only; this queue contains no adjudication decision.",
+      "affected_claims": [
+        {
+          "claim_id": "lincoln-score-doc-gettysburg-enemy_as_bringer_of_death",
+          "claim_status": "interpretation",
+          "claim_text": "Gettysburg Address contributes weak support evidence for enemy as bringer of death (score 1.0/4): Gettysburg strongly links battlefield death, national survival, civic dedication, and democratic renewal, while the enemy remains mostly unnamed.",
+          "match_reasons": [
+            "cluster_id"
+          ],
+          "support_dimension": "enemy_as_bringer_of_death"
+        },
+        {
+          "claim_id": "lincoln-score-doc-gettysburg-historical_enactment_alignment",
+          "claim_status": "inference",
+          "claim_text": "Gettysburg Address contributes strong support evidence for historical enactment or alignment (score 3.0/4): Gettysburg strongly links battlefield death, national survival, civic dedication, and democratic renewal, while the enemy remains mostly unnamed.",
+          "match_reasons": [
+            "cluster_id"
+          ],
+          "support_dimension": "historical_enactment_alignment"
+        },
+        {
+          "claim_id": "lincoln-score-doc-gettysburg-sacred_object",
+          "claim_status": "interpretation",
+          "claim_text": "Gettysburg Address contributes strong support evidence for sacred object (score 3.0/4): Gettysburg strongly links battlefield death, national survival, civic dedication, and democratic renewal, while the enemy remains mostly unnamed.",
+          "match_reasons": [
+            "cluster_id"
+          ],
+          "support_dimension": "sacred_object"
+        },
+        {
+          "claim_id": "lincoln-score-doc-gettysburg-sacrificial_body",
+          "claim_status": "interpretation",
+          "claim_text": "Gettysburg Address contributes strong support evidence for sacrificial body (score 3.0/4): Gettysburg strongly links battlefield death, national survival, civic dedication, and democratic renewal, while the enemy remains mostly unnamed.",
+          "match_reasons": [
+            "cluster_id"
+          ],
+          "support_dimension": "sacrificial_body"
+        },
+        {
+          "claim_id": "lincoln-score-doc-second-inaugural-enemy_as_bringer_of_death",
+          "claim_status": "interpretation",
+          "claim_text": "Second Inaugural contributes weak support evidence for enemy as bringer of death (score 1.0/4): The Second Inaugural strongly aligns blood, slavery, and judgment with historical war and emancipation contexts, but restrains enemy-destruction framing through shared guilt and reconciliation.",
+          "match_reasons": [
+            "cluster_id"
+          ],
+          "support_dimension": "enemy_as_bringer_of_death"
+        },
+        {
+          "claim_id": "lincoln-score-doc-second-inaugural-historical_enactment_alignment",
+          "claim_status": "inference",
+          "claim_text": "Second Inaugural contributes strong support evidence for historical enactment or alignment (score 3.0/4): The Second Inaugural strongly aligns blood, slavery, and judgment with historical war and emancipation contexts, but restrains enemy-destruction framing through shared guilt and reconciliation.",
+          "match_reasons": [
+            "cluster_id"
+          ],
+          "support_dimension": "historical_enactment_alignment"
+        },
+        {
+          "claim_id": "lincoln-score-doc-second-inaugural-sacred_object",
+          "claim_status": "interpretation",
+          "claim_text": "Second Inaugural contributes moderate support evidence for sacred object (score 2.0/4): The Second Inaugural strongly aligns blood, slavery, and judgment with historical war and emancipation contexts, but restrains enemy-destruction framing through shared guilt and reconciliation.",
+          "match_reasons": [
+            "cluster_id"
+          ],
+          "support_dimension": "sacred_object"
+        },
+        {
+          "claim_id": "lincoln-score-doc-second-inaugural-sacrificial_body",
+          "claim_status": "interpretation",
+          "claim_text": "Second Inaugural contributes strong support evidence for sacrificial body (score 3.0/4): The Second Inaugural strongly aligns blood, slavery, and judgment with historical war and emancipation contexts, but restrains enemy-destruction framing through shared guilt and reconciliation.",
+          "match_reasons": [
+            "cluster_id"
+          ],
+          "support_dimension": "sacrificial_body"
+        }
+      ],
+      "agreement_pattern": "two-way-split",
+      "case_id": "lincoln",
+      "category": "confidence-instability",
+      "cluster_id": "lincoln-01-body-organism",
+      "cross_case_impacts": [],
+      "decision_authority": "human-only",
+      "disagreement_id": "disagreement-0016",
+      "document_id": "lincoln-lyceum-address",
+      "field": "confidence",
+      "focal_text": "endure",
+      "gloss_en": "",
+      "item_id": "lincoln-multi-model-v1-packet:cmt:lincoln-ann-017",
+      "missing_run_ids": [],
+      "model_values": {
+        "issue147-anthropic-cmt-final2-20260627": 0.72,
+        "issue147-openai-cmt-final2-20260627": 0.58
+      },
+      "priority": "low",
+      "priority_reasons": [
+        "classified-low-priority",
+        "claim-audit-impact"
+      ],
+      "priority_score": 160,
+      "queue_id": "review-0037",
+      "queue_rank": 37,
+      "reference_value": 0.72,
+      "review_question": "Which value for `confidence` on `lincoln-ann-017` best follows the codebook and source context?",
+      "review_status": "pending-human-review",
+      "rights_status": "public-domain",
+      "sentence_id": "lincoln-lyceum-address_s01_p12_s01",
+      "source_language": "en",
+      "source_risk_flags": [
+        "source-date-error-in-body"
+      ],
+      "source_text": "I know the American people are much attached to their government; I know they would suffer much for its sake; I know they would endure evils long and patiently before they would ever think of exchanging it for another,--yet, notwithstanding all this, if the laws be continually despised and disregarded, if their rights to be secure in their persons and property are held by no better tenure than the caprice of a mob, the alienation of their affections from the government is the natural consequence; and to that, sooner or later, it must come.",
+      "storage_policy": "committed",
+      "task_layer": "cmt",
+      "unit_id": "lincoln-ann-017",
+      "value_groups": [
+        {
+          "run_count": 1,
+          "run_ids": [
+            "issue147-openai-cmt-final2-20260627"
+          ],
+          "value": 0.58
+        },
+        {
+          "run_count": 1,
+          "run_ids": [
+            "issue147-anthropic-cmt-final2-20260627"
+          ],
+          "value": 0.72
+        }
+      ]
+    }
+  ],
+  "generator": "scripts/model_reliability/generate_review_queue.py",
+  "queue_policy": "Deterministic human-review prioritization only. Model votes do not constitute adjudication and cannot update accepted annotations.",
+  "run_ids": [
+    "issue147-anthropic-cmt-final2-20260627",
+    "issue147-openai-cmt-final2-20260627"
+  ],
+  "schema_version": "1.0.0",
+  "source_disagreement_generator": "scripts/model_reliability/classify_disagreements.py",
+  "summary": {
+    "claim_linked_count": 16,
+    "cross_case_impact_count": 22,
+    "high_priority_count": 22,
+    "queue_count": 37
+  }
+}
