@@ -1,0 +1,32 @@
+{
+  "schema_version": "1.0.0",
+  "status": "approved",
+  "cohort_id": "lincoln-en-cmt-launch",
+  "cohort_version": "1.0.0",
+  "case_id": "lincoln",
+  "sample_id": "lincoln-human-cmt-launch",
+  "sample_version": "1.0.0",
+  "packet_id": "lincoln-human-cmt-launch-1.0.0-cmt",
+  "packet_manifest": "quality/human-reliability/packets/lincoln-human-cmt-launch-1.0.0-cmt/packet-manifest.json",
+  "source_language": "en",
+  "task_layer": "cmt",
+  "codebook_version": "human-cmt-codebook-v1.0.0",
+  "training_version": "human-coder-training-guide-v1.0.0",
+  "calibration_id": "human-calibration-en-1.0.0",
+  "required_primary_coders": 2,
+  "primary_coder_ids": [
+    "lincoln-cmt-primary-001",
+    "lincoln-cmt-primary-002"
+  ],
+  "ai_assistance_allowed": false,
+  "storage_policy": "repository_allowed",
+  "rights_constraints": [
+    "public-domain-source",
+    "source-language-text-may-be-committed"
+  ],
+  "approval": {
+    "approved_by": "project-coordinator",
+    "approved_at": "2026-06-27T00:00:00Z",
+    "manifest_sha256": "sha256:227deabe25c53abef63dd912f1ea55dce7a87a1ab2b681decc40300457c1d1a3"
+  }
+}
