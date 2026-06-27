@@ -102,6 +102,12 @@ method is usable, auditable, and capable of distinguishing strong, moderate,
 weak, complicated, and unsupported case patterns. Expansion to additional
 cases should revise the method where the evidence requires it.
 
+Pre-v1 case or document expansion is governed by the expansion rubric in
+`case-selection.qmd`. Additions must have a documented selection rationale,
+rights and provenance review, language or translation policy, expected
+comparative gain, and an explicit freeze point before reliability and
+publication promotion resume.
+
 ## Inclusion Criteria
 
 A source may enter the analytical corpus when it has:

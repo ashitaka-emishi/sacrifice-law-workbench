@@ -53,6 +53,123 @@ Cases should satisfy most of these criteria:
 - enough historical difference to make cross-case comparison meaningful;
 - source provenance clear enough for citation and audit.
 
+## Pre-v1 expansion rubric
+
+::: {.callout-note title="Status: expansion criteria"}
+These criteria govern the bounded pre-v1 corpus expansion window tracked in
+GitHub milestone 7 and issue #174. They should be applied before acquiring new
+source text. Candidate ranking and final selection happen in issue #176.
+:::
+
+The expansion window may add new cases or selected documents only when they
+improve the evidentiary design enough to justify added rights review,
+annotation, reliability sampling, and publication-status work. Expansion should
+test the framework, not simply add more examples that resemble the existing
+cases.
+
+### Case-level rationales
+
+Each proposed new case should have at least one primary rationale and may have
+secondary rationales:
+
+| Rationale | Use when the case would... |
+|---|---|
+| Confirmatory | Test whether a strongly sacrificial or purification-centered corpus produces the expected Koenigsbergian pattern. |
+| Limiting | Test a case where political violence is present but sacrificial, body-politic, or enemy-death language may be weak, displaced, or absent. |
+| Control | Test a case with mobilization or crisis rhetoric that should not be expected to support the Law strongly. |
+| Comparative | Add historical, institutional, religious, ideological, geographic, language, genre, or regime-type contrast not covered by the current four cases. |
+| Source-availability | Add a case because rights-cleared, well-provenanced sources make it unusually suitable for reproducible method testing. |
+
+A source-availability rationale is not sufficient by itself. It can break ties
+between otherwise valuable candidates, but it should not make a weak
+comparative case enter the corpus.
+
+### New-case threshold
+
+A new case should be admitted only when it satisfies all mandatory criteria and
+scores well on most value criteria.
+
+Mandatory criteria:
+
+- Stable source base with citable provenance.
+- Rights status compatible with the intended storage, publication, or
+  metadata-only policy.
+- At least one analyzable leader-centered or movement-centered corpus layer.
+- Clear relevance to one or more research questions.
+- Feasible annotation burden before the expanded-corpus freeze.
+- Explicit language and translation policy.
+- Expected contribution that is not already supplied by Lincoln, American
+  Revolution, Napoleon, or Hitler.
+
+Value criteria:
+
+- Improves variation across war, revolution, empire, civil war, genocide,
+  authoritarianism, democracy, colonialism, religion, or anti-colonial struggle.
+- Adds a strong positive, limiting, or control test rather than another
+  near-duplicate positive case.
+- Adds a non-English or non-Western corpus only when translation and source
+  controls are strong enough for annotation.
+- Adds genre or register contrast, such as speeches, orders, manifestos,
+  sermons, proclamations, diaries, or bureaucratic implementation language.
+- Clarifies the war/genocide distinction, the enemy-as-bringer-of-death
+  mechanism, sacred-object formation, or sacrifice without enemy destruction.
+- Supports a balanced core that can be compared without hiding major source
+  asymmetries.
+
+### Document-level threshold
+
+Additional documents for existing cases should be admitted only when they fill
+a defined gap. A document is necessary when it does at least one of the
+following:
+
+- Covers a missing phase, turning point, genre, register, audience, or
+  rhetorical occasion.
+- Tests a known absence or weak point in the current case analysis.
+- Repairs a source-quality, provenance, translation, OCR, or coverage problem.
+- Adds negative evidence needed to prevent overclaiming.
+- Supports a balanced-core comparison that would otherwise be distorted.
+
+A document should be excluded or deferred when it is merely illustrative,
+duplicative, background-only, too rights-risky for the intended use, too
+fragmentary for reliable annotation, or likely to expand one case without a
+clear comparative reason.
+
+### Ranking fields
+
+Candidate-selection work should record these fields for every proposed case or
+document:
+
+| Field | Purpose |
+|---|---|
+| Candidate ID | Stable short identifier for discussion and later manifest work. |
+| Proposed layer | New case, existing-case balanced core, existing-case extended corpus, or metadata-only context. |
+| Primary rationale | Confirmatory, limiting, control, comparative, or source-availability. |
+| Research-question link | Which primary or secondary research question the candidate tests. |
+| Source base | Candidate editions, repositories, transcripts, scans, or local-only sources. |
+| Rights risk | Low, medium, high, or blocked, with storage implications. |
+| Language policy | Source language, translation aid, gloss policy, and contested terms. |
+| Genre/register value | What rhetorical setting the candidate adds. |
+| Annotation cost | Low, medium, high, or prohibitive, considering lexical volume and language. |
+| Reliability impact | Whether human or model reliability sampling must expand. |
+| Comparative gain | What the project learns that the current four-case corpus cannot test. |
+| Exclusion risk | The strongest reason to reject or defer the candidate. |
+| Recommendation | Admit, defer, metadata-only, reject, or needs rights review. |
+
+### Expansion stop rules
+
+The expansion window should stop before acquisition or annotation continues
+when any of these conditions hold:
+
+- The candidate set no longer changes the comparative design.
+- Rights or translation risk would force claims beyond what the project can
+  responsibly audit.
+- Added annotation volume would delay reliability and publication promotion
+  without a corresponding methodological gain.
+- A proposed source would require unbounded redownload, source harvesting, or
+  a broad reset of already verified corpora.
+- The expansion would make balanced-core comparison less transparent rather
+  than more informative.
+
 ## Comparative design
 
 | Case | ID | V1 corpus model | Rationale |

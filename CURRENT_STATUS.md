@@ -55,6 +55,8 @@ promotion resume.
 
 Wholesale redownload, starter-corpus replacement, and opportunistic source
 growth remain out of scope unless a specific source defect is discovered.
+The selection rubric for new cases and targeted document additions is recorded
+in `case-selection.qmd`.
 
 ## Checks Run
 
@@ -98,8 +100,8 @@ python3 scripts/generate-mipvu-worklist.py --case hitler
 
 - Complete the bounded pre-v1 expansion window tracked by GitHub milestone 7
   and issue #174.
-- Define selection criteria, rights review requirements, per-case minimum
-  viable corpus size, and a new freeze point.
+- Apply the expansion selection criteria, then define rights review
+  requirements, per-case minimum viable corpus size, and a new freeze point.
 - Complete independent human review before treating Codex-assisted MIPVU
   decisions as publication-grade evidence.
 - Complete Lincoln human reliability coder submissions and adjudication.
