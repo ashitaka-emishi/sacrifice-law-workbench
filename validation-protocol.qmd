@@ -20,6 +20,23 @@ The current local command is:
 npm run validate
 ```
 
+`npm run validate` also guards generated public case pages against cross-case
+contamination. The check scans per-case generated source artifacts under
+`cases/<case>/analysis/*.md` and `cases/<case>/artifacts/qmd/*.qmd` for foreign
+case identifiers and case-specific language from the public cases
+(`am-rev`/American Revolution, `hitler`/Hitler, `lincoln`/Lincoln, and
+`napoleon`/Napoleon). It checks source artifacts instead of rendered HTML so
+intentional navigation and sidebar links do not produce false failures.
+Cross-case pages under `cases/x-case` are intentionally outside this per-case
+guard.
+
+When a per-case page intentionally compares cases in its body text, add a
+path-scoped exception to `PUBLIC_SITE_CONTAMINATION_EXCEPTIONS` in
+`scripts/validate-json.py` using the repository-relative generated page path and
+the exact allowed identifier. Keep exceptions narrow, explain the comparison in
+the nearby code comment when adding one, and add or update the public-site
+contamination tests so the exception remains deliberate.
+
 The broader rebuild command is:
 
 ```bash
