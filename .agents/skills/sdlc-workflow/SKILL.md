@@ -35,24 +35,42 @@ The number is not a magic value. For example, `sldc 33` means inspect and start 
 
 `sdlc next` and `sldc next` are selection requests, not implementation approval. For these requests, inspect open issues and relevant tracker/milestone ordering, choose the next recommended issue, explain the selection briefly, and stop for user confirmation before creating a branch, editing files, or otherwise starting implementation.
 
-For any equivalent request, first inspect the referenced issue, determine its current status, and then choose the smallest correct continuation:
+For any equivalent request, first collect deterministic state for the referenced issue, determine its current status, and then choose the smallest correct continuation:
 
 - If the issue is open and no implementation branch/PR exists, start issue work.
 - If a branch exists, inspect local/remote branch state and continue from it when safe.
 - If an open PR exists, inspect its status, checks, review comments, and remaining scope before changing code.
 - If the issue is already closed, report the closure state and do not create new work unless the user asks to reopen or follow up.
 
+## Deterministic Helpers
+
+Use bundled scripts for repeatable state collection and formatting. Keep judgment-based decisions in the agent: scope, intended base branch, implementation approach, validation depth, review risk, and whether a human has delegated merge/close authority.
+
+For issue-directed work, run the state helper before creating a branch, editing files, opening a PR, addressing review, or merging:
+
+```bash
+python3 .agents/skills/sdlc-workflow/scripts/sdlc_state.py inspect-issue <issue-number> --repo <owner/repo> --cwd .
+```
+
+Use `--json` when the next step needs machine-readable output. Treat the helper output as the factual baseline for issue state, local status, matching local/remote branches, open PRs, PR checks, review decision, and same-milestone `tracking` issues. If the helper reports unavailable state, stop and report the exact unavailable command instead of inventing state.
+
+For tracker updates after merge, format checklist entries with:
+
+```bash
+python3 .agents/skills/sdlc-workflow/scripts/sdlc_state.py tracker-entry <issue-number> --title "<issue title>" --state closed --url "<issue URL>"
+```
+
 ## Start Issue Work
 
-1. Read the issue and linked tracking issue or milestone.
-2. Check local state with `git status --short --branch`.
+1. Run `sdlc_state.py inspect-issue` for the issue and read the issue, linked tracking issue, or milestone details it reports.
+2. Use the helper's local status and branch report to avoid duplicating existing issue branches.
 3. If the work needs code or docs changes, create a branch from the intended base branch.
 4. Name the branch by issue type:
    - `fix/<issue-number>-<short-slug>`
    - `feature/<issue-number>-<short-slug>`
    - `docs/<issue-number>-<short-slug>`
    - `chore/<issue-number>-<short-slug>`
-5. If the issue belongs to a milestone, find any open issue in that milestone labeled `tracking` and keep it in mind for closure updates.
+5. If the helper reports an open same-milestone issue labeled `tracking`, keep it in mind for closure updates.
 
 ## Implement
 
@@ -120,11 +138,11 @@ Handle findings before PR creation:
 
 Only do this when the user explicitly asks.
 
-1. Confirm the PR is approved or the user wants to merge despite pending review.
-2. Confirm required checks and validation have passed, or clearly report any skipped checks.
+1. Run `sdlc_state.py inspect-issue` again and confirm the PR is approved or the user wants to merge despite pending review.
+2. Confirm required checks and validation have passed from helper output, GitHub, and local validation, or clearly report any skipped checks.
 3. Merge with squash merge.
 4. Confirm linked issues closed as expected.
-5. For each closed milestone issue, update the open same-milestone issue labeled `tracking`:
+5. For each closed milestone issue, update the open same-milestone issue labeled `tracking`, using `tracker-entry` output for checklist formatting:
    - check off the issue
    - note out-of-order completion or dependency changes
    - close the tracking issue only when its completion definition is met
