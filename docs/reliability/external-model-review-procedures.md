@@ -248,8 +248,16 @@ model-reliability command may overwrite accepted artifacts.
 
 ## Optional API runner
 
-The optional runner uses only environment variables for credentials and does
-not serialize secrets into submissions:
+The optional runner uses exported environment variables or a local `.env` file
+for credentials and does not serialize secrets into submissions. The repository
+root `.env` file is ignored by git and must stay local:
+
+```dotenv
+OPENAI_API_KEY=...
+ANTHROPIC_API_KEY=...
+```
+
+Exported variables take precedence over `.env` values:
 
 ```bash
 export OPENAI_API_KEY=...
@@ -273,11 +281,18 @@ npm run model-reliability:external-run -- \
   --setting max_tokens=12000
 ```
 
+Use `--env-file /path/to/provider.env` for an alternate local dotenv file, or
+`--no-env-file` when you want to require exported environment variables only.
+Use `--api-key-env CUSTOM_KEY` when a provider key is stored under a different
+environment/dotenv variable name.
+
 The runner supplies no tools, browsing, retrieval, vector stores, repository
 context, accepted annotations, prior outputs, review queues, analysis files, or
 publication claims. Provider APIs do not expose the same user-interface memory
 controls as chat products; the runner documents this by recording non-secret
 settings that tools, browsing, retrieval, and memory were not supplied.
+Never put API keys, account identifiers, session URLs, or personal identifiers
+in `--setting`; settings are copied into non-secret run metadata.
 
 Before calling a provider, inspect the exact payload with:
 
