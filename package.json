@@ -4,6 +4,7 @@
     "validate": "python3 scripts/validate-json.py",
     "pipeline": "python3 scripts/rebuild-all.py && python3 scripts/run-x-case-synthesis.py && python3 scripts/generate-traceability-report.py",
     "site": "quarto render",
+    "site:table-overflow": "python3 scripts/check-site-table-overflow.py",
     "mipvu": "python3 scripts/generate-mipvu-worklist.py",
     "mipvu:packets": "python3 scripts/generate-mipvu-review-packets.py",
     "mipvu:reliability": "python3 scripts/calculate-mipvu-reliability.py",

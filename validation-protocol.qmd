@@ -43,6 +43,20 @@ The broader rebuild command is:
 npm run rebuild:all
 ```
 
+Rendered-site layout QA should run after the site is built:
+
+```bash
+quarto render
+npm run site:table-overflow
+```
+
+The table-overflow check opens representative rendered pages in Chromium,
+including a case analysis page and a publication readiness page, and verifies
+that wide tables scroll inside the main content column instead of extending
+under the right page panel. If Playwright is newly installed in the local
+environment, run `python3 -m playwright install chromium` once before using
+the check.
+
 Validation failures should block promotion of an artifact from draft to
 reviewed status. Empty scaffold cases may produce stub outputs, but those stubs
 must remain visibly distinct from completed analysis.
