@@ -1,6 +1,6 @@
 # Current Project Status
 
-Last audited from local files on 2026-06-15.
+Last audited from local files on 2026-06-27.
 
 This page tracks volatile project state. Keep stable orientation material in
 `README.md`.
@@ -9,49 +9,66 @@ This page tracks volatile project state. Keep stable orientation material in
 
 The project is no longer just a scaffold. The four historical case corpora are
 rights-reviewed, acquired, normalized, segmented, and pass corpus verification.
-They are now frozen as the v1 working corpus. Wholesale redownload, starter
-corpus replacement, and source expansion are out of scope for the
-annotation-forward reprocess unless a specific source defect is discovered.
+They have functioned as the v1 working corpus, and the project has now opened a
+controlled pre-v1 expansion window before publication-grade reliability and
+claim promotion.
 
 The metaphor workflow now has a strict MIPVU identification layer before
 CMT/Koenigsberg interpretation.
 
-The main remaining gap before v1 is annotation: all v1 documents now have
-generated MIPVU lexical-unit worklists. Lincoln has a complete Codex-assisted
-first-pass MIPVU review and reliability gate; American Revolution and Napoleon
-worklists are committed and still await lexical decisions; Hitler worklists are
-generated locally but gitignored because they tokenize local fair-use German
-source text. No `cases/*/corpus/annotated/*_annotated.json` files are present
-yet. Concordance and analysis artifacts remain structural rather than
-evidence-backed findings until the CMT/Koenigsberg annotation layer is rebuilt.
+The main remaining gap before publication-ready v1 is reliability and claim
+promotion rather than corpus construction. All four current cases now have
+Codex-assisted first-pass MIPVU lexical decisions. Lincoln has a complete model
+reliability workflow and designed human reliability cohorts, but required human
+coder submissions are not complete. American Revolution, Napoleon, and Hitler
+model and human reliability workflows remain absent. First-pass
+CMT/Koenigsberg annotation artifacts are present for much of the current corpus,
+but public support ratings and analysis outputs remain draft until reliability,
+historical citation, and traceability gates are satisfied.
 
 ## Case State
 
 | Area | Current state |
 |---|---|
-| Lincoln | 3 manifest documents; corpus verification passes 3/3; normalized, segmented, MIPVU worklisted, and all 4,536 lexical units have Codex-assisted first-pass MIPVU decisions with reliability results/adjudication artifacts. |
-| American Revolution | 9 manifest documents; corpus verification passes 9/9; normalized, segmented, and MIPVU worklisted. |
-| Napoleon | 10 manifest bulletins; corpus verification passes 10/10; normalized, segmented from Gallica OCR, and French MIPVU worklisted. |
-| Hitler | 8 manifest documents; corpus verification passes 8/8; normalized, segmented, and German MIPVU worklisted locally; source-derived corpus artifacts remain gitignored. |
-| Cross-case | Synthesis, mapping, and validation scaffolds exist under `cases/x-case/`; findings remain draft until annotations exist. |
+| Lincoln | 3 manifest documents; corpus verification passes 3/3; normalized, segmented, and all 4,536 lexical units have Codex-assisted first-pass MIPVU decisions. Model reliability is complete. Human reliability cohorts are designed but await required primary coder submissions. |
+| American Revolution | 9 manifest documents; corpus verification passes 9/9; normalized, segmented, and all 33,025 lexical units have Codex-assisted first-pass MIPVU decisions. Results remain provisional until independent human review. |
+| Napoleon | 10 manifest bulletins; corpus verification passes 10/10; normalized, segmented from Gallica OCR, and all 23,005 lexical units have Codex-assisted first-pass source-language French MIPVU decisions. Results remain provisional until independent human review. |
+| Hitler | 8 manifest documents; corpus verification passes 8/8; normalized, segmented, and all 86,752 lexical units have Codex-assisted first-pass source-language German MIPVU decisions. Source-derived corpus artifacts remain gitignored under fair-use constraints. Results remain provisional until independent human review. |
+| Cross-case | Synthesis, mapping, and validation scaffolds exist under `cases/x-case/`; comparative protocol and moral-equivalence guardrails are defined, but findings remain draft until case-level ratings, reliability, and claim traceability are promoted. |
 
-## V1 Corpus Boundary
+## Corpus Boundary
 
-The v1 working corpus is the current verified document set for the four
-historical cases:
+The current working corpus is the verified document set for the four historical
+cases:
 
 - Lincoln: 3 documents.
 - American Revolution: 9 documents.
 - Napoleon: 10 bulletins.
 - Hitler: 8 documents.
 
-No new starter corpus should be created for v1. No corpus texts should be
-redownloaded as a general reset step. Any later acquisition work should be
-opened only for a concrete defect such as a failed verification check, damaged
-OCR, missing provenance, rights-status change, or document-specific source
-quality problem.
+The previous working rule treated this set as frozen for v1. That rule has been
+superseded by GitHub milestone 7, `Pre-v1 corpus expansion window`, tracked by
+issue #174. If the project adds cases or documents before v1, the expansion
+must remain bounded, with clear selection criteria, rights review, acquisition
+provenance, and an explicit freeze point before reliability and publication
+promotion resume.
+
+Wholesale redownload, starter-corpus replacement, and opportunistic source
+growth remain out of scope unless a specific source defect is discovered.
 
 ## Checks Run
+
+Most recent local checks run on 2026-06-27:
+
+```bash
+npm run status
+npm run validate
+```
+
+Both passed. JSON validation reported that authorized local Hitler artifacts
+match committed integrity hashes.
+
+Previously recorded corpus checks:
 
 Corpus verification passes for all four historical cases:
 
@@ -62,13 +79,13 @@ python3 scripts/verify-corpus.py --case napoleon
 python3 scripts/verify-corpus.py --case hitler
 ```
 
-JSON validation passes:
+Previously recorded JSON validation:
 
 ```bash
 python3 scripts/validate-json.py
 ```
 
-MIPVU worklist generation passes for all four historical cases:
+Previously recorded MIPVU worklist generation for all four historical cases:
 
 ```bash
 python3 scripts/generate-mipvu-worklist.py --case lincoln
@@ -79,12 +96,17 @@ python3 scripts/generate-mipvu-worklist.py --case hitler
 
 ## Known Blockers
 
-- Complete source-language MIPVU lexical-unit decisions for American Revolution,
-  Napoleon, and Hitler generated worklists.
-- Human-review Lincoln's Codex-assisted MIPVU decisions before treating
-  reliability statistics as publication-grade inter-annotator evidence.
-- Produce first-pass CMT/Koenigsberg annotations under `cases/*/corpus/annotated/`.
-- Rebuild concordance and analysis artifacts after annotation.
+- Complete the bounded pre-v1 expansion window tracked by GitHub milestone 7
+  and issue #174.
+- Define selection criteria, rights review requirements, per-case minimum
+  viable corpus size, and a new freeze point.
+- Complete independent human review before treating Codex-assisted MIPVU
+  decisions as publication-grade evidence.
+- Complete Lincoln human reliability coder submissions and adjudication.
+- Design model and human reliability workflows for American Revolution,
+  Napoleon, and Hitler if their findings will be promoted beyond draft status.
+- Audit annotation coverage and regenerate downstream concordance and analysis
+  artifacts after any corpus expansion or annotation changes.
 - Promote only validated, traceable claims from draft to reviewed or finding
   status.
 
