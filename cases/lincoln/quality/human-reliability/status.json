@@ -4,19 +4,35 @@
     "adjudication_results": false,
     "agreement": false,
     "codebook_notes": false,
-    "cohorts": false,
+    "cohorts": true,
     "correction_candidates": false,
     "disagreements": false,
     "ingestion_status": false,
-    "packets": false,
+    "packets": true,
     "reference_comparison": false,
     "report": false
   },
   "case_id": "lincoln",
-  "cohorts": [],
+  "cohorts": [
+    {
+      "adjudication_state": "not_started",
+      "cohort_id": "lincoln-en-cmt-launch",
+      "cohort_version": "1.0.0",
+      "correction_candidate_count": 0,
+      "ingestion_state": "absent",
+      "invalid_submission_count": 0,
+      "queue_count": 0,
+      "source_language": "en",
+      "state": "designed",
+      "task_layer": "cmt",
+      "unresolved_adjudication_count": 0,
+      "valid_primary_coders": [],
+      "valid_submission_count": 0
+    }
+  ],
   "counts": {
     "adjudication_submissions": 0,
-    "cohorts": 0,
+    "cohorts": 1,
     "correction_candidates": 0,
     "invalid_adjudications": 0,
     "invalid_submissions": 0,
@@ -27,9 +43,9 @@
   "errors": [],
   "generator": "scripts/human_reliability/status.py",
   "schema_version": "1.0.0",
-  "state": "absent",
+  "state": "designed",
   "valid": true,
   "warnings": [
-    "Human reliability has not been designed for this case."
+    "Human reliability cohorts are designed; required primary coder submissions are not complete."
   ]
 }

@@ -1,0 +1,242 @@
+{
+  "schema_version": "1.0.0",
+  "strategy_version": "1.0.0",
+  "sample_id": "lincoln-human-cmt-launch",
+  "sample_version": "1.0.0",
+  "status": "approved",
+  "case_id": "lincoln",
+  "source_language": "en",
+  "task_layer": "cmt",
+  "frame": {
+    "frame_id": "lincoln-human-cmt-launch-frame-v1",
+    "frame_sha256": "sha256:0ab2faed2b91cdb2d3edfc8b5a9d2c6150d07f759b40b61f45d2cda6bc1f9486",
+    "codebook_version": "human-cmt-codebook-v1.0.0",
+    "source_artifact_versions": [
+      "cases/lincoln/metadata/document-manifest.json",
+      "cases/lincoln/corpus/segmented/lincoln-gettysburg-address.json",
+      "cases/lincoln/corpus/segmented/lincoln-lyceum-address.json",
+      "cases/lincoln/corpus/segmented/lincoln-second-inaugural.json",
+      "cases/lincoln/corpus/mipvu/lincoln-gettysburg-address_mipvu.json",
+      "cases/lincoln/corpus/mipvu/lincoln-lyceum-address_mipvu.json",
+      "cases/lincoln/corpus/mipvu/lincoln-second-inaugural_mipvu.json",
+      "cases/lincoln/corpus/annotated/lincoln-gettysburg-address_annotated.json",
+      "cases/lincoln/corpus/annotated/lincoln-lyceum-address_annotated.json",
+      "cases/lincoln/corpus/annotated/lincoln-second-inaugural_annotated.json"
+    ],
+    "eligible_item_count": 64,
+    "eligible_document_count": 3,
+    "phases": [
+      "early-republican-rhetoric",
+      "emancipation-and-sacrifice",
+      "providence-and-reconciliation"
+    ],
+    "genres_or_registers": [
+      "ceremonial-address",
+      "inaugural-address",
+      "public-address"
+    ],
+    "rights_constraints": [
+      "public-domain-source",
+      "source-language-text-may-be-committed"
+    ],
+    "frozen_at": "2026-06-27T00:00:00Z"
+  },
+  "selection": {
+    "method": "two_stage_stratified_seeded",
+    "seed": "issue-153-lincoln-human-cmt-launch-v1",
+    "primary_unit": "source_span",
+    "target_item_count": 7,
+    "target_cluster_count": 5,
+    "quotas": {
+      "reference_positive_or_uncertain_minimum": 7,
+      "ordinary_negative_minimum": 0,
+      "ambiguous_target_fraction": [
+        0,
+        1
+      ],
+      "provenance_risk_target_fraction": [
+        0,
+        0.5
+      ],
+      "high_impact_maximum_fraction": 1,
+      "document_maximum_fraction": 1
+    },
+    "small_frame_policy": "census_and_scope_claim",
+    "adaptive_expansion_policy": "predeclared_new_version_only"
+  },
+  "items": [
+    {
+      "item_id": "lincoln-human-cmt-launch:lincoln-ann-051",
+      "document_id": "lincoln-gettysburg-address",
+      "sentence_id": "lincoln-gettysburg-address_s01_p01_s01",
+      "source_span_id": "lincoln-ann-051",
+      "phase": "emancipation-and-sacrifice",
+      "genre_or_register": "ceremonial-address",
+      "design_roles": [
+        "reference_positive",
+        "high_impact"
+      ],
+      "provenance_risks": [],
+      "claim_impact": "high",
+      "context_scope": "complete_sentence",
+      "legacy_continuity": true
+    },
+    {
+      "item_id": "lincoln-human-cmt-launch:lincoln-ann-054",
+      "document_id": "lincoln-gettysburg-address",
+      "sentence_id": "lincoln-gettysburg-address_s01_p04_s03",
+      "source_span_id": "lincoln-ann-054",
+      "phase": "emancipation-and-sacrifice",
+      "genre_or_register": "ceremonial-address",
+      "design_roles": [
+        "reference_positive",
+        "ambiguous"
+      ],
+      "provenance_risks": [],
+      "claim_impact": "moderate",
+      "context_scope": "complete_sentence",
+      "legacy_continuity": true
+    },
+    {
+      "item_id": "lincoln-human-cmt-launch:lincoln-ann-003",
+      "document_id": "lincoln-lyceum-address",
+      "sentence_id": "lincoln-lyceum-address_s01_p04_s06",
+      "source_span_id": "lincoln-ann-003",
+      "phase": "early-republican-rhetoric",
+      "genre_or_register": "public-address",
+      "design_roles": [
+        "reference_positive",
+        "ordinary"
+      ],
+      "provenance_risks": [
+        "source-date-error-in-body"
+      ],
+      "claim_impact": "moderate",
+      "context_scope": "complete_sentence",
+      "legacy_continuity": true
+    },
+    {
+      "item_id": "lincoln-human-cmt-launch:lincoln-ann-016",
+      "document_id": "lincoln-lyceum-address",
+      "sentence_id": "lincoln-lyceum-address_s01_p11_s15",
+      "source_span_id": "lincoln-ann-016",
+      "phase": "early-republican-rhetoric",
+      "genre_or_register": "public-address",
+      "design_roles": [
+        "reference_positive",
+        "high_impact"
+      ],
+      "provenance_risks": [
+        "source-date-error-in-body"
+      ],
+      "claim_impact": "high",
+      "context_scope": "complete_sentence",
+      "legacy_continuity": true
+    },
+    {
+      "item_id": "lincoln-human-cmt-launch:lincoln-ann-017",
+      "document_id": "lincoln-lyceum-address",
+      "sentence_id": "lincoln-lyceum-address_s01_p12_s01",
+      "source_span_id": "lincoln-ann-017",
+      "phase": "early-republican-rhetoric",
+      "genre_or_register": "public-address",
+      "design_roles": [
+        "reference_positive",
+        "provenance_risk"
+      ],
+      "provenance_risks": [
+        "source-date-error-in-body"
+      ],
+      "claim_impact": "ordinary",
+      "context_scope": "complete_sentence",
+      "legacy_continuity": true
+    },
+    {
+      "item_id": "lincoln-human-cmt-launch:lincoln-ann-043",
+      "document_id": "lincoln-lyceum-address",
+      "sentence_id": "lincoln-lyceum-address_s01_p24_s05",
+      "source_span_id": "lincoln-ann-043",
+      "phase": "early-republican-rhetoric",
+      "genre_or_register": "public-address",
+      "design_roles": [
+        "reference_positive",
+        "ambiguous"
+      ],
+      "provenance_risks": [
+        "source-date-error-in-body"
+      ],
+      "claim_impact": "moderate",
+      "context_scope": "complete_sentence",
+      "legacy_continuity": true
+    },
+    {
+      "item_id": "lincoln-human-cmt-launch:lincoln-ann-064",
+      "document_id": "lincoln-second-inaugural",
+      "sentence_id": "lincoln-second-inaugural_s01_p06_s01",
+      "source_span_id": "lincoln-ann-064",
+      "phase": "providence-and-reconciliation",
+      "genre_or_register": "inaugural-address",
+      "design_roles": [
+        "reference_positive",
+        "high_impact"
+      ],
+      "provenance_risks": [],
+      "claim_impact": "high",
+      "context_scope": "complete_sentence",
+      "legacy_continuity": true
+    }
+  ],
+  "exclusions": [
+    {
+      "item_id": "lincoln-identification-layer",
+      "reason": "other",
+      "notes": "First launch cohort is intentionally CMT-only; identification may be designed as a later cohort."
+    },
+    {
+      "item_id": "lincoln-interpretation-layer",
+      "reason": "other",
+      "notes": "First launch cohort is intentionally CMT-only; interpretation may be designed as a later cohort."
+    }
+  ],
+  "lincoln_continuity": {
+    "legacy_sample_id": "lincoln-multi-model-v1",
+    "legacy_item_ids_preserved": [
+      "lincoln-ann-003",
+      "lincoln-ann-016",
+      "lincoln-ann-017",
+      "lincoln-ann-043",
+      "lincoln-ann-051",
+      "lincoln-ann-054",
+      "lincoln-ann-064"
+    ],
+    "legacy_item_ids_reused": [
+      "lincoln-ann-003",
+      "lincoln-ann-016",
+      "lincoln-ann-017",
+      "lincoln-ann-043",
+      "lincoln-ann-051",
+      "lincoln-ann-054",
+      "lincoln-ann-064"
+    ],
+    "legacy_item_ids_replaced": [],
+    "deviation_reasons": [
+      "Human launch cohort uses the existing public-domain Lincoln CMT diagnostic spans to avoid expanding scope before recruitment.",
+      "Accepted labels and model outputs remain excluded from coder-facing packet payloads."
+    ]
+  },
+  "execution": {
+    "status": "approved_to_execute",
+    "qualified_primary_coders_required": 2,
+    "coder_access_constraints": [
+      "coders must complete human-coder-training-guide.md before coding",
+      "coders must complete human-calibration-en-1.0.0 before coding",
+      "coders must not inspect accepted annotations, model outputs, adjudication artifacts, or synthesis claims"
+    ],
+    "non_execution_reason": null
+  },
+  "approval": {
+    "approved_by": "project-coordinator",
+    "approved_at": "2026-06-27T00:00:00Z",
+    "manifest_sha256": "sha256:39fc6e00b509f0a59ba7e0c2425847c3f611d17d889037b58523bd4e9526110a"
+  }
+}

@@ -1,0 +1,232 @@
+{
+  "ai_assistance_used": null,
+  "calibration_completed_at": null,
+  "calibration_id": null,
+  "case_id": "lincoln",
+  "codebook_version": "human-cmt-codebook-v1.0.0",
+  "coder_id": null,
+  "coder_role": "primary",
+  "cohort_id": null,
+  "cohort_version": null,
+  "completed_at": null,
+  "conflict_details": null,
+  "conflict_status": null,
+  "independence_attested": null,
+  "packet_hash": null,
+  "packet_id": "lincoln-human-cmt-launch-1.0.0-cmt",
+  "qualification_attested": null,
+  "responses": [
+    {
+      "case_fields": {},
+      "cmt_response": {
+        "cluster_id": null,
+        "conceptual_mapping": null,
+        "entailments": null,
+        "rival_reading": null,
+        "source_domain_primary": null,
+        "source_domain_secondary": null,
+        "target_domain": null
+      },
+      "confidence": null,
+      "disposition": null,
+      "document_id": "lincoln-lyceum-address",
+      "item_id": "lincoln-human-cmt-launch:lincoln-ann-003",
+      "lexical_unit_ids": [
+        "lincoln-lyceum-address_s01_p04_s06_lu023",
+        "lincoln-lyceum-address_s01_p04_s06_lu032",
+        "lincoln-lyceum-address_s01_p04_s06_lu043",
+        "lincoln-lyceum-address_s01_p04_s06_lu047",
+        "lincoln-lyceum-address_s01_p04_s06_lu056",
+        "lincoln-lyceum-address_s01_p04_s06_lu063"
+      ],
+      "notes": null,
+      "out_of_scope_reason": null,
+      "sentence_id": "lincoln-lyceum-address_s01_p04_s06",
+      "source_span_id": "lincoln-ann-003",
+      "task_layer": "cmt",
+      "uncertainty": null,
+      "uncertainty_note": null
+    },
+    {
+      "case_fields": {},
+      "cmt_response": {
+        "cluster_id": null,
+        "conceptual_mapping": null,
+        "entailments": null,
+        "rival_reading": null,
+        "source_domain_primary": null,
+        "source_domain_secondary": null,
+        "target_domain": null
+      },
+      "confidence": null,
+      "disposition": null,
+      "document_id": "lincoln-lyceum-address",
+      "item_id": "lincoln-human-cmt-launch:lincoln-ann-016",
+      "lexical_unit_ids": [
+        "lincoln-lyceum-address_s01_p11_s15_lu026",
+        "lincoln-lyceum-address_s01_p11_s15_lu028"
+      ],
+      "notes": null,
+      "out_of_scope_reason": null,
+      "sentence_id": "lincoln-lyceum-address_s01_p11_s15",
+      "source_span_id": "lincoln-ann-016",
+      "task_layer": "cmt",
+      "uncertainty": null,
+      "uncertainty_note": null
+    },
+    {
+      "case_fields": {},
+      "cmt_response": {
+        "cluster_id": null,
+        "conceptual_mapping": null,
+        "entailments": null,
+        "rival_reading": null,
+        "source_domain_primary": null,
+        "source_domain_secondary": null,
+        "target_domain": null
+      },
+      "confidence": null,
+      "disposition": null,
+      "document_id": "lincoln-lyceum-address",
+      "item_id": "lincoln-human-cmt-launch:lincoln-ann-017",
+      "lexical_unit_ids": [
+        "lincoln-lyceum-address_s01_p12_s01_lu025"
+      ],
+      "notes": null,
+      "out_of_scope_reason": null,
+      "sentence_id": "lincoln-lyceum-address_s01_p12_s01",
+      "source_span_id": "lincoln-ann-017",
+      "task_layer": "cmt",
+      "uncertainty": null,
+      "uncertainty_note": null
+    },
+    {
+      "case_fields": {},
+      "cmt_response": {
+        "cluster_id": null,
+        "conceptual_mapping": null,
+        "entailments": null,
+        "rival_reading": null,
+        "source_domain_primary": null,
+        "source_domain_secondary": null,
+        "target_domain": null
+      },
+      "confidence": null,
+      "disposition": null,
+      "document_id": "lincoln-lyceum-address",
+      "item_id": "lincoln-human-cmt-launch:lincoln-ann-043",
+      "lexical_unit_ids": [
+        "lincoln-lyceum-address_s01_p24_s05_lu022",
+        "lincoln-lyceum-address_s01_p24_s05_lu023",
+        "lincoln-lyceum-address_s01_p24_s05_lu030",
+        "lincoln-lyceum-address_s01_p24_s05_lu032",
+        "lincoln-lyceum-address_s01_p24_s05_lu033",
+        "lincoln-lyceum-address_s01_p24_s05_lu036",
+        "lincoln-lyceum-address_s01_p24_s05_lu060",
+        "lincoln-lyceum-address_s01_p24_s05_lu065"
+      ],
+      "notes": null,
+      "out_of_scope_reason": null,
+      "sentence_id": "lincoln-lyceum-address_s01_p24_s05",
+      "source_span_id": "lincoln-ann-043",
+      "task_layer": "cmt",
+      "uncertainty": null,
+      "uncertainty_note": null
+    },
+    {
+      "case_fields": {},
+      "cmt_response": {
+        "cluster_id": null,
+        "conceptual_mapping": null,
+        "entailments": null,
+        "rival_reading": null,
+        "source_domain_primary": null,
+        "source_domain_secondary": null,
+        "target_domain": null
+      },
+      "confidence": null,
+      "disposition": null,
+      "document_id": "lincoln-gettysburg-address",
+      "item_id": "lincoln-human-cmt-launch:lincoln-ann-051",
+      "lexical_unit_ids": [
+        "lincoln-gettysburg-address_s01_p01_s01_lu009",
+        "lincoln-gettysburg-address_s01_p01_s01_lu010",
+        "lincoln-gettysburg-address_s01_p01_s01_lu017",
+        "lincoln-gettysburg-address_s01_p01_s01_lu021"
+      ],
+      "notes": null,
+      "out_of_scope_reason": null,
+      "sentence_id": "lincoln-gettysburg-address_s01_p01_s01",
+      "source_span_id": "lincoln-ann-051",
+      "task_layer": "cmt",
+      "uncertainty": null,
+      "uncertainty_note": null
+    },
+    {
+      "case_fields": {},
+      "cmt_response": {
+        "cluster_id": null,
+        "conceptual_mapping": null,
+        "entailments": null,
+        "rival_reading": null,
+        "source_domain_primary": null,
+        "source_domain_secondary": null,
+        "target_domain": null
+      },
+      "confidence": null,
+      "disposition": null,
+      "document_id": "lincoln-gettysburg-address",
+      "item_id": "lincoln-human-cmt-launch:lincoln-ann-054",
+      "lexical_unit_ids": [
+        "lincoln-gettysburg-address_s01_p04_s03_lu002",
+        "lincoln-gettysburg-address_s01_p04_s03_lu005",
+        "lincoln-gettysburg-address_s01_p04_s03_lu008",
+        "lincoln-gettysburg-address_s01_p04_s03_lu017"
+      ],
+      "notes": null,
+      "out_of_scope_reason": null,
+      "sentence_id": "lincoln-gettysburg-address_s01_p04_s03",
+      "source_span_id": "lincoln-ann-054",
+      "task_layer": "cmt",
+      "uncertainty": null,
+      "uncertainty_note": null
+    },
+    {
+      "case_fields": {},
+      "cmt_response": {
+        "cluster_id": null,
+        "conceptual_mapping": null,
+        "entailments": null,
+        "rival_reading": null,
+        "source_domain_primary": null,
+        "source_domain_secondary": null,
+        "target_domain": null
+      },
+      "confidence": null,
+      "disposition": null,
+      "document_id": "lincoln-second-inaugural",
+      "item_id": "lincoln-human-cmt-launch:lincoln-ann-064",
+      "lexical_unit_ids": [
+        "lincoln-second-inaugural_s01_p06_s01_lu034",
+        "lincoln-second-inaugural_s01_p06_s01_lu038",
+        "lincoln-second-inaugural_s01_p06_s01_lu063"
+      ],
+      "notes": null,
+      "out_of_scope_reason": null,
+      "sentence_id": "lincoln-second-inaugural_s01_p06_s01",
+      "source_span_id": "lincoln-ann-064",
+      "task_layer": "cmt",
+      "uncertainty": null,
+      "uncertainty_note": null
+    }
+  ],
+  "sample_id": "lincoln-human-cmt-launch",
+  "sample_version": "1.0.0",
+  "schema_version": "1.0.0",
+  "source_language": "en",
+  "source_language_qualified": null,
+  "submission_id": null,
+  "task_layer": "cmt",
+  "training_completed_at": null,
+  "training_version": null
+}
