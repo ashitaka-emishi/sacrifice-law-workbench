@@ -5,13 +5,17 @@ from __future__ import annotations
 import argparse
 import csv
 import datetime as dt
+import fcntl
 import hashlib
 import io
 import json
+import os
 import re
+import tempfile
+from contextlib import contextmanager
 from dataclasses import dataclass
 from pathlib import Path
-from typing import Any, Iterable, Mapping, Sequence
+from typing import Any, Iterable, Iterator, Mapping, Sequence
 
 from jsonschema import Draft202012Validator, FormatChecker
 
@@ -105,7 +109,64 @@ def read_json_object(path: Path) -> dict[str, Any]:
 
 def write_json(path: Path, data: Any) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
-    path.write_text(json.dumps(data, ensure_ascii=False, sort_keys=True, indent=2) + "\n", encoding="utf-8")
+    encoded = json.dumps(data, ensure_ascii=False, sort_keys=True, indent=2) + "\n"
+    with tempfile.NamedTemporaryFile(
+        "w",
+        encoding="utf-8",
+        dir=path.parent,
+        prefix=f".{path.name}.",
+        suffix=".tmp",
+        delete=False,
+    ) as handle:
+        tmp_path = Path(handle.name)
+        handle.write(encoded)
+        handle.flush()
+        os.fsync(handle.fileno())
+    tmp_path.chmod(path.stat().st_mode & 0o777 if path.exists() else 0o644)
+    try:
+        os.replace(tmp_path, path)
+    except Exception:
+        tmp_path.unlink(missing_ok=True)
+        raise
+
+
+def write_text_atomic(path: Path, text: str) -> None:
+    path.parent.mkdir(parents=True, exist_ok=True)
+    with tempfile.NamedTemporaryFile(
+        "w",
+        encoding="utf-8",
+        dir=path.parent,
+        prefix=f".{path.name}.",
+        suffix=".tmp",
+        delete=False,
+    ) as handle:
+        tmp_path = Path(handle.name)
+        handle.write(text)
+        handle.flush()
+        os.fsync(handle.fileno())
+    tmp_path.chmod(path.stat().st_mode & 0o777 if path.exists() else 0o644)
+    try:
+        os.replace(tmp_path, path)
+    except Exception:
+        tmp_path.unlink(missing_ok=True)
+        raise
+
+
+@contextmanager
+def _ingestion_lock(case_root: Path) -> Iterator[None]:
+    lock_key = hashlib.sha256(str(case_root.resolve()).encode("utf-8")).hexdigest()
+    lock_path = (
+        Path(tempfile.gettempdir())
+        / "sacrifice-law-workbench-locks"
+        / f"{lock_key}.model-reliability-ingest.lock"
+    )
+    lock_path.parent.mkdir(parents=True, exist_ok=True)
+    with lock_path.open("a+", encoding="utf-8") as handle:
+        fcntl.flock(handle.fileno(), fcntl.LOCK_EX)
+        try:
+            yield
+        finally:
+            fcntl.flock(handle.fileno(), fcntl.LOCK_UN)
 
 
 def _read_csv(path: Path) -> tuple[list[str], list[dict[str, str]], bytes]:
@@ -606,170 +667,172 @@ def ingest_submission(
 
     raw_hash = _raw_digest(parsed.raw_files)
     registration_id = "submission-" + raw_hash.removeprefix("sha256:")[:16]
-    register_path = safe_output_path(
-        case_root, "quality/model-reliability/submissions/submission-register.json"
-    )
-    register = read_json_object(register_path) if register_path.exists() else {
-        "schema_version": "1.0.0",
-        "case_id": case_id,
-        "submissions": [],
-    }
-    entries = register.get("submissions", [])
-    if register.get("case_id") != case_id or not isinstance(entries, list):
-        raise IngestionError("submission register has an invalid case_id or submissions field")
+    with _ingestion_lock(case_root):
+        register_path = safe_output_path(
+            case_root, "quality/model-reliability/submissions/submission-register.json"
+        )
+        register = read_json_object(register_path) if register_path.exists() else {
+            "schema_version": "1.0.0",
+            "case_id": case_id,
+            "submissions": [],
+        }
+        entries = register.get("submissions", [])
+        if register.get("case_id") != case_id or not isinstance(entries, list):
+            raise IngestionError("submission register has an invalid case_id or submissions field")
 
-    existing_registration = next(
-        (entry for entry in entries if entry.get("registration_id") == registration_id), None
-    )
-    if existing_registration:
-        if existing_registration.get("raw_hash") != raw_hash:
-            raise IngestionError(f"registration hash-prefix collision for `{registration_id}`")
+        existing_registration = next(
+            (entry for entry in entries if entry.get("registration_id") == registration_id), None
+        )
+        if existing_registration:
+            if existing_registration.get("raw_hash") != raw_hash:
+                raise IngestionError(f"registration hash-prefix collision for `{registration_id}`")
+            raw_dir = safe_output_path(
+                case_root, f"quality/model-reliability/submissions/raw/{registration_id}"
+            )
+            for filename, expected_bytes in parsed.raw_files.items():
+                raw_path = raw_dir / filename
+                if not raw_path.is_file() or raw_path.read_bytes() != expected_bytes:
+                    raise IngestionError(f"immutable raw registration was altered: {raw_path}")
+            report_path = safe_output_path(
+                case_root,
+                f"quality/model-reliability/normalized/validation-reports/{registration_id}.json",
+            )
+            if not report_path.exists():
+                raise IngestionError(f"existing registration `{registration_id}` has no validation report")
+            return read_json_object(report_path)
+
+        submission_id = parsed.envelope.get("submission_id")
+        run = parsed.envelope.get("run")
+        run_id = run.get("run_id") if isinstance(run, Mapping) else None
+        locked_errors = list(errors)
+        for entry in entries:
+            if entry.get("status") != "valid":
+                continue
+            if submission_id and entry.get("submission_id") == submission_id:
+                locked_errors.append(f"$.submission_id: duplicate registered submission ID `{submission_id}`")
+            if run_id and entry.get("run_id") == run_id:
+                locked_errors.append(f"$.run.run_id: duplicate registered run ID `{run_id}`")
+
+        normalized_path = safe_output_path(
+            case_root, "quality/model-reliability/normalized/normalized-runs.json"
+        )
+        normalized = read_json_object(normalized_path) if normalized_path.exists() else {
+            "schema_version": "1.0.0",
+            "case_id": case_id,
+            "runs": [],
+        }
+        runs = normalized.get("runs", [])
+        if normalized.get("case_id") != case_id or not isinstance(runs, list):
+            raise IngestionError("normalized-runs.json has an invalid case_id or runs field")
+
+        aggregate_path = safe_output_path(
+            case_root, "quality/model-reliability/normalized/validation-report.json"
+        )
+        aggregate = read_json_object(aggregate_path) if aggregate_path.exists() else {
+            "schema_version": "1.0.0",
+            "case_id": case_id,
+            "submissions": [],
+        }
+        summaries = aggregate.get("submissions", [])
+        if aggregate.get("case_id") != case_id or not isinstance(summaries, list):
+            raise IngestionError("validation-report.json has an invalid case_id or submissions field")
+
         raw_dir = safe_output_path(
             case_root, f"quality/model-reliability/submissions/raw/{registration_id}"
         )
-        for filename, expected_bytes in parsed.raw_files.items():
-            raw_path = raw_dir / filename
-            if not raw_path.is_file() or raw_path.read_bytes() != expected_bytes:
-                raise IngestionError(f"immutable raw registration was altered: {raw_path}")
-        report_path = safe_output_path(
+        report_json_path = safe_output_path(
             case_root,
             f"quality/model-reliability/normalized/validation-reports/{registration_id}.json",
         )
-        if not report_path.exists():
-            raise IngestionError(f"existing registration `{registration_id}` has no validation report")
-        return read_json_object(report_path)
-
-    submission_id = parsed.envelope.get("submission_id")
-    run = parsed.envelope.get("run")
-    run_id = run.get("run_id") if isinstance(run, Mapping) else None
-    for entry in entries:
-        if entry.get("status") != "valid":
-            continue
-        if submission_id and entry.get("submission_id") == submission_id:
-            errors.append(f"$.submission_id: duplicate registered submission ID `{submission_id}`")
-        if run_id and entry.get("run_id") == run_id:
-            errors.append(f"$.run.run_id: duplicate registered run ID `{run_id}`")
-
-    normalized_path = safe_output_path(
-        case_root, "quality/model-reliability/normalized/normalized-runs.json"
-    )
-    normalized = read_json_object(normalized_path) if normalized_path.exists() else {
-        "schema_version": "1.0.0",
-        "case_id": case_id,
-        "runs": [],
-    }
-    runs = normalized.get("runs", [])
-    if normalized.get("case_id") != case_id or not isinstance(runs, list):
-        raise IngestionError("normalized-runs.json has an invalid case_id or runs field")
-
-    aggregate_path = safe_output_path(
-        case_root, "quality/model-reliability/normalized/validation-report.json"
-    )
-    aggregate = read_json_object(aggregate_path) if aggregate_path.exists() else {
-        "schema_version": "1.0.0",
-        "case_id": case_id,
-        "submissions": [],
-    }
-    summaries = aggregate.get("submissions", [])
-    if aggregate.get("case_id") != case_id or not isinstance(summaries, list):
-        raise IngestionError("validation-report.json has an invalid case_id or submissions field")
-
-    raw_dir = safe_output_path(
-        case_root, f"quality/model-reliability/submissions/raw/{registration_id}"
-    )
-    report_json_path = safe_output_path(
-        case_root,
-        f"quality/model-reliability/normalized/validation-reports/{registration_id}.json",
-    )
-    report_md_path = safe_output_path(
-        case_root,
-        f"quality/model-reliability/normalized/validation-reports/{registration_id}.md",
-    )
-    aggregate_md_path = safe_output_path(
-        case_root, "quality/model-reliability/normalized/validation-report.md"
-    )
-
-    errors = list(dict.fromkeys(errors))
-    status = "valid" if not errors else "invalid"
-    registered_at = utc_now()
-    item_results = _item_results(parsed.envelope, errors)
-    report = {
-        "schema_version": "1.0.0",
-        "registration_id": registration_id,
-        "registered_at": registered_at,
-        "case_id": case_id,
-        "submission_id": submission_id,
-        "run_id": run_id,
-        "source_format": parsed.source_format,
-        "raw_hash": raw_hash,
-        "status": status,
-        "errors": errors,
-        "item_results": item_results,
-        "raw_metadata_rows": parsed.raw_metadata_rows,
-        "raw_item_rows": parsed.raw_item_rows,
-    }
-
-    raw_dir.mkdir(parents=True, exist_ok=False)
-    for filename, data in parsed.raw_files.items():
-        raw_path = raw_dir / filename
-        raw_path.write_bytes(data)
-        raw_path.chmod(0o444)
-
-    write_json(report_json_path, report)
-    report_md_path.write_text(_markdown_report(report), encoding="utf-8")
-
-    entry = {
-        "registration_id": registration_id,
-        "registered_at": registered_at,
-        "submission_id": submission_id,
-        "run_id": run_id,
-        "packet_id": parsed.envelope.get("packet_id"),
-        "source_format": parsed.source_format,
-        "raw_hash": raw_hash,
-        "status": status,
-        "validation_report": report_json_path.relative_to(case_root).as_posix(),
-    }
-    entries.append(entry)
-    register["submissions"] = entries
-    write_json(register_path, register)
-
-    if status == "valid":
-        runs.append(
-            {
-                "registration_id": registration_id,
-                "registered_at": registered_at,
-                "raw_hash": raw_hash,
-                "submission": parsed.envelope,
-            }
+        report_md_path = safe_output_path(
+            case_root,
+            f"quality/model-reliability/normalized/validation-reports/{registration_id}.md",
         )
-    normalized["runs"] = runs
-    write_json(normalized_path, normalized)
+        aggregate_md_path = safe_output_path(
+            case_root, "quality/model-reliability/normalized/validation-report.md"
+        )
 
-    summaries.append(
-        {
+        locked_errors = list(dict.fromkeys(locked_errors))
+        status = "valid" if not locked_errors else "invalid"
+        registered_at = utc_now()
+        item_results = _item_results(parsed.envelope, locked_errors)
+        report = {
+            "schema_version": "1.0.0",
             "registration_id": registration_id,
+            "registered_at": registered_at,
+            "case_id": case_id,
             "submission_id": submission_id,
             "run_id": run_id,
+            "source_format": parsed.source_format,
+            "raw_hash": raw_hash,
             "status": status,
-            "error_count": len(errors),
-            "item_count": len(item_results),
-            "report": report_json_path.relative_to(case_root).as_posix(),
+            "errors": locked_errors,
+            "item_results": item_results,
+            "raw_metadata_rows": parsed.raw_metadata_rows,
+            "raw_item_rows": parsed.raw_item_rows,
         }
-    )
-    aggregate["submissions"] = summaries
-    aggregate["latest_registration_id"] = registration_id
-    write_json(aggregate_path, aggregate)
-    aggregate_md_path.write_text(
-        "# Model Submission Validation Summary\n\n"
-        + "\n".join(
-            f"- `{item['registration_id']}`: **{item['status']}**, "
-            f"{item['error_count']} error(s), {item['item_count']} item(s)"
-            for item in summaries
+
+        raw_dir.mkdir(parents=True, exist_ok=False)
+        for filename, data in parsed.raw_files.items():
+            raw_path = raw_dir / filename
+            raw_path.write_bytes(data)
+            raw_path.chmod(0o444)
+
+        write_json(report_json_path, report)
+        write_text_atomic(report_md_path, _markdown_report(report))
+
+        entry = {
+            "registration_id": registration_id,
+            "registered_at": registered_at,
+            "submission_id": submission_id,
+            "run_id": run_id,
+            "packet_id": parsed.envelope.get("packet_id"),
+            "source_format": parsed.source_format,
+            "raw_hash": raw_hash,
+            "status": status,
+            "validation_report": report_json_path.relative_to(case_root).as_posix(),
+        }
+        entries.append(entry)
+        register["submissions"] = entries
+        write_json(register_path, register)
+
+        if status == "valid":
+            runs.append(
+                {
+                    "registration_id": registration_id,
+                    "registered_at": registered_at,
+                    "raw_hash": raw_hash,
+                    "submission": parsed.envelope,
+                }
+            )
+        normalized["runs"] = runs
+        write_json(normalized_path, normalized)
+
+        summaries.append(
+            {
+                "registration_id": registration_id,
+                "submission_id": submission_id,
+                "run_id": run_id,
+                "status": status,
+                "error_count": len(locked_errors),
+                "item_count": len(item_results),
+                "report": report_json_path.relative_to(case_root).as_posix(),
+            }
         )
-        + "\n",
-        encoding="utf-8",
-    )
-    return report
+        aggregate["submissions"] = summaries
+        aggregate["latest_registration_id"] = registration_id
+        write_json(aggregate_path, aggregate)
+        write_text_atomic(
+            aggregate_md_path,
+            "# Model Submission Validation Summary\n\n"
+            + "\n".join(
+                f"- `{item['registration_id']}`: **{item['status']}**, "
+                f"{item['error_count']} error(s), {item['item_count']} item(s)"
+                for item in summaries
+            )
+            + "\n",
+        )
+        return report
 
 
 def main() -> int:

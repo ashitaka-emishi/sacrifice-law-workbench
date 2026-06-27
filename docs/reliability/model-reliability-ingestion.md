@@ -47,6 +47,9 @@ The submission register records valid and invalid attempts. Valid submissions
 also enter `normalized/normalized-runs.json`; invalid submissions never do.
 Machine-readable and Markdown reports preserve every parseable input row and
 list all detected violations. Re-ingesting identical bytes is idempotent.
+Concurrent ingestion commands for the same case are serialized with a per-case
+file lock, and shared JSON/Markdown indexes are written by atomic replacement
+so overlapping valid submissions cannot corrupt or lose aggregate registrations.
 
 Inputs that appear to contain credentials or account identifiers are rejected
 before any raw bytes are stored. No command writes to metadata, corpus, analysis,
