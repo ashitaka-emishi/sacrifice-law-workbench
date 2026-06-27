@@ -1,0 +1,135 @@
+{
+  "authority": {
+    "consensus_changes_accepted_annotations": false,
+    "decision_authority": "human-only"
+  },
+  "case_id": "lincoln",
+  "checks": [
+    {
+      "category": "artifacts",
+      "check_id": "validated-runs",
+      "detail": "2 validated run(s); at least two are required.",
+      "evidence": [
+        "quality/model-reliability/status.json"
+      ],
+      "status": "pass"
+    },
+    {
+      "category": "artifacts",
+      "check_id": "required-artifacts",
+      "detail": "All required comparison, disagreement, queue, and report artifacts exist.",
+      "evidence": [
+        "quality/model-reliability/comparisons/agreement-results.json",
+        "quality/model-reliability/comparisons/agreement-summary.csv",
+        "quality/model-reliability/comparisons/disagreement-log.json",
+        "quality/model-reliability/comparisons/disagreement-log.csv",
+        "quality/model-reliability/comparisons/instability-report.md",
+        "quality/model-reliability/review-queue/model-review-queue.json",
+        "quality/model-reliability/review-queue/model-review-queue.csv",
+        "quality/model-reliability/comparisons/consensus-report.json",
+        "quality/model-reliability/comparisons/consensus-report.md",
+        "quality/model-reliability/codebook/codebook-revision-notes.json",
+        "quality/model-reliability/codebook/codebook-revision-notes.md"
+      ],
+      "status": "pass"
+    },
+    {
+      "category": "artifacts",
+      "check_id": "layered-metrics",
+      "detail": "Layered diagnostics present for: cmt, identification, interpretation",
+      "evidence": [
+        "quality/model-reliability/comparisons/agreement-results.json"
+      ],
+      "status": "pass"
+    },
+    {
+      "category": "protected-paths",
+      "check_id": "consensus-authority",
+      "detail": "Consensus is diagnostic and decision authority is human-only.",
+      "evidence": [
+        "quality/model-reliability/comparisons/consensus-report.json"
+      ],
+      "status": "pass"
+    },
+    {
+      "category": "protected-paths",
+      "check_id": "review-queue-authority",
+      "detail": "Review candidates remain pending with human-only authority.",
+      "evidence": [
+        "quality/model-reliability/review-queue/model-review-queue.json"
+      ],
+      "status": "pass"
+    },
+    {
+      "category": "protected-paths",
+      "check_id": "protected-write-guard",
+      "detail": "Protected-write enforcement and regression tests are present.",
+      "evidence": [
+        "scripts/model_reliability/boundaries.py",
+        "test/test_model_reliability_boundaries.py"
+      ],
+      "status": "pass"
+    },
+    {
+      "category": "documentation",
+      "check_id": "required-documentation",
+      "detail": "Method, results, governance, procedures, publication, and gate documentation exist.",
+      "evidence": [
+        "model-reliability-methodology.qmd",
+        "model-reliability-results.qmd",
+        "publication/model-reliability.md",
+        "docs/reliability/external-model-review-procedures.md",
+        "docs/reliability/model-reliability-governance.md",
+        "docs/reliability/model-reliability-completion-checklist.md"
+      ],
+      "status": "pass"
+    },
+    {
+      "category": "repository",
+      "check_id": "repository-validation",
+      "detail": "All required repository validation commands passed.",
+      "evidence": [
+        "npm run status",
+        "npm run validate",
+        "npm run pipeline",
+        "quarto render"
+      ],
+      "status": "pass"
+    }
+  ],
+  "generator": "scripts/model_reliability/completion_checklist.py",
+  "required_commands": [
+    {
+      "command": "npm run status",
+      "exit_code": 0,
+      "status": "pass"
+    },
+    {
+      "command": "npm run validate",
+      "exit_code": 0,
+      "status": "pass"
+    },
+    {
+      "command": "npm run pipeline",
+      "exit_code": 0,
+      "status": "pass"
+    },
+    {
+      "command": "quarto render",
+      "exit_code": 0,
+      "status": "pass"
+    }
+  ],
+  "run_ids": [
+    "issue147-anthropic-cmt-final2-20260627",
+    "issue147-openai-cmt-final2-20260627"
+  ],
+  "schema_version": "1.0.0",
+  "status": "complete",
+  "summary": {
+    "check_count": 8,
+    "failed_check_ids": [],
+    "failed_count": 0,
+    "passed_count": 8
+  }
+}

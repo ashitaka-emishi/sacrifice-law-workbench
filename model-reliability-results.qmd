@@ -12,7 +12,7 @@ reproducibility or changes an accepted annotation.
 This page is generated from validated case-local model-reliability artifacts by
 `scripts/model_reliability/generate_results_page.py`.
 
-**Designed but not executed:** `lincoln` has blind packets but no valid external model submissions.
+**Layer-only execution:** `lincoln` executed `cmt` only; `identification`, `interpretation` remain designed but not executed.
 
 ## Execution status by case and layer
 
@@ -24,20 +24,55 @@ This page is generated from validated case-local model-reliability artifacts by
 | `hitler` | identification | absent — not designed | 0 | 0 | Multi-model reliability has not been designed for this case. |
 | `hitler` | cmt | absent — not designed | 0 | 0 | Multi-model reliability has not been designed for this case. |
 | `hitler` | interpretation | absent — not designed | 0 | 0 | Multi-model reliability has not been designed for this case. |
-| `lincoln` | identification | designed — not executed | 0 | 0 | Blind packets are ready; no valid external model submissions are present. |
-| `lincoln` | cmt | designed — not executed | 0 | 0 | Blind packets are ready; no valid external model submissions are present. |
-| `lincoln` | interpretation | designed — not executed | 0 | 0 | Blind packets are ready; no valid external model submissions are present. |
+| `lincoln` | identification | designed — not executed | 0 | 0 | No valid submissions for this layer; case completion reflects the executed layer(s). |
+| `lincoln` | cmt | complete | 2 | 8 |  |
+| `lincoln` | interpretation | designed — not executed | 0 | 0 | No valid submissions for this layer; case completion reflects the executed layer(s). |
 | `napoleon` | identification | absent — not designed | 0 | 0 | Multi-model reliability has not been designed for this case. |
 | `napoleon` | cmt | absent — not designed | 0 | 0 | Multi-model reliability has not been designed for this case. |
 | `napoleon` | interpretation | absent — not designed | 0 | 0 | Multi-model reliability has not been designed for this case. |
 
-The same case state is repeated for each layer so missing execution cannot be
-mistaken for a missing row. `Complete` means the artifact chain is valid; it
-does not mean an interpretation has been proven.
+Layer state is computed from validated submissions for that layer. `Complete`
+means the artifact chain for the executed layer is valid; it does not mean an
+interpretation has been proven.
 
 ## Model-to-model field stability
 
-No validated model-to-model field results are available. This is expected while packets are designed but not executed.
+| Case | Language | Layer | Field | Run pair | N | Metric | Value | Cohen's kappa |
+|---|---|---|---|---|---:|---|---:|---|
+| `lincoln` | en | cmt | `cmt.cluster_id` | `issue147-openai-cmt-final2-20260627` ↔ `issue147-anthropic-cmt-final2-20260627` | 7 | observed_agreement | 1 | undefined: not applicable to this field type |
+| `lincoln` | en | cmt | `cmt.conceptual_metaphor` | `issue147-openai-cmt-final2-20260627` ↔ `issue147-anthropic-cmt-final2-20260627` | 7 | observed_agreement | 0 | undefined: not applicable to this field type |
+| `lincoln` | en | cmt | `cmt.entailments` | `issue147-openai-cmt-final2-20260627` ↔ `issue147-anthropic-cmt-final2-20260627` | 7 | jaccard_overlap | 0 | undefined: not applicable to this field type |
+| `lincoln` | en | cmt | `cmt.source_domain_primary` | `issue147-openai-cmt-final2-20260627` ↔ `issue147-anthropic-cmt-final2-20260627` | 7 | observed_agreement | 0.714 | undefined: not applicable to this field type |
+| `lincoln` | en | cmt | `cmt.source_domain_secondary` | `issue147-openai-cmt-final2-20260627` ↔ `issue147-anthropic-cmt-final2-20260627` | 7 | jaccard_overlap | 0.345 | undefined: not applicable to this field type |
+| `lincoln` | en | cmt | `cmt.target_domain` | `issue147-openai-cmt-final2-20260627` ↔ `issue147-anthropic-cmt-final2-20260627` | 7 | observed_agreement | 0.714 | undefined: not applicable to this field type |
+| `lincoln` | en | cmt | `confidence` | `issue147-openai-cmt-final2-20260627` ↔ `issue147-anthropic-cmt-final2-20260627` | 7 | mean_absolute_difference | 0.071 | undefined: not applicable to this field type |
+| `lincoln` | en | cmt | `uncertainty.status` | `issue147-openai-cmt-final2-20260627` ↔ `issue147-anthropic-cmt-final2-20260627` | 7 | observed_agreement | 0.857 | 0.731 |
+| `lincoln` | en | identification | `confidence` | `issue147-openai-cmt-final2-20260627` ↔ `issue147-anthropic-cmt-final2-20260627` | 0 | mean_absolute_difference | undefined: no comparable observations | undefined: not applicable to this field type |
+| `lincoln` | en | identification | `identification.basic_meaning` | `issue147-openai-cmt-final2-20260627` ↔ `issue147-anthropic-cmt-final2-20260627` | 0 | observed_agreement | undefined: no comparable observations | undefined: not applicable to this field type |
+| `lincoln` | en | identification | `identification.boundary_decision` | `issue147-openai-cmt-final2-20260627` ↔ `issue147-anthropic-cmt-final2-20260627` | 0 | observed_agreement | undefined: no comparable observations | undefined: fewer than two comparable observations |
+| `lincoln` | en | identification | `identification.boundary_span` | `issue147-openai-cmt-final2-20260627` ↔ `issue147-anthropic-cmt-final2-20260627` | 0 | jaccard_overlap | undefined: no comparable observations | undefined: not applicable to this field type |
+| `lincoln` | en | identification | `identification.comparison_basis` | `issue147-openai-cmt-final2-20260627` ↔ `issue147-anthropic-cmt-final2-20260627` | 0 | observed_agreement | undefined: no comparable observations | undefined: not applicable to this field type |
+| `lincoln` | en | identification | `identification.contextual_meaning` | `issue147-openai-cmt-final2-20260627` ↔ `issue147-anthropic-cmt-final2-20260627` | 0 | observed_agreement | undefined: no comparable observations | undefined: not applicable to this field type |
+| `lincoln` | en | identification | `identification.contrast_explanation` | `issue147-openai-cmt-final2-20260627` ↔ `issue147-anthropic-cmt-final2-20260627` | 0 | observed_agreement | undefined: no comparable observations | undefined: not applicable to this field type |
+| `lincoln` | en | identification | `identification.decision` | `issue147-openai-cmt-final2-20260627` ↔ `issue147-anthropic-cmt-final2-20260627` | 0 | observed_agreement | undefined: no comparable observations | undefined: fewer than two comparable observations |
+| `lincoln` | en | identification | `uncertainty.status` | `issue147-openai-cmt-final2-20260627` ↔ `issue147-anthropic-cmt-final2-20260627` | 0 | observed_agreement | undefined: no comparable observations | undefined: fewer than two comparable observations |
+| `lincoln` | en | interpretation | `confidence` | `issue147-openai-cmt-final2-20260627` ↔ `issue147-anthropic-cmt-final2-20260627` | 0 | mean_absolute_difference | undefined: no comparable observations | undefined: not applicable to this field type |
+| `lincoln` | en | interpretation | `interpretation.absence.displacement_mechanism` | `issue147-openai-cmt-final2-20260627` ↔ `issue147-anthropic-cmt-final2-20260627` | 0 | observed_agreement | undefined: no comparable observations | undefined: not applicable to this field type |
+| `lincoln` | en | interpretation | `interpretation.absence.expected_presence` | `issue147-openai-cmt-final2-20260627` ↔ `issue147-anthropic-cmt-final2-20260627` | 0 | observed_agreement | undefined: no comparable observations | undefined: not applicable to this field type |
+| `lincoln` | en | interpretation | `interpretation.absence.possible_absence` | `issue147-openai-cmt-final2-20260627` ↔ `issue147-anthropic-cmt-final2-20260627` | 0 | observed_agreement | undefined: no comparable observations | undefined: not applicable to this field type |
+| `lincoln` | en | interpretation | `interpretation.absence.status` | `issue147-openai-cmt-final2-20260627` ↔ `issue147-anthropic-cmt-final2-20260627` | 0 | observed_agreement | undefined: no comparable observations | undefined: fewer than two comparable observations |
+| `lincoln` | en | interpretation | `interpretation.agency.agents` | `issue147-openai-cmt-final2-20260627` ↔ `issue147-anthropic-cmt-final2-20260627` | 0 | jaccard_overlap | undefined: no comparable observations | undefined: not applicable to this field type |
+| `lincoln` | en | interpretation | `interpretation.agency.beneficiaries` | `issue147-openai-cmt-final2-20260627` ↔ `issue147-anthropic-cmt-final2-20260627` | 0 | jaccard_overlap | undefined: no comparable observations | undefined: not applicable to this field type |
+| `lincoln` | en | interpretation | `interpretation.agency.excluded_agents` | `issue147-openai-cmt-final2-20260627` ↔ `issue147-anthropic-cmt-final2-20260627` | 0 | jaccard_overlap | undefined: no comparable observations | undefined: not applicable to this field type |
+| `lincoln` | en | interpretation | `interpretation.agency.patients` | `issue147-openai-cmt-final2-20260627` ↔ `issue147-anthropic-cmt-final2-20260627` | 0 | jaccard_overlap | undefined: no comparable observations | undefined: not applicable to this field type |
+| `lincoln` | en | interpretation | `interpretation.agency.sacrificial_subjects` | `issue147-openai-cmt-final2-20260627` ↔ `issue147-anthropic-cmt-final2-20260627` | 0 | jaccard_overlap | undefined: no comparable observations | undefined: not applicable to this field type |
+| `lincoln` | en | interpretation | `interpretation.functions.enemy_as_bringer_of_death` | `issue147-openai-cmt-final2-20260627` ↔ `issue147-anthropic-cmt-final2-20260627` | 0 | observed_agreement | undefined: no comparable observations | undefined: fewer than two comparable observations |
+| `lincoln` | en | interpretation | `interpretation.functions.obligatory_frame` | `issue147-openai-cmt-final2-20260627` ↔ `issue147-anthropic-cmt-final2-20260627` | 0 | observed_agreement | undefined: no comparable observations | undefined: fewer than two comparable observations |
+| `lincoln` | en | interpretation | `interpretation.functions.purification` | `issue147-openai-cmt-final2-20260627` ↔ `issue147-anthropic-cmt-final2-20260627` | 0 | observed_agreement | undefined: no comparable observations | undefined: fewer than two comparable observations |
+| `lincoln` | en | interpretation | `interpretation.functions.sacred_object` | `issue147-openai-cmt-final2-20260627` ↔ `issue147-anthropic-cmt-final2-20260627` | 0 | observed_agreement | undefined: no comparable observations | undefined: fewer than two comparable observations |
+| `lincoln` | en | interpretation | `interpretation.functions.sacrificial_body` | `issue147-openai-cmt-final2-20260627` ↔ `issue147-anthropic-cmt-final2-20260627` | 0 | observed_agreement | undefined: no comparable observations | undefined: fewer than two comparable observations |
+| `lincoln` | en | interpretation | `interpretation.functions.violence_logic` | `issue147-openai-cmt-final2-20260627` ↔ `issue147-anthropic-cmt-final2-20260627` | 0 | observed_agreement | undefined: no comparable observations | undefined: fewer than two comparable observations |
+| `lincoln` | en | interpretation | `uncertainty.status` | `issue147-openai-cmt-final2-20260627` ↔ `issue147-anthropic-cmt-final2-20260627` | 0 | observed_agreement | undefined: no comparable observations | undefined: fewer than two comparable observations |
 
 Model-to-model stability asks whether separately run systems behave similarly.
 Shared behavior may reflect a clear instruction, shared bias, prompt effects,
@@ -45,7 +80,76 @@ or common training data.
 
 ## Model-to-reference field divergence
 
-No validated model-to-reference field results are available. Reference alignment has not been measured.
+| Case | Language | Layer | Field | Comparison | N | Metric | Value |
+|---|---|---|---|---|---:|---|---:|
+| `lincoln` | en | cmt | `cmt.cluster_id` | `issue147-anthropic-cmt-final2-20260627` vs `lincoln:accepted-reference` | 7 | observed_agreement | 0.429 |
+| `lincoln` | en | cmt | `cmt.cluster_id` | `issue147-openai-cmt-final2-20260627` vs `lincoln:accepted-reference` | 7 | observed_agreement | 0.429 |
+| `lincoln` | en | cmt | `cmt.conceptual_metaphor` | `issue147-anthropic-cmt-final2-20260627` vs `lincoln:accepted-reference` | 7 | observed_agreement | 0 |
+| `lincoln` | en | cmt | `cmt.conceptual_metaphor` | `issue147-openai-cmt-final2-20260627` vs `lincoln:accepted-reference` | 7 | observed_agreement | 0 |
+| `lincoln` | en | cmt | `cmt.entailments` | `issue147-anthropic-cmt-final2-20260627` vs `lincoln:accepted-reference` | 7 | jaccard_overlap | 0 |
+| `lincoln` | en | cmt | `cmt.entailments` | `issue147-openai-cmt-final2-20260627` vs `lincoln:accepted-reference` | 7 | jaccard_overlap | 0 |
+| `lincoln` | en | cmt | `cmt.source_domain_primary` | `issue147-anthropic-cmt-final2-20260627` vs `lincoln:accepted-reference` | 7 | observed_agreement | 0.286 |
+| `lincoln` | en | cmt | `cmt.source_domain_primary` | `issue147-openai-cmt-final2-20260627` vs `lincoln:accepted-reference` | 7 | observed_agreement | 0.571 |
+| `lincoln` | en | cmt | `cmt.source_domain_secondary` | `issue147-anthropic-cmt-final2-20260627` vs `lincoln:accepted-reference` | 7 | jaccard_overlap | 0 |
+| `lincoln` | en | cmt | `cmt.source_domain_secondary` | `issue147-openai-cmt-final2-20260627` vs `lincoln:accepted-reference` | 7 | jaccard_overlap | 0 |
+| `lincoln` | en | cmt | `cmt.target_domain` | `issue147-anthropic-cmt-final2-20260627` vs `lincoln:accepted-reference` | 7 | observed_agreement | 0.286 |
+| `lincoln` | en | cmt | `cmt.target_domain` | `issue147-openai-cmt-final2-20260627` vs `lincoln:accepted-reference` | 7 | observed_agreement | 0.429 |
+| `lincoln` | en | cmt | `confidence` | `issue147-anthropic-cmt-final2-20260627` vs `lincoln:accepted-reference` | 7 | mean_absolute_difference | 0.036 |
+| `lincoln` | en | cmt | `confidence` | `issue147-openai-cmt-final2-20260627` vs `lincoln:accepted-reference` | 7 | mean_absolute_difference | 0.091 |
+| `lincoln` | en | cmt | `uncertainty.status` | `issue147-anthropic-cmt-final2-20260627` vs `lincoln:accepted-reference` | 0 | observed_agreement | undefined: no comparable observations |
+| `lincoln` | en | cmt | `uncertainty.status` | `issue147-openai-cmt-final2-20260627` vs `lincoln:accepted-reference` | 0 | observed_agreement | undefined: no comparable observations |
+| `lincoln` | en | identification | `confidence` | `issue147-anthropic-cmt-final2-20260627` vs `lincoln:accepted-reference` | 0 | mean_absolute_difference | undefined: no comparable observations |
+| `lincoln` | en | identification | `confidence` | `issue147-openai-cmt-final2-20260627` vs `lincoln:accepted-reference` | 0 | mean_absolute_difference | undefined: no comparable observations |
+| `lincoln` | en | identification | `identification.basic_meaning` | `issue147-anthropic-cmt-final2-20260627` vs `lincoln:accepted-reference` | 0 | observed_agreement | undefined: no comparable observations |
+| `lincoln` | en | identification | `identification.basic_meaning` | `issue147-openai-cmt-final2-20260627` vs `lincoln:accepted-reference` | 0 | observed_agreement | undefined: no comparable observations |
+| `lincoln` | en | identification | `identification.boundary_decision` | `issue147-anthropic-cmt-final2-20260627` vs `lincoln:accepted-reference` | 0 | observed_agreement | undefined: no comparable observations |
+| `lincoln` | en | identification | `identification.boundary_decision` | `issue147-openai-cmt-final2-20260627` vs `lincoln:accepted-reference` | 0 | observed_agreement | undefined: no comparable observations |
+| `lincoln` | en | identification | `identification.boundary_span` | `issue147-anthropic-cmt-final2-20260627` vs `lincoln:accepted-reference` | 0 | jaccard_overlap | undefined: no comparable observations |
+| `lincoln` | en | identification | `identification.boundary_span` | `issue147-openai-cmt-final2-20260627` vs `lincoln:accepted-reference` | 0 | jaccard_overlap | undefined: no comparable observations |
+| `lincoln` | en | identification | `identification.comparison_basis` | `issue147-anthropic-cmt-final2-20260627` vs `lincoln:accepted-reference` | 0 | observed_agreement | undefined: no comparable observations |
+| `lincoln` | en | identification | `identification.comparison_basis` | `issue147-openai-cmt-final2-20260627` vs `lincoln:accepted-reference` | 0 | observed_agreement | undefined: no comparable observations |
+| `lincoln` | en | identification | `identification.contextual_meaning` | `issue147-anthropic-cmt-final2-20260627` vs `lincoln:accepted-reference` | 0 | observed_agreement | undefined: no comparable observations |
+| `lincoln` | en | identification | `identification.contextual_meaning` | `issue147-openai-cmt-final2-20260627` vs `lincoln:accepted-reference` | 0 | observed_agreement | undefined: no comparable observations |
+| `lincoln` | en | identification | `identification.contrast_explanation` | `issue147-anthropic-cmt-final2-20260627` vs `lincoln:accepted-reference` | 0 | observed_agreement | undefined: no comparable observations |
+| `lincoln` | en | identification | `identification.contrast_explanation` | `issue147-openai-cmt-final2-20260627` vs `lincoln:accepted-reference` | 0 | observed_agreement | undefined: no comparable observations |
+| `lincoln` | en | identification | `identification.decision` | `issue147-anthropic-cmt-final2-20260627` vs `lincoln:accepted-reference` | 0 | observed_agreement | undefined: no comparable observations |
+| `lincoln` | en | identification | `identification.decision` | `issue147-openai-cmt-final2-20260627` vs `lincoln:accepted-reference` | 0 | observed_agreement | undefined: no comparable observations |
+| `lincoln` | en | identification | `uncertainty.status` | `issue147-anthropic-cmt-final2-20260627` vs `lincoln:accepted-reference` | 0 | observed_agreement | undefined: no comparable observations |
+| `lincoln` | en | identification | `uncertainty.status` | `issue147-openai-cmt-final2-20260627` vs `lincoln:accepted-reference` | 0 | observed_agreement | undefined: no comparable observations |
+| `lincoln` | en | interpretation | `confidence` | `issue147-anthropic-cmt-final2-20260627` vs `lincoln:accepted-reference` | 0 | mean_absolute_difference | undefined: no comparable observations |
+| `lincoln` | en | interpretation | `confidence` | `issue147-openai-cmt-final2-20260627` vs `lincoln:accepted-reference` | 0 | mean_absolute_difference | undefined: no comparable observations |
+| `lincoln` | en | interpretation | `interpretation.absence.displacement_mechanism` | `issue147-anthropic-cmt-final2-20260627` vs `lincoln:accepted-reference` | 0 | observed_agreement | undefined: no comparable observations |
+| `lincoln` | en | interpretation | `interpretation.absence.displacement_mechanism` | `issue147-openai-cmt-final2-20260627` vs `lincoln:accepted-reference` | 0 | observed_agreement | undefined: no comparable observations |
+| `lincoln` | en | interpretation | `interpretation.absence.expected_presence` | `issue147-anthropic-cmt-final2-20260627` vs `lincoln:accepted-reference` | 0 | observed_agreement | undefined: no comparable observations |
+| `lincoln` | en | interpretation | `interpretation.absence.expected_presence` | `issue147-openai-cmt-final2-20260627` vs `lincoln:accepted-reference` | 0 | observed_agreement | undefined: no comparable observations |
+| `lincoln` | en | interpretation | `interpretation.absence.possible_absence` | `issue147-anthropic-cmt-final2-20260627` vs `lincoln:accepted-reference` | 0 | observed_agreement | undefined: no comparable observations |
+| `lincoln` | en | interpretation | `interpretation.absence.possible_absence` | `issue147-openai-cmt-final2-20260627` vs `lincoln:accepted-reference` | 0 | observed_agreement | undefined: no comparable observations |
+| `lincoln` | en | interpretation | `interpretation.absence.status` | `issue147-anthropic-cmt-final2-20260627` vs `lincoln:accepted-reference` | 0 | observed_agreement | undefined: no comparable observations |
+| `lincoln` | en | interpretation | `interpretation.absence.status` | `issue147-openai-cmt-final2-20260627` vs `lincoln:accepted-reference` | 0 | observed_agreement | undefined: no comparable observations |
+| `lincoln` | en | interpretation | `interpretation.agency.agents` | `issue147-anthropic-cmt-final2-20260627` vs `lincoln:accepted-reference` | 0 | jaccard_overlap | undefined: no comparable observations |
+| `lincoln` | en | interpretation | `interpretation.agency.agents` | `issue147-openai-cmt-final2-20260627` vs `lincoln:accepted-reference` | 0 | jaccard_overlap | undefined: no comparable observations |
+| `lincoln` | en | interpretation | `interpretation.agency.beneficiaries` | `issue147-anthropic-cmt-final2-20260627` vs `lincoln:accepted-reference` | 0 | jaccard_overlap | undefined: no comparable observations |
+| `lincoln` | en | interpretation | `interpretation.agency.beneficiaries` | `issue147-openai-cmt-final2-20260627` vs `lincoln:accepted-reference` | 0 | jaccard_overlap | undefined: no comparable observations |
+| `lincoln` | en | interpretation | `interpretation.agency.excluded_agents` | `issue147-anthropic-cmt-final2-20260627` vs `lincoln:accepted-reference` | 0 | jaccard_overlap | undefined: no comparable observations |
+| `lincoln` | en | interpretation | `interpretation.agency.excluded_agents` | `issue147-openai-cmt-final2-20260627` vs `lincoln:accepted-reference` | 0 | jaccard_overlap | undefined: no comparable observations |
+| `lincoln` | en | interpretation | `interpretation.agency.patients` | `issue147-anthropic-cmt-final2-20260627` vs `lincoln:accepted-reference` | 0 | jaccard_overlap | undefined: no comparable observations |
+| `lincoln` | en | interpretation | `interpretation.agency.patients` | `issue147-openai-cmt-final2-20260627` vs `lincoln:accepted-reference` | 0 | jaccard_overlap | undefined: no comparable observations |
+| `lincoln` | en | interpretation | `interpretation.agency.sacrificial_subjects` | `issue147-anthropic-cmt-final2-20260627` vs `lincoln:accepted-reference` | 0 | jaccard_overlap | undefined: no comparable observations |
+| `lincoln` | en | interpretation | `interpretation.agency.sacrificial_subjects` | `issue147-openai-cmt-final2-20260627` vs `lincoln:accepted-reference` | 0 | jaccard_overlap | undefined: no comparable observations |
+| `lincoln` | en | interpretation | `interpretation.functions.enemy_as_bringer_of_death` | `issue147-anthropic-cmt-final2-20260627` vs `lincoln:accepted-reference` | 0 | observed_agreement | undefined: no comparable observations |
+| `lincoln` | en | interpretation | `interpretation.functions.enemy_as_bringer_of_death` | `issue147-openai-cmt-final2-20260627` vs `lincoln:accepted-reference` | 0 | observed_agreement | undefined: no comparable observations |
+| `lincoln` | en | interpretation | `interpretation.functions.obligatory_frame` | `issue147-anthropic-cmt-final2-20260627` vs `lincoln:accepted-reference` | 0 | observed_agreement | undefined: no comparable observations |
+| `lincoln` | en | interpretation | `interpretation.functions.obligatory_frame` | `issue147-openai-cmt-final2-20260627` vs `lincoln:accepted-reference` | 0 | observed_agreement | undefined: no comparable observations |
+| `lincoln` | en | interpretation | `interpretation.functions.purification` | `issue147-anthropic-cmt-final2-20260627` vs `lincoln:accepted-reference` | 0 | observed_agreement | undefined: no comparable observations |
+| `lincoln` | en | interpretation | `interpretation.functions.purification` | `issue147-openai-cmt-final2-20260627` vs `lincoln:accepted-reference` | 0 | observed_agreement | undefined: no comparable observations |
+| `lincoln` | en | interpretation | `interpretation.functions.sacred_object` | `issue147-anthropic-cmt-final2-20260627` vs `lincoln:accepted-reference` | 0 | observed_agreement | undefined: no comparable observations |
+| `lincoln` | en | interpretation | `interpretation.functions.sacred_object` | `issue147-openai-cmt-final2-20260627` vs `lincoln:accepted-reference` | 0 | observed_agreement | undefined: no comparable observations |
+| `lincoln` | en | interpretation | `interpretation.functions.sacrificial_body` | `issue147-anthropic-cmt-final2-20260627` vs `lincoln:accepted-reference` | 0 | observed_agreement | undefined: no comparable observations |
+| `lincoln` | en | interpretation | `interpretation.functions.sacrificial_body` | `issue147-openai-cmt-final2-20260627` vs `lincoln:accepted-reference` | 0 | observed_agreement | undefined: no comparable observations |
+| `lincoln` | en | interpretation | `interpretation.functions.violence_logic` | `issue147-anthropic-cmt-final2-20260627` vs `lincoln:accepted-reference` | 0 | observed_agreement | undefined: no comparable observations |
+| `lincoln` | en | interpretation | `interpretation.functions.violence_logic` | `issue147-openai-cmt-final2-20260627` vs `lincoln:accepted-reference` | 0 | observed_agreement | undefined: no comparable observations |
+| `lincoln` | en | interpretation | `uncertainty.status` | `issue147-anthropic-cmt-final2-20260627` vs `lincoln:accepted-reference` | 0 | observed_agreement | undefined: no comparable observations |
+| `lincoln` | en | interpretation | `uncertainty.status` | `issue147-openai-cmt-final2-20260627` vs `lincoln:accepted-reference` | 0 | observed_agreement | undefined: no comparable observations |
 
 Reference alignment is reported separately from model-to-model stability. A
 divergence may reflect model error, reference error, or codebook ambiguity; it
@@ -53,7 +157,9 @@ is a question for human review, not an automatic correction.
 
 ## Consensus, instability, and review queue
 
-No consensus and instability report is available. Absence of a report is not evidence of agreement or reproducibility.
+| Case | Fields | Stable | Unstable | Insufficient data | Review items | High priority |
+|---|---:|---:|---:|---:|---:|---:|
+| `lincoln` | 34 | 1 | 7 | 26 | 37 | 22 |
 
 The review queue has human-only decision authority. Model agreement is not a
 vote, and high-priority reference challenges remain unadjudicated suggestions.

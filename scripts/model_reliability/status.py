@@ -12,11 +12,14 @@ from jsonschema import Draft202012Validator, FormatChecker
 
 try:
     from scripts.model_reliability.boundaries import safe_output_path
+    from scripts.model_reliability.generate_packets import stable_source_hash
 except ModuleNotFoundError:
     try:
         from model_reliability.boundaries import safe_output_path
+        from model_reliability.generate_packets import stable_source_hash
     except ModuleNotFoundError:
         from boundaries import safe_output_path  # type: ignore
+        from generate_packets import stable_source_hash  # type: ignore
 
 ROOT = Path(__file__).resolve().parents[2]
 STATUS_GENERATOR = "scripts/model_reliability/status.py"
@@ -156,7 +159,12 @@ def _validate_packet(
             if not path.is_file():
                 errors.append(f"{path}: packet artifact is missing")
                 continue
-            if _sha256(path.read_bytes()) != entry.get("hash"):
+            actual_hash = (
+                stable_source_hash(path)
+                if section == "source_inputs"
+                else _sha256(path.read_bytes())
+            )
+            if actual_hash != entry.get("hash"):
                 errors.append(f"{path}: packet artifact hash mismatch")
             if section != "payloads":
                 continue

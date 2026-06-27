@@ -79,6 +79,28 @@ def hash_file(path: Path) -> str:
     return sha256_bytes(path.read_bytes())
 
 
+def _without_generated_at(value: Any) -> Any:
+    if isinstance(value, dict):
+        return {
+            key: _without_generated_at(item)
+            for key, item in value.items()
+            if key != "generated_at"
+        }
+    if isinstance(value, list):
+        return [_without_generated_at(item) for item in value]
+    return value
+
+
+def stable_source_hash(path: Path) -> str:
+    if path.suffix == ".json":
+        return sha256_bytes(
+            canonical_json_bytes(
+                _without_generated_at(json.loads(path.read_text(encoding="utf-8")))
+            )
+        )
+    return hash_file(path)
+
+
 def canonical_json_bytes(data: Any) -> bytes:
     return json.dumps(data, ensure_ascii=False, sort_keys=True, separators=(",", ":")).encode("utf-8")
 
@@ -449,7 +471,7 @@ def generate_packets(
         {
             "id": path.stem,
             "path": relative_path(root, path),
-            "hash": hash_file(path),
+            "hash": stable_source_hash(path),
         }
         for path in sorted(source_paths, key=lambda item: relative_path(root, item))
     ]

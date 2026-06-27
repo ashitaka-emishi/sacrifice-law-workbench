@@ -57,6 +57,9 @@ class ModelReliabilityResultsPageTest(unittest.TestCase):
 
             rendered = output.read_text(encoding="utf-8")
             self.assertIn("| cmt | complete | 2 |", rendered)
+            self.assertIn("| identification | designed — not executed | 0 | 0 |", rendered)
+            self.assertIn("| interpretation | designed — not executed | 0 | 0 |", rendered)
+            self.assertIn("Layer-only execution", rendered)
             self.assertIn("## Model-to-model field stability", rendered)
             self.assertIn("## Model-to-reference field divergence", rendered)
             self.assertIn("`cmt.source_domain_primary`", rendered)
@@ -99,6 +102,7 @@ class ModelReliabilityResultsPageTest(unittest.TestCase):
                         "counts": {"valid_runs": 2},
                         "warnings": [],
                     },
+                    "layer_run_counts": {"cmt": 2},
                     "model_summaries": [summary],
                     "reference_summaries": [],
                     "report": None,
