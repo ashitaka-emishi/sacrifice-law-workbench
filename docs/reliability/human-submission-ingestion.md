@@ -29,6 +29,24 @@ be ignored by Git in a repository checkout.
 
 ## Commands
 
+Preflight a returned submission without writing registration, normalized, or
+status artifacts:
+
+```bash
+npm run human-reliability:preflight -- \
+  --case <case_id> \
+  --cohort cases/<case_id>/quality/human-reliability/cohorts/<cohort>.json \
+  --json <completed-submission.json>
+```
+
+For CSV preflight, replace `--json` with `--csv`. Add `--json-output` when the
+coordinator needs a machine-readable report. Preflight validates the same
+cohort, packet, schema, declaration, coder identity, controlled-vocabulary,
+and row-level contract checks as ingestion, plus explicit checks for leaked
+internal fields such as accepted labels, model outputs, adjudication fields, or
+sample roles. It returns a nonzero exit status when the returned file is
+invalid and leaves case status unchanged.
+
 Ingest canonical JSON:
 
 ```bash
