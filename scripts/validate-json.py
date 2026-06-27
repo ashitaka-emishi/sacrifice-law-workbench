@@ -166,6 +166,23 @@ PUBLICATION_TRACE_REQUIRED = [
     "source_text_path",
 ]
 
+PUBLIC_SITE_CASE_IDENTIFIERS = {
+    "am-rev": ("am-rev", "American Revolution"),
+    "hitler": ("hitler", "Hitler"),
+    "lincoln": ("lincoln", "Lincoln"),
+    "napoleon": ("napoleon", "Napoleon"),
+}
+
+PUBLIC_SITE_CASE_PAGE_PATTERNS = (
+    "analysis/*.md",
+    "artifacts/qmd/*.qmd",
+)
+
+# Add repository-relative generated page paths here when a per-case page
+# intentionally mentions another case in body/source content. Cross-case pages
+# under cases/x-case are intentionally outside this per-case guard.
+PUBLIC_SITE_CONTAMINATION_EXCEPTIONS: dict[str, set[str]] = {}
+
 
 class Validator:
     def __init__(self) -> None:
@@ -887,6 +904,36 @@ class Validator:
                     if data.get(field) in (None, "", {}):
                         self.error(synthesis_path, f"missing `{field}`")
 
+    def validate_public_site_case_contamination(self, case_id: str) -> None:
+        case_root = case_dir(case_id)
+        own_identifiers = set(PUBLIC_SITE_CASE_IDENTIFIERS.get(case_id, (case_id,)))
+        foreign_identifiers = {
+            foreign_case: identifiers
+            for foreign_case, identifiers in PUBLIC_SITE_CASE_IDENTIFIERS.items()
+            if foreign_case != case_id
+        }
+        for pattern in PUBLIC_SITE_CASE_PAGE_PATTERNS:
+            for path in sorted(case_root.glob(pattern)):
+                if not path.is_file():
+                    continue
+                rel_path = path.relative_to(ROOT).as_posix()
+                allowed = PUBLIC_SITE_CONTAMINATION_EXCEPTIONS.get(rel_path, set())
+                text = path.read_text(encoding="utf-8")
+                for foreign_case, identifiers in foreign_identifiers.items():
+                    for identifier in identifiers:
+                        if identifier in own_identifiers or identifier in allowed:
+                            continue
+                        if identifier in text:
+                            self.error(
+                                path,
+                                (
+                                    "generated public case page mentions foreign "
+                                    f"case identifier `{identifier}` for `{foreign_case}`; "
+                                    "add a path-scoped exception only when the body "
+                                    "intentionally compares cases"
+                                ),
+                            )
+
     def validate_x_case_artifacts(self) -> None:
         x_dir = ROOT / "cases" / "x-case"
         protocol_path = x_dir / "protocol" / "comparative-analysis-protocol.json"
@@ -1282,6 +1329,7 @@ class Validator:
         }
         self.validate_interpretive_artifacts(case_id, valid_mapping_ids)
         self.validate_support_artifacts(case_id, valid_mapping_ids)
+        self.validate_public_site_case_contamination(case_id)
         self.validate_annotated(case_id, sentence_ids, mipvu_lookup)
         self.validate_concordance_and_analysis(case_id)
         reliability = evaluate_case(ROOT, case_id)
