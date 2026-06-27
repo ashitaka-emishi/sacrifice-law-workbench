@@ -56,7 +56,8 @@ promotion resume.
 Wholesale redownload, starter-corpus replacement, and opportunistic source
 growth remain out of scope unless a specific source defect is discovered.
 The selection rubric for new cases and targeted document additions is recorded
-in `case-selection.qmd`.
+in `case-selection.qmd`; the ranked candidate matrix is recorded in
+`docs/corpus/pre-v1-expansion-candidate-matrix.md`.
 
 ## Checks Run
 
