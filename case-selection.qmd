@@ -67,6 +67,9 @@ annotation, reliability sampling, and publication-status work. Expansion should
 test the framework, not simply add more examples that resemble the existing
 cases.
 
+The ranked candidate matrix for this window is recorded in
+[Pre-v1 Expansion Candidate Matrix](docs/corpus/pre-v1-expansion-candidate-matrix.md).
+
 ### Case-level rationales
 
 Each proposed new case should have at least one primary rationale and may have
