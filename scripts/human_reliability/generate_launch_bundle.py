@@ -6,10 +6,9 @@ import argparse
 import copy
 import hashlib
 import json
-import shutil
 import subprocess
 from pathlib import Path
-from typing import Any, Iterable, Mapping
+from typing import Any, Mapping
 
 try:
     from scripts.human_reliability.boundaries import protect_accepted_artifacts, safe_output_path
@@ -398,8 +397,8 @@ def generate_launch_bundle(
             "code_revision": revision or code_revision(root),
         },
         "source_inputs": [
-            {"id": "cohort-manifest", "path": relative_path(root, cohort_path), "hash": hash_file(cohort_path)},
-            {"id": "packet-manifest", "path": relative_path(root, packet_manifest_path), "hash": hash_file(packet_manifest_path)},
+            {"id": "cohort-manifest", "path": "coordinator://cohort-manifest", "hash": hash_file(cohort_path)},
+            {"id": "packet-manifest", "path": "packet/packet-manifest.json", "hash": hash_file(packet_manifest_path)},
         ]
         + [
             {"id": destination.replace("/", "-").replace(".", "-"), "path": source.as_posix(), "hash": hash_file(root / source)}

@@ -98,6 +98,9 @@ class HumanCoderLaunchBundleTest(unittest.TestCase):
             packet_manifest = json.loads((bundle_root / "packet" / "packet-manifest.json").read_text())
             self.assertEqual(packet_manifest["packet_hash"], manifest["packet_hash"])
             bundle_manifest = json.loads((bundle_root / "launch-bundle-manifest.json").read_text())
+            rendered_manifest = json.dumps(bundle_manifest)
+            self.assertNotIn("quality/human-reliability/cohorts", rendered_manifest)
+            self.assertIn("coordinator://cohort-manifest", rendered_manifest)
             unsigned = dict(bundle_manifest)
             expected_hash = unsigned.pop("bundle_hash")
             self.assertEqual(expected_hash, sha256_bytes(json.dumps(

@@ -1,6 +1,6 @@
 {
   "ai_assistance_allowed": false,
-  "bundle_hash": "sha256:ea282660f5f0ca21f9caa32d786c2c1f7c046b5d71ec1ebb9a74645d165da056",
+  "bundle_hash": "sha256:d7807fb4517a2329cae4bd1a18da76ae9466d32c33667cf5962bebc6e549ad01",
   "bundle_id": "lincoln-en-cmt-launch-1.0.0",
   "calibration_id": "human-calibration-en-1.0.0",
   "case_id": "lincoln",
@@ -59,7 +59,7 @@
   "generator": {
     "code_revision": "ca524a292ca83782d39231eecd520e885d893485",
     "script": "scripts/human_reliability/generate_launch_bundle.py",
-    "script_hash": "sha256:66168888b9299ade7bf3d13e2bc9e3c326353acc95820161aebad85f457a7086",
+    "script_hash": "sha256:bf62bc37a87d14d462d80f3a5cce6d5313f77755a200d1f438639e18ba59aa3d",
     "version": "1.0.0"
   },
   "packet_hash": "sha256:381836d1f6b814e58af2291b88fabfe2a513b0c773bf8814092666473b850c9c",
@@ -74,12 +74,12 @@
     {
       "hash": "sha256:a895dd0c75f750e613fafd5f03207c251da652acf28e64be1f40ee83ead15d4b",
       "id": "cohort-manifest",
-      "path": "cases/lincoln/quality/human-reliability/cohorts/lincoln-en-cmt-launch-1.0.0.json"
+      "path": "coordinator://cohort-manifest"
     },
     {
       "hash": "sha256:b00ee7844243db64807d6a3c6016944734a0f8566a654f92e391f492c5b0abfa",
       "id": "packet-manifest",
-      "path": "cases/lincoln/quality/human-reliability/packets/lincoln-human-cmt-launch-1.0.0-cmt/packet-manifest.json"
+      "path": "packet/packet-manifest.json"
     },
     {
       "hash": "sha256:c47b09ca57f31e4e2720ba2852a39cdd4bab66ce390484dfd57212ef025a139d",
