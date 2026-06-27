@@ -1,0 +1,104 @@
+{
+  "ai_assistance_allowed": false,
+  "bundle_hash": "sha256:d7807fb4517a2329cae4bd1a18da76ae9466d32c33667cf5962bebc6e549ad01",
+  "bundle_id": "lincoln-en-cmt-launch-1.0.0",
+  "calibration_id": "human-calibration-en-1.0.0",
+  "case_id": "lincoln",
+  "cohort_id": "lincoln-en-cmt-launch",
+  "cohort_version": "1.0.0",
+  "files": [
+    {
+      "hash": "sha256:16d2e47ace22326c1b5d1d9385ebc6733445b750cf5bdfe10a76b939a321eebf",
+      "path": "README.md"
+    },
+    {
+      "hash": "sha256:0ed07b529c8b014ee35d500e9fded5b3f14c231d291acfce3842f670a0a4e35e",
+      "path": "allowed-references.md"
+    },
+    {
+      "hash": "sha256:72efa7e3274b87e5d6b6b143484953b362f61fa156293de31653dd9a169ec0b1",
+      "path": "calibration-instructions.md"
+    },
+    {
+      "hash": "sha256:6784b453c588e265a8a9c205ec08c0847a4cea60c5d81308db388b31953c065a",
+      "path": "coder-declarations.md"
+    },
+    {
+      "hash": "sha256:e59fb2a104327a32a01770c67dad9f860a300565b18bbdb8ab9adcd38da8c9c1",
+      "path": "packet/cmt-packet.jsonl"
+    },
+    {
+      "hash": "sha256:60104f8e1efcec403eca53c0d799fa9ad6f76e11dd9e60f67089d67b89a510c4",
+      "path": "packet/cmt-response-template.csv"
+    },
+    {
+      "hash": "sha256:c33e907a8ee1452e7851506361b7ca773a68eb8cf8fee6b5fb439dbeeb92d547",
+      "path": "packet/cmt-response-template.json"
+    },
+    {
+      "hash": "sha256:b00ee7844243db64807d6a3c6016944734a0f8566a654f92e391f492c5b0abfa",
+      "path": "packet/packet-manifest.json"
+    },
+    {
+      "hash": "sha256:3059534b3cc084b4cb60aa7572f247fa8d594b593b97d09450eb75e39343d8f0",
+      "path": "references/MIPVU_ANNOTATION_GUIDE.md"
+    },
+    {
+      "hash": "sha256:515ae45a6a3ee23c1e747364ea53a617d8587e25982157f672a828ff4b4a57d9",
+      "path": "references/human-coder-submission-contract.md"
+    },
+    {
+      "hash": "sha256:2d10e3f14da3130f3b32628a8010110cb47561c019986d9b6d4049962a55109c",
+      "path": "return-instructions.md"
+    },
+    {
+      "hash": "sha256:c47b09ca57f31e4e2720ba2852a39cdd4bab66ce390484dfd57212ef025a139d",
+      "path": "training/human-coder-training-guide.md"
+    }
+  ],
+  "generator": {
+    "code_revision": "ca524a292ca83782d39231eecd520e885d893485",
+    "script": "scripts/human_reliability/generate_launch_bundle.py",
+    "script_hash": "sha256:bf62bc37a87d14d462d80f3a5cce6d5313f77755a200d1f438639e18ba59aa3d",
+    "version": "1.0.0"
+  },
+  "packet_hash": "sha256:381836d1f6b814e58af2291b88fabfe2a513b0c773bf8814092666473b850c9c",
+  "packet_id": "lincoln-human-cmt-launch-1.0.0-cmt",
+  "required_primary_coders": 2,
+  "rights_constraints": [
+    "public-domain-source",
+    "source-language-text-may-be-committed"
+  ],
+  "schema_version": "1.0.0",
+  "source_inputs": [
+    {
+      "hash": "sha256:a895dd0c75f750e613fafd5f03207c251da652acf28e64be1f40ee83ead15d4b",
+      "id": "cohort-manifest",
+      "path": "coordinator://cohort-manifest"
+    },
+    {
+      "hash": "sha256:b00ee7844243db64807d6a3c6016944734a0f8566a654f92e391f492c5b0abfa",
+      "id": "packet-manifest",
+      "path": "packet/packet-manifest.json"
+    },
+    {
+      "hash": "sha256:c47b09ca57f31e4e2720ba2852a39cdd4bab66ce390484dfd57212ef025a139d",
+      "id": "training-human-coder-training-guide-md",
+      "path": "docs/reliability/human-coder-training-guide.md"
+    },
+    {
+      "hash": "sha256:3059534b3cc084b4cb60aa7572f247fa8d594b593b97d09450eb75e39343d8f0",
+      "id": "references-MIPVU_ANNOTATION_GUIDE-md",
+      "path": "MIPVU_ANNOTATION_GUIDE.md"
+    },
+    {
+      "hash": "sha256:515ae45a6a3ee23c1e747364ea53a617d8587e25982157f672a828ff4b4a57d9",
+      "id": "references-human-coder-submission-contract-md",
+      "path": "docs/reliability/human-coder-submission-contract.md"
+    }
+  ],
+  "source_language": "en",
+  "storage_policy": "repository_allowed",
+  "task_layer": "cmt",
+  "training_version": "human-coder-training-guide-v1.0.0"
+}
