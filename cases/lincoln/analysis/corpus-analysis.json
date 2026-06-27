@@ -1,7 +1,7 @@
 {
   "version": "1.0",
   "case_id": "lincoln",
-  "generated_at": "2026-06-17T01:25:15",
+  "generated_at": "2026-06-27T02:50:50",
   "status": "complete",
   "source": "corpus/cmt/cmt-mappings.json",
   "mapping_count": 64,
@@ -2204,9 +2204,12 @@
     "ideological_force": "Recorded ideological functions attached to the mapping; not reducible to frequency."
   },
   "diachronic_classification": {
-    "lincoln-01-body-organism": "stable/reactivated",
-    "lincoln-08-sacrificial-death-gift": "intensifying in peak-war-sacrifice evidence",
-    "lincoln-04-birth-creation": "local high-salience mutation toward renewal",
-    "lincoln-06-providence-theodicy": "reorganizing in final-reconciliation evidence"
+    "lincoln-01-body-organism": "recurring across periods; 22 high-salience mapping(s)",
+    "lincoln-02-covenant-oath": "recurring across periods; 3 high-salience mapping(s)",
+    "lincoln-03-experiment-proposition": "localized in current evidence",
+    "lincoln-05-fathers-inheritance": "localized in current evidence; 3 high-salience mapping(s)",
+    "lincoln-06-providence-theodicy": "recurring across periods; 1 high-salience mapping(s)",
+    "lincoln-07-absence-black-agency": "localized in current evidence",
+    "lincoln-08-sacrificial-death-gift": "localized in current evidence; 3 high-salience mapping(s)"
   }
 }

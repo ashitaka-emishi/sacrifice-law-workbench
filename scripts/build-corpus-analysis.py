@@ -184,6 +184,77 @@ def markdown_table(rows: list[dict[str, Any]], fields: list[str]) -> str:
     return "\n".join([header, sep, *body])
 
 
+def diachronic_classification(timeline: list[dict[str, Any]]) -> dict[str, str]:
+    clusters: dict[str, list[dict[str, Any]]] = {}
+    for row in timeline:
+        cluster_id = str(row.get("cluster_id") or "")
+        if cluster_id:
+            clusters.setdefault(cluster_id, []).append(row)
+
+    classifications: dict[str, str] = {}
+    for cluster_id, rows in sorted(clusters.items()):
+        dates = {str(row.get("document_date")) for row in rows if row.get("document_date")}
+        periods = {str(row.get("period")) for row in rows if row.get("period")}
+        documents = {str(row.get("document_id")) for row in rows if row.get("document_id")}
+        high_salience = sum(1 for row in rows if row.get("rhetorical_salience") == "high")
+        if len(periods) > 1:
+            label = "recurring across periods"
+        elif len(dates) > 1:
+            label = "recurring across dates"
+        elif len(documents) > 1:
+            label = "distributed within one dated phase"
+        else:
+            label = "localized in current evidence"
+        if high_salience:
+            label += f"; {high_salience} high-salience mapping(s)"
+        classifications[cluster_id] = label
+    return classifications
+
+
+def build_change_notes(timeline: list[dict[str, Any]]) -> str:
+    if not timeline:
+        return "- No CMT mappings are available for diachronic comparison."
+
+    clusters: dict[str, list[dict[str, Any]]] = {}
+    for row in timeline:
+        cluster_id = str(row.get("cluster_id") or "")
+        if cluster_id:
+            clusters.setdefault(cluster_id, []).append(row)
+
+    classifications = diachronic_classification(timeline)
+    ranked = sorted(
+        clusters.items(),
+        key=lambda pair: (
+            -len(pair[1]),
+            -sum(1 for row in pair[1] if row.get("rhetorical_salience") == "high"),
+            pair[0],
+        ),
+    )
+    notes = []
+    for cluster_id, rows in ranked[:6]:
+        dates = sorted({str(row.get("document_date")) for row in rows if row.get("document_date")})
+        periods = sorted({str(row.get("period")) for row in rows if row.get("period")})
+        documents = sorted({str(row.get("document_id")) for row in rows if row.get("document_id")})
+        concepts = sorted({str(row.get("conceptual_metaphor")) for row in rows if row.get("conceptual_metaphor")})
+        date_text = ", ".join(dates[:4]) + ("…" if len(dates) > 4 else "")
+        period_text = ", ".join(periods[:4]) + ("…" if len(periods) > 4 else "")
+        notes.append(
+            f"- `{cluster_id}` appears in {len(rows)} mapping(s)"
+            f" across {len(documents)} document(s)"
+            + (f" dated {date_text}" if date_text else "")
+            + (f" and period(s) {period_text}" if period_text else "")
+            + f". Current classification: {classifications[cluster_id]}."
+        )
+        if concepts:
+            notes.append(f"  Representative metaphor(s): {', '.join(concepts[:3])}.")
+
+    notes.append(
+        "- Clusters without current CMT mapping evidence should be treated as "
+        "uncoded in this sample, not as disappearing from the case's metaphor system."
+    )
+    return "\n".join(notes)
+
+
 def build_markdown(case_id: str, generated_at: str, mappings: list[dict[str, Any]], frequency_rows: list[dict[str, Any]], cluster_rows: list[dict[str, Any]], salience_rows: list[dict[str, Any]]) -> str:
     return f"""# Corpus-Assisted Analysis: {case_id}
 
@@ -224,8 +295,8 @@ def build_diachronic_markdown(case_id: str, generated_at: str, timeline: list[di
 
 Generated: {generated_at}
 
-Status: provisional; based on reviewed Lincoln MIPVU pilot evidence and CMT
-mapping records.
+Status: provisional; based on reviewed case-local MIPVU evidence and CMT mapping
+records.
 
 ## Timeline
 
@@ -233,20 +304,7 @@ mapping records.
 
 ## Change Notes
 
-- `lincoln-01-body-organism` appears in the 1838 Lyceum evidence and again in
-  the Gettysburg democratic-survival language. Current classification:
-  stable/reactivated, not yet fully measured across the whole corpus.
-- `lincoln-08-sacrificial-death-gift` is concentrated in the Gettysburg burial
-  and dedication evidence. Current classification: intensifying at the
-  peak-war-sacrifice stage, pending fuller review.
-- `lincoln-04-birth-creation` appears in the Gettysburg "new birth" sentence.
-  Current classification: local high-salience mutation from preservation toward
-  renewal.
-- `lincoln-06-providence-theodicy` appears in the Second Inaugural evidence.
-  Current classification: reorganization toward providential accounting and
-  shared moral judgment in the final-reconciliation stage.
-- Clusters without current CMT mapping evidence should be treated as uncoded in
-  this sample, not as disappearing from Lincoln's metaphor system.
+{build_change_notes(timeline)}
 """
 
 
@@ -324,12 +382,7 @@ def build_case_corpus_analysis(case_id: str) -> dict[str, Any]:
             "conceptual_centrality": "Whether a cluster organizes multiple mapping records in the current evidence set.",
             "ideological_force": "Recorded ideological functions attached to the mapping; not reducible to frequency.",
         },
-        "diachronic_classification": {
-            "lincoln-01-body-organism": "stable/reactivated",
-            "lincoln-08-sacrificial-death-gift": "intensifying in peak-war-sacrifice evidence",
-            "lincoln-04-birth-creation": "local high-salience mutation toward renewal",
-            "lincoln-06-providence-theodicy": "reorganizing in final-reconciliation evidence",
-        },
+        "diachronic_classification": diachronic_classification(timeline),
     }
 
     write_json(analysis_dir / "corpus-analysis.json", output)

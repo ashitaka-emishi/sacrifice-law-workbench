@@ -1,9 +1,9 @@
 # Diachronic Analysis: am-rev
 
-Generated: 2026-06-17T01:25:15
+Generated: 2026-06-27T02:50:50
 
-Status: provisional; based on reviewed Lincoln MIPVU pilot evidence and CMT
-mapping records.
+Status: provisional; based on reviewed case-local MIPVU evidence and CMT mapping
+records.
 
 ## Timeline
 
@@ -73,17 +73,16 @@ mapping records.
 
 ## Change Notes
 
-- `lincoln-01-body-organism` appears in the 1838 Lyceum evidence and again in
-  the Gettysburg democratic-survival language. Current classification:
-  stable/reactivated, not yet fully measured across the whole corpus.
-- `lincoln-08-sacrificial-death-gift` is concentrated in the Gettysburg burial
-  and dedication evidence. Current classification: intensifying at the
-  peak-war-sacrifice stage, pending fuller review.
-- `lincoln-04-birth-creation` appears in the Gettysburg "new birth" sentence.
-  Current classification: local high-salience mutation from preservation toward
-  renewal.
-- `lincoln-06-providence-theodicy` appears in the Second Inaugural evidence.
-  Current classification: reorganization toward providential accounting and
-  shared moral judgment in the final-reconciliation stage.
-- Clusters without current CMT mapping evidence should be treated as uncoded in
-  this sample, not as disappearing from Lincoln's metaphor system.
+- `am-rev-02-people-republic` appears in 26 mapping(s) across 2 document(s) dated 1776-01, 1776-07-04. Current classification: recurring across dates; 23 high-salience mapping(s).
+  Representative metaphor(s): FREEDOM IS BODY, INDEPENDENCE IS BIRTH GENERATION, INDEPENDENCE IS SACRIFICE.
+- `am-rev-06-union-founding-memory` appears in 17 mapping(s) across 2 document(s) dated 1776-01, 1776-07-04. Current classification: recurring across dates; 5 high-salience mapping(s).
+  Representative metaphor(s): GOVERNMENT IS BODY, POLITICAL ORDER IS BODY, POLITICAL ORDER IS OBJECT MATERIAL.
+- `am-rev-01-liberty-tyranny` appears in 12 mapping(s) across 2 document(s) dated 1776-01, 1776-07-04. Current classification: recurring across dates; 9 high-salience mapping(s).
+  Representative metaphor(s): ENEMY IS BODY, ENEMY IS WAR COMBAT, FREEDOM IS SLAVERY BONDAGE.
+- `am-rev-04-providence-covenant` appears in 3 mapping(s) across 1 document(s) dated 1776-01. Current classification: localized in current evidence; 3 high-salience mapping(s).
+  Representative metaphor(s): GOVERNMENT IS RELIGION PROVIDENCE.
+- `am-rev-03-founding-sacrifice` appears in 2 mapping(s) across 1 document(s) dated 1776-07-04. Current classification: localized in current evidence; 1 high-salience mapping(s).
+  Representative metaphor(s): SACRIFICE IS RELIGION PROVIDENCE.
+- `am-rev-05-virtue-corruption` appears in 1 mapping(s) across 1 document(s) dated 1776-01. Current classification: localized in current evidence; 1 high-salience mapping(s).
+  Representative metaphor(s): SOCIAL BODY IS MECHANICS.
+- Clusters without current CMT mapping evidence should be treated as uncoded in this sample, not as disappearing from the case's metaphor system.

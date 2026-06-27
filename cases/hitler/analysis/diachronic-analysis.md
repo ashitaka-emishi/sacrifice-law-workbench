@@ -1,9 +1,9 @@
 # Diachronic Analysis: hitler
 
-Generated: 2026-06-17T01:25:15
+Generated: 2026-06-27T02:50:50
 
-Status: provisional; based on reviewed Lincoln MIPVU pilot evidence and CMT
-mapping records.
+Status: provisional; based on reviewed case-local MIPVU evidence and CMT mapping
+records.
 
 ## Timeline
 
@@ -77,17 +77,12 @@ mapping records.
 
 ## Change Notes
 
-- `lincoln-01-body-organism` appears in the 1838 Lyceum evidence and again in
-  the Gettysburg democratic-survival language. Current classification:
-  stable/reactivated, not yet fully measured across the whole corpus.
-- `lincoln-08-sacrificial-death-gift` is concentrated in the Gettysburg burial
-  and dedication evidence. Current classification: intensifying at the
-  peak-war-sacrifice stage, pending fuller review.
-- `lincoln-04-birth-creation` appears in the Gettysburg "new birth" sentence.
-  Current classification: local high-salience mutation from preservation toward
-  renewal.
-- `lincoln-06-providence-theodicy` appears in the Second Inaugural evidence.
-  Current classification: reorganization toward providential accounting and
-  shared moral judgment in the final-reconciliation stage.
-- Clusters without current CMT mapping evidence should be treated as uncoded in
-  this sample, not as disappearing from Lincoln's metaphor system.
+- `hitler-01-volk-racial-body` appears in 40 mapping(s) across 7 document(s) dated 1925, 1926, 1941-06-22. Current classification: recurring across dates; 20 high-salience mapping(s).
+  Representative metaphor(s): POLITICAL ORDER IS RITUAL RELIGION, PURIFICATION IS NATURE ORGANISM, RACIAL IDENTITY IS BODY.
+- `hitler-03-jew-parasite-disease` appears in 16 mapping(s) across 7 document(s) dated 1925, 1926, 1939-01-30, 1941-06-22. Current classification: recurring across dates.
+  Representative metaphor(s): PURIFICATION IS PHYSICAL DESTRUCTION.
+- `hitler-02-fuhrer-embodiment` appears in 6 mapping(s) across 4 document(s) dated 1925, 1926. Current classification: recurring across dates.
+  Representative metaphor(s): NATION IS PERSON AGENCY, SACRIFICE IS PERSON AGENCY.
+- `hitler-06-sacrifice-martyrdom` appears in 3 mapping(s) across 1 document(s) dated 1925. Current classification: localized in current evidence; 3 high-salience mapping(s).
+  Representative metaphor(s): SACRIFICE IS RITUAL RELIGION.
+- Clusters without current CMT mapping evidence should be treated as uncoded in this sample, not as disappearing from the case's metaphor system.

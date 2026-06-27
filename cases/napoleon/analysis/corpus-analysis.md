@@ -1,6 +1,6 @@
 # Corpus-Assisted Analysis: napoleon
 
-Generated: 2026-06-17T01:25:15
+Generated: 2026-06-27T02:50:50
 
 Status: draft analysis from MIPVU-backed CMT mappings.
 
@@ -34,8 +34,7 @@ counts of mapping records, not counts of every metaphor in the full corpus.
 | napoleon-01-glory-destiny | 6 | 4 | military-bulletin-proclamation |  | 3 | 0.705 |
 | napoleon-02-army-body | 8 | 6 | military-bulletin-proclamation |  | 1 | 0.766 |
 | napoleon-03-emperor-embodiment | 1 | 1 | military-bulletin-proclamation |  | 1 | 0.88 |
-| napoleon-05-soldier-sacrifice | 3 | 2 | military-bulletin-proclamation |  | 3 | 0.81 |
-| napoleon-06-enemy-obstacle | 1 | 1 | military-bulletin-proclamation |  | 0 | 0.7 |
+| napoleon-05-soldier-sacrifice | 4 | 3 | military-bulletin-proclamation |  | 3 | 0.782 |
 
 ## Salience Review
 
@@ -44,22 +43,22 @@ counts of mapping records, not counts of every metaphor in the full corpus.
 | napoleon-cmt-001 | high | 1 | 8 | high | sacrifice |
 | napoleon-cmt-002 | high | 1 | 1 | local | sacrifice;obligation |
 | napoleon-cmt-003 | medium | 3 | 6 | high | legitimation |
-| napoleon-cmt-004 | high | 3 | 3 | high | sacrifice |
+| napoleon-cmt-004 | high | 3 | 4 | high | sacrifice |
 | napoleon-cmt-005 | medium | 4 | 8 | high | legitimation |
 | napoleon-cmt-006 | medium | 3 | 6 | high | legitimation |
 | napoleon-cmt-007 | medium | 3 | 6 | high | legitimation |
 | napoleon-cmt-008 | high | 3 | 6 | high | legitimation |
 | napoleon-cmt-009 | medium | 1 | 8 | high | legitimation |
 | napoleon-cmt-010 | medium | 4 | 8 | high | legitimation |
-| napoleon-cmt-011 | high | 3 | 3 | high | sacrifice |
-| napoleon-cmt-012 | high | 3 | 3 | high | sacrifice |
+| napoleon-cmt-011 | high | 3 | 4 | high | sacrifice |
+| napoleon-cmt-012 | high | 3 | 4 | high | sacrifice |
 | napoleon-cmt-013 | medium | 2 | 8 | high | legitimation |
 | napoleon-cmt-014 | medium | 4 | 8 | high | legitimation |
 | napoleon-cmt-015 | high | 3 | 6 | high | legitimation |
 | napoleon-cmt-016 | medium | 4 | 8 | high | legitimation |
 | napoleon-cmt-017 | high | 3 | 6 | high | legitimation |
 | napoleon-cmt-018 | medium | 2 | 8 | high | legitimation |
-| napoleon-cmt-019 | medium | 1 | 1 | local | legitimation |
+| napoleon-cmt-019 | medium | 1 | 4 | high | legitimation |
 
 ## Claim Discipline
 
