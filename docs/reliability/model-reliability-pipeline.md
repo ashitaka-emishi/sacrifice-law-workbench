@@ -74,7 +74,16 @@ npm run model-reliability:external-run -- \
   --dry-run
 ```
 
-Real provider calls read credentials only from environment variables:
+Real provider calls read credentials from exported environment variables or
+from a local `.env` file at the repository root. The `.env` file is ignored by
+git and must stay local:
+
+```dotenv
+OPENAI_API_KEY=...
+ANTHROPIC_API_KEY=...
+```
+
+Exported environment variables take precedence over `.env` values:
 
 ```bash
 export OPENAI_API_KEY=...
@@ -98,6 +107,11 @@ npm run model-reliability:external-run -- \
   --setting max_tokens=12000
 ```
 
+Use `--env-file /path/to/provider.env` for an alternate local dotenv file, or
+`--no-env-file` to require exported environment variables only. The runner reads
+only the requested key name, defaults to `OPENAI_API_KEY` or
+`ANTHROPIC_API_KEY`, and still supports `--api-key-env CUSTOM_KEY`.
+
 The runner validates the returned JSON with the existing submission contract
 and packet-alignment checks before reporting success. It does not ingest the
 file automatically. After reviewing the local output path, ingest it explicitly:
@@ -109,7 +123,9 @@ npm run model-reliability:ingest -- --case lincoln --json reports/tmp/model-reli
 Use `--mock-response /path/to/submission.json` for tests or rehearsals without
 external API calls. Never place API keys, account identifiers, session URLs, or
 personal identifiers in `--setting`; settings are copied into the submission
-envelope as non-secret run metadata.
+envelope as non-secret run metadata. The runner must not print, serialize, or
+write provider credentials to prompts, dry-run templates, submissions,
+validation reports, logs, or generated artifacts.
 
 Every command writes only beneath
 `cases/<case_id>/quality/model-reliability/`. Accepted metadata, corpus,

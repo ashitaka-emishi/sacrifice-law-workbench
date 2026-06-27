@@ -480,6 +480,90 @@ def load_mock_response(path: Path) -> str:
     return path.read_text(encoding="utf-8")
 
 
+def _strip_inline_comment(value: str) -> str:
+    in_single = False
+    in_double = False
+    escaped = False
+    for index, char in enumerate(value):
+        if escaped:
+            escaped = False
+            continue
+        if char == "\\" and in_double:
+            escaped = True
+            continue
+        if char == "'" and not in_double:
+            in_single = not in_single
+            continue
+        if char == '"' and not in_single:
+            in_double = not in_double
+            continue
+        if char == "#" and not in_single and not in_double:
+            if index == 0 or value[index - 1].isspace():
+                return value[:index].rstrip()
+    return value.strip()
+
+
+def _unquote_dotenv_value(value: str) -> str:
+    value = _strip_inline_comment(value)
+    if len(value) >= 2 and value[0] == value[-1] and value[0] in {"'", '"'}:
+        inner = value[1:-1]
+        if value[0] == '"':
+            escapes = {"n": "\n", "r": "\r", "t": "\t", "\\": "\\", '"': '"'}
+            rendered: list[str] = []
+            escaped = False
+            for char in inner:
+                if escaped:
+                    rendered.append(escapes.get(char, f"\\{char}"))
+                    escaped = False
+                elif char == "\\":
+                    escaped = True
+                else:
+                    rendered.append(char)
+            if escaped:
+                rendered.append("\\")
+            return "".join(rendered)
+        return inner
+    return value
+
+
+def load_dotenv_values(path: Path) -> dict[str, str]:
+    if not path.exists():
+        return {}
+    if not path.is_file():
+        raise ExternalModelRunnerError(f"dotenv path is not a file: {path}")
+    values: dict[str, str] = {}
+    for line_number, raw_line in enumerate(path.read_text(encoding="utf-8").splitlines(), start=1):
+        line = raw_line.strip()
+        if not line or line.startswith("#"):
+            continue
+        if line.startswith("export "):
+            line = line[len("export ") :].lstrip()
+        if "=" not in line:
+            raise ExternalModelRunnerError(f"{path}:{line_number}: dotenv entry must be KEY=value")
+        key, raw_value = line.split("=", 1)
+        key = key.strip()
+        if not re.fullmatch(r"[A-Za-z_][A-Za-z0-9_]*", key):
+            raise ExternalModelRunnerError(f"{path}:{line_number}: unsafe dotenv key `{key}`")
+        values[key] = _unquote_dotenv_value(raw_value.strip())
+    return values
+
+
+def resolve_api_key(
+    *,
+    env_name: str,
+    root: Path,
+    env_file: Path | None,
+    no_env_file: bool,
+) -> str | None:
+    exported = os.environ.get(env_name)
+    if exported:
+        return exported
+    if no_env_file:
+        return None
+    dotenv_path = env_file or (root / ".env")
+    return load_dotenv_values(dotenv_path.resolve()).get(env_name)
+
+
 def run(args: argparse.Namespace) -> int:
     root = args.root.resolve()
     if args.provider not in PROVIDERS:
@@ -535,9 +619,16 @@ def run(args: argparse.Namespace) -> int:
         env_name = args.api_key_env or (
             "OPENAI_API_KEY" if args.provider == "openai" else "ANTHROPIC_API_KEY"
         )
-        api_key = os.environ.get(env_name)
+        api_key = resolve_api_key(
+            env_name=env_name,
+            root=root,
+            env_file=args.env_file,
+            no_env_file=args.no_env_file,
+        )
         if not api_key:
-            raise ExternalModelRunnerError(f"missing API key environment variable `{env_name}`")
+            raise ExternalModelRunnerError(
+                f"missing API key `{env_name}` in environment or dotenv file"
+            )
         if args.provider == "openai":
             raw_provider_text = call_openai(
                 api_key=api_key,
@@ -604,6 +695,16 @@ def build_parser() -> argparse.ArgumentParser:
         help="Non-secret provider/run setting as KEY=JSON_VALUE, e.g. temperature=0",
     )
     parser.add_argument("--api-key-env")
+    parser.add_argument(
+        "--env-file",
+        type=Path,
+        help="Read API keys from this dotenv file after checking exported environment variables.",
+    )
+    parser.add_argument(
+        "--no-env-file",
+        action="store_true",
+        help="Do not read the default repository .env file or any dotenv file.",
+    )
     parser.add_argument("--output-root", type=Path, default=DEFAULT_OUTPUT_ROOT)
     parser.add_argument("--dry-run", action="store_true")
     parser.add_argument("--mock-response", type=Path)

@@ -1,10 +1,11 @@
 from __future__ import annotations
 
 import json
+import os
 import shutil
 import tempfile
 import unittest
-from contextlib import redirect_stderr
+from contextlib import redirect_stderr, redirect_stdout
 from io import StringIO
 from pathlib import Path
 from unittest.mock import patch
@@ -14,6 +15,7 @@ from scripts.model_reliability.run_external_model import (
     ExternalModelRunnerError,
     call_anthropic,
     call_openai,
+    load_dotenv_values,
     main,
 )
 from test.test_model_reliability_packets import fixture_root
@@ -244,6 +246,292 @@ class ExternalModelRunnerTest(unittest.TestCase):
 
             self.assertEqual(result, 2)
             self.assertFalse(output.exists())
+
+    def test_openai_key_can_be_read_from_default_dotenv_without_leaking(self) -> None:
+        with tempfile.TemporaryDirectory() as temp_dir:
+            base = Path(temp_dir)
+            root = runner_root(base)
+            output = base / "reports" / "tmp" / "model-reliability"
+            secret = "dotenv-secret-openai"
+            (root / ".env").write_text(f"OPENAI_API_KEY={secret}\n", encoding="utf-8")
+            mock = adjusted_valid_mock(
+                base / "valid.json",
+                provider="openai",
+                model="gpt-test",
+                model_version=None,
+                run_id="dotenv-001",
+                submission_id="demo-dotenv-001",
+                completed_at="2026-06-18T12:00:00Z",
+            )
+            captured: dict[str, str] = {}
+
+            def fake_call_openai(**kwargs: object) -> str:
+                captured["api_key"] = str(kwargs["api_key"])
+                return mock.read_text(encoding="utf-8")
+
+            stdout = StringIO()
+            with patch.dict(os.environ, {}, clear=True), patch(
+                "scripts.model_reliability.run_external_model.call_openai",
+                side_effect=fake_call_openai,
+            ), redirect_stdout(stdout):
+                result = main(
+                    [
+                        "--root",
+                        str(root),
+                        "--case",
+                        "demo",
+                        "--task-layer",
+                        "cmt",
+                        "--provider",
+                        "openai",
+                        "--model",
+                        "gpt-test",
+                        "--run-id",
+                        "dotenv-001",
+                        "--submission-id",
+                        "demo-dotenv-001",
+                        "--completed-at",
+                        "2026-06-18T12:00:00Z",
+                        "--language-capability",
+                        "fr",
+                        "--language-capability",
+                        "en",
+                        "--setting",
+                        "temperature=0",
+                        "--no-disable-tools-note",
+                        "--output-root",
+                        str(output),
+                    ]
+                )
+
+            self.assertEqual(result, 0)
+            self.assertEqual(captured["api_key"], secret)
+            rendered_output = stdout.getvalue()
+            self.assertNotIn(secret, rendered_output)
+            for path in output.glob("*"):
+                self.assertNotIn(secret, path.read_text(encoding="utf-8"))
+
+    def test_exported_environment_key_wins_over_dotenv(self) -> None:
+        with tempfile.TemporaryDirectory() as temp_dir:
+            base = Path(temp_dir)
+            root = runner_root(base)
+            output = base / "reports" / "tmp" / "model-reliability"
+            (root / ".env").write_text("OPENAI_API_KEY=dotenv-secret\n", encoding="utf-8")
+            mock = adjusted_valid_mock(
+                base / "valid.json",
+                provider="openai",
+                model="gpt-test",
+                model_version=None,
+                run_id="env-wins-001",
+                submission_id="demo-env-wins-001",
+                completed_at="2026-06-18T12:00:00Z",
+            )
+            captured: dict[str, str] = {}
+
+            def fake_call_openai(**kwargs: object) -> str:
+                captured["api_key"] = str(kwargs["api_key"])
+                return mock.read_text(encoding="utf-8")
+
+            with patch.dict(os.environ, {"OPENAI_API_KEY": "exported-secret"}, clear=True), patch(
+                "scripts.model_reliability.run_external_model.call_openai",
+                side_effect=fake_call_openai,
+            ), redirect_stdout(StringIO()):
+                result = main(
+                    [
+                        "--root",
+                        str(root),
+                        "--case",
+                        "demo",
+                        "--task-layer",
+                        "cmt",
+                        "--provider",
+                        "openai",
+                        "--model",
+                        "gpt-test",
+                        "--run-id",
+                        "env-wins-001",
+                        "--submission-id",
+                        "demo-env-wins-001",
+                        "--completed-at",
+                        "2026-06-18T12:00:00Z",
+                        "--language-capability",
+                        "fr",
+                        "--language-capability",
+                        "en",
+                        "--setting",
+                        "temperature=0",
+                        "--no-disable-tools-note",
+                        "--output-root",
+                        str(output),
+                    ]
+                )
+
+            self.assertEqual(result, 0)
+            self.assertEqual(captured["api_key"], "exported-secret")
+
+    def test_alternate_env_file_supplies_custom_api_key_name(self) -> None:
+        with tempfile.TemporaryDirectory() as temp_dir:
+            base = Path(temp_dir)
+            root = runner_root(base)
+            output = base / "reports" / "tmp" / "model-reliability"
+            env_file = base / "provider.env"
+            env_file.write_text("CUSTOM_OPENAI_KEY=alternate-secret\n", encoding="utf-8")
+            mock = adjusted_valid_mock(
+                base / "valid.json",
+                provider="openai",
+                model="gpt-test",
+                model_version=None,
+                run_id="alternate-env-001",
+                submission_id="demo-alternate-env-001",
+                completed_at="2026-06-18T12:00:00Z",
+            )
+            captured: dict[str, str] = {}
+
+            def fake_call_openai(**kwargs: object) -> str:
+                captured["api_key"] = str(kwargs["api_key"])
+                return mock.read_text(encoding="utf-8")
+
+            with patch.dict(os.environ, {}, clear=True), patch(
+                "scripts.model_reliability.run_external_model.call_openai",
+                side_effect=fake_call_openai,
+            ), redirect_stdout(StringIO()):
+                result = main(
+                    [
+                        "--root",
+                        str(root),
+                        "--case",
+                        "demo",
+                        "--task-layer",
+                        "cmt",
+                        "--provider",
+                        "openai",
+                        "--model",
+                        "gpt-test",
+                        "--run-id",
+                        "alternate-env-001",
+                        "--submission-id",
+                        "demo-alternate-env-001",
+                        "--completed-at",
+                        "2026-06-18T12:00:00Z",
+                        "--language-capability",
+                        "fr",
+                        "--language-capability",
+                        "en",
+                        "--setting",
+                        "temperature=0",
+                        "--no-disable-tools-note",
+                        "--api-key-env",
+                        "CUSTOM_OPENAI_KEY",
+                        "--env-file",
+                        str(env_file),
+                        "--output-root",
+                        str(output),
+                    ]
+                )
+
+            self.assertEqual(result, 0)
+            self.assertEqual(captured["api_key"], "alternate-secret")
+
+    def test_no_env_file_disables_default_dotenv_lookup(self) -> None:
+        with tempfile.TemporaryDirectory() as temp_dir:
+            base = Path(temp_dir)
+            root = runner_root(base)
+            (root / ".env").write_text("OPENAI_API_KEY=dotenv-secret\n", encoding="utf-8")
+
+            with patch.dict(os.environ, {}, clear=True), redirect_stderr(StringIO()):
+                result = main(
+                    [
+                        "--root",
+                        str(root),
+                        "--case",
+                        "demo",
+                        "--task-layer",
+                        "cmt",
+                        "--provider",
+                        "openai",
+                        "--model",
+                        "gpt-test",
+                        "--no-env-file",
+                    ]
+                )
+
+            self.assertEqual(result, 2)
+
+    def test_missing_dotenv_file_is_safe_when_mocking(self) -> None:
+        with tempfile.TemporaryDirectory() as temp_dir:
+            base = Path(temp_dir)
+            root = runner_root(base)
+            output = base / "reports" / "tmp" / "model-reliability"
+            mock = adjusted_valid_mock(
+                base / "valid.json",
+                provider="anthropic",
+                model="claude-test",
+                model_version="fixture-v1",
+                run_id="mock-001",
+                submission_id="demo-mock-001",
+                completed_at="2026-06-18T12:00:00Z",
+            )
+
+            with patch.dict(os.environ, {}, clear=True):
+                result = main(
+                    [
+                        "--root",
+                        str(root),
+                        "--case",
+                        "demo",
+                        "--task-layer",
+                        "cmt",
+                        "--provider",
+                        "anthropic",
+                        "--model",
+                        "claude-test",
+                        "--model-version",
+                        "fixture-v1",
+                        "--run-id",
+                        "mock-001",
+                        "--submission-id",
+                        "demo-mock-001",
+                        "--completed-at",
+                        "2026-06-18T12:00:00Z",
+                        "--language-capability",
+                        "fr",
+                        "--language-capability",
+                        "en",
+                        "--setting",
+                        "temperature=0",
+                        "--no-disable-tools-note",
+                        "--output-root",
+                        str(output),
+                        "--mock-response",
+                        str(mock),
+                    ]
+                )
+
+            self.assertEqual(result, 0)
+
+    def test_alternate_dotenv_parser_supports_comments_and_quotes(self) -> None:
+        with tempfile.TemporaryDirectory() as temp_dir:
+            dotenv = Path(temp_dir) / "provider.env"
+            dotenv.write_text(
+                "\n".join(
+                    [
+                        "# local provider keys",
+                        "OPENAI_API_KEY=\"quoted secret\" # comment",
+                        "ANTHROPIC_API_KEY='anthropic#secret'",
+                        "export CUSTOM_KEY=custom-value",
+                        "BACKSLASH_KEY=\"keeps\\q-unknown\"",
+                    ]
+                )
+                + "\n",
+                encoding="utf-8",
+            )
+
+            values = load_dotenv_values(dotenv)
+
+            self.assertEqual(values["OPENAI_API_KEY"], "quoted secret")
+            self.assertEqual(values["ANTHROPIC_API_KEY"], "anthropic#secret")
+            self.assertEqual(values["CUSTOM_KEY"], "custom-value")
+            self.assertEqual(values["BACKSLASH_KEY"], "keeps\\q-unknown")
 
     def test_openai_request_uses_responses_api_without_tools(self) -> None:
         captured: dict[str, object] = {}
