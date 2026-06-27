@@ -92,6 +92,7 @@ npm run model-reliability:external-run -- \
   --task-layer cmt \
   --provider openai \
   --model <model-name> \
+  --http-timeout 600 \
   --setting temperature=0 \
   --setting max_output_tokens=12000
 ```
@@ -103,6 +104,7 @@ npm run model-reliability:external-run -- \
   --task-layer cmt \
   --provider anthropic \
   --model <model-name> \
+  --http-timeout 600 \
   --setting temperature=0 \
   --setting max_tokens=12000
 ```
@@ -111,6 +113,8 @@ Use `--env-file /path/to/provider.env` for an alternate local dotenv file, or
 `--no-env-file` to require exported environment variables only. The runner reads
 only the requested key name, defaults to `OPENAI_API_KEY` or
 `ANTHROPIC_API_KEY`, and still supports `--api-key-env CUSTOM_KEY`.
+Use `--http-timeout <seconds>` for large packet layers whose provider response
+may exceed the default 180-second HTTP read timeout.
 
 The runner validates the returned JSON with the existing submission contract
 and packet-alignment checks before reporting success. It does not ingest the

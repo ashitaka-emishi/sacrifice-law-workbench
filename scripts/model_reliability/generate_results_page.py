@@ -364,11 +364,12 @@ def render_results_page(cases: Sequence[Mapping[str, Any]]) -> str:
         executed = [layer for layer in TASK_LAYERS if _layer_valid_runs(case, layer) > 0]
         missing = [layer for layer in TASK_LAYERS if _layer_valid_runs(case, layer) == 0]
         if executed and missing:
+            missing_layers = ", ".join(f"`{_cell(layer)}`" for layer in missing)
+            verb = "remains" if len(missing) == 1 else "remain"
             layer_only.append(
                 f"`{_cell(case['case_id'])}` executed "
                 f"{', '.join(f'`{_cell(layer)}`' for layer in executed)} only; "
-                f"{', '.join(f'`{_cell(layer)}`' for layer in missing)} "
-                "remain designed but not executed."
+                f"{missing_layers} {verb} designed but not executed."
             )
     if designed:
         noun = "has" if len(designed) == 1 else "have"

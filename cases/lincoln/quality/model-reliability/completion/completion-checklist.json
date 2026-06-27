@@ -8,7 +8,7 @@
     {
       "category": "artifacts",
       "check_id": "validated-runs",
-      "detail": "2 validated run(s); at least two are required.",
+      "detail": "4 validated run(s); at least two are required.",
       "evidence": [
         "quality/model-reliability/status.json"
       ],
@@ -87,49 +87,53 @@
     {
       "category": "repository",
       "check_id": "repository-validation",
-      "detail": "All required repository validation commands passed.",
+      "detail": "Run the completion command with --run-repository-validation.",
       "evidence": [
         "npm run status",
         "npm run validate",
         "npm run pipeline",
         "quarto render"
       ],
-      "status": "pass"
+      "status": "fail"
     }
   ],
   "generator": "scripts/model_reliability/completion_checklist.py",
   "required_commands": [
     {
       "command": "npm run status",
-      "exit_code": 0,
-      "status": "pass"
+      "exit_code": null,
+      "status": "not-passed"
     },
     {
       "command": "npm run validate",
-      "exit_code": 0,
-      "status": "pass"
+      "exit_code": null,
+      "status": "not-passed"
     },
     {
       "command": "npm run pipeline",
-      "exit_code": 0,
-      "status": "pass"
+      "exit_code": null,
+      "status": "not-passed"
     },
     {
       "command": "quarto render",
-      "exit_code": 0,
-      "status": "pass"
+      "exit_code": null,
+      "status": "not-passed"
     }
   ],
   "run_ids": [
     "issue147-anthropic-cmt-final2-20260627",
-    "issue147-openai-cmt-final2-20260627"
+    "issue147-openai-cmt-final2-20260627",
+    "issue157-anthropic-interpretation-20260627",
+    "issue157-openai-interpretation-20260627"
   ],
   "schema_version": "1.0.0",
-  "status": "complete",
+  "status": "blocked",
   "summary": {
     "check_count": 8,
-    "failed_check_ids": [],
-    "failed_count": 0,
-    "passed_count": 8
+    "failed_check_ids": [
+      "repository-validation"
+    ],
+    "failed_count": 1,
+    "passed_count": 7
   }
 }

@@ -13,6 +13,7 @@ import argparse
 import json
 import os
 import re
+import socket
 import sys
 import urllib.error
 import urllib.request
@@ -377,7 +378,13 @@ def build_provider_messages(packet: PacketRun, template: Mapping[str, Any]) -> t
     return system, user
 
 
-def _request_json(url: str, headers: Mapping[str, str], body: Mapping[str, Any]) -> dict[str, Any]:
+def _request_json(
+    url: str,
+    headers: Mapping[str, str],
+    body: Mapping[str, Any],
+    *,
+    timeout_seconds: float = 180.0,
+) -> dict[str, Any]:
     request = urllib.request.Request(
         url,
         data=json.dumps(body, ensure_ascii=False).encode("utf-8"),
@@ -385,11 +392,15 @@ def _request_json(url: str, headers: Mapping[str, str], body: Mapping[str, Any])
         method="POST",
     )
     try:
-        with urllib.request.urlopen(request, timeout=180) as response:
+        with urllib.request.urlopen(request, timeout=timeout_seconds) as response:
             raw = response.read().decode("utf-8")
     except urllib.error.HTTPError as exc:
         detail = exc.read().decode("utf-8", errors="replace")
         raise ExternalModelRunnerError(f"provider HTTP {exc.code}: {detail}") from exc
+    except (TimeoutError, socket.timeout) as exc:
+        raise ExternalModelRunnerError(
+            f"provider request timed out after {timeout_seconds:g} seconds"
+        ) from exc
     except urllib.error.URLError as exc:
         raise ExternalModelRunnerError(f"provider request failed: {exc}") from exc
     try:
@@ -408,6 +419,7 @@ def call_openai(
     system: str,
     user: str,
     settings: Mapping[str, Any],
+    timeout_seconds: float = 180.0,
 ) -> str:
     body: dict[str, Any] = {
         "model": model,
@@ -425,6 +437,7 @@ def call_openai(
         OPENAI_RESPONSES_URL,
         {"Authorization": f"Bearer {api_key}"},
         body,
+        timeout_seconds=timeout_seconds,
     )
     output_text = data.get("output_text")
     if isinstance(output_text, str) and output_text.strip():
@@ -451,6 +464,7 @@ def call_anthropic(
     system: str,
     user: str,
     settings: Mapping[str, Any],
+    timeout_seconds: float = 180.0,
 ) -> str:
     try:
         max_tokens = int(settings.get("max_tokens", settings.get("max_output_tokens", 8192)))
@@ -471,6 +485,7 @@ def call_anthropic(
         ANTHROPIC_MESSAGES_URL,
         {"x-api-key": api_key, "anthropic-version": ANTHROPIC_VERSION},
         body,
+        timeout_seconds=timeout_seconds,
     )
     fragments = [
         item.get("text")
@@ -688,6 +703,8 @@ def run(args: argparse.Namespace) -> int:
     root = args.root.resolve()
     if args.provider not in PROVIDERS:
         raise ExternalModelRunnerError(f"unsupported provider `{args.provider}`")
+    if args.http_timeout <= 0:
+        raise ExternalModelRunnerError("--http-timeout must be positive")
     settings = parse_settings(args.setting)
     if args.disable_tools_note:
         settings.setdefault("tools_disabled", True)
@@ -756,6 +773,7 @@ def run(args: argparse.Namespace) -> int:
                 system=system,
                 user=user,
                 settings=settings,
+                timeout_seconds=args.http_timeout,
             )
         else:
             raw_provider_text = call_anthropic(
@@ -764,6 +782,7 @@ def run(args: argparse.Namespace) -> int:
                 system=system,
                 user=user,
                 settings=settings,
+                timeout_seconds=args.http_timeout,
             )
 
     submission = extract_json_object(raw_provider_text)
@@ -826,6 +845,12 @@ def build_parser() -> argparse.ArgumentParser:
         help="Do not read the default repository .env file or any dotenv file.",
     )
     parser.add_argument("--output-root", type=Path, default=DEFAULT_OUTPUT_ROOT)
+    parser.add_argument(
+        "--http-timeout",
+        type=float,
+        default=180.0,
+        help="Provider HTTP read timeout in seconds.",
+    )
     parser.add_argument("--dry-run", action="store_true")
     parser.add_argument("--mock-response", type=Path)
     parser.add_argument(

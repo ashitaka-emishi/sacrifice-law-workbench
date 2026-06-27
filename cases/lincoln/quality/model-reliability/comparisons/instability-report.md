@@ -2,64 +2,58 @@
 
 > Diagnostic stress-test output only. Model agreement does not validate an interpretation or alter accepted annotations.
 
-- Compared runs: 2
-- Substantive disagreements: 37
-- Unanimous model challenges to the accepted reference: 11
-- High-priority human review items: 11
-- Possible codebook ambiguities: 36
+- Compared runs: 4
+- Substantive disagreements: 160
+- Unanimous model challenges to the accepted reference: 0
+- High-priority human review items: 0
+- Possible codebook ambiguities: 6
 
 ## Layer instability
 
 | task_layer | disagreements |
 |---|---:|
-| `cmt` | 37 |
+| `cmt` | 55 |
+| `interpretation` | 105 |
 
 ## Category instability
 
 | category | disagreements |
 |---|---:|
-| `confidence-instability` | 1 |
-| `context-instability` | 1 |
-| `domain-instability` | 8 |
-| `reference-challenge` | 11 |
-| `semantic-instability` | 14 |
-| `target-domain-instability` | 2 |
+| `agency-absence-instability` | 63 |
+| `cluster-instability` | 7 |
+| `confidence-instability` | 7 |
+| `context-instability` | 6 |
+| `domain-instability` | 14 |
+| `obligation-instability` | 7 |
+| `semantic-instability` | 42 |
+| `target-domain-instability` | 7 |
+| `violence-instability` | 7 |
 
 ## Document instability
 
 | document_id | disagreements |
 |---|---:|
-| `lincoln-gettysburg-address` | 11 |
-| `lincoln-lyceum-address` | 21 |
-| `lincoln-second-inaugural` | 5 |
+| `lincoln-gettysburg-address` | 46 |
+| `lincoln-lyceum-address` | 91 |
+| `lincoln-second-inaugural` | 23 |
 
 ## Cluster instability
 
 | cluster_id | disagreements |
 |---|---:|
-| `lincoln-01-body-organism` | 11 |
-| `lincoln-08-sacrificial-death-gift` | 5 |
-| `unassigned` | 21 |
+| `lincoln-01-body-organism` | 45 |
+| `lincoln-08-sacrificial-death-gift` | 23 |
+| `unassigned` | 92 |
 
 ## Language instability
 
 | source_language | disagreements |
 |---|---:|
-| `en` | 37 |
+| `en` | 160 |
 
 ## Human-review priorities
 
-- `disagreement-0001` — **reference-challenge** on `lincoln-ann-003`: Do the unanimous model values for `cmt.cluster_id` on `lincoln-ann-003` expose a reference error, a codebook ambiguity, or shared model bias?
-- `disagreement-0005` — **reference-challenge** on `lincoln-ann-003`: Do the unanimous model values for `cmt.target_domain` on `lincoln-ann-003` expose a reference error, a codebook ambiguity, or shared model bias?
-- `disagreement-0013` — **reference-challenge** on `lincoln-ann-017`: Do the unanimous model values for `cmt.source_domain_primary` on `lincoln-ann-017` expose a reference error, a codebook ambiguity, or shared model bias?
-- `disagreement-0015` — **reference-challenge** on `lincoln-ann-017`: Do the unanimous model values for `cmt.target_domain` on `lincoln-ann-017` expose a reference error, a codebook ambiguity, or shared model bias?
-- `disagreement-0017` — **reference-challenge** on `lincoln-ann-043`: Do the unanimous model values for `cmt.cluster_id` on `lincoln-ann-043` expose a reference error, a codebook ambiguity, or shared model bias?
-- `disagreement-0022` — **reference-challenge** on `lincoln-ann-051`: Do the unanimous model values for `cmt.cluster_id` on `lincoln-ann-051` expose a reference error, a codebook ambiguity, or shared model bias?
-- `disagreement-0027` — **reference-challenge** on `lincoln-ann-054`: Do the unanimous model values for `cmt.cluster_id` on `lincoln-ann-054` expose a reference error, a codebook ambiguity, or shared model bias?
-- `disagreement-0030` — **reference-challenge** on `lincoln-ann-054`: Do the unanimous model values for `cmt.source_domain_primary` on `lincoln-ann-054` expose a reference error, a codebook ambiguity, or shared model bias?
-- `disagreement-0035` — **reference-challenge** on `lincoln-ann-064`: Do the unanimous model values for `cmt.source_domain_primary` on `lincoln-ann-064` expose a reference error, a codebook ambiguity, or shared model bias?
-- `disagreement-0036` — **reference-challenge** on `lincoln-ann-064`: Do the unanimous model values for `cmt.source_domain_secondary` on `lincoln-ann-064` expose a reference error, a codebook ambiguity, or shared model bias?
-- `disagreement-0037` — **reference-challenge** on `lincoln-ann-064`: Do the unanimous model values for `cmt.target_domain` on `lincoln-ann-064` expose a reference error, a codebook ambiguity, or shared model bias?
+- No high-priority disagreements.
 
 ## Interpretation limits
 

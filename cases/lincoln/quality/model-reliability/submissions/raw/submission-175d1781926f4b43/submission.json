@@ -1,0 +1,632 @@
+{
+  "case_id": "lincoln",
+  "code_revision": "7efa033815514a87b5a1ddc4798c6fa9c78e775c",
+  "items": [
+    {
+      "case_fields": {},
+      "case_id": "lincoln",
+      "confidence": 0.62,
+      "document_id": "lincoln-gettysburg-address",
+      "interpretation": {
+        "absence": {
+          "displacement_mechanism": "Nativity and procreative metaphor ('brought forth', 'conceived') relocates originary agency to a paternal generational figure, suppressing contestation or plurality in founding.",
+          "expected_presence": "The nation as active agent in its own founding is grammatically displaced; it appears only as object of paternal action.",
+          "possible_absence": "Human labor, conflict, and displaced populations constitutive of the founding are absent from the lexical field.",
+          "status": "present"
+        },
+        "agency": {
+          "agents": [
+            "our fathers"
+          ],
+          "beneficiaries": [
+            "implied posterity",
+            "the nation itself"
+          ],
+          "excluded_agents": [
+            "the nation as self-constituting subject"
+          ],
+          "patients": [
+            "new nation"
+          ],
+          "sacrificial_subjects": []
+        },
+        "functions": {
+          "enemy_as_bringer_of_death": "absent",
+          "obligatory_frame": "present",
+          "purification": "uncertain",
+          "sacred_object": "present",
+          "sacrificial_body": "absent",
+          "violence_logic": "absent"
+        }
+      },
+      "item_id": "lincoln-multi-model-v1-packet:interpretation:lincoln-ann-051",
+      "lexical_units": [
+        {
+          "char_offset_end": 51,
+          "char_offset_start": 44,
+          "lexical_unit_id": "lincoln-gettysburg-address_s01_p01_s01_lu009",
+          "source_text": "brought",
+          "span_id": "lincoln-ann-051"
+        },
+        {
+          "char_offset_end": 57,
+          "char_offset_start": 52,
+          "lexical_unit_id": "lincoln-gettysburg-address_s01_p01_s01_lu010",
+          "source_text": "forth",
+          "span_id": "lincoln-ann-051"
+        },
+        {
+          "char_offset_end": 101,
+          "char_offset_start": 92,
+          "lexical_unit_id": "lincoln-gettysburg-address_s01_p01_s01_lu017",
+          "source_text": "conceived",
+          "span_id": "lincoln-ann-051"
+        },
+        {
+          "char_offset_end": 127,
+          "char_offset_start": 118,
+          "lexical_unit_id": "lincoln-gettysburg-address_s01_p01_s01_lu021",
+          "source_text": "dedicated",
+          "span_id": "lincoln-ann-051"
+        }
+      ],
+      "rival_reading": "A purely epideictic or deliberative reading treats 'brought forth' and 'conceived' as conventional political founding rhetoric with no operative sacred-object function; 'dedicated' is then simply a statement of civic purpose, not an act of consecration. Under this reading, obligatory_frame is also absent and the span is a straightforward temporal-historical claim.",
+      "sentence_id": "lincoln-gettysburg-address_s01_p01_s01",
+      "sentence_source_text": "Four score and seven years ago, our fathers brought forth upon this continent a new nation: conceived in liberty, and dedicated to the proposition that all men are created equal.",
+      "source_language": "en",
+      "source_risk_flags": [
+        "gutenberg-ellipsis-style",
+        "multiple-manuscript-versions-exist"
+      ],
+      "span_ids": [
+        "lincoln-ann-051"
+      ],
+      "task_layer": "interpretation",
+      "uncertainty": {
+        "note": "The procreative-nativity cluster ('brought forth', 'conceived') is lexically rich but its Koenigsbergian function assignment depends on whether the nation or the proposition is read as the sacred object. Multiple manuscript versions introduce additional instability in the precise lexical form, though the functional cluster is consistent across known versions.",
+        "status": "material"
+      }
+    },
+    {
+      "case_fields": {},
+      "case_id": "lincoln",
+      "confidence": 0.67,
+      "document_id": "lincoln-gettysburg-address",
+      "interpretation": {
+        "absence": {
+          "displacement_mechanism": "Antithesis between 'note/remember' (assigned to words, to 'we') and 'forget' (negated for deeds, assigned to 'they') constitutes a structured absence: oratory effaces itself to consecrate the sacrificial act.",
+          "expected_presence": "The speaker's words ('what we say here') are performatively present but are declared memoritally absent, creating a rhetorical self-erasure.",
+          "possible_absence": "The cause for which the soldiers died is lexically displaced; the deeds ('what they did') are rendered unforgettable but their content is not named in this span.",
+          "status": "present"
+        },
+        "agency": {
+          "agents": [
+            "the world (as collective witness)"
+          ],
+          "beneficiaries": [
+            "the nation",
+            "posterity"
+          ],
+          "excluded_agents": [
+            "the speaker ('we') as effaced in favor of the dead"
+          ],
+          "patients": [
+            "the dead soldiers (displaced to 'they')"
+          ],
+          "sacrificial_subjects": [
+            "the dead ('they')"
+          ]
+        },
+        "functions": {
+          "enemy_as_bringer_of_death": "absent",
+          "obligatory_frame": "present",
+          "purification": "uncertain",
+          "sacred_object": "uncertain",
+          "sacrificial_body": "present",
+          "violence_logic": "uncertain"
+        }
+      },
+      "item_id": "lincoln-multi-model-v1-packet:interpretation:lincoln-ann-054",
+      "lexical_units": [
+        {
+          "char_offset_end": 9,
+          "char_offset_start": 4,
+          "lexical_unit_id": "lincoln-gettysburg-address_s01_p04_s03_lu002",
+          "source_text": "world",
+          "span_id": "lincoln-ann-054"
+        },
+        {
+          "char_offset_end": 26,
+          "char_offset_start": 22,
+          "lexical_unit_id": "lincoln-gettysburg-address_s01_p04_s03_lu005",
+          "source_text": "note",
+          "span_id": "lincoln-ann-054"
+        },
+        {
+          "char_offset_end": 45,
+          "char_offset_start": 37,
+          "lexical_unit_id": "lincoln-gettysburg-address_s01_p04_s03_lu008",
+          "source_text": "remember",
+          "span_id": "lincoln-ann-054"
+        },
+        {
+          "char_offset_end": 88,
+          "char_offset_start": 82,
+          "lexical_unit_id": "lincoln-gettysburg-address_s01_p04_s03_lu017",
+          "source_text": "forget",
+          "span_id": "lincoln-ann-054"
+        }
+      ],
+      "rival_reading": "A rhetorical-modesty topos reading holds that the 'world will little note' construction is a conventional captatio benevolentiae, not a functional sacred-object or sacrificial-body marker. Under this reading, the speaker simply defers to the soldiers out of decorum, and no Koenigsbergian function beyond obligatory_frame is activated.",
+      "sentence_id": "lincoln-gettysburg-address_s01_p04_s03",
+      "sentence_source_text": "The world will little note, nor long remember, what we say here, but it can never forget what they did here.",
+      "source_language": "en",
+      "source_risk_flags": [
+        "gutenberg-ellipsis-style",
+        "multiple-manuscript-versions-exist"
+      ],
+      "span_ids": [
+        "lincoln-ann-054"
+      ],
+      "task_layer": "interpretation",
+      "uncertainty": {
+        "note": "Whether 'forget' (negated) activates a purification function depends on whether the world's perpetual memory of the dead is read as constituting the nation's sacred ground. The multiple-manuscript flag introduces minor lexical uncertainty but does not destabilize the core antithesis.",
+        "status": "material"
+      }
+    },
+    {
+      "case_fields": {},
+      "case_id": "lincoln",
+      "confidence": 0.71,
+      "document_id": "lincoln-lyceum-address",
+      "interpretation": {
+        "absence": {
+          "displacement_mechanism": "The alpha-privative prefix cluster ('unprofaned', 'undecayed', 'untorn') converts the threat of violation into a defining condition of the sacred object's integrity, displacing violence into a counterfactual register.",
+          "expected_presence": "An explicit threat agent ('invader', 'usurpation') is named in the negative-prefix cluster but present only as a prospective violating force, structurally absent from the current moment.",
+          "possible_absence": "The content of the edifice—what liberty and equal rights consist of—is absent; the span names the vessel, not its substance.",
+          "status": "present"
+        },
+        "agency": {
+          "agents": [
+            "the founding generation ('theirs')",
+            "the present generation ('ours')"
+          ],
+          "beneficiaries": [
+            "the latest generation",
+            "posterity"
+          ],
+          "excluded_agents": [
+            "the invader (present only as threat, not as active agent in the span)"
+          ],
+          "patients": [
+            "the political edifice",
+            "liberty and equal rights"
+          ],
+          "sacrificial_subjects": []
+        },
+        "functions": {
+          "enemy_as_bringer_of_death": "present",
+          "obligatory_frame": "present",
+          "purification": "present",
+          "sacred_object": "present",
+          "sacrificial_body": "absent",
+          "violence_logic": "present"
+        }
+      },
+      "item_id": "lincoln-multi-model-v1-packet:interpretation:lincoln-ann-003",
+      "lexical_units": [
+        {
+          "char_offset_end": 134,
+          "char_offset_start": 128,
+          "lexical_unit_id": "lincoln-lyceum-address_s01_p04_s06_lu023",
+          "source_text": "uprear",
+          "span_id": "lincoln-ann-003"
+        },
+        {
+          "char_offset_end": 185,
+          "char_offset_start": 178,
+          "lexical_unit_id": "lincoln-lyceum-address_s01_p04_s06_lu032",
+          "source_text": "edifice",
+          "span_id": "lincoln-ann-003"
+        },
+        {
+          "char_offset_end": 242,
+          "char_offset_start": 234,
+          "lexical_unit_id": "lincoln-lyceum-address_s01_p04_s06_lu043",
+          "source_text": "transmit",
+          "span_id": "lincoln-ann-003"
+        },
+        {
+          "char_offset_end": 271,
+          "char_offset_start": 261,
+          "lexical_unit_id": "lincoln-lyceum-address_s01_p04_s06_lu047",
+          "source_text": "unprofaned",
+          "span_id": "lincoln-ann-003"
+        },
+        {
+          "char_offset_end": 319,
+          "char_offset_start": 310,
+          "lexical_unit_id": "lincoln-lyceum-address_s01_p04_s06_lu056",
+          "source_text": "undecayed",
+          "span_id": "lincoln-ann-003"
+        },
+        {
+          "char_offset_end": 351,
+          "char_offset_start": 345,
+          "lexical_unit_id": "lincoln-lyceum-address_s01_p04_s06_lu063",
+          "source_text": "untorn",
+          "span_id": "lincoln-ann-003"
+        }
+      ],
+      "rival_reading": "A Whig civic-republican reading treats 'uprear', 'edifice', and 'transmit' as standard generational-stewardship tropes without sacred-object valence. Under this reading, the span describes a straightforward intergenerational civic duty; 'unprofaned', 'undecayed', and 'untorn' are simply legal-protective negations, and no purification or violence-logic function is activated.",
+      "sentence_id": "lincoln-lyceum-address_s01_p04_s06",
+      "sentence_source_text": "Theirs was the task (and nobly they performed it) to possess themselves, and through themselves us, of this goodly land, and to uprear upon its hills and its valleys a political edifice of liberty and equal rights; it is ours only to transmit these--the former unprofaned by the foot of an invader, the latter undecayed by the lapse of time and untorn by usurpation--to the latest generation that fate shall permit the world to know.",
+      "source_language": "en",
+      "source_risk_flags": [
+        "source-date-error-in-body"
+      ],
+      "span_ids": [
+        "lincoln-ann-003"
+      ],
+      "task_layer": "interpretation",
+      "uncertainty": {
+        "note": "The source-date-error-in-body flag raises contextual uncertainty about the precise rhetorical moment being addressed. The purification function assignment rests on whether 'unprofaned' operates sacrally or is merely a legal-political negation; this remains interpretively contested.",
+        "status": "material"
+      }
+    },
+    {
+      "case_fields": {},
+      "case_id": "lincoln",
+      "confidence": 0.65,
+      "document_id": "lincoln-lyceum-address",
+      "interpretation": {
+        "absence": {
+          "displacement_mechanism": "The conditional modal ('would gladly spill') displaces the sacrificial act into willingness rather than enactment, suspending the violence-logic without resolving it.",
+          "expected_presence": "The enemy or threat that would actualize the blood-spilling is absent from the span; the sacrifice is conditional and hypothetical ('would gladly'), not completed.",
+          "possible_absence": "The government as legitimate protector is already failing in this sentence's logic; its absence as effective guarantor frames the hypothetical sacrifice as potentially futile.",
+          "status": "present"
+        },
+        "agency": {
+          "agents": [
+            "good men"
+          ],
+          "beneficiaries": [
+            "their country"
+          ],
+          "excluded_agents": [
+            "the mob (present later in sentence as threat, not in this span)"
+          ],
+          "patients": [
+            "good men themselves (as potential sacrificial subjects)"
+          ],
+          "sacrificial_subjects": [
+            "good men (willing blood-spillers for country)"
+          ]
+        },
+        "functions": {
+          "enemy_as_bringer_of_death": "uncertain",
+          "obligatory_frame": "present",
+          "purification": "absent",
+          "sacred_object": "absent",
+          "sacrificial_body": "present",
+          "violence_logic": "present"
+        }
+      },
+      "item_id": "lincoln-multi-model-v1-packet:interpretation:lincoln-ann-016",
+      "lexical_units": [
+        {
+          "char_offset_end": 143,
+          "char_offset_start": 138,
+          "lexical_unit_id": "lincoln-lyceum-address_s01_p11_s15_lu026",
+          "source_text": "spill",
+          "span_id": "lincoln-ann-016"
+        },
+        {
+          "char_offset_end": 155,
+          "char_offset_start": 150,
+          "lexical_unit_id": "lincoln-lyceum-address_s01_p11_s15_lu028",
+          "source_text": "blood",
+          "span_id": "lincoln-ann-016"
+        }
+      ],
+      "rival_reading": "A purely civic-loyalty reading treats 'spill their blood' as an idiomatic expression of patriotic devotion, not a sacrificial-body marker. Under this reading, the span simply identifies good citizens by their willingness to defend the country, and violence_logic and sacrificial_body functions are not activated; the sentence is instead a diagnostic of political alienation.",
+      "sentence_id": "lincoln-lyceum-address_s01_p11_s15",
+      "sentence_source_text": "While, on the other hand, good men, men who love tranquillity, who desire to abide by the laws and enjoy their benefits, who would gladly spill their blood in the defense of their country, seeing their property destroyed, their families insulted, and their lives endangered, their persons injured, and seeing nothing in prospect that forebodes a change for the better, become tired of and disgusted with a government that offers them no protection, and are not much averse to a change in which they imagine they have nothing to lose.",
+      "source_language": "en",
+      "source_risk_flags": [
+        "source-date-error-in-body"
+      ],
+      "span_ids": [
+        "lincoln-ann-016"
+      ],
+      "task_layer": "interpretation",
+      "uncertainty": {
+        "note": "The enemy-as-bringer-of-death function is uncertain because the threat in this span is diffuse—the mob, lawlessness, and governmental failure are all implicated but none is the direct grammatical agent of the blood-spilling. The source-date-error flag introduces minor contextual instability.",
+        "status": "material"
+      }
+    },
+    {
+      "case_fields": {},
+      "case_id": "lincoln",
+      "confidence": 0.6,
+      "document_id": "lincoln-lyceum-address",
+      "interpretation": {
+        "absence": {
+          "displacement_mechanism": "'Endure evils long and patiently' frames political loyalty as absorption of harm rather than its redress, displacing the locus of agency from the state to the suffering subject.",
+          "expected_presence": "The limit of endurance—the point at which the people would cease to endure—is structurally present as an implied threshold but is not lexically named in this span.",
+          "possible_absence": "The government's reciprocal obligation to the people is absent from the span; the burden of endurance falls asymmetrically on the citizenry.",
+          "status": "present"
+        },
+        "agency": {
+          "agents": [
+            "the American people"
+          ],
+          "beneficiaries": [
+            "the government",
+            "civic order"
+          ],
+          "excluded_agents": [
+            "the mob (introduced later as the alienating threat)"
+          ],
+          "patients": [
+            "the American people themselves (passive endurers of evils)"
+          ],
+          "sacrificial_subjects": []
+        },
+        "functions": {
+          "enemy_as_bringer_of_death": "absent",
+          "obligatory_frame": "present",
+          "purification": "absent",
+          "sacred_object": "uncertain",
+          "sacrificial_body": "absent",
+          "violence_logic": "absent"
+        }
+      },
+      "item_id": "lincoln-multi-model-v1-packet:interpretation:lincoln-ann-017",
+      "lexical_units": [
+        {
+          "char_offset_end": 134,
+          "char_offset_start": 128,
+          "lexical_unit_id": "lincoln-lyceum-address_s01_p12_s01_lu025",
+          "source_text": "endure",
+          "span_id": "lincoln-ann-017"
+        }
+      ],
+      "rival_reading": "A pragmatic-political reading treats 'endure' as a straightforward empirical claim about the American people's tolerance for governmental dysfunction, with no Koenigsbergian function beyond a mild obligatory frame. Under this reading, the sentence is an argument from probability about the conditions of political alienation, not a sacrificial or sacred-object claim.",
+      "sentence_id": "lincoln-lyceum-address_s01_p12_s01",
+      "sentence_source_text": "I know the American people are much attached to their government; I know they would suffer much for its sake; I know they would endure evils long and patiently before they would ever think of exchanging it for another,--yet, notwithstanding all this, if the laws be continually despised and disregarded, if their rights to be secure in their persons and property are held by no better tenure than the caprice of a mob, the alienation of their affections from the government is the natural consequence; and to that, sooner or later, it must come.",
+      "source_language": "en",
+      "source_risk_flags": [
+        "source-date-error-in-body"
+      ],
+      "span_ids": [
+        "lincoln-ann-017"
+      ],
+      "task_layer": "interpretation",
+      "uncertainty": {
+        "note": "The sacred-object function is uncertain for this span: the government may be functioning as a sacred object that justifies endurance, but 'endure' alone does not unambiguously activate that function. The single lexical unit and the source-date-error flag both limit confidence.",
+        "status": "material"
+      }
+    },
+    {
+      "case_fields": {},
+      "case_id": "lincoln",
+      "confidence": 0.7,
+      "document_id": "lincoln-lyceum-address",
+      "interpretation": {
+        "absence": {
+          "displacement_mechanism": "The living body is converted into a semiotic object ('living history', 'testimonies', 'read') that preserves the trace of violence while displacing its agents and causes into structural absence.",
+          "expected_presence": "The agent of violence—whatever caused the mangled limbs and scars—is entirely absent from this span; the wounds are present but their infliction is not.",
+          "possible_absence": "The narrative of conflict itself is displaced by the body as text; history is readable on the flesh but the events that inscribed it are not named here.",
+          "status": "present"
+        },
+        "agency": {
+          "agents": [
+            "the living veteran-bodies as bearers of testimony"
+          ],
+          "beneficiaries": [
+            "all citizens equally ('the wise and the ignorant')"
+          ],
+          "excluded_agents": [
+            "the enemy or cause of wounding (entirely absent from the span)"
+          ],
+          "patients": [
+            "the community of readers/hearers"
+          ],
+          "sacrificial_subjects": [
+            "the wounded veteran (husband, father, son, brother) as embodied history"
+          ]
+        },
+        "functions": {
+          "enemy_as_bringer_of_death": "absent",
+          "obligatory_frame": "present",
+          "purification": "uncertain",
+          "sacred_object": "present",
+          "sacrificial_body": "present",
+          "violence_logic": "present"
+        }
+      },
+      "item_id": "lincoln-multi-model-v1-packet:interpretation:lincoln-ann-043",
+      "lexical_units": [
+        {
+          "char_offset_end": 107,
+          "char_offset_start": 101,
+          "lexical_unit_id": "lincoln-lyceum-address_s01_p24_s05_lu022",
+          "source_text": "living",
+          "span_id": "lincoln-ann-043"
+        },
+        {
+          "char_offset_end": 115,
+          "char_offset_start": 108,
+          "lexical_unit_id": "lincoln-lyceum-address_s01_p24_s05_lu023",
+          "source_text": "history",
+          "span_id": "lincoln-ann-043"
+        },
+        {
+          "char_offset_end": 147,
+          "char_offset_start": 141,
+          "lexical_unit_id": "lincoln-lyceum-address_s01_p24_s05_lu030",
+          "source_text": "family",
+          "span_id": "lincoln-ann-043"
+        },
+        {
+          "char_offset_end": 158,
+          "char_offset_start": 151,
+          "lexical_unit_id": "lincoln-lyceum-address_s01_p24_s05_lu032",
+          "source_text": "history",
+          "span_id": "lincoln-ann-043"
+        },
+        {
+          "char_offset_end": 166,
+          "char_offset_start": 159,
+          "lexical_unit_id": "lincoln-lyceum-address_s01_p24_s05_lu033",
+          "source_text": "bearing",
+          "span_id": "lincoln-ann-043"
+        },
+        {
+          "char_offset_end": 194,
+          "char_offset_start": 183,
+          "lexical_unit_id": "lincoln-lyceum-address_s01_p24_s05_lu036",
+          "source_text": "testimonies",
+          "span_id": "lincoln-ann-043"
+        },
+        {
+          "char_offset_end": 325,
+          "char_offset_start": 318,
+          "lexical_unit_id": "lincoln-lyceum-address_s01_p24_s05_lu060",
+          "source_text": "history",
+          "span_id": "lincoln-ann-043"
+        },
+        {
+          "char_offset_end": 350,
+          "char_offset_start": 346,
+          "lexical_unit_id": "lincoln-lyceum-address_s01_p24_s05_lu065",
+          "source_text": "read",
+          "span_id": "lincoln-ann-043"
+        }
+      ],
+      "rival_reading": "A mnemonic-pedagogy reading treats the 'living history' cluster as a straightforward argument about embodied civic memory and intergenerational transmission without sacrificial or sacred-object valence. Under this reading, the body-as-text is a rhetorical device for democratic education, and violence_logic and sacrificial_body are not activated; the span is instead an argument about the epistemology of historical knowledge.",
+      "sentence_id": "lincoln-lyceum-address_s01_p24_s05",
+      "sentence_source_text": "The consequence was that of those scenes, in the form of a husband, a father, a son, or a brother, a living history was to be found in every family--a history bearing the indubitable testimonies of its own authenticity, in the limbs mangled, in the scars of wounds received, in the midst of the very scenes related--a history, too, that could be read and understood alike by all, the wise and the ignorant, the learned and the unlearned.",
+      "source_language": "en",
+      "source_risk_flags": [
+        "source-date-error-in-body"
+      ],
+      "span_ids": [
+        "lincoln-ann-043"
+      ],
+      "task_layer": "interpretation",
+      "uncertainty": {
+        "note": "The purification function is uncertain: the universalizing accessibility of the bodily text ('read alike by all') may constitute a purification-through-democratization, but this is a strained assignment. The source-date-error flag introduces mild contextual uncertainty about which conflict's veterans are being referenced.",
+        "status": "material"
+      }
+    },
+    {
+      "case_fields": {},
+      "case_id": "lincoln",
+      "confidence": 0.75,
+      "document_id": "lincoln-second-inaugural",
+      "interpretation": {
+        "absence": {
+          "displacement_mechanism": "The nation-as-wounded-body trope ('wounds') absorbs the violence of the war into a medical-healing frame, displacing enemy agency and converting sacrificial remainder (widow, orphan) into objects of charity rather than accusation.",
+          "expected_presence": "The enemy or cause of the wounds is structurally absent; 'malice toward none' performs an erasure of the adversarial agent, converting the wound into a condition requiring healing rather than retribution.",
+          "possible_absence": "The political and legal mechanisms of reconstruction are absent; 'bind', 'cherish', and 'care for' operate in an affective-charitable register that displaces institutional or juridical remediation.",
+          "status": "present"
+        },
+        "agency": {
+          "agents": [
+            "the speaker and collective 'us'",
+            "God (as authorizing agent of right-seeing)"
+          ],
+          "beneficiaries": [
+            "all nations",
+            "ourselves"
+          ],
+          "excluded_agents": [
+            "the Confederate enemy (entirely absent from this span; malice is renounced toward none, effacing the adversary)"
+          ],
+          "patients": [
+            "the nation (as wounded body)",
+            "the soldier, widow, orphan (as sacrificial remainders)"
+          ],
+          "sacrificial_subjects": [
+            "him who shall have borne the battle",
+            "his widow",
+            "his orphan"
+          ]
+        },
+        "functions": {
+          "enemy_as_bringer_of_death": "absent",
+          "obligatory_frame": "present",
+          "purification": "present",
+          "sacred_object": "present",
+          "sacrificial_body": "present",
+          "violence_logic": "present"
+        }
+      },
+      "item_id": "lincoln-multi-model-v1-packet:interpretation:lincoln-ann-064",
+      "lexical_units": [
+        {
+          "char_offset_end": 163,
+          "char_offset_start": 159,
+          "lexical_unit_id": "lincoln-second-inaugural_s01_p06_s01_lu034",
+          "source_text": "bind",
+          "span_id": "lincoln-ann-064"
+        },
+        {
+          "char_offset_end": 186,
+          "char_offset_start": 180,
+          "lexical_unit_id": "lincoln-second-inaugural_s01_p06_s01_lu038",
+          "source_text": "wounds",
+          "span_id": "lincoln-ann-064"
+        },
+        {
+          "char_offset_end": 311,
+          "char_offset_start": 304,
+          "lexical_unit_id": "lincoln-second-inaugural_s01_p06_s01_lu063",
+          "source_text": "cherish",
+          "span_id": "lincoln-ann-064"
+        }
+      ],
+      "rival_reading": "A classical epideictic-peroration reading treats 'bind up the nation's wounds' as a conventional closure trope and 'cherish' as a standard civic-affection term, with no Koenigsbergian sacred-object or purification function. Under this reading, the span is a programmatic policy statement—care for veterans, pursue peace—and the medical metaphor is ornamental rather than functionally operative.",
+      "sentence_id": "lincoln-second-inaugural_s01_p06_s01",
+      "sentence_source_text": "With malice toward none; with charity for all; with firmness in the right, as God gives us to see the right, let us strive on to finish the work we are in; to bind up the nation's wounds; to care for him who shall have borne the battle, and for his widow, and his orphan--to do all which may achieve and cherish a just and lasting peace among ourselves, and with all nations.",
+      "source_language": "en",
+      "source_risk_flags": [],
+      "span_ids": [
+        "lincoln-ann-064"
+      ],
+      "task_layer": "interpretation",
+      "uncertainty": {
+        "note": "The cluster 'bind/wounds/cherish' is lexically dense and functionally coherent across sacred-object, sacrificial-body, purification, and obligatory-frame assignments. The absence of source_risk_flags reduces textual uncertainty. Residual uncertainty concerns whether 'cherish' activates sacred-object or merely affective-political valence.",
+        "status": "low"
+      }
+    }
+  ],
+  "packet_hash": "sha256:2c88a7eb4328d05bf74c0aa1035d121225ce06511a7c463496f175da6af709eb",
+  "packet_id": "lincoln-multi-model-v1-packet",
+  "prompt_hash": "sha256:e379d980e367005b7c01a6fa7557a02cfebde7d8889a0599c29b0c3755e14a0c",
+  "prompt_id": "interpretation-v1",
+  "run": {
+    "completed_at": "2026-06-27T14:20:00Z",
+    "language_capabilities": [
+      "en"
+    ],
+    "model": "claude-sonnet-4-6",
+    "model_version": "claude-sonnet-4-6",
+    "provider": "anthropic",
+    "run_id": "issue157-anthropic-interpretation-20260627",
+    "settings": {
+      "browsing_disabled": true,
+      "max_tokens": 24000,
+      "memory_disabled": true,
+      "retrieval_disabled": true,
+      "tools_disabled": true
+    }
+  },
+  "sample_id": "lincoln-multi-model-v1",
+  "sample_version": "1.0.0",
+  "schema_version": "1.0.0",
+  "source_language": "en",
+  "submission_id": "lincoln-issue157-anthropic-interpretation-20260627"
+}

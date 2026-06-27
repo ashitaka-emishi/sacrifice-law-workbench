@@ -1,8 +1,17 @@
 {
   "case_id": "lincoln",
-  "latest_registration_id": "submission-1ae4d112263f3e3e",
+  "latest_registration_id": "submission-4d34d4dc2678b7db",
   "schema_version": "1.0.0",
   "submissions": [
+    {
+      "error_count": 0,
+      "item_count": 7,
+      "registration_id": "submission-1ae4d112263f3e3e",
+      "report": "quality/model-reliability/normalized/validation-reports/submission-1ae4d112263f3e3e.json",
+      "run_id": "issue147-anthropic-cmt-final2-20260627",
+      "status": "valid",
+      "submission_id": "lincoln-issue147-anthropic-cmt-final2-20260627"
+    },
     {
       "error_count": 0,
       "item_count": 7,
@@ -15,11 +24,20 @@
     {
       "error_count": 0,
       "item_count": 7,
-      "registration_id": "submission-1ae4d112263f3e3e",
-      "report": "quality/model-reliability/normalized/validation-reports/submission-1ae4d112263f3e3e.json",
-      "run_id": "issue147-anthropic-cmt-final2-20260627",
+      "registration_id": "submission-175d1781926f4b43",
+      "report": "quality/model-reliability/normalized/validation-reports/submission-175d1781926f4b43.json",
+      "run_id": "issue157-anthropic-interpretation-20260627",
       "status": "valid",
-      "submission_id": "lincoln-issue147-anthropic-cmt-final2-20260627"
+      "submission_id": "lincoln-issue157-anthropic-interpretation-20260627"
+    },
+    {
+      "error_count": 0,
+      "item_count": 7,
+      "registration_id": "submission-4d34d4dc2678b7db",
+      "report": "quality/model-reliability/normalized/validation-reports/submission-4d34d4dc2678b7db.json",
+      "run_id": "issue157-openai-interpretation-20260627",
+      "status": "valid",
+      "submission_id": "lincoln-issue157-openai-interpretation-20260627"
     }
   ]
 }
