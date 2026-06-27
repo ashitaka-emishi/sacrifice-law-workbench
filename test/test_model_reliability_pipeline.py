@@ -133,6 +133,44 @@ class ModelReliabilityPipelineTest(unittest.TestCase):
             ):
                 self.assertTrue((model_root / relative).is_file(), relative)
 
+    def test_run_preserves_packet_manifest_when_valid_runs_exist(self) -> None:
+        with tempfile.TemporaryDirectory() as temp_dir:
+            root = ingestion_root(Path(temp_dir))
+            write_comparison_runs(root)
+            manifest_path = (
+                root
+                / "cases"
+                / "demo"
+                / "quality"
+                / "model-reliability"
+                / "packets"
+                / "packet-manifest.json"
+            )
+            before = json.loads(manifest_path.read_text(encoding="utf-8"))
+
+            result = run_pipeline(
+                root,
+                "demo",
+                revision="different-revision-that-would-rotate-packets",
+            )
+
+            after = json.loads(manifest_path.read_text(encoding="utf-8"))
+            self.assertEqual(result["status"], "complete")
+            self.assertEqual(before, after)
+
+    def test_rotate_packets_flag_makes_stale_run_rejection_explicit(self) -> None:
+        with tempfile.TemporaryDirectory() as temp_dir:
+            root = ingestion_root(Path(temp_dir))
+            write_comparison_runs(root)
+
+            with self.assertRaisesRegex(IngestionError, "current packet_hash"):
+                run_pipeline(
+                    root,
+                    "demo",
+                    revision="different-revision-that-rotates-packets",
+                    rotate_packets=True,
+                )
+
     def test_cli_run_reports_warning_and_returns_success(self) -> None:
         with tempfile.TemporaryDirectory() as temp_dir:
             root = fixture_root(Path(temp_dir))

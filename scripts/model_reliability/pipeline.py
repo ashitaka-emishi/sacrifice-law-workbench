@@ -116,6 +116,46 @@ def _normalized_runs(root: Path, case_id: str) -> list[Mapping[str, Any]]:
     return list(runs)
 
 
+def _packet_manifest(root: Path, case_id: str) -> Mapping[str, Any]:
+    path = (
+        root
+        / "cases"
+        / case_id
+        / "quality"
+        / "model-reliability"
+        / "packets"
+        / "packet-manifest.json"
+    )
+    try:
+        value = json.loads(path.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError) as exc:
+        raise PacketGenerationError(f"{path}: unable to read active packet manifest: {exc}") from exc
+    if not isinstance(value, Mapping) or value.get("case_id") != case_id:
+        raise PacketGenerationError(f"{path}: invalid active packet manifest")
+    if not value.get("packet_id") or not value.get("packet_hash"):
+        raise PacketGenerationError(f"{path}: active packet manifest is missing packet identity")
+    return value
+
+
+def active_or_generated_manifest(
+    root: Path,
+    case_id: str,
+    *,
+    sample_path: Path | None = None,
+    revision: str | None = None,
+    rotate_packets: bool = False,
+) -> Mapping[str, Any]:
+    runs = _normalized_runs(root, case_id)
+    if runs and not rotate_packets:
+        return _packet_manifest(root, case_id)
+    return generate_packets(
+        root,
+        case_id,
+        sample_path=sample_path,
+        revision=revision,
+    )
+
+
 def readiness(
     root: Path,
     case_id: str,
@@ -193,14 +233,16 @@ def run_pipeline(
     *,
     sample_path: Path | None = None,
     revision: str | None = None,
+    rotate_packets: bool = False,
 ) -> dict[str, Any]:
     root = root.resolve()
     with immutable_reference_guard(root, case_id):
-        manifest = generate_packets(
+        manifest = active_or_generated_manifest(
             root,
             case_id,
             sample_path=sample_path,
             revision=revision,
+            rotate_packets=rotate_packets,
         )
         ready = readiness(
             root,
@@ -290,6 +332,14 @@ def build_parser() -> argparse.ArgumentParser:
     run = commands.add_parser("run", help="Run packets through reporting")
     _add_case(run)
     _add_packet_options(run)
+    run.add_argument(
+        "--rotate-packets",
+        action="store_true",
+        help=(
+            "Regenerate active packet files even when valid submissions already "
+            "exist. Without this flag, run preserves existing packet identity."
+        ),
+    )
     return parser
 
 
@@ -366,6 +416,7 @@ def main(argv: Sequence[str] | None = None) -> int:
                 args.case_id,
                 sample_path=args.sample,
                 revision=args.code_revision,
+                rotate_packets=args.rotate_packets,
             )
             if result["warning"]:
                 print(f"WARNING: {result['warning']}", file=sys.stderr)

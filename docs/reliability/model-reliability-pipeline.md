@@ -25,13 +25,23 @@ python3 scripts/model_reliability/pipeline.py ingest --case lincoln \
   --items-csv /path/to/items.csv
 ```
 
-The end-to-end command regenerates deterministic packets and then runs
-comparison, disagreement classification, queue generation, and reporting when
-at least two validated runs are available. It also generates human-governed
-codebook revision notes after the report:
+The end-to-end command prepares deterministic packets and then runs comparison,
+disagreement classification, queue generation, and reporting when at least two
+validated runs are available. When valid normalized submissions already exist,
+`run` preserves the active packet manifest and packet hash instead of
+regenerating packet identity during a broad rebuild. It also generates
+human-governed codebook revision notes after the report:
 
 ```bash
 python3 scripts/model_reliability/pipeline.py run --case lincoln
+```
+
+Packet rotation is explicit. Use `--rotate-packets` only when reviewers should
+receive a new packet identity and existing packet-bound submissions are expected
+to be superseded or rejected as stale:
+
+```bash
+python3 scripts/model_reliability/pipeline.py run --case lincoln --rotate-packets
 ```
 
 With no valid submissions, or only one valid run, `run` exits successfully and
