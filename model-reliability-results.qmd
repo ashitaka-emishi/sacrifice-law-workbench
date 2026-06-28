@@ -28,8 +28,8 @@ This page is generated from validated case-local model-reliability artifacts by
 | `hitler` | cmt | absent — not designed | 0 | 0 | Multi-model reliability has not been designed for this case. |
 | `hitler` | interpretation | absent — not designed | 0 | 0 | Multi-model reliability has not been designed for this case. |
 | `lincoln` | identification | designed — not executed | 0 | 0 | No valid submissions for this layer; case completion reflects the executed layer(s). |
-| `lincoln` | cmt | complete | 2 | 8 | /Users/andrewhammer/codegarden/koenigsberg-sacrifice-workbench/cases/lincoln/metadata/document-manifest.json: packet document manifest hash predates expanded corpus; existing packet remains scoped to unchanged sampled inputs. |
-| `lincoln` | interpretation | complete | 2 | 17 | /Users/andrewhammer/codegarden/koenigsberg-sacrifice-workbench/cases/lincoln/metadata/document-manifest.json: packet document manifest hash predates expanded corpus; existing packet remains scoped to unchanged sampled inputs. |
+| `lincoln` | cmt | complete | 2 | 8 | /Users/andrewhammer/codegarden/koenigsberg-sacrifice-workbench/cases/lincoln/corpus/annotated/lincoln-gettysburg-address_annotated.json: packet source input hash predates annotation-forward corpus refresh; existing packet remains historical and requires reliability resampling before promotion. |
+| `lincoln` | interpretation | complete | 2 | 17 | /Users/andrewhammer/codegarden/koenigsberg-sacrifice-workbench/cases/lincoln/corpus/annotated/lincoln-gettysburg-address_annotated.json: packet source input hash predates annotation-forward corpus refresh; existing packet remains historical and requires reliability resampling before promotion. |
 | `napoleon` | identification | absent — not designed | 0 | 0 | Multi-model reliability has not been designed for this case. |
 | `napoleon` | cmt | absent — not designed | 0 | 0 | Multi-model reliability has not been designed for this case. |
 | `napoleon` | interpretation | absent — not designed | 0 | 0 | Multi-model reliability has not been designed for this case. |
@@ -270,20 +270,20 @@ or common training data.
 | `lincoln` | en | cmt | `cmt.entailments` | `issue147-openai-cmt-final2-20260627` vs `lincoln:accepted-reference` | 7 | jaccard_overlap | 0 |
 | `lincoln` | en | cmt | `cmt.entailments` | `issue157-anthropic-interpretation-20260627` vs `lincoln:accepted-reference` | 0 | jaccard_overlap | undefined: no comparable observations |
 | `lincoln` | en | cmt | `cmt.entailments` | `issue157-openai-interpretation-20260627` vs `lincoln:accepted-reference` | 0 | jaccard_overlap | undefined: no comparable observations |
-| `lincoln` | en | cmt | `cmt.source_domain_primary` | `issue147-anthropic-cmt-final2-20260627` vs `lincoln:accepted-reference` | 7 | observed_agreement | 0.286 |
-| `lincoln` | en | cmt | `cmt.source_domain_primary` | `issue147-openai-cmt-final2-20260627` vs `lincoln:accepted-reference` | 7 | observed_agreement | 0.571 |
+| `lincoln` | en | cmt | `cmt.source_domain_primary` | `issue147-anthropic-cmt-final2-20260627` vs `lincoln:accepted-reference` | 7 | observed_agreement | 0.143 |
+| `lincoln` | en | cmt | `cmt.source_domain_primary` | `issue147-openai-cmt-final2-20260627` vs `lincoln:accepted-reference` | 7 | observed_agreement | 0.429 |
 | `lincoln` | en | cmt | `cmt.source_domain_primary` | `issue157-anthropic-interpretation-20260627` vs `lincoln:accepted-reference` | 0 | observed_agreement | undefined: no comparable observations |
 | `lincoln` | en | cmt | `cmt.source_domain_primary` | `issue157-openai-interpretation-20260627` vs `lincoln:accepted-reference` | 0 | observed_agreement | undefined: no comparable observations |
 | `lincoln` | en | cmt | `cmt.source_domain_secondary` | `issue147-anthropic-cmt-final2-20260627` vs `lincoln:accepted-reference` | 7 | jaccard_overlap | 0 |
 | `lincoln` | en | cmt | `cmt.source_domain_secondary` | `issue147-openai-cmt-final2-20260627` vs `lincoln:accepted-reference` | 7 | jaccard_overlap | 0 |
 | `lincoln` | en | cmt | `cmt.source_domain_secondary` | `issue157-anthropic-interpretation-20260627` vs `lincoln:accepted-reference` | 0 | jaccard_overlap | undefined: no comparable observations |
 | `lincoln` | en | cmt | `cmt.source_domain_secondary` | `issue157-openai-interpretation-20260627` vs `lincoln:accepted-reference` | 0 | jaccard_overlap | undefined: no comparable observations |
-| `lincoln` | en | cmt | `cmt.target_domain` | `issue147-anthropic-cmt-final2-20260627` vs `lincoln:accepted-reference` | 7 | observed_agreement | 0.286 |
-| `lincoln` | en | cmt | `cmt.target_domain` | `issue147-openai-cmt-final2-20260627` vs `lincoln:accepted-reference` | 7 | observed_agreement | 0.429 |
+| `lincoln` | en | cmt | `cmt.target_domain` | `issue147-anthropic-cmt-final2-20260627` vs `lincoln:accepted-reference` | 7 | observed_agreement | 0.143 |
+| `lincoln` | en | cmt | `cmt.target_domain` | `issue147-openai-cmt-final2-20260627` vs `lincoln:accepted-reference` | 7 | observed_agreement | 0.286 |
 | `lincoln` | en | cmt | `cmt.target_domain` | `issue157-anthropic-interpretation-20260627` vs `lincoln:accepted-reference` | 0 | observed_agreement | undefined: no comparable observations |
 | `lincoln` | en | cmt | `cmt.target_domain` | `issue157-openai-interpretation-20260627` vs `lincoln:accepted-reference` | 0 | observed_agreement | undefined: no comparable observations |
-| `lincoln` | en | cmt | `confidence` | `issue147-anthropic-cmt-final2-20260627` vs `lincoln:accepted-reference` | 7 | mean_absolute_difference | 0.036 |
-| `lincoln` | en | cmt | `confidence` | `issue147-openai-cmt-final2-20260627` vs `lincoln:accepted-reference` | 7 | mean_absolute_difference | 0.091 |
+| `lincoln` | en | cmt | `confidence` | `issue147-anthropic-cmt-final2-20260627` vs `lincoln:accepted-reference` | 7 | mean_absolute_difference | 0.048 |
+| `lincoln` | en | cmt | `confidence` | `issue147-openai-cmt-final2-20260627` vs `lincoln:accepted-reference` | 7 | mean_absolute_difference | 0.088 |
 | `lincoln` | en | cmt | `confidence` | `issue157-anthropic-interpretation-20260627` vs `lincoln:accepted-reference` | 0 | mean_absolute_difference | undefined: no comparable observations |
 | `lincoln` | en | cmt | `confidence` | `issue157-openai-interpretation-20260627` vs `lincoln:accepted-reference` | 0 | mean_absolute_difference | undefined: no comparable observations |
 | `lincoln` | en | cmt | `uncertainty.status` | `issue147-anthropic-cmt-final2-20260627` vs `lincoln:accepted-reference` | 0 | observed_agreement | undefined: no comparable observations |
@@ -328,8 +328,8 @@ or common training data.
 | `lincoln` | en | identification | `uncertainty.status` | `issue157-openai-interpretation-20260627` vs `lincoln:accepted-reference` | 0 | observed_agreement | undefined: no comparable observations |
 | `lincoln` | en | interpretation | `confidence` | `issue147-anthropic-cmt-final2-20260627` vs `lincoln:accepted-reference` | 0 | mean_absolute_difference | undefined: no comparable observations |
 | `lincoln` | en | interpretation | `confidence` | `issue147-openai-cmt-final2-20260627` vs `lincoln:accepted-reference` | 0 | mean_absolute_difference | undefined: no comparable observations |
-| `lincoln` | en | interpretation | `confidence` | `issue157-anthropic-interpretation-20260627` vs `lincoln:accepted-reference` | 7 | mean_absolute_difference | 0.149 |
-| `lincoln` | en | interpretation | `confidence` | `issue157-openai-interpretation-20260627` vs `lincoln:accepted-reference` | 7 | mean_absolute_difference | 0.051 |
+| `lincoln` | en | interpretation | `confidence` | `issue157-anthropic-interpretation-20260627` vs `lincoln:accepted-reference` | 7 | mean_absolute_difference | 0.127 |
+| `lincoln` | en | interpretation | `confidence` | `issue157-openai-interpretation-20260627` vs `lincoln:accepted-reference` | 7 | mean_absolute_difference | 0.034 |
 | `lincoln` | en | interpretation | `interpretation.absence.displacement_mechanism` | `issue147-anthropic-cmt-final2-20260627` vs `lincoln:accepted-reference` | 0 | observed_agreement | undefined: no comparable observations |
 | `lincoln` | en | interpretation | `interpretation.absence.displacement_mechanism` | `issue147-openai-cmt-final2-20260627` vs `lincoln:accepted-reference` | 0 | observed_agreement | undefined: no comparable observations |
 | `lincoln` | en | interpretation | `interpretation.absence.displacement_mechanism` | `issue157-anthropic-interpretation-20260627` vs `lincoln:accepted-reference` | 0 | observed_agreement | undefined: no comparable observations |

@@ -4431,7 +4431,7 @@
         "issue157-openai-interpretation-20260627"
       ],
       "possible_codebook_ambiguity": false,
-      "reference_value": "NATION IS BIRTH GENERATION",
+      "reference_value": "NATION IS NATURE ORGANISM",
       "review_priority": "medium",
       "review_question": "Why did one or more runs omit `cmt.conceptual_metaphor` for `lincoln-ann-051`, and is the packet or submission guidance incomplete?",
       "run_values": {
@@ -4477,9 +4477,8 @@
       ],
       "possible_codebook_ambiguity": false,
       "reference_value": [
-        "political founding of a nation is represented through generation or birth",
-        "committed the nation or people to a political principle",
-        "Political founding is understood through human generation."
+        "the nation or government continues or ceases political existence",
+        "Political survival is understood through organismic life and death."
       ],
       "review_priority": "medium",
       "review_question": "Why did one or more runs omit `cmt.entailments` for `lincoln-ann-051`, and is the packet or submission guidance incomplete?",
@@ -4549,7 +4548,7 @@
         "issue157-openai-interpretation-20260627"
       ],
       "possible_codebook_ambiguity": false,
-      "reference_value": "birth_generation",
+      "reference_value": "nature_organism",
       "review_priority": "medium",
       "review_question": "Why did one or more runs omit `cmt.source_domain_primary` for `lincoln-ann-051`, and is the packet or submission guidance incomplete?",
       "run_values": {
@@ -4685,7 +4684,7 @@
       "item_id": "lincoln-multi-model-v1-packet:cmt:lincoln-ann-051",
       "missing_run_ids": [],
       "possible_codebook_ambiguity": false,
-      "reference_value": 0.83,
+      "reference_value": 0.72,
       "review_priority": "low",
       "review_question": "Which value for `confidence` on `lincoln-ann-051` best follows the codebook and source context?",
       "run_values": {
@@ -5492,7 +5491,7 @@
         "issue157-openai-interpretation-20260627"
       ],
       "possible_codebook_ambiguity": false,
-      "reference_value": "HISTORY IS BODY",
+      "reference_value": "POLITICAL ORDER IS BODY",
       "review_priority": "medium",
       "review_question": "Why did one or more runs omit `cmt.conceptual_metaphor` for `lincoln-ann-054`, and is the packet or submission guidance incomplete?",
       "run_values": {
@@ -5538,8 +5537,8 @@
       ],
       "possible_codebook_ambiguity": false,
       "reference_value": [
-        "public memory is attributed to the world as an agent",
-        "Collective historical memory is understood through human cognition."
+        "ambition and genius are represented through animals, height, paths, bodily appetite, fire, or stretching",
+        "Political ambition is understood through embodied force and animal/combat imagery."
       ],
       "review_priority": "medium",
       "review_question": "Why did one or more runs omit `cmt.entailments` for `lincoln-ann-054`, and is the packet or submission guidance incomplete?",
@@ -5699,7 +5698,7 @@
         "issue157-openai-interpretation-20260627"
       ],
       "possible_codebook_ambiguity": false,
-      "reference_value": "history",
+      "reference_value": "political_order",
       "review_priority": "medium",
       "review_question": "Why did one or more runs omit `cmt.target_domain` for `lincoln-ann-054`, and is the packet or submission guidance incomplete?",
       "run_values": {
@@ -5735,7 +5734,7 @@
       "item_id": "lincoln-multi-model-v1-packet:cmt:lincoln-ann-054",
       "missing_run_ids": [],
       "possible_codebook_ambiguity": false,
-      "reference_value": 0.84,
+      "reference_value": 0.75,
       "review_priority": "low",
       "review_question": "Which value for `confidence` on `lincoln-ann-054` best follows the codebook and source context?",
       "run_values": {
@@ -6572,7 +6571,7 @@
         "issue157-openai-interpretation-20260627"
       ],
       "possible_codebook_ambiguity": false,
-      "reference_value": "NATION IS BODY",
+      "reference_value": "NATION IS NATURE ORGANISM",
       "review_priority": "medium",
       "review_question": "Why did one or more runs omit `cmt.conceptual_metaphor` for `lincoln-ann-064`, and is the packet or submission guidance incomplete?",
       "run_values": {
@@ -6618,9 +6617,8 @@
       ],
       "possible_codebook_ambiguity": false,
       "reference_value": [
-        "repairing the nation after war",
-        "peace is treated as something to nurture and hold dear",
-        "Political reconciliation is understood through healing an injured body."
+        "the nation or government continues or ceases political existence",
+        "Political survival is understood through organismic life and death."
       ],
       "review_priority": "medium",
       "review_question": "Why did one or more runs omit `cmt.entailments` for `lincoln-ann-064`, and is the packet or submission guidance incomplete?",
@@ -6692,7 +6690,7 @@
         "issue157-openai-interpretation-20260627"
       ],
       "possible_codebook_ambiguity": false,
-      "reference_value": "body",
+      "reference_value": "nature_organism",
       "review_priority": "medium",
       "review_question": "Why did one or more runs omit `cmt.source_domain_primary` for `lincoln-ann-064`, and is the packet or submission guidance incomplete?",
       "run_values": {
@@ -6815,7 +6813,7 @@
       "item_id": "lincoln-multi-model-v1-packet:cmt:lincoln-ann-064",
       "missing_run_ids": [],
       "possible_codebook_ambiguity": false,
-      "reference_value": 0.86,
+      "reference_value": 0.9,
       "review_priority": "low",
       "review_question": "Which value for `confidence` on `lincoln-ann-064` best follows the codebook and source context?",
       "run_values": {

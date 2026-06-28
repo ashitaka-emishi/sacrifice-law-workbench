@@ -1,0 +1,46 @@
+{
+  "version": "1.0",
+  "case_id": "lincoln",
+  "document_id": "lincoln-first-inaugural",
+  "generated_at": "2026-06-28T10:02:19",
+  "generator": "scripts/generate-annotation-layer.py",
+  "annotation_policy": "CMT and Koenigsbergian annotations derived from MIPVU-reviewed metaphorical and uncertain lexical units. Each instance cites at least one MIPVU ID with decision_type in MIPVU_METAPHOR_OR_UNCERTAIN_DECISIONS.",
+  "instances": [
+    {
+      "instance_id": "lincoln-ann-051",
+      "case_id": "lincoln",
+      "document_id": "lincoln-first-inaugural",
+      "sentence_id": "lincoln-first-inaugural_s01_p15_s04",
+      "span_text": "endure",
+      "mipvu_ids": [
+        "lincoln-first-inaugural_s01_p15_s04_lu016"
+      ],
+      "cmt": {
+        "mapping_id": "lincoln-cmt-051",
+        "cluster_id": "lincoln-01-body-organism",
+        "source_domain_primary": "nature_organism",
+        "source_domain_secondary": [],
+        "target_domain": "nation",
+        "conceptual_metaphor": "NATION IS NATURE ORGANISM",
+        "entailments": [
+          "the nation or government continues or ceases political existence",
+          "Political survival is understood through organismic life and death."
+        ],
+        "confidence": 0.72,
+        "rival_reading": "A polity is not a biological organism, but its political existence is construed as bodily life or death.",
+        "justification": "MIPVU review rule '' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
+      },
+      "koenigsberg": {
+        "fantasy_type": "national_body",
+        "absence_flags": [
+          "possible-suppressed-agent"
+        ]
+      },
+      "meta": {
+        "confidence": 0.72,
+        "ambiguity_flag": false,
+        "suppression_flag": true
+      }
+    }
+  ]
+}

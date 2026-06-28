@@ -1,17 +1,17 @@
 {
   "case_id": "am-rev",
-  "generated_at": "2026-06-16T12:09:14",
+  "generated_at": "2026-06-28T10:02:09",
   "status": "mipvu-review-complete-codex-assisted",
   "review_batch": "am-rev-full-corpus-mipvu-review-v1",
   "annotator": "codex-assisted-mipvu-v1",
-  "total_lexical_units": 33025,
+  "total_lexical_units": 34890,
   "pending_units": 0,
   "by_decision_type": {
     "mipvu_direct": 31,
     "mipvu_indirect": 79,
     "mipvu_personification": 10,
-    "non_metaphor": 32893,
-    "uncertain": 12
+    "non_metaphor": 34763,
+    "uncertain": 7
   },
   "by_rule_id": {
     "declaration-injury-rights": 4,
@@ -19,7 +19,7 @@
     "declaration-sacred-pledge": 8,
     "declaration-tyranny-security": 5,
     "declaration-works-of-death": 4,
-    "default-reviewed-non-metaphor": 32893,
+    "default-reviewed-non-metaphor": 34763,
     "paine-anti-monarchy-sacred-parody": 9,
     "paine-blood-sacrifice": 15,
     "paine-body-government": 16,
@@ -30,8 +30,7 @@
     "paine-growth-union": 4,
     "paine-parent-birth": 16,
     "paine-voice-reason": 11,
-    "washington-honor-register": 6,
-    "washington-military-body-register": 4
+    "washington-honor-register": 5
   },
   "by_document": {
     "am-rev-jefferson-declaration": {
@@ -40,34 +39,40 @@
       "non_metaphor": 1313,
       "uncertain": 2
     },
+    "am-rev-jefferson-rough-draft": {
+      "non_metaphor": 1646
+    },
     "am-rev-paine-common-sense": {
       "mipvu_direct": 30,
       "mipvu_indirect": 58,
       "mipvu_personification": 10,
       "non_metaphor": 21662
     },
+    "am-rev-washington-newburgh-address": {
+      "non_metaphor": 1650
+    },
     "am-rev-washington-orders-1775-07-04": {
-      "non_metaphor": 1121
+      "non_metaphor": 870
     },
     "am-rev-washington-orders-1776-02-09": {
-      "non_metaphor": 468
+      "non_metaphor": 140
     },
     "am-rev-washington-orders-1776-07-02": {
-      "non_metaphor": 5532,
-      "uncertain": 6
+      "non_metaphor": 722
     },
     "am-rev-washington-orders-1776-08-30": {
-      "non_metaphor": 345
+      "non_metaphor": 405
     },
     "am-rev-washington-orders-1776-12-25": {
-      "non_metaphor": 693
+      "non_metaphor": 602
     },
     "am-rev-washington-orders-1783-06-08": {
-      "non_metaphor": 1040,
-      "uncertain": 4
+      "non_metaphor": 4140,
+      "uncertain": 3
     },
     "am-rev-washington-orders-1783-06-17": {
-      "non_metaphor": 719
+      "non_metaphor": 1613,
+      "uncertain": 2
     }
   },
   "sample_metaphor_or_uncertain_units": [

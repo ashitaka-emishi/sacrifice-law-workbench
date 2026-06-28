@@ -2,7 +2,7 @@
   "case_id": "lincoln",
   "stage": "normalize-texts",
   "status": "ready",
-  "generated_at": "2026-06-28T02:11:39",
+  "generated_at": "2026-06-28T10:13:56",
   "documents_in_manifest": 5,
   "written": 5,
   "skipped_missing_raw": 0,

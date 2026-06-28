@@ -2,12 +2,12 @@
   "version": "1.0",
   "case_id": "lincoln",
   "document_id": "lincoln-second-inaugural",
-  "generated_at": "2026-06-17T15:09:55",
+  "generated_at": "2026-06-28T10:02:20",
   "generator": "scripts/generate-annotation-layer.py",
-  "annotation_policy": "CMT and Koenigsbergian annotations derived from MIPVU-reviewed metaphorical and uncertain lexical units. Each instance cites at least one MIPVU ID with decision_type in METAPHOR_DECISIONS.",
+  "annotation_policy": "CMT and Koenigsbergian annotations derived from MIPVU-reviewed metaphorical and uncertain lexical units. Each instance cites at least one MIPVU ID with decision_type in MIPVU_METAPHOR_OR_UNCERTAIN_DECISIONS.",
   "instances": [
     {
-      "instance_id": "lincoln-ann-056",
+      "instance_id": "lincoln-ann-062",
       "case_id": "lincoln",
       "document_id": "lincoln-second-inaugural",
       "sentence_id": "lincoln-second-inaugural_s01_p01_s03",
@@ -18,7 +18,7 @@
         "lincoln-second-inaugural_s01_p01_s03_lu032"
       ],
       "cmt": {
-        "mapping_id": "lincoln-cmt-056",
+        "mapping_id": "lincoln-cmt-062",
         "cluster_id": "lincoln-01-body-organism",
         "source_domain_primary": "war_combat",
         "source_domain_secondary": [],
@@ -42,7 +42,7 @@
       }
     },
     {
-      "instance_id": "lincoln-ann-057",
+      "instance_id": "lincoln-ann-063",
       "case_id": "lincoln",
       "document_id": "lincoln-second-inaugural",
       "sentence_id": "lincoln-second-inaugural_s01_p02_s03",
@@ -52,7 +52,7 @@
         "lincoln-second-inaugural_s01_p02_s03_lu037"
       ],
       "cmt": {
-        "mapping_id": "lincoln-cmt-057",
+        "mapping_id": "lincoln-cmt-063",
         "cluster_id": "lincoln-02-covenant-oath",
         "source_domain_primary": "object_material",
         "source_domain_secondary": [],
@@ -74,7 +74,7 @@
       }
     },
     {
-      "instance_id": "lincoln-ann-058",
+      "instance_id": "lincoln-ann-064",
       "case_id": "lincoln",
       "document_id": "lincoln-second-inaugural",
       "sentence_id": "lincoln-second-inaugural_s01_p02_s04",
@@ -84,7 +84,7 @@
         "lincoln-second-inaugural_s01_p02_s04_lu028"
       ],
       "cmt": {
-        "mapping_id": "lincoln-cmt-058",
+        "mapping_id": "lincoln-cmt-064",
         "cluster_id": "lincoln-01-body-organism",
         "source_domain_primary": "nature_organism",
         "source_domain_secondary": [],
@@ -111,7 +111,7 @@
       }
     },
     {
-      "instance_id": "lincoln-ann-059",
+      "instance_id": "lincoln-ann-065",
       "case_id": "lincoln",
       "document_id": "lincoln-second-inaugural",
       "sentence_id": "lincoln-second-inaugural_s01_p03_s04",
@@ -120,7 +120,7 @@
         "lincoln-second-inaugural_s01_p03_s04_lu016"
       ],
       "cmt": {
-        "mapping_id": "lincoln-cmt-059",
+        "mapping_id": "lincoln-cmt-065",
         "cluster_id": "lincoln-02-covenant-oath",
         "source_domain_primary": "object_material",
         "source_domain_secondary": [],
@@ -142,7 +142,7 @@
       }
     },
     {
-      "instance_id": "lincoln-ann-060",
+      "instance_id": "lincoln-ann-066",
       "case_id": "lincoln",
       "document_id": "lincoln-second-inaugural",
       "sentence_id": "lincoln-second-inaugural_s01_p04_s05",
@@ -154,7 +154,7 @@
         "lincoln-second-inaugural_s01_p04_s05_lu026"
       ],
       "cmt": {
-        "mapping_id": "lincoln-cmt-060",
+        "mapping_id": "lincoln-cmt-066",
         "cluster_id": "lincoln-01-body-organism",
         "source_domain_primary": "body",
         "source_domain_secondary": [],
@@ -176,7 +176,7 @@
       }
     },
     {
-      "instance_id": "lincoln-ann-061",
+      "instance_id": "lincoln-ann-067",
       "case_id": "lincoln",
       "document_id": "lincoln-second-inaugural",
       "sentence_id": "lincoln-second-inaugural_s01_p05_s02",
@@ -194,7 +194,7 @@
         "lincoln-second-inaugural_s01_p05_s02_lu081"
       ],
       "cmt": {
-        "mapping_id": "lincoln-cmt-061",
+        "mapping_id": "lincoln-cmt-067",
         "cluster_id": "lincoln-06-providence-theodicy",
         "source_domain_primary": "religion_providence",
         "source_domain_secondary": [],
@@ -218,7 +218,7 @@
       }
     },
     {
-      "instance_id": "lincoln-ann-062",
+      "instance_id": "lincoln-ann-068",
       "case_id": "lincoln",
       "document_id": "lincoln-second-inaugural",
       "sentence_id": "lincoln-second-inaugural_s01_p05_s03",
@@ -228,7 +228,7 @@
         "lincoln-second-inaugural_s01_p05_s03_lu017"
       ],
       "cmt": {
-        "mapping_id": "lincoln-cmt-062",
+        "mapping_id": "lincoln-cmt-068",
         "cluster_id": "lincoln-01-body-organism",
         "source_domain_primary": "body",
         "source_domain_secondary": [],
@@ -253,7 +253,7 @@
       }
     },
     {
-      "instance_id": "lincoln-ann-063",
+      "instance_id": "lincoln-ann-069",
       "case_id": "lincoln",
       "document_id": "lincoln-second-inaugural",
       "sentence_id": "lincoln-second-inaugural_s01_p05_s04",
@@ -265,7 +265,7 @@
         "lincoln-second-inaugural_s01_p05_s04_lu060"
       ],
       "cmt": {
-        "mapping_id": "lincoln-cmt-063",
+        "mapping_id": "lincoln-cmt-069",
         "cluster_id": "lincoln-07-absence-black-agency",
         "source_domain_primary": "debt_accounting",
         "source_domain_secondary": [],
@@ -289,7 +289,7 @@
       }
     },
     {
-      "instance_id": "lincoln-ann-064",
+      "instance_id": "lincoln-ann-070",
       "case_id": "lincoln",
       "document_id": "lincoln-second-inaugural",
       "sentence_id": "lincoln-second-inaugural_s01_p06_s01",
@@ -300,7 +300,7 @@
         "lincoln-second-inaugural_s01_p06_s01_lu063"
       ],
       "cmt": {
-        "mapping_id": "lincoln-cmt-064",
+        "mapping_id": "lincoln-cmt-070",
         "cluster_id": "lincoln-01-body-organism",
         "source_domain_primary": "body",
         "source_domain_secondary": [],

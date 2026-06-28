@@ -48,7 +48,7 @@ raw_path: corpus/raw/lincoln-src-05-special-message-1861-07-04.txt
 pipeline_log:
 - stage: normalize-texts
   script: scripts/normalize-texts.py
-  generated_at: '2026-06-28T02:11:39'
+  generated_at: '2026-06-28T10:13:56'
 ---
 
 MESSAGE TO CONGRESS IN SPECIAL SESSION,

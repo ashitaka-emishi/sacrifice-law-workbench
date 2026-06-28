@@ -1,9 +1,9 @@
 {
   "case_id": "napoleon",
-  "status": "expanded-corpus-worklists-generated",
-  "current_stage": "mipvu-worklist-generated",
+  "status": "mipvu-review-complete-codex-assisted",
+  "current_stage": "mipvu-review-complete",
   "updated": "2026-06-28",
-  "notes": "Napoleon expanded corpus has 11 manifest documents after adding the pinned Gallica/Plon 1796 Army of Italy proclamation for issue #180. Raw French source text, normalized text, segmentation, and MIPVU worklist exist for the added proclamation. The original bulletin worklists retain first-pass Codex-assisted source-language decisions; the new proclamation is pending source-language annotation and reliability design review.",
+  "notes": "Napoleon expanded French worklists exist for all 11 documents and 23,224 lexical units have first-pass Codex-assisted source-language decisions. Each unit records source-language span_text; English glosses are retained only as aids for translation-sensitive terms such as gloire, honneur, victoire, patrie, mort, and sang. Results remain provisional until independent human review.",
   "expanded_corpus": {
     "added_issue": 180,
     "added_documents": [
@@ -21,12 +21,12 @@
     "annotator": "codex-assisted-mipvu-v1",
     "source_language": "fr",
     "decision_basis": "source-language span_text",
-    "total_lexical_units": 23005,
+    "total_lexical_units": 23224,
     "by_decision_type": {
       "mipvu_direct": 2,
       "mipvu_indirect": 14,
       "mipvu_personification": 6,
-      "non_metaphor": 22980,
+      "non_metaphor": 23199,
       "uncertain": 3
     },
     "by_document": {
@@ -72,6 +72,9 @@
       "napoleon-bulletin-1813-05-24-bautzen": {
         "mipvu_indirect": 1,
         "non_metaphor": 3241
+      },
+      "napoleon-proclamation-army-of-italy-1796-11-11": {
+        "non_metaphor": 219
       }
     },
     "pending_units": 0,

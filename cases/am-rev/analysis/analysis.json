@@ -1,20 +1,20 @@
 {
   "version": "1.0",
   "case_id": "am-rev",
-  "generated_at": "2026-06-28T02:11:37",
+  "generated_at": "2026-06-28T10:13:54",
   "status": "complete",
-  "total_instances": 61,
+  "total_instances": 66,
   "mipvu_profile": {
     "mipvu_files": 11,
     "total_lexical_units": 34890,
-    "reviewed_lexical_units": 23099,
-    "pending_lexical_units": 11791,
+    "reviewed_lexical_units": 34890,
+    "pending_lexical_units": 0,
     "confirmed_metaphor_units": 120,
-    "metaphor_or_uncertain_units": 122,
+    "metaphor_or_uncertain_units": 127,
     "metaphor_rate_confirmed": 0.0034,
-    "metaphor_rate_including_uncertain": 0.0035,
-    "reviewed_metaphor_rate_confirmed": 0.0052,
-    "reviewed_metaphor_rate_including_uncertain": 0.0053,
+    "metaphor_rate_including_uncertain": 0.0036,
+    "reviewed_metaphor_rate_confirmed": 0.0034,
+    "reviewed_metaphor_rate_including_uncertain": 0.0036,
     "by_document": {
       "am-rev-paine-common-sense": 21760,
       "am-rev-washington-orders-1783-06-08": 4143,
@@ -40,37 +40,37 @@
       "en": 34890
     },
     "by_decision_type": {
-      "non_metaphor": 22977,
-      "pending": 11791,
+      "non_metaphor": 34763,
       "mipvu_indirect": 79,
       "mipvu_direct": 31,
       "mipvu_personification": 10,
-      "uncertain": 2
+      "uncertain": 7
     },
     "by_confidence": {
-      "missing": 34768,
+      "missing": 34763,
       "medium": 120,
-      "low": 2
+      "low": 7
     }
   },
   "cmt_profile": {
     "mapping_file": "corpus/cmt/cmt-mappings.json",
-    "mapping_count": 61,
+    "mapping_count": 66,
     "by_cluster": {
       "am-rev-02-people-republic": 26,
       "am-rev-06-union-founding-memory": 17,
-      "am-rev-01-liberty-tyranny": 12,
+      "am-rev-01-liberty-tyranny": 13,
+      "am-rev-05-virtue-corruption": 5,
       "am-rev-04-providence-covenant": 3,
-      "am-rev-03-founding-sacrifice": 2,
-      "am-rev-05-virtue-corruption": 1
+      "am-rev-03-founding-sacrifice": 2
     },
     "by_source_domain": {
-      "body": 18,
+      "body": 19,
       "sacrifice": 13,
       "birth_generation": 10,
       "slavery_bondage": 6,
       "religion_providence": 5,
       "agriculture": 4,
+      "light_darkness": 4,
       "war_combat": 3,
       "mechanics": 1,
       "object_material": 1
@@ -80,8 +80,9 @@
       "government": 14,
       "freedom": 9,
       "enemy": 4,
+      "military_virtue": 4,
+      "social_body": 4,
       "union": 4,
-      "social_body": 3,
       "political_order": 2,
       "sacrifice": 2
     },
@@ -90,27 +91,30 @@
       "GOVERNMENT IS BODY": 11,
       "INDEPENDENCE IS BIRTH GENERATION": 10,
       "FREEDOM IS SLAVERY BONDAGE": 6,
+      "MILITARY VIRTUE IS LIGHT DARKNESS": 4,
       "UNION IS AGRICULTURE": 4,
       "ENEMY IS WAR COMBAT": 3,
       "FREEDOM IS BODY": 3,
       "GOVERNMENT IS RELIGION PROVIDENCE": 3,
+      "SOCIAL BODY IS BODY": 3,
       "SACRIFICE IS RELIGION PROVIDENCE": 2,
-      "SOCIAL BODY IS BODY": 2,
       "ENEMY IS BODY": 1,
       "POLITICAL ORDER IS BODY": 1,
       "POLITICAL ORDER IS OBJECT MATERIAL": 1,
       "SOCIAL BODY IS MECHANICS": 1
     },
     "by_document": {
-      "am-rev-paine-common-sense": 53,
-      "am-rev-jefferson-declaration": 8
+      "am-rev-paine-common-sense": 54,
+      "am-rev-jefferson-declaration": 8,
+      "am-rev-washington-orders-1783-06-08": 2,
+      "am-rev-washington-orders-1783-06-17": 2
     },
     "by_salience": {
-      "high": 42,
-      "medium": 19
+      "high": 43,
+      "medium": 23
     },
     "by_status": {
-      "provisional": 61
+      "provisional": 66
     }
   },
   "cluster_analyses": [
@@ -118,9 +122,9 @@
       "cluster_id": "am-rev-01-liberty-tyranny",
       "cluster_name": "Liberty versus tyranny",
       "status": "provisional",
-      "instance_count": 12,
+      "instance_count": 13,
       "instance_ids": [
-        "amrev-ann-060",
+        "amrev-ann-061",
         "amrev-ann-001",
         "amrev-ann-005",
         "amrev-ann-010",
@@ -131,9 +135,10 @@
         "amrev-ann-026",
         "amrev-ann-029",
         "amrev-ann-031",
-        "amrev-ann-043"
+        "amrev-ann-043",
+        "amrev-ann-054"
       ],
-      "cmt_mapping_count": 12,
+      "cmt_mapping_count": 13,
       "cmt_mapping_ids": [
         "amrev-cmt-001",
         "amrev-cmt-005",
@@ -146,24 +151,25 @@
         "amrev-cmt-029",
         "amrev-cmt-031",
         "amrev-cmt-043",
-        "amrev-cmt-060"
+        "amrev-cmt-054",
+        "amrev-cmt-061"
       ],
       "cmt_source_domains": {
         "slavery_bondage": 6,
-        "body": 3,
+        "body": 4,
         "war_combat": 3
       },
       "cmt_target_domains": {
         "freedom": 6,
         "enemy": 4,
-        "social_body": 2
+        "social_body": 3
       },
       "rhetorical_salience_distribution": {
-        "high": 9,
+        "high": 10,
         "medium": 3
       },
       "by_document": {
-        "am-rev-paine-common-sense": 11,
+        "am-rev-paine-common-sense": 12,
         "am-rev-jefferson-declaration": 1
       },
       "by_register": {},
@@ -186,9 +192,9 @@
       "status": "provisional",
       "instance_count": 26,
       "instance_ids": [
-        "amrev-ann-056",
         "amrev-ann-057",
         "amrev-ann-058",
+        "amrev-ann-059",
         "amrev-ann-002",
         "amrev-ann-003",
         "amrev-ann-004",
@@ -238,9 +244,9 @@
         "amrev-cmt-051",
         "amrev-cmt-052",
         "amrev-cmt-053",
-        "amrev-cmt-056",
         "amrev-cmt-057",
-        "amrev-cmt-058"
+        "amrev-cmt-058",
+        "amrev-cmt-059"
       ],
       "cmt_source_domains": {
         "sacrifice": 13,
@@ -279,13 +285,13 @@
       "status": "provisional",
       "instance_count": 2,
       "instance_ids": [
-        "amrev-ann-059",
-        "amrev-ann-061"
+        "amrev-ann-060",
+        "amrev-ann-062"
       ],
       "cmt_mapping_count": 2,
       "cmt_mapping_ids": [
-        "amrev-cmt-059",
-        "amrev-cmt-061"
+        "amrev-cmt-060",
+        "amrev-cmt-062"
       ],
       "cmt_source_domains": {
         "religion_providence": 2
@@ -360,24 +366,37 @@
       "cluster_id": "am-rev-05-virtue-corruption",
       "cluster_name": "Virtue versus corruption",
       "status": "provisional",
-      "instance_count": 1,
+      "instance_count": 5,
       "instance_ids": [
-        "amrev-ann-027"
+        "amrev-ann-027",
+        "amrev-ann-063",
+        "amrev-ann-064",
+        "amrev-ann-065",
+        "amrev-ann-066"
       ],
-      "cmt_mapping_count": 1,
+      "cmt_mapping_count": 5,
       "cmt_mapping_ids": [
-        "amrev-cmt-027"
+        "amrev-cmt-027",
+        "amrev-cmt-063",
+        "amrev-cmt-064",
+        "amrev-cmt-065",
+        "amrev-cmt-066"
       ],
       "cmt_source_domains": {
+        "light_darkness": 4,
         "mechanics": 1
       },
       "cmt_target_domains": {
+        "military_virtue": 4,
         "social_body": 1
       },
       "rhetorical_salience_distribution": {
+        "medium": 4,
         "high": 1
       },
       "by_document": {
+        "am-rev-washington-orders-1783-06-08": 2,
+        "am-rev-washington-orders-1783-06-17": 2,
         "am-rev-paine-common-sense": 1
       },
       "by_register": {},
@@ -398,8 +417,8 @@
       "status": "provisional",
       "instance_count": 17,
       "instance_ids": [
-        "amrev-ann-054",
         "amrev-ann-055",
+        "amrev-ann-056",
         "amrev-ann-007",
         "amrev-ann-008",
         "amrev-ann-009",
@@ -433,8 +452,8 @@
         "amrev-cmt-038",
         "amrev-cmt-039",
         "amrev-cmt-044",
-        "amrev-cmt-054",
-        "amrev-cmt-055"
+        "amrev-cmt-055",
+        "amrev-cmt-056"
       ],
       "cmt_source_domains": {
         "body": 12,
@@ -469,17 +488,19 @@
   ],
   "corpus_profile": {
     "by_document": {
-      "am-rev-paine-common-sense": 53,
-      "am-rev-jefferson-declaration": 8
+      "am-rev-paine-common-sense": 54,
+      "am-rev-jefferson-declaration": 8,
+      "am-rev-washington-orders-1783-06-08": 2,
+      "am-rev-washington-orders-1783-06-17": 2
     },
     "by_register": {},
     "by_cluster": {
       "am-rev-02-people-republic": 26,
       "am-rev-06-union-founding-memory": 17,
-      "am-rev-01-liberty-tyranny": 12,
+      "am-rev-01-liberty-tyranny": 13,
+      "am-rev-05-virtue-corruption": 5,
       "am-rev-04-providence-covenant": 3,
-      "am-rev-03-founding-sacrifice": 2,
-      "am-rev-05-virtue-corruption": 1
+      "am-rev-03-founding-sacrifice": 2
     },
     "by_fantasy_type": {
       "redemptive_sacrifice": 15,
@@ -490,22 +511,23 @@
     },
     "by_absence_flag": {},
     "cmt_denominator": {
-      "mapping_count": 61,
+      "mapping_count": 66,
       "by_cluster": {
         "am-rev-02-people-republic": 26,
         "am-rev-06-union-founding-memory": 17,
-        "am-rev-01-liberty-tyranny": 12,
+        "am-rev-01-liberty-tyranny": 13,
+        "am-rev-05-virtue-corruption": 5,
         "am-rev-04-providence-covenant": 3,
-        "am-rev-03-founding-sacrifice": 2,
-        "am-rev-05-virtue-corruption": 1
+        "am-rev-03-founding-sacrifice": 2
       },
       "by_source_domain": {
-        "body": 18,
+        "body": 19,
         "sacrifice": 13,
         "birth_generation": 10,
         "slavery_bondage": 6,
         "religion_providence": 5,
         "agriculture": 4,
+        "light_darkness": 4,
         "war_combat": 3,
         "mechanics": 1,
         "object_material": 1
@@ -515,8 +537,9 @@
         "government": 14,
         "freedom": 9,
         "enemy": 4,
+        "military_virtue": 4,
+        "social_body": 4,
         "union": 4,
-        "social_body": 3,
         "political_order": 2,
         "sacrifice": 2
       },
@@ -525,31 +548,32 @@
         "GOVERNMENT IS BODY": 11,
         "INDEPENDENCE IS BIRTH GENERATION": 10,
         "FREEDOM IS SLAVERY BONDAGE": 6,
+        "MILITARY VIRTUE IS LIGHT DARKNESS": 4,
         "UNION IS AGRICULTURE": 4,
         "ENEMY IS WAR COMBAT": 3,
         "FREEDOM IS BODY": 3,
         "GOVERNMENT IS RELIGION PROVIDENCE": 3,
+        "SOCIAL BODY IS BODY": 3,
         "SACRIFICE IS RELIGION PROVIDENCE": 2,
-        "SOCIAL BODY IS BODY": 2,
         "ENEMY IS BODY": 1,
         "POLITICAL ORDER IS BODY": 1,
         "POLITICAL ORDER IS OBJECT MATERIAL": 1,
         "SOCIAL BODY IS MECHANICS": 1
       },
       "by_salience": {
-        "high": 42,
-        "medium": 19
+        "high": 43,
+        "medium": 23
       }
     },
     "mipvu_denominator": {
       "total_lexical_units": 34890,
-      "reviewed_lexical_units": 23099,
+      "reviewed_lexical_units": 34890,
       "confirmed_metaphor_units": 120,
-      "metaphor_or_uncertain_units": 122,
+      "metaphor_or_uncertain_units": 127,
       "metaphor_rate_confirmed": 0.0034,
-      "metaphor_rate_including_uncertain": 0.0035,
-      "reviewed_metaphor_rate_confirmed": 0.0052,
-      "reviewed_metaphor_rate_including_uncertain": 0.0053
+      "metaphor_rate_including_uncertain": 0.0036,
+      "reviewed_metaphor_rate_confirmed": 0.0034,
+      "reviewed_metaphor_rate_including_uncertain": 0.0036
     }
   },
   "errors": [],
@@ -557,7 +581,7 @@
     {
       "stage": "run-case-analysis",
       "script": "scripts/run-case-analysis.py",
-      "generated_at": "2026-06-28T02:11:37"
+      "generated_at": "2026-06-28T10:13:54"
     }
   ]
 }

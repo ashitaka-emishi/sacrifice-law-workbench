@@ -1,0 +1,466 @@
+{
+  "case_id": "wwi-britain",
+  "generated_at": "2026-06-28T10:03:03",
+  "status": "mipvu-review-complete-codex-assisted",
+  "review_batch": "wwi-britain-expanded-corpus-mipvu-review-v1",
+  "annotator": "codex-assisted-expansion-mipvu-v1",
+  "source_language": "en",
+  "total_lexical_units": 18213,
+  "pending_units": 0,
+  "by_decision_type": {
+    "mipvu_direct": 8,
+    "mipvu_indirect": 38,
+    "non_metaphor": 18167
+  },
+  "by_rule_id": {
+    "expansion-default-reviewed-non-metaphor": 18167,
+    "wwi-blood-national-renewal": 4,
+    "wwi-burden-obligation": 3,
+    "wwi-embodied-national-service": 15,
+    "wwi-machine-society": 8,
+    "wwi-road-season-victory": 4,
+    "wwi-sacrifice-service": 12
+  },
+  "by_document": {
+    "wwi-britain-lloyd-george-causes-aims-war": {
+      "mipvu_direct": 5,
+      "mipvu_indirect": 13,
+      "non_metaphor": 6059
+    },
+    "wwi-britain-lloyd-george-entry-america": {
+      "mipvu_indirect": 4,
+      "non_metaphor": 2831
+    },
+    "wwi-britain-lloyd-george-through-terror-to-triumph": {
+      "mipvu_direct": 3,
+      "mipvu_indirect": 13,
+      "non_metaphor": 4985
+    },
+    "wwi-britain-lloyd-george-winning-this-war": {
+      "mipvu_indirect": 8,
+      "non_metaphor": 4292
+    }
+  },
+  "sample_metaphor_or_uncertain_units": [
+    {
+      "mipvu_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p18_s04_lu005",
+      "document_id": "wwi-britain-lloyd-george-through-terror-to-triumph",
+      "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p18_s04",
+      "lexical_unit": "road",
+      "decision_type": "mipvu_indirect",
+      "curated_rule_id": "wwi-road-season-victory",
+      "sentence_text": "It is the straight road to barbarism."
+    },
+    {
+      "mipvu_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p28_s02_lu020",
+      "document_id": "wwi-britain-lloyd-george-through-terror-to-triumph",
+      "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p28_s02",
+      "lexical_unit": "driven",
+      "decision_type": "mipvu_direct",
+      "curated_rule_id": "wwi-machine-society",
+      "sentence_text": "I will go beyond that, and I will say that if you turn two million men — forced, conscript, compelled, driven — into the field, you will always get amongst them a certain number who will do things that the nation to which they belong would be ashamed of."
+    },
+    {
+      "mipvu_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p46_s06_lu004",
+      "document_id": "wwi-britain-lloyd-george-through-terror-to-triumph",
+      "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p46_s06",
+      "lexical_unit": "sacrifices",
+      "decision_type": "mipvu_indirect",
+      "curated_rule_id": "wwi-sacrifice-service",
+      "sentence_text": "Russia has made sacrifices for freedom — great sacrifices."
+    },
+    {
+      "mipvu_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p46_s06_lu008",
+      "document_id": "wwi-britain-lloyd-george-through-terror-to-triumph",
+      "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p46_s06",
+      "lexical_unit": "sacrifices",
+      "decision_type": "mipvu_indirect",
+      "curated_rule_id": "wwi-sacrifice-service",
+      "sentence_text": "Russia has made sacrifices for freedom — great sacrifices."
+    },
+    {
+      "mipvu_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p46_s13_lu004",
+      "document_id": "wwi-britain-lloyd-george-through-terror-to-triumph",
+      "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p46_s13",
+      "lexical_unit": "sacrifices",
+      "decision_type": "mipvu_indirect",
+      "curated_rule_id": "wwi-sacrifice-service",
+      "sentence_text": "France has made sacrifices for the freedom of other lands than her own."
+    },
+    {
+      "mipvu_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p49_s01_lu011",
+      "document_id": "wwi-britain-lloyd-george-through-terror-to-triumph",
+      "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p49_s01",
+      "lexical_unit": "sacrificed",
+      "decision_type": "mipvu_indirect",
+      "curated_rule_id": "wwi-sacrifice-service",
+      "sentence_text": "world for the freedom of which modern Prussia has ever sacrificed a single life ?"
+    },
+    {
+      "mipvu_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p49_s02_lu016",
+      "document_id": "wwi-britain-lloyd-george-through-terror-to-triumph",
+      "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p49_s02",
+      "lexical_unit": "sacrifice",
+      "decision_type": "mipvu_indirect",
+      "curated_rule_id": "wwi-sacrifice-service",
+      "sentence_text": "By the test of our faith, the highest standard of civilisation is the readiness to sacrifice for others."
+    },
+    {
+      "mipvu_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p51_s02_lu011",
+      "document_id": "wwi-britain-lloyd-george-through-terror-to-triumph",
+      "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p51_s02",
+      "lexical_unit": "head",
+      "decision_type": "mipvu_indirect",
+      "curated_rule_id": "wwi-embodied-national-service",
+      "sentence_text": "They are a great people, and have great qualities of head and hand and heart."
+    },
+    {
+      "mipvu_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p51_s02_lu013",
+      "document_id": "wwi-britain-lloyd-george-through-terror-to-triumph",
+      "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p51_s02",
+      "lexical_unit": "hand",
+      "decision_type": "mipvu_indirect",
+      "curated_rule_id": "wwi-embodied-national-service",
+      "sentence_text": "They are a great people, and have great qualities of head and hand and heart."
+    },
+    {
+      "mipvu_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p51_s02_lu015",
+      "document_id": "wwi-britain-lloyd-george-through-terror-to-triumph",
+      "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p51_s02",
+      "lexical_unit": "heart",
+      "decision_type": "mipvu_indirect",
+      "curated_rule_id": "wwi-embodied-national-service",
+      "sentence_text": "They are a great people, and have great qualities of head and hand and heart."
+    },
+    {
+      "mipvu_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p51_s08_lu027",
+      "document_id": "wwi-britain-lloyd-george-through-terror-to-triumph",
+      "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p51_s08",
+      "lexical_unit": "Diesel",
+      "decision_type": "mipvu_direct",
+      "curated_rule_id": "wwi-machine-society",
+      "sentence_text": "God made man in His own image, high of purpose, in the region of the spirit ; German civilisation would re-create him in the image of a Diesel machine — precise, accurate, powerful, but with no room for soul to operate."
+    },
+    {
+      "mipvu_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p51_s08_lu028",
+      "document_id": "wwi-britain-lloyd-george-through-terror-to-triumph",
+      "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p51_s08",
+      "lexical_unit": "machine",
+      "decision_type": "mipvu_direct",
+      "curated_rule_id": "wwi-machine-society",
+      "sentence_text": "God made man in His own image, high of purpose, in the region of the spirit ; German civilisation would re-create him in the image of a Diesel machine — precise, accurate, powerful, but with no room for soul to operate."
+    },
+    {
+      "mipvu_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p57_s18_lu004",
+      "document_id": "wwi-britain-lloyd-george-through-terror-to-triumph",
+      "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p57_s18",
+      "lexical_unit": "sacrifice",
+      "decision_type": "mipvu_indirect",
+      "curated_rule_id": "wwi-sacrifice-service",
+      "sentence_text": "Sickly sentimentalism about sacrifice for others !"
+    },
+    {
+      "mipvu_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p69_s01_lu002",
+      "document_id": "wwi-britain-lloyd-george-through-terror-to-triumph",
+      "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p69_s01",
+      "lexical_unit": "Sacrifice",
+      "decision_type": "mipvu_indirect",
+      "curated_rule_id": "wwi-sacrifice-service",
+      "sentence_text": "The Sacrifice."
+    },
+    {
+      "mipvu_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p70_s04_lu004",
+      "document_id": "wwi-britain-lloyd-george-through-terror-to-triumph",
+      "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p70_s04",
+      "lexical_unit": "sacrifice",
+      "decision_type": "mipvu_indirect",
+      "curated_rule_id": "wwi-sacrifice-service",
+      "sentence_text": "For most generations sacrifice comes in drab and weariness of spirit."
+    },
+    {
+      "mipvu_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p78_s01_lu025",
+      "document_id": "wwi-britain-lloyd-george-through-terror-to-triumph",
+      "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p78_s01",
+      "lexical_unit": "Sacrifice",
+      "decision_type": "mipvu_indirect",
+      "curated_rule_id": "wwi-sacrifice-service",
+      "sentence_text": "that matter for a nation — the great peaks we had forgotten, of Honour, Duty, Patriotism, and, clad in glittering white, the towering pinnacle of Sacrifice pointing like a rugged finger to Heaven."
+    },
+    {
+      "mipvu_id": "wwi-britain-lloyd-george-winning-this-war_s01_p03_s02_lu022",
+      "document_id": "wwi-britain-lloyd-george-winning-this-war",
+      "sentence_id": "wwi-britain-lloyd-george-winning-this-war_s01_p03_s02",
+      "lexical_unit": "hand",
+      "decision_type": "mipvu_indirect",
+      "curated_rule_id": "wwi-embodied-national-service",
+      "sentence_text": "I am also delighted to find here men who have been fighting political battles against me The task we have in hand is not the task of one party or of two parties, but a task for the nation as a whole, and we wish to preserve absolute na- tional unity until we secure national strength."
+    },
+    {
+      "mipvu_id": "wwi-britain-lloyd-george-winning-this-war_s01_p03_s02_lu056",
+      "document_id": "wwi-britain-lloyd-george-winning-this-war",
+      "sentence_id": "wwi-britain-lloyd-george-winning-this-war_s01_p03_s02",
+      "lexical_unit": "strength",
+      "decision_type": "mipvu_indirect",
+      "curated_rule_id": "wwi-embodied-national-service",
+      "sentence_text": "I am also delighted to find here men who have been fighting political battles against me The task we have in hand is not the task of one party or of two parties, but a task for the nation as a whole, and we wish to preserve absolute na- tional unity until we secure national strength."
+    },
+    {
+      "mipvu_id": "wwi-britain-lloyd-george-winning-this-war_s01_p19_s07_lu022",
+      "document_id": "wwi-britain-lloyd-george-winning-this-war",
+      "sentence_id": "wwi-britain-lloyd-george-winning-this-war_s01_p19_s07",
+      "lexical_unit": "sacrifice",
+      "decision_type": "mipvu_indirect",
+      "curated_rule_id": "wwi-sacrifice-service",
+      "sentence_text": "When the country is in danger, then liberty means the right of every man to defend her; equality means equality of sacrifice of every man and woman of France ; fraternity means the brother- hood of endurance, eifort, victory for France."
+    },
+    {
+      "mipvu_id": "wwi-britain-lloyd-george-winning-this-war_s01_p30_s11_lu013",
+      "document_id": "wwi-britain-lloyd-george-winning-this-war",
+      "sentence_id": "wwi-britain-lloyd-george-winning-this-war_s01_p30_s11",
+      "lexical_unit": "strength",
+      "decision_type": "mipvu_indirect",
+      "curated_rule_id": "wwi-embodied-national-service",
+      "sentence_text": "It is purely, as I said, a means of organ- ising the strength and virility of a nation to save itself from oppression, and that is why, as a Lib- eral fighting the battle of liberty in Europe, I have no shame in declaring for compulsory enlist- ment as I would for compulsory taxes or for com- pulsory education, or, if you will allow me, for compulsory insurance."
+    },
+    {
+      "mipvu_id": "wwi-britain-lloyd-george-winning-this-war_s01_p59_s05_lu019",
+      "document_id": "wwi-britain-lloyd-george-winning-this-war",
+      "sentence_id": "wwi-britain-lloyd-george-winning-this-war_s01_p59_s05",
+      "lexical_unit": "heart",
+      "decision_type": "mipvu_indirect",
+      "curated_rule_id": "wwi-embodied-national-service",
+      "sentence_text": "I believed that in this war freedom was at stake, so I have thrown myself with all my heart and soul and strength into working for victory."
+    },
+    {
+      "mipvu_id": "wwi-britain-lloyd-george-winning-this-war_s01_p59_s05_lu021",
+      "document_id": "wwi-britain-lloyd-george-winning-this-war",
+      "sentence_id": "wwi-britain-lloyd-george-winning-this-war_s01_p59_s05",
+      "lexical_unit": "soul",
+      "decision_type": "mipvu_indirect",
+      "curated_rule_id": "wwi-embodied-national-service",
+      "sentence_text": "I believed that in this war freedom was at stake, so I have thrown myself with all my heart and soul and strength into working for victory."
+    },
+    {
+      "mipvu_id": "wwi-britain-lloyd-george-winning-this-war_s01_p59_s05_lu023",
+      "document_id": "wwi-britain-lloyd-george-winning-this-war",
+      "sentence_id": "wwi-britain-lloyd-george-winning-this-war_s01_p59_s05",
+      "lexical_unit": "strength",
+      "decision_type": "mipvu_indirect",
+      "curated_rule_id": "wwi-embodied-national-service",
+      "sentence_text": "I believed that in this war freedom was at stake, so I have thrown myself with all my heart and soul and strength into working for victory."
+    },
+    {
+      "mipvu_id": "wwi-britain-lloyd-george-winning-this-war_s01_p68_s03_lu030",
+      "document_id": "wwi-britain-lloyd-george-winning-this-war",
+      "sentence_id": "wwi-britain-lloyd-george-winning-this-war_s01_p68_s03",
+      "lexical_unit": "strength",
+      "decision_type": "mipvu_indirect",
+      "curated_rule_id": "wwi-embodied-national-service",
+      "sentence_text": "That is why I attach so much importance to this nation, which has so often led the battle of right and freedom in Europe, mobilising the whole of its strength for this great purpose."
+    },
+    {
+      "mipvu_id": "wwi-britain-lloyd-george-entry-america_s01_p18_s02_lu027",
+      "document_id": "wwi-britain-lloyd-george-entry-america",
+      "sentence_id": "wwi-britain-lloyd-george-entry-america_s01_p18_s02",
+      "lexical_unit": "strength",
+      "decision_type": "mipvu_indirect",
+      "curated_rule_id": "wwi-embodied-national-service",
+      "sentence_text": "France was like a nation which had pnt up its right arm to ward off a blow, and it could not use the whole of its strength for tl^ie great things France was capable of."
+    },
+    {
+      "mipvu_id": "wwi-britain-lloyd-george-entry-america_s01_p33_s02_lu002",
+      "document_id": "wwi-britain-lloyd-george-entry-america",
+      "sentence_id": "wwi-britain-lloyd-george-entry-america_s01_p33_s02",
+      "lexical_unit": "road",
+      "decision_type": "mipvu_indirect",
+      "curated_rule_id": "wwi-road-season-victory",
+      "sentence_text": "The road to victory, the guarantee of victoiy, the absolute assurance of victory, is to be found in one word — ships !"
+    },
+    {
+      "mipvu_id": "wwi-britain-lloyd-george-entry-america_s01_p48_s08_lu010",
+      "document_id": "wwi-britain-lloyd-george-entry-america",
+      "sentence_id": "wwi-britain-lloyd-george-entry-america_s01_p48_s08",
+      "lexical_unit": "winter",
+      "decision_type": "mipvu_indirect",
+      "curated_rule_id": "wwi-road-season-victory",
+      "sentence_text": "This may be something like that fierce outburst of winter which we are now wit- nessing before the complete triumph of spring."
+    },
+    {
+      "mipvu_id": "wwi-britain-lloyd-george-entry-america_s01_p48_s08_lu022",
+      "document_id": "wwi-britain-lloyd-george-entry-america",
+      "sentence_id": "wwi-britain-lloyd-george-entry-america_s01_p48_s08",
+      "lexical_unit": "spring",
+      "decision_type": "mipvu_indirect",
+      "curated_rule_id": "wwi-road-season-victory",
+      "sentence_text": "This may be something like that fierce outburst of winter which we are now wit- nessing before the complete triumph of spring."
+    },
+    {
+      "mipvu_id": "wwi-britain-lloyd-george-causes-aims-war_s01_p18_s02_lu021",
+      "document_id": "wwi-britain-lloyd-george-causes-aims-war",
+      "sentence_id": "wwi-britain-lloyd-george-causes-aims-war_s01_p18_s02",
+      "lexical_unit": "blood",
+      "decision_type": "mipvu_indirect",
+      "curated_rule_id": "wwi-blood-national-renewal",
+      "sentence_text": "While it is on, the strength of a country is diverted to the internal conflict which is raging in its blood, and it is naturally not so effective for external use during that period."
+    },
+    {
+      "mipvu_id": "wwi-britain-lloyd-george-causes-aims-war_s01_p22_s10_lu014",
+      "document_id": "wwi-britain-lloyd-george-causes-aims-war",
+      "sentence_id": "wwi-britain-lloyd-george-causes-aims-war_s01_p22_s10",
+      "lexical_unit": "strength",
+      "decision_type": "mipvu_indirect",
+      "curated_rule_id": "wwi-embodied-national-service",
+      "sentence_text": "With their monster artillery they are shattering the rusty bars that fettered the strength of the people of Russia."
+    },
+    {
+      "mipvu_id": "wwi-britain-lloyd-george-causes-aims-war_s01_p26_s01_lu002",
+      "document_id": "wwi-britain-lloyd-george-causes-aims-war",
+      "sentence_id": "wwi-britain-lloyd-george-causes-aims-war_s01_p26_s01",
+      "lexical_unit": "Burden",
+      "decision_type": "mipvu_indirect",
+      "curated_rule_id": "wwi-burden-obligation",
+      "sentence_text": "The Burden Cast Upon the Other Allies."
+    },
+    {
+      "mipvu_id": "wwi-britain-lloyd-george-causes-aims-war_s01_p27_s01_lu008",
+      "document_id": "wwi-britain-lloyd-george-causes-aims-war",
+      "sentence_id": "wwi-britain-lloyd-george-causes-aims-war_s01_p27_s01",
+      "lexical_unit": "bear",
+      "decision_type": "mipvu_indirect",
+      "curated_rule_id": "wwi-burden-obligation",
+      "sentence_text": "Meanwhile, France, Italy, and ourselves have to bear the greatest share of the burden, and I should like to say to those who hailed the Rus- sian Revolution with delight as well as condemn- ing and doing their best to thwart the military efforts of their own country, that but for these military efforts the Russian Revolution would have had no chance to fructify."
+    },
+    {
+      "mipvu_id": "wwi-britain-lloyd-george-causes-aims-war_s01_p27_s01_lu014",
+      "document_id": "wwi-britain-lloyd-george-causes-aims-war",
+      "sentence_id": "wwi-britain-lloyd-george-causes-aims-war_s01_p27_s01",
+      "lexical_unit": "burden",
+      "decision_type": "mipvu_indirect",
+      "curated_rule_id": "wwi-burden-obligation",
+      "sentence_text": "Meanwhile, France, Italy, and ourselves have to bear the greatest share of the burden, and I should like to say to those who hailed the Rus- sian Revolution with delight as well as condemn- ing and doing their best to thwart the military efforts of their own country, that but for these military efforts the Russian Revolution would have had no chance to fructify."
+    },
+    {
+      "mipvu_id": "wwi-britain-lloyd-george-causes-aims-war_s01_p43_s06_lu011",
+      "document_id": "wwi-britain-lloyd-george-causes-aims-war",
+      "sentence_id": "wwi-britain-lloyd-george-causes-aims-war_s01_p43_s06",
+      "lexical_unit": "petrol",
+      "decision_type": "mipvu_direct",
+      "curated_rule_id": "wwi-machine-society",
+      "sentence_text": "There are people who think the nation is like a petrol machine, that it can only be driven by a rapid succession of petty explo- sions, and unless they always hear its spluttering they think the machine is at a standstill."
+    },
+    {
+      "mipvu_id": "wwi-britain-lloyd-george-causes-aims-war_s01_p43_s06_lu012",
+      "document_id": "wwi-britain-lloyd-george-causes-aims-war",
+      "sentence_id": "wwi-britain-lloyd-george-causes-aims-war_s01_p43_s06",
+      "lexical_unit": "machine",
+      "decision_type": "mipvu_direct",
+      "curated_rule_id": "wwi-machine-society",
+      "sentence_text": "There are people who think the nation is like a petrol machine, that it can only be driven by a rapid succession of petty explo- sions, and unless they always hear its spluttering they think the machine is at a standstill."
+    },
+    {
+      "mipvu_id": "wwi-britain-lloyd-george-causes-aims-war_s01_p43_s06_lu018",
+      "document_id": "wwi-britain-lloyd-george-causes-aims-war",
+      "sentence_id": "wwi-britain-lloyd-george-causes-aims-war_s01_p43_s06",
+      "lexical_unit": "driven",
+      "decision_type": "mipvu_direct",
+      "curated_rule_id": "wwi-machine-society",
+      "sentence_text": "There are people who think the nation is like a petrol machine, that it can only be driven by a rapid succession of petty explo- sions, and unless they always hear its spluttering they think the machine is at a standstill."
+    },
+    {
+      "mipvu_id": "wwi-britain-lloyd-george-causes-aims-war_s01_p43_s06_lu037",
+      "document_id": "wwi-britain-lloyd-george-causes-aims-war",
+      "sentence_id": "wwi-britain-lloyd-george-causes-aims-war_s01_p43_s06",
+      "lexical_unit": "machine",
+      "decision_type": "mipvu_direct",
+      "curated_rule_id": "wwi-machine-society",
+      "sentence_text": "There are people who think the nation is like a petrol machine, that it can only be driven by a rapid succession of petty explo- sions, and unless they always hear its spluttering they think the machine is at a standstill."
+    },
+    {
+      "mipvu_id": "wwi-britain-lloyd-george-causes-aims-war_s01_p45_s01_lu012",
+      "document_id": "wwi-britain-lloyd-george-causes-aims-war",
+      "sentence_id": "wwi-britain-lloyd-george-causes-aims-war_s01_p45_s01",
+      "lexical_unit": "strength",
+      "decision_type": "mipvu_indirect",
+      "curated_rule_id": "wwi-embodied-national-service",
+      "sentence_text": "of the people gradually; but if they breathe con- fidence, unity, strength, and hope, it adds to the power of the people to go througli this terrible crisis."
+    },
+    {
+      "mipvu_id": "wwi-britain-lloyd-george-causes-aims-war_s01_p45_s02_lu039",
+      "document_id": "wwi-britain-lloyd-george-causes-aims-war",
+      "sentence_id": "wwi-britain-lloyd-george-causes-aims-war_s01_p45_s02",
+      "lexical_unit": "strength",
+      "decision_type": "mipvu_indirect",
+      "curated_rule_id": "wwi-embodied-national-service",
+      "sentence_text": "That is why I am appealing first of all to those who have power and influence in the land, whether great or small, each in his circle helping the spirit of the nation to support its purpose, give strength to its wdll."
+    },
+    {
+      "mipvu_id": "wwi-britain-lloyd-george-causes-aims-war_s01_p50_s03_lu012",
+      "document_id": "wwi-britain-lloyd-george-causes-aims-war",
+      "sentence_id": "wwi-britain-lloyd-george-causes-aims-war_s01_p50_s03",
+      "lexical_unit": "sacrificed",
+      "decision_type": "mipvu_indirect",
+      "curated_rule_id": "wwi-sacrifice-service",
+      "sentence_text": "If it is true, then it would be criminal if we sacrificed more precious life and treasure, and prolonged the wretchedness and anxiety and suffering associated with the war."
+    },
+    {
+      "mipvu_id": "wwi-britain-lloyd-george-causes-aims-war_s01_p54_s06_lu014",
+      "document_id": "wwi-britain-lloyd-george-causes-aims-war",
+      "sentence_id": "wwi-britain-lloyd-george-causes-aims-war_s01_p54_s06",
+      "lexical_unit": "blood",
+      "decision_type": "mipvu_indirect",
+      "curated_rule_id": "wwi-blood-national-renewal",
+      "sentence_text": "Rome would have thrown off its sloth as Britain did in 1914; its blood cleansed by sacrifice, the old vitality, the old virility of the race would have been restored, Rome would have been grander than ever, its rule would have been more beneficent, and the world would have been spared centuries of cruelties and chaos."
+    },
+    {
+      "mipvu_id": "wwi-britain-lloyd-george-causes-aims-war_s01_p54_s06_lu015",
+      "document_id": "wwi-britain-lloyd-george-causes-aims-war",
+      "sentence_id": "wwi-britain-lloyd-george-causes-aims-war_s01_p54_s06",
+      "lexical_unit": "cleansed",
+      "decision_type": "mipvu_indirect",
+      "curated_rule_id": "wwi-blood-national-renewal",
+      "sentence_text": "Rome would have thrown off its sloth as Britain did in 1914; its blood cleansed by sacrifice, the old vitality, the old virility of the race would have been restored, Rome would have been grander than ever, its rule would have been more beneficent, and the world would have been spared centuries of cruelties and chaos."
+    },
+    {
+      "mipvu_id": "wwi-britain-lloyd-george-causes-aims-war_s01_p54_s06_lu017",
+      "document_id": "wwi-britain-lloyd-george-causes-aims-war",
+      "sentence_id": "wwi-britain-lloyd-george-causes-aims-war_s01_p54_s06",
+      "lexical_unit": "sacrifice",
+      "decision_type": "mipvu_indirect",
+      "curated_rule_id": "wwi-sacrifice-service",
+      "sentence_text": "Rome would have thrown off its sloth as Britain did in 1914; its blood cleansed by sacrifice, the old vitality, the old virility of the race would have been restored, Rome would have been grander than ever, its rule would have been more beneficent, and the world would have been spared centuries of cruelties and chaos."
+    },
+    {
+      "mipvu_id": "wwi-britain-lloyd-george-causes-aims-war_s01_p66_s05_lu011",
+      "document_id": "wwi-britain-lloyd-george-causes-aims-war",
+      "sentence_id": "wwi-britain-lloyd-george-causes-aims-war_s01_p66_s05",
+      "lexical_unit": "driven",
+      "decision_type": "mipvu_direct",
+      "curated_rule_id": "wwi-machine-society",
+      "sentence_text": "We are there to recover for people who have been driven out of their patrimony the land which belongs to them and to their fathers."
+    },
+    {
+      "mipvu_id": "wwi-britain-lloyd-george-causes-aims-war_s01_p94_s01_lu025",
+      "document_id": "wwi-britain-lloyd-george-causes-aims-war",
+      "sentence_id": "wwi-britain-lloyd-george-causes-aims-war_s01_p94_s01",
+      "lexical_unit": "blood",
+      "decision_type": "mipvu_indirect",
+      "curated_rule_id": "wwi-blood-national-renewal",
+      "sentence_text": "Then came the conflict of the eighteenth century, the great fight for the right of men, as men, and Europe again was drenched with blood, but at the end of it the peasantry were free and democracy became a reality."
+    },
+    {
+      "mipvu_id": "wwi-britain-lloyd-george-causes-aims-war_s01_p97_s02_lu053",
+      "document_id": "wwi-britain-lloyd-george-causes-aims-war",
+      "sentence_id": "wwi-britain-lloyd-george-causes-aims-war_s01_p97_s02",
+      "lexical_unit": "strength",
+      "decision_type": "mipvu_indirect",
+      "curated_rule_id": "wwi-embodied-national-service",
+      "sentence_text": "My ap- peal to the people of this country, and, if my ap- peal can reach beyond it, is this, that we should continue to fight for the great goal of interna- tional right and international justice, so that never again shall brute force sit on the throne of justice, nor barbaric strength wield the sceptre of right."
+    }
+  ],
+  "limitations": [
+    "Codex-assisted decisions are a first-pass review gate, not independent human double-coding.",
+    "Default non-metaphor decisions are conservative and should be sampled before claim promotion.",
+    "Generated CMT/Koenigsbergian annotations remain provisional until scholarly review.",
+    "Internet Archive OCR noise remains visible in the source and must be checked before publication-grade quotation."
+  ]
+}

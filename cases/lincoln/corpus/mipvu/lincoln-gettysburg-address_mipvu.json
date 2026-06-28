@@ -4,14 +4,17 @@
   "document_id": "lincoln-gettysburg-address",
   "source_language": "en",
   "generated_at": "2026-06-17T06:50:08",
-  "status": "worklist",
+  "status": "reviewed",
   "meta": {
     "title": "Address Delivered at the Dedication of the Cemetery at Gettysburg",
     "short_title": "Gettysburg Address",
     "register": "ceremonial-address",
     "date": "1863-11-19",
     "source_url": "https://www.gutenberg.org/ebooks/4",
-    "annotation_language_policy": "source-language"
+    "annotation_language_policy": "source-language",
+    "review_completed_at": "2026-06-28T10:02:07",
+    "review_batch": "lincoln-full-corpus-mipvu-review-v1",
+    "annotator": "codex-assisted-mipvu-v1"
   },
   "lexical_units": [
     {
@@ -31,7 +34,8 @@
       "review_status": "accepted",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "annotator": "codex-assisted-mipvu-v1"
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p01_s01_lu002",
@@ -50,7 +54,8 @@
       "review_status": "accepted",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "annotator": "codex-assisted-mipvu-v1"
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p01_s01_lu003",
@@ -69,7 +74,8 @@
       "review_status": "accepted",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "annotator": "codex-assisted-mipvu-v1"
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p01_s01_lu004",
@@ -88,7 +94,8 @@
       "review_status": "accepted",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "annotator": "codex-assisted-mipvu-v1"
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p01_s01_lu005",
@@ -107,7 +114,8 @@
       "review_status": "accepted",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "annotator": "codex-assisted-mipvu-v1"
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p01_s01_lu006",
@@ -126,7 +134,8 @@
       "review_status": "accepted",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "annotator": "codex-assisted-mipvu-v1"
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p01_s01_lu007",
@@ -145,7 +154,8 @@
       "review_status": "accepted",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "annotator": "codex-assisted-mipvu-v1"
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p01_s01_lu008",
@@ -164,7 +174,8 @@
       "review_status": "accepted",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "annotator": "codex-assisted-mipvu-v1"
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p01_s01_lu009",
@@ -193,7 +204,8 @@
       "confidence": 0.82,
       "candidate_source_domain": "birth_generation",
       "basic_meaning_source": "Webster 1828, \"conceive\" / \"bring forth\"",
-      "review_notes": "Gettysburg opening uses birth-generation language; preserve the period-control note on conceived/brought forth."
+      "review_notes": "Gettysburg opening uses birth-generation language; preserve the period-control note on conceived/brought forth.",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p01_s01_lu010",
@@ -222,7 +234,8 @@
       "confidence": 0.82,
       "candidate_source_domain": "birth_generation",
       "basic_meaning_source": "Webster 1828, \"conceive\" / \"bring forth\"",
-      "review_notes": "Gettysburg opening uses birth-generation language; preserve the period-control note on conceived/brought forth."
+      "review_notes": "Gettysburg opening uses birth-generation language; preserve the period-control note on conceived/brought forth.",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p01_s01_lu011",
@@ -241,7 +254,8 @@
       "review_status": "accepted",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "annotator": "codex-assisted-mipvu-v1"
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p01_s01_lu012",
@@ -260,7 +274,8 @@
       "review_status": "accepted",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "annotator": "codex-assisted-mipvu-v1"
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p01_s01_lu013",
@@ -279,7 +294,8 @@
       "review_status": "accepted",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "annotator": "codex-assisted-mipvu-v1"
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p01_s01_lu014",
@@ -298,7 +314,8 @@
       "review_status": "accepted",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "annotator": "codex-assisted-mipvu-v1"
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p01_s01_lu015",
@@ -317,7 +334,8 @@
       "review_status": "accepted",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "annotator": "codex-assisted-mipvu-v1"
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p01_s01_lu016",
@@ -336,7 +354,8 @@
       "review_status": "accepted",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "annotator": "codex-assisted-mipvu-v1"
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p01_s01_lu017",
@@ -365,7 +384,8 @@
       "confidence": 0.9,
       "candidate_source_domain": "birth_generation",
       "basic_meaning_source": "Webster 1828, \"conceive\" / \"bring forth\"",
-      "review_notes": "Gettysburg opening uses birth-generation language; preserve the period-control note on conceived/brought forth."
+      "review_notes": "Gettysburg opening uses birth-generation language; preserve the period-control note on conceived/brought forth.",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p01_s01_lu018",
@@ -384,7 +404,8 @@
       "review_status": "accepted",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "annotator": "codex-assisted-mipvu-v1"
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p01_s01_lu019",
@@ -403,7 +424,8 @@
       "review_status": "accepted",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "annotator": "codex-assisted-mipvu-v1"
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p01_s01_lu020",
@@ -422,7 +444,8 @@
       "review_status": "accepted",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "annotator": "codex-assisted-mipvu-v1"
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p01_s01_lu021",
@@ -451,7 +474,8 @@
       "confidence": 0.78,
       "candidate_source_domain": "religion_providence",
       "basic_meaning_source": "Webster 1828, \"dedicate\"",
-      "review_notes": "Ceremonial and religious-register force is plausible; keep distinct from later CMT mapping."
+      "review_notes": "Ceremonial and religious-register force is plausible; keep distinct from later CMT mapping.",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p01_s01_lu022",
@@ -470,7 +494,8 @@
       "review_status": "accepted",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "annotator": "codex-assisted-mipvu-v1"
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p01_s01_lu023",
@@ -489,7 +514,8 @@
       "review_status": "accepted",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "annotator": "codex-assisted-mipvu-v1"
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p01_s01_lu024",
@@ -508,7 +534,8 @@
       "review_status": "accepted",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "annotator": "codex-assisted-mipvu-v1"
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p01_s01_lu025",
@@ -527,7 +554,8 @@
       "review_status": "accepted",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "annotator": "codex-assisted-mipvu-v1"
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p01_s01_lu026",
@@ -546,7 +574,8 @@
       "review_status": "accepted",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "annotator": "codex-assisted-mipvu-v1"
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p01_s01_lu027",
@@ -565,7 +594,8 @@
       "review_status": "accepted",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "annotator": "codex-assisted-mipvu-v1"
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p01_s01_lu028",
@@ -584,7 +614,8 @@
       "review_status": "accepted",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "annotator": "codex-assisted-mipvu-v1"
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p01_s01_lu029",
@@ -603,7 +634,8 @@
       "review_status": "accepted",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "annotator": "codex-assisted-mipvu-v1"
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p01_s01_lu030",
@@ -622,7 +654,8 @@
       "review_status": "accepted",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "annotator": "codex-assisted-mipvu-v1"
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p02_s01_lu001",
@@ -641,7 +674,8 @@
       "review_status": "reviewed",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "annotator": "codex-assisted-mipvu-v1"
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p02_s01_lu002",
@@ -660,7 +694,8 @@
       "review_status": "reviewed",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "annotator": "codex-assisted-mipvu-v1"
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p02_s01_lu003",
@@ -679,7 +714,8 @@
       "review_status": "reviewed",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "annotator": "codex-assisted-mipvu-v1"
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p02_s01_lu004",
@@ -698,7 +734,8 @@
       "review_status": "reviewed",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "annotator": "codex-assisted-mipvu-v1"
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p02_s01_lu005",
@@ -717,7 +754,8 @@
       "review_status": "reviewed",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "annotator": "codex-assisted-mipvu-v1"
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p02_s01_lu006",
@@ -736,7 +774,8 @@
       "review_status": "reviewed",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "annotator": "codex-assisted-mipvu-v1"
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p02_s01_lu007",
@@ -755,7 +794,8 @@
       "review_status": "reviewed",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "annotator": "codex-assisted-mipvu-v1"
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p02_s01_lu008",
@@ -774,7 +814,8 @@
       "review_status": "reviewed",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "annotator": "codex-assisted-mipvu-v1"
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p02_s01_lu009",
@@ -793,7 +834,8 @@
       "review_status": "reviewed",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "annotator": "codex-assisted-mipvu-v1"
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p02_s01_lu010",
@@ -812,7 +854,8 @@
       "review_status": "reviewed",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "annotator": "codex-assisted-mipvu-v1"
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p02_s01_lu011",
@@ -831,7 +874,8 @@
       "review_status": "reviewed",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "annotator": "codex-assisted-mipvu-v1"
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p02_s01_lu012",
@@ -850,7 +894,8 @@
       "review_status": "reviewed",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "annotator": "codex-assisted-mipvu-v1"
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p02_s01_lu013",
@@ -869,7 +914,8 @@
       "review_status": "reviewed",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "annotator": "codex-assisted-mipvu-v1"
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p02_s01_lu014",
@@ -888,7 +934,8 @@
       "review_status": "reviewed",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "annotator": "codex-assisted-mipvu-v1"
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p02_s01_lu015",
@@ -907,7 +954,8 @@
       "review_status": "reviewed",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "annotator": "codex-assisted-mipvu-v1"
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p02_s01_lu016",
@@ -926,7 +974,8 @@
       "review_status": "reviewed",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "annotator": "codex-assisted-mipvu-v1"
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p02_s01_lu017",
@@ -945,7 +994,8 @@
       "review_status": "reviewed",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "annotator": "codex-assisted-mipvu-v1"
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p02_s01_lu018",
@@ -964,7 +1014,8 @@
       "review_status": "reviewed",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "annotator": "codex-assisted-mipvu-v1"
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p02_s01_lu019",
@@ -983,7 +1034,8 @@
       "review_status": "reviewed",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "annotator": "codex-assisted-mipvu-v1"
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p02_s01_lu020",
@@ -1002,7 +1054,8 @@
       "review_status": "reviewed",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "annotator": "codex-assisted-mipvu-v1"
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p02_s01_lu021",
@@ -1021,7 +1074,8 @@
       "review_status": "reviewed",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "annotator": "codex-assisted-mipvu-v1"
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p02_s01_lu022",
@@ -1040,7 +1094,8 @@
       "review_status": "reviewed",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "annotator": "codex-assisted-mipvu-v1"
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p02_s01_lu023",
@@ -1059,7 +1114,8 @@
       "review_status": "reviewed",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "annotator": "codex-assisted-mipvu-v1"
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p02_s01_lu024",
@@ -1088,7 +1144,8 @@
       "confidence": 0.72,
       "candidate_source_domain": "nature_organism",
       "basic_meaning_source": "Webster 1828, \"endure\"",
-      "review_notes": "Body-politic survival language; use as MIPVU evidence only with its local national subject."
+      "review_notes": "Body-politic survival language; use as MIPVU evidence only with its local national subject.",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p02_s02_lu001",
@@ -1107,7 +1164,8 @@
       "review_status": "reviewed",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "annotator": "codex-assisted-mipvu-v1"
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p02_s02_lu002",
@@ -1126,7 +1184,8 @@
       "review_status": "reviewed",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "annotator": "codex-assisted-mipvu-v1"
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p02_s02_lu003",
@@ -1145,7 +1204,8 @@
       "review_status": "reviewed",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "annotator": "codex-assisted-mipvu-v1"
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p02_s02_lu004",
@@ -1164,7 +1224,8 @@
       "review_status": "reviewed",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "annotator": "codex-assisted-mipvu-v1"
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p02_s02_lu005",
@@ -1183,7 +1244,8 @@
       "review_status": "reviewed",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "annotator": "codex-assisted-mipvu-v1"
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p02_s02_lu006",
@@ -1202,7 +1264,8 @@
       "review_status": "reviewed",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "annotator": "codex-assisted-mipvu-v1"
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p02_s02_lu007",
@@ -1221,7 +1284,8 @@
       "review_status": "reviewed",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "annotator": "codex-assisted-mipvu-v1"
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p02_s02_lu008",
@@ -1240,7 +1304,8 @@
       "review_status": "reviewed",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "annotator": "codex-assisted-mipvu-v1"
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p02_s02_lu009",
@@ -1259,7 +1324,8 @@
       "review_status": "reviewed",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "annotator": "codex-assisted-mipvu-v1"
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p02_s02_lu010",
@@ -1278,7 +1344,8 @@
       "review_status": "reviewed",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "annotator": "codex-assisted-mipvu-v1"
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p03_s01_lu001",
@@ -1299,7 +1366,8 @@
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
       "annotator": "codex-draft",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p03_s01_lu002",
@@ -1320,7 +1388,8 @@
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
       "annotator": "codex-draft",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p03_s01_lu003",
@@ -1341,7 +1410,8 @@
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
       "annotator": "codex-draft",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p03_s01_lu004",
@@ -1362,7 +1432,8 @@
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
       "annotator": "codex-draft",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p03_s01_lu005",
@@ -1383,7 +1454,8 @@
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
       "annotator": "codex-draft",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p03_s01_lu006",
@@ -1404,7 +1476,8 @@
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
       "annotator": "codex-draft",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p03_s01_lu007",
@@ -1425,7 +1498,8 @@
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
       "annotator": "codex-draft",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p03_s01_lu008",
@@ -1446,7 +1520,8 @@
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
       "annotator": "codex-draft",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p03_s01_lu009",
@@ -1467,7 +1542,8 @@
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
       "annotator": "codex-draft",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p03_s01_lu010",
@@ -1488,7 +1564,8 @@
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
       "annotator": "codex-draft",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p03_s01_lu011",
@@ -1509,7 +1586,8 @@
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
       "annotator": "codex-draft",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p03_s01_lu012",
@@ -1530,7 +1608,8 @@
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
       "annotator": "codex-draft",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p03_s01_lu013",
@@ -1551,7 +1630,8 @@
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
       "annotator": "codex-draft",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p03_s01_lu014",
@@ -1580,7 +1660,8 @@
       "confidence": 0.72,
       "candidate_source_domain": "body",
       "basic_meaning_source": "Webster 1828, 'rest' / 'resting'",
-      "review_notes": "Conventional death-as-rest euphemism in a cemetery dedication setting; retain as metaphor-related but not high-confidence ideological evidence by itself."
+      "review_notes": "Conventional death-as-rest euphemism in a cemetery dedication setting; retain as metaphor-related but not high-confidence ideological evidence by itself.",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p03_s01_lu015",
@@ -1601,7 +1682,8 @@
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
       "annotator": "codex-draft",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p03_s01_lu016",
@@ -1622,7 +1704,8 @@
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
       "annotator": "codex-draft",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p03_s01_lu017",
@@ -1643,7 +1726,8 @@
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
       "annotator": "codex-draft",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p03_s01_lu018",
@@ -1664,7 +1748,8 @@
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
       "annotator": "codex-draft",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p03_s01_lu019",
@@ -1685,7 +1770,8 @@
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
       "annotator": "codex-draft",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p03_s01_lu020",
@@ -1714,7 +1800,8 @@
       "confidence": 0.86,
       "candidate_source_domain": "sacrifice",
       "basic_meaning_source": "Webster 1828, 'give'",
-      "review_notes": "Supports later sacrificial-body review when linked with lives/nation/live context; avoid treating the verb alone as sufficient evidence."
+      "review_notes": "Supports later sacrificial-body review when linked with lives/nation/live context; avoid treating the verb alone as sufficient evidence.",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p03_s01_lu021",
@@ -1735,7 +1822,8 @@
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
       "annotator": "codex-draft",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p03_s01_lu022",
@@ -1756,7 +1844,8 @@
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
       "annotator": "codex-draft",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p03_s01_lu023",
@@ -1777,7 +1866,8 @@
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
       "annotator": "codex-draft",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p03_s01_lu024",
@@ -1798,7 +1888,8 @@
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
       "annotator": "codex-draft",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p03_s01_lu025",
@@ -1819,7 +1910,8 @@
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
       "annotator": "codex-draft",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p03_s01_lu026",
@@ -1840,7 +1932,8 @@
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
       "annotator": "codex-draft",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p03_s01_lu027",
@@ -1869,7 +1962,8 @@
       "confidence": 0.93,
       "candidate_source_domain": "nature_organism",
       "basic_meaning_source": "Webster 1828, 'live'",
-      "review_notes": "Strong candidate for NATION IS LIVING BODY/ORGANISM mapping in this sentence."
+      "review_notes": "Strong candidate for NATION IS LIVING BODY/ORGANISM mapping in this sentence.",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p03_s02_lu001",
@@ -1888,7 +1982,8 @@
       "review_status": "reviewed",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "annotator": "codex-assisted-mipvu-v1"
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p03_s02_lu002",
@@ -1907,7 +2002,8 @@
       "review_status": "reviewed",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "annotator": "codex-assisted-mipvu-v1"
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p03_s02_lu003",
@@ -1926,7 +2022,8 @@
       "review_status": "reviewed",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "annotator": "codex-assisted-mipvu-v1"
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p03_s02_lu004",
@@ -1945,7 +2042,8 @@
       "review_status": "reviewed",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "annotator": "codex-assisted-mipvu-v1"
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p03_s02_lu005",
@@ -1964,7 +2062,8 @@
       "review_status": "reviewed",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "annotator": "codex-assisted-mipvu-v1"
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p03_s02_lu006",
@@ -1983,7 +2082,8 @@
       "review_status": "reviewed",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "annotator": "codex-assisted-mipvu-v1"
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p03_s02_lu007",
@@ -2002,7 +2102,8 @@
       "review_status": "reviewed",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "annotator": "codex-assisted-mipvu-v1"
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p03_s02_lu008",
@@ -2021,7 +2122,8 @@
       "review_status": "reviewed",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "annotator": "codex-assisted-mipvu-v1"
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p03_s02_lu009",
@@ -2040,7 +2142,8 @@
       "review_status": "reviewed",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "annotator": "codex-assisted-mipvu-v1"
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p03_s02_lu010",
@@ -2059,7 +2162,8 @@
       "review_status": "reviewed",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "annotator": "codex-assisted-mipvu-v1"
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p03_s02_lu011",
@@ -2078,7 +2182,8 @@
       "review_status": "reviewed",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "annotator": "codex-assisted-mipvu-v1"
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p04_s01_lu001",
@@ -2097,7 +2202,8 @@
       "review_status": "reviewed",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "annotator": "codex-assisted-mipvu-v1"
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p04_s01_lu002",
@@ -2116,7 +2222,8 @@
       "review_status": "reviewed",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "annotator": "codex-assisted-mipvu-v1"
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p04_s01_lu003",
@@ -2135,7 +2242,8 @@
       "review_status": "reviewed",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "annotator": "codex-assisted-mipvu-v1"
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p04_s01_lu004",
@@ -2154,7 +2262,8 @@
       "review_status": "reviewed",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "annotator": "codex-assisted-mipvu-v1"
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p04_s01_lu005",
@@ -2173,7 +2282,8 @@
       "review_status": "reviewed",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "annotator": "codex-assisted-mipvu-v1"
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p04_s01_lu006",
@@ -2192,7 +2302,8 @@
       "review_status": "reviewed",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "annotator": "codex-assisted-mipvu-v1"
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p04_s01_lu007",
@@ -2211,7 +2322,8 @@
       "review_status": "reviewed",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "annotator": "codex-assisted-mipvu-v1"
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p04_s01_lu008",
@@ -2230,7 +2342,8 @@
       "review_status": "reviewed",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "annotator": "codex-assisted-mipvu-v1"
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p04_s01_lu009",
@@ -2249,7 +2362,8 @@
       "review_status": "reviewed",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "annotator": "codex-assisted-mipvu-v1"
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p04_s01_lu010",
@@ -2268,7 +2382,8 @@
       "review_status": "reviewed",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "annotator": "codex-assisted-mipvu-v1"
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p04_s01_lu011",
@@ -2287,7 +2402,8 @@
       "review_status": "reviewed",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "annotator": "codex-assisted-mipvu-v1"
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p04_s01_lu012",
@@ -2306,7 +2422,8 @@
       "review_status": "reviewed",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "annotator": "codex-assisted-mipvu-v1"
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p04_s01_lu013",
@@ -2325,7 +2442,8 @@
       "review_status": "reviewed",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "annotator": "codex-assisted-mipvu-v1"
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p04_s01_lu014",
@@ -2344,7 +2462,8 @@
       "review_status": "reviewed",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "annotator": "codex-assisted-mipvu-v1"
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p04_s01_lu015",
@@ -2363,7 +2482,8 @@
       "review_status": "reviewed",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "annotator": "codex-assisted-mipvu-v1"
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p04_s01_lu016",
@@ -2382,7 +2502,8 @@
       "review_status": "reviewed",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "annotator": "codex-assisted-mipvu-v1"
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p04_s02_lu001",
@@ -2401,7 +2522,8 @@
       "review_status": "reviewed",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "annotator": "codex-assisted-mipvu-v1"
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p04_s02_lu002",
@@ -2420,7 +2542,8 @@
       "review_status": "reviewed",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "annotator": "codex-assisted-mipvu-v1"
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p04_s02_lu003",
@@ -2439,7 +2562,8 @@
       "review_status": "reviewed",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "annotator": "codex-assisted-mipvu-v1"
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p04_s02_lu004",
@@ -2458,7 +2582,8 @@
       "review_status": "reviewed",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "annotator": "codex-assisted-mipvu-v1"
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p04_s02_lu005",
@@ -2477,7 +2602,8 @@
       "review_status": "reviewed",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "annotator": "codex-assisted-mipvu-v1"
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p04_s02_lu006",
@@ -2496,7 +2622,8 @@
       "review_status": "reviewed",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "annotator": "codex-assisted-mipvu-v1"
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p04_s02_lu007",
@@ -2515,7 +2642,8 @@
       "review_status": "reviewed",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "annotator": "codex-assisted-mipvu-v1"
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p04_s02_lu008",
@@ -2534,7 +2662,8 @@
       "review_status": "reviewed",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "annotator": "codex-assisted-mipvu-v1"
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p04_s02_lu009",
@@ -2553,7 +2682,8 @@
       "review_status": "reviewed",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "annotator": "codex-assisted-mipvu-v1"
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p04_s02_lu010",
@@ -2572,7 +2702,8 @@
       "review_status": "reviewed",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "annotator": "codex-assisted-mipvu-v1"
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p04_s02_lu011",
@@ -2591,7 +2722,8 @@
       "review_status": "reviewed",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "annotator": "codex-assisted-mipvu-v1"
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p04_s02_lu012",
@@ -2610,7 +2742,8 @@
       "review_status": "reviewed",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "annotator": "codex-assisted-mipvu-v1"
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p04_s02_lu013",
@@ -2629,7 +2762,8 @@
       "review_status": "reviewed",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "annotator": "codex-assisted-mipvu-v1"
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p04_s02_lu014",
@@ -2648,7 +2782,8 @@
       "review_status": "reviewed",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "annotator": "codex-assisted-mipvu-v1"
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p04_s02_lu015",
@@ -2667,7 +2802,8 @@
       "review_status": "reviewed",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "annotator": "codex-assisted-mipvu-v1"
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p04_s02_lu016",
@@ -2686,7 +2822,8 @@
       "review_status": "reviewed",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "annotator": "codex-assisted-mipvu-v1"
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p04_s02_lu017",
@@ -2705,7 +2842,8 @@
       "review_status": "reviewed",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "annotator": "codex-assisted-mipvu-v1"
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p04_s02_lu018",
@@ -2724,7 +2862,8 @@
       "review_status": "reviewed",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "annotator": "codex-assisted-mipvu-v1"
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p04_s02_lu019",
@@ -2743,7 +2882,8 @@
       "review_status": "reviewed",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "annotator": "codex-assisted-mipvu-v1"
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p04_s02_lu020",
@@ -2762,7 +2902,8 @@
       "review_status": "reviewed",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "annotator": "codex-assisted-mipvu-v1"
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p04_s02_lu021",
@@ -2781,7 +2922,8 @@
       "review_status": "reviewed",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "annotator": "codex-assisted-mipvu-v1"
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p04_s03_lu001",
@@ -2800,7 +2942,8 @@
       "review_status": "accepted",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "annotator": "codex-assisted-mipvu-v1"
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p04_s03_lu002",
@@ -2829,7 +2972,8 @@
       "confidence": 0.84,
       "candidate_source_domain": "body",
       "basic_meaning_source": "Webster 1828, \"remember\" / \"forget\"",
-      "review_notes": "Reliability-sample sentence; likely personification rather than merely literal global public."
+      "review_notes": "Reliability-sample sentence; likely personification rather than merely literal global public.",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p04_s03_lu003",
@@ -2848,7 +2992,8 @@
       "review_status": "accepted",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "annotator": "codex-assisted-mipvu-v1"
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p04_s03_lu004",
@@ -2867,7 +3012,8 @@
       "review_status": "accepted",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "annotator": "codex-assisted-mipvu-v1"
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p04_s03_lu005",
@@ -2896,7 +3042,8 @@
       "confidence": 0.84,
       "candidate_source_domain": "body",
       "basic_meaning_source": "Webster 1828, \"remember\" / \"forget\"",
-      "review_notes": "Reliability-sample sentence; likely personification rather than merely literal global public."
+      "review_notes": "Reliability-sample sentence; likely personification rather than merely literal global public.",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p04_s03_lu006",
@@ -2915,7 +3062,8 @@
       "review_status": "accepted",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "annotator": "codex-assisted-mipvu-v1"
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p04_s03_lu007",
@@ -2934,7 +3082,8 @@
       "review_status": "accepted",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "annotator": "codex-assisted-mipvu-v1"
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p04_s03_lu008",
@@ -2963,7 +3112,8 @@
       "confidence": 0.84,
       "candidate_source_domain": "body",
       "basic_meaning_source": "Webster 1828, \"remember\" / \"forget\"",
-      "review_notes": "Reliability-sample sentence; likely personification rather than merely literal global public."
+      "review_notes": "Reliability-sample sentence; likely personification rather than merely literal global public.",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p04_s03_lu009",
@@ -2982,7 +3132,8 @@
       "review_status": "accepted",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "annotator": "codex-assisted-mipvu-v1"
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p04_s03_lu010",
@@ -3001,7 +3152,8 @@
       "review_status": "accepted",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "annotator": "codex-assisted-mipvu-v1"
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p04_s03_lu011",
@@ -3020,7 +3172,8 @@
       "review_status": "accepted",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "annotator": "codex-assisted-mipvu-v1"
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p04_s03_lu012",
@@ -3039,7 +3192,8 @@
       "review_status": "accepted",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "annotator": "codex-assisted-mipvu-v1"
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p04_s03_lu013",
@@ -3058,7 +3212,8 @@
       "review_status": "accepted",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "annotator": "codex-assisted-mipvu-v1"
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p04_s03_lu014",
@@ -3077,7 +3232,8 @@
       "review_status": "accepted",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "annotator": "codex-assisted-mipvu-v1"
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p04_s03_lu015",
@@ -3096,7 +3252,8 @@
       "review_status": "accepted",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "annotator": "codex-assisted-mipvu-v1"
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p04_s03_lu016",
@@ -3115,7 +3272,8 @@
       "review_status": "accepted",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "annotator": "codex-assisted-mipvu-v1"
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p04_s03_lu017",
@@ -3144,7 +3302,8 @@
       "confidence": 0.84,
       "candidate_source_domain": "body",
       "basic_meaning_source": "Webster 1828, \"remember\" / \"forget\"",
-      "review_notes": "Reliability-sample sentence; likely personification rather than merely literal global public."
+      "review_notes": "Reliability-sample sentence; likely personification rather than merely literal global public.",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p04_s03_lu018",
@@ -3163,7 +3322,8 @@
       "review_status": "accepted",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "annotator": "codex-assisted-mipvu-v1"
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p04_s03_lu019",
@@ -3182,7 +3342,8 @@
       "review_status": "accepted",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "annotator": "codex-assisted-mipvu-v1"
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p04_s03_lu020",
@@ -3201,7 +3362,8 @@
       "review_status": "accepted",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "annotator": "codex-assisted-mipvu-v1"
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p04_s03_lu021",
@@ -3220,7 +3382,8 @@
       "review_status": "accepted",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "annotator": "codex-assisted-mipvu-v1"
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s01_lu001",
@@ -3239,7 +3402,8 @@
       "review_status": "reviewed",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "annotator": "codex-assisted-mipvu-v1"
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s01_lu002",
@@ -3258,7 +3422,8 @@
       "review_status": "reviewed",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "annotator": "codex-assisted-mipvu-v1"
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s01_lu003",
@@ -3277,7 +3442,8 @@
       "review_status": "reviewed",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "annotator": "codex-assisted-mipvu-v1"
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s01_lu004",
@@ -3296,7 +3462,8 @@
       "review_status": "reviewed",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "annotator": "codex-assisted-mipvu-v1"
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s01_lu005",
@@ -3315,7 +3482,8 @@
       "review_status": "reviewed",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "annotator": "codex-assisted-mipvu-v1"
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s01_lu006",
@@ -3334,7 +3502,8 @@
       "review_status": "reviewed",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "annotator": "codex-assisted-mipvu-v1"
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s01_lu007",
@@ -3353,7 +3522,8 @@
       "review_status": "reviewed",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "annotator": "codex-assisted-mipvu-v1"
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s01_lu008",
@@ -3372,7 +3542,8 @@
       "review_status": "reviewed",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "annotator": "codex-assisted-mipvu-v1"
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s01_lu009",
@@ -3391,7 +3562,8 @@
       "review_status": "reviewed",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "annotator": "codex-assisted-mipvu-v1"
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s01_lu010",
@@ -3410,7 +3582,8 @@
       "review_status": "reviewed",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "annotator": "codex-assisted-mipvu-v1"
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s01_lu011",
@@ -3429,7 +3602,8 @@
       "review_status": "reviewed",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "annotator": "codex-assisted-mipvu-v1"
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s01_lu012",
@@ -3448,7 +3622,8 @@
       "review_status": "reviewed",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "annotator": "codex-assisted-mipvu-v1"
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s01_lu013",
@@ -3467,7 +3642,8 @@
       "review_status": "reviewed",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "annotator": "codex-assisted-mipvu-v1"
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s01_lu014",
@@ -3486,7 +3662,8 @@
       "review_status": "reviewed",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "annotator": "codex-assisted-mipvu-v1"
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s01_lu015",
@@ -3505,7 +3682,8 @@
       "review_status": "reviewed",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "annotator": "codex-assisted-mipvu-v1"
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s01_lu016",
@@ -3524,7 +3702,8 @@
       "review_status": "reviewed",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "annotator": "codex-assisted-mipvu-v1"
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s01_lu017",
@@ -3543,7 +3722,8 @@
       "review_status": "reviewed",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "annotator": "codex-assisted-mipvu-v1"
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s01_lu018",
@@ -3562,7 +3742,8 @@
       "review_status": "reviewed",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "annotator": "codex-assisted-mipvu-v1"
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s01_lu019",
@@ -3581,7 +3762,8 @@
       "review_status": "reviewed",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "annotator": "codex-assisted-mipvu-v1"
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s01_lu020",
@@ -3600,7 +3782,8 @@
       "review_status": "reviewed",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "annotator": "codex-assisted-mipvu-v1"
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s01_lu021",
@@ -3619,7 +3802,8 @@
       "review_status": "reviewed",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "annotator": "codex-assisted-mipvu-v1"
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s01_lu022",
@@ -3638,7 +3822,8 @@
       "review_status": "reviewed",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "annotator": "codex-assisted-mipvu-v1"
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s01_lu023",
@@ -3657,7 +3842,8 @@
       "review_status": "reviewed",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "annotator": "codex-assisted-mipvu-v1"
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s01_lu024",
@@ -3676,7 +3862,8 @@
       "review_status": "reviewed",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "annotator": "codex-assisted-mipvu-v1"
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s01_lu025",
@@ -3695,7 +3882,8 @@
       "review_status": "reviewed",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "annotator": "codex-assisted-mipvu-v1"
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s01_lu026",
@@ -3714,7 +3902,8 @@
       "review_status": "reviewed",
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
-      "annotator": "codex-assisted-mipvu-v1"
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu001",
@@ -3735,7 +3924,8 @@
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
       "annotator": "codex-draft",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu002",
@@ -3756,7 +3946,8 @@
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
       "annotator": "codex-draft",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu003",
@@ -3777,7 +3968,8 @@
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
       "annotator": "codex-draft",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu004",
@@ -3798,7 +3990,8 @@
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
       "annotator": "codex-draft",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu005",
@@ -3819,7 +4012,8 @@
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
       "annotator": "codex-draft",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu006",
@@ -3840,7 +4034,8 @@
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
       "annotator": "codex-draft",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu007",
@@ -3861,7 +4056,8 @@
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
       "annotator": "codex-draft",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu008",
@@ -3882,7 +4078,8 @@
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
       "annotator": "codex-draft",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu009",
@@ -3911,7 +4108,8 @@
       "confidence": 0.8,
       "candidate_source_domain": "religion_providence",
       "basic_meaning_source": "Webster 1828, 'dedicate'",
-      "review_notes": "Ceremonial register may make this conventional; preserve rival reading during CMT mapping."
+      "review_notes": "Ceremonial register may make this conventional; preserve rival reading during CMT mapping.",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu010",
@@ -3932,7 +4130,8 @@
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
       "annotator": "codex-draft",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu011",
@@ -3953,7 +4152,8 @@
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
       "annotator": "codex-draft",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu012",
@@ -3974,7 +4174,8 @@
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
       "annotator": "codex-draft",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu013",
@@ -3995,7 +4196,8 @@
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
       "annotator": "codex-draft",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu014",
@@ -4016,7 +4218,8 @@
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
       "annotator": "codex-draft",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu015",
@@ -4037,7 +4240,8 @@
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
       "annotator": "codex-draft",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu016",
@@ -4058,7 +4262,8 @@
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
       "annotator": "codex-draft",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu017",
@@ -4079,7 +4284,8 @@
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
       "annotator": "codex-draft",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu018",
@@ -4100,7 +4306,8 @@
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
       "annotator": "codex-draft",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu019",
@@ -4121,7 +4328,8 @@
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
       "annotator": "codex-draft",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu020",
@@ -4142,7 +4350,8 @@
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
       "annotator": "codex-draft",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu021",
@@ -4163,7 +4372,8 @@
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
       "annotator": "codex-draft",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu022",
@@ -4184,7 +4394,8 @@
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
       "annotator": "codex-draft",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu023",
@@ -4205,7 +4416,8 @@
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
       "annotator": "codex-draft",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu024",
@@ -4226,7 +4438,8 @@
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
       "annotator": "codex-draft",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu025",
@@ -4247,7 +4460,8 @@
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
       "annotator": "codex-draft",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu026",
@@ -4268,7 +4482,8 @@
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
       "annotator": "codex-draft",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu027",
@@ -4289,7 +4504,8 @@
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
       "annotator": "codex-draft",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu028",
@@ -4310,7 +4526,8 @@
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
       "annotator": "codex-draft",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu029",
@@ -4331,7 +4548,8 @@
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
       "annotator": "codex-draft",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu030",
@@ -4352,7 +4570,8 @@
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
       "annotator": "codex-draft",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu031",
@@ -4373,7 +4592,8 @@
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
       "annotator": "codex-draft",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu032",
@@ -4402,7 +4622,8 @@
       "confidence": 0.84,
       "candidate_source_domain": "sacrifice",
       "basic_meaning_source": "Webster 1828, 'give'",
-      "review_notes": "Part of phrase 'gave the last full measure of devotion'; map only with surrounding units."
+      "review_notes": "Part of phrase 'gave the last full measure of devotion'; map only with surrounding units.",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu033",
@@ -4423,7 +4644,8 @@
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
       "annotator": "codex-draft",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu034",
@@ -4444,7 +4666,8 @@
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
       "annotator": "codex-draft",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu035",
@@ -4465,7 +4688,8 @@
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
       "annotator": "codex-draft",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu036",
@@ -4494,7 +4718,8 @@
       "confidence": 0.76,
       "candidate_source_domain": "debt_accounting",
       "basic_meaning_source": "Webster 1828, 'measure'",
-      "review_notes": "Works with 'last full measure of devotion' as moral accounting/sacrificial scale."
+      "review_notes": "Works with 'last full measure of devotion' as moral accounting/sacrificial scale.",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu037",
@@ -4515,7 +4740,8 @@
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
       "annotator": "codex-draft",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu038",
@@ -4536,7 +4762,8 @@
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
       "annotator": "codex-draft",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu039",
@@ -4557,7 +4784,8 @@
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
       "annotator": "codex-draft",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu040",
@@ -4578,7 +4806,8 @@
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
       "annotator": "codex-draft",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu041",
@@ -4599,7 +4828,8 @@
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
       "annotator": "codex-draft",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu042",
@@ -4620,7 +4850,8 @@
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
       "annotator": "codex-draft",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu043",
@@ -4641,7 +4872,8 @@
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
       "annotator": "codex-draft",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu044",
@@ -4662,7 +4894,8 @@
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
       "annotator": "codex-draft",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu045",
@@ -4683,7 +4916,8 @@
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
       "annotator": "codex-draft",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu046",
@@ -4704,7 +4938,8 @@
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
       "annotator": "codex-draft",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu047",
@@ -4725,7 +4960,8 @@
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
       "annotator": "codex-draft",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu048",
@@ -4746,7 +4982,8 @@
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
       "annotator": "codex-draft",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu049",
@@ -4767,7 +5004,8 @@
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
       "annotator": "codex-draft",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu050",
@@ -4788,7 +5026,8 @@
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
       "annotator": "codex-draft",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu051",
@@ -4809,7 +5048,8 @@
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
       "annotator": "codex-draft",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu052",
@@ -4830,7 +5070,8 @@
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
       "annotator": "codex-draft",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu053",
@@ -4851,7 +5092,8 @@
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
       "annotator": "codex-draft",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu054",
@@ -4872,7 +5114,8 @@
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
       "annotator": "codex-draft",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu055",
@@ -4893,7 +5136,8 @@
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
       "annotator": "codex-draft",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu056",
@@ -4914,7 +5158,8 @@
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
       "annotator": "codex-draft",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu057",
@@ -4935,7 +5180,8 @@
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
       "annotator": "codex-draft",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu058",
@@ -4956,7 +5202,8 @@
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
       "annotator": "codex-draft",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu059",
@@ -4977,7 +5224,8 @@
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
       "annotator": "codex-draft",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu060",
@@ -4998,7 +5246,8 @@
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
       "annotator": "codex-draft",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu061",
@@ -5019,7 +5268,8 @@
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
       "annotator": "codex-draft",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu062",
@@ -5048,7 +5298,8 @@
       "confidence": 0.95,
       "candidate_source_domain": "birth_generation",
       "basic_meaning_source": "Webster 1828, 'birth'",
-      "review_notes": "High-salience candidate for POLITICAL RENEWAL IS BIRTH; check against historical semantics note on birth/conceived/brought forth."
+      "review_notes": "High-salience candidate for POLITICAL RENEWAL IS BIRTH; check against historical semantics note on birth/conceived/brought forth.",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu063",
@@ -5069,7 +5320,8 @@
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
       "annotator": "codex-draft",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu064",
@@ -5090,7 +5342,8 @@
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
       "annotator": "codex-draft",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu065",
@@ -5111,7 +5364,8 @@
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
       "annotator": "codex-draft",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu066",
@@ -5132,7 +5386,8 @@
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
       "annotator": "codex-draft",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu067",
@@ -5153,7 +5408,8 @@
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
       "annotator": "codex-draft",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu068",
@@ -5174,7 +5430,8 @@
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
       "annotator": "codex-draft",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu069",
@@ -5195,7 +5452,8 @@
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
       "annotator": "codex-draft",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu070",
@@ -5216,7 +5474,8 @@
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
       "annotator": "codex-draft",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu071",
@@ -5237,7 +5496,8 @@
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
       "annotator": "codex-draft",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu072",
@@ -5258,7 +5518,8 @@
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
       "annotator": "codex-draft",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu073",
@@ -5279,7 +5540,8 @@
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
       "annotator": "codex-draft",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu074",
@@ -5300,7 +5562,8 @@
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
       "annotator": "codex-draft",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu075",
@@ -5321,7 +5584,8 @@
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
       "annotator": "codex-draft",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu076",
@@ -5342,7 +5606,8 @@
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
       "annotator": "codex-draft",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu077",
@@ -5363,7 +5628,8 @@
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
       "annotator": "codex-draft",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu078",
@@ -5384,7 +5650,8 @@
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
       "annotator": "codex-draft",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu079",
@@ -5413,7 +5680,8 @@
       "confidence": 0.9,
       "candidate_source_domain": "nature_organism",
       "basic_meaning_source": "Webster 1828, 'perish'",
-      "review_notes": "Complements nation/live and nation/birth language in the same address."
+      "review_notes": "Complements nation/live and nation/birth language in the same address.",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu080",
@@ -5434,7 +5702,8 @@
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
       "annotator": "codex-draft",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu081",
@@ -5455,7 +5724,8 @@
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
       "annotator": "codex-draft",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
+      "reviewed_at": "2026-06-28T10:02:07"
     },
     {
       "mipvu_id": "lincoln-gettysburg-address_s01_p05_s02_lu082",
@@ -5476,7 +5746,8 @@
       "decision_type": "non_metaphor",
       "review_batch": "lincoln-full-corpus-mipvu-review-v1",
       "annotator": "codex-draft",
-      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit."
+      "review_notes": "Pilot sample reviewed; no MIPVU metaphor-related contrast assigned for this lexical unit.",
+      "reviewed_at": "2026-06-28T10:02:07"
     }
   ],
   "pipeline_log": [

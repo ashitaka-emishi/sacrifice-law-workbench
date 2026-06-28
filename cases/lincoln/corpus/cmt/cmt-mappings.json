@@ -2,7 +2,7 @@
   "version": "1.0",
   "case_id": "lincoln",
   "status": "draft",
-  "updated": "2026-06-17",
+  "updated": "2026-06-28",
   "mapping_policy": "CMT mappings are downstream of MIPVU. Every non-exploratory mapping must cite metaphor-related or uncertain MIPVU lexical units from the same sentence.",
   "mappings": [
     {
@@ -1671,6 +1671,192 @@
     {
       "mapping_id": "lincoln-cmt-051",
       "case_id": "lincoln",
+      "document_id": "lincoln-first-inaugural",
+      "sentence_id": "lincoln-first-inaugural_s01_p15_s04",
+      "mipvu_ids": [
+        "lincoln-first-inaugural_s01_p15_s04_lu016"
+      ],
+      "expression": "endure",
+      "evidence_span": "Continue to execute all the express provisions of our National Constitution, and the Union will endure forever—it being impossible to destroy it except by some action not provided for in the instrument itself.",
+      "source_domain_primary": "nature_organism",
+      "source_domain_secondary": [],
+      "target_domain": "nation",
+      "conceptual_metaphor": "NATION IS NATURE ORGANISM",
+      "entailments": [
+        "the nation or government continues or ceases political existence",
+        "Political survival is understood through organismic life and death."
+      ],
+      "cluster_id": "lincoln-01-body-organism",
+      "confidence": 0.72,
+      "rival_reading": "A polity is not a biological organism, but its political existence is construed as bodily life or death.",
+      "justification": "MIPVU review rule '' marked 1 unit(s) as metaphor-related or uncertain in this sentence.",
+      "mapping_status": "provisional",
+      "rhetorical_salience": "medium",
+      "rhetorical_functions": [
+        "national_self_definition"
+      ],
+      "ideological_functions": [
+        "obligation"
+      ]
+    },
+    {
+      "mapping_id": "lincoln-cmt-052",
+      "case_id": "lincoln",
+      "document_id": "lincoln-special-message-1861-07-04",
+      "sentence_id": "lincoln-special-message-1861-07-04_s01_p10_s08",
+      "mipvu_ids": [
+        "lincoln-special-message-1861-07-04_s01_p10_s08_lu019"
+      ],
+      "expression": "blood",
+      "evidence_span": "In this act, discarding all else, they have forced upon the country the distinct issue, \"immediate dissolution or blood.\"",
+      "source_domain_primary": "sacrifice",
+      "source_domain_secondary": [],
+      "target_domain": "citizenship",
+      "conceptual_metaphor": "CITIZENSHIP IS SACRIFICE",
+      "entailments": [
+        "patriotic obligation and violation of law are framed through blood, trampling, and tearing",
+        "Civic obligation is understood through bodily sacrifice and material violation."
+      ],
+      "cluster_id": "lincoln-08-sacrificial-death-gift",
+      "confidence": 0.82,
+      "rival_reading": "Revolutionary inheritance and legal liberty are treated as bodily/material things that can be spilled, trampled, or torn.",
+      "justification": "MIPVU review rule '' marked 1 unit(s) as metaphor-related or uncertain in this sentence.",
+      "mapping_status": "provisional",
+      "rhetorical_salience": "high",
+      "rhetorical_functions": [
+        "commemoration"
+      ],
+      "ideological_functions": [
+        "sacrifice"
+      ]
+    },
+    {
+      "mapping_id": "lincoln-cmt-053",
+      "case_id": "lincoln",
+      "document_id": "lincoln-special-message-1861-07-04",
+      "sentence_id": "lincoln-special-message-1861-07-04_s01_p11_s02",
+      "mipvu_ids": [
+        "lincoln-special-message-1861-07-04_s01_p11_s02_lu006"
+      ],
+      "expression": "family",
+      "evidence_span": "It presents to the whole family of man the question whether a constitutional republic or democracy--a government of the people by the same people--can or cannot maintain its territorial integrity against its own domestic foes.",
+      "source_domain_primary": "body",
+      "source_domain_secondary": [],
+      "target_domain": "political_order",
+      "conceptual_metaphor": "POLITICAL ORDER IS BODY",
+      "entailments": [
+        "ambition and genius are represented through animals, height, paths, bodily appetite, fire, or stretching",
+        "Political ambition is understood through embodied force and animal/combat imagery."
+      ],
+      "cluster_id": "lincoln-01-body-organism",
+      "confidence": 0.75,
+      "rival_reading": "Abstract ambition is repeatedly construed through embodied motion, animal rank, appetite, and fire.",
+      "justification": "MIPVU review rule '' marked 1 unit(s) as metaphor-related or uncertain in this sentence.",
+      "mapping_status": "provisional",
+      "rhetorical_salience": "medium",
+      "rhetorical_functions": [
+        "argument"
+      ],
+      "ideological_functions": [
+        "legitimation"
+      ]
+    },
+    {
+      "mapping_id": "lincoln-cmt-054",
+      "case_id": "lincoln",
+      "document_id": "lincoln-special-message-1861-07-04",
+      "sentence_id": "lincoln-special-message-1861-07-04_s01_p23_s02",
+      "mipvu_ids": [
+        "lincoln-special-message-1861-07-04_s01_p23_s02_lu015"
+      ],
+      "expression": "regions",
+      "evidence_span": "That number of men is about one-tenth of those of proper ages within the regions where, apparently, all are willing to engage; and the sum is less than a twenty-third part of the money value owned by the men who seem ready to devote the whole.",
+      "source_domain_primary": "body",
+      "source_domain_secondary": [],
+      "target_domain": "political_order",
+      "conceptual_metaphor": "POLITICAL ORDER IS BODY",
+      "entailments": [
+        "ambition and genius are represented through animals, height, paths, bodily appetite, fire, or stretching",
+        "Political ambition is understood through embodied force and animal/combat imagery."
+      ],
+      "cluster_id": "lincoln-01-body-organism",
+      "confidence": 0.75,
+      "rival_reading": "Abstract ambition is repeatedly construed through embodied motion, animal rank, appetite, and fire.",
+      "justification": "MIPVU review rule '' marked 1 unit(s) as metaphor-related or uncertain in this sentence.",
+      "mapping_status": "provisional",
+      "rhetorical_salience": "medium",
+      "rhetorical_functions": [
+        "argument"
+      ],
+      "ideological_functions": [
+        "legitimation"
+      ]
+    },
+    {
+      "mapping_id": "lincoln-cmt-055",
+      "case_id": "lincoln",
+      "document_id": "lincoln-special-message-1861-07-04",
+      "sentence_id": "lincoln-special-message-1861-07-04_s01_p27_s21",
+      "mipvu_ids": [
+        "lincoln-special-message-1861-07-04_s01_p27_s21_lu006"
+      ],
+      "expression": "forgotten",
+      "evidence_span": "Of course, it is not forgotten that all the new States framed their constitutions before they entered the Union nevertheless, dependent upon and preparatory to coming into the Union.",
+      "source_domain_primary": "life_death",
+      "source_domain_secondary": [],
+      "target_domain": "history",
+      "conceptual_metaphor": "HISTORY IS LIFE DEATH",
+      "entailments": [
+        "fame or memory persists or disappears as life, deathlessness, or downward sinking",
+        "Historical memory is understood through life/death and vertical motion."
+      ],
+      "cluster_id": "lincoln-05-fathers-inheritance",
+      "confidence": 0.78,
+      "rival_reading": "Reputation and memory are treated through bodily life/death or physical descent.",
+      "justification": "MIPVU review rule '' marked 1 unit(s) as metaphor-related or uncertain in this sentence.",
+      "mapping_status": "provisional",
+      "rhetorical_salience": "medium",
+      "rhetorical_functions": [
+        "argument"
+      ],
+      "ideological_functions": [
+        "legitimation"
+      ]
+    },
+    {
+      "mapping_id": "lincoln-cmt-056",
+      "case_id": "lincoln",
+      "document_id": "lincoln-special-message-1861-07-04",
+      "sentence_id": "lincoln-special-message-1861-07-04_s01_p38_s01",
+      "mipvu_ids": [
+        "lincoln-special-message-1861-07-04_s01_p38_s01_lu009"
+      ],
+      "expression": "experiment",
+      "evidence_span": "Our popular government has often been called an experiment.",
+      "source_domain_primary": "experiment_science",
+      "source_domain_secondary": [],
+      "target_domain": "republic",
+      "conceptual_metaphor": "REPUBLIC IS EXPERIMENT SCIENCE",
+      "entailments": [
+        "self-government is treated as a trial whose truth can be demonstrated",
+        "Political viability is understood through experiment and demonstration."
+      ],
+      "cluster_id": "lincoln-03-experiment-proposition",
+      "confidence": 0.74,
+      "rival_reading": "A political order is not a laboratory object, but its success is framed as a trial or proof.",
+      "justification": "MIPVU review rule '' marked 1 unit(s) as metaphor-related or uncertain in this sentence.",
+      "mapping_status": "provisional",
+      "rhetorical_salience": "medium",
+      "rhetorical_functions": [
+        "national_self_definition"
+      ],
+      "ideological_functions": [
+        "obligation"
+      ]
+    },
+    {
+      "mapping_id": "lincoln-cmt-057",
+      "case_id": "lincoln",
       "document_id": "lincoln-gettysburg-address",
       "sentence_id": "lincoln-gettysburg-address_s01_p01_s01",
       "mipvu_ids": [
@@ -1704,7 +1890,7 @@
       ]
     },
     {
-      "mapping_id": "lincoln-cmt-052",
+      "mapping_id": "lincoln-cmt-058",
       "case_id": "lincoln",
       "document_id": "lincoln-gettysburg-address",
       "sentence_id": "lincoln-gettysburg-address_s01_p02_s01",
@@ -1735,7 +1921,7 @@
       ]
     },
     {
-      "mapping_id": "lincoln-cmt-053",
+      "mapping_id": "lincoln-cmt-059",
       "case_id": "lincoln",
       "document_id": "lincoln-gettysburg-address",
       "sentence_id": "lincoln-gettysburg-address_s01_p03_s01",
@@ -1770,7 +1956,7 @@
       ]
     },
     {
-      "mapping_id": "lincoln-cmt-054",
+      "mapping_id": "lincoln-cmt-060",
       "case_id": "lincoln",
       "document_id": "lincoln-gettysburg-address",
       "sentence_id": "lincoln-gettysburg-address_s01_p04_s03",
@@ -1804,7 +1990,7 @@
       ]
     },
     {
-      "mapping_id": "lincoln-cmt-055",
+      "mapping_id": "lincoln-cmt-061",
       "case_id": "lincoln",
       "document_id": "lincoln-gettysburg-address",
       "sentence_id": "lincoln-gettysburg-address_s01_p05_s02",
@@ -1841,7 +2027,7 @@
       ]
     },
     {
-      "mapping_id": "lincoln-cmt-056",
+      "mapping_id": "lincoln-cmt-062",
       "case_id": "lincoln",
       "document_id": "lincoln-second-inaugural",
       "sentence_id": "lincoln-second-inaugural_s01_p01_s03",
@@ -1874,7 +2060,7 @@
       ]
     },
     {
-      "mapping_id": "lincoln-cmt-057",
+      "mapping_id": "lincoln-cmt-063",
       "case_id": "lincoln",
       "document_id": "lincoln-second-inaugural",
       "sentence_id": "lincoln-second-inaugural_s01_p02_s03",
@@ -1906,7 +2092,7 @@
       ]
     },
     {
-      "mapping_id": "lincoln-cmt-058",
+      "mapping_id": "lincoln-cmt-064",
       "case_id": "lincoln",
       "document_id": "lincoln-second-inaugural",
       "sentence_id": "lincoln-second-inaugural_s01_p02_s04",
@@ -1938,7 +2124,7 @@
       ]
     },
     {
-      "mapping_id": "lincoln-cmt-059",
+      "mapping_id": "lincoln-cmt-065",
       "case_id": "lincoln",
       "document_id": "lincoln-second-inaugural",
       "sentence_id": "lincoln-second-inaugural_s01_p03_s04",
@@ -1969,7 +2155,7 @@
       ]
     },
     {
-      "mapping_id": "lincoln-cmt-060",
+      "mapping_id": "lincoln-cmt-066",
       "case_id": "lincoln",
       "document_id": "lincoln-second-inaugural",
       "sentence_id": "lincoln-second-inaugural_s01_p04_s05",
@@ -2003,7 +2189,7 @@
       ]
     },
     {
-      "mapping_id": "lincoln-cmt-061",
+      "mapping_id": "lincoln-cmt-067",
       "case_id": "lincoln",
       "document_id": "lincoln-second-inaugural",
       "sentence_id": "lincoln-second-inaugural_s01_p05_s02",
@@ -2043,7 +2229,7 @@
       ]
     },
     {
-      "mapping_id": "lincoln-cmt-062",
+      "mapping_id": "lincoln-cmt-068",
       "case_id": "lincoln",
       "document_id": "lincoln-second-inaugural",
       "sentence_id": "lincoln-second-inaugural_s01_p05_s03",
@@ -2075,7 +2261,7 @@
       ]
     },
     {
-      "mapping_id": "lincoln-cmt-063",
+      "mapping_id": "lincoln-cmt-069",
       "case_id": "lincoln",
       "document_id": "lincoln-second-inaugural",
       "sentence_id": "lincoln-second-inaugural_s01_p05_s04",
@@ -2111,7 +2297,7 @@
       ]
     },
     {
-      "mapping_id": "lincoln-cmt-064",
+      "mapping_id": "lincoln-cmt-070",
       "case_id": "lincoln",
       "document_id": "lincoln-second-inaugural",
       "sentence_id": "lincoln-second-inaugural_s01_p06_s01",

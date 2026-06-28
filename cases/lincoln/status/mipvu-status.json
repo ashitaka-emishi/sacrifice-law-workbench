@@ -2,11 +2,11 @@
   "case_id": "lincoln",
   "stage": "generate-mipvu-worklist",
   "status": "ready",
-  "generated_at": "2026-06-28T02:11:39",
+  "generated_at": "2026-06-28T10:13:56",
   "documents_in_manifest": 5,
-  "written": 2,
-  "skipped_reviewed": 3,
-  "lexical_units": 11662,
+  "written": 0,
+  "skipped_reviewed": 5,
+  "lexical_units": 0,
   "errors": [],
   "records": [
     {
@@ -17,15 +17,13 @@
     },
     {
       "document_id": "lincoln-first-inaugural",
-      "status": "written",
-      "lexical_units": 3635,
+      "status": "skipped_reviewed",
       "input_path": "cases/lincoln/corpus/segmented/lincoln-first-inaugural.json",
       "output_path": "cases/lincoln/corpus/mipvu/lincoln-first-inaugural_mipvu.json"
     },
     {
       "document_id": "lincoln-special-message-1861-07-04",
-      "status": "written",
-      "lexical_units": 8027,
+      "status": "skipped_reviewed",
       "input_path": "cases/lincoln/corpus/segmented/lincoln-special-message-1861-07-04.json",
       "output_path": "cases/lincoln/corpus/mipvu/lincoln-special-message-1861-07-04_mipvu.json"
     },

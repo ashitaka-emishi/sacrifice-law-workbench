@@ -1,0 +1,410 @@
+{
+  "version": "1.0",
+  "case_id": "wwi-britain",
+  "document_id": "wwi-britain-lloyd-george-through-terror-to-triumph",
+  "generated_at": "2026-06-28T10:03:59",
+  "generator": "scripts/generate-annotation-layer.py",
+  "annotation_policy": "CMT and Koenigsbergian annotations derived from MIPVU-reviewed metaphorical and uncertain lexical units. Each instance cites at least one MIPVU ID with decision_type in MIPVU_METAPHOR_OR_UNCERTAIN_DECISIONS.",
+  "instances": [
+    {
+      "instance_id": "wwibritain-ann-001",
+      "case_id": "wwi-britain",
+      "document_id": "wwi-britain-lloyd-george-through-terror-to-triumph",
+      "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p18_s04",
+      "span_text": "road",
+      "mipvu_ids": [
+        "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p18_s04_lu005"
+      ],
+      "cmt": {
+        "mapping_id": "wwibritain-cmt-001",
+        "cluster_id": "wwi-britain-01-liberty-autocracy",
+        "source_domain_primary": "journey_motion",
+        "source_domain_secondary": [],
+        "target_domain": "military_virtue",
+        "conceptual_metaphor": "MILITARY VIRTUE IS JOURNEY MOTION",
+        "entailments": [
+          "war outcome or moral trajectory is represented through seasonal change or travel",
+          "Victory and moral danger are understood through journey or seasonal transition."
+        ],
+        "confidence": 0.7,
+        "rival_reading": "The political-military process is not literal travel or weather.",
+        "justification": "MIPVU review rule 'wwi-road-season-victory' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
+      },
+      "koenigsberg": {},
+      "meta": {
+        "confidence": 0.7,
+        "ambiguity_flag": false,
+        "suppression_flag": false
+      }
+    },
+    {
+      "instance_id": "wwibritain-ann-002",
+      "case_id": "wwi-britain",
+      "document_id": "wwi-britain-lloyd-george-through-terror-to-triumph",
+      "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p28_s02",
+      "span_text": "driven",
+      "mipvu_ids": [
+        "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p28_s02_lu020"
+      ],
+      "cmt": {
+        "mapping_id": "wwibritain-cmt-002",
+        "cluster_id": "wwi-britain-01-liberty-autocracy",
+        "source_domain_primary": "mechanics",
+        "source_domain_secondary": [],
+        "target_domain": "social_body",
+        "conceptual_metaphor": "SOCIAL BODY IS MECHANICS",
+        "entailments": [
+          "nation, civilization, or personhood is explicitly compared to a machine",
+          "Political society and personhood are understood through machinery."
+        ],
+        "confidence": 0.88,
+        "rival_reading": "The target is a political community or human being, not literal machinery.",
+        "justification": "MIPVU review rule 'wwi-machine-society' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
+      },
+      "koenigsberg": {},
+      "meta": {
+        "confidence": 0.88,
+        "ambiguity_flag": false,
+        "suppression_flag": false
+      }
+    },
+    {
+      "instance_id": "wwibritain-ann-003",
+      "case_id": "wwi-britain",
+      "document_id": "wwi-britain-lloyd-george-through-terror-to-triumph",
+      "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p46_s06",
+      "span_text": "sacrifices / sacrifices",
+      "mipvu_ids": [
+        "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p46_s06_lu004",
+        "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p46_s06_lu008"
+      ],
+      "cmt": {
+        "mapping_id": "wwibritain-cmt-003",
+        "cluster_id": "wwi-britain-03-sacrifice-service-home-front",
+        "source_domain_primary": "sacrifice",
+        "source_domain_secondary": [],
+        "target_domain": "sacrifice",
+        "conceptual_metaphor": "SACRIFICE IS SACRIFICE",
+        "entailments": [
+          "wartime service or loss is framed as sacrifice for freedom, country, or allies",
+          "Wartime obligation is understood through sacrificial offering."
+        ],
+        "confidence": 0.84,
+        "rival_reading": "The passage concerns civic and military cost rather than a literal ritual offering.",
+        "justification": "MIPVU review rule 'wwi-sacrifice-service' marked 2 unit(s) as metaphor-related or uncertain in this sentence."
+      },
+      "koenigsberg": {
+        "fantasy_type": "redemptive_sacrifice",
+        "sacrificial_economy": true
+      },
+      "meta": {
+        "confidence": 0.84,
+        "ambiguity_flag": false,
+        "suppression_flag": false
+      }
+    },
+    {
+      "instance_id": "wwibritain-ann-004",
+      "case_id": "wwi-britain",
+      "document_id": "wwi-britain-lloyd-george-through-terror-to-triumph",
+      "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p46_s13",
+      "span_text": "sacrifices",
+      "mipvu_ids": [
+        "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p46_s13_lu004"
+      ],
+      "cmt": {
+        "mapping_id": "wwibritain-cmt-004",
+        "cluster_id": "wwi-britain-03-sacrifice-service-home-front",
+        "source_domain_primary": "sacrifice",
+        "source_domain_secondary": [],
+        "target_domain": "sacrifice",
+        "conceptual_metaphor": "SACRIFICE IS SACRIFICE",
+        "entailments": [
+          "wartime service or loss is framed as sacrifice for freedom, country, or allies",
+          "Wartime obligation is understood through sacrificial offering."
+        ],
+        "confidence": 0.84,
+        "rival_reading": "The passage concerns civic and military cost rather than a literal ritual offering.",
+        "justification": "MIPVU review rule 'wwi-sacrifice-service' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
+      },
+      "koenigsberg": {
+        "fantasy_type": "redemptive_sacrifice",
+        "sacrificial_economy": true
+      },
+      "meta": {
+        "confidence": 0.84,
+        "ambiguity_flag": false,
+        "suppression_flag": false
+      }
+    },
+    {
+      "instance_id": "wwibritain-ann-005",
+      "case_id": "wwi-britain",
+      "document_id": "wwi-britain-lloyd-george-through-terror-to-triumph",
+      "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p49_s01",
+      "span_text": "sacrificed",
+      "mipvu_ids": [
+        "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p49_s01_lu011"
+      ],
+      "cmt": {
+        "mapping_id": "wwibritain-cmt-005",
+        "cluster_id": "wwi-britain-03-sacrifice-service-home-front",
+        "source_domain_primary": "sacrifice",
+        "source_domain_secondary": [],
+        "target_domain": "sacrifice",
+        "conceptual_metaphor": "SACRIFICE IS SACRIFICE",
+        "entailments": [
+          "wartime service or loss is framed as sacrifice for freedom, country, or allies",
+          "Wartime obligation is understood through sacrificial offering."
+        ],
+        "confidence": 0.84,
+        "rival_reading": "The passage concerns civic and military cost rather than a literal ritual offering.",
+        "justification": "MIPVU review rule 'wwi-sacrifice-service' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
+      },
+      "koenigsberg": {
+        "fantasy_type": "redemptive_sacrifice",
+        "sacrificial_economy": true
+      },
+      "meta": {
+        "confidence": 0.84,
+        "ambiguity_flag": false,
+        "suppression_flag": false
+      }
+    },
+    {
+      "instance_id": "wwibritain-ann-006",
+      "case_id": "wwi-britain",
+      "document_id": "wwi-britain-lloyd-george-through-terror-to-triumph",
+      "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p49_s02",
+      "span_text": "sacrifice",
+      "mipvu_ids": [
+        "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p49_s02_lu016"
+      ],
+      "cmt": {
+        "mapping_id": "wwibritain-cmt-006",
+        "cluster_id": "wwi-britain-03-sacrifice-service-home-front",
+        "source_domain_primary": "sacrifice",
+        "source_domain_secondary": [],
+        "target_domain": "sacrifice",
+        "conceptual_metaphor": "SACRIFICE IS SACRIFICE",
+        "entailments": [
+          "wartime service or loss is framed as sacrifice for freedom, country, or allies",
+          "Wartime obligation is understood through sacrificial offering."
+        ],
+        "confidence": 0.84,
+        "rival_reading": "The passage concerns civic and military cost rather than a literal ritual offering.",
+        "justification": "MIPVU review rule 'wwi-sacrifice-service' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
+      },
+      "koenigsberg": {
+        "fantasy_type": "redemptive_sacrifice",
+        "sacrificial_economy": true
+      },
+      "meta": {
+        "confidence": 0.84,
+        "ambiguity_flag": false,
+        "suppression_flag": false
+      }
+    },
+    {
+      "instance_id": "wwibritain-ann-007",
+      "case_id": "wwi-britain",
+      "document_id": "wwi-britain-lloyd-george-through-terror-to-triumph",
+      "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p51_s02",
+      "span_text": "head / hand / heart",
+      "mipvu_ids": [
+        "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p51_s02_lu011",
+        "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p51_s02_lu013",
+        "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p51_s02_lu015"
+      ],
+      "cmt": {
+        "mapping_id": "wwibritain-cmt-007",
+        "cluster_id": "wwi-britain-01-liberty-autocracy",
+        "source_domain_primary": "person_agency",
+        "source_domain_secondary": [],
+        "target_domain": "nation",
+        "conceptual_metaphor": "NATION IS PERSON AGENCY",
+        "entailments": [
+          "collective resolve or service is framed through body parts, soul, or embodied strength",
+          "National service is understood through embodied agency."
+        ],
+        "confidence": 0.67,
+        "rival_reading": "The phrase applies bodily or inner-life language to collective political commitment.",
+        "justification": "MIPVU review rule 'wwi-embodied-national-service' marked 3 unit(s) as metaphor-related or uncertain in this sentence."
+      },
+      "koenigsberg": {},
+      "meta": {
+        "confidence": 0.67,
+        "ambiguity_flag": false,
+        "suppression_flag": false
+      }
+    },
+    {
+      "instance_id": "wwibritain-ann-008",
+      "case_id": "wwi-britain",
+      "document_id": "wwi-britain-lloyd-george-through-terror-to-triumph",
+      "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p51_s08",
+      "span_text": "Diesel / machine",
+      "mipvu_ids": [
+        "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p51_s08_lu027",
+        "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p51_s08_lu028"
+      ],
+      "cmt": {
+        "mapping_id": "wwibritain-cmt-008",
+        "cluster_id": "wwi-britain-01-liberty-autocracy",
+        "source_domain_primary": "mechanics",
+        "source_domain_secondary": [],
+        "target_domain": "social_body",
+        "conceptual_metaphor": "SOCIAL BODY IS MECHANICS",
+        "entailments": [
+          "nation, civilization, or personhood is explicitly compared to a machine",
+          "Political society and personhood are understood through machinery."
+        ],
+        "confidence": 0.88,
+        "rival_reading": "The target is a political community or human being, not literal machinery.",
+        "justification": "MIPVU review rule 'wwi-machine-society' marked 2 unit(s) as metaphor-related or uncertain in this sentence."
+      },
+      "koenigsberg": {},
+      "meta": {
+        "confidence": 0.88,
+        "ambiguity_flag": false,
+        "suppression_flag": false
+      }
+    },
+    {
+      "instance_id": "wwibritain-ann-009",
+      "case_id": "wwi-britain",
+      "document_id": "wwi-britain-lloyd-george-through-terror-to-triumph",
+      "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p57_s18",
+      "span_text": "sacrifice",
+      "mipvu_ids": [
+        "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p57_s18_lu004"
+      ],
+      "cmt": {
+        "mapping_id": "wwibritain-cmt-009",
+        "cluster_id": "wwi-britain-03-sacrifice-service-home-front",
+        "source_domain_primary": "sacrifice",
+        "source_domain_secondary": [],
+        "target_domain": "sacrifice",
+        "conceptual_metaphor": "SACRIFICE IS SACRIFICE",
+        "entailments": [
+          "wartime service or loss is framed as sacrifice for freedom, country, or allies",
+          "Wartime obligation is understood through sacrificial offering."
+        ],
+        "confidence": 0.84,
+        "rival_reading": "The passage concerns civic and military cost rather than a literal ritual offering.",
+        "justification": "MIPVU review rule 'wwi-sacrifice-service' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
+      },
+      "koenigsberg": {
+        "fantasy_type": "redemptive_sacrifice",
+        "sacrificial_economy": true
+      },
+      "meta": {
+        "confidence": 0.84,
+        "ambiguity_flag": false,
+        "suppression_flag": false
+      }
+    },
+    {
+      "instance_id": "wwibritain-ann-010",
+      "case_id": "wwi-britain",
+      "document_id": "wwi-britain-lloyd-george-through-terror-to-triumph",
+      "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p69_s01",
+      "span_text": "Sacrifice",
+      "mipvu_ids": [
+        "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p69_s01_lu002"
+      ],
+      "cmt": {
+        "mapping_id": "wwibritain-cmt-010",
+        "cluster_id": "wwi-britain-03-sacrifice-service-home-front",
+        "source_domain_primary": "sacrifice",
+        "source_domain_secondary": [],
+        "target_domain": "sacrifice",
+        "conceptual_metaphor": "SACRIFICE IS SACRIFICE",
+        "entailments": [
+          "wartime service or loss is framed as sacrifice for freedom, country, or allies",
+          "Wartime obligation is understood through sacrificial offering."
+        ],
+        "confidence": 0.84,
+        "rival_reading": "The passage concerns civic and military cost rather than a literal ritual offering.",
+        "justification": "MIPVU review rule 'wwi-sacrifice-service' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
+      },
+      "koenigsberg": {
+        "fantasy_type": "redemptive_sacrifice",
+        "sacrificial_economy": true
+      },
+      "meta": {
+        "confidence": 0.84,
+        "ambiguity_flag": false,
+        "suppression_flag": false
+      }
+    },
+    {
+      "instance_id": "wwibritain-ann-011",
+      "case_id": "wwi-britain",
+      "document_id": "wwi-britain-lloyd-george-through-terror-to-triumph",
+      "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p70_s04",
+      "span_text": "sacrifice",
+      "mipvu_ids": [
+        "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p70_s04_lu004"
+      ],
+      "cmt": {
+        "mapping_id": "wwibritain-cmt-011",
+        "cluster_id": "wwi-britain-03-sacrifice-service-home-front",
+        "source_domain_primary": "sacrifice",
+        "source_domain_secondary": [],
+        "target_domain": "sacrifice",
+        "conceptual_metaphor": "SACRIFICE IS SACRIFICE",
+        "entailments": [
+          "wartime service or loss is framed as sacrifice for freedom, country, or allies",
+          "Wartime obligation is understood through sacrificial offering."
+        ],
+        "confidence": 0.84,
+        "rival_reading": "The passage concerns civic and military cost rather than a literal ritual offering.",
+        "justification": "MIPVU review rule 'wwi-sacrifice-service' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
+      },
+      "koenigsberg": {
+        "fantasy_type": "redemptive_sacrifice",
+        "sacrificial_economy": true
+      },
+      "meta": {
+        "confidence": 0.84,
+        "ambiguity_flag": false,
+        "suppression_flag": false
+      }
+    },
+    {
+      "instance_id": "wwibritain-ann-012",
+      "case_id": "wwi-britain",
+      "document_id": "wwi-britain-lloyd-george-through-terror-to-triumph",
+      "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p78_s01",
+      "span_text": "Sacrifice",
+      "mipvu_ids": [
+        "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p78_s01_lu025"
+      ],
+      "cmt": {
+        "mapping_id": "wwibritain-cmt-012",
+        "cluster_id": "wwi-britain-03-sacrifice-service-home-front",
+        "source_domain_primary": "sacrifice",
+        "source_domain_secondary": [],
+        "target_domain": "sacrifice",
+        "conceptual_metaphor": "SACRIFICE IS SACRIFICE",
+        "entailments": [
+          "wartime service or loss is framed as sacrifice for freedom, country, or allies",
+          "Wartime obligation is understood through sacrificial offering."
+        ],
+        "confidence": 0.84,
+        "rival_reading": "The passage concerns civic and military cost rather than a literal ritual offering.",
+        "justification": "MIPVU review rule 'wwi-sacrifice-service' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
+      },
+      "koenigsberg": {
+        "fantasy_type": "redemptive_sacrifice",
+        "sacrificial_economy": true
+      },
+      "meta": {
+        "confidence": 0.84,
+        "ambiguity_flag": false,
+        "suppression_flag": false
+      }
+    }
+  ]
+}

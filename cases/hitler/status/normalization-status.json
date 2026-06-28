@@ -2,7 +2,7 @@
   "case_id": "hitler",
   "stage": "normalize-texts",
   "status": "ready",
-  "generated_at": "2026-06-28T02:11:37",
+  "generated_at": "2026-06-28T10:13:55",
   "documents_in_manifest": 8,
   "written": 8,
   "skipped_missing_raw": 0,

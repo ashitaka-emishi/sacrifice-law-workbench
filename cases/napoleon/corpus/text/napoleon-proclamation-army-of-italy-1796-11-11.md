@@ -37,7 +37,7 @@ raw_path: corpus/raw/napoleon-src-03-army-of-italy-proclamation/napoleon-proclam
 pipeline_log:
 - stage: normalize-texts
   script: scripts/normalize-texts.py
-  generated_at: '2026-06-28T02:11:39'
+  generated_at: '2026-06-28T10:13:56'
 ---
 
 1180. - PROCLAMATION.

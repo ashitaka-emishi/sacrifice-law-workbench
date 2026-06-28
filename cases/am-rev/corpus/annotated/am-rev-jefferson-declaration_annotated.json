@@ -2,12 +2,12 @@
   "version": "1.0",
   "case_id": "am-rev",
   "document_id": "am-rev-jefferson-declaration",
-  "generated_at": "2026-06-17T15:09:54",
+  "generated_at": "2026-06-28T10:02:20",
   "generator": "scripts/generate-annotation-layer.py",
-  "annotation_policy": "CMT and Koenigsbergian annotations derived from MIPVU-reviewed metaphorical and uncertain lexical units. Each instance cites at least one MIPVU ID with decision_type in METAPHOR_DECISIONS.",
+  "annotation_policy": "CMT and Koenigsbergian annotations derived from MIPVU-reviewed metaphorical and uncertain lexical units. Each instance cites at least one MIPVU ID with decision_type in MIPVU_METAPHOR_OR_UNCERTAIN_DECISIONS.",
   "instances": [
     {
-      "instance_id": "amrev-ann-054",
+      "instance_id": "amrev-ann-055",
       "case_id": "am-rev",
       "document_id": "am-rev-jefferson-declaration",
       "sentence_id": "am-rev-jefferson-declaration_s01_p02_s01",
@@ -18,7 +18,7 @@
         "am-rev-jefferson-declaration_s01_p02_s01_lu031"
       ],
       "cmt": {
-        "mapping_id": "amrev-cmt-054",
+        "mapping_id": "amrev-cmt-055",
         "cluster_id": "am-rev-06-union-founding-memory",
         "source_domain_primary": "object_material",
         "source_domain_secondary": [],
@@ -30,7 +30,7 @@
         ],
         "confidence": 0.88,
         "rival_reading": "The relation among peoples and states is political, not a literal band or substance.",
-        "justification": "MIPVU review rule '' marked 3 unit(s) as metaphor-related or uncertain in this sentence."
+        "justification": "MIPVU review rule 'declaration-political-bands' marked 3 unit(s) as metaphor-related or uncertain in this sentence."
       },
       "koenigsberg": {},
       "meta": {
@@ -40,7 +40,7 @@
       }
     },
     {
-      "instance_id": "amrev-ann-055",
+      "instance_id": "amrev-ann-056",
       "case_id": "am-rev",
       "document_id": "am-rev-jefferson-declaration",
       "sentence_id": "am-rev-jefferson-declaration_s01_p03_s03",
@@ -53,7 +53,7 @@
         "am-rev-jefferson-declaration_s01_p03_s03_lu041"
       ],
       "cmt": {
-        "mapping_id": "amrev-cmt-055",
+        "mapping_id": "amrev-cmt-056",
         "cluster_id": "am-rev-06-union-founding-memory",
         "source_domain_primary": "body",
         "source_domain_secondary": [],
@@ -65,7 +65,7 @@
         ],
         "confidence": 0.76,
         "rival_reading": "Political oppression and institutional remedies are abstract but are framed through physical subjection and protection.",
-        "justification": "MIPVU review rule '' marked 5 unit(s) as metaphor-related or uncertain in this sentence."
+        "justification": "MIPVU review rule 'declaration-tyranny-security' marked 5 unit(s) as metaphor-related or uncertain in this sentence."
       },
       "koenigsberg": {},
       "meta": {
@@ -75,44 +75,13 @@
       }
     },
     {
-      "instance_id": "amrev-ann-056",
+      "instance_id": "amrev-ann-057",
       "case_id": "am-rev",
       "document_id": "am-rev-jefferson-declaration",
       "sentence_id": "am-rev-jefferson-declaration_s01_p03_s04",
       "span_text": "injuries",
       "mipvu_ids": [
         "am-rev-jefferson-declaration_s01_p03_s04_lu015"
-      ],
-      "cmt": {
-        "mapping_id": "amrev-cmt-056",
-        "cluster_id": "am-rev-02-people-republic",
-        "source_domain_primary": "body",
-        "source_domain_secondary": [],
-        "target_domain": "freedom",
-        "conceptual_metaphor": "FREEDOM IS BODY",
-        "entailments": [
-          "states, powers, and rights are represented as bodies or material entities that can be injured, invaded, annihilated, or exposed",
-          "Political rights and institutions are understood through bodily vulnerability."
-        ],
-        "confidence": 0.72,
-        "rival_reading": "Legal-political entities do not literally suffer bodily injury or exposure.",
-        "justification": "MIPVU review rule '' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
-      },
-      "koenigsberg": {},
-      "meta": {
-        "confidence": 0.72,
-        "ambiguity_flag": false,
-        "suppression_flag": false
-      }
-    },
-    {
-      "instance_id": "amrev-ann-057",
-      "case_id": "am-rev",
-      "document_id": "am-rev-jefferson-declaration",
-      "sentence_id": "am-rev-jefferson-declaration_s01_p08_s01",
-      "span_text": "invasions",
-      "mipvu_ids": [
-        "am-rev-jefferson-declaration_s01_p08_s01_lu013"
       ],
       "cmt": {
         "mapping_id": "amrev-cmt-057",
@@ -127,7 +96,7 @@
         ],
         "confidence": 0.72,
         "rival_reading": "Legal-political entities do not literally suffer bodily injury or exposure.",
-        "justification": "MIPVU review rule '' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
+        "justification": "MIPVU review rule 'declaration-injury-rights' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
       },
       "koenigsberg": {},
       "meta": {
@@ -140,11 +109,10 @@
       "instance_id": "amrev-ann-058",
       "case_id": "am-rev",
       "document_id": "am-rev-jefferson-declaration",
-      "sentence_id": "am-rev-jefferson-declaration_s01_p09_s01",
-      "span_text": "Annihilation / exposed",
+      "sentence_id": "am-rev-jefferson-declaration_s01_p08_s01",
+      "span_text": "invasions",
       "mipvu_ids": [
-        "am-rev-jefferson-declaration_s01_p09_s01_lu023",
-        "am-rev-jefferson-declaration_s01_p09_s01_lu041"
+        "am-rev-jefferson-declaration_s01_p08_s01_lu013"
       ],
       "cmt": {
         "mapping_id": "amrev-cmt-058",
@@ -159,7 +127,7 @@
         ],
         "confidence": 0.72,
         "rival_reading": "Legal-political entities do not literally suffer bodily injury or exposure.",
-        "justification": "MIPVU review rule '' marked 2 unit(s) as metaphor-related or uncertain in this sentence."
+        "justification": "MIPVU review rule 'declaration-injury-rights' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
       },
       "koenigsberg": {},
       "meta": {
@@ -172,13 +140,45 @@
       "instance_id": "amrev-ann-059",
       "case_id": "am-rev",
       "document_id": "am-rev-jefferson-declaration",
+      "sentence_id": "am-rev-jefferson-declaration_s01_p09_s01",
+      "span_text": "Annihilation / exposed",
+      "mipvu_ids": [
+        "am-rev-jefferson-declaration_s01_p09_s01_lu023",
+        "am-rev-jefferson-declaration_s01_p09_s01_lu041"
+      ],
+      "cmt": {
+        "mapping_id": "amrev-cmt-059",
+        "cluster_id": "am-rev-02-people-republic",
+        "source_domain_primary": "body",
+        "source_domain_secondary": [],
+        "target_domain": "freedom",
+        "conceptual_metaphor": "FREEDOM IS BODY",
+        "entailments": [
+          "states, powers, and rights are represented as bodies or material entities that can be injured, invaded, annihilated, or exposed",
+          "Political rights and institutions are understood through bodily vulnerability."
+        ],
+        "confidence": 0.72,
+        "rival_reading": "Legal-political entities do not literally suffer bodily injury or exposure.",
+        "justification": "MIPVU review rule 'declaration-injury-rights' marked 2 unit(s) as metaphor-related or uncertain in this sentence."
+      },
+      "koenigsberg": {},
+      "meta": {
+        "confidence": 0.72,
+        "ambiguity_flag": false,
+        "suppression_flag": false
+      }
+    },
+    {
+      "instance_id": "amrev-ann-060",
+      "case_id": "am-rev",
+      "document_id": "am-rev-jefferson-declaration",
       "sentence_id": "am-rev-jefferson-declaration_s01_p27_s01",
       "span_text": "lives",
       "mipvu_ids": [
         "am-rev-jefferson-declaration_s01_p27_s01_lu015"
       ],
       "cmt": {
-        "mapping_id": "amrev-cmt-059",
+        "mapping_id": "amrev-cmt-060",
         "cluster_id": "am-rev-03-founding-sacrifice",
         "source_domain_primary": "religion_providence",
         "source_domain_secondary": [],
@@ -190,7 +190,7 @@
         ],
         "confidence": 0.82,
         "rival_reading": "The pledge is a real political act, but the closing formula gives it sacred and sacrificial force.",
-        "justification": "MIPVU review rule '' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
+        "justification": "MIPVU review rule 'declaration-sacred-pledge' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
       },
       "koenigsberg": {
         "fantasy_type": "redemptive_sacrifice",
@@ -203,7 +203,7 @@
       }
     },
     {
-      "instance_id": "amrev-ann-060",
+      "instance_id": "amrev-ann-061",
       "case_id": "am-rev",
       "document_id": "am-rev-jefferson-declaration",
       "sentence_id": "am-rev-jefferson-declaration_s01_p28_s01",
@@ -215,7 +215,7 @@
         "am-rev-jefferson-declaration_s01_p28_s01_lu040"
       ],
       "cmt": {
-        "mapping_id": "amrev-cmt-060",
+        "mapping_id": "amrev-cmt-061",
         "cluster_id": "am-rev-01-liberty-tyranny",
         "source_domain_primary": "body",
         "source_domain_secondary": [],
@@ -227,7 +227,7 @@
         ],
         "confidence": 0.8,
         "rival_reading": "Military and political actions are represented through bodily death-work and national embodiment.",
-        "justification": "MIPVU review rule '' marked 4 unit(s) as metaphor-related or uncertain in this sentence."
+        "justification": "MIPVU review rule 'declaration-works-of-death' marked 4 unit(s) as metaphor-related or uncertain in this sentence."
       },
       "koenigsberg": {
         "violence_logic": true
@@ -239,7 +239,7 @@
       }
     },
     {
-      "instance_id": "amrev-ann-061",
+      "instance_id": "amrev-ann-062",
       "case_id": "am-rev",
       "document_id": "am-rev-jefferson-declaration",
       "sentence_id": "am-rev-jefferson-declaration_s01_p33_s02",
@@ -254,7 +254,7 @@
         "am-rev-jefferson-declaration_s01_p33_s02_lu031"
       ],
       "cmt": {
-        "mapping_id": "amrev-cmt-061",
+        "mapping_id": "amrev-cmt-062",
         "cluster_id": "am-rev-03-founding-sacrifice",
         "source_domain_primary": "religion_providence",
         "source_domain_secondary": [],
@@ -266,7 +266,7 @@
         ],
         "confidence": 0.78,
         "rival_reading": "The pledge is a real political act, but the closing formula gives it sacred and sacrificial force.",
-        "justification": "MIPVU review rule '' marked 7 unit(s) as metaphor-related or uncertain in this sentence."
+        "justification": "MIPVU review rule 'declaration-sacred-pledge' marked 7 unit(s) as metaphor-related or uncertain in this sentence."
       },
       "koenigsberg": {
         "fantasy_type": "redemptive_sacrifice",

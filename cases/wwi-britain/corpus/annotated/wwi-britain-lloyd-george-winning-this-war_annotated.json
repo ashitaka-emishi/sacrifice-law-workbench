@@ -1,0 +1,171 @@
+{
+  "version": "1.0",
+  "case_id": "wwi-britain",
+  "document_id": "wwi-britain-lloyd-george-winning-this-war",
+  "generated_at": "2026-06-28T10:03:59",
+  "generator": "scripts/generate-annotation-layer.py",
+  "annotation_policy": "CMT and Koenigsbergian annotations derived from MIPVU-reviewed metaphorical and uncertain lexical units. Each instance cites at least one MIPVU ID with decision_type in MIPVU_METAPHOR_OR_UNCERTAIN_DECISIONS.",
+  "instances": [
+    {
+      "instance_id": "wwibritain-ann-013",
+      "case_id": "wwi-britain",
+      "document_id": "wwi-britain-lloyd-george-winning-this-war",
+      "sentence_id": "wwi-britain-lloyd-george-winning-this-war_s01_p03_s02",
+      "span_text": "hand / strength",
+      "mipvu_ids": [
+        "wwi-britain-lloyd-george-winning-this-war_s01_p03_s02_lu022",
+        "wwi-britain-lloyd-george-winning-this-war_s01_p03_s02_lu056"
+      ],
+      "cmt": {
+        "mapping_id": "wwibritain-cmt-013",
+        "cluster_id": "wwi-britain-01-liberty-autocracy",
+        "source_domain_primary": "person_agency",
+        "source_domain_secondary": [],
+        "target_domain": "nation",
+        "conceptual_metaphor": "NATION IS PERSON AGENCY",
+        "entailments": [
+          "collective resolve or service is framed through body parts, soul, or embodied strength",
+          "National service is understood through embodied agency."
+        ],
+        "confidence": 0.67,
+        "rival_reading": "The phrase applies bodily or inner-life language to collective political commitment.",
+        "justification": "MIPVU review rule 'wwi-embodied-national-service' marked 2 unit(s) as metaphor-related or uncertain in this sentence."
+      },
+      "koenigsberg": {},
+      "meta": {
+        "confidence": 0.67,
+        "ambiguity_flag": false,
+        "suppression_flag": false
+      }
+    },
+    {
+      "instance_id": "wwibritain-ann-014",
+      "case_id": "wwi-britain",
+      "document_id": "wwi-britain-lloyd-george-winning-this-war",
+      "sentence_id": "wwi-britain-lloyd-george-winning-this-war_s01_p19_s07",
+      "span_text": "sacrifice",
+      "mipvu_ids": [
+        "wwi-britain-lloyd-george-winning-this-war_s01_p19_s07_lu022"
+      ],
+      "cmt": {
+        "mapping_id": "wwibritain-cmt-014",
+        "cluster_id": "wwi-britain-03-sacrifice-service-home-front",
+        "source_domain_primary": "sacrifice",
+        "source_domain_secondary": [],
+        "target_domain": "sacrifice",
+        "conceptual_metaphor": "SACRIFICE IS SACRIFICE",
+        "entailments": [
+          "wartime service or loss is framed as sacrifice for freedom, country, or allies",
+          "Wartime obligation is understood through sacrificial offering."
+        ],
+        "confidence": 0.84,
+        "rival_reading": "The passage concerns civic and military cost rather than a literal ritual offering.",
+        "justification": "MIPVU review rule 'wwi-sacrifice-service' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
+      },
+      "koenigsberg": {
+        "fantasy_type": "redemptive_sacrifice",
+        "sacrificial_economy": true
+      },
+      "meta": {
+        "confidence": 0.84,
+        "ambiguity_flag": false,
+        "suppression_flag": false
+      }
+    },
+    {
+      "instance_id": "wwibritain-ann-015",
+      "case_id": "wwi-britain",
+      "document_id": "wwi-britain-lloyd-george-winning-this-war",
+      "sentence_id": "wwi-britain-lloyd-george-winning-this-war_s01_p30_s11",
+      "span_text": "strength",
+      "mipvu_ids": [
+        "wwi-britain-lloyd-george-winning-this-war_s01_p30_s11_lu013"
+      ],
+      "cmt": {
+        "mapping_id": "wwibritain-cmt-015",
+        "cluster_id": "wwi-britain-01-liberty-autocracy",
+        "source_domain_primary": "person_agency",
+        "source_domain_secondary": [],
+        "target_domain": "nation",
+        "conceptual_metaphor": "NATION IS PERSON AGENCY",
+        "entailments": [
+          "collective resolve or service is framed through body parts, soul, or embodied strength",
+          "National service is understood through embodied agency."
+        ],
+        "confidence": 0.67,
+        "rival_reading": "The phrase applies bodily or inner-life language to collective political commitment.",
+        "justification": "MIPVU review rule 'wwi-embodied-national-service' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
+      },
+      "koenigsberg": {},
+      "meta": {
+        "confidence": 0.67,
+        "ambiguity_flag": false,
+        "suppression_flag": false
+      }
+    },
+    {
+      "instance_id": "wwibritain-ann-016",
+      "case_id": "wwi-britain",
+      "document_id": "wwi-britain-lloyd-george-winning-this-war",
+      "sentence_id": "wwi-britain-lloyd-george-winning-this-war_s01_p59_s05",
+      "span_text": "heart / soul / strength",
+      "mipvu_ids": [
+        "wwi-britain-lloyd-george-winning-this-war_s01_p59_s05_lu019",
+        "wwi-britain-lloyd-george-winning-this-war_s01_p59_s05_lu021",
+        "wwi-britain-lloyd-george-winning-this-war_s01_p59_s05_lu023"
+      ],
+      "cmt": {
+        "mapping_id": "wwibritain-cmt-016",
+        "cluster_id": "wwi-britain-01-liberty-autocracy",
+        "source_domain_primary": "person_agency",
+        "source_domain_secondary": [],
+        "target_domain": "nation",
+        "conceptual_metaphor": "NATION IS PERSON AGENCY",
+        "entailments": [
+          "collective resolve or service is framed through body parts, soul, or embodied strength",
+          "National service is understood through embodied agency."
+        ],
+        "confidence": 0.67,
+        "rival_reading": "The phrase applies bodily or inner-life language to collective political commitment.",
+        "justification": "MIPVU review rule 'wwi-embodied-national-service' marked 3 unit(s) as metaphor-related or uncertain in this sentence."
+      },
+      "koenigsberg": {},
+      "meta": {
+        "confidence": 0.67,
+        "ambiguity_flag": false,
+        "suppression_flag": false
+      }
+    },
+    {
+      "instance_id": "wwibritain-ann-017",
+      "case_id": "wwi-britain",
+      "document_id": "wwi-britain-lloyd-george-winning-this-war",
+      "sentence_id": "wwi-britain-lloyd-george-winning-this-war_s01_p68_s03",
+      "span_text": "strength",
+      "mipvu_ids": [
+        "wwi-britain-lloyd-george-winning-this-war_s01_p68_s03_lu030"
+      ],
+      "cmt": {
+        "mapping_id": "wwibritain-cmt-017",
+        "cluster_id": "wwi-britain-01-liberty-autocracy",
+        "source_domain_primary": "person_agency",
+        "source_domain_secondary": [],
+        "target_domain": "nation",
+        "conceptual_metaphor": "NATION IS PERSON AGENCY",
+        "entailments": [
+          "collective resolve or service is framed through body parts, soul, or embodied strength",
+          "National service is understood through embodied agency."
+        ],
+        "confidence": 0.67,
+        "rival_reading": "The phrase applies bodily or inner-life language to collective political commitment.",
+        "justification": "MIPVU review rule 'wwi-embodied-national-service' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
+      },
+      "koenigsberg": {},
+      "meta": {
+        "confidence": 0.67,
+        "ambiguity_flag": false,
+        "suppression_flag": false
+      }
+    }
+  ]
+}

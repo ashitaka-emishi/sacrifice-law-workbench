@@ -1,0 +1,430 @@
+{
+  "version": "1.0",
+  "case_id": "wwi-britain",
+  "document_id": "wwi-britain-lloyd-george-causes-aims-war",
+  "generated_at": "2026-06-28T10:03:59",
+  "generator": "scripts/generate-annotation-layer.py",
+  "annotation_policy": "CMT and Koenigsbergian annotations derived from MIPVU-reviewed metaphorical and uncertain lexical units. Each instance cites at least one MIPVU ID with decision_type in MIPVU_METAPHOR_OR_UNCERTAIN_DECISIONS.",
+  "instances": [
+    {
+      "instance_id": "wwibritain-ann-021",
+      "case_id": "wwi-britain",
+      "document_id": "wwi-britain-lloyd-george-causes-aims-war",
+      "sentence_id": "wwi-britain-lloyd-george-causes-aims-war_s01_p18_s02",
+      "span_text": "blood",
+      "mipvu_ids": [
+        "wwi-britain-lloyd-george-causes-aims-war_s01_p18_s02_lu021"
+      ],
+      "cmt": {
+        "mapping_id": "wwibritain-cmt-021",
+        "cluster_id": "wwi-britain-01-liberty-autocracy",
+        "source_domain_primary": "body",
+        "source_domain_secondary": [],
+        "target_domain": "nation",
+        "conceptual_metaphor": "NATION IS BODY",
+        "entailments": [
+          "national vitality, conflict, or war cost is represented through blood and cleansing",
+          "National renewal and war cost are understood through body-blood imagery."
+        ],
+        "confidence": 0.78,
+        "rival_reading": "The country, race, or conflict is not literally blood that can be cleansed.",
+        "justification": "MIPVU review rule 'wwi-blood-national-renewal' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
+      },
+      "koenigsberg": {
+        "fantasy_type": "national_body"
+      },
+      "meta": {
+        "confidence": 0.78,
+        "ambiguity_flag": false,
+        "suppression_flag": false
+      }
+    },
+    {
+      "instance_id": "wwibritain-ann-022",
+      "case_id": "wwi-britain",
+      "document_id": "wwi-britain-lloyd-george-causes-aims-war",
+      "sentence_id": "wwi-britain-lloyd-george-causes-aims-war_s01_p22_s10",
+      "span_text": "strength",
+      "mipvu_ids": [
+        "wwi-britain-lloyd-george-causes-aims-war_s01_p22_s10_lu014"
+      ],
+      "cmt": {
+        "mapping_id": "wwibritain-cmt-022",
+        "cluster_id": "wwi-britain-01-liberty-autocracy",
+        "source_domain_primary": "person_agency",
+        "source_domain_secondary": [],
+        "target_domain": "nation",
+        "conceptual_metaphor": "NATION IS PERSON AGENCY",
+        "entailments": [
+          "collective resolve or service is framed through body parts, soul, or embodied strength",
+          "National service is understood through embodied agency."
+        ],
+        "confidence": 0.67,
+        "rival_reading": "The phrase applies bodily or inner-life language to collective political commitment.",
+        "justification": "MIPVU review rule 'wwi-embodied-national-service' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
+      },
+      "koenigsberg": {},
+      "meta": {
+        "confidence": 0.67,
+        "ambiguity_flag": false,
+        "suppression_flag": false
+      }
+    },
+    {
+      "instance_id": "wwibritain-ann-023",
+      "case_id": "wwi-britain",
+      "document_id": "wwi-britain-lloyd-george-causes-aims-war",
+      "sentence_id": "wwi-britain-lloyd-george-causes-aims-war_s01_p26_s01",
+      "span_text": "Burden",
+      "mipvu_ids": [
+        "wwi-britain-lloyd-george-causes-aims-war_s01_p26_s01_lu002"
+      ],
+      "cmt": {
+        "mapping_id": "wwibritain-cmt-023",
+        "cluster_id": "wwi-britain-01-liberty-autocracy",
+        "source_domain_primary": "body",
+        "source_domain_secondary": [],
+        "target_domain": "citizenship",
+        "conceptual_metaphor": "CITIZENSHIP IS BODY",
+        "entailments": [
+          "wartime obligation is represented as a physical burden to carry",
+          "Allied responsibility is understood through bodily carrying."
+        ],
+        "confidence": 0.73,
+        "rival_reading": "The obligation is political and military, not a literal carried object.",
+        "justification": "MIPVU review rule 'wwi-burden-obligation' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
+      },
+      "koenigsberg": {},
+      "meta": {
+        "confidence": 0.73,
+        "ambiguity_flag": false,
+        "suppression_flag": false
+      }
+    },
+    {
+      "instance_id": "wwibritain-ann-024",
+      "case_id": "wwi-britain",
+      "document_id": "wwi-britain-lloyd-george-causes-aims-war",
+      "sentence_id": "wwi-britain-lloyd-george-causes-aims-war_s01_p27_s01",
+      "span_text": "bear / burden",
+      "mipvu_ids": [
+        "wwi-britain-lloyd-george-causes-aims-war_s01_p27_s01_lu008",
+        "wwi-britain-lloyd-george-causes-aims-war_s01_p27_s01_lu014"
+      ],
+      "cmt": {
+        "mapping_id": "wwibritain-cmt-024",
+        "cluster_id": "wwi-britain-01-liberty-autocracy",
+        "source_domain_primary": "body",
+        "source_domain_secondary": [],
+        "target_domain": "citizenship",
+        "conceptual_metaphor": "CITIZENSHIP IS BODY",
+        "entailments": [
+          "wartime obligation is represented as a physical burden to carry",
+          "Allied responsibility is understood through bodily carrying."
+        ],
+        "confidence": 0.73,
+        "rival_reading": "The obligation is political and military, not a literal carried object.",
+        "justification": "MIPVU review rule 'wwi-burden-obligation' marked 2 unit(s) as metaphor-related or uncertain in this sentence."
+      },
+      "koenigsberg": {},
+      "meta": {
+        "confidence": 0.73,
+        "ambiguity_flag": false,
+        "suppression_flag": false
+      }
+    },
+    {
+      "instance_id": "wwibritain-ann-025",
+      "case_id": "wwi-britain",
+      "document_id": "wwi-britain-lloyd-george-causes-aims-war",
+      "sentence_id": "wwi-britain-lloyd-george-causes-aims-war_s01_p43_s06",
+      "span_text": "petrol / machine / driven / machine",
+      "mipvu_ids": [
+        "wwi-britain-lloyd-george-causes-aims-war_s01_p43_s06_lu011",
+        "wwi-britain-lloyd-george-causes-aims-war_s01_p43_s06_lu012",
+        "wwi-britain-lloyd-george-causes-aims-war_s01_p43_s06_lu018",
+        "wwi-britain-lloyd-george-causes-aims-war_s01_p43_s06_lu037"
+      ],
+      "cmt": {
+        "mapping_id": "wwibritain-cmt-025",
+        "cluster_id": "wwi-britain-01-liberty-autocracy",
+        "source_domain_primary": "mechanics",
+        "source_domain_secondary": [],
+        "target_domain": "social_body",
+        "conceptual_metaphor": "SOCIAL BODY IS MECHANICS",
+        "entailments": [
+          "nation, civilization, or personhood is explicitly compared to a machine",
+          "Political society and personhood are understood through machinery."
+        ],
+        "confidence": 0.88,
+        "rival_reading": "The target is a political community or human being, not literal machinery.",
+        "justification": "MIPVU review rule 'wwi-machine-society' marked 4 unit(s) as metaphor-related or uncertain in this sentence."
+      },
+      "koenigsberg": {},
+      "meta": {
+        "confidence": 0.88,
+        "ambiguity_flag": false,
+        "suppression_flag": false
+      }
+    },
+    {
+      "instance_id": "wwibritain-ann-026",
+      "case_id": "wwi-britain",
+      "document_id": "wwi-britain-lloyd-george-causes-aims-war",
+      "sentence_id": "wwi-britain-lloyd-george-causes-aims-war_s01_p45_s01",
+      "span_text": "strength",
+      "mipvu_ids": [
+        "wwi-britain-lloyd-george-causes-aims-war_s01_p45_s01_lu012"
+      ],
+      "cmt": {
+        "mapping_id": "wwibritain-cmt-026",
+        "cluster_id": "wwi-britain-01-liberty-autocracy",
+        "source_domain_primary": "person_agency",
+        "source_domain_secondary": [],
+        "target_domain": "nation",
+        "conceptual_metaphor": "NATION IS PERSON AGENCY",
+        "entailments": [
+          "collective resolve or service is framed through body parts, soul, or embodied strength",
+          "National service is understood through embodied agency."
+        ],
+        "confidence": 0.67,
+        "rival_reading": "The phrase applies bodily or inner-life language to collective political commitment.",
+        "justification": "MIPVU review rule 'wwi-embodied-national-service' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
+      },
+      "koenigsberg": {},
+      "meta": {
+        "confidence": 0.67,
+        "ambiguity_flag": false,
+        "suppression_flag": false
+      }
+    },
+    {
+      "instance_id": "wwibritain-ann-027",
+      "case_id": "wwi-britain",
+      "document_id": "wwi-britain-lloyd-george-causes-aims-war",
+      "sentence_id": "wwi-britain-lloyd-george-causes-aims-war_s01_p45_s02",
+      "span_text": "strength",
+      "mipvu_ids": [
+        "wwi-britain-lloyd-george-causes-aims-war_s01_p45_s02_lu039"
+      ],
+      "cmt": {
+        "mapping_id": "wwibritain-cmt-027",
+        "cluster_id": "wwi-britain-01-liberty-autocracy",
+        "source_domain_primary": "person_agency",
+        "source_domain_secondary": [],
+        "target_domain": "nation",
+        "conceptual_metaphor": "NATION IS PERSON AGENCY",
+        "entailments": [
+          "collective resolve or service is framed through body parts, soul, or embodied strength",
+          "National service is understood through embodied agency."
+        ],
+        "confidence": 0.67,
+        "rival_reading": "The phrase applies bodily or inner-life language to collective political commitment.",
+        "justification": "MIPVU review rule 'wwi-embodied-national-service' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
+      },
+      "koenigsberg": {},
+      "meta": {
+        "confidence": 0.67,
+        "ambiguity_flag": false,
+        "suppression_flag": false
+      }
+    },
+    {
+      "instance_id": "wwibritain-ann-028",
+      "case_id": "wwi-britain",
+      "document_id": "wwi-britain-lloyd-george-causes-aims-war",
+      "sentence_id": "wwi-britain-lloyd-george-causes-aims-war_s01_p50_s03",
+      "span_text": "sacrificed",
+      "mipvu_ids": [
+        "wwi-britain-lloyd-george-causes-aims-war_s01_p50_s03_lu012"
+      ],
+      "cmt": {
+        "mapping_id": "wwibritain-cmt-028",
+        "cluster_id": "wwi-britain-03-sacrifice-service-home-front",
+        "source_domain_primary": "sacrifice",
+        "source_domain_secondary": [],
+        "target_domain": "sacrifice",
+        "conceptual_metaphor": "SACRIFICE IS SACRIFICE",
+        "entailments": [
+          "wartime service or loss is framed as sacrifice for freedom, country, or allies",
+          "Wartime obligation is understood through sacrificial offering."
+        ],
+        "confidence": 0.84,
+        "rival_reading": "The passage concerns civic and military cost rather than a literal ritual offering.",
+        "justification": "MIPVU review rule 'wwi-sacrifice-service' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
+      },
+      "koenigsberg": {
+        "fantasy_type": "redemptive_sacrifice",
+        "sacrificial_economy": true
+      },
+      "meta": {
+        "confidence": 0.84,
+        "ambiguity_flag": false,
+        "suppression_flag": false
+      }
+    },
+    {
+      "instance_id": "wwibritain-ann-029",
+      "case_id": "wwi-britain",
+      "document_id": "wwi-britain-lloyd-george-causes-aims-war",
+      "sentence_id": "wwi-britain-lloyd-george-causes-aims-war_s01_p54_s06",
+      "span_text": "blood / cleansed",
+      "mipvu_ids": [
+        "wwi-britain-lloyd-george-causes-aims-war_s01_p54_s06_lu014",
+        "wwi-britain-lloyd-george-causes-aims-war_s01_p54_s06_lu015"
+      ],
+      "cmt": {
+        "mapping_id": "wwibritain-cmt-029",
+        "cluster_id": "wwi-britain-01-liberty-autocracy",
+        "source_domain_primary": "body",
+        "source_domain_secondary": [],
+        "target_domain": "nation",
+        "conceptual_metaphor": "NATION IS BODY",
+        "entailments": [
+          "national vitality, conflict, or war cost is represented through blood and cleansing",
+          "National renewal and war cost are understood through body-blood imagery."
+        ],
+        "confidence": 0.78,
+        "rival_reading": "The country, race, or conflict is not literally blood that can be cleansed.",
+        "justification": "MIPVU review rule 'wwi-blood-national-renewal' marked 2 unit(s) as metaphor-related or uncertain in this sentence."
+      },
+      "koenigsberg": {
+        "fantasy_type": "national_body"
+      },
+      "meta": {
+        "confidence": 0.78,
+        "ambiguity_flag": false,
+        "suppression_flag": false
+      }
+    },
+    {
+      "instance_id": "wwibritain-ann-030",
+      "case_id": "wwi-britain",
+      "document_id": "wwi-britain-lloyd-george-causes-aims-war",
+      "sentence_id": "wwi-britain-lloyd-george-causes-aims-war_s01_p54_s06",
+      "span_text": "sacrifice",
+      "mipvu_ids": [
+        "wwi-britain-lloyd-george-causes-aims-war_s01_p54_s06_lu017"
+      ],
+      "cmt": {
+        "mapping_id": "wwibritain-cmt-030",
+        "cluster_id": "wwi-britain-03-sacrifice-service-home-front",
+        "source_domain_primary": "sacrifice",
+        "source_domain_secondary": [],
+        "target_domain": "sacrifice",
+        "conceptual_metaphor": "SACRIFICE IS SACRIFICE",
+        "entailments": [
+          "wartime service or loss is framed as sacrifice for freedom, country, or allies",
+          "Wartime obligation is understood through sacrificial offering."
+        ],
+        "confidence": 0.84,
+        "rival_reading": "The passage concerns civic and military cost rather than a literal ritual offering.",
+        "justification": "MIPVU review rule 'wwi-sacrifice-service' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
+      },
+      "koenigsberg": {
+        "fantasy_type": "redemptive_sacrifice",
+        "sacrificial_economy": true
+      },
+      "meta": {
+        "confidence": 0.84,
+        "ambiguity_flag": false,
+        "suppression_flag": false
+      }
+    },
+    {
+      "instance_id": "wwibritain-ann-031",
+      "case_id": "wwi-britain",
+      "document_id": "wwi-britain-lloyd-george-causes-aims-war",
+      "sentence_id": "wwi-britain-lloyd-george-causes-aims-war_s01_p66_s05",
+      "span_text": "driven",
+      "mipvu_ids": [
+        "wwi-britain-lloyd-george-causes-aims-war_s01_p66_s05_lu011"
+      ],
+      "cmt": {
+        "mapping_id": "wwibritain-cmt-031",
+        "cluster_id": "wwi-britain-01-liberty-autocracy",
+        "source_domain_primary": "mechanics",
+        "source_domain_secondary": [],
+        "target_domain": "social_body",
+        "conceptual_metaphor": "SOCIAL BODY IS MECHANICS",
+        "entailments": [
+          "nation, civilization, or personhood is explicitly compared to a machine",
+          "Political society and personhood are understood through machinery."
+        ],
+        "confidence": 0.88,
+        "rival_reading": "The target is a political community or human being, not literal machinery.",
+        "justification": "MIPVU review rule 'wwi-machine-society' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
+      },
+      "koenigsberg": {},
+      "meta": {
+        "confidence": 0.88,
+        "ambiguity_flag": false,
+        "suppression_flag": false
+      }
+    },
+    {
+      "instance_id": "wwibritain-ann-032",
+      "case_id": "wwi-britain",
+      "document_id": "wwi-britain-lloyd-george-causes-aims-war",
+      "sentence_id": "wwi-britain-lloyd-george-causes-aims-war_s01_p94_s01",
+      "span_text": "blood",
+      "mipvu_ids": [
+        "wwi-britain-lloyd-george-causes-aims-war_s01_p94_s01_lu025"
+      ],
+      "cmt": {
+        "mapping_id": "wwibritain-cmt-032",
+        "cluster_id": "wwi-britain-01-liberty-autocracy",
+        "source_domain_primary": "body",
+        "source_domain_secondary": [],
+        "target_domain": "nation",
+        "conceptual_metaphor": "NATION IS BODY",
+        "entailments": [
+          "national vitality, conflict, or war cost is represented through blood and cleansing",
+          "National renewal and war cost are understood through body-blood imagery."
+        ],
+        "confidence": 0.78,
+        "rival_reading": "The country, race, or conflict is not literally blood that can be cleansed.",
+        "justification": "MIPVU review rule 'wwi-blood-national-renewal' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
+      },
+      "koenigsberg": {
+        "fantasy_type": "national_body"
+      },
+      "meta": {
+        "confidence": 0.78,
+        "ambiguity_flag": false,
+        "suppression_flag": false
+      }
+    },
+    {
+      "instance_id": "wwibritain-ann-033",
+      "case_id": "wwi-britain",
+      "document_id": "wwi-britain-lloyd-george-causes-aims-war",
+      "sentence_id": "wwi-britain-lloyd-george-causes-aims-war_s01_p97_s02",
+      "span_text": "strength",
+      "mipvu_ids": [
+        "wwi-britain-lloyd-george-causes-aims-war_s01_p97_s02_lu053"
+      ],
+      "cmt": {
+        "mapping_id": "wwibritain-cmt-033",
+        "cluster_id": "wwi-britain-01-liberty-autocracy",
+        "source_domain_primary": "person_agency",
+        "source_domain_secondary": [],
+        "target_domain": "nation",
+        "conceptual_metaphor": "NATION IS PERSON AGENCY",
+        "entailments": [
+          "collective resolve or service is framed through body parts, soul, or embodied strength",
+          "National service is understood through embodied agency."
+        ],
+        "confidence": 0.67,
+        "rival_reading": "The phrase applies bodily or inner-life language to collective political commitment.",
+        "justification": "MIPVU review rule 'wwi-embodied-national-service' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
+      },
+      "koenigsberg": {},
+      "meta": {
+        "confidence": 0.67,
+        "ambiguity_flag": false,
+        "suppression_flag": false
+      }
+    }
+  ]
+}

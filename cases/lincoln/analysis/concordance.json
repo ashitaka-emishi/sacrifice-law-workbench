@@ -1,19 +1,19 @@
 {
   "version": "1.0",
   "case_id": "lincoln",
-  "generated_at": "2026-06-28T02:11:39",
+  "generated_at": "2026-06-28T10:13:56",
   "status": "complete",
   "mipvu_profile": {
     "mipvu_files": 5,
     "total_lexical_units": 16198,
-    "reviewed_lexical_units": 4536,
-    "pending_lexical_units": 11662,
-    "confirmed_metaphor_units": 190,
-    "metaphor_or_uncertain_units": 202,
-    "metaphor_rate_confirmed": 0.0117,
-    "metaphor_rate_including_uncertain": 0.0125,
-    "reviewed_metaphor_rate_confirmed": 0.0419,
-    "reviewed_metaphor_rate_including_uncertain": 0.0445,
+    "reviewed_lexical_units": 16198,
+    "pending_lexical_units": 0,
+    "confirmed_metaphor_units": 196,
+    "metaphor_or_uncertain_units": 208,
+    "metaphor_rate_confirmed": 0.0121,
+    "metaphor_rate_including_uncertain": 0.0128,
+    "reviewed_metaphor_rate_confirmed": 0.0121,
+    "reviewed_metaphor_rate_including_uncertain": 0.0128,
     "by_document": {
       "lincoln-special-message-1861-07-04": 8027,
       "lincoln-first-inaugural": 3635,
@@ -31,53 +31,52 @@
       "en": 16198
     },
     "by_decision_type": {
-      "pending": 11662,
-      "non_metaphor": 4334,
+      "non_metaphor": 15990,
       "mipvu_direct": 86,
-      "mipvu_indirect": 78,
-      "mipvu_personification": 26,
+      "mipvu_indirect": 83,
+      "mipvu_personification": 27,
       "uncertain": 12
     },
     "by_confidence": {
-      "missing": 15996,
-      "medium": 129,
+      "missing": 15990,
+      "medium": 135,
       "high": 61,
       "low": 12
     }
   },
   "cmt_profile": {
     "mapping_file": "corpus/cmt/cmt-mappings.json",
-    "mapping_count": 64,
+    "mapping_count": 70,
     "by_cluster": {
-      "lincoln-01-body-organism": 43,
-      "lincoln-05-fathers-inheritance": 6,
-      "lincoln-08-sacrificial-death-gift": 5,
+      "lincoln-01-body-organism": 46,
+      "lincoln-05-fathers-inheritance": 7,
+      "lincoln-08-sacrificial-death-gift": 6,
       "lincoln-02-covenant-oath": 4,
-      "lincoln-03-experiment-proposition": 3,
+      "lincoln-03-experiment-proposition": 4,
       "lincoln-06-providence-theodicy": 2,
       "lincoln-07-absence-black-agency": 1
     },
     "by_source_domain": {
-      "body": 20,
-      "nature_organism": 12,
+      "body": 22,
+      "nature_organism": 13,
       "architecture_building": 6,
+      "sacrifice": 5,
+      "experiment_science": 4,
+      "life_death": 4,
       "object_material": 4,
       "religion_providence": 4,
-      "sacrifice": 4,
-      "experiment_science": 3,
-      "life_death": 3,
       "birth_generation": 2,
       "debt_accounting": 2,
       "theater_stage": 2,
       "war_combat": 2
     },
     "by_target_domain": {
-      "political_order": 17,
-      "history": 10,
-      "citizenship": 7,
-      "nation": 7,
+      "political_order": 19,
+      "history": 11,
+      "citizenship": 8,
+      "nation": 8,
       "government": 5,
-      "republic": 3,
+      "republic": 4,
       "slavery": 3,
       "war_death": 3,
       "freedom": 2,
@@ -88,15 +87,15 @@
       "political_identity": 1
     },
     "by_conceptual_metaphor": {
-      "POLITICAL ORDER IS BODY": 7,
+      "POLITICAL ORDER IS BODY": 9,
       "POLITICAL ORDER IS NATURE ORGANISM": 7,
+      "NATION IS NATURE ORGANISM": 5,
+      "CITIZENSHIP IS SACRIFICE": 4,
       "GOVERNMENT IS ARCHITECTURE BUILDING": 4,
-      "NATION IS NATURE ORGANISM": 4,
+      "HISTORY IS LIFE DEATH": 4,
+      "REPUBLIC IS EXPERIMENT SCIENCE": 4,
       "CITIZENSHIP IS BODY": 3,
-      "CITIZENSHIP IS SACRIFICE": 3,
       "HISTORY IS BODY": 3,
-      "HISTORY IS LIFE DEATH": 3,
-      "REPUBLIC IS EXPERIMENT SCIENCE": 3,
       "FREEDOM IS ARCHITECTURE BUILDING": 2,
       "LAW IS RELIGION PROVIDENCE": 2,
       "NATION IS BIRTH GENERATION": 2,
@@ -122,68 +121,33 @@
     "by_document": {
       "lincoln-lyceum-address": 50,
       "lincoln-second-inaugural": 9,
-      "lincoln-gettysburg-address": 5
+      "lincoln-gettysburg-address": 5,
+      "lincoln-special-message-1861-07-04": 5,
+      "lincoln-first-inaugural": 1
     },
     "by_salience": {
-      "high": 32,
-      "medium": 32
+      "medium": 37,
+      "high": 33
     },
     "by_status": {
-      "provisional": 64
+      "provisional": 70
     }
   },
-  "total_documents": 3,
+  "total_documents": 5,
   "total_sentences": 0,
-  "total_instances": 64,
+  "total_instances": 70,
   "instances": [
     {
       "instance_id": "lincoln-ann-051",
       "case_id": "lincoln",
-      "document_id": "lincoln-gettysburg-address",
-      "sentence_id": "lincoln-gettysburg-address_s01_p01_s01",
-      "span_text": "brought / forth / conceived / dedicated",
+      "document_id": "lincoln-first-inaugural",
+      "sentence_id": "lincoln-first-inaugural_s01_p15_s04",
+      "span_text": "endure",
       "mipvu_ids": [
-        "lincoln-gettysburg-address_s01_p01_s01_lu009",
-        "lincoln-gettysburg-address_s01_p01_s01_lu010",
-        "lincoln-gettysburg-address_s01_p01_s01_lu017",
-        "lincoln-gettysburg-address_s01_p01_s01_lu021"
+        "lincoln-first-inaugural_s01_p15_s04_lu016"
       ],
       "cmt": {
         "mapping_id": "lincoln-cmt-051",
-        "cluster_id": "lincoln-01-body-organism",
-        "source_domain_primary": "birth_generation",
-        "source_domain_secondary": [],
-        "target_domain": "nation",
-        "conceptual_metaphor": "NATION IS BIRTH GENERATION",
-        "entailments": [
-          "political founding of a nation is represented through generation or birth",
-          "committed the nation or people to a political principle",
-          "Political founding is understood through human generation."
-        ],
-        "confidence": 0.83,
-        "rival_reading": "The nation is not literally born, yet its founding is framed through birth-generation language.",
-        "justification": "MIPVU review rule '' marked 4 unit(s) as metaphor-related or uncertain in this sentence."
-      },
-      "koenigsberg": {
-        "fantasy_type": "national_body"
-      },
-      "meta": {
-        "confidence": 0.83,
-        "ambiguity_flag": false,
-        "suppression_flag": false
-      }
-    },
-    {
-      "instance_id": "lincoln-ann-052",
-      "case_id": "lincoln",
-      "document_id": "lincoln-gettysburg-address",
-      "sentence_id": "lincoln-gettysburg-address_s01_p02_s01",
-      "span_text": "endure",
-      "mipvu_ids": [
-        "lincoln-gettysburg-address_s01_p02_s01_lu024"
-      ],
-      "cmt": {
-        "mapping_id": "lincoln-cmt-052",
         "cluster_id": "lincoln-01-body-organism",
         "source_domain_primary": "nature_organism",
         "source_domain_secondary": [],
@@ -210,7 +174,80 @@
       }
     },
     {
-      "instance_id": "lincoln-ann-053",
+      "instance_id": "lincoln-ann-057",
+      "case_id": "lincoln",
+      "document_id": "lincoln-gettysburg-address",
+      "sentence_id": "lincoln-gettysburg-address_s01_p01_s01",
+      "span_text": "brought / forth / conceived / dedicated",
+      "mipvu_ids": [
+        "lincoln-gettysburg-address_s01_p01_s01_lu009",
+        "lincoln-gettysburg-address_s01_p01_s01_lu010",
+        "lincoln-gettysburg-address_s01_p01_s01_lu017",
+        "lincoln-gettysburg-address_s01_p01_s01_lu021"
+      ],
+      "cmt": {
+        "mapping_id": "lincoln-cmt-057",
+        "cluster_id": "lincoln-01-body-organism",
+        "source_domain_primary": "birth_generation",
+        "source_domain_secondary": [],
+        "target_domain": "nation",
+        "conceptual_metaphor": "NATION IS BIRTH GENERATION",
+        "entailments": [
+          "political founding of a nation is represented through generation or birth",
+          "committed the nation or people to a political principle",
+          "Political founding is understood through human generation."
+        ],
+        "confidence": 0.83,
+        "rival_reading": "The nation is not literally born, yet its founding is framed through birth-generation language.",
+        "justification": "MIPVU review rule '' marked 4 unit(s) as metaphor-related or uncertain in this sentence."
+      },
+      "koenigsberg": {
+        "fantasy_type": "national_body"
+      },
+      "meta": {
+        "confidence": 0.83,
+        "ambiguity_flag": false,
+        "suppression_flag": false
+      }
+    },
+    {
+      "instance_id": "lincoln-ann-058",
+      "case_id": "lincoln",
+      "document_id": "lincoln-gettysburg-address",
+      "sentence_id": "lincoln-gettysburg-address_s01_p02_s01",
+      "span_text": "endure",
+      "mipvu_ids": [
+        "lincoln-gettysburg-address_s01_p02_s01_lu024"
+      ],
+      "cmt": {
+        "mapping_id": "lincoln-cmt-058",
+        "cluster_id": "lincoln-01-body-organism",
+        "source_domain_primary": "nature_organism",
+        "source_domain_secondary": [],
+        "target_domain": "nation",
+        "conceptual_metaphor": "NATION IS NATURE ORGANISM",
+        "entailments": [
+          "the nation or government continues or ceases political existence",
+          "Political survival is understood through organismic life and death."
+        ],
+        "confidence": 0.72,
+        "rival_reading": "A polity is not a biological organism, but its political existence is construed as bodily life or death.",
+        "justification": "MIPVU review rule '' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
+      },
+      "koenigsberg": {
+        "fantasy_type": "national_body",
+        "absence_flags": [
+          "possible-suppressed-agent"
+        ]
+      },
+      "meta": {
+        "confidence": 0.72,
+        "ambiguity_flag": false,
+        "suppression_flag": true
+      }
+    },
+    {
+      "instance_id": "lincoln-ann-059",
       "case_id": "lincoln",
       "document_id": "lincoln-gettysburg-address",
       "sentence_id": "lincoln-gettysburg-address_s01_p03_s01",
@@ -221,7 +258,7 @@
         "lincoln-gettysburg-address_s01_p03_s01_lu027"
       ],
       "cmt": {
-        "mapping_id": "lincoln-cmt-053",
+        "mapping_id": "lincoln-cmt-059",
         "cluster_id": "lincoln-01-body-organism",
         "source_domain_primary": "body",
         "source_domain_secondary": [],
@@ -248,7 +285,7 @@
       }
     },
     {
-      "instance_id": "lincoln-ann-054",
+      "instance_id": "lincoln-ann-060",
       "case_id": "lincoln",
       "document_id": "lincoln-gettysburg-address",
       "sentence_id": "lincoln-gettysburg-address_s01_p04_s03",
@@ -260,7 +297,7 @@
         "lincoln-gettysburg-address_s01_p04_s03_lu017"
       ],
       "cmt": {
-        "mapping_id": "lincoln-cmt-054",
+        "mapping_id": "lincoln-cmt-060",
         "cluster_id": "lincoln-01-body-organism",
         "source_domain_primary": "body",
         "source_domain_secondary": [],
@@ -282,7 +319,7 @@
       }
     },
     {
-      "instance_id": "lincoln-ann-055",
+      "instance_id": "lincoln-ann-061",
       "case_id": "lincoln",
       "document_id": "lincoln-gettysburg-address",
       "sentence_id": "lincoln-gettysburg-address_s01_p05_s02",
@@ -295,7 +332,7 @@
         "lincoln-gettysburg-address_s01_p05_s02_lu079"
       ],
       "cmt": {
-        "mapping_id": "lincoln-cmt-055",
+        "mapping_id": "lincoln-cmt-061",
         "cluster_id": "lincoln-06-providence-theodicy",
         "source_domain_primary": "religion_providence",
         "source_domain_secondary": [],
@@ -2022,7 +2059,7 @@
       }
     },
     {
-      "instance_id": "lincoln-ann-056",
+      "instance_id": "lincoln-ann-062",
       "case_id": "lincoln",
       "document_id": "lincoln-second-inaugural",
       "sentence_id": "lincoln-second-inaugural_s01_p01_s03",
@@ -2033,7 +2070,7 @@
         "lincoln-second-inaugural_s01_p01_s03_lu032"
       ],
       "cmt": {
-        "mapping_id": "lincoln-cmt-056",
+        "mapping_id": "lincoln-cmt-062",
         "cluster_id": "lincoln-01-body-organism",
         "source_domain_primary": "war_combat",
         "source_domain_secondary": [],
@@ -2057,7 +2094,7 @@
       }
     },
     {
-      "instance_id": "lincoln-ann-057",
+      "instance_id": "lincoln-ann-063",
       "case_id": "lincoln",
       "document_id": "lincoln-second-inaugural",
       "sentence_id": "lincoln-second-inaugural_s01_p02_s03",
@@ -2067,7 +2104,7 @@
         "lincoln-second-inaugural_s01_p02_s03_lu037"
       ],
       "cmt": {
-        "mapping_id": "lincoln-cmt-057",
+        "mapping_id": "lincoln-cmt-063",
         "cluster_id": "lincoln-02-covenant-oath",
         "source_domain_primary": "object_material",
         "source_domain_secondary": [],
@@ -2089,7 +2126,7 @@
       }
     },
     {
-      "instance_id": "lincoln-ann-058",
+      "instance_id": "lincoln-ann-064",
       "case_id": "lincoln",
       "document_id": "lincoln-second-inaugural",
       "sentence_id": "lincoln-second-inaugural_s01_p02_s04",
@@ -2099,7 +2136,7 @@
         "lincoln-second-inaugural_s01_p02_s04_lu028"
       ],
       "cmt": {
-        "mapping_id": "lincoln-cmt-058",
+        "mapping_id": "lincoln-cmt-064",
         "cluster_id": "lincoln-01-body-organism",
         "source_domain_primary": "nature_organism",
         "source_domain_secondary": [],
@@ -2126,7 +2163,7 @@
       }
     },
     {
-      "instance_id": "lincoln-ann-059",
+      "instance_id": "lincoln-ann-065",
       "case_id": "lincoln",
       "document_id": "lincoln-second-inaugural",
       "sentence_id": "lincoln-second-inaugural_s01_p03_s04",
@@ -2135,7 +2172,7 @@
         "lincoln-second-inaugural_s01_p03_s04_lu016"
       ],
       "cmt": {
-        "mapping_id": "lincoln-cmt-059",
+        "mapping_id": "lincoln-cmt-065",
         "cluster_id": "lincoln-02-covenant-oath",
         "source_domain_primary": "object_material",
         "source_domain_secondary": [],
@@ -2157,7 +2194,7 @@
       }
     },
     {
-      "instance_id": "lincoln-ann-060",
+      "instance_id": "lincoln-ann-066",
       "case_id": "lincoln",
       "document_id": "lincoln-second-inaugural",
       "sentence_id": "lincoln-second-inaugural_s01_p04_s05",
@@ -2169,7 +2206,7 @@
         "lincoln-second-inaugural_s01_p04_s05_lu026"
       ],
       "cmt": {
-        "mapping_id": "lincoln-cmt-060",
+        "mapping_id": "lincoln-cmt-066",
         "cluster_id": "lincoln-01-body-organism",
         "source_domain_primary": "body",
         "source_domain_secondary": [],
@@ -2191,7 +2228,7 @@
       }
     },
     {
-      "instance_id": "lincoln-ann-061",
+      "instance_id": "lincoln-ann-067",
       "case_id": "lincoln",
       "document_id": "lincoln-second-inaugural",
       "sentence_id": "lincoln-second-inaugural_s01_p05_s02",
@@ -2209,7 +2246,7 @@
         "lincoln-second-inaugural_s01_p05_s02_lu081"
       ],
       "cmt": {
-        "mapping_id": "lincoln-cmt-061",
+        "mapping_id": "lincoln-cmt-067",
         "cluster_id": "lincoln-06-providence-theodicy",
         "source_domain_primary": "religion_providence",
         "source_domain_secondary": [],
@@ -2233,7 +2270,7 @@
       }
     },
     {
-      "instance_id": "lincoln-ann-062",
+      "instance_id": "lincoln-ann-068",
       "case_id": "lincoln",
       "document_id": "lincoln-second-inaugural",
       "sentence_id": "lincoln-second-inaugural_s01_p05_s03",
@@ -2243,7 +2280,7 @@
         "lincoln-second-inaugural_s01_p05_s03_lu017"
       ],
       "cmt": {
-        "mapping_id": "lincoln-cmt-062",
+        "mapping_id": "lincoln-cmt-068",
         "cluster_id": "lincoln-01-body-organism",
         "source_domain_primary": "body",
         "source_domain_secondary": [],
@@ -2268,7 +2305,7 @@
       }
     },
     {
-      "instance_id": "lincoln-ann-063",
+      "instance_id": "lincoln-ann-069",
       "case_id": "lincoln",
       "document_id": "lincoln-second-inaugural",
       "sentence_id": "lincoln-second-inaugural_s01_p05_s04",
@@ -2280,7 +2317,7 @@
         "lincoln-second-inaugural_s01_p05_s04_lu060"
       ],
       "cmt": {
-        "mapping_id": "lincoln-cmt-063",
+        "mapping_id": "lincoln-cmt-069",
         "cluster_id": "lincoln-07-absence-black-agency",
         "source_domain_primary": "debt_accounting",
         "source_domain_secondary": [],
@@ -2304,7 +2341,7 @@
       }
     },
     {
-      "instance_id": "lincoln-ann-064",
+      "instance_id": "lincoln-ann-070",
       "case_id": "lincoln",
       "document_id": "lincoln-second-inaugural",
       "sentence_id": "lincoln-second-inaugural_s01_p06_s01",
@@ -2315,7 +2352,7 @@
         "lincoln-second-inaugural_s01_p06_s01_lu063"
       ],
       "cmt": {
-        "mapping_id": "lincoln-cmt-064",
+        "mapping_id": "lincoln-cmt-070",
         "cluster_id": "lincoln-01-body-organism",
         "source_domain_primary": "body",
         "source_domain_secondary": [],
@@ -2338,15 +2375,176 @@
         "ambiguity_flag": false,
         "suppression_flag": false
       }
+    },
+    {
+      "instance_id": "lincoln-ann-052",
+      "case_id": "lincoln",
+      "document_id": "lincoln-special-message-1861-07-04",
+      "sentence_id": "lincoln-special-message-1861-07-04_s01_p10_s08",
+      "span_text": "blood",
+      "mipvu_ids": [
+        "lincoln-special-message-1861-07-04_s01_p10_s08_lu019"
+      ],
+      "cmt": {
+        "mapping_id": "lincoln-cmt-052",
+        "cluster_id": "lincoln-08-sacrificial-death-gift",
+        "source_domain_primary": "sacrifice",
+        "source_domain_secondary": [],
+        "target_domain": "citizenship",
+        "conceptual_metaphor": "CITIZENSHIP IS SACRIFICE",
+        "entailments": [
+          "patriotic obligation and violation of law are framed through blood, trampling, and tearing",
+          "Civic obligation is understood through bodily sacrifice and material violation."
+        ],
+        "confidence": 0.82,
+        "rival_reading": "Revolutionary inheritance and legal liberty are treated as bodily/material things that can be spilled, trampled, or torn.",
+        "justification": "MIPVU review rule '' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
+      },
+      "koenigsberg": {
+        "fantasy_type": "redemptive_sacrifice",
+        "sacrificial_economy": true
+      },
+      "meta": {
+        "confidence": 0.82,
+        "ambiguity_flag": false,
+        "suppression_flag": false
+      }
+    },
+    {
+      "instance_id": "lincoln-ann-053",
+      "case_id": "lincoln",
+      "document_id": "lincoln-special-message-1861-07-04",
+      "sentence_id": "lincoln-special-message-1861-07-04_s01_p11_s02",
+      "span_text": "family",
+      "mipvu_ids": [
+        "lincoln-special-message-1861-07-04_s01_p11_s02_lu006"
+      ],
+      "cmt": {
+        "mapping_id": "lincoln-cmt-053",
+        "cluster_id": "lincoln-01-body-organism",
+        "source_domain_primary": "body",
+        "source_domain_secondary": [],
+        "target_domain": "political_order",
+        "conceptual_metaphor": "POLITICAL ORDER IS BODY",
+        "entailments": [
+          "ambition and genius are represented through animals, height, paths, bodily appetite, fire, or stretching",
+          "Political ambition is understood through embodied force and animal/combat imagery."
+        ],
+        "confidence": 0.75,
+        "rival_reading": "Abstract ambition is repeatedly construed through embodied motion, animal rank, appetite, and fire.",
+        "justification": "MIPVU review rule '' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
+      },
+      "koenigsberg": {},
+      "meta": {
+        "confidence": 0.75,
+        "ambiguity_flag": false,
+        "suppression_flag": false
+      }
+    },
+    {
+      "instance_id": "lincoln-ann-054",
+      "case_id": "lincoln",
+      "document_id": "lincoln-special-message-1861-07-04",
+      "sentence_id": "lincoln-special-message-1861-07-04_s01_p23_s02",
+      "span_text": "regions",
+      "mipvu_ids": [
+        "lincoln-special-message-1861-07-04_s01_p23_s02_lu015"
+      ],
+      "cmt": {
+        "mapping_id": "lincoln-cmt-054",
+        "cluster_id": "lincoln-01-body-organism",
+        "source_domain_primary": "body",
+        "source_domain_secondary": [],
+        "target_domain": "political_order",
+        "conceptual_metaphor": "POLITICAL ORDER IS BODY",
+        "entailments": [
+          "ambition and genius are represented through animals, height, paths, bodily appetite, fire, or stretching",
+          "Political ambition is understood through embodied force and animal/combat imagery."
+        ],
+        "confidence": 0.75,
+        "rival_reading": "Abstract ambition is repeatedly construed through embodied motion, animal rank, appetite, and fire.",
+        "justification": "MIPVU review rule '' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
+      },
+      "koenigsberg": {},
+      "meta": {
+        "confidence": 0.75,
+        "ambiguity_flag": false,
+        "suppression_flag": false
+      }
+    },
+    {
+      "instance_id": "lincoln-ann-055",
+      "case_id": "lincoln",
+      "document_id": "lincoln-special-message-1861-07-04",
+      "sentence_id": "lincoln-special-message-1861-07-04_s01_p27_s21",
+      "span_text": "forgotten",
+      "mipvu_ids": [
+        "lincoln-special-message-1861-07-04_s01_p27_s21_lu006"
+      ],
+      "cmt": {
+        "mapping_id": "lincoln-cmt-055",
+        "cluster_id": "lincoln-05-fathers-inheritance",
+        "source_domain_primary": "life_death",
+        "source_domain_secondary": [],
+        "target_domain": "history",
+        "conceptual_metaphor": "HISTORY IS LIFE DEATH",
+        "entailments": [
+          "fame or memory persists or disappears as life, deathlessness, or downward sinking",
+          "Historical memory is understood through life/death and vertical motion."
+        ],
+        "confidence": 0.78,
+        "rival_reading": "Reputation and memory are treated through bodily life/death or physical descent.",
+        "justification": "MIPVU review rule '' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
+      },
+      "koenigsberg": {
+        "sacrificial_economy": true
+      },
+      "meta": {
+        "confidence": 0.78,
+        "ambiguity_flag": false,
+        "suppression_flag": false
+      }
+    },
+    {
+      "instance_id": "lincoln-ann-056",
+      "case_id": "lincoln",
+      "document_id": "lincoln-special-message-1861-07-04",
+      "sentence_id": "lincoln-special-message-1861-07-04_s01_p38_s01",
+      "span_text": "experiment",
+      "mipvu_ids": [
+        "lincoln-special-message-1861-07-04_s01_p38_s01_lu009"
+      ],
+      "cmt": {
+        "mapping_id": "lincoln-cmt-056",
+        "cluster_id": "lincoln-03-experiment-proposition",
+        "source_domain_primary": "experiment_science",
+        "source_domain_secondary": [],
+        "target_domain": "republic",
+        "conceptual_metaphor": "REPUBLIC IS EXPERIMENT SCIENCE",
+        "entailments": [
+          "self-government is treated as a trial whose truth can be demonstrated",
+          "Political viability is understood through experiment and demonstration."
+        ],
+        "confidence": 0.74,
+        "rival_reading": "A political order is not a laboratory object, but its success is framed as a trial or proof.",
+        "justification": "MIPVU review rule '' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
+      },
+      "koenigsberg": {},
+      "meta": {
+        "confidence": 0.74,
+        "ambiguity_flag": false,
+        "suppression_flag": false
+      }
     }
   ],
   "indexes": {
     "by_cluster": {
       "lincoln-01-body-organism": [
         "lincoln-ann-051",
-        "lincoln-ann-052",
-        "lincoln-ann-053",
-        "lincoln-ann-054",
+        "lincoln-ann-057",
+        "lincoln-ann-058",
+        "lincoln-ann-059",
+        "lincoln-ann-060",
         "lincoln-ann-003",
         "lincoln-ann-004",
         "lincoln-ann-005",
@@ -2381,22 +2579,25 @@
         "lincoln-ann-048",
         "lincoln-ann-049",
         "lincoln-ann-050",
-        "lincoln-ann-056",
-        "lincoln-ann-058",
-        "lincoln-ann-060",
         "lincoln-ann-062",
-        "lincoln-ann-064"
+        "lincoln-ann-064",
+        "lincoln-ann-066",
+        "lincoln-ann-068",
+        "lincoln-ann-070",
+        "lincoln-ann-053",
+        "lincoln-ann-054"
       ],
       "lincoln-02-covenant-oath": [
         "lincoln-ann-020",
         "lincoln-ann-021",
-        "lincoln-ann-057",
-        "lincoln-ann-059"
+        "lincoln-ann-063",
+        "lincoln-ann-065"
       ],
       "lincoln-03-experiment-proposition": [
         "lincoln-ann-023",
         "lincoln-ann-024",
-        "lincoln-ann-028"
+        "lincoln-ann-028",
+        "lincoln-ann-056"
       ],
       "lincoln-04-birth-creation": [],
       "lincoln-05-fathers-inheritance": [
@@ -2405,30 +2606,35 @@
         "lincoln-ann-026",
         "lincoln-ann-027",
         "lincoln-ann-042",
-        "lincoln-ann-044"
+        "lincoln-ann-044",
+        "lincoln-ann-055"
       ],
       "lincoln-06-providence-theodicy": [
-        "lincoln-ann-055",
-        "lincoln-ann-061"
+        "lincoln-ann-061",
+        "lincoln-ann-067"
       ],
       "lincoln-07-absence-black-agency": [
-        "lincoln-ann-063"
+        "lincoln-ann-069"
       ],
       "lincoln-08-sacrificial-death-gift": [
         "lincoln-ann-012",
         "lincoln-ann-013",
         "lincoln-ann-016",
         "lincoln-ann-018",
-        "lincoln-ann-019"
+        "lincoln-ann-019",
+        "lincoln-ann-052"
       ]
     },
     "by_document": {
+      "lincoln-first-inaugural": [
+        "lincoln-ann-051"
+      ],
       "lincoln-gettysburg-address": [
-        "lincoln-ann-051",
-        "lincoln-ann-052",
-        "lincoln-ann-053",
-        "lincoln-ann-054",
-        "lincoln-ann-055"
+        "lincoln-ann-057",
+        "lincoln-ann-058",
+        "lincoln-ann-059",
+        "lincoln-ann-060",
+        "lincoln-ann-061"
       ],
       "lincoln-lyceum-address": [
         "lincoln-ann-001",
@@ -2483,24 +2689,32 @@
         "lincoln-ann-050"
       ],
       "lincoln-second-inaugural": [
-        "lincoln-ann-056",
-        "lincoln-ann-057",
-        "lincoln-ann-058",
-        "lincoln-ann-059",
-        "lincoln-ann-060",
-        "lincoln-ann-061",
         "lincoln-ann-062",
         "lincoln-ann-063",
-        "lincoln-ann-064"
+        "lincoln-ann-064",
+        "lincoln-ann-065",
+        "lincoln-ann-066",
+        "lincoln-ann-067",
+        "lincoln-ann-068",
+        "lincoln-ann-069",
+        "lincoln-ann-070"
+      ],
+      "lincoln-special-message-1861-07-04": [
+        "lincoln-ann-052",
+        "lincoln-ann-053",
+        "lincoln-ann-054",
+        "lincoln-ann-055",
+        "lincoln-ann-056"
       ]
     },
     "by_register": {
       "unknown": [
         "lincoln-ann-051",
-        "lincoln-ann-052",
-        "lincoln-ann-053",
-        "lincoln-ann-054",
-        "lincoln-ann-055",
+        "lincoln-ann-057",
+        "lincoln-ann-058",
+        "lincoln-ann-059",
+        "lincoln-ann-060",
+        "lincoln-ann-061",
         "lincoln-ann-001",
         "lincoln-ann-002",
         "lincoln-ann-003",
@@ -2551,55 +2765,63 @@
         "lincoln-ann-048",
         "lincoln-ann-049",
         "lincoln-ann-050",
-        "lincoln-ann-056",
-        "lincoln-ann-057",
-        "lincoln-ann-058",
-        "lincoln-ann-059",
-        "lincoln-ann-060",
-        "lincoln-ann-061",
         "lincoln-ann-062",
         "lincoln-ann-063",
-        "lincoln-ann-064"
+        "lincoln-ann-064",
+        "lincoln-ann-065",
+        "lincoln-ann-066",
+        "lincoln-ann-067",
+        "lincoln-ann-068",
+        "lincoln-ann-069",
+        "lincoln-ann-070",
+        "lincoln-ann-052",
+        "lincoln-ann-053",
+        "lincoln-ann-054",
+        "lincoln-ann-055",
+        "lincoln-ann-056"
       ]
     },
     "by_fantasy_type": {
       "national_body": [
         "lincoln-ann-051",
-        "lincoln-ann-052",
+        "lincoln-ann-057",
+        "lincoln-ann-058",
         "lincoln-ann-006",
         "lincoln-ann-007",
         "lincoln-ann-017",
-        "lincoln-ann-058",
-        "lincoln-ann-064"
+        "lincoln-ann-064",
+        "lincoln-ann-070"
       ],
       "providential_covenant": [
-        "lincoln-ann-055",
+        "lincoln-ann-061",
         "lincoln-ann-020",
         "lincoln-ann-021",
-        "lincoln-ann-061"
+        "lincoln-ann-067"
       ],
       "redemptive_sacrifice": [
         "lincoln-ann-012",
         "lincoln-ann-016",
         "lincoln-ann-018",
-        "lincoln-ann-019"
+        "lincoln-ann-019",
+        "lincoln-ann-052"
       ]
     },
     "by_violence_logic": {
       "True": [
-        "lincoln-ann-053",
+        "lincoln-ann-059",
         "lincoln-ann-004",
         "lincoln-ann-013",
         "lincoln-ann-044",
-        "lincoln-ann-056",
-        "lincoln-ann-062"
+        "lincoln-ann-062",
+        "lincoln-ann-068"
       ]
     },
     "by_absence_flag": {
       "possible-suppressed-agent": [
-        "lincoln-ann-052",
+        "lincoln-ann-051",
+        "lincoln-ann-058",
         "lincoln-ann-017",
-        "lincoln-ann-058"
+        "lincoln-ann-064"
       ]
     },
     "high_confidence_only": [
@@ -2609,12 +2831,13 @@
       "lincoln-ann-045",
       "lincoln-ann-046",
       "lincoln-ann-050",
-      "lincoln-ann-058"
+      "lincoln-ann-064"
     ],
     "suppression_instances": [
-      "lincoln-ann-052",
+      "lincoln-ann-051",
+      "lincoln-ann-058",
       "lincoln-ann-017",
-      "lincoln-ann-058"
+      "lincoln-ann-064"
     ]
   },
   "errors": [],
@@ -2622,8 +2845,8 @@
     {
       "stage": "build-concordance",
       "script": "scripts/build-concordance.py",
-      "annotated_files": 3,
-      "generated_at": "2026-06-28T02:11:39"
+      "annotated_files": 5,
+      "generated_at": "2026-06-28T10:13:56"
     }
   ]
 }

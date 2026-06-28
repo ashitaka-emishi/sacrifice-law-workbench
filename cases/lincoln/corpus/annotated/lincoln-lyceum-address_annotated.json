@@ -2,9 +2,9 @@
   "version": "1.0",
   "case_id": "lincoln",
   "document_id": "lincoln-lyceum-address",
-  "generated_at": "2026-06-17T15:09:55",
+  "generated_at": "2026-06-28T10:02:19",
   "generator": "scripts/generate-annotation-layer.py",
-  "annotation_policy": "CMT and Koenigsbergian annotations derived from MIPVU-reviewed metaphorical and uncertain lexical units. Each instance cites at least one MIPVU ID with decision_type in METAPHOR_DECISIONS.",
+  "annotation_policy": "CMT and Koenigsbergian annotations derived from MIPVU-reviewed metaphorical and uncertain lexical units. Each instance cites at least one MIPVU ID with decision_type in MIPVU_METAPHOR_OR_UNCERTAIN_DECISIONS.",
   "instances": [
     {
       "instance_id": "lincoln-ann-001",

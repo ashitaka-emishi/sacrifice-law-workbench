@@ -101,6 +101,7 @@ TARGET_DOMAIN_MAP: dict[str, str] = {
     "providence": "providence",
     "reconciliation": "reconciliation",
     "citizenship": "citizenship",
+    "obligation": "citizenship",
     "enemy": "enemy",
     "foreign_threat": "enemy",
     "enemy_as_bringer_of_death": "enemy",

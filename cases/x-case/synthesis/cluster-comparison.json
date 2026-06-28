@@ -1,7 +1,7 @@
 {
   "version": "1.0",
   "case_id": "x-case",
-  "generated_at": "2026-06-28T02:11:43",
+  "generated_at": "2026-06-28T10:13:59",
   "status": "draft",
   "guardrails": [
     "Structural comparison is not moral equivalence.",
@@ -16,8 +16,8 @@
       "case_id": "am-rev",
       "cluster_id": "am-rev-01-liberty-tyranny",
       "cluster_name": "Liberty versus tyranny",
-      "instance_count": 12,
-      "cmt_mapping_count": 12,
+      "instance_count": 13,
+      "cmt_mapping_count": 13,
       "primary_source_domains": [
         "slavery_bondage",
         "body",
@@ -97,12 +97,14 @@
       "case_id": "am-rev",
       "cluster_id": "am-rev-05-virtue-corruption",
       "cluster_name": "Virtue versus corruption",
-      "instance_count": 1,
-      "cmt_mapping_count": 1,
+      "instance_count": 5,
+      "cmt_mapping_count": 5,
       "primary_source_domains": [
+        "light_darkness",
         "mechanics"
       ],
       "primary_target_domains": [
+        "military_virtue",
         "social_body"
       ],
       "fantasy_types": [],
@@ -135,13 +137,21 @@
       "case_id": "fr-rev",
       "cluster_id": "fr-rev-01-virtue-terror",
       "cluster_name": "Virtue, terror, and revolutionary morality",
-      "instance_count": 0,
-      "cmt_mapping_count": 0,
-      "primary_source_domains": [],
-      "primary_target_domains": [],
+      "instance_count": 24,
+      "cmt_mapping_count": 24,
+      "primary_source_domains": [
+        "medicine_healing",
+        "birth_generation",
+        "slavery_bondage"
+      ],
+      "primary_target_domains": [
+        "republic",
+        "freedom",
+        "military_virtue"
+      ],
       "fantasy_types": [],
-      "obligatory_frame_rate": null,
-      "sacrificial_economy_rate": null,
+      "obligatory_frame_rate": 0.0,
+      "sacrificial_economy_rate": 0.0,
       "claim_boundary": "Cluster distributions are draft; pending support-rating adjudication per case."
     },
     {
@@ -200,13 +210,20 @@
       "case_id": "fr-rev",
       "cluster_id": "fr-rev-06-sacrifice-duty",
       "cluster_name": "Sacrifice, civic duty, and republican obligation",
-      "instance_count": 0,
-      "cmt_mapping_count": 0,
-      "primary_source_domains": [],
-      "primary_target_domains": [],
-      "fantasy_types": [],
-      "obligatory_frame_rate": null,
-      "sacrificial_economy_rate": null,
+      "instance_count": 18,
+      "cmt_mapping_count": 18,
+      "primary_source_domains": [
+        "life_death",
+        "sacrifice"
+      ],
+      "primary_target_domains": [
+        "sacrifice"
+      ],
+      "fantasy_types": [
+        "redemptive_sacrifice"
+      ],
+      "obligatory_frame_rate": 0.0,
+      "sacrificial_economy_rate": 1.0,
       "claim_boundary": "Cluster distributions are draft; pending support-rating adjudication per case."
     },
     {
@@ -342,8 +359,8 @@
       "case_id": "lincoln",
       "cluster_id": "lincoln-01-body-organism",
       "cluster_name": "Nation as organism / body",
-      "instance_count": 43,
-      "cmt_mapping_count": 43,
+      "instance_count": 46,
+      "cmt_mapping_count": 46,
       "primary_source_domains": [
         "body",
         "nature_organism",
@@ -358,7 +375,7 @@
         "national_body"
       ],
       "obligatory_frame_rate": 0.0,
-      "sacrificial_economy_rate": 0.047,
+      "sacrificial_economy_rate": 0.043,
       "claim_boundary": "Cluster distributions are draft; pending support-rating adjudication per case."
     },
     {
@@ -386,8 +403,8 @@
       "case_id": "lincoln",
       "cluster_id": "lincoln-03-experiment-proposition",
       "cluster_name": "Republic as experiment / proposition",
-      "instance_count": 3,
-      "cmt_mapping_count": 3,
+      "instance_count": 4,
+      "cmt_mapping_count": 4,
       "primary_source_domains": [
         "experiment_science"
       ],
@@ -416,8 +433,8 @@
       "case_id": "lincoln",
       "cluster_id": "lincoln-05-fathers-inheritance",
       "cluster_name": "Founding fathers as inheritance",
-      "instance_count": 6,
-      "cmt_mapping_count": 6,
+      "instance_count": 7,
+      "cmt_mapping_count": 7,
       "primary_source_domains": [
         "life_death",
         "debt_accounting",
@@ -428,7 +445,7 @@
       ],
       "fantasy_types": [],
       "obligatory_frame_rate": 0.0,
-      "sacrificial_economy_rate": 0.5,
+      "sacrificial_economy_rate": 0.571,
       "claim_boundary": "Cluster distributions are draft; pending support-rating adjudication per case."
     },
     {
@@ -472,8 +489,8 @@
       "case_id": "lincoln",
       "cluster_id": "lincoln-08-sacrificial-death-gift",
       "cluster_name": "Soldier death as sacrifice / gift",
-      "instance_count": 5,
-      "cmt_mapping_count": 5,
+      "instance_count": 6,
+      "cmt_mapping_count": 6,
       "primary_source_domains": [
         "sacrifice",
         "theater_stage"
@@ -494,15 +511,15 @@
       "case_id": "napoleon",
       "cluster_id": "napoleon-01-glory-destiny",
       "cluster_name": "Glory / destiny / world-historical mission",
-      "instance_count": 6,
-      "cmt_mapping_count": 6,
+      "instance_count": 7,
+      "cmt_mapping_count": 7,
       "primary_source_domains": [
         "light_darkness",
         "object_material"
       ],
       "primary_target_domains": [
-        "history",
-        "military_virtue"
+        "military_virtue",
+        "history"
       ],
       "fantasy_types": [],
       "obligatory_frame_rate": 0.0,
@@ -567,8 +584,8 @@
       "case_id": "napoleon",
       "cluster_id": "napoleon-05-soldier-sacrifice",
       "cluster_name": "Soldier sacrifice / honor / immortality",
-      "instance_count": 4,
-      "cmt_mapping_count": 4,
+      "instance_count": 5,
+      "cmt_mapping_count": 5,
       "primary_source_domains": [
         "sacrifice",
         "journey_motion"
@@ -600,13 +617,23 @@
       "case_id": "wwi-britain",
       "cluster_id": "wwi-britain-01-liberty-autocracy",
       "cluster_name": "Liberty and democracy against military autocracy",
-      "instance_count": 0,
-      "cmt_mapping_count": 0,
-      "primary_source_domains": [],
-      "primary_target_domains": [],
-      "fantasy_types": [],
-      "obligatory_frame_rate": null,
-      "sacrificial_economy_rate": null,
+      "instance_count": 22,
+      "cmt_mapping_count": 22,
+      "primary_source_domains": [
+        "person_agency",
+        "body",
+        "mechanics"
+      ],
+      "primary_target_domains": [
+        "nation",
+        "social_body",
+        "military_virtue"
+      ],
+      "fantasy_types": [
+        "national_body"
+      ],
+      "obligatory_frame_rate": 0.0,
+      "sacrificial_economy_rate": 0.0,
       "claim_boundary": "Cluster distributions are draft; pending support-rating adjudication per case."
     },
     {
@@ -626,13 +653,19 @@
       "case_id": "wwi-britain",
       "cluster_id": "wwi-britain-03-sacrifice-service-home-front",
       "cluster_name": "Sacrifice, service, and home-front obligation",
-      "instance_count": 0,
-      "cmt_mapping_count": 0,
-      "primary_source_domains": [],
-      "primary_target_domains": [],
-      "fantasy_types": [],
-      "obligatory_frame_rate": null,
-      "sacrificial_economy_rate": null,
+      "instance_count": 11,
+      "cmt_mapping_count": 11,
+      "primary_source_domains": [
+        "sacrifice"
+      ],
+      "primary_target_domains": [
+        "sacrifice"
+      ],
+      "fantasy_types": [
+        "redemptive_sacrifice"
+      ],
+      "obligatory_frame_rate": 0.0,
+      "sacrificial_economy_rate": 1.0,
       "claim_boundary": "Cluster distributions are draft; pending support-rating adjudication per case."
     },
     {

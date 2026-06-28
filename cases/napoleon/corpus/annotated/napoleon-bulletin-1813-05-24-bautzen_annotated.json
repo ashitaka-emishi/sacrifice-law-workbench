@@ -2,12 +2,12 @@
   "version": "1.0",
   "case_id": "napoleon",
   "document_id": "napoleon-bulletin-1813-05-24-bautzen",
-  "generated_at": "2026-06-17T15:09:55",
+  "generated_at": "2026-06-28T10:02:20",
   "generator": "scripts/generate-annotation-layer.py",
-  "annotation_policy": "CMT and Koenigsbergian annotations derived from MIPVU-reviewed metaphorical and uncertain lexical units. Each instance cites at least one MIPVU ID with decision_type in METAPHOR_DECISIONS.",
+  "annotation_policy": "CMT and Koenigsbergian annotations derived from MIPVU-reviewed metaphorical and uncertain lexical units. Each instance cites at least one MIPVU ID with decision_type in MIPVU_METAPHOR_OR_UNCERTAIN_DECISIONS.",
   "instances": [
     {
-      "instance_id": "napoleon-ann-019",
+      "instance_id": "napoleon-ann-021",
       "case_id": "napoleon",
       "document_id": "napoleon-bulletin-1813-05-24-bautzen",
       "sentence_id": "napoleon-bulletin-1813-05-24-bautzen_s01_p25_s03",
@@ -16,7 +16,7 @@
         "napoleon-bulletin-1813-05-24-bautzen_s01_p25_s03_lu008"
       ],
       "cmt": {
-        "mapping_id": "napoleon-cmt-019",
+        "mapping_id": "napoleon-cmt-021",
         "cluster_id": "napoleon-05-soldier-sacrifice",
         "source_domain_primary": "journey_motion",
         "source_domain_secondary": [],
@@ -28,7 +28,7 @@
         ],
         "confidence": 0.7,
         "rival_reading": "A battle does not literally possess destiny, but the outcome is construed as fate-like.",
-        "justification": "MIPVU review rule '' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
+        "justification": "MIPVU review rule 'napoleon-destin-battle' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
       },
       "koenigsberg": {
         "violence_logic": true,

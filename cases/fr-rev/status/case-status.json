@@ -1,9 +1,9 @@
 {
   "case_id": "fr-rev",
-  "status": "draft-corpus-ready",
-  "current_stage": "mipvu-worklist-generated",
-  "updated": "2026-06-27",
-  "notes": "French Revolution / Jacobin Republic draft case has rights-reviewed source registration, two committed Robespierre source-language raw texts, normalized texts, segmentation, MIPVU worklists, and stub analysis artifacts. No reviewed annotations, CMT mappings, support rating, model reliability sample, or human reliability sample exist yet.",
+  "status": "mipvu-review-complete-codex-assisted",
+  "current_stage": "mipvu-review-complete",
+  "updated": "2026-06-28",
+  "notes": "fr-rev expansion corpus has first-pass Codex-assisted MIPVU decisions for all 2 manifest documents and 17,123 lexical units. CMT/Koenigsbergian and downstream analysis artifacts remain provisional until independent review and reliability sampling are complete.",
   "source_language": "fr",
   "annotation_language_policy": "source-with-glosses",
   "documents": {
@@ -12,11 +12,35 @@
     "normalized": 2,
     "segmented": 2,
     "mipvu_worklists": 2,
-    "annotated": 0
+    "annotated": 2
   },
   "limitations": [
     "French source text requires source-language annotation with English glosses only.",
     "Draft stubs must not be treated as support evidence until reviewed annotations and CMT mappings exist.",
     "Reliability sampling for French source text remains to be designed in a later milestone issue."
-  ]
+  ],
+  "mipvu_review_summary": {
+    "review_batch": "fr-rev-expanded-corpus-mipvu-review-v1",
+    "annotator": "codex-assisted-expansion-mipvu-v1",
+    "total_lexical_units": 17123,
+    "by_decision_type": {
+      "mipvu_indirect": 34,
+      "non_metaphor": 17078,
+      "uncertain": 11
+    },
+    "by_document": {
+      "fr-rev-robespierre-political-morality": {
+        "mipvu_indirect": 13,
+        "non_metaphor": 7419,
+        "uncertain": 8
+      },
+      "fr-rev-robespierre-religious-moral-ideas": {
+        "mipvu_indirect": 21,
+        "non_metaphor": 9659,
+        "uncertain": 3
+      }
+    },
+    "pending_units": 0,
+    "quality_summary_path": "quality/mipvu-review-summary.json"
+  }
 }

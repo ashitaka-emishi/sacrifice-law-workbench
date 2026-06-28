@@ -1,0 +1,104 @@
+{
+  "version": "1.0",
+  "case_id": "wwi-britain",
+  "document_id": "wwi-britain-lloyd-george-entry-america",
+  "generated_at": "2026-06-28T10:03:59",
+  "generator": "scripts/generate-annotation-layer.py",
+  "annotation_policy": "CMT and Koenigsbergian annotations derived from MIPVU-reviewed metaphorical and uncertain lexical units. Each instance cites at least one MIPVU ID with decision_type in MIPVU_METAPHOR_OR_UNCERTAIN_DECISIONS.",
+  "instances": [
+    {
+      "instance_id": "wwibritain-ann-018",
+      "case_id": "wwi-britain",
+      "document_id": "wwi-britain-lloyd-george-entry-america",
+      "sentence_id": "wwi-britain-lloyd-george-entry-america_s01_p18_s02",
+      "span_text": "strength",
+      "mipvu_ids": [
+        "wwi-britain-lloyd-george-entry-america_s01_p18_s02_lu027"
+      ],
+      "cmt": {
+        "mapping_id": "wwibritain-cmt-018",
+        "cluster_id": "wwi-britain-01-liberty-autocracy",
+        "source_domain_primary": "person_agency",
+        "source_domain_secondary": [],
+        "target_domain": "nation",
+        "conceptual_metaphor": "NATION IS PERSON AGENCY",
+        "entailments": [
+          "collective resolve or service is framed through body parts, soul, or embodied strength",
+          "National service is understood through embodied agency."
+        ],
+        "confidence": 0.67,
+        "rival_reading": "The phrase applies bodily or inner-life language to collective political commitment.",
+        "justification": "MIPVU review rule 'wwi-embodied-national-service' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
+      },
+      "koenigsberg": {},
+      "meta": {
+        "confidence": 0.67,
+        "ambiguity_flag": false,
+        "suppression_flag": false
+      }
+    },
+    {
+      "instance_id": "wwibritain-ann-019",
+      "case_id": "wwi-britain",
+      "document_id": "wwi-britain-lloyd-george-entry-america",
+      "sentence_id": "wwi-britain-lloyd-george-entry-america_s01_p33_s02",
+      "span_text": "road",
+      "mipvu_ids": [
+        "wwi-britain-lloyd-george-entry-america_s01_p33_s02_lu002"
+      ],
+      "cmt": {
+        "mapping_id": "wwibritain-cmt-019",
+        "cluster_id": "wwi-britain-01-liberty-autocracy",
+        "source_domain_primary": "journey_motion",
+        "source_domain_secondary": [],
+        "target_domain": "military_virtue",
+        "conceptual_metaphor": "MILITARY VIRTUE IS JOURNEY MOTION",
+        "entailments": [
+          "war outcome or moral trajectory is represented through seasonal change or travel",
+          "Victory and moral danger are understood through journey or seasonal transition."
+        ],
+        "confidence": 0.7,
+        "rival_reading": "The political-military process is not literal travel or weather.",
+        "justification": "MIPVU review rule 'wwi-road-season-victory' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
+      },
+      "koenigsberg": {},
+      "meta": {
+        "confidence": 0.7,
+        "ambiguity_flag": false,
+        "suppression_flag": false
+      }
+    },
+    {
+      "instance_id": "wwibritain-ann-020",
+      "case_id": "wwi-britain",
+      "document_id": "wwi-britain-lloyd-george-entry-america",
+      "sentence_id": "wwi-britain-lloyd-george-entry-america_s01_p48_s08",
+      "span_text": "winter / spring",
+      "mipvu_ids": [
+        "wwi-britain-lloyd-george-entry-america_s01_p48_s08_lu010",
+        "wwi-britain-lloyd-george-entry-america_s01_p48_s08_lu022"
+      ],
+      "cmt": {
+        "mapping_id": "wwibritain-cmt-020",
+        "cluster_id": "wwi-britain-01-liberty-autocracy",
+        "source_domain_primary": "journey_motion",
+        "source_domain_secondary": [],
+        "target_domain": "military_virtue",
+        "conceptual_metaphor": "MILITARY VIRTUE IS JOURNEY MOTION",
+        "entailments": [
+          "war outcome or moral trajectory is represented through seasonal change or travel",
+          "Victory and moral danger are understood through journey or seasonal transition."
+        ],
+        "confidence": 0.7,
+        "rival_reading": "The political-military process is not literal travel or weather.",
+        "justification": "MIPVU review rule 'wwi-road-season-victory' marked 2 unit(s) as metaphor-related or uncertain in this sentence."
+      },
+      "koenigsberg": {},
+      "meta": {
+        "confidence": 0.7,
+        "ambiguity_flag": false,
+        "suppression_flag": false
+      }
+    }
+  ]
+}

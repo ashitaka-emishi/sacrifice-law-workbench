@@ -4,7 +4,7 @@
   "document_id": "napoleon-proclamation-army-of-italy-1796-11-11",
   "source_language": "fr",
   "generated_at": "2026-06-28T02:11:40",
-  "status": "worklist",
+  "status": "reviewed",
   "meta": {
     "title": "Proclamation to the Army of Italy, 11 November 1796",
     "short_title": "Army of Italy proclamation",
@@ -21,7 +21,11 @@
       "mort",
       "mourir",
       "sang"
-    ]
+    ],
+    "review_completed_at": "2026-06-28T10:02:07",
+    "review_batch": "napoleon-source-language-mipvu-review-v1",
+    "annotator": "codex-assisted-mipvu-v1",
+    "source_language_decision_basis": "span_text"
   },
   "lexical_units": [
     {
@@ -38,7 +42,15 @@
       "char_offset_end": 4,
       "sentence_char_offset_start": 0,
       "sentence_char_offset_end": 4,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "span_text": "1180",
+      "span_language": "fr",
+      "decision_type": "non_metaphor",
+      "review_batch": "napoleon-source-language-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07",
+      "curated_rule_id": "default-reviewed-non-metaphor",
+      "source_language_decision_basis": "span_text"
     },
     {
       "mipvu_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p01_s01_lu002",
@@ -54,7 +66,15 @@
       "char_offset_end": 20,
       "sentence_char_offset_start": 8,
       "sentence_char_offset_end": 20,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "span_text": "PROCLAMATION",
+      "span_language": "fr",
+      "decision_type": "non_metaphor",
+      "review_batch": "napoleon-source-language-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07",
+      "curated_rule_id": "default-reviewed-non-metaphor",
+      "source_language_decision_basis": "span_text"
     },
     {
       "mipvu_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p02_s01_lu001",
@@ -70,7 +90,15 @@
       "char_offset_end": 31,
       "sentence_char_offset_start": 0,
       "sentence_char_offset_end": 8,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "span_text": "Quartier",
+      "span_language": "fr",
+      "decision_type": "non_metaphor",
+      "review_batch": "napoleon-source-language-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07",
+      "curated_rule_id": "default-reviewed-non-metaphor",
+      "source_language_decision_basis": "span_text"
     },
     {
       "mipvu_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p02_s01_lu002",
@@ -86,7 +114,15 @@
       "char_offset_end": 39,
       "sentence_char_offset_start": 9,
       "sentence_char_offset_end": 16,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "span_text": "général",
+      "span_language": "fr",
+      "decision_type": "non_metaphor",
+      "review_batch": "napoleon-source-language-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07",
+      "curated_rule_id": "default-reviewed-non-metaphor",
+      "source_language_decision_basis": "span_text"
     },
     {
       "mipvu_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p02_s01_lu003",
@@ -102,7 +138,15 @@
       "char_offset_end": 52,
       "sentence_char_offset_start": 18,
       "sentence_char_offset_end": 29,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "span_text": "San-Massimo",
+      "span_language": "fr",
+      "decision_type": "non_metaphor",
+      "review_batch": "napoleon-source-language-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07",
+      "curated_rule_id": "default-reviewed-non-metaphor",
+      "source_language_decision_basis": "span_text"
     },
     {
       "mipvu_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p02_s01_lu004",
@@ -118,7 +162,15 @@
       "char_offset_end": 56,
       "sentence_char_offset_start": 31,
       "sentence_char_offset_end": 33,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "span_text": "21",
+      "span_language": "fr",
+      "decision_type": "non_metaphor",
+      "review_batch": "napoleon-source-language-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07",
+      "curated_rule_id": "default-reviewed-non-metaphor",
+      "source_language_decision_basis": "span_text"
     },
     {
       "mipvu_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p02_s01_lu005",
@@ -134,7 +186,15 @@
       "char_offset_end": 65,
       "sentence_char_offset_start": 34,
       "sentence_char_offset_end": 42,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "span_text": "brumaire",
+      "span_language": "fr",
+      "decision_type": "non_metaphor",
+      "review_batch": "napoleon-source-language-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07",
+      "curated_rule_id": "default-reviewed-non-metaphor",
+      "source_language_decision_basis": "span_text"
     },
     {
       "mipvu_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p02_s01_lu006",
@@ -150,7 +210,15 @@
       "char_offset_end": 68,
       "sentence_char_offset_start": 43,
       "sentence_char_offset_end": 45,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "span_text": "an",
+      "span_language": "fr",
+      "decision_type": "non_metaphor",
+      "review_batch": "napoleon-source-language-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07",
+      "curated_rule_id": "default-reviewed-non-metaphor",
+      "source_language_decision_basis": "span_text"
     },
     {
       "mipvu_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p02_s01_lu007",
@@ -166,7 +234,15 @@
       "char_offset_end": 70,
       "sentence_char_offset_start": 46,
       "sentence_char_offset_end": 47,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "span_text": "V",
+      "span_language": "fr",
+      "decision_type": "non_metaphor",
+      "review_batch": "napoleon-source-language-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07",
+      "curated_rule_id": "default-reviewed-non-metaphor",
+      "source_language_decision_basis": "span_text"
     },
     {
       "mipvu_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p02_s01_lu008",
@@ -182,7 +258,15 @@
       "char_offset_end": 74,
       "sentence_char_offset_start": 49,
       "sentence_char_offset_end": 51,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "span_text": "11",
+      "span_language": "fr",
+      "decision_type": "non_metaphor",
+      "review_batch": "napoleon-source-language-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07",
+      "curated_rule_id": "default-reviewed-non-metaphor",
+      "source_language_decision_basis": "span_text"
     },
     {
       "mipvu_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p02_s01_lu009",
@@ -198,7 +282,15 @@
       "char_offset_end": 83,
       "sentence_char_offset_start": 52,
       "sentence_char_offset_end": 60,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "span_text": "novembre",
+      "span_language": "fr",
+      "decision_type": "non_metaphor",
+      "review_batch": "napoleon-source-language-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07",
+      "curated_rule_id": "default-reviewed-non-metaphor",
+      "source_language_decision_basis": "span_text"
     },
     {
       "mipvu_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p02_s01_lu010",
@@ -214,7 +306,15 @@
       "char_offset_end": 88,
       "sentence_char_offset_start": 61,
       "sentence_char_offset_end": 65,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "span_text": "1796",
+      "span_language": "fr",
+      "decision_type": "non_metaphor",
+      "review_batch": "napoleon-source-language-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07",
+      "curated_rule_id": "default-reviewed-non-metaphor",
+      "source_language_decision_basis": "span_text"
     },
     {
       "mipvu_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p03_s01_lu001",
@@ -230,7 +330,15 @@
       "char_offset_end": 99,
       "sentence_char_offset_start": 0,
       "sentence_char_offset_end": 7,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "span_text": "Soldats",
+      "span_language": "fr",
+      "decision_type": "non_metaphor",
+      "review_batch": "napoleon-source-language-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07",
+      "curated_rule_id": "default-reviewed-non-metaphor",
+      "source_language_decision_basis": "span_text"
     },
     {
       "mipvu_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p04_s01_lu001",
@@ -246,7 +354,15 @@
       "char_offset_end": 110,
       "sentence_char_offset_start": 0,
       "sentence_char_offset_end": 7,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "span_text": "Mantoue",
+      "span_language": "fr",
+      "decision_type": "non_metaphor",
+      "review_batch": "napoleon-source-language-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07",
+      "curated_rule_id": "default-reviewed-non-metaphor",
+      "source_language_decision_basis": "span_text"
     },
     {
       "mipvu_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p04_s01_lu002",
@@ -262,7 +378,15 @@
       "char_offset_end": 114,
       "sentence_char_offset_start": 8,
       "sentence_char_offset_end": 11,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "span_text": "est",
+      "span_language": "fr",
+      "decision_type": "non_metaphor",
+      "review_batch": "napoleon-source-language-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07",
+      "curated_rule_id": "default-reviewed-non-metaphor",
+      "source_language_decision_basis": "span_text"
     },
     {
       "mipvu_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p04_s01_lu003",
@@ -278,7 +402,15 @@
       "char_offset_end": 119,
       "sentence_char_offset_start": 12,
       "sentence_char_offset_end": 16,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "span_text": "sans",
+      "span_language": "fr",
+      "decision_type": "non_metaphor",
+      "review_batch": "napoleon-source-language-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07",
+      "curated_rule_id": "default-reviewed-non-metaphor",
+      "source_language_decision_basis": "span_text"
     },
     {
       "mipvu_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p04_s01_lu004",
@@ -294,7 +426,15 @@
       "char_offset_end": 124,
       "sentence_char_offset_start": 17,
       "sentence_char_offset_end": 21,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "span_text": "pain",
+      "span_language": "fr",
+      "decision_type": "non_metaphor",
+      "review_batch": "napoleon-source-language-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07",
+      "curated_rule_id": "default-reviewed-non-metaphor",
+      "source_language_decision_basis": "span_text"
     },
     {
       "mipvu_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p04_s01_lu005",
@@ -310,7 +450,15 @@
       "char_offset_end": 130,
       "sentence_char_offset_start": 23,
       "sentence_char_offset_end": 27,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "span_text": "sans",
+      "span_language": "fr",
+      "decision_type": "non_metaphor",
+      "review_batch": "napoleon-source-language-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07",
+      "curated_rule_id": "default-reviewed-non-metaphor",
+      "source_language_decision_basis": "span_text"
     },
     {
       "mipvu_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p04_s01_lu006",
@@ -326,7 +474,15 @@
       "char_offset_end": 137,
       "sentence_char_offset_start": 28,
       "sentence_char_offset_end": 34,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "span_text": "viande",
+      "span_language": "fr",
+      "decision_type": "non_metaphor",
+      "review_batch": "napoleon-source-language-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07",
+      "curated_rule_id": "default-reviewed-non-metaphor",
+      "source_language_decision_basis": "span_text"
     },
     {
       "mipvu_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p04_s01_lu007",
@@ -342,7 +498,15 @@
       "char_offset_end": 143,
       "sentence_char_offset_start": 36,
       "sentence_char_offset_end": 40,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "span_text": "sans",
+      "span_language": "fr",
+      "decision_type": "non_metaphor",
+      "review_batch": "napoleon-source-language-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07",
+      "curated_rule_id": "default-reviewed-non-metaphor",
+      "source_language_decision_basis": "span_text"
     },
     {
       "mipvu_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p04_s01_lu008",
@@ -358,7 +522,15 @@
       "char_offset_end": 153,
       "sentence_char_offset_start": 41,
       "sentence_char_offset_end": 50,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "span_text": "fourrages",
+      "span_language": "fr",
+      "decision_type": "non_metaphor",
+      "review_batch": "napoleon-source-language-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07",
+      "curated_rule_id": "default-reviewed-non-metaphor",
+      "source_language_decision_basis": "span_text"
     },
     {
       "mipvu_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p04_s02_lu001",
@@ -374,7 +546,15 @@
       "char_offset_end": 162,
       "sentence_char_offset_start": 0,
       "sentence_char_offset_end": 7,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "span_text": "Wurmser",
+      "span_language": "fr",
+      "decision_type": "non_metaphor",
+      "review_batch": "napoleon-source-language-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07",
+      "curated_rule_id": "default-reviewed-non-metaphor",
+      "source_language_decision_basis": "span_text"
     },
     {
       "mipvu_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p04_s02_lu002",
@@ -390,7 +570,15 @@
       "char_offset_end": 167,
       "sentence_char_offset_start": 9,
       "sentence_char_offset_end": 12,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "span_text": "les",
+      "span_language": "fr",
+      "decision_type": "non_metaphor",
+      "review_batch": "napoleon-source-language-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07",
+      "curated_rule_id": "default-reviewed-non-metaphor",
+      "source_language_decision_basis": "span_text"
     },
     {
       "mipvu_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p04_s02_lu003",
@@ -406,7 +594,15 @@
       "char_offset_end": 174,
       "sentence_char_offset_start": 13,
       "sentence_char_offset_end": 19,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "span_text": "débris",
+      "span_language": "fr",
+      "decision_type": "non_metaphor",
+      "review_batch": "napoleon-source-language-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07",
+      "curated_rule_id": "default-reviewed-non-metaphor",
+      "source_language_decision_basis": "span_text"
     },
     {
       "mipvu_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p04_s02_lu004",
@@ -422,7 +618,15 @@
       "char_offset_end": 177,
       "sentence_char_offset_start": 20,
       "sentence_char_offset_end": 22,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "span_text": "de",
+      "span_language": "fr",
+      "decision_type": "non_metaphor",
+      "review_batch": "napoleon-source-language-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07",
+      "curated_rule_id": "default-reviewed-non-metaphor",
+      "source_language_decision_basis": "span_text"
     },
     {
       "mipvu_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p04_s02_lu005",
@@ -438,7 +642,15 @@
       "char_offset_end": 185,
       "sentence_char_offset_start": 23,
       "sentence_char_offset_end": 30,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "span_text": "l'armée",
+      "span_language": "fr",
+      "decision_type": "non_metaphor",
+      "review_batch": "napoleon-source-language-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07",
+      "curated_rule_id": "default-reviewed-non-metaphor",
+      "source_language_decision_basis": "span_text"
     },
     {
       "mipvu_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p04_s02_lu006",
@@ -454,7 +666,15 @@
       "char_offset_end": 189,
       "sentence_char_offset_start": 31,
       "sentence_char_offset_end": 34,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "span_text": "que",
+      "span_language": "fr",
+      "decision_type": "non_metaphor",
+      "review_batch": "napoleon-source-language-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07",
+      "curated_rule_id": "default-reviewed-non-metaphor",
+      "source_language_decision_basis": "span_text"
     },
     {
       "mipvu_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p04_s02_lu007",
@@ -470,7 +690,15 @@
       "char_offset_end": 194,
       "sentence_char_offset_start": 35,
       "sentence_char_offset_end": 39,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "span_text": "vous",
+      "span_language": "fr",
+      "decision_type": "non_metaphor",
+      "review_batch": "napoleon-source-language-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07",
+      "curated_rule_id": "default-reviewed-non-metaphor",
+      "source_language_decision_basis": "span_text"
     },
     {
       "mipvu_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p04_s02_lu008",
@@ -486,7 +714,15 @@
       "char_offset_end": 199,
       "sentence_char_offset_start": 40,
       "sentence_char_offset_end": 44,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "span_text": "avez",
+      "span_language": "fr",
+      "decision_type": "non_metaphor",
+      "review_batch": "napoleon-source-language-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07",
+      "curated_rule_id": "default-reviewed-non-metaphor",
+      "source_language_decision_basis": "span_text"
     },
     {
       "mipvu_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p04_s02_lu009",
@@ -502,7 +738,15 @@
       "char_offset_end": 208,
       "sentence_char_offset_start": 45,
       "sentence_char_offset_end": 53,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "span_text": "détruite",
+      "span_language": "fr",
+      "decision_type": "non_metaphor",
+      "review_batch": "napoleon-source-language-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07",
+      "curated_rule_id": "default-reviewed-non-metaphor",
+      "source_language_decision_basis": "span_text"
     },
     {
       "mipvu_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p04_s02_lu010",
@@ -518,7 +762,15 @@
       "char_offset_end": 210,
       "sentence_char_offset_start": 54,
       "sentence_char_offset_end": 55,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "span_text": "à",
+      "span_language": "fr",
+      "decision_type": "non_metaphor",
+      "review_batch": "napoleon-source-language-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07",
+      "curated_rule_id": "default-reviewed-non-metaphor",
+      "source_language_decision_basis": "span_text"
     },
     {
       "mipvu_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p04_s02_lu011",
@@ -534,7 +786,15 @@
       "char_offset_end": 218,
       "sentence_char_offset_start": 56,
       "sentence_char_offset_end": 63,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "span_text": "Bormida",
+      "span_language": "fr",
+      "decision_type": "non_metaphor",
+      "review_batch": "napoleon-source-language-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07",
+      "curated_rule_id": "default-reviewed-non-metaphor",
+      "source_language_decision_basis": "span_text"
     },
     {
       "mipvu_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p04_s02_lu012",
@@ -550,7 +810,15 @@
       "char_offset_end": 221,
       "sentence_char_offset_start": 65,
       "sentence_char_offset_end": 66,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "span_text": "à",
+      "span_language": "fr",
+      "decision_type": "non_metaphor",
+      "review_batch": "napoleon-source-language-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07",
+      "curated_rule_id": "default-reviewed-non-metaphor",
+      "source_language_decision_basis": "span_text"
     },
     {
       "mipvu_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p04_s02_lu013",
@@ -566,7 +834,15 @@
       "char_offset_end": 229,
       "sentence_char_offset_start": 67,
       "sentence_char_offset_end": 74,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "span_text": "Bassano",
+      "span_language": "fr",
+      "decision_type": "non_metaphor",
+      "review_batch": "napoleon-source-language-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07",
+      "curated_rule_id": "default-reviewed-non-metaphor",
+      "source_language_decision_basis": "span_text"
     },
     {
       "mipvu_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p04_s02_lu014",
@@ -582,7 +858,15 @@
       "char_offset_end": 232,
       "sentence_char_offset_start": 76,
       "sentence_char_offset_end": 77,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "span_text": "à",
+      "span_language": "fr",
+      "decision_type": "non_metaphor",
+      "review_batch": "napoleon-source-language-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07",
+      "curated_rule_id": "default-reviewed-non-metaphor",
+      "source_language_decision_basis": "span_text"
     },
     {
       "mipvu_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p04_s02_lu015",
@@ -598,7 +882,15 @@
       "char_offset_end": 246,
       "sentence_char_offset_start": 78,
       "sentence_char_offset_end": 91,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "span_text": "Saint-Georges",
+      "span_language": "fr",
+      "decision_type": "non_metaphor",
+      "review_batch": "napoleon-source-language-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07",
+      "curated_rule_id": "default-reviewed-non-metaphor",
+      "source_language_decision_basis": "span_text"
     },
     {
       "mipvu_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p04_s02_lu016",
@@ -614,7 +906,15 @@
       "char_offset_end": 249,
       "sentence_char_offset_start": 93,
       "sentence_char_offset_end": 94,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "span_text": "à",
+      "span_language": "fr",
+      "decision_type": "non_metaphor",
+      "review_batch": "napoleon-source-language-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07",
+      "curated_rule_id": "default-reviewed-non-metaphor",
+      "source_language_decision_basis": "span_text"
     },
     {
       "mipvu_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p04_s02_lu017",
@@ -630,7 +930,15 @@
       "char_offset_end": 259,
       "sentence_char_offset_start": 95,
       "sentence_char_offset_end": 104,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "span_text": "Governolo",
+      "span_language": "fr",
+      "decision_type": "non_metaphor",
+      "review_batch": "napoleon-source-language-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07",
+      "curated_rule_id": "default-reviewed-non-metaphor",
+      "source_language_decision_basis": "span_text"
     },
     {
       "mipvu_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p04_s02_lu018",
@@ -646,7 +954,15 @@
       "char_offset_end": 265,
       "sentence_char_offset_start": 106,
       "sentence_char_offset_end": 110,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "span_text": "sont",
+      "span_language": "fr",
+      "decision_type": "non_metaphor",
+      "review_batch": "napoleon-source-language-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07",
+      "curated_rule_id": "default-reviewed-non-metaphor",
+      "source_language_decision_basis": "span_text"
     },
     {
       "mipvu_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p04_s02_lu019",
@@ -662,7 +978,15 @@
       "char_offset_end": 271,
       "sentence_char_offset_start": 111,
       "sentence_char_offset_end": 116,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "span_text": "prêts",
+      "span_language": "fr",
+      "decision_type": "non_metaphor",
+      "review_batch": "napoleon-source-language-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07",
+      "curated_rule_id": "default-reviewed-non-metaphor",
+      "source_language_decision_basis": "span_text"
     },
     {
       "mipvu_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p04_s02_lu020",
@@ -678,7 +1002,15 @@
       "char_offset_end": 273,
       "sentence_char_offset_start": 117,
       "sentence_char_offset_end": 118,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "span_text": "à",
+      "span_language": "fr",
+      "decision_type": "non_metaphor",
+      "review_batch": "napoleon-source-language-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07",
+      "curated_rule_id": "default-reviewed-non-metaphor",
+      "source_language_decision_basis": "span_text"
     },
     {
       "mipvu_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p04_s02_lu021",
@@ -694,7 +1026,15 @@
       "char_offset_end": 280,
       "sentence_char_offset_start": 119,
       "sentence_char_offset_end": 125,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "span_text": "tomber",
+      "span_language": "fr",
+      "decision_type": "non_metaphor",
+      "review_batch": "napoleon-source-language-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07",
+      "curated_rule_id": "default-reviewed-non-metaphor",
+      "source_language_decision_basis": "span_text"
     },
     {
       "mipvu_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p04_s02_lu022",
@@ -710,7 +1050,15 @@
       "char_offset_end": 283,
       "sentence_char_offset_start": 126,
       "sentence_char_offset_end": 128,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "span_text": "en",
+      "span_language": "fr",
+      "decision_type": "non_metaphor",
+      "review_batch": "napoleon-source-language-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07",
+      "curated_rule_id": "default-reviewed-non-metaphor",
+      "source_language_decision_basis": "span_text"
     },
     {
       "mipvu_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p04_s02_lu023",
@@ -726,7 +1074,15 @@
       "char_offset_end": 289,
       "sentence_char_offset_start": 129,
       "sentence_char_offset_end": 134,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "span_text": "votre",
+      "span_language": "fr",
+      "decision_type": "non_metaphor",
+      "review_batch": "napoleon-source-language-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07",
+      "curated_rule_id": "default-reviewed-non-metaphor",
+      "source_language_decision_basis": "span_text"
     },
     {
       "mipvu_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p04_s02_lu024",
@@ -742,7 +1098,15 @@
       "char_offset_end": 297,
       "sentence_char_offset_start": 135,
       "sentence_char_offset_end": 142,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "span_text": "pouvoir",
+      "span_language": "fr",
+      "decision_type": "non_metaphor",
+      "review_batch": "napoleon-source-language-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07",
+      "curated_rule_id": "default-reviewed-non-metaphor",
+      "source_language_decision_basis": "span_text"
     },
     {
       "mipvu_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p05_s01_lu001",
@@ -758,7 +1122,15 @@
       "char_offset_end": 302,
       "sentence_char_offset_start": 0,
       "sentence_char_offset_end": 2,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "span_text": "La",
+      "span_language": "fr",
+      "decision_type": "non_metaphor",
+      "review_batch": "napoleon-source-language-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07",
+      "curated_rule_id": "default-reviewed-non-metaphor",
+      "source_language_decision_basis": "span_text"
     },
     {
       "mipvu_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p05_s01_lu002",
@@ -774,7 +1146,15 @@
       "char_offset_end": 310,
       "sentence_char_offset_start": 3,
       "sentence_char_offset_end": 10,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "span_text": "liberté",
+      "span_language": "fr",
+      "decision_type": "non_metaphor",
+      "review_batch": "napoleon-source-language-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07",
+      "curated_rule_id": "default-reviewed-non-metaphor",
+      "source_language_decision_basis": "span_text"
     },
     {
       "mipvu_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p05_s01_lu003",
@@ -790,7 +1170,15 @@
       "char_offset_end": 313,
       "sentence_char_offset_start": 11,
       "sentence_char_offset_end": 13,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "span_text": "de",
+      "span_language": "fr",
+      "decision_type": "non_metaphor",
+      "review_batch": "napoleon-source-language-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07",
+      "curated_rule_id": "default-reviewed-non-metaphor",
+      "source_language_decision_basis": "span_text"
     },
     {
       "mipvu_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p05_s01_lu004",
@@ -806,7 +1194,15 @@
       "char_offset_end": 322,
       "sentence_char_offset_start": 14,
       "sentence_char_offset_end": 22,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "span_text": "l'Italie",
+      "span_language": "fr",
+      "decision_type": "non_metaphor",
+      "review_batch": "napoleon-source-language-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07",
+      "curated_rule_id": "default-reviewed-non-metaphor",
+      "source_language_decision_basis": "span_text"
     },
     {
       "mipvu_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p05_s01_lu005",
@@ -822,7 +1218,15 @@
       "char_offset_end": 326,
       "sentence_char_offset_start": 24,
       "sentence_char_offset_end": 26,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "span_text": "le",
+      "span_language": "fr",
+      "decision_type": "non_metaphor",
+      "review_batch": "napoleon-source-language-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07",
+      "curated_rule_id": "default-reviewed-non-metaphor",
+      "source_language_decision_basis": "span_text"
     },
     {
       "mipvu_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p05_s01_lu006",
@@ -838,7 +1242,15 @@
       "char_offset_end": 334,
       "sentence_char_offset_start": 27,
       "sentence_char_offset_end": 34,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "span_text": "bonheur",
+      "span_language": "fr",
+      "decision_type": "non_metaphor",
+      "review_batch": "napoleon-source-language-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07",
+      "curated_rule_id": "default-reviewed-non-metaphor",
+      "source_language_decision_basis": "span_text"
     },
     {
       "mipvu_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p05_s01_lu007",
@@ -854,7 +1266,15 @@
       "char_offset_end": 337,
       "sentence_char_offset_start": 35,
       "sentence_char_offset_end": 37,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "span_text": "de",
+      "span_language": "fr",
+      "decision_type": "non_metaphor",
+      "review_batch": "napoleon-source-language-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07",
+      "curated_rule_id": "default-reviewed-non-metaphor",
+      "source_language_decision_basis": "span_text"
     },
     {
       "mipvu_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p05_s01_lu008",
@@ -870,7 +1290,15 @@
       "char_offset_end": 340,
       "sentence_char_offset_start": 38,
       "sentence_char_offset_end": 40,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "span_text": "la",
+      "span_language": "fr",
+      "decision_type": "non_metaphor",
+      "review_batch": "napoleon-source-language-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07",
+      "curated_rule_id": "default-reviewed-non-metaphor",
+      "source_language_decision_basis": "span_text"
     },
     {
       "mipvu_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p05_s01_lu009",
@@ -886,7 +1314,15 @@
       "char_offset_end": 347,
       "sentence_char_offset_start": 41,
       "sentence_char_offset_end": 47,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "span_text": "France",
+      "span_language": "fr",
+      "decision_type": "non_metaphor",
+      "review_batch": "napoleon-source-language-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07",
+      "curated_rule_id": "default-reviewed-non-metaphor",
+      "source_language_decision_basis": "span_text"
     },
     {
       "mipvu_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p05_s01_lu010",
@@ -902,7 +1338,15 @@
       "char_offset_end": 356,
       "sentence_char_offset_start": 48,
       "sentence_char_offset_end": 56,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "span_text": "reposent",
+      "span_language": "fr",
+      "decision_type": "non_metaphor",
+      "review_batch": "napoleon-source-language-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07",
+      "curated_rule_id": "default-reviewed-non-metaphor",
+      "source_language_decision_basis": "span_text"
     },
     {
       "mipvu_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p05_s01_lu011",
@@ -918,7 +1362,15 @@
       "char_offset_end": 361,
       "sentence_char_offset_start": 57,
       "sentence_char_offset_end": 61,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "span_text": "dans",
+      "span_language": "fr",
+      "decision_type": "non_metaphor",
+      "review_batch": "napoleon-source-language-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07",
+      "curated_rule_id": "default-reviewed-non-metaphor",
+      "source_language_decision_basis": "span_text"
     },
     {
       "mipvu_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p05_s01_lu012",
@@ -934,7 +1386,15 @@
       "char_offset_end": 367,
       "sentence_char_offset_start": 62,
       "sentence_char_offset_end": 67,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "span_text": "votre",
+      "span_language": "fr",
+      "decision_type": "non_metaphor",
+      "review_batch": "napoleon-source-language-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07",
+      "curated_rule_id": "default-reviewed-non-metaphor",
+      "source_language_decision_basis": "span_text"
     },
     {
       "mipvu_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p05_s01_lu013",
@@ -950,7 +1410,15 @@
       "char_offset_end": 375,
       "sentence_char_offset_start": 68,
       "sentence_char_offset_end": 75,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "span_text": "courage",
+      "span_language": "fr",
+      "decision_type": "non_metaphor",
+      "review_batch": "napoleon-source-language-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07",
+      "curated_rule_id": "default-reviewed-non-metaphor",
+      "source_language_decision_basis": "span_text"
     },
     {
       "mipvu_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p06_s01_lu001",
@@ -966,7 +1434,15 @@
       "char_offset_end": 380,
       "sentence_char_offset_start": 0,
       "sentence_char_offset_end": 2,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "span_text": "Un",
+      "span_language": "fr",
+      "decision_type": "non_metaphor",
+      "review_batch": "napoleon-source-language-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07",
+      "curated_rule_id": "default-reviewed-non-metaphor",
+      "source_language_decision_basis": "span_text"
     },
     {
       "mipvu_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p06_s01_lu002",
@@ -982,7 +1458,15 @@
       "char_offset_end": 389,
       "sentence_char_offset_start": 3,
       "sentence_char_offset_end": 11,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "span_text": "ramassis",
+      "span_language": "fr",
+      "decision_type": "non_metaphor",
+      "review_batch": "napoleon-source-language-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07",
+      "curated_rule_id": "default-reviewed-non-metaphor",
+      "source_language_decision_basis": "span_text"
     },
     {
       "mipvu_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p06_s01_lu003",
@@ -998,7 +1482,15 @@
       "char_offset_end": 392,
       "sentence_char_offset_start": 12,
       "sentence_char_offset_end": 14,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "span_text": "de",
+      "span_language": "fr",
+      "decision_type": "non_metaphor",
+      "review_batch": "napoleon-source-language-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07",
+      "curated_rule_id": "default-reviewed-non-metaphor",
+      "source_language_decision_basis": "span_text"
     },
     {
       "mipvu_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p06_s01_lu004",
@@ -1014,7 +1506,15 @@
       "char_offset_end": 400,
       "sentence_char_offset_start": 15,
       "sentence_char_offset_end": 22,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "span_text": "fuyards",
+      "span_language": "fr",
+      "decision_type": "non_metaphor",
+      "review_batch": "napoleon-source-language-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07",
+      "curated_rule_id": "default-reviewed-non-metaphor",
+      "source_language_decision_basis": "span_text"
     },
     {
       "mipvu_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p06_s01_lu005",
@@ -1030,7 +1530,15 @@
       "char_offset_end": 411,
       "sentence_char_offset_start": 24,
       "sentence_char_offset_end": 33,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "span_text": "renforcés",
+      "span_language": "fr",
+      "decision_type": "non_metaphor",
+      "review_batch": "napoleon-source-language-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07",
+      "curated_rule_id": "default-reviewed-non-metaphor",
+      "source_language_decision_basis": "span_text"
     },
     {
       "mipvu_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p06_s01_lu006",
@@ -1046,7 +1554,15 @@
       "char_offset_end": 415,
       "sentence_char_offset_start": 34,
       "sentence_char_offset_end": 37,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "span_text": "par",
+      "span_language": "fr",
+      "decision_type": "non_metaphor",
+      "review_batch": "napoleon-source-language-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07",
+      "curated_rule_id": "default-reviewed-non-metaphor",
+      "source_language_decision_basis": "span_text"
     },
     {
       "mipvu_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p06_s01_lu007",
@@ -1062,7 +1578,15 @@
       "char_offset_end": 418,
       "sentence_char_offset_start": 38,
       "sentence_char_offset_end": 40,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "span_text": "la",
+      "span_language": "fr",
+      "decision_type": "non_metaphor",
+      "review_batch": "napoleon-source-language-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07",
+      "curated_rule_id": "default-reviewed-non-metaphor",
+      "source_language_decision_basis": "span_text"
     },
     {
       "mipvu_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p06_s01_lu008",
@@ -1078,7 +1602,15 @@
       "char_offset_end": 427,
       "sentence_char_offset_start": 41,
       "sentence_char_offset_end": 49,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "span_text": "dernière",
+      "span_language": "fr",
+      "decision_type": "non_metaphor",
+      "review_batch": "napoleon-source-language-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07",
+      "curated_rule_id": "default-reviewed-non-metaphor",
+      "source_language_decision_basis": "span_text"
     },
     {
       "mipvu_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p06_s01_lu009",
@@ -1094,7 +1626,15 @@
       "char_offset_end": 435,
       "sentence_char_offset_start": 50,
       "sentence_char_offset_end": 57,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "span_text": "réserve",
+      "span_language": "fr",
+      "decision_type": "non_metaphor",
+      "review_batch": "napoleon-source-language-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07",
+      "curated_rule_id": "default-reviewed-non-metaphor",
+      "source_language_decision_basis": "span_text"
     },
     {
       "mipvu_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p06_s01_lu010",
@@ -1110,7 +1650,15 @@
       "char_offset_end": 438,
       "sentence_char_offset_start": 58,
       "sentence_char_offset_end": 60,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "span_text": "de",
+      "span_language": "fr",
+      "decision_type": "non_metaphor",
+      "review_batch": "napoleon-source-language-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07",
+      "curated_rule_id": "default-reviewed-non-metaphor",
+      "source_language_decision_basis": "span_text"
     },
     {
       "mipvu_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p06_s01_lu011",
@@ -1126,7 +1674,15 @@
       "char_offset_end": 449,
       "sentence_char_offset_start": 61,
       "sentence_char_offset_end": 71,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "span_text": "l'Empereur",
+      "span_language": "fr",
+      "decision_type": "non_metaphor",
+      "review_batch": "napoleon-source-language-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07",
+      "curated_rule_id": "default-reviewed-non-metaphor",
+      "source_language_decision_basis": "span_text"
     },
     {
       "mipvu_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p06_s01_lu012",
@@ -1142,7 +1698,15 @@
       "char_offset_end": 456,
       "sentence_char_offset_start": 73,
       "sentence_char_offset_end": 78,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "span_text": "osent",
+      "span_language": "fr",
+      "decision_type": "non_metaphor",
+      "review_batch": "napoleon-source-language-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07",
+      "curated_rule_id": "default-reviewed-non-metaphor",
+      "source_language_decision_basis": "span_text"
     },
     {
       "mipvu_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p06_s01_lu013",
@@ -1158,7 +1722,15 @@
       "char_offset_end": 463,
       "sentence_char_offset_start": 79,
       "sentence_char_offset_end": 85,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "span_text": "encore",
+      "span_language": "fr",
+      "decision_type": "non_metaphor",
+      "review_batch": "napoleon-source-language-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07",
+      "curated_rule_id": "default-reviewed-non-metaphor",
+      "source_language_decision_basis": "span_text"
     },
     {
       "mipvu_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p06_s01_lu014",
@@ -1174,7 +1746,15 @@
       "char_offset_end": 466,
       "sentence_char_offset_start": 86,
       "sentence_char_offset_end": 88,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "span_text": "se",
+      "span_language": "fr",
+      "decision_type": "non_metaphor",
+      "review_batch": "napoleon-source-language-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07",
+      "curated_rule_id": "default-reviewed-non-metaphor",
+      "source_language_decision_basis": "span_text"
     },
     {
       "mipvu_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p06_s01_lu015",
@@ -1190,7 +1770,15 @@
       "char_offset_end": 476,
       "sentence_char_offset_start": 89,
       "sentence_char_offset_end": 98,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "span_text": "présenter",
+      "span_language": "fr",
+      "decision_type": "non_metaphor",
+      "review_batch": "napoleon-source-language-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07",
+      "curated_rule_id": "default-reviewed-non-metaphor",
+      "source_language_decision_basis": "span_text"
     },
     {
       "mipvu_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p06_s01_lu016",
@@ -1206,7 +1794,15 @@
       "char_offset_end": 483,
       "sentence_char_offset_start": 99,
       "sentence_char_offset_end": 105,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "span_text": "devant",
+      "span_language": "fr",
+      "decision_type": "non_metaphor",
+      "review_batch": "napoleon-source-language-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07",
+      "curated_rule_id": "default-reviewed-non-metaphor",
+      "source_language_decision_basis": "span_text"
     },
     {
       "mipvu_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p06_s01_lu017",
@@ -1222,7 +1818,15 @@
       "char_offset_end": 488,
       "sentence_char_offset_start": 106,
       "sentence_char_offset_end": 110,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "span_text": "vous",
+      "span_language": "fr",
+      "decision_type": "non_metaphor",
+      "review_batch": "napoleon-source-language-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07",
+      "curated_rule_id": "default-reviewed-non-metaphor",
+      "source_language_decision_basis": "span_text"
     },
     {
       "mipvu_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p06_s02_lu001",
@@ -1238,7 +1842,15 @@
       "char_offset_end": 493,
       "sentence_char_offset_start": 0,
       "sentence_char_offset_end": 3,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "span_text": "Ils",
+      "span_language": "fr",
+      "decision_type": "non_metaphor",
+      "review_batch": "napoleon-source-language-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07",
+      "curated_rule_id": "default-reviewed-non-metaphor",
+      "source_language_decision_basis": "span_text"
     },
     {
       "mipvu_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p06_s02_lu002",
@@ -1254,7 +1866,15 @@
       "char_offset_end": 504,
       "sentence_char_offset_start": 4,
       "sentence_char_offset_end": 14,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "span_text": "prétendent",
+      "span_language": "fr",
+      "decision_type": "non_metaphor",
+      "review_batch": "napoleon-source-language-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07",
+      "curated_rule_id": "default-reviewed-non-metaphor",
+      "source_language_decision_basis": "span_text"
     },
     {
       "mipvu_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p06_s02_lu003",
@@ -1270,7 +1890,15 @@
       "char_offset_end": 509,
       "sentence_char_offset_start": 15,
       "sentence_char_offset_end": 19,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "span_text": "vous",
+      "span_language": "fr",
+      "decision_type": "non_metaphor",
+      "review_batch": "napoleon-source-language-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07",
+      "curated_rule_id": "default-reviewed-non-metaphor",
+      "source_language_decision_basis": "span_text"
     },
     {
       "mipvu_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p06_s02_lu004",
@@ -1286,7 +1914,15 @@
       "char_offset_end": 518,
       "sentence_char_offset_start": 20,
       "sentence_char_offset_end": 28,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "span_text": "arracher",
+      "span_language": "fr",
+      "decision_type": "non_metaphor",
+      "review_batch": "napoleon-source-language-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07",
+      "curated_rule_id": "default-reviewed-non-metaphor",
+      "source_language_decision_basis": "span_text"
     },
     {
       "mipvu_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p06_s02_lu005",
@@ -1302,7 +1938,15 @@
       "char_offset_end": 521,
       "sentence_char_offset_start": 29,
       "sentence_char_offset_end": 31,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "span_text": "le",
+      "span_language": "fr",
+      "decision_type": "non_metaphor",
+      "review_batch": "napoleon-source-language-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07",
+      "curated_rule_id": "default-reviewed-non-metaphor",
+      "source_language_decision_basis": "span_text"
     },
     {
       "mipvu_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p06_s02_lu006",
@@ -1318,7 +1962,15 @@
       "char_offset_end": 527,
       "sentence_char_offset_start": 32,
       "sentence_char_offset_end": 37,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "span_text": "fruit",
+      "span_language": "fr",
+      "decision_type": "non_metaphor",
+      "review_batch": "napoleon-source-language-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07",
+      "curated_rule_id": "default-reviewed-non-metaphor",
+      "source_language_decision_basis": "span_text"
     },
     {
       "mipvu_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p06_s02_lu007",
@@ -1334,7 +1986,15 @@
       "char_offset_end": 530,
       "sentence_char_offset_start": 38,
       "sentence_char_offset_end": 40,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "span_text": "de",
+      "span_language": "fr",
+      "decision_type": "non_metaphor",
+      "review_batch": "napoleon-source-language-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07",
+      "curated_rule_id": "default-reviewed-non-metaphor",
+      "source_language_decision_basis": "span_text"
     },
     {
       "mipvu_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p06_s02_lu008",
@@ -1350,7 +2010,15 @@
       "char_offset_end": 534,
       "sentence_char_offset_start": 41,
       "sentence_char_offset_end": 44,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "span_text": "six",
+      "span_language": "fr",
+      "decision_type": "non_metaphor",
+      "review_batch": "napoleon-source-language-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07",
+      "curated_rule_id": "default-reviewed-non-metaphor",
+      "source_language_decision_basis": "span_text"
     },
     {
       "mipvu_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p06_s02_lu009",
@@ -1366,7 +2034,15 @@
       "char_offset_end": 539,
       "sentence_char_offset_start": 45,
       "sentence_char_offset_end": 49,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "span_text": "mois",
+      "span_language": "fr",
+      "decision_type": "non_metaphor",
+      "review_batch": "napoleon-source-language-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07",
+      "curated_rule_id": "default-reviewed-non-metaphor",
+      "source_language_decision_basis": "span_text"
     },
     {
       "mipvu_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p06_s02_lu010",
@@ -1382,7 +2058,15 @@
       "char_offset_end": 542,
       "sentence_char_offset_start": 50,
       "sentence_char_offset_end": 52,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "span_text": "de",
+      "span_language": "fr",
+      "decision_type": "non_metaphor",
+      "review_batch": "napoleon-source-language-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07",
+      "curated_rule_id": "default-reviewed-non-metaphor",
+      "source_language_decision_basis": "span_text"
     },
     {
       "mipvu_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p06_s02_lu011",
@@ -1398,7 +2082,17 @@
       "char_offset_end": 552,
       "sentence_char_offset_start": 53,
       "sentence_char_offset_end": 62,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "span_text": "victoires",
+      "span_language": "fr",
+      "decision_type": "non_metaphor",
+      "review_batch": "napoleon-source-language-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07",
+      "curated_rule_id": "default-reviewed-non-metaphor",
+      "source_language_decision_basis": "span_text",
+      "gloss_en": "victories",
+      "gloss_notes": "French `victoires` may function as counted military events or accumulated imperial glory."
     },
     {
       "mipvu_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p07_s01_lu001",
@@ -1414,7 +2108,15 @@
       "char_offset_end": 558,
       "sentence_char_offset_start": 0,
       "sentence_char_offset_end": 3,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "span_text": "Les",
+      "span_language": "fr",
+      "decision_type": "non_metaphor",
+      "review_batch": "napoleon-source-language-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07",
+      "curated_rule_id": "default-reviewed-non-metaphor",
+      "source_language_decision_basis": "span_text"
     },
     {
       "mipvu_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p07_s01_lu002",
@@ -1430,7 +2132,15 @@
       "char_offset_end": 567,
       "sentence_char_offset_start": 4,
       "sentence_char_offset_end": 12,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "span_text": "généraux",
+      "span_language": "fr",
+      "decision_type": "non_metaphor",
+      "review_batch": "napoleon-source-language-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07",
+      "curated_rule_id": "default-reviewed-non-metaphor",
+      "source_language_decision_basis": "span_text"
     },
     {
       "mipvu_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p07_s01_lu003",
@@ -1446,7 +2156,15 @@
       "char_offset_end": 574,
       "sentence_char_offset_start": 13,
       "sentence_char_offset_end": 19,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "span_text": "feront",
+      "span_language": "fr",
+      "decision_type": "non_metaphor",
+      "review_batch": "napoleon-source-language-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07",
+      "curated_rule_id": "default-reviewed-non-metaphor",
+      "source_language_decision_basis": "span_text"
     },
     {
       "mipvu_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p07_s01_lu004",
@@ -1462,7 +2180,15 @@
       "char_offset_end": 579,
       "sentence_char_offset_start": 20,
       "sentence_char_offset_end": 24,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "span_text": "leur",
+      "span_language": "fr",
+      "decision_type": "non_metaphor",
+      "review_batch": "napoleon-source-language-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07",
+      "curated_rule_id": "default-reviewed-non-metaphor",
+      "source_language_decision_basis": "span_text"
     },
     {
       "mipvu_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p07_s01_lu005",
@@ -1478,7 +2204,15 @@
       "char_offset_end": 586,
       "sentence_char_offset_start": 25,
       "sentence_char_offset_end": 31,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "span_text": "devoir",
+      "span_language": "fr",
+      "decision_type": "non_metaphor",
+      "review_batch": "napoleon-source-language-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07",
+      "curated_rule_id": "default-reviewed-non-metaphor",
+      "source_language_decision_basis": "span_text"
     },
     {
       "mipvu_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p07_s01_lu006",
@@ -1494,7 +2228,15 @@
       "char_offset_end": 592,
       "sentence_char_offset_start": 34,
       "sentence_char_offset_end": 37,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "span_text": "ils",
+      "span_language": "fr",
+      "decision_type": "non_metaphor",
+      "review_batch": "napoleon-source-language-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07",
+      "curated_rule_id": "default-reviewed-non-metaphor",
+      "source_language_decision_basis": "span_text"
     },
     {
       "mipvu_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p07_s01_lu007",
@@ -1510,7 +2252,15 @@
       "char_offset_end": 597,
       "sentence_char_offset_start": 38,
       "sentence_char_offset_end": 42,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "span_text": "vont",
+      "span_language": "fr",
+      "decision_type": "non_metaphor",
+      "review_batch": "napoleon-source-language-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07",
+      "curated_rule_id": "default-reviewed-non-metaphor",
+      "source_language_decision_basis": "span_text"
     },
     {
       "mipvu_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p07_s01_lu008",
@@ -1526,7 +2276,15 @@
       "char_offset_end": 602,
       "sentence_char_offset_start": 43,
       "sentence_char_offset_end": 47,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "span_text": "tous",
+      "span_language": "fr",
+      "decision_type": "non_metaphor",
+      "review_batch": "napoleon-source-language-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07",
+      "curated_rule_id": "default-reviewed-non-metaphor",
+      "source_language_decision_basis": "span_text"
     },
     {
       "mipvu_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p07_s01_lu009",
@@ -1542,7 +2300,15 @@
       "char_offset_end": 609,
       "sentence_char_offset_start": 48,
       "sentence_char_offset_end": 54,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "span_text": "fondre",
+      "span_language": "fr",
+      "decision_type": "non_metaphor",
+      "review_batch": "napoleon-source-language-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07",
+      "curated_rule_id": "default-reviewed-non-metaphor",
+      "source_language_decision_basis": "span_text"
     },
     {
       "mipvu_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p07_s01_lu010",
@@ -1558,7 +2324,15 @@
       "char_offset_end": 613,
       "sentence_char_offset_start": 55,
       "sentence_char_offset_end": 58,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "span_text": "sur",
+      "span_language": "fr",
+      "decision_type": "non_metaphor",
+      "review_batch": "napoleon-source-language-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07",
+      "curated_rule_id": "default-reviewed-non-metaphor",
+      "source_language_decision_basis": "span_text"
     },
     {
       "mipvu_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p07_s01_lu011",
@@ -1574,7 +2348,15 @@
       "char_offset_end": 622,
       "sentence_char_offset_start": 59,
       "sentence_char_offset_end": 67,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "span_text": "l'ennemi",
+      "span_language": "fr",
+      "decision_type": "non_metaphor",
+      "review_batch": "napoleon-source-language-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07",
+      "curated_rule_id": "default-reviewed-non-metaphor",
+      "source_language_decision_basis": "span_text"
     },
     {
       "mipvu_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p07_s01_lu012",
@@ -1590,7 +2372,15 @@
       "char_offset_end": 631,
       "sentence_char_offset_start": 70,
       "sentence_char_offset_end": 76,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "span_text": "tantôt",
+      "span_language": "fr",
+      "decision_type": "non_metaphor",
+      "review_batch": "napoleon-source-language-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07",
+      "curated_rule_id": "default-reviewed-non-metaphor",
+      "source_language_decision_basis": "span_text"
     },
     {
       "mipvu_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p07_s01_lu013",
@@ -1606,7 +2396,15 @@
       "char_offset_end": 635,
       "sentence_char_offset_start": 77,
       "sentence_char_offset_end": 80,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "span_text": "ils",
+      "span_language": "fr",
+      "decision_type": "non_metaphor",
+      "review_batch": "napoleon-source-language-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07",
+      "curated_rule_id": "default-reviewed-non-metaphor",
+      "source_language_decision_basis": "span_text"
     },
     {
       "mipvu_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p07_s01_lu014",
@@ -1622,7 +2420,15 @@
       "char_offset_end": 640,
       "sentence_char_offset_start": 81,
       "sentence_char_offset_end": 85,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "span_text": "vous",
+      "span_language": "fr",
+      "decision_type": "non_metaphor",
+      "review_batch": "napoleon-source-language-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07",
+      "curated_rule_id": "default-reviewed-non-metaphor",
+      "source_language_decision_basis": "span_text"
     },
     {
       "mipvu_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p07_s01_lu015",
@@ -1638,7 +2444,15 @@
       "char_offset_end": 649,
       "sentence_char_offset_start": 86,
       "sentence_char_offset_end": 94,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "span_text": "mèneront",
+      "span_language": "fr",
+      "decision_type": "non_metaphor",
+      "review_batch": "napoleon-source-language-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07",
+      "curated_rule_id": "default-reviewed-non-metaphor",
+      "source_language_decision_basis": "span_text"
     },
     {
       "mipvu_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p07_s01_lu016",
@@ -1654,7 +2468,15 @@
       "char_offset_end": 652,
       "sentence_char_offset_start": 95,
       "sentence_char_offset_end": 97,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "span_text": "en",
+      "span_language": "fr",
+      "decision_type": "non_metaphor",
+      "review_batch": "napoleon-source-language-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07",
+      "curated_rule_id": "default-reviewed-non-metaphor",
+      "source_language_decision_basis": "span_text"
     },
     {
       "mipvu_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p07_s01_lu017",
@@ -1670,7 +2492,15 @@
       "char_offset_end": 658,
       "sentence_char_offset_start": 98,
       "sentence_char_offset_end": 103,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "span_text": "avant",
+      "span_language": "fr",
+      "decision_type": "non_metaphor",
+      "review_batch": "napoleon-source-language-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07",
+      "curated_rule_id": "default-reviewed-non-metaphor",
+      "source_language_decision_basis": "span_text"
     },
     {
       "mipvu_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p07_s01_lu018",
@@ -1686,7 +2516,15 @@
       "char_offset_end": 666,
       "sentence_char_offset_start": 105,
       "sentence_char_offset_end": 111,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "span_text": "tantôt",
+      "span_language": "fr",
+      "decision_type": "non_metaphor",
+      "review_batch": "napoleon-source-language-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07",
+      "curated_rule_id": "default-reviewed-non-metaphor",
+      "source_language_decision_basis": "span_text"
     },
     {
       "mipvu_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p07_s01_lu019",
@@ -1702,7 +2540,15 @@
       "char_offset_end": 670,
       "sentence_char_offset_start": 112,
       "sentence_char_offset_end": 115,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "span_text": "ils",
+      "span_language": "fr",
+      "decision_type": "non_metaphor",
+      "review_batch": "napoleon-source-language-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07",
+      "curated_rule_id": "default-reviewed-non-metaphor",
+      "source_language_decision_basis": "span_text"
     },
     {
       "mipvu_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p07_s01_lu020",
@@ -1718,7 +2564,15 @@
       "char_offset_end": 673,
       "sentence_char_offset_start": 116,
       "sentence_char_offset_end": 118,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "span_text": "se",
+      "span_language": "fr",
+      "decision_type": "non_metaphor",
+      "review_batch": "napoleon-source-language-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07",
+      "curated_rule_id": "default-reviewed-non-metaphor",
+      "source_language_decision_basis": "span_text"
     },
     {
       "mipvu_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p07_s01_lu021",
@@ -1734,7 +2588,15 @@
       "char_offset_end": 682,
       "sentence_char_offset_start": 119,
       "sentence_char_offset_end": 127,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "span_text": "mettront",
+      "span_language": "fr",
+      "decision_type": "non_metaphor",
+      "review_batch": "napoleon-source-language-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07",
+      "curated_rule_id": "default-reviewed-non-metaphor",
+      "source_language_decision_basis": "span_text"
     },
     {
       "mipvu_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p07_s01_lu022",
@@ -1750,7 +2612,15 @@
       "char_offset_end": 687,
       "sentence_char_offset_start": 128,
       "sentence_char_offset_end": 132,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "span_text": "dans",
+      "span_language": "fr",
+      "decision_type": "non_metaphor",
+      "review_batch": "napoleon-source-language-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07",
+      "curated_rule_id": "default-reviewed-non-metaphor",
+      "source_language_decision_basis": "span_text"
     },
     {
       "mipvu_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p07_s01_lu023",
@@ -1766,7 +2636,15 @@
       "char_offset_end": 691,
       "sentence_char_offset_start": 133,
       "sentence_char_offset_end": 136,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "span_text": "une",
+      "span_language": "fr",
+      "decision_type": "non_metaphor",
+      "review_batch": "napoleon-source-language-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07",
+      "curated_rule_id": "default-reviewed-non-metaphor",
+      "source_language_decision_basis": "span_text"
     },
     {
       "mipvu_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p07_s01_lu024",
@@ -1782,7 +2660,15 @@
       "char_offset_end": 700,
       "sentence_char_offset_start": 137,
       "sentence_char_offset_end": 145,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "span_text": "retraite",
+      "span_language": "fr",
+      "decision_type": "non_metaphor",
+      "review_batch": "napoleon-source-language-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07",
+      "curated_rule_id": "default-reviewed-non-metaphor",
+      "source_language_decision_basis": "span_text"
     },
     {
       "mipvu_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p07_s01_lu025",
@@ -1798,7 +2684,15 @@
       "char_offset_end": 708,
       "sentence_char_offset_start": 146,
       "sentence_char_offset_end": 153,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "span_text": "simulée",
+      "span_language": "fr",
+      "decision_type": "non_metaphor",
+      "review_batch": "napoleon-source-language-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07",
+      "curated_rule_id": "default-reviewed-non-metaphor",
+      "source_language_decision_basis": "span_text"
     },
     {
       "mipvu_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p07_s01_lu026",
@@ -1814,7 +2708,15 @@
       "char_offset_end": 712,
       "sentence_char_offset_start": 155,
       "sentence_char_offset_end": 157,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "span_text": "et",
+      "span_language": "fr",
+      "decision_type": "non_metaphor",
+      "review_batch": "napoleon-source-language-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07",
+      "curated_rule_id": "default-reviewed-non-metaphor",
+      "source_language_decision_basis": "span_text"
     },
     {
       "mipvu_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p07_s01_lu027",
@@ -1830,7 +2732,15 @@
       "char_offset_end": 725,
       "sentence_char_offset_start": 158,
       "sentence_char_offset_end": 170,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "span_text": "n'oublieront",
+      "span_language": "fr",
+      "decision_type": "non_metaphor",
+      "review_batch": "napoleon-source-language-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07",
+      "curated_rule_id": "default-reviewed-non-metaphor",
+      "source_language_decision_basis": "span_text"
     },
     {
       "mipvu_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p07_s01_lu028",
@@ -1846,7 +2756,15 @@
       "char_offset_end": 730,
       "sentence_char_offset_start": 171,
       "sentence_char_offset_end": 175,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "span_text": "rien",
+      "span_language": "fr",
+      "decision_type": "non_metaphor",
+      "review_batch": "napoleon-source-language-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07",
+      "curated_rule_id": "default-reviewed-non-metaphor",
+      "source_language_decision_basis": "span_text"
     },
     {
       "mipvu_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p07_s01_lu029",
@@ -1862,7 +2780,15 @@
       "char_offset_end": 735,
       "sentence_char_offset_start": 176,
       "sentence_char_offset_end": 180,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "span_text": "pour",
+      "span_language": "fr",
+      "decision_type": "non_metaphor",
+      "review_batch": "napoleon-source-language-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07",
+      "curated_rule_id": "default-reviewed-non-metaphor",
+      "source_language_decision_basis": "span_text"
     },
     {
       "mipvu_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p07_s01_lu030",
@@ -1878,7 +2804,15 @@
       "char_offset_end": 742,
       "sentence_char_offset_start": 181,
       "sentence_char_offset_end": 187,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "span_text": "rendre",
+      "span_language": "fr",
+      "decision_type": "non_metaphor",
+      "review_batch": "napoleon-source-language-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07",
+      "curated_rule_id": "default-reviewed-non-metaphor",
+      "source_language_decision_basis": "span_text"
     },
     {
       "mipvu_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p07_s01_lu031",
@@ -1894,7 +2828,15 @@
       "char_offset_end": 752,
       "sentence_char_offset_start": 188,
       "sentence_char_offset_end": 197,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "span_text": "éclatante",
+      "span_language": "fr",
+      "decision_type": "non_metaphor",
+      "review_batch": "napoleon-source-language-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07",
+      "curated_rule_id": "default-reviewed-non-metaphor",
+      "source_language_decision_basis": "span_text"
     },
     {
       "mipvu_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p07_s01_lu032",
@@ -1910,7 +2852,15 @@
       "char_offset_end": 758,
       "sentence_char_offset_start": 198,
       "sentence_char_offset_end": 203,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "span_text": "votre",
+      "span_language": "fr",
+      "decision_type": "non_metaphor",
+      "review_batch": "napoleon-source-language-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07",
+      "curated_rule_id": "default-reviewed-non-metaphor",
+      "source_language_decision_basis": "span_text"
     },
     {
       "mipvu_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p07_s01_lu033",
@@ -1926,7 +2876,17 @@
       "char_offset_end": 767,
       "sentence_char_offset_start": 204,
       "sentence_char_offset_end": 212,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "span_text": "victoire",
+      "span_language": "fr",
+      "decision_type": "non_metaphor",
+      "review_batch": "napoleon-source-language-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07",
+      "curated_rule_id": "default-reviewed-non-metaphor",
+      "source_language_decision_basis": "span_text",
+      "gloss_en": "victory",
+      "gloss_notes": "French `victoire` may name an event, a result, or a quasi-agent in personified phrasing."
     },
     {
       "mipvu_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p08_s01_lu001",
@@ -1942,7 +2902,15 @@
       "char_offset_end": 775,
       "sentence_char_offset_start": 0,
       "sentence_char_offset_end": 4,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "span_text": "Mais",
+      "span_language": "fr",
+      "decision_type": "non_metaphor",
+      "review_batch": "napoleon-source-language-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07",
+      "curated_rule_id": "default-reviewed-non-metaphor",
+      "source_language_decision_basis": "span_text"
     },
     {
       "mipvu_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p08_s01_lu002",
@@ -1958,7 +2926,15 @@
       "char_offset_end": 783,
       "sentence_char_offset_start": 5,
       "sentence_char_offset_end": 12,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "span_text": "lorsque",
+      "span_language": "fr",
+      "decision_type": "non_metaphor",
+      "review_batch": "napoleon-source-language-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07",
+      "curated_rule_id": "default-reviewed-non-metaphor",
+      "source_language_decision_basis": "span_text"
     },
     {
       "mipvu_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p08_s01_lu003",
@@ -1974,7 +2950,15 @@
       "char_offset_end": 786,
       "sentence_char_offset_start": 13,
       "sentence_char_offset_end": 15,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "span_text": "le",
+      "span_language": "fr",
+      "decision_type": "non_metaphor",
+      "review_batch": "napoleon-source-language-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07",
+      "curated_rule_id": "default-reviewed-non-metaphor",
+      "source_language_decision_basis": "span_text"
     },
     {
       "mipvu_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p08_s01_lu004",
@@ -1990,7 +2974,15 @@
       "char_offset_end": 794,
       "sentence_char_offset_start": 16,
       "sentence_char_offset_end": 23,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "span_text": "tambour",
+      "span_language": "fr",
+      "decision_type": "non_metaphor",
+      "review_batch": "napoleon-source-language-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07",
+      "curated_rule_id": "default-reviewed-non-metaphor",
+      "source_language_decision_basis": "span_text"
     },
     {
       "mipvu_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p08_s01_lu005",
@@ -2006,7 +2998,15 @@
       "char_offset_end": 797,
       "sentence_char_offset_start": 24,
       "sentence_char_offset_end": 26,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "span_text": "du",
+      "span_language": "fr",
+      "decision_type": "non_metaphor",
+      "review_batch": "napoleon-source-language-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07",
+      "curated_rule_id": "default-reviewed-non-metaphor",
+      "source_language_decision_basis": "span_text"
     },
     {
       "mipvu_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p08_s01_lu006",
@@ -2022,7 +3022,15 @@
       "char_offset_end": 804,
       "sentence_char_offset_start": 27,
       "sentence_char_offset_end": 33,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "span_text": "combat",
+      "span_language": "fr",
+      "decision_type": "non_metaphor",
+      "review_batch": "napoleon-source-language-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07",
+      "curated_rule_id": "default-reviewed-non-metaphor",
+      "source_language_decision_basis": "span_text"
     },
     {
       "mipvu_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p08_s01_lu007",
@@ -2038,7 +3046,15 @@
       "char_offset_end": 809,
       "sentence_char_offset_start": 34,
       "sentence_char_offset_end": 38,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "span_text": "aura",
+      "span_language": "fr",
+      "decision_type": "non_metaphor",
+      "review_batch": "napoleon-source-language-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07",
+      "curated_rule_id": "default-reviewed-non-metaphor",
+      "source_language_decision_basis": "span_text"
     },
     {
       "mipvu_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p08_s01_lu008",
@@ -2054,7 +3070,15 @@
       "char_offset_end": 815,
       "sentence_char_offset_start": 39,
       "sentence_char_offset_end": 44,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "span_text": "battu",
+      "span_language": "fr",
+      "decision_type": "non_metaphor",
+      "review_batch": "napoleon-source-language-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07",
+      "curated_rule_id": "default-reviewed-non-metaphor",
+      "source_language_decision_basis": "span_text"
     },
     {
       "mipvu_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p08_s01_lu009",
@@ -2070,7 +3094,15 @@
       "char_offset_end": 819,
       "sentence_char_offset_start": 46,
       "sentence_char_offset_end": 48,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "span_text": "et",
+      "span_language": "fr",
+      "decision_type": "non_metaphor",
+      "review_batch": "napoleon-source-language-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07",
+      "curated_rule_id": "default-reviewed-non-metaphor",
+      "source_language_decision_basis": "span_text"
     },
     {
       "mipvu_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p08_s01_lu010",
@@ -2086,7 +3118,15 @@
       "char_offset_end": 825,
       "sentence_char_offset_start": 49,
       "sentence_char_offset_end": 54,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "span_text": "qu'il",
+      "span_language": "fr",
+      "decision_type": "non_metaphor",
+      "review_batch": "napoleon-source-language-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07",
+      "curated_rule_id": "default-reviewed-non-metaphor",
+      "source_language_decision_basis": "span_text"
     },
     {
       "mipvu_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p08_s01_lu011",
@@ -2102,7 +3142,15 @@
       "char_offset_end": 832,
       "sentence_char_offset_start": 55,
       "sentence_char_offset_end": 61,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "span_text": "faudra",
+      "span_language": "fr",
+      "decision_type": "non_metaphor",
+      "review_batch": "napoleon-source-language-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07",
+      "curated_rule_id": "default-reviewed-non-metaphor",
+      "source_language_decision_basis": "span_text"
     },
     {
       "mipvu_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p08_s01_lu012",
@@ -2118,7 +3166,15 @@
       "char_offset_end": 840,
       "sentence_char_offset_start": 62,
       "sentence_char_offset_end": 69,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "span_text": "marcher",
+      "span_language": "fr",
+      "decision_type": "non_metaphor",
+      "review_batch": "napoleon-source-language-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07",
+      "curated_rule_id": "default-reviewed-non-metaphor",
+      "source_language_decision_basis": "span_text"
     },
     {
       "mipvu_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p08_s01_lu013",
@@ -2134,7 +3190,15 @@
       "char_offset_end": 846,
       "sentence_char_offset_start": 70,
       "sentence_char_offset_end": 75,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "span_text": "droit",
+      "span_language": "fr",
+      "decision_type": "non_metaphor",
+      "review_batch": "napoleon-source-language-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07",
+      "curated_rule_id": "default-reviewed-non-metaphor",
+      "source_language_decision_basis": "span_text"
     },
     {
       "mipvu_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p08_s01_lu014",
@@ -2150,7 +3214,15 @@
       "char_offset_end": 848,
       "sentence_char_offset_start": 76,
       "sentence_char_offset_end": 77,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "span_text": "à",
+      "span_language": "fr",
+      "decision_type": "non_metaphor",
+      "review_batch": "napoleon-source-language-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07",
+      "curated_rule_id": "default-reviewed-non-metaphor",
+      "source_language_decision_basis": "span_text"
     },
     {
       "mipvu_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p08_s01_lu015",
@@ -2166,7 +3238,15 @@
       "char_offset_end": 857,
       "sentence_char_offset_start": 78,
       "sentence_char_offset_end": 86,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "span_text": "l'ennemi",
+      "span_language": "fr",
+      "decision_type": "non_metaphor",
+      "review_batch": "napoleon-source-language-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07",
+      "curated_rule_id": "default-reviewed-non-metaphor",
+      "source_language_decision_basis": "span_text"
     },
     {
       "mipvu_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p08_s01_lu016",
@@ -2182,7 +3262,15 @@
       "char_offset_end": 861,
       "sentence_char_offset_start": 88,
       "sentence_char_offset_end": 90,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "span_text": "la",
+      "span_language": "fr",
+      "decision_type": "non_metaphor",
+      "review_batch": "napoleon-source-language-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07",
+      "curated_rule_id": "default-reviewed-non-metaphor",
+      "source_language_decision_basis": "span_text"
     },
     {
       "mipvu_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p08_s01_lu017",
@@ -2198,7 +3286,15 @@
       "char_offset_end": 872,
       "sentence_char_offset_start": 91,
       "sentence_char_offset_end": 101,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "span_text": "baïonnette",
+      "span_language": "fr",
+      "decision_type": "non_metaphor",
+      "review_batch": "napoleon-source-language-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07",
+      "curated_rule_id": "default-reviewed-non-metaphor",
+      "source_language_decision_basis": "span_text"
     },
     {
       "mipvu_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p08_s01_lu018",
@@ -2214,7 +3310,15 @@
       "char_offset_end": 875,
       "sentence_char_offset_start": 102,
       "sentence_char_offset_end": 104,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "span_text": "en",
+      "span_language": "fr",
+      "decision_type": "non_metaphor",
+      "review_batch": "napoleon-source-language-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07",
+      "curated_rule_id": "default-reviewed-non-metaphor",
+      "source_language_decision_basis": "span_text"
     },
     {
       "mipvu_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p08_s01_lu019",
@@ -2230,7 +3334,15 @@
       "char_offset_end": 881,
       "sentence_char_offset_start": 105,
       "sentence_char_offset_end": 110,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "span_text": "avant",
+      "span_language": "fr",
+      "decision_type": "non_metaphor",
+      "review_batch": "napoleon-source-language-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07",
+      "curated_rule_id": "default-reviewed-non-metaphor",
+      "source_language_decision_basis": "span_text"
     },
     {
       "mipvu_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p08_s01_lu020",
@@ -2246,7 +3358,15 @@
       "char_offset_end": 884,
       "sentence_char_offset_start": 111,
       "sentence_char_offset_end": 113,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "span_text": "et",
+      "span_language": "fr",
+      "decision_type": "non_metaphor",
+      "review_batch": "napoleon-source-language-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07",
+      "curated_rule_id": "default-reviewed-non-metaphor",
+      "source_language_decision_basis": "span_text"
     },
     {
       "mipvu_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p08_s01_lu021",
@@ -2262,7 +3382,15 @@
       "char_offset_end": 889,
       "sentence_char_offset_start": 114,
       "sentence_char_offset_end": 118,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "span_text": "dans",
+      "span_language": "fr",
+      "decision_type": "non_metaphor",
+      "review_batch": "napoleon-source-language-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07",
+      "curated_rule_id": "default-reviewed-non-metaphor",
+      "source_language_decision_basis": "span_text"
     },
     {
       "mipvu_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p08_s01_lu022",
@@ -2278,7 +3406,15 @@
       "char_offset_end": 892,
       "sentence_char_offset_start": 119,
       "sentence_char_offset_end": 121,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "span_text": "ce",
+      "span_language": "fr",
+      "decision_type": "non_metaphor",
+      "review_batch": "napoleon-source-language-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07",
+      "curated_rule_id": "default-reviewed-non-metaphor",
+      "source_language_decision_basis": "span_text"
     },
     {
       "mipvu_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p08_s01_lu023",
@@ -2294,7 +3430,15 @@
       "char_offset_end": 898,
       "sentence_char_offset_start": 122,
       "sentence_char_offset_end": 127,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "span_text": "morne",
+      "span_language": "fr",
+      "decision_type": "non_metaphor",
+      "review_batch": "napoleon-source-language-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07",
+      "curated_rule_id": "default-reviewed-non-metaphor",
+      "source_language_decision_basis": "span_text"
     },
     {
       "mipvu_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p08_s01_lu024",
@@ -2310,7 +3454,15 @@
       "char_offset_end": 906,
       "sentence_char_offset_start": 128,
       "sentence_char_offset_end": 135,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "span_text": "silence",
+      "span_language": "fr",
+      "decision_type": "non_metaphor",
+      "review_batch": "napoleon-source-language-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07",
+      "curated_rule_id": "default-reviewed-non-metaphor",
+      "source_language_decision_basis": "span_text"
     },
     {
       "mipvu_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p08_s01_lu025",
@@ -2326,7 +3478,15 @@
       "char_offset_end": 913,
       "sentence_char_offset_start": 136,
       "sentence_char_offset_end": 142,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "span_text": "garant",
+      "span_language": "fr",
+      "decision_type": "non_metaphor",
+      "review_batch": "napoleon-source-language-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07",
+      "curated_rule_id": "default-reviewed-non-metaphor",
+      "source_language_decision_basis": "span_text"
     },
     {
       "mipvu_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p08_s01_lu026",
@@ -2342,7 +3502,15 @@
       "char_offset_end": 916,
       "sentence_char_offset_start": 143,
       "sentence_char_offset_end": 145,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "span_text": "de",
+      "span_language": "fr",
+      "decision_type": "non_metaphor",
+      "review_batch": "napoleon-source-language-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07",
+      "curated_rule_id": "default-reviewed-non-metaphor",
+      "source_language_decision_basis": "span_text"
     },
     {
       "mipvu_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p08_s01_lu027",
@@ -2358,7 +3526,15 @@
       "char_offset_end": 919,
       "sentence_char_offset_start": 146,
       "sentence_char_offset_end": 148,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "span_text": "la",
+      "span_language": "fr",
+      "decision_type": "non_metaphor",
+      "review_batch": "napoleon-source-language-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07",
+      "curated_rule_id": "default-reviewed-non-metaphor",
+      "source_language_decision_basis": "span_text"
     },
     {
       "mipvu_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p08_s01_lu028",
@@ -2374,7 +3550,17 @@
       "char_offset_end": 928,
       "sentence_char_offset_start": 149,
       "sentence_char_offset_end": 157,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "span_text": "victoire",
+      "span_language": "fr",
+      "decision_type": "non_metaphor",
+      "review_batch": "napoleon-source-language-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07",
+      "curated_rule_id": "default-reviewed-non-metaphor",
+      "source_language_decision_basis": "span_text",
+      "gloss_en": "victory",
+      "gloss_notes": "French `victoire` may name an event, a result, or a quasi-agent in personified phrasing."
     },
     {
       "mipvu_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p08_s01_lu029",
@@ -2390,7 +3576,15 @@
       "char_offset_end": 937,
       "sentence_char_offset_start": 159,
       "sentence_char_offset_end": 166,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "span_text": "soldats",
+      "span_language": "fr",
+      "decision_type": "non_metaphor",
+      "review_batch": "napoleon-source-language-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07",
+      "curated_rule_id": "default-reviewed-non-metaphor",
+      "source_language_decision_basis": "span_text"
     },
     {
       "mipvu_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p08_s01_lu030",
@@ -2406,7 +3600,15 @@
       "char_offset_end": 945,
       "sentence_char_offset_start": 168,
       "sentence_char_offset_end": 174,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "span_text": "songez",
+      "span_language": "fr",
+      "decision_type": "non_metaphor",
+      "review_batch": "napoleon-source-language-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07",
+      "curated_rule_id": "default-reviewed-non-metaphor",
+      "source_language_decision_basis": "span_text"
     },
     {
       "mipvu_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p08_s01_lu031",
@@ -2422,7 +3624,15 @@
       "char_offset_end": 947,
       "sentence_char_offset_start": 175,
       "sentence_char_offset_end": 176,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "span_text": "à",
+      "span_language": "fr",
+      "decision_type": "non_metaphor",
+      "review_batch": "napoleon-source-language-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07",
+      "curated_rule_id": "default-reviewed-non-metaphor",
+      "source_language_decision_basis": "span_text"
     },
     {
       "mipvu_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p08_s01_lu032",
@@ -2438,7 +3648,15 @@
       "char_offset_end": 952,
       "sentence_char_offset_start": 177,
       "sentence_char_offset_end": 181,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "span_text": "être",
+      "span_language": "fr",
+      "decision_type": "non_metaphor",
+      "review_batch": "napoleon-source-language-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07",
+      "curated_rule_id": "default-reviewed-non-metaphor",
+      "source_language_decision_basis": "span_text"
     },
     {
       "mipvu_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p08_s01_lu033",
@@ -2454,7 +3672,15 @@
       "char_offset_end": 959,
       "sentence_char_offset_start": 182,
       "sentence_char_offset_end": 188,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "span_text": "dignes",
+      "span_language": "fr",
+      "decision_type": "non_metaphor",
+      "review_batch": "napoleon-source-language-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07",
+      "curated_rule_id": "default-reviewed-non-metaphor",
+      "source_language_decision_basis": "span_text"
     },
     {
       "mipvu_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p08_s01_lu034",
@@ -2470,7 +3696,15 @@
       "char_offset_end": 962,
       "sentence_char_offset_start": 189,
       "sentence_char_offset_end": 191,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "span_text": "de",
+      "span_language": "fr",
+      "decision_type": "non_metaphor",
+      "review_batch": "napoleon-source-language-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07",
+      "curated_rule_id": "default-reviewed-non-metaphor",
+      "source_language_decision_basis": "span_text"
     },
     {
       "mipvu_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p08_s01_lu035",
@@ -2486,7 +3720,15 @@
       "char_offset_end": 967,
       "sentence_char_offset_start": 192,
       "sentence_char_offset_end": 196,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "span_text": "vous",
+      "span_language": "fr",
+      "decision_type": "non_metaphor",
+      "review_batch": "napoleon-source-language-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07",
+      "curated_rule_id": "default-reviewed-non-metaphor",
+      "source_language_decision_basis": "span_text"
     },
     {
       "mipvu_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p09_s01_lu001",
@@ -2502,7 +3744,15 @@
       "char_offset_end": 972,
       "sentence_char_offset_start": 0,
       "sentence_char_offset_end": 2,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "span_text": "Je",
+      "span_language": "fr",
+      "decision_type": "non_metaphor",
+      "review_batch": "napoleon-source-language-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07",
+      "curated_rule_id": "default-reviewed-non-metaphor",
+      "source_language_decision_basis": "span_text"
     },
     {
       "mipvu_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p09_s01_lu002",
@@ -2518,7 +3768,15 @@
       "char_offset_end": 975,
       "sentence_char_offset_start": 3,
       "sentence_char_offset_end": 5,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "span_text": "ne",
+      "span_language": "fr",
+      "decision_type": "non_metaphor",
+      "review_batch": "napoleon-source-language-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07",
+      "curated_rule_id": "default-reviewed-non-metaphor",
+      "source_language_decision_basis": "span_text"
     },
     {
       "mipvu_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p09_s01_lu003",
@@ -2534,7 +3792,15 @@
       "char_offset_end": 980,
       "sentence_char_offset_start": 6,
       "sentence_char_offset_end": 10,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "span_text": "vous",
+      "span_language": "fr",
+      "decision_type": "non_metaphor",
+      "review_batch": "napoleon-source-language-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07",
+      "curated_rule_id": "default-reviewed-non-metaphor",
+      "source_language_decision_basis": "span_text"
     },
     {
       "mipvu_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p09_s01_lu004",
@@ -2550,7 +3816,15 @@
       "char_offset_end": 984,
       "sentence_char_offset_start": 11,
       "sentence_char_offset_end": 14,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "span_text": "dis",
+      "span_language": "fr",
+      "decision_type": "non_metaphor",
+      "review_batch": "napoleon-source-language-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07",
+      "curated_rule_id": "default-reviewed-non-metaphor",
+      "source_language_decision_basis": "span_text"
     },
     {
       "mipvu_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p09_s01_lu005",
@@ -2566,7 +3840,15 @@
       "char_offset_end": 988,
       "sentence_char_offset_start": 15,
       "sentence_char_offset_end": 18,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "span_text": "que",
+      "span_language": "fr",
+      "decision_type": "non_metaphor",
+      "review_batch": "napoleon-source-language-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07",
+      "curated_rule_id": "default-reviewed-non-metaphor",
+      "source_language_decision_basis": "span_text"
     },
     {
       "mipvu_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p09_s01_lu006",
@@ -2582,7 +3864,15 @@
       "char_offset_end": 993,
       "sentence_char_offset_start": 19,
       "sentence_char_offset_end": 23,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "span_text": "deux",
+      "span_language": "fr",
+      "decision_type": "non_metaphor",
+      "review_batch": "napoleon-source-language-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07",
+      "curated_rule_id": "default-reviewed-non-metaphor",
+      "source_language_decision_basis": "span_text"
     },
     {
       "mipvu_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p09_s01_lu007",
@@ -2598,7 +3888,15 @@
       "char_offset_end": 998,
       "sentence_char_offset_start": 24,
       "sentence_char_offset_end": 28,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "span_text": "mots",
+      "span_language": "fr",
+      "decision_type": "non_metaphor",
+      "review_batch": "napoleon-source-language-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07",
+      "curated_rule_id": "default-reviewed-non-metaphor",
+      "source_language_decision_basis": "span_text"
     },
     {
       "mipvu_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p09_s01_lu008",
@@ -2614,7 +3912,15 @@
       "char_offset_end": 1003,
       "sentence_char_offset_start": 30,
       "sentence_char_offset_end": 33,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "span_text": "ils",
+      "span_language": "fr",
+      "decision_type": "non_metaphor",
+      "review_batch": "napoleon-source-language-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07",
+      "curated_rule_id": "default-reviewed-non-metaphor",
+      "source_language_decision_basis": "span_text"
     },
     {
       "mipvu_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p09_s01_lu009",
@@ -2630,7 +3936,15 @@
       "char_offset_end": 1013,
       "sentence_char_offset_start": 34,
       "sentence_char_offset_end": 43,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "span_text": "suffisent",
+      "span_language": "fr",
+      "decision_type": "non_metaphor",
+      "review_batch": "napoleon-source-language-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07",
+      "curated_rule_id": "default-reviewed-non-metaphor",
+      "source_language_decision_basis": "span_text"
     },
     {
       "mipvu_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p09_s01_lu010",
@@ -2646,7 +3960,15 @@
       "char_offset_end": 1015,
       "sentence_char_offset_start": 44,
       "sentence_char_offset_end": 45,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "span_text": "à",
+      "span_language": "fr",
+      "decision_type": "non_metaphor",
+      "review_batch": "napoleon-source-language-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07",
+      "curated_rule_id": "default-reviewed-non-metaphor",
+      "source_language_decision_basis": "span_text"
     },
     {
       "mipvu_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p09_s01_lu011",
@@ -2662,7 +3984,15 @@
       "char_offset_end": 1019,
       "sentence_char_offset_start": 46,
       "sentence_char_offset_end": 49,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "span_text": "des",
+      "span_language": "fr",
+      "decision_type": "non_metaphor",
+      "review_batch": "napoleon-source-language-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07",
+      "curated_rule_id": "default-reviewed-non-metaphor",
+      "source_language_decision_basis": "span_text"
     },
     {
       "mipvu_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p09_s01_lu012",
@@ -2678,7 +4008,15 @@
       "char_offset_end": 1028,
       "sentence_char_offset_start": 50,
       "sentence_char_offset_end": 58,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "span_text": "Français",
+      "span_language": "fr",
+      "decision_type": "non_metaphor",
+      "review_batch": "napoleon-source-language-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07",
+      "curated_rule_id": "default-reviewed-non-metaphor",
+      "source_language_decision_basis": "span_text"
     },
     {
       "mipvu_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p09_s01_lu013",
@@ -2694,7 +4032,15 @@
       "char_offset_end": 1039,
       "sentence_char_offset_start": 61,
       "sentence_char_offset_end": 69,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "span_text": "l'Italie",
+      "span_language": "fr",
+      "decision_type": "non_metaphor",
+      "review_batch": "napoleon-source-language-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07",
+      "curated_rule_id": "default-reviewed-non-metaphor",
+      "source_language_decision_basis": "span_text"
     },
     {
       "mipvu_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p10_s01_lu001",
@@ -2710,7 +4056,15 @@
       "char_offset_end": 1049,
       "sentence_char_offset_start": 0,
       "sentence_char_offset_end": 7,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "span_text": "Mantoue",
+      "span_language": "fr",
+      "decision_type": "non_metaphor",
+      "review_batch": "napoleon-source-language-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07",
+      "curated_rule_id": "default-reviewed-non-metaphor",
+      "source_language_decision_basis": "span_text"
     },
     {
       "mipvu_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p10_s02_lu001",
@@ -2726,7 +4080,15 @@
       "char_offset_end": 1053,
       "sentence_char_offset_start": 0,
       "sentence_char_offset_end": 2,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "span_text": "La",
+      "span_language": "fr",
+      "decision_type": "non_metaphor",
+      "review_batch": "napoleon-source-language-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07",
+      "curated_rule_id": "default-reviewed-non-metaphor",
+      "source_language_decision_basis": "span_text"
     },
     {
       "mipvu_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p10_s02_lu002",
@@ -2742,7 +4104,15 @@
       "char_offset_end": 1058,
       "sentence_char_offset_start": 3,
       "sentence_char_offset_end": 7,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "span_text": "paix",
+      "span_language": "fr",
+      "decision_type": "non_metaphor",
+      "review_batch": "napoleon-source-language-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07",
+      "curated_rule_id": "default-reviewed-non-metaphor",
+      "source_language_decision_basis": "span_text"
     },
     {
       "mipvu_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p10_s02_lu003",
@@ -2758,7 +4128,15 @@
       "char_offset_end": 1061,
       "sentence_char_offset_start": 8,
       "sentence_char_offset_end": 10,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "span_text": "de",
+      "span_language": "fr",
+      "decision_type": "non_metaphor",
+      "review_batch": "napoleon-source-language-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07",
+      "curated_rule_id": "default-reviewed-non-metaphor",
+      "source_language_decision_basis": "span_text"
     },
     {
       "mipvu_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p10_s02_lu004",
@@ -2774,7 +4152,15 @@
       "char_offset_end": 1070,
       "sentence_char_offset_start": 11,
       "sentence_char_offset_end": 19,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "span_text": "l'Europe",
+      "span_language": "fr",
+      "decision_type": "non_metaphor",
+      "review_batch": "napoleon-source-language-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07",
+      "curated_rule_id": "default-reviewed-non-metaphor",
+      "source_language_decision_basis": "span_text"
     },
     {
       "mipvu_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p10_s02_lu005",
@@ -2790,7 +4176,15 @@
       "char_offset_end": 1074,
       "sentence_char_offset_start": 21,
       "sentence_char_offset_end": 23,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "span_text": "le",
+      "span_language": "fr",
+      "decision_type": "non_metaphor",
+      "review_batch": "napoleon-source-language-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07",
+      "curated_rule_id": "default-reviewed-non-metaphor",
+      "source_language_decision_basis": "span_text"
     },
     {
       "mipvu_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p10_s02_lu006",
@@ -2806,7 +4200,15 @@
       "char_offset_end": 1082,
       "sentence_char_offset_start": 24,
       "sentence_char_offset_end": 31,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "span_text": "bonheur",
+      "span_language": "fr",
+      "decision_type": "non_metaphor",
+      "review_batch": "napoleon-source-language-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07",
+      "curated_rule_id": "default-reviewed-non-metaphor",
+      "source_language_decision_basis": "span_text"
     },
     {
       "mipvu_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p10_s02_lu007",
@@ -2822,7 +4224,15 @@
       "char_offset_end": 1085,
       "sentence_char_offset_start": 32,
       "sentence_char_offset_end": 34,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "span_text": "de",
+      "span_language": "fr",
+      "decision_type": "non_metaphor",
+      "review_batch": "napoleon-source-language-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07",
+      "curated_rule_id": "default-reviewed-non-metaphor",
+      "source_language_decision_basis": "span_text"
     },
     {
       "mipvu_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p10_s02_lu008",
@@ -2838,7 +4248,15 @@
       "char_offset_end": 1089,
       "sentence_char_offset_start": 35,
       "sentence_char_offset_end": 38,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "span_text": "vos",
+      "span_language": "fr",
+      "decision_type": "non_metaphor",
+      "review_batch": "napoleon-source-language-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07",
+      "curated_rule_id": "default-reviewed-non-metaphor",
+      "source_language_decision_basis": "span_text"
     },
     {
       "mipvu_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p10_s02_lu009",
@@ -2854,7 +4272,15 @@
       "char_offset_end": 1097,
       "sentence_char_offset_start": 39,
       "sentence_char_offset_end": 46,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "span_text": "parents",
+      "span_language": "fr",
+      "decision_type": "non_metaphor",
+      "review_batch": "napoleon-source-language-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07",
+      "curated_rule_id": "default-reviewed-non-metaphor",
+      "source_language_decision_basis": "span_text"
     },
     {
       "mipvu_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p10_s02_lu010",
@@ -2870,7 +4296,15 @@
       "char_offset_end": 1104,
       "sentence_char_offset_start": 47,
       "sentence_char_offset_end": 53,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "span_text": "seront",
+      "span_language": "fr",
+      "decision_type": "non_metaphor",
+      "review_batch": "napoleon-source-language-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07",
+      "curated_rule_id": "default-reviewed-non-metaphor",
+      "source_language_decision_basis": "span_text"
     },
     {
       "mipvu_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p10_s02_lu011",
@@ -2886,7 +4320,15 @@
       "char_offset_end": 1107,
       "sentence_char_offset_start": 54,
       "sentence_char_offset_end": 56,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "span_text": "le",
+      "span_language": "fr",
+      "decision_type": "non_metaphor",
+      "review_batch": "napoleon-source-language-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07",
+      "curated_rule_id": "default-reviewed-non-metaphor",
+      "source_language_decision_basis": "span_text"
     },
     {
       "mipvu_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p11_s01_lu001",
@@ -2902,7 +4344,15 @@
       "char_offset_end": 1117,
       "sentence_char_offset_start": 0,
       "sentence_char_offset_end": 8,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "span_text": "résuliat",
+      "span_language": "fr",
+      "decision_type": "non_metaphor",
+      "review_batch": "napoleon-source-language-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07",
+      "curated_rule_id": "default-reviewed-non-metaphor",
+      "source_language_decision_basis": "span_text"
     },
     {
       "mipvu_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p11_s01_lu002",
@@ -2918,7 +4368,15 @@
       "char_offset_end": 1120,
       "sentence_char_offset_start": 9,
       "sentence_char_offset_end": 11,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "span_text": "de",
+      "span_language": "fr",
+      "decision_type": "non_metaphor",
+      "review_batch": "napoleon-source-language-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07",
+      "curated_rule_id": "default-reviewed-non-metaphor",
+      "source_language_decision_basis": "span_text"
     },
     {
       "mipvu_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p11_s01_lu003",
@@ -2934,7 +4392,15 @@
       "char_offset_end": 1126,
       "sentence_char_offset_start": 12,
       "sentence_char_offset_end": 17,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "span_text": "notre",
+      "span_language": "fr",
+      "decision_type": "non_metaphor",
+      "review_batch": "napoleon-source-language-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07",
+      "curated_rule_id": "default-reviewed-non-metaphor",
+      "source_language_decision_basis": "span_text"
     },
     {
       "mipvu_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p11_s01_lu004",
@@ -2950,7 +4416,15 @@
       "char_offset_end": 1134,
       "sentence_char_offset_start": 18,
       "sentence_char_offset_end": 25,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "span_text": "courage",
+      "span_language": "fr",
+      "decision_type": "non_metaphor",
+      "review_batch": "napoleon-source-language-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07",
+      "curated_rule_id": "default-reviewed-non-metaphor",
+      "source_language_decision_basis": "span_text"
     },
     {
       "mipvu_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p11_s02_lu001",
@@ -2966,7 +4440,15 @@
       "char_offset_end": 1143,
       "sentence_char_offset_start": 0,
       "sentence_char_offset_end": 7,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "span_text": "Faisons",
+      "span_language": "fr",
+      "decision_type": "non_metaphor",
+      "review_batch": "napoleon-source-language-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07",
+      "curated_rule_id": "default-reviewed-non-metaphor",
+      "source_language_decision_basis": "span_text"
     },
     {
       "mipvu_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p11_s02_lu002",
@@ -2982,7 +4464,15 @@
       "char_offset_end": 1150,
       "sentence_char_offset_start": 8,
       "sentence_char_offset_end": 14,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "span_text": "encore",
+      "span_language": "fr",
+      "decision_type": "non_metaphor",
+      "review_batch": "napoleon-source-language-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07",
+      "curated_rule_id": "default-reviewed-non-metaphor",
+      "source_language_decision_basis": "span_text"
     },
     {
       "mipvu_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p11_s02_lu003",
@@ -2998,7 +4488,15 @@
       "char_offset_end": 1154,
       "sentence_char_offset_start": 15,
       "sentence_char_offset_end": 18,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "span_text": "une",
+      "span_language": "fr",
+      "decision_type": "non_metaphor",
+      "review_batch": "napoleon-source-language-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07",
+      "curated_rule_id": "default-reviewed-non-metaphor",
+      "source_language_decision_basis": "span_text"
     },
     {
       "mipvu_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p11_s02_lu004",
@@ -3014,7 +4512,15 @@
       "char_offset_end": 1159,
       "sentence_char_offset_start": 19,
       "sentence_char_offset_end": 23,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "span_text": "fois",
+      "span_language": "fr",
+      "decision_type": "non_metaphor",
+      "review_batch": "napoleon-source-language-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07",
+      "curated_rule_id": "default-reviewed-non-metaphor",
+      "source_language_decision_basis": "span_text"
     },
     {
       "mipvu_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p11_s02_lu005",
@@ -3030,7 +4536,15 @@
       "char_offset_end": 1162,
       "sentence_char_offset_start": 24,
       "sentence_char_offset_end": 26,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "span_text": "ce",
+      "span_language": "fr",
+      "decision_type": "non_metaphor",
+      "review_batch": "napoleon-source-language-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07",
+      "curated_rule_id": "default-reviewed-non-metaphor",
+      "source_language_decision_basis": "span_text"
     },
     {
       "mipvu_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p11_s02_lu006",
@@ -3046,7 +4560,15 @@
       "char_offset_end": 1166,
       "sentence_char_offset_start": 27,
       "sentence_char_offset_end": 30,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "span_text": "que",
+      "span_language": "fr",
+      "decision_type": "non_metaphor",
+      "review_batch": "napoleon-source-language-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07",
+      "curated_rule_id": "default-reviewed-non-metaphor",
+      "source_language_decision_basis": "span_text"
     },
     {
       "mipvu_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p11_s02_lu007",
@@ -3062,7 +4584,15 @@
       "char_offset_end": 1171,
       "sentence_char_offset_start": 31,
       "sentence_char_offset_end": 35,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "span_text": "nous",
+      "span_language": "fr",
+      "decision_type": "non_metaphor",
+      "review_batch": "napoleon-source-language-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07",
+      "curated_rule_id": "default-reviewed-non-metaphor",
+      "source_language_decision_basis": "span_text"
     },
     {
       "mipvu_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p11_s02_lu008",
@@ -3078,7 +4608,15 @@
       "char_offset_end": 1177,
       "sentence_char_offset_start": 36,
       "sentence_char_offset_end": 41,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "span_text": "aTons",
+      "span_language": "fr",
+      "decision_type": "non_metaphor",
+      "review_batch": "napoleon-source-language-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07",
+      "curated_rule_id": "default-reviewed-non-metaphor",
+      "source_language_decision_basis": "span_text"
     },
     {
       "mipvu_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p11_s02_lu009",
@@ -3094,7 +4632,15 @@
       "char_offset_end": 1182,
       "sentence_char_offset_start": 42,
       "sentence_char_offset_end": 46,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "span_text": "fait",
+      "span_language": "fr",
+      "decision_type": "non_metaphor",
+      "review_batch": "napoleon-source-language-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07",
+      "curated_rule_id": "default-reviewed-non-metaphor",
+      "source_language_decision_basis": "span_text"
     },
     {
       "mipvu_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p11_s02_lu010",
@@ -3110,7 +4656,15 @@
       "char_offset_end": 1185,
       "sentence_char_offset_start": 47,
       "sentence_char_offset_end": 49,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "span_text": "si",
+      "span_language": "fr",
+      "decision_type": "non_metaphor",
+      "review_batch": "napoleon-source-language-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07",
+      "curated_rule_id": "default-reviewed-non-metaphor",
+      "source_language_decision_basis": "span_text"
     },
     {
       "mipvu_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p11_s02_lu011",
@@ -3126,7 +4680,15 @@
       "char_offset_end": 1193,
       "sentence_char_offset_start": 50,
       "sentence_char_offset_end": 57,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "span_text": "souvent",
+      "span_language": "fr",
+      "decision_type": "non_metaphor",
+      "review_batch": "napoleon-source-language-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07",
+      "curated_rule_id": "default-reviewed-non-metaphor",
+      "source_language_decision_basis": "span_text"
     },
     {
       "mipvu_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p11_s02_lu012",
@@ -3142,7 +4704,15 @@
       "char_offset_end": 1197,
       "sentence_char_offset_start": 59,
       "sentence_char_offset_end": 61,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "span_text": "et",
+      "span_language": "fr",
+      "decision_type": "non_metaphor",
+      "review_batch": "napoleon-source-language-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07",
+      "curated_rule_id": "default-reviewed-non-metaphor",
+      "source_language_decision_basis": "span_text"
     },
     {
       "mipvu_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p11_s02_lu013",
@@ -3158,7 +4728,15 @@
       "char_offset_end": 1206,
       "sentence_char_offset_start": 62,
       "sentence_char_offset_end": 70,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "span_text": "l'Europe",
+      "span_language": "fr",
+      "decision_type": "non_metaphor",
+      "review_batch": "napoleon-source-language-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07",
+      "curated_rule_id": "default-reviewed-non-metaphor",
+      "source_language_decision_basis": "span_text"
     },
     {
       "mipvu_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p11_s02_lu014",
@@ -3174,7 +4752,15 @@
       "char_offset_end": 1209,
       "sentence_char_offset_start": 71,
       "sentence_char_offset_end": 73,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "span_text": "ne",
+      "span_language": "fr",
+      "decision_type": "non_metaphor",
+      "review_batch": "napoleon-source-language-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07",
+      "curated_rule_id": "default-reviewed-non-metaphor",
+      "source_language_decision_basis": "span_text"
     },
     {
       "mipvu_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p11_s02_lu015",
@@ -3190,7 +4776,15 @@
       "char_offset_end": 1214,
       "sentence_char_offset_start": 74,
       "sentence_char_offset_end": 78,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "span_text": "nous",
+      "span_language": "fr",
+      "decision_type": "non_metaphor",
+      "review_batch": "napoleon-source-language-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07",
+      "curated_rule_id": "default-reviewed-non-metaphor",
+      "source_language_decision_basis": "span_text"
     },
     {
       "mipvu_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p11_s02_lu016",
@@ -3206,7 +4800,15 @@
       "char_offset_end": 1225,
       "sentence_char_offset_start": 79,
       "sentence_char_offset_end": 89,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "span_text": "contestera",
+      "span_language": "fr",
+      "decision_type": "non_metaphor",
+      "review_batch": "napoleon-source-language-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07",
+      "curated_rule_id": "default-reviewed-non-metaphor",
+      "source_language_decision_basis": "span_text"
     },
     {
       "mipvu_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p11_s02_lu017",
@@ -3222,7 +4824,15 @@
       "char_offset_end": 1229,
       "sentence_char_offset_start": 90,
       "sentence_char_offset_end": 93,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "span_text": "pas",
+      "span_language": "fr",
+      "decision_type": "non_metaphor",
+      "review_batch": "napoleon-source-language-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07",
+      "curated_rule_id": "default-reviewed-non-metaphor",
+      "source_language_decision_basis": "span_text"
     },
     {
       "mipvu_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p11_s02_lu018",
@@ -3238,7 +4848,15 @@
       "char_offset_end": 1232,
       "sentence_char_offset_start": 94,
       "sentence_char_offset_end": 96,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "span_text": "le",
+      "span_language": "fr",
+      "decision_type": "non_metaphor",
+      "review_batch": "napoleon-source-language-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07",
+      "curated_rule_id": "default-reviewed-non-metaphor",
+      "source_language_decision_basis": "span_text"
     },
     {
       "mipvu_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p11_s02_lu019",
@@ -3254,7 +4872,15 @@
       "char_offset_end": 1238,
       "sentence_char_offset_start": 97,
       "sentence_char_offset_end": 102,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "span_text": "titre",
+      "span_language": "fr",
+      "decision_type": "non_metaphor",
+      "review_batch": "napoleon-source-language-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07",
+      "curated_rule_id": "default-reviewed-non-metaphor",
+      "source_language_decision_basis": "span_text"
     },
     {
       "mipvu_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p11_s02_lu020",
@@ -3270,7 +4896,15 @@
       "char_offset_end": 1241,
       "sentence_char_offset_start": 103,
       "sentence_char_offset_end": 105,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "span_text": "de",
+      "span_language": "fr",
+      "decision_type": "non_metaphor",
+      "review_batch": "napoleon-source-language-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07",
+      "curated_rule_id": "default-reviewed-non-metaphor",
+      "source_language_decision_basis": "span_text"
     },
     {
       "mipvu_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p11_s02_lu021",
@@ -3286,7 +4920,15 @@
       "char_offset_end": 1244,
       "sentence_char_offset_start": 106,
       "sentence_char_offset_end": 108,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "span_text": "la",
+      "span_language": "fr",
+      "decision_type": "non_metaphor",
+      "review_batch": "napoleon-source-language-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07",
+      "curated_rule_id": "default-reviewed-non-metaphor",
+      "source_language_decision_basis": "span_text"
     },
     {
       "mipvu_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p11_s02_lu022",
@@ -3302,7 +4944,15 @@
       "char_offset_end": 1249,
       "sentence_char_offset_start": 109,
       "sentence_char_offset_end": 113,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "span_text": "plus",
+      "span_language": "fr",
+      "decision_type": "non_metaphor",
+      "review_batch": "napoleon-source-language-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07",
+      "curated_rule_id": "default-reviewed-non-metaphor",
+      "source_language_decision_basis": "span_text"
     },
     {
       "mipvu_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p11_s02_lu023",
@@ -3318,7 +4968,15 @@
       "char_offset_end": 1255,
       "sentence_char_offset_start": 114,
       "sentence_char_offset_end": 119,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "span_text": "brave",
+      "span_language": "fr",
+      "decision_type": "non_metaphor",
+      "review_batch": "napoleon-source-language-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07",
+      "curated_rule_id": "default-reviewed-non-metaphor",
+      "source_language_decision_basis": "span_text"
     },
     {
       "mipvu_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p11_s02_lu024",
@@ -3334,7 +4992,15 @@
       "char_offset_end": 1258,
       "sentence_char_offset_start": 120,
       "sentence_char_offset_end": 122,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "span_text": "et",
+      "span_language": "fr",
+      "decision_type": "non_metaphor",
+      "review_batch": "napoleon-source-language-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07",
+      "curated_rule_id": "default-reviewed-non-metaphor",
+      "source_language_decision_basis": "span_text"
     },
     {
       "mipvu_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p11_s02_lu025",
@@ -3350,7 +5016,15 @@
       "char_offset_end": 1261,
       "sentence_char_offset_start": 123,
       "sentence_char_offset_end": 125,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "span_text": "de",
+      "span_language": "fr",
+      "decision_type": "non_metaphor",
+      "review_batch": "napoleon-source-language-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07",
+      "curated_rule_id": "default-reviewed-non-metaphor",
+      "source_language_decision_basis": "span_text"
     },
     {
       "mipvu_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p11_s02_lu026",
@@ -3366,7 +5040,15 @@
       "char_offset_end": 1264,
       "sentence_char_offset_start": 126,
       "sentence_char_offset_end": 128,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "span_text": "la",
+      "span_language": "fr",
+      "decision_type": "non_metaphor",
+      "review_batch": "napoleon-source-language-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07",
+      "curated_rule_id": "default-reviewed-non-metaphor",
+      "source_language_decision_basis": "span_text"
     },
     {
       "mipvu_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p11_s02_lu027",
@@ -3382,7 +5064,15 @@
       "char_offset_end": 1269,
       "sentence_char_offset_start": 129,
       "sentence_char_offset_end": 133,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "span_text": "plus",
+      "span_language": "fr",
+      "decision_type": "non_metaphor",
+      "review_batch": "napoleon-source-language-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07",
+      "curated_rule_id": "default-reviewed-non-metaphor",
+      "source_language_decision_basis": "span_text"
     },
     {
       "mipvu_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p11_s02_lu028",
@@ -3398,7 +5088,15 @@
       "char_offset_end": 1279,
       "sentence_char_offset_start": 134,
       "sentence_char_offset_end": 143,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "span_text": "puissante",
+      "span_language": "fr",
+      "decision_type": "non_metaphor",
+      "review_batch": "napoleon-source-language-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07",
+      "curated_rule_id": "default-reviewed-non-metaphor",
+      "source_language_decision_basis": "span_text"
     },
     {
       "mipvu_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p11_s02_lu029",
@@ -3414,7 +5112,15 @@
       "char_offset_end": 1286,
       "sentence_char_offset_start": 144,
       "sentence_char_offset_end": 150,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "span_text": "nation",
+      "span_language": "fr",
+      "decision_type": "non_metaphor",
+      "review_batch": "napoleon-source-language-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07",
+      "curated_rule_id": "default-reviewed-non-metaphor",
+      "source_language_decision_basis": "span_text"
     },
     {
       "mipvu_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p11_s02_lu030",
@@ -3430,7 +5136,15 @@
       "char_offset_end": 1289,
       "sentence_char_offset_start": 151,
       "sentence_char_offset_end": 153,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "span_text": "du",
+      "span_language": "fr",
+      "decision_type": "non_metaphor",
+      "review_batch": "napoleon-source-language-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07",
+      "curated_rule_id": "default-reviewed-non-metaphor",
+      "source_language_decision_basis": "span_text"
     },
     {
       "mipvu_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p11_s02_lu031",
@@ -3446,7 +5160,15 @@
       "char_offset_end": 1295,
       "sentence_char_offset_start": 154,
       "sentence_char_offset_end": 159,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "span_text": "monde",
+      "span_language": "fr",
+      "decision_type": "non_metaphor",
+      "review_batch": "napoleon-source-language-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07",
+      "curated_rule_id": "default-reviewed-non-metaphor",
+      "source_language_decision_basis": "span_text"
     },
     {
       "mipvu_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p12_s01_lu001",
@@ -3462,7 +5184,15 @@
       "char_offset_end": 1307,
       "sentence_char_offset_start": 0,
       "sentence_char_offset_end": 9,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "span_text": "BONAPARTE",
+      "span_language": "fr",
+      "decision_type": "non_metaphor",
+      "review_batch": "napoleon-source-language-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07",
+      "curated_rule_id": "default-reviewed-non-metaphor",
+      "source_language_decision_basis": "span_text"
     },
     {
       "mipvu_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p13_s01_lu001",
@@ -3478,7 +5208,15 @@
       "char_offset_end": 1315,
       "sentence_char_offset_start": 0,
       "sentence_char_offset_end": 5,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "span_text": "Dépôt",
+      "span_language": "fr",
+      "decision_type": "non_metaphor",
+      "review_batch": "napoleon-source-language-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07",
+      "curated_rule_id": "default-reviewed-non-metaphor",
+      "source_language_decision_basis": "span_text"
     },
     {
       "mipvu_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p13_s01_lu002",
@@ -3494,7 +5232,15 @@
       "char_offset_end": 1318,
       "sentence_char_offset_start": 6,
       "sentence_char_offset_end": 8,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "span_text": "de",
+      "span_language": "fr",
+      "decision_type": "non_metaphor",
+      "review_batch": "napoleon-source-language-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07",
+      "curated_rule_id": "default-reviewed-non-metaphor",
+      "source_language_decision_basis": "span_text"
     },
     {
       "mipvu_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p13_s01_lu003",
@@ -3510,7 +5256,15 @@
       "char_offset_end": 1321,
       "sentence_char_offset_start": 9,
       "sentence_char_offset_end": 11,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "span_text": "la",
+      "span_language": "fr",
+      "decision_type": "non_metaphor",
+      "review_batch": "napoleon-source-language-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07",
+      "curated_rule_id": "default-reviewed-non-metaphor",
+      "source_language_decision_basis": "span_text"
     },
     {
       "mipvu_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p13_s01_lu004",
@@ -3526,7 +5280,15 @@
       "char_offset_end": 1328,
       "sentence_char_offset_start": 12,
       "sentence_char_offset_end": 18,
-      "review_status": "pending"
+      "review_status": "reviewed",
+      "span_text": "guerre",
+      "span_language": "fr",
+      "decision_type": "non_metaphor",
+      "review_batch": "napoleon-source-language-mipvu-review-v1",
+      "annotator": "codex-assisted-mipvu-v1",
+      "reviewed_at": "2026-06-28T10:02:07",
+      "curated_rule_id": "default-reviewed-non-metaphor",
+      "source_language_decision_basis": "span_text"
     }
   ],
   "pipeline_log": [
@@ -3535,6 +5297,11 @@
       "script": "scripts/generate-mipvu-worklist.py",
       "generated_at": "2026-06-28T02:11:40",
       "lexical_unit_count": 219
+    },
+    {
+      "stage": "complete-napoleon-mipvu-review",
+      "script": "scripts/complete-napoleon-mipvu-review.py",
+      "generated_at": "2026-06-28T10:02:07"
     }
   ]
 }

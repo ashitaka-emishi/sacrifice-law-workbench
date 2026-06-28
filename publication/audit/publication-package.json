@@ -1,7 +1,7 @@
 {
   "version": "1.0",
   "case_id": "lincoln",
-  "generated_at": "2026-06-28T02:11:43",
+  "generated_at": "2026-06-28T10:13:59",
   "status": "draft-review-package",
   "source_issue": "#13",
   "package_policy": "This package exposes the method, evidence, validation gate, AI-use statement, model-reliability disclosure, data-availability statement, claim traceability, and human reliability status gates needed for scholarly review. Human reliability claims are limited to complete case/language/layer/cohort rows and remain separate from model agreement and historical corroboration.",

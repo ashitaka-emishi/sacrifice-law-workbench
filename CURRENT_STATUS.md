@@ -17,33 +17,30 @@ The metaphor workflow now has a strict MIPVU identification layer before
 CMT/Koenigsberg interpretation.
 
 The main remaining gap before publication-ready v1 is reliability and claim
-promotion rather than original-corpus construction. All four original cases have
-Codex-assisted first-pass MIPVU decisions for their prior working cores, and
-#180 has now added targeted American Revolution, Lincoln, and Napoleon documents
-with raw text, normalized text, segmentation, and MIPVU worklists. Those newly
-added existing-case documents are pending annotation. The expansion window has
-also added French Revolution and British World War I as draft corpora with
-manifests, raw text, normalized text, segmentation, and MIPVU worklists, but no
-reviewed annotations, support ratings, or reliability samples yet. Lincoln has
-a complete model reliability workflow and designed human reliability cohorts
-for the prior three-document core, but required human coder submissions are not
-complete and the expanded Lincoln documents are not included in that reliability
-design yet. American Revolution, Napoleon, Hitler, French Revolution, and
-British World War I model and human reliability workflows remain absent or
-incomplete. First-pass CMT/Koenigsberg annotation artifacts are present for much
-of the original corpus, but public support ratings and analysis outputs remain
-draft until reliability, historical citation, and traceability gates are
-satisfied.
+promotion rather than original-corpus construction. The controlled pre-v1
+expansion window has now added targeted American Revolution, Lincoln, and
+Napoleon documents plus draft French Revolution and British World War I corpora,
+then run them through first-pass Codex-assisted MIPVU review, CMT/Koenigsberg
+annotation where supported, concordance, case analysis, cross-case synthesis,
+validation, and traceability regeneration. These annotation-forward artifacts
+remain provisional until independent human review. Lincoln retains complete
+model-reliability artifacts for the prior three-document core and designed
+human-reliability cohorts, but required human coder submissions are not complete
+and the expanded Lincoln documents are not included in that reliability design
+yet. American Revolution, Napoleon, Hitler, French Revolution, and British World
+War I model and human reliability workflows remain absent or incomplete. Public
+support ratings and promoted analysis claims remain draft until reliability,
+historical citation, and traceability gates are satisfied.
 
 ## Case State
 
 | Area | Current state |
 |---|---|
-| Lincoln | 5 manifest documents; corpus verification passes 5/5; the First Inaugural and 4 July 1861 Special Message have generated MIPVU worklists and are pending annotation. The prior 3-document core has complete model reliability artifacts and designed human reliability cohorts, but required primary coder submissions are not complete. |
-| American Revolution | 11 manifest documents; corpus verification passes 11/11; Jefferson's rough draft and Washington's Newburgh Address have generated MIPVU worklists and are pending annotation. Prior first-pass decisions remain provisional until independent human review. |
-| Napoleon | 11 manifest documents; corpus verification passes 11/11; the pinned Gallica/Plon 1796 Army of Italy proclamation has generated source-language French MIPVU worklists and is pending annotation. Prior first-pass source-language decisions remain provisional until independent human review. |
-| French Revolution | 2 manifest documents; corpus verification passes 2/2; normalized, segmented, and 11,905 lexical units have generated MIPVU worklists. No reviewed annotations, support rating, or reliability sample exists yet. |
-| British World War I | 4 manifest documents; corpus verification passes 4/4; normalized, segmented, and 18,213 lexical units have generated MIPVU worklists. No reviewed annotations, support rating, or reliability sample exists yet. |
+| Lincoln | 5 manifest documents; corpus verification passes 5/5; all 16,198 lexical units have Codex-assisted first-pass MIPVU decisions; all 5 documents have generated annotation artifacts. The prior 3-document core has complete historical model-reliability artifacts and designed human reliability cohorts, but required primary coder submissions are not complete and reliability resampling is still needed for the expanded corpus. |
+| American Revolution | 11 manifest documents; corpus verification passes 11/11; all 34,890 lexical units have Codex-assisted first-pass MIPVU decisions; 4 documents have generated annotation artifacts. Jefferson's rough draft and Washington's Newburgh Address have reviewed MIPVU worklists but no CMT annotations from this conservative pass because no metaphor or uncertain units were selected. |
+| Napoleon | 11 manifest documents; corpus verification passes 11/11; all 23,224 lexical units have Codex-assisted first-pass source-language MIPVU decisions; 9 documents have generated annotation artifacts. The pinned Gallica/Plon 1796 Army of Italy proclamation has reviewed MIPVU worklists but no CMT annotations from this conservative pass because no metaphor or uncertain units were selected. |
+| French Revolution | 2 manifest documents; corpus verification passes 2/2; all 17,123 lexical units have Codex-assisted first-pass MIPVU decisions; both documents have generated annotation artifacts. No support rating or reliability sample exists yet. |
+| British World War I | 4 manifest documents; corpus verification passes 4/4; all 18,213 lexical units have Codex-assisted first-pass MIPVU decisions; all 4 documents have generated annotation artifacts. No support rating or reliability sample exists yet. |
 | Hitler | 8 manifest documents; corpus verification passes 8/8; normalized, segmented, and all 86,752 lexical units have Codex-assisted first-pass source-language German MIPVU decisions. Source-derived corpus artifacts remain gitignored under fair-use constraints. Results remain provisional until independent human review. |
 | Cross-case | Synthesis, mapping, and validation scaffolds exist under `cases/x-case/`; comparative protocol and moral-equivalence guardrails are defined, but findings remain draft until case-level ratings, reliability, and claim traceability are promoted. |
 
@@ -81,11 +78,14 @@ Most recent local checks run on 2026-06-28:
 ```bash
 npm run status
 npm run validate
+npm run test:model-reliability
+npm run pipeline
 quarto render
+npm run site:table-overflow
 ```
 
-Both passed. JSON validation reported that authorized local Hitler artifacts
-match committed integrity hashes.
+These passed in the current expansion window. JSON validation reported that
+authorized local Hitler artifacts match committed integrity hashes.
 
 Previously recorded corpus checks:
 
@@ -117,16 +117,16 @@ python3 scripts/generate-mipvu-worklist.py --case hitler
 
 - Complete the bounded pre-v1 expansion window tracked by GitHub milestone 7
   and issue #174.
-- Apply the expansion selection criteria, then define rights review
-  requirements, per-case minimum viable corpus size, and a new freeze point.
+- Freeze the expanded corpus boundary before reliability and publication
+  promotion resume.
 - Complete independent human review before treating Codex-assisted MIPVU
   decisions as publication-grade evidence.
 - Complete Lincoln human reliability coder submissions and adjudication.
 - Design model and human reliability workflows for American Revolution,
   Napoleon, Hitler, French Revolution, and British World War I if their
   findings will be promoted beyond draft status.
-- Audit annotation coverage and regenerate downstream concordance and analysis
-  artifacts after any corpus expansion or annotation changes.
+- Refresh or resample Lincoln reliability artifacts against the expanded
+  annotation-forward corpus before promotion.
 - Promote only validated, traceable claims from draft to reviewed or finding
   status.
 

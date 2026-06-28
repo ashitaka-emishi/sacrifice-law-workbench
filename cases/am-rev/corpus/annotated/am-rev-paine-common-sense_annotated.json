@@ -2,9 +2,9 @@
   "version": "1.0",
   "case_id": "am-rev",
   "document_id": "am-rev-paine-common-sense",
-  "generated_at": "2026-06-17T15:09:54",
+  "generated_at": "2026-06-28T10:02:20",
   "generator": "scripts/generate-annotation-layer.py",
-  "annotation_policy": "CMT and Koenigsbergian annotations derived from MIPVU-reviewed metaphorical and uncertain lexical units. Each instance cites at least one MIPVU ID with decision_type in METAPHOR_DECISIONS.",
+  "annotation_policy": "CMT and Koenigsbergian annotations derived from MIPVU-reviewed metaphorical and uncertain lexical units. Each instance cites at least one MIPVU ID with decision_type in MIPVU_METAPHOR_OR_UNCERTAIN_DECISIONS.",
   "instances": [
     {
       "instance_id": "amrev-ann-001",
@@ -30,7 +30,7 @@
         ],
         "confidence": 0.76,
         "rival_reading": "The war is literal, but the phrase condenses political destruction into conventional elemental and bodily imagery.",
-        "justification": "MIPVU review rule '' marked 3 unit(s) as metaphor-related or uncertain in this sentence."
+        "justification": "MIPVU review rule 'paine-fire-sword' marked 3 unit(s) as metaphor-related or uncertain in this sentence."
       },
       "koenigsberg": {
         "violence_logic": true
@@ -63,7 +63,7 @@
         ],
         "confidence": 0.84,
         "rival_reading": "Some war deaths are literal, but Paine's rhetoric gives them sacrificial political meaning.",
-        "justification": "MIPVU review rule '' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
+        "justification": "MIPVU review rule 'paine-blood-sacrifice' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
       },
       "koenigsberg": {
         "fantasy_type": "redemptive_sacrifice",
@@ -97,7 +97,7 @@
         ],
         "confidence": 0.84,
         "rival_reading": "Some war deaths are literal, but Paine's rhetoric gives them sacrificial political meaning.",
-        "justification": "MIPVU review rule '' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
+        "justification": "MIPVU review rule 'paine-blood-sacrifice' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
       },
       "koenigsberg": {
         "fantasy_type": "redemptive_sacrifice",
@@ -131,7 +131,7 @@
         ],
         "confidence": 0.84,
         "rival_reading": "Some war deaths are literal, but Paine's rhetoric gives them sacrificial political meaning.",
-        "justification": "MIPVU review rule '' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
+        "justification": "MIPVU review rule 'paine-blood-sacrifice' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
       },
       "koenigsberg": {
         "fantasy_type": "redemptive_sacrifice",
@@ -165,7 +165,7 @@
         ],
         "confidence": 0.84,
         "rival_reading": "Paine applies coercive bodily restraint vocabulary to constitutional and imperial dependence.",
-        "justification": "MIPVU review rule '' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
+        "justification": "MIPVU review rule 'paine-bondage-liberty' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
       },
       "koenigsberg": {},
       "meta": {
@@ -196,7 +196,7 @@
         ],
         "confidence": 0.84,
         "rival_reading": "Some war deaths are literal, but Paine's rhetoric gives them sacrificial political meaning.",
-        "justification": "MIPVU review rule '' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
+        "justification": "MIPVU review rule 'paine-blood-sacrifice' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
       },
       "koenigsberg": {
         "fantasy_type": "redemptive_sacrifice",
@@ -230,7 +230,7 @@
         ],
         "confidence": 0.78,
         "rival_reading": "Political collectives and constitutions are abstract institutions, not literal bodies or machines.",
-        "justification": "MIPVU review rule '' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
+        "justification": "MIPVU review rule 'paine-body-government' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
       },
       "koenigsberg": {},
       "meta": {
@@ -261,7 +261,7 @@
         ],
         "confidence": 0.78,
         "rival_reading": "Political collectives and constitutions are abstract institutions, not literal bodies or machines.",
-        "justification": "MIPVU review rule '' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
+        "justification": "MIPVU review rule 'paine-body-government' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
       },
       "koenigsberg": {},
       "meta": {
@@ -292,7 +292,7 @@
         ],
         "confidence": 0.78,
         "rival_reading": "Political collectives and constitutions are abstract institutions, not literal bodies or machines.",
-        "justification": "MIPVU review rule '' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
+        "justification": "MIPVU review rule 'paine-body-government' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
       },
       "koenigsberg": {},
       "meta": {
@@ -323,7 +323,7 @@
         ],
         "confidence": 0.84,
         "rival_reading": "Paine applies coercive bodily restraint vocabulary to constitutional and imperial dependence.",
-        "justification": "MIPVU review rule '' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
+        "justification": "MIPVU review rule 'paine-bondage-liberty' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
       },
       "koenigsberg": {},
       "meta": {
@@ -354,7 +354,7 @@
         ],
         "confidence": 0.88,
         "rival_reading": "Political colonies, pamphlets, and founding moments are not literal parents, infants, worlds, or births.",
-        "justification": "MIPVU review rule '' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
+        "justification": "MIPVU review rule 'paine-parent-birth' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
       },
       "koenigsberg": {},
       "meta": {
@@ -385,7 +385,7 @@
         ],
         "confidence": 0.84,
         "rival_reading": "Paine applies coercive bodily restraint vocabulary to constitutional and imperial dependence.",
-        "justification": "MIPVU review rule '' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
+        "justification": "MIPVU review rule 'paine-bondage-liberty' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
       },
       "koenigsberg": {},
       "meta": {
@@ -416,7 +416,7 @@
         ],
         "confidence": 0.82,
         "rival_reading": "Political development is abstract but is construed as organic growth.",
-        "justification": "MIPVU review rule '' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
+        "justification": "MIPVU review rule 'paine-growth-union' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
       },
       "koenigsberg": {},
       "meta": {
@@ -450,7 +450,7 @@
         ],
         "confidence": 0.88,
         "rival_reading": "Political colonies, pamphlets, and founding moments are not literal parents, infants, worlds, or births.",
-        "justification": "MIPVU review rule '' marked 4 unit(s) as metaphor-related or uncertain in this sentence."
+        "justification": "MIPVU review rule 'paine-parent-birth' marked 4 unit(s) as metaphor-related or uncertain in this sentence."
       },
       "koenigsberg": {},
       "meta": {
@@ -482,7 +482,7 @@
         ],
         "confidence": 0.84,
         "rival_reading": "Some war deaths are literal, but Paine's rhetoric gives them sacrificial political meaning.",
-        "justification": "MIPVU review rule '' marked 2 unit(s) as metaphor-related or uncertain in this sentence."
+        "justification": "MIPVU review rule 'paine-blood-sacrifice' marked 2 unit(s) as metaphor-related or uncertain in this sentence."
       },
       "koenigsberg": {
         "fantasy_type": "redemptive_sacrifice",
@@ -516,7 +516,7 @@
         ],
         "confidence": 0.78,
         "rival_reading": "Political collectives and constitutions are abstract institutions, not literal bodies or machines.",
-        "justification": "MIPVU review rule '' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
+        "justification": "MIPVU review rule 'paine-body-government' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
       },
       "koenigsberg": {},
       "meta": {
@@ -548,7 +548,7 @@
         ],
         "confidence": 0.76,
         "rival_reading": "The war is literal, but the phrase condenses political destruction into conventional elemental and bodily imagery.",
-        "justification": "MIPVU review rule '' marked 2 unit(s) as metaphor-related or uncertain in this sentence."
+        "justification": "MIPVU review rule 'paine-fire-sword' marked 2 unit(s) as metaphor-related or uncertain in this sentence."
       },
       "koenigsberg": {
         "violence_logic": true
@@ -581,7 +581,7 @@
         ],
         "confidence": 0.84,
         "rival_reading": "Paine applies coercive bodily restraint vocabulary to constitutional and imperial dependence.",
-        "justification": "MIPVU review rule '' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
+        "justification": "MIPVU review rule 'paine-bondage-liberty' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
       },
       "koenigsberg": {},
       "meta": {
@@ -613,7 +613,7 @@
         ],
         "confidence": 0.88,
         "rival_reading": "Political colonies, pamphlets, and founding moments are not literal parents, infants, worlds, or births.",
-        "justification": "MIPVU review rule '' marked 2 unit(s) as metaphor-related or uncertain in this sentence."
+        "justification": "MIPVU review rule 'paine-parent-birth' marked 2 unit(s) as metaphor-related or uncertain in this sentence."
       },
       "koenigsberg": {},
       "meta": {
@@ -644,7 +644,7 @@
         ],
         "confidence": 0.84,
         "rival_reading": "Some war deaths are literal, but Paine's rhetoric gives them sacrificial political meaning.",
-        "justification": "MIPVU review rule '' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
+        "justification": "MIPVU review rule 'paine-blood-sacrifice' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
       },
       "koenigsberg": {
         "fantasy_type": "redemptive_sacrifice",
@@ -678,7 +678,7 @@
         ],
         "confidence": 0.78,
         "rival_reading": "Political collectives and constitutions are abstract institutions, not literal bodies or machines.",
-        "justification": "MIPVU review rule '' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
+        "justification": "MIPVU review rule 'paine-body-government' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
       },
       "koenigsberg": {},
       "meta": {
@@ -709,7 +709,7 @@
         ],
         "confidence": 0.84,
         "rival_reading": "Some war deaths are literal, but Paine's rhetoric gives them sacrificial political meaning.",
-        "justification": "MIPVU review rule '' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
+        "justification": "MIPVU review rule 'paine-blood-sacrifice' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
       },
       "koenigsberg": {
         "fantasy_type": "redemptive_sacrifice",
@@ -743,7 +743,7 @@
         ],
         "confidence": 0.88,
         "rival_reading": "Political colonies, pamphlets, and founding moments are not literal parents, infants, worlds, or births.",
-        "justification": "MIPVU review rule '' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
+        "justification": "MIPVU review rule 'paine-parent-birth' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
       },
       "koenigsberg": {},
       "meta": {
@@ -774,7 +774,7 @@
         ],
         "confidence": 0.78,
         "rival_reading": "Political collectives and constitutions are abstract institutions, not literal bodies or machines.",
-        "justification": "MIPVU review rule '' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
+        "justification": "MIPVU review rule 'paine-body-government' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
       },
       "koenigsberg": {},
       "meta": {
@@ -809,7 +809,7 @@
         ],
         "confidence": 0.76,
         "rival_reading": "The war is literal, but the phrase condenses political destruction into conventional elemental and bodily imagery.",
-        "justification": "MIPVU review rule '' marked 5 unit(s) as metaphor-related or uncertain in this sentence."
+        "justification": "MIPVU review rule 'paine-fire-sword' marked 5 unit(s) as metaphor-related or uncertain in this sentence."
       },
       "koenigsberg": {
         "violence_logic": true
@@ -846,7 +846,7 @@
         ],
         "confidence": 0.88,
         "rival_reading": "Paine uses physical mortality to explain the social necessity of cooperation.",
-        "justification": "MIPVU review rule '' marked 5 unit(s) as metaphor-related or uncertain in this sentence."
+        "justification": "MIPVU review rule 'paine-disease-death' marked 5 unit(s) as metaphor-related or uncertain in this sentence."
       },
       "koenigsberg": {},
       "meta": {
@@ -882,7 +882,7 @@
         ],
         "confidence": 0.84,
         "rival_reading": "Social formation and moral purity are abstract but are explained through physical force and fortification.",
-        "justification": "MIPVU review rule '' marked 6 unit(s) as metaphor-related or uncertain in this sentence."
+        "justification": "MIPVU review rule 'paine-gravity-fortress' marked 6 unit(s) as metaphor-related or uncertain in this sentence."
       },
       "koenigsberg": {},
       "meta": {
@@ -914,7 +914,7 @@
         ],
         "confidence": 0.78,
         "rival_reading": "Political collectives and constitutions are abstract institutions, not literal bodies or machines.",
-        "justification": "MIPVU review rule '' marked 2 unit(s) as metaphor-related or uncertain in this sentence."
+        "justification": "MIPVU review rule 'paine-body-government' marked 2 unit(s) as metaphor-related or uncertain in this sentence."
       },
       "koenigsberg": {},
       "meta": {
@@ -953,7 +953,7 @@
         ],
         "confidence": 0.8,
         "rival_reading": "Abstract faculties are treated as embodied perceivers or speakers.",
-        "justification": "MIPVU review rule '' marked 9 unit(s) as metaphor-related or uncertain in this sentence."
+        "justification": "MIPVU review rule 'paine-voice-reason' marked 9 unit(s) as metaphor-related or uncertain in this sentence."
       },
       "koenigsberg": {},
       "meta": {
@@ -986,7 +986,7 @@
         ],
         "confidence": 0.78,
         "rival_reading": "Political collectives and constitutions are abstract institutions, not literal bodies or machines.",
-        "justification": "MIPVU review rule '' marked 3 unit(s) as metaphor-related or uncertain in this sentence."
+        "justification": "MIPVU review rule 'paine-body-government' marked 3 unit(s) as metaphor-related or uncertain in this sentence."
       },
       "koenigsberg": {},
       "meta": {
@@ -1017,7 +1017,7 @@
         ],
         "confidence": 0.84,
         "rival_reading": "Paine applies coercive bodily restraint vocabulary to constitutional and imperial dependence.",
-        "justification": "MIPVU review rule '' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
+        "justification": "MIPVU review rule 'paine-bondage-liberty' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
       },
       "koenigsberg": {},
       "meta": {
@@ -1050,7 +1050,7 @@
         ],
         "confidence": 0.78,
         "rival_reading": "Political collectives and constitutions are abstract institutions, not literal bodies or machines.",
-        "justification": "MIPVU review rule '' marked 3 unit(s) as metaphor-related or uncertain in this sentence."
+        "justification": "MIPVU review rule 'paine-body-government' marked 3 unit(s) as metaphor-related or uncertain in this sentence."
       },
       "koenigsberg": {},
       "meta": {
@@ -1081,7 +1081,7 @@
         ],
         "confidence": 0.78,
         "rival_reading": "Political collectives and constitutions are abstract institutions, not literal bodies or machines.",
-        "justification": "MIPVU review rule '' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
+        "justification": "MIPVU review rule 'paine-body-government' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
       },
       "koenigsberg": {},
       "meta": {
@@ -1112,7 +1112,7 @@
         ],
         "confidence": 0.78,
         "rival_reading": "Political collectives and constitutions are abstract institutions, not literal bodies or machines.",
-        "justification": "MIPVU review rule '' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
+        "justification": "MIPVU review rule 'paine-body-government' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
       },
       "koenigsberg": {},
       "meta": {
@@ -1147,7 +1147,7 @@
         ],
         "confidence": 0.86,
         "rival_reading": "Royal authority is political, but Paine frames it through religious transgression and bodily mortality.",
-        "justification": "MIPVU review rule '' marked 5 unit(s) as metaphor-related or uncertain in this sentence."
+        "justification": "MIPVU review rule 'paine-anti-monarchy-sacred-parody' marked 5 unit(s) as metaphor-related or uncertain in this sentence."
       },
       "koenigsberg": {
         "fantasy_type": "providential_covenant"
@@ -1182,7 +1182,7 @@
         ],
         "confidence": 0.86,
         "rival_reading": "Royal authority is political, but Paine frames it through religious transgression and bodily mortality.",
-        "justification": "MIPVU review rule '' marked 3 unit(s) as metaphor-related or uncertain in this sentence."
+        "justification": "MIPVU review rule 'paine-anti-monarchy-sacred-parody' marked 3 unit(s) as metaphor-related or uncertain in this sentence."
       },
       "koenigsberg": {
         "fantasy_type": "providential_covenant"
@@ -1215,7 +1215,7 @@
         ],
         "confidence": 0.86,
         "rival_reading": "Royal authority is political, but Paine frames it through religious transgression and bodily mortality.",
-        "justification": "MIPVU review rule '' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
+        "justification": "MIPVU review rule 'paine-anti-monarchy-sacred-parody' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
       },
       "koenigsberg": {
         "fantasy_type": "providential_covenant"
@@ -1248,7 +1248,7 @@
         ],
         "confidence": 0.82,
         "rival_reading": "Political development is abstract but is construed as organic growth.",
-        "justification": "MIPVU review rule '' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
+        "justification": "MIPVU review rule 'paine-growth-union' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
       },
       "koenigsberg": {},
       "meta": {
@@ -1279,7 +1279,7 @@
         ],
         "confidence": 0.82,
         "rival_reading": "Political development is abstract but is construed as organic growth.",
-        "justification": "MIPVU review rule '' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
+        "justification": "MIPVU review rule 'paine-growth-union' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
       },
       "koenigsberg": {},
       "meta": {
@@ -1310,7 +1310,7 @@
         ],
         "confidence": 0.84,
         "rival_reading": "Some war deaths are literal, but Paine's rhetoric gives them sacrificial political meaning.",
-        "justification": "MIPVU review rule '' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
+        "justification": "MIPVU review rule 'paine-blood-sacrifice' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
       },
       "koenigsberg": {
         "fantasy_type": "redemptive_sacrifice",
@@ -1344,7 +1344,7 @@
         ],
         "confidence": 0.84,
         "rival_reading": "Some war deaths are literal, but Paine's rhetoric gives them sacrificial political meaning.",
-        "justification": "MIPVU review rule '' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
+        "justification": "MIPVU review rule 'paine-blood-sacrifice' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
       },
       "koenigsberg": {
         "fantasy_type": "redemptive_sacrifice",
@@ -1378,7 +1378,7 @@
         ],
         "confidence": 0.84,
         "rival_reading": "Some war deaths are literal, but Paine's rhetoric gives them sacrificial political meaning.",
-        "justification": "MIPVU review rule '' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
+        "justification": "MIPVU review rule 'paine-blood-sacrifice' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
       },
       "koenigsberg": {
         "fantasy_type": "redemptive_sacrifice",
@@ -1412,7 +1412,7 @@
         ],
         "confidence": 0.84,
         "rival_reading": "Paine applies coercive bodily restraint vocabulary to constitutional and imperial dependence.",
-        "justification": "MIPVU review rule '' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
+        "justification": "MIPVU review rule 'paine-bondage-liberty' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
       },
       "koenigsberg": {},
       "meta": {
@@ -1443,7 +1443,7 @@
         ],
         "confidence": 0.82,
         "rival_reading": "Political development is abstract but is construed as organic growth.",
-        "justification": "MIPVU review rule '' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
+        "justification": "MIPVU review rule 'paine-growth-union' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
       },
       "koenigsberg": {},
       "meta": {
@@ -1474,7 +1474,7 @@
         ],
         "confidence": 0.84,
         "rival_reading": "Some war deaths are literal, but Paine's rhetoric gives them sacrificial political meaning.",
-        "justification": "MIPVU review rule '' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
+        "justification": "MIPVU review rule 'paine-blood-sacrifice' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
       },
       "koenigsberg": {
         "fantasy_type": "redemptive_sacrifice",
@@ -1508,7 +1508,7 @@
         ],
         "confidence": 0.84,
         "rival_reading": "Some war deaths are literal, but Paine's rhetoric gives them sacrificial political meaning.",
-        "justification": "MIPVU review rule '' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
+        "justification": "MIPVU review rule 'paine-blood-sacrifice' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
       },
       "koenigsberg": {
         "fantasy_type": "redemptive_sacrifice",
@@ -1542,7 +1542,7 @@
         ],
         "confidence": 0.88,
         "rival_reading": "Political colonies, pamphlets, and founding moments are not literal parents, infants, worlds, or births.",
-        "justification": "MIPVU review rule '' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
+        "justification": "MIPVU review rule 'paine-parent-birth' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
       },
       "koenigsberg": {},
       "meta": {
@@ -1573,7 +1573,7 @@
         ],
         "confidence": 0.88,
         "rival_reading": "Political colonies, pamphlets, and founding moments are not literal parents, infants, worlds, or births.",
-        "justification": "MIPVU review rule '' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
+        "justification": "MIPVU review rule 'paine-parent-birth' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
       },
       "koenigsberg": {},
       "meta": {
@@ -1605,7 +1605,7 @@
         ],
         "confidence": 0.88,
         "rival_reading": "Political colonies, pamphlets, and founding moments are not literal parents, infants, worlds, or births.",
-        "justification": "MIPVU review rule '' marked 2 unit(s) as metaphor-related or uncertain in this sentence."
+        "justification": "MIPVU review rule 'paine-parent-birth' marked 2 unit(s) as metaphor-related or uncertain in this sentence."
       },
       "koenigsberg": {},
       "meta": {
@@ -1636,7 +1636,7 @@
         ],
         "confidence": 0.88,
         "rival_reading": "Political colonies, pamphlets, and founding moments are not literal parents, infants, worlds, or births.",
-        "justification": "MIPVU review rule '' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
+        "justification": "MIPVU review rule 'paine-parent-birth' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
       },
       "koenigsberg": {},
       "meta": {
@@ -1667,7 +1667,7 @@
         ],
         "confidence": 0.88,
         "rival_reading": "Political colonies, pamphlets, and founding moments are not literal parents, infants, worlds, or births.",
-        "justification": "MIPVU review rule '' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
+        "justification": "MIPVU review rule 'paine-parent-birth' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
       },
       "koenigsberg": {},
       "meta": {
@@ -1699,7 +1699,7 @@
         ],
         "confidence": 0.88,
         "rival_reading": "Political colonies, pamphlets, and founding moments are not literal parents, infants, worlds, or births.",
-        "justification": "MIPVU review rule '' marked 2 unit(s) as metaphor-related or uncertain in this sentence."
+        "justification": "MIPVU review rule 'paine-parent-birth' marked 2 unit(s) as metaphor-related or uncertain in this sentence."
       },
       "koenigsberg": {},
       "meta": {
@@ -1713,12 +1713,10 @@
       "case_id": "am-rev",
       "document_id": "am-rev-paine-common-sense",
       "sentence_id": "am-rev-paine-common-sense_s01_p96_s04",
-      "span_text": "blood / slain / voice / nature",
+      "span_text": "blood / slain",
       "mipvu_ids": [
         "am-rev-paine-common-sense_s01_p96_s04_lu002",
-        "am-rev-paine-common-sense_s01_p96_s04_lu005",
-        "am-rev-paine-common-sense_s01_p96_s04_lu008",
-        "am-rev-paine-common-sense_s01_p96_s04_lu010"
+        "am-rev-paine-common-sense_s01_p96_s04_lu005"
       ],
       "cmt": {
         "mapping_id": "amrev-cmt-053",
@@ -1729,19 +1727,50 @@
         "conceptual_metaphor": "INDEPENDENCE IS SACRIFICE",
         "entailments": [
           "revolutionary suffering is framed through blood, slain bodies, martyrs, sacrifice, altars, or wounds",
-          "judgment and reason are represented through sight, hearing, darkness, voice, and agency",
           "Revolutionary commitment is understood through sacrifice and bodily injury."
         ],
-        "confidence": 0.82,
+        "confidence": 0.84,
         "rival_reading": "Some war deaths are literal, but Paine's rhetoric gives them sacrificial political meaning.",
-        "justification": "MIPVU review rule '' marked 4 unit(s) as metaphor-related or uncertain in this sentence."
+        "justification": "MIPVU review rule 'paine-blood-sacrifice' marked 2 unit(s) as metaphor-related or uncertain in this sentence."
       },
       "koenigsberg": {
         "fantasy_type": "redemptive_sacrifice",
         "sacrificial_economy": true
       },
       "meta": {
-        "confidence": 0.82,
+        "confidence": 0.84,
+        "ambiguity_flag": false,
+        "suppression_flag": false
+      }
+    },
+    {
+      "instance_id": "amrev-ann-054",
+      "case_id": "am-rev",
+      "document_id": "am-rev-paine-common-sense",
+      "sentence_id": "am-rev-paine-common-sense_s01_p96_s04",
+      "span_text": "voice / nature",
+      "mipvu_ids": [
+        "am-rev-paine-common-sense_s01_p96_s04_lu008",
+        "am-rev-paine-common-sense_s01_p96_s04_lu010"
+      ],
+      "cmt": {
+        "mapping_id": "amrev-cmt-054",
+        "cluster_id": "am-rev-01-liberty-tyranny",
+        "source_domain_primary": "body",
+        "source_domain_secondary": [],
+        "target_domain": "social_body",
+        "conceptual_metaphor": "SOCIAL BODY IS BODY",
+        "entailments": [
+          "judgment and reason are represented through sight, hearing, darkness, voice, and agency",
+          "Political judgment is understood through bodily perception and personified reason."
+        ],
+        "confidence": 0.8,
+        "rival_reading": "Abstract faculties are treated as embodied perceivers or speakers.",
+        "justification": "MIPVU review rule 'paine-voice-reason' marked 2 unit(s) as metaphor-related or uncertain in this sentence."
+      },
+      "koenigsberg": {},
+      "meta": {
+        "confidence": 0.8,
         "ambiguity_flag": false,
         "suppression_flag": false
       }
