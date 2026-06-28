@@ -31,7 +31,7 @@
       {
         "stage": "normalize-texts",
         "script": "scripts/normalize-texts.py",
-        "generated_at": "2026-06-27T20:25:36"
+        "generated_at": "2026-06-28T02:11:37"
       }
     ]
   },
@@ -5273,7 +5273,7 @@
     {
       "stage": "segment-texts",
       "script": "scripts/segment-texts.py",
-      "generated_at": "2026-06-27T20:25:36",
+      "generated_at": "2026-06-28T02:11:37",
       "sentence_count": 409
     }
   ]

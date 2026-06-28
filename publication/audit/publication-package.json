@@ -1,7 +1,7 @@
 {
   "version": "1.0",
   "case_id": "lincoln",
-  "generated_at": "2026-06-26T23:05:08",
+  "generated_at": "2026-06-28T02:11:43",
   "status": "draft-review-package",
   "source_issue": "#13",
   "package_policy": "This package exposes the method, evidence, validation gate, AI-use statement, model-reliability disclosure, data-availability statement, claim traceability, and human reliability status gates needed for scholarly review. Human reliability claims are limited to complete case/language/layer/cohort rows and remain separate from model agreement and historical corroboration.",
@@ -253,11 +253,13 @@
       "publication_status": "draft-review-package",
       "path": "cases/*/quality/human-reliability/status.json",
       "status": "available",
-      "file_count": 3,
+      "file_count": 5,
       "files": [
         "cases/am-rev/quality/human-reliability/status.json",
+        "cases/fr-rev/quality/human-reliability/status.json",
         "cases/lincoln/quality/human-reliability/status.json",
-        "cases/napoleon/quality/human-reliability/status.json"
+        "cases/napoleon/quality/human-reliability/status.json",
+        "cases/wwi-britain/quality/human-reliability/status.json"
       ]
     },
     {
@@ -330,10 +332,32 @@
     "policy": "Human reliability claims are scoped to complete cohort rows only. Absent, designed, partial, invalid, awaiting-adjudication, and unresolved states may be disclosed but cannot support publication-ready human reliability claims.",
     "claim_status": "no-complete-human-reliability-cohorts",
     "complete_cohorts": [],
-    "blocked_or_incomplete_cohorts": [],
+    "blocked_or_incomplete_cohorts": [
+      {
+        "case_id": "lincoln",
+        "cohort_id": "lincoln-en-cmt-launch",
+        "cohort_version": "1.0.0",
+        "source_language": "en",
+        "task_layer": "cmt",
+        "state": "designed",
+        "valid_submission_count": 0,
+        "unresolved_adjudication_count": 0
+      }
+    ],
     "case_statuses": [
       {
         "case_id": "am-rev",
+        "state": "absent",
+        "valid": true,
+        "cohort_count": 0,
+        "valid_runs": 0,
+        "complete_cohort_count": 0,
+        "unresolved_adjudications": 0,
+        "warning_count": 1,
+        "error_count": 0
+      },
+      {
+        "case_id": "fr-rev",
         "state": "absent",
         "valid": true,
         "cohort_count": 0,
@@ -356,6 +380,17 @@
       },
       {
         "case_id": "lincoln",
+        "state": "designed",
+        "valid": true,
+        "cohort_count": 1,
+        "valid_runs": 0,
+        "complete_cohort_count": 0,
+        "unresolved_adjudications": 0,
+        "warning_count": 1,
+        "error_count": 0
+      },
+      {
+        "case_id": "napoleon",
         "state": "absent",
         "valid": true,
         "cohort_count": 0,
@@ -366,7 +401,7 @@
         "error_count": 0
       },
       {
-        "case_id": "napoleon",
+        "case_id": "wwi-britain",
         "state": "absent",
         "valid": true,
         "cohort_count": 0,

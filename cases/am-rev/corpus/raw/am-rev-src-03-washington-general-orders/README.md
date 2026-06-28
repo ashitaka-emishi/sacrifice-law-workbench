@@ -1,21 +1,12 @@
-# Washington General Orders — Manual Re-Acquisition Needed
+# Washington General Orders — Founders Online Sources
 
-**STATUS: All 7 files contain wrong documents. Re-download required.**
+**STATUS: Raw files are committed and pass manifest verification.**
 
-The browser snippet (`founders-online-washington-orders.js`) ran but all 7
-files contain wrong content. Founders Online's async document loading caused
-the script to capture whatever document was already in the DOM cache instead
-of the intended document. Files currently contain:
-
-| Filename | Should be | Actually contains |
-|----------|-----------|-------------------|
-| 1775-07-04-first-independence-day | General Orders, 4 Jul 1775 | Commission from Continental Congress, 19 Jun 1775 |
-| 1776-02-09-winter-encampment | General Orders, 9 Feb 1776 | GW to Maj. Gen. Heath, 30 Aug 1776 |
-| 1776-07-02-eve-of-declaration | General Orders, 2 Jul 1776 | GW to Hancock, 27 Dec 1776 |
-| 1776-08-30-after-long-island | General Orders, 30 Aug 1776 | General Orders, 30 Mar 1777 |
-| 1776-12-25-trenton-eve | General Orders, 25 Dec 1776 | GW to Benjamin Rush, 12 Jan 1778 |
-| 1783-06-08-farewell-circular | Circular to States, 8 Jun 1783 | Knox to GW, 4 Feb 1778 |
-| 1783-06-17-wars-end | General Orders, 17 Jun 1783 | General Orders, 13 May 1780 |
+These files use Founders Online / National Archives source text with local
+provenance headers. Earlier notes in this README warned about an async browser
+capture problem during first acquisition, but the committed files now contain
+the intended documents and are covered by the case manifest verification
+phrases.
 
 ## Re-download instructions (manual, per document)
 

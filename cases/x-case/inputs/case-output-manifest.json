@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-17T23:30:41",
+  "generated_at": "2026-06-28T02:11:43",
   "status": "draft",
   "items": [
     {
@@ -8,6 +8,13 @@
       "total_instances": 61,
       "cluster_count": 6,
       "ready_for_xcase": true
+    },
+    {
+      "case_id": "fr-rev",
+      "analysis_status": "stub",
+      "total_instances": 0,
+      "cluster_count": 6,
+      "ready_for_xcase": false
     },
     {
       "case_id": "hitler",
@@ -29,6 +36,13 @@
       "total_instances": 19,
       "cluster_count": 6,
       "ready_for_xcase": true
+    },
+    {
+      "case_id": "wwi-britain",
+      "analysis_status": "stub",
+      "total_instances": 0,
+      "cluster_count": 6,
+      "ready_for_xcase": false
     }
   ]
 }

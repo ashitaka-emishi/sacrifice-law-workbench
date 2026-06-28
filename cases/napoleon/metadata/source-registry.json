@@ -46,6 +46,31 @@
       "analytical_priority": "high",
       "risk_flags": ["translation-required", "selection-rationale-must-be-documented", "french-original-only"],
       "notes": "Military-bulletin register is the highest-priority register for the Napoleon case. Bulletins contain peak sacrificial economy, army-as-body, and glory-as-sacred-object rhetoric. Cross-case register comparison requires these alongside Washington's orders and Lincoln's war messages."
+    },
+    {
+      "source_id": "napoleon-src-03-army-of-italy-proclamation",
+      "title": "Proclamation to the Army of Italy, 11 November 1796",
+      "short_title": "Army of Italy proclamation",
+      "voice": "Napoleon Bonaparte",
+      "date": "1796-11-11",
+      "phase": "rise",
+      "register": "army-proclamation",
+      "archive": "Gallica / Bibliothèque nationale de France",
+      "source_url": "https://gallica.bnf.fr/ark:/12148/bpt6k6295821n",
+      "citation": "Napoleon Bonaparte. Proclamation, quartier general, San-Massimo, 21 brumaire an V (11 novembre 1796), no. 1180. Correspondance de Napoleon Ier, tome 2. Paris: H. Plon, 1858-1870. Gallica/BnF.",
+      "rights_status": "public-domain",
+      "rights_rationale": "The French historical text and the 1858-1870 Plon edition are public-domain. #180 pins the exact Gallica source edition required by the conditional rights review.",
+      "git_tracking": "committed",
+      "translation_language": "fr",
+      "translation_risk_notes": "Annotate French source text with English glosses only. Flag gloire, Italie, liberté, courage, victoire, and nation for translation-sensitive CMT interpretation.",
+      "acquisition_instructions": "Run scripts/extract-targeted-existing-case-docs.py to extract no. 1180 from the committed Gallica/Plon tome-2 OCR source file. Preserve French source text and provenance header.",
+      "expected_local_path": "cases/napoleon/corpus/raw/napoleon-src-03-army-of-italy-proclamation/napoleon-proclamation-army-of-italy-1796-11-11.txt",
+      "analytical_priority": "medium",
+      "risk_flags": [
+        "translation-sensitive",
+        "source-edition-pinned-from-gallica"
+      ],
+      "notes": "Conditionally approved by the pre-v1 rights/provenance review for #180 after pinning the Gallica/Plon tome 2 source edition."
     }
   ]
 }

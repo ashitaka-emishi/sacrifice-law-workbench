@@ -9,7 +9,7 @@
       "date_precision": "month",
       "register": "political-pamphlet",
       "authorship": "Thomas Paine",
-      "source_url": "https://www.gutenberg.org/ebooks/147",
+      "source_url": "https://www.gutenberg.org/cache/epub/147/pg147.txt",
       "source_citation": "Thomas Paine, Common Sense, Project Gutenberg EBook #147",
       "rights_status": "public-domain",
       "expected_raw_path": "corpus/raw/am-rev-src-01-paine-common-sense.txt",
@@ -42,6 +42,36 @@
           "We hold these truths to be self-evident",
           "sacred Honor",
           "He has refused his Assent"
+        ]
+      }
+    },
+    {
+      "document_id": "am-rev-jefferson-rough-draft",
+      "title": "Jefferson's original Rough draught of the Declaration of Independence",
+      "short_title": "Jefferson rough draft",
+      "date": "1776-06-11",
+      "date_precision": "range-start",
+      "register": "draft declaration",
+      "authorship": "Thomas Jefferson",
+      "source_url": "https://founders.archives.gov/documents/Jefferson/01-01-02-0176-0004",
+      "source_citation": "Jefferson, Thomas. Original Rough draught of the Declaration of Independence, 1776. Founders Online, National Archives.",
+      "rights_status": "public-domain",
+      "expected_raw_path": "corpus/raw/am-rev-src-04-jefferson-rough-draft.txt",
+      "analytical_priority": "primary",
+      "source_registry_id": "am-rev-src-04-jefferson-rough-draft",
+      "phase": "revolutionary-break",
+      "inclusion_rationale": "Adds draft-stage evidence for editorial suppression, slavery, sacred rights, mutual pledge language, and substitutions between rough draft and final Declaration.",
+      "risk_flags": [
+        "editorial-mediation",
+        "draft-status",
+        "browser-assisted-acquisition"
+      ],
+      "verification": {
+        "min_words": 1600,
+        "required_phrases": [
+          "sacred & undeniable",
+          "waged cruel war against human nature itself",
+          "mutually pledge"
         ]
       }
     },
@@ -168,6 +198,35 @@
         "required_phrases": [
           "Head Quarters Newburgh June 8",
           "resign it into the hands of Congress"
+        ]
+      }
+    },
+    {
+      "document_id": "am-rev-washington-newburgh-address",
+      "title": "Address to the Officers of the Army",
+      "short_title": "Newburgh Address",
+      "date": "1783-03-15",
+      "date_precision": "day",
+      "register": "military-political address",
+      "authorship": "George Washington",
+      "source_url": "https://founders.archives.gov/documents/Washington/99-01-02-10840",
+      "source_citation": "Washington, George. Address to the Officers of the Army, 15 March 1783. Founders Online, National Archives.",
+      "rights_status": "public-domain",
+      "expected_raw_path": "corpus/raw/am-rev-src-05-washington-newburgh.txt",
+      "analytical_priority": "primary",
+      "source_registry_id": "am-rev-src-05-washington-newburgh",
+      "phase": "wartime-sacrifice",
+      "inclusion_rationale": "Adds Newburgh crisis evidence for army sacrifice, public debt, honor, civil-military restraint, and rejection of military coercion after service.",
+      "risk_flags": [
+        "browser-assisted-acquisition",
+        "source-edition-verification"
+      ],
+      "verification": {
+        "min_words": 1500,
+        "required_phrases": [
+          "By an anonymous summons",
+          "plighted faith of your Country",
+          "deluge our rising Empire in Blood"
         ]
       }
     },

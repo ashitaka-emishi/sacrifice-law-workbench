@@ -1,17 +1,17 @@
 {
   "version": "1.0",
   "case_id": "napoleon",
-  "generated_at": "2026-06-17T17:38:40",
+  "generated_at": "2026-06-28T02:11:40",
   "status": "complete",
   "total_instances": 19,
   "mipvu_profile": {
-    "mipvu_files": 10,
-    "total_lexical_units": 23005,
+    "mipvu_files": 11,
+    "total_lexical_units": 23224,
     "reviewed_lexical_units": 23005,
-    "pending_lexical_units": 0,
+    "pending_lexical_units": 219,
     "confirmed_metaphor_units": 22,
     "metaphor_or_uncertain_units": 25,
-    "metaphor_rate_confirmed": 0.001,
+    "metaphor_rate_confirmed": 0.0009,
     "metaphor_rate_including_uncertain": 0.0011,
     "reviewed_metaphor_rate_confirmed": 0.001,
     "reviewed_metaphor_rate_including_uncertain": 0.0011,
@@ -25,23 +25,26 @@
       "napoleon-bulletin-1812-10-23-russia-advance": 1963,
       "napoleon-bulletin-1806-10-26-berlin": 1657,
       "napoleon-bulletin-1807-02-08-eylau": 1286,
-      "napoleon-bulletin-1805-12-03-austerlitz": 1132
+      "napoleon-bulletin-1805-12-03-austerlitz": 1132,
+      "napoleon-proclamation-army-of-italy-1796-11-11": 219
     },
     "by_register": {
-      "military-bulletin-proclamation": 23005
+      "military-bulletin-proclamation": 23005,
+      "army-proclamation": 219
     },
     "by_language": {
-      "fr": 23005
+      "fr": 23224
     },
     "by_decision_type": {
       "non_metaphor": 22980,
+      "pending": 219,
       "mipvu_indirect": 14,
       "mipvu_personification": 6,
       "uncertain": 3,
       "mipvu_direct": 2
     },
     "by_confidence": {
-      "missing": 22980,
+      "missing": 23199,
       "medium": 22,
       "low": 3
     }
@@ -417,11 +420,11 @@
       }
     },
     "mipvu_denominator": {
-      "total_lexical_units": 23005,
+      "total_lexical_units": 23224,
       "reviewed_lexical_units": 23005,
       "confirmed_metaphor_units": 22,
       "metaphor_or_uncertain_units": 25,
-      "metaphor_rate_confirmed": 0.001,
+      "metaphor_rate_confirmed": 0.0009,
       "metaphor_rate_including_uncertain": 0.0011,
       "reviewed_metaphor_rate_confirmed": 0.001,
       "reviewed_metaphor_rate_including_uncertain": 0.0011
@@ -432,7 +435,7 @@
     {
       "stage": "run-case-analysis",
       "script": "scripts/run-case-analysis.py",
-      "generated_at": "2026-06-17T17:38:40"
+      "generated_at": "2026-06-28T02:11:40"
     }
   ]
 }

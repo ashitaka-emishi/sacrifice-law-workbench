@@ -2,65 +2,77 @@
   "case_id": "am-rev",
   "stage": "normalize-texts",
   "status": "ready",
-  "generated_at": "2026-06-17T06:50:02",
-  "documents_in_manifest": 9,
-  "written": 9,
+  "generated_at": "2026-06-28T02:11:36",
+  "documents_in_manifest": 11,
+  "written": 11,
   "skipped_missing_raw": 0,
   "errors": [],
   "records": [
     {
       "document_id": "am-rev-paine-common-sense",
       "status": "written",
-      "raw_path": "/Users/andrewhammer/codegarden/koenigsberg-sacrifice-workbench/cases/am-rev/corpus/raw/am-rev-src-01-paine-common-sense.txt",
-      "output_path": "/Users/andrewhammer/codegarden/koenigsberg-sacrifice-workbench/cases/am-rev/corpus/text/am-rev-paine-common-sense.md"
+      "raw_path": "cases/am-rev/corpus/raw/am-rev-src-01-paine-common-sense.txt",
+      "output_path": "cases/am-rev/corpus/text/am-rev-paine-common-sense.md"
     },
     {
       "document_id": "am-rev-jefferson-declaration",
       "status": "written",
-      "raw_path": "/Users/andrewhammer/codegarden/koenigsberg-sacrifice-workbench/cases/am-rev/corpus/raw/am-rev-src-02-jefferson-declaration.txt",
-      "output_path": "/Users/andrewhammer/codegarden/koenigsberg-sacrifice-workbench/cases/am-rev/corpus/text/am-rev-jefferson-declaration.md"
+      "raw_path": "cases/am-rev/corpus/raw/am-rev-src-02-jefferson-declaration.txt",
+      "output_path": "cases/am-rev/corpus/text/am-rev-jefferson-declaration.md"
+    },
+    {
+      "document_id": "am-rev-jefferson-rough-draft",
+      "status": "written",
+      "raw_path": "cases/am-rev/corpus/raw/am-rev-src-04-jefferson-rough-draft.txt",
+      "output_path": "cases/am-rev/corpus/text/am-rev-jefferson-rough-draft.md"
     },
     {
       "document_id": "am-rev-washington-orders-1775-07-04",
       "status": "written",
-      "raw_path": "/Users/andrewhammer/codegarden/koenigsberg-sacrifice-workbench/cases/am-rev/corpus/raw/am-rev-src-03-washington-general-orders/washington-orders-1775-07-04-first-independence-day.txt",
-      "output_path": "/Users/andrewhammer/codegarden/koenigsberg-sacrifice-workbench/cases/am-rev/corpus/text/am-rev-washington-orders-1775-07-04.md"
+      "raw_path": "cases/am-rev/corpus/raw/am-rev-src-03-washington-general-orders/washington-orders-1775-07-04-first-independence-day.txt",
+      "output_path": "cases/am-rev/corpus/text/am-rev-washington-orders-1775-07-04.md"
     },
     {
       "document_id": "am-rev-washington-orders-1776-02-09",
       "status": "written",
-      "raw_path": "/Users/andrewhammer/codegarden/koenigsberg-sacrifice-workbench/cases/am-rev/corpus/raw/am-rev-src-03-washington-general-orders/washington-orders-1776-02-09-winter-encampment.txt",
-      "output_path": "/Users/andrewhammer/codegarden/koenigsberg-sacrifice-workbench/cases/am-rev/corpus/text/am-rev-washington-orders-1776-02-09.md"
+      "raw_path": "cases/am-rev/corpus/raw/am-rev-src-03-washington-general-orders/washington-orders-1776-02-09-winter-encampment.txt",
+      "output_path": "cases/am-rev/corpus/text/am-rev-washington-orders-1776-02-09.md"
     },
     {
       "document_id": "am-rev-washington-orders-1776-07-02",
       "status": "written",
-      "raw_path": "/Users/andrewhammer/codegarden/koenigsberg-sacrifice-workbench/cases/am-rev/corpus/raw/am-rev-src-03-washington-general-orders/washington-orders-1776-07-02-eve-of-declaration.txt",
-      "output_path": "/Users/andrewhammer/codegarden/koenigsberg-sacrifice-workbench/cases/am-rev/corpus/text/am-rev-washington-orders-1776-07-02.md"
+      "raw_path": "cases/am-rev/corpus/raw/am-rev-src-03-washington-general-orders/washington-orders-1776-07-02-eve-of-declaration.txt",
+      "output_path": "cases/am-rev/corpus/text/am-rev-washington-orders-1776-07-02.md"
     },
     {
       "document_id": "am-rev-washington-orders-1776-08-30",
       "status": "written",
-      "raw_path": "/Users/andrewhammer/codegarden/koenigsberg-sacrifice-workbench/cases/am-rev/corpus/raw/am-rev-src-03-washington-general-orders/washington-orders-1776-08-30-after-long-island.txt",
-      "output_path": "/Users/andrewhammer/codegarden/koenigsberg-sacrifice-workbench/cases/am-rev/corpus/text/am-rev-washington-orders-1776-08-30.md"
+      "raw_path": "cases/am-rev/corpus/raw/am-rev-src-03-washington-general-orders/washington-orders-1776-08-30-after-long-island.txt",
+      "output_path": "cases/am-rev/corpus/text/am-rev-washington-orders-1776-08-30.md"
     },
     {
       "document_id": "am-rev-washington-orders-1776-12-25",
       "status": "written",
-      "raw_path": "/Users/andrewhammer/codegarden/koenigsberg-sacrifice-workbench/cases/am-rev/corpus/raw/am-rev-src-03-washington-general-orders/washington-orders-1776-12-25-trenton-eve.txt",
-      "output_path": "/Users/andrewhammer/codegarden/koenigsberg-sacrifice-workbench/cases/am-rev/corpus/text/am-rev-washington-orders-1776-12-25.md"
+      "raw_path": "cases/am-rev/corpus/raw/am-rev-src-03-washington-general-orders/washington-orders-1776-12-25-trenton-eve.txt",
+      "output_path": "cases/am-rev/corpus/text/am-rev-washington-orders-1776-12-25.md"
     },
     {
       "document_id": "am-rev-washington-orders-1783-06-08",
       "status": "written",
-      "raw_path": "/Users/andrewhammer/codegarden/koenigsberg-sacrifice-workbench/cases/am-rev/corpus/raw/am-rev-src-03-washington-general-orders/washington-orders-1783-06-08-farewell-circular.txt",
-      "output_path": "/Users/andrewhammer/codegarden/koenigsberg-sacrifice-workbench/cases/am-rev/corpus/text/am-rev-washington-orders-1783-06-08.md"
+      "raw_path": "cases/am-rev/corpus/raw/am-rev-src-03-washington-general-orders/washington-orders-1783-06-08-farewell-circular.txt",
+      "output_path": "cases/am-rev/corpus/text/am-rev-washington-orders-1783-06-08.md"
+    },
+    {
+      "document_id": "am-rev-washington-newburgh-address",
+      "status": "written",
+      "raw_path": "cases/am-rev/corpus/raw/am-rev-src-05-washington-newburgh.txt",
+      "output_path": "cases/am-rev/corpus/text/am-rev-washington-newburgh-address.md"
     },
     {
       "document_id": "am-rev-washington-orders-1783-06-17",
       "status": "written",
-      "raw_path": "/Users/andrewhammer/codegarden/koenigsberg-sacrifice-workbench/cases/am-rev/corpus/raw/am-rev-src-03-washington-general-orders/washington-orders-1783-06-17-wars-end.txt",
-      "output_path": "/Users/andrewhammer/codegarden/koenigsberg-sacrifice-workbench/cases/am-rev/corpus/text/am-rev-washington-orders-1783-06-17.md"
+      "raw_path": "cases/am-rev/corpus/raw/am-rev-src-03-washington-general-orders/washington-orders-1783-06-17-wars-end.txt",
+      "output_path": "cases/am-rev/corpus/text/am-rev-washington-orders-1783-06-17.md"
     }
   ]
 }

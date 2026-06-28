@@ -6,6 +6,7 @@ Handles:
   - Gallica texteBrut OCR downloads (napoleon bulletins)
   - Archive.org djvu text downloads (hitler mein kampf chapters)
   - Case-specific extracted sections (fr-rev, wwi-britain)
+  - Targeted existing-case extracted sections (lincoln, napoleon #180 additions)
 
 Does NOT handle:
   - Founders Online (JS-rendered — use corpus-download skill with Playwright)
@@ -63,6 +64,8 @@ def classify(case_id: str, doc: dict) -> str:
         return "custom-extractor"
     if case_id == "wwi-britain" and doc_id in WWI_BRITAIN_EXTRACTED_DOCS:
         return "custom-extractor"
+    if doc_id in TARGETED_EXISTING_CASE_EXTRACTED_DOCS:
+        return "custom-extractor"
     if case_id == "hitler" and doc_id in MK_CHAPTERS:
         return "archive-org"
     if "gutenberg.org" in url:
@@ -101,6 +104,12 @@ WWI_BRITAIN_EXTRACTED_DOCS = {
     "wwi-britain-lloyd-george-winning-this-war",
     "wwi-britain-lloyd-george-entry-america",
     "wwi-britain-lloyd-george-causes-aims-war",
+}
+
+TARGETED_EXISTING_CASE_EXTRACTED_DOCS = {
+    "lincoln-first-inaugural",
+    "lincoln-special-message-1861-07-04",
+    "napoleon-proclamation-army-of-italy-1796-11-11",
 }
 
 ARCHIVES_GOV_URLS: dict[str, str] = {
@@ -766,6 +775,8 @@ def main() -> int:
                 reason = "run scripts/extract-fr-rev-speeches.py to regenerate selected Gutenberg sections"
             elif cid == "wwi-britain":
                 reason = "run scripts/extract-wwi-britain-speeches.py to regenerate selected Internet Archive OCR sections"
+            elif doc_id in TARGETED_EXISTING_CASE_EXTRACTED_DOCS:
+                reason = "run scripts/extract-targeted-existing-case-docs.py to regenerate selected #180 source sections"
             result = {
                 "case": cid,
                 "document_id": doc_id,

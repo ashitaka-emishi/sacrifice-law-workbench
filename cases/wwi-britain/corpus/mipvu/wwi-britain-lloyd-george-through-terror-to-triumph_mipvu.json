@@ -3,7 +3,7 @@
   "case_id": "wwi-britain",
   "document_id": "wwi-britain-lloyd-george-through-terror-to-triumph",
   "source_language": "en",
-  "generated_at": "2026-06-28T01:20:58",
+  "generated_at": "2026-06-28T02:11:40",
   "status": "worklist",
   "meta": {
     "title": "Through Terror to Triumph!",
@@ -80046,7 +80046,7 @@
     {
       "stage": "generate-mipvu-worklist",
       "script": "scripts/generate-mipvu-worklist.py",
-      "generated_at": "2026-06-28T01:20:58",
+      "generated_at": "2026-06-28T02:11:40",
       "lexical_unit_count": 5001
     }
   ]

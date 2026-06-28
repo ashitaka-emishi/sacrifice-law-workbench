@@ -2,81 +2,79 @@
   "case_id": "napoleon",
   "stage": "generate-mipvu-worklist",
   "status": "ready",
-  "generated_at": "2026-06-17T06:50:10",
-  "documents_in_manifest": 10,
-  "written": 10,
-  "lexical_units": 23005,
+  "generated_at": "2026-06-28T02:11:40",
+  "documents_in_manifest": 11,
+  "written": 1,
+  "skipped_reviewed": 10,
+  "lexical_units": 219,
   "errors": [],
   "records": [
     {
-      "document_id": "napoleon-bulletin-1805-12-03-austerlitz",
+      "document_id": "napoleon-proclamation-army-of-italy-1796-11-11",
       "status": "written",
-      "lexical_units": 1132,
-      "input_path": "/Users/andrewhammer/codegarden/koenigsberg-sacrifice-workbench/cases/napoleon/corpus/segmented/napoleon-bulletin-1805-12-03-austerlitz.json",
-      "output_path": "/Users/andrewhammer/codegarden/koenigsberg-sacrifice-workbench/cases/napoleon/corpus/mipvu/napoleon-bulletin-1805-12-03-austerlitz_mipvu.json"
+      "lexical_units": 219,
+      "input_path": "cases/napoleon/corpus/segmented/napoleon-proclamation-army-of-italy-1796-11-11.json",
+      "output_path": "cases/napoleon/corpus/mipvu/napoleon-proclamation-army-of-italy-1796-11-11_mipvu.json"
+    },
+    {
+      "document_id": "napoleon-bulletin-1805-12-03-austerlitz",
+      "status": "skipped_reviewed",
+      "input_path": "cases/napoleon/corpus/segmented/napoleon-bulletin-1805-12-03-austerlitz.json",
+      "output_path": "cases/napoleon/corpus/mipvu/napoleon-bulletin-1805-12-03-austerlitz_mipvu.json"
     },
     {
       "document_id": "napoleon-bulletin-1805-12-04-austerlitz-aftermath",
-      "status": "written",
-      "lexical_units": 3039,
-      "input_path": "/Users/andrewhammer/codegarden/koenigsberg-sacrifice-workbench/cases/napoleon/corpus/segmented/napoleon-bulletin-1805-12-04-austerlitz-aftermath.json",
-      "output_path": "/Users/andrewhammer/codegarden/koenigsberg-sacrifice-workbench/cases/napoleon/corpus/mipvu/napoleon-bulletin-1805-12-04-austerlitz-aftermath_mipvu.json"
+      "status": "skipped_reviewed",
+      "input_path": "cases/napoleon/corpus/segmented/napoleon-bulletin-1805-12-04-austerlitz-aftermath.json",
+      "output_path": "cases/napoleon/corpus/mipvu/napoleon-bulletin-1805-12-04-austerlitz-aftermath_mipvu.json"
     },
     {
       "document_id": "napoleon-bulletin-1806-10-15-jena",
-      "status": "written",
-      "lexical_units": 2709,
-      "input_path": "/Users/andrewhammer/codegarden/koenigsberg-sacrifice-workbench/cases/napoleon/corpus/segmented/napoleon-bulletin-1806-10-15-jena.json",
-      "output_path": "/Users/andrewhammer/codegarden/koenigsberg-sacrifice-workbench/cases/napoleon/corpus/mipvu/napoleon-bulletin-1806-10-15-jena_mipvu.json"
+      "status": "skipped_reviewed",
+      "input_path": "cases/napoleon/corpus/segmented/napoleon-bulletin-1806-10-15-jena.json",
+      "output_path": "cases/napoleon/corpus/mipvu/napoleon-bulletin-1806-10-15-jena_mipvu.json"
     },
     {
       "document_id": "napoleon-bulletin-1806-10-26-berlin",
-      "status": "written",
-      "lexical_units": 1657,
-      "input_path": "/Users/andrewhammer/codegarden/koenigsberg-sacrifice-workbench/cases/napoleon/corpus/segmented/napoleon-bulletin-1806-10-26-berlin.json",
-      "output_path": "/Users/andrewhammer/codegarden/koenigsberg-sacrifice-workbench/cases/napoleon/corpus/mipvu/napoleon-bulletin-1806-10-26-berlin_mipvu.json"
+      "status": "skipped_reviewed",
+      "input_path": "cases/napoleon/corpus/segmented/napoleon-bulletin-1806-10-26-berlin.json",
+      "output_path": "cases/napoleon/corpus/mipvu/napoleon-bulletin-1806-10-26-berlin_mipvu.json"
     },
     {
       "document_id": "napoleon-bulletin-1807-02-08-eylau",
-      "status": "written",
-      "lexical_units": 1286,
-      "input_path": "/Users/andrewhammer/codegarden/koenigsberg-sacrifice-workbench/cases/napoleon/corpus/segmented/napoleon-bulletin-1807-02-08-eylau.json",
-      "output_path": "/Users/andrewhammer/codegarden/koenigsberg-sacrifice-workbench/cases/napoleon/corpus/mipvu/napoleon-bulletin-1807-02-08-eylau_mipvu.json"
+      "status": "skipped_reviewed",
+      "input_path": "cases/napoleon/corpus/segmented/napoleon-bulletin-1807-02-08-eylau.json",
+      "output_path": "cases/napoleon/corpus/mipvu/napoleon-bulletin-1807-02-08-eylau_mipvu.json"
     },
     {
       "document_id": "napoleon-bulletin-1807-06-14-friedland",
-      "status": "written",
-      "lexical_units": 2000,
-      "input_path": "/Users/andrewhammer/codegarden/koenigsberg-sacrifice-workbench/cases/napoleon/corpus/segmented/napoleon-bulletin-1807-06-14-friedland.json",
-      "output_path": "/Users/andrewhammer/codegarden/koenigsberg-sacrifice-workbench/cases/napoleon/corpus/mipvu/napoleon-bulletin-1807-06-14-friedland_mipvu.json"
+      "status": "skipped_reviewed",
+      "input_path": "cases/napoleon/corpus/segmented/napoleon-bulletin-1807-06-14-friedland.json",
+      "output_path": "cases/napoleon/corpus/mipvu/napoleon-bulletin-1807-06-14-friedland_mipvu.json"
     },
     {
       "document_id": "napoleon-bulletin-1809-07-08-wagram",
-      "status": "written",
-      "lexical_units": 4009,
-      "input_path": "/Users/andrewhammer/codegarden/koenigsberg-sacrifice-workbench/cases/napoleon/corpus/segmented/napoleon-bulletin-1809-07-08-wagram.json",
-      "output_path": "/Users/andrewhammer/codegarden/koenigsberg-sacrifice-workbench/cases/napoleon/corpus/mipvu/napoleon-bulletin-1809-07-08-wagram_mipvu.json"
+      "status": "skipped_reviewed",
+      "input_path": "cases/napoleon/corpus/segmented/napoleon-bulletin-1809-07-08-wagram.json",
+      "output_path": "cases/napoleon/corpus/mipvu/napoleon-bulletin-1809-07-08-wagram_mipvu.json"
     },
     {
       "document_id": "napoleon-bulletin-1812-10-23-russia-advance",
-      "status": "written",
-      "lexical_units": 1963,
-      "input_path": "/Users/andrewhammer/codegarden/koenigsberg-sacrifice-workbench/cases/napoleon/corpus/segmented/napoleon-bulletin-1812-10-23-russia-advance.json",
-      "output_path": "/Users/andrewhammer/codegarden/koenigsberg-sacrifice-workbench/cases/napoleon/corpus/mipvu/napoleon-bulletin-1812-10-23-russia-advance_mipvu.json"
+      "status": "skipped_reviewed",
+      "input_path": "cases/napoleon/corpus/segmented/napoleon-bulletin-1812-10-23-russia-advance.json",
+      "output_path": "cases/napoleon/corpus/mipvu/napoleon-bulletin-1812-10-23-russia-advance_mipvu.json"
     },
     {
       "document_id": "napoleon-bulletin-1812-12-03-russia-29th",
-      "status": "written",
-      "lexical_units": 1968,
-      "input_path": "/Users/andrewhammer/codegarden/koenigsberg-sacrifice-workbench/cases/napoleon/corpus/segmented/napoleon-bulletin-1812-12-03-russia-29th.json",
-      "output_path": "/Users/andrewhammer/codegarden/koenigsberg-sacrifice-workbench/cases/napoleon/corpus/mipvu/napoleon-bulletin-1812-12-03-russia-29th_mipvu.json"
+      "status": "skipped_reviewed",
+      "input_path": "cases/napoleon/corpus/segmented/napoleon-bulletin-1812-12-03-russia-29th.json",
+      "output_path": "cases/napoleon/corpus/mipvu/napoleon-bulletin-1812-12-03-russia-29th_mipvu.json"
     },
     {
       "document_id": "napoleon-bulletin-1813-05-24-bautzen",
-      "status": "written",
-      "lexical_units": 3242,
-      "input_path": "/Users/andrewhammer/codegarden/koenigsberg-sacrifice-workbench/cases/napoleon/corpus/segmented/napoleon-bulletin-1813-05-24-bautzen.json",
-      "output_path": "/Users/andrewhammer/codegarden/koenigsberg-sacrifice-workbench/cases/napoleon/corpus/mipvu/napoleon-bulletin-1813-05-24-bautzen_mipvu.json"
+      "status": "skipped_reviewed",
+      "input_path": "cases/napoleon/corpus/segmented/napoleon-bulletin-1813-05-24-bautzen.json",
+      "output_path": "cases/napoleon/corpus/mipvu/napoleon-bulletin-1813-05-24-bautzen_mipvu.json"
     }
   ]
 }

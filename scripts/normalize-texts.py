@@ -60,7 +60,7 @@ def strip_provenance_header(text: str) -> str:
     return "\n".join(lines[i:]).strip()
 
 
-def normalize_case(case_id: str, strict: bool = False) -> dict:
+def normalize_case(case_id: str, doc_filter: str | None = None, strict: bool = False) -> dict:
     records = []
     written = 0
     skipped = 0
@@ -68,6 +68,8 @@ def normalize_case(case_id: str, strict: bool = False) -> dict:
 
     for doc in documents(case_id):
         doc_id = document_id(doc)
+        if doc_filter and doc_id != doc_filter:
+            continue
         raw_path = raw_path_for(case_id, doc)
         out_path = text_path_for(case_id, doc)
         if not doc_id:
@@ -119,12 +121,13 @@ def normalize_case(case_id: str, strict: bool = False) -> dict:
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--case", dest="case_id", default=None, help="Optional case id")
+    parser.add_argument("--doc", dest="doc_id", default=None, help="Optional document id")
     parser.add_argument("--strict", action="store_true", help="Fail on missing expected inputs")
     args = parser.parse_args()
 
     exit_code = 0
     for case_id in case_ids(args.case_id):
-        status = normalize_case(case_id, strict=args.strict)
+        status = normalize_case(case_id, doc_filter=args.doc_id, strict=args.strict)
         print(
             f"{case_id}: normalized {status['written']} document(s); "
             f"skipped {status['skipped_missing_raw']}."

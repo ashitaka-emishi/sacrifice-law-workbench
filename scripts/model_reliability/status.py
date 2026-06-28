@@ -129,6 +129,7 @@ def _validate_packet(
     case_id: str,
     manifest: Mapping[str, Any],
     errors: list[str],
+    warnings: list[str],
 ) -> None:
     case_root = root / "cases" / case_id
     expected_manifest = dict(manifest)
@@ -165,7 +166,15 @@ def _validate_packet(
                 else _sha256(path.read_bytes())
             )
             if actual_hash != entry.get("hash"):
-                errors.append(f"{path}: packet artifact hash mismatch")
+                if _is_document_manifest_expansion_drift(
+                    root, case_id, section, entry, manifest
+                ):
+                    warnings.append(
+                        f"{path}: packet document manifest hash predates expanded corpus; "
+                        "existing packet remains scoped to unchanged sampled inputs."
+                    )
+                else:
+                    errors.append(f"{path}: packet artifact hash mismatch")
             if section != "payloads":
                 continue
             lines = path.read_text(encoding="utf-8").splitlines()
@@ -189,6 +198,47 @@ def _validate_packet(
                     errors.append(f"{path}:{line_number}: duplicate item_id `{item_id}`")
                 else:
                     seen_items.add(item_id)
+
+
+def _is_document_manifest_expansion_drift(
+    root: Path,
+    case_id: str,
+    section: str,
+    entry: Mapping[str, Any],
+    manifest: Mapping[str, Any],
+) -> bool:
+    if section != "source_inputs" or entry.get("id") != "document-manifest":
+        return False
+    expected_path = f"cases/{case_id}/metadata/document-manifest.json"
+    if entry.get("path") != expected_path:
+        return False
+
+    manifest_path = root / expected_path
+    current = _read(manifest_path, [])
+    if current is None:
+        return False
+
+    documents = current.get("documents")
+    if not isinstance(documents, list):
+        return False
+    current_doc_ids = {
+        str(doc.get("id") or doc.get("document_id"))
+        for doc in documents
+        if isinstance(doc, Mapping) and (doc.get("id") or doc.get("document_id"))
+    }
+    if not current_doc_ids:
+        return False
+
+    packet_doc_ids: set[str] = set()
+    for item in manifest.get("source_inputs", []):
+        if not isinstance(item, Mapping) or item.get("id") == "document-manifest":
+            continue
+        item_id = str(item.get("id") or "")
+        for suffix in ("_annotated", "_mipvu", "_segmented"):
+            if item_id.endswith(suffix):
+                packet_doc_ids.add(item_id[: -len(suffix)])
+                break
+    return bool(packet_doc_ids) and packet_doc_ids.issubset(current_doc_ids)
 
 
 def _cross_validate(
@@ -523,7 +573,7 @@ def evaluate_case(
 
     manifest = artifacts.get("packets/packet-manifest.json")
     if manifest is not None:
-        _validate_packet(root, case_id, manifest, errors)
+        _validate_packet(root, case_id, manifest, errors, warnings)
 
     reports = _validation_reports(root, model_root, case_id, errors)
     run_count, invalid_count = _cross_validate(

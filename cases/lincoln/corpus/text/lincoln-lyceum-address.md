@@ -6,7 +6,7 @@ date: '1838-01-27'
 date_precision: day
 register: public-address
 authorship: Abraham Lincoln
-source_url: https://www.gutenberg.org/ebooks/3253
+source_url: https://www.gutenberg.org/cache/epub/3253/pg3253.txt
 source_citation: 'Project Gutenberg EBook #3253 — The Papers and Writings of Abraham
   Lincoln, Complete, ed. Arthur Brooks Lapsley. Date note: Lapsley edition reads ''1837'';
   correct date is 1838-01-27 per Basler, Collected Works vol. 1, p. 108.'
@@ -49,7 +49,7 @@ raw_path: corpus/raw/lincoln-src-01-lyceum-address.txt
 pipeline_log:
 - stage: normalize-texts
   script: scripts/normalize-texts.py
-  generated_at: '2026-06-17T06:50:08'
+  generated_at: '2026-06-28T02:11:39'
 ---
 
 ADDRESS BEFORE THE YOUNG MEN'S LYCEUM OF SPRINGFIELD, ILLINOIS.

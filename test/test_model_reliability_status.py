@@ -155,6 +155,34 @@ class ModelReliabilityStatusTest(unittest.TestCase):
                 write_case_status(root, "demo")["state"], "designed"
             )
 
+    def test_document_manifest_expansion_warns_without_invalidating_packet(self) -> None:
+        with tempfile.TemporaryDirectory() as temp_dir:
+            root = status_root(Path(temp_dir), packets=True)
+            manifest_path = root / "cases" / "demo" / "metadata" / "document-manifest.json"
+            manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
+            manifest["documents"].append(
+                {
+                    "document_id": "demo-doc-002",
+                    "title": "Expansion document",
+                    "source_language": "en",
+                    "source_url": "https://example.test/demo-doc-002",
+                    "expected_raw_path": "corpus/raw/demo-doc-002.txt",
+                    "date": "1900-01-01",
+                    "register": "expansion",
+                    "rights_status": "public-domain",
+                }
+            )
+            write_json(manifest_path, manifest)
+
+            result = evaluate_case(root, "demo")
+
+            self.assertEqual(result["state"], "designed")
+            self.assertTrue(result["valid"])
+            self.assertEqual(result["errors"], [])
+            self.assertTrue(
+                any("expanded corpus" in warning for warning in result["warnings"])
+            )
+
 
 if __name__ == "__main__":
     unittest.main()

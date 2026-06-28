@@ -34,7 +34,7 @@ raw_path: corpus/raw/napoleon-src-02-grande-armee-bulletins/napoleon-bulletin-18
 pipeline_log:
 - stage: normalize-texts
   script: scripts/normalize-texts.py
-  generated_at: '2026-06-17T06:50:09'
+  generated_at: '2026-06-28T02:11:39'
 ---
 
 20042. —BULLETIN DE LA GRANDE ARMÉE.

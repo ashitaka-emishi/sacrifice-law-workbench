@@ -2,71 +2,77 @@
   "case_id": "napoleon",
   "stage": "normalize-texts",
   "status": "ready",
-  "generated_at": "2026-06-17T06:50:09",
-  "documents_in_manifest": 10,
-  "written": 10,
+  "generated_at": "2026-06-28T02:11:39",
+  "documents_in_manifest": 11,
+  "written": 11,
   "skipped_missing_raw": 0,
   "errors": [],
   "records": [
     {
+      "document_id": "napoleon-proclamation-army-of-italy-1796-11-11",
+      "status": "written",
+      "raw_path": "cases/napoleon/corpus/raw/napoleon-src-03-army-of-italy-proclamation/napoleon-proclamation-army-of-italy-1796-11-11.txt",
+      "output_path": "cases/napoleon/corpus/text/napoleon-proclamation-army-of-italy-1796-11-11.md"
+    },
+    {
       "document_id": "napoleon-bulletin-1805-12-03-austerlitz",
       "status": "written",
-      "raw_path": "/Users/andrewhammer/codegarden/koenigsberg-sacrifice-workbench/cases/napoleon/corpus/raw/napoleon-src-02-grande-armee-bulletins/napoleon-bulletin-1805-12-03-austerlitz.txt",
-      "output_path": "/Users/andrewhammer/codegarden/koenigsberg-sacrifice-workbench/cases/napoleon/corpus/text/napoleon-bulletin-1805-12-03-austerlitz.md"
+      "raw_path": "cases/napoleon/corpus/raw/napoleon-src-02-grande-armee-bulletins/napoleon-bulletin-1805-12-03-austerlitz.txt",
+      "output_path": "cases/napoleon/corpus/text/napoleon-bulletin-1805-12-03-austerlitz.md"
     },
     {
       "document_id": "napoleon-bulletin-1805-12-04-austerlitz-aftermath",
       "status": "written",
-      "raw_path": "/Users/andrewhammer/codegarden/koenigsberg-sacrifice-workbench/cases/napoleon/corpus/raw/napoleon-src-02-grande-armee-bulletins/napoleon-bulletin-1805-12-04-austerlitz-aftermath.txt",
-      "output_path": "/Users/andrewhammer/codegarden/koenigsberg-sacrifice-workbench/cases/napoleon/corpus/text/napoleon-bulletin-1805-12-04-austerlitz-aftermath.md"
+      "raw_path": "cases/napoleon/corpus/raw/napoleon-src-02-grande-armee-bulletins/napoleon-bulletin-1805-12-04-austerlitz-aftermath.txt",
+      "output_path": "cases/napoleon/corpus/text/napoleon-bulletin-1805-12-04-austerlitz-aftermath.md"
     },
     {
       "document_id": "napoleon-bulletin-1806-10-15-jena",
       "status": "written",
-      "raw_path": "/Users/andrewhammer/codegarden/koenigsberg-sacrifice-workbench/cases/napoleon/corpus/raw/napoleon-src-02-grande-armee-bulletins/napoleon-bulletin-1806-10-15-jena.txt",
-      "output_path": "/Users/andrewhammer/codegarden/koenigsberg-sacrifice-workbench/cases/napoleon/corpus/text/napoleon-bulletin-1806-10-15-jena.md"
+      "raw_path": "cases/napoleon/corpus/raw/napoleon-src-02-grande-armee-bulletins/napoleon-bulletin-1806-10-15-jena.txt",
+      "output_path": "cases/napoleon/corpus/text/napoleon-bulletin-1806-10-15-jena.md"
     },
     {
       "document_id": "napoleon-bulletin-1806-10-26-berlin",
       "status": "written",
-      "raw_path": "/Users/andrewhammer/codegarden/koenigsberg-sacrifice-workbench/cases/napoleon/corpus/raw/napoleon-src-02-grande-armee-bulletins/napoleon-bulletin-1806-10-26-berlin.txt",
-      "output_path": "/Users/andrewhammer/codegarden/koenigsberg-sacrifice-workbench/cases/napoleon/corpus/text/napoleon-bulletin-1806-10-26-berlin.md"
+      "raw_path": "cases/napoleon/corpus/raw/napoleon-src-02-grande-armee-bulletins/napoleon-bulletin-1806-10-26-berlin.txt",
+      "output_path": "cases/napoleon/corpus/text/napoleon-bulletin-1806-10-26-berlin.md"
     },
     {
       "document_id": "napoleon-bulletin-1807-02-08-eylau",
       "status": "written",
-      "raw_path": "/Users/andrewhammer/codegarden/koenigsberg-sacrifice-workbench/cases/napoleon/corpus/raw/napoleon-src-02-grande-armee-bulletins/napoleon-bulletin-1807-02-08-eylau.txt",
-      "output_path": "/Users/andrewhammer/codegarden/koenigsberg-sacrifice-workbench/cases/napoleon/corpus/text/napoleon-bulletin-1807-02-08-eylau.md"
+      "raw_path": "cases/napoleon/corpus/raw/napoleon-src-02-grande-armee-bulletins/napoleon-bulletin-1807-02-08-eylau.txt",
+      "output_path": "cases/napoleon/corpus/text/napoleon-bulletin-1807-02-08-eylau.md"
     },
     {
       "document_id": "napoleon-bulletin-1807-06-14-friedland",
       "status": "written",
-      "raw_path": "/Users/andrewhammer/codegarden/koenigsberg-sacrifice-workbench/cases/napoleon/corpus/raw/napoleon-src-02-grande-armee-bulletins/napoleon-bulletin-1807-06-14-friedland.txt",
-      "output_path": "/Users/andrewhammer/codegarden/koenigsberg-sacrifice-workbench/cases/napoleon/corpus/text/napoleon-bulletin-1807-06-14-friedland.md"
+      "raw_path": "cases/napoleon/corpus/raw/napoleon-src-02-grande-armee-bulletins/napoleon-bulletin-1807-06-14-friedland.txt",
+      "output_path": "cases/napoleon/corpus/text/napoleon-bulletin-1807-06-14-friedland.md"
     },
     {
       "document_id": "napoleon-bulletin-1809-07-08-wagram",
       "status": "written",
-      "raw_path": "/Users/andrewhammer/codegarden/koenigsberg-sacrifice-workbench/cases/napoleon/corpus/raw/napoleon-src-02-grande-armee-bulletins/napoleon-bulletin-1809-07-08-wagram.txt",
-      "output_path": "/Users/andrewhammer/codegarden/koenigsberg-sacrifice-workbench/cases/napoleon/corpus/text/napoleon-bulletin-1809-07-08-wagram.md"
+      "raw_path": "cases/napoleon/corpus/raw/napoleon-src-02-grande-armee-bulletins/napoleon-bulletin-1809-07-08-wagram.txt",
+      "output_path": "cases/napoleon/corpus/text/napoleon-bulletin-1809-07-08-wagram.md"
     },
     {
       "document_id": "napoleon-bulletin-1812-10-23-russia-advance",
       "status": "written",
-      "raw_path": "/Users/andrewhammer/codegarden/koenigsberg-sacrifice-workbench/cases/napoleon/corpus/raw/napoleon-src-02-grande-armee-bulletins/napoleon-bulletin-1812-10-23-russia-advance.txt",
-      "output_path": "/Users/andrewhammer/codegarden/koenigsberg-sacrifice-workbench/cases/napoleon/corpus/text/napoleon-bulletin-1812-10-23-russia-advance.md"
+      "raw_path": "cases/napoleon/corpus/raw/napoleon-src-02-grande-armee-bulletins/napoleon-bulletin-1812-10-23-russia-advance.txt",
+      "output_path": "cases/napoleon/corpus/text/napoleon-bulletin-1812-10-23-russia-advance.md"
     },
     {
       "document_id": "napoleon-bulletin-1812-12-03-russia-29th",
       "status": "written",
-      "raw_path": "/Users/andrewhammer/codegarden/koenigsberg-sacrifice-workbench/cases/napoleon/corpus/raw/napoleon-src-02-grande-armee-bulletins/napoleon-bulletin-1812-12-03-russia-29th.txt",
-      "output_path": "/Users/andrewhammer/codegarden/koenigsberg-sacrifice-workbench/cases/napoleon/corpus/text/napoleon-bulletin-1812-12-03-russia-29th.md"
+      "raw_path": "cases/napoleon/corpus/raw/napoleon-src-02-grande-armee-bulletins/napoleon-bulletin-1812-12-03-russia-29th.txt",
+      "output_path": "cases/napoleon/corpus/text/napoleon-bulletin-1812-12-03-russia-29th.md"
     },
     {
       "document_id": "napoleon-bulletin-1813-05-24-bautzen",
       "status": "written",
-      "raw_path": "/Users/andrewhammer/codegarden/koenigsberg-sacrifice-workbench/cases/napoleon/corpus/raw/napoleon-src-02-grande-armee-bulletins/napoleon-bulletin-1813-05-24-bautzen.txt",
-      "output_path": "/Users/andrewhammer/codegarden/koenigsberg-sacrifice-workbench/cases/napoleon/corpus/text/napoleon-bulletin-1813-05-24-bautzen.md"
+      "raw_path": "cases/napoleon/corpus/raw/napoleon-src-02-grande-armee-bulletins/napoleon-bulletin-1813-05-24-bautzen.txt",
+      "output_path": "cases/napoleon/corpus/text/napoleon-bulletin-1813-05-24-bautzen.md"
     }
   ]
 }

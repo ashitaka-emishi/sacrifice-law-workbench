@@ -62,6 +62,57 @@
       "analytical_priority": "high",
       "risk_flags": ["multi-document-selection-required", "selection-rationale-must-be-documented"],
       "notes": "Military-order register is important for CMT register-control analysis. Washington's repeated use of sacrifice, duty, and glory language in orders is central to the corpus model. Selection must be documented to support cross-case register comparison."
+    },
+    {
+      "source_id": "am-rev-src-04-jefferson-rough-draft",
+      "title": "Jefferson's original Rough draught of the Declaration of Independence",
+      "short_title": "Jefferson rough draft",
+      "voice": "Thomas Jefferson",
+      "date": "1776",
+      "phase": "revolutionary-break",
+      "register": "draft declaration",
+      "archive": "Founders Online / National Archives",
+      "source_url": "https://founders.archives.gov/documents/Jefferson/01-01-02-0176-0004",
+      "citation": "Jefferson, Thomas. Original Rough draught of the Declaration of Independence, 1776. Founders Online, National Archives.",
+      "rights_status": "public-domain",
+      "rights_rationale": "The underlying eighteenth-century document is public domain. Founders Online / National Archives provides citable scholarly metadata; modern annotations are not copied into raw corpus text.",
+      "git_tracking": "committed",
+      "acquisition_instructions": "Use Founders Online print view for primary text. Local CLI requests may receive an AWS WAF challenge; if so, acquire in browser and retain only primary text with provenance header.",
+      "expected_local_path": "cases/am-rev/corpus/raw/am-rev-src-04-jefferson-rough-draft.txt",
+      "translation_language": "en",
+      "translation_risk_notes": "None; English source text.",
+      "analytical_priority": "high",
+      "risk_flags": [
+        "editorial-mediation",
+        "draft-status",
+        "browser-assisted-acquisition"
+      ],
+      "notes": "Approved by the pre-v1 rights/provenance review for #180. Adds draft-stage evidence for final Declaration comparison and absence analysis."
+    },
+    {
+      "source_id": "am-rev-src-05-washington-newburgh",
+      "title": "Address to the Officers of the Army",
+      "short_title": "Newburgh Address",
+      "voice": "George Washington",
+      "date": "1783-03-15",
+      "phase": "wartime-sacrifice",
+      "register": "military-political address",
+      "archive": "Founders Online / National Archives",
+      "source_url": "https://founders.archives.gov/documents/Washington/99-01-02-10840",
+      "citation": "Washington, George. Address to the Officers of the Army, 15 March 1783. Founders Online, National Archives.",
+      "rights_status": "public-domain",
+      "rights_rationale": "The underlying eighteenth-century document is public domain. Founders Online / National Archives provides citable scholarly metadata; modern annotations are not copied into raw corpus text.",
+      "git_tracking": "committed",
+      "acquisition_instructions": "Use Founders Online print view for primary text. Local CLI requests may receive an AWS WAF challenge; if so, acquire in browser and retain only primary text with provenance header.",
+      "expected_local_path": "cases/am-rev/corpus/raw/am-rev-src-05-washington-newburgh.txt",
+      "translation_language": "en",
+      "translation_risk_notes": "None; English source text.",
+      "analytical_priority": "medium",
+      "risk_flags": [
+        "browser-assisted-acquisition",
+        "source-edition-verification"
+      ],
+      "notes": "Approved by the pre-v1 rights/provenance review for #180. Adds army-crisis and civil-military restraint evidence without replacing existing 1783 circular/order material."
     }
   ]
 }

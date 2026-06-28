@@ -6,7 +6,7 @@ date: 1776-01
 date_precision: month
 register: political-pamphlet
 authorship: Thomas Paine
-source_url: https://www.gutenberg.org/ebooks/147
+source_url: https://www.gutenberg.org/cache/epub/147/pg147.txt
 source_citation: 'Thomas Paine, Common Sense, Project Gutenberg EBook #147'
 rights_status: public-domain
 expected_raw_path: corpus/raw/am-rev-src-01-paine-common-sense.txt
@@ -22,7 +22,7 @@ raw_path: corpus/raw/am-rev-src-01-paine-common-sense.txt
 pipeline_log:
 - stage: normalize-texts
   script: scripts/normalize-texts.py
-  generated_at: '2026-06-17T06:50:02'
+  generated_at: '2026-06-28T02:11:36'
 ---
 
 COMMON SENSE;

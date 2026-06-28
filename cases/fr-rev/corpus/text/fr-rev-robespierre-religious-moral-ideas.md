@@ -26,7 +26,7 @@ raw_path: corpus/raw/fr-rev-src-01-robespierre-discours-pg/fr-rev-robespierre-re
 pipeline_log:
 - stage: normalize-texts
   script: scripts/normalize-texts.py
-  generated_at: '2026-06-27T20:25:36'
+  generated_at: '2026-06-28T02:11:37'
 ---
 
 _Rapport fait au nom du Comité de salut public, par Maximilien

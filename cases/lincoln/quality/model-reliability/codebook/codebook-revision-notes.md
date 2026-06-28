@@ -262,7 +262,6 @@ None.
 - Training/calibration use: Use as a stable positive example, while preserving the original source and task context.
 - Human decision rationale: Awaiting explicit human review.
 - Reviewer: `not assigned`
-
 ### `codebook-rec-c8791e664429` — `interpretation.absence.status`
 
 - Finding: `stable-category`

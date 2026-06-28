@@ -1,7 +1,7 @@
 {
   "version": "1.0",
   "case_id": "x-case",
-  "generated_at": "2026-06-17T23:30:41",
+  "generated_at": "2026-06-28T02:11:43",
   "status": "draft",
   "guardrails": [
     "Structural comparison is not moral equivalence.",
@@ -32,6 +32,16 @@
       "by_violence_logic": {
         "True": 4
       },
+      "claim_boundary": "Diachronic claims require document-level dating and sequential context not yet fully represented in this aggregate."
+    },
+    {
+      "case_id": "fr-rev",
+      "total_instances": 0,
+      "documents_with_instances": 0,
+      "total_documents": 0,
+      "by_cluster": {},
+      "by_fantasy_type": {},
+      "by_violence_logic": {},
       "claim_boundary": "Diachronic claims require document-level dating and sequential context not yet fully represented in this aggregate."
     },
     {
@@ -94,6 +104,16 @@
       "by_violence_logic": {
         "True": 6
       },
+      "claim_boundary": "Diachronic claims require document-level dating and sequential context not yet fully represented in this aggregate."
+    },
+    {
+      "case_id": "wwi-britain",
+      "total_instances": 0,
+      "documents_with_instances": 0,
+      "total_documents": 0,
+      "by_cluster": {},
+      "by_fantasy_type": {},
+      "by_violence_logic": {},
       "claim_boundary": "Diachronic claims require document-level dating and sequential context not yet fully represented in this aggregate."
     }
   ]

@@ -2,7 +2,7 @@
   "project_id": "koenigsberg-sacrifice-workbench",
   "status": "pre-v1-expansion-window",
   "current_milestone": "pre-v1-corpus-expansion-window",
-  "updated": "2026-06-27",
+  "updated": "2026-06-28",
   "cases": [
     "am-rev",
     "napoleon",
@@ -12,5 +12,5 @@
     "hitler",
     "x-case"
   ],
-  "notes": "The four original historical case corpora remain the current verified scored working corpus: rights-reviewed, acquired, normalized, segmented, verified, and JSON-valid. The pre-v1 expansion window has added fr-rev and wwi-britain as draft expansion corpora with manifests, raw text, normalized text, segmentation, and MIPVU worklists, but no reviewed annotations, support rating, or reliability sample yet. All four original cases have Codex-assisted first-pass MIPVU lexical decisions. Lincoln has complete model-reliability artifacts and designed human-reliability cohorts, but required human coder submissions are not complete. American Revolution, Napoleon, Hitler, fr-rev, and wwi-britain model and human reliability workflows remain absent or incomplete. Expansion work is tracked in GitHub milestone 7 and issue #174; any additional new cases or documents require selection rationale, rights/provenance review, manifest registration, pipeline processing, annotation-forward artifacts, reliability sampling review, and an explicit expanded-corpus freeze point."
+  "notes": "The original historical case corpora are no longer unchanged from the first v1 working set: #180 added targeted American Revolution, Lincoln, and Napoleon documents through the manifest-driven pipeline while preserving the previously reviewed core artifacts. The pre-v1 expansion window has also added fr-rev and wwi-britain as draft expansion corpora with manifests, raw text, normalized text, segmentation, and MIPVU worklists. Newly added expansion documents have generated MIPVU worklists but no reviewed annotations, support rating, or reliability sample yet. The older Codex-assisted first-pass decisions remain provisional until independent human review. Lincoln retains complete model-reliability artifacts for the prior three-document core and designed human-reliability cohorts, but required human coder submissions are not complete and the expanded Lincoln documents are not yet included in that reliability design. American Revolution, Napoleon, Hitler, fr-rev, and wwi-britain model and human reliability workflows remain absent or incomplete for publication-grade promotion. Expansion work is tracked in GitHub milestone 7 and issue #174; remaining work should run annotation-forward artifacts, update reliability sampling, and freeze the expanded corpus boundary before claim promotion resumes."
 }

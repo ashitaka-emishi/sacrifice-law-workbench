@@ -1,0 +1,329 @@
+{
+  "case_id": "napoleon",
+  "document_id": "napoleon-proclamation-army-of-italy-1796-11-11",
+  "meta": {
+    "document_id": "napoleon-proclamation-army-of-italy-1796-11-11",
+    "title": "Proclamation to the Army of Italy, 11 November 1796",
+    "short_title": "Army of Italy proclamation",
+    "date": "1796-11-11",
+    "date_precision": "day",
+    "register": "army-proclamation",
+    "authorship": "Napoleon Bonaparte",
+    "source_url": "https://gallica.bnf.fr/ark:/12148/bpt6k6295821n",
+    "source_citation": "Napoleon Bonaparte. Proclamation, quartier general, San-Massimo, 21 brumaire an V (11 novembre 1796), no. 1180. Correspondance de Napoleon Ier, tome 2. Paris: H. Plon, 1858-1870. Gallica/BnF.",
+    "rights_status": "public-domain",
+    "expected_raw_path": "corpus/raw/napoleon-src-03-army-of-italy-proclamation/napoleon-proclamation-army-of-italy-1796-11-11.txt",
+    "analytical_priority": "primary",
+    "phase": "rise",
+    "campaign": "Italian campaign 1796",
+    "correspondance_volume": 2,
+    "correspondance_number": 1180,
+    "extraction_script": "scripts/extract-targeted-existing-case-docs.py",
+    "notes": "Rise-phase army proclamation from the pinned Gallica/Plon tome 2 source edition. Adds non-bulletin leader-to-army register with glory, Italy, liberty, victory, and army-body rhetoric.",
+    "source_language": "fr",
+    "annotation_language_policy": "source-with-glosses",
+    "risk_flags": [
+      "translation-sensitive",
+      "source-edition-pinned-from-gallica"
+    ],
+    "verification": {
+      "min_words": 200,
+      "required_phrases": [
+        "Mantoue est sans pain",
+        "La liberté de l'Italie",
+        "la plus brave et de la plus puissante nation"
+      ]
+    },
+    "case_id": "napoleon",
+    "raw_path": "corpus/raw/napoleon-src-03-army-of-italy-proclamation/napoleon-proclamation-army-of-italy-1796-11-11.txt",
+    "pipeline_log": [
+      {
+        "stage": "normalize-texts",
+        "script": "scripts/normalize-texts.py",
+        "generated_at": "2026-06-28T02:11:39"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "section_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01",
+      "section_label": "body",
+      "section_ordinal": 1,
+      "paragraphs": [
+        {
+          "paragraph_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p01",
+          "paragraph_ordinal": 1,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p01_s01",
+              "sentence_ordinal": 1,
+              "text": "1180. - PROCLAMATION.",
+              "word_offset_start": 0,
+              "word_offset_end": 3,
+              "char_offset_start": 0,
+              "char_offset_end": 21,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p02",
+          "paragraph_ordinal": 2,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p02_s01",
+              "sentence_ordinal": 1,
+              "text": "Quartier général, San-Massimo, 21 brumaire an V (11 novembre 1796).",
+              "word_offset_start": 3,
+              "word_offset_end": 13,
+              "char_offset_start": 23,
+              "char_offset_end": 90,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p03",
+          "paragraph_ordinal": 3,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p03_s01",
+              "sentence_ordinal": 1,
+              "text": "Soldats !",
+              "word_offset_start": 13,
+              "word_offset_end": 15,
+              "char_offset_start": 92,
+              "char_offset_end": 101,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p04",
+          "paragraph_ordinal": 4,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p04_s01",
+              "sentence_ordinal": 1,
+              "text": "Mantoue est sans pain, sans viande, sans fourrages.",
+              "word_offset_start": 15,
+              "word_offset_end": 23,
+              "char_offset_start": 103,
+              "char_offset_end": 154,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p04_s02",
+              "sentence_ordinal": 2,
+              "text": "Wurmser, les débris de l'armée que vous avez détruite à Bormida, à Bassano, à Saint-Georges, à Governolo, sont prêts à tomber en votre pouvoir.",
+              "word_offset_start": 23,
+              "word_offset_end": 47,
+              "char_offset_start": 155,
+              "char_offset_end": 298,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p05",
+          "paragraph_ordinal": 5,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p05_s01",
+              "sentence_ordinal": 1,
+              "text": "La liberté de l'Italie, le bonheur de la France reposent dans votre courage.",
+              "word_offset_start": 47,
+              "word_offset_end": 60,
+              "char_offset_start": 300,
+              "char_offset_end": 376,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p06",
+          "paragraph_ordinal": 6,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p06_s01",
+              "sentence_ordinal": 1,
+              "text": "Un ramassis de fuyards, renforcés par la dernière réserve de l'Empereur, osent encore se présenter devant vous.",
+              "word_offset_start": 60,
+              "word_offset_end": 77,
+              "char_offset_start": 378,
+              "char_offset_end": 489,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p06_s02",
+              "sentence_ordinal": 2,
+              "text": "Ils prétendent vous arracher le fruit de six mois de victoires.",
+              "word_offset_start": 77,
+              "word_offset_end": 88,
+              "char_offset_start": 490,
+              "char_offset_end": 553,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p07",
+          "paragraph_ordinal": 7,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p07_s01",
+              "sentence_ordinal": 1,
+              "text": "Les généraux feront leur devoir : ils vont tous fondre sur l'ennemi ; tantôt ils vous mèneront en avant, tantôt ils se mettront dans une retraite simulée, et n'oublieront rien pour rendre éclatante votre victoire !",
+              "word_offset_start": 88,
+              "word_offset_end": 124,
+              "char_offset_start": 555,
+              "char_offset_end": 769,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p08",
+          "paragraph_ordinal": 8,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p08_s01",
+              "sentence_ordinal": 1,
+              "text": "Mais lorsque le tambour du combat aura battu, et qu'il faudra marcher droit à l'ennemi, la baïonnette en avant et dans ce morne silence garant de la victoire, soldats! songez à être dignes de vous.",
+              "word_offset_start": 124,
+              "word_offset_end": 159,
+              "char_offset_start": 771,
+              "char_offset_end": 968,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p09",
+          "paragraph_ordinal": 9,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p09_s01",
+              "sentence_ordinal": 1,
+              "text": "Je ne vous dis que deux mots, ils suffisent à des Français : l'Italie!",
+              "word_offset_start": 159,
+              "word_offset_end": 173,
+              "char_offset_start": 970,
+              "char_offset_end": 1040,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p10",
+          "paragraph_ordinal": 10,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p10_s01",
+              "sentence_ordinal": 1,
+              "text": "Mantoue!",
+              "word_offset_start": 173,
+              "word_offset_end": 174,
+              "char_offset_start": 1042,
+              "char_offset_end": 1050,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p10_s02",
+              "sentence_ordinal": 2,
+              "text": "La paix de l'Europe, le bonheur de vos parents seront le",
+              "word_offset_start": 174,
+              "word_offset_end": 185,
+              "char_offset_start": 1051,
+              "char_offset_end": 1107,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p11",
+          "paragraph_ordinal": 11,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p11_s01",
+              "sentence_ordinal": 1,
+              "text": "résuliat de notre courage.",
+              "word_offset_start": 185,
+              "word_offset_end": 189,
+              "char_offset_start": 1109,
+              "char_offset_end": 1135,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p11_s02",
+              "sentence_ordinal": 2,
+              "text": "Faisons encore une fois ce que nous aTons fait si souvent, et l'Europe ne nous contestera pas le titre de la plus brave et de la plus puissante nation du monde.",
+              "word_offset_start": 189,
+              "word_offset_end": 220,
+              "char_offset_start": 1136,
+              "char_offset_end": 1296,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p12",
+          "paragraph_ordinal": 12,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p12_s01",
+              "sentence_ordinal": 1,
+              "text": "BONAPARTE.",
+              "word_offset_start": 220,
+              "word_offset_end": 221,
+              "char_offset_start": 1298,
+              "char_offset_end": 1308,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p13",
+          "paragraph_ordinal": 13,
+          "sentences": [
+            {
+              "sentence_id": "napoleon-proclamation-army-of-italy-1796-11-11_s01_p13_s01",
+              "sentence_ordinal": 1,
+              "text": "Dépôt de la guerre.",
+              "word_offset_start": 221,
+              "word_offset_end": 225,
+              "char_offset_start": 1310,
+              "char_offset_end": 1329,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "pipeline_log": [
+    {
+      "stage": "segment-texts",
+      "script": "scripts/segment-texts.py",
+      "generated_at": "2026-06-28T02:11:39",
+      "sentence_count": 17
+    }
+  ]
+}

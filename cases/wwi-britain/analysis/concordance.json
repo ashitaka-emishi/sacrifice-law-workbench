@@ -1,7 +1,7 @@
 {
   "version": "1.0",
   "case_id": "wwi-britain",
-  "generated_at": "2026-06-28T01:20:59",
+  "generated_at": "2026-06-28T02:11:41",
   "status": "stub",
   "mipvu_profile": {
     "mipvu_files": 4,
@@ -74,7 +74,7 @@
       "stage": "build-concordance",
       "script": "scripts/build-concordance.py",
       "annotated_files": 0,
-      "generated_at": "2026-06-28T01:20:59"
+      "generated_at": "2026-06-28T02:11:41"
     }
   ]
 }

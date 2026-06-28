@@ -82,6 +82,61 @@
       "corpus_layer": "balanced-core",
       "source_language": "en",
       "annotation_language_policy": "source-language"
+    },
+    {
+      "source_id": "lincoln-src-04-first-inaugural",
+      "title": "First Inaugural Address",
+      "short_title": "First Inaugural",
+      "voice": "Abraham Lincoln",
+      "date": "1861-03-04",
+      "phase": "secession-crisis",
+      "register": "inaugural-address",
+      "archive": "Project Gutenberg",
+      "source_url": "https://www.gutenberg.org/ebooks/9",
+      "citation": "Lincoln, Abraham. Abraham Lincoln's First Inaugural Address. Project Gutenberg EBook #9.",
+      "rights_status": "public-domain",
+      "rights_rationale": "Lincoln's 1861 presidential address is public-domain. Project Gutenberg hosts a standalone public-domain transcription.",
+      "git_tracking": "committed",
+      "acquisition_instructions": "Run scripts/extract-targeted-existing-case-docs.py to download Project Gutenberg EBook #9 and strip Gutenberg boilerplate.",
+      "expected_local_path": "cases/lincoln/corpus/raw/lincoln-src-04-first-inaugural.txt",
+      "analytical_priority": "high",
+      "risk_flags": [
+        "source-edition-verification"
+      ],
+      "notes": "Approved by the pre-v1 rights/provenance review for #180 after pinning a document-level public-domain URL.",
+      "source_edition": "Project Gutenberg EBook #9",
+      "canonical_reference_url": "https://www.loc.gov/resource/mal.0773800/",
+      "corpus_layer": "balanced-core",
+      "source_language": "en",
+      "annotation_language_policy": "source-language"
+    },
+    {
+      "source_id": "lincoln-src-05-special-message-1861-07-04",
+      "title": "Message to Congress in Special Session, July 4, 1861",
+      "short_title": "Special Message, July 4 1861",
+      "voice": "Abraham Lincoln",
+      "date": "1861-07-04",
+      "phase": "early-war",
+      "register": "presidential message",
+      "archive": "Project Gutenberg",
+      "source_url": "https://www.gutenberg.org/ebooks/2657",
+      "citation": "Lincoln, Abraham. The Papers and Writings of Abraham Lincoln, Volume 5: 1858-1862. Project Gutenberg EBook #2657.",
+      "rights_status": "public-domain",
+      "rights_rationale": "Lincoln's 1861 presidential message is public-domain. Project Gutenberg hosts a public-domain Lincoln writings volume containing the message.",
+      "git_tracking": "committed",
+      "acquisition_instructions": "Run scripts/extract-targeted-existing-case-docs.py to download Project Gutenberg EBook #2657 and extract only the July 4, 1861 special message.",
+      "expected_local_path": "cases/lincoln/corpus/raw/lincoln-src-05-special-message-1861-07-04.txt",
+      "analytical_priority": "medium",
+      "risk_flags": [
+        "long-document",
+        "source-edition-verification"
+      ],
+      "notes": "Approved by the pre-v1 rights/provenance review for #180 after pinning a document-level public-domain source volume.",
+      "source_edition": "Project Gutenberg EBook #2657, extracted from The Papers and Writings of Abraham Lincoln, Volume 5",
+      "canonical_reference_url": "https://www.loc.gov/resource/mal.1037800/",
+      "corpus_layer": "extended-corpus",
+      "source_language": "en",
+      "annotation_language_policy": "source-language"
     }
   ]
 }

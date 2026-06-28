@@ -19,5 +19,7 @@
   "schema_version": "1.0.0",
   "state": "complete",
   "valid": true,
-  "warnings": []
+  "warnings": [
+    "/Users/andrewhammer/codegarden/koenigsberg-sacrifice-workbench/cases/lincoln/metadata/document-manifest.json: packet document manifest hash predates expanded corpus; existing packet remains scoped to unchanged sampled inputs."
+  ]
 }

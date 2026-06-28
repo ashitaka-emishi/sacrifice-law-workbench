@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-06-26T23:05:08",
+  "generated_at": "2026-06-28T02:11:43",
   "status": "pass",
   "policy": "Placeholder public pages must be visibly marked as draft, provisional, or pending; incomplete human reliability cannot be claimed as publication-ready.",
   "blockers": [],
@@ -36,6 +36,12 @@
       "has_draft_or_pending_signal": true
     },
     {
+      "path": "cases/fr-rev/artifacts/qmd/case-overview.qmd",
+      "status": "draft-or-provisional-marked",
+      "has_placeholder_signal": false,
+      "has_draft_or_pending_signal": true
+    },
+    {
       "path": "cases/hitler/artifacts/qmd/case-overview.qmd",
       "status": "draft-or-provisional-marked",
       "has_placeholder_signal": false,
@@ -49,6 +55,12 @@
     },
     {
       "path": "cases/napoleon/artifacts/qmd/case-overview.qmd",
+      "status": "draft-or-provisional-marked",
+      "has_placeholder_signal": false,
+      "has_draft_or_pending_signal": true
+    },
+    {
+      "path": "cases/wwi-britain/artifacts/qmd/case-overview.qmd",
       "status": "draft-or-provisional-marked",
       "has_placeholder_signal": false,
       "has_draft_or_pending_signal": true
@@ -163,9 +175,9 @@
     },
     {
       "path": "publication/data-availability.md",
-      "status": "no-draft-signal-detected",
+      "status": "draft-or-provisional-marked",
       "has_placeholder_signal": false,
-      "has_draft_or_pending_signal": false
+      "has_draft_or_pending_signal": true
     },
     {
       "path": "publication/model-reliability.md",
@@ -190,10 +202,32 @@
     "policy": "Human reliability claims are scoped to complete cohort rows only. Absent, designed, partial, invalid, awaiting-adjudication, and unresolved states may be disclosed but cannot support publication-ready human reliability claims.",
     "claim_status": "no-complete-human-reliability-cohorts",
     "complete_cohorts": [],
-    "blocked_or_incomplete_cohorts": [],
+    "blocked_or_incomplete_cohorts": [
+      {
+        "case_id": "lincoln",
+        "cohort_id": "lincoln-en-cmt-launch",
+        "cohort_version": "1.0.0",
+        "source_language": "en",
+        "task_layer": "cmt",
+        "state": "designed",
+        "valid_submission_count": 0,
+        "unresolved_adjudication_count": 0
+      }
+    ],
     "case_statuses": [
       {
         "case_id": "am-rev",
+        "state": "absent",
+        "valid": true,
+        "cohort_count": 0,
+        "valid_runs": 0,
+        "complete_cohort_count": 0,
+        "unresolved_adjudications": 0,
+        "warning_count": 1,
+        "error_count": 0
+      },
+      {
+        "case_id": "fr-rev",
         "state": "absent",
         "valid": true,
         "cohort_count": 0,
@@ -216,6 +250,17 @@
       },
       {
         "case_id": "lincoln",
+        "state": "designed",
+        "valid": true,
+        "cohort_count": 1,
+        "valid_runs": 0,
+        "complete_cohort_count": 0,
+        "unresolved_adjudications": 0,
+        "warning_count": 1,
+        "error_count": 0
+      },
+      {
+        "case_id": "napoleon",
         "state": "absent",
         "valid": true,
         "cohort_count": 0,
@@ -226,7 +271,7 @@
         "error_count": 0
       },
       {
-        "case_id": "napoleon",
+        "case_id": "wwi-britain",
         "state": "absent",
         "valid": true,
         "cohort_count": 0,
