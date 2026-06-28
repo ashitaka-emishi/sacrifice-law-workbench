@@ -22,7 +22,21 @@ GENERATOR_PATH = "scripts/human_reliability/generate_launch_bundle.py"
 DOC_PATHS = {
     "training/human-coder-training-guide.md": Path("docs/reliability/human-coder-training-guide.md"),
     "references/MIPVU_ANNOTATION_GUIDE.md": Path("MIPVU_ANNOTATION_GUIDE.md"),
+    "references/RESEARCH_DESIGN.md": Path("RESEARCH_DESIGN.md"),
     "references/human-coder-submission-contract.md": Path("docs/reliability/human-coder-submission-contract.md"),
+    "references/human-submission-ingestion.md": Path("docs/reliability/human-submission-ingestion.md"),
+}
+BUNDLE_MARKDOWN_LINK_REWRITES = {
+    "training/human-coder-training-guide.md": {
+        "(human-reliability-architecture.md)": (
+            "(../../../../../../../docs/reliability/human-reliability-architecture.md)"
+        ),
+        "(human-coder-calibration.md)": (
+            "(../../../../../../../docs/reliability/human-coder-calibration.md)"
+        ),
+        "(../../MIPVU_ANNOTATION_GUIDE.md)": "(../references/MIPVU_ANNOTATION_GUIDE.md)",
+        "(../../RESEARCH_DESIGN.md)": "(../references/RESEARCH_DESIGN.md)",
+    },
 }
 PROHIBITED_BUNDLE_PATH_PARTS = {
     "accepted",
@@ -72,6 +86,17 @@ def write_if_changed(path: Path, data: bytes) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     if not path.exists() or path.read_bytes() != data:
         path.write_bytes(data)
+
+
+def rewrite_bundle_markdown_links(bundle_relative: str, data: bytes) -> bytes:
+    """Adjust copied repository docs so their relative links resolve in bundles."""
+    rewrites = BUNDLE_MARKDOWN_LINK_REWRITES.get(bundle_relative)
+    if not rewrites or not bundle_relative.endswith(".md"):
+        return data
+    text = data.decode("utf-8")
+    for old, new in rewrites.items():
+        text = text.replace(old, new)
+    return text.encode("utf-8")
 
 
 def relative_path(root: Path, path: Path) -> str:
@@ -352,7 +377,7 @@ def generate_launch_bundle(
         if not source.is_file():
             raise LaunchBundleError(f"required coder reference not found: {source_relative}")
         destination = bundle_root / bundle_relative
-        data = source.read_bytes()
+        data = rewrite_bundle_markdown_links(bundle_relative, source.read_bytes())
         assert_safe_bundle_member(bundle_relative)
         assert_safe_text(bundle_relative, data)
         write_if_changed(destination, data)
