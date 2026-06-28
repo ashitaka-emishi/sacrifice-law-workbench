@@ -32,7 +32,6 @@ None.
 - Training/calibration use: Use the reviewed examples as a contrastive calibration set; retain source language and uncertainty notes.
 - Human decision rationale: Awaiting explicit human review.
 - Reviewer: `not assigned`
-
 ### `codebook-rec-1c1d7d367726` — `cmt.conceptual_metaphor`
 
 - Finding: `ambiguous-instruction`
@@ -262,6 +261,7 @@ None.
 - Training/calibration use: Use as a stable positive example, while preserving the original source and task context.
 - Human decision rationale: Awaiting explicit human review.
 - Reviewer: `not assigned`
+
 ### `codebook-rec-c8791e664429` — `interpretation.absence.status`
 
 - Finding: `stable-category`

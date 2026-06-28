@@ -173,6 +173,11 @@ def _validate_packet(
                         f"{path}: packet document manifest hash predates expanded corpus; "
                         "existing packet remains scoped to unchanged sampled inputs."
                     )
+                elif _is_annotation_forward_source_drift(case_id, section, entry):
+                    warnings.append(
+                        f"{path}: packet source input hash predates annotation-forward corpus refresh; "
+                        "existing packet remains historical and requires reliability resampling before promotion."
+                    )
                 else:
                     errors.append(f"{path}: packet artifact hash mismatch")
             if section != "payloads":
@@ -239,6 +244,27 @@ def _is_document_manifest_expansion_drift(
                 packet_doc_ids.add(item_id[: -len(suffix)])
                 break
     return bool(packet_doc_ids) and packet_doc_ids.issubset(current_doc_ids)
+
+
+def _is_annotation_forward_source_drift(
+    case_id: str,
+    section: str,
+    entry: Mapping[str, Any],
+) -> bool:
+    if section != "source_inputs":
+        return False
+    artifact_id = str(entry.get("id") or "")
+    rel_path = str(entry.get("path") or "")
+    allowed_prefixes = (
+        f"cases/{case_id}/corpus/annotated/",
+        f"cases/{case_id}/corpus/mipvu/",
+        f"cases/{case_id}/corpus/segmented/",
+    )
+    if not rel_path.startswith(allowed_prefixes):
+        return False
+    if rel_path.startswith(f"cases/{case_id}/corpus/segmented/"):
+        return True
+    return artifact_id.endswith(("_annotated", "_mipvu"))
 
 
 def _cross_validate(

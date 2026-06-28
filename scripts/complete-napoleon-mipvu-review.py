@@ -28,7 +28,7 @@ from pipeline_common import (
 CASE_ID = "napoleon"
 ANNOTATOR = "codex-assisted-mipvu-v1"
 REVIEW_BATCH = "napoleon-source-language-mipvu-review-v1"
-REVIEW_UPDATED = "2026-06-16"
+REVIEW_UPDATED = "2026-06-28"
 
 METAPHOR_DECISIONS = {
     "mipvu_indirect",
@@ -524,6 +524,7 @@ def write_summary(
 
 def update_status(decision_counts: Counter[str], doc_counts: dict[str, Counter[str]]) -> None:
     total_units = sum(decision_counts.values())
+    document_count = len(doc_counts)
     case_status_path = case_dir(CASE_ID) / "status" / "case-status.json"
     case_status = read_json(case_status_path, {}) or {}
     case_status.update(
@@ -533,8 +534,9 @@ def update_status(decision_counts: Counter[str], doc_counts: dict[str, Counter[s
             "current_stage": "mipvu-review-complete",
             "updated": REVIEW_UPDATED,
             "notes": (
-                "Napoleon French bulletin worklists exist for all 10 documents and "
-                f"{total_units:,} lexical units have first-pass Codex-assisted "
+                "Napoleon expanded French worklists exist for all "
+                f"{document_count} documents and {total_units:,} lexical units have "
+                "first-pass Codex-assisted "
                 "source-language decisions. Each unit records source-language span_text; "
                 "English glosses are retained only as aids for translation-sensitive "
                 "terms such as gloire, honneur, victoire, patrie, mort, and sang. "

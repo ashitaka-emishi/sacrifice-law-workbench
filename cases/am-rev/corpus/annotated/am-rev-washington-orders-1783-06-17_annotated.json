@@ -1,0 +1,72 @@
+{
+  "version": "1.0",
+  "case_id": "am-rev",
+  "document_id": "am-rev-washington-orders-1783-06-17",
+  "generated_at": "2026-06-28T10:02:20",
+  "generator": "scripts/generate-annotation-layer.py",
+  "annotation_policy": "CMT and Koenigsbergian annotations derived from MIPVU-reviewed metaphorical and uncertain lexical units. Each instance cites at least one MIPVU ID with decision_type in MIPVU_METAPHOR_OR_UNCERTAIN_DECISIONS.",
+  "instances": [
+    {
+      "instance_id": "amrev-ann-065",
+      "case_id": "am-rev",
+      "document_id": "am-rev-washington-orders-1783-06-17",
+      "sentence_id": "am-rev-washington-orders-1783-06-17_s01_p07_s06",
+      "span_text": "glorious",
+      "mipvu_ids": [
+        "am-rev-washington-orders-1783-06-17_s01_p07_s06_lu025"
+      ],
+      "cmt": {
+        "mapping_id": "amrev-cmt-065",
+        "cluster_id": "am-rev-05-virtue-corruption",
+        "source_domain_primary": "light_darkness",
+        "source_domain_secondary": [],
+        "target_domain": "military_virtue",
+        "conceptual_metaphor": "MILITARY VIRTUE IS LIGHT DARKNESS",
+        "entailments": [
+          "military conduct is evaluated through glory, honor, or spirit language",
+          "Military virtue is understood through honor, animation, and public radiance."
+        ],
+        "confidence": 0.55,
+        "rival_reading": "The terms may be conventional military praise, but the source-domain contrast remains plausible in this register.",
+        "justification": "MIPVU review rule 'washington-honor-register' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
+      },
+      "koenigsberg": {},
+      "meta": {
+        "confidence": 0.55,
+        "ambiguity_flag": true,
+        "suppression_flag": false
+      }
+    },
+    {
+      "instance_id": "amrev-ann-066",
+      "case_id": "am-rev",
+      "document_id": "am-rev-washington-orders-1783-06-17",
+      "sentence_id": "am-rev-washington-orders-1783-06-17_s01_p10_s01",
+      "span_text": "glorious",
+      "mipvu_ids": [
+        "am-rev-washington-orders-1783-06-17_s01_p10_s01_lu075"
+      ],
+      "cmt": {
+        "mapping_id": "amrev-cmt-066",
+        "cluster_id": "am-rev-05-virtue-corruption",
+        "source_domain_primary": "light_darkness",
+        "source_domain_secondary": [],
+        "target_domain": "military_virtue",
+        "conceptual_metaphor": "MILITARY VIRTUE IS LIGHT DARKNESS",
+        "entailments": [
+          "military conduct is evaluated through glory, honor, or spirit language",
+          "Military virtue is understood through honor, animation, and public radiance."
+        ],
+        "confidence": 0.55,
+        "rival_reading": "The terms may be conventional military praise, but the source-domain contrast remains plausible in this register.",
+        "justification": "MIPVU review rule 'washington-honor-register' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
+      },
+      "koenigsberg": {},
+      "meta": {
+        "confidence": 0.55,
+        "ambiguity_flag": true,
+        "suppression_flag": false
+      }
+    }
+  ]
+}

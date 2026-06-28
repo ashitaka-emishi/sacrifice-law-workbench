@@ -1,0 +1,1045 @@
+{
+  "version": "1.0",
+  "case_id": "wwi-britain",
+  "status": "draft",
+  "updated": "2026-06-28",
+  "mapping_policy": "CMT mappings are downstream of MIPVU. Every non-exploratory mapping must cite metaphor-related or uncertain MIPVU lexical units from the same sentence.",
+  "mappings": [
+    {
+      "mapping_id": "wwibritain-cmt-001",
+      "case_id": "wwi-britain",
+      "document_id": "wwi-britain-lloyd-george-through-terror-to-triumph",
+      "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p18_s04",
+      "mipvu_ids": [
+        "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p18_s04_lu005"
+      ],
+      "expression": "road",
+      "evidence_span": "It is the straight road to barbarism.",
+      "source_domain_primary": "journey_motion",
+      "source_domain_secondary": [],
+      "target_domain": "military_virtue",
+      "conceptual_metaphor": "MILITARY VIRTUE IS JOURNEY MOTION",
+      "entailments": [
+        "war outcome or moral trajectory is represented through seasonal change or travel",
+        "Victory and moral danger are understood through journey or seasonal transition."
+      ],
+      "cluster_id": "wwi-britain-01-liberty-autocracy",
+      "confidence": 0.7,
+      "rival_reading": "The political-military process is not literal travel or weather.",
+      "justification": "MIPVU review rule 'wwi-road-season-victory' marked 1 unit(s) as metaphor-related or uncertain in this sentence.",
+      "mapping_status": "provisional",
+      "rhetorical_salience": "medium",
+      "rhetorical_functions": [
+        "argument"
+      ],
+      "ideological_functions": [
+        "legitimation"
+      ]
+    },
+    {
+      "mapping_id": "wwibritain-cmt-002",
+      "case_id": "wwi-britain",
+      "document_id": "wwi-britain-lloyd-george-through-terror-to-triumph",
+      "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p28_s02",
+      "mipvu_ids": [
+        "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p28_s02_lu020"
+      ],
+      "expression": "driven",
+      "evidence_span": "I will go beyond that, and I will say that if you turn two million men — forced, conscript, compelled, driven — into the field, you will always get amongst them a certain number who will do things that the nation to which they belong would be ashamed of.",
+      "source_domain_primary": "mechanics",
+      "source_domain_secondary": [],
+      "target_domain": "social_body",
+      "conceptual_metaphor": "SOCIAL BODY IS MECHANICS",
+      "entailments": [
+        "nation, civilization, or personhood is explicitly compared to a machine",
+        "Political society and personhood are understood through machinery."
+      ],
+      "cluster_id": "wwi-britain-01-liberty-autocracy",
+      "confidence": 0.88,
+      "rival_reading": "The target is a political community or human being, not literal machinery.",
+      "justification": "MIPVU review rule 'wwi-machine-society' marked 1 unit(s) as metaphor-related or uncertain in this sentence.",
+      "mapping_status": "provisional",
+      "rhetorical_salience": "high",
+      "rhetorical_functions": [
+        "argument"
+      ],
+      "ideological_functions": [
+        "legitimation"
+      ]
+    },
+    {
+      "mapping_id": "wwibritain-cmt-003",
+      "case_id": "wwi-britain",
+      "document_id": "wwi-britain-lloyd-george-through-terror-to-triumph",
+      "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p46_s06",
+      "mipvu_ids": [
+        "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p46_s06_lu004",
+        "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p46_s06_lu008"
+      ],
+      "expression": "sacrifices / sacrifices",
+      "evidence_span": "Russia has made sacrifices for freedom — great sacrifices.",
+      "source_domain_primary": "sacrifice",
+      "source_domain_secondary": [],
+      "target_domain": "sacrifice",
+      "conceptual_metaphor": "SACRIFICE IS SACRIFICE",
+      "entailments": [
+        "wartime service or loss is framed as sacrifice for freedom, country, or allies",
+        "Wartime obligation is understood through sacrificial offering."
+      ],
+      "cluster_id": "wwi-britain-03-sacrifice-service-home-front",
+      "confidence": 0.84,
+      "rival_reading": "The passage concerns civic and military cost rather than a literal ritual offering.",
+      "justification": "MIPVU review rule 'wwi-sacrifice-service' marked 2 unit(s) as metaphor-related or uncertain in this sentence.",
+      "mapping_status": "provisional",
+      "rhetorical_salience": "high",
+      "rhetorical_functions": [
+        "commemoration"
+      ],
+      "ideological_functions": [
+        "sacrifice"
+      ]
+    },
+    {
+      "mapping_id": "wwibritain-cmt-004",
+      "case_id": "wwi-britain",
+      "document_id": "wwi-britain-lloyd-george-through-terror-to-triumph",
+      "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p46_s13",
+      "mipvu_ids": [
+        "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p46_s13_lu004"
+      ],
+      "expression": "sacrifices",
+      "evidence_span": "France has made sacrifices for the freedom of other lands than her own.",
+      "source_domain_primary": "sacrifice",
+      "source_domain_secondary": [],
+      "target_domain": "sacrifice",
+      "conceptual_metaphor": "SACRIFICE IS SACRIFICE",
+      "entailments": [
+        "wartime service or loss is framed as sacrifice for freedom, country, or allies",
+        "Wartime obligation is understood through sacrificial offering."
+      ],
+      "cluster_id": "wwi-britain-03-sacrifice-service-home-front",
+      "confidence": 0.84,
+      "rival_reading": "The passage concerns civic and military cost rather than a literal ritual offering.",
+      "justification": "MIPVU review rule 'wwi-sacrifice-service' marked 1 unit(s) as metaphor-related or uncertain in this sentence.",
+      "mapping_status": "provisional",
+      "rhetorical_salience": "high",
+      "rhetorical_functions": [
+        "commemoration"
+      ],
+      "ideological_functions": [
+        "sacrifice"
+      ]
+    },
+    {
+      "mapping_id": "wwibritain-cmt-005",
+      "case_id": "wwi-britain",
+      "document_id": "wwi-britain-lloyd-george-through-terror-to-triumph",
+      "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p49_s01",
+      "mipvu_ids": [
+        "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p49_s01_lu011"
+      ],
+      "expression": "sacrificed",
+      "evidence_span": "world for the freedom of which modern Prussia has ever sacrificed a single life ?",
+      "source_domain_primary": "sacrifice",
+      "source_domain_secondary": [],
+      "target_domain": "sacrifice",
+      "conceptual_metaphor": "SACRIFICE IS SACRIFICE",
+      "entailments": [
+        "wartime service or loss is framed as sacrifice for freedom, country, or allies",
+        "Wartime obligation is understood through sacrificial offering."
+      ],
+      "cluster_id": "wwi-britain-03-sacrifice-service-home-front",
+      "confidence": 0.84,
+      "rival_reading": "The passage concerns civic and military cost rather than a literal ritual offering.",
+      "justification": "MIPVU review rule 'wwi-sacrifice-service' marked 1 unit(s) as metaphor-related or uncertain in this sentence.",
+      "mapping_status": "provisional",
+      "rhetorical_salience": "high",
+      "rhetorical_functions": [
+        "commemoration"
+      ],
+      "ideological_functions": [
+        "sacrifice"
+      ]
+    },
+    {
+      "mapping_id": "wwibritain-cmt-006",
+      "case_id": "wwi-britain",
+      "document_id": "wwi-britain-lloyd-george-through-terror-to-triumph",
+      "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p49_s02",
+      "mipvu_ids": [
+        "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p49_s02_lu016"
+      ],
+      "expression": "sacrifice",
+      "evidence_span": "By the test of our faith, the highest standard of civilisation is the readiness to sacrifice for others.",
+      "source_domain_primary": "sacrifice",
+      "source_domain_secondary": [],
+      "target_domain": "sacrifice",
+      "conceptual_metaphor": "SACRIFICE IS SACRIFICE",
+      "entailments": [
+        "wartime service or loss is framed as sacrifice for freedom, country, or allies",
+        "Wartime obligation is understood through sacrificial offering."
+      ],
+      "cluster_id": "wwi-britain-03-sacrifice-service-home-front",
+      "confidence": 0.84,
+      "rival_reading": "The passage concerns civic and military cost rather than a literal ritual offering.",
+      "justification": "MIPVU review rule 'wwi-sacrifice-service' marked 1 unit(s) as metaphor-related or uncertain in this sentence.",
+      "mapping_status": "provisional",
+      "rhetorical_salience": "high",
+      "rhetorical_functions": [
+        "commemoration"
+      ],
+      "ideological_functions": [
+        "sacrifice"
+      ]
+    },
+    {
+      "mapping_id": "wwibritain-cmt-007",
+      "case_id": "wwi-britain",
+      "document_id": "wwi-britain-lloyd-george-through-terror-to-triumph",
+      "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p51_s02",
+      "mipvu_ids": [
+        "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p51_s02_lu011",
+        "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p51_s02_lu013",
+        "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p51_s02_lu015"
+      ],
+      "expression": "head / hand / heart",
+      "evidence_span": "They are a great people, and have great qualities of head and hand and heart.",
+      "source_domain_primary": "person_agency",
+      "source_domain_secondary": [],
+      "target_domain": "nation",
+      "conceptual_metaphor": "NATION IS PERSON AGENCY",
+      "entailments": [
+        "collective resolve or service is framed through body parts, soul, or embodied strength",
+        "National service is understood through embodied agency."
+      ],
+      "cluster_id": "wwi-britain-01-liberty-autocracy",
+      "confidence": 0.67,
+      "rival_reading": "The phrase applies bodily or inner-life language to collective political commitment.",
+      "justification": "MIPVU review rule 'wwi-embodied-national-service' marked 3 unit(s) as metaphor-related or uncertain in this sentence.",
+      "mapping_status": "provisional",
+      "rhetorical_salience": "medium",
+      "rhetorical_functions": [
+        "national_self_definition"
+      ],
+      "ideological_functions": [
+        "obligation"
+      ]
+    },
+    {
+      "mapping_id": "wwibritain-cmt-008",
+      "case_id": "wwi-britain",
+      "document_id": "wwi-britain-lloyd-george-through-terror-to-triumph",
+      "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p51_s08",
+      "mipvu_ids": [
+        "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p51_s08_lu027",
+        "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p51_s08_lu028"
+      ],
+      "expression": "Diesel / machine",
+      "evidence_span": "God made man in His own image, high of purpose, in the region of the spirit ; German civilisation would re-create him in the image of a Diesel machine — precise, accurate, powerful, but with no room for soul to operate.",
+      "source_domain_primary": "mechanics",
+      "source_domain_secondary": [],
+      "target_domain": "social_body",
+      "conceptual_metaphor": "SOCIAL BODY IS MECHANICS",
+      "entailments": [
+        "nation, civilization, or personhood is explicitly compared to a machine",
+        "Political society and personhood are understood through machinery."
+      ],
+      "cluster_id": "wwi-britain-01-liberty-autocracy",
+      "confidence": 0.88,
+      "rival_reading": "The target is a political community or human being, not literal machinery.",
+      "justification": "MIPVU review rule 'wwi-machine-society' marked 2 unit(s) as metaphor-related or uncertain in this sentence.",
+      "mapping_status": "provisional",
+      "rhetorical_salience": "high",
+      "rhetorical_functions": [
+        "argument"
+      ],
+      "ideological_functions": [
+        "legitimation"
+      ]
+    },
+    {
+      "mapping_id": "wwibritain-cmt-009",
+      "case_id": "wwi-britain",
+      "document_id": "wwi-britain-lloyd-george-through-terror-to-triumph",
+      "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p57_s18",
+      "mipvu_ids": [
+        "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p57_s18_lu004"
+      ],
+      "expression": "sacrifice",
+      "evidence_span": "Sickly sentimentalism about sacrifice for others !",
+      "source_domain_primary": "sacrifice",
+      "source_domain_secondary": [],
+      "target_domain": "sacrifice",
+      "conceptual_metaphor": "SACRIFICE IS SACRIFICE",
+      "entailments": [
+        "wartime service or loss is framed as sacrifice for freedom, country, or allies",
+        "Wartime obligation is understood through sacrificial offering."
+      ],
+      "cluster_id": "wwi-britain-03-sacrifice-service-home-front",
+      "confidence": 0.84,
+      "rival_reading": "The passage concerns civic and military cost rather than a literal ritual offering.",
+      "justification": "MIPVU review rule 'wwi-sacrifice-service' marked 1 unit(s) as metaphor-related or uncertain in this sentence.",
+      "mapping_status": "provisional",
+      "rhetorical_salience": "high",
+      "rhetorical_functions": [
+        "commemoration"
+      ],
+      "ideological_functions": [
+        "sacrifice"
+      ]
+    },
+    {
+      "mapping_id": "wwibritain-cmt-010",
+      "case_id": "wwi-britain",
+      "document_id": "wwi-britain-lloyd-george-through-terror-to-triumph",
+      "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p69_s01",
+      "mipvu_ids": [
+        "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p69_s01_lu002"
+      ],
+      "expression": "Sacrifice",
+      "evidence_span": "The Sacrifice.",
+      "source_domain_primary": "sacrifice",
+      "source_domain_secondary": [],
+      "target_domain": "sacrifice",
+      "conceptual_metaphor": "SACRIFICE IS SACRIFICE",
+      "entailments": [
+        "wartime service or loss is framed as sacrifice for freedom, country, or allies",
+        "Wartime obligation is understood through sacrificial offering."
+      ],
+      "cluster_id": "wwi-britain-03-sacrifice-service-home-front",
+      "confidence": 0.84,
+      "rival_reading": "The passage concerns civic and military cost rather than a literal ritual offering.",
+      "justification": "MIPVU review rule 'wwi-sacrifice-service' marked 1 unit(s) as metaphor-related or uncertain in this sentence.",
+      "mapping_status": "provisional",
+      "rhetorical_salience": "high",
+      "rhetorical_functions": [
+        "commemoration"
+      ],
+      "ideological_functions": [
+        "sacrifice"
+      ]
+    },
+    {
+      "mapping_id": "wwibritain-cmt-011",
+      "case_id": "wwi-britain",
+      "document_id": "wwi-britain-lloyd-george-through-terror-to-triumph",
+      "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p70_s04",
+      "mipvu_ids": [
+        "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p70_s04_lu004"
+      ],
+      "expression": "sacrifice",
+      "evidence_span": "For most generations sacrifice comes in drab and weariness of spirit.",
+      "source_domain_primary": "sacrifice",
+      "source_domain_secondary": [],
+      "target_domain": "sacrifice",
+      "conceptual_metaphor": "SACRIFICE IS SACRIFICE",
+      "entailments": [
+        "wartime service or loss is framed as sacrifice for freedom, country, or allies",
+        "Wartime obligation is understood through sacrificial offering."
+      ],
+      "cluster_id": "wwi-britain-03-sacrifice-service-home-front",
+      "confidence": 0.84,
+      "rival_reading": "The passage concerns civic and military cost rather than a literal ritual offering.",
+      "justification": "MIPVU review rule 'wwi-sacrifice-service' marked 1 unit(s) as metaphor-related or uncertain in this sentence.",
+      "mapping_status": "provisional",
+      "rhetorical_salience": "high",
+      "rhetorical_functions": [
+        "commemoration"
+      ],
+      "ideological_functions": [
+        "sacrifice"
+      ]
+    },
+    {
+      "mapping_id": "wwibritain-cmt-012",
+      "case_id": "wwi-britain",
+      "document_id": "wwi-britain-lloyd-george-through-terror-to-triumph",
+      "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p78_s01",
+      "mipvu_ids": [
+        "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p78_s01_lu025"
+      ],
+      "expression": "Sacrifice",
+      "evidence_span": "that matter for a nation — the great peaks we had forgotten, of Honour, Duty, Patriotism, and, clad in glittering white, the towering pinnacle of Sacrifice pointing like a rugged finger to Heaven.",
+      "source_domain_primary": "sacrifice",
+      "source_domain_secondary": [],
+      "target_domain": "sacrifice",
+      "conceptual_metaphor": "SACRIFICE IS SACRIFICE",
+      "entailments": [
+        "wartime service or loss is framed as sacrifice for freedom, country, or allies",
+        "Wartime obligation is understood through sacrificial offering."
+      ],
+      "cluster_id": "wwi-britain-03-sacrifice-service-home-front",
+      "confidence": 0.84,
+      "rival_reading": "The passage concerns civic and military cost rather than a literal ritual offering.",
+      "justification": "MIPVU review rule 'wwi-sacrifice-service' marked 1 unit(s) as metaphor-related or uncertain in this sentence.",
+      "mapping_status": "provisional",
+      "rhetorical_salience": "high",
+      "rhetorical_functions": [
+        "commemoration"
+      ],
+      "ideological_functions": [
+        "sacrifice"
+      ]
+    },
+    {
+      "mapping_id": "wwibritain-cmt-013",
+      "case_id": "wwi-britain",
+      "document_id": "wwi-britain-lloyd-george-winning-this-war",
+      "sentence_id": "wwi-britain-lloyd-george-winning-this-war_s01_p03_s02",
+      "mipvu_ids": [
+        "wwi-britain-lloyd-george-winning-this-war_s01_p03_s02_lu022",
+        "wwi-britain-lloyd-george-winning-this-war_s01_p03_s02_lu056"
+      ],
+      "expression": "hand / strength",
+      "evidence_span": "I am also delighted to find here men who have been fighting political battles against me The task we have in hand is not the task of one party or of two parties, but a task for the nation as a whole, and we wish to preserve absolute na- tional unity until we secure national strength.",
+      "source_domain_primary": "person_agency",
+      "source_domain_secondary": [],
+      "target_domain": "nation",
+      "conceptual_metaphor": "NATION IS PERSON AGENCY",
+      "entailments": [
+        "collective resolve or service is framed through body parts, soul, or embodied strength",
+        "National service is understood through embodied agency."
+      ],
+      "cluster_id": "wwi-britain-01-liberty-autocracy",
+      "confidence": 0.67,
+      "rival_reading": "The phrase applies bodily or inner-life language to collective political commitment.",
+      "justification": "MIPVU review rule 'wwi-embodied-national-service' marked 2 unit(s) as metaphor-related or uncertain in this sentence.",
+      "mapping_status": "provisional",
+      "rhetorical_salience": "medium",
+      "rhetorical_functions": [
+        "national_self_definition"
+      ],
+      "ideological_functions": [
+        "obligation"
+      ]
+    },
+    {
+      "mapping_id": "wwibritain-cmt-014",
+      "case_id": "wwi-britain",
+      "document_id": "wwi-britain-lloyd-george-winning-this-war",
+      "sentence_id": "wwi-britain-lloyd-george-winning-this-war_s01_p19_s07",
+      "mipvu_ids": [
+        "wwi-britain-lloyd-george-winning-this-war_s01_p19_s07_lu022"
+      ],
+      "expression": "sacrifice",
+      "evidence_span": "When the country is in danger, then liberty means the right of every man to defend her; equality means equality of sacrifice of every man and woman of France ; fraternity means the brother- hood of endurance, eifort, victory for France.",
+      "source_domain_primary": "sacrifice",
+      "source_domain_secondary": [],
+      "target_domain": "sacrifice",
+      "conceptual_metaphor": "SACRIFICE IS SACRIFICE",
+      "entailments": [
+        "wartime service or loss is framed as sacrifice for freedom, country, or allies",
+        "Wartime obligation is understood through sacrificial offering."
+      ],
+      "cluster_id": "wwi-britain-03-sacrifice-service-home-front",
+      "confidence": 0.84,
+      "rival_reading": "The passage concerns civic and military cost rather than a literal ritual offering.",
+      "justification": "MIPVU review rule 'wwi-sacrifice-service' marked 1 unit(s) as metaphor-related or uncertain in this sentence.",
+      "mapping_status": "provisional",
+      "rhetorical_salience": "high",
+      "rhetorical_functions": [
+        "commemoration"
+      ],
+      "ideological_functions": [
+        "sacrifice"
+      ]
+    },
+    {
+      "mapping_id": "wwibritain-cmt-015",
+      "case_id": "wwi-britain",
+      "document_id": "wwi-britain-lloyd-george-winning-this-war",
+      "sentence_id": "wwi-britain-lloyd-george-winning-this-war_s01_p30_s11",
+      "mipvu_ids": [
+        "wwi-britain-lloyd-george-winning-this-war_s01_p30_s11_lu013"
+      ],
+      "expression": "strength",
+      "evidence_span": "It is purely, as I said, a means of organ- ising the strength and virility of a nation to save itself from oppression, and that is why, as a Lib- eral fighting the battle of liberty in Europe, I have no shame in declaring for compulsory enlist- ment as I would for compulsory taxes or for com- pulsory education, or, if you will allow me, for compulsory insurance.",
+      "source_domain_primary": "person_agency",
+      "source_domain_secondary": [],
+      "target_domain": "nation",
+      "conceptual_metaphor": "NATION IS PERSON AGENCY",
+      "entailments": [
+        "collective resolve or service is framed through body parts, soul, or embodied strength",
+        "National service is understood through embodied agency."
+      ],
+      "cluster_id": "wwi-britain-01-liberty-autocracy",
+      "confidence": 0.67,
+      "rival_reading": "The phrase applies bodily or inner-life language to collective political commitment.",
+      "justification": "MIPVU review rule 'wwi-embodied-national-service' marked 1 unit(s) as metaphor-related or uncertain in this sentence.",
+      "mapping_status": "provisional",
+      "rhetorical_salience": "medium",
+      "rhetorical_functions": [
+        "national_self_definition"
+      ],
+      "ideological_functions": [
+        "obligation"
+      ]
+    },
+    {
+      "mapping_id": "wwibritain-cmt-016",
+      "case_id": "wwi-britain",
+      "document_id": "wwi-britain-lloyd-george-winning-this-war",
+      "sentence_id": "wwi-britain-lloyd-george-winning-this-war_s01_p59_s05",
+      "mipvu_ids": [
+        "wwi-britain-lloyd-george-winning-this-war_s01_p59_s05_lu019",
+        "wwi-britain-lloyd-george-winning-this-war_s01_p59_s05_lu021",
+        "wwi-britain-lloyd-george-winning-this-war_s01_p59_s05_lu023"
+      ],
+      "expression": "heart / soul / strength",
+      "evidence_span": "I believed that in this war freedom was at stake, so I have thrown myself with all my heart and soul and strength into working for victory.",
+      "source_domain_primary": "person_agency",
+      "source_domain_secondary": [],
+      "target_domain": "nation",
+      "conceptual_metaphor": "NATION IS PERSON AGENCY",
+      "entailments": [
+        "collective resolve or service is framed through body parts, soul, or embodied strength",
+        "National service is understood through embodied agency."
+      ],
+      "cluster_id": "wwi-britain-01-liberty-autocracy",
+      "confidence": 0.67,
+      "rival_reading": "The phrase applies bodily or inner-life language to collective political commitment.",
+      "justification": "MIPVU review rule 'wwi-embodied-national-service' marked 3 unit(s) as metaphor-related or uncertain in this sentence.",
+      "mapping_status": "provisional",
+      "rhetorical_salience": "medium",
+      "rhetorical_functions": [
+        "national_self_definition"
+      ],
+      "ideological_functions": [
+        "obligation"
+      ]
+    },
+    {
+      "mapping_id": "wwibritain-cmt-017",
+      "case_id": "wwi-britain",
+      "document_id": "wwi-britain-lloyd-george-winning-this-war",
+      "sentence_id": "wwi-britain-lloyd-george-winning-this-war_s01_p68_s03",
+      "mipvu_ids": [
+        "wwi-britain-lloyd-george-winning-this-war_s01_p68_s03_lu030"
+      ],
+      "expression": "strength",
+      "evidence_span": "That is why I attach so much importance to this nation, which has so often led the battle of right and freedom in Europe, mobilising the whole of its strength for this great purpose.",
+      "source_domain_primary": "person_agency",
+      "source_domain_secondary": [],
+      "target_domain": "nation",
+      "conceptual_metaphor": "NATION IS PERSON AGENCY",
+      "entailments": [
+        "collective resolve or service is framed through body parts, soul, or embodied strength",
+        "National service is understood through embodied agency."
+      ],
+      "cluster_id": "wwi-britain-01-liberty-autocracy",
+      "confidence": 0.67,
+      "rival_reading": "The phrase applies bodily or inner-life language to collective political commitment.",
+      "justification": "MIPVU review rule 'wwi-embodied-national-service' marked 1 unit(s) as metaphor-related or uncertain in this sentence.",
+      "mapping_status": "provisional",
+      "rhetorical_salience": "medium",
+      "rhetorical_functions": [
+        "national_self_definition"
+      ],
+      "ideological_functions": [
+        "obligation"
+      ]
+    },
+    {
+      "mapping_id": "wwibritain-cmt-018",
+      "case_id": "wwi-britain",
+      "document_id": "wwi-britain-lloyd-george-entry-america",
+      "sentence_id": "wwi-britain-lloyd-george-entry-america_s01_p18_s02",
+      "mipvu_ids": [
+        "wwi-britain-lloyd-george-entry-america_s01_p18_s02_lu027"
+      ],
+      "expression": "strength",
+      "evidence_span": "France was like a nation which had pnt up its right arm to ward off a blow, and it could not use the whole of its strength for tl^ie great things France was capable of.",
+      "source_domain_primary": "person_agency",
+      "source_domain_secondary": [],
+      "target_domain": "nation",
+      "conceptual_metaphor": "NATION IS PERSON AGENCY",
+      "entailments": [
+        "collective resolve or service is framed through body parts, soul, or embodied strength",
+        "National service is understood through embodied agency."
+      ],
+      "cluster_id": "wwi-britain-01-liberty-autocracy",
+      "confidence": 0.67,
+      "rival_reading": "The phrase applies bodily or inner-life language to collective political commitment.",
+      "justification": "MIPVU review rule 'wwi-embodied-national-service' marked 1 unit(s) as metaphor-related or uncertain in this sentence.",
+      "mapping_status": "provisional",
+      "rhetorical_salience": "medium",
+      "rhetorical_functions": [
+        "national_self_definition"
+      ],
+      "ideological_functions": [
+        "obligation"
+      ]
+    },
+    {
+      "mapping_id": "wwibritain-cmt-019",
+      "case_id": "wwi-britain",
+      "document_id": "wwi-britain-lloyd-george-entry-america",
+      "sentence_id": "wwi-britain-lloyd-george-entry-america_s01_p33_s02",
+      "mipvu_ids": [
+        "wwi-britain-lloyd-george-entry-america_s01_p33_s02_lu002"
+      ],
+      "expression": "road",
+      "evidence_span": "The road to victory, the guarantee of victoiy, the absolute assurance of victory, is to be found in one word — ships !",
+      "source_domain_primary": "journey_motion",
+      "source_domain_secondary": [],
+      "target_domain": "military_virtue",
+      "conceptual_metaphor": "MILITARY VIRTUE IS JOURNEY MOTION",
+      "entailments": [
+        "war outcome or moral trajectory is represented through seasonal change or travel",
+        "Victory and moral danger are understood through journey or seasonal transition."
+      ],
+      "cluster_id": "wwi-britain-01-liberty-autocracy",
+      "confidence": 0.7,
+      "rival_reading": "The political-military process is not literal travel or weather.",
+      "justification": "MIPVU review rule 'wwi-road-season-victory' marked 1 unit(s) as metaphor-related or uncertain in this sentence.",
+      "mapping_status": "provisional",
+      "rhetorical_salience": "medium",
+      "rhetorical_functions": [
+        "argument"
+      ],
+      "ideological_functions": [
+        "legitimation"
+      ]
+    },
+    {
+      "mapping_id": "wwibritain-cmt-020",
+      "case_id": "wwi-britain",
+      "document_id": "wwi-britain-lloyd-george-entry-america",
+      "sentence_id": "wwi-britain-lloyd-george-entry-america_s01_p48_s08",
+      "mipvu_ids": [
+        "wwi-britain-lloyd-george-entry-america_s01_p48_s08_lu010",
+        "wwi-britain-lloyd-george-entry-america_s01_p48_s08_lu022"
+      ],
+      "expression": "winter / spring",
+      "evidence_span": "This may be something like that fierce outburst of winter which we are now wit- nessing before the complete triumph of spring.",
+      "source_domain_primary": "journey_motion",
+      "source_domain_secondary": [],
+      "target_domain": "military_virtue",
+      "conceptual_metaphor": "MILITARY VIRTUE IS JOURNEY MOTION",
+      "entailments": [
+        "war outcome or moral trajectory is represented through seasonal change or travel",
+        "Victory and moral danger are understood through journey or seasonal transition."
+      ],
+      "cluster_id": "wwi-britain-01-liberty-autocracy",
+      "confidence": 0.7,
+      "rival_reading": "The political-military process is not literal travel or weather.",
+      "justification": "MIPVU review rule 'wwi-road-season-victory' marked 2 unit(s) as metaphor-related or uncertain in this sentence.",
+      "mapping_status": "provisional",
+      "rhetorical_salience": "medium",
+      "rhetorical_functions": [
+        "argument"
+      ],
+      "ideological_functions": [
+        "legitimation"
+      ]
+    },
+    {
+      "mapping_id": "wwibritain-cmt-021",
+      "case_id": "wwi-britain",
+      "document_id": "wwi-britain-lloyd-george-causes-aims-war",
+      "sentence_id": "wwi-britain-lloyd-george-causes-aims-war_s01_p18_s02",
+      "mipvu_ids": [
+        "wwi-britain-lloyd-george-causes-aims-war_s01_p18_s02_lu021"
+      ],
+      "expression": "blood",
+      "evidence_span": "While it is on, the strength of a country is diverted to the internal conflict which is raging in its blood, and it is naturally not so effective for external use during that period.",
+      "source_domain_primary": "body",
+      "source_domain_secondary": [],
+      "target_domain": "nation",
+      "conceptual_metaphor": "NATION IS BODY",
+      "entailments": [
+        "national vitality, conflict, or war cost is represented through blood and cleansing",
+        "National renewal and war cost are understood through body-blood imagery."
+      ],
+      "cluster_id": "wwi-britain-01-liberty-autocracy",
+      "confidence": 0.78,
+      "rival_reading": "The country, race, or conflict is not literally blood that can be cleansed.",
+      "justification": "MIPVU review rule 'wwi-blood-national-renewal' marked 1 unit(s) as metaphor-related or uncertain in this sentence.",
+      "mapping_status": "provisional",
+      "rhetorical_salience": "medium",
+      "rhetorical_functions": [
+        "national_self_definition"
+      ],
+      "ideological_functions": [
+        "obligation"
+      ]
+    },
+    {
+      "mapping_id": "wwibritain-cmt-022",
+      "case_id": "wwi-britain",
+      "document_id": "wwi-britain-lloyd-george-causes-aims-war",
+      "sentence_id": "wwi-britain-lloyd-george-causes-aims-war_s01_p22_s10",
+      "mipvu_ids": [
+        "wwi-britain-lloyd-george-causes-aims-war_s01_p22_s10_lu014"
+      ],
+      "expression": "strength",
+      "evidence_span": "With their monster artillery they are shattering the rusty bars that fettered the strength of the people of Russia.",
+      "source_domain_primary": "person_agency",
+      "source_domain_secondary": [],
+      "target_domain": "nation",
+      "conceptual_metaphor": "NATION IS PERSON AGENCY",
+      "entailments": [
+        "collective resolve or service is framed through body parts, soul, or embodied strength",
+        "National service is understood through embodied agency."
+      ],
+      "cluster_id": "wwi-britain-01-liberty-autocracy",
+      "confidence": 0.67,
+      "rival_reading": "The phrase applies bodily or inner-life language to collective political commitment.",
+      "justification": "MIPVU review rule 'wwi-embodied-national-service' marked 1 unit(s) as metaphor-related or uncertain in this sentence.",
+      "mapping_status": "provisional",
+      "rhetorical_salience": "medium",
+      "rhetorical_functions": [
+        "national_self_definition"
+      ],
+      "ideological_functions": [
+        "obligation"
+      ]
+    },
+    {
+      "mapping_id": "wwibritain-cmt-023",
+      "case_id": "wwi-britain",
+      "document_id": "wwi-britain-lloyd-george-causes-aims-war",
+      "sentence_id": "wwi-britain-lloyd-george-causes-aims-war_s01_p26_s01",
+      "mipvu_ids": [
+        "wwi-britain-lloyd-george-causes-aims-war_s01_p26_s01_lu002"
+      ],
+      "expression": "Burden",
+      "evidence_span": "The Burden Cast Upon the Other Allies.",
+      "source_domain_primary": "body",
+      "source_domain_secondary": [],
+      "target_domain": "citizenship",
+      "conceptual_metaphor": "CITIZENSHIP IS BODY",
+      "entailments": [
+        "wartime obligation is represented as a physical burden to carry",
+        "Allied responsibility is understood through bodily carrying."
+      ],
+      "cluster_id": "wwi-britain-01-liberty-autocracy",
+      "confidence": 0.73,
+      "rival_reading": "The obligation is political and military, not a literal carried object.",
+      "justification": "MIPVU review rule 'wwi-burden-obligation' marked 1 unit(s) as metaphor-related or uncertain in this sentence.",
+      "mapping_status": "provisional",
+      "rhetorical_salience": "medium",
+      "rhetorical_functions": [
+        "argument"
+      ],
+      "ideological_functions": [
+        "legitimation"
+      ]
+    },
+    {
+      "mapping_id": "wwibritain-cmt-024",
+      "case_id": "wwi-britain",
+      "document_id": "wwi-britain-lloyd-george-causes-aims-war",
+      "sentence_id": "wwi-britain-lloyd-george-causes-aims-war_s01_p27_s01",
+      "mipvu_ids": [
+        "wwi-britain-lloyd-george-causes-aims-war_s01_p27_s01_lu008",
+        "wwi-britain-lloyd-george-causes-aims-war_s01_p27_s01_lu014"
+      ],
+      "expression": "bear / burden",
+      "evidence_span": "Meanwhile, France, Italy, and ourselves have to bear the greatest share of the burden, and I should like to say to those who hailed the Rus- sian Revolution with delight as well as condemn- ing and doing their best to thwart the military efforts of their own country, that but for these military efforts the Russian Revolution would have had no chance to fructify.",
+      "source_domain_primary": "body",
+      "source_domain_secondary": [],
+      "target_domain": "citizenship",
+      "conceptual_metaphor": "CITIZENSHIP IS BODY",
+      "entailments": [
+        "wartime obligation is represented as a physical burden to carry",
+        "Allied responsibility is understood through bodily carrying."
+      ],
+      "cluster_id": "wwi-britain-01-liberty-autocracy",
+      "confidence": 0.73,
+      "rival_reading": "The obligation is political and military, not a literal carried object.",
+      "justification": "MIPVU review rule 'wwi-burden-obligation' marked 2 unit(s) as metaphor-related or uncertain in this sentence.",
+      "mapping_status": "provisional",
+      "rhetorical_salience": "medium",
+      "rhetorical_functions": [
+        "argument"
+      ],
+      "ideological_functions": [
+        "legitimation"
+      ]
+    },
+    {
+      "mapping_id": "wwibritain-cmt-025",
+      "case_id": "wwi-britain",
+      "document_id": "wwi-britain-lloyd-george-causes-aims-war",
+      "sentence_id": "wwi-britain-lloyd-george-causes-aims-war_s01_p43_s06",
+      "mipvu_ids": [
+        "wwi-britain-lloyd-george-causes-aims-war_s01_p43_s06_lu011",
+        "wwi-britain-lloyd-george-causes-aims-war_s01_p43_s06_lu012",
+        "wwi-britain-lloyd-george-causes-aims-war_s01_p43_s06_lu018",
+        "wwi-britain-lloyd-george-causes-aims-war_s01_p43_s06_lu037"
+      ],
+      "expression": "petrol / machine / driven / machine",
+      "evidence_span": "There are people who think the nation is like a petrol machine, that it can only be driven by a rapid succession of petty explo- sions, and unless they always hear its spluttering they think the machine is at a standstill.",
+      "source_domain_primary": "mechanics",
+      "source_domain_secondary": [],
+      "target_domain": "social_body",
+      "conceptual_metaphor": "SOCIAL BODY IS MECHANICS",
+      "entailments": [
+        "nation, civilization, or personhood is explicitly compared to a machine",
+        "Political society and personhood are understood through machinery."
+      ],
+      "cluster_id": "wwi-britain-01-liberty-autocracy",
+      "confidence": 0.88,
+      "rival_reading": "The target is a political community or human being, not literal machinery.",
+      "justification": "MIPVU review rule 'wwi-machine-society' marked 4 unit(s) as metaphor-related or uncertain in this sentence.",
+      "mapping_status": "provisional",
+      "rhetorical_salience": "high",
+      "rhetorical_functions": [
+        "argument"
+      ],
+      "ideological_functions": [
+        "legitimation"
+      ]
+    },
+    {
+      "mapping_id": "wwibritain-cmt-026",
+      "case_id": "wwi-britain",
+      "document_id": "wwi-britain-lloyd-george-causes-aims-war",
+      "sentence_id": "wwi-britain-lloyd-george-causes-aims-war_s01_p45_s01",
+      "mipvu_ids": [
+        "wwi-britain-lloyd-george-causes-aims-war_s01_p45_s01_lu012"
+      ],
+      "expression": "strength",
+      "evidence_span": "of the people gradually; but if they breathe con- fidence, unity, strength, and hope, it adds to the power of the people to go througli this terrible crisis.",
+      "source_domain_primary": "person_agency",
+      "source_domain_secondary": [],
+      "target_domain": "nation",
+      "conceptual_metaphor": "NATION IS PERSON AGENCY",
+      "entailments": [
+        "collective resolve or service is framed through body parts, soul, or embodied strength",
+        "National service is understood through embodied agency."
+      ],
+      "cluster_id": "wwi-britain-01-liberty-autocracy",
+      "confidence": 0.67,
+      "rival_reading": "The phrase applies bodily or inner-life language to collective political commitment.",
+      "justification": "MIPVU review rule 'wwi-embodied-national-service' marked 1 unit(s) as metaphor-related or uncertain in this sentence.",
+      "mapping_status": "provisional",
+      "rhetorical_salience": "medium",
+      "rhetorical_functions": [
+        "national_self_definition"
+      ],
+      "ideological_functions": [
+        "obligation"
+      ]
+    },
+    {
+      "mapping_id": "wwibritain-cmt-027",
+      "case_id": "wwi-britain",
+      "document_id": "wwi-britain-lloyd-george-causes-aims-war",
+      "sentence_id": "wwi-britain-lloyd-george-causes-aims-war_s01_p45_s02",
+      "mipvu_ids": [
+        "wwi-britain-lloyd-george-causes-aims-war_s01_p45_s02_lu039"
+      ],
+      "expression": "strength",
+      "evidence_span": "That is why I am appealing first of all to those who have power and influence in the land, whether great or small, each in his circle helping the spirit of the nation to support its purpose, give strength to its wdll.",
+      "source_domain_primary": "person_agency",
+      "source_domain_secondary": [],
+      "target_domain": "nation",
+      "conceptual_metaphor": "NATION IS PERSON AGENCY",
+      "entailments": [
+        "collective resolve or service is framed through body parts, soul, or embodied strength",
+        "National service is understood through embodied agency."
+      ],
+      "cluster_id": "wwi-britain-01-liberty-autocracy",
+      "confidence": 0.67,
+      "rival_reading": "The phrase applies bodily or inner-life language to collective political commitment.",
+      "justification": "MIPVU review rule 'wwi-embodied-national-service' marked 1 unit(s) as metaphor-related or uncertain in this sentence.",
+      "mapping_status": "provisional",
+      "rhetorical_salience": "medium",
+      "rhetorical_functions": [
+        "national_self_definition"
+      ],
+      "ideological_functions": [
+        "obligation"
+      ]
+    },
+    {
+      "mapping_id": "wwibritain-cmt-028",
+      "case_id": "wwi-britain",
+      "document_id": "wwi-britain-lloyd-george-causes-aims-war",
+      "sentence_id": "wwi-britain-lloyd-george-causes-aims-war_s01_p50_s03",
+      "mipvu_ids": [
+        "wwi-britain-lloyd-george-causes-aims-war_s01_p50_s03_lu012"
+      ],
+      "expression": "sacrificed",
+      "evidence_span": "If it is true, then it would be criminal if we sacrificed more precious life and treasure, and prolonged the wretchedness and anxiety and suffering associated with the war.",
+      "source_domain_primary": "sacrifice",
+      "source_domain_secondary": [],
+      "target_domain": "sacrifice",
+      "conceptual_metaphor": "SACRIFICE IS SACRIFICE",
+      "entailments": [
+        "wartime service or loss is framed as sacrifice for freedom, country, or allies",
+        "Wartime obligation is understood through sacrificial offering."
+      ],
+      "cluster_id": "wwi-britain-03-sacrifice-service-home-front",
+      "confidence": 0.84,
+      "rival_reading": "The passage concerns civic and military cost rather than a literal ritual offering.",
+      "justification": "MIPVU review rule 'wwi-sacrifice-service' marked 1 unit(s) as metaphor-related or uncertain in this sentence.",
+      "mapping_status": "provisional",
+      "rhetorical_salience": "high",
+      "rhetorical_functions": [
+        "commemoration"
+      ],
+      "ideological_functions": [
+        "sacrifice"
+      ]
+    },
+    {
+      "mapping_id": "wwibritain-cmt-029",
+      "case_id": "wwi-britain",
+      "document_id": "wwi-britain-lloyd-george-causes-aims-war",
+      "sentence_id": "wwi-britain-lloyd-george-causes-aims-war_s01_p54_s06",
+      "mipvu_ids": [
+        "wwi-britain-lloyd-george-causes-aims-war_s01_p54_s06_lu014",
+        "wwi-britain-lloyd-george-causes-aims-war_s01_p54_s06_lu015"
+      ],
+      "expression": "blood / cleansed",
+      "evidence_span": "Rome would have thrown off its sloth as Britain did in 1914; its blood cleansed by sacrifice, the old vitality, the old virility of the race would have been restored, Rome would have been grander than ever, its rule would have been more beneficent, and the world would have been spared centuries of cruelties and chaos.",
+      "source_domain_primary": "body",
+      "source_domain_secondary": [],
+      "target_domain": "nation",
+      "conceptual_metaphor": "NATION IS BODY",
+      "entailments": [
+        "national vitality, conflict, or war cost is represented through blood and cleansing",
+        "National renewal and war cost are understood through body-blood imagery."
+      ],
+      "cluster_id": "wwi-britain-01-liberty-autocracy",
+      "confidence": 0.78,
+      "rival_reading": "The country, race, or conflict is not literally blood that can be cleansed.",
+      "justification": "MIPVU review rule 'wwi-blood-national-renewal' marked 2 unit(s) as metaphor-related or uncertain in this sentence.",
+      "mapping_status": "provisional",
+      "rhetorical_salience": "medium",
+      "rhetorical_functions": [
+        "national_self_definition"
+      ],
+      "ideological_functions": [
+        "obligation"
+      ]
+    },
+    {
+      "mapping_id": "wwibritain-cmt-030",
+      "case_id": "wwi-britain",
+      "document_id": "wwi-britain-lloyd-george-causes-aims-war",
+      "sentence_id": "wwi-britain-lloyd-george-causes-aims-war_s01_p54_s06",
+      "mipvu_ids": [
+        "wwi-britain-lloyd-george-causes-aims-war_s01_p54_s06_lu017"
+      ],
+      "expression": "sacrifice",
+      "evidence_span": "Rome would have thrown off its sloth as Britain did in 1914; its blood cleansed by sacrifice, the old vitality, the old virility of the race would have been restored, Rome would have been grander than ever, its rule would have been more beneficent, and the world would have been spared centuries of cruelties and chaos.",
+      "source_domain_primary": "sacrifice",
+      "source_domain_secondary": [],
+      "target_domain": "sacrifice",
+      "conceptual_metaphor": "SACRIFICE IS SACRIFICE",
+      "entailments": [
+        "wartime service or loss is framed as sacrifice for freedom, country, or allies",
+        "Wartime obligation is understood through sacrificial offering."
+      ],
+      "cluster_id": "wwi-britain-03-sacrifice-service-home-front",
+      "confidence": 0.84,
+      "rival_reading": "The passage concerns civic and military cost rather than a literal ritual offering.",
+      "justification": "MIPVU review rule 'wwi-sacrifice-service' marked 1 unit(s) as metaphor-related or uncertain in this sentence.",
+      "mapping_status": "provisional",
+      "rhetorical_salience": "high",
+      "rhetorical_functions": [
+        "commemoration"
+      ],
+      "ideological_functions": [
+        "sacrifice"
+      ]
+    },
+    {
+      "mapping_id": "wwibritain-cmt-031",
+      "case_id": "wwi-britain",
+      "document_id": "wwi-britain-lloyd-george-causes-aims-war",
+      "sentence_id": "wwi-britain-lloyd-george-causes-aims-war_s01_p66_s05",
+      "mipvu_ids": [
+        "wwi-britain-lloyd-george-causes-aims-war_s01_p66_s05_lu011"
+      ],
+      "expression": "driven",
+      "evidence_span": "We are there to recover for people who have been driven out of their patrimony the land which belongs to them and to their fathers.",
+      "source_domain_primary": "mechanics",
+      "source_domain_secondary": [],
+      "target_domain": "social_body",
+      "conceptual_metaphor": "SOCIAL BODY IS MECHANICS",
+      "entailments": [
+        "nation, civilization, or personhood is explicitly compared to a machine",
+        "Political society and personhood are understood through machinery."
+      ],
+      "cluster_id": "wwi-britain-01-liberty-autocracy",
+      "confidence": 0.88,
+      "rival_reading": "The target is a political community or human being, not literal machinery.",
+      "justification": "MIPVU review rule 'wwi-machine-society' marked 1 unit(s) as metaphor-related or uncertain in this sentence.",
+      "mapping_status": "provisional",
+      "rhetorical_salience": "high",
+      "rhetorical_functions": [
+        "argument"
+      ],
+      "ideological_functions": [
+        "legitimation"
+      ]
+    },
+    {
+      "mapping_id": "wwibritain-cmt-032",
+      "case_id": "wwi-britain",
+      "document_id": "wwi-britain-lloyd-george-causes-aims-war",
+      "sentence_id": "wwi-britain-lloyd-george-causes-aims-war_s01_p94_s01",
+      "mipvu_ids": [
+        "wwi-britain-lloyd-george-causes-aims-war_s01_p94_s01_lu025"
+      ],
+      "expression": "blood",
+      "evidence_span": "Then came the conflict of the eighteenth century, the great fight for the right of men, as men, and Europe again was drenched with blood, but at the end of it the peasantry were free and democracy became a reality.",
+      "source_domain_primary": "body",
+      "source_domain_secondary": [],
+      "target_domain": "nation",
+      "conceptual_metaphor": "NATION IS BODY",
+      "entailments": [
+        "national vitality, conflict, or war cost is represented through blood and cleansing",
+        "National renewal and war cost are understood through body-blood imagery."
+      ],
+      "cluster_id": "wwi-britain-01-liberty-autocracy",
+      "confidence": 0.78,
+      "rival_reading": "The country, race, or conflict is not literally blood that can be cleansed.",
+      "justification": "MIPVU review rule 'wwi-blood-national-renewal' marked 1 unit(s) as metaphor-related or uncertain in this sentence.",
+      "mapping_status": "provisional",
+      "rhetorical_salience": "medium",
+      "rhetorical_functions": [
+        "national_self_definition"
+      ],
+      "ideological_functions": [
+        "obligation"
+      ]
+    },
+    {
+      "mapping_id": "wwibritain-cmt-033",
+      "case_id": "wwi-britain",
+      "document_id": "wwi-britain-lloyd-george-causes-aims-war",
+      "sentence_id": "wwi-britain-lloyd-george-causes-aims-war_s01_p97_s02",
+      "mipvu_ids": [
+        "wwi-britain-lloyd-george-causes-aims-war_s01_p97_s02_lu053"
+      ],
+      "expression": "strength",
+      "evidence_span": "My ap- peal to the people of this country, and, if my ap- peal can reach beyond it, is this, that we should continue to fight for the great goal of interna- tional right and international justice, so that never again shall brute force sit on the throne of justice, nor barbaric strength wield the sceptre of right.",
+      "source_domain_primary": "person_agency",
+      "source_domain_secondary": [],
+      "target_domain": "nation",
+      "conceptual_metaphor": "NATION IS PERSON AGENCY",
+      "entailments": [
+        "collective resolve or service is framed through body parts, soul, or embodied strength",
+        "National service is understood through embodied agency."
+      ],
+      "cluster_id": "wwi-britain-01-liberty-autocracy",
+      "confidence": 0.67,
+      "rival_reading": "The phrase applies bodily or inner-life language to collective political commitment.",
+      "justification": "MIPVU review rule 'wwi-embodied-national-service' marked 1 unit(s) as metaphor-related or uncertain in this sentence.",
+      "mapping_status": "provisional",
+      "rhetorical_salience": "medium",
+      "rhetorical_functions": [
+        "national_self_definition"
+      ],
+      "ideological_functions": [
+        "obligation"
+      ]
+    }
+  ]
+}

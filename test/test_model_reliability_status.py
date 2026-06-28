@@ -183,6 +183,31 @@ class ModelReliabilityStatusTest(unittest.TestCase):
                 any("expanded corpus" in warning for warning in result["warnings"])
             )
 
+    def test_annotation_forward_source_refresh_warns_without_invalidating_packet(self) -> None:
+        with tempfile.TemporaryDirectory() as temp_dir:
+            root = status_root(Path(temp_dir), packets=True)
+            refreshed_inputs = (
+                root / "cases" / "demo" / "corpus" / "annotated" / "demo-doc-001_annotated.json",
+                root / "cases" / "demo" / "corpus" / "mipvu" / "demo-doc-001_mipvu.json",
+                root / "cases" / "demo" / "corpus" / "segmented" / "demo-doc-001.json",
+            )
+            for path in refreshed_inputs:
+                data = json.loads(path.read_text(encoding="utf-8"))
+                data.setdefault("meta", {})["annotation_forward_refreshed_at"] = "2026-06-28"
+                write_json(path, data)
+
+            result = evaluate_case(root, "demo")
+
+            self.assertEqual(result["state"], "designed")
+            self.assertTrue(result["valid"])
+            self.assertEqual(result["errors"], [])
+            self.assertTrue(
+                any(
+                    "annotation-forward corpus refresh" in warning
+                    for warning in result["warnings"]
+                )
+            )
+
 
 if __name__ == "__main__":
     unittest.main()

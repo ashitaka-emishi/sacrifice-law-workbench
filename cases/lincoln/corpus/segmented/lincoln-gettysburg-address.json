@@ -9,7 +9,7 @@
     "date_precision": "day",
     "register": "ceremonial-address",
     "authorship": "Abraham Lincoln",
-    "source_url": "https://www.gutenberg.org/ebooks/4",
+    "source_url": "https://www.gutenberg.org/cache/epub/4/pg4.txt",
     "source_citation": "Project Gutenberg EBook #4 — Bliss copy (Lincoln's final corrected manuscript, the only one he signed)",
     "rights_status": "public-domain",
     "expected_raw_path": "corpus/raw/lincoln-src-02-gettysburg-address.txt",
@@ -47,7 +47,7 @@
       {
         "stage": "normalize-texts",
         "script": "scripts/normalize-texts.py",
-        "generated_at": "2026-06-28T02:11:39"
+        "generated_at": "2026-06-28T10:13:56"
       }
     ]
   },
@@ -204,7 +204,7 @@
     {
       "stage": "segment-texts",
       "script": "scripts/segment-texts.py",
-      "generated_at": "2026-06-28T02:11:39",
+      "generated_at": "2026-06-28T10:13:56",
       "sentence_count": 10
     }
   ]

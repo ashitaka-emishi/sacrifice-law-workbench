@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-28T02:11:43",
+  "generated_at": "2026-06-28T10:13:59",
   "status": "draft",
   "items": [
     {
@@ -9,8 +9,8 @@
     },
     {
       "case_id": "fr-rev",
-      "ready": false,
-      "reason": "status=stub, instances=0"
+      "ready": true,
+      "reason": "complete"
     },
     {
       "case_id": "hitler",
@@ -29,8 +29,8 @@
     },
     {
       "case_id": "wwi-britain",
-      "ready": false,
-      "reason": "status=stub, instances=0"
+      "ready": true,
+      "reason": "complete"
     }
   ]
 }

@@ -2,24 +2,22 @@
   "case_id": "fr-rev",
   "stage": "generate-mipvu-worklist",
   "status": "ready",
-  "generated_at": "2026-06-28T02:11:37",
+  "generated_at": "2026-06-28T10:13:54",
   "documents_in_manifest": 2,
-  "written": 2,
-  "skipped_reviewed": 0,
-  "lexical_units": 17123,
+  "written": 0,
+  "skipped_reviewed": 2,
+  "lexical_units": 0,
   "errors": [],
   "records": [
     {
       "document_id": "fr-rev-robespierre-political-morality",
-      "status": "written",
-      "lexical_units": 7440,
+      "status": "skipped_reviewed",
       "input_path": "cases/fr-rev/corpus/segmented/fr-rev-robespierre-political-morality.json",
       "output_path": "cases/fr-rev/corpus/mipvu/fr-rev-robespierre-political-morality_mipvu.json"
     },
     {
       "document_id": "fr-rev-robespierre-religious-moral-ideas",
-      "status": "written",
-      "lexical_units": 9683,
+      "status": "skipped_reviewed",
       "input_path": "cases/fr-rev/corpus/segmented/fr-rev-robespierre-religious-moral-ideas.json",
       "output_path": "cases/fr-rev/corpus/mipvu/fr-rev-robespierre-religious-moral-ideas_mipvu.json"
     }

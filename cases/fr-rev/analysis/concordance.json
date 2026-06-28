@@ -1,19 +1,19 @@
 {
   "version": "1.0",
   "case_id": "fr-rev",
-  "generated_at": "2026-06-28T02:11:37",
-  "status": "stub",
+  "generated_at": "2026-06-28T10:13:54",
+  "status": "complete",
   "mipvu_profile": {
     "mipvu_files": 2,
     "total_lexical_units": 17123,
-    "reviewed_lexical_units": 0,
-    "pending_lexical_units": 17123,
-    "confirmed_metaphor_units": 0,
-    "metaphor_or_uncertain_units": 0,
-    "metaphor_rate_confirmed": 0.0,
-    "metaphor_rate_including_uncertain": 0.0,
-    "reviewed_metaphor_rate_confirmed": null,
-    "reviewed_metaphor_rate_including_uncertain": null,
+    "reviewed_lexical_units": 17123,
+    "pending_lexical_units": 0,
+    "confirmed_metaphor_units": 34,
+    "metaphor_or_uncertain_units": 45,
+    "metaphor_rate_confirmed": 0.002,
+    "metaphor_rate_including_uncertain": 0.0026,
+    "reviewed_metaphor_rate_confirmed": 0.002,
+    "reviewed_metaphor_rate_including_uncertain": 0.0026,
     "by_document": {
       "fr-rev-robespierre-religious-moral-ideas": 9683,
       "fr-rev-robespierre-political-morality": 7440
@@ -25,39 +25,1674 @@
       "fr": 17123
     },
     "by_decision_type": {
-      "pending": 17123
+      "non_metaphor": 17078,
+      "mipvu_indirect": 34,
+      "uncertain": 11
     },
     "by_confidence": {
-      "missing": 17123
+      "missing": 17078,
+      "medium": 34,
+      "low": 11
     }
   },
   "cmt_profile": {
-    "mapping_file": null,
-    "mapping_count": 0,
-    "by_cluster": {},
-    "by_source_domain": {},
-    "by_target_domain": {},
-    "by_conceptual_metaphor": {},
-    "by_document": {},
-    "by_salience": {},
-    "by_status": {}
+    "mapping_file": "corpus/cmt/cmt-mappings.json",
+    "mapping_count": 42,
+    "by_cluster": {
+      "fr-rev-01-virtue-terror": 24,
+      "fr-rev-06-sacrifice-duty": 18
+    },
+    "by_source_domain": {
+      "life_death": 13,
+      "medicine_healing": 11,
+      "birth_generation": 6,
+      "slavery_bondage": 6,
+      "sacrifice": 5,
+      "object_material": 1
+    },
+    "by_target_domain": {
+      "sacrifice": 18,
+      "republic": 17,
+      "freedom": 6,
+      "military_virtue": 1
+    },
+    "by_conceptual_metaphor": {
+      "SACRIFICE IS LIFE DEATH": 13,
+      "REPUBLIC IS MEDICINE HEALING": 11,
+      "FREEDOM IS SLAVERY BONDAGE": 6,
+      "REPUBLIC IS BIRTH GENERATION": 6,
+      "SACRIFICE IS SACRIFICE": 5,
+      "MILITARY VIRTUE IS OBJECT MATERIAL": 1
+    },
+    "by_document": {
+      "fr-rev-robespierre-political-morality": 21,
+      "fr-rev-robespierre-religious-moral-ideas": 21
+    },
+    "by_salience": {
+      "medium": 31,
+      "high": 11
+    },
+    "by_status": {
+      "provisional": 42
+    }
   },
-  "total_documents": 0,
+  "total_documents": 2,
   "total_sentences": 0,
-  "total_instances": 0,
-  "instances": [],
+  "total_instances": 42,
+  "instances": [
+    {
+      "instance_id": "frrev-ann-001",
+      "case_id": "fr-rev",
+      "document_id": "fr-rev-robespierre-political-morality",
+      "sentence_id": "fr-rev-robespierre-political-morality_s01_p01_s01",
+      "span_text": "salut",
+      "mipvu_ids": [
+        "fr-rev-robespierre-political-morality_s01_p01_s01_lu026"
+      ],
+      "cmt": {
+        "mapping_id": "frrev-cmt-001",
+        "cluster_id": "fr-rev-01-virtue-terror",
+        "source_domain_primary": "medicine_healing",
+        "source_domain_secondary": [],
+        "target_domain": "republic",
+        "conceptual_metaphor": "REPUBLIC IS MEDICINE HEALING",
+        "entailments": [
+          "public safety or republican survival is framed through salvation/rescue",
+          "The republic is understood through rescue or salvation from danger."
+        ],
+        "confidence": 0.62,
+        "rival_reading": "The political institution is treated as an entity that can be saved.",
+        "justification": "MIPVU review rule 'fr-rev-public-salvation' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
+      },
+      "koenigsberg": {},
+      "meta": {
+        "confidence": 0.62,
+        "ambiguity_flag": true,
+        "suppression_flag": false
+      },
+      "gloss_en": "public safety / salvation",
+      "gloss_notes": "English gloss is an analytical aid only; French source text controls."
+    },
+    {
+      "instance_id": "frrev-ann-002",
+      "case_id": "fr-rev",
+      "document_id": "fr-rev-robespierre-political-morality",
+      "sentence_id": "fr-rev-robespierre-political-morality_s01_p04_s02",
+      "span_text": "régénération",
+      "mipvu_ids": [
+        "fr-rev-robespierre-political-morality_s01_p04_s02_lu014"
+      ],
+      "cmt": {
+        "mapping_id": "frrev-cmt-002",
+        "cluster_id": "fr-rev-01-virtue-terror",
+        "source_domain_primary": "birth_generation",
+        "source_domain_secondary": [],
+        "target_domain": "republic",
+        "conceptual_metaphor": "REPUBLIC IS BIRTH GENERATION",
+        "entailments": [
+          "political community or liberty is represented through birth or regeneration",
+          "Republican political life is understood through birth and regeneration."
+        ],
+        "confidence": 0.7,
+        "rival_reading": "The referent is political and historical rather than biological.",
+        "justification": "MIPVU review rule 'fr-rev-political-birth' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
+      },
+      "koenigsberg": {},
+      "meta": {
+        "confidence": 0.7,
+        "ambiguity_flag": false,
+        "suppression_flag": false
+      },
+      "gloss_en": "birth / regeneration",
+      "gloss_notes": "English gloss is an analytical aid only; French source text controls."
+    },
+    {
+      "instance_id": "frrev-ann-003",
+      "case_id": "fr-rev",
+      "document_id": "fr-rev-robespierre-political-morality",
+      "sentence_id": "fr-rev-robespierre-political-morality_s01_p06_s01",
+      "span_text": "mort",
+      "mipvu_ids": [
+        "fr-rev-robespierre-political-morality_s01_p06_s01_lu073"
+      ],
+      "cmt": {
+        "mapping_id": "frrev-cmt-003",
+        "cluster_id": "fr-rev-06-sacrifice-duty",
+        "source_domain_primary": "life_death",
+        "source_domain_secondary": [],
+        "target_domain": "sacrifice",
+        "conceptual_metaphor": "SACRIFICE IS LIFE DEATH",
+        "entailments": [
+          "death or bloodshed is framed as the cost that protects liberty, heroes, or the patrie",
+          "Republican liberty and patriotic obligation are understood through blood and death."
+        ],
+        "confidence": 0.76,
+        "rival_reading": "The terms may name literal danger, but the local phrasing converts loss into civic-political value.",
+        "justification": "MIPVU review rule 'fr-rev-blood-death-sacrifice' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
+      },
+      "koenigsberg": {
+        "fantasy_type": "redemptive_sacrifice",
+        "sacrificial_economy": true
+      },
+      "meta": {
+        "confidence": 0.76,
+        "ambiguity_flag": false,
+        "suppression_flag": false
+      },
+      "gloss_en": "blood / death",
+      "gloss_notes": "English gloss is an analytical aid only; French source text controls."
+    },
+    {
+      "instance_id": "frrev-ann-004",
+      "case_id": "fr-rev",
+      "document_id": "fr-rev-robespierre-political-morality",
+      "sentence_id": "fr-rev-robespierre-political-morality_s01_p09_s01",
+      "span_text": "naissent",
+      "mipvu_ids": [
+        "fr-rev-robespierre-political-morality_s01_p09_s01_lu044"
+      ],
+      "cmt": {
+        "mapping_id": "frrev-cmt-004",
+        "cluster_id": "fr-rev-01-virtue-terror",
+        "source_domain_primary": "birth_generation",
+        "source_domain_secondary": [],
+        "target_domain": "republic",
+        "conceptual_metaphor": "REPUBLIC IS BIRTH GENERATION",
+        "entailments": [
+          "political community or liberty is represented through birth or regeneration",
+          "Republican political life is understood through birth and regeneration."
+        ],
+        "confidence": 0.7,
+        "rival_reading": "The referent is political and historical rather than biological.",
+        "justification": "MIPVU review rule 'fr-rev-political-birth' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
+      },
+      "koenigsberg": {},
+      "meta": {
+        "confidence": 0.7,
+        "ambiguity_flag": false,
+        "suppression_flag": false
+      },
+      "gloss_en": "birth / regeneration",
+      "gloss_notes": "English gloss is an analytical aid only; French source text controls."
+    },
+    {
+      "instance_id": "frrev-ann-005",
+      "case_id": "fr-rev",
+      "document_id": "fr-rev-robespierre-political-morality",
+      "sentence_id": "fr-rev-robespierre-political-morality_s01_p18_s01",
+      "span_text": "sacrifices",
+      "mipvu_ids": [
+        "fr-rev-robespierre-political-morality_s01_p18_s01_lu050"
+      ],
+      "cmt": {
+        "mapping_id": "frrev-cmt-005",
+        "cluster_id": "fr-rev-06-sacrifice-duty",
+        "source_domain_primary": "sacrifice",
+        "source_domain_secondary": [],
+        "target_domain": "sacrifice",
+        "conceptual_metaphor": "SACRIFICE IS SACRIFICE",
+        "entailments": [
+          "republican commitment is represented through sacrifice or total devotion",
+          "Civic obligation is understood through sacrificial offering and self-devotion."
+        ],
+        "confidence": 0.82,
+        "rival_reading": "The passage concerns civic-political commitment, not a literal altar offering.",
+        "justification": "MIPVU review rule 'fr-rev-sacrifice-devotion' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
+      },
+      "koenigsberg": {
+        "fantasy_type": "redemptive_sacrifice",
+        "sacrificial_economy": true
+      },
+      "meta": {
+        "confidence": 0.82,
+        "ambiguity_flag": false,
+        "suppression_flag": false
+      },
+      "gloss_en": "sacrifice / devotion",
+      "gloss_notes": "English gloss is an analytical aid only; French source text controls."
+    },
+    {
+      "instance_id": "frrev-ann-006",
+      "case_id": "fr-rev",
+      "document_id": "fr-rev-robespierre-political-morality",
+      "sentence_id": "fr-rev-robespierre-political-morality_s01_p28_s02",
+      "span_text": "mort",
+      "mipvu_ids": [
+        "fr-rev-robespierre-political-morality_s01_p28_s02_lu029"
+      ],
+      "cmt": {
+        "mapping_id": "frrev-cmt-006",
+        "cluster_id": "fr-rev-06-sacrifice-duty",
+        "source_domain_primary": "life_death",
+        "source_domain_secondary": [],
+        "target_domain": "sacrifice",
+        "conceptual_metaphor": "SACRIFICE IS LIFE DEATH",
+        "entailments": [
+          "death or bloodshed is framed as the cost that protects liberty, heroes, or the patrie",
+          "Republican liberty and patriotic obligation are understood through blood and death."
+        ],
+        "confidence": 0.76,
+        "rival_reading": "The terms may name literal danger, but the local phrasing converts loss into civic-political value.",
+        "justification": "MIPVU review rule 'fr-rev-blood-death-sacrifice' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
+      },
+      "koenigsberg": {
+        "fantasy_type": "redemptive_sacrifice",
+        "sacrificial_economy": true
+      },
+      "meta": {
+        "confidence": 0.76,
+        "ambiguity_flag": false,
+        "suppression_flag": false
+      },
+      "gloss_en": "blood / death",
+      "gloss_notes": "English gloss is an analytical aid only; French source text controls."
+    },
+    {
+      "instance_id": "frrev-ann-007",
+      "case_id": "fr-rev",
+      "document_id": "fr-rev-robespierre-political-morality",
+      "sentence_id": "fr-rev-robespierre-political-morality_s01_p29_s01",
+      "span_text": "mort",
+      "mipvu_ids": [
+        "fr-rev-robespierre-political-morality_s01_p29_s01_lu044"
+      ],
+      "cmt": {
+        "mapping_id": "frrev-cmt-007",
+        "cluster_id": "fr-rev-06-sacrifice-duty",
+        "source_domain_primary": "life_death",
+        "source_domain_secondary": [],
+        "target_domain": "sacrifice",
+        "conceptual_metaphor": "SACRIFICE IS LIFE DEATH",
+        "entailments": [
+          "death or bloodshed is framed as the cost that protects liberty, heroes, or the patrie",
+          "Republican liberty and patriotic obligation are understood through blood and death."
+        ],
+        "confidence": 0.76,
+        "rival_reading": "The terms may name literal danger, but the local phrasing converts loss into civic-political value.",
+        "justification": "MIPVU review rule 'fr-rev-blood-death-sacrifice' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
+      },
+      "koenigsberg": {
+        "fantasy_type": "redemptive_sacrifice",
+        "sacrificial_economy": true
+      },
+      "meta": {
+        "confidence": 0.76,
+        "ambiguity_flag": false,
+        "suppression_flag": false
+      },
+      "gloss_en": "blood / death",
+      "gloss_notes": "English gloss is an analytical aid only; French source text controls."
+    },
+    {
+      "instance_id": "frrev-ann-008",
+      "case_id": "fr-rev",
+      "document_id": "fr-rev-robespierre-political-morality",
+      "sentence_id": "fr-rev-robespierre-political-morality_s01_p29_s01",
+      "span_text": "chaînes",
+      "mipvu_ids": [
+        "fr-rev-robespierre-political-morality_s01_p29_s01_lu016"
+      ],
+      "cmt": {
+        "mapping_id": "frrev-cmt-008",
+        "cluster_id": "fr-rev-01-virtue-terror",
+        "source_domain_primary": "slavery_bondage",
+        "source_domain_secondary": [],
+        "target_domain": "freedom",
+        "conceptual_metaphor": "FREEDOM IS SLAVERY BONDAGE",
+        "entailments": [
+          "oppression and liberation are represented through chains, slavery, riveting, or breaking bonds",
+          "Political freedom is understood through slavery and broken bondage."
+        ],
+        "confidence": 0.84,
+        "rival_reading": "Humanity and liberty are political abstractions rather than literal chained bodies in this context.",
+        "justification": "MIPVU review rule 'fr-rev-bondage-liberty' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
+      },
+      "koenigsberg": {},
+      "meta": {
+        "confidence": 0.84,
+        "ambiguity_flag": false,
+        "suppression_flag": false
+      },
+      "gloss_en": "chains / slavery",
+      "gloss_notes": "English gloss is an analytical aid only; French source text controls."
+    },
+    {
+      "instance_id": "frrev-ann-009",
+      "case_id": "fr-rev",
+      "document_id": "fr-rev-robespierre-political-morality",
+      "sentence_id": "fr-rev-robespierre-political-morality_s01_p41_s04",
+      "span_text": "sang",
+      "mipvu_ids": [
+        "fr-rev-robespierre-political-morality_s01_p41_s04_lu059"
+      ],
+      "cmt": {
+        "mapping_id": "frrev-cmt-009",
+        "cluster_id": "fr-rev-06-sacrifice-duty",
+        "source_domain_primary": "life_death",
+        "source_domain_secondary": [],
+        "target_domain": "sacrifice",
+        "conceptual_metaphor": "SACRIFICE IS LIFE DEATH",
+        "entailments": [
+          "death or bloodshed is framed as the cost that protects liberty, heroes, or the patrie",
+          "Republican liberty and patriotic obligation are understood through blood and death."
+        ],
+        "confidence": 0.76,
+        "rival_reading": "The terms may name literal danger, but the local phrasing converts loss into civic-political value.",
+        "justification": "MIPVU review rule 'fr-rev-blood-death-sacrifice' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
+      },
+      "koenigsberg": {
+        "fantasy_type": "redemptive_sacrifice",
+        "sacrificial_economy": true
+      },
+      "meta": {
+        "confidence": 0.76,
+        "ambiguity_flag": false,
+        "suppression_flag": false
+      },
+      "gloss_en": "blood / death",
+      "gloss_notes": "English gloss is an analytical aid only; French source text controls."
+    },
+    {
+      "instance_id": "frrev-ann-010",
+      "case_id": "fr-rev",
+      "document_id": "fr-rev-robespierre-political-morality",
+      "sentence_id": "fr-rev-robespierre-political-morality_s01_p45_s01",
+      "span_text": "salut",
+      "mipvu_ids": [
+        "fr-rev-robespierre-political-morality_s01_p45_s01_lu005"
+      ],
+      "cmt": {
+        "mapping_id": "frrev-cmt-010",
+        "cluster_id": "fr-rev-01-virtue-terror",
+        "source_domain_primary": "medicine_healing",
+        "source_domain_secondary": [],
+        "target_domain": "republic",
+        "conceptual_metaphor": "REPUBLIC IS MEDICINE HEALING",
+        "entailments": [
+          "public safety or republican survival is framed through salvation/rescue",
+          "The republic is understood through rescue or salvation from danger."
+        ],
+        "confidence": 0.62,
+        "rival_reading": "The political institution is treated as an entity that can be saved.",
+        "justification": "MIPVU review rule 'fr-rev-public-salvation' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
+      },
+      "koenigsberg": {},
+      "meta": {
+        "confidence": 0.62,
+        "ambiguity_flag": true,
+        "suppression_flag": false
+      },
+      "gloss_en": "public safety / salvation",
+      "gloss_notes": "English gloss is an analytical aid only; French source text controls."
+    },
+    {
+      "instance_id": "frrev-ann-011",
+      "case_id": "fr-rev",
+      "document_id": "fr-rev-robespierre-political-morality",
+      "sentence_id": "fr-rev-robespierre-political-morality_s01_p48_s03",
+      "span_text": "mort",
+      "mipvu_ids": [
+        "fr-rev-robespierre-political-morality_s01_p48_s03_lu027"
+      ],
+      "cmt": {
+        "mapping_id": "frrev-cmt-011",
+        "cluster_id": "fr-rev-06-sacrifice-duty",
+        "source_domain_primary": "life_death",
+        "source_domain_secondary": [],
+        "target_domain": "sacrifice",
+        "conceptual_metaphor": "SACRIFICE IS LIFE DEATH",
+        "entailments": [
+          "death or bloodshed is framed as the cost that protects liberty, heroes, or the patrie",
+          "Republican liberty and patriotic obligation are understood through blood and death."
+        ],
+        "confidence": 0.76,
+        "rival_reading": "The terms may name literal danger, but the local phrasing converts loss into civic-political value.",
+        "justification": "MIPVU review rule 'fr-rev-blood-death-sacrifice' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
+      },
+      "koenigsberg": {
+        "fantasy_type": "redemptive_sacrifice",
+        "sacrificial_economy": true
+      },
+      "meta": {
+        "confidence": 0.76,
+        "ambiguity_flag": false,
+        "suppression_flag": false
+      },
+      "gloss_en": "blood / death",
+      "gloss_notes": "English gloss is an analytical aid only; French source text controls."
+    },
+    {
+      "instance_id": "frrev-ann-012",
+      "case_id": "fr-rev",
+      "document_id": "fr-rev-robespierre-political-morality",
+      "sentence_id": "fr-rev-robespierre-political-morality_s01_p54_s03",
+      "span_text": "sauver",
+      "mipvu_ids": [
+        "fr-rev-robespierre-political-morality_s01_p54_s03_lu189"
+      ],
+      "cmt": {
+        "mapping_id": "frrev-cmt-012",
+        "cluster_id": "fr-rev-01-virtue-terror",
+        "source_domain_primary": "medicine_healing",
+        "source_domain_secondary": [],
+        "target_domain": "republic",
+        "conceptual_metaphor": "REPUBLIC IS MEDICINE HEALING",
+        "entailments": [
+          "public safety or republican survival is framed through salvation/rescue",
+          "The republic is understood through rescue or salvation from danger."
+        ],
+        "confidence": 0.62,
+        "rival_reading": "The political institution is treated as an entity that can be saved.",
+        "justification": "MIPVU review rule 'fr-rev-public-salvation' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
+      },
+      "koenigsberg": {},
+      "meta": {
+        "confidence": 0.62,
+        "ambiguity_flag": true,
+        "suppression_flag": false
+      },
+      "gloss_en": "public safety / salvation",
+      "gloss_notes": "English gloss is an analytical aid only; French source text controls."
+    },
+    {
+      "instance_id": "frrev-ann-013",
+      "case_id": "fr-rev",
+      "document_id": "fr-rev-robespierre-political-morality",
+      "sentence_id": "fr-rev-robespierre-political-morality_s01_p61_s01",
+      "span_text": "sang",
+      "mipvu_ids": [
+        "fr-rev-robespierre-political-morality_s01_p61_s01_lu047"
+      ],
+      "cmt": {
+        "mapping_id": "frrev-cmt-013",
+        "cluster_id": "fr-rev-06-sacrifice-duty",
+        "source_domain_primary": "life_death",
+        "source_domain_secondary": [],
+        "target_domain": "sacrifice",
+        "conceptual_metaphor": "SACRIFICE IS LIFE DEATH",
+        "entailments": [
+          "death or bloodshed is framed as the cost that protects liberty, heroes, or the patrie",
+          "Republican liberty and patriotic obligation are understood through blood and death."
+        ],
+        "confidence": 0.76,
+        "rival_reading": "The terms may name literal danger, but the local phrasing converts loss into civic-political value.",
+        "justification": "MIPVU review rule 'fr-rev-blood-death-sacrifice' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
+      },
+      "koenigsberg": {
+        "fantasy_type": "redemptive_sacrifice",
+        "sacrificial_economy": true
+      },
+      "meta": {
+        "confidence": 0.76,
+        "ambiguity_flag": false,
+        "suppression_flag": false
+      },
+      "gloss_en": "blood / death",
+      "gloss_notes": "English gloss is an analytical aid only; French source text controls."
+    },
+    {
+      "instance_id": "frrev-ann-014",
+      "case_id": "fr-rev",
+      "document_id": "fr-rev-robespierre-political-morality",
+      "sentence_id": "fr-rev-robespierre-political-morality_s01_p67_s01",
+      "span_text": "chaînes",
+      "mipvu_ids": [
+        "fr-rev-robespierre-political-morality_s01_p67_s01_lu051"
+      ],
+      "cmt": {
+        "mapping_id": "frrev-cmt-014",
+        "cluster_id": "fr-rev-01-virtue-terror",
+        "source_domain_primary": "slavery_bondage",
+        "source_domain_secondary": [],
+        "target_domain": "freedom",
+        "conceptual_metaphor": "FREEDOM IS SLAVERY BONDAGE",
+        "entailments": [
+          "oppression and liberation are represented through chains, slavery, riveting, or breaking bonds",
+          "Political freedom is understood through slavery and broken bondage."
+        ],
+        "confidence": 0.84,
+        "rival_reading": "Humanity and liberty are political abstractions rather than literal chained bodies in this context.",
+        "justification": "MIPVU review rule 'fr-rev-bondage-liberty' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
+      },
+      "koenigsberg": {},
+      "meta": {
+        "confidence": 0.84,
+        "ambiguity_flag": false,
+        "suppression_flag": false
+      },
+      "gloss_en": "chains / slavery",
+      "gloss_notes": "English gloss is an analytical aid only; French source text controls."
+    },
+    {
+      "instance_id": "frrev-ann-015",
+      "case_id": "fr-rev",
+      "document_id": "fr-rev-robespierre-political-morality",
+      "sentence_id": "fr-rev-robespierre-political-morality_s01_p82_s01",
+      "span_text": "salut",
+      "mipvu_ids": [
+        "fr-rev-robespierre-political-morality_s01_p82_s01_lu029"
+      ],
+      "cmt": {
+        "mapping_id": "frrev-cmt-015",
+        "cluster_id": "fr-rev-01-virtue-terror",
+        "source_domain_primary": "medicine_healing",
+        "source_domain_secondary": [],
+        "target_domain": "republic",
+        "conceptual_metaphor": "REPUBLIC IS MEDICINE HEALING",
+        "entailments": [
+          "public safety or republican survival is framed through salvation/rescue",
+          "The republic is understood through rescue or salvation from danger."
+        ],
+        "confidence": 0.62,
+        "rival_reading": "The political institution is treated as an entity that can be saved.",
+        "justification": "MIPVU review rule 'fr-rev-public-salvation' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
+      },
+      "koenigsberg": {},
+      "meta": {
+        "confidence": 0.62,
+        "ambiguity_flag": true,
+        "suppression_flag": false
+      },
+      "gloss_en": "public safety / salvation",
+      "gloss_notes": "English gloss is an analytical aid only; French source text controls."
+    },
+    {
+      "instance_id": "frrev-ann-016",
+      "case_id": "fr-rev",
+      "document_id": "fr-rev-robespierre-political-morality",
+      "sentence_id": "fr-rev-robespierre-political-morality_s01_p83_s01",
+      "span_text": "briser",
+      "mipvu_ids": [
+        "fr-rev-robespierre-political-morality_s01_p83_s01_lu016"
+      ],
+      "cmt": {
+        "mapping_id": "frrev-cmt-016",
+        "cluster_id": "fr-rev-01-virtue-terror",
+        "source_domain_primary": "slavery_bondage",
+        "source_domain_secondary": [],
+        "target_domain": "freedom",
+        "conceptual_metaphor": "FREEDOM IS SLAVERY BONDAGE",
+        "entailments": [
+          "oppression and liberation are represented through chains, slavery, riveting, or breaking bonds",
+          "Political freedom is understood through slavery and broken bondage."
+        ],
+        "confidence": 0.84,
+        "rival_reading": "Humanity and liberty are political abstractions rather than literal chained bodies in this context.",
+        "justification": "MIPVU review rule 'fr-rev-bondage-liberty' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
+      },
+      "koenigsberg": {},
+      "meta": {
+        "confidence": 0.84,
+        "ambiguity_flag": false,
+        "suppression_flag": false
+      },
+      "gloss_en": "chains / slavery",
+      "gloss_notes": "English gloss is an analytical aid only; French source text controls."
+    },
+    {
+      "instance_id": "frrev-ann-017",
+      "case_id": "fr-rev",
+      "document_id": "fr-rev-robespierre-political-morality",
+      "sentence_id": "fr-rev-robespierre-political-morality_s01_p84_s04",
+      "span_text": "salut",
+      "mipvu_ids": [
+        "fr-rev-robespierre-political-morality_s01_p84_s04_lu069"
+      ],
+      "cmt": {
+        "mapping_id": "frrev-cmt-017",
+        "cluster_id": "fr-rev-01-virtue-terror",
+        "source_domain_primary": "medicine_healing",
+        "source_domain_secondary": [],
+        "target_domain": "republic",
+        "conceptual_metaphor": "REPUBLIC IS MEDICINE HEALING",
+        "entailments": [
+          "public safety or republican survival is framed through salvation/rescue",
+          "The republic is understood through rescue or salvation from danger."
+        ],
+        "confidence": 0.62,
+        "rival_reading": "The political institution is treated as an entity that can be saved.",
+        "justification": "MIPVU review rule 'fr-rev-public-salvation' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
+      },
+      "koenigsberg": {},
+      "meta": {
+        "confidence": 0.62,
+        "ambiguity_flag": true,
+        "suppression_flag": false
+      },
+      "gloss_en": "public safety / salvation",
+      "gloss_notes": "English gloss is an analytical aid only; French source text controls."
+    },
+    {
+      "instance_id": "frrev-ann-018",
+      "case_id": "fr-rev",
+      "document_id": "fr-rev-robespierre-political-morality",
+      "sentence_id": "fr-rev-robespierre-political-morality_s01_p85_s01",
+      "span_text": "salut",
+      "mipvu_ids": [
+        "fr-rev-robespierre-political-morality_s01_p85_s01_lu016"
+      ],
+      "cmt": {
+        "mapping_id": "frrev-cmt-018",
+        "cluster_id": "fr-rev-01-virtue-terror",
+        "source_domain_primary": "medicine_healing",
+        "source_domain_secondary": [],
+        "target_domain": "republic",
+        "conceptual_metaphor": "REPUBLIC IS MEDICINE HEALING",
+        "entailments": [
+          "public safety or republican survival is framed through salvation/rescue",
+          "The republic is understood through rescue or salvation from danger."
+        ],
+        "confidence": 0.62,
+        "rival_reading": "The political institution is treated as an entity that can be saved.",
+        "justification": "MIPVU review rule 'fr-rev-public-salvation' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
+      },
+      "koenigsberg": {},
+      "meta": {
+        "confidence": 0.62,
+        "ambiguity_flag": true,
+        "suppression_flag": false
+      },
+      "gloss_en": "public safety / salvation",
+      "gloss_notes": "English gloss is an analytical aid only; French source text controls."
+    },
+    {
+      "instance_id": "frrev-ann-019",
+      "case_id": "fr-rev",
+      "document_id": "fr-rev-robespierre-political-morality",
+      "sentence_id": "fr-rev-robespierre-political-morality_s01_p85_s04",
+      "span_text": "salut",
+      "mipvu_ids": [
+        "fr-rev-robespierre-political-morality_s01_p85_s04_lu044"
+      ],
+      "cmt": {
+        "mapping_id": "frrev-cmt-019",
+        "cluster_id": "fr-rev-01-virtue-terror",
+        "source_domain_primary": "medicine_healing",
+        "source_domain_secondary": [],
+        "target_domain": "republic",
+        "conceptual_metaphor": "REPUBLIC IS MEDICINE HEALING",
+        "entailments": [
+          "public safety or republican survival is framed through salvation/rescue",
+          "The republic is understood through rescue or salvation from danger."
+        ],
+        "confidence": 0.62,
+        "rival_reading": "The political institution is treated as an entity that can be saved.",
+        "justification": "MIPVU review rule 'fr-rev-public-salvation' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
+      },
+      "koenigsberg": {},
+      "meta": {
+        "confidence": 0.62,
+        "ambiguity_flag": true,
+        "suppression_flag": false
+      },
+      "gloss_en": "public safety / salvation",
+      "gloss_notes": "English gloss is an analytical aid only; French source text controls."
+    },
+    {
+      "instance_id": "frrev-ann-020",
+      "case_id": "fr-rev",
+      "document_id": "fr-rev-robespierre-political-morality",
+      "sentence_id": "fr-rev-robespierre-political-morality_s01_p86_s02",
+      "span_text": "salut",
+      "mipvu_ids": [
+        "fr-rev-robespierre-political-morality_s01_p86_s02_lu039"
+      ],
+      "cmt": {
+        "mapping_id": "frrev-cmt-020",
+        "cluster_id": "fr-rev-01-virtue-terror",
+        "source_domain_primary": "medicine_healing",
+        "source_domain_secondary": [],
+        "target_domain": "republic",
+        "conceptual_metaphor": "REPUBLIC IS MEDICINE HEALING",
+        "entailments": [
+          "public safety or republican survival is framed through salvation/rescue",
+          "The republic is understood through rescue or salvation from danger."
+        ],
+        "confidence": 0.62,
+        "rival_reading": "The political institution is treated as an entity that can be saved.",
+        "justification": "MIPVU review rule 'fr-rev-public-salvation' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
+      },
+      "koenigsberg": {},
+      "meta": {
+        "confidence": 0.62,
+        "ambiguity_flag": true,
+        "suppression_flag": false
+      },
+      "gloss_en": "public safety / salvation",
+      "gloss_notes": "English gloss is an analytical aid only; French source text controls."
+    },
+    {
+      "instance_id": "frrev-ann-021",
+      "case_id": "fr-rev",
+      "document_id": "fr-rev-robespierre-political-morality",
+      "sentence_id": "fr-rev-robespierre-political-morality_s01_p91_s01",
+      "span_text": "dévouement",
+      "mipvu_ids": [
+        "fr-rev-robespierre-political-morality_s01_p91_s01_lu025"
+      ],
+      "cmt": {
+        "mapping_id": "frrev-cmt-021",
+        "cluster_id": "fr-rev-06-sacrifice-duty",
+        "source_domain_primary": "sacrifice",
+        "source_domain_secondary": [],
+        "target_domain": "sacrifice",
+        "conceptual_metaphor": "SACRIFICE IS SACRIFICE",
+        "entailments": [
+          "republican commitment is represented through sacrifice or total devotion",
+          "Civic obligation is understood through sacrificial offering and self-devotion."
+        ],
+        "confidence": 0.82,
+        "rival_reading": "The passage concerns civic-political commitment, not a literal altar offering.",
+        "justification": "MIPVU review rule 'fr-rev-sacrifice-devotion' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
+      },
+      "koenigsberg": {
+        "fantasy_type": "redemptive_sacrifice",
+        "sacrificial_economy": true
+      },
+      "meta": {
+        "confidence": 0.82,
+        "ambiguity_flag": false,
+        "suppression_flag": false
+      },
+      "gloss_en": "sacrifice / devotion",
+      "gloss_notes": "English gloss is an analytical aid only; French source text controls."
+    },
+    {
+      "instance_id": "frrev-ann-022",
+      "case_id": "fr-rev",
+      "document_id": "fr-rev-robespierre-religious-moral-ideas",
+      "sentence_id": "fr-rev-robespierre-religious-moral-ideas_s01_p01_s01",
+      "span_text": "salut",
+      "mipvu_ids": [
+        "fr-rev-robespierre-religious-moral-ideas_s01_p01_s01_lu008"
+      ],
+      "cmt": {
+        "mapping_id": "frrev-cmt-022",
+        "cluster_id": "fr-rev-01-virtue-terror",
+        "source_domain_primary": "medicine_healing",
+        "source_domain_secondary": [],
+        "target_domain": "republic",
+        "conceptual_metaphor": "REPUBLIC IS MEDICINE HEALING",
+        "entailments": [
+          "public safety or republican survival is framed through salvation/rescue",
+          "The republic is understood through rescue or salvation from danger."
+        ],
+        "confidence": 0.62,
+        "rival_reading": "The political institution is treated as an entity that can be saved.",
+        "justification": "MIPVU review rule 'fr-rev-public-salvation' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
+      },
+      "koenigsberg": {},
+      "meta": {
+        "confidence": 0.62,
+        "ambiguity_flag": true,
+        "suppression_flag": false
+      },
+      "gloss_en": "public safety / salvation",
+      "gloss_notes": "English gloss is an analytical aid only; French source text controls."
+    },
+    {
+      "instance_id": "frrev-ann-023",
+      "case_id": "fr-rev",
+      "document_id": "fr-rev-robespierre-religious-moral-ideas",
+      "sentence_id": "fr-rev-robespierre-religious-moral-ideas_s01_p04_s02",
+      "span_text": "esclave",
+      "mipvu_ids": [
+        "fr-rev-robespierre-religious-moral-ideas_s01_p04_s02_lu019"
+      ],
+      "cmt": {
+        "mapping_id": "frrev-cmt-023",
+        "cluster_id": "fr-rev-01-virtue-terror",
+        "source_domain_primary": "slavery_bondage",
+        "source_domain_secondary": [],
+        "target_domain": "freedom",
+        "conceptual_metaphor": "FREEDOM IS SLAVERY BONDAGE",
+        "entailments": [
+          "oppression and liberation are represented through chains, slavery, riveting, or breaking bonds",
+          "Political freedom is understood through slavery and broken bondage."
+        ],
+        "confidence": 0.84,
+        "rival_reading": "Humanity and liberty are political abstractions rather than literal chained bodies in this context.",
+        "justification": "MIPVU review rule 'fr-rev-bondage-liberty' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
+      },
+      "koenigsberg": {},
+      "meta": {
+        "confidence": 0.84,
+        "ambiguity_flag": false,
+        "suppression_flag": false
+      },
+      "gloss_en": "chains / slavery",
+      "gloss_notes": "English gloss is an analytical aid only; French source text controls."
+    },
+    {
+      "instance_id": "frrev-ann-024",
+      "case_id": "fr-rev",
+      "document_id": "fr-rev-robespierre-religious-moral-ideas",
+      "sentence_id": "fr-rev-robespierre-religious-moral-ideas_s01_p04_s02",
+      "span_text": "né",
+      "mipvu_ids": [
+        "fr-rev-robespierre-religious-moral-ideas_s01_p04_s02_lu008"
+      ],
+      "cmt": {
+        "mapping_id": "frrev-cmt-024",
+        "cluster_id": "fr-rev-01-virtue-terror",
+        "source_domain_primary": "birth_generation",
+        "source_domain_secondary": [],
+        "target_domain": "republic",
+        "conceptual_metaphor": "REPUBLIC IS BIRTH GENERATION",
+        "entailments": [
+          "political community or liberty is represented through birth or regeneration",
+          "Republican political life is understood through birth and regeneration."
+        ],
+        "confidence": 0.7,
+        "rival_reading": "The referent is political and historical rather than biological.",
+        "justification": "MIPVU review rule 'fr-rev-political-birth' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
+      },
+      "koenigsberg": {},
+      "meta": {
+        "confidence": 0.7,
+        "ambiguity_flag": false,
+        "suppression_flag": false
+      },
+      "gloss_en": "birth / regeneration",
+      "gloss_notes": "English gloss is an analytical aid only; French source text controls."
+    },
+    {
+      "instance_id": "frrev-ann-025",
+      "case_id": "fr-rev",
+      "document_id": "fr-rev-robespierre-religious-moral-ideas",
+      "sentence_id": "fr-rev-robespierre-religious-moral-ideas_s01_p106_s01",
+      "span_text": "salut",
+      "mipvu_ids": [
+        "fr-rev-robespierre-religious-moral-ideas_s01_p106_s01_lu004"
+      ],
+      "cmt": {
+        "mapping_id": "frrev-cmt-025",
+        "cluster_id": "fr-rev-01-virtue-terror",
+        "source_domain_primary": "medicine_healing",
+        "source_domain_secondary": [],
+        "target_domain": "republic",
+        "conceptual_metaphor": "REPUBLIC IS MEDICINE HEALING",
+        "entailments": [
+          "public safety or republican survival is framed through salvation/rescue",
+          "The republic is understood through rescue or salvation from danger."
+        ],
+        "confidence": 0.62,
+        "rival_reading": "The political institution is treated as an entity that can be saved.",
+        "justification": "MIPVU review rule 'fr-rev-public-salvation' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
+      },
+      "koenigsberg": {},
+      "meta": {
+        "confidence": 0.62,
+        "ambiguity_flag": true,
+        "suppression_flag": false
+      },
+      "gloss_en": "public safety / salvation",
+      "gloss_notes": "English gloss is an analytical aid only; French source text controls."
+    },
+    {
+      "instance_id": "frrev-ann-026",
+      "case_id": "fr-rev",
+      "document_id": "fr-rev-robespierre-religious-moral-ideas",
+      "sentence_id": "fr-rev-robespierre-religious-moral-ideas_s01_p110_s01",
+      "span_text": "salut",
+      "mipvu_ids": [
+        "fr-rev-robespierre-religious-moral-ideas_s01_p110_s01_lu004"
+      ],
+      "cmt": {
+        "mapping_id": "frrev-cmt-026",
+        "cluster_id": "fr-rev-01-virtue-terror",
+        "source_domain_primary": "medicine_healing",
+        "source_domain_secondary": [],
+        "target_domain": "republic",
+        "conceptual_metaphor": "REPUBLIC IS MEDICINE HEALING",
+        "entailments": [
+          "public safety or republican survival is framed through salvation/rescue",
+          "The republic is understood through rescue or salvation from danger."
+        ],
+        "confidence": 0.62,
+        "rival_reading": "The political institution is treated as an entity that can be saved.",
+        "justification": "MIPVU review rule 'fr-rev-public-salvation' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
+      },
+      "koenigsberg": {},
+      "meta": {
+        "confidence": 0.62,
+        "ambiguity_flag": true,
+        "suppression_flag": false
+      },
+      "gloss_en": "public safety / salvation",
+      "gloss_notes": "English gloss is an analytical aid only; French source text controls."
+    },
+    {
+      "instance_id": "frrev-ann-027",
+      "case_id": "fr-rev",
+      "document_id": "fr-rev-robespierre-religious-moral-ideas",
+      "sentence_id": "fr-rev-robespierre-religious-moral-ideas_s01_p13_s01",
+      "span_text": "river / chaînes / briser",
+      "mipvu_ids": [
+        "fr-rev-robespierre-religious-moral-ideas_s01_p13_s01_lu006",
+        "fr-rev-robespierre-religious-moral-ideas_s01_p13_s01_lu008",
+        "fr-rev-robespierre-religious-moral-ideas_s01_p13_s01_lu015"
+      ],
+      "cmt": {
+        "mapping_id": "frrev-cmt-027",
+        "cluster_id": "fr-rev-01-virtue-terror",
+        "source_domain_primary": "slavery_bondage",
+        "source_domain_secondary": [],
+        "target_domain": "freedom",
+        "conceptual_metaphor": "FREEDOM IS SLAVERY BONDAGE",
+        "entailments": [
+          "oppression and liberation are represented through chains, slavery, riveting, or breaking bonds",
+          "Political freedom is understood through slavery and broken bondage."
+        ],
+        "confidence": 0.84,
+        "rival_reading": "Humanity and liberty are political abstractions rather than literal chained bodies in this context.",
+        "justification": "MIPVU review rule 'fr-rev-bondage-liberty' marked 3 unit(s) as metaphor-related or uncertain in this sentence."
+      },
+      "koenigsberg": {},
+      "meta": {
+        "confidence": 0.84,
+        "ambiguity_flag": false,
+        "suppression_flag": false
+      },
+      "gloss_en": "chains / slavery",
+      "gloss_notes": "English gloss is an analytical aid only; French source text controls."
+    },
+    {
+      "instance_id": "frrev-ann-028",
+      "case_id": "fr-rev",
+      "document_id": "fr-rev-robespierre-religious-moral-ideas",
+      "sentence_id": "fr-rev-robespierre-religious-moral-ideas_s01_p15_s01",
+      "span_text": "morts",
+      "mipvu_ids": [
+        "fr-rev-robespierre-religious-moral-ideas_s01_p15_s01_lu012"
+      ],
+      "cmt": {
+        "mapping_id": "frrev-cmt-028",
+        "cluster_id": "fr-rev-06-sacrifice-duty",
+        "source_domain_primary": "life_death",
+        "source_domain_secondary": [],
+        "target_domain": "sacrifice",
+        "conceptual_metaphor": "SACRIFICE IS LIFE DEATH",
+        "entailments": [
+          "death or bloodshed is framed as the cost that protects liberty, heroes, or the patrie",
+          "Republican liberty and patriotic obligation are understood through blood and death."
+        ],
+        "confidence": 0.76,
+        "rival_reading": "The terms may name literal danger, but the local phrasing converts loss into civic-political value.",
+        "justification": "MIPVU review rule 'fr-rev-blood-death-sacrifice' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
+      },
+      "koenigsberg": {
+        "fantasy_type": "redemptive_sacrifice",
+        "sacrificial_economy": true
+      },
+      "meta": {
+        "confidence": 0.76,
+        "ambiguity_flag": false,
+        "suppression_flag": false
+      },
+      "gloss_en": "blood / death",
+      "gloss_notes": "English gloss is an analytical aid only; French source text controls."
+    },
+    {
+      "instance_id": "frrev-ann-029",
+      "case_id": "fr-rev",
+      "document_id": "fr-rev-robespierre-religious-moral-ideas",
+      "sentence_id": "fr-rev-robespierre-religious-moral-ideas_s01_p16_s01",
+      "span_text": "né",
+      "mipvu_ids": [
+        "fr-rev-robespierre-religious-moral-ideas_s01_p16_s01_lu034"
+      ],
+      "cmt": {
+        "mapping_id": "frrev-cmt-029",
+        "cluster_id": "fr-rev-01-virtue-terror",
+        "source_domain_primary": "birth_generation",
+        "source_domain_secondary": [],
+        "target_domain": "republic",
+        "conceptual_metaphor": "REPUBLIC IS BIRTH GENERATION",
+        "entailments": [
+          "political community or liberty is represented through birth or regeneration",
+          "Republican political life is understood through birth and regeneration."
+        ],
+        "confidence": 0.7,
+        "rival_reading": "The referent is political and historical rather than biological.",
+        "justification": "MIPVU review rule 'fr-rev-political-birth' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
+      },
+      "koenigsberg": {},
+      "meta": {
+        "confidence": 0.7,
+        "ambiguity_flag": false,
+        "suppression_flag": false
+      },
+      "gloss_en": "birth / regeneration",
+      "gloss_notes": "English gloss is an analytical aid only; French source text controls."
+    },
+    {
+      "instance_id": "frrev-ann-030",
+      "case_id": "fr-rev",
+      "document_id": "fr-rev-robespierre-religious-moral-ideas",
+      "sentence_id": "fr-rev-robespierre-religious-moral-ideas_s01_p16_s04",
+      "span_text": "mourir",
+      "mipvu_ids": [
+        "fr-rev-robespierre-religious-moral-ideas_s01_p16_s04_lu025"
+      ],
+      "cmt": {
+        "mapping_id": "frrev-cmt-030",
+        "cluster_id": "fr-rev-06-sacrifice-duty",
+        "source_domain_primary": "life_death",
+        "source_domain_secondary": [],
+        "target_domain": "sacrifice",
+        "conceptual_metaphor": "SACRIFICE IS LIFE DEATH",
+        "entailments": [
+          "death or bloodshed is framed as the cost that protects liberty, heroes, or the patrie",
+          "Republican liberty and patriotic obligation are understood through blood and death."
+        ],
+        "confidence": 0.76,
+        "rival_reading": "The terms may name literal danger, but the local phrasing converts loss into civic-political value.",
+        "justification": "MIPVU review rule 'fr-rev-blood-death-sacrifice' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
+      },
+      "koenigsberg": {
+        "fantasy_type": "redemptive_sacrifice",
+        "sacrificial_economy": true
+      },
+      "meta": {
+        "confidence": 0.76,
+        "ambiguity_flag": false,
+        "suppression_flag": false
+      },
+      "gloss_en": "blood / death",
+      "gloss_notes": "English gloss is an analytical aid only; French source text controls."
+    },
+    {
+      "instance_id": "frrev-ann-031",
+      "case_id": "fr-rev",
+      "document_id": "fr-rev-robespierre-religious-moral-ideas",
+      "sentence_id": "fr-rev-robespierre-religious-moral-ideas_s01_p16_s04",
+      "span_text": "né",
+      "mipvu_ids": [
+        "fr-rev-robespierre-religious-moral-ideas_s01_p16_s04_lu015"
+      ],
+      "cmt": {
+        "mapping_id": "frrev-cmt-031",
+        "cluster_id": "fr-rev-01-virtue-terror",
+        "source_domain_primary": "birth_generation",
+        "source_domain_secondary": [],
+        "target_domain": "republic",
+        "conceptual_metaphor": "REPUBLIC IS BIRTH GENERATION",
+        "entailments": [
+          "political community or liberty is represented through birth or regeneration",
+          "Republican political life is understood through birth and regeneration."
+        ],
+        "confidence": 0.7,
+        "rival_reading": "The referent is political and historical rather than biological.",
+        "justification": "MIPVU review rule 'fr-rev-political-birth' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
+      },
+      "koenigsberg": {},
+      "meta": {
+        "confidence": 0.7,
+        "ambiguity_flag": false,
+        "suppression_flag": false
+      },
+      "gloss_en": "birth / regeneration",
+      "gloss_notes": "English gloss is an analytical aid only; French source text controls."
+    },
+    {
+      "instance_id": "frrev-ann-032",
+      "case_id": "fr-rev",
+      "document_id": "fr-rev-robespierre-religious-moral-ideas",
+      "sentence_id": "fr-rev-robespierre-religious-moral-ideas_s01_p16_s04",
+      "span_text": "sacrifice",
+      "mipvu_ids": [
+        "fr-rev-robespierre-religious-moral-ideas_s01_p16_s04_lu006"
+      ],
+      "cmt": {
+        "mapping_id": "frrev-cmt-032",
+        "cluster_id": "fr-rev-06-sacrifice-duty",
+        "source_domain_primary": "sacrifice",
+        "source_domain_secondary": [],
+        "target_domain": "sacrifice",
+        "conceptual_metaphor": "SACRIFICE IS SACRIFICE",
+        "entailments": [
+          "republican commitment is represented through sacrifice or total devotion",
+          "Civic obligation is understood through sacrificial offering and self-devotion."
+        ],
+        "confidence": 0.82,
+        "rival_reading": "The passage concerns civic-political commitment, not a literal altar offering.",
+        "justification": "MIPVU review rule 'fr-rev-sacrifice-devotion' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
+      },
+      "koenigsberg": {
+        "fantasy_type": "redemptive_sacrifice",
+        "sacrificial_economy": true
+      },
+      "meta": {
+        "confidence": 0.82,
+        "ambiguity_flag": false,
+        "suppression_flag": false
+      },
+      "gloss_en": "sacrifice / devotion",
+      "gloss_notes": "English gloss is an analytical aid only; French source text controls."
+    },
+    {
+      "instance_id": "frrev-ann-033",
+      "case_id": "fr-rev",
+      "document_id": "fr-rev-robespierre-religious-moral-ideas",
+      "sentence_id": "fr-rev-robespierre-religious-moral-ideas_s01_p18_s03",
+      "span_text": "mort",
+      "mipvu_ids": [
+        "fr-rev-robespierre-religious-moral-ideas_s01_p18_s03_lu017"
+      ],
+      "cmt": {
+        "mapping_id": "frrev-cmt-033",
+        "cluster_id": "fr-rev-06-sacrifice-duty",
+        "source_domain_primary": "life_death",
+        "source_domain_secondary": [],
+        "target_domain": "sacrifice",
+        "conceptual_metaphor": "SACRIFICE IS LIFE DEATH",
+        "entailments": [
+          "death or bloodshed is framed as the cost that protects liberty, heroes, or the patrie",
+          "Republican liberty and patriotic obligation are understood through blood and death."
+        ],
+        "confidence": 0.76,
+        "rival_reading": "The terms may name literal danger, but the local phrasing converts loss into civic-political value.",
+        "justification": "MIPVU review rule 'fr-rev-blood-death-sacrifice' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
+      },
+      "koenigsberg": {
+        "fantasy_type": "redemptive_sacrifice",
+        "sacrificial_economy": true
+      },
+      "meta": {
+        "confidence": 0.76,
+        "ambiguity_flag": false,
+        "suppression_flag": false
+      },
+      "gloss_en": "blood / death",
+      "gloss_notes": "English gloss is an analytical aid only; French source text controls."
+    },
+    {
+      "instance_id": "frrev-ann-034",
+      "case_id": "fr-rev",
+      "document_id": "fr-rev-robespierre-religious-moral-ideas",
+      "sentence_id": "fr-rev-robespierre-religious-moral-ideas_s01_p18_s03",
+      "span_text": "couronne",
+      "mipvu_ids": [
+        "fr-rev-robespierre-religious-moral-ideas_s01_p18_s03_lu020"
+      ],
+      "cmt": {
+        "mapping_id": "frrev-cmt-034",
+        "cluster_id": "fr-rev-01-virtue-terror",
+        "source_domain_primary": "object_material",
+        "source_domain_secondary": [],
+        "target_domain": "military_virtue",
+        "conceptual_metaphor": "MILITARY VIRTUE IS OBJECT MATERIAL",
+        "entailments": [
+          "death is represented as crowning patriotic labor or glory",
+          "Patriotic death is understood through crowning honor."
+        ],
+        "confidence": 0.74,
+        "rival_reading": "Death does not literally crown labor; the phrase confers honor and completion.",
+        "justification": "MIPVU review rule 'fr-rev-death-crowning' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
+      },
+      "koenigsberg": {},
+      "meta": {
+        "confidence": 0.74,
+        "ambiguity_flag": false,
+        "suppression_flag": false
+      },
+      "gloss_en": "crowns / crowns with death",
+      "gloss_notes": "English gloss is an analytical aid only; French source text controls."
+    },
+    {
+      "instance_id": "frrev-ann-035",
+      "case_id": "fr-rev",
+      "document_id": "fr-rev-robespierre-religious-moral-ideas",
+      "sentence_id": "fr-rev-robespierre-religious-moral-ideas_s01_p51_s02",
+      "span_text": "mort",
+      "mipvu_ids": [
+        "fr-rev-robespierre-religious-moral-ideas_s01_p51_s02_lu029"
+      ],
+      "cmt": {
+        "mapping_id": "frrev-cmt-035",
+        "cluster_id": "fr-rev-06-sacrifice-duty",
+        "source_domain_primary": "life_death",
+        "source_domain_secondary": [],
+        "target_domain": "sacrifice",
+        "conceptual_metaphor": "SACRIFICE IS LIFE DEATH",
+        "entailments": [
+          "death or bloodshed is framed as the cost that protects liberty, heroes, or the patrie",
+          "Republican liberty and patriotic obligation are understood through blood and death."
+        ],
+        "confidence": 0.76,
+        "rival_reading": "The terms may name literal danger, but the local phrasing converts loss into civic-political value.",
+        "justification": "MIPVU review rule 'fr-rev-blood-death-sacrifice' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
+      },
+      "koenigsberg": {
+        "fantasy_type": "redemptive_sacrifice",
+        "sacrificial_economy": true
+      },
+      "meta": {
+        "confidence": 0.76,
+        "ambiguity_flag": false,
+        "suppression_flag": false
+      },
+      "gloss_en": "blood / death",
+      "gloss_notes": "English gloss is an analytical aid only; French source text controls."
+    },
+    {
+      "instance_id": "frrev-ann-036",
+      "case_id": "fr-rev",
+      "document_id": "fr-rev-robespierre-religious-moral-ideas",
+      "sentence_id": "fr-rev-robespierre-religious-moral-ideas_s01_p51_s02",
+      "span_text": "dévouement",
+      "mipvu_ids": [
+        "fr-rev-robespierre-religious-moral-ideas_s01_p51_s02_lu014"
+      ],
+      "cmt": {
+        "mapping_id": "frrev-cmt-036",
+        "cluster_id": "fr-rev-06-sacrifice-duty",
+        "source_domain_primary": "sacrifice",
+        "source_domain_secondary": [],
+        "target_domain": "sacrifice",
+        "conceptual_metaphor": "SACRIFICE IS SACRIFICE",
+        "entailments": [
+          "republican commitment is represented through sacrifice or total devotion",
+          "Civic obligation is understood through sacrificial offering and self-devotion."
+        ],
+        "confidence": 0.82,
+        "rival_reading": "The passage concerns civic-political commitment, not a literal altar offering.",
+        "justification": "MIPVU review rule 'fr-rev-sacrifice-devotion' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
+      },
+      "koenigsberg": {
+        "fantasy_type": "redemptive_sacrifice",
+        "sacrificial_economy": true
+      },
+      "meta": {
+        "confidence": 0.82,
+        "ambiguity_flag": false,
+        "suppression_flag": false
+      },
+      "gloss_en": "sacrifice / devotion",
+      "gloss_notes": "English gloss is an analytical aid only; French source text controls."
+    },
+    {
+      "instance_id": "frrev-ann-037",
+      "case_id": "fr-rev",
+      "document_id": "fr-rev-robespierre-religious-moral-ideas",
+      "sentence_id": "fr-rev-robespierre-religious-moral-ideas_s01_p75_s02",
+      "span_text": "régénération",
+      "mipvu_ids": [
+        "fr-rev-robespierre-religious-moral-ideas_s01_p75_s02_lu024"
+      ],
+      "cmt": {
+        "mapping_id": "frrev-cmt-037",
+        "cluster_id": "fr-rev-01-virtue-terror",
+        "source_domain_primary": "birth_generation",
+        "source_domain_secondary": [],
+        "target_domain": "republic",
+        "conceptual_metaphor": "REPUBLIC IS BIRTH GENERATION",
+        "entailments": [
+          "political community or liberty is represented through birth or regeneration",
+          "Republican political life is understood through birth and regeneration."
+        ],
+        "confidence": 0.7,
+        "rival_reading": "The referent is political and historical rather than biological.",
+        "justification": "MIPVU review rule 'fr-rev-political-birth' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
+      },
+      "koenigsberg": {},
+      "meta": {
+        "confidence": 0.7,
+        "ambiguity_flag": false,
+        "suppression_flag": false
+      },
+      "gloss_en": "birth / regeneration",
+      "gloss_notes": "English gloss is an analytical aid only; French source text controls."
+    },
+    {
+      "instance_id": "frrev-ann-038",
+      "case_id": "fr-rev",
+      "document_id": "fr-rev-robespierre-religious-moral-ideas",
+      "sentence_id": "fr-rev-robespierre-religious-moral-ideas_s01_p78_s01",
+      "span_text": "sacrifices",
+      "mipvu_ids": [
+        "fr-rev-robespierre-religious-moral-ideas_s01_p78_s01_lu062"
+      ],
+      "cmt": {
+        "mapping_id": "frrev-cmt-038",
+        "cluster_id": "fr-rev-06-sacrifice-duty",
+        "source_domain_primary": "sacrifice",
+        "source_domain_secondary": [],
+        "target_domain": "sacrifice",
+        "conceptual_metaphor": "SACRIFICE IS SACRIFICE",
+        "entailments": [
+          "republican commitment is represented through sacrifice or total devotion",
+          "Civic obligation is understood through sacrificial offering and self-devotion."
+        ],
+        "confidence": 0.82,
+        "rival_reading": "The passage concerns civic-political commitment, not a literal altar offering.",
+        "justification": "MIPVU review rule 'fr-rev-sacrifice-devotion' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
+      },
+      "koenigsberg": {
+        "fantasy_type": "redemptive_sacrifice",
+        "sacrificial_economy": true
+      },
+      "meta": {
+        "confidence": 0.82,
+        "ambiguity_flag": false,
+        "suppression_flag": false
+      },
+      "gloss_en": "sacrifice / devotion",
+      "gloss_notes": "English gloss is an analytical aid only; French source text controls."
+    },
+    {
+      "instance_id": "frrev-ann-039",
+      "case_id": "fr-rev",
+      "document_id": "fr-rev-robespierre-religious-moral-ideas",
+      "sentence_id": "fr-rev-robespierre-religious-moral-ideas_s01_p78_s06",
+      "span_text": "morts",
+      "mipvu_ids": [
+        "fr-rev-robespierre-religious-moral-ideas_s01_p78_s06_lu007"
+      ],
+      "cmt": {
+        "mapping_id": "frrev-cmt-039",
+        "cluster_id": "fr-rev-06-sacrifice-duty",
+        "source_domain_primary": "life_death",
+        "source_domain_secondary": [],
+        "target_domain": "sacrifice",
+        "conceptual_metaphor": "SACRIFICE IS LIFE DEATH",
+        "entailments": [
+          "death or bloodshed is framed as the cost that protects liberty, heroes, or the patrie",
+          "Republican liberty and patriotic obligation are understood through blood and death."
+        ],
+        "confidence": 0.76,
+        "rival_reading": "The terms may name literal danger, but the local phrasing converts loss into civic-political value.",
+        "justification": "MIPVU review rule 'fr-rev-blood-death-sacrifice' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
+      },
+      "koenigsberg": {
+        "fantasy_type": "redemptive_sacrifice",
+        "sacrificial_economy": true
+      },
+      "meta": {
+        "confidence": 0.76,
+        "ambiguity_flag": false,
+        "suppression_flag": false
+      },
+      "gloss_en": "blood / death",
+      "gloss_notes": "English gloss is an analytical aid only; French source text controls."
+    },
+    {
+      "instance_id": "frrev-ann-040",
+      "case_id": "fr-rev",
+      "document_id": "fr-rev-robespierre-religious-moral-ideas",
+      "sentence_id": "fr-rev-robespierre-religious-moral-ideas_s01_p81_s06",
+      "span_text": "mort / mort",
+      "mipvu_ids": [
+        "fr-rev-robespierre-religious-moral-ideas_s01_p81_s06_lu006",
+        "fr-rev-robespierre-religious-moral-ideas_s01_p81_s06_lu016"
+      ],
+      "cmt": {
+        "mapping_id": "frrev-cmt-040",
+        "cluster_id": "fr-rev-06-sacrifice-duty",
+        "source_domain_primary": "life_death",
+        "source_domain_secondary": [],
+        "target_domain": "sacrifice",
+        "conceptual_metaphor": "SACRIFICE IS LIFE DEATH",
+        "entailments": [
+          "death or bloodshed is framed as the cost that protects liberty, heroes, or the patrie",
+          "Republican liberty and patriotic obligation are understood through blood and death."
+        ],
+        "confidence": 0.76,
+        "rival_reading": "The terms may name literal danger, but the local phrasing converts loss into civic-political value.",
+        "justification": "MIPVU review rule 'fr-rev-blood-death-sacrifice' marked 2 unit(s) as metaphor-related or uncertain in this sentence."
+      },
+      "koenigsberg": {
+        "fantasy_type": "redemptive_sacrifice",
+        "sacrificial_economy": true
+      },
+      "meta": {
+        "confidence": 0.76,
+        "ambiguity_flag": false,
+        "suppression_flag": false
+      },
+      "gloss_en": "blood / death",
+      "gloss_notes": "English gloss is an analytical aid only; French source text controls."
+    },
+    {
+      "instance_id": "frrev-ann-041",
+      "case_id": "fr-rev",
+      "document_id": "fr-rev-robespierre-religious-moral-ideas",
+      "sentence_id": "fr-rev-robespierre-religious-moral-ideas_s01_p82_s04",
+      "span_text": "esclaves",
+      "mipvu_ids": [
+        "fr-rev-robespierre-religious-moral-ideas_s01_p82_s04_lu002"
+      ],
+      "cmt": {
+        "mapping_id": "frrev-cmt-041",
+        "cluster_id": "fr-rev-01-virtue-terror",
+        "source_domain_primary": "slavery_bondage",
+        "source_domain_secondary": [],
+        "target_domain": "freedom",
+        "conceptual_metaphor": "FREEDOM IS SLAVERY BONDAGE",
+        "entailments": [
+          "oppression and liberation are represented through chains, slavery, riveting, or breaking bonds",
+          "Political freedom is understood through slavery and broken bondage."
+        ],
+        "confidence": 0.84,
+        "rival_reading": "Humanity and liberty are political abstractions rather than literal chained bodies in this context.",
+        "justification": "MIPVU review rule 'fr-rev-bondage-liberty' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
+      },
+      "koenigsberg": {},
+      "meta": {
+        "confidence": 0.84,
+        "ambiguity_flag": false,
+        "suppression_flag": false
+      },
+      "gloss_en": "chains / slavery",
+      "gloss_notes": "English gloss is an analytical aid only; French source text controls."
+    },
+    {
+      "instance_id": "frrev-ann-042",
+      "case_id": "fr-rev",
+      "document_id": "fr-rev-robespierre-religious-moral-ideas",
+      "sentence_id": "fr-rev-robespierre-religious-moral-ideas_s01_p84_s03",
+      "span_text": "sang",
+      "mipvu_ids": [
+        "fr-rev-robespierre-religious-moral-ideas_s01_p84_s03_lu012"
+      ],
+      "cmt": {
+        "mapping_id": "frrev-cmt-042",
+        "cluster_id": "fr-rev-06-sacrifice-duty",
+        "source_domain_primary": "life_death",
+        "source_domain_secondary": [],
+        "target_domain": "sacrifice",
+        "conceptual_metaphor": "SACRIFICE IS LIFE DEATH",
+        "entailments": [
+          "death or bloodshed is framed as the cost that protects liberty, heroes, or the patrie",
+          "Republican liberty and patriotic obligation are understood through blood and death."
+        ],
+        "confidence": 0.76,
+        "rival_reading": "The terms may name literal danger, but the local phrasing converts loss into civic-political value.",
+        "justification": "MIPVU review rule 'fr-rev-blood-death-sacrifice' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
+      },
+      "koenigsberg": {
+        "fantasy_type": "redemptive_sacrifice",
+        "sacrificial_economy": true
+      },
+      "meta": {
+        "confidence": 0.76,
+        "ambiguity_flag": false,
+        "suppression_flag": false
+      },
+      "gloss_en": "blood / death",
+      "gloss_notes": "English gloss is an analytical aid only; French source text controls."
+    }
+  ],
   "indexes": {
     "by_cluster": {
-      "fr-rev-01-virtue-terror": [],
+      "fr-rev-01-virtue-terror": [
+        "frrev-ann-001",
+        "frrev-ann-002",
+        "frrev-ann-004",
+        "frrev-ann-008",
+        "frrev-ann-010",
+        "frrev-ann-012",
+        "frrev-ann-014",
+        "frrev-ann-015",
+        "frrev-ann-016",
+        "frrev-ann-017",
+        "frrev-ann-018",
+        "frrev-ann-019",
+        "frrev-ann-020",
+        "frrev-ann-022",
+        "frrev-ann-023",
+        "frrev-ann-024",
+        "frrev-ann-025",
+        "frrev-ann-026",
+        "frrev-ann-027",
+        "frrev-ann-029",
+        "frrev-ann-031",
+        "frrev-ann-034",
+        "frrev-ann-037",
+        "frrev-ann-041"
+      ],
       "fr-rev-02-people-republic-sacred-object": [],
       "fr-rev-03-tyranny-conspiracy-enemy": [],
       "fr-rev-04-salut-public": [],
       "fr-rev-05-festival-supreme-being": [],
-      "fr-rev-06-sacrifice-duty": []
+      "fr-rev-06-sacrifice-duty": [
+        "frrev-ann-003",
+        "frrev-ann-005",
+        "frrev-ann-006",
+        "frrev-ann-007",
+        "frrev-ann-009",
+        "frrev-ann-011",
+        "frrev-ann-013",
+        "frrev-ann-021",
+        "frrev-ann-028",
+        "frrev-ann-030",
+        "frrev-ann-032",
+        "frrev-ann-033",
+        "frrev-ann-035",
+        "frrev-ann-036",
+        "frrev-ann-038",
+        "frrev-ann-039",
+        "frrev-ann-040",
+        "frrev-ann-042"
+      ]
     },
-    "by_document": {},
-    "by_register": {},
-    "by_fantasy_type": {},
+    "by_document": {
+      "fr-rev-robespierre-political-morality": [
+        "frrev-ann-001",
+        "frrev-ann-002",
+        "frrev-ann-003",
+        "frrev-ann-004",
+        "frrev-ann-005",
+        "frrev-ann-006",
+        "frrev-ann-007",
+        "frrev-ann-008",
+        "frrev-ann-009",
+        "frrev-ann-010",
+        "frrev-ann-011",
+        "frrev-ann-012",
+        "frrev-ann-013",
+        "frrev-ann-014",
+        "frrev-ann-015",
+        "frrev-ann-016",
+        "frrev-ann-017",
+        "frrev-ann-018",
+        "frrev-ann-019",
+        "frrev-ann-020",
+        "frrev-ann-021"
+      ],
+      "fr-rev-robespierre-religious-moral-ideas": [
+        "frrev-ann-022",
+        "frrev-ann-023",
+        "frrev-ann-024",
+        "frrev-ann-025",
+        "frrev-ann-026",
+        "frrev-ann-027",
+        "frrev-ann-028",
+        "frrev-ann-029",
+        "frrev-ann-030",
+        "frrev-ann-031",
+        "frrev-ann-032",
+        "frrev-ann-033",
+        "frrev-ann-034",
+        "frrev-ann-035",
+        "frrev-ann-036",
+        "frrev-ann-037",
+        "frrev-ann-038",
+        "frrev-ann-039",
+        "frrev-ann-040",
+        "frrev-ann-041",
+        "frrev-ann-042"
+      ]
+    },
+    "by_register": {
+      "unknown": [
+        "frrev-ann-001",
+        "frrev-ann-002",
+        "frrev-ann-003",
+        "frrev-ann-004",
+        "frrev-ann-005",
+        "frrev-ann-006",
+        "frrev-ann-007",
+        "frrev-ann-008",
+        "frrev-ann-009",
+        "frrev-ann-010",
+        "frrev-ann-011",
+        "frrev-ann-012",
+        "frrev-ann-013",
+        "frrev-ann-014",
+        "frrev-ann-015",
+        "frrev-ann-016",
+        "frrev-ann-017",
+        "frrev-ann-018",
+        "frrev-ann-019",
+        "frrev-ann-020",
+        "frrev-ann-021",
+        "frrev-ann-022",
+        "frrev-ann-023",
+        "frrev-ann-024",
+        "frrev-ann-025",
+        "frrev-ann-026",
+        "frrev-ann-027",
+        "frrev-ann-028",
+        "frrev-ann-029",
+        "frrev-ann-030",
+        "frrev-ann-031",
+        "frrev-ann-032",
+        "frrev-ann-033",
+        "frrev-ann-034",
+        "frrev-ann-035",
+        "frrev-ann-036",
+        "frrev-ann-037",
+        "frrev-ann-038",
+        "frrev-ann-039",
+        "frrev-ann-040",
+        "frrev-ann-041",
+        "frrev-ann-042"
+      ]
+    },
+    "by_fantasy_type": {
+      "redemptive_sacrifice": [
+        "frrev-ann-003",
+        "frrev-ann-005",
+        "frrev-ann-006",
+        "frrev-ann-007",
+        "frrev-ann-009",
+        "frrev-ann-011",
+        "frrev-ann-013",
+        "frrev-ann-021",
+        "frrev-ann-028",
+        "frrev-ann-030",
+        "frrev-ann-032",
+        "frrev-ann-033",
+        "frrev-ann-035",
+        "frrev-ann-036",
+        "frrev-ann-038",
+        "frrev-ann-039",
+        "frrev-ann-040",
+        "frrev-ann-042"
+      ]
+    },
     "by_violence_logic": {},
     "by_absence_flag": {},
     "high_confidence_only": [],
@@ -68,8 +1703,8 @@
     {
       "stage": "build-concordance",
       "script": "scripts/build-concordance.py",
-      "annotated_files": 0,
-      "generated_at": "2026-06-28T02:11:37"
+      "annotated_files": 2,
+      "generated_at": "2026-06-28T10:13:54"
     }
   ]
 }

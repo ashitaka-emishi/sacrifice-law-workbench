@@ -1,23 +1,17 @@
 {
   "case_id": "lincoln",
-  "generated_at": "2026-06-15T21:13:47",
-  "status": "review-complete-codex-assisted",
-  "full_corpus_units": 4536,
+  "generated_at": "2026-06-28T10:02:36",
+  "status": "review-packets-generated",
+  "full_corpus_units": 16198,
   "pending_units": 0,
-  "reviewed_or_nonpending_units": 4536,
+  "reviewed_or_nonpending_units": 16198,
   "reliability_batch_id": "lincoln-reliability-v1",
   "reliability_sample_units": 467,
   "reliability_sample_sentences": 7,
-  "reliability_disagreements": 21,
   "outputs": [
     "quality/review-packets/lincoln-full-corpus-review.csv",
     "quality/review-packets/lincoln-reliability-v1-coder-a.csv",
     "quality/review-packets/lincoln-reliability-v1-coder-b.csv",
-    "quality/review-packets/lincoln-reliability-v1-adjudication-template.csv",
-    "quality/adjudication-log.csv"
-  ],
-  "limitations": [
-    "Codex-assisted decisions are not a substitute for independent human double-coding.",
-    "Use these artifacts as an auditable first-pass review gate pending scholarly review."
+    "quality/review-packets/lincoln-reliability-v1-adjudication-template.csv"
   ]
 }

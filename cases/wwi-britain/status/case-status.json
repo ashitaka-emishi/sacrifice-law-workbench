@@ -1,9 +1,9 @@
 {
   "case_id": "wwi-britain",
-  "status": "draft-corpus-ready",
-  "current_stage": "mipvu-worklist-generated",
+  "status": "mipvu-review-complete-codex-assisted",
+  "current_stage": "mipvu-review-complete",
   "updated": "2026-06-28",
-  "notes": "British World War I / Lloyd George draft case has rights-reviewed source registration, four committed English OCR raw texts, normalized texts, segmentation, MIPVU worklists, and stub analysis artifacts. No reviewed annotations, CMT mappings, support rating, model reliability sample, or human reliability sample exist yet.",
+  "notes": "wwi-britain expansion corpus has first-pass Codex-assisted MIPVU decisions for all 4 manifest documents and 18,213 lexical units. CMT/Koenigsbergian and downstream analysis artifacts remain provisional until independent review and reliability sampling are complete.",
   "source_language": "en",
   "annotation_language_policy": "source-language",
   "documents": {
@@ -12,11 +12,43 @@
     "normalized": 4,
     "segmented": 4,
     "mipvu_worklists": 4,
-    "annotated": 0
+    "annotated": 4
   },
   "limitations": [
     "Source text is English OCR from Internet Archive and requires OCR review before publication-grade claims.",
     "Draft stubs must not be treated as support evidence until reviewed annotations and CMT mappings exist.",
     "Reliability sampling for the expanded corpus remains to be designed in a later milestone issue."
-  ]
+  ],
+  "mipvu_review_summary": {
+    "review_batch": "wwi-britain-expanded-corpus-mipvu-review-v1",
+    "annotator": "codex-assisted-expansion-mipvu-v1",
+    "total_lexical_units": 18213,
+    "by_decision_type": {
+      "mipvu_direct": 8,
+      "mipvu_indirect": 38,
+      "non_metaphor": 18167
+    },
+    "by_document": {
+      "wwi-britain-lloyd-george-causes-aims-war": {
+        "mipvu_direct": 5,
+        "mipvu_indirect": 13,
+        "non_metaphor": 6059
+      },
+      "wwi-britain-lloyd-george-entry-america": {
+        "mipvu_indirect": 4,
+        "non_metaphor": 2831
+      },
+      "wwi-britain-lloyd-george-through-terror-to-triumph": {
+        "mipvu_direct": 3,
+        "mipvu_indirect": 13,
+        "non_metaphor": 4985
+      },
+      "wwi-britain-lloyd-george-winning-this-war": {
+        "mipvu_indirect": 8,
+        "non_metaphor": 4292
+      }
+    },
+    "pending_units": 0,
+    "quality_summary_path": "quality/mipvu-review-summary.json"
+  }
 }

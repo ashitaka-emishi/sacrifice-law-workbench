@@ -1,7 +1,7 @@
 {
   "version": "1.0",
   "case_id": "hitler",
-  "generated_at": "2026-06-28T02:11:38",
+  "generated_at": "2026-06-28T10:13:55",
   "status": "complete",
   "mipvu_profile": {
     "mipvu_files": 8,
@@ -2603,7 +2603,7 @@
       "stage": "build-concordance",
       "script": "scripts/build-concordance.py",
       "annotated_files": 8,
-      "generated_at": "2026-06-28T02:11:39"
+      "generated_at": "2026-06-28T10:13:56"
     }
   ]
 }

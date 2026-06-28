@@ -32,7 +32,7 @@ raw_path: corpus/raw/am-rev-src-04-jefferson-rough-draft.txt
 pipeline_log:
 - stage: normalize-texts
   script: scripts/normalize-texts.py
-  generated_at: '2026-06-28T02:11:36'
+  generated_at: '2026-06-28T10:13:54'
 ---
 
 A Declaration of the Representatives of the United States of America, in General Congress assembled.

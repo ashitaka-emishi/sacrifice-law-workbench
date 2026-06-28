@@ -1,9 +1,9 @@
 {
   "case_id": "lincoln",
-  "status": "expanded-corpus-worklists-generated",
-  "current_stage": "mipvu-worklist-generated",
+  "status": "mipvu-review-complete-codex-assisted",
+  "current_stage": "mipvu-review-complete",
   "updated": "2026-06-28",
-  "notes": "Lincoln expanded corpus has 5 manifest documents after adding the First Inaugural Address and the 4 July 1861 Special Message to Congress for issue #180. Raw text, normalized text, segmentation, and MIPVU worklists exist for the expanded set. The original three-document MIPVU decisions and reliability packets remain provisional until independent human review; the two newly added documents are pending annotation and reliability design review.",
+  "notes": "Lincoln expanded corpus is acquired, normalized, segmented, verified, and all 16,198 MIPVU lexical units have first-pass Codex-assisted decisions. Reliability packets, calculated agreement, and adjudication log are present; results remain provisional until independent human review.",
   "expanded_corpus": {
     "added_issue": 180,
     "added_documents": [
@@ -20,12 +20,12 @@
   "mipvu_review_summary": {
     "review_batch": "lincoln-full-corpus-mipvu-review-v1",
     "annotator": "codex-assisted-mipvu-v1",
-    "total_lexical_units": 4536,
+    "total_lexical_units": 16198,
     "by_decision_type": {
       "mipvu_direct": 86,
-      "mipvu_indirect": 78,
-      "mipvu_personification": 26,
-      "non_metaphor": 4334,
+      "mipvu_indirect": 83,
+      "mipvu_personification": 27,
+      "non_metaphor": 15990,
       "uncertain": 12
     },
     "pending_units": 0

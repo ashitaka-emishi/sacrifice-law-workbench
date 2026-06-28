@@ -1,0 +1,17 @@
+{
+  "case_id": "am-rev",
+  "generated_at": "2026-06-28T10:02:37",
+  "status": "review-packets-generated",
+  "full_corpus_units": 34890,
+  "pending_units": 0,
+  "reviewed_or_nonpending_units": 34890,
+  "reliability_batch_id": "am-rev-reliability",
+  "reliability_sample_units": 0,
+  "reliability_sample_sentences": 0,
+  "outputs": [
+    "quality/review-packets/am-rev-full-corpus-review.csv",
+    "quality/review-packets/am-rev-reliability-coder-a.csv",
+    "quality/review-packets/am-rev-reliability-coder-b.csv",
+    "quality/review-packets/am-rev-reliability-adjudication-template.csv"
+  ]
+}

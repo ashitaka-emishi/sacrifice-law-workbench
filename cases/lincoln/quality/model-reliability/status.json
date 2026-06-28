@@ -20,6 +20,15 @@
   "state": "complete",
   "valid": true,
   "warnings": [
+    "/Users/andrewhammer/codegarden/koenigsberg-sacrifice-workbench/cases/lincoln/corpus/annotated/lincoln-gettysburg-address_annotated.json: packet source input hash predates annotation-forward corpus refresh; existing packet remains historical and requires reliability resampling before promotion.",
+    "/Users/andrewhammer/codegarden/koenigsberg-sacrifice-workbench/cases/lincoln/corpus/annotated/lincoln-lyceum-address_annotated.json: packet source input hash predates annotation-forward corpus refresh; existing packet remains historical and requires reliability resampling before promotion.",
+    "/Users/andrewhammer/codegarden/koenigsberg-sacrifice-workbench/cases/lincoln/corpus/annotated/lincoln-second-inaugural_annotated.json: packet source input hash predates annotation-forward corpus refresh; existing packet remains historical and requires reliability resampling before promotion.",
+    "/Users/andrewhammer/codegarden/koenigsberg-sacrifice-workbench/cases/lincoln/corpus/mipvu/lincoln-gettysburg-address_mipvu.json: packet source input hash predates annotation-forward corpus refresh; existing packet remains historical and requires reliability resampling before promotion.",
+    "/Users/andrewhammer/codegarden/koenigsberg-sacrifice-workbench/cases/lincoln/corpus/mipvu/lincoln-lyceum-address_mipvu.json: packet source input hash predates annotation-forward corpus refresh; existing packet remains historical and requires reliability resampling before promotion.",
+    "/Users/andrewhammer/codegarden/koenigsberg-sacrifice-workbench/cases/lincoln/corpus/mipvu/lincoln-second-inaugural_mipvu.json: packet source input hash predates annotation-forward corpus refresh; existing packet remains historical and requires reliability resampling before promotion.",
+    "/Users/andrewhammer/codegarden/koenigsberg-sacrifice-workbench/cases/lincoln/corpus/segmented/lincoln-gettysburg-address.json: packet source input hash predates annotation-forward corpus refresh; existing packet remains historical and requires reliability resampling before promotion.",
+    "/Users/andrewhammer/codegarden/koenigsberg-sacrifice-workbench/cases/lincoln/corpus/segmented/lincoln-lyceum-address.json: packet source input hash predates annotation-forward corpus refresh; existing packet remains historical and requires reliability resampling before promotion.",
+    "/Users/andrewhammer/codegarden/koenigsberg-sacrifice-workbench/cases/lincoln/corpus/segmented/lincoln-second-inaugural.json: packet source input hash predates annotation-forward corpus refresh; existing packet remains historical and requires reliability resampling before promotion.",
     "/Users/andrewhammer/codegarden/koenigsberg-sacrifice-workbench/cases/lincoln/metadata/document-manifest.json: packet document manifest hash predates expanded corpus; existing packet remains scoped to unchanged sampled inputs."
   ]
 }

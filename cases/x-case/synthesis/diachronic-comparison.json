@@ -1,7 +1,7 @@
 {
   "version": "1.0",
   "case_id": "x-case",
-  "generated_at": "2026-06-28T02:11:43",
+  "generated_at": "2026-06-28T10:13:59",
   "status": "draft",
   "guardrails": [
     "Structural comparison is not moral equivalence.",
@@ -14,16 +14,16 @@
   "items": [
     {
       "case_id": "am-rev",
-      "total_instances": 61,
-      "documents_with_instances": 2,
-      "total_documents": 2,
+      "total_instances": 66,
+      "documents_with_instances": 4,
+      "total_documents": 4,
       "by_cluster": {
         "am-rev-02-people-republic": 26,
         "am-rev-06-union-founding-memory": 17,
-        "am-rev-01-liberty-tyranny": 12,
+        "am-rev-01-liberty-tyranny": 13,
+        "am-rev-05-virtue-corruption": 5,
         "am-rev-04-providence-covenant": 3,
-        "am-rev-03-founding-sacrifice": 2,
-        "am-rev-05-virtue-corruption": 1
+        "am-rev-03-founding-sacrifice": 2
       },
       "by_fantasy_type": {
         "redemptive_sacrifice": 15,
@@ -36,11 +36,16 @@
     },
     {
       "case_id": "fr-rev",
-      "total_instances": 0,
-      "documents_with_instances": 0,
-      "total_documents": 0,
-      "by_cluster": {},
-      "by_fantasy_type": {},
+      "total_instances": 42,
+      "documents_with_instances": 2,
+      "total_documents": 2,
+      "by_cluster": {
+        "fr-rev-01-virtue-terror": 24,
+        "fr-rev-06-sacrifice-duty": 18
+      },
+      "by_fantasy_type": {
+        "redemptive_sacrifice": 18
+      },
       "by_violence_logic": {},
       "claim_boundary": "Diachronic claims require document-level dating and sequential context not yet fully represented in this aggregate."
     },
@@ -65,22 +70,22 @@
     },
     {
       "case_id": "lincoln",
-      "total_instances": 64,
-      "documents_with_instances": 3,
-      "total_documents": 3,
+      "total_instances": 70,
+      "documents_with_instances": 5,
+      "total_documents": 5,
       "by_cluster": {
-        "lincoln-01-body-organism": 43,
-        "lincoln-05-fathers-inheritance": 6,
-        "lincoln-08-sacrificial-death-gift": 5,
+        "lincoln-01-body-organism": 46,
+        "lincoln-05-fathers-inheritance": 7,
+        "lincoln-08-sacrificial-death-gift": 6,
         "lincoln-02-covenant-oath": 4,
-        "lincoln-03-experiment-proposition": 3,
+        "lincoln-03-experiment-proposition": 4,
         "lincoln-06-providence-theodicy": 2,
         "lincoln-07-absence-black-agency": 1
       },
       "by_fantasy_type": {
-        "national_body": 7,
-        "providential_covenant": 4,
-        "redemptive_sacrifice": 4
+        "national_body": 8,
+        "redemptive_sacrifice": 5,
+        "providential_covenant": 4
       },
       "by_violence_logic": {
         "True": 6
@@ -89,30 +94,36 @@
     },
     {
       "case_id": "napoleon",
-      "total_instances": 19,
+      "total_instances": 21,
       "documents_with_instances": 9,
       "total_documents": 9,
       "by_cluster": {
         "napoleon-02-army-body": 8,
-        "napoleon-01-glory-destiny": 6,
-        "napoleon-05-soldier-sacrifice": 4,
+        "napoleon-01-glory-destiny": 7,
+        "napoleon-05-soldier-sacrifice": 5,
         "napoleon-03-emperor-embodiment": 1
       },
       "by_fantasy_type": {
-        "redemptive_sacrifice": 5
+        "redemptive_sacrifice": 6
       },
       "by_violence_logic": {
-        "True": 6
+        "True": 7
       },
       "claim_boundary": "Diachronic claims require document-level dating and sequential context not yet fully represented in this aggregate."
     },
     {
       "case_id": "wwi-britain",
-      "total_instances": 0,
-      "documents_with_instances": 0,
-      "total_documents": 0,
-      "by_cluster": {},
-      "by_fantasy_type": {},
+      "total_instances": 33,
+      "documents_with_instances": 4,
+      "total_documents": 4,
+      "by_cluster": {
+        "wwi-britain-01-liberty-autocracy": 22,
+        "wwi-britain-03-sacrifice-service-home-front": 11
+      },
+      "by_fantasy_type": {
+        "redemptive_sacrifice": 11,
+        "national_body": 3
+      },
       "by_violence_logic": {},
       "claim_boundary": "Diachronic claims require document-level dating and sequential context not yet fully represented in this aggregate."
     }

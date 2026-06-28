@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-06-28T02:11:43",
+  "generated_at": "2026-06-28T10:13:59",
   "status": "draft",
   "items": [
     {
       "case_id": "am-rev",
       "analysis_status": "complete",
-      "total_instances": 61,
+      "total_instances": 66,
       "cluster_count": 6,
       "ready_for_xcase": true
     },
     {
       "case_id": "fr-rev",
-      "analysis_status": "stub",
-      "total_instances": 0,
+      "analysis_status": "complete",
+      "total_instances": 42,
       "cluster_count": 6,
-      "ready_for_xcase": false
+      "ready_for_xcase": true
     },
     {
       "case_id": "hitler",
@@ -26,23 +26,23 @@
     {
       "case_id": "lincoln",
       "analysis_status": "complete",
-      "total_instances": 64,
+      "total_instances": 70,
       "cluster_count": 8,
       "ready_for_xcase": true
     },
     {
       "case_id": "napoleon",
       "analysis_status": "complete",
-      "total_instances": 19,
+      "total_instances": 21,
       "cluster_count": 6,
       "ready_for_xcase": true
     },
     {
       "case_id": "wwi-britain",
-      "analysis_status": "stub",
-      "total_instances": 0,
+      "analysis_status": "complete",
+      "total_instances": 33,
       "cluster_count": 6,
-      "ready_for_xcase": false
+      "ready_for_xcase": true
     }
   ]
 }

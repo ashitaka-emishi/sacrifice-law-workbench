@@ -32,7 +32,7 @@ CASE_ID = "lincoln"
 ANNOTATOR = "codex-assisted-mipvu-v1"
 REVIEW_BATCH = "lincoln-full-corpus-mipvu-review-v1"
 RELIABILITY_BATCH = "lincoln-reliability-v1"
-RELIABILITY_UPDATED = "2026-06-15"
+RELIABILITY_UPDATED = "2026-06-28"
 
 METAPHOR_DECISIONS = {
     "mipvu_indirect",
@@ -1095,6 +1095,7 @@ def write_packets(rows: list[dict[str, Any]]) -> None:
 def update_status(counts: Counter[str]) -> None:
     path = case_dir(CASE_ID) / "status" / "case-status.json"
     data = read_json(path, {}) or {}
+    total_units = sum(counts.values())
     data.update(
         {
             "case_id": CASE_ID,
@@ -1102,15 +1103,16 @@ def update_status(counts: Counter[str]) -> None:
             "current_stage": "mipvu-review-complete",
             "updated": RELIABILITY_UPDATED,
             "notes": (
-                "Lincoln corpus is acquired, normalized, segmented, verified, and all "
-                "4,536 MIPVU lexical units have first-pass Codex-assisted decisions. "
+                "Lincoln expanded corpus is acquired, normalized, segmented, verified, "
+                f"and all {total_units:,} MIPVU lexical units have first-pass "
+                "Codex-assisted decisions. "
                 "Reliability packets, calculated agreement, and adjudication log are "
                 "present; results remain provisional until independent human review."
             ),
             "mipvu_review_summary": {
                 "review_batch": REVIEW_BATCH,
                 "annotator": ANNOTATOR,
-                "total_lexical_units": sum(counts.values()),
+                "total_lexical_units": total_units,
                 "by_decision_type": dict(sorted(counts.items())),
                 "pending_units": 0,
             },

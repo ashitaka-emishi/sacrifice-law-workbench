@@ -18894,14 +18894,14 @@
               "comparable_count": 7,
               "comparison_family": "model_vs_reference",
               "document_id": null,
-              "exact_match_count": 2,
+              "exact_match_count": 1,
               "field": "cmt.source_domain_primary",
               "left_id": "issue147-anthropic-cmt-final2-20260627",
               "metric": {
                 "name": "observed_agreement",
                 "status": "defined",
                 "undefined_reason": null,
-                "value": 0.2857142857142857
+                "value": 0.14285714285714285
               },
               "right_id": "lincoln:accepted-reference",
               "source_language": "en",
@@ -18940,14 +18940,14 @@
               "comparable_count": 7,
               "comparison_family": "model_vs_reference",
               "document_id": null,
-              "exact_match_count": 2,
+              "exact_match_count": 1,
               "field": "cmt.target_domain",
               "left_id": "issue147-anthropic-cmt-final2-20260627",
               "metric": {
                 "name": "observed_agreement",
                 "status": "defined",
                 "undefined_reason": null,
-                "value": 0.2857142857142857
+                "value": 0.14285714285714285
               },
               "right_id": "lincoln:accepted-reference",
               "source_language": "en",
@@ -18970,7 +18970,7 @@
                 "name": "mean_absolute_difference",
                 "status": "defined",
                 "undefined_reason": null,
-                "value": 0.0362857142857143
+                "value": 0.047714285714285744
               },
               "right_id": "lincoln:accepted-reference",
               "source_language": "en",
@@ -19676,14 +19676,14 @@
               "comparable_count": 2,
               "comparison_family": "model_vs_reference",
               "document_id": "lincoln-gettysburg-address",
-              "exact_match_count": 1,
+              "exact_match_count": 0,
               "field": "cmt.source_domain_primary",
               "left_id": "issue147-anthropic-cmt-final2-20260627",
               "metric": {
                 "name": "observed_agreement",
                 "status": "defined",
                 "undefined_reason": null,
-                "value": 0.5
+                "value": 0.0
               },
               "right_id": "lincoln:accepted-reference",
               "source_language": "en",
@@ -19722,14 +19722,14 @@
               "comparable_count": 2,
               "comparison_family": "model_vs_reference",
               "document_id": "lincoln-gettysburg-address",
-              "exact_match_count": 1,
+              "exact_match_count": 0,
               "field": "cmt.target_domain",
               "left_id": "issue147-anthropic-cmt-final2-20260627",
               "metric": {
                 "name": "observed_agreement",
                 "status": "defined",
                 "undefined_reason": null,
-                "value": 0.5
+                "value": 0.0
               },
               "right_id": "lincoln:accepted-reference",
               "source_language": "en",
@@ -19752,7 +19752,7 @@
                 "name": "mean_absolute_difference",
                 "status": "defined",
                 "undefined_reason": null,
-                "value": 0.044999999999999984
+                "value": 0.10500000000000004
               },
               "right_id": "lincoln:accepted-reference",
               "source_language": "en",
@@ -21316,7 +21316,7 @@
                 "name": "mean_absolute_difference",
                 "status": "defined",
                 "undefined_reason": null,
-                "value": 0.07000000000000006
+                "value": 0.030000000000000027
               },
               "right_id": "lincoln:accepted-reference",
               "source_language": "en",
@@ -22028,14 +22028,14 @@
               "comparable_count": 7,
               "comparison_family": "model_vs_reference",
               "document_id": null,
-              "exact_match_count": 4,
+              "exact_match_count": 3,
               "field": "cmt.source_domain_primary",
               "left_id": "issue147-openai-cmt-final2-20260627",
               "metric": {
                 "name": "observed_agreement",
                 "status": "defined",
                 "undefined_reason": null,
-                "value": 0.5714285714285714
+                "value": 0.42857142857142855
               },
               "right_id": "lincoln:accepted-reference",
               "source_language": "en",
@@ -22074,14 +22074,14 @@
               "comparable_count": 7,
               "comparison_family": "model_vs_reference",
               "document_id": null,
-              "exact_match_count": 3,
+              "exact_match_count": 2,
               "field": "cmt.target_domain",
               "left_id": "issue147-openai-cmt-final2-20260627",
               "metric": {
                 "name": "observed_agreement",
                 "status": "defined",
                 "undefined_reason": null,
-                "value": 0.42857142857142855
+                "value": 0.2857142857142857
               },
               "right_id": "lincoln:accepted-reference",
               "source_language": "en",
@@ -22104,7 +22104,7 @@
                 "name": "mean_absolute_difference",
                 "status": "defined",
                 "undefined_reason": null,
-                "value": 0.0905714285714286
+                "value": 0.08771428571428573
               },
               "right_id": "lincoln:accepted-reference",
               "source_language": "en",
@@ -22810,14 +22810,14 @@
               "comparable_count": 2,
               "comparison_family": "model_vs_reference",
               "document_id": "lincoln-gettysburg-address",
-              "exact_match_count": 1,
+              "exact_match_count": 0,
               "field": "cmt.source_domain_primary",
               "left_id": "issue147-openai-cmt-final2-20260627",
               "metric": {
                 "name": "observed_agreement",
                 "status": "defined",
                 "undefined_reason": null,
-                "value": 0.5
+                "value": 0.0
               },
               "right_id": "lincoln:accepted-reference",
               "source_language": "en",
@@ -22856,14 +22856,14 @@
               "comparable_count": 2,
               "comparison_family": "model_vs_reference",
               "document_id": "lincoln-gettysburg-address",
-              "exact_match_count": 2,
+              "exact_match_count": 1,
               "field": "cmt.target_domain",
               "left_id": "issue147-openai-cmt-final2-20260627",
               "metric": {
                 "name": "observed_agreement",
                 "status": "defined",
                 "undefined_reason": null,
-                "value": 1.0
+                "value": 0.5
               },
               "right_id": "lincoln:accepted-reference",
               "source_language": "en",
@@ -22886,7 +22886,7 @@
                 "name": "mean_absolute_difference",
                 "status": "defined",
                 "undefined_reason": null,
-                "value": 0.12
+                "value": 0.13
               },
               "right_id": "lincoln:accepted-reference",
               "source_language": "en",
@@ -24450,7 +24450,7 @@
                 "name": "mean_absolute_difference",
                 "status": "defined",
                 "undefined_reason": null,
-                "value": 0.10999999999999999
+                "value": 0.06999999999999995
               },
               "right_id": "lincoln:accepted-reference",
               "source_language": "en",
@@ -25491,7 +25491,7 @@
                 "name": "mean_absolute_difference",
                 "status": "defined",
                 "undefined_reason": null,
-                "value": 0.1494285714285714
+                "value": 0.12657142857142856
               },
               "right_id": "lincoln:accepted-reference",
               "source_language": "en",
@@ -26273,7 +26273,7 @@
                 "name": "mean_absolute_difference",
                 "status": "defined",
                 "undefined_reason": null,
-                "value": 0.18999999999999995
+                "value": 0.08999999999999997
               },
               "right_id": "lincoln:accepted-reference",
               "source_language": "en",
@@ -27837,7 +27837,7 @@
                 "name": "mean_absolute_difference",
                 "status": "defined",
                 "undefined_reason": null,
-                "value": 0.10999999999999999
+                "value": 0.15000000000000002
               },
               "right_id": "lincoln:accepted-reference",
               "source_language": "en",
@@ -28625,7 +28625,7 @@
                 "name": "mean_absolute_difference",
                 "status": "defined",
                 "undefined_reason": null,
-                "value": 0.05085714285714282
+                "value": 0.0337142857142857
               },
               "right_id": "lincoln:accepted-reference",
               "source_language": "en",
@@ -29407,7 +29407,7 @@
                 "name": "mean_absolute_difference",
                 "status": "defined",
                 "undefined_reason": null,
-                "value": 0.09499999999999997
+                "value": 0.03500000000000003
               },
               "right_id": "lincoln:accepted-reference",
               "source_language": "en",

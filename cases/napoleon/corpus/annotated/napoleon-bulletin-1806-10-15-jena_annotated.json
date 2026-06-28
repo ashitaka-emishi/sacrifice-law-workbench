@@ -2,9 +2,9 @@
   "version": "1.0",
   "case_id": "napoleon",
   "document_id": "napoleon-bulletin-1806-10-15-jena",
-  "generated_at": "2026-06-17T15:09:55",
+  "generated_at": "2026-06-28T10:02:19",
   "generator": "scripts/generate-annotation-layer.py",
-  "annotation_policy": "CMT and Koenigsbergian annotations derived from MIPVU-reviewed metaphorical and uncertain lexical units. Each instance cites at least one MIPVU ID with decision_type in METAPHOR_DECISIONS.",
+  "annotation_policy": "CMT and Koenigsbergian annotations derived from MIPVU-reviewed metaphorical and uncertain lexical units. Each instance cites at least one MIPVU ID with decision_type in MIPVU_METAPHOR_OR_UNCERTAIN_DECISIONS.",
   "instances": [
     {
       "instance_id": "napoleon-ann-004",
@@ -28,7 +28,7 @@
         ],
         "confidence": 0.8,
         "rival_reading": "Some death is literal, but the phrasing treats death as an output, seed, or glory-bearing sacrificial cost.",
-        "justification": "MIPVU review rule '' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
+        "justification": "MIPVU review rule 'napoleon-death-blood-glory' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
       },
       "koenigsberg": {
         "fantasy_type": "redemptive_sacrifice",
@@ -65,7 +65,7 @@
         ],
         "confidence": 0.76,
         "rival_reading": "Victory is abstract but is described as hesitating, deciding, or belonging to an army.",
-        "justification": "MIPVU review rule '' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
+        "justification": "MIPVU review rule 'napoleon-victoire-personified' marked 1 unit(s) as metaphor-related or uncertain in this sentence."
       },
       "koenigsberg": {},
       "meta": {

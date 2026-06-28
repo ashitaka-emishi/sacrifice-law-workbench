@@ -57,10 +57,10 @@
 | `cmt` | `cmt.cluster_id` | diverges-from-reference | 0.429 | 0.429 | 14 |
 | `cmt` | `cmt.conceptual_metaphor` | diverges-from-reference | 0.000 | 0.000 | 14 |
 | `cmt` | `cmt.entailments` | diverges-from-reference | 0.000 | 0.000 | 14 |
-| `cmt` | `cmt.source_domain_primary` | diverges-from-reference | 0.286 | 0.571 | 14 |
+| `cmt` | `cmt.source_domain_primary` | diverges-from-reference | 0.143 | 0.429 | 14 |
 | `cmt` | `cmt.source_domain_secondary` | diverges-from-reference | 0.000 | 0.000 | 14 |
-| `cmt` | `cmt.target_domain` | diverges-from-reference | 0.286 | 0.429 | 14 |
-| `cmt` | `confidence` | diverges-from-reference | 0.036 | 0.091 | 14 |
+| `cmt` | `cmt.target_domain` | diverges-from-reference | 0.143 | 0.286 | 14 |
+| `cmt` | `confidence` | diverges-from-reference | 0.048 | 0.088 | 14 |
 | `cmt` | `uncertainty.status` | insufficient-data | — | — | 0 |
 | `identification` | `confidence` | insufficient-data | — | — | 0 |
 | `identification` | `identification.basic_meaning` | insufficient-data | — | — | 0 |
@@ -71,7 +71,7 @@
 | `identification` | `identification.contrast_explanation` | insufficient-data | — | — | 0 |
 | `identification` | `identification.decision` | insufficient-data | — | — | 0 |
 | `identification` | `uncertainty.status` | insufficient-data | — | — | 0 |
-| `interpretation` | `confidence` | diverges-from-reference | 0.051 | 0.149 | 14 |
+| `interpretation` | `confidence` | diverges-from-reference | 0.034 | 0.127 | 14 |
 | `interpretation` | `interpretation.absence.displacement_mechanism` | insufficient-data | — | — | 0 |
 | `interpretation` | `interpretation.absence.expected_presence` | insufficient-data | — | — | 0 |
 | `interpretation` | `interpretation.absence.possible_absence` | insufficient-data | — | — | 0 |

@@ -1,22 +1,22 @@
 {
   "case_id": "napoleon",
-  "generated_at": "2026-06-16T13:03:00",
+  "generated_at": "2026-06-28T10:02:09",
   "status": "mipvu-review-complete-codex-assisted",
   "review_batch": "napoleon-source-language-mipvu-review-v1",
   "annotator": "codex-assisted-mipvu-v1",
   "source_language": "fr",
   "decision_basis": "source-language span_text",
-  "total_lexical_units": 23005,
+  "total_lexical_units": 23224,
   "pending_units": 0,
   "by_decision_type": {
     "mipvu_direct": 2,
     "mipvu_indirect": 14,
     "mipvu_personification": 6,
-    "non_metaphor": 22980,
+    "non_metaphor": 23199,
     "uncertain": 3
   },
   "by_rule_id": {
-    "default-reviewed-non-metaphor": 22980,
+    "default-reviewed-non-metaphor": 23199,
     "napoleon-blood-honor-army": 1,
     "napoleon-bouches-a-feu": 2,
     "napoleon-braves-morts-patrie": 4,
@@ -70,6 +70,9 @@
     "napoleon-bulletin-1813-05-24-bautzen": {
       "mipvu_indirect": 1,
       "non_metaphor": 3241
+    },
+    "napoleon-proclamation-army-of-italy-1796-11-11": {
+      "non_metaphor": 219
     }
   },
   "sample_metaphor_or_uncertain_units": [

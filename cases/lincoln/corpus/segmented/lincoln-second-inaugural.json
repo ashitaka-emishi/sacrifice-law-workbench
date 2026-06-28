@@ -9,7 +9,7 @@
     "date_precision": "day",
     "register": "inaugural-address",
     "authorship": "Abraham Lincoln",
-    "source_url": "https://www.gutenberg.org/ebooks/8",
+    "source_url": "https://www.gutenberg.org/cache/epub/8/pg8.txt",
     "source_citation": "Project Gutenberg EBook #8 — Abraham Lincoln's Second Inaugural Address",
     "rights_status": "public-domain",
     "expected_raw_path": "corpus/raw/lincoln-src-03-second-inaugural.txt",
@@ -44,7 +44,7 @@
       {
         "stage": "normalize-texts",
         "script": "scripts/normalize-texts.py",
-        "generated_at": "2026-06-28T02:11:39"
+        "generated_at": "2026-06-28T10:13:56"
       }
     ]
   },
@@ -372,7 +372,7 @@
     {
       "stage": "segment-texts",
       "script": "scripts/segment-texts.py",
-      "generated_at": "2026-06-28T02:11:39",
+      "generated_at": "2026-06-28T10:13:56",
       "sentence_count": 25
     }
   ]
