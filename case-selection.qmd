@@ -69,6 +69,8 @@ cases.
 
 The ranked candidate matrix for this window is recorded in
 [Pre-v1 Expansion Candidate Matrix](docs/corpus/pre-v1-expansion-candidate-matrix.md).
+Rights and provenance decisions for those candidates are recorded in
+[Pre-v1 Expansion Rights and Provenance Review](docs/corpus/pre-v1-expansion-rights-provenance-review.md).
 
 ### Case-level rationales
 

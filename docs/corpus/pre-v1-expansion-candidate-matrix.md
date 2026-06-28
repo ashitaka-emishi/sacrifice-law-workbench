@@ -1,11 +1,12 @@
 # Pre-v1 Expansion Candidate Matrix
 
-Status: candidate-ranking artifact for GitHub issue #176.
+Status: candidate-ranking artifact for GitHub issue #176. Rights/provenance
+decisions for these candidates are recorded in
+`docs/corpus/pre-v1-expansion-rights-provenance-review.md`.
 
 This matrix applies the pre-v1 expansion rubric in `case-selection.qmd`.
-It is a selection document, not a rights-clearance decision. Rights,
-provenance, source-edition, and storage decisions remain follow-up work for
-issue #177 before any new source text enters the corpus.
+It is a selection document, not a rights-clearance decision. Use the #177
+rights/provenance review before any new source text enters the corpus.
 
 ## Recommendation
 

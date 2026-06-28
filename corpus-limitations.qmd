@@ -8,19 +8,27 @@ policy permits local storage and public artifacts do not reproduce restricted
 text. Missing, inaccessible, uncertain, or locally restricted corpora should be
 documented here.
 
-## V1 Corpus Boundary
+## Current Corpus Boundary
 
-The v1 corpus is frozen at the currently verified document set for Lincoln,
-American Revolution, Napoleon, and Hitler. This freeze is methodological rather
-than permanent: it prevents annotation-forward work from drifting while MIPVU,
-CMT mapping, case analysis, cross-case synthesis, validation, and public
-artifacts are regenerated under the current process.
+The current verified working corpus remains the document set for Lincoln,
+American Revolution, Napoleon, and Hitler. The previous v1 freeze has been
+superseded by a bounded pre-v1 expansion window. This expansion window is
+methodological rather than open-ended: it permits a small number of selected
+case and document additions before reliability, final support ratings, and
+publication-grade claim promotion resume.
 
-Wholesale redownload, starter-corpus replacement, and source expansion are out
-of scope for the v1 annotation-forward reprocess. Reopening acquisition is
-appropriate only for a document-specific defect, such as failed corpus
-verification, damaged or misleading OCR, missing provenance, a rights-status
-change, or a source-quality problem that would materially affect annotation.
+Wholesale redownload, starter-corpus replacement, and opportunistic source
+growth remain out of scope. Reopening acquisition is appropriate only for
+approved expansion sources or for a document-specific defect, such as failed
+corpus verification, damaged or misleading OCR, missing provenance, a
+rights-status change, or a source-quality problem that would materially affect
+annotation.
+
+The pre-v1 expansion candidate matrix and rights/provenance review are recorded
+in `docs/corpus/pre-v1-expansion-candidate-matrix.md` and
+`docs/corpus/pre-v1-expansion-rights-provenance-review.md`. No raw expansion
+source text should enter the corpus until the relevant source is approved in
+that review and copied into a case-local source registry.
 
 Known source limitations remain part of the v1 record. Napoleon is normalized
 from Gallica OCR and should preserve OCR uncertainty where it affects French
