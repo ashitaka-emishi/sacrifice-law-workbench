@@ -25,6 +25,13 @@ in French source text.
 :::
 
 ::: {.g-col-12 .g-col-md-6 .reader-card}
+### [British World War I / Lloyd George](cases/wwi-britain/artifacts/qmd/case-overview.qmd)
+
+Draft limiting/control case for democratic wartime sacrifice, endurance,
+liberty, and anti-autocracy rhetoric in English OCR source text.
+:::
+
+::: {.g-col-12 .g-col-md-6 .reader-card}
 ### [Lincoln / American Civil War](cases/lincoln/artifacts/qmd/case-overview.qmd)
 
 Union, covenant, battlefield sacrifice, providence, and reconciliation.
@@ -189,6 +196,7 @@ when any of these conditions hold:
 | American Revolution | `am-rev` | Washington-anchored collective exception | Tests sacrifice, founding, sacred liberty, and collective exception in revolutionary war language. |
 | Napoleon / Napoleonic Wars | `napoleon` | Napoleon-only individual leader corpus | Tests imperial glory, leader-body extension, army/nation fusion, and translation-sensitive sacrifice language. |
 | French Revolution / Jacobin Republic | `fr-rev` | Robespierre-centered Jacobin public corpus | Draft expansion case testing republican virtue, terror, public safety, sacred peoplehood, and source-with-glosses French annotation. |
+| British World War I / Lloyd George | `wwi-britain` | Lloyd George-centered democratic wartime leadership corpus | Draft expansion case testing sacrifice, endurance, democratic wartime mobilization, liberty, and anti-autocracy rhetoric without genocidal enemy destruction. |
 | Lincoln / American Civil War | `lincoln` | newly selected Lincoln corpus | Tests body-politic healing, covenant, experiment, providence, war sacrifice, and systematic absence. |
 | Hitler / Nazi Germany | `hitler` | Hitler-centered corpus with limited Goebbels/Goering support if needed | Tests the war/genocide boundary, purification fantasy, enemy as bringer of death, and exterminatory body-politic logic. |
 | Cross-case synthesis | `x-case` | synthetic synthesis workspace | Not a historical case; receives case-level outputs for comparison, validation, and synthesis. |

@@ -1,0 +1,57 @@
+{
+  "case_id": "wwi-britain",
+  "status": "rights-reviewed",
+  "updated": "2026-06-28",
+  "sources": [
+    {
+      "source_id": "wwi-britain-src-01-through-terror-to-triumph",
+      "title": "Through Terror to Triumph",
+      "short_title": "Through Terror to Triumph",
+      "voice": "David Lloyd George",
+      "date": "1915",
+      "phase": "early-war-justification",
+      "register": "public wartime speeches",
+      "archive": "Internet Archive",
+      "source_url": "https://archive.org/details/throughterrortot00lloyuoft",
+      "citation": "Lloyd George, David. Through Terror to Triumph: Speeches and Pronouncements of the Right Hon. David Lloyd George, M.P., Since the Beginning of the War. 1915. Internet Archive.",
+      "rights_status": "public-domain",
+      "rights_rationale": "The 1915 volume is a pre-1929 edition. The selected source text is Internet Archive OCR from a public-domain scan.",
+      "git_tracking": "committed",
+      "acquisition_instructions": "Run scripts/extract-wwi-britain-speeches.py to download Internet Archive OCR and extract only the selected Lloyd George speech. Preserve generated provenance headers. OCR review remains required before publication-grade claims.",
+      "expected_local_path": "cases/wwi-britain/corpus/raw/wwi-britain-src-01-through-terror-to-triumph/",
+      "translation_language": "en",
+      "translation_risk_notes": "English source text; no translation layer. OCR noise and edition verification remain source-quality risks.",
+      "risk_flags": [
+        "ocr-review-required",
+        "source-edition-verification"
+      ],
+      "analytical_priority": "high",
+      "notes": "Approved by the pre-v1 expansion rights/provenance review for issue #179 as part of the British WWI draft source base."
+    },
+    {
+      "source_id": "wwi-britain-src-02-great-crusade",
+      "title": "The Great Crusade: Extracts from Speeches Delivered During the War",
+      "short_title": "The Great Crusade",
+      "voice": "David Lloyd George",
+      "date": "1918",
+      "phase": "coalition-war",
+      "register": "public wartime speeches",
+      "archive": "Internet Archive",
+      "source_url": "https://archive.org/details/greatcrusadeextr00lloy",
+      "citation": "Lloyd George, David. The Great Crusade: Extracts from Speeches Delivered During the War. 1918. Internet Archive.",
+      "rights_status": "public-domain",
+      "rights_rationale": "The 1918 volume is a pre-1929 edition. The selected source text is Internet Archive OCR from a public-domain scan.",
+      "git_tracking": "committed",
+      "acquisition_instructions": "Run scripts/extract-wwi-britain-speeches.py to download Internet Archive OCR and extract only the selected Lloyd George speeches. Preserve generated provenance headers. OCR review remains required before publication-grade claims.",
+      "expected_local_path": "cases/wwi-britain/corpus/raw/wwi-britain-src-02-great-crusade/",
+      "translation_language": "en",
+      "translation_risk_notes": "English source text; no translation layer. OCR noise and edition verification remain source-quality risks.",
+      "risk_flags": [
+        "ocr-review-required",
+        "source-edition-verification"
+      ],
+      "analytical_priority": "high",
+      "notes": "Approved by the pre-v1 expansion rights/provenance review for issue #179 as part of the British WWI draft source base."
+    }
+  ]
+}

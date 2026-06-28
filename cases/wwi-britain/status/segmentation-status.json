@@ -1,0 +1,40 @@
+{
+  "case_id": "wwi-britain",
+  "stage": "segment-texts",
+  "status": "ready",
+  "generated_at": "2026-06-28T01:20:58",
+  "documents_in_manifest": 4,
+  "written": 4,
+  "skipped_missing_text": 0,
+  "errors": [],
+  "records": [
+    {
+      "document_id": "wwi-britain-lloyd-george-through-terror-to-triumph",
+      "status": "written",
+      "sentence_count": 352,
+      "input_path": "cases/wwi-britain/corpus/text/wwi-britain-lloyd-george-through-terror-to-triumph.md",
+      "output_path": "cases/wwi-britain/corpus/segmented/wwi-britain-lloyd-george-through-terror-to-triumph.json"
+    },
+    {
+      "document_id": "wwi-britain-lloyd-george-winning-this-war",
+      "status": "written",
+      "sentence_count": 250,
+      "input_path": "cases/wwi-britain/corpus/text/wwi-britain-lloyd-george-winning-this-war.md",
+      "output_path": "cases/wwi-britain/corpus/segmented/wwi-britain-lloyd-george-winning-this-war.json"
+    },
+    {
+      "document_id": "wwi-britain-lloyd-george-entry-america",
+      "status": "written",
+      "sentence_count": 184,
+      "input_path": "cases/wwi-britain/corpus/text/wwi-britain-lloyd-george-entry-america.md",
+      "output_path": "cases/wwi-britain/corpus/segmented/wwi-britain-lloyd-george-entry-america.json"
+    },
+    {
+      "document_id": "wwi-britain-lloyd-george-causes-aims-war",
+      "status": "written",
+      "sentence_count": 294,
+      "input_path": "cases/wwi-britain/corpus/text/wwi-britain-lloyd-george-causes-aims-war.md",
+      "output_path": "cases/wwi-britain/corpus/segmented/wwi-britain-lloyd-george-causes-aims-war.json"
+    }
+  ]
+}

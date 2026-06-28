@@ -1,0 +1,35 @@
+---
+title: "British World War I / Lloyd George"
+---
+
+::: {.callout-note title="Status: draft corpus"}
+This case has source text, manifest registration, segmentation, and MIPVU
+worklists, but no reviewed annotations, support rating, or reliability sample
+yet. Source text is English OCR from public-domain Internet Archive scans and
+requires OCR review before publication-grade claims.
+:::
+
+## Analytical focus
+
+The British World War I case examines Lloyd George-centered democratic wartime
+rhetoric about sacrifice, endurance, national service, liberty, small nations,
+military autocracy, victory, and international justice.
+
+## Corpus boundary
+
+This is a compact Lloyd George public corpus, not a general British World War I
+archive. The initial draft selects four speeches from 1914-1917 because the
+pre-v1 expansion review identified this case as a high-value limiting/control
+test for democratic wartime mobilization and sacrifice language without a
+genocidal enemy-destruction frame.
+
+## Draft artifacts
+
+- [Corpus analysis](../../analysis/corpus-analysis.md)
+- [Diachronic analysis](../../analysis/diachronic-analysis.md)
+- [Metaphor-system evolution](../../analysis/cluster-evolution.md)
+- [Critical metaphor analysis](../../analysis/critical-metaphor-analysis.md)
+- [Rhetorical and genre analysis](../../analysis/rhetorical-genre-analysis.md)
+- [Absence and agency analysis](../../analysis/absence-agency-analysis.md)
+
+Return to [all cases](../../../../case-selection.qmd).

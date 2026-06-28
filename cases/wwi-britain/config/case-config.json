@@ -1,0 +1,28 @@
+{
+  "case_id": "wwi-britain",
+  "name": "British World War I / Lloyd George",
+  "corpus_model": "Lloyd George-centered democratic wartime leadership corpus",
+  "voices": [
+    "David Lloyd George"
+  ],
+  "phases": [
+    "early-war-justification",
+    "munition-mobilization",
+    "coalition-war",
+    "war-aims"
+  ],
+  "source_language": "en",
+  "annotation_language_policy": "source-language",
+  "gloss_terms": [
+    "liberty",
+    "autocracy",
+    "sacrifice",
+    "civilization",
+    "honour",
+    "duty",
+    "democracy",
+    "victory",
+    "Belgium"
+  ],
+  "status": "draft"
+}

@@ -33,6 +33,9 @@ This page is generated from validated case-local model-reliability artifacts by
 | `napoleon` | identification | absent — not designed | 0 | 0 | Multi-model reliability has not been designed for this case. |
 | `napoleon` | cmt | absent — not designed | 0 | 0 | Multi-model reliability has not been designed for this case. |
 | `napoleon` | interpretation | absent — not designed | 0 | 0 | Multi-model reliability has not been designed for this case. |
+| `wwi-britain` | identification | absent — not designed | 0 | 0 | Multi-model reliability has not been designed for this case. |
+| `wwi-britain` | cmt | absent — not designed | 0 | 0 | Multi-model reliability has not been designed for this case. |
+| `wwi-britain` | interpretation | absent — not designed | 0 | 0 | Multi-model reliability has not been designed for this case. |
 
 Layer state is computed from validated submissions for that layer. `Complete`
 means the artifact chain for the executed layer is valid; it does not mean an
