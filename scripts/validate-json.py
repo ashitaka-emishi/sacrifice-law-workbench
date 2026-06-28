@@ -168,6 +168,7 @@ PUBLICATION_TRACE_REQUIRED = [
 
 PUBLIC_SITE_CASE_IDENTIFIERS = {
     "am-rev": ("am-rev", "American Revolution"),
+    "fr-rev": ("fr-rev", "French Revolution", "Jacobin Republic"),
     "hitler": ("hitler", "Hitler"),
     "lincoln": ("lincoln", "Lincoln"),
     "napoleon": ("napoleon", "Napoleon"),
@@ -740,63 +741,72 @@ class Validator:
         critical_path = analysis_dir / "critical-metaphor-analysis.json"
         if critical_path.exists():
             data = read_json(critical_path, {}) or {}
-            profiles = data.get("cluster_profiles") if isinstance(data, dict) else None
-            if not isinstance(profiles, list) or not profiles:
-                self.error(critical_path, "cluster_profiles must be a non-empty array")
+            if isinstance(data, dict) and data.get("status") == "stub":
+                profiles = []
             else:
-                for index, profile in enumerate(profiles):
-                    if not isinstance(profile, dict):
-                        self.error(critical_path, f"cluster_profiles[{index}] must be an object")
-                        continue
-                    owner = str(profile.get("cluster_id") or f"cluster_profiles[{index}]")
-                    self.validate_mapping_id_list(
-                        critical_path, owner, profile.get("mapping_ids"), valid_mapping_ids
-                    )
-                    for field in [
-                        "persuasive_function",
-                        "rival_readings",
-                        "negative_cases",
-                        "relation_to_koenigsbergian_analysis",
-                    ]:
-                        if profile.get(field) in (None, "", []):
-                            self.error(critical_path, f"{owner}: missing `{field}`")
+                profiles = data.get("cluster_profiles") if isinstance(data, dict) else None
+                if not isinstance(profiles, list) or not profiles:
+                    self.error(critical_path, "cluster_profiles must be a non-empty array")
+                else:
+                    for index, profile in enumerate(profiles):
+                        if not isinstance(profile, dict):
+                            self.error(critical_path, f"cluster_profiles[{index}] must be an object")
+                            continue
+                        owner = str(profile.get("cluster_id") or f"cluster_profiles[{index}]")
+                        self.validate_mapping_id_list(
+                            critical_path, owner, profile.get("mapping_ids"), valid_mapping_ids
+                        )
+                        for field in [
+                            "persuasive_function",
+                            "rival_readings",
+                            "negative_cases",
+                            "relation_to_koenigsbergian_analysis",
+                        ]:
+                            if profile.get(field) in (None, "", []):
+                                self.error(critical_path, f"{owner}: missing `{field}`")
 
         rhetorical_path = analysis_dir / "rhetorical-genre-analysis.json"
         if rhetorical_path.exists():
             data = read_json(rhetorical_path, {}) or {}
-            contexts = data.get("contexts") if isinstance(data, dict) else None
-            if not isinstance(contexts, list) or not contexts:
-                self.error(rhetorical_path, "contexts must be a non-empty array")
+            if isinstance(data, dict) and data.get("status") == "stub":
+                contexts = []
             else:
-                for index, context in enumerate(contexts):
-                    if not isinstance(context, dict):
-                        self.error(rhetorical_path, f"contexts[{index}] must be an object")
-                        continue
-                    mapping_id = context.get("mapping_id")
-                    if mapping_id not in valid_mapping_ids:
-                        self.error(rhetorical_path, f"contexts[{index}]: mapping_id `{mapping_id}` not found")
-                    for field in ["audience", "occasion", "genre", "rhetorical_action", "agency_structure"]:
-                        if context.get(field) in (None, "", {}):
-                            self.error(rhetorical_path, f"{mapping_id or index}: missing `{field}`")
+                contexts = data.get("contexts") if isinstance(data, dict) else None
+                if not isinstance(contexts, list) or not contexts:
+                    self.error(rhetorical_path, "contexts must be a non-empty array")
+                else:
+                    for index, context in enumerate(contexts):
+                        if not isinstance(context, dict):
+                            self.error(rhetorical_path, f"contexts[{index}] must be an object")
+                            continue
+                        mapping_id = context.get("mapping_id")
+                        if mapping_id not in valid_mapping_ids:
+                            self.error(rhetorical_path, f"contexts[{index}]: mapping_id `{mapping_id}` not found")
+                        for field in ["audience", "occasion", "genre", "rhetorical_action", "agency_structure"]:
+                            if context.get(field) in (None, "", {}):
+                                self.error(rhetorical_path, f"{mapping_id or index}: missing `{field}`")
 
         absence_path = analysis_dir / "absence-agency-analysis.json"
         if absence_path.exists():
             data = read_json(absence_path, {}) or {}
-            matrix = data.get("matrix") if isinstance(data, dict) else None
-            if not isinstance(matrix, list) or not matrix:
-                self.error(absence_path, "matrix must be a non-empty array")
+            if isinstance(data, dict) and data.get("status") == "stub":
+                matrix = []
             else:
-                for index, row in enumerate(matrix):
-                    if not isinstance(row, dict):
-                        self.error(absence_path, f"matrix[{index}] must be an object")
-                        continue
-                    owner = str(row.get("absence_id") or f"matrix[{index}]")
-                    self.validate_mapping_id_list(
-                        absence_path, owner, row.get("evidence_mapping_ids"), valid_mapping_ids
-                    )
-                    for field in ["expected_presence", "possible_absence", "displacement_mechanism", "claim_boundary"]:
-                        if row.get(field) in (None, ""):
-                            self.error(absence_path, f"{owner}: missing `{field}`")
+                matrix = data.get("matrix") if isinstance(data, dict) else None
+                if not isinstance(matrix, list) or not matrix:
+                    self.error(absence_path, "matrix must be a non-empty array")
+                else:
+                    for index, row in enumerate(matrix):
+                        if not isinstance(row, dict):
+                            self.error(absence_path, f"matrix[{index}] must be an object")
+                            continue
+                        owner = str(row.get("absence_id") or f"matrix[{index}]")
+                        self.validate_mapping_id_list(
+                            absence_path, owner, row.get("evidence_mapping_ids"), valid_mapping_ids
+                        )
+                        for field in ["expected_presence", "possible_absence", "displacement_mechanism", "claim_boundary"]:
+                            if row.get(field) in (None, ""):
+                                self.error(absence_path, f"{owner}: missing `{field}`")
 
     def validate_support_artifacts(self, case_id: str, valid_mapping_ids: set[str]) -> None:
         analysis_dir = case_dir(case_id) / "analysis"

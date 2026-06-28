@@ -1,0 +1,75 @@
+{
+  "version": "1.0",
+  "case_id": "fr-rev",
+  "generated_at": "2026-06-27T20:25:37",
+  "status": "stub",
+  "mipvu_profile": {
+    "mipvu_files": 2,
+    "total_lexical_units": 17123,
+    "reviewed_lexical_units": 0,
+    "pending_lexical_units": 17123,
+    "confirmed_metaphor_units": 0,
+    "metaphor_or_uncertain_units": 0,
+    "metaphor_rate_confirmed": 0.0,
+    "metaphor_rate_including_uncertain": 0.0,
+    "reviewed_metaphor_rate_confirmed": null,
+    "reviewed_metaphor_rate_including_uncertain": null,
+    "by_document": {
+      "fr-rev-robespierre-religious-moral-ideas": 9683,
+      "fr-rev-robespierre-political-morality": 7440
+    },
+    "by_register": {
+      "Convention report / public speech": 17123
+    },
+    "by_language": {
+      "fr": 17123
+    },
+    "by_decision_type": {
+      "pending": 17123
+    },
+    "by_confidence": {
+      "missing": 17123
+    }
+  },
+  "cmt_profile": {
+    "mapping_file": null,
+    "mapping_count": 0,
+    "by_cluster": {},
+    "by_source_domain": {},
+    "by_target_domain": {},
+    "by_conceptual_metaphor": {},
+    "by_document": {},
+    "by_salience": {},
+    "by_status": {}
+  },
+  "total_documents": 0,
+  "total_sentences": 0,
+  "total_instances": 0,
+  "instances": [],
+  "indexes": {
+    "by_cluster": {
+      "fr-rev-01-virtue-terror": [],
+      "fr-rev-02-people-republic-sacred-object": [],
+      "fr-rev-03-tyranny-conspiracy-enemy": [],
+      "fr-rev-04-salut-public": [],
+      "fr-rev-05-festival-supreme-being": [],
+      "fr-rev-06-sacrifice-duty": []
+    },
+    "by_document": {},
+    "by_register": {},
+    "by_fantasy_type": {},
+    "by_violence_logic": {},
+    "by_absence_flag": {},
+    "high_confidence_only": [],
+    "suppression_instances": []
+  },
+  "errors": [],
+  "pipeline_log": [
+    {
+      "stage": "build-concordance",
+      "script": "scripts/build-concordance.py",
+      "annotated_files": 0,
+      "generated_at": "2026-06-27T20:25:37"
+    }
+  ]
+}

@@ -1,0 +1,3357 @@
+{
+  "case_id": "fr-rev",
+  "document_id": "fr-rev-robespierre-political-morality",
+  "meta": {
+    "document_id": "fr-rev-robespierre-political-morality",
+    "title": "Report on the Principles of Political Morality",
+    "short_title": "Political Morality",
+    "date": "1794-02-05",
+    "date_precision": "day",
+    "register": "Convention report / public speech",
+    "authorship": "Maximilien Robespierre",
+    "source_url": "https://www.gutenberg.org/ebooks/29887",
+    "source_citation": "Robespierre, Maximilien. Discours par Maximilien Robespierre -- 17 Avril 1792-27 Juillet 1794. Project Gutenberg ebook 29887.",
+    "rights_status": "public-domain",
+    "expected_raw_path": "corpus/raw/fr-rev-src-01-robespierre-discours-pg/fr-rev-robespierre-political-morality.txt",
+    "analytical_priority": "primary",
+    "phase": "jacobin-terror",
+    "source_language": "fr",
+    "annotation_language_policy": "source-with-glosses",
+    "verification": {
+      "min_words": 7000,
+      "required_phrases": [
+        "morale politique",
+        "ressort du gouvernement populaire",
+        "peuple"
+      ]
+    },
+    "case_id": "fr-rev",
+    "raw_path": "corpus/raw/fr-rev-src-01-robespierre-discours-pg/fr-rev-robespierre-political-morality.txt",
+    "pipeline_log": [
+      {
+        "stage": "normalize-texts",
+        "script": "scripts/normalize-texts.py",
+        "generated_at": "2026-06-27T20:25:36"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "section_id": "fr-rev-robespierre-political-morality_s01",
+      "section_label": "body",
+      "section_ordinal": 1,
+      "paragraphs": [
+        {
+          "paragraph_id": "fr-rev-robespierre-political-morality_s01_p01",
+          "paragraph_ordinal": 1,
+          "sentences": [
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p01_s01",
+              "sentence_ordinal": 1,
+              "text": "_Rapport sur les principes de morale politique qui doivent guider la Convention nationale dans l'administration intérieure de la République, fait au nom du Comité de salut public, le 18 pluviôse, l'an 2e de la République, par Maximilien Robespierre; imprimé par ordre de la Convention nationale_ (18 pluviôse an II - 5 février 1794)",
+              "word_offset_start": 0,
+              "word_offset_end": 53,
+              "char_offset_start": 0,
+              "char_offset_end": 332,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "fr-rev-robespierre-political-morality_s01_p02",
+          "paragraph_ordinal": 2,
+          "sentences": [
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p02_s01",
+              "sentence_ordinal": 1,
+              "text": "Citoyens représentants du Peuple.",
+              "word_offset_start": 53,
+              "word_offset_end": 57,
+              "char_offset_start": 337,
+              "char_offset_end": 370,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "fr-rev-robespierre-political-morality_s01_p03",
+          "paragraph_ordinal": 3,
+          "sentences": [
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p03_s01",
+              "sentence_ordinal": 1,
+              "text": "Nous avons exposé, il y a quelque temps, les principes de notre politique extérieure: nous venons développer aujourd'hui les principes de notre politique intérieure.",
+              "word_offset_start": 57,
+              "word_offset_end": 81,
+              "char_offset_start": 370,
+              "char_offset_end": 535,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "fr-rev-robespierre-political-morality_s01_p04",
+          "paragraph_ordinal": 4,
+          "sentences": [
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p04_s01",
+              "sentence_ordinal": 1,
+              "text": "Après avoir marché longtemps au hasard, et comme emportés par le mouvement des factions contraires, les représentants du Peuple français ont enfin montré un caractère et un gouvernement.",
+              "word_offset_start": 81,
+              "word_offset_end": 109,
+              "char_offset_start": 535,
+              "char_offset_end": 721,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p04_s02",
+              "sentence_ordinal": 2,
+              "text": "Un changement subit dans la fortune de la nation annonça à l'Europe la régénération qui s'était opérée dans la représentation nationale.",
+              "word_offset_start": 109,
+              "word_offset_end": 130,
+              "char_offset_start": 721,
+              "char_offset_end": 857,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p04_s03",
+              "sentence_ordinal": 3,
+              "text": "Mais jusqu'au moment même où je parle, il faut convenir que nous avons été plutôt guidés, dans des circonstances si orageuses, par l'amour du bien et par le sentiment des besoins de la patrie que par une théorie exacte et des règles précises de conduite, que nous n'avions pas même le loisir de tracer.",
+              "word_offset_start": 130,
+              "word_offset_end": 184,
+              "char_offset_start": 857,
+              "char_offset_end": 1159,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "fr-rev-robespierre-political-morality_s01_p05",
+          "paragraph_ordinal": 5,
+          "sentences": [
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p05_s01",
+              "sentence_ordinal": 1,
+              "text": "Il est temps de marquer nettement le but de la révolution, et le terme où nous voulons arriver; il est temps de nous rendre compte à nous-mêmes, et des obstacles qui nous en éloignent encore, et des moyens que nous devons adopter pour l'atteindre: idée simple et importante qui semble n'avoir jamais été aperçue.",
+              "word_offset_start": 184,
+              "word_offset_end": 238,
+              "char_offset_start": 1159,
+              "char_offset_end": 1471,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p05_s02",
+              "sentence_ordinal": 2,
+              "text": "Eh! comment un gouvernement lâche et corrompu aurait-il osé la réaliser?",
+              "word_offset_start": 238,
+              "word_offset_end": 249,
+              "char_offset_start": 1471,
+              "char_offset_end": 1543,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p05_s03",
+              "sentence_ordinal": 3,
+              "text": "Un roi, un sénat orgueilleux, un César, un Cromwell, doivent avant tout couvrir leurs projets d'un voile religieux, transiger avec tous les vices, caresser tous les partis, écraser celui des gens de bien, opprimer ou tromper le peuple, pour arriver au but de leur perfide ambition.",
+              "word_offset_start": 249,
+              "word_offset_end": 295,
+              "char_offset_start": 1543,
+              "char_offset_end": 1824,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p05_s04",
+              "sentence_ordinal": 4,
+              "text": "Si nous n'avions pas eu une plus grande tâche à remplir, s'il ne s'agissait ici que des intérêts d'une faction ou d'une aristocratie nouvelle, nous aurions pu croire, comme certains écrivains plus ignorants encore que pervers, que le plan de la Révolution française était écrit en toutes lettres dans les livres de Tacite et de Machiavel, et chercher les devoirs des représentants du peuple dans l'histoire d'Auguste, de Tibère ou de Vespasien, ou même dans celle de certains législateurs français; car, à quelques nuances près de perfidie ou de cruauté, tous les tyrans se ressemblent.",
+              "word_offset_start": 295,
+              "word_offset_end": 390,
+              "char_offset_start": 1824,
+              "char_offset_end": 2410,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p05_s05",
+              "sentence_ordinal": 5,
+              "text": "Pour nous, nous venons aujourd'hui mettre l'univers dans la confidence de vos secrets politiques, afin que tous les amis de la patrie puissent se rallier à la voix de la raison et de l'intérêt public; afin que la nation française et ses représentants soient respectés dans tous les pays de l'univers où la connaissance de leurs véritables principes pourra parvenir; afin que les intrigants qui cherchent toujours à remplacer d'autres intrigants soient jugés par l'opinion publique sur des règles sûres et faciles.",
+              "word_offset_start": 390,
+              "word_offset_end": 472,
+              "char_offset_start": 2410,
+              "char_offset_end": 2923,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "fr-rev-robespierre-political-morality_s01_p06",
+          "paragraph_ordinal": 6,
+          "sentences": [
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p06_s01",
+              "sentence_ordinal": 1,
+              "text": "Il faut prendre de loin ses précautions pour remettre les destinées de la liberté dans les mains de la vérité qui est éternelle, plus que dans celles des hommes qui passent, de manière que si le gouvernement oublie les intérêts du peuple, ou qu'il retombe entre les mains des hommes corrompus, selon le cours naturel des choses, la lumière des principes reconnus éclaire ses trahisons, et que toute faction nouvelle trouve la mort dans la seule pensée du crime.",
+              "word_offset_start": 472,
+              "word_offset_end": 551,
+              "char_offset_start": 2923,
+              "char_offset_end": 3384,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "fr-rev-robespierre-political-morality_s01_p07",
+          "paragraph_ordinal": 7,
+          "sentences": [
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p07_s01",
+              "sentence_ordinal": 1,
+              "text": "Heureux le peuple qui peut arriver à ce point! car, quelques nouveaux outrages qu'on lui prépare, quelles ressources ne présente pas un ordre de choses où la raison publique est la garantie de la liberté!",
+              "word_offset_start": 551,
+              "word_offset_end": 586,
+              "char_offset_start": 3384,
+              "char_offset_end": 3588,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "fr-rev-robespierre-political-morality_s01_p08",
+          "paragraph_ordinal": 8,
+          "sentences": [
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p08_s01",
+              "sentence_ordinal": 1,
+              "text": "Quel est le but où nous tendons? la jouissance paisible de la liberté et de l'égalité; le règne de cette justice éternelle, dont les lois ont été gravées, non sur le marbre et sur la pierre, mais dans les coeurs de tous les hommes, même dans celui de l'esclave qui les oublie et du tyran qui les nie.",
+              "word_offset_start": 586,
+              "word_offset_end": 644,
+              "char_offset_start": 3588,
+              "char_offset_end": 3888,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "fr-rev-robespierre-political-morality_s01_p09",
+          "paragraph_ordinal": 9,
+          "sentences": [
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p09_s01",
+              "sentence_ordinal": 1,
+              "text": "Nous voulons un ordre de choses où toutes les passions basses et cruelles soient enchaînées, toutes les passions bienfaisantes et généreuses éveillées par les lois; où l'ambition soit le désir de mériter la gloire et de servir la patrie; où les distinctions ne naissent que de l'égalité même; où le citoyen soit soumis au magistral, le magistrat au peuple, et le peuple à la justice; où la patrie assure le bien-être de chaque individu, et où chaque individu jouisse avec orgueil de la prospérité et de la gloire de la patrie; où toutes les âmes s'agrandissent par la communication continuelle des sentiments républicains, et par le besoin de mériter l'estime d'un grand peuple; où les arts soient les décorations de la liberté qui les ennoblit, le commerce la source de la richesse publique et non seulement de l'opulence monstrueuse de quelques maisons.",
+              "word_offset_start": 644,
+              "word_offset_end": 786,
+              "char_offset_start": 3888,
+              "char_offset_end": 4743,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "fr-rev-robespierre-political-morality_s01_p10",
+          "paragraph_ordinal": 10,
+          "sentences": [
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p10_s01",
+              "sentence_ordinal": 1,
+              "text": "Nous voulons substituer dans notre pays la morale à l'égoïsme, la probité à l'honneur, les principes aux usages, les devoirs aux bienséances, l'empire de la raison à la tyrannie de la mode, le mépris du vice au mépris du malheur, la fierté à l'insolence, la grandeur d'âme à la vanité, l'amour de la gloire à l'amour de l'argent, les bonnes gens à la bonne compagnie, le mérite à l'intrigue, le génie au bel esprit, la vérité à l'éclat, le charme du bonheur aux ennuis de la volupté, la grandeur de l'homme à la petitesse des grands, un peuple magnanime, puissant, heureux, à un peuple aimable, frivole et misérable, c'est-à-dire toutes les vertus et tous les miracles de la république à tous les vices et à tous les ridicules de la monarchie.",
+              "word_offset_start": 786,
+              "word_offset_end": 917,
+              "char_offset_start": 4743,
+              "char_offset_end": 5486,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "fr-rev-robespierre-political-morality_s01_p11",
+          "paragraph_ordinal": 11,
+          "sentences": [
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p11_s01",
+              "sentence_ordinal": 1,
+              "text": "Nous voulons, en un mot, remplir les voeux de la nature, accomplir les destins de l'humanité, tenir les promesses de la philosophie, absoudre la providence du long règne du crime et de la tyrannie.",
+              "word_offset_start": 917,
+              "word_offset_end": 951,
+              "char_offset_start": 5486,
+              "char_offset_end": 5683,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p11_s02",
+              "sentence_ordinal": 2,
+              "text": "Que la France, jadis illustre parmi les pays esclaves, éclipsant la gloire de tous les peuples libres qui ont existé, devienne le modèle des nations, l'effroi des oppresseurs, la consolation des opprimés, l'ornement de l'univers, et qu'en scellant notre ouvrage de notre sang, nous puissions voir au moins briller l'aurore de la félicité universelle...",
+              "word_offset_start": 951,
+              "word_offset_end": 1005,
+              "char_offset_start": 5683,
+              "char_offset_end": 6035,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p11_s03",
+              "sentence_ordinal": 3,
+              "text": "Voilà notre ambition, voilà notre but.",
+              "word_offset_start": 1005,
+              "word_offset_end": 1011,
+              "char_offset_start": 6035,
+              "char_offset_end": 6073,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "fr-rev-robespierre-political-morality_s01_p12",
+          "paragraph_ordinal": 12,
+          "sentences": [
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p12_s01",
+              "sentence_ordinal": 1,
+              "text": "Quelle nature de gouvernement peut réaliser ces prodiges?",
+              "word_offset_start": 1011,
+              "word_offset_end": 1019,
+              "char_offset_start": 6102,
+              "char_offset_end": 6159,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p12_s02",
+              "sentence_ordinal": 2,
+              "text": "Le seul gouvernement démocratique ou républicain: ces deux mots sont synonymes, malgré les abus du langage vulgaire; car l'aristocratie n'est pas plus la république que la monarchie.",
+              "word_offset_start": 1019,
+              "word_offset_end": 1046,
+              "char_offset_start": 6159,
+              "char_offset_end": 6341,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p12_s03",
+              "sentence_ordinal": 3,
+              "text": "La démocratie n'est pas un état où le peuple, continuellement assemblé, règle par lui-même toutes les affaires publiques, encore moins celui où cent mille fractions du peuple, par des mesures isolées, précipitées et contradictoires, décideraient du sort de la société entière: un tel gouvernement n'a jamais existé, et il ne pourrait exister que pour ramener le peuple au despotisme.",
+              "word_offset_start": 1046,
+              "word_offset_end": 1105,
+              "char_offset_start": 6341,
+              "char_offset_end": 6724,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "fr-rev-robespierre-political-morality_s01_p13",
+          "paragraph_ordinal": 13,
+          "sentences": [
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p13_s01",
+              "sentence_ordinal": 1,
+              "text": "La démocratie est un état où le peuple souverain, guidé par des lois qui sont son ouvrage, fait par lui-même tout ce qu'il peut bien faire, et par des délégués tout ce qu'il ne peut faire lui-même.",
+              "word_offset_start": 1105,
+              "word_offset_end": 1142,
+              "char_offset_start": 6724,
+              "char_offset_end": 6921,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "fr-rev-robespierre-political-morality_s01_p14",
+          "paragraph_ordinal": 14,
+          "sentences": [
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p14_s01",
+              "sentence_ordinal": 1,
+              "text": "C'est donc dans les principes du gouvernement démocratique que vous devez chercher les règles de votre conduite politique.",
+              "word_offset_start": 1142,
+              "word_offset_end": 1160,
+              "char_offset_start": 6921,
+              "char_offset_end": 7043,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "fr-rev-robespierre-political-morality_s01_p15",
+          "paragraph_ordinal": 15,
+          "sentences": [
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p15_s01",
+              "sentence_ordinal": 1,
+              "text": "Mais, pour fonder et pour consolider parmi nous la démocratie, pour arriver au règne paisible des lois constitutionnelles, il faut terminer la guerre de la liberté contre la tyrannie, et traverser heureusement les orages de la révolution: tel est le but du système révolutionnaire que vous avez régularisé.",
+              "word_offset_start": 1160,
+              "word_offset_end": 1208,
+              "char_offset_start": 7043,
+              "char_offset_end": 7349,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p15_s02",
+              "sentence_ordinal": 2,
+              "text": "Vous devez donc encore régler votre conduite sur les circonstances orageuses où se trouve la république; et le plan de votre administration doit être le résultat de l'esprit du gouvernement révolutionnaire, combiné avec les principes généraux de la démocratie.",
+              "word_offset_start": 1208,
+              "word_offset_end": 1247,
+              "char_offset_start": 7349,
+              "char_offset_end": 7609,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "fr-rev-robespierre-political-morality_s01_p16",
+          "paragraph_ordinal": 16,
+          "sentences": [
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p16_s01",
+              "sentence_ordinal": 1,
+              "text": "Or, quel est le principe fondamental du gouvernement démocratique ou populaire, c'est-à-dire le ressort essentiel qui le soutient et qui le fait mouvoir?",
+              "word_offset_start": 1247,
+              "word_offset_end": 1270,
+              "char_offset_start": 7609,
+              "char_offset_end": 7762,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p16_s02",
+              "sentence_ordinal": 2,
+              "text": "C'est la vertu; je parle de la vertu publique qui opéra tant de prodiges dans la Grèce et dans Rome, et qui doit en produire de bien plus étonnants dans la France républicaine; de cette vertu qui n'est autre chose que l'amour de la patrie et de ses lois.",
+              "word_offset_start": 1270,
+              "word_offset_end": 1319,
+              "char_offset_start": 7762,
+              "char_offset_end": 8016,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "fr-rev-robespierre-political-morality_s01_p17",
+          "paragraph_ordinal": 17,
+          "sentences": [
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p17_s01",
+              "sentence_ordinal": 1,
+              "text": "Mais comme l'essence de la république ou de la démocratie est l'égalité, il s'ensuit que l'amour de la patrie embrasse nécessairement l'amour de l'égalité.",
+              "word_offset_start": 1319,
+              "word_offset_end": 1343,
+              "char_offset_start": 8016,
+              "char_offset_end": 8171,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "fr-rev-robespierre-political-morality_s01_p18",
+          "paragraph_ordinal": 18,
+          "sentences": [
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p18_s01",
+              "sentence_ordinal": 1,
+              "text": "Il est vrai encore que ce sentiment sublime suppose la préférence de l'intérêt public à tous les intérêts particuliers; d'où il résulte que l'amour de la patrie suppose encore ou produit toutes les vertus: car que sont-elles autre chose que la force de l'âme qui rend capable de ces sacrifices? et comment l'esclave de l'avarice ou de l'ambition, par exemple, pourrait-il immoler son idole à la patrie?",
+              "word_offset_start": 1343,
+              "word_offset_end": 1410,
+              "char_offset_start": 8171,
+              "char_offset_end": 8573,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "fr-rev-robespierre-political-morality_s01_p19",
+          "paragraph_ordinal": 19,
+          "sentences": [
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p19_s01",
+              "sentence_ordinal": 1,
+              "text": "Non seulement la vertu est l'âme de la démocratie; mais elle ne peut exister que dans ce gouvernement.",
+              "word_offset_start": 1410,
+              "word_offset_end": 1428,
+              "char_offset_start": 8573,
+              "char_offset_end": 8675,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p19_s02",
+              "sentence_ordinal": 2,
+              "text": "Dans la monarchie, je ne connais qu'un individu qui peut aimer la patrie, et qui, pour cela, n'a pas même besoin de vertu; c'est le monarque.",
+              "word_offset_start": 1428,
+              "word_offset_end": 1454,
+              "char_offset_start": 8675,
+              "char_offset_end": 8816,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p19_s03",
+              "sentence_ordinal": 3,
+              "text": "La raison en est que de tous les habitants de ses Etats, le monarque est le seul qui ait une patrie.",
+              "word_offset_start": 1454,
+              "word_offset_end": 1475,
+              "char_offset_start": 8816,
+              "char_offset_end": 8916,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p19_s04",
+              "sentence_ordinal": 4,
+              "text": "N'est-il pas le souverain, au moins de fait? n'est-il pas à la place du peuple?",
+              "word_offset_start": 1475,
+              "word_offset_end": 1490,
+              "char_offset_start": 8916,
+              "char_offset_end": 8995,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p19_s05",
+              "sentence_ordinal": 5,
+              "text": "Et qu'est-ce que la patrie, si ce n'est le pays où l'on est citoyen et membre du souverain?",
+              "word_offset_start": 1490,
+              "word_offset_end": 1508,
+              "char_offset_start": 8995,
+              "char_offset_end": 9086,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "fr-rev-robespierre-political-morality_s01_p20",
+          "paragraph_ordinal": 20,
+          "sentences": [
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p20_s01",
+              "sentence_ordinal": 1,
+              "text": "Par une conséquence du même principe, dans les Etats aristocratiques, le mot _patrie_ ne signifie quelque chose que pour les familles patriciennes qui ont envahi la souveraineté.",
+              "word_offset_start": 1508,
+              "word_offset_end": 1535,
+              "char_offset_start": 9086,
+              "char_offset_end": 9264,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "fr-rev-robespierre-political-morality_s01_p21",
+          "paragraph_ordinal": 21,
+          "sentences": [
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p21_s01",
+              "sentence_ordinal": 1,
+              "text": "Il n'est que la démocratie où l'Etat est véritablement la patrie de tous les individus qui le composent, et peut compter autant de défenseurs intéressés à sa cause qu'il renferme de citoyens.",
+              "word_offset_start": 1535,
+              "word_offset_end": 1567,
+              "char_offset_start": 9264,
+              "char_offset_end": 9455,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p21_s02",
+              "sentence_ordinal": 2,
+              "text": "Voilà la source de la supériorité des peuples libres sur tous les autres.",
+              "word_offset_start": 1567,
+              "word_offset_end": 1580,
+              "char_offset_start": 9455,
+              "char_offset_end": 9528,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p21_s03",
+              "sentence_ordinal": 3,
+              "text": "Si Athènes et Sparte ont triomphé des tyrans de l'Asie, et les Suisses des tyrans de l'Espagne et de l'Autriche, il n'en faut point chercher d'autre cause.",
+              "word_offset_start": 1580,
+              "word_offset_end": 1607,
+              "char_offset_start": 9528,
+              "char_offset_end": 9683,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "fr-rev-robespierre-political-morality_s01_p22",
+          "paragraph_ordinal": 22,
+          "sentences": [
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p22_s01",
+              "sentence_ordinal": 1,
+              "text": "Mais les Français sont le premier peuple du monde qui ait établi la véritable démocratie, en appelant tous les hommes à l'égalité, et à la plénitude des droits du citoyen; et c'est là, à mon avis, la véritable raison pour laquelle tous les tyrans ligués contre la République seront vaincus.",
+              "word_offset_start": 1607,
+              "word_offset_end": 1657,
+              "char_offset_start": 9683,
+              "char_offset_end": 9973,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "fr-rev-robespierre-political-morality_s01_p23",
+          "paragraph_ordinal": 23,
+          "sentences": [
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p23_s01",
+              "sentence_ordinal": 1,
+              "text": "Il est dès ce moment de grandes conséquences à tirer des principes que nous venons d'exposer.",
+              "word_offset_start": 1657,
+              "word_offset_end": 1673,
+              "char_offset_start": 9973,
+              "char_offset_end": 10066,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "fr-rev-robespierre-political-morality_s01_p24",
+          "paragraph_ordinal": 24,
+          "sentences": [
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p24_s01",
+              "sentence_ordinal": 1,
+              "text": "Puisque l'âme de la République est la vertu, l'égalité, et que votre but est de fonder, de consolider la République, il s'ensuit que la première règle de votre conduite politique doit être de rapporter toutes vos opérations au maintien de l'égalité et au développement de la vertu; car le premier soin du législateur doit être de fortifier le principe du gouvernement.",
+              "word_offset_start": 1673,
+              "word_offset_end": 1734,
+              "char_offset_start": 10066,
+              "char_offset_end": 10434,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p24_s02",
+              "sentence_ordinal": 2,
+              "text": "Ainsi tout ce qui tend à exciter l'amour de la patrie, à purifier les moeurs, à élever les âmes, à diriger les passions du coeur humain vers l'intérêt public, doit être adopté ou établi par vous.",
+              "word_offset_start": 1734,
+              "word_offset_end": 1770,
+              "char_offset_start": 10434,
+              "char_offset_end": 10629,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p24_s03",
+              "sentence_ordinal": 3,
+              "text": "Tout ce qui tend à les concentrer dans l'abjection du moi personnel, à réveiller l'engouement pour les petites choses et le mépris des grandes, doit être rejeté ou réprimé par vous.",
+              "word_offset_start": 1770,
+              "word_offset_end": 1801,
+              "char_offset_start": 10629,
+              "char_offset_end": 10810,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p24_s04",
+              "sentence_ordinal": 4,
+              "text": "Dans le système de la Révolution française, ce qui est immoral est impolitique, ce qui est corrupteur est contre-révolutionnaire.",
+              "word_offset_start": 1801,
+              "word_offset_end": 1820,
+              "char_offset_start": 10810,
+              "char_offset_end": 10939,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p24_s05",
+              "sentence_ordinal": 5,
+              "text": "La faiblesse, les vices, les préjugés, sont le chemin de la royauté.",
+              "word_offset_start": 1820,
+              "word_offset_end": 1832,
+              "char_offset_start": 10939,
+              "char_offset_end": 11007,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p24_s06",
+              "sentence_ordinal": 6,
+              "text": "Entraînés trop souvent peut-être par le poids de nos anciennes habitudes, autant que par la pente insensible de la faiblesse humaine, vers les idées fausses et vers les sentiments pusillanimes, nous avons bien moins à nous défendre des excès d'énergie que des excès de faiblesse.",
+              "word_offset_start": 1832,
+              "word_offset_end": 1877,
+              "char_offset_start": 11007,
+              "char_offset_end": 11286,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p24_s07",
+              "sentence_ordinal": 7,
+              "text": "Le plus grand écueil peut-être que nous ayons à éviter n'est pas la ferveur du zèle, mais plutôt la lassitude du bien et la peur de notre propre courage.",
+              "word_offset_start": 1877,
+              "word_offset_end": 1906,
+              "char_offset_start": 11286,
+              "char_offset_end": 11439,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p24_s08",
+              "sentence_ordinal": 8,
+              "text": "Remontez donc sans cesse le ressort sacré du gouvernement républicain, au lieu de le laisser tomber.",
+              "word_offset_start": 1906,
+              "word_offset_end": 1922,
+              "char_offset_start": 11439,
+              "char_offset_end": 11539,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p24_s09",
+              "sentence_ordinal": 9,
+              "text": "Je n'ai pas besoin de dire que je ne veux ici justifier aucun excès.",
+              "word_offset_start": 1922,
+              "word_offset_end": 1936,
+              "char_offset_start": 11539,
+              "char_offset_end": 11607,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p24_s10",
+              "sentence_ordinal": 10,
+              "text": "On abuse des principes les plus sacrés; c'est à la sagesse du gouvernement à consulter les circonstances, à saisir les moments, à choisir les moyens; car la manière de préparer les grandes choses est une partie essentielle du talent de les faire, comme la sagesse est elle-même une partie de la vertu.",
+              "word_offset_start": 1936,
+              "word_offset_end": 1988,
+              "char_offset_start": 11607,
+              "char_offset_end": 11908,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "fr-rev-robespierre-political-morality_s01_p25",
+          "paragraph_ordinal": 25,
+          "sentences": [
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p25_s01",
+              "sentence_ordinal": 1,
+              "text": "Nous ne prétendons pas jeter la République française dans le moule de celle de Sparte; nous ne voulons lui donner ni l'austérité, ni la corruption des cloîtres.",
+              "word_offset_start": 1988,
+              "word_offset_end": 2015,
+              "char_offset_start": 11908,
+              "char_offset_end": 12068,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p25_s02",
+              "sentence_ordinal": 2,
+              "text": "Nous venons de vous présenter, dans toute sa pureté, le principe moral et politique du gouvernement populaire.",
+              "word_offset_start": 2015,
+              "word_offset_end": 2032,
+              "char_offset_start": 12068,
+              "char_offset_end": 12178,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p25_s03",
+              "sentence_ordinal": 3,
+              "text": "Vous avez donc une boussole qui peut vous diriger au milieu des orages de toutes les passions, et du tourbillon des intrigues qui vous environnent.",
+              "word_offset_start": 2032,
+              "word_offset_end": 2057,
+              "char_offset_start": 12178,
+              "char_offset_end": 12325,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p25_s04",
+              "sentence_ordinal": 4,
+              "text": "Vous avez la pierre de touche par laquelle vous pouvez essayer toutes vos lois, toutes les propositions qui vous sont faites.",
+              "word_offset_start": 2057,
+              "word_offset_end": 2078,
+              "char_offset_start": 12325,
+              "char_offset_end": 12450,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p25_s05",
+              "sentence_ordinal": 5,
+              "text": "En les comparant sans cesse avec ce principe, vous pouvez désormais éviter l'écueil ordinaire des grandes assemblées, le danger des surprises et des mesures précipitées, incohérentes et contradictoires.",
+              "word_offset_start": 2078,
+              "word_offset_end": 2106,
+              "char_offset_start": 12450,
+              "char_offset_end": 12652,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p25_s06",
+              "sentence_ordinal": 6,
+              "text": "Vous pouvez donner à toutes vos opérations l'ensemble, l'unité, la sagesse et la dignité qui doivent annoncer les représentants du premier peuple du monde.",
+              "word_offset_start": 2106,
+              "word_offset_end": 2130,
+              "char_offset_start": 12652,
+              "char_offset_end": 12807,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "fr-rev-robespierre-political-morality_s01_p26",
+          "paragraph_ordinal": 26,
+          "sentences": [
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p26_s01",
+              "sentence_ordinal": 1,
+              "text": "Ce ne sont pas les conséquences faciles du principe de la démocratie qu'il faut détailler, c'est ce principe simple et fécond qui mérite d'être lui-même développé.",
+              "word_offset_start": 2130,
+              "word_offset_end": 2156,
+              "char_offset_start": 12807,
+              "char_offset_end": 12970,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "fr-rev-robespierre-political-morality_s01_p27",
+          "paragraph_ordinal": 27,
+          "sentences": [
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p27_s01",
+              "sentence_ordinal": 1,
+              "text": "La vertu républicaine peut être considérée par rapport au peuple et par rapport au gouvernement: elle est nécessaire dans l'un et dans l'autre.",
+              "word_offset_start": 2156,
+              "word_offset_end": 2179,
+              "char_offset_start": 12970,
+              "char_offset_end": 13113,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p27_s02",
+              "sentence_ordinal": 2,
+              "text": "Quand le gouvernement seul en est privé, il reste une ressource dans celle du peuple; mais quand le peuple lui-même est corrompu, la liberté est déjà perdue.",
+              "word_offset_start": 2179,
+              "word_offset_end": 2206,
+              "char_offset_start": 13113,
+              "char_offset_end": 13270,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "fr-rev-robespierre-political-morality_s01_p28",
+          "paragraph_ordinal": 28,
+          "sentences": [
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p28_s01",
+              "sentence_ordinal": 1,
+              "text": "Heureusement la vertu est naturelle au peuple, en dépit des préjugés aristocratiques.",
+              "word_offset_start": 2206,
+              "word_offset_end": 2218,
+              "char_offset_start": 13270,
+              "char_offset_end": 13355,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p28_s02",
+              "sentence_ordinal": 2,
+              "text": "Une nation est vraiment corrompue, lorsqu'après avoir perdu, par degrés, son caractère et sa liberté, elle passe de la démocratie à l'aristocratie ou à la monarchie; c'est la mort du corps politique par la décrépitude.",
+              "word_offset_start": 2218,
+              "word_offset_end": 2253,
+              "char_offset_start": 13355,
+              "char_offset_end": 13573,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p28_s03",
+              "sentence_ordinal": 3,
+              "text": "Lorsque après quatre cents ans de gloire l'avarice a enfin chassé de Sparte les moeurs avec les lois de Lycurgue, Agis meurt en vain pour les rappeler!",
+              "word_offset_start": 2253,
+              "word_offset_end": 2280,
+              "char_offset_start": 13573,
+              "char_offset_end": 13724,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p28_s04",
+              "sentence_ordinal": 4,
+              "text": "Démosthène a beau tonner contre Philippe, Philippe trouve dans les vices d'Athènes dégénérée des avocats plus éloquents que Démosthène.",
+              "word_offset_start": 2280,
+              "word_offset_end": 2299,
+              "char_offset_start": 13724,
+              "char_offset_end": 13859,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p28_s05",
+              "sentence_ordinal": 5,
+              "text": "Il y a bien encore dans Athènes une population aussi nombreuse que du temps de Miltiade et d'Aristide; mais il n'y a plus d'Athéniens.",
+              "word_offset_start": 2299,
+              "word_offset_end": 2323,
+              "char_offset_start": 13859,
+              "char_offset_end": 13993,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p28_s06",
+              "sentence_ordinal": 6,
+              "text": "Qu'importe que Brutus ait tué le tyran? la tyrannie vit encore dans les coeurs, et Rome n'existe plus que dans Brutus.",
+              "word_offset_start": 2323,
+              "word_offset_end": 2344,
+              "char_offset_start": 13993,
+              "char_offset_end": 14111,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "fr-rev-robespierre-political-morality_s01_p29",
+          "paragraph_ordinal": 29,
+          "sentences": [
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p29_s01",
+              "sentence_ordinal": 1,
+              "text": "Mais lorsque, par des efforts prodigieux de courage et de raison, un peuple brise les chaînes du despotisme pour en faire des trophées à la liberté; lorsque, par la force de son tempérament moral, il sort, en quelque sorte, des bras de la mort pour reprendre toute la vigueur de la jeunesse; lorsque, tour à tour sensible et fier, intrépide et docile, il ne peut être arrêté ni par les remparts inexpugnables, ni par les armées innombrables des tyrans armés contre lui, et qu'il s'arrête lui-même devant l'image de la loi; s'il ne s'élance pas rapidement à la hauteur de ses destinées, ce ne pourrait être que la faute de ceux qui le gouvernent.",
+              "word_offset_start": 2344,
+              "word_offset_end": 2458,
+              "char_offset_start": 14111,
+              "char_offset_end": 14756,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "fr-rev-robespierre-political-morality_s01_p30",
+          "paragraph_ordinal": 30,
+          "sentences": [
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p30_s01",
+              "sentence_ordinal": 1,
+              "text": "D'ailleurs on peut dire, en un sens, que pour aimer la justice et l'égalité, le peuple n'a pas besoin d'une grande vertu; il lui suffit de s'aimer lui-même.",
+              "word_offset_start": 2458,
+              "word_offset_end": 2486,
+              "char_offset_start": 14756,
+              "char_offset_end": 14912,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "fr-rev-robespierre-political-morality_s01_p31",
+          "paragraph_ordinal": 31,
+          "sentences": [
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p31_s01",
+              "sentence_ordinal": 1,
+              "text": "Mais le magistrat est obligé d'immoler son intérêt à l'intérêt du peuple, et l'orgueil du pouvoir à l'égalité.",
+              "word_offset_start": 2486,
+              "word_offset_end": 2504,
+              "char_offset_start": 14912,
+              "char_offset_end": 15022,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p31_s02",
+              "sentence_ordinal": 2,
+              "text": "Il faut que la loi parle surtout avec empire à celui qui en est l'organe.",
+              "word_offset_start": 2504,
+              "word_offset_end": 2519,
+              "char_offset_start": 15022,
+              "char_offset_end": 15095,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p31_s03",
+              "sentence_ordinal": 3,
+              "text": "Il faut que le gouvernement pèse sur lui-même, pour tenir toutes ses parties en harmonie avec elle.",
+              "word_offset_start": 2519,
+              "word_offset_end": 2536,
+              "char_offset_start": 15095,
+              "char_offset_end": 15194,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p31_s04",
+              "sentence_ordinal": 4,
+              "text": "S'il existe un corps représentatif, une autorité première constituée par le peuple, c'est à elle de surveiller et de réprimer sans cesse tous les fonctionnaires publics.",
+              "word_offset_start": 2536,
+              "word_offset_end": 2562,
+              "char_offset_start": 15194,
+              "char_offset_end": 15363,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p31_s05",
+              "sentence_ordinal": 5,
+              "text": "Mais qui la réprimera elle-même, sinon sa propre vertu?",
+              "word_offset_start": 2562,
+              "word_offset_end": 2571,
+              "char_offset_start": 15363,
+              "char_offset_end": 15418,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p31_s06",
+              "sentence_ordinal": 6,
+              "text": "Plus cette source de l'ordre public est élevée, plus elle doit être pure; il faut donc que le corps représentatif commence par soumettre dans son sein toutes les passions privées à la passion générale du bien public.",
+              "word_offset_start": 2571,
+              "word_offset_end": 2608,
+              "char_offset_start": 15418,
+              "char_offset_end": 15634,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p31_s07",
+              "sentence_ordinal": 7,
+              "text": "Heureux les représentants, lorsque leur gloire et leur intérêt même les attachent, autant que leurs devoirs, à la cause de la liberté!",
+              "word_offset_start": 2608,
+              "word_offset_end": 2630,
+              "char_offset_start": 15634,
+              "char_offset_end": 15768,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "fr-rev-robespierre-political-morality_s01_p32",
+          "paragraph_ordinal": 32,
+          "sentences": [
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p32_s01",
+              "sentence_ordinal": 1,
+              "text": "Déduisons de tout ceci une grande vérité; c'est que le caractère du gouvernement populaire est d'être confiant dans le peuple, et sévère envers lui-même.",
+              "word_offset_start": 2630,
+              "word_offset_end": 2654,
+              "char_offset_start": 15768,
+              "char_offset_end": 15921,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "fr-rev-robespierre-political-morality_s01_p33",
+          "paragraph_ordinal": 33,
+          "sentences": [
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p33_s01",
+              "sentence_ordinal": 1,
+              "text": "Ici se bornerait tout le développement de noire théorie. si vous n'aviez qu'à gouverner dans le calme le vaisseau de la République: mais la tempête gronde; et l'état de révolution où vous êtes vous impose une autre tâche.",
+              "word_offset_start": 2654,
+              "word_offset_end": 2692,
+              "char_offset_start": 15921,
+              "char_offset_end": 16142,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "fr-rev-robespierre-political-morality_s01_p34",
+          "paragraph_ordinal": 34,
+          "sentences": [
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p34_s01",
+              "sentence_ordinal": 1,
+              "text": "Cette grande pureté des bases de la Révolution française, la sublimité même de son objet est précisément ce qui fait notre force et notre faiblesse: notre force, parce qu'il nous donne l'ascendant de la vérité sur l'imposture, et les droits de l'intérêt public sur les intérêts privés; notre faiblesse, parce qu'il rallie contre nous tous les hommes vicieux, tous ceux qui dans leurs coeurs méditaient de dépouiller le peuple, et tous ceux qui veulent l'avoir dépouillé impunément, et ceux qui ont repoussé la liberté comme une calamité personnelle, et ceux qui ont embrassé la révolution comme un métier et la république comme une proie: de là la défection de tant d'hommes ambitieux ou cupides, qui, depuis le point du départ, nous ont abandonnés sur la route, parce qu'ils n'avaient pas commencé le voyage pour arriver au même but.",
+              "word_offset_start": 2692,
+              "word_offset_end": 2830,
+              "char_offset_start": 16142,
+              "char_offset_end": 16976,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p34_s02",
+              "sentence_ordinal": 2,
+              "text": "On dirait que les deux génies contraires que Ton a représentés se disputant l'empire de la nature combattent dans cette grande époque de l'histoire humaine pour fixer sans retour les destinées du monde, et que la France est le théâtre de cette lutte redoutable.",
+              "word_offset_start": 2830,
+              "word_offset_end": 2874,
+              "char_offset_start": 16976,
+              "char_offset_end": 17237,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p34_s03",
+              "sentence_ordinal": 3,
+              "text": "Au dehors, tous les tyrans vous cernent; au dedans, tous les amis de la tyrannie conspirent: ils conspirent jusqu'à ce que l'espérance ait été ravie au crime.",
+              "word_offset_start": 2874,
+              "word_offset_end": 2901,
+              "char_offset_start": 17237,
+              "char_offset_end": 17395,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p34_s04",
+              "sentence_ordinal": 4,
+              "text": "Il faut étouffer les ennemis intérieurs et extérieurs de la République, ou périr avec elle; or, dans cette situation, la première maxime de votre politique doit être qu'on conduit le peuple par la raison, et les ennemis du peuple par la terreur.",
+              "word_offset_start": 2901,
+              "word_offset_end": 2943,
+              "char_offset_start": 17395,
+              "char_offset_end": 17640,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "fr-rev-robespierre-political-morality_s01_p35",
+          "paragraph_ordinal": 35,
+          "sentences": [
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p35_s01",
+              "sentence_ordinal": 1,
+              "text": "Si le ressort du gouvernement populaire dans la paix est la vertu, le ressort du gouvernement populaire en révolution est à la fois _la vertu et la terreur_: la vertu, sans laquelle la terreur est funeste; la terreur, sans laquelle la vertu est impuissante.",
+              "word_offset_start": 2943,
+              "word_offset_end": 2987,
+              "char_offset_start": 17640,
+              "char_offset_end": 17897,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p35_s02",
+              "sentence_ordinal": 2,
+              "text": "La terreur n'est autre chose que la justice prompte, sévère, inflexible; elle est donc une émanation de la vertu; elle est moins un principe particulier qu'une conséquence du principe général de la démocratie appliqué aux plus pressants besoins de la patrie.",
+              "word_offset_start": 2987,
+              "word_offset_end": 3028,
+              "char_offset_start": 17897,
+              "char_offset_end": 18155,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "fr-rev-robespierre-political-morality_s01_p36",
+          "paragraph_ordinal": 36,
+          "sentences": [
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p36_s01",
+              "sentence_ordinal": 1,
+              "text": "On a dit que la terreur était le ressort du gouvernement despotique.",
+              "word_offset_start": 3028,
+              "word_offset_end": 3040,
+              "char_offset_start": 18243,
+              "char_offset_end": 18311,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p36_s02",
+              "sentence_ordinal": 2,
+              "text": "Le vôtre ressemble-t-il donc au despotisme?",
+              "word_offset_start": 3040,
+              "word_offset_end": 3046,
+              "char_offset_start": 18311,
+              "char_offset_end": 18354,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p36_s03",
+              "sentence_ordinal": 3,
+              "text": "Oui, comme le glaive qui brille dans les mains des héros de la liberté ressemble à celui dont les satellites de la tyrannie sont armés.",
+              "word_offset_start": 3046,
+              "word_offset_end": 3071,
+              "char_offset_start": 18354,
+              "char_offset_end": 18489,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p36_s04",
+              "sentence_ordinal": 4,
+              "text": "Que le despote gouverne par la terreur ses sujets abrutis; il a raison, comme despote: domptez par la terreur les ennemis de la liberté; et vous aurez raison, comme fondateurs de la République.",
+              "word_offset_start": 3071,
+              "word_offset_end": 3104,
+              "char_offset_start": 18489,
+              "char_offset_end": 18682,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p36_s05",
+              "sentence_ordinal": 5,
+              "text": "Le gouvernement de la Révolution est le despotisme de la liberté contre la tyrannie.",
+              "word_offset_start": 3104,
+              "word_offset_end": 3118,
+              "char_offset_start": 18682,
+              "char_offset_end": 18766,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p36_s06",
+              "sentence_ordinal": 6,
+              "text": "La force n'est-elle faite que pour protéger le crime? et n'est-ce pas pour frapper les tètes orgueilleuses que la foudre est destinée?",
+              "word_offset_start": 3118,
+              "word_offset_end": 3140,
+              "char_offset_start": 18766,
+              "char_offset_end": 18900,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "fr-rev-robespierre-political-morality_s01_p37",
+          "paragraph_ordinal": 37,
+          "sentences": [
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p37_s01",
+              "sentence_ordinal": 1,
+              "text": "La nature impose à tout être physique et moral la loi de pourvoir à sa conservation; le crime égorge l'innocence pour régner, et l'innocence se débat de toutes ses forces dans les mains du crime.",
+              "word_offset_start": 3140,
+              "word_offset_end": 3175,
+              "char_offset_start": 18900,
+              "char_offset_end": 19095,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "fr-rev-robespierre-political-morality_s01_p38",
+          "paragraph_ordinal": 38,
+          "sentences": [
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p38_s01",
+              "sentence_ordinal": 1,
+              "text": "Que la tyrannie règne un seul jour, le lendemain il ne restera plus un patriote.",
+              "word_offset_start": 3175,
+              "word_offset_end": 3190,
+              "char_offset_start": 19095,
+              "char_offset_end": 19175,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p38_s02",
+              "sentence_ordinal": 2,
+              "text": "Jusqu'à quand la fureur des despotes sera-t-elle appelée justice, et la justice du peuple barbarie ou rébellion?",
+              "word_offset_start": 3190,
+              "word_offset_end": 3207,
+              "char_offset_start": 19175,
+              "char_offset_end": 19287,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p38_s03",
+              "sentence_ordinal": 3,
+              "text": "Comme on est tendre pour les oppresseurs et inexorable pour les opprimés!",
+              "word_offset_start": 3207,
+              "word_offset_end": 3219,
+              "char_offset_start": 19287,
+              "char_offset_end": 19360,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p38_s04",
+              "sentence_ordinal": 4,
+              "text": "Rien de plus naturel: quiconque ne hait point le crime ne peut aimer la vertu.",
+              "word_offset_start": 3219,
+              "word_offset_end": 3234,
+              "char_offset_start": 19360,
+              "char_offset_end": 19438,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "fr-rev-robespierre-political-morality_s01_p39",
+          "paragraph_ordinal": 39,
+          "sentences": [
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p39_s01",
+              "sentence_ordinal": 1,
+              "text": "Il faut cependant que l'un ou l'autre succombe.",
+              "word_offset_start": 3234,
+              "word_offset_end": 3242,
+              "char_offset_start": 19452,
+              "char_offset_end": 19499,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p39_s02",
+              "sentence_ordinal": 2,
+              "text": "Indulgence pour les royalistes, s'écrient certaines gens.",
+              "word_offset_start": 3242,
+              "word_offset_end": 3249,
+              "char_offset_start": 19499,
+              "char_offset_end": 19556,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p39_s03",
+              "sentence_ordinal": 3,
+              "text": "Grâce pour les scélérats!",
+              "word_offset_start": 3249,
+              "word_offset_end": 3253,
+              "char_offset_start": 19558,
+              "char_offset_end": 19583,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p39_s04",
+              "sentence_ordinal": 4,
+              "text": "Non: grâce pour l'innocence, grâce pour les faibles, grâce pour les malheureux, grâce pour l'humanité!",
+              "word_offset_start": 3253,
+              "word_offset_end": 3268,
+              "char_offset_start": 19583,
+              "char_offset_end": 19685,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "fr-rev-robespierre-political-morality_s01_p40",
+          "paragraph_ordinal": 40,
+          "sentences": [
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p40_s01",
+              "sentence_ordinal": 1,
+              "text": "La protection sociale n'est due qu'aux citoyens paisibles; il n'y a de citoyens dans la République que les républicains.",
+              "word_offset_start": 3268,
+              "word_offset_end": 3287,
+              "char_offset_start": 19685,
+              "char_offset_end": 19805,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p40_s02",
+              "sentence_ordinal": 2,
+              "text": "Les royalistes, les conspirateurs ne sont, pour elle, que des étrangers, ou plutôt des ennemis.",
+              "word_offset_start": 3287,
+              "word_offset_end": 3302,
+              "char_offset_start": 19805,
+              "char_offset_end": 19900,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p40_s03",
+              "sentence_ordinal": 3,
+              "text": "Cette guerre terrible que soutient la liberté contre la tyrannie n'est-elle pas indivisible? les ennemis du dedans ne sont-ils pas les alliés des ennemis du dehors? les assassins qui déchirent la patrie dans l'intérieur; les intrigants qui achètent les consciences des mandataires du peuple; les traîtres qui les vendent; les libellistes mercenaires soudoyés pour déshonorer la cause du peuple, pour tuer la vertu publique, pour attiser le feu des discordes civiles, et pour préparer la contre-révolution politique par la contre-révolution morale; tous ces gens-là sont-ils moins coupables ou moins dangereux que les tyrans qui les servent?",
+              "word_offset_start": 3302,
+              "word_offset_end": 3398,
+              "char_offset_start": 19900,
+              "char_offset_end": 20540,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p40_s04",
+              "sentence_ordinal": 4,
+              "text": "Tous ceux qui interposent leur douceur parricide entre ces scélérats et le glaive vengeur de la justice nationale ressemblent à ceux qui se jetteraient entre les satellites des tyrans et les baïonnettes de nos soldats; tous les élans de leur fausse sensibilité ne me paraissent que des soupirs échappés vers l'Angleterre et vers l'Autriche.",
+              "word_offset_start": 3398,
+              "word_offset_end": 3452,
+              "char_offset_start": 20540,
+              "char_offset_end": 20880,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "fr-rev-robespierre-political-morality_s01_p41",
+          "paragraph_ordinal": 41,
+          "sentences": [
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p41_s01",
+              "sentence_ordinal": 1,
+              "text": "Eh! pour qui donc s'attendriraient-ils?",
+              "word_offset_start": 3452,
+              "word_offset_end": 3457,
+              "char_offset_start": 20888,
+              "char_offset_end": 20927,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p41_s02",
+              "sentence_ordinal": 2,
+              "text": "Serait-ce pour deux cent mille héros, l'élite de la nation, moissonnés par le fer des ennemis de la liberté ou par les poignards des assassins royaux ou fédéralistes?",
+              "word_offset_start": 3457,
+              "word_offset_end": 3485,
+              "char_offset_start": 20927,
+              "char_offset_end": 21093,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p41_s03",
+              "sentence_ordinal": 3,
+              "text": "Non, ce n'étaient que des plébéiens, des patriotes; pour avoir droit à leur tendre intérêt, il faut être au moins la veuve d'un général qui a trahi vingt fois la patrie; pour obtenir leur indulgence, il faut presque prouver qu'on a fait immoler dix mille Français, comme un général romain, pour obtenir le triomphe, devait avoir tué, je crois, dix mille ennemis.",
+              "word_offset_start": 3485,
+              "word_offset_end": 3547,
+              "char_offset_start": 21093,
+              "char_offset_end": 21455,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p41_s04",
+              "sentence_ordinal": 4,
+              "text": "On entend de sang-froid le récit des horreurs commises par les tyrans contre les défenseurs de la liberté; nos femmes horriblement mutilées; nos enfants massacrés sur le sein de leurs mères; nos prisonniers expiant dans d'horribles tourments leur héroïsme touchant et sublime: on appelle une horrible boucherie la punition trop lente de quelques monstres engraissés du plus pur sang de la patrie.",
+              "word_offset_start": 3547,
+              "word_offset_end": 3609,
+              "char_offset_start": 21455,
+              "char_offset_end": 21851,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "fr-rev-robespierre-political-morality_s01_p42",
+          "paragraph_ordinal": 42,
+          "sentences": [
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p42_s01",
+              "sentence_ordinal": 1,
+              "text": "On souffre, avec patience, la misère des citoyennes généreuses qui ont sacrifié à la plus belle des causes leurs frères, leurs enfants, leurs époux: mais on prodigue les plus généreuses consolations aux femmes des conspirateurs; il est reçu qu'elles peuvent impunément séduire la justice, plaider contre la liberté la cause de leurs proches et de leurs complices; on en a fait presque une corporation privilégiée, créancière et pensionnaire du peuple.",
+              "word_offset_start": 3609,
+              "word_offset_end": 3679,
+              "char_offset_start": 21851,
+              "char_offset_end": 22302,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "fr-rev-robespierre-political-morality_s01_p43",
+          "paragraph_ordinal": 43,
+          "sentences": [
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p43_s01",
+              "sentence_ordinal": 1,
+              "text": "Avec quelle bonhomie nous sommes encore la dupe des mots!",
+              "word_offset_start": 3679,
+              "word_offset_end": 3689,
+              "char_offset_start": 22309,
+              "char_offset_end": 22366,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p43_s02",
+              "sentence_ordinal": 2,
+              "text": "Comme l'aristocratie et le modérantisme nous gouvernent encore par les maximes meurtrières qu'ils nous ont données!",
+              "word_offset_start": 3689,
+              "word_offset_end": 3705,
+              "char_offset_start": 22366,
+              "char_offset_end": 22481,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "fr-rev-robespierre-political-morality_s01_p44",
+          "paragraph_ordinal": 44,
+          "sentences": [
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p44_s01",
+              "sentence_ordinal": 1,
+              "text": "L'aristocratie se défend mieux par ses intrigues que le patriotisme par ses services.",
+              "word_offset_start": 3705,
+              "word_offset_end": 3718,
+              "char_offset_start": 22481,
+              "char_offset_end": 22566,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p44_s02",
+              "sentence_ordinal": 2,
+              "text": "On veut gouverner les révolutions par les arguties du palais; on traite les conspirations contre la République comme les procès des particuliers.",
+              "word_offset_start": 3718,
+              "word_offset_end": 3740,
+              "char_offset_start": 22566,
+              "char_offset_end": 22711,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p44_s03",
+              "sentence_ordinal": 3,
+              "text": "La tyrannie tue, et la liberté plaide; et le code fait par les conspirateurs eux-mêmes est la loi par laquelle on les juge.",
+              "word_offset_start": 3740,
+              "word_offset_end": 3763,
+              "char_offset_start": 22711,
+              "char_offset_end": 22834,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "fr-rev-robespierre-political-morality_s01_p45",
+          "paragraph_ordinal": 45,
+          "sentences": [
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p45_s01",
+              "sentence_ordinal": 1,
+              "text": "Quand il s'agit du salut de la patrie, le témoignage de l'univers ne peut suppléer à la preuve testimoniale, ni l'évidence même à la preuve littérale.",
+              "word_offset_start": 3763,
+              "word_offset_end": 3789,
+              "char_offset_start": 22834,
+              "char_offset_end": 22984,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "fr-rev-robespierre-political-morality_s01_p46",
+          "paragraph_ordinal": 46,
+          "sentences": [
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p46_s01",
+              "sentence_ordinal": 1,
+              "text": "La lenteur des jugements équivaut à l'impunité; l'incertitude de la peine encourage tous les coupables; et cependant on se plaint de la sévérité de la justice; on se plaint de la détention des ennemis de la République.",
+              "word_offset_start": 3789,
+              "word_offset_end": 3826,
+              "char_offset_start": 22984,
+              "char_offset_end": 23202,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p46_s02",
+              "sentence_ordinal": 2,
+              "text": "On cherche ses exemples dans l'histoire des tyrans, parce qu'on ne veut pas les choisir dans celle des peuples, ni les puiser dans le génie de la liberté menacée.",
+              "word_offset_start": 3826,
+              "word_offset_end": 3855,
+              "char_offset_start": 23202,
+              "char_offset_end": 23364,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p46_s03",
+              "sentence_ordinal": 3,
+              "text": "A Rome, quand le consul* [* Cicéron.] découvrit la conjuration, et l'étouffa au même instant par la mort des complices de Catilina, il fut accusé d'avoir violé les formes.",
+              "word_offset_start": 3855,
+              "word_offset_end": 3884,
+              "char_offset_start": 23364,
+              "char_offset_end": 23535,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p46_s04",
+              "sentence_ordinal": 4,
+              "text": "Par qui? par l'ambitieux César, qui voulait grossir son parti de la horde des conjurés, par les Pison, les Clodius et tous les mauvais citoyens qui redoutaient pour eux-mêmes la vertu d'un vrai Romain et la sévérité des lois.",
+              "word_offset_start": 3884,
+              "word_offset_end": 3923,
+              "char_offset_start": 23535,
+              "char_offset_end": 23760,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "fr-rev-robespierre-political-morality_s01_p47",
+          "paragraph_ordinal": 47,
+          "sentences": [
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p47_s01",
+              "sentence_ordinal": 1,
+              "text": "Punir les oppresseurs de l'humanité, c'est clémence; leur pardonner, c'est barbarie.",
+              "word_offset_start": 3923,
+              "word_offset_end": 3934,
+              "char_offset_start": 23760,
+              "char_offset_end": 23844,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p47_s02",
+              "sentence_ordinal": 2,
+              "text": "La rigueur des tyrans n'a pour principe que la rigueur: celle du gouvernement républicain part de la bienfaisance.",
+              "word_offset_start": 3934,
+              "word_offset_end": 3952,
+              "char_offset_start": 23844,
+              "char_offset_end": 23958,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "fr-rev-robespierre-political-morality_s01_p48",
+          "paragraph_ordinal": 48,
+          "sentences": [
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p48_s01",
+              "sentence_ordinal": 1,
+              "text": "Aussi, malheur à celui qui oserait diriger vers le peuple la terreur qui ne doit approcher que de ses ennemis!",
+              "word_offset_start": 3952,
+              "word_offset_end": 3972,
+              "char_offset_start": 23958,
+              "char_offset_end": 24068,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p48_s02",
+              "sentence_ordinal": 2,
+              "text": "Malheur à celui qui, confondant les erreurs inévitables du civisme avec les erreurs calculées de la perfidie ou avec les attentats des conspirateurs, abandonne l'intrigant dangereux pour poursuivre le citoyen paisible!",
+              "word_offset_start": 3972,
+              "word_offset_end": 4003,
+              "char_offset_start": 24068,
+              "char_offset_end": 24286,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p48_s03",
+              "sentence_ordinal": 3,
+              "text": "Périsse le scélérat qui ose abuser du nom sacré de la liberté, ou des armes redoutables qu'elle lui a confiées, pour porter le deuil ou la mort dans le coeur des patriotes!",
+              "word_offset_start": 4003,
+              "word_offset_end": 4035,
+              "char_offset_start": 24286,
+              "char_offset_end": 24458,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p48_s04",
+              "sentence_ordinal": 4,
+              "text": "Cet abus a existé, on ne peut en douter.",
+              "word_offset_start": 4035,
+              "word_offset_end": 4044,
+              "char_offset_start": 24458,
+              "char_offset_end": 24498,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p48_s05",
+              "sentence_ordinal": 5,
+              "text": "Il a été exagéré, sans doute, par l'aristocratie: mais n'existât-il, dans toute la République, qu'un seul homme vertueux persécuté par les ennemis de la liberté, le devoir du gouvernement serait de le rechercher avec inquiétude, et de le venger avec éclat.",
+              "word_offset_start": 4044,
+              "word_offset_end": 4085,
+              "char_offset_start": 24498,
+              "char_offset_end": 24754,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "fr-rev-robespierre-political-morality_s01_p49",
+          "paragraph_ordinal": 49,
+          "sentences": [
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p49_s01",
+              "sentence_ordinal": 1,
+              "text": "Mais faut-il conclure de ces persécutions suscitées aux patriotes par le zèle hypocrite des contre-révolutionnaires, et renoncer à la sévérité?",
+              "word_offset_start": 4085,
+              "word_offset_end": 4105,
+              "char_offset_start": 24754,
+              "char_offset_end": 24897,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p49_s02",
+              "sentence_ordinal": 2,
+              "text": "Ces nouveaux crimes de l'aristocratie ne font qu'en démontrer la nécessité.",
+              "word_offset_start": 4105,
+              "word_offset_end": 4116,
+              "char_offset_start": 24897,
+              "char_offset_end": 24972,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p49_s03",
+              "sentence_ordinal": 3,
+              "text": "Que prouve l'audace de nos ennemis, sinon la faiblesse avec laquelle ils ont été poursuivis?",
+              "word_offset_start": 4116,
+              "word_offset_end": 4131,
+              "char_offset_start": 24972,
+              "char_offset_end": 25064,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p49_s04",
+              "sentence_ordinal": 4,
+              "text": "Elle est due, en grande partie, à la doctrine relâchée qu'on a prêchée dans ces derniers temps pour les rassurer.",
+              "word_offset_start": 4131,
+              "word_offset_end": 4151,
+              "char_offset_start": 25064,
+              "char_offset_end": 25177,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p49_s05",
+              "sentence_ordinal": 5,
+              "text": "Si vous pouviez écouter ces conseils, vos ennemis parviendraient à leur but et recevraient de vos propres mains le prix du dernier de leurs forfaits.",
+              "word_offset_start": 4151,
+              "word_offset_end": 4176,
+              "char_offset_start": 25177,
+              "char_offset_end": 25326,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "fr-rev-robespierre-political-morality_s01_p50",
+          "paragraph_ordinal": 50,
+          "sentences": [
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p50_s01",
+              "sentence_ordinal": 1,
+              "text": "Qu'il y aurait de légèreté à regarder quelques victoires remportées par le patriotisme comme la fin de tous nos dangers!",
+              "word_offset_start": 4176,
+              "word_offset_end": 4196,
+              "char_offset_start": 25326,
+              "char_offset_end": 25446,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p50_s02",
+              "sentence_ordinal": 2,
+              "text": "Jetez un coup d'oeil sur notre véritable situation: vous sentirez que la vigilance et l'énergie vous sont plus nécessaires que jamais.",
+              "word_offset_start": 4196,
+              "word_offset_end": 4217,
+              "char_offset_start": 25446,
+              "char_offset_end": 25580,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p50_s03",
+              "sentence_ordinal": 3,
+              "text": "Une sourde malveillance contrarie partout les opérations du gouvernement: la fatale influence des cours étrangères, pour être plus cachée, n'en est ni moins active, ni moins funeste.",
+              "word_offset_start": 4217,
+              "word_offset_end": 4244,
+              "char_offset_start": 25580,
+              "char_offset_end": 25762,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p50_s04",
+              "sentence_ordinal": 4,
+              "text": "On sent que le crime intimidé n'a fait que couvrir sa marche avec plus d'adresse.",
+              "word_offset_start": 4244,
+              "word_offset_end": 4259,
+              "char_offset_start": 25762,
+              "char_offset_end": 25843,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "fr-rev-robespierre-political-morality_s01_p51",
+          "paragraph_ordinal": 51,
+          "sentences": [
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p51_s01",
+              "sentence_ordinal": 1,
+              "text": "Les ennemis intérieurs du peuple français se sont divisés en deux factions, comme en deux corps d'armée.",
+              "word_offset_start": 4259,
+              "word_offset_end": 4276,
+              "char_offset_start": 25843,
+              "char_offset_end": 25947,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p51_s02",
+              "sentence_ordinal": 2,
+              "text": "Elles marchent sous des bannières de différentes couleurs et par des routes diverses; mais elles marchent au même but: ce but est la désorganisation du gouvernement populaire, la ruine de la Convention, c'est-à-dire le triomphe de la tyrannie.",
+              "word_offset_start": 4276,
+              "word_offset_end": 4314,
+              "char_offset_start": 25947,
+              "char_offset_end": 26190,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p51_s03",
+              "sentence_ordinal": 3,
+              "text": "L'une de ces deux factions nous pousse à la faiblesse, l'autre aux excès.",
+              "word_offset_start": 4314,
+              "word_offset_end": 4327,
+              "char_offset_start": 26190,
+              "char_offset_end": 26263,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p51_s04",
+              "sentence_ordinal": 4,
+              "text": "L'une veut changer la liberté en bacchante, l'autre en prostituée.",
+              "word_offset_start": 4327,
+              "word_offset_end": 4337,
+              "char_offset_start": 26263,
+              "char_offset_end": 26329,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "fr-rev-robespierre-political-morality_s01_p52",
+          "paragraph_ordinal": 52,
+          "sentences": [
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p52_s01",
+              "sentence_ordinal": 1,
+              "text": "Des intrigants subalternes, souvent même de bons citoyens abusés, se rangent de l'un ou de l'autre parti: mais les chefs appartiennent à la cause des rois ou de l'aristocratie, et se réunissent toujours contre les patriotes.",
+              "word_offset_start": 4337,
+              "word_offset_end": 4373,
+              "char_offset_start": 26329,
+              "char_offset_end": 26553,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p52_s02",
+              "sentence_ordinal": 2,
+              "text": "Les fripons, lors même qu'ils se font la guerre, se haïssent bien moins qu'ils ne détestent les gens de bien.",
+              "word_offset_start": 4373,
+              "word_offset_end": 4393,
+              "char_offset_start": 26553,
+              "char_offset_end": 26662,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p52_s03",
+              "sentence_ordinal": 3,
+              "text": "La patrie est leur proie; ils se battent pour la partager: mais ils se liguent contre ceux qui la défendent.",
+              "word_offset_start": 4393,
+              "word_offset_end": 4413,
+              "char_offset_start": 26662,
+              "char_offset_end": 26770,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "fr-rev-robespierre-political-morality_s01_p53",
+          "paragraph_ordinal": 53,
+          "sentences": [
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p53_s01",
+              "sentence_ordinal": 1,
+              "text": "On a donné aux uns le nom de modérés; il y a peut-être plus d'esprit que de justesse dans la dénomination d'_ultra-révolutionnaires_ par laquelle on a désigné les autres.",
+              "word_offset_start": 4413,
+              "word_offset_end": 4442,
+              "char_offset_start": 26770,
+              "char_offset_end": 26940,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p53_s02",
+              "sentence_ordinal": 2,
+              "text": "Cette dénomination, qui ne peut s'appliquer dans aucun cas aux hommes de bonne foi que le zèle et l'ignorance peuvent emporter au delà de la saine politique de la révolution, ne caractérise pas exactement les hommes perfides que la tyrannie soudoie pour compromettre, par des applications fausses et funestes, les principes sacrés de notre révolution.",
+              "word_offset_start": 4442,
+              "word_offset_end": 4497,
+              "char_offset_start": 26940,
+              "char_offset_end": 27291,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "fr-rev-robespierre-political-morality_s01_p54",
+          "paragraph_ordinal": 54,
+          "sentences": [
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p54_s01",
+              "sentence_ordinal": 1,
+              "text": "Le faux révolutionnaire est peut-être plus souvent encore en deçà qu'au delà de la révolution: il est modéré, il est fou de patriotisme, selon les circonstances.",
+              "word_offset_start": 4497,
+              "word_offset_end": 4523,
+              "char_offset_start": 27291,
+              "char_offset_end": 27452,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p54_s02",
+              "sentence_ordinal": 2,
+              "text": "On arrête dans les comités prussiens, anglais, autrichiens, moscovites même, ce qu'il pensera le lendemain.",
+              "word_offset_start": 4523,
+              "word_offset_end": 4538,
+              "char_offset_start": 27452,
+              "char_offset_end": 27559,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p54_s03",
+              "sentence_ordinal": 3,
+              "text": "Il s'oppose aux mesures énergiques, et les exagère quand il n'a pu les empêcher: sévère pour l'innocence, mais indulgent pour le crime; accusant même les coupables qui ne sont point assez riches pour acheter son silence, ni assez importants pour mériter son zèle, mais se gardant bien de jamais se compromettre au point de défendre la vertu calomniée; découvrant quelquefois des complots découverts, arrachant le masque à des traîtres démasqués et même décapités, mais prônant les traîtres vivants et encore accrédités; toujours empressé à caresser l'opinion du moment, et non moins attentif à ne jamais l'éclairer, et surtout à ne jamais la heurter; toujours prêt à adopter les mesures hardies, pourvu qu'elles aient beaucoup d'inconvénients; calomniant celles qui ne présentent que des avantages, ou bien y ajoutant tous les amendements qui peuvent les rendre nuisibles; disant la vérité avec économie, et tout autant qu'il le faut pour acquérir le droit de mentir impunément; distillant le bien goutte à goutte, et versant le mal par torrents; plein de feu pour les grandes résolutions qui ne signifient rien; plus qu'indifférent pour celles qui peuvent honorer la cause du peuple et sauver la patrie; donnant beaucoup aux formes du patriotisme; très attaché, comme les dévots dont il se déclare l'ennemi, aux pratiques extérieures, il aimerait mieux user cent bonnets rouges que de faire une bonne action.",
+              "word_offset_start": 4538,
+              "word_offset_end": 4761,
+              "char_offset_start": 27559,
+              "char_offset_end": 28968,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "fr-rev-robespierre-political-morality_s01_p55",
+          "paragraph_ordinal": 55,
+          "sentences": [
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p55_s01",
+              "sentence_ordinal": 1,
+              "text": "Quelle différence trouvez-vous entre ces gens-là et vos modérés?",
+              "word_offset_start": 4761,
+              "word_offset_end": 4770,
+              "char_offset_start": 29018,
+              "char_offset_end": 29082,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p55_s02",
+              "sentence_ordinal": 2,
+              "text": "Ce sont des serviteurs employés par le même maître, ou, si vous voulez, des complices qui feignent de se brouiller pour mieux cacher leurs crimes.",
+              "word_offset_start": 4770,
+              "word_offset_end": 4795,
+              "char_offset_start": 29082,
+              "char_offset_end": 29228,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p55_s03",
+              "sentence_ordinal": 3,
+              "text": "Jugez-les, non par la différence du langage, mais par l'identité des résultats.",
+              "word_offset_start": 4795,
+              "word_offset_end": 4807,
+              "char_offset_start": 29228,
+              "char_offset_end": 29307,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p55_s04",
+              "sentence_ordinal": 4,
+              "text": "Celui qui attaque la Convention nationale par des discours insensés, et celui qui la trompe pour la compromettre, ne sont-ils pas d'accord?",
+              "word_offset_start": 4807,
+              "word_offset_end": 4829,
+              "char_offset_start": 29307,
+              "char_offset_end": 29446,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p55_s05",
+              "sentence_ordinal": 5,
+              "text": "Celui qui, par d'injustes rigueurs, force le patriotisme à trembler pour lui-même, invoque l'amnistie en faveur de l'aristocratie et de la trahison.",
+              "word_offset_start": 4829,
+              "word_offset_end": 4851,
+              "char_offset_start": 29446,
+              "char_offset_end": 29594,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p55_s06",
+              "sentence_ordinal": 6,
+              "text": "Tel appelait la France à la conquête du monde, qui n'avait d'autre but que d'appeler les tyrans à la conquête de la France.",
+              "word_offset_start": 4851,
+              "word_offset_end": 4874,
+              "char_offset_start": 29594,
+              "char_offset_end": 29717,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p55_s07",
+              "sentence_ordinal": 7,
+              "text": "L'étranger hypocrite qui, depuis cinq années, proclame Paris la capitale du globe, ne faisait que traduire, dans un autre jargon, les anathèmes des vils fédéralistes qui vouaient Paris à la destruction.",
+              "word_offset_start": 4874,
+              "word_offset_end": 4905,
+              "char_offset_start": 29717,
+              "char_offset_end": 29919,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p55_s08",
+              "sentence_ordinal": 8,
+              "text": "Prêcher l'athéisme n'est qu'une manière d'absoudre la superstition et d'accuser la philosophie; et la guerre déclarée à la divinité n'est qu'une diversion en faveur de la royauté.",
+              "word_offset_start": 4905,
+              "word_offset_end": 4932,
+              "char_offset_start": 29919,
+              "char_offset_end": 30098,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "fr-rev-robespierre-political-morality_s01_p56",
+          "paragraph_ordinal": 56,
+          "sentences": [
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p56_s01",
+              "sentence_ordinal": 1,
+              "text": "Quelle autre méthode reste-t-il de combattre la liberté?",
+              "word_offset_start": 4932,
+              "word_offset_end": 4940,
+              "char_offset_start": 30107,
+              "char_offset_end": 30163,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "fr-rev-robespierre-political-morality_s01_p57",
+          "paragraph_ordinal": 57,
+          "sentences": [
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p57_s01",
+              "sentence_ordinal": 1,
+              "text": "Ira-t-on, à l'exemple des premiers champions de l'aristocratie, vanter les douceurs de la servitude et les bienfaits de la monarchie, le génie surnaturel et les vertus incomparables des rois?",
+              "word_offset_start": 4940,
+              "word_offset_end": 4969,
+              "char_offset_start": 30163,
+              "char_offset_end": 30354,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "fr-rev-robespierre-political-morality_s01_p58",
+          "paragraph_ordinal": 58,
+          "sentences": [
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p58_s01",
+              "sentence_ordinal": 1,
+              "text": "Ira-t-on proclamer la vanité des droits de l'homme et des principes de la justice éternelle?",
+              "word_offset_start": 4969,
+              "word_offset_end": 4984,
+              "char_offset_start": 30354,
+              "char_offset_end": 30446,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "fr-rev-robespierre-political-morality_s01_p59",
+          "paragraph_ordinal": 59,
+          "sentences": [
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p59_s01",
+              "sentence_ordinal": 1,
+              "text": "Ira-t-on exhumer la noblesse et le clergé, ou réclamer les droits imprescriptibles de la haute bourgeoisie à leur double succession?",
+              "word_offset_start": 4984,
+              "word_offset_end": 5004,
+              "char_offset_start": 30446,
+              "char_offset_end": 30578,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "fr-rev-robespierre-political-morality_s01_p60",
+          "paragraph_ordinal": 60,
+          "sentences": [
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p60_s01",
+              "sentence_ordinal": 1,
+              "text": "Non.",
+              "word_offset_start": 5004,
+              "word_offset_end": 5005,
+              "char_offset_start": 30586,
+              "char_offset_end": 30590,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p60_s02",
+              "sentence_ordinal": 2,
+              "text": "Il est bien plus commode de prendre le masque du patriotisme pour défigurer, par d'insolentes parodies, le drame sublime de la révolution, pour compromettre la cause de la liberté par une modération hypocrite ou par des extravagances étudiées.",
+              "word_offset_start": 5005,
+              "word_offset_end": 5043,
+              "char_offset_start": 30590,
+              "char_offset_end": 30833,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "fr-rev-robespierre-political-morality_s01_p61",
+          "paragraph_ordinal": 61,
+          "sentences": [
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p61_s01",
+              "sentence_ordinal": 1,
+              "text": "Aussi l'aristocratie se constitue en sociétés populaires; l'orgueil contre-révolutionnaire cache sous des haillons ses complots et ses poignards; le fanatisme brise ses propres autels; le royalisme chante les victoires de la République; la noblesse, accablée de souvenirs, embrasse tendrement l'égalité pour l'étouffer; la tyrannie, teinte du sang des défenseurs de la liberté, répand des fleurs sur leur tombeau.",
+              "word_offset_start": 5043,
+              "word_offset_end": 5101,
+              "char_offset_start": 30833,
+              "char_offset_end": 31246,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p61_s02",
+              "sentence_ordinal": 2,
+              "text": "Si tous les coeurs ne sont pas changés, combien de visages sont masqués! combien de traîtres ne se mêlent de nos affaires que pour les ruiner!",
+              "word_offset_start": 5101,
+              "word_offset_end": 5127,
+              "char_offset_start": 31246,
+              "char_offset_end": 31388,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "fr-rev-robespierre-political-morality_s01_p62",
+          "paragraph_ordinal": 62,
+          "sentences": [
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p62_s01",
+              "sentence_ordinal": 1,
+              "text": "Voulez-vous les mettre à l'épreuve?",
+              "word_offset_start": 5127,
+              "word_offset_end": 5132,
+              "char_offset_start": 31394,
+              "char_offset_end": 31429,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p62_s02",
+              "sentence_ordinal": 2,
+              "text": "Demandez-leur, au lieu de serment et de déclamation, des services réels.",
+              "word_offset_start": 5132,
+              "word_offset_end": 5143,
+              "char_offset_start": 31429,
+              "char_offset_end": 31501,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "fr-rev-robespierre-political-morality_s01_p63",
+          "paragraph_ordinal": 63,
+          "sentences": [
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p63_s01",
+              "sentence_ordinal": 1,
+              "text": "Faut-il agir?",
+              "word_offset_start": 5143,
+              "word_offset_end": 5145,
+              "char_offset_start": 31504,
+              "char_offset_end": 31517,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p63_s02",
+              "sentence_ordinal": 2,
+              "text": "Ils pérorent.",
+              "word_offset_start": 5145,
+              "word_offset_end": 5147,
+              "char_offset_start": 31518,
+              "char_offset_end": 31531,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p63_s03",
+              "sentence_ordinal": 3,
+              "text": "Faut-il délibérer?",
+              "word_offset_start": 5147,
+              "word_offset_end": 5149,
+              "char_offset_start": 31532,
+              "char_offset_end": 31550,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p63_s04",
+              "sentence_ordinal": 4,
+              "text": "Ils veulent commencer par agir.",
+              "word_offset_start": 5149,
+              "word_offset_end": 5154,
+              "char_offset_start": 31550,
+              "char_offset_end": 31581,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p63_s05",
+              "sentence_ordinal": 5,
+              "text": "Les temps sont-ils paisibles?",
+              "word_offset_start": 5154,
+              "word_offset_end": 5158,
+              "char_offset_start": 31583,
+              "char_offset_end": 31612,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p63_s06",
+              "sentence_ordinal": 6,
+              "text": "Ils s'opposeront à tout changement utile.",
+              "word_offset_start": 5158,
+              "word_offset_end": 5164,
+              "char_offset_start": 31612,
+              "char_offset_end": 31653,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p63_s07",
+              "sentence_ordinal": 7,
+              "text": "Sont-ils orageux?",
+              "word_offset_start": 5164,
+              "word_offset_end": 5166,
+              "char_offset_start": 31655,
+              "char_offset_end": 31672,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p63_s08",
+              "sentence_ordinal": 8,
+              "text": "Ils parleront de tout réformer, pour bouleverser tout.",
+              "word_offset_start": 5166,
+              "word_offset_end": 5174,
+              "char_offset_start": 31672,
+              "char_offset_end": 31726,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p63_s09",
+              "sentence_ordinal": 9,
+              "text": "Voulez-vous contenir les séditieux?",
+              "word_offset_start": 5174,
+              "word_offset_end": 5178,
+              "char_offset_start": 31728,
+              "char_offset_end": 31763,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p63_s10",
+              "sentence_ordinal": 10,
+              "text": "Ils vous rappellent la clémence de César.",
+              "word_offset_start": 5178,
+              "word_offset_end": 5185,
+              "char_offset_start": 31763,
+              "char_offset_end": 31804,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p63_s11",
+              "sentence_ordinal": 11,
+              "text": "Voulez-vous arracher les patriotes à la persécution?",
+              "word_offset_start": 5185,
+              "word_offset_end": 5192,
+              "char_offset_start": 31804,
+              "char_offset_end": 31856,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p63_s12",
+              "sentence_ordinal": 12,
+              "text": "Ils vous proposent pour modèle la fermeté de Brutus.",
+              "word_offset_start": 5192,
+              "word_offset_end": 5201,
+              "char_offset_start": 31859,
+              "char_offset_end": 31911,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p63_s13",
+              "sentence_ordinal": 13,
+              "text": "Ils découvrent qu'un tel a été noble, lorsqu'il sert la République; ils ne s'en souviennent plus dès qu'il la trahit.",
+              "word_offset_start": 5201,
+              "word_offset_end": 5221,
+              "char_offset_start": 31911,
+              "char_offset_end": 32028,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p63_s14",
+              "sentence_ordinal": 14,
+              "text": "La paix est-elle utile?",
+              "word_offset_start": 5221,
+              "word_offset_end": 5225,
+              "char_offset_start": 32030,
+              "char_offset_end": 32053,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p63_s15",
+              "sentence_ordinal": 15,
+              "text": "Ils vous étalent les palmes de la victoire.",
+              "word_offset_start": 5225,
+              "word_offset_end": 5233,
+              "char_offset_start": 32054,
+              "char_offset_end": 32097,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p63_s16",
+              "sentence_ordinal": 16,
+              "text": "La guerre est-elle nécessaire?",
+              "word_offset_start": 5233,
+              "word_offset_end": 5237,
+              "char_offset_start": 32097,
+              "char_offset_end": 32127,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p63_s17",
+              "sentence_ordinal": 17,
+              "text": "Ils vantent les douceurs de la paix.",
+              "word_offset_start": 5237,
+              "word_offset_end": 5244,
+              "char_offset_start": 32129,
+              "char_offset_end": 32165,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p63_s18",
+              "sentence_ordinal": 18,
+              "text": "Faut-il défendre le territoire?",
+              "word_offset_start": 5244,
+              "word_offset_end": 5248,
+              "char_offset_start": 32165,
+              "char_offset_end": 32196,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p63_s19",
+              "sentence_ordinal": 19,
+              "text": "Ils veulent aller châtier les tyrans au delà des monts et des mers.",
+              "word_offset_start": 5248,
+              "word_offset_end": 5261,
+              "char_offset_start": 32196,
+              "char_offset_end": 32263,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p63_s20",
+              "sentence_ordinal": 20,
+              "text": "Faut-il reprendre nos forteresses?",
+              "word_offset_start": 5261,
+              "word_offset_end": 5265,
+              "char_offset_start": 32266,
+              "char_offset_end": 32300,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p63_s21",
+              "sentence_ordinal": 21,
+              "text": "Ils veulent prendre d'assaut les églises et escalader le ciel.",
+              "word_offset_start": 5265,
+              "word_offset_end": 5275,
+              "char_offset_start": 32300,
+              "char_offset_end": 32362,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p63_s22",
+              "sentence_ordinal": 22,
+              "text": "Ils oublient les Autrichiens pour faire la guerre aux dévotes.",
+              "word_offset_start": 5275,
+              "word_offset_end": 5285,
+              "char_offset_start": 32362,
+              "char_offset_end": 32424,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p63_s23",
+              "sentence_ordinal": 23,
+              "text": "Faut-il appuyer notre cause de la fidélité de nos alliés?",
+              "word_offset_start": 5285,
+              "word_offset_end": 5295,
+              "char_offset_start": 32424,
+              "char_offset_end": 32481,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p63_s24",
+              "sentence_ordinal": 24,
+              "text": "Ils déclament contre tous les gouvernements du monde, et vous proposeront de mettre en état d'accusation le grand Mogol lui-même.",
+              "word_offset_start": 5295,
+              "word_offset_end": 5315,
+              "char_offset_start": 32481,
+              "char_offset_end": 32610,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p63_s25",
+              "sentence_ordinal": 25,
+              "text": "Le peuple va-t-il au Capitole rendre grâces aux dieux de ses victoires?",
+              "word_offset_start": 5315,
+              "word_offset_end": 5327,
+              "char_offset_start": 32610,
+              "char_offset_end": 32681,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p63_s26",
+              "sentence_ordinal": 26,
+              "text": "Ils entonnent des chants lugubres sur nos revers passés.",
+              "word_offset_start": 5327,
+              "word_offset_end": 5336,
+              "char_offset_start": 32681,
+              "char_offset_end": 32737,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p63_s27",
+              "sentence_ordinal": 27,
+              "text": "S'agit-il d'en remporter de nouvelles?",
+              "word_offset_start": 5336,
+              "word_offset_end": 5341,
+              "char_offset_start": 32744,
+              "char_offset_end": 32782,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p63_s28",
+              "sentence_ordinal": 28,
+              "text": "Ils sèment, au milieu de nous, les haines, les divisions, les persécutions et le découragement.",
+              "word_offset_start": 5341,
+              "word_offset_end": 5356,
+              "char_offset_start": 32782,
+              "char_offset_end": 32877,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p63_s29",
+              "sentence_ordinal": 29,
+              "text": "Faut-il réaliser la souveraineté du peuple et concentrer sa force par un gouvernement ferme et respecté?",
+              "word_offset_start": 5356,
+              "word_offset_end": 5372,
+              "char_offset_start": 32877,
+              "char_offset_end": 32981,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p63_s30",
+              "sentence_ordinal": 30,
+              "text": "Ils trouvent que les principes du gouvernement blessent la souveraineté du peuple.",
+              "word_offset_start": 5372,
+              "word_offset_end": 5384,
+              "char_offset_start": 32981,
+              "char_offset_end": 33063,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p63_s31",
+              "sentence_ordinal": 31,
+              "text": "Faut-il réclamer les droits du peuple opprimé par le gouvernement?",
+              "word_offset_start": 5384,
+              "word_offset_end": 5394,
+              "char_offset_start": 33063,
+              "char_offset_end": 33129,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p63_s32",
+              "sentence_ordinal": 32,
+              "text": "Ils ne parlent que du respect pour les lois et de l'obéissance due aux autorités constituées.",
+              "word_offset_start": 5394,
+              "word_offset_end": 5410,
+              "char_offset_start": 33129,
+              "char_offset_end": 33222,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "fr-rev-robespierre-political-morality_s01_p64",
+          "paragraph_ordinal": 64,
+          "sentences": [
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p64_s01",
+              "sentence_ordinal": 1,
+              "text": "Ils ont trouvé un expédient admirable pour seconder les efforts du gouvernement républicain: c'est de le désorganiser, de le dégrader complètement, de faire la guerre aux patriotes qui ont concouru à nos succès.",
+              "word_offset_start": 5410,
+              "word_offset_end": 5443,
+              "char_offset_start": 33222,
+              "char_offset_end": 33433,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "fr-rev-robespierre-political-morality_s01_p65",
+          "paragraph_ordinal": 65,
+          "sentences": [
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p65_s01",
+              "sentence_ordinal": 1,
+              "text": "Cherchez-vous les moyens d'approvisionner vos armées? vous occupez-vous d'arracher à l'avarice et à la peur les subsistances qu'elles resserrent?",
+              "word_offset_start": 5443,
+              "word_offset_end": 5462,
+              "char_offset_start": 33433,
+              "char_offset_end": 33578,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p65_s02",
+              "sentence_ordinal": 2,
+              "text": "Ils gémissent patriotiquement sur la misère publique et annoncent la famine.",
+              "word_offset_start": 5462,
+              "word_offset_end": 5473,
+              "char_offset_start": 33578,
+              "char_offset_end": 33654,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p65_s03",
+              "sentence_ordinal": 3,
+              "text": "Le désir de prévenir le mal est toujours pour eux un motif de l'augmenter.",
+              "word_offset_start": 5473,
+              "word_offset_end": 5487,
+              "char_offset_start": 33654,
+              "char_offset_end": 33728,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p65_s04",
+              "sentence_ordinal": 4,
+              "text": "Dans le Nord, on a tué les poules, et on nous a privé des oeufs, sous le prétexte que les poules mangent du grain.",
+              "word_offset_start": 5487,
+              "word_offset_end": 5511,
+              "char_offset_start": 33728,
+              "char_offset_end": 33842,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p65_s05",
+              "sentence_ordinal": 5,
+              "text": "Dans le Midi, il a été question de détruire les mûriers et les orangers, sous le prétexte que la soie est un objet de luxe, et les oranges une superfluité.",
+              "word_offset_start": 5511,
+              "word_offset_end": 5541,
+              "char_offset_start": 33842,
+              "char_offset_end": 33997,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "fr-rev-robespierre-political-morality_s01_p66",
+          "paragraph_ordinal": 66,
+          "sentences": [
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p66_s01",
+              "sentence_ordinal": 1,
+              "text": "Vous ne pourriez jamais imaginer certains excès commis par des contre-révolutionnaires hypocrites pour flétrir la cause de la Révolution.",
+              "word_offset_start": 5541,
+              "word_offset_end": 5560,
+              "char_offset_start": 33997,
+              "char_offset_end": 34134,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p66_s02",
+              "sentence_ordinal": 2,
+              "text": "Croiriez-vous que dans les pays où la superstition a exercé le plus d'empire, non contents de surcharger les opérations relatives au culte de toutes les formes qui pouvaient les rendre odieuses, on a répandu la terreur parmi le peuple, en semant le bruit qu'on allait tuer tous les enfants au-dessous de dix ans et tous les vieillards au-dessus de soixante-dix ans? que ce bruit a été répandu particulièrement dans la ci-devant Bretagne, et dans les départements du Rhin et de la Moselle?",
+              "word_offset_start": 5560,
+              "word_offset_end": 5642,
+              "char_offset_start": 34134,
+              "char_offset_end": 34622,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p66_s03",
+              "sentence_ordinal": 3,
+              "text": "C'est un des crimes imputés au ci-devant accusateur public du tribunal criminel de Strasbourg*.",
+              "word_offset_start": 5642,
+              "word_offset_end": 5656,
+              "char_offset_start": 34622,
+              "char_offset_end": 34717,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p66_s04",
+              "sentence_ordinal": 4,
+              "text": "[* Schneider.] Les folies tyranniques de cet homme rendent vraisemblable tout ce que l'on raconte de Caligula et d'Héliogabale; mais on ne peut y ajouter foi, même à la vue des preuves.",
+              "word_offset_start": 5656,
+              "word_offset_end": 5688,
+              "char_offset_start": 34717,
+              "char_offset_end": 34902,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p66_s05",
+              "sentence_ordinal": 5,
+              "text": "Il poussait le délire jusqu'à mettre les femmes en réquisition pour son usage: on assure même qu'il a employé cette méthode pour se marier.",
+              "word_offset_start": 5688,
+              "word_offset_end": 5712,
+              "char_offset_start": 34902,
+              "char_offset_end": 35041,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p66_s06",
+              "sentence_ordinal": 6,
+              "text": "D'où est sorti tout à coup cet essaim d'étrangers, de prêtres, de nobles, d'intrigants de toute espèce, qui au même instant s'est répandu sur la surface de la République, pour exécuter, au nom de la philosophie, un plan de contre-révolution qui n'a pu être arrêté que par la force de la raison publique?",
+              "word_offset_start": 5712,
+              "word_offset_end": 5765,
+              "char_offset_start": 35041,
+              "char_offset_end": 35344,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p66_s07",
+              "sentence_ordinal": 7,
+              "text": "Exécrable conception, digne du génie des cours étrangères liguées contre la liberté, et de la corruption de tous les ennemis intérieurs de la République!",
+              "word_offset_start": 5765,
+              "word_offset_end": 5789,
+              "char_offset_start": 35344,
+              "char_offset_end": 35497,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "fr-rev-robespierre-political-morality_s01_p67",
+          "paragraph_ordinal": 67,
+          "sentences": [
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p67_s01",
+              "sentence_ordinal": 1,
+              "text": "C'est ainsi qu'aux miracles continuels, opérés par la vertu d'un grand peuple, l'intrigue mêle toujours la bassesse de ses trames criminelles, bassesse commandée par les tyrans, et dont ils font ensuite la matière de leurs ridicules manifestes, pour retenir les peuples ignorants dans la fange de l'opprobre et dans les chaînes de la servitude.",
+              "word_offset_start": 5789,
+              "word_offset_end": 5843,
+              "char_offset_start": 35497,
+              "char_offset_end": 35841,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "fr-rev-robespierre-political-morality_s01_p68",
+          "paragraph_ordinal": 68,
+          "sentences": [
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p68_s01",
+              "sentence_ordinal": 1,
+              "text": "Eh! que font à la liberté les forfaits de ses ennemis?",
+              "word_offset_start": 5843,
+              "word_offset_end": 5854,
+              "char_offset_start": 35866,
+              "char_offset_end": 35920,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p68_s02",
+              "sentence_ordinal": 2,
+              "text": "Le soleil, voilé par un nuage passager, en est-il moins l'astre qui anime la nature?",
+              "word_offset_start": 5854,
+              "word_offset_end": 5869,
+              "char_offset_start": 35920,
+              "char_offset_end": 36004,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p68_s03",
+              "sentence_ordinal": 3,
+              "text": "L'écume impure que l'Océan repousse sur ses rivages le rend-elle moins imposant?",
+              "word_offset_start": 5869,
+              "word_offset_end": 5881,
+              "char_offset_start": 36004,
+              "char_offset_end": 36084,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "fr-rev-robespierre-political-morality_s01_p69",
+          "paragraph_ordinal": 69,
+          "sentences": [
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p69_s01",
+              "sentence_ordinal": 1,
+              "text": "Dans des mains perfides tous les remèdes à nos maux deviennent des poisons; tout ce que vous pouvez faire, tout ce que vous pouvez dire, ils le tourneront contre vous, même les vérités que nous venons de développer.",
+              "word_offset_start": 5881,
+              "word_offset_end": 5919,
+              "char_offset_start": 36084,
+              "char_offset_end": 36299,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "fr-rev-robespierre-political-morality_s01_p70",
+          "paragraph_ordinal": 70,
+          "sentences": [
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p70_s01",
+              "sentence_ordinal": 1,
+              "text": "Ainsi, par exemple, après avoir disséminé partout les germes de la guerre civile, par l'attaque violente contre les préjugés religieux, ils chercheront à armer le fanatisme et l'aristocratie des mesures mêmes que la saine politique vous a prescrites en faveur de la liberté des cultes.",
+              "word_offset_start": 5919,
+              "word_offset_end": 5964,
+              "char_offset_start": 36299,
+              "char_offset_end": 36584,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p70_s02",
+              "sentence_ordinal": 2,
+              "text": "Si vous aviez laissé un libre cours à la conspiration, elle aurait produit, tôt ou tard, une réaction terrible et universelle; si vous l'arrêtez, ils chercheront encore à en tirer parti, en persuadant que vous. protégez les prêtres et les modérés.",
+              "word_offset_start": 5964,
+              "word_offset_end": 6005,
+              "char_offset_start": 36584,
+              "char_offset_end": 36831,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "fr-rev-robespierre-political-morality_s01_p71",
+          "paragraph_ordinal": 71,
+          "sentences": [
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p71_s01",
+              "sentence_ordinal": 1,
+              "text": "Il ne faudra pas même vous étonner si les auteurs de ce système sont les prêtres qui auront le plus hardiment confessé leur charlatanisme.",
+              "word_offset_start": 6005,
+              "word_offset_end": 6029,
+              "char_offset_start": 36831,
+              "char_offset_end": 36969,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "fr-rev-robespierre-political-morality_s01_p72",
+          "paragraph_ordinal": 72,
+          "sentences": [
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p72_s01",
+              "sentence_ordinal": 1,
+              "text": "Si les patriotes, emportés par un zèle pur, mais irréfléchi, ont été quelque part les dupes de leurs intrigues, ils rejetteront tout le blâme sur les patriotes; car le premier point de leur doctrine machiavélique est de perdre la République, en perdant les républicains, comme on subjugue un pays en détruisant l'armée qui le défend.",
+              "word_offset_start": 6029,
+              "word_offset_end": 6084,
+              "char_offset_start": 36969,
+              "char_offset_end": 37302,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p72_s02",
+              "sentence_ordinal": 2,
+              "text": "On peut apprécier par là un de leurs principes favoris, qui est qu'il faut compter pour rien les hommes; maxime d'origine royale, qui veut dire qu'il faut leur abandonner tous les amis de la liberté.",
+              "word_offset_start": 6084,
+              "word_offset_end": 6119,
+              "char_offset_start": 37302,
+              "char_offset_end": 37501,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "fr-rev-robespierre-political-morality_s01_p73",
+          "paragraph_ordinal": 73,
+          "sentences": [
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p73_s01",
+              "sentence_ordinal": 1,
+              "text": "Il est à remarquer que la destinée des hommes qui ne cherchent que le bien public est d'être les victimes de ceux qui se cherchent eux-mêmes, ce qui vient de deux causes: la première, que les intrigants attaquent avec les vices de l'ancien régime; la seconde, que les patriotes ne se défendent qu'avec les vertus du nouveau.",
+              "word_offset_start": 6119,
+              "word_offset_end": 6176,
+              "char_offset_start": 37501,
+              "char_offset_end": 37825,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "fr-rev-robespierre-political-morality_s01_p74",
+          "paragraph_ordinal": 74,
+          "sentences": [
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p74_s01",
+              "sentence_ordinal": 1,
+              "text": "Une telle situation intérieure doit vous paraître digne de toute votre attention, surtout si vous réfléchissez que vous avez en même temps les tyrans de l'Europe à combattre, douze cent mille hommes sous les armes à entretenir, et que le gouvernement est obligé de réparer continuellement, à force d'énergie et de vigilance, tous les maux que la multitude innombrable de nos ennemis nous a préparés pendant le cours de cinq ans.",
+              "word_offset_start": 6176,
+              "word_offset_end": 6247,
+              "char_offset_start": 37825,
+              "char_offset_end": 38253,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "fr-rev-robespierre-political-morality_s01_p75",
+          "paragraph_ordinal": 75,
+          "sentences": [
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p75_s01",
+              "sentence_ordinal": 1,
+              "text": "Quel est le remède de tous ces maux?",
+              "word_offset_start": 6247,
+              "word_offset_end": 6255,
+              "char_offset_start": 38271,
+              "char_offset_end": 38307,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p75_s02",
+              "sentence_ordinal": 2,
+              "text": "Nous n'en connaissons point d'autre que le développement de ce ressort général de la république, la vertu.",
+              "word_offset_start": 6255,
+              "word_offset_end": 6272,
+              "char_offset_start": 38307,
+              "char_offset_end": 38413,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "fr-rev-robespierre-political-morality_s01_p76",
+          "paragraph_ordinal": 76,
+          "sentences": [
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p76_s01",
+              "sentence_ordinal": 1,
+              "text": "La démocratie périt par deux excès, l'aristocratie de ceux qui gouvernent, ou le mépris du peuple pour les autorités qu'il a lui-même établies, mépris qui fait que chaque coterie, que chaque individu attire à lui la puissance publique, et ramène le peuple, par l'excès du désordre, à l'anéantissement, ou au pouvoir d'un seul.",
+              "word_offset_start": 6272,
+              "word_offset_end": 6325,
+              "char_offset_start": 38413,
+              "char_offset_end": 38739,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "fr-rev-robespierre-political-morality_s01_p77",
+          "paragraph_ordinal": 77,
+          "sentences": [
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p77_s01",
+              "sentence_ordinal": 1,
+              "text": "La double tâche des modérés et des faux révolutionnaires est de nous ballotter perpétuellement entre ces deux écueils.",
+              "word_offset_start": 6325,
+              "word_offset_end": 6343,
+              "char_offset_start": 38739,
+              "char_offset_end": 38857,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "fr-rev-robespierre-political-morality_s01_p78",
+          "paragraph_ordinal": 78,
+          "sentences": [
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p78_s01",
+              "sentence_ordinal": 1,
+              "text": "Mais les représentants du peuple peuvent les éviter tous deux; car le gouvernement est toujours le maître d'être juste et sage; et, quand il a ce caractère, il est sûr de la confiance du peuple.",
+              "word_offset_start": 6343,
+              "word_offset_end": 6378,
+              "char_offset_start": 38857,
+              "char_offset_end": 39051,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "fr-rev-robespierre-political-morality_s01_p79",
+          "paragraph_ordinal": 79,
+          "sentences": [
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p79_s01",
+              "sentence_ordinal": 1,
+              "text": "Il est bien vrai que le but de tous nos ennemis est de dissoudre la Convention; il est vrai que le tyran de la Grande-Bretagne et ses alliés promettent à leur parlement et à leurs sujets de vous ôter votre énergie et la confiance publique qu'elle vous a méritée; que c'est là la première instruction de tous leurs commissaires.",
+              "word_offset_start": 6378,
+              "word_offset_end": 6437,
+              "char_offset_start": 39051,
+              "char_offset_end": 39378,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "fr-rev-robespierre-political-morality_s01_p80",
+          "paragraph_ordinal": 80,
+          "sentences": [
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p80_s01",
+              "sentence_ordinal": 1,
+              "text": "Mais c'est une vérité qui doit être regardée comme triviale en politique, qu'un grand corps investi de la confiance d'un grand peuple ne peut se perdre que par lui-même; vos ennemis ne l'ignorent pas, ainsi vous ne doutez pas qu'ils s'appliquent surtout à réveiller au milieu de vous toutes les passions qui peuvent seconder leurs sinistres desseins.",
+              "word_offset_start": 6437,
+              "word_offset_end": 6494,
+              "char_offset_start": 39378,
+              "char_offset_end": 39728,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "fr-rev-robespierre-political-morality_s01_p81",
+          "paragraph_ordinal": 81,
+          "sentences": [
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p81_s01",
+              "sentence_ordinal": 1,
+              "text": "Que peuvent-ils contre la représentation nationale, s'ils ne parviennent à lui surprendre des actes impolitiques qui puissent fournir des prétextes à leurs criminelles déclamations?",
+              "word_offset_start": 6494,
+              "word_offset_end": 6518,
+              "char_offset_start": 39728,
+              "char_offset_end": 39909,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p81_s02",
+              "sentence_ordinal": 2,
+              "text": "Ils doivent donc désirer nécessairement d'avoir deux espèces d'agents, les uns qui chercheront à la dégrader par leurs discours, les autres, dans son sein même, qui s'efforceront de la tromper, pour compromettre sa gloire et les intérêts de la république.",
+              "word_offset_start": 6518,
+              "word_offset_end": 6558,
+              "char_offset_start": 39909,
+              "char_offset_end": 40164,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "fr-rev-robespierre-political-morality_s01_p82",
+          "paragraph_ordinal": 82,
+          "sentences": [
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p82_s01",
+              "sentence_ordinal": 1,
+              "text": "Pour l'attaquer avec succès, il était utile de commencer la guerre civile contre les représentants dans les départements qui avaient justifié votre confiance, et contre le Comité de salut public; aussi ont-ils été attaqués par des hommes qui semblaient se combattre entre eux.",
+              "word_offset_start": 6558,
+              "word_offset_end": 6601,
+              "char_offset_start": 40164,
+              "char_offset_end": 40440,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "fr-rev-robespierre-political-morality_s01_p83",
+          "paragraph_ordinal": 83,
+          "sentences": [
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p83_s01",
+              "sentence_ordinal": 1,
+              "text": "Que pouvaient-ils faire de mieux que de paralyser le gouvernement de la Convention, et d'en briser tous les ressorts, dans le moment qui doit décider du sort de la république et des tyrans?",
+              "word_offset_start": 6601,
+              "word_offset_end": 6634,
+              "char_offset_start": 40440,
+              "char_offset_end": 40629,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "fr-rev-robespierre-political-morality_s01_p84",
+          "paragraph_ordinal": 84,
+          "sentences": [
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p84_s01",
+              "sentence_ordinal": 1,
+              "text": "Loin de nous l'idée qu'il existe encore au milieu de nous un seul homme assez lâche pour vouloir servir la cause des tyrans! mais plus loin de nous encore le crime, qui ne nous serait point pardonné, de tromper la Convention nationale, et de trahir le peuple français par un coupable silence!",
+              "word_offset_start": 6634,
+              "word_offset_end": 6686,
+              "char_offset_start": 40629,
+              "char_offset_end": 40921,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p84_s02",
+              "sentence_ordinal": 2,
+              "text": "Car il y a cela d'heureux pour un peuple libre, que la vérité, qui est le fléau des despotes, est toujours sa force et son salut.",
+              "word_offset_start": 6686,
+              "word_offset_end": 6712,
+              "char_offset_start": 40921,
+              "char_offset_end": 41050,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p84_s03",
+              "sentence_ordinal": 3,
+              "text": "Or, il est vrai qu'il existe encore pour notre liberté un danger, le seul danger sérieux peut-être qui lui reste à courir: ce danger est un plan, qui a existé, de rallier tous les ennemis de la République, en ressuscitant l'esprit de parti; de persécuter les patriotes, de décourager, de perdre les agents fidèles du gouvernement républicain, de faire manquer les parties les plus essentielles du service public.",
+              "word_offset_start": 6712,
+              "word_offset_end": 6780,
+              "char_offset_start": 41050,
+              "char_offset_end": 41462,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p84_s04",
+              "sentence_ordinal": 4,
+              "text": "On a voulu tromper la Convention sur les hommes et sur les choses; on a voulu lui donner le change sur les causes des abus qu'on exagère, afin de les rendre irrémédiables; on s'est étudié à la remplir de fausses terreurs, pour l'égarer ou pour la paralyser; on cherche à la diviser; on a cherché à diviser surtout les représentants envoyés dans les départements, et le Comité de salut public; on a voulu induire les premiers à contrarier les mesures de l'autorité centrale, pour amener le désordre et la confusion; on a voulu les aigrir à leur retour, pour les rendre, à leur insu, les instruments d'une cabale.",
+              "word_offset_start": 6780,
+              "word_offset_end": 6888,
+              "char_offset_start": 41462,
+              "char_offset_end": 42073,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p84_s05",
+              "sentence_ordinal": 5,
+              "text": "Les étrangers mettent à profit toutes les passions particulières, et jusqu'au patriotisme abusé.",
+              "word_offset_start": 6888,
+              "word_offset_end": 6901,
+              "char_offset_start": 42073,
+              "char_offset_end": 42169,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "fr-rev-robespierre-political-morality_s01_p85",
+          "paragraph_ordinal": 85,
+          "sentences": [
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p85_s01",
+              "sentence_ordinal": 1,
+              "text": "On avait d'abord pris le parti d'aller droit au but, en calomniant le Comité de salut public; on se flattait alors hautement qu'il succomberait sous le poids de ses pénibles fonctions.",
+              "word_offset_start": 6901,
+              "word_offset_end": 6932,
+              "char_offset_start": 42169,
+              "char_offset_end": 42353,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p85_s02",
+              "sentence_ordinal": 2,
+              "text": "La victoire et la fortune du peuple français l'ont défendu.",
+              "word_offset_start": 6932,
+              "word_offset_end": 6942,
+              "char_offset_start": 42353,
+              "char_offset_end": 42412,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p85_s03",
+              "sentence_ordinal": 3,
+              "text": "Depuis cette époque, on a pris le parti de le louer en le paralysant et en détruisant le fruit de ses travaux.",
+              "word_offset_start": 6942,
+              "word_offset_end": 6964,
+              "char_offset_start": 42412,
+              "char_offset_end": 42522,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p85_s04",
+              "sentence_ordinal": 4,
+              "text": "Toutes ces déclamations vagues contre des agents nécessaires du Comité; tous les projets de désorganisation, déguisés sous le nom de réformes, déjà rejetés par la Convention, et reproduits aujourd'hui avec une affectation étrange; cet empressement à prôner des intrigants que le Comité de salut public a dû éloigner; cette terreur inspirée aux bons citoyens; cette indulgence dont on flatte les conspirateurs; tout ce système d'imposture et d'intrigue, dont le principal auteur est un homme que vous avez repoussé de votre sein, est dirigé contre la Convention nationale, et tend à réaliser les voeux de tous les ennemis de la France.",
+              "word_offset_start": 6964,
+              "word_offset_end": 7064,
+              "char_offset_start": 42522,
+              "char_offset_end": 43156,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "fr-rev-robespierre-political-morality_s01_p86",
+          "paragraph_ordinal": 86,
+          "sentences": [
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p86_s01",
+              "sentence_ordinal": 1,
+              "text": "C'est depuis l'époque où ce système a été annoncé dans des libelles, et réalisé par des actes publics, que l'aristocratie et le royalisme ont commencé à relever une tête insolente, que le patriotisme a été de nouveau persécuté dans une partie de la République, que l'autorité nationale a éprouvé une résistance dont les intrigants commençaient à perdre l'habitude.",
+              "word_offset_start": 7064,
+              "word_offset_end": 7122,
+              "char_offset_start": 43156,
+              "char_offset_end": 43520,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p86_s02",
+              "sentence_ordinal": 2,
+              "text": "Au reste, ces attaques indirectes n'eussent-elles d'autre inconvénient que de partager l'attention et l'énergie de ceux qui ont à porter le fardeau immense dont vous les avez chargés, et de les distraire trop souvent des grandes mesures de salut public, pour s'occuper de déjouer des intrigues dangereuses; elles pourraient encore être considérées comme une diversion utile à nos ennemis.",
+              "word_offset_start": 7122,
+              "word_offset_end": 7181,
+              "char_offset_start": 43520,
+              "char_offset_end": 43908,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "fr-rev-robespierre-political-morality_s01_p87",
+          "paragraph_ordinal": 87,
+          "sentences": [
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p87_s01",
+              "sentence_ordinal": 1,
+              "text": "Mais rassurons-nous; c'est ici le sanctuaire de la vérité; c'est ici que résident les fondateurs de la République, les vengeurs de l'humanité et les destructeurs des tyrans.",
+              "word_offset_start": 7181,
+              "word_offset_end": 7208,
+              "char_offset_start": 43908,
+              "char_offset_end": 44081,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "fr-rev-robespierre-political-morality_s01_p88",
+          "paragraph_ordinal": 88,
+          "sentences": [
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p88_s01",
+              "sentence_ordinal": 1,
+              "text": "Ici, pour détruire un abus, il suffit de l'indiquer.",
+              "word_offset_start": 7208,
+              "word_offset_end": 7217,
+              "char_offset_start": 44117,
+              "char_offset_end": 44169,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p88_s02",
+              "sentence_ordinal": 2,
+              "text": "Il nous suffit d'appeler, au nom de la patrie, des conseils de l'amour-propre ou de la faiblesse des individus, à la vertu et à la gloire de la Convention nationale.",
+              "word_offset_start": 7217,
+              "word_offset_end": 7247,
+              "char_offset_start": 44169,
+              "char_offset_end": 44334,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "fr-rev-robespierre-political-morality_s01_p89",
+          "paragraph_ordinal": 89,
+          "sentences": [
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p89_s01",
+              "sentence_ordinal": 1,
+              "text": "Nous provoquons, sur tous les objets de ses inquiétudes, et sur tout ce qui peut influer sur la marche de la révolution, une discussion solennelle; nous la conjurons de ne pas permettre qu'aucun intérêt particulier et caché puisse usurper ici l'ascendant de la volonté générale de l'assemblée et la puissance indestructible de la raison.",
+              "word_offset_start": 7247,
+              "word_offset_end": 7301,
+              "char_offset_start": 44334,
+              "char_offset_end": 44671,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "fr-rev-robespierre-political-morality_s01_p90",
+          "paragraph_ordinal": 90,
+          "sentences": [
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p90_s01",
+              "sentence_ordinal": 1,
+              "text": "Nous nous bornerons aujourd'hui à vous proposer de consacrer par votre approbation formelle les vérités morales et politiques sur lesquelles doit être fondée votre administration intérieure et la stabilité de la République, comme vous avez déjà consacré les principes de votre conduite envers les peuples étrangers: par là vous rallierez tous les bons citoyens, vous ôterez l'espérance aux conspirateurs; vous assurerez votre marche, et vous confondrez les intrigues et les calomnies des rois; vous honorerez votre cause et votre caractère aux yeux de tous les peuples.",
+              "word_offset_start": 7301,
+              "word_offset_end": 7387,
+              "char_offset_start": 44671,
+              "char_offset_end": 45240,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "fr-rev-robespierre-political-morality_s01_p91",
+          "paragraph_ordinal": 91,
+          "sentences": [
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p91_s01",
+              "sentence_ordinal": 1,
+              "text": "Donnez au peuple français ce nouveau gage de votre zèle pour protéger le patriotisme, de votre justice inflexible pour les coupables, et de votre dévouement à la cause du peuple.",
+              "word_offset_start": 7387,
+              "word_offset_end": 7417,
+              "char_offset_start": 45240,
+              "char_offset_end": 45418,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p91_s02",
+              "sentence_ordinal": 2,
+              "text": "Ordonnez que les principes de morale politique que nous venons de développer seront proclamés, en votre nom, au dedans et au dehors de la République.",
+              "word_offset_start": 7417,
+              "word_offset_end": 7442,
+              "char_offset_start": 45418,
+              "char_offset_end": 45567,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "fr-rev-robespierre-political-morality_s01_p92",
+          "paragraph_ordinal": 92,
+          "sentences": [
+            {
+              "sentence_id": "fr-rev-robespierre-political-morality_s01_p92_s01",
+              "sentence_ordinal": 1,
+              "text": "* * * * * * * * *",
+              "word_offset_start": 7442,
+              "word_offset_end": 7451,
+              "char_offset_start": 45567,
+              "char_offset_end": 45584,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "pipeline_log": [
+    {
+      "stage": "segment-texts",
+      "script": "scripts/segment-texts.py",
+      "generated_at": "2026-06-27T20:25:36",
+      "sentence_count": 250
+    }
+  ]
+}

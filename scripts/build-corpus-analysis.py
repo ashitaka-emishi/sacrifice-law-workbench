@@ -343,6 +343,26 @@ def build_case_corpus_analysis(case_id: str) -> dict[str, Any]:
             "errors": ["no CMT mapping file found or no mappings defined"],
         }
         write_json(analysis_dir / "corpus-analysis.json", output)
+        (analysis_dir / "corpus-analysis.md").write_text(
+            "\n".join(
+                [
+                    f"# Corpus Analysis: {case_id}",
+                    "",
+                    "Status: stub.",
+                    "",
+                    "No CMT mappings are available for corpus-level analysis yet.",
+                ]
+            ),
+            encoding="utf-8",
+        )
+        (analysis_dir / "diachronic-analysis.md").write_text(
+            build_diachronic_markdown(case_id, generated_at, []),
+            encoding="utf-8",
+        )
+        (analysis_dir / "cluster-evolution.md").write_text(
+            build_cluster_evolution_markdown(case_id, generated_at, []),
+            encoding="utf-8",
+        )
         return output
 
     frequency_rows: list[dict[str, Any]] = []

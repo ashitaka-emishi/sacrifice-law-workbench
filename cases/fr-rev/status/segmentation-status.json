@@ -1,0 +1,26 @@
+{
+  "case_id": "fr-rev",
+  "stage": "segment-texts",
+  "status": "ready",
+  "generated_at": "2026-06-27T20:25:36",
+  "documents_in_manifest": 2,
+  "written": 2,
+  "skipped_missing_text": 0,
+  "errors": [],
+  "records": [
+    {
+      "document_id": "fr-rev-robespierre-political-morality",
+      "status": "written",
+      "sentence_count": 250,
+      "input_path": "cases/fr-rev/corpus/text/fr-rev-robespierre-political-morality.md",
+      "output_path": "cases/fr-rev/corpus/segmented/fr-rev-robespierre-political-morality.json"
+    },
+    {
+      "document_id": "fr-rev-robespierre-religious-moral-ideas",
+      "status": "written",
+      "sentence_count": 409,
+      "input_path": "cases/fr-rev/corpus/text/fr-rev-robespierre-religious-moral-ideas.md",
+      "output_path": "cases/fr-rev/corpus/segmented/fr-rev-robespierre-religious-moral-ideas.json"
+    }
+  ]
+}

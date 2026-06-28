@@ -66,6 +66,8 @@ website:
             text: American Revolution
           - href: cases/napoleon/artifacts/qmd/case-overview.qmd
             text: Napoleon
+          - href: cases/fr-rev/artifacts/qmd/case-overview.qmd
+            text: French Revolution
           - href: cases/lincoln/artifacts/qmd/case-overview.qmd
             text: Lincoln
           - href: cases/hitler/artifacts/qmd/case-overview.qmd

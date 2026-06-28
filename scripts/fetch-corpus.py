@@ -58,6 +58,8 @@ def classify(case_id: str, doc: dict) -> str:
     doc_id = document_id(doc)
     rights = doc.get("rights_status") or ""
 
+    if case_id == "fr-rev" and doc_id in FR_REV_EXTRACTED_DOCS:
+        return "custom-extractor"
     if case_id == "hitler" and doc_id in MK_CHAPTERS:
         return "archive-org"
     if "gutenberg.org" in url:
@@ -84,6 +86,11 @@ GUTENBERG_URLS: dict[str, str] = {
     "lincoln-gettysburg-address": "https://www.gutenberg.org/cache/epub/4/pg4.txt",
     "lincoln-second-inaugural":   "https://www.gutenberg.org/cache/epub/8/pg8.txt",
     "am-rev-paine-common-sense":  "https://www.gutenberg.org/cache/epub/147/pg147.txt",
+}
+
+FR_REV_EXTRACTED_DOCS = {
+    "fr-rev-robespierre-political-morality",
+    "fr-rev-robespierre-religious-moral-ideas",
 }
 
 ARCHIVES_GOV_URLS: dict[str, str] = {
@@ -740,6 +747,22 @@ def main() -> int:
                 result["manifest_source_url_updated"] = updated
             results.append(result)
             affected_cases.add(cid)
+            continue
+
+        if strategy == "custom-extractor":
+            actual_url = extract_raw_provenance_url(out_path) or doc.get("source_url", "")
+            result = {
+                "case": cid,
+                "document_id": doc_id,
+                "strategy": "custom-extractor",
+                "status": "skipped",
+                "reason": "run scripts/extract-fr-rev-speeches.py to regenerate selected Gutenberg sections",
+            }
+            if actual_url:
+                result["source_url"] = actual_url
+            results.append(result)
+            if out_path.exists():
+                affected_cases.add(cid)
             continue
 
         if strategy == "unknown":

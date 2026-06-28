@@ -1,0 +1,27 @@
+{
+  "case_id": "fr-rev",
+  "name": "French Revolution / Jacobin Republic",
+  "corpus_model": "Robespierre-centered Jacobin public corpus",
+  "voices": [
+    "Maximilien Robespierre"
+  ],
+  "phases": [
+    "jacobin-terror",
+    "republican-festival",
+    "thermidor-limits"
+  ],
+  "source_language": "fr",
+  "annotation_language_policy": "source-with-glosses",
+  "gloss_terms": [
+    "vertu",
+    "patrie",
+    "peuple",
+    "tyrannie",
+    "terreur",
+    "sacrifice",
+    "Etre suprême",
+    "république",
+    "salut public"
+  ],
+  "status": "draft"
+}

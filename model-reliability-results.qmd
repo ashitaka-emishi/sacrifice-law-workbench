@@ -21,6 +21,9 @@ This page is generated from validated case-local model-reliability artifacts by
 | `am-rev` | identification | absent — not designed | 0 | 0 | Multi-model reliability has not been designed for this case. |
 | `am-rev` | cmt | absent — not designed | 0 | 0 | Multi-model reliability has not been designed for this case. |
 | `am-rev` | interpretation | absent — not designed | 0 | 0 | Multi-model reliability has not been designed for this case. |
+| `fr-rev` | identification | absent — not designed | 0 | 0 | Multi-model reliability has not been designed for this case. |
+| `fr-rev` | cmt | absent — not designed | 0 | 0 | Multi-model reliability has not been designed for this case. |
+| `fr-rev` | interpretation | absent — not designed | 0 | 0 | Multi-model reliability has not been designed for this case. |
 | `hitler` | identification | absent — not designed | 0 | 0 | Multi-model reliability has not been designed for this case. |
 | `hitler` | cmt | absent — not designed | 0 | 0 | Multi-model reliability has not been designed for this case. |
 | `hitler` | interpretation | absent — not designed | 0 | 0 | Multi-model reliability has not been designed for this case. |
