@@ -84,7 +84,7 @@ def build_segmented_document(case_id: str, doc_id: str, meta: dict, body: str) -
     }
 
 
-def segment_case(case_id: str, strict: bool = False) -> dict:
+def segment_case(case_id: str, doc_filter: str | None = None, strict: bool = False) -> dict:
     records = []
     written = 0
     skipped = 0
@@ -92,6 +92,8 @@ def segment_case(case_id: str, strict: bool = False) -> dict:
 
     for doc in documents(case_id):
         doc_id = document_id(doc)
+        if doc_filter and doc_id != doc_filter:
+            continue
         in_path = text_path_for(case_id, doc)
         out_path = segmented_path_for(case_id, doc)
         if not in_path.exists():
@@ -146,12 +148,13 @@ def segment_case(case_id: str, strict: bool = False) -> dict:
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--case", dest="case_id", default=None, help="Optional case id")
+    parser.add_argument("--doc", dest="doc_id", default=None, help="Optional document id")
     parser.add_argument("--strict", action="store_true", help="Fail on missing expected inputs")
     args = parser.parse_args()
 
     exit_code = 0
     for case_id in case_ids(args.case_id):
-        status = segment_case(case_id, strict=args.strict)
+        status = segment_case(case_id, doc_filter=args.doc_id, strict=args.strict)
         print(
             f"{case_id}: segmented {status['written']} document(s); "
             f"skipped {status['skipped_missing_text']}."

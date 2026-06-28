@@ -28,8 +28,8 @@ This page is generated from validated case-local model-reliability artifacts by
 | `hitler` | cmt | absent — not designed | 0 | 0 | Multi-model reliability has not been designed for this case. |
 | `hitler` | interpretation | absent — not designed | 0 | 0 | Multi-model reliability has not been designed for this case. |
 | `lincoln` | identification | designed — not executed | 0 | 0 | No valid submissions for this layer; case completion reflects the executed layer(s). |
-| `lincoln` | cmt | complete | 2 | 8 |  |
-| `lincoln` | interpretation | complete | 2 | 17 |  |
+| `lincoln` | cmt | complete | 2 | 8 | /Users/andrewhammer/codegarden/koenigsberg-sacrifice-workbench/cases/lincoln/metadata/document-manifest.json: packet document manifest hash predates expanded corpus; existing packet remains scoped to unchanged sampled inputs. |
+| `lincoln` | interpretation | complete | 2 | 17 | /Users/andrewhammer/codegarden/koenigsberg-sacrifice-workbench/cases/lincoln/metadata/document-manifest.json: packet document manifest hash predates expanded corpus; existing packet remains scoped to unchanged sampled inputs. |
 | `napoleon` | identification | absent — not designed | 0 | 0 | Multi-model reliability has not been designed for this case. |
 | `napoleon` | cmt | absent — not designed | 0 | 0 | Multi-model reliability has not been designed for this case. |
 | `napoleon` | interpretation | absent — not designed | 0 | 0 | Multi-model reliability has not been designed for this case. |

@@ -1,33 +1,37 @@
 {
   "version": "1.0",
   "case_id": "lincoln",
-  "generated_at": "2026-06-17T17:38:39",
+  "generated_at": "2026-06-28T02:11:39",
   "status": "complete",
   "mipvu_profile": {
-    "mipvu_files": 3,
-    "total_lexical_units": 4536,
+    "mipvu_files": 5,
+    "total_lexical_units": 16198,
     "reviewed_lexical_units": 4536,
-    "pending_lexical_units": 0,
+    "pending_lexical_units": 11662,
     "confirmed_metaphor_units": 190,
     "metaphor_or_uncertain_units": 202,
-    "metaphor_rate_confirmed": 0.0419,
-    "metaphor_rate_including_uncertain": 0.0445,
+    "metaphor_rate_confirmed": 0.0117,
+    "metaphor_rate_including_uncertain": 0.0125,
     "reviewed_metaphor_rate_confirmed": 0.0419,
     "reviewed_metaphor_rate_including_uncertain": 0.0445,
     "by_document": {
+      "lincoln-special-message-1861-07-04": 8027,
+      "lincoln-first-inaugural": 3635,
       "lincoln-lyceum-address": 3568,
       "lincoln-second-inaugural": 700,
       "lincoln-gettysburg-address": 268
     },
     "by_register": {
+      "presidential message": 8027,
+      "inaugural-address": 4335,
       "public-address": 3568,
-      "inaugural-address": 700,
       "ceremonial-address": 268
     },
     "by_language": {
-      "en": 4536
+      "en": 16198
     },
     "by_decision_type": {
+      "pending": 11662,
       "non_metaphor": 4334,
       "mipvu_direct": 86,
       "mipvu_indirect": 78,
@@ -35,7 +39,7 @@
       "uncertain": 12
     },
     "by_confidence": {
-      "missing": 4334,
+      "missing": 15996,
       "medium": 129,
       "high": 61,
       "low": 12
@@ -2619,7 +2623,7 @@
       "stage": "build-concordance",
       "script": "scripts/build-concordance.py",
       "annotated_files": 3,
-      "generated_at": "2026-06-17T17:38:39"
+      "generated_at": "2026-06-28T02:11:39"
     }
   ]
 }

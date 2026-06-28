@@ -6,7 +6,7 @@ date: '1863-11-19'
 date_precision: day
 register: ceremonial-address
 authorship: Abraham Lincoln
-source_url: https://www.gutenberg.org/ebooks/4
+source_url: https://www.gutenberg.org/cache/epub/4/pg4.txt
 source_citation: 'Project Gutenberg EBook #4 — Bliss copy (Lincoln''s final corrected
   manuscript, the only one he signed)'
 rights_status: public-domain
@@ -47,7 +47,7 @@ raw_path: corpus/raw/lincoln-src-02-gettysburg-address.txt
 pipeline_log:
 - stage: normalize-texts
   script: scripts/normalize-texts.py
-  generated_at: '2026-06-17T06:50:08'
+  generated_at: '2026-06-28T02:11:39'
 ---
 
 Four score and seven years ago, our fathers brought forth

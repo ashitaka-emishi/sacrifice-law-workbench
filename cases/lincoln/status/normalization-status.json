@@ -2,29 +2,41 @@
   "case_id": "lincoln",
   "stage": "normalize-texts",
   "status": "ready",
-  "generated_at": "2026-06-17T06:50:08",
-  "documents_in_manifest": 3,
-  "written": 3,
+  "generated_at": "2026-06-28T02:11:39",
+  "documents_in_manifest": 5,
+  "written": 5,
   "skipped_missing_raw": 0,
   "errors": [],
   "records": [
     {
       "document_id": "lincoln-lyceum-address",
       "status": "written",
-      "raw_path": "/Users/andrewhammer/codegarden/koenigsberg-sacrifice-workbench/cases/lincoln/corpus/raw/lincoln-src-01-lyceum-address.txt",
-      "output_path": "/Users/andrewhammer/codegarden/koenigsberg-sacrifice-workbench/cases/lincoln/corpus/text/lincoln-lyceum-address.md"
+      "raw_path": "cases/lincoln/corpus/raw/lincoln-src-01-lyceum-address.txt",
+      "output_path": "cases/lincoln/corpus/text/lincoln-lyceum-address.md"
+    },
+    {
+      "document_id": "lincoln-first-inaugural",
+      "status": "written",
+      "raw_path": "cases/lincoln/corpus/raw/lincoln-src-04-first-inaugural.txt",
+      "output_path": "cases/lincoln/corpus/text/lincoln-first-inaugural.md"
+    },
+    {
+      "document_id": "lincoln-special-message-1861-07-04",
+      "status": "written",
+      "raw_path": "cases/lincoln/corpus/raw/lincoln-src-05-special-message-1861-07-04.txt",
+      "output_path": "cases/lincoln/corpus/text/lincoln-special-message-1861-07-04.md"
     },
     {
       "document_id": "lincoln-gettysburg-address",
       "status": "written",
-      "raw_path": "/Users/andrewhammer/codegarden/koenigsberg-sacrifice-workbench/cases/lincoln/corpus/raw/lincoln-src-02-gettysburg-address.txt",
-      "output_path": "/Users/andrewhammer/codegarden/koenigsberg-sacrifice-workbench/cases/lincoln/corpus/text/lincoln-gettysburg-address.md"
+      "raw_path": "cases/lincoln/corpus/raw/lincoln-src-02-gettysburg-address.txt",
+      "output_path": "cases/lincoln/corpus/text/lincoln-gettysburg-address.md"
     },
     {
       "document_id": "lincoln-second-inaugural",
       "status": "written",
-      "raw_path": "/Users/andrewhammer/codegarden/koenigsberg-sacrifice-workbench/cases/lincoln/corpus/raw/lincoln-src-03-second-inaugural.txt",
-      "output_path": "/Users/andrewhammer/codegarden/koenigsberg-sacrifice-workbench/cases/lincoln/corpus/text/lincoln-second-inaugural.md"
+      "raw_path": "cases/lincoln/corpus/raw/lincoln-src-03-second-inaugural.txt",
+      "output_path": "cases/lincoln/corpus/text/lincoln-second-inaugural.md"
     }
   ]
 }

@@ -17,26 +17,31 @@ The metaphor workflow now has a strict MIPVU identification layer before
 CMT/Koenigsberg interpretation.
 
 The main remaining gap before publication-ready v1 is reliability and claim
-promotion rather than original-corpus construction. All four original cases now
-have Codex-assisted first-pass MIPVU lexical decisions. The expansion window has
-added French Revolution and British World War I as draft corpora with manifests,
-raw text, normalized text, segmentation, and MIPVU worklists, but no reviewed
-annotations, support ratings, or reliability samples yet. Lincoln has a complete
-model reliability workflow and designed human reliability cohorts, but required
-human coder submissions are not complete. American Revolution, Napoleon, Hitler,
-French Revolution, and British World War I model and human reliability workflows
-remain absent or incomplete. First-pass CMT/Koenigsberg annotation artifacts are
-present for much of the original corpus, but public support ratings and analysis
-outputs remain draft until reliability, historical citation, and traceability
-gates are satisfied.
+promotion rather than original-corpus construction. All four original cases have
+Codex-assisted first-pass MIPVU decisions for their prior working cores, and
+#180 has now added targeted American Revolution, Lincoln, and Napoleon documents
+with raw text, normalized text, segmentation, and MIPVU worklists. Those newly
+added existing-case documents are pending annotation. The expansion window has
+also added French Revolution and British World War I as draft corpora with
+manifests, raw text, normalized text, segmentation, and MIPVU worklists, but no
+reviewed annotations, support ratings, or reliability samples yet. Lincoln has
+a complete model reliability workflow and designed human reliability cohorts
+for the prior three-document core, but required human coder submissions are not
+complete and the expanded Lincoln documents are not included in that reliability
+design yet. American Revolution, Napoleon, Hitler, French Revolution, and
+British World War I model and human reliability workflows remain absent or
+incomplete. First-pass CMT/Koenigsberg annotation artifacts are present for much
+of the original corpus, but public support ratings and analysis outputs remain
+draft until reliability, historical citation, and traceability gates are
+satisfied.
 
 ## Case State
 
 | Area | Current state |
 |---|---|
-| Lincoln | 3 manifest documents; corpus verification passes 3/3; normalized, segmented, and all 4,536 lexical units have Codex-assisted first-pass MIPVU decisions. Model reliability is complete. Human reliability cohorts are designed but await required primary coder submissions. |
-| American Revolution | 9 manifest documents; corpus verification passes 9/9; normalized, segmented, and all 33,025 lexical units have Codex-assisted first-pass MIPVU decisions. Results remain provisional until independent human review. |
-| Napoleon | 10 manifest bulletins; corpus verification passes 10/10; normalized, segmented from Gallica OCR, and all 23,005 lexical units have Codex-assisted first-pass source-language French MIPVU decisions. Results remain provisional until independent human review. |
+| Lincoln | 5 manifest documents; corpus verification passes 5/5; the First Inaugural and 4 July 1861 Special Message have generated MIPVU worklists and are pending annotation. The prior 3-document core has complete model reliability artifacts and designed human reliability cohorts, but required primary coder submissions are not complete. |
+| American Revolution | 11 manifest documents; corpus verification passes 11/11; Jefferson's rough draft and Washington's Newburgh Address have generated MIPVU worklists and are pending annotation. Prior first-pass decisions remain provisional until independent human review. |
+| Napoleon | 11 manifest documents; corpus verification passes 11/11; the pinned Gallica/Plon 1796 Army of Italy proclamation has generated source-language French MIPVU worklists and is pending annotation. Prior first-pass source-language decisions remain provisional until independent human review. |
 | French Revolution | 2 manifest documents; corpus verification passes 2/2; normalized, segmented, and 11,905 lexical units have generated MIPVU worklists. No reviewed annotations, support rating, or reliability sample exists yet. |
 | British World War I | 4 manifest documents; corpus verification passes 4/4; normalized, segmented, and 18,213 lexical units have generated MIPVU worklists. No reviewed annotations, support rating, or reliability sample exists yet. |
 | Hitler | 8 manifest documents; corpus verification passes 8/8; normalized, segmented, and all 86,752 lexical units have Codex-assisted first-pass source-language German MIPVU decisions. Source-derived corpus artifacts remain gitignored under fair-use constraints. Results remain provisional until independent human review. |
@@ -44,7 +49,7 @@ gates are satisfied.
 
 ## Corpus Boundary
 
-The original working corpus is the verified document set for the four initial
+The original working corpus was the verified document set for the four initial
 historical cases:
 
 - Lincoln: 3 documents.
@@ -55,10 +60,11 @@ historical cases:
 The previous working rule treated this set as frozen for v1. That rule has been
 superseded by GitHub milestone 7, `Pre-v1 corpus expansion window`, tracked by
 issue #174. The expansion window has added French Revolution and British World
-War I as draft corpora. Any further cases or documents before v1 must remain
-bounded, with clear selection criteria, rights review, acquisition provenance,
-and an explicit freeze point before reliability and publication promotion
-resume.
+War I as draft corpora, plus targeted American Revolution, Lincoln, and Napoleon
+documents for existing-case repair. Any further cases or documents before v1
+must remain bounded, with clear selection criteria, rights review, acquisition
+provenance, and an explicit freeze point before reliability and publication
+promotion resume.
 
 Wholesale redownload, starter-corpus replacement, and opportunistic source
 growth remain out of scope unless a specific source defect is discovered.

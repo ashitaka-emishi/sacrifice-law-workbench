@@ -1,0 +1,37 @@
+SOURCE: Correspondance de Napoleon Ier, tome 2
+SOURCE_PAGE: https://gallica.bnf.fr/ark:/12148/bpt6k6295821n
+URL: https://gallica.bnf.fr/ark:/12148/bpt6k6295821n
+SOURCE_FILE: cases/napoleon/corpus/raw/napoleon-src-01-early-correspondence/tome-2.txt
+CITATION: Napoleon Bonaparte. Proclamation, quartier general, San-Massimo, 21 brumaire an V (11 novembre 1796), no. 1180. Correspondance de Napoleon Ier, tome 2. Paris: H. Plon, 1858-1870. Gallica/BnF.
+DOCUMENT_ID: napoleon-proclamation-army-of-italy-1796-11-11
+TITLE: Proclamation to the Army of Italy, 11 November 1796
+LANGUAGE: fr
+RIGHTS: Public domain
+EXTRACTION_TOOL: scripts/extract-targeted-existing-case-docs.py
+EXTRACTION_POLICY: French source text from pinned Gallica/Plon public-domain edition; English glosses only.
+========================================================================
+1180. - PROCLAMATION.
+
+Quartier général, San-Massimo, 21 brumaire an V (11 novembre 1796).
+
+Soldats !
+
+Mantoue est sans pain, sans viande, sans fourrages. Wurmser, les débris de l'armée que vous avez détruite à Bormida, à Bassano, à Saint-Georges, à Governolo, sont prêts à tomber en votre pouvoir.
+
+La liberté de l'Italie, le bonheur de la France reposent dans votre courage.
+
+Un ramassis de fuyards, renforcés par la dernière réserve de l'Empereur, osent encore se présenter devant vous. Ils prétendent vous arracher le fruit de six mois de victoires.
+
+Les généraux feront leur devoir : ils vont tous fondre sur l'ennemi ; tantôt ils vous mèneront en avant, tantôt ils se mettront dans une retraite simulée, et n'oublieront rien pour rendre éclatante votre victoire !
+
+Mais lorsque le tambour du combat aura battu, et qu'il faudra marcher droit à l'ennemi, la baïonnette en avant et dans ce morne silence garant de la victoire, soldats! songez à être dignes de vous.
+
+Je ne vous dis que deux mots, ils suffisent à des Français : l'Italie!
+
+Mantoue! La paix de l'Europe, le bonheur de vos parents seront le
+
+résuliat de notre courage. Faisons encore une fois ce que nous aTons fait si souvent, et l'Europe ne nous contestera pas le titre de la plus brave et de la plus puissante nation du monde.
+
+BONAPARTE.
+
+Dépôt de la guerre.

@@ -109,10 +109,18 @@ class ModelReliabilityPublicationTest(unittest.TestCase):
         }
         self.assertEqual(
             set(case_statuses),
-            {"am-rev", "hitler", "lincoln", "napoleon"},
+            {"am-rev", "fr-rev", "hitler", "lincoln", "napoleon", "wwi-britain"},
         )
-        for row in case_statuses.values():
+        self.assertEqual(case_statuses["lincoln"]["state"], "designed")
+        self.assertEqual(case_statuses["lincoln"]["cohort_count"], 1)
+        for case_id, row in case_statuses.items():
+            if case_id == "lincoln":
+                continue
             self.assertEqual(row["state"], "absent")
+            self.assertTrue(row["valid"])
+            self.assertEqual(row["complete_cohort_count"], 0)
+            self.assertEqual(row["unresolved_adjudications"], 0)
+        for row in case_statuses.values():
             self.assertTrue(row["valid"])
             self.assertEqual(row["complete_cohort_count"], 0)
             self.assertEqual(row["unresolved_adjudications"], 0)

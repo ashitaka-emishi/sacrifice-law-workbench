@@ -2,9 +2,9 @@
   "case_id": "lincoln",
   "stage": "segment-texts",
   "status": "ready",
-  "generated_at": "2026-06-17T06:50:08",
-  "documents_in_manifest": 3,
-  "written": 3,
+  "generated_at": "2026-06-28T02:11:39",
+  "documents_in_manifest": 5,
+  "written": 5,
   "skipped_missing_text": 0,
   "errors": [],
   "records": [
@@ -12,22 +12,36 @@
       "document_id": "lincoln-lyceum-address",
       "status": "written",
       "sentence_count": 130,
-      "input_path": "/Users/andrewhammer/codegarden/koenigsberg-sacrifice-workbench/cases/lincoln/corpus/text/lincoln-lyceum-address.md",
-      "output_path": "/Users/andrewhammer/codegarden/koenigsberg-sacrifice-workbench/cases/lincoln/corpus/segmented/lincoln-lyceum-address.json"
+      "input_path": "cases/lincoln/corpus/text/lincoln-lyceum-address.md",
+      "output_path": "cases/lincoln/corpus/segmented/lincoln-lyceum-address.json"
+    },
+    {
+      "document_id": "lincoln-first-inaugural",
+      "status": "written",
+      "sentence_count": 137,
+      "input_path": "cases/lincoln/corpus/text/lincoln-first-inaugural.md",
+      "output_path": "cases/lincoln/corpus/segmented/lincoln-first-inaugural.json"
+    },
+    {
+      "document_id": "lincoln-special-message-1861-07-04",
+      "status": "written",
+      "sentence_count": 341,
+      "input_path": "cases/lincoln/corpus/text/lincoln-special-message-1861-07-04.md",
+      "output_path": "cases/lincoln/corpus/segmented/lincoln-special-message-1861-07-04.json"
     },
     {
       "document_id": "lincoln-gettysburg-address",
       "status": "written",
       "sentence_count": 10,
-      "input_path": "/Users/andrewhammer/codegarden/koenigsberg-sacrifice-workbench/cases/lincoln/corpus/text/lincoln-gettysburg-address.md",
-      "output_path": "/Users/andrewhammer/codegarden/koenigsberg-sacrifice-workbench/cases/lincoln/corpus/segmented/lincoln-gettysburg-address.json"
+      "input_path": "cases/lincoln/corpus/text/lincoln-gettysburg-address.md",
+      "output_path": "cases/lincoln/corpus/segmented/lincoln-gettysburg-address.json"
     },
     {
       "document_id": "lincoln-second-inaugural",
       "status": "written",
       "sentence_count": 25,
-      "input_path": "/Users/andrewhammer/codegarden/koenigsberg-sacrifice-workbench/cases/lincoln/corpus/text/lincoln-second-inaugural.md",
-      "output_path": "/Users/andrewhammer/codegarden/koenigsberg-sacrifice-workbench/cases/lincoln/corpus/segmented/lincoln-second-inaugural.json"
+      "input_path": "cases/lincoln/corpus/text/lincoln-second-inaugural.md",
+      "output_path": "cases/lincoln/corpus/segmented/lincoln-second-inaugural.json"
     }
   ]
 }

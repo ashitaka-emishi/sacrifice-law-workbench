@@ -26,7 +26,7 @@ raw_path: corpus/raw/fr-rev-src-01-robespierre-discours-pg/fr-rev-robespierre-po
 pipeline_log:
 - stage: normalize-texts
   script: scripts/normalize-texts.py
-  generated_at: '2026-06-27T20:25:36'
+  generated_at: '2026-06-28T02:11:37'
 ---
 
 _Rapport sur les principes de morale politique qui doivent guider la

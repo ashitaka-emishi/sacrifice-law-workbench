@@ -6,7 +6,7 @@ date: '1865-03-04'
 date_precision: day
 register: inaugural-address
 authorship: Abraham Lincoln
-source_url: https://www.gutenberg.org/ebooks/8
+source_url: https://www.gutenberg.org/cache/epub/8/pg8.txt
 source_citation: 'Project Gutenberg EBook #8 — Abraham Lincoln''s Second Inaugural
   Address'
 rights_status: public-domain
@@ -43,7 +43,7 @@ raw_path: corpus/raw/lincoln-src-03-second-inaugural.txt
 pipeline_log:
 - stage: normalize-texts
   script: scripts/normalize-texts.py
-  generated_at: '2026-06-17T06:50:08'
+  generated_at: '2026-06-28T02:11:39'
 ---
 
 Fellow countrymen:  At this second appearing to take the oath

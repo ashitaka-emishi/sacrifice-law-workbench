@@ -3,7 +3,7 @@
   "case_id": "am-rev",
   "document_id": "am-rev-washington-orders-1776-12-25",
   "source_language": "en",
-  "generated_at": "2026-06-17T06:50:03",
+  "generated_at": "2026-06-28T02:11:36",
   "status": "worklist",
   "meta": {
     "title": "General Orders, 25 December 1776",
@@ -9651,7 +9651,7 @@
     {
       "stage": "generate-mipvu-worklist",
       "script": "scripts/generate-mipvu-worklist.py",
-      "generated_at": "2026-06-17T06:50:03",
+      "generated_at": "2026-06-28T02:11:36",
       "lexical_unit_count": 602
     }
   ]

@@ -1,0 +1,661 @@
+{
+  "case_id": "am-rev",
+  "document_id": "am-rev-washington-newburgh-address",
+  "meta": {
+    "document_id": "am-rev-washington-newburgh-address",
+    "title": "Address to the Officers of the Army",
+    "short_title": "Newburgh Address",
+    "date": "1783-03-15",
+    "date_precision": "day",
+    "register": "military-political address",
+    "authorship": "George Washington",
+    "source_url": "https://founders.archives.gov/documents/Washington/99-01-02-10840",
+    "source_citation": "Washington, George. Address to the Officers of the Army, 15 March 1783. Founders Online, National Archives.",
+    "rights_status": "public-domain",
+    "expected_raw_path": "corpus/raw/am-rev-src-05-washington-newburgh.txt",
+    "analytical_priority": "primary",
+    "source_registry_id": "am-rev-src-05-washington-newburgh",
+    "phase": "wartime-sacrifice",
+    "inclusion_rationale": "Adds Newburgh crisis evidence for army sacrifice, public debt, honor, civil-military restraint, and rejection of military coercion after service.",
+    "risk_flags": [
+      "browser-assisted-acquisition",
+      "source-edition-verification"
+    ],
+    "verification": {
+      "min_words": 1500,
+      "required_phrases": [
+        "By an anonymous summons",
+        "plighted faith of your Country",
+        "deluge our rising Empire in Blood"
+      ]
+    },
+    "case_id": "am-rev",
+    "raw_path": "corpus/raw/am-rev-src-05-washington-newburgh.txt",
+    "pipeline_log": [
+      {
+        "stage": "normalize-texts",
+        "script": "scripts/normalize-texts.py",
+        "generated_at": "2026-06-28T02:11:36"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "section_id": "am-rev-washington-newburgh-address_s01",
+      "section_label": "body",
+      "section_ordinal": 1,
+      "paragraphs": [
+        {
+          "paragraph_id": "am-rev-washington-newburgh-address_s01_p01",
+          "paragraph_ordinal": 1,
+          "sentences": [
+            {
+              "sentence_id": "am-rev-washington-newburgh-address_s01_p01_s01",
+              "sentence_ordinal": 1,
+              "text": "From George Washington to Officers of the Army, 15 March 1783",
+              "word_offset_start": 0,
+              "word_offset_end": 11,
+              "char_offset_start": 0,
+              "char_offset_end": 61,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "am-rev-washington-newburgh-address_s01_p02",
+          "paragraph_ordinal": 2,
+          "sentences": [
+            {
+              "sentence_id": "am-rev-washington-newburgh-address_s01_p02_s01",
+              "sentence_ordinal": 1,
+              "text": "Head Quarters Newburgh 15th of March 1783.",
+              "word_offset_start": 11,
+              "word_offset_end": 18,
+              "char_offset_start": 63,
+              "char_offset_end": 105,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "am-rev-washington-newburgh-address_s01_p03",
+          "paragraph_ordinal": 3,
+          "sentences": [
+            {
+              "sentence_id": "am-rev-washington-newburgh-address_s01_p03_s01",
+              "sentence_ordinal": 1,
+              "text": "Gentlemen,",
+              "word_offset_start": 18,
+              "word_offset_end": 19,
+              "char_offset_start": 107,
+              "char_offset_end": 117,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "am-rev-washington-newburgh-address_s01_p04",
+          "paragraph_ordinal": 4,
+          "sentences": [
+            {
+              "sentence_id": "am-rev-washington-newburgh-address_s01_p04_s01",
+              "sentence_ordinal": 1,
+              "text": "By an anonymous summons, an attempt has been made to convene you together--how inconsistent with the rules of propriety! how unmilitary! and how subversive of all order and discipline--let the good sense of the Army decide.",
+              "word_offset_start": 19,
+              "word_offset_end": 55,
+              "char_offset_start": 119,
+              "char_offset_end": 342,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "am-rev-washington-newburgh-address_s01_p05",
+          "paragraph_ordinal": 5,
+          "sentences": [
+            {
+              "sentence_id": "am-rev-washington-newburgh-address_s01_p05_s01",
+              "sentence_ordinal": 1,
+              "text": "In the moment of this summons, another anonymous production was sent into circulation; addressed more to the feelings & passions, than to the reason & judgment of the Army.",
+              "word_offset_start": 55,
+              "word_offset_end": 84,
+              "char_offset_start": 344,
+              "char_offset_end": 516,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "am-rev-washington-newburgh-address_s01_p06",
+          "paragraph_ordinal": 6,
+          "sentences": [
+            {
+              "sentence_id": "am-rev-washington-newburgh-address_s01_p06_s01",
+              "sentence_ordinal": 1,
+              "text": "The Author of the piece, is entitled to much credit for the goodness of his Pen: and I could wish he had as much credit for the rectitude of his Heart--for, as Men see thro' different Optics, and are induced by the reflecting faculties of the Mind, to use different means to attain the same end; the Author of the Address, should have had more charity, than to mark for Suspicion, the Man who should recommend Moderation and longer forbearance--or, in other words, who should not think as he thinks, and act as he advises.",
+              "word_offset_start": 84,
+              "word_offset_end": 179,
+              "char_offset_start": 518,
+              "char_offset_end": 1040,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "am-rev-washington-newburgh-address_s01_p07",
+          "paragraph_ordinal": 7,
+          "sentences": [
+            {
+              "sentence_id": "am-rev-washington-newburgh-address_s01_p07_s01",
+              "sentence_ordinal": 1,
+              "text": "But he had another plan in view, in which candor and liberality of Sentiment, regard to justice, and love of Country, have no part; and he was right, to insinuate the darkest suspicion, to effect the blackest designs.",
+              "word_offset_start": 179,
+              "word_offset_end": 217,
+              "char_offset_start": 1042,
+              "char_offset_end": 1259,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "am-rev-washington-newburgh-address_s01_p08",
+          "paragraph_ordinal": 8,
+          "sentences": [
+            {
+              "sentence_id": "am-rev-washington-newburgh-address_s01_p08_s01",
+              "sentence_ordinal": 1,
+              "text": "That the Address is drawn with great art, and is designed to answer the most insidious purposes.",
+              "word_offset_start": 217,
+              "word_offset_end": 234,
+              "char_offset_start": 1261,
+              "char_offset_end": 1357,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "am-rev-washington-newburgh-address_s01_p08_s02",
+              "sentence_ordinal": 2,
+              "text": "That it is calculated to impress the Mind, with an idea of premeditated injustice in the Sovereign power of the United States, and rouse all those resentments which must unavoidably flow from such a belief.",
+              "word_offset_start": 234,
+              "word_offset_end": 269,
+              "char_offset_start": 1358,
+              "char_offset_end": 1564,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "am-rev-washington-newburgh-address_s01_p09",
+          "paragraph_ordinal": 9,
+          "sentences": [
+            {
+              "sentence_id": "am-rev-washington-newburgh-address_s01_p09_s01",
+              "sentence_ordinal": 1,
+              "text": "That the secret Mover of this Scheme (whoever he may be) intended to take advantage of the passions, while they were warmed by the recollection of past distresses, without giving time for cool, deliberative thinking, & that composure of Mind which is so necessary to give dignity & stability to measures, is rendered too obvious, by the mode of conducting the business, to need other proof than a reference to the proceeding.",
+              "word_offset_start": 269,
+              "word_offset_end": 341,
+              "char_offset_start": 1566,
+              "char_offset_end": 1991,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "am-rev-washington-newburgh-address_s01_p10",
+          "paragraph_ordinal": 10,
+          "sentences": [
+            {
+              "sentence_id": "am-rev-washington-newburgh-address_s01_p10_s01",
+              "sentence_ordinal": 1,
+              "text": "Thus much, Gentlemen, I have thought it incumbent on me to observe to you, to shew upon what principles I opposed the irregular and hasty meeting which was proposed to have been held on Tuesday last: and not because I wanted a disposition to give you every opportunity, consistent with your own honor, and the dignity of the Army, to make known your grievances.",
+              "word_offset_start": 341,
+              "word_offset_end": 405,
+              "char_offset_start": 1993,
+              "char_offset_end": 2354,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "am-rev-washington-newburgh-address_s01_p11",
+          "paragraph_ordinal": 11,
+          "sentences": [
+            {
+              "sentence_id": "am-rev-washington-newburgh-address_s01_p11_s01",
+              "sentence_ordinal": 1,
+              "text": "If my conduct heretofore, has not evinced to you, that I have been a faithful friend to the Army; my declaration of it at this time wd be equally unavailing & improper--But as I was among the first who embarked in the cause of our common Country--As I have never left your side one moment, but when called from you, on public duty--As I have been the constant companion & witness of your Distresses, and not among the last to feel, & acknowledge your Merits--As I have ever considered my own Military reputation as inseperably connected with that of the Army--As my Heart has ever expanded wth joy, when I have heard its praises--and my indignation has arisen, when the Mouth of detraction has been opened against it--it can scarcely be supposed, at this late stage of the War, that I am indifferent to its interests.",
+              "word_offset_start": 405,
+              "word_offset_end": 551,
+              "char_offset_start": 2356,
+              "char_offset_end": 3173,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "am-rev-washington-newburgh-address_s01_p12",
+          "paragraph_ordinal": 12,
+          "sentences": [
+            {
+              "sentence_id": "am-rev-washington-newburgh-address_s01_p12_s01",
+              "sentence_ordinal": 1,
+              "text": "But--how are they to be promoted?",
+              "word_offset_start": 551,
+              "word_offset_end": 557,
+              "char_offset_start": 3175,
+              "char_offset_end": 3208,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "am-rev-washington-newburgh-address_s01_p12_s02",
+              "sentence_ordinal": 2,
+              "text": "The way is plain, says the anonymous Addresser--If War continues, remove into the unsettled Country--there establish yourselves, and leave an ungrateful Country to defend itself--But who are they to defend?",
+              "word_offset_start": 557,
+              "word_offset_end": 587,
+              "char_offset_start": 3209,
+              "char_offset_end": 3415,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "am-rev-washington-newburgh-address_s01_p12_s03",
+              "sentence_ordinal": 3,
+              "text": "Our Wives, our Children, our Farms and other property which we leave behind us.",
+              "word_offset_start": 587,
+              "word_offset_end": 601,
+              "char_offset_start": 3416,
+              "char_offset_end": 3495,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "am-rev-washington-newburgh-address_s01_p13",
+          "paragraph_ordinal": 13,
+          "sentences": [
+            {
+              "sentence_id": "am-rev-washington-newburgh-address_s01_p13_s01",
+              "sentence_ordinal": 1,
+              "text": "or--in this state of hostile seperation, are we to take the two first (the latter cannot be removed) to perish in a Wilderness, with hunger cold & nakedness?",
+              "word_offset_start": 601,
+              "word_offset_end": 629,
+              "char_offset_start": 3497,
+              "char_offset_end": 3654,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "am-rev-washington-newburgh-address_s01_p13_s02",
+              "sentence_ordinal": 2,
+              "text": "If Peace takes place, never sheath your Sword says he untill you have obtained full and ample Justice--this dreadful alternative, of either deserting our Country in the extremest hour of her distress, or turning our Army against it, (which is the apparent object, unless Congress can be compelled into an instant compliance) has something so shocking in it, that humanity revolts at the idea.",
+              "word_offset_start": 629,
+              "word_offset_end": 693,
+              "char_offset_start": 3655,
+              "char_offset_end": 4047,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "am-rev-washington-newburgh-address_s01_p14",
+          "paragraph_ordinal": 14,
+          "sentences": [
+            {
+              "sentence_id": "am-rev-washington-newburgh-address_s01_p14_s01",
+              "sentence_ordinal": 1,
+              "text": "My God!",
+              "word_offset_start": 693,
+              "word_offset_end": 695,
+              "char_offset_start": 4049,
+              "char_offset_end": 4056,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "am-rev-washington-newburgh-address_s01_p14_s02",
+              "sentence_ordinal": 2,
+              "text": "What can this Writer have in view, by recommending such measures?",
+              "word_offset_start": 695,
+              "word_offset_end": 706,
+              "char_offset_start": 4057,
+              "char_offset_end": 4122,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "am-rev-washington-newburgh-address_s01_p14_s03",
+              "sentence_ordinal": 3,
+              "text": "Can he be a friend to the Army?",
+              "word_offset_start": 706,
+              "word_offset_end": 714,
+              "char_offset_start": 4123,
+              "char_offset_end": 4154,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "am-rev-washington-newburgh-address_s01_p14_s04",
+              "sentence_ordinal": 4,
+              "text": "Can he be a friend to this Country?",
+              "word_offset_start": 714,
+              "word_offset_end": 722,
+              "char_offset_start": 4155,
+              "char_offset_end": 4190,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "am-rev-washington-newburgh-address_s01_p14_s05",
+              "sentence_ordinal": 5,
+              "text": "Rather, is he not an insidious Foe?",
+              "word_offset_start": 722,
+              "word_offset_end": 729,
+              "char_offset_start": 4191,
+              "char_offset_end": 4226,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "am-rev-washington-newburgh-address_s01_p14_s06",
+              "sentence_ordinal": 6,
+              "text": "Some Emissary, perhaps, from New York, plotting the ruin of both, by sowing the seeds of discord & seperation between the Civil & Military powers of the Continent?",
+              "word_offset_start": 729,
+              "word_offset_end": 757,
+              "char_offset_start": 4227,
+              "char_offset_end": 4390,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "am-rev-washington-newburgh-address_s01_p14_s07",
+              "sentence_ordinal": 7,
+              "text": "And what a Compliment does he pay to our understandings, when he recommends measures in either alternative, impracticable in their nature?",
+              "word_offset_start": 757,
+              "word_offset_end": 778,
+              "char_offset_start": 4391,
+              "char_offset_end": 4529,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "am-rev-washington-newburgh-address_s01_p15",
+          "paragraph_ordinal": 15,
+          "sentences": [
+            {
+              "sentence_id": "am-rev-washington-newburgh-address_s01_p15_s01",
+              "sentence_ordinal": 1,
+              "text": "But here, Gentlemen, I will drop the curtain; because it wd be as imprudent in me to assign my reasons for this opinion, as it would be insulting to your conception, to suppose you stood in need of them.",
+              "word_offset_start": 778,
+              "word_offset_end": 817,
+              "char_offset_start": 4531,
+              "char_offset_end": 4734,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "am-rev-washington-newburgh-address_s01_p15_s02",
+              "sentence_ordinal": 2,
+              "text": "A moments reflection will convince every dispassionate Mind of the physical impossibility of carrying either proposal into execution.",
+              "word_offset_start": 817,
+              "word_offset_end": 835,
+              "char_offset_start": 4735,
+              "char_offset_end": 4868,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "am-rev-washington-newburgh-address_s01_p16",
+          "paragraph_ordinal": 16,
+          "sentences": [
+            {
+              "sentence_id": "am-rev-washington-newburgh-address_s01_p16_s01",
+              "sentence_ordinal": 1,
+              "text": "There might, Gentlemen, be an impropriety in my taking notice, in this Address to you, of an anonymous production--but the manner in which that performance has been introduced to the Army--the effect it was intended to have, together with some other circumstances, will amply justify my observations on the tendency of that Writing.",
+              "word_offset_start": 835,
+              "word_offset_end": 888,
+              "char_offset_start": 4870,
+              "char_offset_end": 5202,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "am-rev-washington-newburgh-address_s01_p17",
+          "paragraph_ordinal": 17,
+          "sentences": [
+            {
+              "sentence_id": "am-rev-washington-newburgh-address_s01_p17_s01",
+              "sentence_ordinal": 1,
+              "text": "With respect to the advice given by the Author--to suspect the Man, who shall recommend moderate measures and longer forbearance--I spurn it--as every Man, who regards that liberty, & reveres that Justice for which we contend, undoubtedly must--for if Men are to be precluded from offering their sentiments on a matter, which may involve the most serious and alarming consequences, that can invite the consideration of Mankind; reason is of no use to us--the freedom of Speech may be taken away--and, dumb & silent we may be led, like sheep, to the Slaughter.",
+              "word_offset_start": 888,
+              "word_offset_end": 981,
+              "char_offset_start": 5204,
+              "char_offset_end": 5763,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "am-rev-washington-newburgh-address_s01_p18",
+          "paragraph_ordinal": 18,
+          "sentences": [
+            {
+              "sentence_id": "am-rev-washington-newburgh-address_s01_p18_s01",
+              "sentence_ordinal": 1,
+              "text": "I cannot, in justice to my own belief, & what I have great reason to conceive is the intention of Congress, conclude this Address, without giving it as my decided opinion; that that Honble Body, entertain exalted sentiments of the Services of the Army; and, from a full conviction of its Merits & sufferings, will do it compleat Justice: That their endeavors, to discover & establish funds for this purpose, have been unwearied, and will not cease, till they have succeeded, I have not a doubt.",
+              "word_offset_start": 981,
+              "word_offset_end": 1067,
+              "char_offset_start": 5765,
+              "char_offset_end": 6259,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "am-rev-washington-newburgh-address_s01_p19",
+          "paragraph_ordinal": 19,
+          "sentences": [
+            {
+              "sentence_id": "am-rev-washington-newburgh-address_s01_p19_s01",
+              "sentence_ordinal": 1,
+              "text": "But, like all other large Bodies, where there is a variety of different Interests to reconcile, their deliberations are slow.",
+              "word_offset_start": 1067,
+              "word_offset_end": 1087,
+              "char_offset_start": 6261,
+              "char_offset_end": 6386,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "am-rev-washington-newburgh-address_s01_p20",
+          "paragraph_ordinal": 20,
+          "sentences": [
+            {
+              "sentence_id": "am-rev-washington-newburgh-address_s01_p20_s01",
+              "sentence_ordinal": 1,
+              "text": "Why then should we distrust them? and, in consequence of that distrust, adopt measures, which may cast a shade over that glory which, has been so justly acquired; and tarnish the reputation of an Army which is celebrated thro' all Europe, for its fortitude and Patriotism? and for what is this done? to bring the object we seek for nearer?",
+              "word_offset_start": 1087,
+              "word_offset_end": 1147,
+              "char_offset_start": 6388,
+              "char_offset_end": 6727,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "am-rev-washington-newburgh-address_s01_p20_s02",
+              "sentence_ordinal": 2,
+              "text": "No! most certainly, in my opinion, it will cast it at a greater distance.",
+              "word_offset_start": 1147,
+              "word_offset_end": 1161,
+              "char_offset_start": 6728,
+              "char_offset_end": 6801,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "am-rev-washington-newburgh-address_s01_p21",
+          "paragraph_ordinal": 21,
+          "sentences": [
+            {
+              "sentence_id": "am-rev-washington-newburgh-address_s01_p21_s01",
+              "sentence_ordinal": 1,
+              "text": "For myself (and I take no merit in giving the assurance, being induced to it from principles of gratitude, veracity & justice)--a grateful sence of the confidence you have ever placed in me--a recollection of the Chearful assistance, & prompt obedience I have experienced from you, under every vicisitude of Fortune, and the sincere affection I feel for an Army, I have so long had the honor to Command, will oblige me to declare, in this public & solemn manner, that, in the attainment of compleat justice for all your toils & dangers, and in the gratification of every wish, so far as may be done consistently with the great duty I owe my Country, and those powers we are bound to respect, you may freely command my services to the utmost of my abilities.",
+              "word_offset_start": 1161,
+              "word_offset_end": 1296,
+              "char_offset_start": 6803,
+              "char_offset_end": 7560,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "am-rev-washington-newburgh-address_s01_p22",
+          "paragraph_ordinal": 22,
+          "sentences": [
+            {
+              "sentence_id": "am-rev-washington-newburgh-address_s01_p22_s01",
+              "sentence_ordinal": 1,
+              "text": "While I give you these assurances, and pledge my self in the most unequivocal manner, to exert whatever ability I am possesed of, in your favor--let me entreat you, Gentlemen, on your part, not to take any measures, which, viewed in the calm light of reason, will lessen the dignity, & sully the glory you have hitherto maintained--let me request you to rely on the plighted faith of your Country, and place a full confidence in the purity of the intentions of Congress; that, previous to your dissolution as an Army they will cause all your Accts to be fairly liquidated, as directed in their resolutions, which were published to you two days ago--and that they will adopt the most effectual measures in their power, to render ample justice to you, for your faithful and meritorious Services.",
+              "word_offset_start": 1296,
+              "word_offset_end": 1433,
+              "char_offset_start": 7562,
+              "char_offset_end": 8355,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "am-rev-washington-newburgh-address_s01_p23",
+          "paragraph_ordinal": 23,
+          "sentences": [
+            {
+              "sentence_id": "am-rev-washington-newburgh-address_s01_p23_s01",
+              "sentence_ordinal": 1,
+              "text": "And let me conjure you, in the name of our common Country--as you value your own sacred honor--as you respect the rights of humanity, & as you regard the Military & national character of America, to express your utmost horror & detestation of the Man who wishes, under any specious pretences, to overturn the liberties of our Country, & who wickedly attempts to open the flood Gates of Civil discord, & deluge our rising Empire in Blood.",
+              "word_offset_start": 1433,
+              "word_offset_end": 1510,
+              "char_offset_start": 8357,
+              "char_offset_end": 8794,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "am-rev-washington-newburgh-address_s01_p24",
+          "paragraph_ordinal": 24,
+          "sentences": [
+            {
+              "sentence_id": "am-rev-washington-newburgh-address_s01_p24_s01",
+              "sentence_ordinal": 1,
+              "text": "By thus determining--& thus acting, you will pursue the plain & direct Road to the attainment of your wishes.",
+              "word_offset_start": 1510,
+              "word_offset_end": 1529,
+              "char_offset_start": 8796,
+              "char_offset_end": 8905,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "am-rev-washington-newburgh-address_s01_p24_s02",
+              "sentence_ordinal": 2,
+              "text": "You will defeat the insidious designs of our Enemies, who are compelled to resort from open force to secret Artifice.",
+              "word_offset_start": 1529,
+              "word_offset_end": 1549,
+              "char_offset_start": 8906,
+              "char_offset_end": 9023,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "am-rev-washington-newburgh-address_s01_p25",
+          "paragraph_ordinal": 25,
+          "sentences": [
+            {
+              "sentence_id": "am-rev-washington-newburgh-address_s01_p25_s01",
+              "sentence_ordinal": 1,
+              "text": "You will give one more distinguished proof of unexampled patriotism & patient virtue, rising superior to the pressure of the most complicated sufferings; And you will, by the dignity of your Conduct, afford occasion for Posterity to say, when speaking of the glorious example you have exhibited to man kind, \"had this day been wanting, the World had never seen the last stage of perfection to which human nature is capable of attaining.\"",
+              "word_offset_start": 1549,
+              "word_offset_end": 1622,
+              "char_offset_start": 9025,
+              "char_offset_end": 9462,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "am-rev-washington-newburgh-address_s01_p26",
+          "paragraph_ordinal": 26,
+          "sentences": [
+            {
+              "sentence_id": "am-rev-washington-newburgh-address_s01_p26_s01",
+              "sentence_ordinal": 1,
+              "text": "Go: Washington",
+              "word_offset_start": 1622,
+              "word_offset_end": 1624,
+              "char_offset_start": 9464,
+              "char_offset_end": 9478,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "am-rev-washington-newburgh-address_s01_p27",
+          "paragraph_ordinal": 27,
+          "sentences": [
+            {
+              "sentence_id": "am-rev-washington-newburgh-address_s01_p27_s01",
+              "sentence_ordinal": 1,
+              "text": "To the General, Field, & other Officers Assembled at the New Building pursuant to the General Order of the 11th Instant March.",
+              "word_offset_start": 1624,
+              "word_offset_end": 1646,
+              "char_offset_start": 9480,
+              "char_offset_end": 9606,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "pipeline_log": [
+    {
+      "stage": "segment-texts",
+      "script": "scripts/segment-texts.py",
+      "generated_at": "2026-06-28T02:11:36",
+      "sentence_count": 40
+    }
+  ]
+}

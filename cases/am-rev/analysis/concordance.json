@@ -1,22 +1,24 @@
 {
   "version": "1.0",
   "case_id": "am-rev",
-  "generated_at": "2026-06-17T17:38:36",
+  "generated_at": "2026-06-28T02:11:36",
   "status": "complete",
   "mipvu_profile": {
-    "mipvu_files": 9,
-    "total_lexical_units": 31594,
+    "mipvu_files": 11,
+    "total_lexical_units": 34890,
     "reviewed_lexical_units": 23099,
-    "pending_lexical_units": 8495,
+    "pending_lexical_units": 11791,
     "confirmed_metaphor_units": 120,
     "metaphor_or_uncertain_units": 122,
-    "metaphor_rate_confirmed": 0.0038,
-    "metaphor_rate_including_uncertain": 0.0039,
+    "metaphor_rate_confirmed": 0.0034,
+    "metaphor_rate_including_uncertain": 0.0035,
     "reviewed_metaphor_rate_confirmed": 0.0052,
     "reviewed_metaphor_rate_including_uncertain": 0.0053,
     "by_document": {
       "am-rev-paine-common-sense": 21760,
       "am-rev-washington-orders-1783-06-08": 4143,
+      "am-rev-washington-newburgh-address": 1650,
+      "am-rev-jefferson-rough-draft": 1646,
       "am-rev-washington-orders-1783-06-17": 1615,
       "am-rev-jefferson-declaration": 1337,
       "am-rev-washington-orders-1775-07-04": 870,
@@ -29,21 +31,23 @@
       "political-pamphlet": 21760,
       "military-general-orders": 4354,
       "military-circular-letter": 4143,
+      "military-political address": 1650,
+      "draft declaration": 1646,
       "political-declaration": 1337
     },
     "by_language": {
-      "en": 31594
+      "en": 34890
     },
     "by_decision_type": {
       "non_metaphor": 22977,
-      "pending": 8495,
+      "pending": 11791,
       "mipvu_indirect": 79,
       "mipvu_direct": 31,
       "mipvu_personification": 10,
       "uncertain": 2
     },
     "by_confidence": {
-      "missing": 31472,
+      "missing": 34768,
       "medium": 120,
       "low": 2
     }
@@ -2375,7 +2379,7 @@
       "stage": "build-concordance",
       "script": "scripts/build-concordance.py",
       "annotated_files": 2,
-      "generated_at": "2026-06-17T17:38:36"
+      "generated_at": "2026-06-28T02:11:37"
     }
   ]
 }
