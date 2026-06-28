@@ -5,6 +5,7 @@ Handles:
   - Project Gutenberg plain-text downloads (lincoln, am-rev paine/declaration)
   - Gallica texteBrut OCR downloads (napoleon bulletins)
   - Archive.org djvu text downloads (hitler mein kampf chapters)
+  - Case-specific extracted sections (fr-rev, wwi-britain)
 
 Does NOT handle:
   - Founders Online (JS-rendered — use corpus-download skill with Playwright)
@@ -60,6 +61,8 @@ def classify(case_id: str, doc: dict) -> str:
 
     if case_id == "fr-rev" and doc_id in FR_REV_EXTRACTED_DOCS:
         return "custom-extractor"
+    if case_id == "wwi-britain" and doc_id in WWI_BRITAIN_EXTRACTED_DOCS:
+        return "custom-extractor"
     if case_id == "hitler" and doc_id in MK_CHAPTERS:
         return "archive-org"
     if "gutenberg.org" in url:
@@ -91,6 +94,13 @@ GUTENBERG_URLS: dict[str, str] = {
 FR_REV_EXTRACTED_DOCS = {
     "fr-rev-robespierre-political-morality",
     "fr-rev-robespierre-religious-moral-ideas",
+}
+
+WWI_BRITAIN_EXTRACTED_DOCS = {
+    "wwi-britain-lloyd-george-through-terror-to-triumph",
+    "wwi-britain-lloyd-george-winning-this-war",
+    "wwi-britain-lloyd-george-entry-america",
+    "wwi-britain-lloyd-george-causes-aims-war",
 }
 
 ARCHIVES_GOV_URLS: dict[str, str] = {
@@ -751,12 +761,17 @@ def main() -> int:
 
         if strategy == "custom-extractor":
             actual_url = extract_raw_provenance_url(out_path) or doc.get("source_url", "")
+            reason = "run the case-specific extraction script to regenerate selected source sections"
+            if cid == "fr-rev":
+                reason = "run scripts/extract-fr-rev-speeches.py to regenerate selected Gutenberg sections"
+            elif cid == "wwi-britain":
+                reason = "run scripts/extract-wwi-britain-speeches.py to regenerate selected Internet Archive OCR sections"
             result = {
                 "case": cid,
                 "document_id": doc_id,
                 "strategy": "custom-extractor",
                 "status": "skipped",
-                "reason": "run scripts/extract-fr-rev-speeches.py to regenerate selected Gutenberg sections",
+                "reason": reason,
             }
             if actual_url:
                 result["source_url"] = actual_url

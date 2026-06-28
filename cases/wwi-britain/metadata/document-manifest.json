@@ -1,0 +1,121 @@
+{
+  "status": "draft",
+  "documents": [
+    {
+      "document_id": "wwi-britain-lloyd-george-through-terror-to-triumph",
+      "title": "Through Terror to Triumph!",
+      "short_title": "Through Terror to Triumph",
+      "date": "1914-09-19",
+      "date_precision": "day",
+      "register": "wartime public speech",
+      "authorship": "David Lloyd George",
+      "source_url": "https://archive.org/details/throughterrortot00lloyuoft",
+      "source_citation": "Lloyd George, David. Through Terror to Triumph: Speeches and Pronouncements of the Right Hon. David Lloyd George, M.P., Since the Beginning of the War. 1915. Internet Archive.",
+      "rights_status": "public-domain",
+      "expected_raw_path": "corpus/raw/wwi-britain-src-01-through-terror-to-triumph/wwi-britain-lloyd-george-through-terror-to-triumph.txt",
+      "analytical_priority": "primary",
+      "phase": "early-war-justification",
+      "source_language": "en",
+      "annotation_language_policy": "source-language",
+      "risk_flags": [
+        "ocr-review-required",
+        "source-edition-verification"
+      ],
+      "verification": {
+        "min_words": 5000,
+        "required_phrases": [
+          "THROUGH  TERROR",
+          "Belgium",
+          "Sacrifice"
+        ]
+      }
+    },
+    {
+      "document_id": "wwi-britain-lloyd-george-winning-this-war",
+      "title": "Winning This War",
+      "short_title": "Winning This War",
+      "date": "1916-05-06",
+      "date_precision": "day",
+      "register": "constituency wartime speech",
+      "authorship": "David Lloyd George",
+      "source_url": "https://archive.org/details/greatcrusadeextr00lloy",
+      "source_citation": "Lloyd George, David. The Great Crusade: Extracts from Speeches Delivered During the War. 1918. Internet Archive.",
+      "rights_status": "public-domain",
+      "expected_raw_path": "corpus/raw/wwi-britain-src-02-great-crusade/wwi-britain-lloyd-george-winning-this-war.txt",
+      "analytical_priority": "primary",
+      "phase": "munition-mobilization",
+      "source_language": "en",
+      "annotation_language_policy": "source-language",
+      "risk_flags": [
+        "ocr-review-required",
+        "source-edition-verification"
+      ],
+      "verification": {
+        "min_words": 4200,
+        "required_phrases": [
+          "WINNING  THIS  WAR",
+          "unity",
+          "munitions"
+        ]
+      }
+    },
+    {
+      "document_id": "wwi-britain-lloyd-george-entry-america",
+      "title": "Entry of America into the War",
+      "short_title": "Entry of America",
+      "date": "1917-04-12",
+      "date_precision": "day",
+      "register": "coalition and alliance speech",
+      "authorship": "David Lloyd George",
+      "source_url": "https://archive.org/details/greatcrusadeextr00lloy",
+      "source_citation": "Lloyd George, David. The Great Crusade: Extracts from Speeches Delivered During the War. 1918. Internet Archive.",
+      "rights_status": "public-domain",
+      "expected_raw_path": "corpus/raw/wwi-britain-src-02-great-crusade/wwi-britain-lloyd-george-entry-america.txt",
+      "analytical_priority": "primary",
+      "phase": "coalition-war",
+      "source_language": "en",
+      "annotation_language_policy": "source-language",
+      "risk_flags": [
+        "ocr-review-required",
+        "source-edition-verification"
+      ],
+      "verification": {
+        "min_words": 2700,
+        "required_phrases": [
+          "ENTRY  OF  AMERICA",
+          "liberty",
+          "America"
+        ]
+      }
+    },
+    {
+      "document_id": "wwi-britain-lloyd-george-causes-aims-war",
+      "title": "Restatement of the Causes and Aims of the War",
+      "short_title": "Causes and Aims",
+      "date": "1917-06-29",
+      "date_precision": "day",
+      "register": "war-aims speech",
+      "authorship": "David Lloyd George",
+      "source_url": "https://archive.org/details/greatcrusadeextr00lloy",
+      "source_citation": "Lloyd George, David. The Great Crusade: Extracts from Speeches Delivered During the War. 1918. Internet Archive.",
+      "rights_status": "public-domain",
+      "expected_raw_path": "corpus/raw/wwi-britain-src-02-great-crusade/wwi-britain-lloyd-george-causes-aims-war.txt",
+      "analytical_priority": "primary",
+      "phase": "war-aims",
+      "source_language": "en",
+      "annotation_language_policy": "source-language",
+      "risk_flags": [
+        "ocr-review-required",
+        "source-edition-verification"
+      ],
+      "verification": {
+        "min_words": 6000,
+        "required_phrases": [
+          "RESTATEMENT  OF",
+          "justice",
+          "Belgium"
+        ]
+      }
+    }
+  ]
+}

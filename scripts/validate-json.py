@@ -172,6 +172,7 @@ PUBLIC_SITE_CASE_IDENTIFIERS = {
     "hitler": ("hitler", "Hitler"),
     "lincoln": ("lincoln", "Lincoln"),
     "napoleon": ("napoleon", "Napoleon"),
+    "wwi-britain": ("wwi-britain", "British World War I", "Lloyd George"),
 }
 
 PUBLIC_SITE_CASE_PAGE_PATTERNS = (

@@ -1,0 +1,2395 @@
+{
+  "case_id": "wwi-britain",
+  "document_id": "wwi-britain-lloyd-george-entry-america",
+  "meta": {
+    "document_id": "wwi-britain-lloyd-george-entry-america",
+    "title": "Entry of America into the War",
+    "short_title": "Entry of America",
+    "date": "1917-04-12",
+    "date_precision": "day",
+    "register": "coalition and alliance speech",
+    "authorship": "David Lloyd George",
+    "source_url": "https://archive.org/details/greatcrusadeextr00lloy",
+    "source_citation": "Lloyd George, David. The Great Crusade: Extracts from Speeches Delivered During the War. 1918. Internet Archive.",
+    "rights_status": "public-domain",
+    "expected_raw_path": "corpus/raw/wwi-britain-src-02-great-crusade/wwi-britain-lloyd-george-entry-america.txt",
+    "analytical_priority": "primary",
+    "phase": "coalition-war",
+    "source_language": "en",
+    "annotation_language_policy": "source-language",
+    "risk_flags": [
+      "ocr-review-required",
+      "source-edition-verification"
+    ],
+    "verification": {
+      "min_words": 2700,
+      "required_phrases": [
+        "ENTRY  OF  AMERICA",
+        "liberty",
+        "America"
+      ]
+    },
+    "case_id": "wwi-britain",
+    "raw_path": "corpus/raw/wwi-britain-src-02-great-crusade/wwi-britain-lloyd-george-entry-america.txt",
+    "pipeline_log": [
+      {
+        "stage": "normalize-texts",
+        "script": "scripts/normalize-texts.py",
+        "generated_at": "2026-06-28T01:20:58"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "section_id": "wwi-britain-lloyd-george-entry-america_s01",
+      "section_label": "body",
+      "section_ordinal": 1,
+      "paragraphs": [
+        {
+          "paragraph_id": "wwi-britain-lloyd-george-entry-america_s01_p01",
+          "paragraph_ordinal": 1,
+          "sentences": [
+            {
+              "sentence_id": "wwi-britain-lloyd-george-entry-america_s01_p01_s01",
+              "sentence_ordinal": 1,
+              "text": "ENTRY OF AMERICA INTO THE WAR.",
+              "word_offset_start": 0,
+              "word_offset_end": 6,
+              "char_offset_start": 0,
+              "char_offset_end": 30,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "wwi-britain-lloyd-george-entry-america_s01_p02",
+          "paragraph_ordinal": 2,
+          "sentences": [
+            {
+              "sentence_id": "wwi-britain-lloyd-george-entry-america_s01_p02_s01",
+              "sentence_ordinal": 1,
+              "text": "SPEECH DELIVERED AT THE AMERICAN LUNCHEON CLUB",
+              "word_offset_start": 6,
+              "word_offset_end": 13,
+              "char_offset_start": 30,
+              "char_offset_end": 76,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "wwi-britain-lloyd-george-entry-america_s01_p03",
+          "paragraph_ordinal": 3,
+          "sentences": [
+            {
+              "sentence_id": "wwi-britain-lloyd-george-entry-america_s01_p03_s01",
+              "sentence_ordinal": 1,
+              "text": "(savoy hotel), APRIL 12th, 1917.",
+              "word_offset_start": 13,
+              "word_offset_end": 18,
+              "char_offset_start": 76,
+              "char_offset_end": 108,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "wwi-britain-lloyd-george-entry-america_s01_p04",
+          "paragraph_ordinal": 4,
+          "sentences": [
+            {
+              "sentence_id": "wwi-britain-lloyd-george-entry-america_s01_p04_s01",
+              "sentence_ordinal": 1,
+              "text": "I AM in the happy position, I think, of being the first British Minister of the CroA\\Ti who, speak- ing on behalf of the people of this country, can salute the American nation as comrades in arms.",
+              "word_offset_start": 18,
+              "word_offset_end": 55,
+              "char_offset_start": 108,
+              "char_offset_end": 304,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-entry-america_s01_p04_s02",
+              "sentence_ordinal": 2,
+              "text": "I am glad.",
+              "word_offset_start": 55,
+              "word_offset_end": 58,
+              "char_offset_start": 304,
+              "char_offset_end": 314,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-entry-america_s01_p04_s03",
+              "sentence_ordinal": 3,
+              "text": "I am proud.",
+              "word_offset_start": 58,
+              "word_offset_end": 61,
+              "char_offset_start": 314,
+              "char_offset_end": 325,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-entry-america_s01_p04_s04",
+              "sentence_ordinal": 4,
+              "text": "I am glad not merely be- cause of the stupendous resources which this great nation can bring to the succour of the Al- liance, but I rejoice as a Democrat that the ad- vent of the United States into this war gives the final stamp and seal to the character of the con- flict as a struggle against military autocracy throughout the world.",
+              "word_offset_start": 61,
+              "word_offset_end": 124,
+              "char_offset_start": 325,
+              "char_offset_end": 661,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "wwi-britain-lloyd-george-entry-america_s01_p05",
+          "paragraph_ordinal": 5,
+          "sentences": [
+            {
+              "sentence_id": "wwi-britain-lloyd-george-entry-america_s01_p05_s01",
+              "sentence_ordinal": 1,
+              "text": "'■b",
+              "word_offset_start": 124,
+              "word_offset_end": 125,
+              "char_offset_start": 790,
+              "char_offset_end": 793,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "wwi-britain-lloyd-george-entry-america_s01_p06",
+          "paragraph_ordinal": 6,
+          "sentences": [
+            {
+              "sentence_id": "wwi-britain-lloyd-george-entry-america_s01_p06_s01",
+              "sentence_ordinal": 1,
+              "text": "^'A Fight for Human Liberty.*'",
+              "word_offset_start": 125,
+              "word_offset_end": 130,
+              "char_offset_start": 793,
+              "char_offset_end": 823,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "wwi-britain-lloyd-george-entry-america_s01_p07",
+          "paragraph_ordinal": 7,
+          "sentences": [
+            {
+              "sentence_id": "wwi-britain-lloyd-george-entry-america_s01_p07_s01",
+              "sentence_ordinal": 1,
+              "text": "That was the note that rang through the great deliverance of President Wilson.",
+              "word_offset_start": 130,
+              "word_offset_end": 143,
+              "char_offset_start": 823,
+              "char_offset_end": 901,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-entry-america_s01_p07_s02",
+              "sentence_ordinal": 2,
+              "text": "It was echoed in your resounding words to-day, Sir.",
+              "word_offset_start": 143,
+              "word_offset_end": 152,
+              "char_offset_start": 901,
+              "char_offset_end": 952,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-entry-america_s01_p07_s03",
+              "sentence_ordinal": 3,
+              "text": "The United States of America have a noble tradi- tion, never broken, of having never engaged in a war except for liberty, and this is the greatest struggle for liberty they have ever embarked upon.",
+              "word_offset_start": 152,
+              "word_offset_end": 187,
+              "char_offset_start": 952,
+              "char_offset_end": 1149,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-entry-america_s01_p07_s04",
+              "sentence_ordinal": 4,
+              "text": "I am not at all surprised, when one recol-",
+              "word_offset_start": 187,
+              "word_offset_end": 196,
+              "char_offset_start": 1149,
+              "char_offset_end": 1191,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "wwi-britain-lloyd-george-entry-america_s01_p08",
+          "paragraph_ordinal": 8,
+          "sentences": [
+            {
+              "sentence_id": "wwi-britain-lloyd-george-entry-america_s01_p08_s01",
+              "sentence_ordinal": 1,
+              "text": "119",
+              "word_offset_start": 196,
+              "word_offset_end": 197,
+              "char_offset_start": 1264,
+              "char_offset_end": 1267,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "wwi-britain-lloyd-george-entry-america_s01_p09",
+          "paragraph_ordinal": 9,
+          "sentences": [
+            {
+              "sentence_id": "wwi-britain-lloyd-george-entry-america_s01_p09_s01",
+              "sentence_ordinal": 1,
+              "text": "120 THE GREAT CRUSADE",
+              "word_offset_start": 197,
+              "word_offset_end": 201,
+              "char_offset_start": 1267,
+              "char_offset_end": 1288,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "wwi-britain-lloyd-george-entry-america_s01_p10",
+          "paragraph_ordinal": 10,
+          "sentences": [
+            {
+              "sentence_id": "wwi-britain-lloyd-george-entry-america_s01_p10_s01",
+              "sentence_ordinal": 1,
+              "text": "lects the wars of the past, that America took its time to make up its mind about the character of this struggle.",
+              "word_offset_start": 201,
+              "word_offset_end": 223,
+              "char_offset_start": 1288,
+              "char_offset_end": 1400,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-entry-america_s01_p10_s02",
+              "sentence_ordinal": 2,
+              "text": "In Europe most of the great wars of the past were waged for dynastic aggrandise- ments and for conquest.",
+              "word_offset_start": 223,
+              "word_offset_end": 242,
+              "char_offset_start": 1400,
+              "char_offset_end": 1504,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-entry-america_s01_p10_s03",
+              "sentence_ordinal": 3,
+              "text": "No wonder that when this great war started there were some elements of suspicion still lurking in the minds of the peo- ple of the United States of America.",
+              "word_offset_start": 242,
+              "word_offset_end": 271,
+              "char_offset_start": 1504,
+              "char_offset_end": 1660,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-entry-america_s01_p10_s04",
+              "sentence_ordinal": 4,
+              "text": "There were many who thought, perhaps, that kings were at their old tricks, and although they saw the gal- lant Republic of France fighting, some of them perhaps, regarded France as the poor victim of conspiracy and of monarchical swashbucklers.",
+              "word_offset_start": 271,
+              "word_offset_end": 311,
+              "char_offset_start": 1660,
+              "char_offset_end": 1904,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-entry-america_s01_p10_s05",
+              "sentence_ordinal": 5,
+              "text": "The fact that the United States of America has made up its mind finally makes it abundantly clear to the world that this is no struggle of that character, but a great fight for human liberty.",
+              "word_offset_start": 311,
+              "word_offset_end": 347,
+              "char_offset_start": 1904,
+              "char_offset_end": 2095,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "wwi-britain-lloyd-george-entry-america_s01_p11",
+          "paragraph_ordinal": 11,
+          "sentences": [
+            {
+              "sentence_id": "wwi-britain-lloyd-george-entry-america_s01_p11_s01",
+              "sentence_ordinal": 1,
+              "text": "The Prussian Military Caste.",
+              "word_offset_start": 347,
+              "word_offset_end": 351,
+              "char_offset_start": 2095,
+              "char_offset_end": 2123,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "wwi-britain-lloyd-george-entry-america_s01_p12",
+          "paragraph_ordinal": 12,
+          "sentences": [
+            {
+              "sentence_id": "wwi-britain-lloyd-george-entry-america_s01_p12_s01",
+              "sentence_ordinal": 1,
+              "text": "They naturally did not know at first what we had endured in Europe for years from this mili- tary caste in Prussia.",
+              "word_offset_start": 351,
+              "word_offset_end": 373,
+              "char_offset_start": 2123,
+              "char_offset_end": 2238,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-entry-america_s01_p12_s02",
+              "sentence_ordinal": 2,
+              "text": "It never reached as far as the United States of America.",
+              "word_offset_start": 373,
+              "word_offset_end": 384,
+              "char_offset_start": 2238,
+              "char_offset_end": 2294,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-entry-america_s01_p12_s03",
+              "sentence_ordinal": 3,
+              "text": "Prussia is not a democracy, but the Kaiser promises it will be a democracy after the war.",
+              "word_offset_start": 384,
+              "word_offset_end": 401,
+              "char_offset_start": 2294,
+              "char_offset_end": 2383,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-entry-america_s01_p12_s04",
+              "sentence_ordinal": 4,
+              "text": "I think he is right.",
+              "word_offset_start": 401,
+              "word_offset_end": 406,
+              "char_offset_start": 2383,
+              "char_offset_end": 2403,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-entry-america_s01_p12_s05",
+              "sentence_ordinal": 5,
+              "text": "But Prussia not merely was not a democracy; Prussia was not a State.",
+              "word_offset_start": 406,
+              "word_offset_end": 419,
+              "char_offset_start": 2403,
+              "char_offset_end": 2471,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-entry-america_s01_p12_s06",
+              "sentence_ordinal": 6,
+              "text": "Prussia was an army.",
+              "word_offset_start": 419,
+              "word_offset_end": 423,
+              "char_offset_start": 2471,
+              "char_offset_end": 2491,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-entry-america_s01_p12_s07",
+              "sentence_ordinal": 7,
+              "text": "It had great industries, highly developed.",
+              "word_offset_start": 423,
+              "word_offset_end": 429,
+              "char_offset_start": 2491,
+              "char_offset_end": 2533,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-entry-america_s01_p12_s08",
+              "sentence_ordinal": 8,
+              "text": "It had a great educational system.",
+              "word_offset_start": 429,
+              "word_offset_end": 435,
+              "char_offset_start": 2533,
+              "char_offset_end": 2567,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-entry-america_s01_p12_s09",
+              "sentence_ordinal": 9,
+              "text": "It had its universi- ties.",
+              "word_offset_start": 435,
+              "word_offset_end": 440,
+              "char_offset_start": 2567,
+              "char_offset_end": 2593,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-entry-america_s01_p12_s10",
+              "sentence_ordinal": 10,
+              "text": "It developed its sciences.",
+              "word_offset_start": 440,
+              "word_offset_end": 444,
+              "char_offset_start": 2593,
+              "char_offset_end": 2619,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-entry-america_s01_p12_s11",
+              "sentence_ordinal": 11,
+              "text": "But all these were subordinate to the one great predominant",
+              "word_offset_start": 444,
+              "word_offset_end": 454,
+              "char_offset_start": 2619,
+              "char_offset_end": 2678,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "wwi-britain-lloyd-george-entry-america_s01_p13",
+          "paragraph_ordinal": 13,
+          "sentences": [
+            {
+              "sentence_id": "wwi-britain-lloyd-george-entry-america_s01_p13_s01",
+              "sentence_ordinal": 1,
+              "text": "AMERICA AND THE WAR 121",
+              "word_offset_start": 454,
+              "word_offset_end": 459,
+              "char_offset_start": 2678,
+              "char_offset_end": 2701,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "wwi-britain-lloyd-george-entry-america_s01_p14",
+          "paragraph_ordinal": 14,
+          "sentences": [
+            {
+              "sentence_id": "wwi-britain-lloyd-george-entry-america_s01_p14_s01",
+              "sentence_ordinal": 1,
+              "text": "purpose of an all-conquering army which was to intimidate the world.",
+              "word_offset_start": 459,
+              "word_offset_end": 470,
+              "char_offset_start": 2701,
+              "char_offset_end": 2769,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-entry-america_s01_p14_s02",
+              "sentence_ordinal": 2,
+              "text": "The army was the spear- point of Prussia; the rest was merely the shaft.",
+              "word_offset_start": 470,
+              "word_offset_end": 484,
+              "char_offset_start": 2769,
+              "char_offset_end": 2841,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "wwi-britain-lloyd-george-entry-america_s01_p15",
+          "paragraph_ordinal": 15,
+          "sentences": [
+            {
+              "sentence_id": "wwi-britain-lloyd-george-entry-america_s01_p15_s01",
+              "sentence_ordinal": 1,
+              "text": "That is what we had to deal with in these old countries.",
+              "word_offset_start": 484,
+              "word_offset_end": 496,
+              "char_offset_start": 2841,
+              "char_offset_end": 2897,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-entry-america_s01_p15_s02",
+              "sentence_ordinal": 2,
+              "text": "It got on the neiwes of Europe.",
+              "word_offset_start": 496,
+              "word_offset_end": 503,
+              "char_offset_start": 2897,
+              "char_offset_end": 2928,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-entry-america_s01_p15_s03",
+              "sentence_ordinal": 3,
+              "text": "We knew what it all meant.",
+              "word_offset_start": 503,
+              "word_offset_end": 509,
+              "char_offset_start": 2928,
+              "char_offset_end": 2954,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-entry-america_s01_p15_s04",
+              "sentence_ordinal": 4,
+              "text": "The Prussian Army in recent times had waged three wars — all for con- quest.",
+              "word_offset_start": 509,
+              "word_offset_end": 524,
+              "char_offset_start": 2954,
+              "char_offset_end": 3030,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-entry-america_s01_p15_s05",
+              "sentence_ordinal": 5,
+              "text": "And the incessant tramping of its legions through the streets of Prussia and on the parade grounds of Prussia had got into the Prussian head.",
+              "word_offset_start": 524,
+              "word_offset_end": 549,
+              "char_offset_start": 3030,
+              "char_offset_end": 3171,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-entry-america_s01_p15_s06",
+              "sentence_ordinal": 6,
+              "text": "The Kaiser, when he witnessed it on a grand scale in his reviews, got drunk with the sound of it.",
+              "word_offset_start": 549,
+              "word_offset_end": 569,
+              "char_offset_start": 3171,
+              "char_offset_end": 3268,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-entry-america_s01_p15_s07",
+              "sentence_ordinal": 7,
+              "text": "He delivered the law to the world, as though Potsdam were a new Sinai and he were uttering the law from the thundercloud.",
+              "word_offset_start": 569,
+              "word_offset_end": 592,
+              "char_offset_start": 3268,
+              "char_offset_end": 3389,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-entry-america_s01_p15_s08",
+              "sentence_ordinal": 8,
+              "text": "But make no mistake; Europe was uneasy.",
+              "word_offset_start": 592,
+              "word_offset_end": 599,
+              "char_offset_start": 3389,
+              "char_offset_end": 3428,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-entry-america_s01_p15_s09",
+              "sentence_ordinal": 9,
+              "text": "Europe was half intimidated; Europe was anxious; Europe was apprehensive.",
+              "word_offset_start": 599,
+              "word_offset_end": 609,
+              "char_offset_start": 3428,
+              "char_offset_end": 3501,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-entry-america_s01_p15_s10",
+              "sentence_ordinal": 10,
+              "text": "We knew the whole time what it meant.",
+              "word_offset_start": 609,
+              "word_offset_end": 617,
+              "char_offset_start": 3501,
+              "char_offset_end": 3538,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-entry-america_s01_p15_s11",
+              "sentence_ordinal": 11,
+              "text": "What we did not know was the moment it would come.",
+              "word_offset_start": 617,
+              "word_offset_end": 628,
+              "char_offset_start": 3538,
+              "char_offset_end": 3588,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-entry-america_s01_p15_s12",
+              "sentence_ordinal": 12,
+              "text": "This is the menace, this is the oppression, from which Europe has suffered for fifty years.",
+              "word_offset_start": 628,
+              "word_offset_end": 644,
+              "char_offset_start": 3588,
+              "char_offset_end": 3679,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-entry-america_s01_p15_s13",
+              "sentence_ordinal": 13,
+              "text": "It paralysed the benef- icent activities of all States, which ought to have been devoted to, and concentrated upon, the well- being of their people.",
+              "word_offset_start": 644,
+              "word_offset_end": 669,
+              "char_offset_start": 3679,
+              "char_offset_end": 3827,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-entry-america_s01_p15_s14",
+              "sentence_ordinal": 14,
+              "text": "They had to think about this menace, which was there constantly as a cloud, ready to burst over the land.",
+              "word_offset_start": 669,
+              "word_offset_end": 689,
+              "char_offset_start": 3827,
+              "char_offset_end": 3932,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "wwi-britain-lloyd-george-entry-america_s01_p16",
+          "paragraph_ordinal": 16,
+          "sentences": [
+            {
+              "sentence_id": "wwi-britain-lloyd-george-entry-america_s01_p16_s01",
+              "sentence_ordinal": 1,
+              "text": "Take France.",
+              "word_offset_start": 689,
+              "word_offset_end": 691,
+              "char_offset_start": 3932,
+              "char_offset_end": 3944,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-entry-america_s01_p16_s02",
+              "sentence_ordinal": 2,
+              "text": "No one can tell except the Frenchman what they endured from this tyranny, patiently, gallantly, with dignity, until the hour of deliverance came.",
+              "word_offset_start": 691,
+              "word_offset_end": 714,
+              "char_offset_start": 3944,
+              "char_offset_end": 4089,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-entry-america_s01_p16_s03",
+              "sentence_ordinal": 3,
+              "text": "The best energies in demo- cratic France have been devoted to defence",
+              "word_offset_start": 714,
+              "word_offset_end": 726,
+              "char_offset_start": 4089,
+              "char_offset_end": 4158,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "wwi-britain-lloyd-george-entry-america_s01_p17",
+          "paragraph_ordinal": 17,
+          "sentences": [
+            {
+              "sentence_id": "wwi-britain-lloyd-george-entry-america_s01_p17_s01",
+              "sentence_ordinal": 1,
+              "text": "122 THE GREAT CRUSADE",
+              "word_offset_start": 726,
+              "word_offset_end": 730,
+              "char_offset_start": 4158,
+              "char_offset_end": 4179,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "wwi-britain-lloyd-george-entry-america_s01_p18",
+          "paragraph_ordinal": 18,
+          "sentences": [
+            {
+              "sentence_id": "wwi-britain-lloyd-george-entry-america_s01_p18_s01",
+              "sentence_ordinal": 1,
+              "text": "against the impending terror.",
+              "word_offset_start": 730,
+              "word_offset_end": 734,
+              "char_offset_start": 4179,
+              "char_offset_end": 4208,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-entry-america_s01_p18_s02",
+              "sentence_ordinal": 2,
+              "text": "France was like a nation which had pnt up its right arm to ward off a blow, and it could not use the whole of its strength for tl^ie great things France was capable of.",
+              "word_offset_start": 734,
+              "word_offset_end": 769,
+              "char_offset_start": 4208,
+              "char_offset_end": 4376,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-entry-america_s01_p18_s03",
+              "sentence_ordinal": 3,
+              "text": "That great, bold, imaginative, fertile mind, which would otherwise have been cleaving new paths of progress, was paralysed.",
+              "word_offset_start": 769,
+              "word_offset_end": 787,
+              "char_offset_start": 4376,
+              "char_offset_end": 4499,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-entry-america_s01_p18_s04",
+              "sentence_ordinal": 4,
+              "text": "This was the state of things we had to encounter.",
+              "word_offset_start": 787,
+              "word_offset_end": 797,
+              "char_offset_start": 4499,
+              "char_offset_end": 4548,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "wwi-britain-lloyd-george-entry-america_s01_p19",
+          "paragraph_ordinal": 19,
+          "sentences": [
+            {
+              "sentence_id": "wwi-britain-lloyd-george-entry-america_s01_p19_s01",
+              "sentence_ordinal": 1,
+              "text": "^t>^",
+              "word_offset_start": 797,
+              "word_offset_end": 798,
+              "char_offset_start": 5136,
+              "char_offset_end": 5140,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "wwi-britain-lloyd-george-entry-america_s01_p20",
+          "paragraph_ordinal": 20,
+          "sentences": [
+            {
+              "sentence_id": "wwi-britain-lloyd-george-entry-america_s01_p20_s01",
+              "sentence_ordinal": 1,
+              "text": "\"The Hindenhurg Line.\"",
+              "word_offset_start": 798,
+              "word_offset_end": 801,
+              "char_offset_start": 5140,
+              "char_offset_end": 5162,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "wwi-britain-lloyd-george-entry-america_s01_p21",
+          "paragraph_ordinal": 21,
+          "sentences": [
+            {
+              "sentence_id": "wwi-britain-lloyd-george-entry-america_s01_p21_s01",
+              "sentence_ordinal": 1,
+              "text": "The most characteristic of all Prussian institu- tions is the Hindenburg line.",
+              "word_offset_start": 801,
+              "word_offset_end": 813,
+              "char_offset_start": 5162,
+              "char_offset_end": 5240,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-entry-america_s01_p21_s02",
+              "sentence_ordinal": 2,
+              "text": "What is the Hinden- burg line?",
+              "word_offset_start": 813,
+              "word_offset_end": 819,
+              "char_offset_start": 5240,
+              "char_offset_end": 5270,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-entry-america_s01_p21_s03",
+              "sentence_ordinal": 3,
+              "text": "The Hindenburg line is a line drawn in the territories of other people with a warning that the inhabitants of those territories shall not cross it at the peril of their lives.",
+              "word_offset_start": 819,
+              "word_offset_end": 851,
+              "char_offset_start": 5270,
+              "char_offset_end": 5445,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-entry-america_s01_p21_s04",
+              "sentence_ordinal": 4,
+              "text": "That line has been drawn in Europe for fifty years in many lands.",
+              "word_offset_start": 851,
+              "word_offset_end": 864,
+              "char_offset_start": 5445,
+              "char_offset_end": 5510,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-entry-america_s01_p21_s05",
+              "sentence_ordinal": 5,
+              "text": "You recollect what happened some years ago in France when the French Foreign Minister was practically driven out of office by Prussian interference.",
+              "word_offset_start": 864,
+              "word_offset_end": 887,
+              "char_offset_start": 5510,
+              "char_offset_end": 5658,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-entry-america_s01_p21_s06",
+              "sentence_ordinal": 6,
+              "text": "Why?",
+              "word_offset_start": 887,
+              "word_offset_end": 888,
+              "char_offset_start": 5745,
+              "char_offset_end": 5749,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-entry-america_s01_p21_s07",
+              "sentence_ordinal": 7,
+              "text": "What had he done?",
+              "word_offset_start": 888,
+              "word_offset_end": 892,
+              "char_offset_start": 5749,
+              "char_offset_end": 5766,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-entry-america_s01_p21_s08",
+              "sentence_ordinal": 8,
+              "text": "He had done nothing that the Minister of an inde- pendent State had not the most absolute right to do.",
+              "word_offset_start": 892,
+              "word_offset_end": 912,
+              "char_offset_start": 5766,
+              "char_offset_end": 5868,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-entry-america_s01_p21_s09",
+              "sentence_ordinal": 9,
+              "text": "He crossed that imaginary line drawn in French territory by Prussian despotism, and he had to leave.",
+              "word_offset_start": 912,
+              "word_offset_end": 929,
+              "char_offset_start": 5868,
+              "char_offset_end": 5968,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "wwi-britain-lloyd-george-entry-america_s01_p22",
+          "paragraph_ordinal": 22,
+          "sentences": [
+            {
+              "sentence_id": "wwi-britain-lloyd-george-entry-america_s01_p22_s01",
+              "sentence_ordinal": 1,
+              "text": "Europe, after enduring this for generations, made up its mind at last that the Hindenburg line must be drawn along the legitimate frontiers of Germany herself.",
+              "word_offset_start": 929,
+              "word_offset_end": 955,
+              "char_offset_start": 5968,
+              "char_offset_end": 6127,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-entry-america_s01_p22_s02",
+              "sentence_ordinal": 2,
+              "text": "It has been an undoubted fight for the emancipation of Europe and the",
+              "word_offset_start": 955,
+              "word_offset_end": 968,
+              "char_offset_start": 6127,
+              "char_offset_end": 6196,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "wwi-britain-lloyd-george-entry-america_s01_p23",
+          "paragraph_ordinal": 23,
+          "sentences": [
+            {
+              "sentence_id": "wwi-britain-lloyd-george-entry-america_s01_p23_s01",
+              "sentence_ordinal": 1,
+              "text": "AMERICA AND THE WAR 123",
+              "word_offset_start": 968,
+              "word_offset_end": 973,
+              "char_offset_start": 6196,
+              "char_offset_end": 6219,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "wwi-britain-lloyd-george-entry-america_s01_p24",
+          "paragraph_ordinal": 24,
+          "sentences": [
+            {
+              "sentence_id": "wwi-britain-lloyd-george-entry-america_s01_p24_s01",
+              "sentence_ordinal": 1,
+              "text": "emancipation of the world.",
+              "word_offset_start": 973,
+              "word_offset_end": 977,
+              "char_offset_start": 6219,
+              "char_offset_end": 6245,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-entry-america_s01_p24_s02",
+              "sentence_ordinal": 2,
+              "text": "It was hard at first for the people of America quite to appreciate that.",
+              "word_offset_start": 977,
+              "word_offset_end": 991,
+              "char_offset_start": 6245,
+              "char_offset_end": 6317,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-entry-america_s01_p24_s03",
+              "sentence_ordinal": 3,
+              "text": "Germany had not interfered to the same ex- tent with their freedom, if at all.",
+              "word_offset_start": 991,
+              "word_offset_end": 1006,
+              "char_offset_start": 6317,
+              "char_offset_end": 6395,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-entry-america_s01_p24_s04",
+              "sentence_ordinal": 4,
+              "text": "But at last she has endured the same experience to which Europe has been subjected.",
+              "word_offset_start": 1006,
+              "word_offset_end": 1021,
+              "char_offset_start": 6395,
+              "char_offset_end": 6478,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-entry-america_s01_p24_s05",
+              "sentence_ordinal": 5,
+              "text": "Ajnericans were told they were not to be allowed to cross and recross the At- lantic except at their peril.",
+              "word_offset_start": 1021,
+              "word_offset_end": 1041,
+              "char_offset_start": 6478,
+              "char_offset_end": 6585,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-entry-america_s01_p24_s06",
+              "sentence_ordinal": 6,
+              "text": "American ships were sunk without warning.",
+              "word_offset_start": 1041,
+              "word_offset_end": 1047,
+              "char_offset_start": 6585,
+              "char_offset_end": 6626,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-entry-america_s01_p24_s07",
+              "sentence_ordinal": 7,
+              "text": "American subjects were dro^^^led with hardly an apology, in fact as a mat- ter of German right.",
+              "word_offset_start": 1047,
+              "word_offset_end": 1064,
+              "char_offset_start": 6626,
+              "char_offset_end": 6721,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-entry-america_s01_p24_s08",
+              "sentence_ordinal": 8,
+              "text": "At first America could hardly believe it.",
+              "word_offset_start": 1064,
+              "word_offset_end": 1071,
+              "char_offset_start": 6721,
+              "char_offset_end": 6762,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-entry-america_s01_p24_s09",
+              "sentence_ordinal": 9,
+              "text": "They could not think it pos- sible that any sane people could behave in that manner.",
+              "word_offset_start": 1071,
+              "word_offset_end": 1087,
+              "char_offset_start": 6762,
+              "char_offset_end": 6846,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-entry-america_s01_p24_s10",
+              "sentence_ordinal": 10,
+              "text": "And they tolerated it once, they tole- rated it twice, until at last it became clear that the Germans really meant it.",
+              "word_offset_start": 1087,
+              "word_offset_end": 1109,
+              "char_offset_start": 6846,
+              "char_offset_end": 6964,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-entry-america_s01_p24_s11",
+              "sentence_ordinal": 11,
+              "text": "The Hindenburg line was draA\\Ti along the shores of America, and Americans were told they must not cross it.",
+              "word_offset_start": 1109,
+              "word_offset_end": 1128,
+              "char_offset_start": 6964,
+              "char_offset_end": 7072,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-entry-america_s01_p24_s12",
+              "sentence_ordinal": 12,
+              "text": "America said, ''What is this?\" and was told that this was a line beyond which they must not go.",
+              "word_offset_start": 1128,
+              "word_offset_end": 1147,
+              "char_offset_start": 7072,
+              "char_offset_end": 7167,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-entry-america_s01_p24_s13",
+              "sentence_ordinal": 13,
+              "text": "Then America acted, and acted promptly.",
+              "word_offset_start": 1147,
+              "word_offset_end": 1153,
+              "char_offset_start": 7167,
+              "char_offset_end": 7206,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-entry-america_s01_p24_s14",
+              "sentence_ordinal": 14,
+              "text": "Amer- ica said, ''The place for that line is not the At- lantic, but on the Rhine, and we mean to help you to roll it up.",
+              "word_offset_start": 1153,
+              "word_offset_end": 1180,
+              "char_offset_start": 7206,
+              "char_offset_end": 7327,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-entry-america_s01_p24_s15",
+              "sentence_ordinal": 15,
+              "text": "' ' And they have started.",
+              "word_offset_start": 1180,
+              "word_offset_end": 1186,
+              "char_offset_start": 7327,
+              "char_offset_end": 7353,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "wwi-britain-lloyd-george-entry-america_s01_p25",
+          "paragraph_ordinal": 25,
+          "sentences": [
+            {
+              "sentence_id": "wwi-britain-lloyd-george-entry-america_s01_p25_s01",
+              "sentence_ordinal": 1,
+              "text": "The Inspiratian of Freedom.",
+              "word_offset_start": 1186,
+              "word_offset_end": 1190,
+              "char_offset_start": 7353,
+              "char_offset_end": 7380,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "wwi-britain-lloyd-george-entry-america_s01_p26",
+          "paragraph_ordinal": 26,
+          "sentences": [
+            {
+              "sentence_id": "wwi-britain-lloyd-george-entry-america_s01_p26_s01",
+              "sentence_ordinal": 1,
+              "text": "There are two great facts which clinch the argument that this is a great struggle for free- dom.",
+              "word_offset_start": 1190,
+              "word_offset_end": 1208,
+              "char_offset_start": 7380,
+              "char_offset_end": 7476,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-entry-america_s01_p26_s02",
+              "sentence_ordinal": 2,
+              "text": "The first is the fact that America has come in.",
+              "word_offset_start": 1208,
+              "word_offset_end": 1218,
+              "char_offset_start": 7476,
+              "char_offset_end": 7523,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-entry-america_s01_p26_s03",
+              "sentence_ordinal": 3,
+              "text": "She could not have done otherwise.",
+              "word_offset_start": 1218,
+              "word_offset_end": 1224,
+              "char_offset_start": 7523,
+              "char_offset_end": 7557,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-entry-america_s01_p26_s04",
+              "sentence_ordinal": 4,
+              "text": "The second is the Russian Revolution.",
+              "word_offset_start": 1224,
+              "word_offset_end": 1230,
+              "char_offset_start": 7557,
+              "char_offset_end": 7594,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-entry-america_s01_p26_s05",
+              "sentence_ordinal": 5,
+              "text": "When France",
+              "word_offset_start": 1230,
+              "word_offset_end": 1232,
+              "char_offset_start": 7594,
+              "char_offset_end": 7605,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "wwi-britain-lloyd-george-entry-america_s01_p27",
+          "paragraph_ordinal": 27,
+          "sentences": [
+            {
+              "sentence_id": "wwi-britain-lloyd-george-entry-america_s01_p27_s01",
+              "sentence_ordinal": 1,
+              "text": "124 THE GREAT CRUSADE",
+              "word_offset_start": 1232,
+              "word_offset_end": 1236,
+              "char_offset_start": 7605,
+              "char_offset_end": 7626,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "wwi-britain-lloyd-george-entry-america_s01_p28",
+          "paragraph_ordinal": 28,
+          "sentences": [
+            {
+              "sentence_id": "wwi-britain-lloyd-george-entry-america_s01_p28_s01",
+              "sentence_ordinal": 1,
+              "text": "in the eighteenth century sent her soldiers to America to fight for the freedom and independ- ence of that land France also was an autocracy.",
+              "word_offset_start": 1236,
+              "word_offset_end": 1261,
+              "char_offset_start": 7626,
+              "char_offset_end": 7767,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-entry-america_s01_p28_s02",
+              "sentence_ordinal": 2,
+              "text": "But when the Frenchmen were in America their aim was freedom, their atmosphere was freedom, and their inspiration was freedom^ They ac- quired a taste for freedom and they took it home, and France became free.",
+              "word_offset_start": 1261,
+              "word_offset_end": 1297,
+              "char_offset_start": 7767,
+              "char_offset_end": 7976,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-entry-america_s01_p28_s03",
+              "sentence_ordinal": 3,
+              "text": "That is the story of Russia.",
+              "word_offset_start": 1297,
+              "word_offset_end": 1303,
+              "char_offset_start": 7976,
+              "char_offset_end": 8004,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-entry-america_s01_p28_s04",
+              "sentence_ordinal": 4,
+              "text": "Russia engaged in this great war for the freedom of Serbia, of Montenegro, and Bulgaria.",
+              "word_offset_start": 1303,
+              "word_offset_end": 1318,
+              "char_offset_start": 8004,
+              "char_offset_end": 8092,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-entry-america_s01_p28_s05",
+              "sentence_ordinal": 5,
+              "text": "Russians have fought for the freedom of Europe, and they wanted to make their o^vn country free.",
+              "word_offset_start": 1318,
+              "word_offset_end": 1335,
+              "char_offset_start": 8092,
+              "char_offset_end": 8188,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-entry-america_s01_p28_s06",
+              "sentence_ordinal": 6,
+              "text": "They have done it.",
+              "word_offset_start": 1335,
+              "word_offset_end": 1339,
+              "char_offset_start": 8188,
+              "char_offset_end": 8206,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-entry-america_s01_p28_s07",
+              "sentence_ordinal": 7,
+              "text": "The Russian Revolution is not merely the outcome of the struggle for free- dom.",
+              "word_offset_start": 1339,
+              "word_offset_end": 1353,
+              "char_offset_start": 8206,
+              "char_offset_end": 8285,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-entry-america_s01_p28_s08",
+              "sentence_ordinal": 8,
+              "text": "It is a proof of its character as a struggle for liberty.",
+              "word_offset_start": 1353,
+              "word_offset_end": 1365,
+              "char_offset_start": 8285,
+              "char_offset_end": 8342,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-entry-america_s01_p28_s09",
+              "sentence_ordinal": 9,
+              "text": "And if the Russian people realise, as there is evidence they are doing, that national discipline is not incompatible with national free- dom, and know that national discipline is essen- tial to the security of national freedom, they will indeed become a free people.",
+              "word_offset_start": 1365,
+              "word_offset_end": 1409,
+              "char_offset_start": 8342,
+              "char_offset_end": 8608,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "wwi-britain-lloyd-george-entry-america_s01_p29",
+          "paragraph_ordinal": 29,
+          "sentences": [
+            {
+              "sentence_id": "wwi-britain-lloyd-george-entry-america_s01_p29_s01",
+              "sentence_ordinal": 1,
+              "text": "I have been asking myself the question.",
+              "word_offset_start": 1409,
+              "word_offset_end": 1416,
+              "char_offset_start": 8608,
+              "char_offset_end": 8647,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-entry-america_s01_p29_s02",
+              "sentence_ordinal": 2,
+              "text": "Why is it that Germany deliberately in the third year of the war provoked America to this declaration, and to this action?",
+              "word_offset_start": 1416,
+              "word_offset_end": 1438,
+              "char_offset_start": 8647,
+              "char_offset_end": 8769,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-entry-america_s01_p29_s03",
+              "sentence_ordinal": 3,
+              "text": "Deliberately!",
+              "word_offset_start": 1438,
+              "word_offset_end": 1439,
+              "char_offset_start": 9294,
+              "char_offset_end": 9307,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-entry-america_s01_p29_s04",
+              "sentence_ordinal": 4,
+              "text": "Yes; reso- lutely !",
+              "word_offset_start": 1439,
+              "word_offset_end": 1443,
+              "char_offset_start": 9307,
+              "char_offset_end": 9326,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-entry-america_s01_p29_s05",
+              "sentence_ordinal": 5,
+              "text": "It has been suggested that the reason was that there were certain elements in American life which Germany was under the impression would make it impossible for the United States to de- clare war.",
+              "word_offset_start": 1443,
+              "word_offset_end": 1477,
+              "char_offset_start": 9326,
+              "char_offset_end": 9521,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-entry-america_s01_p29_s06",
+              "sentence_ordinal": 6,
+              "text": "That I can hardly believe ; but the an- swer has been afforded by General Hindenburg himself in the very remarkable interview which",
+              "word_offset_start": 1477,
+              "word_offset_end": 1500,
+              "char_offset_start": 9521,
+              "char_offset_end": 9652,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "wwi-britain-lloyd-george-entry-america_s01_p30",
+          "paragraph_ordinal": 30,
+          "sentences": [
+            {
+              "sentence_id": "wwi-britain-lloyd-george-entry-america_s01_p30_s01",
+              "sentence_ordinal": 1,
+              "text": "AMERICA AND THE WAR 125",
+              "word_offset_start": 1500,
+              "word_offset_end": 1505,
+              "char_offset_start": 9652,
+              "char_offset_end": 9675,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "wwi-britain-lloyd-george-entry-america_s01_p31",
+          "paragraph_ordinal": 31,
+          "sentences": [
+            {
+              "sentence_id": "wwi-britain-lloyd-george-entry-america_s01_p31_s01",
+              "sentence_ordinal": 1,
+              "text": "appears, I think, this morning in the Press.",
+              "word_offset_start": 1505,
+              "word_offset_end": 1513,
+              "char_offset_start": 9675,
+              "char_offset_end": 9719,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-entry-america_s01_p31_s02",
+              "sentence_ordinal": 2,
+              "text": "He depended clearly on one of two things — that the submarine campaign would have destroyed inter- national shipping to such an extent that England would have been put out of business before Amer- ica was ready.",
+              "word_offset_start": 1513,
+              "word_offset_end": 1550,
+              "char_offset_start": 9719,
+              "char_offset_end": 9930,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-entry-america_s01_p31_s03",
+              "sentence_ordinal": 3,
+              "text": "According to his computation, America would not be ready for twelve months.",
+              "word_offset_start": 1550,
+              "word_offset_end": 1562,
+              "char_offset_start": 9930,
+              "char_offset_end": 10005,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-entry-america_s01_p31_s04",
+              "sentence_ordinal": 4,
+              "text": "He does not know America.",
+              "word_offset_start": 1562,
+              "word_offset_end": 1567,
+              "char_offset_start": 10005,
+              "char_offset_end": 10030,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-entry-america_s01_p31_s05",
+              "sentence_ordinal": 5,
+              "text": "Then alternatively, and when America was ready at the end of twelve months with her army, she would have no ships to transport that army to the field of battle.",
+              "word_offset_start": 1567,
+              "word_offset_end": 1597,
+              "char_offset_start": 10030,
+              "char_offset_end": 10190,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-entry-america_s01_p31_s06",
+              "sentence_ordinal": 6,
+              "text": "In Hindenburg's words, '^America carries no weight.\" I suppose he means that she has no ships to carry it in !",
+              "word_offset_start": 1597,
+              "word_offset_end": 1618,
+              "char_offset_start": 10190,
+              "char_offset_end": 10300,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "wwi-britain-lloyd-george-entry-america_s01_p32",
+          "paragraph_ordinal": 32,
+          "sentences": [
+            {
+              "sentence_id": "wwi-britain-lloyd-george-entry-america_s01_p32_s01",
+              "sentence_ordinal": 1,
+              "text": "''Ships!\"",
+              "word_offset_start": 1618,
+              "word_offset_end": 1619,
+              "char_offset_start": 10463,
+              "char_offset_end": 10472,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "wwi-britain-lloyd-george-entry-america_s01_p33",
+          "paragraph_ordinal": 33,
+          "sentences": [
+            {
+              "sentence_id": "wwi-britain-lloyd-george-entry-america_s01_p33_s01",
+              "sentence_ordinal": 1,
+              "text": "Well, it is not wise always to assume, even when the German General Staff has miscalculated, that they have had no ground for their calculation; and therefore it behooves the whole of the Allies — Britain and America in particular — to see that that reckoning of Von Hindenburg is as false as the one he made about the famous line which we have already broken.",
+              "word_offset_start": 1619,
+              "word_offset_end": 1685,
+              "char_offset_start": 10472,
+              "char_offset_end": 10832,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-entry-america_s01_p33_s02",
+              "sentence_ordinal": 2,
+              "text": "The road to victory, the guarantee of victoiy, the absolute assurance of victory, is to be found in one word — ships !",
+              "word_offset_start": 1685,
+              "word_offset_end": 1708,
+              "char_offset_start": 10832,
+              "char_offset_end": 10950,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-entry-america_s01_p33_s03",
+              "sentence_ordinal": 3,
+              "text": "In a second word — ships!",
+              "word_offset_start": 1708,
+              "word_offset_end": 1714,
+              "char_offset_start": 10950,
+              "char_offset_end": 10975,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-entry-america_s01_p33_s04",
+              "sentence_ordinal": 4,
+              "text": "In a third word — ships!",
+              "word_offset_start": 1714,
+              "word_offset_end": 1720,
+              "char_offset_start": 10975,
+              "char_offset_end": 10999,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-entry-america_s01_p33_s05",
+              "sentence_ordinal": 5,
+              "text": "I see that America, with that quickness of com- prehension which characterises your nation, fully realises that, and to-day I observe that they have already made an arrangement to build a thousand",
+              "word_offset_start": 1720,
+              "word_offset_end": 1752,
+              "char_offset_start": 10999,
+              "char_offset_end": 11195,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "wwi-britain-lloyd-george-entry-america_s01_p34",
+          "paragraph_ordinal": 34,
+          "sentences": [
+            {
+              "sentence_id": "wwi-britain-lloyd-george-entry-america_s01_p34_s01",
+              "sentence_ordinal": 1,
+              "text": "126 THE GREAT CRUSADE",
+              "word_offset_start": 1752,
+              "word_offset_end": 1756,
+              "char_offset_start": 11195,
+              "char_offset_end": 11216,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "wwi-britain-lloyd-george-entry-america_s01_p35",
+          "paragraph_ordinal": 35,
+          "sentences": [
+            {
+              "sentence_id": "wwi-britain-lloyd-george-entry-america_s01_p35_s01",
+              "sentence_ordinal": 1,
+              "text": "3,000-tonners for the Atlantic.",
+              "word_offset_start": 1756,
+              "word_offset_end": 1760,
+              "char_offset_start": 11216,
+              "char_offset_end": 11247,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-entry-america_s01_p35_s02",
+              "sentence_ordinal": 2,
+              "text": "I think that the German military advisers must already begin to realise that this is another of the tragic miscalcu- lations which is going to lead them to disaster and to ruin.",
+              "word_offset_start": 1760,
+              "word_offset_end": 1792,
+              "char_offset_start": 11247,
+              "char_offset_end": 11424,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "wwi-britain-lloyd-george-entry-america_s01_p36",
+          "paragraph_ordinal": 36,
+          "sentences": [
+            {
+              "sentence_id": "wwi-britain-lloyd-george-entry-america_s01_p36_s01",
+              "sentence_ordinal": 1,
+              "text": "America to Study Our Blunders.",
+              "word_offset_start": 1792,
+              "word_offset_end": 1797,
+              "char_offset_start": 11424,
+              "char_offset_end": 11454,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "wwi-britain-lloyd-george-entry-america_s01_p37",
+          "paragraph_ordinal": 37,
+          "sentences": [
+            {
+              "sentence_id": "wwi-britain-lloyd-george-entry-america_s01_p37_s01",
+              "sentence_ordinal": 1,
+              "text": "But you will pardon me for just emphasising that we are a slow people in these islands.",
+              "word_offset_start": 1797,
+              "word_offset_end": 1814,
+              "char_offset_start": 11454,
+              "char_offset_end": 11541,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-entry-america_s01_p37_s02",
+              "sentence_ordinal": 2,
+              "text": "Yes, but sure!",
+              "word_offset_start": 1814,
+              "word_offset_end": 1817,
+              "char_offset_start": 11541,
+              "char_offset_end": 11555,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-entry-america_s01_p37_s03",
+              "sentence_ordinal": 3,
+              "text": "Slowly, blunderingly we go; but we get there.",
+              "word_offset_start": 1817,
+              "word_offset_end": 1825,
+              "char_offset_start": 11555,
+              "char_offset_end": 11600,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-entry-america_s01_p37_s04",
+              "sentence_ordinal": 4,
+              "text": "You get there sooner, and that is why I am glad to see you in.",
+              "word_offset_start": 1825,
+              "word_offset_end": 1840,
+              "char_offset_start": 11600,
+              "char_offset_end": 11662,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-entry-america_s01_p37_s05",
+              "sentence_ordinal": 5,
+              "text": "But may I say we have been in this business for three years.",
+              "word_offset_start": 1840,
+              "word_offset_end": 1853,
+              "char_offset_start": 11662,
+              "char_offset_end": 11722,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-entry-america_s01_p37_s06",
+              "sentence_ordinal": 6,
+              "text": "We have made blunders; we generally do; we have tried every blunder.",
+              "word_offset_start": 1853,
+              "word_offset_end": 1865,
+              "char_offset_start": 11722,
+              "char_offset_end": 11790,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-entry-america_s01_p37_s07",
+              "sentence_ordinal": 7,
+              "text": "In golfing phraseology we have gone through every bunker; but we have a good niblick stroke, and we are now right out on the course.",
+              "word_offset_start": 1865,
+              "word_offset_end": 1890,
+              "char_offset_start": 11790,
+              "char_offset_end": 11922,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-entry-america_s01_p37_s08",
+              "sentence_ordinal": 8,
+              "text": "May I respectfully suggest that it is worth America's while to study our blunders so as to begin just where we are now — not where we were three years ago.",
+              "word_offset_start": 1890,
+              "word_offset_end": 1921,
+              "char_offset_start": 11922,
+              "char_offset_end": 12077,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-entry-america_s01_p37_s09",
+              "sentence_ordinal": 9,
+              "text": "That is an advantage in war time, and if taken to-day may lead to as- sured victory, but taken to-morrow may barely avert disaster.",
+              "word_offset_start": 1921,
+              "word_offset_end": 1945,
+              "char_offset_start": 12077,
+              "char_offset_end": 12208,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-entry-america_s01_p37_s10",
+              "sentence_ordinal": 10,
+              "text": "All the Allies have discovered that.",
+              "word_offset_start": 1945,
+              "word_offset_end": 1951,
+              "char_offset_start": 12208,
+              "char_offset_end": 12244,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-entry-america_s01_p37_s11",
+              "sentence_ordinal": 11,
+              "text": "It was a new country for us all.",
+              "word_offset_start": 1951,
+              "word_offset_end": 1959,
+              "char_offset_start": 12244,
+              "char_offset_end": 12276,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-entry-america_s01_p37_s12",
+              "sentence_ordinal": 12,
+              "text": "It was trackless, mapless; we had to go by instinct, but we found the way.",
+              "word_offset_start": 1959,
+              "word_offset_end": 1974,
+              "char_offset_start": 12276,
+              "char_offset_end": 12350,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-entry-america_s01_p37_s13",
+              "sentence_ordinal": 13,
+              "text": "I am glad that you are send- ing your great naval and military experts here just to exchange experiences with men who have been through all the dreary, anxious course of the last three years.",
+              "word_offset_start": 1974,
+              "word_offset_end": 2009,
+              "char_offset_start": 12350,
+              "char_offset_end": 12541,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "wwi-britain-lloyd-george-entry-america_s01_p38",
+          "paragraph_ordinal": 38,
+          "sentences": [
+            {
+              "sentence_id": "wwi-britain-lloyd-george-entry-america_s01_p38_s01",
+              "sentence_ordinal": 1,
+              "text": "AMERICA AND THE WAR 127",
+              "word_offset_start": 2009,
+              "word_offset_end": 2014,
+              "char_offset_start": 12541,
+              "char_offset_end": 12564,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "wwi-britain-lloyd-george-entry-america_s01_p39",
+          "paragraph_ordinal": 39,
+          "sentences": [
+            {
+              "sentence_id": "wwi-britain-lloyd-george-entry-america_s01_p39_s01",
+              "sentence_ordinal": 1,
+              "text": "''What America Can Do.\"",
+              "word_offset_start": 2014,
+              "word_offset_end": 2018,
+              "char_offset_start": 12564,
+              "char_offset_end": 12587,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "wwi-britain-lloyd-george-entry-america_s01_p40",
+          "paragraph_ordinal": 40,
+          "sentences": [
+            {
+              "sentence_id": "wwi-britain-lloyd-george-entry-america_s01_p40_s01",
+              "sentence_ordinal": 1,
+              "text": "America has helped us even to win the battle of Arras — this great battle.",
+              "word_offset_start": 2018,
+              "word_offset_end": 2033,
+              "char_offset_start": 12587,
+              "char_offset_end": 12661,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-entry-america_s01_p40_s02",
+              "sentence_ordinal": 2,
+              "text": "Those guns which destroyed the German trenches and shattered the barbed wire — I remember with some friends of mine I see here discussing the matter and arrang- ing to order from America the machines to make those guns.",
+              "word_offset_start": 2033,
+              "word_offset_end": 2072,
+              "char_offset_start": 12661,
+              "char_offset_end": 12880,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-entry-america_s01_p40_s03",
+              "sentence_ordinal": 3,
+              "text": "Not all !",
+              "word_offset_start": 2072,
+              "word_offset_end": 2075,
+              "char_offset_start": 12880,
+              "char_offset_end": 12889,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-entry-america_s01_p40_s04",
+              "sentence_ordinal": 4,
+              "text": "You did your share ; it was only a share, but it is a glorious one.",
+              "word_offset_start": 2075,
+              "word_offset_end": 2091,
+              "char_offset_start": 12889,
+              "char_offset_end": 12956,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-entry-america_s01_p40_s05",
+              "sentence_ordinal": 5,
+              "text": "America has been making guns, making munitions, making machinery to prepare both, supplying us with steel, and she has all that organisation, that wonderful facility, adaptability, and resourceful- ness of the great people who inliabit that great continent.",
+              "word_offset_start": 2091,
+              "word_offset_end": 2129,
+              "char_offset_start": 12956,
+              "char_offset_end": 13213,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-entry-america_s01_p40_s06",
+              "sentence_ordinal": 6,
+              "text": "Ah ! it was a bad day for military au- tocracy in Prussia when she challenged the great Republic of the \"West.",
+              "word_offset_start": 2129,
+              "word_offset_end": 2151,
+              "char_offset_start": 13213,
+              "char_offset_end": 13323,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-entry-america_s01_p40_s07",
+              "sentence_ordinal": 7,
+              "text": "We know what America can do; and we also know that now she is in it she will do it.",
+              "word_offset_start": 2151,
+              "word_offset_end": 2171,
+              "char_offset_start": 13323,
+              "char_offset_end": 13406,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-entry-america_s01_p40_s08",
+              "sentence_ordinal": 8,
+              "text": "She will wage an effective and suc- cessful war.",
+              "word_offset_start": 2171,
+              "word_offset_end": 2180,
+              "char_offset_start": 13406,
+              "char_offset_end": 13454,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "wwi-britain-lloyd-george-entry-america_s01_p41",
+          "paragraph_ordinal": 41,
+          "sentences": [
+            {
+              "sentence_id": "wwi-britain-lloyd-george-entry-america_s01_p41_s01",
+              "sentence_ordinal": 1,
+              "text": "There is something more important.",
+              "word_offset_start": 2180,
+              "word_offset_end": 2185,
+              "char_offset_start": 13454,
+              "char_offset_end": 13488,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-entry-america_s01_p41_s02",
+              "sentence_ordinal": 2,
+              "text": "She will ensure a beneficent peace.",
+              "word_offset_start": 2185,
+              "word_offset_end": 2191,
+              "char_offset_start": 13488,
+              "char_offset_end": 13523,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-entry-america_s01_p41_s03",
+              "sentence_ordinal": 3,
+              "text": "I am the last man in the world — ^knowing for three years what our difficulties have been, what our anxieties have been, what our fears have been — to deny that the succour which is given us from America is some- thing to rejoice in, and rejoice greatly in; but I do not mind telling you that I rejoice even more in the knowledge that America is going to win her right to be at the conference table when the terms of peace are being discussed.",
+              "word_offset_start": 2191,
+              "word_offset_end": 2278,
+              "char_offset_start": 13523,
+              "char_offset_end": 13966,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-entry-america_s01_p41_s04",
+              "sentence_ordinal": 4,
+              "text": "That conference",
+              "word_offset_start": 2278,
+              "word_offset_end": 2280,
+              "char_offset_start": 13966,
+              "char_offset_end": 13981,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "wwi-britain-lloyd-george-entry-america_s01_p42",
+          "paragraph_ordinal": 42,
+          "sentences": [
+            {
+              "sentence_id": "wwi-britain-lloyd-george-entry-america_s01_p42_s01",
+              "sentence_ordinal": 1,
+              "text": "1^8 THE GREAT CRUSADE",
+              "word_offset_start": 2280,
+              "word_offset_end": 2284,
+              "char_offset_start": 13981,
+              "char_offset_end": 14002,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "wwi-britain-lloyd-george-entry-america_s01_p43",
+          "paragraph_ordinal": 43,
+          "sentences": [
+            {
+              "sentence_id": "wwi-britain-lloyd-george-entry-america_s01_p43_s01",
+              "sentence_ordinal": 1,
+              "text": "will settle the destiny of nations, the course of human life, for God knows how many ages.",
+              "word_offset_start": 2284,
+              "word_offset_end": 2301,
+              "char_offset_start": 14002,
+              "char_offset_end": 14092,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-entry-america_s01_p43_s02",
+              "sentence_ordinal": 2,
+              "text": "It would have been a tragedy for mankind if Amer- ica had not been there, and there with all the in- fluence, and the power, and the right which she has now won by flinging herself into this great struggle.",
+              "word_offset_start": 2301,
+              "word_offset_end": 2341,
+              "char_offset_start": 14092,
+              "char_offset_end": 14298,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "wwi-britain-lloyd-george-entry-america_s01_p44",
+          "paragraph_ordinal": 44,
+          "sentences": [
+            {
+              "sentence_id": "wwi-britain-lloyd-george-entry-america_s01_p44_s01",
+              "sentence_ordinal": 1,
+              "text": "\"The Peace of Democracy.*'",
+              "word_offset_start": 2341,
+              "word_offset_end": 2345,
+              "char_offset_start": 14298,
+              "char_offset_end": 14324,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "wwi-britain-lloyd-george-entry-america_s01_p45",
+          "paragraph_ordinal": 45,
+          "sentences": [
+            {
+              "sentence_id": "wwi-britain-lloyd-george-entry-america_s01_p45_s01",
+              "sentence_ordinal": 1,
+              "text": "I can see peace coming now — not a peace which would be a beginning of war, not a peace which would be an endless preparation for strife and bloodshed, but a real peace.",
+              "word_offset_start": 2345,
+              "word_offset_end": 2379,
+              "char_offset_start": 14324,
+              "char_offset_end": 14493,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-entry-america_s01_p45_s02",
+              "sentence_ordinal": 2,
+              "text": "The world is an old world which has never had peace.",
+              "word_offset_start": 2379,
+              "word_offset_end": 2390,
+              "char_offset_start": 14493,
+              "char_offset_end": 14545,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-entry-america_s01_p45_s03",
+              "sentence_ordinal": 3,
+              "text": "It has been rocking, swaying, like the ocean, and Europe — poor Europe — has always lived under the menace of the sword.",
+              "word_offset_start": 2390,
+              "word_offset_end": 2413,
+              "char_offset_start": 14545,
+              "char_offset_end": 14665,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-entry-america_s01_p45_s04",
+              "sentence_ordinal": 4,
+              "text": "When this war began two-thirds of Europe was under autocratic rule.",
+              "word_offset_start": 2413,
+              "word_offset_end": 2424,
+              "char_offset_start": 14665,
+              "char_offset_end": 14732,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-entry-america_s01_p45_s05",
+              "sentence_ordinal": 5,
+              "text": "It is the other way about now, and democracy means peace.",
+              "word_offset_start": 2424,
+              "word_offset_end": 2435,
+              "char_offset_start": 14732,
+              "char_offset_end": 14789,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-entry-america_s01_p45_s06",
+              "sentence_ordinal": 6,
+              "text": "The democracy of France did not want war.",
+              "word_offset_start": 2435,
+              "word_offset_end": 2443,
+              "char_offset_start": 14789,
+              "char_offset_end": 14830,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-entry-america_s01_p45_s07",
+              "sentence_ordinal": 7,
+              "text": "The democracy of Italy hesitated long before enter- ing the war.",
+              "word_offset_start": 2443,
+              "word_offset_end": 2454,
+              "char_offset_start": 14830,
+              "char_offset_end": 14894,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-entry-america_s01_p45_s08",
+              "sentence_ordinal": 8,
+              "text": "The democracy of this country shrank from it and shuddered, and would never have entered that cauldron if it had not been for the invasion of Belgium.",
+              "word_offset_start": 2454,
+              "word_offset_end": 2481,
+              "char_offset_start": 14894,
+              "char_offset_end": 15044,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-entry-america_s01_p45_s09",
+              "sentence_ordinal": 9,
+              "text": "Democracy sought peace, strove for peace, and if Prussia had been a democracy there would have been no war.",
+              "word_offset_start": 2481,
+              "word_offset_end": 2500,
+              "char_offset_start": 15044,
+              "char_offset_end": 15151,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "wwi-britain-lloyd-george-entry-america_s01_p46",
+          "paragraph_ordinal": 46,
+          "sentences": [
+            {
+              "sentence_id": "wwi-britain-lloyd-george-entry-america_s01_p46_s01",
+              "sentence_ordinal": 1,
+              "text": "But strange things have happened in this war, and stranger things are to come — and they are coming rapidly.",
+              "word_offset_start": 2500,
+              "word_offset_end": 2520,
+              "char_offset_start": 15151,
+              "char_offset_end": 15259,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-entry-america_s01_p46_s02",
+              "sentence_ordinal": 2,
+              "text": "There are times in history when the world spins so leisurely along its destined course that it seems for centuries to be at a stand-",
+              "word_offset_start": 2520,
+              "word_offset_end": 2545,
+              "char_offset_start": 15259,
+              "char_offset_end": 15391,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "wwi-britain-lloyd-george-entry-america_s01_p47",
+          "paragraph_ordinal": 47,
+          "sentences": [
+            {
+              "sentence_id": "wwi-britain-lloyd-george-entry-america_s01_p47_s01",
+              "sentence_ordinal": 1,
+              "text": "AMERICA AND THE WAR 129",
+              "word_offset_start": 2545,
+              "word_offset_end": 2550,
+              "char_offset_start": 15391,
+              "char_offset_end": 15414,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "wwi-britain-lloyd-george-entry-america_s01_p48",
+          "paragraph_ordinal": 48,
+          "sentences": [
+            {
+              "sentence_id": "wwi-britain-lloyd-george-entry-america_s01_p48_s01",
+              "sentence_ordinal": 1,
+              "text": "still.",
+              "word_offset_start": 2550,
+              "word_offset_end": 2551,
+              "char_offset_start": 16268,
+              "char_offset_end": 16274,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-entry-america_s01_p48_s02",
+              "sentence_ordinal": 2,
+              "text": "There are also times when it rushes along at a giddy pace, covering the traoV of centuries in a year.",
+              "word_offset_start": 2551,
+              "word_offset_end": 2571,
+              "char_offset_start": 16274,
+              "char_offset_end": 16375,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-entry-america_s01_p48_s03",
+              "sentence_ordinal": 3,
+              "text": "These are the times we are living in now.",
+              "word_offset_start": 2571,
+              "word_offset_end": 2580,
+              "char_offset_start": 16375,
+              "char_offset_end": 16416,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-entry-america_s01_p48_s04",
+              "sentence_ordinal": 4,
+              "text": "Six weeks ago Russia was an autocracy.",
+              "word_offset_start": 2580,
+              "word_offset_end": 2587,
+              "char_offset_start": 16416,
+              "char_offset_end": 16454,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-entry-america_s01_p48_s05",
+              "sentence_ordinal": 5,
+              "text": "She is now one of the most advanced democracies in the world.",
+              "word_offset_start": 2587,
+              "word_offset_end": 2599,
+              "char_offset_start": 16454,
+              "char_offset_end": 16515,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-entry-america_s01_p48_s06",
+              "sentence_ordinal": 6,
+              "text": "To-day we are waging the most de- vastating war that the world has even seen.",
+              "word_offset_start": 2599,
+              "word_offset_end": 2614,
+              "char_offset_start": 16515,
+              "char_offset_end": 16592,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-entry-america_s01_p48_s07",
+              "sentence_ordinal": 7,
+              "text": "To- morrow— not perhaps a distant to-morrow — war may be abolished for ever from the categories of human crimes.",
+              "word_offset_start": 2614,
+              "word_offset_end": 2634,
+              "char_offset_start": 16592,
+              "char_offset_end": 16704,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-entry-america_s01_p48_s08",
+              "sentence_ordinal": 8,
+              "text": "This may be something like that fierce outburst of winter which we are now wit- nessing before the complete triumph of spring.",
+              "word_offset_start": 2634,
+              "word_offset_end": 2656,
+              "char_offset_start": 16704,
+              "char_offset_end": 16830,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "wwi-britain-lloyd-george-entry-america_s01_p49",
+          "paragraph_ordinal": 49,
+          "sentences": [
+            {
+              "sentence_id": "wwi-britain-lloyd-george-entry-america_s01_p49_s01",
+              "sentence_ordinal": 1,
+              "text": "''With the Dawn.\"",
+              "word_offset_start": 2656,
+              "word_offset_end": 2659,
+              "char_offset_start": 16830,
+              "char_offset_end": 16847,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "wwi-britain-lloyd-george-entry-america_s01_p50",
+          "paragraph_ordinal": 50,
+          "sentences": [
+            {
+              "sentence_id": "wwi-britain-lloyd-george-entry-america_s01_p50_s01",
+              "sentence_ordinal": 1,
+              "text": "It was written of those gallant men who won that victory on Monday — men from Canada, from Australia, and from this old country which has proved that in spite of its age it is not de- crepit— it was written of those gallant men that they attacked with the dawn.",
+              "word_offset_start": 2659,
+              "word_offset_end": 2710,
+              "char_offset_start": 16847,
+              "char_offset_end": 17108,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-entry-america_s01_p50_s02",
+              "sentence_ordinal": 2,
+              "text": "Fitting work for the dawn to drive out of forty miles of French soil those miscreants who had defiled it for nearly three years.",
+              "word_offset_start": 2710,
+              "word_offset_end": 2734,
+              "char_offset_start": 17108,
+              "char_offset_end": 17236,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-entry-america_s01_p50_s03",
+              "sentence_ordinal": 3,
+              "text": "They attacked with the dawn.",
+              "word_offset_start": 2734,
+              "word_offset_end": 2739,
+              "char_offset_start": 17236,
+              "char_offset_end": 17264,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-entry-america_s01_p50_s04",
+              "sentence_ordinal": 4,
+              "text": "It is a significant phrase.",
+              "word_offset_start": 2739,
+              "word_offset_end": 2744,
+              "char_offset_start": 17264,
+              "char_offset_end": 17291,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-entry-america_s01_p50_s05",
+              "sentence_ordinal": 5,
+              "text": "The breaking up of the dark rule of the Turk, which, for centuries has clouded the sunniest lands in the world, the free- ing of Russia from the oppression which has covered it like a cloud for so long, the great declaration of President Wilson, coming with the might of the great nation he represents in the struggle for liberty, are heralds of the dawn.",
+              "word_offset_start": 2744,
+              "word_offset_end": 2809,
+              "char_offset_start": 17291,
+              "char_offset_end": 17646,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "wwi-britain-lloyd-george-entry-america_s01_p51",
+          "paragraph_ordinal": 51,
+          "sentences": [
+            {
+              "sentence_id": "wwi-britain-lloyd-george-entry-america_s01_p51_s01",
+              "sentence_ordinal": 1,
+              "text": "130 THE GREAT CRUSADE",
+              "word_offset_start": 2809,
+              "word_offset_end": 2813,
+              "char_offset_start": 17646,
+              "char_offset_end": 17667,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "wwi-britain-lloyd-george-entry-america_s01_p52",
+          "paragraph_ordinal": 52,
+          "sentences": [
+            {
+              "sentence_id": "wwi-britain-lloyd-george-entry-america_s01_p52_s01",
+              "sentence_ordinal": 1,
+              "text": "\"They attacked with the dawn\"; and those men are marching forward in the full radiance of that dawn, and soon Frenchmen and Americans, British, Italians, and Russians, yea, Serbians, Belgians, Montenegrins, and Rumanians, will march into the full light of perfect day.",
+              "word_offset_start": 2813,
+              "word_offset_end": 2855,
+              "char_offset_start": 17667,
+              "char_offset_end": 17935,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "pipeline_log": [
+    {
+      "stage": "segment-texts",
+      "script": "scripts/segment-texts.py",
+      "generated_at": "2026-06-28T01:20:58",
+      "sentence_count": 184
+    }
+  ]
+}

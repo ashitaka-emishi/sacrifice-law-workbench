@@ -7,9 +7,10 @@
     "am-rev",
     "napoleon",
     "fr-rev",
+    "wwi-britain",
     "lincoln",
     "hitler",
     "x-case"
   ],
-  "notes": "The four original historical case corpora remain the current verified scored working corpus: rights-reviewed, acquired, normalized, segmented, verified, and JSON-valid. The pre-v1 expansion window has added fr-rev as a draft French-source corpus with manifest, raw text, normalized text, segmentation, and MIPVU worklists, but no reviewed annotations, support rating, or reliability sample yet. All four original cases have Codex-assisted first-pass MIPVU lexical decisions. Lincoln has complete model-reliability artifacts and designed human-reliability cohorts, but required human coder submissions are not complete. American Revolution, Napoleon, Hitler, and fr-rev model and human reliability workflows remain absent or incomplete. Expansion work is tracked in GitHub milestone 7 and issue #174; any additional new cases or documents require selection rationale, rights/provenance review, manifest registration, pipeline processing, annotation-forward artifacts, reliability sampling review, and an explicit expanded-corpus freeze point."
+  "notes": "The four original historical case corpora remain the current verified scored working corpus: rights-reviewed, acquired, normalized, segmented, verified, and JSON-valid. The pre-v1 expansion window has added fr-rev and wwi-britain as draft expansion corpora with manifests, raw text, normalized text, segmentation, and MIPVU worklists, but no reviewed annotations, support rating, or reliability sample yet. All four original cases have Codex-assisted first-pass MIPVU lexical decisions. Lincoln has complete model-reliability artifacts and designed human-reliability cohorts, but required human coder submissions are not complete. American Revolution, Napoleon, Hitler, fr-rev, and wwi-britain model and human reliability workflows remain absent or incomplete. Expansion work is tracked in GitHub milestone 7 and issue #174; any additional new cases or documents require selection rationale, rights/provenance review, manifest registration, pipeline processing, annotation-forward artifacts, reliability sampling review, and an explicit expanded-corpus freeze point."
 }

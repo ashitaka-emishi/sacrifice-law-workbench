@@ -1,0 +1,10 @@
+{
+  "version": "1.0",
+  "case_id": "wwi-britain",
+  "generated_at": "2026-06-28T01:20:59",
+  "status": "stub",
+  "mapping_count": 0,
+  "errors": [
+    "no CMT mapping file found or no mappings defined"
+  ]
+}

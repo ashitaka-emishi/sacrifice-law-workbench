@@ -1,0 +1,35 @@
+{
+  "artifacts": {
+    "adjudication_queue": false,
+    "adjudication_results": false,
+    "agreement": false,
+    "codebook_notes": false,
+    "cohorts": false,
+    "correction_candidates": false,
+    "disagreements": false,
+    "ingestion_status": false,
+    "packets": false,
+    "reference_comparison": false,
+    "report": false
+  },
+  "case_id": "wwi-britain",
+  "cohorts": [],
+  "counts": {
+    "adjudication_submissions": 0,
+    "cohorts": 0,
+    "correction_candidates": 0,
+    "invalid_adjudications": 0,
+    "invalid_submissions": 0,
+    "submissions": 0,
+    "unresolved_adjudications": 0,
+    "valid_runs": 0
+  },
+  "errors": [],
+  "generator": "scripts/human_reliability/status.py",
+  "schema_version": "1.0.0",
+  "state": "absent",
+  "valid": true,
+  "warnings": [
+    "Human reliability has not been designed for this case."
+  ]
+}

@@ -1,0 +1,68 @@
+[
+  {
+    "id": "wwi-britain-01-liberty-autocracy",
+    "name": "Liberty and democracy against military autocracy",
+    "status": "provisional",
+    "keywords": [
+      "liberty",
+      "democracy",
+      "autocracy",
+      "freedom"
+    ]
+  },
+  {
+    "id": "wwi-britain-02-small-nations-belgium",
+    "name": "Small nations, Belgium, and treaty obligation",
+    "status": "provisional",
+    "keywords": [
+      "Belgium",
+      "small nations",
+      "treaty",
+      "honour"
+    ]
+  },
+  {
+    "id": "wwi-britain-03-sacrifice-service-home-front",
+    "name": "Sacrifice, service, and home-front obligation",
+    "status": "provisional",
+    "keywords": [
+      "sacrifice",
+      "service",
+      "duty",
+      "labour"
+    ]
+  },
+  {
+    "id": "wwi-britain-04-munitions-national-organization",
+    "name": "Munitions, production, and national organization",
+    "status": "provisional",
+    "keywords": [
+      "munitions",
+      "factory",
+      "organization",
+      "production"
+    ]
+  },
+  {
+    "id": "wwi-britain-05-civilization-barbarism",
+    "name": "Civilization, barbarism, and international justice",
+    "status": "provisional",
+    "keywords": [
+      "civilization",
+      "barbarism",
+      "justice",
+      "right"
+    ]
+  },
+  {
+    "id": "wwi-britain-06-victory-endurance",
+    "name": "Victory, endurance, and long-war resolve",
+    "status": "provisional",
+    "keywords": [
+      "victory",
+      "endurance",
+      "resolve",
+      "triumph"
+    ]
+  }
+]

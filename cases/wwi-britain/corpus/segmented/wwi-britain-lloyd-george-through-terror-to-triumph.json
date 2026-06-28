@@ -1,0 +1,4399 @@
+{
+  "case_id": "wwi-britain",
+  "document_id": "wwi-britain-lloyd-george-through-terror-to-triumph",
+  "meta": {
+    "document_id": "wwi-britain-lloyd-george-through-terror-to-triumph",
+    "title": "Through Terror to Triumph!",
+    "short_title": "Through Terror to Triumph",
+    "date": "1914-09-19",
+    "date_precision": "day",
+    "register": "wartime public speech",
+    "authorship": "David Lloyd George",
+    "source_url": "https://archive.org/details/throughterrortot00lloyuoft",
+    "source_citation": "Lloyd George, David. Through Terror to Triumph: Speeches and Pronouncements of the Right Hon. David Lloyd George, M.P., Since the Beginning of the War. 1915. Internet Archive.",
+    "rights_status": "public-domain",
+    "expected_raw_path": "corpus/raw/wwi-britain-src-01-through-terror-to-triumph/wwi-britain-lloyd-george-through-terror-to-triumph.txt",
+    "analytical_priority": "primary",
+    "phase": "early-war-justification",
+    "source_language": "en",
+    "annotation_language_policy": "source-language",
+    "risk_flags": [
+      "ocr-review-required",
+      "source-edition-verification"
+    ],
+    "verification": {
+      "min_words": 5000,
+      "required_phrases": [
+        "THROUGH  TERROR",
+        "Belgium",
+        "Sacrifice"
+      ]
+    },
+    "case_id": "wwi-britain",
+    "raw_path": "corpus/raw/wwi-britain-src-01-through-terror-to-triumph/wwi-britain-lloyd-george-through-terror-to-triumph.txt",
+    "pipeline_log": [
+      {
+        "stage": "normalize-texts",
+        "script": "scripts/normalize-texts.py",
+        "generated_at": "2026-06-28T01:20:58"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "section_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01",
+      "section_label": "body",
+      "section_ordinal": 1,
+      "paragraphs": [
+        {
+          "paragraph_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p01",
+          "paragraph_ordinal": 1,
+          "sentences": [
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p01_s01",
+              "sentence_ordinal": 1,
+              "text": "CHAPTER I",
+              "word_offset_start": 0,
+              "word_offset_end": 2,
+              "char_offset_start": 0,
+              "char_offset_end": 9,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p02",
+          "paragraph_ordinal": 2,
+          "sentences": [
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p02_s01",
+              "sentence_ordinal": 1,
+              "text": "\" THROUGH TERROR TO TRIUMPH !",
+              "word_offset_start": 2,
+              "word_offset_end": 8,
+              "char_offset_start": 9,
+              "char_offset_end": 38,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p02_s02",
+              "sentence_ordinal": 2,
+              "text": "\" 1",
+              "word_offset_start": 8,
+              "word_offset_end": 10,
+              "char_offset_start": 38,
+              "char_offset_end": 41,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p03",
+          "paragraph_ordinal": 3,
+          "sentences": [
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p03_s01",
+              "sentence_ordinal": 1,
+              "text": "Why Our National Honour is Involved.",
+              "word_offset_start": 10,
+              "word_offset_end": 16,
+              "char_offset_start": 41,
+              "char_offset_end": 77,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p04",
+          "paragraph_ordinal": 4,
+          "sentences": [
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p04_s01",
+              "sentence_ordinal": 1,
+              "text": "There is no man who has always regarded the prospect of engaging in a great war with greater reluctance and with greater repugnance than I have done throughout the whole of my political life.",
+              "word_offset_start": 16,
+              "word_offset_end": 50,
+              "char_offset_start": 77,
+              "char_offset_end": 268,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p04_s02",
+              "sentence_ordinal": 2,
+              "text": "There is no man more convinced that we could not have avoided it without national dishonour.",
+              "word_offset_start": 50,
+              "word_offset_end": 66,
+              "char_offset_start": 268,
+              "char_offset_end": 360,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p04_s03",
+              "sentence_ordinal": 3,
+              "text": "I am fully alive to the fact that every nation who has ever engaged in any war has always invoked the sacred name of honour.",
+              "word_offset_start": 66,
+              "word_offset_end": 91,
+              "char_offset_start": 360,
+              "char_offset_end": 484,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p04_s04",
+              "sentence_ordinal": 4,
+              "text": "Many a crime has been committed in its name ; there are some being com- mitted now.",
+              "word_offset_start": 91,
+              "word_offset_end": 108,
+              "char_offset_start": 484,
+              "char_offset_end": 567,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p04_s05",
+              "sentence_ordinal": 5,
+              "text": "All the same, national honour is a reality, and any nation that disregards it is doomed.",
+              "word_offset_start": 108,
+              "word_offset_end": 124,
+              "char_offset_start": 567,
+              "char_offset_end": 655,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p04_s06",
+              "sentence_ordinal": 6,
+              "text": "Why is our honour as a country involved in this war ?",
+              "word_offset_start": 124,
+              "word_offset_end": 136,
+              "char_offset_start": 655,
+              "char_offset_end": 708,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p04_s07",
+              "sentence_ordinal": 7,
+              "text": "Because, in the first instance, we are bound by honourable obli- gations to defend the independence, the liberty, the integrity, of a small neighbour who has always lived peaceably.",
+              "word_offset_start": 136,
+              "word_offset_end": 165,
+              "char_offset_start": 708,
+              "char_offset_end": 889,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p04_s08",
+              "sentence_ordinal": 8,
+              "text": "She could not have compelled us ; she was weak ; but the man who declines to discharge his duty because his creditor is too poor to enforce it is a blackguard.",
+              "word_offset_start": 165,
+              "word_offset_end": 197,
+              "char_offset_start": 889,
+              "char_offset_end": 1048,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p04_s09",
+              "sentence_ordinal": 9,
+              "text": "We entered into a treaty — a solemn treaty — two treaties — to defend Belgium and her integrity.",
+              "word_offset_start": 197,
+              "word_offset_end": 216,
+              "char_offset_start": 1048,
+              "char_offset_end": 1144,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p04_s10",
+              "sentence_ordinal": 10,
+              "text": "Our signatures are attached to the documents.",
+              "word_offset_start": 216,
+              "word_offset_end": 223,
+              "char_offset_start": 1144,
+              "char_offset_end": 1189,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p04_s11",
+              "sentence_ordinal": 11,
+              "text": "Our",
+              "word_offset_start": 223,
+              "word_offset_end": 224,
+              "char_offset_start": 1347,
+              "char_offset_end": 1350,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p05",
+          "paragraph_ordinal": 5,
+          "sentences": [
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p05_s01",
+              "sentence_ordinal": 1,
+              "text": "1 Speech on the War, delivered at the Queen's Hall, London, on September 19th, 191 4.",
+              "word_offset_start": 224,
+              "word_offset_end": 240,
+              "char_offset_start": 1350,
+              "char_offset_end": 1435,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p06",
+          "paragraph_ordinal": 6,
+          "sentences": [
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p06_s01",
+              "sentence_ordinal": 1,
+              "text": "2 THROUGH TERROR TO TRIUMPH",
+              "word_offset_start": 240,
+              "word_offset_end": 245,
+              "char_offset_start": 1435,
+              "char_offset_end": 1462,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p07",
+          "paragraph_ordinal": 7,
+          "sentences": [
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p07_s01",
+              "sentence_ordinal": 1,
+              "text": "signatures do not stand alone there ; this country was not the only country that undertook to defend the in- tegrity of Belgium.",
+              "word_offset_start": 245,
+              "word_offset_end": 268,
+              "char_offset_start": 1462,
+              "char_offset_end": 1590,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p07_s02",
+              "sentence_ordinal": 2,
+              "text": "Russia, France, Austria, Prussia — they are all there.",
+              "word_offset_start": 268,
+              "word_offset_end": 277,
+              "char_offset_start": 1590,
+              "char_offset_end": 1644,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p07_s03",
+              "sentence_ordinal": 3,
+              "text": "Why are Austria and Prussia not performing the obligations of their bond ?",
+              "word_offset_start": 277,
+              "word_offset_end": 290,
+              "char_offset_start": 1644,
+              "char_offset_end": 1718,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p08",
+          "paragraph_ordinal": 8,
+          "sentences": [
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p08_s01",
+              "sentence_ordinal": 1,
+              "text": "France and Belgium in 1870.",
+              "word_offset_start": 290,
+              "word_offset_end": 295,
+              "char_offset_start": 1718,
+              "char_offset_end": 1745,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p09",
+          "paragraph_ordinal": 9,
+          "sentences": [
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p09_s01",
+              "sentence_ordinal": 1,
+              "text": "It is suggested that when we quote this treaty it is purely an excuse on our part — it is our low craft and cunning to cloak our jealousy of a superior civilis- ation that we are attempting to destroy.",
+              "word_offset_start": 295,
+              "word_offset_end": 335,
+              "char_offset_start": 1745,
+              "char_offset_end": 1946,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p09_s02",
+              "sentence_ordinal": 2,
+              "text": "Our answer is the action we took in 1870.",
+              "word_offset_start": 335,
+              "word_offset_end": 344,
+              "char_offset_start": 1946,
+              "char_offset_end": 1987,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p09_s03",
+              "sentence_ordinal": 3,
+              "text": "What was that ?",
+              "word_offset_start": 344,
+              "word_offset_end": 348,
+              "char_offset_start": 1987,
+              "char_offset_end": 2002,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p09_s04",
+              "sentence_ordinal": 4,
+              "text": "Mr. Gladstone was then Prime Minister.",
+              "word_offset_start": 348,
+              "word_offset_end": 354,
+              "char_offset_start": 2002,
+              "char_offset_end": 2040,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p09_s05",
+              "sentence_ordinal": 5,
+              "text": "Lord Granville, I think, was then Foreign Secretary.",
+              "word_offset_start": 354,
+              "word_offset_end": 362,
+              "char_offset_start": 2040,
+              "char_offset_end": 2092,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p09_s06",
+              "sentence_ordinal": 6,
+              "text": "I have never heard it laid to their charge that they were ever Jingoes.",
+              "word_offset_start": 362,
+              "word_offset_end": 376,
+              "char_offset_start": 2092,
+              "char_offset_end": 2163,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p09_s07",
+              "sentence_ordinal": 7,
+              "text": "That treaty bound us then.",
+              "word_offset_start": 376,
+              "word_offset_end": 381,
+              "char_offset_start": 2163,
+              "char_offset_end": 2189,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p09_s08",
+              "sentence_ordinal": 8,
+              "text": "We called upon the belligerent Powers to respect it.",
+              "word_offset_start": 381,
+              "word_offset_end": 390,
+              "char_offset_start": 2189,
+              "char_offset_end": 2241,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p09_s09",
+              "sentence_ordinal": 9,
+              "text": "We called upon France, and we called upon Germany.",
+              "word_offset_start": 390,
+              "word_offset_end": 399,
+              "char_offset_start": 2241,
+              "char_offset_end": 2291,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p09_s10",
+              "sentence_ordinal": 10,
+              "text": "At that time, bear in mind, the greatest danger to Belgium came from France and not from Germany.",
+              "word_offset_start": 399,
+              "word_offset_end": 417,
+              "char_offset_start": 2291,
+              "char_offset_end": 2388,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p09_s11",
+              "sentence_ordinal": 11,
+              "text": "We inter- vened to protect Belgium against France, exactly as we are doing now to protect her against Germany.",
+              "word_offset_start": 417,
+              "word_offset_end": 436,
+              "char_offset_start": 2388,
+              "char_offset_end": 2498,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p09_s12",
+              "sentence_ordinal": 12,
+              "text": "We proceeded in exactly the same way.",
+              "word_offset_start": 436,
+              "word_offset_end": 443,
+              "char_offset_start": 2498,
+              "char_offset_end": 2535,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p09_s13",
+              "sentence_ordinal": 13,
+              "text": "We invited both the belligerent Powers to state that they had no intention of violating Belgian territory.",
+              "word_offset_start": 443,
+              "word_offset_end": 460,
+              "char_offset_start": 2535,
+              "char_offset_end": 2641,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p09_s14",
+              "sentence_ordinal": 14,
+              "text": "What was the answer given by Bismarck ?",
+              "word_offset_start": 460,
+              "word_offset_end": 468,
+              "char_offset_start": 2641,
+              "char_offset_end": 2680,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p09_s15",
+              "sentence_ordinal": 15,
+              "text": "He said it was superfluous to ask Prussia such a question in view of the treaties in force.",
+              "word_offset_start": 468,
+              "word_offset_end": 486,
+              "char_offset_start": 2680,
+              "char_offset_end": 2771,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p09_s16",
+              "sentence_ordinal": 16,
+              "text": "France gave a similar answer.",
+              "word_offset_start": 486,
+              "word_offset_end": 491,
+              "char_offset_start": 2771,
+              "char_offset_end": 2800,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p09_s17",
+              "sentence_ordinal": 17,
+              "text": "We received at that time the thanks of the Belgian people for our intervention in a very remarkable document.",
+              "word_offset_start": 491,
+              "word_offset_end": 510,
+              "char_offset_start": 2800,
+              "char_offset_end": 2909,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p09_s18",
+              "sentence_ordinal": 18,
+              "text": "It is a document addressed by the municipality of Brussels to Queen Victoria after that intervention, and it reads : —",
+              "word_offset_start": 510,
+              "word_offset_end": 531,
+              "char_offset_start": 2909,
+              "char_offset_end": 3027,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p10",
+          "paragraph_ordinal": 10,
+          "sentences": [
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p10_s01",
+              "sentence_ordinal": 1,
+              "text": "\" The great and noble people over whose destinies you preside has just given a further proof of its benevo- lent sentiments towards our country. . . .",
+              "word_offset_start": 531,
+              "word_offset_end": 559,
+              "char_offset_start": 3027,
+              "char_offset_end": 3177,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p10_s02",
+              "sentence_ordinal": 2,
+              "text": "The voice of the English nation has been heard above the din of arms, and it has asserted the principles of justice and right.",
+              "word_offset_start": 559,
+              "word_offset_end": 583,
+              "char_offset_start": 3177,
+              "char_offset_end": 3303,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p10_s03",
+              "sentence_ordinal": 3,
+              "text": "Next to the unalterable attachment of the Belgian people to their independence, the strongest",
+              "word_offset_start": 583,
+              "word_offset_end": 597,
+              "char_offset_start": 3303,
+              "char_offset_end": 3396,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p11",
+          "paragraph_ordinal": 11,
+          "sentences": [
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p11_s01",
+              "sentence_ordinal": 1,
+              "text": "\" THROUGH TERROR TO TRIUMPH !",
+              "word_offset_start": 597,
+              "word_offset_end": 603,
+              "char_offset_start": 3396,
+              "char_offset_end": 3425,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p11_s02",
+              "sentence_ordinal": 2,
+              "text": "\" 3",
+              "word_offset_start": 603,
+              "word_offset_end": 605,
+              "char_offset_start": 3425,
+              "char_offset_end": 3428,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p12",
+          "paragraph_ordinal": 12,
+          "sentences": [
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p12_s01",
+              "sentence_ordinal": 1,
+              "text": "sentiment which fills their hearts is that of an im- perishable gratitude.\"",
+              "word_offset_start": 605,
+              "word_offset_end": 617,
+              "char_offset_start": 3428,
+              "char_offset_end": 3503,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p13",
+          "paragraph_ordinal": 13,
+          "sentences": [
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p13_s01",
+              "sentence_ordinal": 1,
+              "text": "That was in 1870.",
+              "word_offset_start": 617,
+              "word_offset_end": 621,
+              "char_offset_start": 3503,
+              "char_offset_end": 3520,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p13_s02",
+              "sentence_ordinal": 2,
+              "text": "Mark what followed.",
+              "word_offset_start": 621,
+              "word_offset_end": 624,
+              "char_offset_start": 3520,
+              "char_offset_end": 3539,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p13_s03",
+              "sentence_ordinal": 3,
+              "text": "Three or four days after that document of thanks, a French army was wedged up against the Belgian frontier, every means of escape shut out by a ring of flame from Prussian cannon.",
+              "word_offset_start": 624,
+              "word_offset_end": 657,
+              "char_offset_start": 3539,
+              "char_offset_end": 3718,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p13_s04",
+              "sentence_ordinal": 4,
+              "text": "There was one way of escape.",
+              "word_offset_start": 657,
+              "word_offset_end": 663,
+              "char_offset_start": 3718,
+              "char_offset_end": 3746,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p13_s05",
+              "sentence_ordinal": 5,
+              "text": "What was that ?",
+              "word_offset_start": 663,
+              "word_offset_end": 667,
+              "char_offset_start": 3746,
+              "char_offset_end": 3761,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p13_s06",
+              "sentence_ordinal": 6,
+              "text": "Violating the neutrality of Belgium.",
+              "word_offset_start": 667,
+              "word_offset_end": 672,
+              "char_offset_start": 3761,
+              "char_offset_end": 3797,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p13_s07",
+              "sentence_ordinal": 7,
+              "text": "What did they do ?",
+              "word_offset_start": 672,
+              "word_offset_end": 677,
+              "char_offset_start": 3797,
+              "char_offset_end": 3815,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p13_s08",
+              "sentence_ordinal": 8,
+              "text": "The French on that occasion preferred ruin and humiliation to the breaking of their bond.",
+              "word_offset_start": 677,
+              "word_offset_end": 692,
+              "char_offset_start": 3815,
+              "char_offset_end": 3904,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p13_s09",
+              "sentence_ordinal": 9,
+              "text": "The French Emperor, the French Marshals, a hundred thousand gallant Frenchmen in arms, preferred to be carried captive to the strange land of their enemies, rather than dishonour the name of their country.",
+              "word_offset_start": 692,
+              "word_offset_end": 725,
+              "char_offset_start": 3904,
+              "char_offset_end": 4109,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p13_s10",
+              "sentence_ordinal": 10,
+              "text": "It was the last French Army in the field.",
+              "word_offset_start": 725,
+              "word_offset_end": 734,
+              "char_offset_start": 4109,
+              "char_offset_end": 4150,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p13_s11",
+              "sentence_ordinal": 11,
+              "text": "Had they violated Belgian neutrality, the whole history of that war would have been changed, and yet, when it was the interest of France to break the treaty then, she did not do it.",
+              "word_offset_start": 734,
+              "word_offset_end": 768,
+              "char_offset_start": 4150,
+              "char_offset_end": 4331,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p14",
+          "paragraph_ordinal": 14,
+          "sentences": [
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p14_s01",
+              "sentence_ordinal": 1,
+              "text": "\" A Scrap of Paper.\"",
+              "word_offset_start": 768,
+              "word_offset_end": 773,
+              "char_offset_start": 4331,
+              "char_offset_end": 4351,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p15",
+          "paragraph_ordinal": 15,
+          "sentences": [
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p15_s01",
+              "sentence_ordinal": 1,
+              "text": "It is the interest of Prussia to-day to break the treaty, and she has done it.",
+              "word_offset_start": 773,
+              "word_offset_end": 789,
+              "char_offset_start": 4351,
+              "char_offset_end": 4429,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p15_s02",
+              "sentence_ordinal": 2,
+              "text": "She avows it with cynical contempt for every principle of justice.",
+              "word_offset_start": 789,
+              "word_offset_end": 800,
+              "char_offset_start": 4429,
+              "char_offset_end": 4495,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p15_s03",
+              "sentence_ordinal": 3,
+              "text": "She says : \" Treaties only bind you when it is your interest to keep them.\" \" What is a treaty ?",
+              "word_offset_start": 800,
+              "word_offset_end": 822,
+              "char_offset_start": 4495,
+              "char_offset_end": 4591,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p15_s04",
+              "sentence_ordinal": 4,
+              "text": "\" says the German Chancellor.",
+              "word_offset_start": 822,
+              "word_offset_end": 827,
+              "char_offset_start": 4591,
+              "char_offset_end": 4620,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p15_s05",
+              "sentence_ordinal": 5,
+              "text": "\" A scrap of paper.\" Have you any £0 notes about you ?",
+              "word_offset_start": 827,
+              "word_offset_end": 840,
+              "char_offset_start": 4620,
+              "char_offset_end": 4674,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p15_s06",
+              "sentence_ordinal": 6,
+              "text": "I am not calling for them.",
+              "word_offset_start": 840,
+              "word_offset_end": 846,
+              "char_offset_start": 4674,
+              "char_offset_end": 4700,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p15_s07",
+              "sentence_ordinal": 7,
+              "text": "Have you any of those neat little Treasury £1 notes ?",
+              "word_offset_start": 846,
+              "word_offset_end": 857,
+              "char_offset_start": 4700,
+              "char_offset_end": 4753,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p15_s08",
+              "sentence_ordinal": 8,
+              "text": "If you have, burn them ; they are only scraps of paper.",
+              "word_offset_start": 857,
+              "word_offset_end": 869,
+              "char_offset_start": 4753,
+              "char_offset_end": 4808,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p15_s09",
+              "sentence_ordinal": 9,
+              "text": "What are they made of ?",
+              "word_offset_start": 869,
+              "word_offset_end": 875,
+              "char_offset_start": 4808,
+              "char_offset_end": 4831,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p15_s10",
+              "sentence_ordinal": 10,
+              "text": "Rags.",
+              "word_offset_start": 875,
+              "word_offset_end": 876,
+              "char_offset_start": 5536,
+              "char_offset_end": 5541,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p15_s11",
+              "sentence_ordinal": 11,
+              "text": "What are they worth ?",
+              "word_offset_start": 876,
+              "word_offset_end": 881,
+              "char_offset_start": 5541,
+              "char_offset_end": 5562,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p15_s12",
+              "sentence_ordinal": 12,
+              "text": "The whole credit of the British Empire.",
+              "word_offset_start": 881,
+              "word_offset_end": 888,
+              "char_offset_start": 5562,
+              "char_offset_end": 5601,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p15_s13",
+              "sentence_ordinal": 13,
+              "text": "Scraps of paper !",
+              "word_offset_start": 888,
+              "word_offset_end": 892,
+              "char_offset_start": 5601,
+              "char_offset_end": 5618,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p15_s14",
+              "sentence_ordinal": 14,
+              "text": "I have been dealing with scraps of paper within the last month.",
+              "word_offset_start": 892,
+              "word_offset_end": 904,
+              "char_offset_start": 5618,
+              "char_offset_end": 5681,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p15_s15",
+              "sentence_ordinal": 15,
+              "text": "One suddenly found the commerce of the world coming to a standstill.",
+              "word_offset_start": 904,
+              "word_offset_end": 916,
+              "char_offset_start": 5681,
+              "char_offset_end": 5749,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p15_s16",
+              "sentence_ordinal": 16,
+              "text": "The machine had stopped.",
+              "word_offset_start": 916,
+              "word_offset_end": 920,
+              "char_offset_start": 5749,
+              "char_offset_end": 5773,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p15_s17",
+              "sentence_ordinal": 17,
+              "text": "Why ?",
+              "word_offset_start": 920,
+              "word_offset_end": 922,
+              "char_offset_start": 5773,
+              "char_offset_end": 5778,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p15_s18",
+              "sentence_ordinal": 18,
+              "text": "I will tell you.",
+              "word_offset_start": 922,
+              "word_offset_end": 926,
+              "char_offset_start": 5778,
+              "char_offset_end": 5794,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p15_s19",
+              "sentence_ordinal": 19,
+              "text": "We discovered — many of us for the first time, for I do not pretend that I do not know much more about the machinery of commerce to-day than I did six weeks ago, and there are many others like me — we discovered that the machinery of commerce",
+              "word_offset_start": 926,
+              "word_offset_end": 975,
+              "char_offset_start": 5794,
+              "char_offset_end": 6036,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p16",
+          "paragraph_ordinal": 16,
+          "sentences": [
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p16_s01",
+              "sentence_ordinal": 1,
+              "text": "4 THROUGH TERROR TO TRIUMPH",
+              "word_offset_start": 975,
+              "word_offset_end": 980,
+              "char_offset_start": 6036,
+              "char_offset_end": 6063,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p17",
+          "paragraph_ordinal": 17,
+          "sentences": [
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p17_s01",
+              "sentence_ordinal": 1,
+              "text": "was moved by bills of exchange.",
+              "word_offset_start": 980,
+              "word_offset_end": 986,
+              "char_offset_start": 6063,
+              "char_offset_end": 6094,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p17_s02",
+              "sentence_ordinal": 2,
+              "text": "I have seen some of them, wretched, crinkled, scrawled over, blotched, frowsy, and yet those wretched little scraps of paper move great ships laden with thousands of tons of precious cargo from one end of the world to the other.",
+              "word_offset_start": 986,
+              "word_offset_end": 1026,
+              "char_offset_start": 6094,
+              "char_offset_end": 6322,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p17_s03",
+              "sentence_ordinal": 3,
+              "text": "What is the motive power behind them ?",
+              "word_offset_start": 1026,
+              "word_offset_end": 1034,
+              "char_offset_start": 6322,
+              "char_offset_end": 6360,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p17_s04",
+              "sentence_ordinal": 4,
+              "text": "The honour of commercial men.",
+              "word_offset_start": 1034,
+              "word_offset_end": 1039,
+              "char_offset_start": 6360,
+              "char_offset_end": 6389,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p18",
+          "paragraph_ordinal": 18,
+          "sentences": [
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p18_s01",
+              "sentence_ordinal": 1,
+              "text": "Treaties are the currency of International states- manship.",
+              "word_offset_start": 1039,
+              "word_offset_end": 1047,
+              "char_offset_start": 6389,
+              "char_offset_end": 6448,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p18_s02",
+              "sentence_ordinal": 2,
+              "text": "Let us be fair : German merchants, German traders, have the reputation of being as upright and straightforward as any traders in the world, but if the currency of German commerce is to be debased to the level of that of her statesmanship, no trader from Shanghai to Valparaiso will ever look at a German signature again.",
+              "word_offset_start": 1047,
+              "word_offset_end": 1104,
+              "char_offset_start": 6448,
+              "char_offset_end": 6768,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p18_s03",
+              "sentence_ordinal": 3,
+              "text": "This doctrine of the scrap of paper, this doctrine which is proclaimed by Bernhardi, that treaties only bind a nation as long as it is to its interest, goes under the root of all public law.",
+              "word_offset_start": 1104,
+              "word_offset_end": 1140,
+              "char_offset_start": 6768,
+              "char_offset_end": 6958,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p18_s04",
+              "sentence_ordinal": 4,
+              "text": "It is the straight road to barbarism.",
+              "word_offset_start": 1140,
+              "word_offset_end": 1147,
+              "char_offset_start": 6958,
+              "char_offset_end": 6995,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p18_s05",
+              "sentence_ordinal": 5,
+              "text": "It is as if you were to remove the Magnetic Pole because it was in the way of a German cruiser.",
+              "word_offset_start": 1147,
+              "word_offset_end": 1168,
+              "char_offset_start": 6995,
+              "char_offset_end": 7090,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p18_s06",
+              "sentence_ordinal": 6,
+              "text": "The whole navigation of the seas would become dangerous, difficult and impossible ; and the whole machinery of civilisation will break down if this doctrine wins in this war.",
+              "word_offset_start": 1168,
+              "word_offset_end": 1197,
+              "char_offset_start": 7090,
+              "char_offset_end": 7264,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p18_s07",
+              "sentence_ordinal": 7,
+              "text": "We are righting against bar- barism, and there is only one way of putting it right.",
+              "word_offset_start": 1197,
+              "word_offset_end": 1213,
+              "char_offset_start": 7264,
+              "char_offset_end": 7347,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p18_s08",
+              "sentence_ordinal": 8,
+              "text": "If there are nations that say they will only respect treaties when it is to their interest to do so, we must make it to their interest to do so for the future.",
+              "word_offset_start": 1213,
+              "word_offset_end": 1246,
+              "char_offset_start": 7347,
+              "char_offset_end": 7506,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p19",
+          "paragraph_ordinal": 19,
+          "sentences": [
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p19_s01",
+              "sentence_ordinal": 1,
+              "text": "Germany's Perjury.",
+              "word_offset_start": 1246,
+              "word_offset_end": 1248,
+              "char_offset_start": 7506,
+              "char_offset_end": 7524,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p20",
+          "paragraph_ordinal": 20,
+          "sentences": [
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p20_s01",
+              "sentence_ordinal": 1,
+              "text": "What is their defence ?",
+              "word_offset_start": 1248,
+              "word_offset_end": 1253,
+              "char_offset_start": 7524,
+              "char_offset_end": 7547,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p20_s02",
+              "sentence_ordinal": 2,
+              "text": "Consider the interview which took place between our Ambassador and the great German officials.",
+              "word_offset_start": 1253,
+              "word_offset_end": 1267,
+              "char_offset_start": 7547,
+              "char_offset_end": 7641,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p20_s03",
+              "sentence_ordinal": 3,
+              "text": "When their attention was called to this treaty to which they were parties, they said : \" We cannot help that.",
+              "word_offset_start": 1267,
+              "word_offset_end": 1288,
+              "char_offset_start": 7641,
+              "char_offset_end": 7750,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p20_s04",
+              "sentence_ordinal": 4,
+              "text": "Rapidity of action is the great German asset.\" There is a greater asset for a nation than rapidity of action, and that is honest dealing.",
+              "word_offset_start": 1288,
+              "word_offset_end": 1313,
+              "char_offset_start": 7750,
+              "char_offset_end": 7887,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p20_s05",
+              "sentence_ordinal": 5,
+              "text": "What are Germany's excuses ?",
+              "word_offset_start": 1313,
+              "word_offset_end": 1318,
+              "char_offset_start": 7887,
+              "char_offset_end": 7915,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p20_s06",
+              "sentence_ordinal": 6,
+              "text": "She says Belgium was plotting against her ; Belgium was engaged in a great conspiracy with Britain and with France to attack her.",
+              "word_offset_start": 1318,
+              "word_offset_end": 1341,
+              "char_offset_start": 7915,
+              "char_offset_end": 8044,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p20_s07",
+              "sentence_ordinal": 7,
+              "text": "Not merely is it not",
+              "word_offset_start": 1341,
+              "word_offset_end": 1346,
+              "char_offset_start": 8044,
+              "char_offset_end": 8064,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p21",
+          "paragraph_ordinal": 21,
+          "sentences": [
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p21_s01",
+              "sentence_ordinal": 1,
+              "text": "\"THROUGH TERROR TO TRIUMPH!\" 5",
+              "word_offset_start": 1346,
+              "word_offset_end": 1351,
+              "char_offset_start": 8064,
+              "char_offset_end": 8094,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p22",
+          "paragraph_ordinal": 22,
+          "sentences": [
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p22_s01",
+              "sentence_ordinal": 1,
+              "text": "true, but Germany knows it is not true.",
+              "word_offset_start": 1351,
+              "word_offset_end": 1359,
+              "char_offset_start": 8094,
+              "char_offset_end": 8133,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p22_s02",
+              "sentence_ordinal": 2,
+              "text": "What is her other excuse ?",
+              "word_offset_start": 1359,
+              "word_offset_end": 1365,
+              "char_offset_start": 8133,
+              "char_offset_end": 8159,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p22_s03",
+              "sentence_ordinal": 3,
+              "text": "That France meant to invade Germany through Belgium.",
+              "word_offset_start": 1365,
+              "word_offset_end": 1373,
+              "char_offset_start": 8159,
+              "char_offset_end": 8211,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p22_s04",
+              "sentence_ordinal": 4,
+              "text": "That is absolutely untrue.",
+              "word_offset_start": 1373,
+              "word_offset_end": 1377,
+              "char_offset_start": 8211,
+              "char_offset_end": 8237,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p22_s05",
+              "sentence_ordinal": 5,
+              "text": "France offered Belgium five army corps to defend her if she were attacked.",
+              "word_offset_start": 1377,
+              "word_offset_end": 1390,
+              "char_offset_start": 8237,
+              "char_offset_end": 8311,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p22_s06",
+              "sentence_ordinal": 6,
+              "text": "Belgium said : \"I do not require them ; I have the word of the Kaiser.",
+              "word_offset_start": 1390,
+              "word_offset_end": 1406,
+              "char_offset_start": 8311,
+              "char_offset_end": 8381,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p22_s07",
+              "sentence_ordinal": 7,
+              "text": "Shall Caesar send a lie ?",
+              "word_offset_start": 1406,
+              "word_offset_end": 1412,
+              "char_offset_start": 8381,
+              "char_offset_end": 8406,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p22_s08",
+              "sentence_ordinal": 8,
+              "text": "\" All these tales about conspiracy have been vamped up since.",
+              "word_offset_start": 1412,
+              "word_offset_end": 1423,
+              "char_offset_start": 8406,
+              "char_offset_end": 8467,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p22_s09",
+              "sentence_ordinal": 9,
+              "text": "A great nation ought to be ashamed to behave like a fraudulent bankrupt, perjuring its way through its obligations.",
+              "word_offset_start": 1423,
+              "word_offset_end": 1442,
+              "char_offset_start": 8467,
+              "char_offset_end": 8582,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p22_s10",
+              "sentence_ordinal": 10,
+              "text": "What she says is not true.",
+              "word_offset_start": 1442,
+              "word_offset_end": 1448,
+              "char_offset_start": 8582,
+              "char_offset_end": 8608,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p22_s11",
+              "sentence_ordinal": 11,
+              "text": "She has deliberately broken this treaty, and we were in honour bound to stand by it.",
+              "word_offset_start": 1448,
+              "word_offset_end": 1464,
+              "char_offset_start": 8608,
+              "char_offset_end": 8692,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p23",
+          "paragraph_ordinal": 23,
+          "sentences": [
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p23_s01",
+              "sentence_ordinal": 1,
+              "text": "Belgium's \" Crime.\"",
+              "word_offset_start": 1464,
+              "word_offset_end": 1467,
+              "char_offset_start": 8692,
+              "char_offset_end": 8711,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p24",
+          "paragraph_ordinal": 24,
+          "sentences": [
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p24_s01",
+              "sentence_ordinal": 1,
+              "text": "Belgium has been treated brutally.",
+              "word_offset_start": 1467,
+              "word_offset_end": 1472,
+              "char_offset_start": 8711,
+              "char_offset_end": 8745,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p24_s02",
+              "sentence_ordinal": 2,
+              "text": "How brutally we shall not yet know.",
+              "word_offset_start": 1472,
+              "word_offset_end": 1479,
+              "char_offset_start": 8745,
+              "char_offset_end": 8780,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p24_s03",
+              "sentence_ordinal": 3,
+              "text": "We already know too much.",
+              "word_offset_start": 1479,
+              "word_offset_end": 1484,
+              "char_offset_start": 8780,
+              "char_offset_end": 8805,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p24_s04",
+              "sentence_ordinal": 4,
+              "text": "But what had' she done ?",
+              "word_offset_start": 1484,
+              "word_offset_end": 1490,
+              "char_offset_start": 8805,
+              "char_offset_end": 8829,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p24_s05",
+              "sentence_ordinal": 5,
+              "text": "Had she sent an ultimatum to Germany ?",
+              "word_offset_start": 1490,
+              "word_offset_end": 1498,
+              "char_offset_start": 8829,
+              "char_offset_end": 8867,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p24_s06",
+              "sentence_ordinal": 6,
+              "text": "Had she challenged Germany ?",
+              "word_offset_start": 1498,
+              "word_offset_end": 1503,
+              "char_offset_start": 8867,
+              "char_offset_end": 8895,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p24_s07",
+              "sentence_ordinal": 7,
+              "text": "Was she preparing to make war on Germany ?",
+              "word_offset_start": 1503,
+              "word_offset_end": 1512,
+              "char_offset_start": 8895,
+              "char_offset_end": 8937,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p24_s08",
+              "sentence_ordinal": 8,
+              "text": "Had she inflicted any wrong upon Germany which the Kaiser was bound to redress ?",
+              "word_offset_start": 1512,
+              "word_offset_end": 1527,
+              "char_offset_start": 8937,
+              "char_offset_end": 9017,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p24_s09",
+              "sentence_ordinal": 9,
+              "text": "She was one of the most unoffending little countries in Europe.",
+              "word_offset_start": 1527,
+              "word_offset_end": 1538,
+              "char_offset_start": 9017,
+              "char_offset_end": 9080,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p24_s10",
+              "sentence_ordinal": 10,
+              "text": "There she was — peaceable, in- dustrious, thrifty, hard-working, giving offence to no one.",
+              "word_offset_start": 1538,
+              "word_offset_end": 1552,
+              "char_offset_start": 9080,
+              "char_offset_end": 9170,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p24_s11",
+              "sentence_ordinal": 11,
+              "text": "And her cornfields have been trampled, her villages have been burnt, her art treasures have been destroyed, her men have been slaughtered — yea, and her women and children too.",
+              "word_offset_start": 1552,
+              "word_offset_end": 1582,
+              "char_offset_start": 9170,
+              "char_offset_end": 9346,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p24_s12",
+              "sentence_ordinal": 12,
+              "text": "Hundreds and thousands of her people, their neat, comfortable little homes burnt to the dust, are wandering homeless in their own land.",
+              "word_offset_start": 1582,
+              "word_offset_end": 1604,
+              "char_offset_start": 9346,
+              "char_offset_end": 9481,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p24_s13",
+              "sentence_ordinal": 13,
+              "text": "What was their crime ?",
+              "word_offset_start": 1604,
+              "word_offset_end": 1609,
+              "char_offset_start": 9481,
+              "char_offset_end": 9503,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p24_s14",
+              "sentence_ordinal": 14,
+              "text": "Their crime was that they trusted to the word of a Prussian King.",
+              "word_offset_start": 1609,
+              "word_offset_end": 1622,
+              "char_offset_start": 9503,
+              "char_offset_end": 9568,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p24_s15",
+              "sentence_ordinal": 15,
+              "text": "I do not know what the Kaiser hopes to achieve by this war.",
+              "word_offset_start": 1622,
+              "word_offset_end": 1635,
+              "char_offset_start": 9568,
+              "char_offset_end": 9627,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p24_s16",
+              "sentence_ordinal": 16,
+              "text": "I have a shrewd idea what he will get ; but one thing he has made certain, and that is that no nation will ever commit that crime again.",
+              "word_offset_start": 1635,
+              "word_offset_end": 1664,
+              "char_offset_start": 9627,
+              "char_offset_end": 9763,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p25",
+          "paragraph_ordinal": 25,
+          "sentences": [
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p25_s01",
+              "sentence_ordinal": 1,
+              "text": "\" The Rigid to Defend its Homes\"",
+              "word_offset_start": 1664,
+              "word_offset_end": 1671,
+              "char_offset_start": 9763,
+              "char_offset_end": 9795,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p26",
+          "paragraph_ordinal": 26,
+          "sentences": [
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p26_s01",
+              "sentence_ordinal": 1,
+              "text": "I am not going to enter into details of outrages.",
+              "word_offset_start": 1671,
+              "word_offset_end": 1681,
+              "char_offset_start": 9795,
+              "char_offset_end": 9844,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p26_s02",
+              "sentence_ordinal": 2,
+              "text": "War is a grim, ghastly business at best or at worst, and I am not going to say that all that has been said in the way of",
+              "word_offset_start": 1681,
+              "word_offset_end": 1709,
+              "char_offset_start": 9844,
+              "char_offset_end": 9964,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p27",
+          "paragraph_ordinal": 27,
+          "sentences": [
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p27_s01",
+              "sentence_ordinal": 1,
+              "text": "HROUGH TERROR TO TRIUMPH",
+              "word_offset_start": 1709,
+              "word_offset_end": 1713,
+              "char_offset_start": 9964,
+              "char_offset_end": 9988,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p28",
+          "paragraph_ordinal": 28,
+          "sentences": [
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p28_s01",
+              "sentence_ordinal": 1,
+              "text": "outrages must necessarily be true.",
+              "word_offset_start": 1713,
+              "word_offset_end": 1718,
+              "char_offset_start": 9988,
+              "char_offset_end": 10022,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p28_s02",
+              "sentence_ordinal": 2,
+              "text": "I will go beyond that, and I will say that if you turn two million men — forced, conscript, compelled, driven — into the field, you will always get amongst them a certain number who will do things that the nation to which they belong would be ashamed of.",
+              "word_offset_start": 1718,
+              "word_offset_end": 1767,
+              "char_offset_start": 10022,
+              "char_offset_end": 10276,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p28_s03",
+              "sentence_ordinal": 3,
+              "text": "I am not depending on these tales.",
+              "word_offset_start": 1767,
+              "word_offset_end": 1774,
+              "char_offset_start": 10276,
+              "char_offset_end": 10310,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p28_s04",
+              "sentence_ordinal": 4,
+              "text": "It is enough for me to have the story which Germans them- selves avow, admit, defend and proclaim — the burning and massacring, the shooting down of harmless people.",
+              "word_offset_start": 1774,
+              "word_offset_end": 1803,
+              "char_offset_start": 10310,
+              "char_offset_end": 10475,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p28_s05",
+              "sentence_ordinal": 5,
+              "text": "Why ?",
+              "word_offset_start": 1803,
+              "word_offset_end": 1805,
+              "char_offset_start": 10475,
+              "char_offset_end": 10480,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p28_s06",
+              "sentence_ordinal": 6,
+              "text": "Because, according to the Germans, these people fired on German soldiers.",
+              "word_offset_start": 1805,
+              "word_offset_end": 1816,
+              "char_offset_start": 10480,
+              "char_offset_end": 10553,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p28_s07",
+              "sentence_ordinal": 7,
+              "text": "What business had Germans soldiers there at all ?",
+              "word_offset_start": 1816,
+              "word_offset_end": 1825,
+              "char_offset_start": 10553,
+              "char_offset_end": 10602,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p28_s08",
+              "sentence_ordinal": 8,
+              "text": "Belgium was acting in pursuance of the most sacred right, the right to defend its homes.",
+              "word_offset_start": 1825,
+              "word_offset_end": 1841,
+              "char_offset_start": 10602,
+              "char_offset_end": 10690,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p28_s09",
+              "sentence_ordinal": 9,
+              "text": "But they were not in uniform when they fired !",
+              "word_offset_start": 1841,
+              "word_offset_end": 1851,
+              "char_offset_start": 10690,
+              "char_offset_end": 10736,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p28_s10",
+              "sentence_ordinal": 10,
+              "text": "If a burglar broke into the Kaiser's Palace at Potsdam, destroyed his furniture, killed his servants, ruined his art treasures — especially those he has made himself — and burned the precious manuscripts of his speeches, do you think he would wait until he got into uniform before he shot him down ?",
+              "word_offset_start": 1851,
+              "word_offset_end": 1904,
+              "char_offset_start": 10736,
+              "char_offset_end": 11035,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p28_s11",
+              "sentence_ordinal": 11,
+              "text": "The Belgians were dealing with those who had broken into their household.",
+              "word_offset_start": 1904,
+              "word_offset_end": 1916,
+              "char_offset_start": 11035,
+              "char_offset_end": 11108,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p29",
+          "paragraph_ordinal": 29,
+          "sentences": [
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p29_s01",
+              "sentence_ordinal": 1,
+              "text": "But the perfidy of the Germans has already failed.",
+              "word_offset_start": 1916,
+              "word_offset_end": 1925,
+              "char_offset_start": 11108,
+              "char_offset_end": 11158,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p29_s02",
+              "sentence_ordinal": 2,
+              "text": "They entered Belgium to save time.",
+              "word_offset_start": 1925,
+              "word_offset_end": 1931,
+              "char_offset_start": 11158,
+              "char_offset_end": 11192,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p29_s03",
+              "sentence_ordinal": 3,
+              "text": "The time has gone.",
+              "word_offset_start": 1931,
+              "word_offset_end": 1935,
+              "char_offset_start": 11192,
+              "char_offset_end": 11210,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p29_s04",
+              "sentence_ordinal": 4,
+              "text": "They have not gained time, but they have lost their good name.",
+              "word_offset_start": 1935,
+              "word_offset_end": 1947,
+              "char_offset_start": 11210,
+              "char_offset_end": 11272,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p30",
+          "paragraph_ordinal": 30,
+          "sentences": [
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p30_s01",
+              "sentence_ordinal": 1,
+              "text": "The Case of Serbia.",
+              "word_offset_start": 1947,
+              "word_offset_end": 1951,
+              "char_offset_start": 11272,
+              "char_offset_end": 11291,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p31",
+          "paragraph_ordinal": 31,
+          "sentences": [
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p31_s01",
+              "sentence_ordinal": 1,
+              "text": "But Belgium is not the only little nation that has been attacked in this war, and I make no excuse for referring to the case of the other little nation, the case of Serbia.",
+              "word_offset_start": 1951,
+              "word_offset_end": 1985,
+              "char_offset_start": 11291,
+              "char_offset_end": 11463,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p31_s02",
+              "sentence_ordinal": 2,
+              "text": "The history of Serbia is not unblotted.",
+              "word_offset_start": 1985,
+              "word_offset_end": 1992,
+              "char_offset_start": 11463,
+              "char_offset_end": 11502,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p31_s03",
+              "sentence_ordinal": 3,
+              "text": "Whose history, in the category of nations, is unblotted ?",
+              "word_offset_start": 1992,
+              "word_offset_end": 2002,
+              "char_offset_start": 11502,
+              "char_offset_end": 11559,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p31_s04",
+              "sentence_ordinal": 4,
+              "text": "The first nation that is without sin, let her cast a stone at Serbia.",
+              "word_offset_start": 2002,
+              "word_offset_end": 2016,
+              "char_offset_start": 11559,
+              "char_offset_end": 11628,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p31_s05",
+              "sentence_ordinal": 5,
+              "text": "She was a nation trained in a horrible school, but she won her freedom with a tenacious valour, and she has main- tained it by the same courage.",
+              "word_offset_start": 2016,
+              "word_offset_end": 2044,
+              "char_offset_start": 11628,
+              "char_offset_end": 11772,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p31_s06",
+              "sentence_ordinal": 6,
+              "text": "If any Serbians were mixed up in the assassination of the Grand Duke, they ought to be punished.",
+              "word_offset_start": 2044,
+              "word_offset_end": 2062,
+              "char_offset_start": 11772,
+              "char_offset_end": 11868,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p31_s07",
+              "sentence_ordinal": 7,
+              "text": "Serbia admits that.",
+              "word_offset_start": 2062,
+              "word_offset_end": 2065,
+              "char_offset_start": 11868,
+              "char_offset_end": 11887,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p31_s08",
+              "sentence_ordinal": 8,
+              "text": "The Serbian Government had nothing to do with it.",
+              "word_offset_start": 2065,
+              "word_offset_end": 2074,
+              "char_offset_start": 11887,
+              "char_offset_end": 11936,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p31_s09",
+              "sentence_ordinal": 9,
+              "text": "Not even Austria claims that.",
+              "word_offset_start": 2074,
+              "word_offset_end": 2079,
+              "char_offset_start": 11936,
+              "char_offset_end": 11965,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p31_s10",
+              "sentence_ordinal": 10,
+              "text": "The Serbian Prime Minister is one of the most capable and honoured men in Europe.",
+              "word_offset_start": 2079,
+              "word_offset_end": 2094,
+              "char_offset_start": 11965,
+              "char_offset_end": 12046,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p31_s11",
+              "sentence_ordinal": 11,
+              "text": "Serbia",
+              "word_offset_start": 2094,
+              "word_offset_end": 2095,
+              "char_offset_start": 12330,
+              "char_offset_end": 12336,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p32",
+          "paragraph_ordinal": 32,
+          "sentences": [
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p32_s01",
+              "sentence_ordinal": 1,
+              "text": "\" THROUGH TERROR TO TRIUMPH !",
+              "word_offset_start": 2095,
+              "word_offset_end": 2101,
+              "char_offset_start": 12336,
+              "char_offset_end": 12365,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p32_s02",
+              "sentence_ordinal": 2,
+              "text": "\" 7",
+              "word_offset_start": 2101,
+              "word_offset_end": 2103,
+              "char_offset_start": 12365,
+              "char_offset_end": 12368,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p33",
+          "paragraph_ordinal": 33,
+          "sentences": [
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p33_s01",
+              "sentence_ordinal": 1,
+              "text": "was willing to punish any one of her subjects who had been proved to have any complicity in that assassination.",
+              "word_offset_start": 2103,
+              "word_offset_end": 2123,
+              "char_offset_start": 12368,
+              "char_offset_end": 12479,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p33_s02",
+              "sentence_ordinal": 2,
+              "text": "What more could you expect ?",
+              "word_offset_start": 2123,
+              "word_offset_end": 2129,
+              "char_offset_start": 12479,
+              "char_offset_end": 12507,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p34",
+          "paragraph_ordinal": 34,
+          "sentences": [
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p34_s01",
+              "sentence_ordinal": 1,
+              "text": "What were the Austrian demands ?",
+              "word_offset_start": 2129,
+              "word_offset_end": 2135,
+              "char_offset_start": 12507,
+              "char_offset_end": 12539,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p34_s02",
+              "sentence_ordinal": 2,
+              "text": "Serbia sym- pathised with her fellow-countrymen in Bosnia — that was one of her crimes.",
+              "word_offset_start": 2135,
+              "word_offset_end": 2150,
+              "char_offset_start": 12539,
+              "char_offset_end": 12626,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p34_s03",
+              "sentence_ordinal": 3,
+              "text": "She must do so no more.",
+              "word_offset_start": 2150,
+              "word_offset_end": 2156,
+              "char_offset_start": 12626,
+              "char_offset_end": 12649,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p34_s04",
+              "sentence_ordinal": 4,
+              "text": "Her newspapers were saying nasty things about Austria : they must do so no longer.",
+              "word_offset_start": 2156,
+              "word_offset_end": 2171,
+              "char_offset_start": 12649,
+              "char_offset_end": 12731,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p34_s05",
+              "sentence_ordinal": 5,
+              "text": "That is the German spirit ; you had it in Zabern.",
+              "word_offset_start": 2171,
+              "word_offset_end": 2182,
+              "char_offset_start": 12731,
+              "char_offset_end": 12780,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p34_s06",
+              "sentence_ordinal": 6,
+              "text": "How dare you criticise a Prussian official ?",
+              "word_offset_start": 2182,
+              "word_offset_end": 2190,
+              "char_offset_start": 12780,
+              "char_offset_end": 12824,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p34_s07",
+              "sentence_ordinal": 7,
+              "text": "And if you laugh, it is a capital offence — the colonel in Zabern threatened to shoot if it was repeated.",
+              "word_offset_start": 2190,
+              "word_offset_end": 2211,
+              "char_offset_start": 12824,
+              "char_offset_end": 12929,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p34_s08",
+              "sentence_ordinal": 8,
+              "text": "In the same way the Serbian news- papers must not criticise Austria.",
+              "word_offset_start": 2211,
+              "word_offset_end": 2223,
+              "char_offset_start": 12929,
+              "char_offset_end": 12997,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p34_s09",
+              "sentence_ordinal": 9,
+              "text": "I wonder what would have happened if we had taken the same line about German newspapers !",
+              "word_offset_start": 2223,
+              "word_offset_end": 2240,
+              "char_offset_start": 12997,
+              "char_offset_end": 13086,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p34_s10",
+              "sentence_ordinal": 10,
+              "text": "Serbia said : \" Very well, we will give orders to the newspapers that they must in future criticise neither Austria, nor Hungary, nor anything that is theirs.\" Who can doubt the valour of Serbia, when she undertook to tackle her newspaper editors ?",
+              "word_offset_start": 2240,
+              "word_offset_end": 2284,
+              "char_offset_start": 13086,
+              "char_offset_end": 13334,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p34_s11",
+              "sentence_ordinal": 11,
+              "text": "She prom- ised not to sympathise with Bosnia ; she promised to write no critical articles about Austria ; she would have no public meetings in which anything unkind was said about Austria.",
+              "word_offset_start": 2284,
+              "word_offset_end": 2317,
+              "char_offset_start": 13334,
+              "char_offset_end": 13522,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p35",
+          "paragraph_ordinal": 35,
+          "sentences": [
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p35_s01",
+              "sentence_ordinal": 1,
+              "text": "\" Serbia Faced the Situation with Dignity\"",
+              "word_offset_start": 2317,
+              "word_offset_end": 2324,
+              "char_offset_start": 13522,
+              "char_offset_end": 13564,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p36",
+          "paragraph_ordinal": 36,
+          "sentences": [
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p36_s01",
+              "sentence_ordinal": 1,
+              "text": "But that was not enough.",
+              "word_offset_start": 2324,
+              "word_offset_end": 2329,
+              "char_offset_start": 13564,
+              "char_offset_end": 13588,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p36_s02",
+              "sentence_ordinal": 2,
+              "text": "She must dismiss from her army the officers whom Austria should subsequently name — those officers who had just emerged from a war where they had added lustre to the Serbian arms.",
+              "word_offset_start": 2329,
+              "word_offset_end": 2361,
+              "char_offset_start": 13588,
+              "char_offset_end": 13767,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p36_s03",
+              "sentence_ordinal": 3,
+              "text": "They were gallant, brave and efficient.",
+              "word_offset_start": 2361,
+              "word_offset_end": 2367,
+              "char_offset_start": 13767,
+              "char_offset_end": 13806,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p36_s04",
+              "sentence_ordinal": 4,
+              "text": "I wonder whether it was their guilt or their efficiency that prompted Austria's action !",
+              "word_offset_start": 2367,
+              "word_offset_end": 2382,
+              "char_offset_start": 13806,
+              "char_offset_end": 13894,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p36_s05",
+              "sentence_ordinal": 5,
+              "text": "But, mark you, the officers were not named ; Serbia was to undertake in advance to dismiss them from the army, the names to be sent in subsequently.",
+              "word_offset_start": 2382,
+              "word_offset_end": 2410,
+              "char_offset_start": 13894,
+              "char_offset_end": 14042,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p36_s06",
+              "sentence_ordinal": 6,
+              "text": "Can you name a country in the world that would have stood that ?",
+              "word_offset_start": 2410,
+              "word_offset_end": 2424,
+              "char_offset_start": 14042,
+              "char_offset_end": 14106,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p36_s07",
+              "sentence_ordinal": 7,
+              "text": "Supposing Austria or Germany had issued an ultimatum of that kind to this country, saying, \" You must dismiss from your Army — and from your Navy — all those officers whom we shall subsequently name.\" Well, I think I could name them now.",
+              "word_offset_start": 2424,
+              "word_offset_end": 2468,
+              "char_offset_start": 14106,
+              "char_offset_end": 14343,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p36_s08",
+              "sentence_ordinal": 8,
+              "text": "Lord Kitchener",
+              "word_offset_start": 2468,
+              "word_offset_end": 2470,
+              "char_offset_start": 14343,
+              "char_offset_end": 14357,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p37",
+          "paragraph_ordinal": 37,
+          "sentences": [
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p37_s01",
+              "sentence_ordinal": 1,
+              "text": "8 THROUGH TERROR TO TRIUMPH",
+              "word_offset_start": 2470,
+              "word_offset_end": 2475,
+              "char_offset_start": 14357,
+              "char_offset_end": 14384,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p38",
+          "paragraph_ordinal": 38,
+          "sentences": [
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p38_s01",
+              "sentence_ordinal": 1,
+              "text": "would go.",
+              "word_offset_start": 2475,
+              "word_offset_end": 2477,
+              "char_offset_start": 14384,
+              "char_offset_end": 14393,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p38_s02",
+              "sentence_ordinal": 2,
+              "text": "Sir John French would be sent away ; General Smith-Dorrien would go, and I am sure that Sir John Jellicoe would have to go.",
+              "word_offset_start": 2477,
+              "word_offset_end": 2501,
+              "char_offset_start": 14393,
+              "char_offset_end": 14516,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p38_s03",
+              "sentence_ordinal": 3,
+              "text": "And there is another gallant old warrior who would go — Lord Roberts.",
+              "word_offset_start": 2501,
+              "word_offset_end": 2514,
+              "char_offset_start": 14516,
+              "char_offset_end": 14585,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p38_s04",
+              "sentence_ordinal": 4,
+              "text": "It was a difficult situation for a small country.",
+              "word_offset_start": 2514,
+              "word_offset_end": 2523,
+              "char_offset_start": 14585,
+              "char_offset_end": 14634,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p38_s05",
+              "sentence_ordinal": 5,
+              "text": "Here was a demand made upon her by a great military Power that could have put half-a-dozen men in the field for every one of Serbia's men, and that Power was supported by the greatest military Power in the world.",
+              "word_offset_start": 2523,
+              "word_offset_end": 2563,
+              "char_offset_start": 14634,
+              "char_offset_end": 14846,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p38_s06",
+              "sentence_ordinal": 6,
+              "text": "How did Serbia behave ?",
+              "word_offset_start": 2563,
+              "word_offset_end": 2568,
+              "char_offset_start": 14846,
+              "char_offset_end": 14869,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p38_s07",
+              "sentence_ordinal": 7,
+              "text": "It is not what happens to you in life that matters ; it is the way in which you face it — and Serbia faced the situation with dignity.",
+              "word_offset_start": 2568,
+              "word_offset_end": 2597,
+              "char_offset_start": 14869,
+              "char_offset_end": 15003,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p38_s08",
+              "sentence_ordinal": 8,
+              "text": "She said to Austria : \" If any officers of mine have been guilty, and are proved to be guilty, I will dismiss them.\" Austria said : \" That is not good enough for me.\" It was not guilt she was after, but capacity.",
+              "word_offset_start": 2597,
+              "word_offset_end": 2641,
+              "char_offset_start": 15003,
+              "char_offset_end": 15215,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p39",
+          "paragraph_ordinal": 39,
+          "sentences": [
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p39_s01",
+              "sentence_ordinal": 1,
+              "text": "Russia's Turn.",
+              "word_offset_start": 2641,
+              "word_offset_end": 2643,
+              "char_offset_start": 15215,
+              "char_offset_end": 15229,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p40",
+          "paragraph_ordinal": 40,
+          "sentences": [
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p40_s01",
+              "sentence_ordinal": 1,
+              "text": "Then came Russia's turn.",
+              "word_offset_start": 2643,
+              "word_offset_end": 2647,
+              "char_offset_start": 15229,
+              "char_offset_end": 15253,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p40_s02",
+              "sentence_ordinal": 2,
+              "text": "Russia has a special regard for Serbia ; she has a special interest in Serbia.",
+              "word_offset_start": 2647,
+              "word_offset_end": 2662,
+              "char_offset_start": 15253,
+              "char_offset_end": 15331,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p40_s03",
+              "sentence_ordinal": 3,
+              "text": "Russians have shed their blood for Serbian independence many a time, for Serbia is a member of Russia's family, and she cannot see Serbia maltreated.",
+              "word_offset_start": 2662,
+              "word_offset_end": 2687,
+              "char_offset_start": 15331,
+              "char_offset_end": 15480,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p40_s04",
+              "sentence_ordinal": 4,
+              "text": "Austria knew that.",
+              "word_offset_start": 2687,
+              "word_offset_end": 2690,
+              "char_offset_start": 15480,
+              "char_offset_end": 15498,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p40_s05",
+              "sentence_ordinal": 5,
+              "text": "Germany knew it, and she turned round to Russia, and said : \"I insist that you shall stand by with your arms folded whilst Austria is strangling your little brother to death.\" What answer did the Russian Slav give ?",
+              "word_offset_start": 2690,
+              "word_offset_end": 2730,
+              "char_offset_start": 15498,
+              "char_offset_end": 15713,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p40_s06",
+              "sentence_ordinal": 6,
+              "text": "He gave the only answer that becomes a man.",
+              "word_offset_start": 2730,
+              "word_offset_end": 2739,
+              "char_offset_start": 15713,
+              "char_offset_end": 15756,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p40_s07",
+              "sentence_ordinal": 7,
+              "text": "He turned to Austria, and said : \" You lay hands on that little fellow, and I will tear your ramshackle Empire limb from limb.\" And he will do it !",
+              "word_offset_start": 2739,
+              "word_offset_end": 2770,
+              "char_offset_start": 15756,
+              "char_offset_end": 15903,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p41",
+          "paragraph_ordinal": 41,
+          "sentences": [
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p41_s01",
+              "sentence_ordinal": 1,
+              "text": "The Little Nations.",
+              "word_offset_start": 2770,
+              "word_offset_end": 2773,
+              "char_offset_start": 15903,
+              "char_offset_end": 15922,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p42",
+          "paragraph_ordinal": 42,
+          "sentences": [
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p42_s01",
+              "sentence_ordinal": 1,
+              "text": "That is the story of two little nations.",
+              "word_offset_start": 2773,
+              "word_offset_end": 2781,
+              "char_offset_start": 15922,
+              "char_offset_end": 15962,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p42_s02",
+              "sentence_ordinal": 2,
+              "text": "The world owes much to little nations — and to little men !",
+              "word_offset_start": 2781,
+              "word_offset_end": 2794,
+              "char_offset_start": 15962,
+              "char_offset_end": 16021,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p42_s03",
+              "sentence_ordinal": 3,
+              "text": "This theory of bigness, this theory that you must have a big Empire, and a big nation, and a big man — well, long legs have their advantage in a retreat.",
+              "word_offset_start": 2794,
+              "word_offset_end": 2825,
+              "char_offset_start": 16021,
+              "char_offset_end": 16174,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p42_s04",
+              "sentence_ordinal": 4,
+              "text": "Frederick the First chose his warriors for their height, and that tradition has become a policy in Germany.",
+              "word_offset_start": 2825,
+              "word_offset_end": 2843,
+              "char_offset_start": 16174,
+              "char_offset_end": 16281,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p42_s05",
+              "sentence_ordinal": 5,
+              "text": "Germany applies that ideal",
+              "word_offset_start": 2843,
+              "word_offset_end": 2847,
+              "char_offset_start": 16281,
+              "char_offset_end": 16307,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p43",
+          "paragraph_ordinal": 43,
+          "sentences": [
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p43_s01",
+              "sentence_ordinal": 1,
+              "text": "\" THROUGH TERROR TO TRIUMPH !",
+              "word_offset_start": 2847,
+              "word_offset_end": 2853,
+              "char_offset_start": 16307,
+              "char_offset_end": 16336,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p43_s02",
+              "sentence_ordinal": 2,
+              "text": "\" 9",
+              "word_offset_start": 2853,
+              "word_offset_end": 2855,
+              "char_offset_start": 16336,
+              "char_offset_end": 16339,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p44",
+          "paragraph_ordinal": 44,
+          "sentences": [
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p44_s01",
+              "sentence_ordinal": 1,
+              "text": "to nations, and will only allow six-foot-two nations to stand in the ranks.",
+              "word_offset_start": 2855,
+              "word_offset_end": 2868,
+              "char_offset_start": 16339,
+              "char_offset_end": 16414,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p44_s02",
+              "sentence_ordinal": 2,
+              "text": "But ah ! the world owes much to the little five-foot-five nations.",
+              "word_offset_start": 2868,
+              "word_offset_end": 2880,
+              "char_offset_start": 16414,
+              "char_offset_end": 16480,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p44_s03",
+              "sentence_ordinal": 3,
+              "text": "The greatest art in the world was the work of little nations ; the most enduring literature of the world came from little nations ; the greatest literature of England came when she was a nation of the size of Belgium fighting a great Empire.",
+              "word_offset_start": 2880,
+              "word_offset_end": 2925,
+              "char_offset_start": 16480,
+              "char_offset_end": 16721,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p44_s04",
+              "sentence_ordinal": 4,
+              "text": "The heroic deeds that thrill humanity through generations were the deeds of little nations fighting for their freedom.",
+              "word_offset_start": 2925,
+              "word_offset_end": 2943,
+              "char_offset_start": 16721,
+              "char_offset_end": 16839,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p44_s05",
+              "sentence_ordinal": 5,
+              "text": "Yes, and the salvation of mankind came through a little nation.",
+              "word_offset_start": 2943,
+              "word_offset_end": 2954,
+              "char_offset_start": 16839,
+              "char_offset_end": 16902,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p44_s06",
+              "sentence_ordinal": 6,
+              "text": "God has chosen little nations as the vessels by which He carries His choicest wines to the lips of humanity, to rejoice their hearts, to exalt their vision, to stimulate and strengthen their faith ; and if we had stood by when two little nations were being crushed and broken by the brutal hands of barbarism, our shame would have rung down the everlasting ages.",
+              "word_offset_start": 2954,
+              "word_offset_end": 3019,
+              "char_offset_start": 16902,
+              "char_offset_end": 17264,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p45",
+          "paragraph_ordinal": 45,
+          "sentences": [
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p45_s01",
+              "sentence_ordinal": 1,
+              "text": "\" The Test of Our Faith.\"",
+              "word_offset_start": 3019,
+              "word_offset_end": 3025,
+              "char_offset_start": 17264,
+              "char_offset_end": 17289,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p46",
+          "paragraph_ordinal": 46,
+          "sentences": [
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p46_s01",
+              "sentence_ordinal": 1,
+              "text": "But Germany insists that this is an attack by a lower civilisation upon a higher one.",
+              "word_offset_start": 3025,
+              "word_offset_end": 3041,
+              "char_offset_start": 17289,
+              "char_offset_end": 17374,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p46_s02",
+              "sentence_ordinal": 2,
+              "text": "As a matter of fact, the attack was begun by the civilisation which calls itself the higher one.",
+              "word_offset_start": 3041,
+              "word_offset_end": 3059,
+              "char_offset_start": 17374,
+              "char_offset_end": 17470,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p46_s03",
+              "sentence_ordinal": 3,
+              "text": "I am no apologist for Russia : she has perpetrated deeds of which I have no doubt her best sons are ashamed.",
+              "word_offset_start": 3059,
+              "word_offset_end": 3081,
+              "char_offset_start": 17470,
+              "char_offset_end": 17578,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p46_s04",
+              "sentence_ordinal": 4,
+              "text": "What Empire has not ?",
+              "word_offset_start": 3081,
+              "word_offset_end": 3086,
+              "char_offset_start": 17578,
+              "char_offset_end": 17599,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p46_s05",
+              "sentence_ordinal": 5,
+              "text": "But Germany is the last Empire to point the finger of reproach at Russia.",
+              "word_offset_start": 3086,
+              "word_offset_end": 3100,
+              "char_offset_start": 17599,
+              "char_offset_end": 17672,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p46_s06",
+              "sentence_ordinal": 6,
+              "text": "Russia has made sacrifices for freedom — great sacrifices.",
+              "word_offset_start": 3100,
+              "word_offset_end": 3109,
+              "char_offset_start": 17672,
+              "char_offset_end": 17730,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p46_s07",
+              "sentence_ordinal": 7,
+              "text": "Do you remember the cry of Bulgaria when she was torn by the most insensate tyranny that Europe has ever seen ?",
+              "word_offset_start": 3109,
+              "word_offset_end": 3131,
+              "char_offset_start": 17730,
+              "char_offset_end": 17841,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p46_s08",
+              "sentence_ordinal": 8,
+              "text": "Who listened to that cry ?",
+              "word_offset_start": 3131,
+              "word_offset_end": 3137,
+              "char_offset_start": 17841,
+              "char_offset_end": 17867,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p46_s09",
+              "sentence_ordinal": 9,
+              "text": "The only answer of the higher civilisation was that the liberty of the Bulgarian peasants was not worth the life of a single Pomeranian soldier.",
+              "word_offset_start": 3137,
+              "word_offset_end": 3162,
+              "char_offset_start": 17867,
+              "char_offset_end": 18011,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p46_s10",
+              "sentence_ordinal": 10,
+              "text": "But the rude barbarians of the North sent their sons by the thousand to die for Bulgarian freedom.",
+              "word_offset_start": 3162,
+              "word_offset_end": 3180,
+              "char_offset_start": 18011,
+              "char_offset_end": 18109,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p46_s11",
+              "sentence_ordinal": 11,
+              "text": "What about England ?",
+              "word_offset_start": 3180,
+              "word_offset_end": 3184,
+              "char_offset_start": 18109,
+              "char_offset_end": 18129,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p46_s12",
+              "sentence_ordinal": 12,
+              "text": "Go to Greece, the Netherlands, Italy, Germany, France— in all those lands I could point out places where the sons of Britain have died for the freedom of those peoples.",
+              "word_offset_start": 3184,
+              "word_offset_end": 3214,
+              "char_offset_start": 18129,
+              "char_offset_end": 18297,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p46_s13",
+              "sentence_ordinal": 13,
+              "text": "France has made sacrifices for the freedom of other lands than her own.",
+              "word_offset_start": 3214,
+              "word_offset_end": 3227,
+              "char_offset_start": 18297,
+              "char_offset_end": 18368,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p46_s14",
+              "sentence_ordinal": 14,
+              "text": "Can you name a single country in the",
+              "word_offset_start": 3227,
+              "word_offset_end": 3235,
+              "char_offset_start": 18368,
+              "char_offset_end": 18404,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p47",
+          "paragraph_ordinal": 47,
+          "sentences": [
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p47_s01",
+              "sentence_ordinal": 1,
+              "text": "B",
+              "word_offset_start": 3235,
+              "word_offset_end": 3236,
+              "char_offset_start": 19097,
+              "char_offset_end": 19098,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p48",
+          "paragraph_ordinal": 48,
+          "sentences": [
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p48_s01",
+              "sentence_ordinal": 1,
+              "text": "io THROUGH TERROR TO TRIUMPH",
+              "word_offset_start": 3236,
+              "word_offset_end": 3241,
+              "char_offset_start": 19098,
+              "char_offset_end": 19126,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p49",
+          "paragraph_ordinal": 49,
+          "sentences": [
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p49_s01",
+              "sentence_ordinal": 1,
+              "text": "world for the freedom of which modern Prussia has ever sacrificed a single life ?",
+              "word_offset_start": 3241,
+              "word_offset_end": 3256,
+              "char_offset_start": 19126,
+              "char_offset_end": 19207,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p49_s02",
+              "sentence_ordinal": 2,
+              "text": "By the test of our faith, the highest standard of civilisation is the readiness to sacrifice for others.",
+              "word_offset_start": 3256,
+              "word_offset_end": 3274,
+              "char_offset_start": 19207,
+              "char_offset_end": 19311,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p50",
+          "paragraph_ordinal": 50,
+          "sentences": [
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p50_s01",
+              "sentence_ordinal": 1,
+              "text": "German \" Civilisation.\"",
+              "word_offset_start": 3274,
+              "word_offset_end": 3277,
+              "char_offset_start": 19311,
+              "char_offset_end": 19334,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p51",
+          "paragraph_ordinal": 51,
+          "sentences": [
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p51_s01",
+              "sentence_ordinal": 1,
+              "text": "I will not say a single word in disparagement of the German people.",
+              "word_offset_start": 3277,
+              "word_offset_end": 3290,
+              "char_offset_start": 19334,
+              "char_offset_end": 19401,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p51_s02",
+              "sentence_ordinal": 2,
+              "text": "They are a great people, and have great qualities of head and hand and heart.",
+              "word_offset_start": 3290,
+              "word_offset_end": 3305,
+              "char_offset_start": 19401,
+              "char_offset_end": 19478,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p51_s03",
+              "sentence_ordinal": 3,
+              "text": "I believe, in spite of recent events, that there is as great a store of kindliness in the German peasant as in any peasant in the world ; but he has been drilled into a false idea of civilisation.",
+              "word_offset_start": 3305,
+              "word_offset_end": 3344,
+              "char_offset_start": 19478,
+              "char_offset_end": 19674,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p51_s04",
+              "sentence_ordinal": 4,
+              "text": "It is efficient, it is capable ; but it is a hard civilisation ; it is a selfish civilisation ; it is a material civilisation.",
+              "word_offset_start": 3344,
+              "word_offset_end": 3369,
+              "char_offset_start": 19674,
+              "char_offset_end": 19800,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p51_s05",
+              "sentence_ordinal": 5,
+              "text": "They cannot comprehend the action of Britain at the present moment ; they say so.",
+              "word_offset_start": 3369,
+              "word_offset_end": 3384,
+              "char_offset_start": 19800,
+              "char_offset_end": 19881,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p51_s06",
+              "sentence_ordinal": 6,
+              "text": "They say, \" France we can understand ; she is out for vengeance ; she is out for territory — Alsace and Lorraine.\" They say they can understand Russia ; she is fighting for mastery — she wants Galicia.",
+              "word_offset_start": 3384,
+              "word_offset_end": 3423,
+              "char_offset_start": 19881,
+              "char_offset_end": 20082,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p51_s07",
+              "sentence_ordinal": 7,
+              "text": "They can understand you fighting for vengeance — they can understand you fighting for mastery — they can understand you fighting for greed of territory ; but they cannot understand a great Empire pledging its resources, pledging its might, pledging the lives of its children, pledging its very existence, to protect a little nation that seeks to defend herself.",
+              "word_offset_start": 3423,
+              "word_offset_end": 3482,
+              "char_offset_start": 20082,
+              "char_offset_end": 20443,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p51_s08",
+              "sentence_ordinal": 8,
+              "text": "God made man in His own image, high of purpose, in the region of the spirit ; German civilisation would re-create him in the image of a Diesel machine — precise, accurate, powerful, but with no room for soul to operate.",
+              "word_offset_start": 3482,
+              "word_offset_end": 3523,
+              "char_offset_start": 20443,
+              "char_offset_end": 20662,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p52",
+          "paragraph_ordinal": 52,
+          "sentences": [
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p52_s01",
+              "sentence_ordinal": 1,
+              "text": "Philosophy of Blood and Iron.",
+              "word_offset_start": 3523,
+              "word_offset_end": 3528,
+              "char_offset_start": 20662,
+              "char_offset_end": 20691,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p53",
+          "paragraph_ordinal": 53,
+          "sentences": [
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p53_s01",
+              "sentence_ordinal": 1,
+              "text": "Have you read the Kaiser's speeches ?",
+              "word_offset_start": 3528,
+              "word_offset_end": 3535,
+              "char_offset_start": 20691,
+              "char_offset_end": 20728,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p53_s02",
+              "sentence_ordinal": 2,
+              "text": "If you have not a copy I advise you to buy one ; they will soon be out of print, and you will not have many more of the same sort.",
+              "word_offset_start": 3535,
+              "word_offset_end": 3566,
+              "char_offset_start": 20728,
+              "char_offset_end": 20858,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p53_s03",
+              "sentence_ordinal": 3,
+              "text": "They are full of the glitter and bluster of German militar- ism— \" mailed fist,\" and \" shining armour.\" Poor old mailed fist !",
+              "word_offset_start": 3566,
+              "word_offset_end": 3590,
+              "char_offset_start": 20858,
+              "char_offset_end": 20984,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p53_s04",
+              "sentence_ordinal": 4,
+              "text": "Its knuckles are getting a little bruised.",
+              "word_offset_start": 3590,
+              "word_offset_end": 3597,
+              "char_offset_start": 20984,
+              "char_offset_end": 21026,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p53_s05",
+              "sentence_ordinal": 5,
+              "text": "Poor shining armour !",
+              "word_offset_start": 3597,
+              "word_offset_end": 3601,
+              "char_offset_start": 21026,
+              "char_offset_end": 21047,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p53_s06",
+              "sentence_ordinal": 6,
+              "text": "The shine is being knocked out",
+              "word_offset_start": 3601,
+              "word_offset_end": 3607,
+              "char_offset_start": 21047,
+              "char_offset_end": 21077,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p54",
+          "paragraph_ordinal": 54,
+          "sentences": [
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p54_s01",
+              "sentence_ordinal": 1,
+              "text": "\"THROUGH TERROR TO TRIUMPH!\" n",
+              "word_offset_start": 3607,
+              "word_offset_end": 3612,
+              "char_offset_start": 21077,
+              "char_offset_end": 21107,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p55",
+          "paragraph_ordinal": 55,
+          "sentences": [
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p55_s01",
+              "sentence_ordinal": 1,
+              "text": "of it.",
+              "word_offset_start": 3612,
+              "word_offset_end": 3614,
+              "char_offset_start": 21107,
+              "char_offset_end": 21113,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p55_s02",
+              "sentence_ordinal": 2,
+              "text": "There is the same swagger and boastfulness running through the whole of the speeches.",
+              "word_offset_start": 3614,
+              "word_offset_end": 3628,
+              "char_offset_start": 21113,
+              "char_offset_end": 21198,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p55_s03",
+              "sentence_ordinal": 3,
+              "text": "The extract which was given in the British Weekly this week is a very remarkable product as an illustration of the spirit we have to fight.",
+              "word_offset_start": 3628,
+              "word_offset_end": 3654,
+              "char_offset_start": 21198,
+              "char_offset_end": 21337,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p55_s04",
+              "sentence_ordinal": 4,
+              "text": "It is the Kaiser's speech to his soldiers on the way to the front : —",
+              "word_offset_start": 3654,
+              "word_offset_end": 3670,
+              "char_offset_start": 21337,
+              "char_offset_end": 21406,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p56",
+          "paragraph_ordinal": 56,
+          "sentences": [
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p56_s01",
+              "sentence_ordinal": 1,
+              "text": "\" Remember that the German people are the chosen of God.",
+              "word_offset_start": 3670,
+              "word_offset_end": 3681,
+              "char_offset_start": 21406,
+              "char_offset_end": 21462,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p56_s02",
+              "sentence_ordinal": 2,
+              "text": "On me, the German Emperor, the Spirit of God has descended.",
+              "word_offset_start": 3681,
+              "word_offset_end": 3692,
+              "char_offset_start": 21462,
+              "char_offset_end": 21521,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p56_s03",
+              "sentence_ordinal": 3,
+              "text": "I am His sword, His weapon, and His vicegerent.",
+              "word_offset_start": 3692,
+              "word_offset_end": 3701,
+              "char_offset_start": 21521,
+              "char_offset_end": 21568,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p56_s04",
+              "sentence_ordinal": 4,
+              "text": "Woe to the disobedient, and death to cowards and unbelievers.\"",
+              "word_offset_start": 3701,
+              "word_offset_end": 3711,
+              "char_offset_start": 21568,
+              "char_offset_end": 21630,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p57",
+          "paragraph_ordinal": 57,
+          "sentences": [
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p57_s01",
+              "sentence_ordinal": 1,
+              "text": "Lunacy is always distressing, but sometimes it is dan- gerous ; and when you get it manifested in the head of the State, and it has become the policy of a great Empire, it is about time that it should be ruthlessly put away.",
+              "word_offset_start": 3711,
+              "word_offset_end": 3755,
+              "char_offset_start": 21630,
+              "char_offset_end": 21854,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p57_s02",
+              "sentence_ordinal": 2,
+              "text": "I do not believe he meant all those speeches ; it was simply the martial straddle he had acquired.",
+              "word_offset_start": 3755,
+              "word_offset_end": 3774,
+              "char_offset_start": 21854,
+              "char_offset_end": 21952,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p57_s03",
+              "sentence_ordinal": 3,
+              "text": "But there were men around him who meant every word of them.",
+              "word_offset_start": 3774,
+              "word_offset_end": 3786,
+              "char_offset_start": 21952,
+              "char_offset_end": 22011,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p57_s04",
+              "sentence_ordinal": 4,
+              "text": "This was their religion.",
+              "word_offset_start": 3786,
+              "word_offset_end": 3790,
+              "char_offset_start": 22011,
+              "char_offset_end": 22035,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p57_s05",
+              "sentence_ordinal": 5,
+              "text": "Treaties ?",
+              "word_offset_start": 3790,
+              "word_offset_end": 3792,
+              "char_offset_start": 22035,
+              "char_offset_end": 22045,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p57_s06",
+              "sentence_ordinal": 6,
+              "text": "They tangle the feet of Germany in her advance.",
+              "word_offset_start": 3792,
+              "word_offset_end": 3801,
+              "char_offset_start": 22045,
+              "char_offset_end": 22092,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p57_s07",
+              "sentence_ordinal": 7,
+              "text": "Cut them with the sword !",
+              "word_offset_start": 3801,
+              "word_offset_end": 3807,
+              "char_offset_start": 22092,
+              "char_offset_end": 22117,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p57_s08",
+              "sentence_ordinal": 8,
+              "text": "Little nations ?",
+              "word_offset_start": 3807,
+              "word_offset_end": 3810,
+              "char_offset_start": 22117,
+              "char_offset_end": 22133,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p57_s09",
+              "sentence_ordinal": 9,
+              "text": "They hinder the advance of Germany.",
+              "word_offset_start": 3810,
+              "word_offset_end": 3816,
+              "char_offset_start": 22133,
+              "char_offset_end": 22168,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p57_s10",
+              "sentence_ordinal": 10,
+              "text": "Trample them in the mire under the German heel !",
+              "word_offset_start": 3816,
+              "word_offset_end": 3826,
+              "char_offset_start": 22168,
+              "char_offset_end": 22216,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p57_s11",
+              "sentence_ordinal": 11,
+              "text": "The Russian Slav ?",
+              "word_offset_start": 3826,
+              "word_offset_end": 3830,
+              "char_offset_start": 22216,
+              "char_offset_end": 22234,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p57_s12",
+              "sentence_ordinal": 12,
+              "text": "He challenges the supremacy of Germany and Europe.",
+              "word_offset_start": 3830,
+              "word_offset_end": 3838,
+              "char_offset_start": 22234,
+              "char_offset_end": 22284,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p57_s13",
+              "sentence_ordinal": 13,
+              "text": "Hurl your legions at him and massacre him !",
+              "word_offset_start": 3838,
+              "word_offset_end": 3847,
+              "char_offset_start": 22284,
+              "char_offset_end": 22327,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p57_s14",
+              "sentence_ordinal": 14,
+              "text": "Britain ?",
+              "word_offset_start": 3847,
+              "word_offset_end": 3849,
+              "char_offset_start": 22327,
+              "char_offset_end": 22336,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p57_s15",
+              "sentence_ordinal": 15,
+              "text": "She is a constant menace to the predom- inancy of Germany in the world.",
+              "word_offset_start": 3849,
+              "word_offset_end": 3863,
+              "char_offset_start": 22336,
+              "char_offset_end": 22407,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p57_s16",
+              "sentence_ordinal": 16,
+              "text": "Wrest the trident out of her hand !",
+              "word_offset_start": 3863,
+              "word_offset_end": 3871,
+              "char_offset_start": 22407,
+              "char_offset_end": 22442,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p57_s17",
+              "sentence_ordinal": 17,
+              "text": "Christianity ?",
+              "word_offset_start": 3871,
+              "word_offset_end": 3873,
+              "char_offset_start": 22442,
+              "char_offset_end": 22456,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p57_s18",
+              "sentence_ordinal": 18,
+              "text": "Sickly sentimentalism about sacrifice for others !",
+              "word_offset_start": 3873,
+              "word_offset_end": 3880,
+              "char_offset_start": 22456,
+              "char_offset_end": 22506,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p57_s19",
+              "sentence_ordinal": 19,
+              "text": "Poor pap for German digestion !",
+              "word_offset_start": 3880,
+              "word_offset_end": 3886,
+              "char_offset_start": 22506,
+              "char_offset_end": 22537,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p57_s20",
+              "sentence_ordinal": 20,
+              "text": "We will have a new diet.",
+              "word_offset_start": 3886,
+              "word_offset_end": 3892,
+              "char_offset_start": 22537,
+              "char_offset_end": 22561,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p57_s21",
+              "sentence_ordinal": 21,
+              "text": "We will force it upon the world.",
+              "word_offset_start": 3892,
+              "word_offset_end": 3899,
+              "char_offset_start": 22561,
+              "char_offset_end": 22593,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p57_s22",
+              "sentence_ordinal": 22,
+              "text": "It will be made in Germany — a diet of blood and iron.",
+              "word_offset_start": 3899,
+              "word_offset_end": 3912,
+              "char_offset_start": 22593,
+              "char_offset_end": 22647,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p57_s23",
+              "sentence_ordinal": 23,
+              "text": "What remains ?",
+              "word_offset_start": 3912,
+              "word_offset_end": 3915,
+              "char_offset_start": 22647,
+              "char_offset_end": 22661,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p57_s24",
+              "sentence_ordinal": 24,
+              "text": "Treaties have gone.",
+              "word_offset_start": 3915,
+              "word_offset_end": 3918,
+              "char_offset_start": 22661,
+              "char_offset_end": 22680,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p57_s25",
+              "sentence_ordinal": 25,
+              "text": "The honour of nations has gone.",
+              "word_offset_start": 3918,
+              "word_offset_end": 3924,
+              "char_offset_start": 22680,
+              "char_offset_end": 22711,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p57_s26",
+              "sentence_ordinal": 26,
+              "text": "Liberty has gone.",
+              "word_offset_start": 3924,
+              "word_offset_end": 3927,
+              "char_offset_start": 22711,
+              "char_offset_end": 22728,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p57_s27",
+              "sentence_ordinal": 27,
+              "text": "What is left ?",
+              "word_offset_start": 3927,
+              "word_offset_end": 3931,
+              "char_offset_start": 22728,
+              "char_offset_end": 22742,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p57_s28",
+              "sentence_ordinal": 28,
+              "text": "Germany !",
+              "word_offset_start": 3931,
+              "word_offset_end": 3933,
+              "char_offset_start": 22742,
+              "char_offset_end": 22751,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p57_s29",
+              "sentence_ordinal": 29,
+              "text": "Germany is left ! — \" Deutschland liber Alles !",
+              "word_offset_start": 3933,
+              "word_offset_end": 3943,
+              "char_offset_start": 22751,
+              "char_offset_end": 22798,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p57_s30",
+              "sentence_ordinal": 30,
+              "text": "\" That is what we are fighting — that claim to predomin- ancy of a material, hard civilisation, a civilisation which if it once rules and sways the world, liberty goes, de- mocracy vanishes.",
+              "word_offset_start": 3943,
+              "word_offset_end": 3977,
+              "char_offset_start": 22798,
+              "char_offset_end": 22988,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p57_s31",
+              "sentence_ordinal": 31,
+              "text": "And unless Britain and her sons come to the rescue it will be a dark day for humanity.",
+              "word_offset_start": 3977,
+              "word_offset_end": 3995,
+              "char_offset_start": 22988,
+              "char_offset_end": 23074,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p58",
+          "paragraph_ordinal": 58,
+          "sentences": [
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p58_s01",
+              "sentence_ordinal": 1,
+              "text": "B 2",
+              "word_offset_start": 3995,
+              "word_offset_end": 3997,
+              "char_offset_start": 23074,
+              "char_offset_end": 23077,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p59",
+          "paragraph_ordinal": 59,
+          "sentences": [
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p59_s01",
+              "sentence_ordinal": 1,
+              "text": "12 THROUGH TERROR TO TRIUMPH",
+              "word_offset_start": 3997,
+              "word_offset_end": 4002,
+              "char_offset_start": 23077,
+              "char_offset_end": 23105,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p60",
+          "paragraph_ordinal": 60,
+          "sentences": [
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p60_s01",
+              "sentence_ordinal": 1,
+              "text": "\"The Road-Hog of Europe:*'",
+              "word_offset_start": 4002,
+              "word_offset_end": 4006,
+              "char_offset_start": 23105,
+              "char_offset_end": 23131,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p61",
+          "paragraph_ordinal": 61,
+          "sentences": [
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p61_s01",
+              "sentence_ordinal": 1,
+              "text": "We are not fighting the German people.",
+              "word_offset_start": 4006,
+              "word_offset_end": 4013,
+              "char_offset_start": 23131,
+              "char_offset_end": 23169,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p61_s02",
+              "sentence_ordinal": 2,
+              "text": "The German people are under the heel of this military caste, and it will be a day of rejoicing for the German peasant, artisan and trader when the military caste is broken.",
+              "word_offset_start": 4013,
+              "word_offset_end": 4045,
+              "char_offset_start": 23169,
+              "char_offset_end": 23341,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p61_s03",
+              "sentence_ordinal": 3,
+              "text": "You know its pretensions.",
+              "word_offset_start": 4045,
+              "word_offset_end": 4049,
+              "char_offset_start": 23341,
+              "char_offset_end": 23366,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p61_s04",
+              "sentence_ordinal": 4,
+              "text": "They give themselves the airs of demi- gods.",
+              "word_offset_start": 4049,
+              "word_offset_end": 4057,
+              "char_offset_start": 23366,
+              "char_offset_end": 23410,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p61_s05",
+              "sentence_ordinal": 5,
+              "text": "They walk the pavements, and civilians and their wives are swept into the gutter ; they have no right to stand in the way of a great Prussian soldier.",
+              "word_offset_start": 4057,
+              "word_offset_end": 4086,
+              "char_offset_start": 23410,
+              "char_offset_end": 23560,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p61_s06",
+              "sentence_ordinal": 6,
+              "text": "Men, women, nations — they all have to go.",
+              "word_offset_start": 4086,
+              "word_offset_end": 4095,
+              "char_offset_start": 23560,
+              "char_offset_end": 23602,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p61_s07",
+              "sentence_ordinal": 7,
+              "text": "He thinks all he has to say is \" We are in a hurry.\" That is the answer he gave to Belgium — \" Rapidity of action is Germany's greatest asset,\" which means I am in a hurry ; clear out of my way.\" You know the type of motorist, the terror of the roads, with a 60 horse-power car, who thinks the roads are made for him, and knocks down anybody who impedes the action of his car by a single mile an hour.",
+              "word_offset_start": 4095,
+              "word_offset_end": 4180,
+              "char_offset_start": 23602,
+              "char_offset_end": 24003,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p61_s08",
+              "sentence_ordinal": 8,
+              "text": "The Prussian Junker is the road-hog of Europe.",
+              "word_offset_start": 4180,
+              "word_offset_end": 4188,
+              "char_offset_start": 24003,
+              "char_offset_end": 24049,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p61_s09",
+              "sentence_ordinal": 9,
+              "text": "Small nationalities in his way are hurled to the roadside, bleeding and broken.",
+              "word_offset_start": 4188,
+              "word_offset_end": 4201,
+              "char_offset_start": 24049,
+              "char_offset_end": 24128,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p61_s10",
+              "sentence_ordinal": 10,
+              "text": "Women and children are crushed under the wheels of his cruel car, and Britain is ordered out of his road.",
+              "word_offset_start": 4201,
+              "word_offset_end": 4221,
+              "char_offset_start": 24128,
+              "char_offset_end": 24233,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p61_s11",
+              "sentence_ordinal": 11,
+              "text": "All I can say is this : if the old British spirit is alive in British hearts, that bully will be torn from his seat.",
+              "word_offset_start": 4221,
+              "word_offset_end": 4246,
+              "char_offset_start": 24233,
+              "char_offset_end": 24349,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p61_s12",
+              "sentence_ordinal": 12,
+              "text": "Were he to win, it would be the greatest catastrophe that has befallen democracy since the day of the Holy Alliance and its ascendancy.",
+              "word_offset_start": 4246,
+              "word_offset_end": 4270,
+              "char_offset_start": 24349,
+              "char_offset_end": 24484,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p62",
+          "paragraph_ordinal": 62,
+          "sentences": [
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p62_s01",
+              "sentence_ordinal": 1,
+              "text": "\" Through Terror to Triumph.\"",
+              "word_offset_start": 4270,
+              "word_offset_end": 4275,
+              "char_offset_start": 24484,
+              "char_offset_end": 24513,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p63",
+          "paragraph_ordinal": 63,
+          "sentences": [
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p63_s01",
+              "sentence_ordinal": 1,
+              "text": "They think we cannot beat them.",
+              "word_offset_start": 4275,
+              "word_offset_end": 4281,
+              "char_offset_start": 24513,
+              "char_offset_end": 24544,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p63_s02",
+              "sentence_ordinal": 2,
+              "text": "It will not be easy.",
+              "word_offset_start": 4281,
+              "word_offset_end": 4286,
+              "char_offset_start": 24544,
+              "char_offset_end": 24564,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p63_s03",
+              "sentence_ordinal": 3,
+              "text": "It will be a long job ; it will be a terrible war ; but in the end we shall march through terror to triumph.",
+              "word_offset_start": 4286,
+              "word_offset_end": 4311,
+              "char_offset_start": 24564,
+              "char_offset_end": 24672,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p63_s04",
+              "sentence_ordinal": 4,
+              "text": "We shall need all our qualities — every quality that Britain and its people possess — prudence in counsel, daring in action, tenacity in purpose, courage in defeat, moderation in victory ; in all things faith !",
+              "word_offset_start": 4311,
+              "word_offset_end": 4348,
+              "char_offset_start": 24672,
+              "char_offset_end": 24882,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p64",
+          "paragraph_ordinal": 64,
+          "sentences": [
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p64_s01",
+              "sentence_ordinal": 1,
+              "text": "It has pleased them to believe and to preach the belief that we are a decadent and degenerate people.",
+              "word_offset_start": 4348,
+              "word_offset_end": 4367,
+              "char_offset_start": 24882,
+              "char_offset_end": 24983,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p64_s02",
+              "sentence_ordinal": 2,
+              "text": "They proclaim to the world through their professors that we are a non-heroic nation skulking behind our mahogany",
+              "word_offset_start": 4367,
+              "word_offset_end": 4385,
+              "char_offset_start": 24983,
+              "char_offset_end": 25095,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p65",
+          "paragraph_ordinal": 65,
+          "sentences": [
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p65_s01",
+              "sentence_ordinal": 1,
+              "text": "THROUGH TERROR TO TRIUMPH !",
+              "word_offset_start": 4385,
+              "word_offset_end": 4390,
+              "char_offset_start": 25095,
+              "char_offset_end": 25122,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p65_s02",
+              "sentence_ordinal": 2,
+              "text": "\" 13",
+              "word_offset_start": 4390,
+              "word_offset_end": 4392,
+              "char_offset_start": 25122,
+              "char_offset_end": 25126,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p66",
+          "paragraph_ordinal": 66,
+          "sentences": [
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p66_s01",
+              "sentence_ordinal": 1,
+              "text": "counters, whilst we egg on more gallant races to their destruction.",
+              "word_offset_start": 4392,
+              "word_offset_end": 4403,
+              "char_offset_start": 25126,
+              "char_offset_end": 25193,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p66_s02",
+              "sentence_ordinal": 2,
+              "text": "This is the description given of us in Germany — \" a timorous, craven nation, trusting to its Fleet.\" I think they are beginning to find their mistake out already — and there are half a million young men of Britain who have already registered a vow to their King that they will cross the seas and hurl that insult to British courage against its perpetrators on the battlefields of France and Germany.",
+              "word_offset_start": 4403,
+              "word_offset_end": 4476,
+              "char_offset_start": 25193,
+              "char_offset_end": 25593,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p66_s03",
+              "sentence_ordinal": 3,
+              "text": "We want half a million more ; and we shall get them.",
+              "word_offset_start": 4476,
+              "word_offset_end": 4488,
+              "char_offset_start": 25593,
+              "char_offset_end": 25645,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p67",
+          "paragraph_ordinal": 67,
+          "sentences": [
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p67_s01",
+              "sentence_ordinal": 1,
+              "text": "\" A Welsh Army in the Field:'",
+              "word_offset_start": 4488,
+              "word_offset_end": 4495,
+              "char_offset_start": 25645,
+              "char_offset_end": 25674,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p68",
+          "paragraph_ordinal": 68,
+          "sentences": [
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p68_s01",
+              "sentence_ordinal": 1,
+              "text": "Wales must continue doing her duty.",
+              "word_offset_start": 4495,
+              "word_offset_end": 4501,
+              "char_offset_start": 25674,
+              "char_offset_end": 25709,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p68_s02",
+              "sentence_ordinal": 2,
+              "text": "I should like to see a Welsh Army in the field.",
+              "word_offset_start": 4501,
+              "word_offset_end": 4512,
+              "char_offset_start": 25709,
+              "char_offset_end": 25756,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p68_s03",
+              "sentence_ordinal": 3,
+              "text": "I should like to see the race that faced the Norman for hundreds of years in a struggle for freedom, the race that helped to win Crecy, the race that fought for a generation under Glendower against the greatest captain in Europe — I should like to see that race give a good taste of its quality in this struggle in Europe ; and they are going to do it.",
+              "word_offset_start": 4512,
+              "word_offset_end": 4582,
+              "char_offset_start": 25756,
+              "char_offset_end": 26108,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p69",
+          "paragraph_ordinal": 69,
+          "sentences": [
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p69_s01",
+              "sentence_ordinal": 1,
+              "text": "The Sacrifice.",
+              "word_offset_start": 4582,
+              "word_offset_end": 4584,
+              "char_offset_start": 26108,
+              "char_offset_end": 26122,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p70",
+          "paragraph_ordinal": 70,
+          "sentences": [
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p70_s01",
+              "sentence_ordinal": 1,
+              "text": "I envy you young people your opportunity.",
+              "word_offset_start": 4584,
+              "word_offset_end": 4591,
+              "char_offset_start": 26122,
+              "char_offset_end": 26163,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p70_s02",
+              "sentence_ordinal": 2,
+              "text": "They have put up the age limit for the Army, but I am sorry to say I have marched a good many years even beyond that.",
+              "word_offset_start": 4591,
+              "word_offset_end": 4617,
+              "char_offset_start": 26163,
+              "char_offset_end": 26280,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p70_s03",
+              "sentence_ordinal": 3,
+              "text": "It is a great opportunity, an opportunity that only comes once in many centuries to the children of men.",
+              "word_offset_start": 4617,
+              "word_offset_end": 4636,
+              "char_offset_start": 26280,
+              "char_offset_end": 26384,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p70_s04",
+              "sentence_ordinal": 4,
+              "text": "For most generations sacrifice comes in drab and weariness of spirit.",
+              "word_offset_start": 4636,
+              "word_offset_end": 4647,
+              "char_offset_start": 26384,
+              "char_offset_end": 26453,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p70_s05",
+              "sentence_ordinal": 5,
+              "text": "It comes to you to-day, and it comes to-day to us all, in the form of the glow and thrill of a great movement for liberty, that impels millions throughout Europe to the same noble end.",
+              "word_offset_start": 4647,
+              "word_offset_end": 4683,
+              "char_offset_start": 26453,
+              "char_offset_end": 26637,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p70_s06",
+              "sentence_ordinal": 6,
+              "text": "It is a great war for the emancipation of Europe from the thraldom of a military caste which has thrown its shadows upon two generations of men, and is now plunging the world into a welter of bloodshed and death.",
+              "word_offset_start": 4683,
+              "word_offset_end": 4723,
+              "char_offset_start": 26637,
+              "char_offset_end": 26849,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p70_s07",
+              "sentence_ordinal": 7,
+              "text": "Some have already given their lives.",
+              "word_offset_start": 4723,
+              "word_offset_end": 4729,
+              "char_offset_start": 26849,
+              "char_offset_end": 26885,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p70_s08",
+              "sentence_ordinal": 8,
+              "text": "There are some who have given more than their own lives ; they have given the fives of those who are dear to them.",
+              "word_offset_start": 4729,
+              "word_offset_end": 4753,
+              "char_offset_start": 26885,
+              "char_offset_end": 26999,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p70_s09",
+              "sentence_ordinal": 9,
+              "text": "I honour their courage, and may God be their comfort and their strength.",
+              "word_offset_start": 4753,
+              "word_offset_end": 4766,
+              "char_offset_start": 26999,
+              "char_offset_end": 27071,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p70_s10",
+              "sentence_ordinal": 10,
+              "text": "But their reward is at hand ; those",
+              "word_offset_start": 4766,
+              "word_offset_end": 4774,
+              "char_offset_start": 27071,
+              "char_offset_end": 27106,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p71",
+          "paragraph_ordinal": 71,
+          "sentences": [
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p71_s01",
+              "sentence_ordinal": 1,
+              "text": "14 THROUGH TERROR TO TRIUMPH",
+              "word_offset_start": 4774,
+              "word_offset_end": 4779,
+              "char_offset_start": 27106,
+              "char_offset_end": 27134,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p72",
+          "paragraph_ordinal": 72,
+          "sentences": [
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p72_s01",
+              "sentence_ordinal": 1,
+              "text": "who have fallen have died consecrated deaths.",
+              "word_offset_start": 4779,
+              "word_offset_end": 4786,
+              "char_offset_start": 27134,
+              "char_offset_end": 27179,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p72_s02",
+              "sentence_ordinal": 2,
+              "text": "They have taken their part in the making of a new Europe — a new world.",
+              "word_offset_start": 4786,
+              "word_offset_end": 4802,
+              "char_offset_start": 27179,
+              "char_offset_end": 27250,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p72_s03",
+              "sentence_ordinal": 3,
+              "text": "I can see signs of its coming in the glare of the battlefield.",
+              "word_offset_start": 4802,
+              "word_offset_end": 4815,
+              "char_offset_start": 27250,
+              "char_offset_end": 27312,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p73",
+          "paragraph_ordinal": 73,
+          "sentences": [
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p73_s01",
+              "sentence_ordinal": 1,
+              "text": "The \" New Patriotism.'\"",
+              "word_offset_start": 4815,
+              "word_offset_end": 4819,
+              "char_offset_start": 27312,
+              "char_offset_end": 27335,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p74",
+          "paragraph_ordinal": 74,
+          "sentences": [
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p74_s01",
+              "sentence_ordinal": 1,
+              "text": "The people will gain more by this struggle in all lands than they comprehend at the present moment.",
+              "word_offset_start": 4819,
+              "word_offset_end": 4837,
+              "char_offset_start": 27335,
+              "char_offset_end": 27434,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p74_s02",
+              "sentence_ordinal": 2,
+              "text": "It is true they will be free of the greatest menace to their freedom.",
+              "word_offset_start": 4837,
+              "word_offset_end": 4851,
+              "char_offset_start": 27434,
+              "char_offset_end": 27503,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p74_s03",
+              "sentence_ordinal": 3,
+              "text": "That is not all.",
+              "word_offset_start": 4851,
+              "word_offset_end": 4855,
+              "char_offset_start": 27503,
+              "char_offset_end": 27519,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p74_s04",
+              "sentence_ordinal": 4,
+              "text": "There is something infinitely greater and more enduring which is emerging already out of this great conflict — a new patriotism, richer, nobler, and more exalted than the old.",
+              "word_offset_start": 4855,
+              "word_offset_end": 4884,
+              "char_offset_start": 27519,
+              "char_offset_end": 27694,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p74_s05",
+              "sentence_ordinal": 5,
+              "text": "I see amongst all classes, high and low, shedding themselves of selfishness, a new recognition that the honour of the country does not depend merely on the maintenance of its glory in the stricken field, but also in protecting its homes from distress.",
+              "word_offset_start": 4884,
+              "word_offset_end": 4927,
+              "char_offset_start": 27694,
+              "char_offset_end": 27945,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p74_s06",
+              "sentence_ordinal": 6,
+              "text": "It is bringing a new outlook for all classes.",
+              "word_offset_start": 4927,
+              "word_offset_end": 4936,
+              "char_offset_start": 27945,
+              "char_offset_end": 27990,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p74_s07",
+              "sentence_ordinal": 7,
+              "text": "The great flood of luxury and sloth which had submerged the land is receding, and a new Britain is appearing.",
+              "word_offset_start": 4936,
+              "word_offset_end": 4956,
+              "char_offset_start": 27990,
+              "char_offset_end": 28099,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p74_s08",
+              "sentence_ordinal": 8,
+              "text": "We can see for the first time the fundamental things that matter in life, and that have been obscured from our vision by the tropical growth of prosperity.",
+              "word_offset_start": 4956,
+              "word_offset_end": 4984,
+              "char_offset_start": 28099,
+              "char_offset_end": 28254,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p75",
+          "paragraph_ordinal": 75,
+          "sentences": [
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p75_s01",
+              "sentence_ordinal": 1,
+              "text": "\"The Vision:'",
+              "word_offset_start": 4984,
+              "word_offset_end": 4986,
+              "char_offset_start": 28254,
+              "char_offset_end": 28267,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p76",
+          "paragraph_ordinal": 76,
+          "sentences": [
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p76_s01",
+              "sentence_ordinal": 1,
+              "text": "May I tell you in a simple parable what I think this war is doing for us ?",
+              "word_offset_start": 4986,
+              "word_offset_end": 5004,
+              "char_offset_start": 28267,
+              "char_offset_end": 28341,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p76_s02",
+              "sentence_ordinal": 2,
+              "text": "I know a valley in North Wales, between the mountains and the sea.",
+              "word_offset_start": 5004,
+              "word_offset_end": 5017,
+              "char_offset_start": 28341,
+              "char_offset_end": 28407,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p76_s03",
+              "sentence_ordinal": 3,
+              "text": "It is a beautiful valley, snug, comfortable, sheltered by the mountains from all the bitter blasts.",
+              "word_offset_start": 5017,
+              "word_offset_end": 5033,
+              "char_offset_start": 28407,
+              "char_offset_end": 28506,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p76_s04",
+              "sentence_ordinal": 4,
+              "text": "But it is very enervating, and I remember how the boys were in the habit of climbing the hill above the village to have a glimpse of the great mountains in the distance, and to be stimulated and freshened by the breezes which came from the hilltops, and by the spectacle of their grandeur.",
+              "word_offset_start": 5033,
+              "word_offset_end": 5087,
+              "char_offset_start": 28506,
+              "char_offset_end": 28795,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p76_s05",
+              "sentence_ordinal": 5,
+              "text": "We have been living in a sheltered valley for generations.",
+              "word_offset_start": 5087,
+              "word_offset_end": 5097,
+              "char_offset_start": 28795,
+              "char_offset_end": 28853,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p76_s06",
+              "sentence_ordinal": 6,
+              "text": "We have been too comfortable and too indulgent, many, perhaps, too selfish, and the stern hand of fate has scourged us to an elevation where we can see the everlasting things",
+              "word_offset_start": 5097,
+              "word_offset_end": 5128,
+              "char_offset_start": 28853,
+              "char_offset_end": 29027,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p77",
+          "paragraph_ordinal": 77,
+          "sentences": [
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p77_s01",
+              "sentence_ordinal": 1,
+              "text": "\"THROUGH TERROR TO TRIUMPH !\" 15",
+              "word_offset_start": 5128,
+              "word_offset_end": 5134,
+              "char_offset_start": 29027,
+              "char_offset_end": 29059,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p78",
+          "paragraph_ordinal": 78,
+          "sentences": [
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p78_s01",
+              "sentence_ordinal": 1,
+              "text": "that matter for a nation — the great peaks we had forgotten, of Honour, Duty, Patriotism, and, clad in glittering white, the towering pinnacle of Sacrifice pointing like a rugged finger to Heaven.",
+              "word_offset_start": 5134,
+              "word_offset_end": 5167,
+              "char_offset_start": 29059,
+              "char_offset_end": 29255,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "wwi-britain-lloyd-george-through-terror-to-triumph_s01_p78_s02",
+              "sentence_ordinal": 2,
+              "text": "We shall descend into the valleys again ; but as long as the men and women of this generation last, they will carry in their hearts the image of those mighty peaks whose foundations are not shaken, though Europe rock and sway in the convulsions of a great war.",
+              "word_offset_start": 5167,
+              "word_offset_end": 5216,
+              "char_offset_start": 29255,
+              "char_offset_end": 29515,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "pipeline_log": [
+    {
+      "stage": "segment-texts",
+      "script": "scripts/segment-texts.py",
+      "generated_at": "2026-06-28T01:20:58",
+      "sentence_count": 352
+    }
+  ]
+}
