@@ -2,7 +2,7 @@
   "case_id": "napoleon",
   "stage": "normalize-texts",
   "status": "ready",
-  "generated_at": "2026-06-28T10:13:56",
+  "generated_at": "2026-06-28T10:27:17",
   "documents_in_manifest": 11,
   "written": 11,
   "skipped_missing_raw": 0,

@@ -43,7 +43,7 @@ raw_path: corpus/raw/lincoln-src-03-second-inaugural.txt
 pipeline_log:
 - stage: normalize-texts
   script: scripts/normalize-texts.py
-  generated_at: '2026-06-28T10:13:56'
+  generated_at: '2026-06-28T10:27:17'
 ---
 
 Fellow countrymen:  At this second appearing to take the oath

@@ -1,14 +1,14 @@
 {
   "version": "1.0",
   "case_id": "lincoln",
-  "generated_at": "2026-06-28T10:13:59",
+  "generated_at": "2026-06-28T10:31:47",
   "status": "draft-review-audit",
   "trace_policy": "Every trace row links a draft support claim to a support score, CMT mapping, MIPVU unit list, sentence ID, document metadata, source text path, and historical corroboration where available.",
   "traces": [
     {
       "trace_id": "lincoln-score-doc-lyceum-sacred_object-lincoln-cmt-001",
       "case_id": "lincoln",
-      "generated_at": "2026-06-28T10:13:59",
+      "generated_at": "2026-06-28T10:31:47",
       "claim_id": "lincoln-score-doc-lyceum-sacred_object",
       "claim_text": "Lyceum Address contributes moderate support evidence for sacred object (score 2.0/4): The address figures the nation as a living collective body but does not yet supply battlefield sacrifice or strong enemy-as-bringer-of-death evidence.",
       "claim_status": "interpretation",
@@ -95,14 +95,14 @@
         "Trace rows are draft review aids, not final publication claims.",
         "Publication-grade historical citations remain required where historical notes say so.",
         "Scores are provisional and based on reviewed Lincoln pilot evidence.",
-        "Full-corpus MIPVU review and reliability adjudication are pending.",
+        "Codex-assisted full-corpus MIPVU review is complete for the frozen pre-v1 corpus, but independent human review and reliability adjudication remain pending.",
         "Historical alignment notes require publication-grade citations."
       ]
     },
     {
       "trace_id": "lincoln-score-doc-lyceum-sacrificial_body-lincoln-cmt-001",
       "case_id": "lincoln",
-      "generated_at": "2026-06-28T10:13:59",
+      "generated_at": "2026-06-28T10:31:47",
       "claim_id": "lincoln-score-doc-lyceum-sacrificial_body",
       "claim_text": "Lyceum Address contributes unsupported evidence for sacrificial body (score 0.0/4): The address figures the nation as a living collective body but does not yet supply battlefield sacrifice or strong enemy-as-bringer-of-death evidence.",
       "claim_status": "interpretation",
@@ -189,14 +189,14 @@
         "Trace rows are draft review aids, not final publication claims.",
         "Publication-grade historical citations remain required where historical notes say so.",
         "Scores are provisional and based on reviewed Lincoln pilot evidence.",
-        "Full-corpus MIPVU review and reliability adjudication are pending.",
+        "Codex-assisted full-corpus MIPVU review is complete for the frozen pre-v1 corpus, but independent human review and reliability adjudication remain pending.",
         "Historical alignment notes require publication-grade citations."
       ]
     },
     {
       "trace_id": "lincoln-score-doc-lyceum-enemy_as_bringer_of_death-lincoln-cmt-001",
       "case_id": "lincoln",
-      "generated_at": "2026-06-28T10:13:59",
+      "generated_at": "2026-06-28T10:31:47",
       "claim_id": "lincoln-score-doc-lyceum-enemy_as_bringer_of_death",
       "claim_text": "Lyceum Address contributes weak support evidence for enemy as bringer of death (score 1.0/4): The address figures the nation as a living collective body but does not yet supply battlefield sacrifice or strong enemy-as-bringer-of-death evidence.",
       "claim_status": "interpretation",
@@ -283,14 +283,14 @@
         "Trace rows are draft review aids, not final publication claims.",
         "Publication-grade historical citations remain required where historical notes say so.",
         "Scores are provisional and based on reviewed Lincoln pilot evidence.",
-        "Full-corpus MIPVU review and reliability adjudication are pending.",
+        "Codex-assisted full-corpus MIPVU review is complete for the frozen pre-v1 corpus, but independent human review and reliability adjudication remain pending.",
         "Historical alignment notes require publication-grade citations."
       ]
     },
     {
       "trace_id": "lincoln-score-doc-lyceum-historical_enactment_alignment-lincoln-cmt-001",
       "case_id": "lincoln",
-      "generated_at": "2026-06-28T10:13:59",
+      "generated_at": "2026-06-28T10:31:47",
       "claim_id": "lincoln-score-doc-lyceum-historical_enactment_alignment",
       "claim_text": "Lyceum Address contributes weak support evidence for historical enactment or alignment (score 1.0/4): The address figures the nation as a living collective body but does not yet supply battlefield sacrifice or strong enemy-as-bringer-of-death evidence.",
       "claim_status": "inference",
@@ -377,14 +377,14 @@
         "Trace rows are draft review aids, not final publication claims.",
         "Publication-grade historical citations remain required where historical notes say so.",
         "Scores are provisional and based on reviewed Lincoln pilot evidence.",
-        "Full-corpus MIPVU review and reliability adjudication are pending.",
+        "Codex-assisted full-corpus MIPVU review is complete for the frozen pre-v1 corpus, but independent human review and reliability adjudication remain pending.",
         "Historical alignment notes require publication-grade citations."
       ]
     },
     {
       "trace_id": "lincoln-score-doc-gettysburg-sacred_object-lincoln-cmt-002",
       "case_id": "lincoln",
-      "generated_at": "2026-06-28T10:13:59",
+      "generated_at": "2026-06-28T10:31:47",
       "claim_id": "lincoln-score-doc-gettysburg-sacred_object",
       "claim_text": "Gettysburg Address contributes strong support evidence for sacred object (score 3.0/4): Gettysburg strongly links battlefield death, national survival, civic dedication, and democratic renewal, while the enemy remains mostly unnamed.",
       "claim_status": "interpretation",
@@ -471,14 +471,14 @@
         "Trace rows are draft review aids, not final publication claims.",
         "Publication-grade historical citations remain required where historical notes say so.",
         "Scores are provisional and based on reviewed Lincoln pilot evidence.",
-        "Full-corpus MIPVU review and reliability adjudication are pending.",
+        "Codex-assisted full-corpus MIPVU review is complete for the frozen pre-v1 corpus, but independent human review and reliability adjudication remain pending.",
         "Historical alignment notes require publication-grade citations."
       ]
     },
     {
       "trace_id": "lincoln-score-doc-gettysburg-sacred_object-lincoln-cmt-003",
       "case_id": "lincoln",
-      "generated_at": "2026-06-28T10:13:59",
+      "generated_at": "2026-06-28T10:31:47",
       "claim_id": "lincoln-score-doc-gettysburg-sacred_object",
       "claim_text": "Gettysburg Address contributes strong support evidence for sacred object (score 3.0/4): Gettysburg strongly links battlefield death, national survival, civic dedication, and democratic renewal, while the enemy remains mostly unnamed.",
       "claim_status": "interpretation",
@@ -592,14 +592,14 @@
         "Trace rows are draft review aids, not final publication claims.",
         "Publication-grade historical citations remain required where historical notes say so.",
         "Scores are provisional and based on reviewed Lincoln pilot evidence.",
-        "Full-corpus MIPVU review and reliability adjudication are pending.",
+        "Codex-assisted full-corpus MIPVU review is complete for the frozen pre-v1 corpus, but independent human review and reliability adjudication remain pending.",
         "Historical alignment notes require publication-grade citations."
       ]
     },
     {
       "trace_id": "lincoln-score-doc-gettysburg-sacred_object-lincoln-cmt-004",
       "case_id": "lincoln",
-      "generated_at": "2026-06-28T10:13:59",
+      "generated_at": "2026-06-28T10:31:47",
       "claim_id": "lincoln-score-doc-gettysburg-sacred_object",
       "claim_text": "Gettysburg Address contributes strong support evidence for sacred object (score 3.0/4): Gettysburg strongly links battlefield death, national survival, civic dedication, and democratic renewal, while the enemy remains mostly unnamed.",
       "claim_status": "interpretation",
@@ -695,14 +695,14 @@
         "Trace rows are draft review aids, not final publication claims.",
         "Publication-grade historical citations remain required where historical notes say so.",
         "Scores are provisional and based on reviewed Lincoln pilot evidence.",
-        "Full-corpus MIPVU review and reliability adjudication are pending.",
+        "Codex-assisted full-corpus MIPVU review is complete for the frozen pre-v1 corpus, but independent human review and reliability adjudication remain pending.",
         "Historical alignment notes require publication-grade citations."
       ]
     },
     {
       "trace_id": "lincoln-score-doc-gettysburg-sacred_object-lincoln-cmt-005",
       "case_id": "lincoln",
-      "generated_at": "2026-06-28T10:13:59",
+      "generated_at": "2026-06-28T10:31:47",
       "claim_id": "lincoln-score-doc-gettysburg-sacred_object",
       "claim_text": "Gettysburg Address contributes strong support evidence for sacred object (score 3.0/4): Gettysburg strongly links battlefield death, national survival, civic dedication, and democratic renewal, while the enemy remains mostly unnamed.",
       "claim_status": "interpretation",
@@ -771,14 +771,14 @@
         "Trace rows are draft review aids, not final publication claims.",
         "Publication-grade historical citations remain required where historical notes say so.",
         "Scores are provisional and based on reviewed Lincoln pilot evidence.",
-        "Full-corpus MIPVU review and reliability adjudication are pending.",
+        "Codex-assisted full-corpus MIPVU review is complete for the frozen pre-v1 corpus, but independent human review and reliability adjudication remain pending.",
         "Historical alignment notes require publication-grade citations."
       ]
     },
     {
       "trace_id": "lincoln-score-doc-gettysburg-sacred_object-lincoln-cmt-006",
       "case_id": "lincoln",
-      "generated_at": "2026-06-28T10:13:59",
+      "generated_at": "2026-06-28T10:31:47",
       "claim_id": "lincoln-score-doc-gettysburg-sacred_object",
       "claim_text": "Gettysburg Address contributes strong support evidence for sacred object (score 3.0/4): Gettysburg strongly links battlefield death, national survival, civic dedication, and democratic renewal, while the enemy remains mostly unnamed.",
       "claim_status": "interpretation",
@@ -856,14 +856,14 @@
         "Trace rows are draft review aids, not final publication claims.",
         "Publication-grade historical citations remain required where historical notes say so.",
         "Scores are provisional and based on reviewed Lincoln pilot evidence.",
-        "Full-corpus MIPVU review and reliability adjudication are pending.",
+        "Codex-assisted full-corpus MIPVU review is complete for the frozen pre-v1 corpus, but independent human review and reliability adjudication remain pending.",
         "Historical alignment notes require publication-grade citations."
       ]
     },
     {
       "trace_id": "lincoln-score-doc-gettysburg-sacrificial_body-lincoln-cmt-002",
       "case_id": "lincoln",
-      "generated_at": "2026-06-28T10:13:59",
+      "generated_at": "2026-06-28T10:31:47",
       "claim_id": "lincoln-score-doc-gettysburg-sacrificial_body",
       "claim_text": "Gettysburg Address contributes strong support evidence for sacrificial body (score 3.0/4): Gettysburg strongly links battlefield death, national survival, civic dedication, and democratic renewal, while the enemy remains mostly unnamed.",
       "claim_status": "interpretation",
@@ -950,14 +950,14 @@
         "Trace rows are draft review aids, not final publication claims.",
         "Publication-grade historical citations remain required where historical notes say so.",
         "Scores are provisional and based on reviewed Lincoln pilot evidence.",
-        "Full-corpus MIPVU review and reliability adjudication are pending.",
+        "Codex-assisted full-corpus MIPVU review is complete for the frozen pre-v1 corpus, but independent human review and reliability adjudication remain pending.",
         "Historical alignment notes require publication-grade citations."
       ]
     },
     {
       "trace_id": "lincoln-score-doc-gettysburg-sacrificial_body-lincoln-cmt-003",
       "case_id": "lincoln",
-      "generated_at": "2026-06-28T10:13:59",
+      "generated_at": "2026-06-28T10:31:47",
       "claim_id": "lincoln-score-doc-gettysburg-sacrificial_body",
       "claim_text": "Gettysburg Address contributes strong support evidence for sacrificial body (score 3.0/4): Gettysburg strongly links battlefield death, national survival, civic dedication, and democratic renewal, while the enemy remains mostly unnamed.",
       "claim_status": "interpretation",
@@ -1071,14 +1071,14 @@
         "Trace rows are draft review aids, not final publication claims.",
         "Publication-grade historical citations remain required where historical notes say so.",
         "Scores are provisional and based on reviewed Lincoln pilot evidence.",
-        "Full-corpus MIPVU review and reliability adjudication are pending.",
+        "Codex-assisted full-corpus MIPVU review is complete for the frozen pre-v1 corpus, but independent human review and reliability adjudication remain pending.",
         "Historical alignment notes require publication-grade citations."
       ]
     },
     {
       "trace_id": "lincoln-score-doc-gettysburg-sacrificial_body-lincoln-cmt-004",
       "case_id": "lincoln",
-      "generated_at": "2026-06-28T10:13:59",
+      "generated_at": "2026-06-28T10:31:47",
       "claim_id": "lincoln-score-doc-gettysburg-sacrificial_body",
       "claim_text": "Gettysburg Address contributes strong support evidence for sacrificial body (score 3.0/4): Gettysburg strongly links battlefield death, national survival, civic dedication, and democratic renewal, while the enemy remains mostly unnamed.",
       "claim_status": "interpretation",
@@ -1174,14 +1174,14 @@
         "Trace rows are draft review aids, not final publication claims.",
         "Publication-grade historical citations remain required where historical notes say so.",
         "Scores are provisional and based on reviewed Lincoln pilot evidence.",
-        "Full-corpus MIPVU review and reliability adjudication are pending.",
+        "Codex-assisted full-corpus MIPVU review is complete for the frozen pre-v1 corpus, but independent human review and reliability adjudication remain pending.",
         "Historical alignment notes require publication-grade citations."
       ]
     },
     {
       "trace_id": "lincoln-score-doc-gettysburg-sacrificial_body-lincoln-cmt-005",
       "case_id": "lincoln",
-      "generated_at": "2026-06-28T10:13:59",
+      "generated_at": "2026-06-28T10:31:47",
       "claim_id": "lincoln-score-doc-gettysburg-sacrificial_body",
       "claim_text": "Gettysburg Address contributes strong support evidence for sacrificial body (score 3.0/4): Gettysburg strongly links battlefield death, national survival, civic dedication, and democratic renewal, while the enemy remains mostly unnamed.",
       "claim_status": "interpretation",
@@ -1250,14 +1250,14 @@
         "Trace rows are draft review aids, not final publication claims.",
         "Publication-grade historical citations remain required where historical notes say so.",
         "Scores are provisional and based on reviewed Lincoln pilot evidence.",
-        "Full-corpus MIPVU review and reliability adjudication are pending.",
+        "Codex-assisted full-corpus MIPVU review is complete for the frozen pre-v1 corpus, but independent human review and reliability adjudication remain pending.",
         "Historical alignment notes require publication-grade citations."
       ]
     },
     {
       "trace_id": "lincoln-score-doc-gettysburg-sacrificial_body-lincoln-cmt-006",
       "case_id": "lincoln",
-      "generated_at": "2026-06-28T10:13:59",
+      "generated_at": "2026-06-28T10:31:47",
       "claim_id": "lincoln-score-doc-gettysburg-sacrificial_body",
       "claim_text": "Gettysburg Address contributes strong support evidence for sacrificial body (score 3.0/4): Gettysburg strongly links battlefield death, national survival, civic dedication, and democratic renewal, while the enemy remains mostly unnamed.",
       "claim_status": "interpretation",
@@ -1335,14 +1335,14 @@
         "Trace rows are draft review aids, not final publication claims.",
         "Publication-grade historical citations remain required where historical notes say so.",
         "Scores are provisional and based on reviewed Lincoln pilot evidence.",
-        "Full-corpus MIPVU review and reliability adjudication are pending.",
+        "Codex-assisted full-corpus MIPVU review is complete for the frozen pre-v1 corpus, but independent human review and reliability adjudication remain pending.",
         "Historical alignment notes require publication-grade citations."
       ]
     },
     {
       "trace_id": "lincoln-score-doc-gettysburg-enemy_as_bringer_of_death-lincoln-cmt-002",
       "case_id": "lincoln",
-      "generated_at": "2026-06-28T10:13:59",
+      "generated_at": "2026-06-28T10:31:47",
       "claim_id": "lincoln-score-doc-gettysburg-enemy_as_bringer_of_death",
       "claim_text": "Gettysburg Address contributes weak support evidence for enemy as bringer of death (score 1.0/4): Gettysburg strongly links battlefield death, national survival, civic dedication, and democratic renewal, while the enemy remains mostly unnamed.",
       "claim_status": "interpretation",
@@ -1429,14 +1429,14 @@
         "Trace rows are draft review aids, not final publication claims.",
         "Publication-grade historical citations remain required where historical notes say so.",
         "Scores are provisional and based on reviewed Lincoln pilot evidence.",
-        "Full-corpus MIPVU review and reliability adjudication are pending.",
+        "Codex-assisted full-corpus MIPVU review is complete for the frozen pre-v1 corpus, but independent human review and reliability adjudication remain pending.",
         "Historical alignment notes require publication-grade citations."
       ]
     },
     {
       "trace_id": "lincoln-score-doc-gettysburg-enemy_as_bringer_of_death-lincoln-cmt-003",
       "case_id": "lincoln",
-      "generated_at": "2026-06-28T10:13:59",
+      "generated_at": "2026-06-28T10:31:47",
       "claim_id": "lincoln-score-doc-gettysburg-enemy_as_bringer_of_death",
       "claim_text": "Gettysburg Address contributes weak support evidence for enemy as bringer of death (score 1.0/4): Gettysburg strongly links battlefield death, national survival, civic dedication, and democratic renewal, while the enemy remains mostly unnamed.",
       "claim_status": "interpretation",
@@ -1550,14 +1550,14 @@
         "Trace rows are draft review aids, not final publication claims.",
         "Publication-grade historical citations remain required where historical notes say so.",
         "Scores are provisional and based on reviewed Lincoln pilot evidence.",
-        "Full-corpus MIPVU review and reliability adjudication are pending.",
+        "Codex-assisted full-corpus MIPVU review is complete for the frozen pre-v1 corpus, but independent human review and reliability adjudication remain pending.",
         "Historical alignment notes require publication-grade citations."
       ]
     },
     {
       "trace_id": "lincoln-score-doc-gettysburg-enemy_as_bringer_of_death-lincoln-cmt-004",
       "case_id": "lincoln",
-      "generated_at": "2026-06-28T10:13:59",
+      "generated_at": "2026-06-28T10:31:47",
       "claim_id": "lincoln-score-doc-gettysburg-enemy_as_bringer_of_death",
       "claim_text": "Gettysburg Address contributes weak support evidence for enemy as bringer of death (score 1.0/4): Gettysburg strongly links battlefield death, national survival, civic dedication, and democratic renewal, while the enemy remains mostly unnamed.",
       "claim_status": "interpretation",
@@ -1653,14 +1653,14 @@
         "Trace rows are draft review aids, not final publication claims.",
         "Publication-grade historical citations remain required where historical notes say so.",
         "Scores are provisional and based on reviewed Lincoln pilot evidence.",
-        "Full-corpus MIPVU review and reliability adjudication are pending.",
+        "Codex-assisted full-corpus MIPVU review is complete for the frozen pre-v1 corpus, but independent human review and reliability adjudication remain pending.",
         "Historical alignment notes require publication-grade citations."
       ]
     },
     {
       "trace_id": "lincoln-score-doc-gettysburg-enemy_as_bringer_of_death-lincoln-cmt-005",
       "case_id": "lincoln",
-      "generated_at": "2026-06-28T10:13:59",
+      "generated_at": "2026-06-28T10:31:47",
       "claim_id": "lincoln-score-doc-gettysburg-enemy_as_bringer_of_death",
       "claim_text": "Gettysburg Address contributes weak support evidence for enemy as bringer of death (score 1.0/4): Gettysburg strongly links battlefield death, national survival, civic dedication, and democratic renewal, while the enemy remains mostly unnamed.",
       "claim_status": "interpretation",
@@ -1729,14 +1729,14 @@
         "Trace rows are draft review aids, not final publication claims.",
         "Publication-grade historical citations remain required where historical notes say so.",
         "Scores are provisional and based on reviewed Lincoln pilot evidence.",
-        "Full-corpus MIPVU review and reliability adjudication are pending.",
+        "Codex-assisted full-corpus MIPVU review is complete for the frozen pre-v1 corpus, but independent human review and reliability adjudication remain pending.",
         "Historical alignment notes require publication-grade citations."
       ]
     },
     {
       "trace_id": "lincoln-score-doc-gettysburg-enemy_as_bringer_of_death-lincoln-cmt-006",
       "case_id": "lincoln",
-      "generated_at": "2026-06-28T10:13:59",
+      "generated_at": "2026-06-28T10:31:47",
       "claim_id": "lincoln-score-doc-gettysburg-enemy_as_bringer_of_death",
       "claim_text": "Gettysburg Address contributes weak support evidence for enemy as bringer of death (score 1.0/4): Gettysburg strongly links battlefield death, national survival, civic dedication, and democratic renewal, while the enemy remains mostly unnamed.",
       "claim_status": "interpretation",
@@ -1814,14 +1814,14 @@
         "Trace rows are draft review aids, not final publication claims.",
         "Publication-grade historical citations remain required where historical notes say so.",
         "Scores are provisional and based on reviewed Lincoln pilot evidence.",
-        "Full-corpus MIPVU review and reliability adjudication are pending.",
+        "Codex-assisted full-corpus MIPVU review is complete for the frozen pre-v1 corpus, but independent human review and reliability adjudication remain pending.",
         "Historical alignment notes require publication-grade citations."
       ]
     },
     {
       "trace_id": "lincoln-score-doc-gettysburg-historical_enactment_alignment-lincoln-cmt-002",
       "case_id": "lincoln",
-      "generated_at": "2026-06-28T10:13:59",
+      "generated_at": "2026-06-28T10:31:47",
       "claim_id": "lincoln-score-doc-gettysburg-historical_enactment_alignment",
       "claim_text": "Gettysburg Address contributes strong support evidence for historical enactment or alignment (score 3.0/4): Gettysburg strongly links battlefield death, national survival, civic dedication, and democratic renewal, while the enemy remains mostly unnamed.",
       "claim_status": "inference",
@@ -1908,14 +1908,14 @@
         "Trace rows are draft review aids, not final publication claims.",
         "Publication-grade historical citations remain required where historical notes say so.",
         "Scores are provisional and based on reviewed Lincoln pilot evidence.",
-        "Full-corpus MIPVU review and reliability adjudication are pending.",
+        "Codex-assisted full-corpus MIPVU review is complete for the frozen pre-v1 corpus, but independent human review and reliability adjudication remain pending.",
         "Historical alignment notes require publication-grade citations."
       ]
     },
     {
       "trace_id": "lincoln-score-doc-gettysburg-historical_enactment_alignment-lincoln-cmt-003",
       "case_id": "lincoln",
-      "generated_at": "2026-06-28T10:13:59",
+      "generated_at": "2026-06-28T10:31:47",
       "claim_id": "lincoln-score-doc-gettysburg-historical_enactment_alignment",
       "claim_text": "Gettysburg Address contributes strong support evidence for historical enactment or alignment (score 3.0/4): Gettysburg strongly links battlefield death, national survival, civic dedication, and democratic renewal, while the enemy remains mostly unnamed.",
       "claim_status": "inference",
@@ -2029,14 +2029,14 @@
         "Trace rows are draft review aids, not final publication claims.",
         "Publication-grade historical citations remain required where historical notes say so.",
         "Scores are provisional and based on reviewed Lincoln pilot evidence.",
-        "Full-corpus MIPVU review and reliability adjudication are pending.",
+        "Codex-assisted full-corpus MIPVU review is complete for the frozen pre-v1 corpus, but independent human review and reliability adjudication remain pending.",
         "Historical alignment notes require publication-grade citations."
       ]
     },
     {
       "trace_id": "lincoln-score-doc-gettysburg-historical_enactment_alignment-lincoln-cmt-004",
       "case_id": "lincoln",
-      "generated_at": "2026-06-28T10:13:59",
+      "generated_at": "2026-06-28T10:31:47",
       "claim_id": "lincoln-score-doc-gettysburg-historical_enactment_alignment",
       "claim_text": "Gettysburg Address contributes strong support evidence for historical enactment or alignment (score 3.0/4): Gettysburg strongly links battlefield death, national survival, civic dedication, and democratic renewal, while the enemy remains mostly unnamed.",
       "claim_status": "inference",
@@ -2132,14 +2132,14 @@
         "Trace rows are draft review aids, not final publication claims.",
         "Publication-grade historical citations remain required where historical notes say so.",
         "Scores are provisional and based on reviewed Lincoln pilot evidence.",
-        "Full-corpus MIPVU review and reliability adjudication are pending.",
+        "Codex-assisted full-corpus MIPVU review is complete for the frozen pre-v1 corpus, but independent human review and reliability adjudication remain pending.",
         "Historical alignment notes require publication-grade citations."
       ]
     },
     {
       "trace_id": "lincoln-score-doc-gettysburg-historical_enactment_alignment-lincoln-cmt-005",
       "case_id": "lincoln",
-      "generated_at": "2026-06-28T10:13:59",
+      "generated_at": "2026-06-28T10:31:47",
       "claim_id": "lincoln-score-doc-gettysburg-historical_enactment_alignment",
       "claim_text": "Gettysburg Address contributes strong support evidence for historical enactment or alignment (score 3.0/4): Gettysburg strongly links battlefield death, national survival, civic dedication, and democratic renewal, while the enemy remains mostly unnamed.",
       "claim_status": "inference",
@@ -2208,14 +2208,14 @@
         "Trace rows are draft review aids, not final publication claims.",
         "Publication-grade historical citations remain required where historical notes say so.",
         "Scores are provisional and based on reviewed Lincoln pilot evidence.",
-        "Full-corpus MIPVU review and reliability adjudication are pending.",
+        "Codex-assisted full-corpus MIPVU review is complete for the frozen pre-v1 corpus, but independent human review and reliability adjudication remain pending.",
         "Historical alignment notes require publication-grade citations."
       ]
     },
     {
       "trace_id": "lincoln-score-doc-gettysburg-historical_enactment_alignment-lincoln-cmt-006",
       "case_id": "lincoln",
-      "generated_at": "2026-06-28T10:13:59",
+      "generated_at": "2026-06-28T10:31:47",
       "claim_id": "lincoln-score-doc-gettysburg-historical_enactment_alignment",
       "claim_text": "Gettysburg Address contributes strong support evidence for historical enactment or alignment (score 3.0/4): Gettysburg strongly links battlefield death, national survival, civic dedication, and democratic renewal, while the enemy remains mostly unnamed.",
       "claim_status": "inference",
@@ -2293,14 +2293,14 @@
         "Trace rows are draft review aids, not final publication claims.",
         "Publication-grade historical citations remain required where historical notes say so.",
         "Scores are provisional and based on reviewed Lincoln pilot evidence.",
-        "Full-corpus MIPVU review and reliability adjudication are pending.",
+        "Codex-assisted full-corpus MIPVU review is complete for the frozen pre-v1 corpus, but independent human review and reliability adjudication remain pending.",
         "Historical alignment notes require publication-grade citations."
       ]
     },
     {
       "trace_id": "lincoln-score-doc-second-inaugural-sacred_object-lincoln-cmt-007",
       "case_id": "lincoln",
-      "generated_at": "2026-06-28T10:13:59",
+      "generated_at": "2026-06-28T10:31:47",
       "claim_id": "lincoln-score-doc-second-inaugural-sacred_object",
       "claim_text": "Second Inaugural contributes moderate support evidence for sacred object (score 2.0/4): The Second Inaugural strongly aligns blood, slavery, and judgment with historical war and emancipation contexts, but restrains enemy-destruction framing through shared guilt and reconciliation.",
       "claim_status": "interpretation",
@@ -2387,14 +2387,14 @@
         "Trace rows are draft review aids, not final publication claims.",
         "Publication-grade historical citations remain required where historical notes say so.",
         "Scores are provisional and based on reviewed Lincoln pilot evidence.",
-        "Full-corpus MIPVU review and reliability adjudication are pending.",
+        "Codex-assisted full-corpus MIPVU review is complete for the frozen pre-v1 corpus, but independent human review and reliability adjudication remain pending.",
         "Historical alignment notes require publication-grade citations."
       ]
     },
     {
       "trace_id": "lincoln-score-doc-second-inaugural-sacred_object-lincoln-cmt-008",
       "case_id": "lincoln",
-      "generated_at": "2026-06-28T10:13:59",
+      "generated_at": "2026-06-28T10:31:47",
       "claim_id": "lincoln-score-doc-second-inaugural-sacred_object",
       "claim_text": "Second Inaugural contributes moderate support evidence for sacred object (score 2.0/4): The Second Inaugural strongly aligns blood, slavery, and judgment with historical war and emancipation contexts, but restrains enemy-destruction framing through shared guilt and reconciliation.",
       "claim_status": "interpretation",
@@ -2481,14 +2481,14 @@
         "Trace rows are draft review aids, not final publication claims.",
         "Publication-grade historical citations remain required where historical notes say so.",
         "Scores are provisional and based on reviewed Lincoln pilot evidence.",
-        "Full-corpus MIPVU review and reliability adjudication are pending.",
+        "Codex-assisted full-corpus MIPVU review is complete for the frozen pre-v1 corpus, but independent human review and reliability adjudication remain pending.",
         "Historical alignment notes require publication-grade citations."
       ]
     },
     {
       "trace_id": "lincoln-score-doc-second-inaugural-sacred_object-lincoln-cmt-009",
       "case_id": "lincoln",
-      "generated_at": "2026-06-28T10:13:59",
+      "generated_at": "2026-06-28T10:31:47",
       "claim_id": "lincoln-score-doc-second-inaugural-sacred_object",
       "claim_text": "Second Inaugural contributes moderate support evidence for sacred object (score 2.0/4): The Second Inaugural strongly aligns blood, slavery, and judgment with historical war and emancipation contexts, but restrains enemy-destruction framing through shared guilt and reconciliation.",
       "claim_status": "interpretation",
@@ -2557,14 +2557,14 @@
         "Trace rows are draft review aids, not final publication claims.",
         "Publication-grade historical citations remain required where historical notes say so.",
         "Scores are provisional and based on reviewed Lincoln pilot evidence.",
-        "Full-corpus MIPVU review and reliability adjudication are pending.",
+        "Codex-assisted full-corpus MIPVU review is complete for the frozen pre-v1 corpus, but independent human review and reliability adjudication remain pending.",
         "Historical alignment notes require publication-grade citations."
       ]
     },
     {
       "trace_id": "lincoln-score-doc-second-inaugural-sacrificial_body-lincoln-cmt-007",
       "case_id": "lincoln",
-      "generated_at": "2026-06-28T10:13:59",
+      "generated_at": "2026-06-28T10:31:47",
       "claim_id": "lincoln-score-doc-second-inaugural-sacrificial_body",
       "claim_text": "Second Inaugural contributes strong support evidence for sacrificial body (score 3.0/4): The Second Inaugural strongly aligns blood, slavery, and judgment with historical war and emancipation contexts, but restrains enemy-destruction framing through shared guilt and reconciliation.",
       "claim_status": "interpretation",
@@ -2651,14 +2651,14 @@
         "Trace rows are draft review aids, not final publication claims.",
         "Publication-grade historical citations remain required where historical notes say so.",
         "Scores are provisional and based on reviewed Lincoln pilot evidence.",
-        "Full-corpus MIPVU review and reliability adjudication are pending.",
+        "Codex-assisted full-corpus MIPVU review is complete for the frozen pre-v1 corpus, but independent human review and reliability adjudication remain pending.",
         "Historical alignment notes require publication-grade citations."
       ]
     },
     {
       "trace_id": "lincoln-score-doc-second-inaugural-sacrificial_body-lincoln-cmt-008",
       "case_id": "lincoln",
-      "generated_at": "2026-06-28T10:13:59",
+      "generated_at": "2026-06-28T10:31:47",
       "claim_id": "lincoln-score-doc-second-inaugural-sacrificial_body",
       "claim_text": "Second Inaugural contributes strong support evidence for sacrificial body (score 3.0/4): The Second Inaugural strongly aligns blood, slavery, and judgment with historical war and emancipation contexts, but restrains enemy-destruction framing through shared guilt and reconciliation.",
       "claim_status": "interpretation",
@@ -2745,14 +2745,14 @@
         "Trace rows are draft review aids, not final publication claims.",
         "Publication-grade historical citations remain required where historical notes say so.",
         "Scores are provisional and based on reviewed Lincoln pilot evidence.",
-        "Full-corpus MIPVU review and reliability adjudication are pending.",
+        "Codex-assisted full-corpus MIPVU review is complete for the frozen pre-v1 corpus, but independent human review and reliability adjudication remain pending.",
         "Historical alignment notes require publication-grade citations."
       ]
     },
     {
       "trace_id": "lincoln-score-doc-second-inaugural-sacrificial_body-lincoln-cmt-009",
       "case_id": "lincoln",
-      "generated_at": "2026-06-28T10:13:59",
+      "generated_at": "2026-06-28T10:31:47",
       "claim_id": "lincoln-score-doc-second-inaugural-sacrificial_body",
       "claim_text": "Second Inaugural contributes strong support evidence for sacrificial body (score 3.0/4): The Second Inaugural strongly aligns blood, slavery, and judgment with historical war and emancipation contexts, but restrains enemy-destruction framing through shared guilt and reconciliation.",
       "claim_status": "interpretation",
@@ -2821,14 +2821,14 @@
         "Trace rows are draft review aids, not final publication claims.",
         "Publication-grade historical citations remain required where historical notes say so.",
         "Scores are provisional and based on reviewed Lincoln pilot evidence.",
-        "Full-corpus MIPVU review and reliability adjudication are pending.",
+        "Codex-assisted full-corpus MIPVU review is complete for the frozen pre-v1 corpus, but independent human review and reliability adjudication remain pending.",
         "Historical alignment notes require publication-grade citations."
       ]
     },
     {
       "trace_id": "lincoln-score-doc-second-inaugural-enemy_as_bringer_of_death-lincoln-cmt-007",
       "case_id": "lincoln",
-      "generated_at": "2026-06-28T10:13:59",
+      "generated_at": "2026-06-28T10:31:47",
       "claim_id": "lincoln-score-doc-second-inaugural-enemy_as_bringer_of_death",
       "claim_text": "Second Inaugural contributes weak support evidence for enemy as bringer of death (score 1.0/4): The Second Inaugural strongly aligns blood, slavery, and judgment with historical war and emancipation contexts, but restrains enemy-destruction framing through shared guilt and reconciliation.",
       "claim_status": "interpretation",
@@ -2915,14 +2915,14 @@
         "Trace rows are draft review aids, not final publication claims.",
         "Publication-grade historical citations remain required where historical notes say so.",
         "Scores are provisional and based on reviewed Lincoln pilot evidence.",
-        "Full-corpus MIPVU review and reliability adjudication are pending.",
+        "Codex-assisted full-corpus MIPVU review is complete for the frozen pre-v1 corpus, but independent human review and reliability adjudication remain pending.",
         "Historical alignment notes require publication-grade citations."
       ]
     },
     {
       "trace_id": "lincoln-score-doc-second-inaugural-enemy_as_bringer_of_death-lincoln-cmt-008",
       "case_id": "lincoln",
-      "generated_at": "2026-06-28T10:13:59",
+      "generated_at": "2026-06-28T10:31:47",
       "claim_id": "lincoln-score-doc-second-inaugural-enemy_as_bringer_of_death",
       "claim_text": "Second Inaugural contributes weak support evidence for enemy as bringer of death (score 1.0/4): The Second Inaugural strongly aligns blood, slavery, and judgment with historical war and emancipation contexts, but restrains enemy-destruction framing through shared guilt and reconciliation.",
       "claim_status": "interpretation",
@@ -3009,14 +3009,14 @@
         "Trace rows are draft review aids, not final publication claims.",
         "Publication-grade historical citations remain required where historical notes say so.",
         "Scores are provisional and based on reviewed Lincoln pilot evidence.",
-        "Full-corpus MIPVU review and reliability adjudication are pending.",
+        "Codex-assisted full-corpus MIPVU review is complete for the frozen pre-v1 corpus, but independent human review and reliability adjudication remain pending.",
         "Historical alignment notes require publication-grade citations."
       ]
     },
     {
       "trace_id": "lincoln-score-doc-second-inaugural-enemy_as_bringer_of_death-lincoln-cmt-009",
       "case_id": "lincoln",
-      "generated_at": "2026-06-28T10:13:59",
+      "generated_at": "2026-06-28T10:31:47",
       "claim_id": "lincoln-score-doc-second-inaugural-enemy_as_bringer_of_death",
       "claim_text": "Second Inaugural contributes weak support evidence for enemy as bringer of death (score 1.0/4): The Second Inaugural strongly aligns blood, slavery, and judgment with historical war and emancipation contexts, but restrains enemy-destruction framing through shared guilt and reconciliation.",
       "claim_status": "interpretation",
@@ -3085,14 +3085,14 @@
         "Trace rows are draft review aids, not final publication claims.",
         "Publication-grade historical citations remain required where historical notes say so.",
         "Scores are provisional and based on reviewed Lincoln pilot evidence.",
-        "Full-corpus MIPVU review and reliability adjudication are pending.",
+        "Codex-assisted full-corpus MIPVU review is complete for the frozen pre-v1 corpus, but independent human review and reliability adjudication remain pending.",
         "Historical alignment notes require publication-grade citations."
       ]
     },
     {
       "trace_id": "lincoln-score-doc-second-inaugural-historical_enactment_alignment-lincoln-cmt-007",
       "case_id": "lincoln",
-      "generated_at": "2026-06-28T10:13:59",
+      "generated_at": "2026-06-28T10:31:47",
       "claim_id": "lincoln-score-doc-second-inaugural-historical_enactment_alignment",
       "claim_text": "Second Inaugural contributes strong support evidence for historical enactment or alignment (score 3.0/4): The Second Inaugural strongly aligns blood, slavery, and judgment with historical war and emancipation contexts, but restrains enemy-destruction framing through shared guilt and reconciliation.",
       "claim_status": "inference",
@@ -3179,14 +3179,14 @@
         "Trace rows are draft review aids, not final publication claims.",
         "Publication-grade historical citations remain required where historical notes say so.",
         "Scores are provisional and based on reviewed Lincoln pilot evidence.",
-        "Full-corpus MIPVU review and reliability adjudication are pending.",
+        "Codex-assisted full-corpus MIPVU review is complete for the frozen pre-v1 corpus, but independent human review and reliability adjudication remain pending.",
         "Historical alignment notes require publication-grade citations."
       ]
     },
     {
       "trace_id": "lincoln-score-doc-second-inaugural-historical_enactment_alignment-lincoln-cmt-008",
       "case_id": "lincoln",
-      "generated_at": "2026-06-28T10:13:59",
+      "generated_at": "2026-06-28T10:31:47",
       "claim_id": "lincoln-score-doc-second-inaugural-historical_enactment_alignment",
       "claim_text": "Second Inaugural contributes strong support evidence for historical enactment or alignment (score 3.0/4): The Second Inaugural strongly aligns blood, slavery, and judgment with historical war and emancipation contexts, but restrains enemy-destruction framing through shared guilt and reconciliation.",
       "claim_status": "inference",
@@ -3273,14 +3273,14 @@
         "Trace rows are draft review aids, not final publication claims.",
         "Publication-grade historical citations remain required where historical notes say so.",
         "Scores are provisional and based on reviewed Lincoln pilot evidence.",
-        "Full-corpus MIPVU review and reliability adjudication are pending.",
+        "Codex-assisted full-corpus MIPVU review is complete for the frozen pre-v1 corpus, but independent human review and reliability adjudication remain pending.",
         "Historical alignment notes require publication-grade citations."
       ]
     },
     {
       "trace_id": "lincoln-score-doc-second-inaugural-historical_enactment_alignment-lincoln-cmt-009",
       "case_id": "lincoln",
-      "generated_at": "2026-06-28T10:13:59",
+      "generated_at": "2026-06-28T10:31:47",
       "claim_id": "lincoln-score-doc-second-inaugural-historical_enactment_alignment",
       "claim_text": "Second Inaugural contributes strong support evidence for historical enactment or alignment (score 3.0/4): The Second Inaugural strongly aligns blood, slavery, and judgment with historical war and emancipation contexts, but restrains enemy-destruction framing through shared guilt and reconciliation.",
       "claim_status": "inference",
@@ -3349,7 +3349,7 @@
         "Trace rows are draft review aids, not final publication claims.",
         "Publication-grade historical citations remain required where historical notes say so.",
         "Scores are provisional and based on reviewed Lincoln pilot evidence.",
-        "Full-corpus MIPVU review and reliability adjudication are pending.",
+        "Codex-assisted full-corpus MIPVU review is complete for the frozen pre-v1 corpus, but independent human review and reliability adjudication remain pending.",
         "Historical alignment notes require publication-grade citations."
       ]
     }

@@ -22,7 +22,7 @@ raw_path: corpus/raw/am-rev-src-03-washington-general-orders/washington-orders-1
 pipeline_log:
 - stage: normalize-texts
   script: scripts/normalize-texts.py
-  generated_at: '2026-06-28T10:13:54'
+  generated_at: '2026-06-28T10:27:15'
 ---
 
 Washington's Farewell Address to the Army, 2 November 1783

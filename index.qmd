@@ -14,11 +14,12 @@ corpora support, complicate, or limit Koenigsberg's Law of Sacrifice, its
 body-politic corollary, and the construction of enemies as bringers of death?
 
 ::: {.callout-note title="Current evidence status"}
-All four pilot cases have draft support scores. The present comparison finds
-the strongest support in the Hitler case and moderate support in the American
-Revolution, Lincoln, and Napoleon cases. These are provisional analytical
-results, not publication-ready findings: full-corpus review, human reliability
-work, and publication-grade citations remain pending.
+The expanded pre-v1 corpus is frozen at six cases and 41 manifest documents.
+The original four pilot cases have draft support scores; French Revolution and
+British World War I have annotation-forward artifacts but no promoted support
+ratings yet. These are provisional analytical results, not publication-ready
+findings: human reliability work, expanded reliability sampling, and
+publication-grade citations remain pending.
 :::
 
 The workbench tests the theory rather than assuming it. Similar metaphors do
@@ -31,7 +32,7 @@ institutional setting, and enacted violence remain decisive.
 ::: {.g-col-12 .g-col-md-4 .reader-card}
 ### Quick overview
 
-Meet the four cases and see why they were selected.
+Meet the cases and see why they were selected.
 
 [Explore the cases](case-selection.qmd)
 :::
@@ -53,7 +54,7 @@ Inspect status, methods, provenance, validation, and claim traceability.
 :::
 :::
 
-## Four comparative cases
+## Comparative cases
 
 ::: {.grid .case-grid}
 ::: {.g-col-12 .g-col-md-6 .reader-card}
@@ -79,5 +80,16 @@ Union, covenant, battlefield sacrifice, providence, and reconciliation.
 
 Racial purification, enemy construction, extermination, and genocidal
 state violence.
+:::
+::: {.g-col-12 .g-col-md-6 .reader-card}
+### [French Revolution](cases/fr-rev/artifacts/qmd/case-overview.qmd)
+
+Jacobin virtue, republican salvation, terror, and revolutionary sacrifice.
+:::
+
+::: {.g-col-12 .g-col-md-6 .reader-card}
+### [British World War I](cases/wwi-britain/artifacts/qmd/case-overview.qmd)
+
+Democratic wartime obligation, endurance, civilization, and sacrifice rhetoric.
 :::
 :::

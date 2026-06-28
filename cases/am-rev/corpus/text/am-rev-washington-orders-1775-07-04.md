@@ -22,7 +22,7 @@ raw_path: corpus/raw/am-rev-src-03-washington-general-orders/washington-orders-1
 pipeline_log:
 - stage: normalize-texts
   script: scripts/normalize-texts.py
-  generated_at: '2026-06-28T10:13:54'
+  generated_at: '2026-06-28T10:27:15'
 ---
 
 General Orders, 4 July 1775

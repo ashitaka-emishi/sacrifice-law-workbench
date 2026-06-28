@@ -30,7 +30,7 @@ raw_path: corpus/raw/am-rev-src-05-washington-newburgh.txt
 pipeline_log:
 - stage: normalize-texts
   script: scripts/normalize-texts.py
-  generated_at: '2026-06-28T10:13:54'
+  generated_at: '2026-06-28T10:27:15'
 ---
 
 From George Washington to Officers of the Army, 15 March 1783

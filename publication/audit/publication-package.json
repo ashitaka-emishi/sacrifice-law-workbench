@@ -1,7 +1,7 @@
 {
   "version": "1.0",
   "case_id": "lincoln",
-  "generated_at": "2026-06-28T10:13:59",
+  "generated_at": "2026-06-28T10:31:47",
   "status": "draft-review-package",
   "source_issue": "#13",
   "package_policy": "This package exposes the method, evidence, validation gate, AI-use statement, model-reliability disclosure, data-availability statement, claim traceability, and human reliability status gates needed for scholarly review. Human reliability claims are limited to complete case/language/layer/cohort rows and remain separate from model agreement and historical corroboration.",
@@ -417,7 +417,7 @@
     "Trace rows are draft review aids, not final publication claims.",
     "Publication-grade historical citations remain required where historical notes say so.",
     "Scores are provisional and based on reviewed Lincoln pilot evidence.",
-    "Full-corpus MIPVU review and reliability adjudication are pending.",
+    "Codex-assisted full-corpus MIPVU review is complete for the frozen pre-v1 corpus, but independent human review and reliability adjudication remain pending.",
     "Historical alignment notes require publication-grade citations.",
     "Accepted annotations and prior human-review artifacts remain distinct from multi-model diagnostic outputs.",
     "Model agreement does not establish human inter-annotator reliability, scholarly reproducibility, or evidentiary correctness.",

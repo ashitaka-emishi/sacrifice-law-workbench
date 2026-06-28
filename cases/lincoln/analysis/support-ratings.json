@@ -84,7 +84,7 @@
   },
   "limitations": [
     "Scores are provisional and based on reviewed Lincoln pilot evidence.",
-    "Full-corpus MIPVU review and reliability adjudication are pending.",
+    "Codex-assisted full-corpus MIPVU review is complete for the frozen pre-v1 corpus, but independent human review and reliability adjudication remain pending.",
     "Historical alignment notes require publication-grade citations."
   ]
 }

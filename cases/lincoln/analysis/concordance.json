@@ -1,7 +1,7 @@
 {
   "version": "1.0",
   "case_id": "lincoln",
-  "generated_at": "2026-06-28T10:13:56",
+  "generated_at": "2026-06-28T10:27:17",
   "status": "complete",
   "mipvu_profile": {
     "mipvu_files": 5,
@@ -2846,7 +2846,7 @@
       "stage": "build-concordance",
       "script": "scripts/build-concordance.py",
       "annotated_files": 5,
-      "generated_at": "2026-06-28T10:13:56"
+      "generated_at": "2026-06-28T10:27:17"
     }
   ]
 }

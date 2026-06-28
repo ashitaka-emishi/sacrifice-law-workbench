@@ -30,7 +30,9 @@ agency rather than constructing an enemy as a death-bearing agent, carrier, or s
 ## Boundaries
 
 - This is not proof of Koenigsberg's theory.
-- Full-corpus MIPVU review and reliability adjudication remain pending.
+- Codex-assisted full-corpus MIPVU review is complete for the frozen pre-v1
+  corpus, but independent human review and reliability adjudication remain
+  pending.
 - Historical notes require publication-grade citations before final use.
 - Reconciliation and shared guilt complicate any simple enemy-destruction
   reading of Lincoln.
