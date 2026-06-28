@@ -7,30 +7,31 @@ This page tracks volatile project state. Keep stable orientation material in
 
 ## Summary
 
-The project is no longer just a scaffold. The four original historical case
-corpora are rights-reviewed, acquired, normalized, segmented, and pass corpus
-verification. They have functioned as the v1 working corpus, and the project
-has now opened a controlled pre-v1 expansion window before publication-grade
-reliability and claim promotion.
+The project is no longer just a scaffold. The expanded pre-v1 corpus boundary
+is frozen as of 2026-06-28. It contains six cases and 41 manifest documents:
+Lincoln (5), American Revolution (11), Napoleon (11), Hitler (8), French
+Revolution (2), and British World War I (4). All six cases are
+rights-reviewed, acquired where rights permit, normalized, segmented, and pass
+corpus verification.
 
 The metaphor workflow now has a strict MIPVU identification layer before
 CMT/Koenigsberg interpretation.
 
 The main remaining gap before publication-ready v1 is reliability and claim
-promotion rather than original-corpus construction. The controlled pre-v1
-expansion window has now added targeted American Revolution, Lincoln, and
-Napoleon documents plus draft French Revolution and British World War I corpora,
-then run them through first-pass Codex-assisted MIPVU review, CMT/Koenigsberg
-annotation where supported, concordance, case analysis, cross-case synthesis,
-validation, and traceability regeneration. These annotation-forward artifacts
-remain provisional until independent human review. Lincoln retains complete
-model-reliability artifacts for the prior three-document core and designed
-human-reliability cohorts, but required human coder submissions are not complete
-and the expanded Lincoln documents are not included in that reliability design
-yet. American Revolution, Napoleon, Hitler, French Revolution, and British World
-War I model and human reliability workflows remain absent or incomplete. Public
-support ratings and promoted analysis claims remain draft until reliability,
-historical citation, and traceability gates are satisfied.
+promotion rather than corpus construction. The now-frozen expansion added
+targeted American Revolution, Lincoln, and Napoleon documents plus draft French
+Revolution and British World War I corpora, then ran them through first-pass
+Codex-assisted MIPVU review, CMT/Koenigsberg annotation where supported,
+concordance, case analysis, cross-case synthesis, validation, and traceability
+regeneration. These annotation-forward artifacts remain provisional until
+independent human review. Lincoln retains complete model-reliability artifacts
+for the prior three-document core and designed human-reliability cohorts, but
+required human coder submissions are not complete and the expanded Lincoln
+documents are not included in that reliability design yet. American Revolution,
+Napoleon, Hitler, French Revolution, and British World War I model and human
+reliability workflows remain absent or incomplete. Public support ratings and
+promoted analysis claims remain draft until reliability, historical citation,
+and traceability gates are satisfied.
 
 ## Case State
 
@@ -44,7 +45,7 @@ historical citation, and traceability gates are satisfied.
 | Hitler | 8 manifest documents; corpus verification passes 8/8; normalized, segmented, and all 86,752 lexical units have Codex-assisted first-pass source-language German MIPVU decisions. Source-derived corpus artifacts remain gitignored under fair-use constraints. Results remain provisional until independent human review. |
 | Cross-case | Synthesis, mapping, and validation scaffolds exist under `cases/x-case/`; comparative protocol and moral-equivalence guardrails are defined, but findings remain draft until case-level ratings, reliability, and claim traceability are promoted. |
 
-## Corpus Boundary
+## Frozen Corpus Boundary
 
 The original working corpus was the verified document set for the four initial
 historical cases:
@@ -54,22 +55,30 @@ historical cases:
 - Napoleon: 10 bulletins.
 - Hitler: 8 documents.
 
-The previous working rule treated this set as frozen for v1. That rule has been
-superseded by GitHub milestone 7, `Pre-v1 corpus expansion window`, tracked by
-issue #174. The expansion window has added French Revolution and British World
-War I as draft corpora, plus targeted American Revolution, Lincoln, and Napoleon
-documents for existing-case repair. Any further cases or documents before v1
-must remain bounded, with clear selection criteria, rights review, acquisition
-provenance, and an explicit freeze point before reliability and publication
-promotion resume.
+That rule was superseded by GitHub milestone 7, `Pre-v1 corpus expansion
+window`, tracked by issue #174. The expansion window is now closed for corpus
+growth. The frozen pre-v1 corpus is:
 
-Wholesale redownload, starter-corpus replacement, and opportunistic source
-growth remain out of scope unless a specific source defect is discovered.
+- Lincoln: 5 documents.
+- American Revolution: 11 documents.
+- Napoleon: 11 documents.
+- Hitler: 8 documents.
+- French Revolution: 2 documents.
+- British World War I: 4 documents.
+
+No further cases or documents should be added before v1 except to repair a
+document-specific defect that blocks verification or materially corrupts an
+already admitted source. Wholesale redownload, starter-corpus replacement, and
+opportunistic source growth remain out of scope.
 The selection rubric for new cases and targeted document additions is recorded
 in `case-selection.qmd`; the ranked candidate matrix is recorded in
 `docs/corpus/pre-v1-expansion-candidate-matrix.md`; rights and provenance
 decisions for proposed expansion sources are recorded in
 `docs/corpus/pre-v1-expansion-rights-provenance-review.md`.
+Deferred candidates, including Imperial Japan, Wilson WWI, Stalin WWII,
+Mao/CCP, Napoleon's Farewell to the Old Guard, Saint-Just source additions, and
+Hitler support material, are future-work candidates rather than part of the
+frozen pre-v1 corpus.
 
 ## Checks Run
 
@@ -89,13 +98,15 @@ authorized local Hitler artifacts match committed integrity hashes.
 
 Previously recorded corpus checks:
 
-Corpus verification passes for all four historical cases:
+Corpus verification passes for all six cases:
 
 ```bash
 python3 scripts/verify-corpus.py --case lincoln
 python3 scripts/verify-corpus.py --case am-rev
 python3 scripts/verify-corpus.py --case napoleon
 python3 scripts/verify-corpus.py --case hitler
+python3 scripts/verify-corpus.py --case fr-rev
+python3 scripts/verify-corpus.py --case wwi-britain
 ```
 
 Previously recorded JSON validation:
@@ -115,10 +126,8 @@ python3 scripts/generate-mipvu-worklist.py --case hitler
 
 ## Known Blockers
 
-- Complete the bounded pre-v1 expansion window tracked by GitHub milestone 7
-  and issue #174.
-- Freeze the expanded corpus boundary before reliability and publication
-  promotion resume.
+- Complete the remaining reliability-sampling issue in GitHub milestone 7 and
+  issue #174.
 - Complete independent human review before treating Codex-assisted MIPVU
   decisions as publication-grade evidence.
 - Complete Lincoln human reliability coder submissions and adjudication.

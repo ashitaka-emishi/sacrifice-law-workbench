@@ -29,7 +29,7 @@ raw_path: corpus/raw/wwi-britain-src-02-great-crusade/wwi-britain-lloyd-george-w
 pipeline_log:
 - stage: normalize-texts
   script: scripts/normalize-texts.py
-  generated_at: '2026-06-28T10:13:57'
+  generated_at: '2026-06-28T10:27:18'
 ---
 
 WINNING  THIS  WAR.

@@ -1,7 +1,7 @@
 {
   "version": "1.0",
   "case_id": "napoleon",
-  "generated_at": "2026-06-28T10:13:57",
+  "generated_at": "2026-06-28T10:27:18",
   "status": "complete",
   "total_instances": 21,
   "mipvu_profile": {
@@ -438,7 +438,7 @@
     {
       "stage": "run-case-analysis",
       "script": "scripts/run-case-analysis.py",
-      "generated_at": "2026-06-28T10:13:57"
+      "generated_at": "2026-06-28T10:27:18"
     }
   ]
 }

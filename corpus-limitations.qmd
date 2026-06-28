@@ -8,27 +8,34 @@ policy permits local storage and public artifacts do not reproduce restricted
 text. Missing, inaccessible, uncertain, or locally restricted corpora should be
 documented here.
 
-## Current Corpus Boundary
+## Frozen Corpus Boundary
 
-The current verified working corpus remains the document set for Lincoln,
-American Revolution, Napoleon, and Hitler. The previous v1 freeze has been
-superseded by a bounded pre-v1 expansion window. This expansion window is
-methodological rather than open-ended: it permits a small number of selected
-case and document additions before reliability, final support ratings, and
-publication-grade claim promotion resume.
+The expanded pre-v1 corpus boundary is frozen as of 2026-06-28. The verified
+working corpus now contains six cases and 41 manifest documents:
 
-Wholesale redownload, starter-corpus replacement, and opportunistic source
-growth remain out of scope. Reopening acquisition is appropriate only for
-approved expansion sources or for a document-specific defect, such as failed
-corpus verification, damaged or misleading OCR, missing provenance, a
-rights-status change, or a source-quality problem that would materially affect
-annotation.
+- Lincoln: 5 documents.
+- American Revolution: 11 documents.
+- Napoleon: 11 documents.
+- Hitler: 8 documents.
+- French Revolution: 2 documents.
+- British World War I: 4 documents.
+
+The pre-v1 expansion window admitted the two new cases and targeted
+existing-case repairs selected in the expansion matrix. It is now closed for
+corpus growth before v1. Wholesale redownload, starter-corpus replacement, and
+opportunistic source growth remain out of scope. Reopening acquisition is
+appropriate only for a document-specific defect inside the frozen boundary,
+such as failed corpus verification, damaged or misleading OCR, missing
+provenance, a rights-status change, or a source-quality problem that would
+materially affect annotation.
 
 The pre-v1 expansion candidate matrix and rights/provenance review are recorded
 in `docs/corpus/pre-v1-expansion-candidate-matrix.md` and
-`docs/corpus/pre-v1-expansion-rights-provenance-review.md`. No raw expansion
-source text should enter the corpus until the relevant source is approved in
-that review and copied into a case-local source registry.
+`docs/corpus/pre-v1-expansion-rights-provenance-review.md`. Deferred candidates
+from that review, including Imperial Japan, Wilson WWI, Stalin WWII, Mao/CCP,
+Saint-Just additions, Napoleon's Farewell to the Old Guard, and Hitler support
+material, are future-work candidates. They are not part of the frozen pre-v1
+corpus and should not enter the v1 reliability or claim-promotion cycle.
 
 Known source limitations remain part of the v1 record. Napoleon is normalized
 from Gallica OCR and should preserve OCR uncertainty where it affects French

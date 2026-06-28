@@ -597,6 +597,22 @@ def corpus_register_rows() -> list[dict[str, str]]:
     return rows
 
 
+def corpus_boundary_rows() -> list[dict[str, Any]]:
+    rows: list[dict[str, Any]] = []
+    for path in sorted((ROOT / "cases").glob("*/metadata/document-manifest.json")):
+        case_id = path.parts[-3]
+        manifest = read_json(path, {}) or {}
+        docs = manifest.get("documents", []) if isinstance(manifest, dict) else []
+        rows.append(
+            {
+                "case_id": case_id,
+                "manifest_documents": len(docs) if isinstance(docs, list) else 0,
+                "boundary_status": "frozen-pre-v1",
+            }
+        )
+    return rows
+
+
 def write_ai_use_statement(generated_at: str) -> None:
     text = f"""---
 title: "AI Use Statement"
@@ -686,6 +702,8 @@ See the [stress-test methodology](../model-reliability-methodology.qmd), current
 
 def write_data_availability(generated_at: str) -> None:
     rows = corpus_register_rows()
+    boundary_rows = corpus_boundary_rows()
+    total_docs = sum(int(row["manifest_documents"]) for row in boundary_rows)
     text = f"""---
 title: "Data Availability"
 ---
@@ -720,6 +738,12 @@ working materials inherit both source-document restrictions and coder-storage
 restrictions. Public reporting should use cohort IDs, stable artifact IDs,
 aggregate metrics, status fields, and short compliant spans rather than raw
 restricted payloads.
+
+## Frozen Corpus Boundary
+
+The expanded pre-v1 corpus boundary is frozen as of 2026-06-28 at {len(boundary_rows)} cases and {total_docs} manifest documents. Deferred candidate cases or documents from the expansion matrix are future work and are not part of the v1 reliability or claim-promotion cycle.
+
+{markdown_table(boundary_rows, ["case_id", "manifest_documents", "boundary_status"])}
 
 ## Corpus Availability Snapshot
 
@@ -758,7 +782,9 @@ audit package or public pages as review-ready.
 
 - Lincoln support artifacts remain draft and based on the reviewed pilot
   sample.
-- Full-corpus MIPVU review and reliability adjudication remain pending.
+- Codex-assisted full-corpus MIPVU review is complete for the frozen pre-v1
+  corpus, but independent human review and reliability adjudication remain
+  pending.
 - Multi-model outputs are diagnostic and remain separate from accepted
   annotations, prior human review, and any future human reliability study.
 - Model agreement does not prove scholarly reproducibility or correctness.

@@ -31,7 +31,7 @@ raw_path: corpus/raw/napoleon-src-02-grande-armee-bulletins/napoleon-bulletin-18
 pipeline_log:
 - stage: normalize-texts
   script: scripts/normalize-texts.py
-  generated_at: '2026-06-28T10:13:56'
+  generated_at: '2026-06-28T10:27:17'
 ---
 
 1930ft. - 26e BULLETIN DE LA GRANDE ARMÉE2.
