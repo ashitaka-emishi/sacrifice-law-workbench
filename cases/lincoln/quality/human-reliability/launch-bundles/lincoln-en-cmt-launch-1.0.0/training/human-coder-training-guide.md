@@ -9,7 +9,7 @@ adjudication record.
 This guide teaches qualified readers to apply the workbench's annotation method
 without private project knowledge and without access to accepted decisions.
 It operationalizes the
-[human reliability architecture](human-reliability-architecture.md) for MIPVU
+[human reliability architecture](../../../../../../../docs/reliability/human-reliability-architecture.md) for MIPVU
 identification, lexical boundaries, CMT mapping, interpretation,
 violence/obligation, agency/absence, confidence, ambiguity, rival readings,
 uncertainty, and out-of-scope decisions.
@@ -18,7 +18,7 @@ All worked examples below are invented for training. They are identified with
 `training-synthetic-*` IDs, contain no historical or restricted source text,
 and must never be included in a blind reliability sample. After training,
 coders complete the separate
-[multilingual calibration packets](human-coder-calibration.md), whose
+[multilingual calibration packets](../../../../../../../docs/reliability/human-coder-calibration.md), whose
 coordinator-held answer keys and completion records remain outside the blind
 study.
 
@@ -48,9 +48,9 @@ packet.
 Coders must read the versions declared by their cohort:
 
 1. this training guide;
-2. [`MIPVU_ANNOTATION_GUIDE.md`](../../MIPVU_ANNOTATION_GUIDE.md);
+2. [`MIPVU_ANNOTATION_GUIDE.md`](../references/MIPVU_ANNOTATION_GUIDE.md);
 3. the relevant sections of
-   [`RESEARCH_DESIGN.md`](../../RESEARCH_DESIGN.md);
+   [`RESEARCH_DESIGN.md`](../references/RESEARCH_DESIGN.md);
 4. the cohort's codebook and controlled vocabulary;
 5. the case's rights and storage instructions;
 6. source-language historical-semantics guidance supplied for the cohort; and

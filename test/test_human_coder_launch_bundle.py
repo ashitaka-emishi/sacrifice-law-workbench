@@ -62,7 +62,9 @@ class HumanCoderLaunchBundleTest(unittest.TestCase):
                 "packet/cmt-response-template.json",
                 "packet/packet-manifest.json",
                 "references/MIPVU_ANNOTATION_GUIDE.md",
+                "references/RESEARCH_DESIGN.md",
                 "references/human-coder-submission-contract.md",
+                "references/human-submission-ingestion.md",
                 "return-instructions.md",
                 "training/human-coder-training-guide.md",
             }
@@ -75,6 +77,12 @@ class HumanCoderLaunchBundleTest(unittest.TestCase):
             self.assertEqual("lincoln-en-cmt-launch-1.0.0", manifest["bundle_id"])
             self.assertEqual("repository_allowed", manifest["storage_policy"])
             self.assertFalse(manifest["ai_assistance_allowed"])
+
+            training = (bundle_root / "training" / "human-coder-training-guide.md").read_text(encoding="utf-8")
+            self.assertNotIn("../../MIPVU_ANNOTATION_GUIDE.md", training)
+            self.assertNotIn("../../RESEARCH_DESIGN.md", training)
+            self.assertIn("../references/MIPVU_ANNOTATION_GUIDE.md", training)
+            self.assertIn("../references/RESEARCH_DESIGN.md", training)
 
             readme = (bundle_root / "README.md").read_text(encoding="utf-8")
             declarations = (bundle_root / "coder-declarations.md").read_text(encoding="utf-8")

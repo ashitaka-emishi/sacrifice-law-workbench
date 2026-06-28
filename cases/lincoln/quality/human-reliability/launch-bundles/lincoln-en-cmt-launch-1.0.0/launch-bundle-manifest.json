@@ -1,6 +1,6 @@
 {
   "ai_assistance_allowed": false,
-  "bundle_hash": "sha256:d7807fb4517a2329cae4bd1a18da76ae9466d32c33667cf5962bebc6e549ad01",
+  "bundle_hash": "sha256:fe4cf7a56fe2d576b082395bf6a12cdea020adb970b329fc878e0131527d2cca",
   "bundle_id": "lincoln-en-cmt-launch-1.0.0",
   "calibration_id": "human-calibration-en-1.0.0",
   "case_id": "lincoln",
@@ -44,22 +44,30 @@
       "path": "references/MIPVU_ANNOTATION_GUIDE.md"
     },
     {
+      "hash": "sha256:9105246e8875be1739e7998c5e1de649bfbdd7e1a3ab567add8e3656d48f5730",
+      "path": "references/RESEARCH_DESIGN.md"
+    },
+    {
       "hash": "sha256:515ae45a6a3ee23c1e747364ea53a617d8587e25982157f672a828ff4b4a57d9",
       "path": "references/human-coder-submission-contract.md"
+    },
+    {
+      "hash": "sha256:205b847573fbd5bf65430e937ec27ef9e0af860344923bfcd2638ea6dbd2bd33",
+      "path": "references/human-submission-ingestion.md"
     },
     {
       "hash": "sha256:2d10e3f14da3130f3b32628a8010110cb47561c019986d9b6d4049962a55109c",
       "path": "return-instructions.md"
     },
     {
-      "hash": "sha256:c47b09ca57f31e4e2720ba2852a39cdd4bab66ce390484dfd57212ef025a139d",
+      "hash": "sha256:7240054bd67df5c8664ef390841dd857894ad540b98dea93e1af7908b096f8f5",
       "path": "training/human-coder-training-guide.md"
     }
   ],
   "generator": {
-    "code_revision": "ca524a292ca83782d39231eecd520e885d893485",
+    "code_revision": "8c1b4390a63a53b0f1249b0bc0077fd301204d69",
     "script": "scripts/human_reliability/generate_launch_bundle.py",
-    "script_hash": "sha256:bf62bc37a87d14d462d80f3a5cce6d5313f77755a200d1f438639e18ba59aa3d",
+    "script_hash": "sha256:0bcbe7af9d69ea0c35c9bce21599dc30a8ee9e09920da602e3297328e079664f",
     "version": "1.0.0"
   },
   "packet_hash": "sha256:381836d1f6b814e58af2291b88fabfe2a513b0c773bf8814092666473b850c9c",
@@ -92,9 +100,19 @@
       "path": "MIPVU_ANNOTATION_GUIDE.md"
     },
     {
+      "hash": "sha256:9105246e8875be1739e7998c5e1de649bfbdd7e1a3ab567add8e3656d48f5730",
+      "id": "references-RESEARCH_DESIGN-md",
+      "path": "RESEARCH_DESIGN.md"
+    },
+    {
       "hash": "sha256:515ae45a6a3ee23c1e747364ea53a617d8587e25982157f672a828ff4b4a57d9",
       "id": "references-human-coder-submission-contract-md",
       "path": "docs/reliability/human-coder-submission-contract.md"
+    },
+    {
+      "hash": "sha256:205b847573fbd5bf65430e937ec27ef9e0af860344923bfcd2638ea6dbd2bd33",
+      "id": "references-human-submission-ingestion-md",
+      "path": "docs/reliability/human-submission-ingestion.md"
     }
   ],
   "source_language": "en",
