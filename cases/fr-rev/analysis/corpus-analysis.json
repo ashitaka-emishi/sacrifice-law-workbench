@@ -1,0 +1,10 @@
+{
+  "version": "1.0",
+  "case_id": "fr-rev",
+  "generated_at": "2026-06-27T20:25:37",
+  "status": "stub",
+  "mapping_count": 0,
+  "errors": [
+    "no CMT mapping file found or no mappings defined"
+  ]
+}

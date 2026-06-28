@@ -1,0 +1,55 @@
+{
+  "status": "draft",
+  "documents": [
+    {
+      "document_id": "fr-rev-robespierre-political-morality",
+      "title": "Report on the Principles of Political Morality",
+      "short_title": "Political Morality",
+      "date": "1794-02-05",
+      "date_precision": "day",
+      "register": "Convention report / public speech",
+      "authorship": "Maximilien Robespierre",
+      "source_url": "https://www.gutenberg.org/ebooks/29887",
+      "source_citation": "Robespierre, Maximilien. Discours par Maximilien Robespierre -- 17 Avril 1792-27 Juillet 1794. Project Gutenberg ebook 29887.",
+      "rights_status": "public-domain",
+      "expected_raw_path": "corpus/raw/fr-rev-src-01-robespierre-discours-pg/fr-rev-robespierre-political-morality.txt",
+      "analytical_priority": "primary",
+      "phase": "jacobin-terror",
+      "source_language": "fr",
+      "annotation_language_policy": "source-with-glosses",
+      "verification": {
+        "min_words": 7000,
+        "required_phrases": [
+          "morale politique",
+          "ressort du gouvernement populaire",
+          "peuple"
+        ]
+      }
+    },
+    {
+      "document_id": "fr-rev-robespierre-religious-moral-ideas",
+      "title": "Report on Religious and Moral Ideas and National Festivals",
+      "short_title": "Religious and Moral Ideas",
+      "date": "1794-05-07",
+      "date_precision": "day",
+      "register": "Convention report / public speech",
+      "authorship": "Maximilien Robespierre",
+      "source_url": "https://www.gutenberg.org/ebooks/29887",
+      "source_citation": "Robespierre, Maximilien. Discours par Maximilien Robespierre -- 17 Avril 1792-27 Juillet 1794. Project Gutenberg ebook 29887.",
+      "rights_status": "public-domain",
+      "expected_raw_path": "corpus/raw/fr-rev-src-01-robespierre-discours-pg/fr-rev-robespierre-religious-moral-ideas.txt",
+      "analytical_priority": "primary",
+      "phase": "republican-festival",
+      "source_language": "fr",
+      "annotation_language_policy": "source-with-glosses",
+      "verification": {
+        "min_words": 9000,
+        "required_phrases": [
+          "idées religieuses et morales",
+          "Etre suprême",
+          "fêtes nationales"
+        ]
+      }
+    }
+  ]
+}

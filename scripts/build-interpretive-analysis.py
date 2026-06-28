@@ -906,7 +906,7 @@ def build_critical(case_id: str, generated_at: str, mappings: list[dict[str, Any
         "version": "1.0",
         "case_id": case_id,
         "generated_at": generated_at,
-        "status": "draft",
+        "status": "draft" if profiles else "stub",
         "source": str(cmt_mappings_path_for(case_id).relative_to(case_dir(case_id))),
         "cluster_profiles": profiles,
     }
@@ -942,19 +942,20 @@ def build_rhetorical(case_id: str, generated_at: str, mappings: list[dict[str, A
         "version": "1.0",
         "case_id": case_id,
         "generated_at": generated_at,
-        "status": "draft",
+        "status": "draft" if contexts else "stub",
         "contexts": contexts,
     }
 
 
 def build_absence(case_id: str, generated_at: str) -> dict[str, Any]:
+    rows = ABSENCE_ROWS_BY_CASE.get(case_id, [])
     return {
         "version": "1.0",
         "case_id": case_id,
         "generated_at": generated_at,
-        "status": "draft",
+        "status": "draft" if rows else "stub",
         "method_note": "Absence rows state what would count as presence, what appears muted, and which CMT evidence motivates the review question.",
-        "matrix": ABSENCE_ROWS_BY_CASE.get(case_id, []),
+        "matrix": rows,
     }
 
 

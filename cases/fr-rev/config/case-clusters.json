@@ -1,0 +1,68 @@
+[
+  {
+    "id": "fr-rev-01-virtue-terror",
+    "name": "Virtue, terror, and revolutionary morality",
+    "status": "provisional",
+    "keywords": [
+      "vertu",
+      "terreur",
+      "morale",
+      "révolutionnaire"
+    ]
+  },
+  {
+    "id": "fr-rev-02-people-republic-sacred-object",
+    "name": "People and republic as sacred political object",
+    "status": "provisional",
+    "keywords": [
+      "peuple",
+      "république",
+      "patrie",
+      "nation"
+    ]
+  },
+  {
+    "id": "fr-rev-03-tyranny-conspiracy-enemy",
+    "name": "Tyranny, conspiracy, and enemies of liberty",
+    "status": "provisional",
+    "keywords": [
+      "tyrannie",
+      "conspiration",
+      "ennemis",
+      "liberté"
+    ]
+  },
+  {
+    "id": "fr-rev-04-salut-public",
+    "name": "Public safety and salvation of the republic",
+    "status": "provisional",
+    "keywords": [
+      "salut public",
+      "comité",
+      "sauver",
+      "danger"
+    ]
+  },
+  {
+    "id": "fr-rev-05-festival-supreme-being",
+    "name": "Festival, immortality, and the Supreme Being",
+    "status": "provisional",
+    "keywords": [
+      "Etre suprême",
+      "immortalité",
+      "fêtes",
+      "religieuses"
+    ]
+  },
+  {
+    "id": "fr-rev-06-sacrifice-duty",
+    "name": "Sacrifice, civic duty, and republican obligation",
+    "status": "provisional",
+    "keywords": [
+      "sacrifice",
+      "devoir",
+      "citoyen",
+      "dévouement"
+    ]
+  }
+]

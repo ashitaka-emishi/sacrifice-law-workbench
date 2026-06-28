@@ -1,0 +1,34 @@
+---
+title: "French Revolution / Jacobin Republic"
+---
+
+::: {.callout-note title="Status: draft corpus"}
+This case has source text, manifest registration, segmentation, and MIPVU
+worklists, but no reviewed annotations, support rating, or reliability sample
+yet. French source text is annotated with English glosses as analytical aids.
+:::
+
+## Analytical focus
+
+The French Revolution case examines Robespierre-centered Jacobin rhetoric about
+republican virtue, terror, public safety, sacred peoplehood, civic obligation,
+and the moral-religious framing of revolutionary festivals.
+
+## Corpus boundary
+
+This is a compact Jacobin public corpus, not a general French Revolution
+archive. The initial draft includes two Robespierre Convention reports from
+1794, selected because the pre-v1 expansion review identified them as a
+high-value French-source test for virtue, terror, sacred republican objects,
+and sacrifice language.
+
+## Draft artifacts
+
+- [Corpus analysis](../../analysis/corpus-analysis.md)
+- [Diachronic analysis](../../analysis/diachronic-analysis.md)
+- [Metaphor-system evolution](../../analysis/cluster-evolution.md)
+- [Critical metaphor analysis](../../analysis/critical-metaphor-analysis.md)
+- [Rhetorical and genre analysis](../../analysis/rhetorical-genre-analysis.md)
+- [Absence and agency analysis](../../analysis/absence-agency-analysis.md)
+
+Return to [all cases](../../../../case-selection.qmd).

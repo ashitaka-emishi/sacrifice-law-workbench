@@ -1,0 +1,32 @@
+{
+  "case_id": "fr-rev",
+  "status": "rights-reviewed",
+  "updated": "2026-06-27",
+  "sources": [
+    {
+      "source_id": "fr-rev-src-01-robespierre-discours-pg",
+      "title": "Discours par Maximilien Robespierre -- 17 Avril 1792-27 Juillet 1794",
+      "short_title": "Robespierre Discours",
+      "voice": "Maximilien Robespierre",
+      "date": "1792/1794",
+      "phase": "jacobin-republic",
+      "register": "public speech / Convention report",
+      "archive": "Project Gutenberg",
+      "source_url": "https://www.gutenberg.org/ebooks/29887",
+      "citation": "Robespierre, Maximilien. Discours par Maximilien Robespierre -- 17 Avril 1792-27 Juillet 1794. Project Gutenberg ebook 29887.",
+      "rights_status": "public-domain",
+      "rights_rationale": "Project Gutenberg identifies the ebook as public domain for U.S. reuse. The underlying speeches are eighteenth-century French public texts.",
+      "git_tracking": "committed",
+      "acquisition_instructions": "Run scripts/extract-fr-rev-speeches.py to download Project Gutenberg ebook 29887 and extract only the selected Robespierre speeches. Preserve the generated provenance headers and annotate the French source text with English glosses only.",
+      "expected_local_path": "cases/fr-rev/corpus/raw/fr-rev-src-01-robespierre-discours-pg/",
+      "translation_language": "fr",
+      "translation_risk_notes": "Annotate French source text. English glosses are analytical aids only; do not commit modern English translations without separate review.",
+      "risk_flags": [
+        "source-edition-selection",
+        "translation-sensitive"
+      ],
+      "analytical_priority": "high",
+      "notes": "Approved by the pre-v1 expansion rights/provenance review for issue #178 as the initial French Revolution source base."
+    }
+  ]
+}

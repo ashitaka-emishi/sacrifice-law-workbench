@@ -1,0 +1,24 @@
+{
+  "case_id": "fr-rev",
+  "stage": "normalize-texts",
+  "status": "ready",
+  "generated_at": "2026-06-27T20:25:36",
+  "documents_in_manifest": 2,
+  "written": 2,
+  "skipped_missing_raw": 0,
+  "errors": [],
+  "records": [
+    {
+      "document_id": "fr-rev-robespierre-political-morality",
+      "status": "written",
+      "raw_path": "cases/fr-rev/corpus/raw/fr-rev-src-01-robespierre-discours-pg/fr-rev-robespierre-political-morality.txt",
+      "output_path": "cases/fr-rev/corpus/text/fr-rev-robespierre-political-morality.md"
+    },
+    {
+      "document_id": "fr-rev-robespierre-religious-moral-ideas",
+      "status": "written",
+      "raw_path": "cases/fr-rev/corpus/raw/fr-rev-src-01-robespierre-discours-pg/fr-rev-robespierre-religious-moral-ideas.txt",
+      "output_path": "cases/fr-rev/corpus/text/fr-rev-robespierre-religious-moral-ideas.md"
+    }
+  ]
+}
